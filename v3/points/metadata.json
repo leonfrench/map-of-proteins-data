@@ -1,0 +1,17 @@
+{
+"name": "points",
+"description": "points",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "1",
+"center": "-90.000000,42.525564,1",
+"bounds": "-179.379929,-84.659813,179.375320,84.666359",
+"antimeridian_adjusted_bounds": "-179.379929,-84.659813,179.375320,84.666359",
+"type": "overlay",
+"strategies": "[{\"dropped_as_needed\":6018,\"tile_size_desired\":602806},{}]",
+"tippecanoe_decisions": "{\"basezoom\":0,\"droprate\":2.5,\"retain_points_multiplier\":1}",
+"format": "pbf",
+"generator": "tippecanoe v2.79.0",
+"generator_options": "tippecanoe --no-tile-compression -zg --drop-densest-as-needed --extend-zooms-if-still-dropping --output-to-directory points ./points.geojson --force",
+"json": "{\"vector_layers\":[{\"id\":\"points\",\"description\":\"\",\"minzoom\":0,\"maxzoom\":1,\"fields\":{\"label\":\"String\",\"parent\":\"Number\",\"size\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"points\",\"count\":17890,\"geometry\":\"Point\",\"attributeCount\":3,\"attributes\":[{\"attribute\":\"label\",\"count\":1000,\"type\":\"string\",\"values\":[\"A1BG\",\"A1CF\",\"A2M\",\"A2ML1\",\"A3GALT2\",\"A4GALT\",\"A4GNT\",\"AAAS\",\"AACS\",\"AADAC\",\"AADACL2\",\"AADACL3\",\"AADACL4\",\"AADAT\",\"AAGAB\",\"AAMDC\",\"AAMP\",\"AANAT\",\"AAR2\",\"AARD\",\"AARS2\",\"AARSD1\",\"AASDH\",\"AASDHPPT\",\"AASS\",\"AATF\",\"AATK\",\"ABAT\",\"ABCA1\",\"ABCA10\",\"ABCA12\",\"ABCA2\",\"ABCA3\",\"ABCA4\",\"ABCA5\",\"ABCA6\",\"ABCA7\",\"ABCA8\",\"ABCA9\",\"ABCB1\",\"ABCB10\",\"ABCB11\",\"ABCB4\",\"ABCB5\",\"ABCB6\",\"ABCB8\",\"ABCB9\",\"ABCC1\",\"ABCC10\",\"ABCC11\",\"ABCC12\",\"ABCC2\",\"ABCC3\",\"ABCC4\",\"ABCC5\",\"ABCC6\",\"ABCC8\",\"ABCC9\",\"ABCD2\",\"ABCD3\",\"ABCD4\",\"ABCE1\",\"ABCF1\",\"ABCF2\",\"ABCF3\",\"ABCG1\",\"ABCG2\",\"ABCG4\",\"ABCG5\",\"ABCG8\",\"ABHD1\",\"ABHD10\",\"ABHD11\",\"ABHD12\",\"ABHD12B\",\"ABHD13\",\"ABHD14A\",\"ABHD14B\",\"ABHD15\",\"ABHD16A\",\"ABHD16B\",\"ABHD17A\",\"ABHD17B\",\"ABHD17C\",\"ABHD18\",\"ABHD2\",\"ABHD3\",\"ABHD4\",\"ABHD5\",\"ABHD6\",\"ABHD8\",\"ABI1\",\"ABI2\",\"ABI3\",\"ABI3BP\",\"ABITRAM\",\"ABL1\",\"ABL2\",\"ABLIM1\",\"ABLIM2\"]},{\"attribute\":\"parent\",\"count\":461,\"type\":\"number\",\"values\":[0,1,10,100,101,102,103,104,105,106,107,108,109,11,110,111,112,113,114,115,116,117,118,119,12,120,121,122,123,124,125,126,127,128,129,13,130,131,132,133,134,135,136,137,138,139,14,140,141,142,143,144,145,146,147,148,149,15,150,151,152,153,154,155,156,157,158,159,16,160,161,162,163,164,165,166,167,168,169,17,170,171,172,173,174,175,176,177,178,179,18,180,181,182,183,184,185,186,187,188],\"min\":0,\"max\":460},{\"attribute\":\"size\",\"count\":1,\"type\":\"number\",\"values\":[1],\"min\":1,\"max\":1}]}]}}"
+}

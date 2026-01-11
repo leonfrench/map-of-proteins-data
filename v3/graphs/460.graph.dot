@@ -1,0 +1,8 @@
+digraph G {
+"RBP3" -> "TMEM132A"
+"RBP3" -> "IGSF9"
+"TMEM132A" -> "IGSF9"
+"TMEM132A" -> "RBP3"
+"IGSF9" -> "TMEM132A"
+"IGSF9" -> "RBP3"
+}
