@@ -1,0 +1,82 @@
+digraph G {
+"GNA11" ["l"="7.665,-6.305"]
+"GNA12" ["l"="7.670,-6.355"]
+"GNA13" ["l"="7.672,-6.321"]
+"GNA14" ["l"="7.664,-6.320"]
+"GNA15" ["l"="7.665,-6.325"]
+"GNAI1" ["l"="7.693,-6.351"]
+"GNAI2" ["l"="7.662,-6.312"]
+"GNAI3" ["l"="7.665,-6.314"]
+"GNAL" ["l"="7.693,-6.300"]
+"GNAO1" ["l"="7.666,-6.300"]
+"GNAQ" ["l"="7.668,-6.289"]
+"GNAS" ["l"="7.667,-6.281"]
+"GNAT1" ["l"="7.658,-6.305"]
+"GNAT2" ["l"="7.660,-6.310"]
+"GNAT3" ["l"="7.665,-6.303"]
+"GNAZ" ["l"="7.662,-6.315"]
+"GNA11" -> "GNAQ"
+"GNA11" -> "GNAZ"
+"GNA11" -> "GNA13"
+"GNA11" -> "GNAI1"
+"GNA12" -> "GNA13"
+"GNA12" -> "GNA15"
+"GNA12" -> "GNAL"
+"GNA12" -> "GNA11"
+"GNA13" -> "GNA12"
+"GNA13" -> "GNA11"
+"GNA13" -> "GNAQ"
+"GNA13" -> "GNA15"
+"GNA14" -> "GNA11"
+"GNA14" -> "GNAQ"
+"GNA14" -> "GNAI1"
+"GNA14" -> "GNA12"
+"GNA15" -> "GNA12"
+"GNA15" -> "GNA13"
+"GNA15" -> "GNAZ"
+"GNA15" -> "GNA11"
+"GNAI1" -> "GNAI3"
+"GNAI1" -> "GNAQ"
+"GNAI1" -> "GNA11"
+"GNAI1" -> "GNAO1"
+"GNAI2" -> "GNAI3"
+"GNAI2" -> "GNAI1"
+"GNAI2" -> "GNA11"
+"GNAI2" -> "GNAO1"
+"GNAI3" -> "GNAI1"
+"GNAI3" -> "GNAI2"
+"GNAI3" -> "GNAQ"
+"GNAI3" -> "GNAO1"
+"GNAL" -> "GNAQ"
+"GNAL" -> "GNA12"
+"GNAL" -> "GNA11"
+"GNAL" -> "GNA14"
+"GNAO1" -> "GNAI1"
+"GNAO1" -> "GNAQ"
+"GNAO1" -> "GNAI3"
+"GNAO1" -> "GNAZ"
+"GNAQ" -> "GNA11"
+"GNAQ" -> "GNAI1"
+"GNAQ" -> "GNAL"
+"GNAQ" -> "GNAI3"
+"GNAS" -> "GNAO1"
+"GNAS" -> "GNAI2"
+"GNAS" -> "GNAQ"
+"GNAS" -> "GNAL"
+"GNAT1" -> "GNAT2"
+"GNAT1" -> "GNA11"
+"GNAT1" -> "GNAI1"
+"GNAT1" -> "GNAZ"
+"GNAT2" -> "GNAT3"
+"GNAT2" -> "GNAT1"
+"GNAT2" -> "GNAI3"
+"GNAT2" -> "GNAI1"
+"GNAT3" -> "GNAT2"
+"GNAT3" -> "GNAI1"
+"GNAT3" -> "GNAI3"
+"GNAT3" -> "GNA14"
+"GNAZ" -> "GNA11"
+"GNAZ" -> "GNAO1"
+"GNAZ" -> "GNAI1"
+"GNAZ" -> "GNA15"
+}

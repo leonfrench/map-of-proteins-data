@@ -1,0 +1,422 @@
+digraph G {
+"AMH" ["l"="14.346,-1.002"]
+"ANGPT1" ["l"="14.340,-1.004"]
+"ANGPT2" ["l"="14.357,-1.015"]
+"ANGPT4" ["l"="14.318,-0.986"]
+"ANGPTL1" ["l"="14.360,-1.032"]
+"ANGPTL2" ["l"="14.239,-0.975"]
+"ANGPTL3" ["l"="14.301,-1.063"]
+"ANGPTL4" ["l"="14.381,-0.953"]
+"ANGPTL5" ["l"="14.335,-1.052"]
+"ANGPTL6" ["l"="14.267,-0.973"]
+"ANGPTL7" ["l"="14.306,-1.037"]
+"APCS" ["l"="14.146,-0.960"]
+"ARTN" ["l"="14.468,-1.053"]
+"BDNF" ["l"="14.450,-1.120"]
+"BMP10" ["l"="14.415,-1.013"]
+"BMP2" ["l"="14.498,-1.019"]
+"BMP3" ["l"="14.464,-1.035"]
+"BMP4" ["l"="14.461,-1.031"]
+"BMP5" ["l"="14.412,-1.053"]
+"BMP6" ["l"="14.423,-0.982"]
+"BMP7" ["l"="14.433,-1.013"]
+"BMP8A" ["l"="14.474,-1.029"]
+"BMP8B" ["l"="14.384,-1.000"]
+"BRICD5" ["l"="14.353,-0.897"]
+"CLEC11A" ["l"="14.253,-0.951"]
+"CLEC3A" ["l"="14.285,-1.178"]
+"CLEC3B" ["l"="14.295,-1.077"]
+"CRP" ["l"="14.153,-0.911"]
+"DAND5" ["l"="14.364,-1.273"]
+"FGA" ["l"="14.195,-1.136"]
+"FGB" ["l"="14.277,-1.100"]
+"FGG" ["l"="14.279,-1.066"]
+"FGL1" ["l"="14.284,-1.069"]
+"FGL2" ["l"="14.378,-1.074"]
+"FIBCD1" ["l"="14.045,-0.883"]
+"GDF1" ["l"="14.467,-0.963"]
+"GDF10" ["l"="14.379,-0.974"]
+"GDF11" ["l"="14.499,-1.012"]
+"GDF15" ["l"="14.502,-1.012"]
+"GDF2" ["l"="14.427,-0.999"]
+"GDF3" ["l"="14.457,-1.000"]
+"GDF5" ["l"="14.520,-1.014"]
+"GDF6" ["l"="14.480,-0.999"]
+"GDF7" ["l"="14.449,-0.905"]
+"GDF9" ["l"="14.460,-1.011"]
+"GDNF" ["l"="14.487,-1.297"]
+"INHA" ["l"="14.458,-0.989"]
+"INHBA" ["l"="14.465,-1.049"]
+"INHBB" ["l"="14.474,-0.996"]
+"INHBC" ["l"="14.438,-0.966"]
+"INHBE" ["l"="14.472,-1.015"]
+"LEFTY1" ["l"="14.360,-0.908"]
+"LEFTY2" ["l"="14.441,-0.994"]
+"MSTN" ["l"="14.463,-1.027"]
+"MYOC" ["l"="14.266,-0.912"]
+"NGF" ["l"="14.461,-1.222"]
+"NODAL" ["l"="14.450,-1.025"]
+"NOG" ["l"="14.515,-1.176"]
+"NPTX1" ["l"="14.251,-0.762"]
+"NPTX2" ["l"="14.314,-0.893"]
+"NPTXR" ["l"="14.173,-0.700"]
+"NRTN" ["l"="14.430,-1.055"]
+"NTF3" ["l"="14.480,-1.202"]
+"NTF4" ["l"="14.518,-1.189"]
+"NXPH1" ["l"="14.237,-1.059"]
+"NXPH2" ["l"="14.327,-1.028"]
+"NXPH3" ["l"="14.427,-1.044"]
+"NXPH4" ["l"="14.448,-1.029"]
+"OLFM1" ["l"="14.233,-0.878"]
+"OLFM2" ["l"="14.254,-0.911"]
+"OLFM3" ["l"="14.224,-0.821"]
+"OLFM4" ["l"="14.195,-0.935"]
+"OLFML1" ["l"="14.105,-0.689"]
+"OLFML2A" ["l"="14.021,-0.871"]
+"OLFML2B" ["l"="14.049,-0.869"]
+"OLFML3" ["l"="14.189,-0.794"]
+"PRSS35" ["l"="14.370,-0.973"]
+"PSAPL1" ["l"="14.168,-0.888"]
+"PSPN" ["l"="14.506,-1.238"]
+"PTX3" ["l"="14.302,-0.980"]
+"PTX4" ["l"="14.071,-0.793"]
+"TGFB1" ["l"="14.436,-1.011"]
+"TGFB2" ["l"="14.388,-1.027"]
+"TGFB3" ["l"="14.444,-1.027"]
+"AMH" -> "INHA"
+"AMH" -> "LEFTY2"
+"AMH" -> "LEFTY1"
+"AMH" -> "GDF1"
+"ANGPT1" -> "ANGPT4"
+"ANGPT1" -> "ANGPT2"
+"ANGPT1" -> "OLFM3"
+"ANGPT1" -> "ANGPTL1"
+"ANGPT2" -> "ANGPT1"
+"ANGPT2" -> "ANGPTL2"
+"ANGPT2" -> "ANGPTL1"
+"ANGPT2" -> "ANGPT4"
+"ANGPT4" -> "ANGPT1"
+"ANGPT4" -> "ANGPTL4"
+"ANGPT4" -> "ANGPTL2"
+"ANGPT4" -> "ANGPT2"
+"ANGPTL1" -> "ANGPTL3"
+"ANGPTL1" -> "ANGPTL2"
+"ANGPTL1" -> "ANGPT1"
+"ANGPTL1" -> "ANGPT2"
+"ANGPTL2" -> "ANGPTL1"
+"ANGPTL2" -> "ANGPT4"
+"ANGPTL2" -> "ANGPT2"
+"ANGPTL2" -> "ANGPT1"
+"ANGPTL3" -> "ANGPTL1"
+"ANGPTL3" -> "ANGPTL5"
+"ANGPTL3" -> "ANGPT1"
+"ANGPTL3" -> "ANGPT2"
+"ANGPTL4" -> "ANGPT4"
+"ANGPTL4" -> "NODAL"
+"ANGPTL4" -> "INHBE"
+"ANGPTL4" -> "MYOC"
+"ANGPTL5" -> "ANGPTL3"
+"ANGPTL5" -> "ANGPTL7"
+"ANGPTL5" -> "ANGPTL1"
+"ANGPTL5" -> "FGG"
+"ANGPTL6" -> "BMP8B"
+"ANGPTL6" -> "GDF6"
+"ANGPTL6" -> "ANGPTL2"
+"ANGPTL6" -> "ANGPTL4"
+"ANGPTL7" -> "MYOC"
+"ANGPTL7" -> "ANGPTL5"
+"ANGPTL7" -> "FGL2"
+"ANGPTL7" -> "ANGPT1"
+"APCS" -> "CRP"
+"APCS" -> "PTX3"
+"APCS" -> "MYOC"
+"APCS" -> "GDF2"
+"ARTN" -> "NRTN"
+"ARTN" -> "GDF7"
+"ARTN" -> "INHBE"
+"ARTN" -> "GDF6"
+"BDNF" -> "NTF3"
+"BDNF" -> "NGF"
+"BDNF" -> "NXPH2"
+"BDNF" -> "NXPH3"
+"BMP10" -> "GDF2"
+"BMP10" -> "MSTN"
+"BMP10" -> "TGFB2"
+"BMP10" -> "GDF11"
+"BMP2" -> "BMP4"
+"BMP2" -> "GDF11"
+"BMP2" -> "BMP3"
+"BMP2" -> "GDF6"
+"BMP3" -> "GDF10"
+"BMP3" -> "GDF6"
+"BMP3" -> "INHBA"
+"BMP3" -> "GDF9"
+"BMP4" -> "BMP2"
+"BMP4" -> "TGFB3"
+"BMP4" -> "BMP3"
+"BMP4" -> "GDF2"
+"BMP5" -> "TGFB2"
+"BMP5" -> "TGFB3"
+"BMP5" -> "BMP3"
+"BMP5" -> "MSTN"
+"BMP6" -> "BMP7"
+"BMP6" -> "BMP8B"
+"BMP6" -> "GDF9"
+"BMP6" -> "TGFB1"
+"BMP7" -> "TGFB2"
+"BMP7" -> "BMP8A"
+"BMP7" -> "BMP8B"
+"BMP7" -> "TGFB3"
+"BMP8A" -> "BMP8B"
+"BMP8A" -> "TGFB1"
+"BMP8A" -> "BMP7"
+"BMP8A" -> "INHBB"
+"BMP8B" -> "BMP8A"
+"BMP8B" -> "GDF6"
+"BMP8B" -> "INHBE"
+"BMP8B" -> "TGFB1"
+"BRICD5" -> "INHA"
+"BRICD5" -> "LEFTY1"
+"BRICD5" -> "DAND5"
+"BRICD5" -> "AMH"
+"CLEC11A" -> "ANGPTL6"
+"CLEC11A" -> "PTX3"
+"CLEC11A" -> "INHA"
+"CLEC11A" -> "NRTN"
+"CLEC3A" -> "FGL2"
+"CLEC3A" -> "CLEC3B"
+"CLEC3A" -> "MSTN"
+"CLEC3A" -> "NXPH1"
+"CLEC3B" -> "PTX3"
+"CLEC3B" -> "CLEC3A"
+"CLEC3B" -> "APCS"
+"CLEC3B" -> "FGL2"
+"CRP" -> "APCS"
+"CRP" -> "GDF2"
+"CRP" -> "OLFM4"
+"CRP" -> "PTX3"
+"DAND5" -> "PSPN"
+"DAND5" -> "INHBE"
+"DAND5" -> "INHA"
+"DAND5" -> "NODAL"
+"FGA" -> "FGB"
+"FGA" -> "FGG"
+"FGA" -> "PTX3"
+"FGA" -> "ANGPT4"
+"FGB" -> "FGG"
+"FGB" -> "FGL1"
+"FGB" -> "ANGPTL3"
+"FGB" -> "CLEC3A"
+"FGG" -> "FGB"
+"FGG" -> "FGL1"
+"FGG" -> "ANGPTL7"
+"FGG" -> "ANGPTL3"
+"FGL1" -> "FGG"
+"FGL1" -> "FGB"
+"FGL1" -> "ANGPTL7"
+"FGL1" -> "ANGPTL3"
+"FGL2" -> "CLEC3A"
+"FGL2" -> "ANGPTL1"
+"FGL2" -> "ANGPTL7"
+"FGL2" -> "FIBCD1"
+"FIBCD1" -> "ANGPT4"
+"FIBCD1" -> "NPTXR"
+"FIBCD1" -> "FGL2"
+"FIBCD1" -> "CLEC3A"
+"GDF1" -> "GDF6"
+"GDF1" -> "INHBE"
+"GDF1" -> "NRTN"
+"GDF1" -> "BMP8B"
+"GDF10" -> "GDF6"
+"GDF10" -> "BMP3"
+"GDF10" -> "BMP8B"
+"GDF10" -> "NODAL"
+"GDF11" -> "INHBB"
+"GDF11" -> "GDF6"
+"GDF11" -> "TGFB2"
+"GDF11" -> "INHBE"
+"GDF15" -> "INHBE"
+"GDF15" -> "BMP2"
+"GDF15" -> "GDF6"
+"GDF15" -> "GDF9"
+"GDF2" -> "BMP10"
+"GDF2" -> "NODAL"
+"GDF2" -> "INHBC"
+"GDF2" -> "GDF9"
+"GDF3" -> "NODAL"
+"GDF3" -> "GDF9"
+"GDF3" -> "INHBE"
+"GDF3" -> "INHBC"
+"GDF5" -> "GDF6"
+"GDF5" -> "INHBE"
+"GDF5" -> "INHBB"
+"GDF5" -> "LEFTY2"
+"GDF6" -> "GDF10"
+"GDF6" -> "BMP8B"
+"GDF6" -> "GDF7"
+"GDF6" -> "INHBB"
+"GDF7" -> "GDF6"
+"GDF7" -> "INHBB"
+"GDF7" -> "BMP8B"
+"GDF7" -> "GDF11"
+"GDF9" -> "NODAL"
+"GDF9" -> "INHBE"
+"GDF9" -> "INHBC"
+"GDF9" -> "BMP3"
+"GDNF" -> "NOG"
+"GDNF" -> "GDF6"
+"GDNF" -> "INHBA"
+"GDNF" -> "INHBB"
+"INHA" -> "AMH"
+"INHA" -> "DAND5"
+"INHA" -> "INHBE"
+"INHA" -> "NODAL"
+"INHBA" -> "BMP3"
+"INHBA" -> "TGFB3"
+"INHBA" -> "GDF6"
+"INHBA" -> "GDF11"
+"INHBB" -> "GDF6"
+"INHBB" -> "GDF11"
+"INHBB" -> "BMP8A"
+"INHBB" -> "GDF7"
+"INHBC" -> "INHBE"
+"INHBC" -> "BMP8B"
+"INHBC" -> "GDF6"
+"INHBC" -> "GDF9"
+"INHBE" -> "INHBC"
+"INHBE" -> "LEFTY2"
+"INHBE" -> "BMP8B"
+"INHBE" -> "GDF6"
+"LEFTY1" -> "LEFTY2"
+"LEFTY1" -> "NODAL"
+"LEFTY1" -> "BMP8A"
+"LEFTY1" -> "INHBC"
+"LEFTY2" -> "NODAL"
+"LEFTY2" -> "LEFTY1"
+"LEFTY2" -> "INHBE"
+"LEFTY2" -> "GDF11"
+"MSTN" -> "TGFB2"
+"MSTN" -> "INHBB"
+"MSTN" -> "BMP10"
+"MSTN" -> "LEFTY2"
+"MYOC" -> "OLFM3"
+"MYOC" -> "ANGPTL7"
+"MYOC" -> "OLFML1"
+"MYOC" -> "ANGPTL4"
+"NGF" -> "NTF3"
+"NGF" -> "NXPH3"
+"NGF" -> "GDNF"
+"NGF" -> "NXPH2"
+"NODAL" -> "LEFTY2"
+"NODAL" -> "GDF9"
+"NODAL" -> "LEFTY1"
+"NODAL" -> "INHBE"
+"NOG" -> "GDNF"
+"NOG" -> "INHBA"
+"NOG" -> "INHBB"
+"NOG" -> "NODAL"
+"NPTX1" -> "NPTXR"
+"NPTX1" -> "NPTX2"
+"NPTX1" -> "OLFM1"
+"NPTX1" -> "OLFM3"
+"NPTX2" -> "NPTXR"
+"NPTX2" -> "NPTX1"
+"NPTX2" -> "PTX3"
+"NPTX2" -> "BMP8B"
+"NPTXR" -> "NPTX1"
+"NPTXR" -> "NPTX2"
+"NPTXR" -> "BMP8B"
+"NPTXR" -> "GDF11"
+"NRTN" -> "ARTN"
+"NRTN" -> "NOG"
+"NRTN" -> "GDF7"
+"NRTN" -> "INHBB"
+"NTF3" -> "NGF"
+"NTF3" -> "BDNF"
+"NTF3" -> "GDNF"
+"NTF3" -> "NOG"
+"NTF4" -> "PSPN"
+"NTF4" -> "NRTN"
+"NTF4" -> "INHBC"
+"NTF4" -> "GDF7"
+"NXPH1" -> "NXPH2"
+"NXPH1" -> "NXPH3"
+"NXPH1" -> "OLFM3"
+"NXPH1" -> "CLEC3A"
+"NXPH2" -> "NXPH1"
+"NXPH2" -> "NXPH3"
+"NXPH2" -> "BMP3"
+"NXPH2" -> "TGFB2"
+"NXPH3" -> "NXPH2"
+"NXPH3" -> "NXPH4"
+"NXPH3" -> "NXPH1"
+"NXPH3" -> "BMP3"
+"NXPH4" -> "NXPH3"
+"NXPH4" -> "GDF6"
+"NXPH4" -> "NXPH2"
+"NXPH4" -> "NOG"
+"OLFM1" -> "OLFM3"
+"OLFM1" -> "NPTX1"
+"OLFM1" -> "NPTX2"
+"OLFM1" -> "NPTXR"
+"OLFM2" -> "OLFM3"
+"OLFM2" -> "OLFM1"
+"OLFM2" -> "ANGPT4"
+"OLFM2" -> "MYOC"
+"OLFM3" -> "OLFM1"
+"OLFM3" -> "MYOC"
+"OLFM3" -> "ANGPT1"
+"OLFM3" -> "NXPH2"
+"OLFM4" -> "PTX3"
+"OLFM4" -> "MYOC"
+"OLFM4" -> "FGB"
+"OLFM4" -> "OLFM3"
+"OLFML1" -> "OLFML3"
+"OLFML1" -> "MYOC"
+"OLFML1" -> "OLFM3"
+"OLFML1" -> "OLFML2A"
+"OLFML2A" -> "OLFML2B"
+"OLFML2A" -> "OLFML1"
+"OLFML2A" -> "MYOC"
+"OLFML2A" -> "PTX4"
+"OLFML2B" -> "OLFML2A"
+"OLFML2B" -> "ANGPTL2"
+"OLFML2B" -> "MYOC"
+"OLFML2B" -> "OLFML1"
+"OLFML3" -> "OLFML1"
+"OLFML3" -> "MYOC"
+"OLFML3" -> "OLFML2A"
+"OLFML3" -> "GDF5"
+"PRSS35" -> "GDF6"
+"PRSS35" -> "NOG"
+"PRSS35" -> "GDF5"
+"PRSS35" -> "OLFML1"
+"PSAPL1" -> "LEFTY1"
+"PSAPL1" -> "INHBC"
+"PSAPL1" -> "LEFTY2"
+"PSAPL1" -> "INHBE"
+"PSPN" -> "DAND5"
+"PSPN" -> "INHBE"
+"PSPN" -> "NTF4"
+"PSPN" -> "BMP8B"
+"PTX3" -> "NPTX2"
+"PTX3" -> "CLEC3B"
+"PTX3" -> "GDF2"
+"PTX3" -> "NPTXR"
+"PTX4" -> "OLFML2A"
+"PTX4" -> "OLFM3"
+"PTX4" -> "GDF10"
+"PTX4" -> "MYOC"
+"TGFB1" -> "BMP8A"
+"TGFB1" -> "BMP8B"
+"TGFB1" -> "GDF11"
+"TGFB1" -> "BMP7"
+"TGFB2" -> "TGFB3"
+"TGFB2" -> "BMP7"
+"TGFB2" -> "BMP5"
+"TGFB2" -> "MSTN"
+"TGFB3" -> "TGFB2"
+"TGFB3" -> "INHBA"
+"TGFB3" -> "BMP4"
+"TGFB3" -> "BMP7"
+}

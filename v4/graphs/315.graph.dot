@@ -1,0 +1,102 @@
+digraph G {
+"ARPC4" ["l"="11.651,2.734"]
+"ARPIN" ["l"="11.699,2.622"]
+"BUD23" ["l"="11.845,2.872"]
+"C10orf53" ["l"="11.758,2.762"]
+"ENDOG" ["l"="11.812,2.706"]
+"EXOC1L" ["l"="11.772,2.749"]
+"EXOSC9" ["l"="11.745,2.737"]
+"FAM78B" ["l"="11.692,2.653"]
+"NAA20" ["l"="11.765,2.774"]
+"PIH1D1" ["l"="11.741,2.711"]
+"POP4" ["l"="11.805,2.838"]
+"PRXL2C" ["l"="11.736,2.636"]
+"SNRPA1" ["l"="11.736,2.728"]
+"TCL1A" ["l"="11.814,2.791"]
+"TCL1B" ["l"="11.817,2.847"]
+"TRAPPC3" ["l"="11.638,2.710"]
+"TRAPPC6A" ["l"="11.834,2.871"]
+"TWF1" ["l"="11.810,2.698"]
+"UFD1" ["l"="11.729,2.722"]
+"VPS25" ["l"="11.757,2.834"]
+"ARPC4" -> "TRAPPC3"
+"ARPC4" -> "C10orf53"
+"ARPC4" -> "VPS25"
+"ARPC4" -> "UFD1"
+"ARPIN" -> "TCL1B"
+"ARPIN" -> "C10orf53"
+"ARPIN" -> "FAM78B"
+"ARPIN" -> "TWF1"
+"BUD23" -> "NAA20"
+"BUD23" -> "UFD1"
+"BUD23" -> "POP4"
+"BUD23" -> "PIH1D1"
+"C10orf53" -> "PRXL2C"
+"C10orf53" -> "TCL1B"
+"C10orf53" -> "ARPIN"
+"C10orf53" -> "TCL1A"
+"ENDOG" -> "PRXL2C"
+"ENDOG" -> "TWF1"
+"ENDOG" -> "FAM78B"
+"ENDOG" -> "TCL1B"
+"EXOC1L" -> "C10orf53"
+"EXOC1L" -> "TWF1"
+"EXOC1L" -> "TCL1B"
+"EXOC1L" -> "NAA20"
+"EXOSC9" -> "UFD1"
+"EXOSC9" -> "BUD23"
+"EXOSC9" -> "SNRPA1"
+"EXOSC9" -> "NAA20"
+"FAM78B" -> "TCL1B"
+"FAM78B" -> "TCL1A"
+"FAM78B" -> "ARPIN"
+"FAM78B" -> "C10orf53"
+"NAA20" -> "TRAPPC3"
+"NAA20" -> "VPS25"
+"NAA20" -> "BUD23"
+"NAA20" -> "POP4"
+"PIH1D1" -> "UFD1"
+"PIH1D1" -> "BUD23"
+"PIH1D1" -> "VPS25"
+"PIH1D1" -> "POP4"
+"POP4" -> "VPS25"
+"POP4" -> "NAA20"
+"POP4" -> "BUD23"
+"POP4" -> "UFD1"
+"PRXL2C" -> "TWF1"
+"PRXL2C" -> "C10orf53"
+"PRXL2C" -> "TCL1B"
+"PRXL2C" -> "ENDOG"
+"SNRPA1" -> "BUD23"
+"SNRPA1" -> "UFD1"
+"SNRPA1" -> "EXOSC9"
+"SNRPA1" -> "NAA20"
+"TCL1A" -> "TCL1B"
+"TCL1A" -> "C10orf53"
+"TCL1A" -> "FAM78B"
+"TCL1A" -> "ARPIN"
+"TCL1B" -> "TCL1A"
+"TCL1B" -> "FAM78B"
+"TCL1B" -> "ARPIN"
+"TCL1B" -> "C10orf53"
+"TRAPPC3" -> "NAA20"
+"TRAPPC3" -> "UFD1"
+"TRAPPC3" -> "VPS25"
+"TRAPPC3" -> "TRAPPC6A"
+"TRAPPC6A" -> "TRAPPC3"
+"TRAPPC6A" -> "VPS25"
+"TRAPPC6A" -> "C10orf53"
+"TRAPPC6A" -> "TCL1B"
+"TWF1" -> "PRXL2C"
+"TWF1" -> "TCL1B"
+"TWF1" -> "ARPIN"
+"TWF1" -> "EXOC1L"
+"UFD1" -> "TRAPPC3"
+"UFD1" -> "BUD23"
+"UFD1" -> "POP4"
+"UFD1" -> "NAA20"
+"VPS25" -> "POP4"
+"VPS25" -> "NAA20"
+"VPS25" -> "TRAPPC3"
+"VPS25" -> "PIH1D1"
+}

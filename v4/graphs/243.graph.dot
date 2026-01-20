@@ -1,0 +1,77 @@
+digraph G {
+"EHF" ["l"="7.524,3.755"]
+"ELF3" ["l"="7.521,3.813"]
+"ELF5" ["l"="7.493,3.816"]
+"ETS1" ["l"="7.488,3.675"]
+"ETS2" ["l"="7.487,3.822"]
+"ETV5" ["l"="7.461,3.610"]
+"ETV6" ["l"="7.474,3.650"]
+"ETV7" ["l"="7.508,3.817"]
+"FOXN4" ["l"="7.585,3.803"]
+"MEF2B" ["l"="7.594,3.808"]
+"PRR35" ["l"="7.497,3.914"]
+"SPDEF" ["l"="7.506,3.798"]
+"SPI1" ["l"="7.484,3.805"]
+"SPIB" ["l"="7.503,3.820"]
+"SPIC" ["l"="7.504,3.844"]
+"EHF" -> "ELF5"
+"EHF" -> "ETS2"
+"EHF" -> "SPDEF"
+"EHF" -> "ELF3"
+"ELF3" -> "SPDEF"
+"ELF3" -> "ETS2"
+"ELF3" -> "EHF"
+"ELF3" -> "ELF5"
+"ELF5" -> "EHF"
+"ELF5" -> "SPDEF"
+"ELF5" -> "ETS1"
+"ELF5" -> "ETS2"
+"ETS1" -> "ETV6"
+"ETS1" -> "ETS2"
+"ETS1" -> "ETV5"
+"ETS1" -> "EHF"
+"ETS2" -> "EHF"
+"ETS2" -> "SPDEF"
+"ETS2" -> "SPIB"
+"ETS2" -> "ELF3"
+"ETV5" -> "ETV6"
+"ETV5" -> "ETS1"
+"ETV5" -> "FOXN4"
+"ETV5" -> "SPDEF"
+"ETV6" -> "ETV5"
+"ETV6" -> "ETS1"
+"ETV6" -> "ETV7"
+"ETV6" -> "EHF"
+"ETV7" -> "SPDEF"
+"ETV7" -> "ETS2"
+"ETV7" -> "EHF"
+"ETV7" -> "ETV6"
+"FOXN4" -> "ETV5"
+"FOXN4" -> "ETV7"
+"FOXN4" -> "SPDEF"
+"FOXN4" -> "ETS1"
+"MEF2B" -> "PRR35"
+"MEF2B" -> "FOXN4"
+"MEF2B" -> "ETV5"
+"MEF2B" -> "ETS1"
+"PRR35" -> "FOXN4"
+"PRR35" -> "ETV7"
+"PRR35" -> "ETV5"
+"PRR35" -> "SPDEF"
+"SPDEF" -> "ELF5"
+"SPDEF" -> "ETS2"
+"SPDEF" -> "ETV7"
+"SPDEF" -> "ELF3"
+"SPI1" -> "SPIB"
+"SPI1" -> "SPDEF"
+"SPI1" -> "EHF"
+"SPI1" -> "ETS2"
+"SPIB" -> "SPI1"
+"SPIB" -> "ETS2"
+"SPIB" -> "SPDEF"
+"SPIB" -> "ELF3"
+"SPIC" -> "ELF5"
+"SPIC" -> "EHF"
+"SPIC" -> "ETV7"
+"SPIC" -> "SPIB"
+}

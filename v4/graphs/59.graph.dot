@@ -1,0 +1,67 @@
+digraph G {
+"CAPNS1" ["l"="5.603,-0.154"]
+"CAPNS2" ["l"="5.559,-0.192"]
+"CAPS" ["l"="5.566,-0.213"]
+"DCUN1D1" ["l"="5.540,-0.221"]
+"DCUN1D2" ["l"="5.573,-0.180"]
+"DCUN1D4" ["l"="5.546,-0.217"]
+"GCA" ["l"="5.581,-0.170"]
+"MICU1" ["l"="5.492,-0.264"]
+"MICU2" ["l"="5.563,-0.216"]
+"MICU3" ["l"="5.619,-0.187"]
+"PDCD6" ["l"="5.549,-0.199"]
+"SNTN" ["l"="5.533,-0.224"]
+"SRI" ["l"="5.577,-0.174"]
+"CAPNS1" -> "SRI"
+"CAPNS1" -> "GCA"
+"CAPNS1" -> "CAPNS2"
+"CAPNS1" -> "PDCD6"
+"CAPNS2" -> "SRI"
+"CAPNS2" -> "GCA"
+"CAPNS2" -> "DCUN1D4"
+"CAPNS2" -> "DCUN1D2"
+"CAPS" -> "SNTN"
+"CAPS" -> "CAPNS2"
+"CAPS" -> "SRI"
+"CAPS" -> "DCUN1D4"
+"DCUN1D1" -> "DCUN1D2"
+"DCUN1D1" -> "DCUN1D4"
+"DCUN1D1" -> "GCA"
+"DCUN1D1" -> "SRI"
+"DCUN1D2" -> "DCUN1D1"
+"DCUN1D2" -> "DCUN1D4"
+"DCUN1D2" -> "GCA"
+"DCUN1D2" -> "SRI"
+"DCUN1D4" -> "DCUN1D2"
+"DCUN1D4" -> "DCUN1D1"
+"DCUN1D4" -> "GCA"
+"DCUN1D4" -> "MICU3"
+"GCA" -> "SRI"
+"GCA" -> "PDCD6"
+"GCA" -> "DCUN1D4"
+"GCA" -> "DCUN1D2"
+"MICU1" -> "MICU2"
+"MICU1" -> "MICU3"
+"MICU1" -> "DCUN1D4"
+"MICU1" -> "DCUN1D2"
+"MICU2" -> "MICU3"
+"MICU2" -> "MICU1"
+"MICU2" -> "DCUN1D4"
+"MICU2" -> "DCUN1D2"
+"MICU3" -> "MICU2"
+"MICU3" -> "MICU1"
+"MICU3" -> "DCUN1D4"
+"MICU3" -> "DCUN1D2"
+"PDCD6" -> "GCA"
+"PDCD6" -> "SRI"
+"PDCD6" -> "CAPNS2"
+"PDCD6" -> "DCUN1D2"
+"SNTN" -> "CAPS"
+"SNTN" -> "CAPNS2"
+"SNTN" -> "DCUN1D4"
+"SNTN" -> "MICU1"
+"SRI" -> "GCA"
+"SRI" -> "PDCD6"
+"SRI" -> "DCUN1D2"
+"SRI" -> "CAPNS2"
+}

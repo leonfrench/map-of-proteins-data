@@ -1,0 +1,187 @@
+digraph G {
+"AK8" ["l"="10.692,1.550"]
+"ANKZF1" ["l"="10.614,1.689"]
+"ARHGEF39" ["l"="10.504,1.704"]
+"ASH2L" ["l"="10.465,1.738"]
+"ASPSCR1" ["l"="10.335,1.575"]
+"CNN1" ["l"="10.428,1.640"]
+"CNN2" ["l"="10.397,1.543"]
+"CNN3" ["l"="10.363,1.584"]
+"ENO4" ["l"="10.499,1.528"]
+"FBXL7" ["l"="10.468,1.592"]
+"GLYR1" ["l"="10.593,1.641"]
+"ITPK1" ["l"="10.482,1.698"]
+"KATNBL1" ["l"="10.536,1.778"]
+"LEMD2" ["l"="10.517,1.536"]
+"LIN7A" ["l"="10.322,1.652"]
+"MCRS1" ["l"="10.531,1.664"]
+"MDH1B" ["l"="10.643,1.590"]
+"MED17" ["l"="10.578,1.712"]
+"MTBP" ["l"="10.514,1.458"]
+"NEPRO" ["l"="10.425,1.636"]
+"NEURL1" ["l"="10.562,1.654"]
+"NEURL1B" ["l"="10.663,1.569"]
+"NSUN7" ["l"="10.370,1.684"]
+"PARVA" ["l"="10.518,1.535"]
+"PCIF1" ["l"="10.567,1.659"]
+"PMS2" ["l"="10.593,1.715"]
+"PPM1B" ["l"="10.609,1.547"]
+"SMG8" ["l"="10.521,1.593"]
+"SMG9" ["l"="10.674,1.567"]
+"TAGLN" ["l"="10.498,1.562"]
+"TAGLN2" ["l"="10.466,1.523"]
+"TAGLN3" ["l"="10.499,1.539"]
+"TPPP" ["l"="10.481,1.673"]
+"TPPP2" ["l"="10.509,1.666"]
+"TPPP3" ["l"="10.452,1.622"]
+"USP12" ["l"="10.474,1.635"]
+"VCPIP1" ["l"="10.402,1.557"]
+"AK8" -> "MDH1B"
+"AK8" -> "NSUN7"
+"AK8" -> "SMG9"
+"AK8" -> "ENO4"
+"ANKZF1" -> "ASPSCR1"
+"ANKZF1" -> "MED17"
+"ANKZF1" -> "NEPRO"
+"ANKZF1" -> "MCRS1"
+"ARHGEF39" -> "NEPRO"
+"ARHGEF39" -> "MCRS1"
+"ARHGEF39" -> "ASH2L"
+"ARHGEF39" -> "MTBP"
+"ASH2L" -> "MED17"
+"ASH2L" -> "MCRS1"
+"ASH2L" -> "PCIF1"
+"ASH2L" -> "SMG9"
+"ASPSCR1" -> "LEMD2"
+"ASPSCR1" -> "PMS2"
+"ASPSCR1" -> "MCRS1"
+"ASPSCR1" -> "SMG9"
+"CNN1" -> "CNN2"
+"CNN1" -> "TAGLN"
+"CNN1" -> "CNN3"
+"CNN1" -> "TAGLN3"
+"CNN2" -> "CNN1"
+"CNN2" -> "CNN3"
+"CNN2" -> "TAGLN2"
+"CNN2" -> "TAGLN"
+"CNN3" -> "CNN2"
+"CNN3" -> "CNN1"
+"CNN3" -> "TAGLN"
+"CNN3" -> "TAGLN2"
+"ENO4" -> "MDH1B"
+"ENO4" -> "NSUN7"
+"ENO4" -> "ASH2L"
+"ENO4" -> "GLYR1"
+"FBXL7" -> "NEURL1"
+"FBXL7" -> "NEURL1B"
+"FBXL7" -> "NSUN7"
+"FBXL7" -> "PARVA"
+"GLYR1" -> "LEMD2"
+"GLYR1" -> "ASH2L"
+"GLYR1" -> "SMG9"
+"GLYR1" -> "NEURL1"
+"ITPK1" -> "NEURL1"
+"ITPK1" -> "SMG9"
+"ITPK1" -> "PARVA"
+"ITPK1" -> "TPPP"
+"KATNBL1" -> "NEPRO"
+"KATNBL1" -> "MED17"
+"KATNBL1" -> "MTBP"
+"KATNBL1" -> "GLYR1"
+"LEMD2" -> "MED17"
+"LEMD2" -> "SMG9"
+"LEMD2" -> "GLYR1"
+"LEMD2" -> "ASPSCR1"
+"LIN7A" -> "MED17"
+"LIN7A" -> "USP12"
+"LIN7A" -> "NEPRO"
+"LIN7A" -> "PARVA"
+"MCRS1" -> "ASH2L"
+"MCRS1" -> "PCIF1"
+"MCRS1" -> "SMG9"
+"MCRS1" -> "PARVA"
+"MDH1B" -> "ENO4"
+"MDH1B" -> "NSUN7"
+"MDH1B" -> "AK8"
+"MDH1B" -> "TAGLN3"
+"MED17" -> "SMG8"
+"MED17" -> "MTBP"
+"MED17" -> "NEPRO"
+"MED17" -> "ASH2L"
+"MTBP" -> "MED17"
+"MTBP" -> "NEPRO"
+"MTBP" -> "NSUN7"
+"MTBP" -> "SMG8"
+"NEPRO" -> "MTBP"
+"NEPRO" -> "MED17"
+"NEPRO" -> "NSUN7"
+"NEPRO" -> "KATNBL1"
+"NEURL1" -> "NEURL1B"
+"NEURL1" -> "ITPK1"
+"NEURL1" -> "FBXL7"
+"NEURL1" -> "SMG9"
+"NEURL1B" -> "NEURL1"
+"NEURL1B" -> "USP12"
+"NEURL1B" -> "FBXL7"
+"NEURL1B" -> "LEMD2"
+"NSUN7" -> "MTBP"
+"NSUN7" -> "NEPRO"
+"NSUN7" -> "MED17"
+"NSUN7" -> "ENO4"
+"PARVA" -> "TAGLN"
+"PARVA" -> "CNN2"
+"PARVA" -> "SMG9"
+"PARVA" -> "MCRS1"
+"PCIF1" -> "SMG9"
+"PCIF1" -> "ASH2L"
+"PCIF1" -> "MCRS1"
+"PCIF1" -> "MED17"
+"PMS2" -> "MED17"
+"PMS2" -> "LEMD2"
+"PMS2" -> "ASPSCR1"
+"PMS2" -> "ITPK1"
+"PPM1B" -> "USP12"
+"PPM1B" -> "MED17"
+"PPM1B" -> "ASH2L"
+"PPM1B" -> "SMG8"
+"SMG8" -> "MED17"
+"SMG8" -> "VCPIP1"
+"SMG8" -> "ASH2L"
+"SMG8" -> "MTBP"
+"SMG9" -> "PCIF1"
+"SMG9" -> "ASH2L"
+"SMG9" -> "LEMD2"
+"SMG9" -> "MED17"
+"TAGLN" -> "CNN1"
+"TAGLN" -> "TAGLN3"
+"TAGLN" -> "TAGLN2"
+"TAGLN" -> "CNN2"
+"TAGLN2" -> "TAGLN3"
+"TAGLN2" -> "CNN2"
+"TAGLN2" -> "TAGLN"
+"TAGLN2" -> "CNN1"
+"TAGLN3" -> "TAGLN"
+"TAGLN3" -> "TAGLN2"
+"TAGLN3" -> "CNN1"
+"TAGLN3" -> "CNN2"
+"TPPP" -> "TPPP2"
+"TPPP" -> "TPPP3"
+"TPPP" -> "ITPK1"
+"TPPP" -> "TAGLN"
+"TPPP2" -> "TPPP"
+"TPPP2" -> "TPPP3"
+"TPPP2" -> "CNN2"
+"TPPP2" -> "TAGLN"
+"TPPP3" -> "TPPP2"
+"TPPP3" -> "TPPP"
+"TPPP3" -> "TAGLN"
+"TPPP3" -> "TAGLN2"
+"USP12" -> "NEURL1B"
+"USP12" -> "ASH2L"
+"USP12" -> "MED17"
+"USP12" -> "NEPRO"
+"VCPIP1" -> "SMG8"
+"VCPIP1" -> "MED17"
+"VCPIP1" -> "ASH2L"
+"VCPIP1" -> "NEPRO"
+}

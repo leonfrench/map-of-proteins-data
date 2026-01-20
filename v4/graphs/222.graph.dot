@@ -1,0 +1,92 @@
+digraph G {
+"C9" ["l"="13.754,-1.936"]
+"CCN1" ["l"="13.957,-1.821"]
+"CCN2" ["l"="13.934,-1.817"]
+"CCN3" ["l"="13.932,-1.779"]
+"CCN4" ["l"="13.933,-1.803"]
+"CCN5" ["l"="13.900,-1.872"]
+"ELSPBP1" ["l"="14.074,-2.173"]
+"FST" ["l"="13.796,-1.872"]
+"MDK" ["l"="13.913,-1.907"]
+"PTN" ["l"="13.909,-1.854"]
+"RSPO1" ["l"="13.874,-1.867"]
+"RSPO2" ["l"="13.890,-1.882"]
+"RSPO3" ["l"="13.867,-1.875"]
+"TAFA1" ["l"="14.083,-1.905"]
+"TAFA2" ["l"="14.085,-1.906"]
+"TFPI" ["l"="13.887,-1.811"]
+"TFPI2" ["l"="13.912,-1.741"]
+"WFIKKN2" ["l"="13.770,-1.947"]
+"C9" -> "WFIKKN2"
+"C9" -> "TFPI"
+"C9" -> "CCN3"
+"C9" -> "RSPO1"
+"CCN1" -> "CCN2"
+"CCN1" -> "CCN3"
+"CCN1" -> "FST"
+"CCN1" -> "CCN4"
+"CCN2" -> "CCN1"
+"CCN2" -> "CCN3"
+"CCN2" -> "CCN4"
+"CCN2" -> "FST"
+"CCN3" -> "CCN2"
+"CCN3" -> "CCN1"
+"CCN3" -> "CCN5"
+"CCN3" -> "CCN4"
+"CCN4" -> "CCN3"
+"CCN4" -> "CCN2"
+"CCN4" -> "WFIKKN2"
+"CCN4" -> "RSPO1"
+"CCN5" -> "CCN3"
+"CCN5" -> "FST"
+"CCN5" -> "CCN2"
+"CCN5" -> "CCN4"
+"ELSPBP1" -> "TFPI"
+"ELSPBP1" -> "CCN4"
+"ELSPBP1" -> "RSPO2"
+"ELSPBP1" -> "TFPI2"
+"FST" -> "RSPO2"
+"FST" -> "RSPO1"
+"FST" -> "CCN3"
+"FST" -> "RSPO3"
+"MDK" -> "PTN"
+"MDK" -> "RSPO1"
+"MDK" -> "RSPO2"
+"MDK" -> "FST"
+"PTN" -> "MDK"
+"PTN" -> "RSPO1"
+"PTN" -> "RSPO3"
+"PTN" -> "RSPO2"
+"RSPO1" -> "RSPO2"
+"RSPO1" -> "RSPO3"
+"RSPO1" -> "FST"
+"RSPO1" -> "CCN3"
+"RSPO2" -> "RSPO3"
+"RSPO2" -> "RSPO1"
+"RSPO2" -> "FST"
+"RSPO2" -> "CCN3"
+"RSPO3" -> "RSPO2"
+"RSPO3" -> "RSPO1"
+"RSPO3" -> "FST"
+"RSPO3" -> "CCN3"
+"TAFA1" -> "TAFA2"
+"TAFA1" -> "FST"
+"TAFA1" -> "CCN3"
+"TAFA1" -> "RSPO1"
+"TAFA2" -> "TAFA1"
+"TAFA2" -> "RSPO2"
+"TAFA2" -> "RSPO1"
+"TAFA2" -> "FST"
+"TFPI" -> "TFPI2"
+"TFPI" -> "FST"
+"TFPI" -> "RSPO2"
+"TFPI" -> "RSPO3"
+"TFPI2" -> "TFPI"
+"TFPI2" -> "FST"
+"TFPI2" -> "RSPO1"
+"TFPI2" -> "CCN3"
+"WFIKKN2" -> "CCN3"
+"WFIKKN2" -> "CCN4"
+"WFIKKN2" -> "C9"
+"WFIKKN2" -> "CCN5"
+}

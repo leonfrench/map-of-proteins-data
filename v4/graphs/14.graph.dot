@@ -1,0 +1,62 @@
+digraph G {
+"MT1A" ["l"="6.838,-12.432"]
+"MT1B" ["l"="6.838,-12.432"]
+"MT1E" ["l"="6.838,-12.432"]
+"MT1F" ["l"="6.838,-12.432"]
+"MT1G" ["l"="6.838,-12.432"]
+"MT1H" ["l"="6.838,-12.432"]
+"MT1HL1" ["l"="6.838,-12.432"]
+"MT1M" ["l"="6.838,-12.433"]
+"MT1X" ["l"="6.838,-12.432"]
+"MT2A" ["l"="6.838,-12.433"]
+"MT3" ["l"="6.838,-12.433"]
+"MT4" ["l"="6.838,-12.432"]
+"MT1A" -> "MT1M"
+"MT1A" -> "MT1F"
+"MT1A" -> "MT2A"
+"MT1A" -> "MT1G"
+"MT1B" -> "MT1F"
+"MT1B" -> "MT1M"
+"MT1B" -> "MT1H"
+"MT1B" -> "MT1A"
+"MT1E" -> "MT1F"
+"MT1E" -> "MT1M"
+"MT1E" -> "MT1G"
+"MT1E" -> "MT1H"
+"MT1F" -> "MT1H"
+"MT1F" -> "MT1G"
+"MT1F" -> "MT1M"
+"MT1F" -> "MT1A"
+"MT1G" -> "MT1H"
+"MT1G" -> "MT1F"
+"MT1G" -> "MT2A"
+"MT1G" -> "MT1M"
+"MT1H" -> "MT1G"
+"MT1H" -> "MT1F"
+"MT1H" -> "MT1M"
+"MT1H" -> "MT2A"
+"MT1HL1" -> "MT1B"
+"MT1HL1" -> "MT1F"
+"MT1HL1" -> "MT1H"
+"MT1HL1" -> "MT1E"
+"MT1M" -> "MT1F"
+"MT1M" -> "MT1A"
+"MT1M" -> "MT1G"
+"MT1M" -> "MT2A"
+"MT1X" -> "MT2A"
+"MT1X" -> "MT1M"
+"MT1X" -> "MT1G"
+"MT1X" -> "MT1A"
+"MT2A" -> "MT1G"
+"MT2A" -> "MT1X"
+"MT2A" -> "MT1M"
+"MT2A" -> "MT1H"
+"MT3" -> "MT1F"
+"MT3" -> "MT1M"
+"MT3" -> "MT1A"
+"MT3" -> "MT1H"
+"MT4" -> "MT1B"
+"MT4" -> "MT1HL1"
+"MT4" -> "MT1A"
+"MT4" -> "MT1F"
+}

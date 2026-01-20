@@ -1,0 +1,127 @@
+digraph G {
+"ATAD1" ["l"="11.470,1.310"]
+"CASP2" ["l"="11.583,1.190"]
+"DHX34" ["l"="11.375,1.264"]
+"DHX58" ["l"="11.431,1.327"]
+"DIS3" ["l"="11.394,1.308"]
+"DIS3L" ["l"="11.512,1.294"]
+"DIS3L2" ["l"="11.573,1.293"]
+"EFL1" ["l"="11.492,1.312"]
+"ERCC2" ["l"="11.525,1.347"]
+"FASTKD2" ["l"="11.459,1.316"]
+"FASTKD3" ["l"="11.491,1.266"]
+"FASTKD5" ["l"="11.485,1.280"]
+"GTF2H4" ["l"="11.356,1.336"]
+"HCFC2" ["l"="11.357,1.280"]
+"KLHDC2" ["l"="11.355,1.273"]
+"LIPE" ["l"="11.500,1.332"]
+"MCM8" ["l"="11.372,1.328"]
+"MPPED2" ["l"="11.468,1.353"]
+"NSF" ["l"="11.552,1.299"]
+"POLD1" ["l"="11.328,1.342"]
+"POLN" ["l"="11.303,1.308"]
+"PRKAB2" ["l"="11.604,1.256"]
+"RABGGTB" ["l"="11.571,1.243"]
+"SPATA5" ["l"="11.434,1.297"]
+"UBA6" ["l"="11.568,1.328"]
+"ATAD1" -> "SPATA5"
+"ATAD1" -> "NSF"
+"ATAD1" -> "EFL1"
+"ATAD1" -> "UBA6"
+"CASP2" -> "UBA6"
+"CASP2" -> "ERCC2"
+"CASP2" -> "PRKAB2"
+"CASP2" -> "MCM8"
+"DHX34" -> "ERCC2"
+"DHX34" -> "POLD1"
+"DHX34" -> "DIS3L"
+"DHX34" -> "DHX58"
+"DHX58" -> "DIS3L"
+"DHX58" -> "ERCC2"
+"DHX58" -> "DHX34"
+"DHX58" -> "CASP2"
+"DIS3" -> "DIS3L"
+"DIS3" -> "MCM8"
+"DIS3" -> "DIS3L2"
+"DIS3" -> "NSF"
+"DIS3L" -> "DIS3L2"
+"DIS3L" -> "DIS3"
+"DIS3L" -> "MCM8"
+"DIS3L" -> "DHX58"
+"DIS3L2" -> "DIS3L"
+"DIS3L2" -> "MCM8"
+"DIS3L2" -> "DIS3"
+"DIS3L2" -> "SPATA5"
+"EFL1" -> "SPATA5"
+"EFL1" -> "DIS3L"
+"EFL1" -> "MCM8"
+"EFL1" -> "NSF"
+"ERCC2" -> "DHX34"
+"ERCC2" -> "DIS3L"
+"ERCC2" -> "DHX58"
+"ERCC2" -> "POLD1"
+"FASTKD2" -> "FASTKD3"
+"FASTKD2" -> "FASTKD5"
+"FASTKD2" -> "POLN"
+"FASTKD2" -> "ATAD1"
+"FASTKD3" -> "FASTKD5"
+"FASTKD3" -> "FASTKD2"
+"FASTKD3" -> "POLN"
+"FASTKD3" -> "GTF2H4"
+"FASTKD5" -> "FASTKD3"
+"FASTKD5" -> "FASTKD2"
+"FASTKD5" -> "DHX34"
+"FASTKD5" -> "DIS3L"
+"GTF2H4" -> "ERCC2"
+"GTF2H4" -> "DHX34"
+"GTF2H4" -> "POLN"
+"GTF2H4" -> "UBA6"
+"HCFC2" -> "PRKAB2"
+"HCFC2" -> "KLHDC2"
+"HCFC2" -> "RABGGTB"
+"HCFC2" -> "UBA6"
+"KLHDC2" -> "PRKAB2"
+"KLHDC2" -> "HCFC2"
+"KLHDC2" -> "RABGGTB"
+"KLHDC2" -> "MPPED2"
+"LIPE" -> "DHX34"
+"LIPE" -> "PRKAB2"
+"LIPE" -> "ERCC2"
+"LIPE" -> "CASP2"
+"MCM8" -> "SPATA5"
+"MCM8" -> "DIS3"
+"MCM8" -> "DIS3L"
+"MCM8" -> "DIS3L2"
+"MPPED2" -> "PRKAB2"
+"MPPED2" -> "KLHDC2"
+"MPPED2" -> "CASP2"
+"MPPED2" -> "POLN"
+"NSF" -> "SPATA5"
+"NSF" -> "ERCC2"
+"NSF" -> "EFL1"
+"NSF" -> "ATAD1"
+"POLD1" -> "ERCC2"
+"POLD1" -> "DIS3L"
+"POLD1" -> "DHX34"
+"POLD1" -> "MCM8"
+"POLN" -> "MCM8"
+"POLN" -> "DIS3L"
+"POLN" -> "DIS3L2"
+"POLN" -> "NSF"
+"PRKAB2" -> "HCFC2"
+"PRKAB2" -> "KLHDC2"
+"PRKAB2" -> "RABGGTB"
+"PRKAB2" -> "CASP2"
+"RABGGTB" -> "KLHDC2"
+"RABGGTB" -> "HCFC2"
+"RABGGTB" -> "PRKAB2"
+"RABGGTB" -> "UBA6"
+"SPATA5" -> "MCM8"
+"SPATA5" -> "EFL1"
+"SPATA5" -> "ATAD1"
+"SPATA5" -> "NSF"
+"UBA6" -> "MCM8"
+"UBA6" -> "CASP2"
+"UBA6" -> "EFL1"
+"UBA6" -> "ERCC2"
+}

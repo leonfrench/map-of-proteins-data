@@ -1,0 +1,87 @@
+digraph G {
+"AQR" ["l"="10.480,0.402"]
+"COG1" ["l"="10.484,0.475"]
+"COG2" ["l"="10.471,0.428"]
+"COG4" ["l"="10.580,0.442"]
+"ERMARD" ["l"="10.540,0.423"]
+"EXOC3" ["l"="10.499,0.505"]
+"EXOC4" ["l"="10.460,0.359"]
+"EXOC5" ["l"="10.496,0.450"]
+"EXOC7" ["l"="10.504,0.452"]
+"GLMN" ["l"="10.587,0.402"]
+"INSC" ["l"="10.593,0.412"]
+"IPO4" ["l"="10.605,0.401"]
+"ORC3" ["l"="10.561,0.377"]
+"PPP2R5B" ["l"="10.487,0.411"]
+"PPP4R3B" ["l"="10.602,0.381"]
+"RANGAP1" ["l"="10.473,0.435"]
+"ZW10" ["l"="10.500,0.381"]
+"AQR" -> "EXOC5"
+"AQR" -> "PPP4R3B"
+"AQR" -> "ORC3"
+"AQR" -> "EXOC3"
+"COG1" -> "ZW10"
+"COG1" -> "COG2"
+"COG1" -> "EXOC7"
+"COG1" -> "COG4"
+"COG2" -> "ZW10"
+"COG2" -> "COG1"
+"COG2" -> "EXOC3"
+"COG2" -> "EXOC5"
+"COG4" -> "EXOC3"
+"COG4" -> "ZW10"
+"COG4" -> "EXOC7"
+"COG4" -> "EXOC5"
+"ERMARD" -> "COG1"
+"ERMARD" -> "ORC3"
+"ERMARD" -> "GLMN"
+"ERMARD" -> "ZW10"
+"EXOC3" -> "COG4"
+"EXOC3" -> "EXOC7"
+"EXOC3" -> "ZW10"
+"EXOC3" -> "COG2"
+"EXOC4" -> "ZW10"
+"EXOC4" -> "EXOC3"
+"EXOC4" -> "COG4"
+"EXOC4" -> "COG2"
+"EXOC5" -> "EXOC7"
+"EXOC5" -> "COG2"
+"EXOC5" -> "COG4"
+"EXOC5" -> "EXOC3"
+"EXOC7" -> "EXOC3"
+"EXOC7" -> "COG4"
+"EXOC7" -> "EXOC5"
+"EXOC7" -> "COG2"
+"GLMN" -> "ORC3"
+"GLMN" -> "ERMARD"
+"GLMN" -> "ZW10"
+"GLMN" -> "COG2"
+"INSC" -> "COG4"
+"INSC" -> "EXOC3"
+"INSC" -> "ERMARD"
+"INSC" -> "ZW10"
+"IPO4" -> "RANGAP1"
+"IPO4" -> "COG1"
+"IPO4" -> "PPP4R3B"
+"IPO4" -> "EXOC3"
+"ORC3" -> "ZW10"
+"ORC3" -> "GLMN"
+"ORC3" -> "ERMARD"
+"ORC3" -> "AQR"
+"PPP2R5B" -> "PPP4R3B"
+"PPP2R5B" -> "EXOC7"
+"PPP2R5B" -> "COG4"
+"PPP2R5B" -> "EXOC5"
+"PPP4R3B" -> "EXOC5"
+"PPP4R3B" -> "AQR"
+"PPP4R3B" -> "EXOC7"
+"PPP4R3B" -> "EXOC3"
+"RANGAP1" -> "IPO4"
+"RANGAP1" -> "PPP4R3B"
+"RANGAP1" -> "COG4"
+"RANGAP1" -> "INSC"
+"ZW10" -> "COG2"
+"ZW10" -> "COG4"
+"ZW10" -> "COG1"
+"ZW10" -> "EXOC3"
+}

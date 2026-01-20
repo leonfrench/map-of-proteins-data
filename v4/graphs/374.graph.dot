@@ -1,0 +1,312 @@
+digraph G {
+"ADRM1" ["l"="10.346,2.733"]
+"AKIRIN2" ["l"="10.116,2.874"]
+"ANKRD40CL" ["l"="10.161,2.968"]
+"ARL14EP" ["l"="10.198,2.857"]
+"AVEN" ["l"="10.035,2.830"]
+"BAG6" ["l"="10.346,2.716"]
+"BRMS1" ["l"="10.362,2.910"]
+"BRMS1L" ["l"="10.266,2.724"]
+"CAAP1" ["l"="10.136,2.806"]
+"CACTIN" ["l"="10.315,2.881"]
+"CAMLG" ["l"="10.333,2.904"]
+"CDK11A" ["l"="10.133,2.767"]
+"CDK11B" ["l"="10.262,2.711"]
+"CISH" ["l"="10.309,2.758"]
+"CSDC2" ["l"="10.263,2.751"]
+"DDI1" ["l"="10.415,2.893"]
+"DDX46" ["l"="10.234,2.733"]
+"DMAP1" ["l"="10.304,2.811"]
+"DMKN" ["l"="10.175,2.788"]
+"DND1" ["l"="10.167,2.877"]
+"DNTTIP1" ["l"="10.429,2.806"]
+"DPPA2" ["l"="10.070,2.889"]
+"FBLL1" ["l"="10.359,2.802"]
+"FBXO28" ["l"="10.344,2.823"]
+"GATAD1" ["l"="10.283,2.722"]
+"GPATCH1" ["l"="10.374,2.820"]
+"HAX1" ["l"="10.371,2.763"]
+"HMG20A" ["l"="10.387,2.746"]
+"MBD2" ["l"="10.212,2.796"]
+"MLF1" ["l"="10.172,2.889"]
+"MLF2" ["l"="10.278,2.813"]
+"MPND" ["l"="10.206,2.743"]
+"MRGBP" ["l"="10.193,2.784"]
+"NANOS2" ["l"="10.098,2.853"]
+"NAT8L" ["l"="10.461,2.752"]
+"NOL8" ["l"="10.027,2.784"]
+"PFN3" ["l"="10.022,2.891"]
+"PPP1R14C" ["l"="10.157,2.830"]
+"RAD23B" ["l"="10.304,2.734"]
+"RFXAP" ["l"="10.056,2.809"]
+"RNF5" ["l"="10.331,2.936"]
+"RUNDC1" ["l"="10.039,2.872"]
+"SAP30" ["l"="10.101,2.753"]
+"SAP30L" ["l"="10.129,2.736"]
+"SDE2" ["l"="10.247,2.920"]
+"SGF29" ["l"="10.430,2.796"]
+"SNX20" ["l"="10.181,2.760"]
+"SUDS3" ["l"="10.296,2.865"]
+"SUGP1" ["l"="10.414,2.777"]
+"TADA3" ["l"="10.341,2.853"]
+"TERF1" ["l"="10.176,2.691"]
+"TERF2" ["l"="10.103,2.857"]
+"TGS1" ["l"="10.221,2.725"]
+"U2AF1L4" ["l"="10.026,2.754"]
+"UBQLN1" ["l"="10.387,2.766"]
+"UBQLN4" ["l"="10.322,2.815"]
+"VHL" ["l"="10.398,2.688"]
+"WTAP" ["l"="10.180,2.853"]
+"ZCCHC8" ["l"="10.347,2.713"]
+"ZFPL1" ["l"="10.174,2.923"]
+"ZNF511" ["l"="10.185,2.704"]
+"ZNF576" ["l"="10.236,2.869"]
+"ADRM1" -> "UBQLN1"
+"ADRM1" -> "UBQLN4"
+"ADRM1" -> "RAD23B"
+"ADRM1" -> "BAG6"
+"AKIRIN2" -> "CAMLG"
+"AKIRIN2" -> "HMG20A"
+"AKIRIN2" -> "VHL"
+"AKIRIN2" -> "FBXO28"
+"ANKRD40CL" -> "BRMS1L"
+"ANKRD40CL" -> "SAP30L"
+"ANKRD40CL" -> "MRGBP"
+"ANKRD40CL" -> "SUDS3"
+"ARL14EP" -> "ZNF576"
+"ARL14EP" -> "SAP30L"
+"ARL14EP" -> "NANOS2"
+"ARL14EP" -> "BRMS1L"
+"AVEN" -> "CAAP1"
+"AVEN" -> "PPP1R14C"
+"AVEN" -> "MBD2"
+"AVEN" -> "TERF2"
+"BAG6" -> "UBQLN4"
+"BAG6" -> "UBQLN1"
+"BAG6" -> "RAD23B"
+"BAG6" -> "ADRM1"
+"BRMS1" -> "BRMS1L"
+"BRMS1" -> "SUDS3"
+"BRMS1" -> "CACTIN"
+"BRMS1" -> "VHL"
+"BRMS1L" -> "SUDS3"
+"BRMS1L" -> "BRMS1"
+"BRMS1L" -> "TERF1"
+"BRMS1L" -> "SAP30L"
+"CAAP1" -> "RFXAP"
+"CAAP1" -> "PPP1R14C"
+"CAAP1" -> "MRGBP"
+"CAAP1" -> "TERF1"
+"CACTIN" -> "SUDS3"
+"CACTIN" -> "SUGP1"
+"CACTIN" -> "RUNDC1"
+"CACTIN" -> "BRMS1L"
+"CAMLG" -> "TERF1"
+"CAMLG" -> "VHL"
+"CAMLG" -> "RNF5"
+"CAMLG" -> "SDE2"
+"CDK11A" -> "CDK11B"
+"CDK11A" -> "DDX46"
+"CDK11A" -> "CACTIN"
+"CDK11A" -> "TGS1"
+"CDK11B" -> "CDK11A"
+"CDK11B" -> "DDX46"
+"CDK11B" -> "CACTIN"
+"CDK11B" -> "TGS1"
+"CISH" -> "SNX20"
+"CISH" -> "RUNDC1"
+"CISH" -> "CSDC2"
+"CISH" -> "NAT8L"
+"CSDC2" -> "CISH"
+"CSDC2" -> "HMG20A"
+"CSDC2" -> "NAT8L"
+"CSDC2" -> "DND1"
+"DDI1" -> "VHL"
+"DDI1" -> "DND1"
+"DDI1" -> "SDE2"
+"DDI1" -> "RUNDC1"
+"DDX46" -> "TGS1"
+"DDX46" -> "CDK11B"
+"DDX46" -> "CACTIN"
+"DDX46" -> "NOL8"
+"DMAP1" -> "SUDS3"
+"DMAP1" -> "SGF29"
+"DMAP1" -> "TADA3"
+"DMAP1" -> "DNTTIP1"
+"DMKN" -> "GATAD1"
+"DMKN" -> "MBD2"
+"DMKN" -> "PPP1R14C"
+"DMKN" -> "DNTTIP1"
+"DND1" -> "DDI1"
+"DND1" -> "SNX20"
+"DND1" -> "DPPA2"
+"DND1" -> "CISH"
+"DNTTIP1" -> "SGF29"
+"DNTTIP1" -> "FBXO28"
+"DNTTIP1" -> "DMAP1"
+"DNTTIP1" -> "SUGP1"
+"DPPA2" -> "DND1"
+"DPPA2" -> "HMG20A"
+"DPPA2" -> "NANOS2"
+"DPPA2" -> "TERF1"
+"FBLL1" -> "RFXAP"
+"FBLL1" -> "NAT8L"
+"FBLL1" -> "GATAD1"
+"FBLL1" -> "MRGBP"
+"FBXO28" -> "VHL"
+"FBXO28" -> "RUNDC1"
+"FBXO28" -> "HMG20A"
+"FBXO28" -> "MRGBP"
+"GATAD1" -> "MBD2"
+"GATAD1" -> "SAP30L"
+"GATAD1" -> "MRGBP"
+"GATAD1" -> "RFXAP"
+"GPATCH1" -> "ZCCHC8"
+"GPATCH1" -> "SUGP1"
+"GPATCH1" -> "NOL8"
+"GPATCH1" -> "CACTIN"
+"HAX1" -> "MLF2"
+"HAX1" -> "RNF5"
+"HAX1" -> "MLF1"
+"HAX1" -> "CAMLG"
+"HMG20A" -> "FBXO28"
+"HMG20A" -> "BRMS1L"
+"HMG20A" -> "SNX20"
+"HMG20A" -> "CAMLG"
+"MBD2" -> "GATAD1"
+"MBD2" -> "PPP1R14C"
+"MBD2" -> "TERF2"
+"MBD2" -> "AVEN"
+"MLF1" -> "MLF2"
+"MLF1" -> "HAX1"
+"MLF1" -> "DDI1"
+"MLF1" -> "HMG20A"
+"MLF2" -> "MLF1"
+"MLF2" -> "HAX1"
+"MLF2" -> "RNF5"
+"MLF2" -> "DDI1"
+"MPND" -> "RFXAP"
+"MPND" -> "MRGBP"
+"MPND" -> "VHL"
+"MPND" -> "TERF2"
+"MRGBP" -> "TERF1"
+"MRGBP" -> "SAP30L"
+"MRGBP" -> "CAAP1"
+"MRGBP" -> "TERF2"
+"NANOS2" -> "ZNF576"
+"NANOS2" -> "SAP30L"
+"NANOS2" -> "MRGBP"
+"NANOS2" -> "ZNF511"
+"NAT8L" -> "RUNDC1"
+"NAT8L" -> "VHL"
+"NAT8L" -> "SNX20"
+"NAT8L" -> "CISH"
+"NOL8" -> "TGS1"
+"NOL8" -> "GPATCH1"
+"NOL8" -> "DDX46"
+"NOL8" -> "SDE2"
+"PFN3" -> "DND1"
+"PFN3" -> "CISH"
+"PFN3" -> "RUNDC1"
+"PFN3" -> "MRGBP"
+"PPP1R14C" -> "MBD2"
+"PPP1R14C" -> "CAAP1"
+"PPP1R14C" -> "RFXAP"
+"PPP1R14C" -> "AVEN"
+"RAD23B" -> "UBQLN1"
+"RAD23B" -> "UBQLN4"
+"RAD23B" -> "FBXO28"
+"RAD23B" -> "ADRM1"
+"RFXAP" -> "CAAP1"
+"RFXAP" -> "TERF1"
+"RFXAP" -> "SAP30"
+"RFXAP" -> "PPP1R14C"
+"RNF5" -> "CAMLG"
+"RNF5" -> "ZFPL1"
+"RNF5" -> "HAX1"
+"RNF5" -> "MLF2"
+"RUNDC1" -> "SNX20"
+"RUNDC1" -> "NAT8L"
+"RUNDC1" -> "VHL"
+"RUNDC1" -> "CISH"
+"SAP30" -> "RFXAP"
+"SAP30" -> "SAP30L"
+"SAP30" -> "MBD2"
+"SAP30" -> "GATAD1"
+"SAP30L" -> "MRGBP"
+"SAP30L" -> "GATAD1"
+"SAP30L" -> "VHL"
+"SAP30L" -> "RFXAP"
+"SDE2" -> "VHL"
+"SDE2" -> "CAMLG"
+"SDE2" -> "TGS1"
+"SDE2" -> "RUNDC1"
+"SGF29" -> "DNTTIP1"
+"SGF29" -> "DMAP1"
+"SGF29" -> "SUGP1"
+"SGF29" -> "HMG20A"
+"SNX20" -> "CISH"
+"SNX20" -> "RUNDC1"
+"SNX20" -> "NAT8L"
+"SNX20" -> "HMG20A"
+"SUDS3" -> "BRMS1L"
+"SUDS3" -> "BRMS1"
+"SUDS3" -> "ZCCHC8"
+"SUDS3" -> "SAP30L"
+"SUGP1" -> "GPATCH1"
+"SUGP1" -> "ZCCHC8"
+"SUGP1" -> "CACTIN"
+"SUGP1" -> "DNTTIP1"
+"TADA3" -> "DMAP1"
+"TADA3" -> "SUGP1"
+"TADA3" -> "DNTTIP1"
+"TADA3" -> "FBXO28"
+"TERF1" -> "MRGBP"
+"TERF1" -> "TERF2"
+"TERF1" -> "RFXAP"
+"TERF1" -> "CAMLG"
+"TERF2" -> "TERF1"
+"TERF2" -> "MRGBP"
+"TERF2" -> "SAP30L"
+"TERF2" -> "MBD2"
+"TGS1" -> "NOL8"
+"TGS1" -> "DDX46"
+"TGS1" -> "SDE2"
+"TGS1" -> "CAAP1"
+"U2AF1L4" -> "ZFPL1"
+"U2AF1L4" -> "RNF5"
+"U2AF1L4" -> "NANOS2"
+"U2AF1L4" -> "CSDC2"
+"UBQLN1" -> "UBQLN4"
+"UBQLN1" -> "RAD23B"
+"UBQLN1" -> "ADRM1"
+"UBQLN1" -> "BAG6"
+"UBQLN4" -> "UBQLN1"
+"UBQLN4" -> "RAD23B"
+"UBQLN4" -> "BAG6"
+"UBQLN4" -> "DDI1"
+"VHL" -> "FBXO28"
+"VHL" -> "SDE2"
+"VHL" -> "RUNDC1"
+"VHL" -> "SAP30L"
+"WTAP" -> "FBXO28"
+"WTAP" -> "HMG20A"
+"WTAP" -> "UBQLN1"
+"WTAP" -> "RAD23B"
+"ZCCHC8" -> "GPATCH1"
+"ZCCHC8" -> "TERF1"
+"ZCCHC8" -> "SUDS3"
+"ZCCHC8" -> "CAAP1"
+"ZFPL1" -> "RNF5"
+"ZFPL1" -> "ZNF511"
+"ZFPL1" -> "U2AF1L4"
+"ZFPL1" -> "CAMLG"
+"ZNF511" -> "NANOS2"
+"ZNF511" -> "ZFPL1"
+"ZNF511" -> "GATAD1"
+"ZNF511" -> "TERF1"
+"ZNF576" -> "NANOS2"
+"ZNF576" -> "CISH"
+"ZNF576" -> "ARL14EP"
+"ZNF576" -> "SAP30L"
+}

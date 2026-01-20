@@ -1,0 +1,57 @@
+digraph G {
+"HBA1" ["l"="4.894,-0.968"]
+"HBA2" ["l"="4.896,-0.965"]
+"HBB" ["l"="4.895,-0.963"]
+"HBD" ["l"="4.904,-0.955"]
+"HBE1" ["l"="4.894,-0.963"]
+"HBG1" ["l"="4.894,-0.966"]
+"HBG2" ["l"="4.893,-0.966"]
+"HBM" ["l"="4.899,-0.961"]
+"HBQ1" ["l"="4.896,-0.965"]
+"HBZ" ["l"="4.895,-0.964"]
+"MB" ["l"="4.948,-0.904"]
+"HBA1" -> "HBA2"
+"HBA1" -> "HBG1"
+"HBA1" -> "HBG2"
+"HBA1" -> "HBB"
+"HBA2" -> "HBA1"
+"HBA2" -> "HBG1"
+"HBA2" -> "HBG2"
+"HBA2" -> "HBB"
+"HBB" -> "HBG1"
+"HBB" -> "HBD"
+"HBB" -> "HBG2"
+"HBB" -> "HBA2"
+"HBD" -> "HBB"
+"HBD" -> "HBG1"
+"HBD" -> "HBG2"
+"HBD" -> "HBZ"
+"HBE1" -> "HBZ"
+"HBE1" -> "HBG1"
+"HBE1" -> "HBG2"
+"HBE1" -> "HBA1"
+"HBG1" -> "HBG2"
+"HBG1" -> "HBB"
+"HBG1" -> "HBA2"
+"HBG1" -> "HBA1"
+"HBG2" -> "HBG1"
+"HBG2" -> "HBB"
+"HBG2" -> "HBA1"
+"HBG2" -> "HBA2"
+"HBM" -> "HBZ"
+"HBM" -> "HBQ1"
+"HBM" -> "HBA2"
+"HBM" -> "HBA1"
+"HBQ1" -> "HBM"
+"HBQ1" -> "HBZ"
+"HBQ1" -> "HBA1"
+"HBQ1" -> "HBG1"
+"HBZ" -> "HBE1"
+"HBZ" -> "HBG1"
+"HBZ" -> "HBM"
+"HBZ" -> "HBA2"
+"MB" -> "HBD"
+"MB" -> "HBG1"
+"MB" -> "HBZ"
+"MB" -> "HBB"
+}

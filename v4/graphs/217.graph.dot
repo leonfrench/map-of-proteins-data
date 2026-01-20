@@ -1,0 +1,142 @@
+digraph G {
+"B3GALNT2" ["l"="13.710,0.071"]
+"B3GLCT" ["l"="13.788,0.040"]
+"CHID1" ["l"="13.709,0.128"]
+"EDEM1" ["l"="13.678,0.023"]
+"FKTN" ["l"="13.662,0.193"]
+"FUT4" ["l"="13.805,0.165"]
+"GLTPD2" ["l"="13.682,-0.035"]
+"H6PD" ["l"="13.684,0.041"]
+"HYAL1" ["l"="13.700,0.078"]
+"HYAL3" ["l"="13.817,0.074"]
+"HYAL4" ["l"="13.766,0.057"]
+"IDUA" ["l"="13.611,-0.030"]
+"LCAT" ["l"="13.592,0.103"]
+"MAN1A1" ["l"="13.777,-0.004"]
+"MAN1A2" ["l"="13.667,0.014"]
+"MAN1B1" ["l"="13.710,-0.013"]
+"MAN1C1" ["l"="13.852,0.006"]
+"MOGS" ["l"="13.677,0.116"]
+"MYORG" ["l"="13.731,0.120"]
+"NAGLU" ["l"="13.684,0.127"]
+"NDST2" ["l"="13.777,0.122"]
+"NDST3" ["l"="13.748,0.155"]
+"NDST4" ["l"="13.590,0.231"]
+"NXPE1" ["l"="13.771,-0.019"]
+"NXPE4" ["l"="13.825,0.040"]
+"POGLUT3" ["l"="13.760,-0.081"]
+"SIL1" ["l"="13.619,0.140"]
+"SPAM1" ["l"="13.799,0.071"]
+"B3GALNT2" -> "B3GLCT"
+"B3GALNT2" -> "POGLUT3"
+"B3GALNT2" -> "FKTN"
+"B3GALNT2" -> "EDEM1"
+"B3GLCT" -> "B3GALNT2"
+"B3GLCT" -> "FKTN"
+"B3GLCT" -> "POGLUT3"
+"B3GLCT" -> "NDST3"
+"CHID1" -> "MAN1B1"
+"CHID1" -> "SIL1"
+"CHID1" -> "B3GLCT"
+"CHID1" -> "B3GALNT2"
+"EDEM1" -> "MAN1A1"
+"EDEM1" -> "POGLUT3"
+"EDEM1" -> "MAN1B1"
+"EDEM1" -> "MAN1C1"
+"FKTN" -> "B3GLCT"
+"FKTN" -> "B3GALNT2"
+"FKTN" -> "POGLUT3"
+"FKTN" -> "FUT4"
+"FUT4" -> "POGLUT3"
+"FUT4" -> "MYORG"
+"FUT4" -> "FKTN"
+"FUT4" -> "B3GALNT2"
+"GLTPD2" -> "HYAL1"
+"GLTPD2" -> "HYAL3"
+"GLTPD2" -> "FUT4"
+"GLTPD2" -> "LCAT"
+"H6PD" -> "POGLUT3"
+"H6PD" -> "B3GALNT2"
+"H6PD" -> "MYORG"
+"H6PD" -> "HYAL1"
+"HYAL1" -> "HYAL3"
+"HYAL1" -> "SPAM1"
+"HYAL1" -> "GLTPD2"
+"HYAL1" -> "HYAL4"
+"HYAL3" -> "HYAL1"
+"HYAL3" -> "GLTPD2"
+"HYAL3" -> "SPAM1"
+"HYAL3" -> "HYAL4"
+"HYAL4" -> "SPAM1"
+"HYAL4" -> "NXPE4"
+"HYAL4" -> "NXPE1"
+"HYAL4" -> "HYAL1"
+"IDUA" -> "MOGS"
+"IDUA" -> "NDST2"
+"IDUA" -> "NAGLU"
+"IDUA" -> "EDEM1"
+"LCAT" -> "HYAL1"
+"LCAT" -> "IDUA"
+"LCAT" -> "HYAL3"
+"LCAT" -> "NDST2"
+"MAN1A1" -> "MAN1A2"
+"MAN1A1" -> "EDEM1"
+"MAN1A1" -> "MAN1B1"
+"MAN1A1" -> "MAN1C1"
+"MAN1A2" -> "MAN1A1"
+"MAN1A2" -> "MAN1C1"
+"MAN1A2" -> "MAN1B1"
+"MAN1A2" -> "EDEM1"
+"MAN1B1" -> "EDEM1"
+"MAN1B1" -> "MAN1A1"
+"MAN1B1" -> "MAN1C1"
+"MAN1B1" -> "CHID1"
+"MAN1C1" -> "EDEM1"
+"MAN1C1" -> "MAN1B1"
+"MAN1C1" -> "MAN1A1"
+"MAN1C1" -> "MAN1A2"
+"MOGS" -> "NAGLU"
+"MOGS" -> "MYORG"
+"MOGS" -> "IDUA"
+"MOGS" -> "MAN1B1"
+"MYORG" -> "MOGS"
+"MYORG" -> "NAGLU"
+"MYORG" -> "NDST2"
+"MYORG" -> "FUT4"
+"NAGLU" -> "MOGS"
+"NAGLU" -> "MYORG"
+"NAGLU" -> "IDUA"
+"NAGLU" -> "HYAL1"
+"NDST2" -> "NDST3"
+"NDST2" -> "NDST4"
+"NDST2" -> "IDUA"
+"NDST2" -> "MYORG"
+"NDST3" -> "NDST4"
+"NDST3" -> "NDST2"
+"NDST3" -> "B3GLCT"
+"NDST3" -> "FKTN"
+"NDST4" -> "NDST3"
+"NDST4" -> "NDST2"
+"NDST4" -> "HYAL4"
+"NDST4" -> "SPAM1"
+"NXPE1" -> "NXPE4"
+"NXPE1" -> "HYAL4"
+"NXPE1" -> "SPAM1"
+"NXPE1" -> "HYAL1"
+"NXPE4" -> "NXPE1"
+"NXPE4" -> "HYAL4"
+"NXPE4" -> "SPAM1"
+"NXPE4" -> "HYAL1"
+"POGLUT3" -> "B3GALNT2"
+"POGLUT3" -> "EDEM1"
+"POGLUT3" -> "FUT4"
+"POGLUT3" -> "FKTN"
+"SIL1" -> "CHID1"
+"SIL1" -> "MAN1B1"
+"SIL1" -> "MAN1C1"
+"SIL1" -> "B3GALNT2"
+"SPAM1" -> "HYAL4"
+"SPAM1" -> "HYAL1"
+"SPAM1" -> "NXPE1"
+"SPAM1" -> "NXPE4"
+}

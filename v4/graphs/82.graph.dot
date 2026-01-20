@@ -1,0 +1,72 @@
+digraph G {
+"IGFN1" ["l"="11.339,-1.346"]
+"IGSF22" ["l"="11.349,-1.351"]
+"MYBPC1" ["l"="11.352,-1.360"]
+"MYBPC2" ["l"="11.328,-1.342"]
+"MYBPC3" ["l"="11.309,-1.347"]
+"MYBPH" ["l"="11.319,-1.285"]
+"MYBPHL" ["l"="11.288,-1.283"]
+"MYLK" ["l"="11.300,-1.332"]
+"MYOM1" ["l"="11.287,-1.333"]
+"MYOM2" ["l"="11.312,-1.345"]
+"MYOM3" ["l"="11.316,-1.349"]
+"OBSL1" ["l"="11.313,-1.367"]
+"SPEG" ["l"="11.220,-1.306"]
+"SPEGNB" ["l"="11.321,-1.272"]
+"IGFN1" -> "IGSF22"
+"IGFN1" -> "MYLK"
+"IGFN1" -> "MYBPHL"
+"IGFN1" -> "MYOM2"
+"IGSF22" -> "MYBPC2"
+"IGSF22" -> "MYBPC3"
+"IGSF22" -> "MYBPC1"
+"IGSF22" -> "SPEGNB"
+"MYBPC1" -> "MYBPC2"
+"MYBPC1" -> "MYOM1"
+"MYBPC1" -> "MYBPC3"
+"MYBPC1" -> "IGSF22"
+"MYBPC2" -> "IGSF22"
+"MYBPC2" -> "MYBPC3"
+"MYBPC2" -> "MYBPC1"
+"MYBPC2" -> "MYBPHL"
+"MYBPC3" -> "MYBPC2"
+"MYBPC3" -> "MYOM3"
+"MYBPC3" -> "MYOM1"
+"MYBPC3" -> "IGSF22"
+"MYBPH" -> "MYBPHL"
+"MYBPH" -> "MYBPC2"
+"MYBPH" -> "SPEGNB"
+"MYBPH" -> "IGSF22"
+"MYBPHL" -> "MYBPH"
+"MYBPHL" -> "MYBPC2"
+"MYBPHL" -> "IGSF22"
+"MYBPHL" -> "MYOM2"
+"MYLK" -> "MYOM1"
+"MYLK" -> "MYOM2"
+"MYLK" -> "SPEG"
+"MYLK" -> "IGSF22"
+"MYOM1" -> "MYOM2"
+"MYOM1" -> "MYOM3"
+"MYOM1" -> "MYBPC3"
+"MYOM1" -> "MYBPC1"
+"MYOM2" -> "MYOM3"
+"MYOM2" -> "MYOM1"
+"MYOM2" -> "MYBPC3"
+"MYOM2" -> "MYBPC1"
+"MYOM3" -> "MYOM2"
+"MYOM3" -> "MYOM1"
+"MYOM3" -> "MYBPC3"
+"MYOM3" -> "MYBPC1"
+"OBSL1" -> "SPEG"
+"OBSL1" -> "IGSF22"
+"OBSL1" -> "IGFN1"
+"OBSL1" -> "MYLK"
+"SPEG" -> "OBSL1"
+"SPEG" -> "MYLK"
+"SPEG" -> "MYBPHL"
+"SPEG" -> "MYOM3"
+"SPEGNB" -> "IGSF22"
+"SPEGNB" -> "MYBPC2"
+"SPEGNB" -> "MYBPHL"
+"SPEGNB" -> "MYBPC1"
+}

@@ -1,0 +1,102 @@
+digraph G {
+"MYH1" ["l"="8.802,-1.022"]
+"MYH10" ["l"="8.839,-1.007"]
+"MYH11" ["l"="8.818,-1.023"]
+"MYH13" ["l"="8.801,-1.030"]
+"MYH14" ["l"="8.861,-1.000"]
+"MYH15" ["l"="8.802,-1.017"]
+"MYH2" ["l"="8.806,-1.006"]
+"MYH3" ["l"="8.789,-1.016"]
+"MYH4" ["l"="8.811,-1.011"]
+"MYH6" ["l"="8.758,-1.064"]
+"MYH7" ["l"="8.784,-1.039"]
+"MYH7B" ["l"="8.798,-1.023"]
+"MYH8" ["l"="8.794,-1.037"]
+"MYH9" ["l"="8.852,-1.006"]
+"MYO18A" ["l"="8.814,-1.025"]
+"MYO18B" ["l"="8.802,-1.005"]
+"TPM1" ["l"="8.620,-0.724"]
+"TPM2" ["l"="8.633,-0.757"]
+"TPM3" ["l"="8.613,-0.699"]
+"TPM4" ["l"="8.599,-0.698"]
+"MYH1" -> "MYH2"
+"MYH1" -> "MYH3"
+"MYH1" -> "MYH8"
+"MYH1" -> "MYH7"
+"MYH10" -> "MYH11"
+"MYH10" -> "MYH4"
+"MYH10" -> "MYH9"
+"MYH10" -> "MYH13"
+"MYH11" -> "MYH9"
+"MYH11" -> "MYH3"
+"MYH11" -> "MYH8"
+"MYH11" -> "MYH2"
+"MYH13" -> "MYH4"
+"MYH13" -> "MYH3"
+"MYH13" -> "MYH8"
+"MYH13" -> "MYH6"
+"MYH14" -> "MYH7B"
+"MYH14" -> "MYH11"
+"MYH14" -> "MYH9"
+"MYH14" -> "MYH4"
+"MYH15" -> "MYH4"
+"MYH15" -> "MYH13"
+"MYH15" -> "MYH8"
+"MYH15" -> "MYH7B"
+"MYH2" -> "MYH1"
+"MYH2" -> "MYH8"
+"MYH2" -> "MYH3"
+"MYH2" -> "MYH6"
+"MYH3" -> "MYH8"
+"MYH3" -> "MYH1"
+"MYH3" -> "MYH2"
+"MYH3" -> "MYH6"
+"MYH4" -> "MYH13"
+"MYH4" -> "MYH3"
+"MYH4" -> "MYH8"
+"MYH4" -> "MYH2"
+"MYH6" -> "MYH2"
+"MYH6" -> "MYH3"
+"MYH6" -> "MYH8"
+"MYH6" -> "MYH1"
+"MYH7" -> "MYH1"
+"MYH7" -> "MYH2"
+"MYH7" -> "MYH3"
+"MYH7" -> "MYH6"
+"MYH7B" -> "MYH4"
+"MYH7B" -> "MYH7"
+"MYH7B" -> "MYH2"
+"MYH7B" -> "MYH3"
+"MYH8" -> "MYH3"
+"MYH8" -> "MYH2"
+"MYH8" -> "MYH1"
+"MYH8" -> "MYH6"
+"MYH9" -> "MYH11"
+"MYH9" -> "MYH4"
+"MYH9" -> "MYH10"
+"MYH9" -> "MYH13"
+"MYO18A" -> "MYH14"
+"MYO18A" -> "MYH7B"
+"MYO18A" -> "MYO18B"
+"MYO18A" -> "MYH9"
+"MYO18B" -> "MYH7B"
+"MYO18B" -> "MYO18A"
+"MYO18B" -> "MYH15"
+"MYO18B" -> "MYH4"
+"TPM1" -> "TPM2"
+"TPM1" -> "TPM4"
+"TPM1" -> "TPM3"
+"TPM1" -> "MYH2"
+"TPM2" -> "TPM1"
+"TPM2" -> "TPM4"
+"TPM2" -> "TPM3"
+"TPM2" -> "MYH2"
+"TPM3" -> "TPM4"
+"TPM3" -> "TPM2"
+"TPM3" -> "TPM1"
+"TPM3" -> "MYH4"
+"TPM4" -> "TPM3"
+"TPM4" -> "TPM2"
+"TPM4" -> "TPM1"
+"TPM4" -> "MYH9"
+}

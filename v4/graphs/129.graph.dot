@@ -1,0 +1,87 @@
+digraph G {
+"ABCB10" ["l"="11.128,-2.285"]
+"ABCB6" ["l"="11.035,-2.401"]
+"ABCB8" ["l"="11.084,-2.302"]
+"ABCB9" ["l"="11.015,-2.453"]
+"ADCY2" ["l"="10.989,-2.427"]
+"ADCY3" ["l"="11.055,-2.431"]
+"ADCY4" ["l"="11.047,-2.416"]
+"ADCY5" ["l"="10.990,-2.411"]
+"ADCY6" ["l"="11.011,-2.378"]
+"ADCY7" ["l"="11.025,-2.412"]
+"ADCY8" ["l"="10.996,-2.409"]
+"ADCY9" ["l"="10.964,-2.444"]
+"CNNM1" ["l"="11.046,-2.399"]
+"KCNMA1" ["l"="10.965,-2.443"]
+"KCNT1" ["l"="11.127,-2.432"]
+"TAP1" ["l"="11.124,-2.325"]
+"TAP2" ["l"="11.125,-2.324"]
+"ABCB10" -> "ABCB8"
+"ABCB10" -> "TAP2"
+"ABCB10" -> "TAP1"
+"ABCB10" -> "ABCB6"
+"ABCB6" -> "ABCB9"
+"ABCB6" -> "ABCB8"
+"ABCB6" -> "TAP2"
+"ABCB6" -> "ADCY6"
+"ABCB8" -> "ABCB10"
+"ABCB8" -> "TAP2"
+"ABCB8" -> "ABCB6"
+"ABCB8" -> "ABCB9"
+"ABCB9" -> "ABCB6"
+"ABCB9" -> "ABCB8"
+"ABCB9" -> "ADCY9"
+"ABCB9" -> "TAP2"
+"ADCY2" -> "ADCY8"
+"ADCY2" -> "ADCY6"
+"ADCY2" -> "ADCY7"
+"ADCY2" -> "ADCY9"
+"ADCY3" -> "ADCY5"
+"ADCY3" -> "ADCY7"
+"ADCY3" -> "ADCY8"
+"ADCY3" -> "ADCY9"
+"ADCY4" -> "ADCY7"
+"ADCY4" -> "ADCY6"
+"ADCY4" -> "ADCY3"
+"ADCY4" -> "ADCY2"
+"ADCY5" -> "ADCY6"
+"ADCY5" -> "ADCY3"
+"ADCY5" -> "ADCY8"
+"ADCY5" -> "ADCY7"
+"ADCY6" -> "ADCY7"
+"ADCY6" -> "ADCY5"
+"ADCY6" -> "ADCY4"
+"ADCY6" -> "ADCY2"
+"ADCY7" -> "ADCY6"
+"ADCY7" -> "ADCY4"
+"ADCY7" -> "ADCY3"
+"ADCY7" -> "ADCY5"
+"ADCY8" -> "ADCY2"
+"ADCY8" -> "ADCY5"
+"ADCY8" -> "ADCY3"
+"ADCY8" -> "ADCY6"
+"ADCY9" -> "ADCY3"
+"ADCY9" -> "ADCY5"
+"ADCY9" -> "ABCB9"
+"ADCY9" -> "ADCY2"
+"CNNM1" -> "ADCY9"
+"CNNM1" -> "ADCY5"
+"CNNM1" -> "ABCB9"
+"CNNM1" -> "TAP2"
+"KCNMA1" -> "ADCY2"
+"KCNMA1" -> "KCNT1"
+"KCNMA1" -> "ADCY8"
+"KCNMA1" -> "ADCY9"
+"KCNT1" -> "ADCY3"
+"KCNT1" -> "ADCY9"
+"KCNT1" -> "ADCY7"
+"KCNT1" -> "ADCY5"
+"TAP1" -> "TAP2"
+"TAP1" -> "ABCB8"
+"TAP1" -> "ABCB10"
+"TAP1" -> "ABCB6"
+"TAP2" -> "TAP1"
+"TAP2" -> "ABCB8"
+"TAP2" -> "ABCB10"
+"TAP2" -> "ABCB6"
+}

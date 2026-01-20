@@ -1,0 +1,52 @@
+digraph G {
+"CCT2" ["l"="14.224,2.536"]
+"CCT3" ["l"="14.254,2.552"]
+"CCT4" ["l"="14.235,2.544"]
+"CCT5" ["l"="14.255,2.522"]
+"CCT6A" ["l"="14.226,2.549"]
+"CCT6B" ["l"="14.223,2.542"]
+"CCT7" ["l"="14.249,2.551"]
+"CCT8" ["l"="14.286,2.579"]
+"HSPD1" ["l"="14.267,2.550"]
+"TCP1" ["l"="14.254,2.551"]
+"CCT2" -> "CCT6A"
+"CCT2" -> "CCT5"
+"CCT2" -> "CCT7"
+"CCT2" -> "CCT4"
+"CCT3" -> "CCT4"
+"CCT3" -> "CCT7"
+"CCT3" -> "CCT2"
+"CCT3" -> "CCT5"
+"CCT4" -> "TCP1"
+"CCT4" -> "CCT5"
+"CCT4" -> "CCT3"
+"CCT4" -> "CCT2"
+"CCT5" -> "CCT6A"
+"CCT5" -> "CCT8"
+"CCT5" -> "CCT7"
+"CCT5" -> "CCT4"
+"CCT6A" -> "CCT5"
+"CCT6A" -> "CCT2"
+"CCT6A" -> "CCT4"
+"CCT6A" -> "TCP1"
+"CCT6B" -> "CCT6A"
+"CCT6B" -> "CCT2"
+"CCT6B" -> "CCT5"
+"CCT6B" -> "TCP1"
+"CCT7" -> "CCT5"
+"CCT7" -> "CCT3"
+"CCT7" -> "CCT2"
+"CCT7" -> "CCT4"
+"CCT8" -> "CCT5"
+"CCT8" -> "CCT4"
+"CCT8" -> "CCT2"
+"CCT8" -> "TCP1"
+"HSPD1" -> "CCT2"
+"HSPD1" -> "TCP1"
+"HSPD1" -> "CCT6A"
+"HSPD1" -> "CCT5"
+"TCP1" -> "CCT4"
+"TCP1" -> "CCT5"
+"TCP1" -> "CCT2"
+"TCP1" -> "CCT8"
+}

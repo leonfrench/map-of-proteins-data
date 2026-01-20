@@ -1,0 +1,172 @@
+digraph G {
+"BET1" ["l"="11.198,4.199"]
+"BET1L" ["l"="11.271,4.170"]
+"BNIP1" ["l"="11.257,4.124"]
+"CCDC167" ["l"="11.297,4.109"]
+"CHMP4C" ["l"="11.329,4.099"]
+"GOSR1" ["l"="11.286,4.173"]
+"GOSR2" ["l"="11.301,4.164"]
+"SELENOK" ["l"="10.945,4.101"]
+"SNAP23" ["l"="11.292,4.196"]
+"SNAP25" ["l"="11.292,4.246"]
+"SNAP29" ["l"="11.279,4.129"]
+"STX10" ["l"="11.233,4.147"]
+"STX11" ["l"="11.312,4.146"]
+"STX12" ["l"="11.331,4.150"]
+"STX16" ["l"="11.306,4.171"]
+"STX18" ["l"="11.274,4.156"]
+"STX19" ["l"="11.275,4.130"]
+"STX1A" ["l"="11.310,4.215"]
+"STX1B" ["l"="11.303,4.248"]
+"STX2" ["l"="11.296,4.183"]
+"STX3" ["l"="11.307,4.225"]
+"STX4" ["l"="11.269,4.177"]
+"STX5" ["l"="11.257,4.192"]
+"STX6" ["l"="11.290,4.166"]
+"STX8" ["l"="11.290,4.215"]
+"USE1" ["l"="11.246,4.169"]
+"VAMP1" ["l"="11.224,4.270"]
+"VAMP2" ["l"="11.226,4.279"]
+"VAMP3" ["l"="11.287,4.245"]
+"VAMP4" ["l"="11.267,4.218"]
+"VAMP5" ["l"="11.271,4.278"]
+"VAMP8" ["l"="11.268,4.287"]
+"VTI1A" ["l"="11.292,4.225"]
+"VTI1B" ["l"="11.275,4.183"]
+"BET1" -> "BET1L"
+"BET1" -> "VAMP4"
+"BET1" -> "VTI1B"
+"BET1" -> "GOSR1"
+"BET1L" -> "VTI1B"
+"BET1L" -> "BET1"
+"BET1L" -> "SNAP29"
+"BET1L" -> "GOSR1"
+"BNIP1" -> "GOSR1"
+"BNIP1" -> "USE1"
+"BNIP1" -> "STX10"
+"BNIP1" -> "GOSR2"
+"CCDC167" -> "VTI1B"
+"CCDC167" -> "VAMP5"
+"CCDC167" -> "BET1L"
+"CCDC167" -> "BNIP1"
+"CHMP4C" -> "STX12"
+"CHMP4C" -> "VTI1B"
+"CHMP4C" -> "SNAP29"
+"CHMP4C" -> "GOSR1"
+"GOSR1" -> "BNIP1"
+"GOSR1" -> "VTI1B"
+"GOSR1" -> "STX6"
+"GOSR1" -> "VTI1A"
+"GOSR2" -> "GOSR1"
+"GOSR2" -> "BNIP1"
+"GOSR2" -> "VTI1B"
+"GOSR2" -> "VTI1A"
+"SELENOK" -> "BET1"
+"SELENOK" -> "VAMP4"
+"SELENOK" -> "BET1L"
+"SELENOK" -> "VAMP1"
+"SNAP23" -> "SNAP25"
+"SNAP23" -> "STX12"
+"SNAP23" -> "SNAP29"
+"SNAP23" -> "VTI1B"
+"SNAP25" -> "SNAP23"
+"SNAP25" -> "VTI1A"
+"SNAP25" -> "STX3"
+"SNAP25" -> "STX8"
+"SNAP29" -> "VTI1B"
+"SNAP29" -> "BET1L"
+"SNAP29" -> "GOSR1"
+"SNAP29" -> "BNIP1"
+"STX10" -> "STX6"
+"STX10" -> "BNIP1"
+"STX10" -> "USE1"
+"STX10" -> "GOSR1"
+"STX11" -> "STX16"
+"STX11" -> "STX12"
+"STX11" -> "STX19"
+"STX11" -> "STX4"
+"STX12" -> "STX6"
+"STX12" -> "STX16"
+"STX12" -> "STX5"
+"STX12" -> "STX3"
+"STX16" -> "STX12"
+"STX16" -> "STX6"
+"STX16" -> "VTI1B"
+"STX16" -> "STX3"
+"STX18" -> "GOSR1"
+"STX18" -> "SNAP29"
+"STX18" -> "STX6"
+"STX18" -> "STX10"
+"STX19" -> "STX11"
+"STX19" -> "STX12"
+"STX19" -> "STX2"
+"STX19" -> "STX4"
+"STX1A" -> "STX1B"
+"STX1A" -> "STX3"
+"STX1A" -> "STX2"
+"STX1A" -> "STX12"
+"STX1B" -> "STX1A"
+"STX1B" -> "STX3"
+"STX1B" -> "STX2"
+"STX1B" -> "VAMP1"
+"STX2" -> "STX3"
+"STX2" -> "STX1A"
+"STX2" -> "STX12"
+"STX2" -> "STX4"
+"STX3" -> "STX2"
+"STX3" -> "STX1A"
+"STX3" -> "STX1B"
+"STX3" -> "STX12"
+"STX4" -> "STX12"
+"STX4" -> "STX2"
+"STX4" -> "STX5"
+"STX4" -> "STX10"
+"STX5" -> "STX12"
+"STX5" -> "STX6"
+"STX5" -> "STX4"
+"STX5" -> "STX10"
+"STX6" -> "GOSR1"
+"STX6" -> "STX10"
+"STX6" -> "STX12"
+"STX6" -> "BNIP1"
+"STX8" -> "STX10"
+"STX8" -> "VTI1A"
+"STX8" -> "BNIP1"
+"STX8" -> "SNAP25"
+"USE1" -> "BNIP1"
+"USE1" -> "STX10"
+"USE1" -> "GOSR1"
+"USE1" -> "STX6"
+"VAMP1" -> "VAMP2"
+"VAMP1" -> "VAMP4"
+"VAMP1" -> "VAMP3"
+"VAMP1" -> "STX1B"
+"VAMP2" -> "VAMP1"
+"VAMP2" -> "VAMP3"
+"VAMP2" -> "VAMP4"
+"VAMP2" -> "BET1L"
+"VAMP3" -> "VAMP1"
+"VAMP3" -> "VAMP2"
+"VAMP3" -> "VAMP4"
+"VAMP3" -> "VAMP8"
+"VAMP4" -> "VAMP1"
+"VAMP4" -> "BET1"
+"VAMP4" -> "VTI1B"
+"VAMP4" -> "VAMP3"
+"VAMP5" -> "VAMP8"
+"VAMP5" -> "VAMP3"
+"VAMP5" -> "STX4"
+"VAMP5" -> "VAMP1"
+"VAMP8" -> "VAMP5"
+"VAMP8" -> "VAMP3"
+"VAMP8" -> "VAMP1"
+"VAMP8" -> "BET1L"
+"VTI1A" -> "VTI1B"
+"VTI1A" -> "GOSR1"
+"VTI1A" -> "BNIP1"
+"VTI1A" -> "STX8"
+"VTI1B" -> "GOSR1"
+"VTI1B" -> "VTI1A"
+"VTI1B" -> "BET1L"
+"VTI1B" -> "SNAP29"
+}

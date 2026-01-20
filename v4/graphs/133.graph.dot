@@ -1,0 +1,297 @@
+digraph G {
+"ANO8" ["l"="10.758,-2.348"]
+"ATG9A" ["l"="10.587,-2.237"]
+"ATG9B" ["l"="10.566,-2.234"]
+"BVES" ["l"="10.631,-2.217"]
+"CACNG8" ["l"="10.448,-2.154"]
+"CNGA1" ["l"="10.789,-2.051"]
+"CNGA3" ["l"="10.751,-2.179"]
+"CNGA4" ["l"="10.759,-2.127"]
+"CNGB3" ["l"="10.785,-2.201"]
+"CNNM4" ["l"="10.900,-2.327"]
+"DAGLA" ["l"="10.418,-2.042"]
+"GPR153" ["l"="10.405,-2.018"]
+"GPR158" ["l"="10.834,-2.248"]
+"HCN1" ["l"="10.873,-2.295"]
+"HCN2" ["l"="10.695,-2.235"]
+"HCN3" ["l"="10.597,-2.175"]
+"HCN4" ["l"="10.691,-2.157"]
+"KCNB1" ["l"="10.806,-2.298"]
+"KCNB2" ["l"="10.840,-2.299"]
+"KCNC2" ["l"="10.821,-2.426"]
+"KCNC3" ["l"="10.744,-2.360"]
+"KCND2" ["l"="10.959,-2.325"]
+"KCND3" ["l"="10.908,-2.321"]
+"KCNH1" ["l"="10.826,-2.301"]
+"KCNH2" ["l"="10.793,-2.267"]
+"KCNH3" ["l"="10.802,-2.246"]
+"KCNH4" ["l"="10.758,-2.236"]
+"KCNH5" ["l"="10.864,-2.317"]
+"KCNH6" ["l"="10.822,-2.248"]
+"KCNH7" ["l"="10.843,-2.316"]
+"KCNH8" ["l"="10.750,-2.263"]
+"KCNJ1" ["l"="10.804,-2.115"]
+"KCNJ10" ["l"="10.764,-2.046"]
+"KCNJ11" ["l"="10.781,-2.087"]
+"KCNJ12" ["l"="10.707,-2.135"]
+"KCNJ13" ["l"="10.815,-2.078"]
+"KCNJ14" ["l"="10.721,-2.092"]
+"KCNJ15" ["l"="10.818,-2.107"]
+"KCNJ16" ["l"="10.812,-2.090"]
+"KCNJ18" ["l"="10.770,-2.077"]
+"KCNJ2" ["l"="10.795,-2.016"]
+"KCNJ3" ["l"="10.808,-2.192"]
+"KCNJ4" ["l"="10.769,-2.030"]
+"KCNJ5" ["l"="10.720,-2.189"]
+"KCNJ8" ["l"="10.800,-2.099"]
+"KCNJ9" ["l"="10.723,-2.101"]
+"KCNK3" ["l"="10.514,-2.303"]
+"KCNK5" ["l"="10.525,-2.194"]
+"KCNK9" ["l"="10.460,-2.290"]
+"KCNN2" ["l"="10.772,-2.382"]
+"KCNQ1" ["l"="10.756,-2.278"]
+"KCNQ2" ["l"="10.792,-2.293"]
+"KCNQ3" ["l"="10.867,-2.308"]
+"KCNQ4" ["l"="10.728,-2.324"]
+"KCNQ5" ["l"="10.805,-2.308"]
+"PANX2" ["l"="10.401,-2.021"]
+"POPDC2" ["l"="10.547,-2.222"]
+"POPDC3" ["l"="10.656,-2.220"]
+"TMEM266" ["l"="10.495,-2.250"]
+"ANO8" -> "HCN3"
+"ANO8" -> "KCNC3"
+"ANO8" -> "ATG9A"
+"ANO8" -> "HCN4"
+"ATG9A" -> "HCN3"
+"ATG9A" -> "DAGLA"
+"ATG9A" -> "PANX2"
+"ATG9A" -> "KCNH4"
+"ATG9B" -> "ATG9A"
+"ATG9B" -> "PANX2"
+"ATG9B" -> "HCN3"
+"ATG9B" -> "KCNH4"
+"BVES" -> "POPDC3"
+"BVES" -> "POPDC2"
+"BVES" -> "CNNM4"
+"BVES" -> "KCNH5"
+"CACNG8" -> "KCNC3"
+"CACNG8" -> "KCNK3"
+"CACNG8" -> "KCNQ2"
+"CACNG8" -> "KCNK9"
+"CNGA1" -> "CNGB3"
+"CNGA1" -> "KCNJ1"
+"CNGA1" -> "CNGA3"
+"CNGA1" -> "KCNJ14"
+"CNGA3" -> "CNGA4"
+"CNGA3" -> "CNGB3"
+"CNGA3" -> "KCNH1"
+"CNGA3" -> "KCNJ18"
+"CNGA4" -> "CNGA3"
+"CNGA4" -> "KCNJ11"
+"CNGA4" -> "BVES"
+"CNGA4" -> "KCNJ18"
+"CNGB3" -> "KCNH5"
+"CNGB3" -> "CNGA3"
+"CNGB3" -> "HCN1"
+"CNGB3" -> "CNGA1"
+"CNNM4" -> "KCNJ11"
+"CNNM4" -> "KCNJ10"
+"CNNM4" -> "KCNJ9"
+"CNNM4" -> "KCNJ1"
+"DAGLA" -> "PANX2"
+"DAGLA" -> "GPR153"
+"DAGLA" -> "HCN3"
+"DAGLA" -> "KCNQ4"
+"GPR153" -> "PANX2"
+"GPR153" -> "DAGLA"
+"GPR153" -> "HCN3"
+"GPR153" -> "HCN4"
+"GPR158" -> "KCNH5"
+"GPR158" -> "KCNQ5"
+"GPR158" -> "KCNJ3"
+"GPR158" -> "KCND2"
+"HCN1" -> "KCNJ3"
+"HCN1" -> "KCNH5"
+"HCN1" -> "KCNQ5"
+"HCN1" -> "KCNQ3"
+"HCN2" -> "HCN3"
+"HCN2" -> "HCN4"
+"HCN2" -> "PANX2"
+"HCN2" -> "HCN1"
+"HCN3" -> "HCN4"
+"HCN3" -> "HCN2"
+"HCN3" -> "KCNH4"
+"HCN3" -> "KCNQ4"
+"HCN4" -> "HCN3"
+"HCN4" -> "HCN2"
+"HCN4" -> "KCNC3"
+"HCN4" -> "KCNQ4"
+"KCNB1" -> "KCND3"
+"KCNB1" -> "KCNH1"
+"KCNB1" -> "KCNJ3"
+"KCNB1" -> "KCNB2"
+"KCNB2" -> "KCNB1"
+"KCNB2" -> "KCND2"
+"KCNB2" -> "KCND3"
+"KCNB2" -> "KCNH5"
+"KCNC2" -> "KCND2"
+"KCNC2" -> "HCN1"
+"KCNC2" -> "KCND3"
+"KCNC2" -> "KCNQ3"
+"KCNC3" -> "HCN4"
+"KCNC3" -> "KCNQ4"
+"KCNC3" -> "KCNC2"
+"KCNC3" -> "HCN2"
+"KCND2" -> "KCND3"
+"KCND2" -> "KCNH5"
+"KCND2" -> "KCNH7"
+"KCND2" -> "KCNC2"
+"KCND3" -> "KCNB1"
+"KCND3" -> "KCND2"
+"KCND3" -> "KCNH1"
+"KCND3" -> "KCNQ3"
+"KCNH1" -> "KCNH5"
+"KCNH1" -> "KCNH8"
+"KCNH1" -> "KCNH6"
+"KCNH1" -> "KCNB1"
+"KCNH2" -> "KCNH4"
+"KCNH2" -> "KCNH6"
+"KCNH2" -> "KCNQ4"
+"KCNH2" -> "KCNH3"
+"KCNH3" -> "KCNH4"
+"KCNH3" -> "HCN3"
+"KCNH3" -> "KCNH6"
+"KCNH3" -> "ATG9A"
+"KCNH4" -> "KCNH3"
+"KCNH4" -> "KCNH6"
+"KCNH4" -> "HCN3"
+"KCNH4" -> "KCNH1"
+"KCNH5" -> "KCNH8"
+"KCNH5" -> "KCNH1"
+"KCNH5" -> "KCNH7"
+"KCNH5" -> "KCNH6"
+"KCNH6" -> "KCNH4"
+"KCNH6" -> "KCNH5"
+"KCNH6" -> "KCNH1"
+"KCNH6" -> "KCNJ12"
+"KCNH7" -> "KCNH5"
+"KCNH7" -> "KCNH8"
+"KCNH7" -> "KCNH1"
+"KCNH7" -> "KCND2"
+"KCNH8" -> "KCNH5"
+"KCNH8" -> "KCNH7"
+"KCNH8" -> "KCNH1"
+"KCNH8" -> "HCN1"
+"KCNJ1" -> "KCNJ16"
+"KCNJ1" -> "KCNJ15"
+"KCNJ1" -> "KCNJ5"
+"KCNJ1" -> "KCNJ10"
+"KCNJ10" -> "KCNJ11"
+"KCNJ10" -> "KCNJ12"
+"KCNJ10" -> "KCNJ5"
+"KCNJ10" -> "KCNJ13"
+"KCNJ11" -> "KCNJ18"
+"KCNJ11" -> "KCNJ12"
+"KCNJ11" -> "KCNJ10"
+"KCNJ11" -> "KCNJ9"
+"KCNJ12" -> "KCNJ18"
+"KCNJ12" -> "KCNJ9"
+"KCNJ12" -> "KCNJ2"
+"KCNJ12" -> "KCNJ11"
+"KCNJ13" -> "KCNJ10"
+"KCNJ13" -> "KCNJ16"
+"KCNJ13" -> "KCNJ15"
+"KCNJ13" -> "KCNJ1"
+"KCNJ14" -> "KCNJ9"
+"KCNJ14" -> "KCNJ12"
+"KCNJ14" -> "KCNJ18"
+"KCNJ14" -> "KCNJ4"
+"KCNJ15" -> "KCNJ5"
+"KCNJ15" -> "KCNJ16"
+"KCNJ15" -> "KCNJ1"
+"KCNJ15" -> "KCNJ10"
+"KCNJ16" -> "KCNJ1"
+"KCNJ16" -> "KCNJ15"
+"KCNJ16" -> "KCNJ13"
+"KCNJ16" -> "KCNJ4"
+"KCNJ18" -> "KCNJ12"
+"KCNJ18" -> "KCNJ11"
+"KCNJ18" -> "KCNJ4"
+"KCNJ18" -> "KCNJ2"
+"KCNJ2" -> "KCNJ12"
+"KCNJ2" -> "KCNJ18"
+"KCNJ2" -> "KCNJ10"
+"KCNJ2" -> "KCNJ5"
+"KCNJ3" -> "HCN1"
+"KCNJ3" -> "KCNJ5"
+"KCNJ3" -> "KCNB1"
+"KCNJ3" -> "KCNJ12"
+"KCNJ4" -> "KCNJ18"
+"KCNJ4" -> "KCNJ9"
+"KCNJ4" -> "KCNJ12"
+"KCNJ4" -> "KCNJ14"
+"KCNJ5" -> "KCNJ10"
+"KCNJ5" -> "KCNJ12"
+"KCNJ5" -> "KCNJ15"
+"KCNJ5" -> "KCNJ18"
+"KCNJ8" -> "KCNJ11"
+"KCNJ8" -> "KCNJ10"
+"KCNJ8" -> "KCNJ18"
+"KCNJ8" -> "KCNJ1"
+"KCNJ9" -> "KCNJ12"
+"KCNJ9" -> "KCNJ14"
+"KCNJ9" -> "KCNJ4"
+"KCNJ9" -> "KCNJ11"
+"KCNK3" -> "KCNK9"
+"KCNK3" -> "KCNQ4"
+"KCNK3" -> "KCNJ5"
+"KCNK3" -> "KCNJ12"
+"KCNK5" -> "KCNK9"
+"KCNK5" -> "KCNJ12"
+"KCNK5" -> "KCNJ5"
+"KCNK5" -> "KCNJ10"
+"KCNK9" -> "KCNK3"
+"KCNK9" -> "KCNQ4"
+"KCNK9" -> "KCNK5"
+"KCNK9" -> "KCNJ12"
+"KCNN2" -> "HCN1"
+"KCNN2" -> "KCNQ5"
+"KCNN2" -> "KCNC2"
+"KCNN2" -> "KCNJ3"
+"KCNQ1" -> "KCNQ4"
+"KCNQ1" -> "KCNQ3"
+"KCNQ1" -> "HCN3"
+"KCNQ1" -> "KCNQ5"
+"KCNQ2" -> "KCNQ4"
+"KCNQ2" -> "KCNQ3"
+"KCNQ2" -> "KCNB1"
+"KCNQ2" -> "KCND3"
+"KCNQ3" -> "KCNQ5"
+"KCNQ3" -> "KCNQ4"
+"KCNQ3" -> "KCNQ1"
+"KCNQ3" -> "KCNB1"
+"KCNQ4" -> "KCNQ1"
+"KCNQ4" -> "KCNQ2"
+"KCNQ4" -> "KCNK9"
+"KCNQ4" -> "KCNQ3"
+"KCNQ5" -> "KCNQ3"
+"KCNQ5" -> "KCNQ4"
+"KCNQ5" -> "HCN1"
+"KCNQ5" -> "KCNQ1"
+"PANX2" -> "DAGLA"
+"PANX2" -> "HCN3"
+"PANX2" -> "GPR153"
+"PANX2" -> "HCN2"
+"POPDC2" -> "POPDC3"
+"POPDC2" -> "BVES"
+"POPDC2" -> "KCNJ14"
+"POPDC2" -> "CNNM4"
+"POPDC3" -> "BVES"
+"POPDC3" -> "POPDC2"
+"POPDC3" -> "CNNM4"
+"POPDC3" -> "KCNH1"
+"TMEM266" -> "KCNK5"
+"TMEM266" -> "KCNH5"
+"TMEM266" -> "KCNQ4"
+"TMEM266" -> "KCNK9"
+}

@@ -1,0 +1,377 @@
+digraph G {
+"ADAT1" ["l"="11.421,2.112"]
+"AEN" ["l"="11.445,2.318"]
+"AP1M2" ["l"="11.478,2.159"]
+"AP2M1" ["l"="11.457,2.317"]
+"AP3M1" ["l"="11.361,2.296"]
+"AP3M2" ["l"="11.363,2.342"]
+"AP4M1" ["l"="11.482,2.126"]
+"ARHGDIA" ["l"="11.428,2.405"]
+"ARPC2" ["l"="11.429,2.411"]
+"ASB17" ["l"="11.290,2.341"]
+"CAPZA3" ["l"="11.276,2.251"]
+"CAPZB" ["l"="11.408,2.403"]
+"CCNH" ["l"="11.305,2.264"]
+"CFAP161" ["l"="11.705,2.300"]
+"CFAP20" ["l"="11.534,2.343"]
+"CLIC1" ["l"="11.437,2.284"]
+"CLIC3" ["l"="11.399,2.306"]
+"CLIC4" ["l"="11.339,2.136"]
+"CNRIP1" ["l"="11.369,2.469"]
+"COPS6" ["l"="11.482,2.309"]
+"DDX49" ["l"="11.542,2.242"]
+"DDX55" ["l"="11.566,2.174"]
+"DRG1" ["l"="11.519,2.086"]
+"DSCC1" ["l"="11.339,2.474"]
+"EIF2B4" ["l"="11.611,2.335"]
+"EIF3B" ["l"="11.457,2.162"]
+"ETF1" ["l"="11.628,2.209"]
+"ETNK1" ["l"="11.428,2.042"]
+"FAXC" ["l"="11.465,2.263"]
+"GCLM" ["l"="11.400,2.388"]
+"GDAP1" ["l"="11.381,2.263"]
+"GDAP1L1" ["l"="11.610,2.293"]
+"HAT1" ["l"="11.554,2.335"]
+"HINT3" ["l"="11.329,2.361"]
+"ILF2" ["l"="11.489,2.202"]
+"IMPACT" ["l"="11.273,2.306"]
+"IRAK1BP1" ["l"="11.573,2.237"]
+"LRAT" ["l"="11.594,2.334"]
+"MAD2L1BP" ["l"="11.407,2.442"]
+"METTL16" ["l"="11.606,2.287"]
+"MTERF4" ["l"="11.419,2.436"]
+"MTX2" ["l"="11.548,2.281"]
+"MTX3" ["l"="11.440,2.143"]
+"NAA50" ["l"="11.453,2.238"]
+"NOC4L" ["l"="11.453,2.317"]
+"NOCT" ["l"="11.380,2.368"]
+"ORC6" ["l"="11.330,2.486"]
+"PCNA" ["l"="11.577,2.369"]
+"PDCD2L" ["l"="11.455,2.252"]
+"POLR1E" ["l"="11.432,2.181"]
+"POLR3F" ["l"="11.315,2.396"]
+"PRKRA" ["l"="11.637,2.335"]
+"PRPF31" ["l"="11.516,2.067"]
+"PSMD4" ["l"="11.477,2.345"]
+"PTP4A1" ["l"="11.622,2.386"]
+"RAD9A" ["l"="11.391,2.468"]
+"RAD9B" ["l"="11.387,2.386"]
+"RDM1" ["l"="11.366,2.295"]
+"RNMT" ["l"="11.381,2.397"]
+"RO60" ["l"="11.461,2.271"]
+"RPA2" ["l"="11.659,2.290"]
+"RRAGD" ["l"="11.265,2.261"]
+"SPRYD3" ["l"="11.588,2.089"]
+"SPSB2" ["l"="11.511,2.241"]
+"STYX" ["l"="11.640,2.430"]
+"TARBP2" ["l"="11.601,2.287"]
+"TBPL1" ["l"="11.380,2.403"]
+"TEX47" ["l"="11.496,2.077"]
+"THUMPD3" ["l"="11.579,2.150"]
+"TRMO" ["l"="11.525,2.289"]
+"TRMT6" ["l"="11.452,2.215"]
+"VPS26A" ["l"="11.436,2.174"]
+"VPS26B" ["l"="11.329,2.273"]
+"VPS36" ["l"="11.349,2.369"]
+"YOD1" ["l"="11.403,2.079"]
+"ADAT1" -> "METTL16"
+"ADAT1" -> "STYX"
+"ADAT1" -> "POLR1E"
+"ADAT1" -> "AEN"
+"AEN" -> "METTL16"
+"AEN" -> "ADAT1"
+"AEN" -> "MAD2L1BP"
+"AEN" -> "STYX"
+"AP1M2" -> "AP2M1"
+"AP1M2" -> "AP3M2"
+"AP1M2" -> "ETF1"
+"AP1M2" -> "AP3M1"
+"AP2M1" -> "AP3M2"
+"AP2M1" -> "AP3M1"
+"AP2M1" -> "AP1M2"
+"AP2M1" -> "VPS26B"
+"AP3M1" -> "AP3M2"
+"AP3M1" -> "AP4M1"
+"AP3M1" -> "VPS26B"
+"AP3M1" -> "AP2M1"
+"AP3M2" -> "AP3M1"
+"AP3M2" -> "AP4M1"
+"AP3M2" -> "VPS26B"
+"AP3M2" -> "AP2M1"
+"AP4M1" -> "AP3M2"
+"AP4M1" -> "AP3M1"
+"AP4M1" -> "RAD9A"
+"AP4M1" -> "VPS26B"
+"ARHGDIA" -> "VPS26A"
+"ARHGDIA" -> "AP1M2"
+"ARHGDIA" -> "AP3M2"
+"ARHGDIA" -> "CAPZB"
+"ARPC2" -> "VPS26B"
+"ARPC2" -> "CAPZB"
+"ARPC2" -> "VPS26A"
+"ARPC2" -> "ETF1"
+"ASB17" -> "CAPZA3"
+"ASB17" -> "TEX47"
+"ASB17" -> "STYX"
+"ASB17" -> "GCLM"
+"CAPZA3" -> "TEX47"
+"CAPZA3" -> "ASB17"
+"CAPZA3" -> "MAD2L1BP"
+"CAPZA3" -> "STYX"
+"CAPZB" -> "ARPC2"
+"CAPZB" -> "VPS26B"
+"CAPZB" -> "ARHGDIA"
+"CAPZB" -> "VPS26A"
+"CCNH" -> "MAD2L1BP"
+"CCNH" -> "HAT1"
+"CCNH" -> "POLR1E"
+"CCNH" -> "NOC4L"
+"CFAP161" -> "STYX"
+"CFAP161" -> "METTL16"
+"CFAP161" -> "ADAT1"
+"CFAP161" -> "TRMT6"
+"CFAP20" -> "AP3M2"
+"CFAP20" -> "DRG1"
+"CFAP20" -> "AP2M1"
+"CFAP20" -> "VPS26B"
+"CLIC1" -> "CLIC4"
+"CLIC1" -> "CLIC3"
+"CLIC1" -> "MTX3"
+"CLIC1" -> "GDAP1"
+"CLIC3" -> "CLIC1"
+"CLIC3" -> "MTX3"
+"CLIC3" -> "CLIC4"
+"CLIC3" -> "GDAP1"
+"CLIC4" -> "MTX3"
+"CLIC4" -> "CLIC1"
+"CLIC4" -> "LRAT"
+"CLIC4" -> "CLIC3"
+"CNRIP1" -> "GCLM"
+"CNRIP1" -> "VPS26B"
+"CNRIP1" -> "TBPL1"
+"CNRIP1" -> "VPS26A"
+"COPS6" -> "PSMD4"
+"COPS6" -> "PRPF31"
+"COPS6" -> "ETF1"
+"COPS6" -> "AP3M1"
+"DDX49" -> "DDX55"
+"DDX49" -> "DRG1"
+"DDX49" -> "PRPF31"
+"DDX49" -> "POLR1E"
+"DDX55" -> "DDX49"
+"DDX55" -> "DRG1"
+"DDX55" -> "TRMT6"
+"DDX55" -> "POLR1E"
+"DRG1" -> "DDX49"
+"DRG1" -> "ETF1"
+"DRG1" -> "CFAP20"
+"DRG1" -> "PRPF31"
+"DSCC1" -> "POLR3F"
+"DSCC1" -> "POLR1E"
+"DSCC1" -> "RPA2"
+"DSCC1" -> "VPS36"
+"EIF2B4" -> "AEN"
+"EIF2B4" -> "TARBP2"
+"EIF2B4" -> "DDX49"
+"EIF2B4" -> "TRMT6"
+"EIF3B" -> "ETF1"
+"EIF3B" -> "RRAGD"
+"EIF3B" -> "ETNK1"
+"EIF3B" -> "METTL16"
+"ETF1" -> "NAA50"
+"ETF1" -> "VPS26A"
+"ETF1" -> "DRG1"
+"ETF1" -> "AP3M1"
+"ETNK1" -> "HINT3"
+"ETNK1" -> "VPS26B"
+"ETNK1" -> "RRAGD"
+"ETNK1" -> "VPS26A"
+"FAXC" -> "GDAP1L1"
+"FAXC" -> "GDAP1"
+"FAXC" -> "MTX3"
+"FAXC" -> "CLIC4"
+"GCLM" -> "MTX3"
+"GCLM" -> "CNRIP1"
+"GCLM" -> "STYX"
+"GCLM" -> "HINT3"
+"GDAP1" -> "GDAP1L1"
+"GDAP1" -> "MTX3"
+"GDAP1" -> "FAXC"
+"GDAP1" -> "IRAK1BP1"
+"GDAP1L1" -> "GDAP1"
+"GDAP1L1" -> "FAXC"
+"GDAP1L1" -> "MTX3"
+"GDAP1L1" -> "LRAT"
+"HAT1" -> "CCNH"
+"HAT1" -> "VPS26A"
+"HAT1" -> "DRG1"
+"HAT1" -> "POLR1E"
+"HINT3" -> "IMPACT"
+"HINT3" -> "MTX3"
+"HINT3" -> "ETNK1"
+"HINT3" -> "STYX"
+"ILF2" -> "DRG1"
+"ILF2" -> "COPS6"
+"ILF2" -> "PSMD4"
+"ILF2" -> "ETF1"
+"IMPACT" -> "STYX"
+"IMPACT" -> "THUMPD3"
+"IMPACT" -> "METTL16"
+"IMPACT" -> "HINT3"
+"IRAK1BP1" -> "RDM1"
+"IRAK1BP1" -> "GDAP1"
+"IRAK1BP1" -> "STYX"
+"IRAK1BP1" -> "MAD2L1BP"
+"LRAT" -> "STYX"
+"LRAT" -> "YOD1"
+"LRAT" -> "CLIC4"
+"LRAT" -> "GDAP1"
+"MAD2L1BP" -> "TARBP2"
+"MAD2L1BP" -> "TEX47"
+"MAD2L1BP" -> "AEN"
+"MAD2L1BP" -> "POLR1E"
+"METTL16" -> "ADAT1"
+"METTL16" -> "THUMPD3"
+"METTL16" -> "TRMO"
+"METTL16" -> "IMPACT"
+"MTERF4" -> "METTL16"
+"MTERF4" -> "MAD2L1BP"
+"MTERF4" -> "IRAK1BP1"
+"MTERF4" -> "FAXC"
+"MTX2" -> "MTX3"
+"MTX2" -> "GDAP1"
+"MTX2" -> "GDAP1L1"
+"MTX2" -> "GCLM"
+"MTX3" -> "CLIC4"
+"MTX3" -> "GDAP1"
+"MTX3" -> "GCLM"
+"MTX3" -> "FAXC"
+"NAA50" -> "ETF1"
+"NAA50" -> "VPS26A"
+"NAA50" -> "VPS26B"
+"NAA50" -> "POLR3F"
+"NOC4L" -> "DDX49"
+"NOC4L" -> "CCNH"
+"NOC4L" -> "POLR1E"
+"NOC4L" -> "MAD2L1BP"
+"NOCT" -> "AEN"
+"NOCT" -> "ETNK1"
+"NOCT" -> "MAD2L1BP"
+"NOCT" -> "METTL16"
+"ORC6" -> "RDM1"
+"ORC6" -> "CCNH"
+"ORC6" -> "IRAK1BP1"
+"ORC6" -> "RAD9B"
+"PCNA" -> "RPA2"
+"PCNA" -> "RAD9B"
+"PCNA" -> "RAD9A"
+"PCNA" -> "CNRIP1"
+"PDCD2L" -> "MAD2L1BP"
+"PDCD2L" -> "METTL16"
+"PDCD2L" -> "POLR3F"
+"PDCD2L" -> "CFAP161"
+"POLR1E" -> "DSCC1"
+"POLR1E" -> "ADAT1"
+"POLR1E" -> "METTL16"
+"POLR1E" -> "MAD2L1BP"
+"POLR3F" -> "DSCC1"
+"POLR3F" -> "VPS36"
+"POLR3F" -> "ETF1"
+"POLR3F" -> "MAD2L1BP"
+"PRKRA" -> "TARBP2"
+"PRKRA" -> "POLR3F"
+"PRKRA" -> "TBPL1"
+"PRKRA" -> "RDM1"
+"PRPF31" -> "COPS6"
+"PRPF31" -> "DRG1"
+"PRPF31" -> "DDX49"
+"PRPF31" -> "POLR1E"
+"PSMD4" -> "COPS6"
+"PSMD4" -> "AP1M2"
+"PSMD4" -> "ILF2"
+"PSMD4" -> "ETF1"
+"PTP4A1" -> "YOD1"
+"PTP4A1" -> "STYX"
+"PTP4A1" -> "ETF1"
+"PTP4A1" -> "MTX3"
+"RAD9A" -> "RAD9B"
+"RAD9A" -> "AP4M1"
+"RAD9A" -> "METTL16"
+"RAD9A" -> "RPA2"
+"RAD9B" -> "RAD9A"
+"RAD9B" -> "PCNA"
+"RAD9B" -> "TBPL1"
+"RAD9B" -> "AP4M1"
+"RDM1" -> "IRAK1BP1"
+"RDM1" -> "TARBP2"
+"RDM1" -> "MAD2L1BP"
+"RDM1" -> "METTL16"
+"RNMT" -> "METTL16"
+"RNMT" -> "THUMPD3"
+"RNMT" -> "TRMT6"
+"RNMT" -> "IMPACT"
+"RO60" -> "VPS36"
+"RO60" -> "CLIC4"
+"RO60" -> "YOD1"
+"RO60" -> "ETF1"
+"RPA2" -> "PCNA"
+"RPA2" -> "POLR3F"
+"RPA2" -> "RAD9A"
+"RPA2" -> "ETF1"
+"RRAGD" -> "VPS26B"
+"RRAGD" -> "STYX"
+"RRAGD" -> "VPS26A"
+"RRAGD" -> "ETF1"
+"SPRYD3" -> "SPSB2"
+"SPRYD3" -> "CFAP161"
+"SPRYD3" -> "AP3M2"
+"SPRYD3" -> "STYX"
+"SPSB2" -> "SPRYD3"
+"SPSB2" -> "AP4M1"
+"SPSB2" -> "MAD2L1BP"
+"SPSB2" -> "YOD1"
+"STYX" -> "IMPACT"
+"STYX" -> "ADAT1"
+"STYX" -> "MTX3"
+"STYX" -> "LRAT"
+"TARBP2" -> "PRKRA"
+"TARBP2" -> "MAD2L1BP"
+"TARBP2" -> "AEN"
+"TARBP2" -> "RDM1"
+"TBPL1" -> "STYX"
+"TBPL1" -> "AP3M2"
+"TBPL1" -> "CNRIP1"
+"TBPL1" -> "RAD9B"
+"TEX47" -> "MAD2L1BP"
+"TEX47" -> "CAPZA3"
+"TEX47" -> "ASB17"
+"TEX47" -> "STYX"
+"THUMPD3" -> "TRMT6"
+"THUMPD3" -> "IMPACT"
+"THUMPD3" -> "METTL16"
+"THUMPD3" -> "RNMT"
+"TRMO" -> "METTL16"
+"TRMO" -> "ADAT1"
+"TRMO" -> "MAD2L1BP"
+"TRMO" -> "TRMT6"
+"TRMT6" -> "THUMPD3"
+"TRMT6" -> "METTL16"
+"TRMT6" -> "RNMT"
+"TRMT6" -> "ADAT1"
+"VPS26A" -> "VPS26B"
+"VPS26A" -> "ETF1"
+"VPS26A" -> "NAA50"
+"VPS26A" -> "AP3M2"
+"VPS26B" -> "VPS26A"
+"VPS26B" -> "AP3M1"
+"VPS26B" -> "AP3M2"
+"VPS26B" -> "RRAGD"
+"VPS36" -> "POLR3F"
+"VPS36" -> "STYX"
+"VPS36" -> "ADAT1"
+"VPS36" -> "METTL16"
+"YOD1" -> "PTP4A1"
+"YOD1" -> "STYX"
+"YOD1" -> "LRAT"
+"YOD1" -> "HINT3"
+}

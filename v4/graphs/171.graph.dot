@@ -1,0 +1,67 @@
+digraph G {
+"BANF2" ["l"="11.730,3.727"]
+"PFDN5" ["l"="11.552,3.784"]
+"RGS1" ["l"="11.667,3.916"]
+"RGS10" ["l"="11.697,3.931"]
+"RGS13" ["l"="11.668,3.924"]
+"RGS16" ["l"="11.669,3.958"]
+"RGS17" ["l"="11.610,3.859"]
+"RGS18" ["l"="11.698,3.888"]
+"RGS19" ["l"="11.670,3.882"]
+"RGS2" ["l"="11.648,3.908"]
+"RGS21" ["l"="11.656,3.886"]
+"RGS4" ["l"="11.677,3.935"]
+"RGS8" ["l"="11.657,3.964"]
+"BANF2" -> "RGS21"
+"BANF2" -> "RGS4"
+"BANF2" -> "RGS13"
+"BANF2" -> "RGS16"
+"PFDN5" -> "RGS21"
+"PFDN5" -> "RGS1"
+"PFDN5" -> "RGS4"
+"PFDN5" -> "RGS17"
+"RGS1" -> "RGS2"
+"RGS1" -> "RGS13"
+"RGS1" -> "RGS21"
+"RGS1" -> "RGS4"
+"RGS10" -> "RGS18"
+"RGS10" -> "RGS19"
+"RGS10" -> "RGS4"
+"RGS10" -> "RGS13"
+"RGS13" -> "RGS21"
+"RGS13" -> "RGS4"
+"RGS13" -> "RGS2"
+"RGS13" -> "RGS1"
+"RGS16" -> "RGS8"
+"RGS16" -> "RGS4"
+"RGS16" -> "RGS2"
+"RGS16" -> "RGS1"
+"RGS17" -> "RGS19"
+"RGS17" -> "RGS13"
+"RGS17" -> "RGS18"
+"RGS17" -> "RGS21"
+"RGS18" -> "RGS21"
+"RGS18" -> "RGS4"
+"RGS18" -> "RGS17"
+"RGS18" -> "RGS2"
+"RGS19" -> "RGS17"
+"RGS19" -> "RGS18"
+"RGS19" -> "RGS10"
+"RGS19" -> "RGS4"
+"RGS2" -> "RGS1"
+"RGS2" -> "RGS4"
+"RGS2" -> "RGS16"
+"RGS2" -> "RGS8"
+"RGS21" -> "RGS4"
+"RGS21" -> "RGS13"
+"RGS21" -> "RGS2"
+"RGS21" -> "RGS1"
+"RGS4" -> "RGS2"
+"RGS4" -> "RGS21"
+"RGS4" -> "RGS16"
+"RGS4" -> "RGS8"
+"RGS8" -> "RGS16"
+"RGS8" -> "RGS4"
+"RGS8" -> "RGS2"
+"RGS8" -> "RGS21"
+}

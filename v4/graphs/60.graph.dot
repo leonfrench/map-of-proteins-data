@@ -1,0 +1,67 @@
+digraph G {
+"BPI" ["l"="7.214,-2.050"]
+"BPIFA1" ["l"="7.226,-2.043"]
+"BPIFA2" ["l"="7.217,-2.046"]
+"BPIFA3" ["l"="7.341,-1.974"]
+"BPIFB1" ["l"="7.224,-2.042"]
+"BPIFB2" ["l"="7.216,-2.049"]
+"BPIFB3" ["l"="7.224,-2.044"]
+"BPIFB4" ["l"="7.243,-2.033"]
+"BPIFB6" ["l"="7.212,-2.048"]
+"BPIFC" ["l"="7.212,-2.051"]
+"CETP" ["l"="7.211,-2.052"]
+"LBP" ["l"="7.211,-2.051"]
+"PLTP" ["l"="7.209,-2.053"]
+"BPI" -> "CETP"
+"BPI" -> "LBP"
+"BPI" -> "BPIFB6"
+"BPI" -> "BPIFB3"
+"BPIFA1" -> "BPIFB3"
+"BPIFA1" -> "BPIFB1"
+"BPIFA1" -> "BPIFA2"
+"BPIFA1" -> "BPIFB4"
+"BPIFA2" -> "BPIFA1"
+"BPIFA2" -> "BPIFB3"
+"BPIFA2" -> "BPIFB1"
+"BPIFA2" -> "BPIFB2"
+"BPIFA3" -> "BPIFB6"
+"BPIFA3" -> "BPIFB3"
+"BPIFA3" -> "LBP"
+"BPIFA3" -> "BPI"
+"BPIFB1" -> "BPIFB3"
+"BPIFB1" -> "BPIFB2"
+"BPIFB1" -> "BPIFA1"
+"BPIFB1" -> "BPIFB6"
+"BPIFB2" -> "BPIFB3"
+"BPIFB2" -> "BPIFB1"
+"BPIFB2" -> "BPIFB6"
+"BPIFB2" -> "LBP"
+"BPIFB3" -> "BPIFB6"
+"BPIFB3" -> "BPIFB2"
+"BPIFB3" -> "BPIFB1"
+"BPIFB3" -> "BPIFB4"
+"BPIFB4" -> "BPIFB3"
+"BPIFB4" -> "BPIFB6"
+"BPIFB4" -> "BPIFA1"
+"BPIFB4" -> "BPI"
+"BPIFB6" -> "BPIFB3"
+"BPIFB6" -> "LBP"
+"BPIFB6" -> "BPIFA3"
+"BPIFB6" -> "BPIFC"
+"BPIFC" -> "LBP"
+"BPIFC" -> "BPIFB6"
+"BPIFC" -> "BPIFB3"
+"BPIFC" -> "CETP"
+"CETP" -> "BPI"
+"CETP" -> "PLTP"
+"CETP" -> "BPIFB6"
+"CETP" -> "LBP"
+"LBP" -> "BPIFB6"
+"LBP" -> "BPI"
+"LBP" -> "PLTP"
+"LBP" -> "BPIFC"
+"PLTP" -> "LBP"
+"PLTP" -> "CETP"
+"PLTP" -> "BPIFB3"
+"PLTP" -> "BPIFB6"
+}

@@ -1,0 +1,107 @@
+digraph G {
+"ABRAXAS2" ["l"="10.267,2.282"]
+"ATG14" ["l"="10.192,2.220"]
+"BLZF1" ["l"="10.249,2.310"]
+"BNIPL" ["l"="10.262,2.254"]
+"BRAP" ["l"="10.216,2.322"]
+"DEPDC1B" ["l"="10.125,2.267"]
+"G2E3" ["l"="10.166,2.252"]
+"ILRUN" ["l"="10.280,2.358"]
+"MAPRE1" ["l"="10.153,2.184"]
+"NFX1" ["l"="10.263,2.188"]
+"OGFRL1" ["l"="10.267,2.329"]
+"PHF7" ["l"="10.285,2.408"]
+"PIP4P2" ["l"="10.168,2.343"]
+"PRKN" ["l"="10.165,2.286"]
+"RANBP3" ["l"="10.271,2.384"]
+"RNF11" ["l"="10.181,2.328"]
+"RNF14" ["l"="10.246,2.280"]
+"SAMD5" ["l"="10.300,2.228"]
+"UBR7" ["l"="10.261,2.352"]
+"VPS37A" ["l"="10.210,2.269"]
+"XPC" ["l"="10.287,2.319"]
+"ABRAXAS2" -> "ATG14"
+"ABRAXAS2" -> "BRAP"
+"ABRAXAS2" -> "ILRUN"
+"ABRAXAS2" -> "UBR7"
+"ATG14" -> "ABRAXAS2"
+"ATG14" -> "BRAP"
+"ATG14" -> "UBR7"
+"ATG14" -> "ILRUN"
+"BLZF1" -> "BRAP"
+"BLZF1" -> "G2E3"
+"BLZF1" -> "VPS37A"
+"BLZF1" -> "ABRAXAS2"
+"BNIPL" -> "ATG14"
+"BNIPL" -> "ABRAXAS2"
+"BNIPL" -> "RANBP3"
+"BNIPL" -> "BRAP"
+"BRAP" -> "ABRAXAS2"
+"BRAP" -> "UBR7"
+"BRAP" -> "PRKN"
+"BRAP" -> "BLZF1"
+"DEPDC1B" -> "BRAP"
+"DEPDC1B" -> "G2E3"
+"DEPDC1B" -> "MAPRE1"
+"DEPDC1B" -> "SAMD5"
+"G2E3" -> "BRAP"
+"G2E3" -> "PHF7"
+"G2E3" -> "UBR7"
+"G2E3" -> "ABRAXAS2"
+"ILRUN" -> "ABRAXAS2"
+"ILRUN" -> "ATG14"
+"ILRUN" -> "VPS37A"
+"ILRUN" -> "RANBP3"
+"MAPRE1" -> "DEPDC1B"
+"MAPRE1" -> "RANBP3"
+"MAPRE1" -> "BRAP"
+"MAPRE1" -> "ABRAXAS2"
+"NFX1" -> "PRKN"
+"NFX1" -> "BRAP"
+"NFX1" -> "G2E3"
+"NFX1" -> "RNF14"
+"OGFRL1" -> "ABRAXAS2"
+"OGFRL1" -> "UBR7"
+"OGFRL1" -> "G2E3"
+"OGFRL1" -> "RANBP3"
+"PHF7" -> "PRKN"
+"PHF7" -> "G2E3"
+"PHF7" -> "BRAP"
+"PHF7" -> "UBR7"
+"PIP4P2" -> "RNF11"
+"PIP4P2" -> "VPS37A"
+"PIP4P2" -> "PRKN"
+"PIP4P2" -> "G2E3"
+"PRKN" -> "PHF7"
+"PRKN" -> "BRAP"
+"PRKN" -> "RNF14"
+"PRKN" -> "NFX1"
+"RANBP3" -> "BRAP"
+"RANBP3" -> "UBR7"
+"RANBP3" -> "ABRAXAS2"
+"RANBP3" -> "MAPRE1"
+"RNF11" -> "PIP4P2"
+"RNF11" -> "RNF14"
+"RNF11" -> "PRKN"
+"RNF11" -> "VPS37A"
+"RNF14" -> "PRKN"
+"RNF14" -> "BRAP"
+"RNF14" -> "VPS37A"
+"RNF14" -> "RNF11"
+"SAMD5" -> "ABRAXAS2"
+"SAMD5" -> "DEPDC1B"
+"SAMD5" -> "ILRUN"
+"SAMD5" -> "BRAP"
+"UBR7" -> "BRAP"
+"UBR7" -> "ABRAXAS2"
+"UBR7" -> "PRKN"
+"UBR7" -> "ATG14"
+"VPS37A" -> "ABRAXAS2"
+"VPS37A" -> "RNF14"
+"VPS37A" -> "ATG14"
+"VPS37A" -> "ILRUN"
+"XPC" -> "ATG14"
+"XPC" -> "BRAP"
+"XPC" -> "ABRAXAS2"
+"XPC" -> "NFX1"
+}

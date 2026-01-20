@@ -1,0 +1,167 @@
+digraph G {
+"ADCY10" ["l"="9.847,0.258"]
+"ANKAR" ["l"="9.995,0.225"]
+"DCAF1" ["l"="9.802,0.062"]
+"DENND4B" ["l"="9.658,0.058"]
+"DEPDC5" ["l"="9.566,0.049"]
+"DOC2A" ["l"="9.821,0.241"]
+"DOC2B" ["l"="9.785,0.209"]
+"GAPVD1" ["l"="9.605,0.004"]
+"NISCH" ["l"="9.844,0.282"]
+"PDS5A" ["l"="10.034,0.130"]
+"PDS5B" ["l"="9.993,0.200"]
+"PPP4R1" ["l"="9.755,0.150"]
+"RALGAPB" ["l"="9.688,0.133"]
+"STAG1" ["l"="10.020,0.197"]
+"SYT1" ["l"="9.766,0.153"]
+"SYT10" ["l"="9.756,0.214"]
+"SYT11" ["l"="9.770,0.124"]
+"SYT12" ["l"="9.751,0.233"]
+"SYT13" ["l"="9.747,0.285"]
+"SYT15" ["l"="9.817,0.224"]
+"SYT17" ["l"="9.783,0.194"]
+"SYT2" ["l"="9.764,0.198"]
+"SYT3" ["l"="9.752,0.115"]
+"SYT4" ["l"="9.766,0.132"]
+"SYT5" ["l"="9.798,0.202"]
+"SYT6" ["l"="9.759,0.178"]
+"SYT7" ["l"="9.735,0.154"]
+"SYT8" ["l"="9.801,0.197"]
+"SYT9" ["l"="9.725,0.198"]
+"TC2N" ["l"="9.811,0.294"]
+"UHRF1BP1" ["l"="9.748,0.032"]
+"UHRF1BP1L" ["l"="9.699,0.102"]
+"VIRMA" ["l"="9.843,-0.026"]
+"ADCY10" -> "ANKAR"
+"ADCY10" -> "DEPDC5"
+"ADCY10" -> "PDS5A"
+"ADCY10" -> "UHRF1BP1"
+"ANKAR" -> "ADCY10"
+"ANKAR" -> "VIRMA"
+"ANKAR" -> "RALGAPB"
+"ANKAR" -> "UHRF1BP1L"
+"DCAF1" -> "VIRMA"
+"DCAF1" -> "RALGAPB"
+"DCAF1" -> "UHRF1BP1"
+"DCAF1" -> "NISCH"
+"DENND4B" -> "UHRF1BP1"
+"DENND4B" -> "RALGAPB"
+"DENND4B" -> "NISCH"
+"DENND4B" -> "GAPVD1"
+"DEPDC5" -> "GAPVD1"
+"DEPDC5" -> "RALGAPB"
+"DEPDC5" -> "UHRF1BP1"
+"DEPDC5" -> "NISCH"
+"DOC2A" -> "DOC2B"
+"DOC2A" -> "SYT5"
+"DOC2A" -> "SYT13"
+"DOC2A" -> "SYT12"
+"DOC2B" -> "SYT12"
+"DOC2B" -> "DOC2A"
+"DOC2B" -> "SYT6"
+"DOC2B" -> "SYT7"
+"GAPVD1" -> "RALGAPB"
+"GAPVD1" -> "DEPDC5"
+"GAPVD1" -> "VIRMA"
+"GAPVD1" -> "NISCH"
+"NISCH" -> "UHRF1BP1"
+"NISCH" -> "RALGAPB"
+"NISCH" -> "GAPVD1"
+"NISCH" -> "DEPDC5"
+"PDS5A" -> "PDS5B"
+"PDS5A" -> "STAG1"
+"PDS5A" -> "RALGAPB"
+"PDS5A" -> "VIRMA"
+"PDS5B" -> "PDS5A"
+"PDS5B" -> "STAG1"
+"PDS5B" -> "VIRMA"
+"PDS5B" -> "GAPVD1"
+"PPP4R1" -> "GAPVD1"
+"PPP4R1" -> "RALGAPB"
+"PPP4R1" -> "UHRF1BP1L"
+"PPP4R1" -> "VIRMA"
+"RALGAPB" -> "GAPVD1"
+"RALGAPB" -> "UHRF1BP1"
+"RALGAPB" -> "UHRF1BP1L"
+"RALGAPB" -> "DEPDC5"
+"STAG1" -> "PDS5B"
+"STAG1" -> "PDS5A"
+"STAG1" -> "VIRMA"
+"STAG1" -> "GAPVD1"
+"SYT1" -> "SYT2"
+"SYT1" -> "SYT5"
+"SYT1" -> "SYT4"
+"SYT1" -> "SYT6"
+"SYT10" -> "SYT9"
+"SYT10" -> "SYT6"
+"SYT10" -> "SYT4"
+"SYT10" -> "SYT5"
+"SYT11" -> "SYT4"
+"SYT11" -> "SYT13"
+"SYT11" -> "SYT5"
+"SYT11" -> "SYT7"
+"SYT12" -> "SYT15"
+"SYT12" -> "SYT7"
+"SYT12" -> "DOC2B"
+"SYT12" -> "SYT13"
+"SYT13" -> "SYT4"
+"SYT13" -> "SYT15"
+"SYT13" -> "SYT12"
+"SYT13" -> "SYT11"
+"SYT15" -> "SYT12"
+"SYT15" -> "SYT13"
+"SYT15" -> "SYT6"
+"SYT15" -> "SYT5"
+"SYT17" -> "SYT12"
+"SYT17" -> "SYT6"
+"SYT17" -> "SYT9"
+"SYT17" -> "SYT13"
+"SYT2" -> "SYT1"
+"SYT2" -> "SYT4"
+"SYT2" -> "SYT7"
+"SYT2" -> "SYT6"
+"SYT3" -> "SYT5"
+"SYT3" -> "SYT9"
+"SYT3" -> "SYT10"
+"SYT3" -> "SYT11"
+"SYT4" -> "SYT11"
+"SYT4" -> "SYT13"
+"SYT4" -> "SYT9"
+"SYT4" -> "SYT5"
+"SYT5" -> "DOC2A"
+"SYT5" -> "SYT11"
+"SYT5" -> "SYT4"
+"SYT5" -> "SYT13"
+"SYT6" -> "SYT9"
+"SYT6" -> "SYT10"
+"SYT6" -> "SYT7"
+"SYT6" -> "SYT12"
+"SYT7" -> "SYT6"
+"SYT7" -> "SYT12"
+"SYT7" -> "SYT11"
+"SYT7" -> "DOC2B"
+"SYT8" -> "SYT15"
+"SYT8" -> "SYT5"
+"SYT8" -> "SYT3"
+"SYT8" -> "SYT13"
+"SYT9" -> "SYT10"
+"SYT9" -> "SYT6"
+"SYT9" -> "SYT4"
+"SYT9" -> "SYT12"
+"TC2N" -> "SYT15"
+"TC2N" -> "SYT13"
+"TC2N" -> "SYT12"
+"TC2N" -> "SYT17"
+"UHRF1BP1" -> "UHRF1BP1L"
+"UHRF1BP1" -> "RALGAPB"
+"UHRF1BP1" -> "NISCH"
+"UHRF1BP1" -> "DEPDC5"
+"UHRF1BP1L" -> "UHRF1BP1"
+"UHRF1BP1L" -> "RALGAPB"
+"UHRF1BP1L" -> "VIRMA"
+"UHRF1BP1L" -> "GAPVD1"
+"VIRMA" -> "STAG1"
+"VIRMA" -> "RALGAPB"
+"VIRMA" -> "GAPVD1"
+"VIRMA" -> "UHRF1BP1L"
+}

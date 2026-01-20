@@ -1,0 +1,207 @@
+digraph G {
+"AKAP12" ["l"="9.353,3.755"]
+"AKAP5" ["l"="9.352,3.786"]
+"C11orf16" ["l"="9.245,3.686"]
+"C11orf42" ["l"="9.443,3.736"]
+"C11orf91" ["l"="9.319,3.887"]
+"C13orf46" ["l"="9.261,3.899"]
+"C16orf90" ["l"="9.335,3.734"]
+"C22orf23" ["l"="9.275,3.861"]
+"C3orf49" ["l"="9.448,3.817"]
+"C6orf52" ["l"="9.313,3.904"]
+"C9orf50" ["l"="9.419,3.873"]
+"CCDC159" ["l"="9.408,3.674"]
+"CCDC190" ["l"="9.300,3.703"]
+"CCDC195" ["l"="9.400,3.849"]
+"CCDC74A" ["l"="9.223,3.782"]
+"CCDC74B" ["l"="9.195,3.815"]
+"DEPP1" ["l"="9.246,3.671"]
+"ENKD1" ["l"="9.316,3.783"]
+"FAM205C" ["l"="9.385,3.828"]
+"GMNC" ["l"="9.237,3.733"]
+"HYLS1" ["l"="9.286,3.814"]
+"IER3" ["l"="9.346,3.933"]
+"INCA1" ["l"="9.292,3.856"]
+"JPT1" ["l"="9.364,3.709"]
+"JSRP1" ["l"="9.379,3.833"]
+"KDF1" ["l"="9.365,3.723"]
+"L1TD1" ["l"="9.174,3.689"]
+"MBP" ["l"="9.452,3.818"]
+"PBXIP1" ["l"="9.345,3.847"]
+"PRKAG3" ["l"="9.359,3.765"]
+"PRR19" ["l"="9.206,3.736"]
+"PRR23A" ["l"="9.400,3.869"]
+"PRR23C" ["l"="9.391,3.802"]
+"RCSD1" ["l"="9.303,3.757"]
+"RITA1" ["l"="9.192,3.826"]
+"RTL10" ["l"="9.415,3.734"]
+"SYNE4" ["l"="9.463,3.760"]
+"TCP10L" ["l"="9.413,3.837"]
+"TRDN" ["l"="9.176,3.730"]
+"UBXN10" ["l"="9.357,3.773"]
+"ZC2HC1C" ["l"="9.259,3.746"]
+"AKAP12" -> "RCSD1"
+"AKAP12" -> "AKAP5"
+"AKAP12" -> "TRDN"
+"AKAP12" -> "JSRP1"
+"AKAP5" -> "RCSD1"
+"AKAP5" -> "C13orf46"
+"AKAP5" -> "CCDC195"
+"AKAP5" -> "AKAP12"
+"C11orf16" -> "INCA1"
+"C11orf16" -> "C11orf42"
+"C11orf16" -> "FAM205C"
+"C11orf16" -> "UBXN10"
+"C11orf42" -> "PRR19"
+"C11orf42" -> "PRR23C"
+"C11orf42" -> "PRR23A"
+"C11orf42" -> "C11orf16"
+"C11orf91" -> "PRR23C"
+"C11orf91" -> "PRR23A"
+"C11orf91" -> "C11orf42"
+"C11orf91" -> "KDF1"
+"C13orf46" -> "RCSD1"
+"C13orf46" -> "CCDC195"
+"C13orf46" -> "AKAP5"
+"C13orf46" -> "TCP10L"
+"C16orf90" -> "PRR19"
+"C16orf90" -> "C9orf50"
+"C16orf90" -> "C11orf42"
+"C16orf90" -> "CCDC195"
+"C22orf23" -> "ZC2HC1C"
+"C22orf23" -> "ENKD1"
+"C22orf23" -> "CCDC74B"
+"C22orf23" -> "CCDC74A"
+"C3orf49" -> "CCDC195"
+"C3orf49" -> "FAM205C"
+"C3orf49" -> "C9orf50"
+"C3orf49" -> "C22orf23"
+"C6orf52" -> "GMNC"
+"C6orf52" -> "INCA1"
+"C6orf52" -> "PRR23A"
+"C6orf52" -> "PRR23C"
+"C9orf50" -> "C16orf90"
+"C9orf50" -> "FAM205C"
+"C9orf50" -> "C11orf16"
+"C9orf50" -> "TCP10L"
+"CCDC159" -> "SYNE4"
+"CCDC159" -> "TCP10L"
+"CCDC159" -> "PRR19"
+"CCDC159" -> "FAM205C"
+"CCDC190" -> "CCDC195"
+"CCDC190" -> "TCP10L"
+"CCDC190" -> "UBXN10"
+"CCDC190" -> "FAM205C"
+"CCDC195" -> "TCP10L"
+"CCDC195" -> "FAM205C"
+"CCDC195" -> "CCDC190"
+"CCDC195" -> "C16orf90"
+"CCDC74A" -> "CCDC74B"
+"CCDC74A" -> "C22orf23"
+"CCDC74A" -> "TCP10L"
+"CCDC74A" -> "CCDC190"
+"CCDC74B" -> "CCDC74A"
+"CCDC74B" -> "C22orf23"
+"CCDC74B" -> "TCP10L"
+"CCDC74B" -> "ENKD1"
+"DEPP1" -> "C16orf90"
+"DEPP1" -> "INCA1"
+"DEPP1" -> "C11orf42"
+"DEPP1" -> "PRR23C"
+"ENKD1" -> "C22orf23"
+"ENKD1" -> "CCDC74B"
+"ENKD1" -> "CCDC74A"
+"ENKD1" -> "C9orf50"
+"FAM205C" -> "CCDC195"
+"FAM205C" -> "TCP10L"
+"FAM205C" -> "RTL10"
+"FAM205C" -> "INCA1"
+"GMNC" -> "INCA1"
+"GMNC" -> "FAM205C"
+"GMNC" -> "CCDC190"
+"GMNC" -> "CCDC195"
+"HYLS1" -> "ZC2HC1C"
+"HYLS1" -> "C22orf23"
+"HYLS1" -> "INCA1"
+"HYLS1" -> "UBXN10"
+"IER3" -> "PRR23A"
+"IER3" -> "PRR23C"
+"IER3" -> "CCDC195"
+"IER3" -> "C11orf91"
+"INCA1" -> "C11orf16"
+"INCA1" -> "PRR23C"
+"INCA1" -> "FAM205C"
+"INCA1" -> "PRR19"
+"JPT1" -> "CCDC195"
+"JPT1" -> "INCA1"
+"JPT1" -> "RCSD1"
+"JPT1" -> "PRR23C"
+"JSRP1" -> "TRDN"
+"JSRP1" -> "PBXIP1"
+"JSRP1" -> "TCP10L"
+"JSRP1" -> "CCDC195"
+"KDF1" -> "C16orf90"
+"KDF1" -> "C9orf50"
+"KDF1" -> "TCP10L"
+"KDF1" -> "C11orf91"
+"L1TD1" -> "C13orf46"
+"L1TD1" -> "CCDC195"
+"L1TD1" -> "AKAP5"
+"L1TD1" -> "FAM205C"
+"MBP" -> "CCDC195"
+"MBP" -> "C16orf90"
+"MBP" -> "C13orf46"
+"MBP" -> "KDF1"
+"PBXIP1" -> "JSRP1"
+"PBXIP1" -> "C13orf46"
+"PBXIP1" -> "RCSD1"
+"PBXIP1" -> "AKAP5"
+"PRKAG3" -> "PRR23C"
+"PRKAG3" -> "PRR23A"
+"PRKAG3" -> "FAM205C"
+"PRKAG3" -> "C11orf16"
+"PRR19" -> "C11orf42"
+"PRR19" -> "C16orf90"
+"PRR19" -> "INCA1"
+"PRR19" -> "PRR23A"
+"PRR23A" -> "PRR23C"
+"PRR23A" -> "C11orf42"
+"PRR23A" -> "C11orf91"
+"PRR23A" -> "INCA1"
+"PRR23C" -> "PRR23A"
+"PRR23C" -> "C11orf42"
+"PRR23C" -> "INCA1"
+"PRR23C" -> "C11orf91"
+"RCSD1" -> "C13orf46"
+"RCSD1" -> "AKAP5"
+"RCSD1" -> "AKAP12"
+"RCSD1" -> "CCDC195"
+"RITA1" -> "DEPP1"
+"RITA1" -> "C16orf90"
+"RITA1" -> "PRR19"
+"RITA1" -> "C11orf42"
+"RTL10" -> "FAM205C"
+"RTL10" -> "C11orf16"
+"RTL10" -> "C11orf42"
+"RTL10" -> "INCA1"
+"SYNE4" -> "C16orf90"
+"SYNE4" -> "TCP10L"
+"SYNE4" -> "C11orf42"
+"SYNE4" -> "PRR19"
+"TCP10L" -> "CCDC195"
+"TCP10L" -> "FAM205C"
+"TCP10L" -> "CCDC190"
+"TCP10L" -> "INCA1"
+"TRDN" -> "JSRP1"
+"TRDN" -> "AKAP5"
+"TRDN" -> "RCSD1"
+"TRDN" -> "PBXIP1"
+"UBXN10" -> "CCDC190"
+"UBXN10" -> "C11orf16"
+"UBXN10" -> "CCDC195"
+"UBXN10" -> "C22orf23"
+"ZC2HC1C" -> "C22orf23"
+"ZC2HC1C" -> "CCDC195"
+"ZC2HC1C" -> "TCP10L"
+"ZC2HC1C" -> "HYLS1"
+}

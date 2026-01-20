@@ -1,0 +1,127 @@
+digraph G {
+"CEP120" ["l"="8.579,0.871"]
+"CFAP65" ["l"="8.646,0.656"]
+"CFAP74" ["l"="8.565,0.740"]
+"DCDC1" ["l"="8.585,0.693"]
+"DLEC1" ["l"="8.693,0.633"]
+"HDAC4" ["l"="8.587,0.807"]
+"HDAC5" ["l"="8.491,0.854"]
+"HDAC9" ["l"="8.559,0.807"]
+"MACO1" ["l"="8.539,0.503"]
+"MAP4K4" ["l"="8.512,0.685"]
+"MAPK8IP3" ["l"="8.515,0.493"]
+"MINK1" ["l"="8.474,0.671"]
+"NDEL1" ["l"="8.422,0.703"]
+"PPFIBP1" ["l"="8.609,0.813"]
+"PPFIBP2" ["l"="8.503,0.743"]
+"RASEF" ["l"="8.552,0.930"]
+"SLK" ["l"="8.485,0.470"]
+"SPAG9" ["l"="8.541,0.672"]
+"STK10" ["l"="8.483,0.497"]
+"TAOK3" ["l"="8.640,0.427"]
+"TBC1D31" ["l"="8.671,0.749"]
+"TNIK" ["l"="8.555,0.651"]
+"TRAK1" ["l"="8.581,0.807"]
+"TRAK2" ["l"="8.473,0.787"]
+"USO1" ["l"="8.527,0.423"]
+"CEP120" -> "TBC1D31"
+"CEP120" -> "USO1"
+"CEP120" -> "MACO1"
+"CEP120" -> "PPFIBP2"
+"CFAP65" -> "DLEC1"
+"CFAP65" -> "CFAP74"
+"CFAP65" -> "DCDC1"
+"CFAP65" -> "CEP120"
+"CFAP74" -> "DLEC1"
+"CFAP74" -> "CFAP65"
+"CFAP74" -> "DCDC1"
+"CFAP74" -> "RASEF"
+"DCDC1" -> "CFAP65"
+"DCDC1" -> "DLEC1"
+"DCDC1" -> "CFAP74"
+"DCDC1" -> "RASEF"
+"DLEC1" -> "CFAP65"
+"DLEC1" -> "CFAP74"
+"DLEC1" -> "DCDC1"
+"DLEC1" -> "CEP120"
+"HDAC4" -> "HDAC5"
+"HDAC4" -> "HDAC9"
+"HDAC4" -> "SPAG9"
+"HDAC4" -> "TNIK"
+"HDAC5" -> "HDAC4"
+"HDAC5" -> "HDAC9"
+"HDAC5" -> "MINK1"
+"HDAC5" -> "SPAG9"
+"HDAC9" -> "HDAC4"
+"HDAC9" -> "HDAC5"
+"HDAC9" -> "MAP4K4"
+"HDAC9" -> "TNIK"
+"MACO1" -> "SPAG9"
+"MACO1" -> "NDEL1"
+"MACO1" -> "PPFIBP1"
+"MACO1" -> "RASEF"
+"MAP4K4" -> "TNIK"
+"MAP4K4" -> "MINK1"
+"MAP4K4" -> "SPAG9"
+"MAP4K4" -> "HDAC9"
+"MAPK8IP3" -> "SPAG9"
+"MAPK8IP3" -> "TRAK1"
+"MAPK8IP3" -> "PPFIBP1"
+"MAPK8IP3" -> "TRAK2"
+"MINK1" -> "TNIK"
+"MINK1" -> "MAP4K4"
+"MINK1" -> "STK10"
+"MINK1" -> "HDAC5"
+"NDEL1" -> "TRAK2"
+"NDEL1" -> "TRAK1"
+"NDEL1" -> "PPFIBP2"
+"NDEL1" -> "PPFIBP1"
+"PPFIBP1" -> "PPFIBP2"
+"PPFIBP1" -> "SPAG9"
+"PPFIBP1" -> "RASEF"
+"PPFIBP1" -> "NDEL1"
+"PPFIBP2" -> "PPFIBP1"
+"PPFIBP2" -> "RASEF"
+"PPFIBP2" -> "NDEL1"
+"PPFIBP2" -> "SPAG9"
+"RASEF" -> "PPFIBP2"
+"RASEF" -> "PPFIBP1"
+"RASEF" -> "TRAK2"
+"RASEF" -> "SPAG9"
+"SLK" -> "STK10"
+"SLK" -> "TAOK3"
+"SLK" -> "TNIK"
+"SLK" -> "MINK1"
+"SPAG9" -> "MAPK8IP3"
+"SPAG9" -> "PPFIBP1"
+"SPAG9" -> "TRAK1"
+"SPAG9" -> "RASEF"
+"STK10" -> "MINK1"
+"STK10" -> "TAOK3"
+"STK10" -> "SLK"
+"STK10" -> "TNIK"
+"TAOK3" -> "STK10"
+"TAOK3" -> "SLK"
+"TAOK3" -> "TNIK"
+"TAOK3" -> "USO1"
+"TBC1D31" -> "CEP120"
+"TBC1D31" -> "USO1"
+"TBC1D31" -> "TAOK3"
+"TBC1D31" -> "STK10"
+"TNIK" -> "MAP4K4"
+"TNIK" -> "MINK1"
+"TNIK" -> "HDAC9"
+"TNIK" -> "HDAC5"
+"TRAK1" -> "TRAK2"
+"TRAK1" -> "SPAG9"
+"TRAK1" -> "NDEL1"
+"TRAK1" -> "MAPK8IP3"
+"TRAK2" -> "TRAK1"
+"TRAK2" -> "NDEL1"
+"TRAK2" -> "RASEF"
+"TRAK2" -> "SPAG9"
+"USO1" -> "CEP120"
+"USO1" -> "MACO1"
+"USO1" -> "TAOK3"
+"USO1" -> "TRAK2"
+}

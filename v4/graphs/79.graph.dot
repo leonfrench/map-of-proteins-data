@@ -1,0 +1,92 @@
+digraph G {
+"CAMP" ["l"="7.637,-1.805"]
+"CST1" ["l"="7.672,-1.830"]
+"CST11" ["l"="7.669,-1.820"]
+"CST2" ["l"="7.664,-1.824"]
+"CST3" ["l"="7.672,-1.830"]
+"CST4" ["l"="7.669,-1.823"]
+"CST5" ["l"="7.667,-1.821"]
+"CST6" ["l"="7.667,-1.822"]
+"CST7" ["l"="7.683,-1.827"]
+"CST8" ["l"="7.668,-1.822"]
+"CST9L" ["l"="7.717,-1.805"]
+"CSTL1" ["l"="7.667,-1.823"]
+"GKN1" ["l"="7.673,-1.848"]
+"GKN2" ["l"="7.678,-1.851"]
+"LCN10" ["l"="7.702,-1.897"]
+"LCNL1" ["l"="7.703,-1.817"]
+"PIP" ["l"="7.694,-1.776"]
+"RARRES2" ["l"="7.783,-1.897"]
+"CAMP" -> "CST1"
+"CAMP" -> "CST4"
+"CAMP" -> "CST6"
+"CAMP" -> "CST2"
+"CST1" -> "CST4"
+"CST1" -> "CST2"
+"CST1" -> "CST5"
+"CST1" -> "CST6"
+"CST11" -> "CST8"
+"CST11" -> "CST9L"
+"CST11" -> "CST2"
+"CST11" -> "CST4"
+"CST2" -> "CST4"
+"CST2" -> "CST5"
+"CST2" -> "CST1"
+"CST2" -> "CST11"
+"CST3" -> "CST6"
+"CST3" -> "CST4"
+"CST3" -> "CST1"
+"CST3" -> "CST5"
+"CST4" -> "CST1"
+"CST4" -> "CST2"
+"CST4" -> "CST5"
+"CST4" -> "CST6"
+"CST5" -> "CST2"
+"CST5" -> "CST4"
+"CST5" -> "CST1"
+"CST5" -> "CST6"
+"CST6" -> "CST4"
+"CST6" -> "CST5"
+"CST6" -> "CST1"
+"CST6" -> "CST2"
+"CST7" -> "CST6"
+"CST7" -> "CST11"
+"CST7" -> "CST5"
+"CST7" -> "CSTL1"
+"CST8" -> "CST11"
+"CST8" -> "CST4"
+"CST8" -> "CSTL1"
+"CST8" -> "CST2"
+"CST9L" -> "CST11"
+"CST9L" -> "CSTL1"
+"CST9L" -> "CST8"
+"CST9L" -> "LCN10"
+"CSTL1" -> "CST8"
+"CSTL1" -> "CST11"
+"CSTL1" -> "CST9L"
+"CSTL1" -> "CST7"
+"GKN1" -> "GKN2"
+"GKN1" -> "CAMP"
+"GKN1" -> "PIP"
+"GKN1" -> "CST4"
+"GKN2" -> "GKN1"
+"GKN2" -> "CAMP"
+"GKN2" -> "CST4"
+"GKN2" -> "CST5"
+"LCN10" -> "LCNL1"
+"LCN10" -> "CST9L"
+"LCN10" -> "CSTL1"
+"LCN10" -> "CST11"
+"LCNL1" -> "LCN10"
+"LCNL1" -> "CST9L"
+"LCNL1" -> "CST11"
+"LCNL1" -> "CSTL1"
+"PIP" -> "CST4"
+"PIP" -> "CST6"
+"PIP" -> "CAMP"
+"PIP" -> "CST8"
+"RARRES2" -> "CST4"
+"RARRES2" -> "CST6"
+"RARRES2" -> "CST1"
+"RARRES2" -> "CST3"
+}

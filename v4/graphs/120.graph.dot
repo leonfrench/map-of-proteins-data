@@ -1,0 +1,97 @@
+digraph G {
+"ADCYAP1R1" ["l"="11.070,-3.195"]
+"CALCR" ["l"="11.071,-3.194"]
+"CALCRL" ["l"="11.022,-3.197"]
+"CRHR1" ["l"="11.068,-3.201"]
+"CRHR2" ["l"="11.083,-3.218"]
+"GCGR" ["l"="11.079,-3.210"]
+"GHRHR" ["l"="11.095,-3.185"]
+"GIPR" ["l"="11.023,-3.194"]
+"GLP1R" ["l"="11.036,-3.215"]
+"GLP2R" ["l"="11.101,-3.194"]
+"NPC1" ["l"="11.021,-3.107"]
+"PTH1R" ["l"="11.087,-3.197"]
+"PTH2R" ["l"="11.091,-3.207"]
+"SCTR" ["l"="11.081,-3.199"]
+"SLC8A2" ["l"="11.002,-3.096"]
+"SLC8A3" ["l"="11.014,-3.317"]
+"SLC9C2" ["l"="10.945,-3.373"]
+"VIPR1" ["l"="11.110,-3.188"]
+"VIPR2" ["l"="11.104,-3.229"]
+"ADCYAP1R1" -> "VIPR1"
+"ADCYAP1R1" -> "CRHR2"
+"ADCYAP1R1" -> "GLP1R"
+"ADCYAP1R1" -> "CRHR1"
+"CALCR" -> "ADCYAP1R1"
+"CALCR" -> "CALCRL"
+"CALCR" -> "CRHR2"
+"CALCR" -> "VIPR1"
+"CALCRL" -> "VIPR1"
+"CALCRL" -> "CRHR2"
+"CALCRL" -> "GLP1R"
+"CALCRL" -> "CALCR"
+"CRHR1" -> "VIPR1"
+"CRHR1" -> "ADCYAP1R1"
+"CRHR1" -> "CRHR2"
+"CRHR1" -> "GLP1R"
+"CRHR2" -> "GLP1R"
+"CRHR2" -> "ADCYAP1R1"
+"CRHR2" -> "VIPR2"
+"CRHR2" -> "VIPR1"
+"GCGR" -> "GIPR"
+"GCGR" -> "GLP1R"
+"GCGR" -> "VIPR1"
+"GCGR" -> "SCTR"
+"GHRHR" -> "VIPR1"
+"GHRHR" -> "ADCYAP1R1"
+"GHRHR" -> "SCTR"
+"GHRHR" -> "PTH2R"
+"GIPR" -> "GLP1R"
+"GIPR" -> "GCGR"
+"GIPR" -> "GLP2R"
+"GIPR" -> "VIPR2"
+"GLP1R" -> "GLP2R"
+"GLP1R" -> "VIPR2"
+"GLP1R" -> "GIPR"
+"GLP1R" -> "CRHR2"
+"GLP2R" -> "GLP1R"
+"GLP2R" -> "GIPR"
+"GLP2R" -> "VIPR1"
+"GLP2R" -> "VIPR2"
+"NPC1" -> "SLC8A3"
+"NPC1" -> "VIPR1"
+"NPC1" -> "SLC8A2"
+"NPC1" -> "CALCRL"
+"PTH1R" -> "PTH2R"
+"PTH1R" -> "VIPR1"
+"PTH1R" -> "ADCYAP1R1"
+"PTH1R" -> "SCTR"
+"PTH2R" -> "GLP1R"
+"PTH2R" -> "ADCYAP1R1"
+"PTH2R" -> "SCTR"
+"PTH2R" -> "GLP2R"
+"SCTR" -> "VIPR1"
+"SCTR" -> "CRHR2"
+"SCTR" -> "PTH2R"
+"SCTR" -> "ADCYAP1R1"
+"SLC8A2" -> "SLC8A3"
+"SLC8A2" -> "ADCYAP1R1"
+"SLC8A2" -> "GLP1R"
+"SLC8A2" -> "CRHR1"
+"SLC8A3" -> "SLC8A2"
+"SLC8A3" -> "ADCYAP1R1"
+"SLC8A3" -> "NPC1"
+"SLC8A3" -> "CRHR1"
+"SLC9C2" -> "SLC8A2"
+"SLC9C2" -> "SLC8A3"
+"SLC9C2" -> "NPC1"
+"SLC9C2" -> "CALCRL"
+"VIPR1" -> "ADCYAP1R1"
+"VIPR1" -> "VIPR2"
+"VIPR1" -> "GLP1R"
+"VIPR1" -> "SCTR"
+"VIPR2" -> "GLP1R"
+"VIPR2" -> "VIPR1"
+"VIPR2" -> "CRHR2"
+"VIPR2" -> "GLP2R"
+}

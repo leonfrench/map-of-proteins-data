@@ -1,0 +1,87 @@
+digraph G {
+"B2M" ["l"="9.157,10.486"]
+"IGHA1" ["l"="9.165,10.524"]
+"IGHA2" ["l"="9.165,10.521"]
+"IGHD" ["l"="9.165,10.517"]
+"IGHE" ["l"="9.165,10.523"]
+"IGHG1" ["l"="9.165,10.524"]
+"IGHG2" ["l"="9.164,10.524"]
+"IGHG3" ["l"="9.165,10.524"]
+"IGHG4" ["l"="9.165,10.524"]
+"IGHM" ["l"="9.165,10.523"]
+"IGKC" ["l"="9.165,10.523"]
+"IGLC1" ["l"="9.166,10.529"]
+"IGLC2" ["l"="9.165,10.528"]
+"IGLC3" ["l"="9.165,10.526"]
+"IGLC7" ["l"="9.166,10.530"]
+"IGLL1" ["l"="9.167,10.538"]
+"IGLL5" ["l"="9.168,10.545"]
+"B2M" -> "IGHG2"
+"B2M" -> "IGKC"
+"B2M" -> "IGHG1"
+"B2M" -> "IGHG4"
+"IGHA1" -> "IGHA2"
+"IGHA1" -> "IGHG1"
+"IGHA1" -> "IGHG2"
+"IGHA1" -> "IGHG3"
+"IGHA2" -> "IGHA1"
+"IGHA2" -> "IGHG1"
+"IGHA2" -> "IGHG2"
+"IGHA2" -> "IGHG4"
+"IGHD" -> "IGHM"
+"IGHD" -> "IGHG4"
+"IGHD" -> "IGHA2"
+"IGHD" -> "IGHG1"
+"IGHE" -> "IGHM"
+"IGHE" -> "IGHA2"
+"IGHE" -> "IGHD"
+"IGHE" -> "IGHA1"
+"IGHG1" -> "IGHG2"
+"IGHG1" -> "IGHG4"
+"IGHG1" -> "IGHG3"
+"IGHG1" -> "IGHA1"
+"IGHG2" -> "IGHG1"
+"IGHG2" -> "IGHG4"
+"IGHG2" -> "IGHG3"
+"IGHG2" -> "IGHA1"
+"IGHG3" -> "IGHG4"
+"IGHG3" -> "IGHG1"
+"IGHG3" -> "IGHG2"
+"IGHG3" -> "IGHA1"
+"IGHG4" -> "IGHG2"
+"IGHG4" -> "IGHG1"
+"IGHG4" -> "IGHG3"
+"IGHG4" -> "IGHA1"
+"IGHM" -> "IGHG4"
+"IGHM" -> "IGHG1"
+"IGHM" -> "IGHE"
+"IGHM" -> "IGKC"
+"IGKC" -> "IGLC2"
+"IGKC" -> "IGLC3"
+"IGKC" -> "IGLC1"
+"IGKC" -> "IGLC7"
+"IGLC1" -> "IGLC3"
+"IGLC1" -> "IGLC2"
+"IGLC1" -> "IGKC"
+"IGLC1" -> "IGLC7"
+"IGLC2" -> "IGLC3"
+"IGLC2" -> "IGLC1"
+"IGLC2" -> "IGKC"
+"IGLC2" -> "IGLC7"
+"IGLC3" -> "IGLC2"
+"IGLC3" -> "IGLC1"
+"IGLC3" -> "IGLC7"
+"IGLC3" -> "IGKC"
+"IGLC7" -> "IGLC3"
+"IGLC7" -> "IGLC2"
+"IGLC7" -> "IGLC1"
+"IGLC7" -> "IGKC"
+"IGLL1" -> "IGLL5"
+"IGLL1" -> "IGLC1"
+"IGLL1" -> "IGLC3"
+"IGLL1" -> "IGLC7"
+"IGLL5" -> "IGLL1"
+"IGLL5" -> "IGLC7"
+"IGLL5" -> "IGLC1"
+"IGLL5" -> "IGLC3"
+}

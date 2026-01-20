@@ -1,0 +1,197 @@
+digraph G {
+"ACRV1" ["l"="8.842,4.166"]
+"C19orf71" ["l"="8.833,4.184"]
+"C1orf105" ["l"="8.977,4.102"]
+"C2orf73" ["l"="8.825,4.106"]
+"C4orf45" ["l"="8.857,4.086"]
+"C4orf51" ["l"="8.929,4.248"]
+"CABS1" ["l"="8.971,4.068"]
+"CABYR" ["l"="8.805,4.003"]
+"CARD19" ["l"="8.845,3.973"]
+"CATSPER1" ["l"="8.702,3.985"]
+"CDSN" ["l"="8.665,4.092"]
+"CFAP126" ["l"="8.892,4.144"]
+"CFAP77" ["l"="8.778,4.041"]
+"CGREF1" ["l"="9.022,4.297"]
+"CPHXL" ["l"="8.541,4.128"]
+"DSPP" ["l"="8.889,4.197"]
+"ENKUR" ["l"="8.906,4.076"]
+"FAM221B" ["l"="8.759,3.904"]
+"FSCB" ["l"="8.812,3.896"]
+"HEMGN" ["l"="8.762,3.998"]
+"KPRP" ["l"="8.719,4.137"]
+"LRRC37A" ["l"="8.690,4.050"]
+"LRRC37A2" ["l"="8.732,4.026"]
+"LRRC37A3" ["l"="8.675,4.053"]
+"LRRC37B" ["l"="8.704,4.036"]
+"MEPE" ["l"="8.722,4.149"]
+"MS4A14" ["l"="8.734,3.929"]
+"NBPF4" ["l"="8.867,4.033"]
+"SAMD15" ["l"="8.807,3.885"]
+"SELENOV" ["l"="8.788,3.846"]
+"SMCO2" ["l"="8.806,4.056"]
+"SMTNL1" ["l"="8.837,3.790"]
+"SPATA32" ["l"="8.815,3.891"]
+"STPG3" ["l"="9.069,4.306"]
+"TCHHL1" ["l"="8.726,4.084"]
+"TEX43" ["l"="9.017,4.115"]
+"TEX55" ["l"="8.795,4.016"]
+"THEG" ["l"="8.849,4.074"]
+"TXNDC2" ["l"="8.740,3.959"]
+"ACRV1" -> "CGREF1"
+"ACRV1" -> "FAM221B"
+"ACRV1" -> "SPATA32"
+"ACRV1" -> "HEMGN"
+"C19orf71" -> "C4orf45"
+"C19orf71" -> "CFAP126"
+"C19orf71" -> "C1orf105"
+"C19orf71" -> "STPG3"
+"C1orf105" -> "C4orf45"
+"C1orf105" -> "TEX43"
+"C1orf105" -> "C2orf73"
+"C1orf105" -> "CFAP126"
+"C2orf73" -> "C4orf45"
+"C2orf73" -> "C1orf105"
+"C2orf73" -> "CFAP126"
+"C2orf73" -> "CFAP77"
+"C4orf45" -> "C1orf105"
+"C4orf45" -> "C2orf73"
+"C4orf45" -> "CFAP77"
+"C4orf45" -> "CFAP126"
+"C4orf51" -> "C4orf45"
+"C4orf51" -> "C1orf105"
+"C4orf51" -> "TEX43"
+"C4orf51" -> "STPG3"
+"CABS1" -> "HEMGN"
+"CABS1" -> "SAMD15"
+"CABS1" -> "SMTNL1"
+"CABS1" -> "FAM221B"
+"CABYR" -> "ACRV1"
+"CABYR" -> "FSCB"
+"CABYR" -> "NBPF4"
+"CABYR" -> "SELENOV"
+"CARD19" -> "STPG3"
+"CARD19" -> "NBPF4"
+"CARD19" -> "CPHXL"
+"CARD19" -> "ACRV1"
+"CATSPER1" -> "ACRV1"
+"CATSPER1" -> "FAM221B"
+"CATSPER1" -> "KPRP"
+"CATSPER1" -> "TEX55"
+"CDSN" -> "ACRV1"
+"CDSN" -> "KPRP"
+"CDSN" -> "SELENOV"
+"CDSN" -> "FAM221B"
+"CFAP126" -> "C2orf73"
+"CFAP126" -> "C4orf45"
+"CFAP126" -> "C1orf105"
+"CFAP126" -> "CFAP77"
+"CFAP77" -> "C4orf45"
+"CFAP77" -> "C2orf73"
+"CFAP77" -> "ENKUR"
+"CFAP77" -> "CFAP126"
+"CGREF1" -> "ACRV1"
+"CGREF1" -> "TCHHL1"
+"CGREF1" -> "TXNDC2"
+"CGREF1" -> "NBPF4"
+"CPHXL" -> "SPATA32"
+"CPHXL" -> "NBPF4"
+"CPHXL" -> "ACRV1"
+"CPHXL" -> "TEX55"
+"DSPP" -> "ACRV1"
+"DSPP" -> "TXNDC2"
+"DSPP" -> "TCHHL1"
+"DSPP" -> "MEPE"
+"ENKUR" -> "C4orf45"
+"ENKUR" -> "C2orf73"
+"ENKUR" -> "CFAP77"
+"ENKUR" -> "C1orf105"
+"FAM221B" -> "SPATA32"
+"FAM221B" -> "ACRV1"
+"FAM221B" -> "SELENOV"
+"FAM221B" -> "NBPF4"
+"FSCB" -> "TXNDC2"
+"FSCB" -> "HEMGN"
+"FSCB" -> "ACRV1"
+"FSCB" -> "CABYR"
+"HEMGN" -> "SAMD15"
+"HEMGN" -> "FSCB"
+"HEMGN" -> "ACRV1"
+"HEMGN" -> "TEX55"
+"KPRP" -> "ACRV1"
+"KPRP" -> "FAM221B"
+"KPRP" -> "SPATA32"
+"KPRP" -> "NBPF4"
+"LRRC37A" -> "LRRC37A2"
+"LRRC37A" -> "LRRC37A3"
+"LRRC37A" -> "LRRC37B"
+"LRRC37A" -> "ACRV1"
+"LRRC37A2" -> "LRRC37A"
+"LRRC37A2" -> "LRRC37A3"
+"LRRC37A2" -> "LRRC37B"
+"LRRC37A2" -> "MS4A14"
+"LRRC37A3" -> "LRRC37A2"
+"LRRC37A3" -> "LRRC37A"
+"LRRC37A3" -> "LRRC37B"
+"LRRC37A3" -> "FAM221B"
+"LRRC37B" -> "LRRC37A2"
+"LRRC37B" -> "LRRC37A3"
+"LRRC37B" -> "LRRC37A"
+"LRRC37B" -> "FAM221B"
+"MEPE" -> "TCHHL1"
+"MEPE" -> "ACRV1"
+"MEPE" -> "TEX55"
+"MEPE" -> "FAM221B"
+"MS4A14" -> "SPATA32"
+"MS4A14" -> "LRRC37A2"
+"MS4A14" -> "LRRC37A"
+"MS4A14" -> "TXNDC2"
+"NBPF4" -> "ACRV1"
+"NBPF4" -> "FAM221B"
+"NBPF4" -> "SMCO2"
+"NBPF4" -> "SPATA32"
+"SAMD15" -> "HEMGN"
+"SAMD15" -> "SMTNL1"
+"SAMD15" -> "FAM221B"
+"SAMD15" -> "TXNDC2"
+"SELENOV" -> "FAM221B"
+"SELENOV" -> "SPATA32"
+"SELENOV" -> "TXNDC2"
+"SELENOV" -> "NBPF4"
+"SMCO2" -> "NBPF4"
+"SMCO2" -> "ACRV1"
+"SMCO2" -> "SPATA32"
+"SMCO2" -> "HEMGN"
+"SMTNL1" -> "SAMD15"
+"SMTNL1" -> "TXNDC2"
+"SMTNL1" -> "FAM221B"
+"SMTNL1" -> "HEMGN"
+"SPATA32" -> "FAM221B"
+"SPATA32" -> "ACRV1"
+"SPATA32" -> "SELENOV"
+"SPATA32" -> "NBPF4"
+"STPG3" -> "THEG"
+"STPG3" -> "C4orf51"
+"STPG3" -> "FAM221B"
+"STPG3" -> "C1orf105"
+"TCHHL1" -> "TEX55"
+"TCHHL1" -> "ACRV1"
+"TCHHL1" -> "SAMD15"
+"TCHHL1" -> "MEPE"
+"TEX43" -> "C1orf105"
+"TEX43" -> "C4orf45"
+"TEX43" -> "C2orf73"
+"TEX43" -> "C4orf51"
+"TEX55" -> "TCHHL1"
+"TEX55" -> "HEMGN"
+"TEX55" -> "ACRV1"
+"TEX55" -> "FAM221B"
+"THEG" -> "SPATA32"
+"THEG" -> "STPG3"
+"THEG" -> "FAM221B"
+"THEG" -> "NBPF4"
+"TXNDC2" -> "FSCB"
+"TXNDC2" -> "ACRV1"
+"TXNDC2" -> "SAMD15"
+"TXNDC2" -> "HEMGN"
+}

@@ -1,0 +1,112 @@
+digraph G {
+"CRYGN" ["l"="15.434,-0.268"]
+"FGF1" ["l"="15.508,-0.290"]
+"FGF10" ["l"="15.500,-0.304"]
+"FGF11" ["l"="15.501,-0.297"]
+"FGF12" ["l"="15.506,-0.307"]
+"FGF17" ["l"="15.505,-0.307"]
+"FGF18" ["l"="15.503,-0.322"]
+"FGF19" ["l"="15.495,-0.304"]
+"FGF20" ["l"="15.493,-0.314"]
+"FGF21" ["l"="15.522,-0.294"]
+"FGF22" ["l"="15.475,-0.318"]
+"FGF23" ["l"="15.506,-0.301"]
+"FGF3" ["l"="15.502,-0.309"]
+"FGF4" ["l"="15.433,-0.348"]
+"FGF5" ["l"="15.502,-0.309"]
+"FGF6" ["l"="15.501,-0.310"]
+"FGF7" ["l"="15.478,-0.331"]
+"FGF8" ["l"="15.503,-0.293"]
+"FGF9" ["l"="15.510,-0.310"]
+"FSCN1" ["l"="15.426,-0.295"]
+"FSCN2" ["l"="15.475,-0.287"]
+"FSCN3" ["l"="15.464,-0.267"]
+"CRYGN" -> "FGF22"
+"CRYGN" -> "FGF23"
+"CRYGN" -> "FSCN3"
+"CRYGN" -> "FGF17"
+"FGF1" -> "FGF11"
+"FGF1" -> "FGF20"
+"FGF1" -> "FGF9"
+"FGF1" -> "FGF10"
+"FGF10" -> "FGF7"
+"FGF10" -> "FGF5"
+"FGF10" -> "FGF20"
+"FGF10" -> "FGF9"
+"FGF11" -> "FGF23"
+"FGF11" -> "FGF20"
+"FGF11" -> "FGF3"
+"FGF11" -> "FGF10"
+"FGF12" -> "FGF11"
+"FGF12" -> "FGF9"
+"FGF12" -> "FGF3"
+"FGF12" -> "FGF6"
+"FGF17" -> "FGF8"
+"FGF17" -> "FGF18"
+"FGF17" -> "FGF3"
+"FGF17" -> "FGF22"
+"FGF18" -> "FGF17"
+"FGF18" -> "FGF19"
+"FGF18" -> "FGF9"
+"FGF18" -> "FGF11"
+"FGF19" -> "FGF23"
+"FGF19" -> "FGF21"
+"FGF19" -> "FGF6"
+"FGF19" -> "FGF20"
+"FGF20" -> "FGF9"
+"FGF20" -> "FGF4"
+"FGF20" -> "FGF6"
+"FGF20" -> "FGF10"
+"FGF21" -> "FGF23"
+"FGF21" -> "FGF19"
+"FGF21" -> "FGF11"
+"FGF21" -> "FGF22"
+"FGF22" -> "FGF3"
+"FGF22" -> "FGF20"
+"FGF22" -> "FGF6"
+"FGF22" -> "FGF17"
+"FGF23" -> "FGF19"
+"FGF23" -> "FGF21"
+"FGF23" -> "FGF11"
+"FGF23" -> "FGF7"
+"FGF3" -> "FGF22"
+"FGF3" -> "FGF11"
+"FGF3" -> "FGF17"
+"FGF3" -> "FGF20"
+"FGF4" -> "FGF20"
+"FGF4" -> "FGF6"
+"FGF4" -> "FGF3"
+"FGF4" -> "FGF10"
+"FGF5" -> "FGF10"
+"FGF5" -> "FGF7"
+"FGF5" -> "FGF20"
+"FGF5" -> "FGF11"
+"FGF6" -> "FGF20"
+"FGF6" -> "FGF9"
+"FGF6" -> "FGF22"
+"FGF6" -> "FGF19"
+"FGF7" -> "FGF10"
+"FGF7" -> "FGF9"
+"FGF7" -> "FGF23"
+"FGF7" -> "FGF5"
+"FGF8" -> "FGF17"
+"FGF8" -> "FGF19"
+"FGF8" -> "FGF3"
+"FGF8" -> "FGF18"
+"FGF9" -> "FGF20"
+"FGF9" -> "FGF6"
+"FGF9" -> "FGF7"
+"FGF9" -> "FGF10"
+"FSCN1" -> "FSCN2"
+"FSCN1" -> "FSCN3"
+"FSCN1" -> "FGF17"
+"FSCN1" -> "FGF19"
+"FSCN2" -> "FSCN3"
+"FSCN2" -> "FSCN1"
+"FSCN2" -> "FGF22"
+"FSCN2" -> "FGF11"
+"FSCN3" -> "FSCN2"
+"FSCN3" -> "FGF22"
+"FSCN3" -> "CRYGN"
+"FSCN3" -> "FGF11"
+}

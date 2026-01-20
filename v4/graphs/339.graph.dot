@@ -1,0 +1,162 @@
+digraph G {
+"ANKIB1" ["l"="9.570,1.402"]
+"APBB1" ["l"="9.430,1.588"]
+"APBB3" ["l"="9.730,1.498"]
+"ARNTL" ["l"="9.748,1.486"]
+"ATAD2B" ["l"="9.636,1.564"]
+"BANK1" ["l"="9.587,1.471"]
+"CEP104" ["l"="9.594,1.494"]
+"FBXO42" ["l"="9.453,1.489"]
+"GRAMD2B" ["l"="9.583,1.537"]
+"INPP5J" ["l"="9.741,1.486"]
+"MINDY4" ["l"="9.636,1.484"]
+"PLEKHM1" ["l"="9.510,1.663"]
+"PPP1R37" ["l"="9.565,1.470"]
+"RASSF5" ["l"="9.716,1.546"]
+"RNF157" ["l"="9.426,1.517"]
+"RTKN2" ["l"="9.577,1.506"]
+"SCYL2" ["l"="9.463,1.618"]
+"SH2B3" ["l"="9.665,1.525"]
+"SH2D3A" ["l"="9.662,1.494"]
+"SHC2" ["l"="9.620,1.456"]
+"SHC4" ["l"="9.662,1.482"]
+"STAC" ["l"="9.671,1.398"]
+"STAC2" ["l"="9.773,1.469"]
+"STAP1" ["l"="9.695,1.446"]
+"STAP2" ["l"="9.571,1.598"]
+"TEPSIN" ["l"="9.760,1.449"]
+"TERB1" ["l"="9.440,1.668"]
+"TOP2B" ["l"="9.547,1.629"]
+"TSNARE1" ["l"="9.605,1.532"]
+"TTC16" ["l"="9.667,1.445"]
+"USP2" ["l"="9.535,1.438"]
+"USP21" ["l"="9.583,1.525"]
+"ANKIB1" -> "RNF157"
+"ANKIB1" -> "SHC4"
+"ANKIB1" -> "CEP104"
+"ANKIB1" -> "ATAD2B"
+"APBB1" -> "APBB3"
+"APBB1" -> "USP21"
+"APBB1" -> "SHC4"
+"APBB1" -> "SHC2"
+"APBB3" -> "TEPSIN"
+"APBB3" -> "SHC4"
+"APBB3" -> "APBB1"
+"APBB3" -> "SH2B3"
+"ARNTL" -> "FBXO42"
+"ARNTL" -> "RNF157"
+"ARNTL" -> "ATAD2B"
+"ARNTL" -> "SHC4"
+"ATAD2B" -> "TOP2B"
+"ATAD2B" -> "FBXO42"
+"ATAD2B" -> "SHC4"
+"ATAD2B" -> "ANKIB1"
+"BANK1" -> "RTKN2"
+"BANK1" -> "STAP1"
+"BANK1" -> "TERB1"
+"BANK1" -> "STAP2"
+"CEP104" -> "PLEKHM1"
+"CEP104" -> "ANKIB1"
+"CEP104" -> "RTKN2"
+"CEP104" -> "STAC"
+"FBXO42" -> "RNF157"
+"FBXO42" -> "ATAD2B"
+"FBXO42" -> "ARNTL"
+"FBXO42" -> "ANKIB1"
+"GRAMD2B" -> "SHC4"
+"GRAMD2B" -> "RNF157"
+"GRAMD2B" -> "STAC2"
+"GRAMD2B" -> "STAC"
+"INPP5J" -> "USP21"
+"INPP5J" -> "SH2B3"
+"INPP5J" -> "TEPSIN"
+"INPP5J" -> "USP2"
+"MINDY4" -> "PLEKHM1"
+"MINDY4" -> "SHC4"
+"MINDY4" -> "GRAMD2B"
+"MINDY4" -> "SH2B3"
+"PLEKHM1" -> "MINDY4"
+"PLEKHM1" -> "SH2B3"
+"PLEKHM1" -> "CEP104"
+"PLEKHM1" -> "RASSF5"
+"PPP1R37" -> "RNF157"
+"PPP1R37" -> "STAC2"
+"PPP1R37" -> "CEP104"
+"PPP1R37" -> "TEPSIN"
+"RASSF5" -> "SH2B3"
+"RASSF5" -> "STAC2"
+"RASSF5" -> "STAC"
+"RASSF5" -> "STAP1"
+"RNF157" -> "FBXO42"
+"RNF157" -> "ANKIB1"
+"RNF157" -> "STAC2"
+"RNF157" -> "PPP1R37"
+"RTKN2" -> "BANK1"
+"RTKN2" -> "STAP1"
+"RTKN2" -> "CEP104"
+"RTKN2" -> "SHC4"
+"SCYL2" -> "ATAD2B"
+"SCYL2" -> "CEP104"
+"SCYL2" -> "ANKIB1"
+"SCYL2" -> "TEPSIN"
+"SH2B3" -> "RASSF5"
+"SH2B3" -> "STAC2"
+"SH2B3" -> "SHC4"
+"SH2B3" -> "USP21"
+"SH2D3A" -> "SH2B3"
+"SH2D3A" -> "TEPSIN"
+"SH2D3A" -> "SHC4"
+"SH2D3A" -> "PLEKHM1"
+"SHC2" -> "SHC4"
+"SHC2" -> "SH2B3"
+"SHC2" -> "TEPSIN"
+"SHC2" -> "STAC"
+"SHC4" -> "STAC"
+"SHC4" -> "GRAMD2B"
+"SHC4" -> "SHC2"
+"SHC4" -> "SH2B3"
+"STAC" -> "STAC2"
+"STAC" -> "SHC4"
+"STAC" -> "RASSF5"
+"STAC" -> "STAP1"
+"STAC2" -> "STAC"
+"STAC2" -> "SH2B3"
+"STAC2" -> "RNF157"
+"STAC2" -> "RASSF5"
+"STAP1" -> "STAP2"
+"STAP1" -> "SHC4"
+"STAP1" -> "STAC"
+"STAP1" -> "RASSF5"
+"STAP2" -> "STAP1"
+"STAP2" -> "SHC4"
+"STAP2" -> "SH2B3"
+"STAP2" -> "STAC"
+"TEPSIN" -> "APBB3"
+"TEPSIN" -> "SH2B3"
+"TEPSIN" -> "SHC4"
+"TEPSIN" -> "SHC2"
+"TERB1" -> "RTKN2"
+"TERB1" -> "TEPSIN"
+"TERB1" -> "CEP104"
+"TERB1" -> "ATAD2B"
+"TOP2B" -> "ATAD2B"
+"TOP2B" -> "SCYL2"
+"TOP2B" -> "CEP104"
+"TOP2B" -> "ANKIB1"
+"TSNARE1" -> "GRAMD2B"
+"TSNARE1" -> "USP21"
+"TSNARE1" -> "SH2B3"
+"TSNARE1" -> "SHC4"
+"TTC16" -> "PPP1R37"
+"TTC16" -> "INPP5J"
+"TTC16" -> "RNF157"
+"TTC16" -> "USP21"
+"USP2" -> "USP21"
+"USP2" -> "SH2B3"
+"USP2" -> "SHC4"
+"USP2" -> "STAC2"
+"USP21" -> "USP2"
+"USP21" -> "SH2B3"
+"USP21" -> "SHC4"
+"USP21" -> "INPP5J"
+}

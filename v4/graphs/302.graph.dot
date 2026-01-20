@@ -1,0 +1,162 @@
+digraph G {
+"C12orf42" ["l"="9.315,4.241"]
+"C16orf46" ["l"="9.292,4.068"]
+"C16orf82" ["l"="9.388,4.030"]
+"C22orf31" ["l"="9.261,4.044"]
+"C3orf56" ["l"="9.288,4.143"]
+"C5orf52" ["l"="9.209,4.157"]
+"CDRT15" ["l"="9.329,4.117"]
+"CDRT15L2" ["l"="9.309,4.112"]
+"CDRT4" ["l"="9.138,4.081"]
+"CFAP97D1" ["l"="9.131,4.193"]
+"CIART" ["l"="9.199,4.323"]
+"DUSP15" ["l"="9.224,4.277"]
+"JPT2" ["l"="9.159,4.067"]
+"MAVS" ["l"="9.212,4.143"]
+"PMIS2" ["l"="9.302,4.197"]
+"POM121L12" ["l"="9.259,4.106"]
+"PPP1R17" ["l"="9.352,4.036"]
+"PRR20A" ["l"="9.265,4.052"]
+"PRR20B" ["l"="9.218,4.034"]
+"PRR20C" ["l"="9.323,4.024"]
+"PRR20D" ["l"="9.245,3.994"]
+"PRR20E" ["l"="9.314,4.048"]
+"PRR20G" ["l"="9.273,4.010"]
+"PRR23D1" ["l"="9.179,4.008"]
+"PRR23D2" ["l"="9.169,4.081"]
+"PRR3" ["l"="9.217,3.989"]
+"SAP25" ["l"="9.376,4.028"]
+"SMIM17" ["l"="9.390,4.061"]
+"SPATA25" ["l"="9.349,4.141"]
+"STRA8" ["l"="9.267,4.026"]
+"TEX33" ["l"="9.152,4.033"]
+"TEX36" ["l"="9.214,4.260"]
+"C12orf42" -> "CDRT4"
+"C12orf42" -> "POM121L12"
+"C12orf42" -> "C16orf46"
+"C12orf42" -> "C22orf31"
+"C16orf46" -> "POM121L12"
+"C16orf46" -> "C22orf31"
+"C16orf46" -> "CDRT4"
+"C16orf46" -> "C12orf42"
+"C16orf82" -> "SMIM17"
+"C16orf82" -> "TEX33"
+"C16orf82" -> "PRR20E"
+"C16orf82" -> "C12orf42"
+"C22orf31" -> "C5orf52"
+"C22orf31" -> "C16orf46"
+"C22orf31" -> "CDRT4"
+"C22orf31" -> "SPATA25"
+"C3orf56" -> "SAP25"
+"C3orf56" -> "PRR23D2"
+"C3orf56" -> "PRR23D1"
+"C3orf56" -> "SPATA25"
+"C5orf52" -> "CDRT4"
+"C5orf52" -> "C22orf31"
+"C5orf52" -> "TEX36"
+"C5orf52" -> "TEX33"
+"CDRT15" -> "PRR20B"
+"CDRT15" -> "PRR20C"
+"CDRT15" -> "CDRT15L2"
+"CDRT15" -> "PRR20E"
+"CDRT15L2" -> "CDRT15"
+"CDRT15L2" -> "PRR20B"
+"CDRT15L2" -> "PRR20C"
+"CDRT15L2" -> "PRR20E"
+"CDRT4" -> "C5orf52"
+"CDRT4" -> "C12orf42"
+"CDRT4" -> "CFAP97D1"
+"CDRT4" -> "C16orf46"
+"CFAP97D1" -> "CDRT4"
+"CFAP97D1" -> "C5orf52"
+"CFAP97D1" -> "POM121L12"
+"CFAP97D1" -> "PRR20G"
+"CIART" -> "PRR23D2"
+"CIART" -> "PRR23D1"
+"CIART" -> "PRR20G"
+"CIART" -> "SPATA25"
+"DUSP15" -> "C12orf42"
+"DUSP15" -> "PRR23D1"
+"DUSP15" -> "POM121L12"
+"DUSP15" -> "CDRT4"
+"JPT2" -> "CDRT4"
+"JPT2" -> "PRR20G"
+"JPT2" -> "POM121L12"
+"JPT2" -> "TEX36"
+"MAVS" -> "SMIM17"
+"MAVS" -> "POM121L12"
+"MAVS" -> "PRR20B"
+"MAVS" -> "PRR20C"
+"PMIS2" -> "PRR20C"
+"PMIS2" -> "PRR20E"
+"PMIS2" -> "PRR20B"
+"PMIS2" -> "C3orf56"
+"POM121L12" -> "SPATA25"
+"POM121L12" -> "C16orf46"
+"POM121L12" -> "PRR20G"
+"POM121L12" -> "C12orf42"
+"PPP1R17" -> "CDRT4"
+"PPP1R17" -> "C22orf31"
+"PPP1R17" -> "PRR20E"
+"PPP1R17" -> "SMIM17"
+"PRR20A" -> "PRR20E"
+"PRR20A" -> "PRR20C"
+"PRR20A" -> "PRR20B"
+"PRR20A" -> "PRR20D"
+"PRR20B" -> "PRR20E"
+"PRR20B" -> "PRR20C"
+"PRR20B" -> "PRR20A"
+"PRR20B" -> "PRR20D"
+"PRR20C" -> "PRR20E"
+"PRR20C" -> "PRR20A"
+"PRR20C" -> "PRR20B"
+"PRR20C" -> "PRR20D"
+"PRR20D" -> "PRR20E"
+"PRR20D" -> "PRR20B"
+"PRR20D" -> "PRR20C"
+"PRR20D" -> "PRR20A"
+"PRR20E" -> "PRR20C"
+"PRR20E" -> "PRR20A"
+"PRR20E" -> "PRR20B"
+"PRR20E" -> "PRR20D"
+"PRR20G" -> "PRR20D"
+"PRR20G" -> "PRR20B"
+"PRR20G" -> "PRR20E"
+"PRR20G" -> "PRR20C"
+"PRR23D1" -> "PRR23D2"
+"PRR23D1" -> "PRR20B"
+"PRR23D1" -> "PRR20E"
+"PRR23D1" -> "PRR20D"
+"PRR23D2" -> "PRR23D1"
+"PRR23D2" -> "PRR20E"
+"PRR23D2" -> "PRR20B"
+"PRR23D2" -> "PRR20D"
+"PRR3" -> "PRR20D"
+"PRR3" -> "PRR20E"
+"PRR3" -> "PRR20G"
+"PRR3" -> "PRR20B"
+"SAP25" -> "SPATA25"
+"SAP25" -> "PRR20B"
+"SAP25" -> "PRR20G"
+"SAP25" -> "PRR20D"
+"SMIM17" -> "PRR20E"
+"SMIM17" -> "PRR20B"
+"SMIM17" -> "PRR20C"
+"SMIM17" -> "PRR20D"
+"SPATA25" -> "POM121L12"
+"SPATA25" -> "SAP25"
+"SPATA25" -> "PRR20G"
+"SPATA25" -> "PRR20B"
+"STRA8" -> "PRR20B"
+"STRA8" -> "SAP25"
+"STRA8" -> "SMIM17"
+"STRA8" -> "PPP1R17"
+"TEX33" -> "CDRT4"
+"TEX33" -> "C22orf31"
+"TEX33" -> "C5orf52"
+"TEX33" -> "POM121L12"
+"TEX36" -> "C5orf52"
+"TEX36" -> "CDRT4"
+"TEX36" -> "C16orf46"
+"TEX36" -> "POM121L12"
+}

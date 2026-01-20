@@ -1,0 +1,182 @@
+digraph G {
+"CDH1" ["l"="12.259,-4.390"]
+"CDH10" ["l"="12.272,-4.402"]
+"CDH11" ["l"="12.274,-4.400"]
+"CDH12" ["l"="12.271,-4.403"]
+"CDH13" ["l"="12.275,-4.396"]
+"CDH15" ["l"="12.274,-4.366"]
+"CDH16" ["l"="12.283,-4.271"]
+"CDH17" ["l"="12.279,-4.327"]
+"CDH18" ["l"="12.279,-4.400"]
+"CDH19" ["l"="12.277,-4.397"]
+"CDH2" ["l"="12.270,-4.392"]
+"CDH20" ["l"="12.274,-4.401"]
+"CDH22" ["l"="12.279,-4.377"]
+"CDH24" ["l"="12.277,-4.379"]
+"CDH26" ["l"="12.275,-4.381"]
+"CDH3" ["l"="12.273,-4.384"]
+"CDH4" ["l"="12.279,-4.400"]
+"CDH5" ["l"="12.277,-4.386"]
+"CDH6" ["l"="12.299,-4.405"]
+"CDH7" ["l"="12.279,-4.379"]
+"CDH8" ["l"="12.281,-4.400"]
+"CDH9" ["l"="12.277,-4.406"]
+"CDHR1" ["l"="12.292,-4.309"]
+"CDHR2" ["l"="12.296,-4.236"]
+"CDHR3" ["l"="12.281,-4.340"]
+"CDHR4" ["l"="12.316,-4.175"]
+"DSC1" ["l"="12.271,-4.370"]
+"DSC3" ["l"="12.247,-4.352"]
+"DSG1" ["l"="12.272,-4.378"]
+"DSG2" ["l"="12.272,-4.381"]
+"DSG3" ["l"="12.267,-4.367"]
+"DSG4" ["l"="12.270,-4.381"]
+"PCDH1" ["l"="12.310,-4.450"]
+"PCDH15" ["l"="12.270,-4.378"]
+"PCDH7" ["l"="12.276,-4.391"]
+"PCDH9" ["l"="12.313,-4.331"]
+"CDH1" -> "CDH3"
+"CDH1" -> "CDH5"
+"CDH1" -> "DSG2"
+"CDH1" -> "DSC3"
+"CDH10" -> "CDH18"
+"CDH10" -> "CDH12"
+"CDH10" -> "CDH9"
+"CDH10" -> "CDH8"
+"CDH11" -> "CDH6"
+"CDH11" -> "CDH8"
+"CDH11" -> "CDH7"
+"CDH11" -> "CDH12"
+"CDH12" -> "CDH18"
+"CDH12" -> "CDH9"
+"CDH12" -> "CDH10"
+"CDH12" -> "CDH2"
+"CDH13" -> "CDH6"
+"CDH13" -> "CDH8"
+"CDH13" -> "CDH18"
+"CDH13" -> "CDH20"
+"CDH15" -> "CDH24"
+"CDH15" -> "CDH3"
+"CDH15" -> "CDH26"
+"CDH15" -> "CDH6"
+"CDH16" -> "CDHR4"
+"CDH16" -> "CDH15"
+"CDH16" -> "CDH17"
+"CDH16" -> "CDH26"
+"CDH17" -> "DSC1"
+"CDH17" -> "CDH1"
+"CDH17" -> "CDH5"
+"CDH17" -> "CDH26"
+"CDH18" -> "CDH8"
+"CDH18" -> "CDH12"
+"CDH18" -> "CDH10"
+"CDH18" -> "CDH6"
+"CDH19" -> "CDH6"
+"CDH19" -> "CDH7"
+"CDH19" -> "CDH8"
+"CDH19" -> "CDH26"
+"CDH2" -> "CDH12"
+"CDH2" -> "CDH10"
+"CDH2" -> "CDH8"
+"CDH2" -> "CDH9"
+"CDH20" -> "CDH8"
+"CDH20" -> "CDH11"
+"CDH20" -> "CDH13"
+"CDH20" -> "CDH4"
+"CDH22" -> "CDH6"
+"CDH22" -> "CDH4"
+"CDH22" -> "CDH8"
+"CDH22" -> "CDH20"
+"CDH24" -> "CDH15"
+"CDH24" -> "CDH6"
+"CDH24" -> "CDH22"
+"CDH24" -> "CDH11"
+"CDH26" -> "DSG4"
+"CDH26" -> "CDH3"
+"CDH26" -> "CDH15"
+"CDH26" -> "DSC1"
+"CDH3" -> "CDH1"
+"CDH3" -> "CDH6"
+"CDH3" -> "CDH11"
+"CDH3" -> "CDH26"
+"CDH4" -> "CDH11"
+"CDH4" -> "CDH6"
+"CDH4" -> "CDH20"
+"CDH4" -> "CDH7"
+"CDH5" -> "CDH1"
+"CDH5" -> "CDH6"
+"CDH5" -> "CDH3"
+"CDH5" -> "CDH17"
+"CDH6" -> "CDH7"
+"CDH6" -> "CDH8"
+"CDH6" -> "CDH11"
+"CDH6" -> "CDH9"
+"CDH7" -> "CDH6"
+"CDH7" -> "CDH8"
+"CDH7" -> "CDH18"
+"CDH7" -> "CDH11"
+"CDH8" -> "CDH6"
+"CDH8" -> "CDH18"
+"CDH8" -> "CDH7"
+"CDH8" -> "CDH11"
+"CDH9" -> "CDH12"
+"CDH9" -> "CDH6"
+"CDH9" -> "CDH10"
+"CDH9" -> "CDH18"
+"CDHR1" -> "CDH7"
+"CDHR1" -> "CDH6"
+"CDHR1" -> "CDHR3"
+"CDHR1" -> "CDH8"
+"CDHR2" -> "CDH17"
+"CDHR2" -> "CDHR1"
+"CDHR2" -> "CDH5"
+"CDHR2" -> "CDH1"
+"CDHR3" -> "CDHR1"
+"CDHR3" -> "CDHR2"
+"CDHR3" -> "CDH7"
+"CDHR3" -> "CDH5"
+"CDHR4" -> "CDH16"
+"CDHR4" -> "CDHR1"
+"CDHR4" -> "CDHR2"
+"CDHR4" -> "CDH26"
+"DSC1" -> "DSC3"
+"DSC1" -> "CDH17"
+"DSC1" -> "CDH26"
+"DSC1" -> "CDH1"
+"DSC3" -> "DSG3"
+"DSC3" -> "DSC1"
+"DSC3" -> "DSG1"
+"DSC3" -> "CDH1"
+"DSG1" -> "DSC3"
+"DSG1" -> "DSG3"
+"DSG1" -> "DSG4"
+"DSG1" -> "DSG2"
+"DSG2" -> "DSG3"
+"DSG2" -> "CDH1"
+"DSG2" -> "DSC3"
+"DSG2" -> "DSG4"
+"DSG3" -> "DSC3"
+"DSG3" -> "DSG2"
+"DSG3" -> "DSG1"
+"DSG3" -> "DSG4"
+"DSG4" -> "CDH26"
+"DSG4" -> "DSG3"
+"DSG4" -> "DSG1"
+"DSG4" -> "DSC3"
+"PCDH1" -> "CDH5"
+"PCDH1" -> "CDH6"
+"PCDH1" -> "CDH22"
+"PCDH1" -> "CDH3"
+"PCDH15" -> "PCDH7"
+"PCDH15" -> "CDH8"
+"PCDH15" -> "CDH2"
+"PCDH15" -> "CDH13"
+"PCDH7" -> "PCDH9"
+"PCDH7" -> "CDH13"
+"PCDH7" -> "CDH8"
+"PCDH7" -> "CDH6"
+"PCDH9" -> "PCDH7"
+"PCDH9" -> "CDH20"
+"PCDH9" -> "CDH8"
+"PCDH9" -> "CDH18"
+}

@@ -1,0 +1,92 @@
+digraph G {
+"AZGP1" ["l"="8.338,9.632"]
+"CD1A" ["l"="8.340,9.612"]
+"CD1B" ["l"="8.335,9.630"]
+"CD1C" ["l"="8.323,9.650"]
+"CD1D" ["l"="8.324,9.650"]
+"CD1E" ["l"="8.343,9.610"]
+"FCGRT" ["l"="8.321,9.654"]
+"HFE" ["l"="8.334,9.637"]
+"MICA" ["l"="8.340,9.632"]
+"MICB" ["l"="8.329,9.644"]
+"MR1" ["l"="8.335,9.634"]
+"PROCR" ["l"="8.338,9.632"]
+"RAET1E" ["l"="8.342,9.628"]
+"RAET1G" ["l"="8.341,9.627"]
+"RAET1L" ["l"="8.340,9.630"]
+"ULBP1" ["l"="8.338,9.630"]
+"ULBP2" ["l"="8.341,9.629"]
+"ULBP3" ["l"="8.337,9.633"]
+"AZGP1" -> "HFE"
+"AZGP1" -> "MICA"
+"AZGP1" -> "RAET1L"
+"AZGP1" -> "MR1"
+"CD1A" -> "CD1B"
+"CD1A" -> "CD1E"
+"CD1A" -> "CD1C"
+"CD1A" -> "CD1D"
+"CD1B" -> "CD1E"
+"CD1B" -> "CD1A"
+"CD1B" -> "CD1C"
+"CD1B" -> "CD1D"
+"CD1C" -> "CD1A"
+"CD1C" -> "CD1D"
+"CD1C" -> "CD1E"
+"CD1C" -> "CD1B"
+"CD1D" -> "CD1C"
+"CD1D" -> "CD1A"
+"CD1D" -> "HFE"
+"CD1D" -> "ULBP3"
+"CD1E" -> "CD1B"
+"CD1E" -> "CD1A"
+"CD1E" -> "CD1C"
+"CD1E" -> "CD1D"
+"FCGRT" -> "HFE"
+"FCGRT" -> "CD1D"
+"FCGRT" -> "PROCR"
+"FCGRT" -> "MICB"
+"HFE" -> "MR1"
+"HFE" -> "ULBP3"
+"HFE" -> "MICA"
+"HFE" -> "MICB"
+"MICA" -> "MICB"
+"MICA" -> "HFE"
+"MICA" -> "ULBP3"
+"MICA" -> "RAET1G"
+"MICB" -> "MICA"
+"MICB" -> "ULBP3"
+"MICB" -> "HFE"
+"MICB" -> "RAET1L"
+"MR1" -> "HFE"
+"MR1" -> "ULBP3"
+"MR1" -> "ULBP1"
+"MR1" -> "RAET1L"
+"PROCR" -> "ULBP2"
+"PROCR" -> "HFE"
+"PROCR" -> "ULBP3"
+"PROCR" -> "MICA"
+"RAET1E" -> "ULBP3"
+"RAET1E" -> "RAET1L"
+"RAET1E" -> "ULBP1"
+"RAET1E" -> "RAET1G"
+"RAET1G" -> "RAET1L"
+"RAET1G" -> "ULBP2"
+"RAET1G" -> "ULBP3"
+"RAET1G" -> "ULBP1"
+"RAET1L" -> "ULBP2"
+"RAET1L" -> "ULBP3"
+"RAET1L" -> "ULBP1"
+"RAET1L" -> "RAET1G"
+"ULBP1" -> "ULBP3"
+"ULBP1" -> "RAET1L"
+"ULBP1" -> "ULBP2"
+"ULBP1" -> "RAET1E"
+"ULBP2" -> "ULBP3"
+"ULBP2" -> "RAET1L"
+"ULBP2" -> "ULBP1"
+"ULBP2" -> "RAET1G"
+"ULBP3" -> "ULBP2"
+"ULBP3" -> "ULBP1"
+"ULBP3" -> "RAET1L"
+"ULBP3" -> "RAET1E"
+}

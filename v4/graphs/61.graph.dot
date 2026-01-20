@@ -1,0 +1,162 @@
+digraph G {
+"AZU1" ["l"="14.029,-3.416"]
+"CELA1" ["l"="14.071,-3.463"]
+"CFD" ["l"="14.032,-3.404"]
+"CMA1" ["l"="14.028,-3.409"]
+"CTSG" ["l"="14.030,-3.424"]
+"ELANE" ["l"="14.035,-3.426"]
+"GZMA" ["l"="14.031,-3.415"]
+"GZMB" ["l"="14.033,-3.418"]
+"GZMH" ["l"="14.025,-3.402"]
+"GZMK" ["l"="14.031,-3.413"]
+"GZMM" ["l"="14.027,-3.406"]
+"KLK10" ["l"="13.978,-3.301"]
+"KLK11" ["l"="14.053,-3.438"]
+"KLK12" ["l"="14.067,-3.460"]
+"KLK13" ["l"="14.032,-3.411"]
+"KLK14" ["l"="14.053,-3.439"]
+"KLK15" ["l"="14.044,-3.425"]
+"KLK2" ["l"="14.000,-3.333"]
+"KLK3" ["l"="14.064,-3.430"]
+"KLK4" ["l"="14.019,-3.377"]
+"KLK5" ["l"="14.045,-3.426"]
+"KLK6" ["l"="14.061,-3.447"]
+"KLK7" ["l"="14.038,-3.418"]
+"KLK8" ["l"="14.047,-3.441"]
+"KLK9" ["l"="14.035,-3.418"]
+"PRSS27" ["l"="13.997,-3.310"]
+"PRSS57" ["l"="14.006,-3.353"]
+"PRSS58" ["l"="13.982,-3.278"]
+"PRTN3" ["l"="14.035,-3.426"]
+"TPSAB1" ["l"="14.043,-3.428"]
+"TPSB2" ["l"="14.029,-3.399"]
+"TPSD1" ["l"="13.980,-3.274"]
+"AZU1" -> "PRTN3"
+"AZU1" -> "ELANE"
+"AZU1" -> "CTSG"
+"AZU1" -> "PRSS57"
+"CELA1" -> "KLK14"
+"CELA1" -> "KLK10"
+"CELA1" -> "KLK9"
+"CELA1" -> "KLK15"
+"CFD" -> "KLK10"
+"CFD" -> "TPSAB1"
+"CFD" -> "TPSB2"
+"CFD" -> "KLK14"
+"CMA1" -> "CTSG"
+"CMA1" -> "GZMB"
+"CMA1" -> "TPSB2"
+"CMA1" -> "TPSAB1"
+"CTSG" -> "AZU1"
+"CTSG" -> "CMA1"
+"CTSG" -> "PRTN3"
+"CTSG" -> "ELANE"
+"ELANE" -> "PRTN3"
+"ELANE" -> "AZU1"
+"ELANE" -> "CTSG"
+"ELANE" -> "PRSS57"
+"GZMA" -> "GZMK"
+"GZMA" -> "GZMM"
+"GZMA" -> "GZMH"
+"GZMA" -> "GZMB"
+"GZMB" -> "GZMH"
+"GZMB" -> "CMA1"
+"GZMB" -> "CTSG"
+"GZMB" -> "GZMM"
+"GZMH" -> "GZMB"
+"GZMH" -> "GZMM"
+"GZMH" -> "CMA1"
+"GZMH" -> "GZMA"
+"GZMK" -> "GZMA"
+"GZMK" -> "GZMM"
+"GZMK" -> "GZMH"
+"GZMK" -> "KLK14"
+"GZMM" -> "GZMH"
+"GZMM" -> "PRSS57"
+"GZMM" -> "KLK13"
+"GZMM" -> "KLK14"
+"KLK10" -> "KLK7"
+"KLK10" -> "KLK13"
+"KLK10" -> "KLK5"
+"KLK10" -> "KLK9"
+"KLK11" -> "KLK13"
+"KLK11" -> "KLK14"
+"KLK11" -> "KLK10"
+"KLK11" -> "KLK15"
+"KLK12" -> "KLK14"
+"KLK12" -> "KLK15"
+"KLK12" -> "KLK13"
+"KLK12" -> "KLK8"
+"KLK13" -> "PRSS27"
+"KLK13" -> "KLK10"
+"KLK13" -> "KLK11"
+"KLK13" -> "KLK7"
+"KLK14" -> "KLK15"
+"KLK14" -> "KLK8"
+"KLK14" -> "KLK9"
+"KLK14" -> "KLK6"
+"KLK15" -> "KLK14"
+"KLK15" -> "KLK8"
+"KLK15" -> "KLK13"
+"KLK15" -> "KLK9"
+"KLK2" -> "KLK3"
+"KLK2" -> "KLK4"
+"KLK2" -> "KLK10"
+"KLK2" -> "KLK7"
+"KLK3" -> "KLK2"
+"KLK3" -> "KLK4"
+"KLK3" -> "KLK7"
+"KLK3" -> "KLK13"
+"KLK4" -> "KLK3"
+"KLK4" -> "KLK2"
+"KLK4" -> "KLK7"
+"KLK4" -> "KLK10"
+"KLK5" -> "KLK7"
+"KLK5" -> "KLK10"
+"KLK5" -> "KLK6"
+"KLK5" -> "KLK8"
+"KLK6" -> "KLK8"
+"KLK6" -> "KLK7"
+"KLK6" -> "KLK14"
+"KLK6" -> "KLK5"
+"KLK7" -> "KLK10"
+"KLK7" -> "KLK5"
+"KLK7" -> "KLK6"
+"KLK7" -> "KLK9"
+"KLK8" -> "KLK14"
+"KLK8" -> "KLK6"
+"KLK8" -> "KLK15"
+"KLK8" -> "KLK13"
+"KLK9" -> "KLK14"
+"KLK9" -> "KLK7"
+"KLK9" -> "KLK10"
+"KLK9" -> "KLK8"
+"PRSS27" -> "KLK13"
+"PRSS27" -> "KLK10"
+"PRSS27" -> "KLK15"
+"PRSS27" -> "KLK8"
+"PRSS57" -> "GZMM"
+"PRSS57" -> "KLK10"
+"PRSS57" -> "PRTN3"
+"PRSS57" -> "CFD"
+"PRSS58" -> "GZMK"
+"PRSS58" -> "CELA1"
+"PRSS58" -> "KLK10"
+"PRSS58" -> "KLK3"
+"PRTN3" -> "AZU1"
+"PRTN3" -> "ELANE"
+"PRTN3" -> "CTSG"
+"PRTN3" -> "PRSS57"
+"TPSAB1" -> "TPSB2"
+"TPSAB1" -> "TPSD1"
+"TPSAB1" -> "CMA1"
+"TPSAB1" -> "CFD"
+"TPSB2" -> "TPSAB1"
+"TPSB2" -> "TPSD1"
+"TPSB2" -> "CMA1"
+"TPSB2" -> "CFD"
+"TPSD1" -> "TPSB2"
+"TPSD1" -> "TPSAB1"
+"TPSD1" -> "KLK10"
+"TPSD1" -> "CMA1"
+}

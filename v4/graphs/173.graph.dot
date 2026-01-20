@@ -1,0 +1,92 @@
+digraph G {
+"ACSM1" ["l"="13.879,1.523"]
+"ACSM2A" ["l"="13.877,1.557"]
+"ACSM2B" ["l"="13.877,1.567"]
+"ACSM3" ["l"="13.887,1.522"]
+"ACSM4" ["l"="13.864,1.528"]
+"ACSM5" ["l"="13.822,1.565"]
+"ACSM6" ["l"="13.902,1.501"]
+"ADH1A" ["l"="13.980,1.667"]
+"ADH1B" ["l"="13.978,1.679"]
+"ADH1C" ["l"="14.004,1.667"]
+"ADH4" ["l"="13.990,1.679"]
+"ADH5" ["l"="14.029,1.667"]
+"ADH6" ["l"="13.904,1.669"]
+"ADH7" ["l"="14.020,1.688"]
+"CRYZ" ["l"="13.825,1.717"]
+"GSTT2B" ["l"="14.194,1.741"]
+"GSTZ1" ["l"="13.986,1.778"]
+"PTGR1" ["l"="13.904,1.702"]
+"ACSM1" -> "ACSM4"
+"ACSM1" -> "ACSM3"
+"ACSM1" -> "ACSM5"
+"ACSM1" -> "ACSM2A"
+"ACSM2A" -> "ACSM2B"
+"ACSM2A" -> "ACSM5"
+"ACSM2A" -> "ACSM1"
+"ACSM2A" -> "ACSM4"
+"ACSM2B" -> "ACSM2A"
+"ACSM2B" -> "ACSM5"
+"ACSM2B" -> "ACSM1"
+"ACSM2B" -> "ACSM4"
+"ACSM3" -> "ACSM1"
+"ACSM3" -> "ACSM4"
+"ACSM3" -> "ACSM5"
+"ACSM3" -> "ACSM6"
+"ACSM4" -> "ACSM1"
+"ACSM4" -> "ACSM3"
+"ACSM4" -> "ACSM5"
+"ACSM4" -> "ACSM2A"
+"ACSM5" -> "ACSM1"
+"ACSM5" -> "ACSM2A"
+"ACSM5" -> "ACSM2B"
+"ACSM5" -> "ACSM4"
+"ACSM6" -> "ACSM1"
+"ACSM6" -> "ACSM4"
+"ACSM6" -> "ACSM3"
+"ACSM6" -> "ACSM5"
+"ADH1A" -> "ADH6"
+"ADH1A" -> "ADH4"
+"ADH1A" -> "ADH1C"
+"ADH1A" -> "ADH7"
+"ADH1B" -> "ADH6"
+"ADH1B" -> "ADH4"
+"ADH1B" -> "ADH5"
+"ADH1B" -> "ADH7"
+"ADH1C" -> "ADH4"
+"ADH1C" -> "ADH1A"
+"ADH1C" -> "ADH7"
+"ADH1C" -> "ADH6"
+"ADH4" -> "ADH6"
+"ADH4" -> "ADH7"
+"ADH4" -> "ADH1B"
+"ADH4" -> "ADH1A"
+"ADH5" -> "ADH1B"
+"ADH5" -> "ADH6"
+"ADH5" -> "ADH7"
+"ADH5" -> "ADH1A"
+"ADH6" -> "ADH4"
+"ADH6" -> "ADH1A"
+"ADH6" -> "ADH1B"
+"ADH6" -> "ADH7"
+"ADH7" -> "ADH4"
+"ADH7" -> "ADH6"
+"ADH7" -> "ADH1A"
+"ADH7" -> "ADH1C"
+"CRYZ" -> "PTGR1"
+"CRYZ" -> "ADH5"
+"CRYZ" -> "ADH6"
+"CRYZ" -> "ADH1B"
+"GSTT2B" -> "GSTZ1"
+"GSTT2B" -> "ACSM1"
+"GSTT2B" -> "ACSM4"
+"GSTT2B" -> "ACSM5"
+"GSTZ1" -> "GSTT2B"
+"GSTZ1" -> "ACSM1"
+"GSTZ1" -> "ACSM5"
+"GSTZ1" -> "ACSM4"
+"PTGR1" -> "ADH6"
+"PTGR1" -> "CRYZ"
+"PTGR1" -> "ADH5"
+"PTGR1" -> "ADH1B"
+}

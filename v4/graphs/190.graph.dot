@@ -1,0 +1,257 @@
+digraph G {
+"BICD1" ["l"="8.122,0.451"]
+"BICD2" ["l"="7.984,0.476"]
+"CCDC88A" ["l"="7.881,0.241"]
+"CDC42BPA" ["l"="8.147,0.244"]
+"CDC42BPB" ["l"="8.102,0.247"]
+"CIT" ["l"="8.040,0.215"]
+"CLIP1" ["l"="7.984,0.397"]
+"CLIP2" ["l"="8.031,0.396"]
+"DCTN1" ["l"="8.133,0.348"]
+"ERC1" ["l"="7.986,0.341"]
+"ERC2" ["l"="8.068,0.334"]
+"EZR" ["l"="8.159,0.400"]
+"HOOK1" ["l"="7.826,0.365"]
+"JAKMIP1" ["l"="7.933,0.362"]
+"JAKMIP2" ["l"="7.965,0.319"]
+"JAKMIP3" ["l"="7.981,0.363"]
+"KIF16B" ["l"="8.309,0.263"]
+"KIF21A" ["l"="8.272,0.296"]
+"KIF21B" ["l"="8.254,0.385"]
+"KIF3A" ["l"="8.190,0.299"]
+"KIF3B" ["l"="8.179,0.519"]
+"KIF3C" ["l"="8.165,0.534"]
+"KIF5A" ["l"="8.103,0.351"]
+"KIF5B" ["l"="8.063,0.225"]
+"KIF5C" ["l"="8.145,0.196"]
+"NF2" ["l"="8.089,0.488"]
+"PPFIA1" ["l"="8.155,0.419"]
+"PPFIA2" ["l"="8.146,0.382"]
+"PPFIA3" ["l"="8.175,0.384"]
+"PPFIA4" ["l"="8.178,0.398"]
+"RAB11FIP4" ["l"="8.046,0.482"]
+"RAD50" ["l"="7.878,0.161"]
+"RDX" ["l"="8.142,0.424"]
+"RNF20" ["l"="7.960,0.325"]
+"RNF40" ["l"="7.960,0.385"]
+"ROCK1" ["l"="7.963,0.184"]
+"ROCK2" ["l"="8.062,0.204"]
+"RUFY1" ["l"="8.069,0.424"]
+"RUFY2" ["l"="8.032,0.365"]
+"RUFY3" ["l"="8.143,0.433"]
+"SLMAP" ["l"="8.005,0.472"]
+"SMC1B" ["l"="7.910,0.149"]
+"SMC2" ["l"="7.930,0.125"]
+"SMC3" ["l"="7.958,0.143"]
+"SMC4" ["l"="7.928,0.105"]
+"SMC5" ["l"="7.913,0.125"]
+"SMC6" ["l"="7.908,0.151"]
+"SPECC1" ["l"="8.149,0.537"]
+"SPECC1L" ["l"="8.098,0.455"]
+"SWAP70" ["l"="8.040,0.504"]
+"TAX1BP1" ["l"="7.830,0.294"]
+"BICD1" -> "JAKMIP2"
+"BICD1" -> "PPFIA1"
+"BICD1" -> "ERC2"
+"BICD1" -> "SPECC1L"
+"BICD2" -> "RNF40"
+"BICD2" -> "BICD1"
+"BICD2" -> "JAKMIP3"
+"BICD2" -> "KIF5A"
+"CCDC88A" -> "JAKMIP2"
+"CCDC88A" -> "ROCK1"
+"CCDC88A" -> "ROCK2"
+"CCDC88A" -> "CDC42BPA"
+"CDC42BPA" -> "ROCK2"
+"CDC42BPA" -> "CIT"
+"CDC42BPA" -> "KIF21A"
+"CDC42BPA" -> "CDC42BPB"
+"CDC42BPB" -> "CIT"
+"CDC42BPB" -> "CDC42BPA"
+"CDC42BPB" -> "ROCK2"
+"CDC42BPB" -> "ROCK1"
+"CIT" -> "ROCK2"
+"CIT" -> "CDC42BPB"
+"CIT" -> "CDC42BPA"
+"CIT" -> "ROCK1"
+"CLIP1" -> "CLIP2"
+"CLIP1" -> "ERC1"
+"CLIP1" -> "SPECC1"
+"CLIP1" -> "SPECC1L"
+"CLIP2" -> "RAB11FIP4"
+"CLIP2" -> "SPECC1"
+"CLIP2" -> "SPECC1L"
+"CLIP2" -> "CLIP1"
+"DCTN1" -> "RNF40"
+"DCTN1" -> "PPFIA4"
+"DCTN1" -> "PPFIA3"
+"DCTN1" -> "BICD2"
+"ERC1" -> "ERC2"
+"ERC1" -> "JAKMIP2"
+"ERC1" -> "BICD1"
+"ERC1" -> "PPFIA1"
+"ERC2" -> "ERC1"
+"ERC2" -> "JAKMIP2"
+"ERC2" -> "BICD1"
+"ERC2" -> "PPFIA2"
+"EZR" -> "RDX"
+"EZR" -> "NF2"
+"EZR" -> "SWAP70"
+"EZR" -> "KIF3B"
+"HOOK1" -> "RUFY2"
+"HOOK1" -> "JAKMIP2"
+"HOOK1" -> "RNF40"
+"HOOK1" -> "ROCK1"
+"JAKMIP1" -> "JAKMIP3"
+"JAKMIP1" -> "JAKMIP2"
+"JAKMIP1" -> "ERC1"
+"JAKMIP1" -> "ERC2"
+"JAKMIP2" -> "BICD1"
+"JAKMIP2" -> "ERC2"
+"JAKMIP2" -> "ERC1"
+"JAKMIP2" -> "JAKMIP3"
+"JAKMIP3" -> "JAKMIP2"
+"JAKMIP3" -> "JAKMIP1"
+"JAKMIP3" -> "BICD1"
+"JAKMIP3" -> "ERC1"
+"KIF16B" -> "SWAP70"
+"KIF16B" -> "KIF5C"
+"KIF16B" -> "RDX"
+"KIF16B" -> "RUFY3"
+"KIF21A" -> "KIF3A"
+"KIF21A" -> "KIF21B"
+"KIF21A" -> "CDC42BPA"
+"KIF21A" -> "KIF5C"
+"KIF21B" -> "KIF3C"
+"KIF21B" -> "KIF21A"
+"KIF21B" -> "KIF5C"
+"KIF21B" -> "KIF3B"
+"KIF3A" -> "KIF21A"
+"KIF3A" -> "KIF5C"
+"KIF3A" -> "KIF3B"
+"KIF3A" -> "KIF5A"
+"KIF3B" -> "KIF3C"
+"KIF3B" -> "KIF3A"
+"KIF3B" -> "KIF21B"
+"KIF3B" -> "KIF5A"
+"KIF3C" -> "KIF3B"
+"KIF3C" -> "KIF21B"
+"KIF3C" -> "KIF5A"
+"KIF3C" -> "KIF3A"
+"KIF5A" -> "KIF5C"
+"KIF5A" -> "KIF5B"
+"KIF5A" -> "KIF3A"
+"KIF5A" -> "KIF3C"
+"KIF5B" -> "KIF5C"
+"KIF5B" -> "KIF5A"
+"KIF5B" -> "ROCK1"
+"KIF5B" -> "KIF3A"
+"KIF5C" -> "KIF5B"
+"KIF5C" -> "KIF5A"
+"KIF5C" -> "ROCK2"
+"KIF5C" -> "KIF3A"
+"NF2" -> "RDX"
+"NF2" -> "RAB11FIP4"
+"NF2" -> "JAKMIP3"
+"NF2" -> "KIF5C"
+"PPFIA1" -> "PPFIA4"
+"PPFIA1" -> "BICD1"
+"PPFIA1" -> "PPFIA3"
+"PPFIA1" -> "JAKMIP2"
+"PPFIA2" -> "ERC2"
+"PPFIA2" -> "BICD1"
+"PPFIA2" -> "JAKMIP2"
+"PPFIA2" -> "PPFIA1"
+"PPFIA3" -> "PPFIA4"
+"PPFIA3" -> "PPFIA1"
+"PPFIA3" -> "RNF40"
+"PPFIA3" -> "BICD1"
+"PPFIA4" -> "PPFIA3"
+"PPFIA4" -> "PPFIA1"
+"PPFIA4" -> "RNF40"
+"PPFIA4" -> "BICD1"
+"RAB11FIP4" -> "CLIP2"
+"RAB11FIP4" -> "SPECC1"
+"RAB11FIP4" -> "JAKMIP3"
+"RAB11FIP4" -> "RUFY2"
+"RAD50" -> "SMC6"
+"RAD50" -> "SMC5"
+"RAD50" -> "SMC3"
+"RAD50" -> "SMC1B"
+"RDX" -> "EZR"
+"RDX" -> "SWAP70"
+"RDX" -> "NF2"
+"RDX" -> "TAX1BP1"
+"RNF20" -> "RNF40"
+"RNF20" -> "KIF5B"
+"RNF20" -> "KIF5C"
+"RNF20" -> "JAKMIP3"
+"RNF40" -> "RNF20"
+"RNF40" -> "BICD2"
+"RNF40" -> "PPFIA3"
+"RNF40" -> "PPFIA4"
+"ROCK1" -> "ROCK2"
+"ROCK1" -> "KIF5B"
+"ROCK1" -> "KIF5C"
+"ROCK1" -> "HOOK1"
+"ROCK2" -> "ROCK1"
+"ROCK2" -> "KIF5C"
+"ROCK2" -> "CIT"
+"ROCK2" -> "CDC42BPA"
+"RUFY1" -> "RUFY2"
+"RUFY1" -> "RUFY3"
+"RUFY1" -> "HOOK1"
+"RUFY1" -> "RAB11FIP4"
+"RUFY2" -> "RUFY3"
+"RUFY2" -> "RUFY1"
+"RUFY2" -> "HOOK1"
+"RUFY2" -> "JAKMIP2"
+"RUFY3" -> "RUFY2"
+"RUFY3" -> "RUFY1"
+"RUFY3" -> "JAKMIP2"
+"RUFY3" -> "KIF5C"
+"SLMAP" -> "HOOK1"
+"SLMAP" -> "KIF5B"
+"SLMAP" -> "TAX1BP1"
+"SLMAP" -> "KIF5C"
+"SMC1B" -> "SMC4"
+"SMC1B" -> "SMC3"
+"SMC1B" -> "SMC5"
+"SMC1B" -> "RAD50"
+"SMC2" -> "SMC4"
+"SMC2" -> "SMC3"
+"SMC2" -> "SMC5"
+"SMC2" -> "SMC6"
+"SMC3" -> "SMC2"
+"SMC3" -> "SMC4"
+"SMC3" -> "SMC5"
+"SMC3" -> "SMC1B"
+"SMC4" -> "SMC2"
+"SMC4" -> "SMC3"
+"SMC4" -> "SMC1B"
+"SMC4" -> "SMC5"
+"SMC5" -> "SMC6"
+"SMC5" -> "SMC3"
+"SMC5" -> "SMC2"
+"SMC5" -> "RAD50"
+"SMC6" -> "SMC5"
+"SMC6" -> "RAD50"
+"SMC6" -> "SMC2"
+"SMC6" -> "SMC3"
+"SPECC1" -> "SPECC1L"
+"SPECC1" -> "CLIP2"
+"SPECC1" -> "BICD1"
+"SPECC1" -> "RAB11FIP4"
+"SPECC1L" -> "SPECC1"
+"SPECC1L" -> "BICD1"
+"SPECC1L" -> "CLIP2"
+"SPECC1L" -> "ERC1"
+"SWAP70" -> "RDX"
+"SWAP70" -> "KIF16B"
+"SWAP70" -> "NF2"
+"SWAP70" -> "RUFY1"
+"TAX1BP1" -> "HOOK1"
+"TAX1BP1" -> "ROCK1"
+"TAX1BP1" -> "RDX"
+"TAX1BP1" -> "RAD50"
+}

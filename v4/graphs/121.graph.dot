@@ -1,0 +1,112 @@
+digraph G {
+"ABCA10" ["l"="11.417,-3.121"]
+"ABCA3" ["l"="11.400,-3.071"]
+"ABCA5" ["l"="11.393,-3.099"]
+"ABCA6" ["l"="11.454,-3.094"]
+"ABCA8" ["l"="11.434,-3.113"]
+"ABCA9" ["l"="11.451,-3.091"]
+"ABCB1" ["l"="11.382,-3.055"]
+"ABCB11" ["l"="11.396,-3.011"]
+"ABCB4" ["l"="11.385,-3.032"]
+"ABCB5" ["l"="11.413,-3.043"]
+"ABCC1" ["l"="11.388,-3.057"]
+"ABCC11" ["l"="11.393,-3.063"]
+"ABCC12" ["l"="11.391,-3.021"]
+"ABCC2" ["l"="11.429,-3.071"]
+"ABCC3" ["l"="11.395,-3.047"]
+"ABCC4" ["l"="11.356,-3.076"]
+"ABCC5" ["l"="11.374,-3.058"]
+"ABCC6" ["l"="11.401,-3.035"]
+"ABCC8" ["l"="11.313,-3.003"]
+"ABCC9" ["l"="11.416,-3.035"]
+"CFTR" ["l"="11.375,-3.053"]
+"DISP3" ["l"="11.278,-3.049"]
+"ABCA10" -> "ABCA9"
+"ABCA10" -> "ABCA6"
+"ABCA10" -> "ABCA8"
+"ABCA10" -> "ABCA5"
+"ABCA3" -> "ABCA5"
+"ABCA3" -> "ABCC8"
+"ABCA3" -> "ABCC1"
+"ABCA3" -> "ABCC3"
+"ABCA5" -> "ABCA10"
+"ABCA5" -> "ABCA9"
+"ABCA5" -> "ABCA6"
+"ABCA5" -> "ABCA8"
+"ABCA6" -> "ABCA9"
+"ABCA6" -> "ABCA10"
+"ABCA6" -> "ABCA8"
+"ABCA6" -> "ABCA5"
+"ABCA8" -> "ABCA6"
+"ABCA8" -> "ABCA9"
+"ABCA8" -> "ABCA10"
+"ABCA8" -> "ABCA5"
+"ABCA9" -> "ABCA6"
+"ABCA9" -> "ABCA10"
+"ABCA9" -> "ABCA8"
+"ABCA9" -> "ABCA5"
+"ABCB1" -> "ABCB4"
+"ABCB1" -> "ABCC4"
+"ABCB1" -> "ABCB5"
+"ABCB1" -> "ABCB11"
+"ABCB11" -> "ABCB4"
+"ABCB11" -> "ABCB5"
+"ABCB11" -> "ABCB1"
+"ABCB11" -> "ABCC11"
+"ABCB4" -> "ABCB11"
+"ABCB4" -> "ABCB1"
+"ABCB4" -> "ABCB5"
+"ABCB4" -> "ABCC11"
+"ABCB5" -> "ABCB4"
+"ABCB5" -> "ABCB11"
+"ABCB5" -> "ABCB1"
+"ABCB5" -> "ABCC11"
+"ABCC1" -> "ABCC12"
+"ABCC1" -> "ABCC11"
+"ABCC1" -> "ABCC8"
+"ABCC1" -> "ABCC3"
+"ABCC11" -> "ABCC12"
+"ABCC11" -> "ABCC4"
+"ABCC11" -> "ABCC5"
+"ABCC11" -> "ABCB5"
+"ABCC12" -> "ABCC11"
+"ABCC12" -> "ABCC1"
+"ABCC12" -> "ABCC5"
+"ABCC12" -> "ABCC3"
+"ABCC2" -> "ABCC3"
+"ABCC2" -> "ABCC6"
+"ABCC2" -> "ABCC11"
+"ABCC2" -> "ABCB4"
+"ABCC3" -> "ABCC6"
+"ABCC3" -> "ABCC1"
+"ABCC3" -> "ABCC2"
+"ABCC3" -> "ABCC12"
+"ABCC4" -> "ABCB1"
+"ABCC4" -> "ABCC11"
+"ABCC4" -> "ABCC5"
+"ABCC4" -> "CFTR"
+"ABCC5" -> "ABCC11"
+"ABCC5" -> "ABCC12"
+"ABCC5" -> "ABCC4"
+"ABCC5" -> "ABCC1"
+"ABCC6" -> "ABCC3"
+"ABCC6" -> "ABCC2"
+"ABCC6" -> "ABCC11"
+"ABCC6" -> "ABCC12"
+"ABCC8" -> "ABCC1"
+"ABCC8" -> "ABCC12"
+"ABCC8" -> "ABCA3"
+"ABCC8" -> "ABCC9"
+"ABCC9" -> "ABCC12"
+"ABCC9" -> "ABCC8"
+"ABCC9" -> "ABCC1"
+"ABCC9" -> "ABCB11"
+"CFTR" -> "ABCC4"
+"CFTR" -> "ABCC5"
+"CFTR" -> "ABCC11"
+"CFTR" -> "ABCC12"
+"DISP3" -> "ABCC8"
+"DISP3" -> "ABCA3"
+"DISP3" -> "ABCC5"
+"DISP3" -> "ABCC12"
+}

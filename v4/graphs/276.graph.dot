@@ -1,0 +1,242 @@
+digraph G {
+"AGL" ["l"="10.287,0.121"]
+"AP4E1" ["l"="10.376,0.156"]
+"C1orf112" ["l"="10.377,0.048"]
+"CAND1" ["l"="10.447,-0.034"]
+"CAND2" ["l"="10.435,0.081"]
+"CSE1L" ["l"="10.395,-0.140"]
+"DDX60" ["l"="10.274,-0.242"]
+"FANCA" ["l"="10.332,0.012"]
+"FANCC" ["l"="10.386,-0.039"]
+"FANCD2" ["l"="10.219,-0.031"]
+"FANCI" ["l"="10.220,-0.030"]
+"INTS2" ["l"="10.212,-0.021"]
+"IPO11" ["l"="10.405,-0.121"]
+"IPO13" ["l"="10.381,-0.093"]
+"IPO5" ["l"="10.428,-0.123"]
+"IPO7" ["l"="10.418,-0.159"]
+"IPO8" ["l"="10.398,-0.141"]
+"IPO9" ["l"="10.407,-0.072"]
+"KIAA0825" ["l"="10.250,0.067"]
+"KPNB1" ["l"="10.446,-0.100"]
+"MED24" ["l"="10.321,-0.033"]
+"MEI1" ["l"="10.436,0.054"]
+"MMS22L" ["l"="10.255,-0.128"]
+"MROH7" ["l"="10.144,0.008"]
+"MROH8" ["l"="10.293,-0.055"]
+"MROH9" ["l"="10.316,0.050"]
+"NCAPD2" ["l"="10.167,0.064"]
+"NCAPD3" ["l"="10.201,0.105"]
+"NCAPG2" ["l"="10.298,0.068"]
+"NUP188" ["l"="10.236,-0.146"]
+"NWD2" ["l"="10.322,-0.136"]
+"PIK3R4" ["l"="10.392,0.061"]
+"RANBP17" ["l"="10.370,-0.036"]
+"SYMPK" ["l"="10.342,0.169"]
+"TBC1D32" ["l"="10.275,0.092"]
+"TEX10" ["l"="10.398,0.042"]
+"TIMELESS" ["l"="10.247,0.145"]
+"TNPO1" ["l"="10.423,-0.137"]
+"TNPO2" ["l"="10.416,-0.091"]
+"TNPO3" ["l"="10.380,-0.140"]
+"UGGT1" ["l"="10.171,0.145"]
+"URB2" ["l"="10.414,-0.003"]
+"XPO1" ["l"="10.456,-0.071"]
+"XPO4" ["l"="10.386,-0.116"]
+"XPO5" ["l"="10.384,-0.093"]
+"XPO6" ["l"="10.372,-0.132"]
+"XPO7" ["l"="10.321,-0.070"]
+"XPOT" ["l"="10.390,-0.140"]
+"AGL" -> "DDX60"
+"AGL" -> "INTS2"
+"AGL" -> "UGGT1"
+"AGL" -> "XPO4"
+"AP4E1" -> "PIK3R4"
+"AP4E1" -> "INTS2"
+"AP4E1" -> "CAND1"
+"AP4E1" -> "XPO4"
+"C1orf112" -> "MMS22L"
+"C1orf112" -> "FANCC"
+"C1orf112" -> "KIAA0825"
+"C1orf112" -> "NUP188"
+"CAND1" -> "CAND2"
+"CAND1" -> "IPO9"
+"CAND1" -> "TNPO1"
+"CAND1" -> "IPO5"
+"CAND2" -> "CAND1"
+"CAND2" -> "TNPO2"
+"CAND2" -> "IPO9"
+"CAND2" -> "XPO4"
+"CSE1L" -> "XPOT"
+"CSE1L" -> "XPO1"
+"CSE1L" -> "XPO5"
+"CSE1L" -> "TNPO3"
+"DDX60" -> "NUP188"
+"DDX60" -> "AGL"
+"DDX60" -> "UGGT1"
+"DDX60" -> "INTS2"
+"FANCA" -> "MMS22L"
+"FANCA" -> "NUP188"
+"FANCA" -> "C1orf112"
+"FANCA" -> "FANCI"
+"FANCC" -> "MMS22L"
+"FANCC" -> "C1orf112"
+"FANCC" -> "KIAA0825"
+"FANCC" -> "NUP188"
+"FANCD2" -> "FANCI"
+"FANCD2" -> "MMS22L"
+"FANCD2" -> "NUP188"
+"FANCD2" -> "NCAPD2"
+"FANCI" -> "FANCD2"
+"FANCI" -> "NCAPG2"
+"FANCI" -> "NCAPD3"
+"FANCI" -> "MMS22L"
+"INTS2" -> "XPO4"
+"INTS2" -> "MED24"
+"INTS2" -> "MMS22L"
+"INTS2" -> "CAND1"
+"IPO11" -> "TNPO3"
+"IPO11" -> "XPOT"
+"IPO11" -> "IPO8"
+"IPO11" -> "XPO4"
+"IPO13" -> "TNPO3"
+"IPO13" -> "XPOT"
+"IPO13" -> "IPO11"
+"IPO13" -> "XPO5"
+"IPO5" -> "KPNB1"
+"IPO5" -> "TNPO1"
+"IPO5" -> "IPO7"
+"IPO5" -> "CAND1"
+"IPO7" -> "IPO5"
+"IPO7" -> "IPO8"
+"IPO7" -> "TNPO1"
+"IPO7" -> "CAND1"
+"IPO8" -> "IPO7"
+"IPO8" -> "IPO11"
+"IPO8" -> "CAND1"
+"IPO8" -> "XPO4"
+"IPO9" -> "TNPO2"
+"IPO9" -> "CAND1"
+"IPO9" -> "KPNB1"
+"IPO9" -> "TNPO1"
+"KIAA0825" -> "TBC1D32"
+"KIAA0825" -> "C1orf112"
+"KIAA0825" -> "MMS22L"
+"KIAA0825" -> "INTS2"
+"KPNB1" -> "IPO5"
+"KPNB1" -> "IPO9"
+"KPNB1" -> "CAND1"
+"KPNB1" -> "TNPO1"
+"MED24" -> "NUP188"
+"MED24" -> "INTS2"
+"MED24" -> "XPO5"
+"MED24" -> "IPO13"
+"MEI1" -> "C1orf112"
+"MEI1" -> "NUP188"
+"MEI1" -> "KIAA0825"
+"MEI1" -> "FANCC"
+"MMS22L" -> "FANCC"
+"MMS22L" -> "C1orf112"
+"MMS22L" -> "FANCA"
+"MMS22L" -> "FANCI"
+"MROH7" -> "MROH8"
+"MROH7" -> "MROH9"
+"MROH7" -> "MED24"
+"MROH7" -> "FANCC"
+"MROH8" -> "MROH9"
+"MROH8" -> "C1orf112"
+"MROH8" -> "FANCC"
+"MROH8" -> "KIAA0825"
+"MROH9" -> "MROH8"
+"MROH9" -> "C1orf112"
+"MROH9" -> "FANCC"
+"MROH9" -> "TBC1D32"
+"NCAPD2" -> "TIMELESS"
+"NCAPD2" -> "NCAPD3"
+"NCAPD2" -> "FANCI"
+"NCAPD2" -> "NUP188"
+"NCAPD3" -> "NCAPG2"
+"NCAPD3" -> "FANCI"
+"NCAPD3" -> "NCAPD2"
+"NCAPD3" -> "TIMELESS"
+"NCAPG2" -> "NCAPD3"
+"NCAPG2" -> "FANCI"
+"NCAPG2" -> "C1orf112"
+"NCAPG2" -> "FANCD2"
+"NUP188" -> "XPO5"
+"NUP188" -> "C1orf112"
+"NUP188" -> "FANCA"
+"NUP188" -> "MED24"
+"NWD2" -> "URB2"
+"NWD2" -> "NUP188"
+"NWD2" -> "KIAA0825"
+"NWD2" -> "TBC1D32"
+"PIK3R4" -> "AP4E1"
+"PIK3R4" -> "INTS2"
+"PIK3R4" -> "TBC1D32"
+"PIK3R4" -> "KIAA0825"
+"RANBP17" -> "XPO7"
+"RANBP17" -> "XPO1"
+"RANBP17" -> "CSE1L"
+"RANBP17" -> "XPO4"
+"SYMPK" -> "CAND2"
+"SYMPK" -> "IPO9"
+"SYMPK" -> "XPO5"
+"SYMPK" -> "NCAPD2"
+"TBC1D32" -> "KIAA0825"
+"TBC1D32" -> "C1orf112"
+"TBC1D32" -> "INTS2"
+"TBC1D32" -> "MMS22L"
+"TEX10" -> "C1orf112"
+"TEX10" -> "MMS22L"
+"TEX10" -> "KIAA0825"
+"TEX10" -> "FANCC"
+"TIMELESS" -> "NCAPD2"
+"TIMELESS" -> "NCAPD3"
+"TIMELESS" -> "FANCI"
+"TIMELESS" -> "NCAPG2"
+"TNPO1" -> "IPO5"
+"TNPO1" -> "TNPO2"
+"TNPO1" -> "CAND1"
+"TNPO1" -> "IPO9"
+"TNPO2" -> "TNPO1"
+"TNPO2" -> "IPO9"
+"TNPO2" -> "KPNB1"
+"TNPO2" -> "IPO5"
+"TNPO3" -> "XPOT"
+"TNPO3" -> "IPO11"
+"TNPO3" -> "XPO6"
+"TNPO3" -> "XPO5"
+"UGGT1" -> "DDX60"
+"UGGT1" -> "NUP188"
+"UGGT1" -> "AGL"
+"UGGT1" -> "AP4E1"
+"URB2" -> "NUP188"
+"URB2" -> "MMS22L"
+"URB2" -> "FANCC"
+"URB2" -> "C1orf112"
+"XPO1" -> "CSE1L"
+"XPO1" -> "RANBP17"
+"XPO1" -> "KPNB1"
+"XPO1" -> "XPO7"
+"XPO4" -> "XPOT"
+"XPO4" -> "TNPO3"
+"XPO4" -> "XPO5"
+"XPO4" -> "XPO7"
+"XPO5" -> "TNPO3"
+"XPO5" -> "XPO4"
+"XPO5" -> "XPOT"
+"XPO5" -> "XPO6"
+"XPO6" -> "TNPO3"
+"XPO6" -> "XPO4"
+"XPO6" -> "XPO7"
+"XPO6" -> "XPO5"
+"XPO7" -> "RANBP17"
+"XPO7" -> "XPO4"
+"XPO7" -> "TNPO3"
+"XPO7" -> "XPO6"
+"XPOT" -> "TNPO3"
+"XPOT" -> "XPO4"
+"XPOT" -> "CSE1L"
+"XPOT" -> "XPO5"
+}

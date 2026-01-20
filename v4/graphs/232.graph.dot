@@ -1,0 +1,292 @@
+digraph G {
+"ARGFX" ["l"="7.178,4.455"]
+"BHLHE22" ["l"="7.335,4.315"]
+"BHLHE41" ["l"="7.346,4.077"]
+"DMRT1" ["l"="7.251,4.232"]
+"DMRT3" ["l"="7.312,4.275"]
+"DMRTA1" ["l"="7.360,4.200"]
+"DMRTA2" ["l"="7.254,4.130"]
+"EOMES" ["l"="7.037,4.009"]
+"FOXA3" ["l"="7.114,4.075"]
+"FOXB1" ["l"="7.080,4.110"]
+"FOXB2" ["l"="7.127,4.192"]
+"FOXC1" ["l"="7.066,4.088"]
+"FOXC2" ["l"="7.126,4.065"]
+"FOXD1" ["l"="7.159,4.238"]
+"FOXD2" ["l"="7.275,4.180"]
+"FOXD3" ["l"="7.153,4.216"]
+"FOXE1" ["l"="7.193,4.132"]
+"FOXF1" ["l"="7.104,4.055"]
+"FOXF2" ["l"="6.981,4.253"]
+"FOXG1" ["l"="7.156,4.175"]
+"FOXI1" ["l"="7.200,4.060"]
+"FOXI2" ["l"="7.170,4.149"]
+"FOXI3" ["l"="7.049,4.143"]
+"FOXL1" ["l"="7.323,4.209"]
+"FOXL2" ["l"="7.130,4.211"]
+"LEF1" ["l"="6.976,3.929"]
+"MAF" ["l"="7.197,4.204"]
+"MAFA" ["l"="7.167,4.284"]
+"MAFB" ["l"="7.371,4.215"]
+"NANOG" ["l"="7.222,4.493"]
+"PAX4" ["l"="7.180,4.494"]
+"POU5F1B" ["l"="7.280,4.351"]
+"PRDM8" ["l"="7.028,4.045"]
+"PRRX1" ["l"="7.059,4.263"]
+"SAMD11" ["l"="7.151,4.478"]
+"SAMD7" ["l"="7.351,4.211"]
+"SIX1" ["l"="7.135,4.136"]
+"SIX2" ["l"="7.088,4.061"]
+"SIX3" ["l"="7.055,4.276"]
+"SIX6" ["l"="7.255,4.111"]
+"SKIDA1" ["l"="7.107,4.058"]
+"SKOR1" ["l"="7.230,4.164"]
+"SKOR2" ["l"="7.071,4.150"]
+"SOX1" ["l"="7.064,4.234"]
+"SOX11" ["l"="7.133,4.062"]
+"SOX14" ["l"="7.031,4.172"]
+"SOX17" ["l"="7.312,3.998"]
+"SOX2" ["l"="7.011,4.136"]
+"SOX21" ["l"="7.061,4.213"]
+"SOX4" ["l"="7.142,4.106"]
+"TBX1" ["l"="7.152,4.064"]
+"TBX2" ["l"="7.057,4.146"]
+"TBX3" ["l"="7.091,4.129"]
+"TCF7" ["l"="6.954,3.945"]
+"VGLL2" ["l"="7.138,3.987"]
+"VGLL3" ["l"="7.067,4.033"]
+"ZNF503" ["l"="6.958,4.071"]
+"ZNF703" ["l"="6.993,3.990"]
+"ARGFX" -> "NANOG"
+"ARGFX" -> "DMRT1"
+"ARGFX" -> "FOXI2"
+"ARGFX" -> "POU5F1B"
+"BHLHE22" -> "FOXF2"
+"BHLHE22" -> "FOXG1"
+"BHLHE22" -> "MAFA"
+"BHLHE22" -> "SOX1"
+"BHLHE41" -> "DMRTA2"
+"BHLHE41" -> "SOX21"
+"BHLHE41" -> "FOXE1"
+"BHLHE41" -> "FOXD2"
+"DMRT1" -> "DMRTA1"
+"DMRT1" -> "DMRT3"
+"DMRT1" -> "FOXI2"
+"DMRT1" -> "ARGFX"
+"DMRT3" -> "DMRTA1"
+"DMRT3" -> "FOXL1"
+"DMRT3" -> "DMRT1"
+"DMRT3" -> "DMRTA2"
+"DMRTA1" -> "FOXL1"
+"DMRTA1" -> "DMRT3"
+"DMRTA1" -> "FOXI2"
+"DMRTA1" -> "DMRT1"
+"DMRTA2" -> "FOXE1"
+"DMRTA2" -> "BHLHE41"
+"DMRTA2" -> "SOX21"
+"DMRTA2" -> "DMRTA1"
+"EOMES" -> "FOXF1"
+"EOMES" -> "FOXF2"
+"EOMES" -> "FOXG1"
+"EOMES" -> "FOXI3"
+"FOXA3" -> "FOXI3"
+"FOXA3" -> "FOXI2"
+"FOXA3" -> "FOXC2"
+"FOXA3" -> "FOXI1"
+"FOXB1" -> "SIX2"
+"FOXB1" -> "SOX14"
+"FOXB1" -> "FOXC2"
+"FOXB1" -> "FOXF1"
+"FOXB2" -> "FOXD1"
+"FOXB2" -> "FOXC2"
+"FOXB2" -> "FOXD3"
+"FOXB2" -> "FOXC1"
+"FOXC1" -> "FOXC2"
+"FOXC1" -> "FOXF2"
+"FOXC1" -> "FOXE1"
+"FOXC1" -> "SOX21"
+"FOXC2" -> "FOXC1"
+"FOXC2" -> "FOXE1"
+"FOXC2" -> "FOXL1"
+"FOXC2" -> "FOXA3"
+"FOXD1" -> "FOXD3"
+"FOXD1" -> "FOXD2"
+"FOXD1" -> "FOXL2"
+"FOXD1" -> "FOXE1"
+"FOXD2" -> "FOXD1"
+"FOXD2" -> "FOXL2"
+"FOXD2" -> "FOXD3"
+"FOXD2" -> "FOXE1"
+"FOXD3" -> "FOXD1"
+"FOXD3" -> "FOXD2"
+"FOXD3" -> "SOX1"
+"FOXD3" -> "FOXL2"
+"FOXE1" -> "SOX21"
+"FOXE1" -> "FOXC2"
+"FOXE1" -> "FOXC1"
+"FOXE1" -> "TBX1"
+"FOXF1" -> "FOXF2"
+"FOXF1" -> "FOXL1"
+"FOXF1" -> "FOXI3"
+"FOXF1" -> "FOXI2"
+"FOXF2" -> "FOXC1"
+"FOXF2" -> "FOXF1"
+"FOXF2" -> "SOX1"
+"FOXF2" -> "FOXL2"
+"FOXG1" -> "FOXE1"
+"FOXG1" -> "FOXF2"
+"FOXG1" -> "FOXF1"
+"FOXG1" -> "SOX1"
+"FOXI1" -> "FOXI2"
+"FOXI1" -> "FOXI3"
+"FOXI1" -> "FOXF1"
+"FOXI1" -> "FOXA3"
+"FOXI2" -> "FOXL1"
+"FOXI2" -> "FOXI3"
+"FOXI2" -> "FOXI1"
+"FOXI2" -> "DMRTA1"
+"FOXI3" -> "FOXI2"
+"FOXI3" -> "FOXA3"
+"FOXI3" -> "FOXF1"
+"FOXI3" -> "FOXE1"
+"FOXL1" -> "FOXI2"
+"FOXL1" -> "DMRTA1"
+"FOXL1" -> "FOXF1"
+"FOXL1" -> "DMRT3"
+"FOXL2" -> "SOX1"
+"FOXL2" -> "FOXD2"
+"FOXL2" -> "FOXF2"
+"FOXL2" -> "FOXE1"
+"LEF1" -> "TCF7"
+"LEF1" -> "VGLL3"
+"LEF1" -> "VGLL2"
+"LEF1" -> "FOXF1"
+"MAF" -> "MAFA"
+"MAF" -> "MAFB"
+"MAF" -> "SOX1"
+"MAF" -> "BHLHE22"
+"MAFA" -> "MAFB"
+"MAFA" -> "MAF"
+"MAFA" -> "BHLHE22"
+"MAFA" -> "FOXF2"
+"MAFB" -> "MAFA"
+"MAFB" -> "MAF"
+"MAFB" -> "VGLL3"
+"MAFB" -> "BHLHE22"
+"NANOG" -> "ARGFX"
+"NANOG" -> "FOXI2"
+"NANOG" -> "DMRT1"
+"NANOG" -> "FOXI1"
+"PAX4" -> "POU5F1B"
+"PAX4" -> "FOXI2"
+"PAX4" -> "FOXL1"
+"PAX4" -> "SIX1"
+"POU5F1B" -> "FOXI2"
+"POU5F1B" -> "PAX4"
+"POU5F1B" -> "ARGFX"
+"POU5F1B" -> "FOXL1"
+"PRDM8" -> "SKOR1"
+"PRDM8" -> "SOX11"
+"PRDM8" -> "SKOR2"
+"PRDM8" -> "FOXC1"
+"PRRX1" -> "SIX1"
+"PRRX1" -> "FOXI2"
+"PRRX1" -> "FOXL1"
+"PRRX1" -> "DMRTA1"
+"SAMD11" -> "DMRT3"
+"SAMD11" -> "FOXL1"
+"SAMD11" -> "FOXI2"
+"SAMD11" -> "DMRTA1"
+"SAMD7" -> "DMRTA1"
+"SAMD7" -> "DMRT3"
+"SAMD7" -> "ARGFX"
+"SAMD7" -> "FOXL1"
+"SIX1" -> "SIX2"
+"SIX1" -> "SIX6"
+"SIX1" -> "SIX3"
+"SIX1" -> "FOXL1"
+"SIX2" -> "SIX1"
+"SIX2" -> "SIX6"
+"SIX2" -> "SIX3"
+"SIX2" -> "FOXB1"
+"SIX3" -> "SIX2"
+"SIX3" -> "SIX1"
+"SIX3" -> "SIX6"
+"SIX3" -> "FOXI2"
+"SIX6" -> "SIX1"
+"SIX6" -> "SIX2"
+"SIX6" -> "SIX3"
+"SIX6" -> "FOXL1"
+"SKIDA1" -> "FOXC1"
+"SKIDA1" -> "SKOR2"
+"SKIDA1" -> "BHLHE41"
+"SKIDA1" -> "SOX1"
+"SKOR1" -> "SKOR2"
+"SKOR1" -> "DMRTA2"
+"SKOR1" -> "PRDM8"
+"SKOR1" -> "SKIDA1"
+"SKOR2" -> "SKOR1"
+"SKOR2" -> "SKIDA1"
+"SKOR2" -> "FOXD1"
+"SKOR2" -> "FOXC1"
+"SOX1" -> "FOXL2"
+"SOX1" -> "SOX21"
+"SOX1" -> "FOXD3"
+"SOX1" -> "FOXF2"
+"SOX11" -> "SOX4"
+"SOX11" -> "SOX1"
+"SOX11" -> "PRDM8"
+"SOX11" -> "SKIDA1"
+"SOX14" -> "FOXB1"
+"SOX14" -> "FOXI2"
+"SOX14" -> "FOXF1"
+"SOX14" -> "VGLL2"
+"SOX17" -> "FOXC2"
+"SOX17" -> "FOXF1"
+"SOX17" -> "FOXE1"
+"SOX17" -> "EOMES"
+"SOX2" -> "SOX1"
+"SOX2" -> "FOXF1"
+"SOX2" -> "SOX21"
+"SOX2" -> "SIX1"
+"SOX21" -> "FOXE1"
+"SOX21" -> "SOX1"
+"SOX21" -> "FOXC1"
+"SOX21" -> "DMRTA2"
+"SOX4" -> "SOX11"
+"SOX4" -> "FOXC1"
+"SOX4" -> "SOX1"
+"SOX4" -> "FOXF2"
+"TBX1" -> "FOXE1"
+"TBX1" -> "TBX2"
+"TBX1" -> "FOXC2"
+"TBX1" -> "FOXL2"
+"TBX2" -> "TBX3"
+"TBX2" -> "TBX1"
+"TBX2" -> "DMRTA2"
+"TBX2" -> "ZNF703"
+"TBX3" -> "TBX2"
+"TBX3" -> "FOXL1"
+"TBX3" -> "FOXC2"
+"TBX3" -> "FOXI2"
+"TCF7" -> "LEF1"
+"TCF7" -> "FOXI2"
+"TCF7" -> "FOXF1"
+"TCF7" -> "FOXL1"
+"VGLL2" -> "VGLL3"
+"VGLL2" -> "FOXC2"
+"VGLL2" -> "FOXE1"
+"VGLL2" -> "SOX14"
+"VGLL3" -> "VGLL2"
+"VGLL3" -> "FOXC2"
+"VGLL3" -> "FOXG1"
+"VGLL3" -> "FOXA3"
+"ZNF503" -> "ZNF703"
+"ZNF503" -> "FOXC1"
+"ZNF503" -> "FOXI3"
+"ZNF503" -> "FOXF2"
+"ZNF703" -> "ZNF503"
+"ZNF703" -> "FOXC1"
+"ZNF703" -> "FOXI3"
+"ZNF703" -> "FOXC2"
+}

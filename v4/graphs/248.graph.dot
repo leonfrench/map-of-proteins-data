@@ -1,0 +1,107 @@
+digraph G {
+"CSF2RB" ["l"="10.138,6.471"]
+"CSF3R" ["l"="10.114,6.508"]
+"EPOR" ["l"="10.148,6.454"]
+"F3" ["l"="10.109,6.504"]
+"GHR" ["l"="10.168,6.478"]
+"IFNAR2" ["l"="10.140,6.504"]
+"IFNGR2" ["l"="10.102,6.551"]
+"IFNLR1" ["l"="10.104,6.430"]
+"IL10RA" ["l"="10.139,6.483"]
+"IL10RB" ["l"="10.058,6.504"]
+"IL12RB1" ["l"="10.028,6.616"]
+"IL17RB" ["l"="10.096,6.407"]
+"IL20RA" ["l"="10.145,6.511"]
+"IL21R" ["l"="10.157,6.484"]
+"IL22RA1" ["l"="10.156,6.499"]
+"IL27RA" ["l"="10.074,6.571"]
+"IL2RB" ["l"="10.120,6.479"]
+"IL4R" ["l"="10.202,6.443"]
+"IL6R" ["l"="10.072,6.511"]
+"MPL" ["l"="10.128,6.517"]
+"PRLR" ["l"="10.156,6.448"]
+"CSF2RB" -> "IL2RB"
+"CSF2RB" -> "IL22RA1"
+"CSF2RB" -> "MPL"
+"CSF2RB" -> "IL10RA"
+"CSF3R" -> "MPL"
+"CSF3R" -> "IL27RA"
+"CSF3R" -> "IL6R"
+"CSF3R" -> "CSF2RB"
+"EPOR" -> "IL21R"
+"EPOR" -> "MPL"
+"EPOR" -> "IFNLR1"
+"EPOR" -> "IL6R"
+"F3" -> "IFNGR2"
+"F3" -> "IL10RB"
+"F3" -> "IL6R"
+"F3" -> "IL17RB"
+"GHR" -> "PRLR"
+"GHR" -> "IFNLR1"
+"GHR" -> "IL20RA"
+"GHR" -> "IL2RB"
+"IFNAR2" -> "IL10RA"
+"IFNAR2" -> "IL10RB"
+"IFNAR2" -> "IL20RA"
+"IFNAR2" -> "IFNLR1"
+"IFNGR2" -> "IL10RB"
+"IFNGR2" -> "IL6R"
+"IFNGR2" -> "IL12RB1"
+"IFNGR2" -> "F3"
+"IFNLR1" -> "IL21R"
+"IFNLR1" -> "IL20RA"
+"IFNLR1" -> "IL2RB"
+"IFNLR1" -> "MPL"
+"IL10RA" -> "IL20RA"
+"IL10RA" -> "IL21R"
+"IL10RA" -> "IL2RB"
+"IL10RA" -> "IFNLR1"
+"IL10RB" -> "IFNGR2"
+"IL10RB" -> "IFNAR2"
+"IL10RB" -> "IL6R"
+"IL10RB" -> "MPL"
+"IL12RB1" -> "IL27RA"
+"IL12RB1" -> "MPL"
+"IL12RB1" -> "IL6R"
+"IL12RB1" -> "IFNLR1"
+"IL17RB" -> "IL12RB1"
+"IL17RB" -> "IL6R"
+"IL17RB" -> "F3"
+"IL17RB" -> "MPL"
+"IL20RA" -> "IFNLR1"
+"IL20RA" -> "IL10RA"
+"IL20RA" -> "IL21R"
+"IL20RA" -> "IL2RB"
+"IL21R" -> "IFNLR1"
+"IL21R" -> "IL2RB"
+"IL21R" -> "IL4R"
+"IL21R" -> "IL10RA"
+"IL22RA1" -> "IFNLR1"
+"IL22RA1" -> "IL20RA"
+"IL22RA1" -> "CSF2RB"
+"IL22RA1" -> "IL10RA"
+"IL27RA" -> "MPL"
+"IL27RA" -> "IL12RB1"
+"IL27RA" -> "IL2RB"
+"IL27RA" -> "IL6R"
+"IL2RB" -> "CSF2RB"
+"IL2RB" -> "IL21R"
+"IL2RB" -> "IL27RA"
+"IL2RB" -> "IFNLR1"
+"IL4R" -> "IL21R"
+"IL4R" -> "IFNLR1"
+"IL4R" -> "IL10RA"
+"IL4R" -> "IL20RA"
+"IL6R" -> "MPL"
+"IL6R" -> "IL27RA"
+"IL6R" -> "IFNLR1"
+"IL6R" -> "IFNGR2"
+"MPL" -> "IL27RA"
+"MPL" -> "IL6R"
+"MPL" -> "CSF3R"
+"MPL" -> "IL2RB"
+"PRLR" -> "IFNLR1"
+"PRLR" -> "IL20RA"
+"PRLR" -> "GHR"
+"PRLR" -> "IL22RA1"
+}

@@ -1,0 +1,142 @@
+digraph G {
+"AFG3L2" ["l"="11.859,1.372"]
+"AP5M1" ["l"="11.663,1.242"]
+"ATG7" ["l"="11.631,1.460"]
+"CASP9" ["l"="11.734,1.375"]
+"CLPX" ["l"="11.765,1.386"]
+"EXD3" ["l"="11.757,1.164"]
+"FKBP5" ["l"="11.796,1.283"]
+"FNTB" ["l"="11.764,1.351"]
+"INPP5K" ["l"="11.666,1.397"]
+"INTS11" ["l"="11.661,1.469"]
+"LANCL1" ["l"="11.691,1.141"]
+"LANCL2" ["l"="11.648,1.234"]
+"LONP2" ["l"="11.626,1.355"]
+"MYO19" ["l"="11.775,1.135"]
+"NDOR1" ["l"="11.756,1.332"]
+"NEU3" ["l"="11.717,1.488"]
+"NEU4" ["l"="11.686,1.449"]
+"PEX6" ["l"="11.786,1.363"]
+"PGGT1B" ["l"="11.643,1.299"]
+"PLCXD2" ["l"="11.737,1.392"]
+"PPID" ["l"="11.872,1.172"]
+"RAG2" ["l"="11.822,1.095"]
+"SIRT2" ["l"="11.736,1.454"]
+"SPATA5L1" ["l"="11.721,1.490"]
+"SPG7" ["l"="11.852,1.383"]
+"TMEM143" ["l"="11.713,1.325"]
+"WDCP" ["l"="11.720,1.398"]
+"YME1L1" ["l"="11.646,1.383"]
+"AFG3L2" -> "SPG7"
+"AFG3L2" -> "CLPX"
+"AFG3L2" -> "YME1L1"
+"AFG3L2" -> "LONP2"
+"AP5M1" -> "PGGT1B"
+"AP5M1" -> "CLPX"
+"AP5M1" -> "WDCP"
+"AP5M1" -> "NEU3"
+"ATG7" -> "FNTB"
+"ATG7" -> "INPP5K"
+"ATG7" -> "PLCXD2"
+"ATG7" -> "NDOR1"
+"CASP9" -> "INPP5K"
+"CASP9" -> "PLCXD2"
+"CASP9" -> "NDOR1"
+"CASP9" -> "NEU3"
+"CLPX" -> "SPG7"
+"CLPX" -> "YME1L1"
+"CLPX" -> "AFG3L2"
+"CLPX" -> "LONP2"
+"EXD3" -> "NDOR1"
+"EXD3" -> "MYO19"
+"EXD3" -> "PEX6"
+"EXD3" -> "TMEM143"
+"FKBP5" -> "PPID"
+"FKBP5" -> "CLPX"
+"FKBP5" -> "NDOR1"
+"FKBP5" -> "FNTB"
+"FNTB" -> "LANCL1"
+"FNTB" -> "PGGT1B"
+"FNTB" -> "ATG7"
+"FNTB" -> "LANCL2"
+"INPP5K" -> "CASP9"
+"INPP5K" -> "PLCXD2"
+"INPP5K" -> "SIRT2"
+"INPP5K" -> "ATG7"
+"INTS11" -> "NDOR1"
+"INTS11" -> "TMEM143"
+"INTS11" -> "INPP5K"
+"INTS11" -> "ATG7"
+"LANCL1" -> "LANCL2"
+"LANCL1" -> "FNTB"
+"LANCL1" -> "PGGT1B"
+"LANCL1" -> "PLCXD2"
+"LANCL2" -> "LANCL1"
+"LANCL2" -> "FNTB"
+"LANCL2" -> "PGGT1B"
+"LANCL2" -> "PLCXD2"
+"LONP2" -> "CLPX"
+"LONP2" -> "SPG7"
+"LONP2" -> "YME1L1"
+"LONP2" -> "PEX6"
+"MYO19" -> "EXD3"
+"MYO19" -> "NDOR1"
+"MYO19" -> "INPP5K"
+"MYO19" -> "PLCXD2"
+"NDOR1" -> "TMEM143"
+"NDOR1" -> "FNTB"
+"NDOR1" -> "CASP9"
+"NDOR1" -> "EXD3"
+"NEU3" -> "NEU4"
+"NEU3" -> "PGGT1B"
+"NEU3" -> "PLCXD2"
+"NEU3" -> "FNTB"
+"NEU4" -> "NEU3"
+"NEU4" -> "PGGT1B"
+"NEU4" -> "NDOR1"
+"NEU4" -> "CASP9"
+"PEX6" -> "SPATA5L1"
+"PEX6" -> "NDOR1"
+"PEX6" -> "EXD3"
+"PEX6" -> "LONP2"
+"PGGT1B" -> "FNTB"
+"PGGT1B" -> "NEU3"
+"PGGT1B" -> "LANCL1"
+"PGGT1B" -> "PLCXD2"
+"PLCXD2" -> "INPP5K"
+"PLCXD2" -> "FNTB"
+"PLCXD2" -> "CASP9"
+"PLCXD2" -> "NEU3"
+"PPID" -> "FKBP5"
+"PPID" -> "CLPX"
+"PPID" -> "YME1L1"
+"PPID" -> "CASP9"
+"RAG2" -> "PGGT1B"
+"RAG2" -> "NEU3"
+"RAG2" -> "LANCL1"
+"RAG2" -> "FNTB"
+"SIRT2" -> "INPP5K"
+"SIRT2" -> "CASP9"
+"SIRT2" -> "NDOR1"
+"SIRT2" -> "ATG7"
+"SPATA5L1" -> "PEX6"
+"SPATA5L1" -> "CLPX"
+"SPATA5L1" -> "YME1L1"
+"SPATA5L1" -> "LONP2"
+"SPG7" -> "AFG3L2"
+"SPG7" -> "CLPX"
+"SPG7" -> "YME1L1"
+"SPG7" -> "LONP2"
+"TMEM143" -> "NDOR1"
+"TMEM143" -> "PLCXD2"
+"TMEM143" -> "INPP5K"
+"TMEM143" -> "INTS11"
+"WDCP" -> "NEU3"
+"WDCP" -> "PGGT1B"
+"WDCP" -> "INPP5K"
+"WDCP" -> "PLCXD2"
+"YME1L1" -> "CLPX"
+"YME1L1" -> "SPG7"
+"YME1L1" -> "LONP2"
+"YME1L1" -> "AFG3L2"
+}

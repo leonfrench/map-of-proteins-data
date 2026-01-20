@@ -1,0 +1,262 @@
+digraph G {
+"AGRN" ["l"="12.639,-2.218"]
+"CNTNAP2" ["l"="12.526,-1.783"]
+"COL12A1" ["l"="12.568,-2.145"]
+"COL14A1" ["l"="12.615,-2.175"]
+"COL6A3" ["l"="12.567,-2.189"]
+"COL6A5" ["l"="12.607,-2.142"]
+"COL6A6" ["l"="12.609,-2.169"]
+"CR1" ["l"="12.585,-2.082"]
+"CUBN" ["l"="12.490,-2.116"]
+"DMBT1" ["l"="12.557,-2.080"]
+"EYS" ["l"="12.549,-2.128"]
+"FBN1" ["l"="12.655,-2.221"]
+"FBN2" ["l"="12.624,-2.245"]
+"FBN3" ["l"="12.637,-2.253"]
+"FN1" ["l"="12.618,-2.180"]
+"IGSF10" ["l"="12.543,-2.038"]
+"LAMA1" ["l"="12.611,-2.243"]
+"LAMA2" ["l"="12.638,-2.253"]
+"LAMA3" ["l"="12.617,-2.235"]
+"LAMA4" ["l"="12.627,-2.252"]
+"LAMA5" ["l"="12.581,-2.233"]
+"LAMB1" ["l"="12.812,-2.265"]
+"LAMB2" ["l"="12.725,-2.256"]
+"LAMB3" ["l"="12.794,-2.266"]
+"LAMB4" ["l"="12.814,-2.251"]
+"LAMC1" ["l"="12.784,-2.271"]
+"LAMC2" ["l"="12.786,-2.270"]
+"LAMC3" ["l"="12.829,-2.239"]
+"LPA" ["l"="12.641,-2.046"]
+"LRP4" ["l"="12.598,-2.138"]
+"LRP5" ["l"="12.629,-1.785"]
+"MALRD1" ["l"="12.531,-2.104"]
+"MEGF8" ["l"="12.448,-2.127"]
+"MUC2" ["l"="12.659,-2.072"]
+"MUC6" ["l"="12.804,-1.934"]
+"NOTCH1" ["l"="12.604,-2.201"]
+"NOTCH2" ["l"="12.647,-2.176"]
+"NOTCH3" ["l"="12.702,-2.216"]
+"OTOG" ["l"="12.567,-2.143"]
+"OTOGL" ["l"="12.909,-2.095"]
+"RELN" ["l"="12.529,-2.124"]
+"ROS1" ["l"="12.506,-1.915"]
+"SORL1" ["l"="12.518,-1.890"]
+"STAB1" ["l"="12.597,-2.209"]
+"STAB2" ["l"="12.688,-2.195"]
+"SVEP1" ["l"="12.588,-2.201"]
+"TECTA" ["l"="12.713,-2.128"]
+"TG" ["l"="12.479,-2.102"]
+"TNC" ["l"="12.612,-2.175"]
+"TNN" ["l"="12.733,-2.036"]
+"VWF" ["l"="12.620,-2.200"]
+"ZAN" ["l"="12.589,-2.158"]
+"AGRN" -> "NOTCH3"
+"AGRN" -> "MEGF8"
+"AGRN" -> "LAMA5"
+"AGRN" -> "STAB1"
+"CNTNAP2" -> "LRP5"
+"CNTNAP2" -> "LRP4"
+"CNTNAP2" -> "TNN"
+"CNTNAP2" -> "MALRD1"
+"COL12A1" -> "COL6A3"
+"COL12A1" -> "COL14A1"
+"COL12A1" -> "FN1"
+"COL12A1" -> "COL6A6"
+"COL14A1" -> "COL12A1"
+"COL14A1" -> "COL6A6"
+"COL14A1" -> "COL6A3"
+"COL14A1" -> "COL6A5"
+"COL6A3" -> "COL12A1"
+"COL6A3" -> "COL6A6"
+"COL6A3" -> "COL14A1"
+"COL6A3" -> "COL6A5"
+"COL6A5" -> "COL6A6"
+"COL6A5" -> "COL6A3"
+"COL6A5" -> "COL14A1"
+"COL6A5" -> "COL12A1"
+"COL6A6" -> "COL6A3"
+"COL6A6" -> "COL6A5"
+"COL6A6" -> "COL14A1"
+"COL6A6" -> "COL12A1"
+"CR1" -> "DMBT1"
+"CR1" -> "ROS1"
+"CR1" -> "LPA"
+"CR1" -> "SVEP1"
+"CUBN" -> "MALRD1"
+"CUBN" -> "RELN"
+"CUBN" -> "SVEP1"
+"CUBN" -> "STAB1"
+"DMBT1" -> "CR1"
+"DMBT1" -> "ZAN"
+"DMBT1" -> "LAMA1"
+"DMBT1" -> "OTOG"
+"EYS" -> "IGSF10"
+"EYS" -> "OTOG"
+"EYS" -> "NOTCH2"
+"EYS" -> "SVEP1"
+"FBN1" -> "FBN2"
+"FBN1" -> "SVEP1"
+"FBN1" -> "NOTCH2"
+"FBN1" -> "FBN3"
+"FBN2" -> "FBN1"
+"FBN2" -> "FBN3"
+"FBN2" -> "SVEP1"
+"FBN2" -> "TNC"
+"FBN3" -> "FBN2"
+"FBN3" -> "FBN1"
+"FBN3" -> "SVEP1"
+"FBN3" -> "NOTCH1"
+"FN1" -> "COL12A1"
+"FN1" -> "TNC"
+"FN1" -> "COL6A3"
+"FN1" -> "FBN1"
+"IGSF10" -> "EYS"
+"IGSF10" -> "OTOG"
+"IGSF10" -> "ROS1"
+"IGSF10" -> "NOTCH2"
+"LAMA1" -> "LAMA3"
+"LAMA1" -> "LAMA5"
+"LAMA1" -> "LAMA2"
+"LAMA1" -> "MALRD1"
+"LAMA2" -> "LAMA3"
+"LAMA2" -> "LAMA1"
+"LAMA2" -> "LAMA4"
+"LAMA2" -> "NOTCH2"
+"LAMA3" -> "LAMA1"
+"LAMA3" -> "LAMA2"
+"LAMA3" -> "LAMA5"
+"LAMA3" -> "LAMA4"
+"LAMA4" -> "LAMA2"
+"LAMA4" -> "LAMA1"
+"LAMA4" -> "LAMA3"
+"LAMA4" -> "COL14A1"
+"LAMA5" -> "LAMA1"
+"LAMA5" -> "LAMA3"
+"LAMA5" -> "AGRN"
+"LAMA5" -> "STAB1"
+"LAMB1" -> "LAMC1"
+"LAMB1" -> "LAMB4"
+"LAMB1" -> "LAMC3"
+"LAMB1" -> "LAMB2"
+"LAMB2" -> "LAMC3"
+"LAMB2" -> "NOTCH2"
+"LAMB2" -> "LAMC1"
+"LAMB2" -> "NOTCH3"
+"LAMB3" -> "LAMC2"
+"LAMB3" -> "LAMC1"
+"LAMB3" -> "LAMB4"
+"LAMB3" -> "LAMB2"
+"LAMB4" -> "LAMB1"
+"LAMB4" -> "LAMC3"
+"LAMB4" -> "LAMC1"
+"LAMB4" -> "LAMB3"
+"LAMC1" -> "LAMB1"
+"LAMC1" -> "LAMB4"
+"LAMC1" -> "LAMC3"
+"LAMC1" -> "LAMB2"
+"LAMC2" -> "LAMB3"
+"LAMC2" -> "LAMC1"
+"LAMC2" -> "LAMB4"
+"LAMC2" -> "LAMC3"
+"LAMC3" -> "LAMB4"
+"LAMC3" -> "LAMB1"
+"LAMC3" -> "LAMB2"
+"LAMC3" -> "LAMC1"
+"LPA" -> "CR1"
+"LPA" -> "DMBT1"
+"LPA" -> "TNN"
+"LPA" -> "ROS1"
+"LRP4" -> "NOTCH2"
+"LRP4" -> "LRP5"
+"LRP4" -> "NOTCH1"
+"LRP4" -> "TNC"
+"LRP5" -> "LRP4"
+"LRP5" -> "SORL1"
+"LRP5" -> "CNTNAP2"
+"LRP5" -> "TECTA"
+"MALRD1" -> "LAMA1"
+"MALRD1" -> "CUBN"
+"MALRD1" -> "ROS1"
+"MALRD1" -> "RELN"
+"MEGF8" -> "AGRN"
+"MEGF8" -> "NOTCH3"
+"MEGF8" -> "NOTCH2"
+"MEGF8" -> "NOTCH1"
+"MUC2" -> "MUC6"
+"MUC2" -> "TNN"
+"MUC2" -> "ZAN"
+"MUC2" -> "DMBT1"
+"MUC6" -> "MUC2"
+"MUC6" -> "ZAN"
+"MUC6" -> "OTOG"
+"MUC6" -> "DMBT1"
+"NOTCH1" -> "NOTCH3"
+"NOTCH1" -> "NOTCH2"
+"NOTCH1" -> "LRP4"
+"NOTCH1" -> "STAB1"
+"NOTCH2" -> "NOTCH3"
+"NOTCH2" -> "NOTCH1"
+"NOTCH2" -> "LRP4"
+"NOTCH2" -> "LAMB2"
+"NOTCH3" -> "NOTCH1"
+"NOTCH3" -> "NOTCH2"
+"NOTCH3" -> "AGRN"
+"NOTCH3" -> "LAMB2"
+"OTOG" -> "ZAN"
+"OTOG" -> "TECTA"
+"OTOG" -> "VWF"
+"OTOG" -> "MEGF8"
+"OTOGL" -> "TECTA"
+"OTOGL" -> "VWF"
+"OTOGL" -> "MALRD1"
+"OTOGL" -> "ZAN"
+"RELN" -> "MALRD1"
+"RELN" -> "CUBN"
+"RELN" -> "SVEP1"
+"RELN" -> "LAMA3"
+"ROS1" -> "SORL1"
+"ROS1" -> "MALRD1"
+"ROS1" -> "CR1"
+"ROS1" -> "LAMA1"
+"SORL1" -> "ROS1"
+"SORL1" -> "MEGF8"
+"SORL1" -> "NOTCH2"
+"SORL1" -> "TECTA"
+"STAB1" -> "STAB2"
+"STAB1" -> "LAMA5"
+"STAB1" -> "AGRN"
+"STAB1" -> "NOTCH1"
+"STAB2" -> "STAB1"
+"STAB2" -> "VWF"
+"STAB2" -> "NOTCH2"
+"STAB2" -> "LAMA1"
+"SVEP1" -> "FBN1"
+"SVEP1" -> "FBN2"
+"SVEP1" -> "FBN3"
+"SVEP1" -> "MALRD1"
+"TECTA" -> "VWF"
+"TECTA" -> "ZAN"
+"TECTA" -> "OTOG"
+"TECTA" -> "OTOGL"
+"TG" -> "MALRD1"
+"TG" -> "OTOG"
+"TG" -> "TECTA"
+"TG" -> "VWF"
+"TNC" -> "FN1"
+"TNC" -> "LRP4"
+"TNC" -> "COL6A3"
+"TNC" -> "COL12A1"
+"TNN" -> "LRP4"
+"TNN" -> "TNC"
+"TNN" -> "LRP5"
+"TNN" -> "ZAN"
+"VWF" -> "TECTA"
+"VWF" -> "OTOG"
+"VWF" -> "STAB2"
+"VWF" -> "LAMA1"
+"ZAN" -> "OTOG"
+"ZAN" -> "TECTA"
+"ZAN" -> "LRP4"
+"ZAN" -> "MEGF8"
+}

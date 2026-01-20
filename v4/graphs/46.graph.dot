@@ -1,0 +1,222 @@
+digraph G {
+"CCL1" ["l"="16.342,-4.094"]
+"CCL11" ["l"="16.344,-4.095"]
+"CCL13" ["l"="16.327,-4.079"]
+"CCL14" ["l"="16.370,-4.124"]
+"CCL15" ["l"="16.354,-4.108"]
+"CCL16" ["l"="16.315,-4.063"]
+"CCL17" ["l"="16.350,-4.102"]
+"CCL18" ["l"="16.347,-4.099"]
+"CCL19" ["l"="16.343,-4.094"]
+"CCL2" ["l"="16.356,-4.109"]
+"CCL20" ["l"="16.278,-4.030"]
+"CCL21" ["l"="16.287,-4.033"]
+"CCL22" ["l"="16.337,-4.087"]
+"CCL23" ["l"="16.357,-4.110"]
+"CCL24" ["l"="16.333,-4.083"]
+"CCL25" ["l"="16.373,-4.125"]
+"CCL26" ["l"="16.356,-4.108"]
+"CCL27" ["l"="16.330,-4.079"]
+"CCL28" ["l"="16.314,-4.057"]
+"CCL3" ["l"="16.356,-4.110"]
+"CCL3L1" ["l"="16.360,-4.114"]
+"CCL4" ["l"="16.418,-4.173"]
+"CCL4L2" ["l"="16.365,-4.119"]
+"CCL5" ["l"="16.356,-4.110"]
+"CCL7" ["l"="16.345,-4.097"]
+"CCL8" ["l"="16.345,-4.097"]
+"CXCL1" ["l"="16.329,-4.079"]
+"CXCL10" ["l"="16.317,-4.068"]
+"CXCL11" ["l"="16.332,-4.083"]
+"CXCL12" ["l"="16.328,-4.075"]
+"CXCL13" ["l"="16.335,-4.085"]
+"CXCL14" ["l"="16.322,-4.068"]
+"CXCL2" ["l"="16.345,-4.097"]
+"CXCL3" ["l"="16.330,-4.080"]
+"CXCL5" ["l"="16.324,-4.073"]
+"CXCL6" ["l"="16.332,-4.081"]
+"CXCL8" ["l"="16.332,-4.083"]
+"CXCL9" ["l"="16.333,-4.082"]
+"GNLY" ["l"="16.228,-3.958"]
+"PF4" ["l"="16.305,-4.051"]
+"PF4V1" ["l"="16.288,-4.032"]
+"PPBP" ["l"="16.278,-4.017"]
+"XCL1" ["l"="16.344,-4.096"]
+"XCL2" ["l"="16.344,-4.097"]
+"CCL1" -> "CCL20"
+"CCL1" -> "CCL8"
+"CCL1" -> "CCL17"
+"CCL1" -> "CCL7"
+"CCL11" -> "CCL13"
+"CCL11" -> "CCL8"
+"CCL11" -> "CCL7"
+"CCL11" -> "CCL2"
+"CCL13" -> "CCL8"
+"CCL13" -> "CCL11"
+"CCL13" -> "CCL7"
+"CCL13" -> "CCL2"
+"CCL14" -> "CCL5"
+"CCL14" -> "CCL23"
+"CCL14" -> "CCL13"
+"CCL14" -> "CCL16"
+"CCL15" -> "CCL23"
+"CCL15" -> "CCL1"
+"CCL15" -> "CCL14"
+"CCL15" -> "CCL16"
+"CCL16" -> "PF4V1"
+"CCL16" -> "CXCL13"
+"CCL16" -> "CCL1"
+"CCL16" -> "CCL14"
+"CCL17" -> "CCL22"
+"CCL17" -> "CCL13"
+"CCL17" -> "CCL7"
+"CCL17" -> "CCL8"
+"CCL18" -> "CCL13"
+"CCL18" -> "CCL22"
+"CCL18" -> "CCL8"
+"CCL18" -> "CCL17"
+"CCL19" -> "CCL22"
+"CCL19" -> "CCL21"
+"CCL19" -> "CCL8"
+"CCL19" -> "CCL13"
+"CCL2" -> "CCL8"
+"CCL2" -> "CCL7"
+"CCL2" -> "CCL13"
+"CCL2" -> "CCL11"
+"CCL20" -> "CCL7"
+"CCL20" -> "CCL1"
+"CCL20" -> "CXCL3"
+"CCL20" -> "CXCL8"
+"CCL21" -> "CCL19"
+"CCL21" -> "CCL28"
+"CCL21" -> "CCL24"
+"CCL21" -> "CXCL9"
+"CCL22" -> "CCL17"
+"CCL22" -> "CCL19"
+"CCL22" -> "CCL24"
+"CCL22" -> "CCL18"
+"CCL23" -> "CCL15"
+"CCL23" -> "CCL14"
+"CCL23" -> "CCL2"
+"CCL23" -> "CCL1"
+"CCL24" -> "CXCL12"
+"CCL24" -> "CCL8"
+"CCL24" -> "CCL13"
+"CCL24" -> "CCL22"
+"CCL25" -> "CCL21"
+"CCL25" -> "CCL26"
+"CCL25" -> "CCL1"
+"CCL25" -> "CCL24"
+"CCL26" -> "CCL7"
+"CCL26" -> "CCL11"
+"CCL26" -> "CCL8"
+"CCL26" -> "CCL13"
+"CCL27" -> "PF4"
+"CCL27" -> "CCL19"
+"CCL27" -> "CCL22"
+"CCL27" -> "CXCL6"
+"CCL28" -> "CCL21"
+"CCL28" -> "CXCL11"
+"CCL28" -> "CCL16"
+"CCL28" -> "PPBP"
+"CCL3" -> "CCL3L1"
+"CCL3" -> "CCL4L2"
+"CCL3" -> "CCL4"
+"CCL3" -> "CCL5"
+"CCL3L1" -> "CCL3"
+"CCL3L1" -> "CCL4L2"
+"CCL3L1" -> "CCL4"
+"CCL3L1" -> "CCL5"
+"CCL4" -> "CCL4L2"
+"CCL4" -> "CCL3"
+"CCL4" -> "CCL3L1"
+"CCL4" -> "CCL5"
+"CCL4L2" -> "CCL4"
+"CCL4L2" -> "CCL3L1"
+"CCL4L2" -> "CCL3"
+"CCL4L2" -> "CCL5"
+"CCL5" -> "CCL14"
+"CCL5" -> "CCL3L1"
+"CCL5" -> "CCL3"
+"CCL5" -> "CCL1"
+"CCL7" -> "CCL2"
+"CCL7" -> "CCL13"
+"CCL7" -> "CCL8"
+"CCL7" -> "CCL11"
+"CCL8" -> "CCL2"
+"CCL8" -> "CCL13"
+"CCL8" -> "CCL7"
+"CCL8" -> "CCL11"
+"CXCL1" -> "CXCL2"
+"CXCL1" -> "CXCL3"
+"CXCL1" -> "CXCL6"
+"CXCL1" -> "CXCL8"
+"CXCL10" -> "CXCL11"
+"CXCL10" -> "CXCL9"
+"CXCL10" -> "CCL8"
+"CXCL10" -> "CXCL1"
+"CXCL11" -> "CXCL10"
+"CXCL11" -> "CXCL9"
+"CXCL11" -> "CXCL5"
+"CXCL11" -> "CCL8"
+"CXCL12" -> "CCL24"
+"CXCL12" -> "CXCL14"
+"CXCL12" -> "CCL13"
+"CXCL12" -> "CXCL13"
+"CXCL13" -> "CCL1"
+"CXCL13" -> "CXCL6"
+"CXCL13" -> "CCL8"
+"CXCL13" -> "CCL16"
+"CXCL14" -> "CXCL12"
+"CXCL14" -> "CXCL1"
+"CXCL14" -> "CXCL13"
+"CXCL14" -> "CCL13"
+"CXCL2" -> "CXCL3"
+"CXCL2" -> "CXCL1"
+"CXCL2" -> "CXCL8"
+"CXCL2" -> "CXCL5"
+"CXCL3" -> "CXCL2"
+"CXCL3" -> "CXCL1"
+"CXCL3" -> "CXCL5"
+"CXCL3" -> "CXCL8"
+"CXCL5" -> "CXCL3"
+"CXCL5" -> "CXCL6"
+"CXCL5" -> "CXCL2"
+"CXCL5" -> "CXCL1"
+"CXCL6" -> "CXCL1"
+"CXCL6" -> "CXCL5"
+"CXCL6" -> "CXCL2"
+"CXCL6" -> "CXCL3"
+"CXCL8" -> "CXCL2"
+"CXCL8" -> "CXCL1"
+"CXCL8" -> "CXCL3"
+"CXCL8" -> "CCL7"
+"CXCL9" -> "CXCL11"
+"CXCL9" -> "CXCL10"
+"CXCL9" -> "CXCL12"
+"CXCL9" -> "CCL21"
+"GNLY" -> "PPBP"
+"GNLY" -> "CCL21"
+"GNLY" -> "PF4"
+"GNLY" -> "PF4V1"
+"PF4" -> "PPBP"
+"PF4" -> "PF4V1"
+"PF4" -> "CXCL6"
+"PF4" -> "CXCL5"
+"PF4V1" -> "PF4"
+"PF4V1" -> "PPBP"
+"PF4V1" -> "CXCL6"
+"PF4V1" -> "CCL16"
+"PPBP" -> "PF4"
+"PPBP" -> "PF4V1"
+"PPBP" -> "CXCL5"
+"PPBP" -> "CXCL3"
+"XCL1" -> "XCL2"
+"XCL1" -> "CCL1"
+"XCL1" -> "CCL20"
+"XCL1" -> "CXCL13"
+"XCL2" -> "XCL1"
+"XCL2" -> "CCL8"
+"XCL2" -> "CCL7"
+"XCL2" -> "CCL2"
+}

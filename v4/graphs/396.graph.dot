@@ -1,0 +1,327 @@
+digraph G {
+"ABHD14B" ["l"="12.623,2.118"]
+"ADI1" ["l"="12.605,2.131"]
+"AK2" ["l"="12.602,2.306"]
+"AK3" ["l"="12.582,2.259"]
+"AK4" ["l"="12.585,2.235"]
+"ALG5" ["l"="12.575,2.167"]
+"APIP" ["l"="12.650,2.171"]
+"ARV1" ["l"="12.470,2.172"]
+"B3GNTL1" ["l"="12.525,2.103"]
+"BLVRA" ["l"="12.560,2.054"]
+"CBWD1" ["l"="12.526,1.930"]
+"CBWD2" ["l"="12.470,1.899"]
+"CBWD3" ["l"="12.514,1.882"]
+"CCS" ["l"="12.546,2.093"]
+"CDO1" ["l"="12.584,2.105"]
+"COA1" ["l"="12.574,1.992"]
+"CPPED1" ["l"="12.533,1.912"]
+"DHFR" ["l"="12.478,2.141"]
+"DPH6" ["l"="12.550,1.973"]
+"EIF2B3" ["l"="12.547,1.873"]
+"ELAC1" ["l"="12.557,1.961"]
+"ERAL1" ["l"="12.524,2.263"]
+"ERI3" ["l"="12.622,2.227"]
+"FAIM" ["l"="12.491,2.193"]
+"FHIT" ["l"="12.617,2.156"]
+"FN3KRP" ["l"="12.543,1.796"]
+"GATB" ["l"="12.532,2.042"]
+"GLYATL1" ["l"="12.519,1.902"]
+"GMPPB" ["l"="12.513,1.835"]
+"HTATIP2" ["l"="12.578,2.128"]
+"IAH1" ["l"="12.508,2.161"]
+"IDNK" ["l"="12.509,2.244"]
+"JMJD7" ["l"="12.520,1.768"]
+"L3HYPDH" ["l"="12.551,2.033"]
+"LYPLA1" ["l"="12.538,1.909"]
+"LYPLA2" ["l"="12.520,1.888"]
+"METAP1" ["l"="12.581,2.101"]
+"METAP1D" ["l"="12.662,2.186"]
+"MPPED1" ["l"="12.438,1.860"]
+"MTFMT" ["l"="12.564,2.084"]
+"MTG1" ["l"="12.561,2.126"]
+"NNMT" ["l"="12.479,1.906"]
+"NSUN6" ["l"="12.529,1.817"]
+"NUDT13" ["l"="12.574,1.934"]
+"PCYT1A" ["l"="12.536,2.108"]
+"PLPBP" ["l"="12.516,2.249"]
+"PM20D2" ["l"="12.501,2.100"]
+"PMM1" ["l"="12.550,2.037"]
+"PMVK" ["l"="12.520,2.236"]
+"PPCS" ["l"="12.602,2.300"]
+"PRADC1" ["l"="12.529,1.880"]
+"PRTFDC1" ["l"="12.575,2.058"]
+"PSPH" ["l"="12.520,1.959"]
+"QTRT2" ["l"="12.528,1.862"]
+"RIMKLA" ["l"="12.602,1.912"]
+"RPEL1" ["l"="12.540,2.193"]
+"SMPD2" ["l"="12.595,1.883"]
+"TAMM41" ["l"="12.462,1.831"]
+"TATDN1" ["l"="12.544,2.008"]
+"TFB1M" ["l"="12.503,2.225"]
+"THEM6" ["l"="12.558,2.191"]
+"TPK1" ["l"="12.535,1.930"]
+"UROS" ["l"="12.592,1.999"]
+"WARS2" ["l"="12.683,2.127"]
+"YARS2" ["l"="12.471,1.834"]
+"ABHD14B" -> "PLPBP"
+"ABHD14B" -> "AK3"
+"ABHD14B" -> "IAH1"
+"ABHD14B" -> "PPCS"
+"ADI1" -> "CDO1"
+"ADI1" -> "METAP1"
+"ADI1" -> "APIP"
+"ADI1" -> "JMJD7"
+"AK2" -> "AK3"
+"AK2" -> "AK4"
+"AK2" -> "WARS2"
+"AK2" -> "PLPBP"
+"AK3" -> "AK4"
+"AK3" -> "AK2"
+"AK3" -> "PLPBP"
+"AK3" -> "MTFMT"
+"AK4" -> "AK3"
+"AK4" -> "AK2"
+"AK4" -> "IAH1"
+"AK4" -> "WARS2"
+"ALG5" -> "MTFMT"
+"ALG5" -> "HTATIP2"
+"ALG5" -> "TFB1M"
+"ALG5" -> "YARS2"
+"APIP" -> "METAP1"
+"APIP" -> "PLPBP"
+"APIP" -> "PM20D2"
+"APIP" -> "METAP1D"
+"ARV1" -> "MTFMT"
+"ARV1" -> "HTATIP2"
+"ARV1" -> "WARS2"
+"ARV1" -> "PLPBP"
+"B3GNTL1" -> "MTFMT"
+"B3GNTL1" -> "FN3KRP"
+"B3GNTL1" -> "WARS2"
+"B3GNTL1" -> "JMJD7"
+"BLVRA" -> "HTATIP2"
+"BLVRA" -> "IAH1"
+"BLVRA" -> "PPCS"
+"BLVRA" -> "TPK1"
+"CBWD1" -> "CBWD2"
+"CBWD1" -> "CBWD3"
+"CBWD1" -> "MTG1"
+"CBWD1" -> "MTFMT"
+"CBWD2" -> "CBWD1"
+"CBWD2" -> "CBWD3"
+"CBWD2" -> "MTG1"
+"CBWD2" -> "MTFMT"
+"CBWD3" -> "CBWD1"
+"CBWD3" -> "CBWD2"
+"CBWD3" -> "MTG1"
+"CBWD3" -> "MTFMT"
+"CCS" -> "ELAC1"
+"CCS" -> "FHIT"
+"CCS" -> "IAH1"
+"CCS" -> "PRADC1"
+"CDO1" -> "METAP1"
+"CDO1" -> "ADI1"
+"CDO1" -> "ELAC1"
+"CDO1" -> "APIP"
+"COA1" -> "IDNK"
+"COA1" -> "FHIT"
+"COA1" -> "DPH6"
+"COA1" -> "IAH1"
+"CPPED1" -> "IAH1"
+"CPPED1" -> "WARS2"
+"CPPED1" -> "B3GNTL1"
+"CPPED1" -> "PLPBP"
+"DHFR" -> "DPH6"
+"DHFR" -> "AK3"
+"DHFR" -> "FN3KRP"
+"DHFR" -> "B3GNTL1"
+"DPH6" -> "TPK1"
+"DPH6" -> "QTRT2"
+"DPH6" -> "APIP"
+"DPH6" -> "MTFMT"
+"EIF2B3" -> "ELAC1"
+"EIF2B3" -> "DPH6"
+"EIF2B3" -> "TFB1M"
+"EIF2B3" -> "BLVRA"
+"ELAC1" -> "NUDT13"
+"ELAC1" -> "IAH1"
+"ELAC1" -> "MTFMT"
+"ELAC1" -> "FN3KRP"
+"ERAL1" -> "MTG1"
+"ERAL1" -> "WARS2"
+"ERAL1" -> "TFB1M"
+"ERAL1" -> "MTFMT"
+"ERI3" -> "B3GNTL1"
+"ERI3" -> "WARS2"
+"ERI3" -> "MTFMT"
+"ERI3" -> "ERAL1"
+"FAIM" -> "HTATIP2"
+"FAIM" -> "BLVRA"
+"FAIM" -> "FN3KRP"
+"FAIM" -> "TPK1"
+"FHIT" -> "JMJD7"
+"FHIT" -> "METAP1D"
+"FHIT" -> "WARS2"
+"FHIT" -> "CCS"
+"FN3KRP" -> "B3GNTL1"
+"FN3KRP" -> "MTFMT"
+"FN3KRP" -> "IAH1"
+"FN3KRP" -> "ELAC1"
+"GATB" -> "WARS2"
+"GATB" -> "YARS2"
+"GATB" -> "TFB1M"
+"GATB" -> "MTG1"
+"GLYATL1" -> "NUDT13"
+"GLYATL1" -> "BLVRA"
+"GLYATL1" -> "MTFMT"
+"GLYATL1" -> "CDO1"
+"GMPPB" -> "PRADC1"
+"GMPPB" -> "TPK1"
+"GMPPB" -> "EIF2B3"
+"GMPPB" -> "B3GNTL1"
+"HTATIP2" -> "PPCS"
+"HTATIP2" -> "BLVRA"
+"HTATIP2" -> "PLPBP"
+"HTATIP2" -> "TPK1"
+"IAH1" -> "PLPBP"
+"IAH1" -> "CPPED1"
+"IAH1" -> "MTFMT"
+"IAH1" -> "ELAC1"
+"IDNK" -> "IAH1"
+"IDNK" -> "B3GNTL1"
+"IDNK" -> "ELAC1"
+"IDNK" -> "BLVRA"
+"JMJD7" -> "B3GNTL1"
+"JMJD7" -> "FHIT"
+"JMJD7" -> "APIP"
+"JMJD7" -> "MTFMT"
+"L3HYPDH" -> "PM20D2"
+"L3HYPDH" -> "METAP1D"
+"L3HYPDH" -> "METAP1"
+"L3HYPDH" -> "ELAC1"
+"LYPLA1" -> "LYPLA2"
+"LYPLA1" -> "AK3"
+"LYPLA1" -> "MTFMT"
+"LYPLA1" -> "METAP1"
+"LYPLA2" -> "LYPLA1"
+"LYPLA2" -> "B3GNTL1"
+"LYPLA2" -> "ABHD14B"
+"LYPLA2" -> "WARS2"
+"METAP1" -> "METAP1D"
+"METAP1" -> "APIP"
+"METAP1" -> "PM20D2"
+"METAP1" -> "CDO1"
+"METAP1D" -> "METAP1"
+"METAP1D" -> "APIP"
+"METAP1D" -> "WARS2"
+"METAP1D" -> "MTFMT"
+"MPPED1" -> "MTFMT"
+"MPPED1" -> "B3GNTL1"
+"MPPED1" -> "TPK1"
+"MPPED1" -> "FN3KRP"
+"MTFMT" -> "TFB1M"
+"MTFMT" -> "MTG1"
+"MTFMT" -> "WARS2"
+"MTFMT" -> "B3GNTL1"
+"MTG1" -> "MTFMT"
+"MTG1" -> "ERAL1"
+"MTG1" -> "TFB1M"
+"MTG1" -> "GATB"
+"NNMT" -> "BLVRA"
+"NNMT" -> "HTATIP2"
+"NNMT" -> "IAH1"
+"NNMT" -> "NSUN6"
+"NSUN6" -> "TFB1M"
+"NSUN6" -> "MTFMT"
+"NSUN6" -> "TPK1"
+"NSUN6" -> "DPH6"
+"NUDT13" -> "ELAC1"
+"NUDT13" -> "MTFMT"
+"NUDT13" -> "GLYATL1"
+"NUDT13" -> "TFB1M"
+"PCYT1A" -> "MTG1"
+"PCYT1A" -> "MPPED1"
+"PCYT1A" -> "B3GNTL1"
+"PCYT1A" -> "HTATIP2"
+"PLPBP" -> "IAH1"
+"PLPBP" -> "AK3"
+"PLPBP" -> "APIP"
+"PLPBP" -> "ABHD14B"
+"PM20D2" -> "L3HYPDH"
+"PM20D2" -> "METAP1"
+"PM20D2" -> "APIP"
+"PM20D2" -> "METAP1D"
+"PMM1" -> "PSPH"
+"PMM1" -> "PRTFDC1"
+"PMM1" -> "FN3KRP"
+"PMM1" -> "IAH1"
+"PMVK" -> "PLPBP"
+"PMVK" -> "PMM1"
+"PMVK" -> "IAH1"
+"PMVK" -> "FN3KRP"
+"PPCS" -> "HTATIP2"
+"PPCS" -> "PLPBP"
+"PPCS" -> "IAH1"
+"PPCS" -> "BLVRA"
+"PRADC1" -> "GMPPB"
+"PRADC1" -> "TPK1"
+"PRADC1" -> "METAP1D"
+"PRADC1" -> "RIMKLA"
+"PRTFDC1" -> "PMM1"
+"PRTFDC1" -> "IAH1"
+"PRTFDC1" -> "PLPBP"
+"PRTFDC1" -> "TPK1"
+"PSPH" -> "PMM1"
+"PSPH" -> "PRTFDC1"
+"PSPH" -> "AK3"
+"PSPH" -> "AK4"
+"QTRT2" -> "WARS2"
+"QTRT2" -> "DPH6"
+"QTRT2" -> "YARS2"
+"QTRT2" -> "B3GNTL1"
+"RIMKLA" -> "MTFMT"
+"RIMKLA" -> "AK4"
+"RIMKLA" -> "ELAC1"
+"RIMKLA" -> "PLPBP"
+"RPEL1" -> "PLPBP"
+"RPEL1" -> "TPK1"
+"RPEL1" -> "APIP"
+"RPEL1" -> "ELAC1"
+"SMPD2" -> "B3GNTL1"
+"SMPD2" -> "FN3KRP"
+"SMPD2" -> "JMJD7"
+"SMPD2" -> "TAMM41"
+"TAMM41" -> "WARS2"
+"TAMM41" -> "YARS2"
+"TAMM41" -> "TFB1M"
+"TAMM41" -> "MTFMT"
+"TATDN1" -> "CBWD3"
+"TATDN1" -> "MTFMT"
+"TATDN1" -> "PLPBP"
+"TATDN1" -> "CBWD1"
+"TFB1M" -> "MTFMT"
+"TFB1M" -> "WARS2"
+"TFB1M" -> "YARS2"
+"TFB1M" -> "MTG1"
+"THEM6" -> "YARS2"
+"THEM6" -> "TPK1"
+"THEM6" -> "PPCS"
+"THEM6" -> "JMJD7"
+"TPK1" -> "DPH6"
+"TPK1" -> "MTFMT"
+"TPK1" -> "B3GNTL1"
+"TPK1" -> "APIP"
+"UROS" -> "MTFMT"
+"UROS" -> "PLPBP"
+"UROS" -> "NSUN6"
+"UROS" -> "IAH1"
+"WARS2" -> "YARS2"
+"WARS2" -> "GATB"
+"WARS2" -> "TFB1M"
+"WARS2" -> "MTFMT"
+"YARS2" -> "WARS2"
+"YARS2" -> "GATB"
+"YARS2" -> "TFB1M"
+"YARS2" -> "MTFMT"
+}

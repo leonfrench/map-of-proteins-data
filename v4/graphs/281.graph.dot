@@ -1,0 +1,272 @@
+digraph G {
+"ABHD12" ["l"="12.649,1.386"]
+"ABHD12B" ["l"="12.606,1.528"]
+"ACCS" ["l"="12.862,1.343"]
+"ACOT1" ["l"="12.929,1.309"]
+"ACOT2" ["l"="12.968,1.307"]
+"ACOT4" ["l"="12.940,1.345"]
+"AGK" ["l"="12.439,1.530"]
+"AGPS" ["l"="12.749,1.427"]
+"ALG1" ["l"="12.600,1.378"]
+"ALG11" ["l"="12.461,1.375"]
+"ALG14" ["l"="12.615,1.389"]
+"ARMC10" ["l"="12.399,1.368"]
+"ASNS" ["l"="12.728,1.380"]
+"ASPA" ["l"="12.799,1.317"]
+"BCKDK" ["l"="12.468,1.355"]
+"C11orf54" ["l"="12.628,1.680"]
+"CARS2" ["l"="12.522,1.331"]
+"CERK" ["l"="12.471,1.315"]
+"CERKL" ["l"="12.384,1.394"]
+"CIDEB" ["l"="12.767,1.449"]
+"CPOX" ["l"="12.615,1.474"]
+"CTPS1" ["l"="12.401,1.602"]
+"DPP3" ["l"="12.487,1.309"]
+"ENDOD1" ["l"="12.382,1.339"]
+"FBXO22" ["l"="12.485,1.543"]
+"FECH" ["l"="12.512,1.639"]
+"GALT" ["l"="12.490,1.494"]
+"GLS" ["l"="12.583,1.588"]
+"GPD2" ["l"="12.732,1.446"]
+"GSS" ["l"="12.560,1.600"]
+"HDAC11" ["l"="12.511,1.506"]
+"IARS2" ["l"="12.501,1.368"]
+"JMJD8" ["l"="12.478,1.530"]
+"KIF25" ["l"="12.823,1.376"]
+"LARS2" ["l"="12.559,1.313"]
+"MACROD2" ["l"="12.609,1.442"]
+"NADK2" ["l"="12.587,1.514"]
+"NT5DC4" ["l"="12.392,1.443"]
+"NUS1" ["l"="12.286,1.383"]
+"OSGIN1" ["l"="12.762,1.506"]
+"PAOX" ["l"="12.762,1.553"]
+"PFKFB3" ["l"="12.532,1.561"]
+"PFKFB4" ["l"="12.388,1.545"]
+"PIGL" ["l"="12.597,1.378"]
+"PPAT" ["l"="12.496,1.556"]
+"PRMT7" ["l"="12.480,1.515"]
+"PRODH" ["l"="12.593,1.569"]
+"PTGR2" ["l"="12.683,1.575"]
+"SCRN3" ["l"="12.497,1.523"]
+"SPHK1" ["l"="12.907,1.296"]
+"SPTLC1" ["l"="12.773,1.392"]
+"TDO2" ["l"="12.631,1.575"]
+"UAP1L1" ["l"="12.485,1.500"]
+"UEVLD" ["l"="12.723,1.405"]
+"ABHD12" -> "ABHD12B"
+"ABHD12" -> "PIGL"
+"ABHD12" -> "ALG14"
+"ABHD12" -> "ALG1"
+"ABHD12B" -> "ABHD12"
+"ABHD12B" -> "CERKL"
+"ABHD12B" -> "ALG11"
+"ABHD12B" -> "ALG14"
+"ACCS" -> "ALG1"
+"ACCS" -> "NT5DC4"
+"ACCS" -> "UAP1L1"
+"ACCS" -> "CERK"
+"ACOT1" -> "ACOT2"
+"ACOT1" -> "ACOT4"
+"ACOT1" -> "OSGIN1"
+"ACOT1" -> "UAP1L1"
+"ACOT2" -> "ACOT1"
+"ACOT2" -> "ACOT4"
+"ACOT2" -> "UAP1L1"
+"ACOT2" -> "OSGIN1"
+"ACOT4" -> "ACOT1"
+"ACOT4" -> "ACOT2"
+"ACOT4" -> "PAOX"
+"ACOT4" -> "UAP1L1"
+"AGK" -> "NADK2"
+"AGK" -> "ALG14"
+"AGK" -> "CERKL"
+"AGK" -> "FBXO22"
+"AGPS" -> "NADK2"
+"AGPS" -> "GPD2"
+"AGPS" -> "CPOX"
+"AGPS" -> "PPAT"
+"ALG1" -> "ALG14"
+"ALG1" -> "ALG11"
+"ALG1" -> "PIGL"
+"ALG1" -> "UAP1L1"
+"ALG11" -> "ALG1"
+"ALG11" -> "ALG14"
+"ALG11" -> "NUS1"
+"ALG11" -> "ASNS"
+"ALG14" -> "ALG1"
+"ALG14" -> "NUS1"
+"ALG14" -> "ALG11"
+"ALG14" -> "PIGL"
+"ARMC10" -> "NUS1"
+"ARMC10" -> "ALG14"
+"ARMC10" -> "ALG1"
+"ARMC10" -> "AGK"
+"ASNS" -> "ALG11"
+"ASNS" -> "PPAT"
+"ASNS" -> "CTPS1"
+"ASNS" -> "GPD2"
+"ASPA" -> "C11orf54"
+"ASPA" -> "AGPS"
+"ASPA" -> "HDAC11"
+"ASPA" -> "ACOT1"
+"BCKDK" -> "PFKFB4"
+"BCKDK" -> "ALG1"
+"BCKDK" -> "NUS1"
+"BCKDK" -> "ALG11"
+"C11orf54" -> "ASPA"
+"C11orf54" -> "AGPS"
+"C11orf54" -> "PTGR2"
+"C11orf54" -> "FBXO22"
+"CARS2" -> "LARS2"
+"CARS2" -> "IARS2"
+"CARS2" -> "CPOX"
+"CARS2" -> "ALG1"
+"CERK" -> "NADK2"
+"CERK" -> "CERKL"
+"CERK" -> "FBXO22"
+"CERK" -> "AGK"
+"CERKL" -> "CERK"
+"CERKL" -> "AGK"
+"CERKL" -> "FBXO22"
+"CERKL" -> "ALG11"
+"CIDEB" -> "CERK"
+"CIDEB" -> "AGK"
+"CIDEB" -> "ALG1"
+"CIDEB" -> "ACCS"
+"CPOX" -> "NUS1"
+"CPOX" -> "AGPS"
+"CPOX" -> "NADK2"
+"CPOX" -> "FECH"
+"CTPS1" -> "PPAT"
+"CTPS1" -> "ASNS"
+"CTPS1" -> "UAP1L1"
+"CTPS1" -> "AGPS"
+"DPP3" -> "GSS"
+"DPP3" -> "PRODH"
+"DPP3" -> "UAP1L1"
+"DPP3" -> "PFKFB4"
+"ENDOD1" -> "ALG14"
+"ENDOD1" -> "ALG11"
+"ENDOD1" -> "SCRN3"
+"ENDOD1" -> "UAP1L1"
+"FBXO22" -> "NADK2"
+"FBXO22" -> "CERKL"
+"FBXO22" -> "AGK"
+"FBXO22" -> "CERK"
+"FECH" -> "CPOX"
+"FECH" -> "ALG11"
+"FECH" -> "NUS1"
+"FECH" -> "PFKFB4"
+"GALT" -> "LARS2"
+"GALT" -> "HDAC11"
+"GALT" -> "ALG1"
+"GALT" -> "PIGL"
+"GLS" -> "CPOX"
+"GLS" -> "AGPS"
+"GLS" -> "NADK2"
+"GLS" -> "ALG11"
+"GPD2" -> "AGPS"
+"GPD2" -> "PPAT"
+"GPD2" -> "ALG11"
+"GPD2" -> "ASNS"
+"GSS" -> "DPP3"
+"GSS" -> "UAP1L1"
+"GSS" -> "PRODH"
+"GSS" -> "ALG1"
+"HDAC11" -> "ALG1"
+"HDAC11" -> "PIGL"
+"HDAC11" -> "CERK"
+"HDAC11" -> "AGK"
+"IARS2" -> "LARS2"
+"IARS2" -> "AGPS"
+"IARS2" -> "GPD2"
+"IARS2" -> "PPAT"
+"JMJD8" -> "ALG1"
+"JMJD8" -> "HDAC11"
+"JMJD8" -> "ALG11"
+"JMJD8" -> "AGPS"
+"KIF25" -> "AGK"
+"KIF25" -> "PAOX"
+"KIF25" -> "CERKL"
+"KIF25" -> "CIDEB"
+"LARS2" -> "IARS2"
+"LARS2" -> "CARS2"
+"LARS2" -> "ALG11"
+"LARS2" -> "ALG1"
+"MACROD2" -> "ALG11"
+"MACROD2" -> "AGK"
+"MACROD2" -> "PIGL"
+"MACROD2" -> "CERK"
+"NADK2" -> "AGK"
+"NADK2" -> "AGPS"
+"NADK2" -> "CERK"
+"NADK2" -> "FBXO22"
+"NT5DC4" -> "ACCS"
+"NT5DC4" -> "UAP1L1"
+"NT5DC4" -> "PFKFB4"
+"NT5DC4" -> "PAOX"
+"NUS1" -> "ALG14"
+"NUS1" -> "ALG11"
+"NUS1" -> "CPOX"
+"NUS1" -> "ALG1"
+"OSGIN1" -> "PAOX"
+"OSGIN1" -> "ACOT1"
+"OSGIN1" -> "UAP1L1"
+"OSGIN1" -> "SPHK1"
+"PAOX" -> "UAP1L1"
+"PAOX" -> "CERK"
+"PAOX" -> "ALG1"
+"PAOX" -> "OSGIN1"
+"PFKFB3" -> "PFKFB4"
+"PFKFB3" -> "FECH"
+"PFKFB3" -> "PRODH"
+"PFKFB3" -> "UAP1L1"
+"PFKFB4" -> "PFKFB3"
+"PFKFB4" -> "PRODH"
+"PFKFB4" -> "UAP1L1"
+"PFKFB4" -> "BCKDK"
+"PIGL" -> "ALG14"
+"PIGL" -> "ALG1"
+"PIGL" -> "ALG11"
+"PIGL" -> "ABHD12"
+"PPAT" -> "CTPS1"
+"PPAT" -> "AGPS"
+"PPAT" -> "ALG11"
+"PPAT" -> "ASNS"
+"PRMT7" -> "AGK"
+"PRMT7" -> "ALG1"
+"PRMT7" -> "CERKL"
+"PRMT7" -> "UAP1L1"
+"PRODH" -> "UAP1L1"
+"PRODH" -> "PFKFB4"
+"PRODH" -> "GSS"
+"PRODH" -> "DPP3"
+"PTGR2" -> "AGK"
+"PTGR2" -> "AGPS"
+"PTGR2" -> "CERKL"
+"PTGR2" -> "ALG11"
+"SCRN3" -> "ALG14"
+"SCRN3" -> "AGK"
+"SCRN3" -> "ASPA"
+"SCRN3" -> "ALG11"
+"SPHK1" -> "CERK"
+"SPHK1" -> "UAP1L1"
+"SPHK1" -> "PAOX"
+"SPHK1" -> "ALG1"
+"SPTLC1" -> "ALG11"
+"SPTLC1" -> "AGK"
+"SPTLC1" -> "AGPS"
+"SPTLC1" -> "ACCS"
+"TDO2" -> "ASNS"
+"TDO2" -> "PRODH"
+"TDO2" -> "ALG11"
+"TDO2" -> "CIDEB"
+"UAP1L1" -> "PAOX"
+"UAP1L1" -> "ALG1"
+"UAP1L1" -> "PRODH"
+"UAP1L1" -> "ALG11"
+"UEVLD" -> "AGK"
+"UEVLD" -> "ALG11"
+"UEVLD" -> "CERKL"
+"UEVLD" -> "ALG14"
+}

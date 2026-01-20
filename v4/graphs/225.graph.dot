@@ -1,0 +1,77 @@
+digraph G {
+"ALKAL2" ["l"="14.248,-1.355"]
+"ITLN1" ["l"="14.105,-1.338"]
+"ITLN2" ["l"="14.087,-1.290"]
+"PDGFD" ["l"="14.064,-1.409"]
+"PRG2" ["l"="14.160,-1.228"]
+"PRG3" ["l"="14.181,-1.277"]
+"REG1A" ["l"="14.124,-1.291"]
+"REG1B" ["l"="14.159,-1.279"]
+"REG3A" ["l"="14.144,-1.288"]
+"REG3G" ["l"="14.136,-1.234"]
+"REG4" ["l"="14.098,-1.286"]
+"SPACA3" ["l"="14.053,-1.408"]
+"THSD8" ["l"="14.264,-1.234"]
+"ZG16" ["l"="14.071,-1.348"]
+"ZG16B" ["l"="14.077,-1.320"]
+"ALKAL2" -> "PDGFD"
+"ALKAL2" -> "THSD8"
+"ALKAL2" -> "PRG2"
+"ALKAL2" -> "REG4"
+"ITLN1" -> "ITLN2"
+"ITLN1" -> "REG4"
+"ITLN1" -> "ZG16"
+"ITLN1" -> "REG1A"
+"ITLN2" -> "ITLN1"
+"ITLN2" -> "REG4"
+"ITLN2" -> "REG1A"
+"ITLN2" -> "ZG16"
+"PDGFD" -> "ALKAL2"
+"PDGFD" -> "PRG2"
+"PDGFD" -> "THSD8"
+"PDGFD" -> "REG4"
+"PRG2" -> "PRG3"
+"PRG2" -> "REG4"
+"PRG2" -> "REG1A"
+"PRG2" -> "ALKAL2"
+"PRG3" -> "PRG2"
+"PRG3" -> "REG4"
+"PRG3" -> "REG1A"
+"PRG3" -> "REG3A"
+"REG1A" -> "REG1B"
+"REG1A" -> "REG3A"
+"REG1A" -> "REG3G"
+"REG1A" -> "REG4"
+"REG1B" -> "REG1A"
+"REG1B" -> "REG3A"
+"REG1B" -> "REG3G"
+"REG1B" -> "REG4"
+"REG3A" -> "REG3G"
+"REG3A" -> "REG1A"
+"REG3A" -> "REG1B"
+"REG3A" -> "REG4"
+"REG3G" -> "REG3A"
+"REG3G" -> "REG1B"
+"REG3G" -> "REG1A"
+"REG3G" -> "REG4"
+"REG4" -> "REG3A"
+"REG4" -> "REG1A"
+"REG4" -> "ITLN2"
+"REG4" -> "ZG16"
+"SPACA3" -> "REG4"
+"SPACA3" -> "THSD8"
+"SPACA3" -> "ZG16"
+"SPACA3" -> "ZG16B"
+"THSD8" -> "ALKAL2"
+"THSD8" -> "SPACA3"
+"THSD8" -> "REG4"
+"THSD8" -> "ZG16B"
+"ZG16" -> "ZG16B"
+"ZG16" -> "REG4"
+"ZG16" -> "ITLN1"
+"ZG16" -> "ITLN2"
+"ZG16B" -> "ZG16"
+"ZG16B" -> "REG4"
+"ZG16B" -> "SPACA3"
+"ZG16B" -> "REG3A"
+}

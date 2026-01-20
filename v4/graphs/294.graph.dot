@@ -1,0 +1,202 @@
+digraph G {
+"ACYP2" ["l"="12.494,2.650"]
+"ATPAF2" ["l"="12.668,2.369"]
+"BOLA1" ["l"="12.464,2.850"]
+"C6orf136" ["l"="12.580,2.656"]
+"CCDC51" ["l"="12.647,2.574"]
+"COMTD1" ["l"="12.671,2.555"]
+"COQ3" ["l"="12.647,2.562"]
+"DIABLO" ["l"="12.737,2.543"]
+"DMAC2" ["l"="12.714,2.626"]
+"DMAC2L" ["l"="12.586,2.706"]
+"DNPH1" ["l"="12.697,2.507"]
+"DUSP23" ["l"="12.453,2.639"]
+"HDDC2" ["l"="12.637,2.361"]
+"HDDC3" ["l"="12.661,2.404"]
+"HTD2" ["l"="12.698,2.577"]
+"MCU" ["l"="12.720,2.426"]
+"MMAA" ["l"="12.831,2.467"]
+"MMAB" ["l"="12.723,2.585"]
+"MRPL38" ["l"="12.727,2.482"]
+"MRS2" ["l"="12.749,2.476"]
+"MTX1" ["l"="12.659,2.410"]
+"NDUFA10" ["l"="12.798,2.481"]
+"NDUFAF1" ["l"="12.727,2.639"]
+"NDUFAF5" ["l"="12.628,2.417"]
+"NME3" ["l"="12.588,2.693"]
+"NTHL1" ["l"="12.619,2.611"]
+"NUDT6" ["l"="12.716,2.605"]
+"NUDT8" ["l"="12.589,2.681"]
+"NUDT9" ["l"="12.563,2.491"]
+"OMA1" ["l"="12.639,2.524"]
+"OXNAD1" ["l"="12.680,2.502"]
+"PDF" ["l"="12.532,2.699"]
+"PPIL1" ["l"="12.795,2.481"]
+"PTRH2" ["l"="12.591,2.443"]
+"PTS" ["l"="12.555,2.589"]
+"RMND1" ["l"="12.796,2.430"]
+"STARD7" ["l"="12.562,2.654"]
+"TIMM50" ["l"="12.726,2.505"]
+"TK2" ["l"="12.661,2.410"]
+"YBEY" ["l"="12.613,2.690"]
+"ACYP2" -> "NUDT6"
+"ACYP2" -> "DMAC2L"
+"ACYP2" -> "HTD2"
+"ACYP2" -> "DMAC2"
+"ATPAF2" -> "MMAB"
+"ATPAF2" -> "TK2"
+"ATPAF2" -> "NUDT6"
+"ATPAF2" -> "NDUFAF5"
+"BOLA1" -> "HDDC3"
+"BOLA1" -> "MMAB"
+"BOLA1" -> "PDF"
+"BOLA1" -> "NUDT8"
+"C6orf136" -> "MCU"
+"C6orf136" -> "DMAC2"
+"C6orf136" -> "HTD2"
+"C6orf136" -> "DMAC2L"
+"CCDC51" -> "DMAC2"
+"CCDC51" -> "MMAA"
+"CCDC51" -> "MCU"
+"CCDC51" -> "TIMM50"
+"COMTD1" -> "NUDT8"
+"COMTD1" -> "PDF"
+"COMTD1" -> "DUSP23"
+"COMTD1" -> "TIMM50"
+"COQ3" -> "NUDT6"
+"COQ3" -> "MMAA"
+"COQ3" -> "NDUFAF5"
+"COQ3" -> "MRS2"
+"DIABLO" -> "HTD2"
+"DIABLO" -> "TIMM50"
+"DIABLO" -> "MMAA"
+"DIABLO" -> "MCU"
+"DMAC2" -> "DMAC2L"
+"DMAC2" -> "TIMM50"
+"DMAC2" -> "NDUFAF5"
+"DMAC2" -> "COQ3"
+"DMAC2L" -> "DMAC2"
+"DMAC2L" -> "HTD2"
+"DMAC2L" -> "NDUFAF5"
+"DMAC2L" -> "NUDT6"
+"DNPH1" -> "NME3"
+"DNPH1" -> "DUSP23"
+"DNPH1" -> "BOLA1"
+"DNPH1" -> "HDDC2"
+"DUSP23" -> "COMTD1"
+"DUSP23" -> "HDDC3"
+"DUSP23" -> "NUDT8"
+"DUSP23" -> "BOLA1"
+"HDDC2" -> "HDDC3"
+"HDDC2" -> "MMAB"
+"HDDC2" -> "NDUFAF5"
+"HDDC2" -> "PTS"
+"HDDC3" -> "BOLA1"
+"HDDC3" -> "HDDC2"
+"HDDC3" -> "DUSP23"
+"HDDC3" -> "MMAB"
+"HTD2" -> "MMAA"
+"HTD2" -> "DMAC2L"
+"HTD2" -> "PDF"
+"HTD2" -> "OXNAD1"
+"MCU" -> "MMAA"
+"MCU" -> "TIMM50"
+"MCU" -> "DMAC2L"
+"MCU" -> "HTD2"
+"MMAA" -> "MCU"
+"MMAA" -> "HTD2"
+"MMAA" -> "NDUFAF5"
+"MMAA" -> "COQ3"
+"MMAB" -> "TK2"
+"MMAB" -> "PDF"
+"MMAB" -> "NDUFAF5"
+"MMAB" -> "ATPAF2"
+"MRPL38" -> "TIMM50"
+"MRPL38" -> "PDF"
+"MRPL38" -> "C6orf136"
+"MRPL38" -> "DMAC2"
+"MRS2" -> "NDUFAF5"
+"MRS2" -> "NUDT6"
+"MRS2" -> "RMND1"
+"MRS2" -> "TK2"
+"MTX1" -> "TIMM50"
+"MTX1" -> "C6orf136"
+"MTX1" -> "MCU"
+"MTX1" -> "NDUFA10"
+"NDUFA10" -> "TK2"
+"NDUFA10" -> "TIMM50"
+"NDUFA10" -> "NDUFAF5"
+"NDUFA10" -> "MRS2"
+"NDUFAF1" -> "NUDT6"
+"NDUFAF1" -> "NUDT9"
+"NDUFAF1" -> "DMAC2"
+"NDUFAF1" -> "COQ3"
+"NDUFAF5" -> "TK2"
+"NDUFAF5" -> "MRS2"
+"NDUFAF5" -> "NUDT6"
+"NDUFAF5" -> "MMAA"
+"NME3" -> "DNPH1"
+"NME3" -> "NUDT8"
+"NME3" -> "DUSP23"
+"NME3" -> "BOLA1"
+"NTHL1" -> "NUDT8"
+"NTHL1" -> "COMTD1"
+"NTHL1" -> "DMAC2"
+"NTHL1" -> "HDDC3"
+"NUDT6" -> "COQ3"
+"NUDT6" -> "NDUFAF5"
+"NUDT6" -> "MRS2"
+"NUDT6" -> "DMAC2L"
+"NUDT8" -> "PDF"
+"NUDT8" -> "COMTD1"
+"NUDT8" -> "BOLA1"
+"NUDT8" -> "DUSP23"
+"NUDT9" -> "NUDT6"
+"NUDT9" -> "NDUFAF1"
+"NUDT9" -> "NDUFAF5"
+"NUDT9" -> "COQ3"
+"OMA1" -> "MMAA"
+"OMA1" -> "COQ3"
+"OMA1" -> "MCU"
+"OMA1" -> "HTD2"
+"OXNAD1" -> "HTD2"
+"OXNAD1" -> "MMAA"
+"OXNAD1" -> "COQ3"
+"OXNAD1" -> "NDUFAF5"
+"PDF" -> "NUDT8"
+"PDF" -> "MMAB"
+"PDF" -> "COMTD1"
+"PDF" -> "HTD2"
+"PPIL1" -> "DMAC2"
+"PPIL1" -> "PDF"
+"PPIL1" -> "HTD2"
+"PPIL1" -> "MMAB"
+"PTRH2" -> "MMAA"
+"PTRH2" -> "TIMM50"
+"PTRH2" -> "PDF"
+"PTRH2" -> "NUDT6"
+"PTS" -> "TK2"
+"PTS" -> "NDUFAF5"
+"PTS" -> "HTD2"
+"PTS" -> "HDDC2"
+"RMND1" -> "MRS2"
+"RMND1" -> "NUDT6"
+"RMND1" -> "ATPAF2"
+"RMND1" -> "COQ3"
+"STARD7" -> "NDUFAF5"
+"STARD7" -> "MMAB"
+"STARD7" -> "PDF"
+"STARD7" -> "NDUFA10"
+"TIMM50" -> "DMAC2"
+"TIMM50" -> "NDUFA10"
+"TIMM50" -> "TK2"
+"TIMM50" -> "MCU"
+"TK2" -> "NDUFAF5"
+"TK2" -> "NDUFA10"
+"TK2" -> "TIMM50"
+"TK2" -> "MMAB"
+"YBEY" -> "PTS"
+"YBEY" -> "DUSP23"
+"YBEY" -> "NUDT8"
+"YBEY" -> "HDDC3"
+}

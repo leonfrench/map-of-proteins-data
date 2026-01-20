@@ -1,0 +1,252 @@
+digraph G {
+"C11orf24" ["l"="9.162,5.507"]
+"C1orf54" ["l"="9.488,5.511"]
+"CD164" ["l"="9.261,5.588"]
+"CD34" ["l"="9.248,5.563"]
+"CD44" ["l"="9.438,5.357"]
+"CD68" ["l"="9.210,5.621"]
+"CSF1" ["l"="9.312,5.268"]
+"CX3CL1" ["l"="9.312,5.172"]
+"CXCL16" ["l"="9.340,5.715"]
+"DAG1" ["l"="9.209,5.543"]
+"DYNAP" ["l"="9.330,5.517"]
+"ECSCR" ["l"="9.404,5.524"]
+"EMCN" ["l"="9.263,5.570"]
+"EQTN" ["l"="9.304,5.605"]
+"EVI2A" ["l"="9.366,5.604"]
+"EVI2B" ["l"="9.254,5.511"]
+"FCAMR" ["l"="9.251,5.153"]
+"FXYD5" ["l"="9.367,5.623"]
+"GYPA" ["l"="9.346,5.582"]
+"GYPB" ["l"="9.386,5.581"]
+"GYPE" ["l"="9.294,5.578"]
+"HEG1" ["l"="9.168,5.429"]
+"HHLA1" ["l"="9.222,5.276"]
+"IQCF6" ["l"="9.350,4.977"]
+"LAMP3" ["l"="9.245,5.583"]
+"LYVE1" ["l"="9.290,5.639"]
+"MANSC1" ["l"="9.209,5.511"]
+"MANSC4" ["l"="9.291,5.552"]
+"MUC1" ["l"="9.273,5.620"]
+"MUC13" ["l"="9.234,5.560"]
+"MUC15" ["l"="9.287,5.545"]
+"MUC20" ["l"="9.144,5.495"]
+"MUC21" ["l"="9.145,5.510"]
+"MUC22" ["l"="9.135,5.506"]
+"MUC3A" ["l"="9.133,5.466"]
+"MUCL3" ["l"="9.080,5.416"]
+"PARM1" ["l"="9.261,5.572"]
+"PDPN" ["l"="9.401,5.560"]
+"PMEL" ["l"="9.254,5.219"]
+"PODXL" ["l"="9.241,5.537"]
+"PRG4" ["l"="9.088,5.378"]
+"SDC1" ["l"="9.370,5.549"]
+"SDC2" ["l"="9.710,5.593"]
+"SDC3" ["l"="9.251,5.562"]
+"SDC4" ["l"="9.686,5.578"]
+"SELPLG" ["l"="9.171,5.485"]
+"SNORC" ["l"="9.597,5.547"]
+"SPN" ["l"="9.228,5.585"]
+"TMEM108" ["l"="9.201,5.451"]
+"TMEM123" ["l"="9.278,5.597"]
+"C11orf24" -> "PARM1"
+"C11orf24" -> "PODXL"
+"C11orf24" -> "MUC20"
+"C11orf24" -> "MUCL3"
+"C1orf54" -> "GYPA"
+"C1orf54" -> "SNORC"
+"C1orf54" -> "EQTN"
+"C1orf54" -> "GYPB"
+"CD164" -> "TMEM123"
+"CD164" -> "PARM1"
+"CD164" -> "CD34"
+"CD164" -> "MUC13"
+"CD34" -> "PODXL"
+"CD34" -> "EMCN"
+"CD34" -> "LAMP3"
+"CD34" -> "MUC13"
+"CD44" -> "CSF1"
+"CD44" -> "PARM1"
+"CD44" -> "HHLA1"
+"CD44" -> "SDC1"
+"CD68" -> "LAMP3"
+"CD68" -> "SELPLG"
+"CD68" -> "CD34"
+"CD68" -> "CXCL16"
+"CSF1" -> "CX3CL1"
+"CSF1" -> "CXCL16"
+"CSF1" -> "PODXL"
+"CSF1" -> "HHLA1"
+"CX3CL1" -> "CSF1"
+"CX3CL1" -> "FCAMR"
+"CX3CL1" -> "SDC1"
+"CX3CL1" -> "CXCL16"
+"CXCL16" -> "CSF1"
+"CXCL16" -> "FXYD5"
+"CXCL16" -> "CX3CL1"
+"CXCL16" -> "SDC1"
+"DAG1" -> "PODXL"
+"DAG1" -> "SDC3"
+"DAG1" -> "MANSC1"
+"DAG1" -> "LAMP3"
+"DYNAP" -> "PARM1"
+"DYNAP" -> "PODXL"
+"DYNAP" -> "CD34"
+"DYNAP" -> "EQTN"
+"ECSCR" -> "EMCN"
+"ECSCR" -> "CD34"
+"ECSCR" -> "PDPN"
+"ECSCR" -> "FXYD5"
+"EMCN" -> "CD34"
+"EMCN" -> "PODXL"
+"EMCN" -> "PARM1"
+"EMCN" -> "GYPA"
+"EQTN" -> "MUC15"
+"EQTN" -> "MANSC4"
+"EQTN" -> "EVI2A"
+"EQTN" -> "GYPA"
+"EVI2A" -> "MUC15"
+"EVI2A" -> "EQTN"
+"EVI2A" -> "GYPA"
+"EVI2A" -> "EMCN"
+"EVI2B" -> "EVI2A"
+"EVI2B" -> "MUC15"
+"EVI2B" -> "MANSC1"
+"EVI2B" -> "EQTN"
+"FCAMR" -> "PMEL"
+"FCAMR" -> "HHLA1"
+"FCAMR" -> "CX3CL1"
+"FCAMR" -> "CSF1"
+"FXYD5" -> "CXCL16"
+"FXYD5" -> "TMEM123"
+"FXYD5" -> "ECSCR"
+"FXYD5" -> "SNORC"
+"GYPA" -> "GYPB"
+"GYPA" -> "GYPE"
+"GYPA" -> "EMCN"
+"GYPA" -> "LYVE1"
+"GYPB" -> "GYPE"
+"GYPB" -> "GYPA"
+"GYPB" -> "SNORC"
+"GYPB" -> "PDPN"
+"GYPE" -> "GYPB"
+"GYPE" -> "GYPA"
+"GYPE" -> "MANSC4"
+"GYPE" -> "PDPN"
+"HEG1" -> "PODXL"
+"HEG1" -> "PARM1"
+"HEG1" -> "CD34"
+"HEG1" -> "MUC13"
+"HHLA1" -> "MANSC1"
+"HHLA1" -> "MANSC4"
+"HHLA1" -> "PMEL"
+"HHLA1" -> "CD34"
+"IQCF6" -> "GYPE"
+"IQCF6" -> "FCAMR"
+"IQCF6" -> "HHLA1"
+"IQCF6" -> "DYNAP"
+"LAMP3" -> "PODXL"
+"LAMP3" -> "MUC13"
+"LAMP3" -> "PARM1"
+"LAMP3" -> "TMEM123"
+"LYVE1" -> "GYPA"
+"LYVE1" -> "CD34"
+"LYVE1" -> "EMCN"
+"LYVE1" -> "MUC15"
+"MANSC1" -> "MUC15"
+"MANSC1" -> "HHLA1"
+"MANSC1" -> "LAMP3"
+"MANSC1" -> "PODXL"
+"MANSC4" -> "HHLA1"
+"MANSC4" -> "EQTN"
+"MANSC4" -> "MANSC1"
+"MANSC4" -> "MUC15"
+"MUC1" -> "SELPLG"
+"MUC1" -> "MUC13"
+"MUC1" -> "MUC21"
+"MUC1" -> "MUC20"
+"MUC13" -> "PODXL"
+"MUC13" -> "LAMP3"
+"MUC13" -> "CD34"
+"MUC13" -> "PARM1"
+"MUC15" -> "EQTN"
+"MUC15" -> "TMEM123"
+"MUC15" -> "MANSC1"
+"MUC15" -> "EVI2A"
+"MUC20" -> "C11orf24"
+"MUC20" -> "MUCL3"
+"MUC20" -> "SELPLG"
+"MUC20" -> "MANSC1"
+"MUC21" -> "CD68"
+"MUC21" -> "MUC20"
+"MUC21" -> "C11orf24"
+"MUC21" -> "LAMP3"
+"MUC22" -> "MUC3A"
+"MUC22" -> "MUC20"
+"MUC22" -> "MUC21"
+"MUC22" -> "C11orf24"
+"MUC3A" -> "MUC21"
+"MUC3A" -> "MUC20"
+"MUC3A" -> "MUC22"
+"MUC3A" -> "C11orf24"
+"MUCL3" -> "C11orf24"
+"MUCL3" -> "HHLA1"
+"MUCL3" -> "PRG4"
+"MUCL3" -> "MUC20"
+"PARM1" -> "PODXL"
+"PARM1" -> "EMCN"
+"PARM1" -> "LAMP3"
+"PARM1" -> "TMEM123"
+"PDPN" -> "PARM1"
+"PDPN" -> "PODXL"
+"PDPN" -> "SNORC"
+"PDPN" -> "SDC2"
+"PMEL" -> "FCAMR"
+"PMEL" -> "HHLA1"
+"PMEL" -> "MANSC1"
+"PMEL" -> "CD68"
+"PODXL" -> "CD34"
+"PODXL" -> "HEG1"
+"PODXL" -> "PARM1"
+"PODXL" -> "MUC13"
+"PRG4" -> "MUCL3"
+"PRG4" -> "MANSC1"
+"PRG4" -> "C11orf24"
+"PRG4" -> "SELPLG"
+"SDC1" -> "SDC3"
+"SDC1" -> "SDC4"
+"SDC1" -> "LAMP3"
+"SDC1" -> "CD34"
+"SDC2" -> "SDC4"
+"SDC2" -> "PDPN"
+"SDC2" -> "SDC1"
+"SDC2" -> "SNORC"
+"SDC3" -> "PARM1"
+"SDC3" -> "SDC1"
+"SDC3" -> "PODXL"
+"SDC3" -> "LAMP3"
+"SDC4" -> "SDC2"
+"SDC4" -> "SDC1"
+"SDC4" -> "SNORC"
+"SDC4" -> "SDC3"
+"SELPLG" -> "SPN"
+"SELPLG" -> "MANSC1"
+"SELPLG" -> "CD68"
+"SELPLG" -> "C11orf24"
+"SNORC" -> "SDC4"
+"SNORC" -> "PDPN"
+"SNORC" -> "SDC1"
+"SNORC" -> "GYPA"
+"SPN" -> "SELPLG"
+"SPN" -> "PODXL"
+"SPN" -> "SDC3"
+"SPN" -> "PARM1"
+"TMEM108" -> "PODXL"
+"TMEM108" -> "C11orf24"
+"TMEM108" -> "PARM1"
+"TMEM108" -> "HHLA1"
+"TMEM123" -> "CD164"
+"TMEM123" -> "MUC15"
+"TMEM123" -> "PARM1"
+"TMEM123" -> "LAMP3"
+}

@@ -1,0 +1,287 @@
+digraph G {
+"ACBD5" ["l"="10.131,1.775"]
+"CBFB" ["l"="10.096,1.762"]
+"CC2D1A" ["l"="10.069,1.688"]
+"CDYL2" ["l"="10.013,1.662"]
+"CRK" ["l"="10.102,1.802"]
+"DNA2" ["l"="10.271,1.716"]
+"DNAAF3" ["l"="10.086,1.759"]
+"EEPD1" ["l"="10.096,1.728"]
+"FAM83A" ["l"="10.021,1.696"]
+"FAM83E" ["l"="10.239,1.737"]
+"FLCN" ["l"="9.930,1.615"]
+"KAT2B" ["l"="10.014,1.565"]
+"KAT5" ["l"="10.180,1.852"]
+"KAT7" ["l"="10.163,1.801"]
+"LIN7C" ["l"="10.288,1.733"]
+"LNX1" ["l"="9.956,1.588"]
+"LNX2" ["l"="9.955,1.673"]
+"MEN1" ["l"="10.054,1.679"]
+"MVB12A" ["l"="10.069,1.617"]
+"MYLIP" ["l"="10.205,1.761"]
+"NCK1" ["l"="9.932,1.572"]
+"NEIL1" ["l"="10.256,1.657"]
+"NOXO1" ["l"="10.067,1.825"]
+"ORC2" ["l"="10.179,1.719"]
+"PARD6B" ["l"="10.144,1.882"]
+"PARD6G" ["l"="10.136,1.865"]
+"PDZK1" ["l"="10.190,1.751"]
+"PLEKHA8" ["l"="10.122,1.603"]
+"PLEKHF1" ["l"="10.209,1.847"]
+"PTCD1" ["l"="10.120,1.590"]
+"RBPJ" ["l"="10.092,1.606"]
+"RFTN1" ["l"="10.110,1.648"]
+"RFTN2" ["l"="10.087,1.557"]
+"RHOBTB1" ["l"="10.094,1.704"]
+"RHOBTB2" ["l"="10.187,1.726"]
+"SDCBP" ["l"="10.176,1.627"]
+"SDCBP2" ["l"="10.088,1.591"]
+"SLA2" ["l"="10.032,1.536"]
+"SLC9A3R1" ["l"="10.204,1.825"]
+"SLC9A3R2" ["l"="10.135,1.937"]
+"SMPD3" ["l"="10.128,1.798"]
+"SNTA1" ["l"="10.066,1.760"]
+"SNTB2" ["l"="10.172,1.900"]
+"SNX10" ["l"="10.056,1.617"]
+"SNX24" ["l"="10.236,1.757"]
+"SYNJ2BP" ["l"="10.289,1.621"]
+"TAX1BP3" ["l"="10.136,1.705"]
+"TTLL9" ["l"="9.942,1.719"]
+"TUB" ["l"="10.200,1.752"]
+"TULP1" ["l"="10.140,1.773"]
+"TULP2" ["l"="10.098,1.714"]
+"TULP3" ["l"="10.088,1.671"]
+"USP19" ["l"="9.998,1.605"]
+"USP38" ["l"="10.152,1.614"]
+"USP44" ["l"="10.132,1.857"]
+"USP45" ["l"="10.106,1.654"]
+"ZFYVE21" ["l"="10.070,1.648"]
+"ACBD5" -> "PLEKHA8"
+"ACBD5" -> "CDYL2"
+"ACBD5" -> "FLCN"
+"ACBD5" -> "RFTN2"
+"CBFB" -> "RBPJ"
+"CBFB" -> "NCK1"
+"CBFB" -> "RFTN2"
+"CBFB" -> "TULP3"
+"CC2D1A" -> "FAM83E"
+"CC2D1A" -> "MEN1"
+"CC2D1A" -> "TULP3"
+"CC2D1A" -> "USP19"
+"CDYL2" -> "PLEKHA8"
+"CDYL2" -> "FLCN"
+"CDYL2" -> "PTCD1"
+"CDYL2" -> "KAT7"
+"CRK" -> "NCK1"
+"CRK" -> "PARD6G"
+"CRK" -> "SLC9A3R1"
+"CRK" -> "SLC9A3R2"
+"DNA2" -> "USP45"
+"DNA2" -> "CDYL2"
+"DNA2" -> "KAT2B"
+"DNA2" -> "PTCD1"
+"DNAAF3" -> "FAM83E"
+"DNAAF3" -> "MEN1"
+"DNAAF3" -> "NOXO1"
+"DNAAF3" -> "NEIL1"
+"EEPD1" -> "CDYL2"
+"EEPD1" -> "FAM83A"
+"EEPD1" -> "FAM83E"
+"EEPD1" -> "SNTB2"
+"FAM83A" -> "FAM83E"
+"FAM83A" -> "EEPD1"
+"FAM83A" -> "CDYL2"
+"FAM83A" -> "RFTN2"
+"FAM83E" -> "NOXO1"
+"FAM83E" -> "FAM83A"
+"FAM83E" -> "RFTN2"
+"FAM83E" -> "DNAAF3"
+"FLCN" -> "CDYL2"
+"FLCN" -> "PLEKHA8"
+"FLCN" -> "RFTN2"
+"FLCN" -> "TULP3"
+"KAT2B" -> "CDYL2"
+"KAT2B" -> "RFTN2"
+"KAT2B" -> "PLEKHA8"
+"KAT2B" -> "KAT7"
+"KAT5" -> "KAT7"
+"KAT5" -> "KAT2B"
+"KAT5" -> "TULP3"
+"KAT5" -> "TULP2"
+"KAT7" -> "CDYL2"
+"KAT7" -> "TULP3"
+"KAT7" -> "TUB"
+"KAT7" -> "KAT2B"
+"LIN7C" -> "SYNJ2BP"
+"LIN7C" -> "TAX1BP3"
+"LIN7C" -> "PARD6B"
+"LIN7C" -> "NCK1"
+"LNX1" -> "LNX2"
+"LNX1" -> "SDCBP2"
+"LNX1" -> "PARD6B"
+"LNX1" -> "SLC9A3R2"
+"LNX2" -> "LNX1"
+"LNX2" -> "PARD6B"
+"LNX2" -> "PARD6G"
+"LNX2" -> "SDCBP2"
+"MEN1" -> "DNAAF3"
+"MEN1" -> "FAM83E"
+"MEN1" -> "NEIL1"
+"MEN1" -> "PTCD1"
+"MVB12A" -> "RFTN2"
+"MVB12A" -> "TULP3"
+"MVB12A" -> "EEPD1"
+"MVB12A" -> "FAM83E"
+"MYLIP" -> "PLEKHF1"
+"MYLIP" -> "ZFYVE21"
+"MYLIP" -> "PLEKHA8"
+"MYLIP" -> "USP44"
+"NCK1" -> "CRK"
+"NCK1" -> "RBPJ"
+"NCK1" -> "PLEKHA8"
+"NCK1" -> "CBFB"
+"NEIL1" -> "NOXO1"
+"NEIL1" -> "FAM83E"
+"NEIL1" -> "MEN1"
+"NEIL1" -> "DNAAF3"
+"NOXO1" -> "FAM83E"
+"NOXO1" -> "NEIL1"
+"NOXO1" -> "SLA2"
+"NOXO1" -> "SNTA1"
+"ORC2" -> "CDYL2"
+"ORC2" -> "RFTN2"
+"ORC2" -> "KAT7"
+"ORC2" -> "KAT2B"
+"PARD6B" -> "PARD6G"
+"PARD6B" -> "LNX2"
+"PARD6B" -> "LNX1"
+"PARD6B" -> "CRK"
+"PARD6G" -> "PARD6B"
+"PARD6G" -> "SLC9A3R2"
+"PARD6G" -> "LNX1"
+"PARD6G" -> "TAX1BP3"
+"PDZK1" -> "SLC9A3R1"
+"PDZK1" -> "NCK1"
+"PDZK1" -> "LNX1"
+"PDZK1" -> "SDCBP2"
+"PLEKHA8" -> "CDYL2"
+"PLEKHA8" -> "SNX24"
+"PLEKHA8" -> "FLCN"
+"PLEKHA8" -> "RFTN2"
+"PLEKHF1" -> "ZFYVE21"
+"PLEKHF1" -> "MYLIP"
+"PLEKHF1" -> "PARD6G"
+"PLEKHF1" -> "RFTN2"
+"PTCD1" -> "CDYL2"
+"PTCD1" -> "TUB"
+"PTCD1" -> "FLCN"
+"PTCD1" -> "PLEKHA8"
+"RBPJ" -> "CBFB"
+"RBPJ" -> "RFTN2"
+"RBPJ" -> "NCK1"
+"RBPJ" -> "KAT2B"
+"RFTN1" -> "RFTN2"
+"RFTN1" -> "CDYL2"
+"RFTN1" -> "FLCN"
+"RFTN1" -> "LNX1"
+"RFTN2" -> "TULP3"
+"RFTN2" -> "CDYL2"
+"RFTN2" -> "PLEKHA8"
+"RFTN2" -> "RBPJ"
+"RHOBTB1" -> "RHOBTB2"
+"RHOBTB1" -> "PLEKHA8"
+"RHOBTB1" -> "USP44"
+"RHOBTB1" -> "RFTN2"
+"RHOBTB2" -> "RHOBTB1"
+"RHOBTB2" -> "CDYL2"
+"RHOBTB2" -> "PLEKHA8"
+"RHOBTB2" -> "SNX24"
+"SDCBP" -> "SDCBP2"
+"SDCBP" -> "NCK1"
+"SDCBP" -> "TAX1BP3"
+"SDCBP" -> "PARD6B"
+"SDCBP2" -> "SDCBP"
+"SDCBP2" -> "LNX1"
+"SDCBP2" -> "SLC9A3R2"
+"SDCBP2" -> "TAX1BP3"
+"SLA2" -> "NCK1"
+"SLA2" -> "CDYL2"
+"SLA2" -> "SNTA1"
+"SLA2" -> "SNX24"
+"SLC9A3R1" -> "SLC9A3R2"
+"SLC9A3R1" -> "PDZK1"
+"SLC9A3R1" -> "CRK"
+"SLC9A3R1" -> "SDCBP2"
+"SLC9A3R2" -> "SLC9A3R1"
+"SLC9A3R2" -> "PARD6G"
+"SLC9A3R2" -> "SDCBP2"
+"SLC9A3R2" -> "LNX1"
+"SMPD3" -> "CDYL2"
+"SMPD3" -> "RFTN1"
+"SMPD3" -> "EEPD1"
+"SMPD3" -> "FLCN"
+"SNTA1" -> "SNTB2"
+"SNTA1" -> "TUB"
+"SNTA1" -> "SLA2"
+"SNTA1" -> "FAM83E"
+"SNTB2" -> "SNTA1"
+"SNTB2" -> "CDYL2"
+"SNTB2" -> "KAT2B"
+"SNTB2" -> "EEPD1"
+"SNX10" -> "PLEKHA8"
+"SNX10" -> "SNX24"
+"SNX10" -> "NCK1"
+"SNX10" -> "SLA2"
+"SNX24" -> "PLEKHA8"
+"SNX24" -> "SNX10"
+"SNX24" -> "NCK1"
+"SNX24" -> "ZFYVE21"
+"SYNJ2BP" -> "LIN7C"
+"SYNJ2BP" -> "TAX1BP3"
+"SYNJ2BP" -> "PARD6B"
+"SYNJ2BP" -> "LNX2"
+"TAX1BP3" -> "SDCBP2"
+"TAX1BP3" -> "PARD6G"
+"TAX1BP3" -> "SLC9A3R2"
+"TAX1BP3" -> "PARD6B"
+"TTLL9" -> "FAM83E"
+"TTLL9" -> "CBFB"
+"TTLL9" -> "TUB"
+"TTLL9" -> "SNX24"
+"TUB" -> "TULP3"
+"TUB" -> "TULP2"
+"TUB" -> "KAT7"
+"TUB" -> "CDYL2"
+"TULP1" -> "TUB"
+"TULP1" -> "TULP3"
+"TULP1" -> "KAT5"
+"TULP1" -> "TULP2"
+"TULP2" -> "TULP3"
+"TULP2" -> "TUB"
+"TULP2" -> "KAT5"
+"TULP2" -> "PTCD1"
+"TULP3" -> "TUB"
+"TULP3" -> "TULP2"
+"TULP3" -> "RFTN2"
+"TULP3" -> "KAT7"
+"USP19" -> "PTCD1"
+"USP19" -> "FLCN"
+"USP19" -> "RHOBTB1"
+"USP19" -> "USP38"
+"USP38" -> "USP44"
+"USP38" -> "CDYL2"
+"USP38" -> "PLEKHA8"
+"USP38" -> "PTCD1"
+"USP44" -> "USP45"
+"USP44" -> "RHOBTB1"
+"USP44" -> "USP38"
+"USP44" -> "CDYL2"
+"USP45" -> "USP44"
+"USP45" -> "PLEKHA8"
+"USP45" -> "CDYL2"
+"USP45" -> "FLCN"
+"ZFYVE21" -> "PLEKHF1"
+"ZFYVE21" -> "SNX24"
+"ZFYVE21" -> "MYLIP"
+"ZFYVE21" -> "SNTA1"
+}

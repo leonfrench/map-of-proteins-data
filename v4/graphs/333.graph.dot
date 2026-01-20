@@ -1,0 +1,77 @@
+digraph G {
+"ANKS1B" ["l"="9.047,1.138"]
+"APBB2" ["l"="9.028,1.209"]
+"ARHGAP33" ["l"="9.023,1.187"]
+"ARVCF" ["l"="9.080,1.166"]
+"CARMIL2" ["l"="9.077,1.121"]
+"CARMIL3" ["l"="9.084,1.163"]
+"CC2D2B" ["l"="9.059,1.118"]
+"GIT2" ["l"="9.063,1.044"]
+"GRIP2" ["l"="9.079,1.178"]
+"MLPH" ["l"="9.102,1.201"]
+"MYRIP" ["l"="9.058,1.174"]
+"RALGDS" ["l"="9.077,1.168"]
+"RGS12" ["l"="9.134,1.195"]
+"RIPOR2" ["l"="9.045,1.224"]
+"TSC1" ["l"="9.061,1.156"]
+"ANKS1B" -> "APBB2"
+"ANKS1B" -> "GIT2"
+"ANKS1B" -> "MYRIP"
+"ANKS1B" -> "MLPH"
+"APBB2" -> "ANKS1B"
+"APBB2" -> "GIT2"
+"APBB2" -> "RGS12"
+"APBB2" -> "MYRIP"
+"ARHGAP33" -> "CARMIL2"
+"ARHGAP33" -> "CARMIL3"
+"ARHGAP33" -> "RALGDS"
+"ARHGAP33" -> "ARVCF"
+"ARVCF" -> "GIT2"
+"ARVCF" -> "GRIP2"
+"ARVCF" -> "APBB2"
+"ARVCF" -> "CARMIL2"
+"CARMIL2" -> "CARMIL3"
+"CARMIL2" -> "ARHGAP33"
+"CARMIL2" -> "GIT2"
+"CARMIL2" -> "RALGDS"
+"CARMIL3" -> "CARMIL2"
+"CARMIL3" -> "ARHGAP33"
+"CARMIL3" -> "ARVCF"
+"CARMIL3" -> "RALGDS"
+"CC2D2B" -> "RIPOR2"
+"CC2D2B" -> "APBB2"
+"CC2D2B" -> "GRIP2"
+"CC2D2B" -> "MLPH"
+"GIT2" -> "MYRIP"
+"GIT2" -> "MLPH"
+"GIT2" -> "RIPOR2"
+"GIT2" -> "TSC1"
+"GRIP2" -> "MYRIP"
+"GRIP2" -> "GIT2"
+"GRIP2" -> "MLPH"
+"GRIP2" -> "RGS12"
+"MLPH" -> "MYRIP"
+"MLPH" -> "GIT2"
+"MLPH" -> "RIPOR2"
+"MLPH" -> "RGS12"
+"MYRIP" -> "MLPH"
+"MYRIP" -> "GIT2"
+"MYRIP" -> "RIPOR2"
+"MYRIP" -> "GRIP2"
+"RALGDS" -> "RIPOR2"
+"RALGDS" -> "GIT2"
+"RALGDS" -> "CARMIL2"
+"RALGDS" -> "TSC1"
+"RGS12" -> "RIPOR2"
+"RGS12" -> "MLPH"
+"RGS12" -> "APBB2"
+"RGS12" -> "GIT2"
+"RIPOR2" -> "MYRIP"
+"RIPOR2" -> "MLPH"
+"RIPOR2" -> "GIT2"
+"RIPOR2" -> "RGS12"
+"TSC1" -> "GIT2"
+"TSC1" -> "MLPH"
+"TSC1" -> "RIPOR2"
+"TSC1" -> "RALGDS"
+}

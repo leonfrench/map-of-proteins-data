@@ -1,0 +1,232 @@
+digraph G {
+"ADGRB1" ["l"="11.450,-2.388"]
+"ADGRB2" ["l"="11.464,-2.470"]
+"ADGRB3" ["l"="11.547,-2.312"]
+"ADGRL1" ["l"="11.453,-2.404"]
+"ADGRL2" ["l"="11.484,-2.399"]
+"CNNM3" ["l"="11.230,-2.125"]
+"FZD1" ["l"="11.715,-2.525"]
+"FZD10" ["l"="11.736,-2.533"]
+"FZD2" ["l"="11.754,-2.509"]
+"FZD4" ["l"="11.700,-2.508"]
+"FZD5" ["l"="11.760,-2.527"]
+"FZD6" ["l"="11.442,-2.474"]
+"FZD7" ["l"="11.740,-2.520"]
+"FZD8" ["l"="11.755,-2.515"]
+"FZD9" ["l"="11.625,-2.564"]
+"GABBR1" ["l"="11.466,-2.448"]
+"GABBR2" ["l"="11.457,-2.394"]
+"GRIA1" ["l"="11.507,-2.345"]
+"GRIA2" ["l"="11.569,-2.330"]
+"GRIA4" ["l"="11.538,-2.344"]
+"GRID1" ["l"="11.521,-2.333"]
+"GRID2" ["l"="11.533,-2.327"]
+"GRIK1" ["l"="11.552,-2.351"]
+"GRIK2" ["l"="11.546,-2.344"]
+"GRIK3" ["l"="11.519,-2.367"]
+"GRIK4" ["l"="11.516,-2.345"]
+"GRIK5" ["l"="11.500,-2.394"]
+"GRIN1" ["l"="11.513,-2.368"]
+"GRIN2C" ["l"="11.445,-2.375"]
+"GRIN2D" ["l"="11.461,-2.378"]
+"GRIN3A" ["l"="11.532,-2.371"]
+"GRIN3B" ["l"="11.356,-2.281"]
+"GRM1" ["l"="11.423,-2.380"]
+"GRM2" ["l"="11.340,-2.587"]
+"GRM3" ["l"="11.390,-2.496"]
+"GRM4" ["l"="11.393,-2.494"]
+"GRM5" ["l"="11.363,-2.415"]
+"GRM6" ["l"="11.397,-2.470"]
+"GRM7" ["l"="11.526,-2.352"]
+"GRM8" ["l"="11.427,-2.412"]
+"GUCY2D" ["l"="11.454,-2.068"]
+"NPR2" ["l"="11.435,-2.071"]
+"PKD1L3" ["l"="11.685,-2.132"]
+"PKDREJ" ["l"="11.730,-2.006"]
+"RBP3" ["l"="11.403,-2.174"]
+"SMO" ["l"="11.660,-2.465"]
+"ADGRB1" -> "ADGRB2"
+"ADGRB1" -> "ADGRB3"
+"ADGRB1" -> "GABBR1"
+"ADGRB1" -> "GRM1"
+"ADGRB2" -> "ADGRB1"
+"ADGRB2" -> "ADGRB3"
+"ADGRB2" -> "GABBR1"
+"ADGRB2" -> "SMO"
+"ADGRB3" -> "ADGRL2"
+"ADGRB3" -> "GRID2"
+"ADGRB3" -> "ADGRB2"
+"ADGRB3" -> "GRIK2"
+"ADGRL1" -> "GABBR1"
+"ADGRL1" -> "ADGRL2"
+"ADGRL1" -> "GABBR2"
+"ADGRL1" -> "GRIN1"
+"ADGRL2" -> "GRM5"
+"ADGRL2" -> "GRM1"
+"ADGRL2" -> "GRIA1"
+"ADGRL2" -> "GRIA2"
+"CNNM3" -> "GUCY2D"
+"CNNM3" -> "GRIN3B"
+"CNNM3" -> "NPR2"
+"CNNM3" -> "SMO"
+"FZD1" -> "FZD7"
+"FZD1" -> "FZD2"
+"FZD1" -> "FZD5"
+"FZD1" -> "FZD4"
+"FZD10" -> "FZD7"
+"FZD10" -> "FZD9"
+"FZD10" -> "FZD1"
+"FZD10" -> "FZD5"
+"FZD2" -> "FZD1"
+"FZD2" -> "FZD7"
+"FZD2" -> "FZD5"
+"FZD2" -> "FZD9"
+"FZD4" -> "FZD1"
+"FZD4" -> "FZD7"
+"FZD4" -> "FZD5"
+"FZD4" -> "SMO"
+"FZD5" -> "FZD7"
+"FZD5" -> "FZD1"
+"FZD5" -> "FZD9"
+"FZD5" -> "FZD2"
+"FZD6" -> "SMO"
+"FZD6" -> "FZD4"
+"FZD6" -> "FZD7"
+"FZD6" -> "FZD1"
+"FZD7" -> "FZD1"
+"FZD7" -> "FZD5"
+"FZD7" -> "FZD2"
+"FZD7" -> "FZD10"
+"FZD8" -> "FZD1"
+"FZD8" -> "FZD5"
+"FZD8" -> "FZD7"
+"FZD8" -> "FZD9"
+"FZD9" -> "FZD5"
+"FZD9" -> "FZD2"
+"FZD9" -> "FZD10"
+"FZD9" -> "FZD1"
+"GABBR1" -> "GRIK5"
+"GABBR1" -> "GRIN1"
+"GABBR1" -> "GABBR2"
+"GABBR1" -> "GRIK3"
+"GABBR2" -> "GRIA1"
+"GABBR2" -> "GRID1"
+"GABBR2" -> "GRIK4"
+"GABBR2" -> "GRM5"
+"GRIA1" -> "GRIK2"
+"GRIA1" -> "GRIA2"
+"GRIA1" -> "GRIA4"
+"GRIA1" -> "GRID1"
+"GRIA2" -> "GRIK2"
+"GRIA2" -> "GRIA4"
+"GRIA2" -> "GRIA1"
+"GRIA2" -> "GRID2"
+"GRIA4" -> "GRIA2"
+"GRIA4" -> "GRIK2"
+"GRIA4" -> "GRIA1"
+"GRIA4" -> "GRIK1"
+"GRID1" -> "GRIK4"
+"GRID1" -> "GRIA1"
+"GRID1" -> "GABBR2"
+"GRID1" -> "GRID2"
+"GRID2" -> "GRIK2"
+"GRID2" -> "GRIA1"
+"GRID2" -> "GRID1"
+"GRID2" -> "GRIA4"
+"GRIK1" -> "GRIK2"
+"GRIK1" -> "GRIA4"
+"GRIK1" -> "GRIA1"
+"GRIK1" -> "GRID2"
+"GRIK2" -> "GRIA1"
+"GRIK2" -> "GRIA2"
+"GRIK2" -> "GRIA4"
+"GRIK2" -> "GRIK1"
+"GRIK3" -> "GRIK4"
+"GRIK3" -> "GRIA1"
+"GRIK3" -> "GRID1"
+"GRIK3" -> "GRIK5"
+"GRIK4" -> "GRIK3"
+"GRIK4" -> "GRID1"
+"GRIK4" -> "GRIK5"
+"GRIK4" -> "GRIA1"
+"GRIK5" -> "GRIK4"
+"GRIK5" -> "GRIN1"
+"GRIK5" -> "GRIK3"
+"GRIK5" -> "GABBR1"
+"GRIN1" -> "GRIA1"
+"GRIN1" -> "GRIK5"
+"GRIN1" -> "GRIK4"
+"GRIN1" -> "GRIK2"
+"GRIN2C" -> "GRIK4"
+"GRIN2C" -> "GRIN2D"
+"GRIN2C" -> "GRIN3A"
+"GRIN2C" -> "GRM4"
+"GRIN2D" -> "GRIN2C"
+"GRIN2D" -> "GRM1"
+"GRIN2D" -> "GRIK4"
+"GRIN2D" -> "GRIN3A"
+"GRIN3A" -> "GRIK1"
+"GRIN3A" -> "GRID2"
+"GRIN3A" -> "GRIK4"
+"GRIN3A" -> "GRIA1"
+"GRIN3B" -> "GUCY2D"
+"GRIN3B" -> "GRM6"
+"GRIN3B" -> "GRM2"
+"GRIN3B" -> "CNNM3"
+"GRM1" -> "GRM5"
+"GRM1" -> "GABBR2"
+"GRM1" -> "GRM8"
+"GRM1" -> "GRM6"
+"GRM2" -> "GRM4"
+"GRM2" -> "GRM6"
+"GRM2" -> "GRM3"
+"GRM2" -> "GRIN3B"
+"GRM3" -> "GRM8"
+"GRM3" -> "GRM2"
+"GRM3" -> "GRM7"
+"GRM3" -> "GRM4"
+"GRM4" -> "GRM6"
+"GRM4" -> "GRM2"
+"GRM4" -> "GRIK4"
+"GRM4" -> "GRM8"
+"GRM5" -> "GRM1"
+"GRM5" -> "GRIA1"
+"GRM5" -> "GRM7"
+"GRM5" -> "GRM8"
+"GRM6" -> "GRM7"
+"GRM6" -> "GRM8"
+"GRM6" -> "GRM1"
+"GRM6" -> "GRM4"
+"GRM7" -> "GRM8"
+"GRM7" -> "GRM6"
+"GRM7" -> "GRM5"
+"GRM7" -> "GRM1"
+"GRM8" -> "GRM7"
+"GRM8" -> "GRM5"
+"GRM8" -> "GRM6"
+"GRM8" -> "GRM3"
+"GUCY2D" -> "NPR2"
+"GUCY2D" -> "GRIN3B"
+"GUCY2D" -> "CNNM3"
+"GUCY2D" -> "GRIN2C"
+"NPR2" -> "GUCY2D"
+"NPR2" -> "CNNM3"
+"NPR2" -> "GRID1"
+"NPR2" -> "GRIN2C"
+"PKD1L3" -> "PKDREJ"
+"PKD1L3" -> "SMO"
+"PKD1L3" -> "GRIN2C"
+"PKD1L3" -> "FZD6"
+"PKDREJ" -> "PKD1L3"
+"PKDREJ" -> "SMO"
+"PKDREJ" -> "FZD2"
+"PKDREJ" -> "FZD1"
+"RBP3" -> "GRIN3B"
+"RBP3" -> "GUCY2D"
+"RBP3" -> "NPR2"
+"RBP3" -> "GRM6"
+"SMO" -> "FZD4"
+"SMO" -> "FZD2"
+"SMO" -> "FZD1"
+"SMO" -> "FZD7"
+}

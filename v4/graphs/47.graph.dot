@@ -1,0 +1,57 @@
+digraph G {
+"ANXA1" ["l"="11.065,-7.424"]
+"ANXA10" ["l"="11.065,-7.425"]
+"ANXA13" ["l"="11.065,-7.422"]
+"ANXA2" ["l"="11.066,-7.423"]
+"ANXA3" ["l"="11.065,-7.425"]
+"ANXA4" ["l"="11.065,-7.425"]
+"ANXA5" ["l"="11.066,-7.426"]
+"ANXA6" ["l"="11.066,-7.422"]
+"ANXA8" ["l"="11.066,-7.422"]
+"ANXA8L1" ["l"="11.066,-7.426"]
+"ANXA9" ["l"="11.065,-7.421"]
+"ANXA1" -> "ANXA2"
+"ANXA1" -> "ANXA5"
+"ANXA1" -> "ANXA3"
+"ANXA1" -> "ANXA4"
+"ANXA10" -> "ANXA4"
+"ANXA10" -> "ANXA9"
+"ANXA10" -> "ANXA3"
+"ANXA10" -> "ANXA13"
+"ANXA13" -> "ANXA4"
+"ANXA13" -> "ANXA3"
+"ANXA13" -> "ANXA9"
+"ANXA13" -> "ANXA10"
+"ANXA2" -> "ANXA1"
+"ANXA2" -> "ANXA5"
+"ANXA2" -> "ANXA4"
+"ANXA2" -> "ANXA3"
+"ANXA3" -> "ANXA4"
+"ANXA3" -> "ANXA8"
+"ANXA3" -> "ANXA2"
+"ANXA3" -> "ANXA5"
+"ANXA4" -> "ANXA5"
+"ANXA4" -> "ANXA3"
+"ANXA4" -> "ANXA8L1"
+"ANXA4" -> "ANXA10"
+"ANXA5" -> "ANXA4"
+"ANXA5" -> "ANXA2"
+"ANXA5" -> "ANXA1"
+"ANXA5" -> "ANXA8"
+"ANXA6" -> "ANXA8L1"
+"ANXA6" -> "ANXA8"
+"ANXA6" -> "ANXA3"
+"ANXA6" -> "ANXA2"
+"ANXA8" -> "ANXA8L1"
+"ANXA8" -> "ANXA6"
+"ANXA8" -> "ANXA3"
+"ANXA8" -> "ANXA4"
+"ANXA8L1" -> "ANXA8"
+"ANXA8L1" -> "ANXA6"
+"ANXA8L1" -> "ANXA4"
+"ANXA8L1" -> "ANXA3"
+"ANXA9" -> "ANXA10"
+"ANXA9" -> "ANXA3"
+"ANXA9" -> "ANXA4"
+"ANXA9" -> "ANXA8"
+}

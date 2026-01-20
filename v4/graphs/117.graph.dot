@@ -1,0 +1,132 @@
+digraph G {
+"ABCA1" ["l"="11.431,-2.758"]
+"ABCA12" ["l"="11.357,-2.826"]
+"ABCA2" ["l"="11.358,-2.687"]
+"ABCA4" ["l"="11.360,-2.864"]
+"ABCA7" ["l"="11.334,-2.815"]
+"ABCC10" ["l"="11.208,-2.607"]
+"ABCD2" ["l"="11.304,-2.755"]
+"ABCD3" ["l"="11.215,-2.673"]
+"ABCG8" ["l"="11.028,-2.943"]
+"CASR" ["l"="11.250,-2.672"]
+"DISP1" ["l"="11.073,-2.843"]
+"DUOX1" ["l"="11.083,-2.734"]
+"DUOX2" ["l"="11.091,-2.774"]
+"GPRC6A" ["l"="11.198,-2.734"]
+"HAS1" ["l"="11.081,-2.640"]
+"HAS2" ["l"="10.985,-2.722"]
+"HAS3" ["l"="11.021,-2.711"]
+"KCNT2" ["l"="11.191,-2.624"]
+"KCNU1" ["l"="11.232,-2.812"]
+"NPC1L1" ["l"="11.068,-2.909"]
+"PIEZO2" ["l"="11.404,-2.752"]
+"PTCH1" ["l"="11.081,-2.849"]
+"TAS1R1" ["l"="11.227,-2.790"]
+"TAS1R2" ["l"="11.236,-2.769"]
+"TAS1R3" ["l"="11.214,-2.741"]
+"UGCG" ["l"="11.009,-2.631"]
+"ABCA1" -> "ABCA12"
+"ABCA1" -> "ABCA4"
+"ABCA1" -> "ABCA2"
+"ABCA1" -> "PIEZO2"
+"ABCA12" -> "ABCA4"
+"ABCA12" -> "ABCA1"
+"ABCA12" -> "ABCA7"
+"ABCA12" -> "ABCA2"
+"ABCA2" -> "ABCA7"
+"ABCA2" -> "ABCA4"
+"ABCA2" -> "ABCA1"
+"ABCA2" -> "NPC1L1"
+"ABCA4" -> "ABCA12"
+"ABCA4" -> "ABCA7"
+"ABCA4" -> "ABCA1"
+"ABCA4" -> "ABCA2"
+"ABCA7" -> "ABCA2"
+"ABCA7" -> "ABCA4"
+"ABCA7" -> "NPC1L1"
+"ABCA7" -> "ABCA12"
+"ABCC10" -> "NPC1L1"
+"ABCC10" -> "ABCA7"
+"ABCC10" -> "PTCH1"
+"ABCC10" -> "ABCD2"
+"ABCD2" -> "ABCD3"
+"ABCD2" -> "HAS2"
+"ABCD2" -> "UGCG"
+"ABCD2" -> "PTCH1"
+"ABCD3" -> "ABCD2"
+"ABCD3" -> "UGCG"
+"ABCD3" -> "HAS2"
+"ABCD3" -> "ABCG8"
+"ABCG8" -> "NPC1L1"
+"ABCG8" -> "TAS1R2"
+"ABCG8" -> "ABCD2"
+"ABCG8" -> "ABCD3"
+"CASR" -> "GPRC6A"
+"CASR" -> "TAS1R2"
+"CASR" -> "PTCH1"
+"CASR" -> "TAS1R1"
+"DISP1" -> "NPC1L1"
+"DISP1" -> "CASR"
+"DISP1" -> "PTCH1"
+"DISP1" -> "TAS1R1"
+"DUOX1" -> "DUOX2"
+"DUOX1" -> "NPC1L1"
+"DUOX1" -> "ABCA7"
+"DUOX1" -> "TAS1R1"
+"DUOX2" -> "DUOX1"
+"DUOX2" -> "NPC1L1"
+"DUOX2" -> "ABCA2"
+"DUOX2" -> "PTCH1"
+"GPRC6A" -> "CASR"
+"GPRC6A" -> "TAS1R1"
+"GPRC6A" -> "TAS1R2"
+"GPRC6A" -> "TAS1R3"
+"HAS1" -> "HAS3"
+"HAS1" -> "HAS2"
+"HAS1" -> "PTCH1"
+"HAS1" -> "UGCG"
+"HAS2" -> "HAS3"
+"HAS2" -> "UGCG"
+"HAS2" -> "ABCD2"
+"HAS2" -> "HAS1"
+"HAS3" -> "HAS2"
+"HAS3" -> "UGCG"
+"HAS3" -> "HAS1"
+"HAS3" -> "PTCH1"
+"KCNT2" -> "KCNU1"
+"KCNT2" -> "ABCD3"
+"KCNT2" -> "ABCD2"
+"KCNT2" -> "PTCH1"
+"KCNU1" -> "KCNT2"
+"KCNU1" -> "ABCD2"
+"KCNU1" -> "ABCD3"
+"KCNU1" -> "NPC1L1"
+"NPC1L1" -> "TAS1R1"
+"NPC1L1" -> "ABCG8"
+"NPC1L1" -> "TAS1R2"
+"NPC1L1" -> "ABCA7"
+"PIEZO2" -> "ABCA1"
+"PIEZO2" -> "ABCA12"
+"PIEZO2" -> "ABCA2"
+"PIEZO2" -> "ABCA4"
+"PTCH1" -> "TAS1R2"
+"PTCH1" -> "CASR"
+"PTCH1" -> "NPC1L1"
+"PTCH1" -> "HAS2"
+"TAS1R1" -> "TAS1R3"
+"TAS1R1" -> "TAS1R2"
+"TAS1R1" -> "NPC1L1"
+"TAS1R1" -> "GPRC6A"
+"TAS1R2" -> "TAS1R3"
+"TAS1R2" -> "TAS1R1"
+"TAS1R2" -> "NPC1L1"
+"TAS1R2" -> "GPRC6A"
+"TAS1R3" -> "TAS1R1"
+"TAS1R3" -> "TAS1R2"
+"TAS1R3" -> "NPC1L1"
+"TAS1R3" -> "GPRC6A"
+"UGCG" -> "HAS2"
+"UGCG" -> "HAS3"
+"UGCG" -> "ABCD3"
+"UGCG" -> "ABCD2"
+}

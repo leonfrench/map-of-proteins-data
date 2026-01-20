@@ -1,0 +1,377 @@
+digraph G {
+"AMHR2" ["l"="10.202,6.197"]
+"BSG" ["l"="10.036,6.391"]
+"CADM3" ["l"="9.990,6.301"]
+"CADM4" ["l"="10.004,6.358"]
+"CD276" ["l"="9.903,6.484"]
+"CD47" ["l"="10.000,6.262"]
+"CD5" ["l"="9.830,6.500"]
+"CD6" ["l"="9.866,6.401"]
+"CDCP1" ["l"="9.832,6.572"]
+"CLMP" ["l"="9.962,6.254"]
+"CXADR" ["l"="10.020,6.315"]
+"EFNB2" ["l"="10.195,6.145"]
+"EMB" ["l"="10.048,6.432"]
+"EPCAM" ["l"="10.030,6.211"]
+"ESAM" ["l"="9.910,6.473"]
+"F11R" ["l"="9.980,6.297"]
+"FAM171A1" ["l"="10.129,6.036"]
+"FAM171B" ["l"="10.125,6.064"]
+"FNDC4" ["l"="10.071,6.100"]
+"GPA33" ["l"="9.906,6.487"]
+"GPNMB" ["l"="9.987,6.212"]
+"HEPACAM" ["l"="9.911,6.350"]
+"ICAM4" ["l"="9.910,6.535"]
+"IGSF11" ["l"="9.960,6.360"]
+"IGSF23" ["l"="9.935,6.247"]
+"IGSF5" ["l"="9.886,6.443"]
+"IL17RA" ["l"="10.054,6.251"]
+"IL17RD" ["l"="10.069,6.110"]
+"IL2RA" ["l"="9.709,6.429"]
+"ILDR1" ["l"="10.019,6.094"]
+"JAM2" ["l"="10.016,6.303"]
+"JAM3" ["l"="9.970,6.296"]
+"KITLG" ["l"="10.524,6.030"]
+"LAMP5" ["l"="9.984,5.997"]
+"LSR" ["l"="10.021,6.094"]
+"MPZ" ["l"="9.965,6.247"]
+"MPZL1" ["l"="9.963,6.245"]
+"MPZL2" ["l"="9.987,6.293"]
+"MPZL3" ["l"="9.899,6.315"]
+"MXRA8" ["l"="9.867,6.546"]
+"NCR3LG1" ["l"="9.872,6.430"]
+"NECTIN1" ["l"="9.977,6.352"]
+"NECTIN2" ["l"="9.938,6.476"]
+"NECTIN3" ["l"="10.220,6.270"]
+"NECTIN4" ["l"="9.950,6.486"]
+"NPTN" ["l"="9.984,6.238"]
+"PIGR" ["l"="9.839,6.575"]
+"PTPRH" ["l"="9.940,6.559"]
+"PVR" ["l"="9.940,6.517"]
+"RNF43" ["l"="10.035,6.043"]
+"ROBO4" ["l"="10.108,6.370"]
+"SCN1B" ["l"="9.923,6.292"]
+"SCN2B" ["l"="9.937,6.284"]
+"SCN3B" ["l"="9.970,6.122"]
+"SCN4B" ["l"="9.936,6.299"]
+"SGCA" ["l"="10.057,6.203"]
+"SGCE" ["l"="10.141,6.257"]
+"SIGLECL1" ["l"="9.919,6.251"]
+"SPACA1" ["l"="10.043,6.114"]
+"TACSTD2" ["l"="10.061,6.261"]
+"THSD1" ["l"="10.036,6.172"]
+"THY1" ["l"="9.752,6.480"]
+"TMEM130" ["l"="10.007,6.172"]
+"TMEM25" ["l"="10.043,6.359"]
+"TNFRSF17" ["l"="10.011,6.075"]
+"UPK2" ["l"="9.968,6.323"]
+"UPK3A" ["l"="9.920,6.369"]
+"UPK3BL1" ["l"="9.910,6.314"]
+"UPK3BL2" ["l"="9.959,6.269"]
+"VSIG2" ["l"="9.914,6.395"]
+"VSIG8" ["l"="9.990,6.203"]
+"VSTM2L" ["l"="10.035,5.991"]
+"VSTM4" ["l"="9.958,6.133"]
+"VSTM5" ["l"="9.958,6.279"]
+"ZPBP" ["l"="10.069,6.403"]
+"AMHR2" -> "TMEM25"
+"AMHR2" -> "SGCA"
+"AMHR2" -> "NECTIN4"
+"AMHR2" -> "ROBO4"
+"BSG" -> "NPTN"
+"BSG" -> "CADM4"
+"BSG" -> "CADM3"
+"BSG" -> "JAM2"
+"CADM3" -> "CADM4"
+"CADM3" -> "JAM3"
+"CADM3" -> "TMEM130"
+"CADM3" -> "VSTM5"
+"CADM4" -> "JAM3"
+"CADM4" -> "CADM3"
+"CADM4" -> "PVR"
+"CADM4" -> "HEPACAM"
+"CD276" -> "PVR"
+"CD276" -> "MPZL1"
+"CD276" -> "NECTIN4"
+"CD276" -> "PTPRH"
+"CD47" -> "F11R"
+"CD47" -> "VSTM5"
+"CD47" -> "MPZL3"
+"CD47" -> "MPZL2"
+"CD5" -> "CD6"
+"CD5" -> "CLMP"
+"CD5" -> "JAM2"
+"CD5" -> "MPZL3"
+"CD6" -> "CD5"
+"CD6" -> "NECTIN4"
+"CD6" -> "THSD1"
+"CD6" -> "ROBO4"
+"CDCP1" -> "NCR3LG1"
+"CDCP1" -> "IL17RD"
+"CDCP1" -> "MPZL3"
+"CDCP1" -> "GPA33"
+"CLMP" -> "JAM3"
+"CLMP" -> "NECTIN1"
+"CLMP" -> "SCN3B"
+"CLMP" -> "CADM4"
+"CXADR" -> "F11R"
+"CXADR" -> "MPZL1"
+"CXADR" -> "JAM3"
+"CXADR" -> "NECTIN3"
+"EFNB2" -> "CXADR"
+"EFNB2" -> "NECTIN3"
+"EFNB2" -> "KITLG"
+"EFNB2" -> "MPZL1"
+"EMB" -> "JAM2"
+"EMB" -> "VSTM5"
+"EMB" -> "JAM3"
+"EMB" -> "SCN4B"
+"EPCAM" -> "TACSTD2"
+"EPCAM" -> "SPACA1"
+"EPCAM" -> "MPZL1"
+"EPCAM" -> "CXADR"
+"ESAM" -> "NECTIN2"
+"ESAM" -> "HEPACAM"
+"ESAM" -> "VSIG2"
+"ESAM" -> "CXADR"
+"F11R" -> "PVR"
+"F11R" -> "CXADR"
+"F11R" -> "MPZL2"
+"F11R" -> "JAM3"
+"FAM171A1" -> "FAM171B"
+"FAM171A1" -> "THSD1"
+"FAM171A1" -> "IL17RD"
+"FAM171A1" -> "RNF43"
+"FAM171B" -> "FAM171A1"
+"FAM171B" -> "THSD1"
+"FAM171B" -> "TMEM25"
+"FAM171B" -> "HEPACAM"
+"FNDC4" -> "CADM3"
+"FNDC4" -> "TMEM25"
+"FNDC4" -> "VSTM5"
+"FNDC4" -> "CLMP"
+"GPA33" -> "MPZL3"
+"GPA33" -> "VSTM5"
+"GPA33" -> "F11R"
+"GPA33" -> "PVR"
+"GPNMB" -> "TMEM130"
+"GPNMB" -> "CADM3"
+"GPNMB" -> "BSG"
+"GPNMB" -> "MPZL3"
+"HEPACAM" -> "JAM3"
+"HEPACAM" -> "CADM4"
+"HEPACAM" -> "IGSF11"
+"HEPACAM" -> "CXADR"
+"ICAM4" -> "VSIG2"
+"ICAM4" -> "PVR"
+"ICAM4" -> "VSTM5"
+"ICAM4" -> "UPK3BL2"
+"IGSF11" -> "HEPACAM"
+"IGSF11" -> "NECTIN3"
+"IGSF11" -> "CXADR"
+"IGSF11" -> "TMEM25"
+"IGSF23" -> "SIGLECL1"
+"IGSF23" -> "VSTM5"
+"IGSF23" -> "UPK3BL2"
+"IGSF23" -> "ICAM4"
+"IGSF5" -> "NCR3LG1"
+"IGSF5" -> "MPZL3"
+"IGSF5" -> "VSTM5"
+"IGSF5" -> "VSIG8"
+"IL17RA" -> "IL17RD"
+"IL17RA" -> "NCR3LG1"
+"IL17RA" -> "FAM171A1"
+"IL17RA" -> "THSD1"
+"IL17RD" -> "THSD1"
+"IL17RD" -> "IL17RA"
+"IL17RD" -> "FAM171A1"
+"IL17RD" -> "NCR3LG1"
+"IL2RA" -> "NCR3LG1"
+"IL2RA" -> "VSTM5"
+"IL2RA" -> "SPACA1"
+"IL2RA" -> "MPZL3"
+"ILDR1" -> "THSD1"
+"ILDR1" -> "RNF43"
+"ILDR1" -> "FAM171A1"
+"ILDR1" -> "HEPACAM"
+"JAM2" -> "JAM3"
+"JAM2" -> "MPZL3"
+"JAM2" -> "VSTM5"
+"JAM2" -> "MPZL2"
+"JAM3" -> "JAM2"
+"JAM3" -> "CLMP"
+"JAM3" -> "VSTM5"
+"JAM3" -> "CADM4"
+"KITLG" -> "NECTIN3"
+"KITLG" -> "SCN3B"
+"KITLG" -> "NCR3LG1"
+"KITLG" -> "EFNB2"
+"LAMP5" -> "JAM2"
+"LAMP5" -> "SCN1B"
+"LAMP5" -> "UPK3A"
+"LAMP5" -> "KITLG"
+"LSR" -> "ILDR1"
+"LSR" -> "NECTIN2"
+"LSR" -> "CXADR"
+"LSR" -> "FAM171A1"
+"MPZ" -> "MPZL3"
+"MPZ" -> "SCN3B"
+"MPZ" -> "VSTM5"
+"MPZ" -> "MPZL2"
+"MPZL1" -> "VSTM5"
+"MPZL1" -> "PVR"
+"MPZL1" -> "CXADR"
+"MPZL1" -> "VSTM4"
+"MPZL2" -> "MPZL3"
+"MPZL2" -> "VSTM5"
+"MPZL2" -> "F11R"
+"MPZL2" -> "SCN3B"
+"MPZL3" -> "VSTM5"
+"MPZL3" -> "MPZL2"
+"MPZL3" -> "JAM2"
+"MPZL3" -> "MPZ"
+"MXRA8" -> "CADM4"
+"MXRA8" -> "TMEM25"
+"MXRA8" -> "MPZ"
+"MXRA8" -> "NECTIN4"
+"NCR3LG1" -> "PVR"
+"NCR3LG1" -> "VSTM5"
+"NCR3LG1" -> "IGSF5"
+"NCR3LG1" -> "MPZL3"
+"NECTIN1" -> "PVR"
+"NECTIN1" -> "CLMP"
+"NECTIN1" -> "CADM4"
+"NECTIN1" -> "NECTIN3"
+"NECTIN2" -> "NECTIN4"
+"NECTIN2" -> "PVR"
+"NECTIN2" -> "ESAM"
+"NECTIN2" -> "CADM4"
+"NECTIN3" -> "CXADR"
+"NECTIN3" -> "KITLG"
+"NECTIN3" -> "JAM3"
+"NECTIN3" -> "JAM2"
+"NECTIN4" -> "PVR"
+"NECTIN4" -> "TMEM25"
+"NECTIN4" -> "NECTIN2"
+"NECTIN4" -> "CADM4"
+"NPTN" -> "BSG"
+"NPTN" -> "SCN1B"
+"NPTN" -> "SCN4B"
+"NPTN" -> "CADM3"
+"PIGR" -> "PVR"
+"PIGR" -> "NCR3LG1"
+"PIGR" -> "GPA33"
+"PIGR" -> "CDCP1"
+"PTPRH" -> "PVR"
+"PTPRH" -> "CD276"
+"PTPRH" -> "NECTIN4"
+"PTPRH" -> "GPA33"
+"PVR" -> "NECTIN4"
+"PVR" -> "NCR3LG1"
+"PVR" -> "F11R"
+"PVR" -> "MPZL1"
+"RNF43" -> "THSD1"
+"RNF43" -> "FAM171A1"
+"RNF43" -> "ILDR1"
+"RNF43" -> "IL17RD"
+"ROBO4" -> "THSD1"
+"ROBO4" -> "TMEM25"
+"ROBO4" -> "ESAM"
+"ROBO4" -> "NECTIN4"
+"SCN1B" -> "VSTM5"
+"SCN1B" -> "SCN4B"
+"SCN1B" -> "SCN2B"
+"SCN1B" -> "SCN3B"
+"SCN2B" -> "SCN4B"
+"SCN2B" -> "VSTM5"
+"SCN2B" -> "MPZL2"
+"SCN2B" -> "MPZL3"
+"SCN3B" -> "VSTM5"
+"SCN3B" -> "MPZ"
+"SCN3B" -> "MPZL2"
+"SCN3B" -> "CLMP"
+"SCN4B" -> "SCN2B"
+"SCN4B" -> "VSTM5"
+"SCN4B" -> "SCN1B"
+"SCN4B" -> "MPZL3"
+"SGCA" -> "TMEM25"
+"SGCA" -> "SGCE"
+"SGCA" -> "ESAM"
+"SGCA" -> "AMHR2"
+"SGCE" -> "SGCA"
+"SGCE" -> "NECTIN3"
+"SGCE" -> "CXADR"
+"SGCE" -> "FAM171B"
+"SIGLECL1" -> "IGSF23"
+"SIGLECL1" -> "SPACA1"
+"SIGLECL1" -> "MPZL3"
+"SIGLECL1" -> "NCR3LG1"
+"SPACA1" -> "VSTM5"
+"SPACA1" -> "NCR3LG1"
+"SPACA1" -> "SIGLECL1"
+"SPACA1" -> "JAM2"
+"TACSTD2" -> "MPZL2"
+"TACSTD2" -> "EPCAM"
+"TACSTD2" -> "F11R"
+"TACSTD2" -> "NECTIN4"
+"THSD1" -> "IL17RD"
+"THSD1" -> "ROBO4"
+"THSD1" -> "FAM171A1"
+"THSD1" -> "RNF43"
+"THY1" -> "SCN1B"
+"THY1" -> "VSTM2L"
+"THY1" -> "SCN3B"
+"THY1" -> "JAM2"
+"TMEM130" -> "TMEM25"
+"TMEM130" -> "CADM3"
+"TMEM130" -> "VSTM5"
+"TMEM130" -> "JAM3"
+"TMEM25" -> "NECTIN4"
+"TMEM25" -> "TMEM130"
+"TMEM25" -> "CADM4"
+"TMEM25" -> "VSTM5"
+"TNFRSF17" -> "SPACA1"
+"TNFRSF17" -> "KITLG"
+"TNFRSF17" -> "IL17RD"
+"TNFRSF17" -> "SIGLECL1"
+"UPK2" -> "ICAM4"
+"UPK2" -> "F11R"
+"UPK2" -> "VSIG2"
+"UPK2" -> "FNDC4"
+"UPK3A" -> "UPK3BL2"
+"UPK3A" -> "UPK3BL1"
+"UPK3A" -> "VSIG2"
+"UPK3A" -> "VSTM5"
+"UPK3BL1" -> "UPK3BL2"
+"UPK3BL1" -> "UPK3A"
+"UPK3BL1" -> "VSTM5"
+"UPK3BL1" -> "MPZL3"
+"UPK3BL2" -> "UPK3BL1"
+"UPK3BL2" -> "UPK3A"
+"UPK3BL2" -> "VSTM5"
+"UPK3BL2" -> "SPACA1"
+"VSIG2" -> "ICAM4"
+"VSIG2" -> "ESAM"
+"VSIG2" -> "MPZL1"
+"VSIG2" -> "UPK3A"
+"VSIG8" -> "MPZ"
+"VSIG8" -> "IGSF5"
+"VSIG8" -> "NECTIN1"
+"VSIG8" -> "VSTM2L"
+"VSTM2L" -> "CADM3"
+"VSTM2L" -> "SCN3B"
+"VSTM2L" -> "MPZ"
+"VSTM2L" -> "TMEM130"
+"VSTM4" -> "MPZL1"
+"VSTM4" -> "CLMP"
+"VSTM4" -> "HEPACAM"
+"VSTM4" -> "MPZ"
+"VSTM5" -> "MPZL3"
+"VSTM5" -> "MPZL2"
+"VSTM5" -> "SCN4B"
+"VSTM5" -> "MPZL1"
+"ZPBP" -> "VSTM5"
+"ZPBP" -> "JAM2"
+"ZPBP" -> "SPACA1"
+"ZPBP" -> "TMEM25"
+}

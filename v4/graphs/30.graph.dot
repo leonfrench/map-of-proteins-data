@@ -1,0 +1,52 @@
+digraph G {
+"TRAV18" ["l"="11.835,14.525"]
+"TRDV2" ["l"="11.832,14.539"]
+"TRGV1" ["l"="11.839,14.522"]
+"TRGV11" ["l"="11.847,14.532"]
+"TRGV2" ["l"="11.820,14.535"]
+"TRGV3" ["l"="11.830,14.531"]
+"TRGV4" ["l"="11.826,14.526"]
+"TRGV5" ["l"="11.829,14.510"]
+"TRGV8" ["l"="11.826,14.529"]
+"TRGV9" ["l"="11.844,14.523"]
+"TRAV18" -> "TRGV11"
+"TRAV18" -> "TRGV1"
+"TRAV18" -> "TRGV5"
+"TRAV18" -> "TRGV3"
+"TRDV2" -> "TRGV8"
+"TRDV2" -> "TRGV4"
+"TRDV2" -> "TRGV2"
+"TRDV2" -> "TRGV3"
+"TRGV1" -> "TRGV5"
+"TRGV1" -> "TRGV3"
+"TRGV1" -> "TRGV4"
+"TRGV1" -> "TRGV8"
+"TRGV11" -> "TRAV18"
+"TRGV11" -> "TRGV3"
+"TRGV11" -> "TRGV1"
+"TRGV11" -> "TRGV9"
+"TRGV2" -> "TRGV3"
+"TRGV2" -> "TRGV4"
+"TRGV2" -> "TRGV8"
+"TRGV2" -> "TRGV5"
+"TRGV3" -> "TRGV5"
+"TRGV3" -> "TRGV2"
+"TRGV3" -> "TRGV8"
+"TRGV3" -> "TRGV4"
+"TRGV4" -> "TRGV2"
+"TRGV4" -> "TRGV8"
+"TRGV4" -> "TRGV3"
+"TRGV4" -> "TRGV5"
+"TRGV5" -> "TRGV3"
+"TRGV5" -> "TRGV4"
+"TRGV5" -> "TRGV8"
+"TRGV5" -> "TRGV2"
+"TRGV8" -> "TRGV3"
+"TRGV8" -> "TRGV4"
+"TRGV8" -> "TRGV2"
+"TRGV8" -> "TRGV5"
+"TRGV9" -> "TRGV5"
+"TRGV9" -> "TRGV3"
+"TRGV9" -> "TRGV4"
+"TRGV9" -> "TRGV8"
+}

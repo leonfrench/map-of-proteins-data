@@ -1,0 +1,97 @@
+digraph G {
+"AREG" ["l"="10.063,5.571"]
+"BTC" ["l"="10.089,5.532"]
+"CD164L2" ["l"="10.097,5.691"]
+"EPGN" ["l"="10.051,5.618"]
+"EREG" ["l"="10.072,5.612"]
+"HBEGF" ["l"="10.104,5.558"]
+"IGFLR1" ["l"="10.053,5.780"]
+"JTB" ["l"="10.119,5.595"]
+"NPDC1" ["l"="10.034,5.609"]
+"PIK3IP1" ["l"="9.989,5.557"]
+"PRIMA1" ["l"="10.089,5.550"]
+"PTTG1IP" ["l"="10.068,5.648"]
+"RAMP1" ["l"="10.141,5.638"]
+"RAMP2" ["l"="10.136,5.663"]
+"RAMP3" ["l"="10.117,5.675"]
+"SPINT2" ["l"="10.083,5.742"]
+"TEX29" ["l"="9.975,5.533"]
+"TNFRSF12A" ["l"="10.080,5.684"]
+"TP53I13" ["l"="10.204,5.688"]
+"AREG" -> "HBEGF"
+"AREG" -> "EREG"
+"AREG" -> "BTC"
+"AREG" -> "EPGN"
+"BTC" -> "EPGN"
+"BTC" -> "HBEGF"
+"BTC" -> "PRIMA1"
+"BTC" -> "EREG"
+"CD164L2" -> "BTC"
+"CD164L2" -> "SPINT2"
+"CD164L2" -> "RAMP3"
+"CD164L2" -> "IGFLR1"
+"EPGN" -> "BTC"
+"EPGN" -> "EREG"
+"EPGN" -> "PRIMA1"
+"EPGN" -> "PIK3IP1"
+"EREG" -> "EPGN"
+"EREG" -> "BTC"
+"EREG" -> "HBEGF"
+"EREG" -> "PTTG1IP"
+"HBEGF" -> "BTC"
+"HBEGF" -> "EREG"
+"HBEGF" -> "AREG"
+"HBEGF" -> "EPGN"
+"IGFLR1" -> "TP53I13"
+"IGFLR1" -> "CD164L2"
+"IGFLR1" -> "NPDC1"
+"IGFLR1" -> "PRIMA1"
+"JTB" -> "BTC"
+"JTB" -> "CD164L2"
+"JTB" -> "TNFRSF12A"
+"JTB" -> "SPINT2"
+"NPDC1" -> "TP53I13"
+"NPDC1" -> "CD164L2"
+"NPDC1" -> "IGFLR1"
+"NPDC1" -> "PTTG1IP"
+"PIK3IP1" -> "EPGN"
+"PIK3IP1" -> "BTC"
+"PIK3IP1" -> "PRIMA1"
+"PIK3IP1" -> "CD164L2"
+"PRIMA1" -> "BTC"
+"PRIMA1" -> "EPGN"
+"PRIMA1" -> "PTTG1IP"
+"PRIMA1" -> "RAMP3"
+"PTTG1IP" -> "PRIMA1"
+"PTTG1IP" -> "SPINT2"
+"PTTG1IP" -> "EREG"
+"PTTG1IP" -> "BTC"
+"RAMP1" -> "RAMP3"
+"RAMP1" -> "CD164L2"
+"RAMP1" -> "PRIMA1"
+"RAMP1" -> "RAMP2"
+"RAMP2" -> "RAMP3"
+"RAMP2" -> "CD164L2"
+"RAMP2" -> "RAMP1"
+"RAMP2" -> "PRIMA1"
+"RAMP3" -> "RAMP2"
+"RAMP3" -> "RAMP1"
+"RAMP3" -> "CD164L2"
+"RAMP3" -> "BTC"
+"SPINT2" -> "TNFRSF12A"
+"SPINT2" -> "BTC"
+"SPINT2" -> "CD164L2"
+"SPINT2" -> "PTTG1IP"
+"TEX29" -> "BTC"
+"TEX29" -> "EPGN"
+"TEX29" -> "SPINT2"
+"TEX29" -> "EREG"
+"TNFRSF12A" -> "SPINT2"
+"TNFRSF12A" -> "CD164L2"
+"TNFRSF12A" -> "EPGN"
+"TNFRSF12A" -> "JTB"
+"TP53I13" -> "IGFLR1"
+"TP53I13" -> "CD164L2"
+"TP53I13" -> "NPDC1"
+"TP53I13" -> "TNFRSF12A"
+}

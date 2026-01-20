@@ -1,0 +1,217 @@
+digraph G {
+"AIDA" ["l"="11.156,2.361"]
+"ARCN1" ["l"="11.056,2.375"]
+"ARMC1" ["l"="11.102,2.387"]
+"ATG3" ["l"="11.160,2.546"]
+"CARD18" ["l"="11.165,2.421"]
+"CCNC" ["l"="11.081,2.323"]
+"CENPP" ["l"="11.175,2.354"]
+"CFAP299" ["l"="11.269,2.447"]
+"CHML" ["l"="11.046,2.311"]
+"CRADD" ["l"="11.098,2.376"]
+"DNAAF2" ["l"="11.172,2.585"]
+"DPCD" ["l"="11.083,2.572"]
+"DTX3" ["l"="11.031,2.366"]
+"DUSP12" ["l"="11.242,2.410"]
+"EIF3D" ["l"="11.252,2.491"]
+"EIF3F" ["l"="11.114,2.388"]
+"EIF3H" ["l"="11.248,2.376"]
+"EIF4E2" ["l"="11.047,2.454"]
+"ERCC1" ["l"="11.154,2.416"]
+"FADD" ["l"="11.176,2.466"]
+"FBXO48" ["l"="10.978,2.315"]
+"GSKIP" ["l"="11.208,2.317"]
+"GTF2E1" ["l"="11.169,2.379"]
+"HPF1" ["l"="10.954,2.431"]
+"MED20" ["l"="11.258,2.321"]
+"MORF4L1" ["l"="11.076,2.471"]
+"NMD3" ["l"="11.025,2.353"]
+"NSMCE1" ["l"="11.209,2.587"]
+"PDCD2" ["l"="11.294,2.504"]
+"PDE6D" ["l"="10.985,2.467"]
+"PITPNA" ["l"="11.074,2.353"]
+"PITPNB" ["l"="11.045,2.392"]
+"PLAAT5" ["l"="11.022,2.269"]
+"PYCARD" ["l"="11.227,2.487"]
+"PYDC1" ["l"="11.164,2.477"]
+"PYDC2" ["l"="11.157,2.441"]
+"REC114" ["l"="11.197,2.338"]
+"RMND5B" ["l"="11.017,2.469"]
+"ROPN1B" ["l"="11.159,2.565"]
+"RRAGC" ["l"="11.185,2.343"]
+"TBCB" ["l"="10.932,2.383"]
+"TIPRL" ["l"="11.108,2.446"]
+"TTC32" ["l"="11.159,2.485"]
+"AIDA" -> "PLAAT5"
+"AIDA" -> "ARMC1"
+"AIDA" -> "CENPP"
+"AIDA" -> "TIPRL"
+"ARCN1" -> "PITPNB"
+"ARCN1" -> "TIPRL"
+"ARCN1" -> "AIDA"
+"ARCN1" -> "EIF3H"
+"ARMC1" -> "GSKIP"
+"ARMC1" -> "AIDA"
+"ARMC1" -> "PLAAT5"
+"ARMC1" -> "ERCC1"
+"ATG3" -> "CHML"
+"ATG3" -> "TIPRL"
+"ATG3" -> "PITPNB"
+"ATG3" -> "PITPNA"
+"CARD18" -> "PYDC2"
+"CARD18" -> "CRADD"
+"CARD18" -> "FADD"
+"CARD18" -> "PYDC1"
+"CCNC" -> "ARMC1"
+"CCNC" -> "RMND5B"
+"CCNC" -> "PLAAT5"
+"CCNC" -> "PITPNB"
+"CENPP" -> "AIDA"
+"CENPP" -> "ARMC1"
+"CENPP" -> "TIPRL"
+"CENPP" -> "PDE6D"
+"CFAP299" -> "TIPRL"
+"CFAP299" -> "PDE6D"
+"CFAP299" -> "TTC32"
+"CFAP299" -> "DPCD"
+"CHML" -> "MED20"
+"CHML" -> "TIPRL"
+"CHML" -> "ATG3"
+"CHML" -> "GSKIP"
+"CRADD" -> "FADD"
+"CRADD" -> "CARD18"
+"CRADD" -> "PYDC2"
+"CRADD" -> "PYDC1"
+"DNAAF2" -> "REC114"
+"DNAAF2" -> "FADD"
+"DNAAF2" -> "TIPRL"
+"DNAAF2" -> "DUSP12"
+"DPCD" -> "PDE6D"
+"DPCD" -> "TIPRL"
+"DPCD" -> "PITPNA"
+"DPCD" -> "CFAP299"
+"DTX3" -> "MED20"
+"DTX3" -> "PLAAT5"
+"DTX3" -> "GSKIP"
+"DTX3" -> "NMD3"
+"DUSP12" -> "PDCD2"
+"DUSP12" -> "TIPRL"
+"DUSP12" -> "MED20"
+"DUSP12" -> "REC114"
+"EIF3D" -> "NMD3"
+"EIF3D" -> "EIF3H"
+"EIF3D" -> "PITPNB"
+"EIF3D" -> "GTF2E1"
+"EIF3F" -> "EIF3H"
+"EIF3F" -> "PLAAT5"
+"EIF3F" -> "RRAGC"
+"EIF3F" -> "ARCN1"
+"EIF3H" -> "EIF3F"
+"EIF3H" -> "ARCN1"
+"EIF3H" -> "RMND5B"
+"EIF3H" -> "RRAGC"
+"EIF4E2" -> "TIPRL"
+"EIF4E2" -> "ERCC1"
+"EIF4E2" -> "EIF3H"
+"EIF4E2" -> "PLAAT5"
+"ERCC1" -> "TIPRL"
+"ERCC1" -> "PLAAT5"
+"ERCC1" -> "ARMC1"
+"ERCC1" -> "RMND5B"
+"FADD" -> "CRADD"
+"FADD" -> "PYDC2"
+"FADD" -> "PYDC1"
+"FADD" -> "PYCARD"
+"FBXO48" -> "ARMC1"
+"FBXO48" -> "AIDA"
+"FBXO48" -> "PLAAT5"
+"FBXO48" -> "CRADD"
+"GSKIP" -> "ARMC1"
+"GSKIP" -> "TIPRL"
+"GSKIP" -> "MED20"
+"GSKIP" -> "TTC32"
+"GTF2E1" -> "NMD3"
+"GTF2E1" -> "ARMC1"
+"GTF2E1" -> "PDE6D"
+"GTF2E1" -> "GSKIP"
+"HPF1" -> "TIPRL"
+"HPF1" -> "PITPNB"
+"HPF1" -> "AIDA"
+"HPF1" -> "CENPP"
+"MED20" -> "PLAAT5"
+"MED20" -> "TIPRL"
+"MED20" -> "PDE6D"
+"MED20" -> "DUSP12"
+"MORF4L1" -> "PITPNB"
+"MORF4L1" -> "PLAAT5"
+"MORF4L1" -> "PITPNA"
+"MORF4L1" -> "EIF3H"
+"NMD3" -> "PITPNB"
+"NMD3" -> "TIPRL"
+"NMD3" -> "MED20"
+"NMD3" -> "ARMC1"
+"NSMCE1" -> "ERCC1"
+"NSMCE1" -> "RMND5B"
+"NSMCE1" -> "HPF1"
+"NSMCE1" -> "DPCD"
+"PDCD2" -> "DUSP12"
+"PDCD2" -> "TIPRL"
+"PDCD2" -> "PLAAT5"
+"PDCD2" -> "RMND5B"
+"PDE6D" -> "TIPRL"
+"PDE6D" -> "PITPNB"
+"PDE6D" -> "DPCD"
+"PDE6D" -> "PITPNA"
+"PITPNA" -> "PITPNB"
+"PITPNA" -> "TIPRL"
+"PITPNA" -> "PDE6D"
+"PITPNA" -> "PLAAT5"
+"PITPNB" -> "PITPNA"
+"PITPNB" -> "TIPRL"
+"PITPNB" -> "PDE6D"
+"PITPNB" -> "NMD3"
+"PLAAT5" -> "AIDA"
+"PLAAT5" -> "MED20"
+"PLAAT5" -> "ARMC1"
+"PLAAT5" -> "ERCC1"
+"PYCARD" -> "FADD"
+"PYCARD" -> "PYDC1"
+"PYCARD" -> "CRADD"
+"PYCARD" -> "PYDC2"
+"PYDC1" -> "PYDC2"
+"PYDC1" -> "FADD"
+"PYDC1" -> "CRADD"
+"PYDC1" -> "PYCARD"
+"PYDC2" -> "PYDC1"
+"PYDC2" -> "FADD"
+"PYDC2" -> "CARD18"
+"PYDC2" -> "CRADD"
+"REC114" -> "DUSP12"
+"REC114" -> "PLAAT5"
+"REC114" -> "PDE6D"
+"REC114" -> "MED20"
+"RMND5B" -> "ERCC1"
+"RMND5B" -> "PLAAT5"
+"RMND5B" -> "EIF3H"
+"RMND5B" -> "MED20"
+"ROPN1B" -> "CRADD"
+"ROPN1B" -> "FADD"
+"ROPN1B" -> "PYDC2"
+"ROPN1B" -> "REC114"
+"RRAGC" -> "AIDA"
+"RRAGC" -> "TIPRL"
+"RRAGC" -> "PLAAT5"
+"RRAGC" -> "ARCN1"
+"TBCB" -> "PDE6D"
+"TBCB" -> "TIPRL"
+"TBCB" -> "MED20"
+"TBCB" -> "PITPNB"
+"TIPRL" -> "PITPNB"
+"TIPRL" -> "PITPNA"
+"TIPRL" -> "PDE6D"
+"TIPRL" -> "MED20"
+"TTC32" -> "GSKIP"
+"TTC32" -> "CFAP299"
+"TTC32" -> "TIPRL"
+"TTC32" -> "HPF1"
+}

@@ -1,0 +1,262 @@
+digraph G {
+"ALPK3" ["l"="8.985,2.452"]
+"ARHGAP11A" ["l"="8.960,2.427"]
+"BORA" ["l"="9.007,2.507"]
+"BUB1" ["l"="8.887,2.538"]
+"BUB1B" ["l"="8.865,2.544"]
+"CDC25A" ["l"="9.165,2.528"]
+"CDC25C" ["l"="9.113,2.500"]
+"CDCA2" ["l"="8.932,2.485"]
+"CDCA8" ["l"="9.021,2.557"]
+"CENPU" ["l"="9.156,2.529"]
+"CKAP2" ["l"="8.906,2.434"]
+"CKAP2L" ["l"="8.967,2.551"]
+"DEPDC1" ["l"="9.072,2.536"]
+"DLGAP5" ["l"="8.934,2.518"]
+"DTX2" ["l"="8.727,2.515"]
+"DTX4" ["l"="8.675,2.487"]
+"E2F7" ["l"="8.833,2.454"]
+"E2F8" ["l"="8.774,2.510"]
+"ELOA" ["l"="9.011,2.627"]
+"FOXM1" ["l"="8.831,2.613"]
+"GTSE1" ["l"="9.000,2.664"]
+"HJURP" ["l"="8.922,2.528"]
+"HMGXB4" ["l"="8.923,2.504"]
+"KIF14" ["l"="8.756,2.539"]
+"KIF18A" ["l"="8.798,2.530"]
+"KIF18B" ["l"="8.852,2.627"]
+"KIF20A" ["l"="8.785,2.528"]
+"KIF22" ["l"="8.930,2.556"]
+"KIF23" ["l"="8.789,2.526"]
+"KIF2C" ["l"="8.946,2.467"]
+"KIFC1" ["l"="8.985,2.537"]
+"KNSTRN" ["l"="9.040,2.596"]
+"MICALL2" ["l"="8.718,2.506"]
+"MYBL2" ["l"="8.845,2.643"]
+"NAB2" ["l"="8.984,2.692"]
+"NCAPH" ["l"="9.042,2.684"]
+"NKD2" ["l"="8.868,2.488"]
+"NUSAP1" ["l"="8.996,2.601"]
+"PWWP2A" ["l"="9.072,2.588"]
+"RAD51AP1" ["l"="9.078,2.586"]
+"SGO1" ["l"="8.964,2.494"]
+"SGO2" ["l"="8.769,2.453"]
+"SKA3" ["l"="9.008,2.539"]
+"SNIP1" ["l"="8.826,2.576"]
+"SPOCD1" ["l"="8.958,2.580"]
+"SPTY2D1" ["l"="8.927,2.562"]
+"THAP5" ["l"="9.067,2.613"]
+"TICAM1" ["l"="8.920,2.545"]
+"TPX2" ["l"="8.976,2.615"]
+"TRAIP" ["l"="9.039,2.593"]
+"TTK" ["l"="8.933,2.546"]
+"USP29" ["l"="8.881,2.493"]
+"ALPK3" -> "SPOCD1"
+"ALPK3" -> "DTX4"
+"ALPK3" -> "ELOA"
+"ALPK3" -> "USP29"
+"ARHGAP11A" -> "CDCA2"
+"ARHGAP11A" -> "BORA"
+"ARHGAP11A" -> "DEPDC1"
+"ARHGAP11A" -> "HJURP"
+"BORA" -> "SKA3"
+"BORA" -> "HJURP"
+"BORA" -> "ARHGAP11A"
+"BORA" -> "CDCA2"
+"BUB1" -> "BUB1B"
+"BUB1" -> "DLGAP5"
+"BUB1" -> "CKAP2"
+"BUB1" -> "TTK"
+"BUB1B" -> "BUB1"
+"BUB1B" -> "DLGAP5"
+"BUB1B" -> "CKAP2"
+"BUB1B" -> "TTK"
+"CDC25A" -> "CDC25C"
+"CDC25A" -> "NCAPH"
+"CDC25A" -> "SKA3"
+"CDC25A" -> "FOXM1"
+"CDC25C" -> "CDC25A"
+"CDC25C" -> "BORA"
+"CDC25C" -> "SGO1"
+"CDC25C" -> "TRAIP"
+"CDCA2" -> "SGO1"
+"CDCA2" -> "HJURP"
+"CDCA2" -> "ARHGAP11A"
+"CDCA2" -> "SGO2"
+"CDCA8" -> "SKA3"
+"CDCA8" -> "NUSAP1"
+"CDCA8" -> "CKAP2L"
+"CDCA8" -> "KIF2C"
+"CENPU" -> "SKA3"
+"CENPU" -> "RAD51AP1"
+"CENPU" -> "SGO1"
+"CENPU" -> "CKAP2"
+"CKAP2" -> "CKAP2L"
+"CKAP2" -> "SGO1"
+"CKAP2" -> "DLGAP5"
+"CKAP2" -> "NUSAP1"
+"CKAP2L" -> "CKAP2"
+"CKAP2L" -> "SGO1"
+"CKAP2L" -> "DLGAP5"
+"CKAP2L" -> "HJURP"
+"DEPDC1" -> "ARHGAP11A"
+"DEPDC1" -> "HJURP"
+"DEPDC1" -> "CKAP2L"
+"DEPDC1" -> "CKAP2"
+"DLGAP5" -> "CKAP2"
+"DLGAP5" -> "CKAP2L"
+"DLGAP5" -> "BUB1"
+"DLGAP5" -> "SGO1"
+"DTX2" -> "DTX4"
+"DTX2" -> "TICAM1"
+"DTX2" -> "NAB2"
+"DTX2" -> "ELOA"
+"DTX4" -> "DTX2"
+"DTX4" -> "NAB2"
+"DTX4" -> "ELOA"
+"DTX4" -> "ALPK3"
+"E2F7" -> "E2F8"
+"E2F7" -> "FOXM1"
+"E2F7" -> "KIF18B"
+"E2F7" -> "SKA3"
+"E2F8" -> "E2F7"
+"E2F8" -> "FOXM1"
+"E2F8" -> "SKA3"
+"E2F8" -> "KIF18B"
+"ELOA" -> "SPTY2D1"
+"ELOA" -> "SNIP1"
+"ELOA" -> "HMGXB4"
+"ELOA" -> "PWWP2A"
+"FOXM1" -> "E2F7"
+"FOXM1" -> "KIF18B"
+"FOXM1" -> "SKA3"
+"FOXM1" -> "MYBL2"
+"GTSE1" -> "NUSAP1"
+"GTSE1" -> "HJURP"
+"GTSE1" -> "SGO1"
+"GTSE1" -> "CKAP2L"
+"HJURP" -> "SGO1"
+"HJURP" -> "CDCA2"
+"HJURP" -> "SKA3"
+"HJURP" -> "CKAP2L"
+"HMGXB4" -> "ELOA"
+"HMGXB4" -> "RAD51AP1"
+"HMGXB4" -> "PWWP2A"
+"HMGXB4" -> "CENPU"
+"KIF14" -> "KIF18A"
+"KIF14" -> "KIF2C"
+"KIF14" -> "CKAP2"
+"KIF14" -> "CKAP2L"
+"KIF18A" -> "KIF23"
+"KIF18A" -> "KIF18B"
+"KIF18A" -> "KIF14"
+"KIF18A" -> "ARHGAP11A"
+"KIF18B" -> "KIF18A"
+"KIF18B" -> "FOXM1"
+"KIF18B" -> "KIF22"
+"KIF18B" -> "E2F7"
+"KIF20A" -> "KIF18B"
+"KIF20A" -> "KIF23"
+"KIF20A" -> "KIF22"
+"KIF20A" -> "KIF2C"
+"KIF22" -> "KIF18B"
+"KIF22" -> "KIF2C"
+"KIF22" -> "FOXM1"
+"KIF22" -> "NUSAP1"
+"KIF23" -> "KIF18A"
+"KIF23" -> "KIF18B"
+"KIF23" -> "KIF14"
+"KIF23" -> "KIF20A"
+"KIF2C" -> "KIF14"
+"KIF2C" -> "KIF22"
+"KIF2C" -> "CDCA8"
+"KIF2C" -> "KNSTRN"
+"KIFC1" -> "KIF2C"
+"KIFC1" -> "KIF18B"
+"KIFC1" -> "CKAP2L"
+"KIFC1" -> "KIF22"
+"KNSTRN" -> "CKAP2"
+"KNSTRN" -> "KIF2C"
+"KNSTRN" -> "CKAP2L"
+"KNSTRN" -> "HJURP"
+"MICALL2" -> "DTX4"
+"MICALL2" -> "DTX2"
+"MICALL2" -> "SPOCD1"
+"MICALL2" -> "SPTY2D1"
+"MYBL2" -> "FOXM1"
+"MYBL2" -> "NCAPH"
+"MYBL2" -> "SKA3"
+"MYBL2" -> "E2F7"
+"NAB2" -> "ELOA"
+"NAB2" -> "DTX4"
+"NAB2" -> "SPOCD1"
+"NAB2" -> "SNIP1"
+"NCAPH" -> "SKA3"
+"NCAPH" -> "CDC25A"
+"NCAPH" -> "CDCA8"
+"NCAPH" -> "FOXM1"
+"NKD2" -> "SNIP1"
+"NKD2" -> "NAB2"
+"NKD2" -> "ELOA"
+"NKD2" -> "PWWP2A"
+"NUSAP1" -> "SGO1"
+"NUSAP1" -> "CKAP2"
+"NUSAP1" -> "GTSE1"
+"NUSAP1" -> "CKAP2L"
+"PWWP2A" -> "ELOA"
+"PWWP2A" -> "SNIP1"
+"PWWP2A" -> "SPTY2D1"
+"PWWP2A" -> "FOXM1"
+"RAD51AP1" -> "CENPU"
+"RAD51AP1" -> "SGO1"
+"RAD51AP1" -> "SKA3"
+"RAD51AP1" -> "NUSAP1"
+"SGO1" -> "CKAP2L"
+"SGO1" -> "CKAP2"
+"SGO1" -> "SKA3"
+"SGO1" -> "HJURP"
+"SGO2" -> "SGO1"
+"SGO2" -> "CDCA2"
+"SGO2" -> "CKAP2"
+"SGO2" -> "CKAP2L"
+"SKA3" -> "SGO1"
+"SKA3" -> "CENPU"
+"SKA3" -> "HJURP"
+"SKA3" -> "BORA"
+"SNIP1" -> "ELOA"
+"SNIP1" -> "SPTY2D1"
+"SNIP1" -> "PWWP2A"
+"SNIP1" -> "NKD2"
+"SPOCD1" -> "ALPK3"
+"SPOCD1" -> "NAB2"
+"SPOCD1" -> "ELOA"
+"SPOCD1" -> "DTX4"
+"SPTY2D1" -> "ELOA"
+"SPTY2D1" -> "SNIP1"
+"SPTY2D1" -> "PWWP2A"
+"SPTY2D1" -> "HJURP"
+"THAP5" -> "USP29"
+"THAP5" -> "PWWP2A"
+"THAP5" -> "SGO1"
+"THAP5" -> "DEPDC1"
+"TICAM1" -> "DTX2"
+"TICAM1" -> "SPOCD1"
+"TICAM1" -> "DTX4"
+"TICAM1" -> "NAB2"
+"TPX2" -> "DLGAP5"
+"TPX2" -> "CKAP2L"
+"TPX2" -> "GTSE1"
+"TPX2" -> "NUSAP1"
+"TRAIP" -> "SKA3"
+"TRAIP" -> "SGO1"
+"TRAIP" -> "CDCA8"
+"TRAIP" -> "HJURP"
+"TTK" -> "CKAP2"
+"TTK" -> "BUB1"
+"TTK" -> "DLGAP5"
+"TTK" -> "CKAP2L"
+"USP29" -> "HJURP"
+"USP29" -> "THAP5"
+"USP29" -> "FOXM1"
+"USP29" -> "ALPK3"
+}

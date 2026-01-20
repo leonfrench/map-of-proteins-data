@@ -1,0 +1,82 @@
+digraph G {
+"AQP1" ["l"="6.323,-2.262"]
+"AQP10" ["l"="6.327,-2.265"]
+"AQP2" ["l"="6.337,-2.267"]
+"AQP3" ["l"="6.333,-2.268"]
+"AQP4" ["l"="6.322,-2.264"]
+"AQP5" ["l"="6.323,-2.263"]
+"AQP6" ["l"="6.340,-2.271"]
+"AQP7" ["l"="6.341,-2.277"]
+"AQP8" ["l"="6.322,-2.263"]
+"AQP9" ["l"="6.343,-2.274"]
+"MIP" ["l"="6.332,-2.270"]
+"RHAG" ["l"="6.369,-2.286"]
+"RHBG" ["l"="6.382,-2.285"]
+"RHCE" ["l"="6.376,-2.288"]
+"RHCG" ["l"="6.383,-2.290"]
+"RHD" ["l"="6.386,-2.295"]
+"AQP1" -> "AQP4"
+"AQP1" -> "MIP"
+"AQP1" -> "AQP6"
+"AQP1" -> "AQP5"
+"AQP10" -> "MIP"
+"AQP10" -> "AQP7"
+"AQP10" -> "AQP6"
+"AQP10" -> "AQP9"
+"AQP2" -> "MIP"
+"AQP2" -> "AQP6"
+"AQP2" -> "AQP5"
+"AQP2" -> "AQP10"
+"AQP3" -> "AQP5"
+"AQP3" -> "MIP"
+"AQP3" -> "AQP9"
+"AQP3" -> "AQP10"
+"AQP4" -> "AQP1"
+"AQP4" -> "AQP6"
+"AQP4" -> "MIP"
+"AQP4" -> "AQP9"
+"AQP5" -> "AQP6"
+"AQP5" -> "MIP"
+"AQP5" -> "AQP2"
+"AQP5" -> "AQP3"
+"AQP6" -> "MIP"
+"AQP6" -> "AQP5"
+"AQP6" -> "AQP2"
+"AQP6" -> "AQP4"
+"AQP7" -> "AQP10"
+"AQP7" -> "MIP"
+"AQP7" -> "AQP6"
+"AQP7" -> "AQP9"
+"AQP8" -> "AQP5"
+"AQP8" -> "AQP6"
+"AQP8" -> "AQP2"
+"AQP8" -> "AQP1"
+"AQP9" -> "AQP10"
+"AQP9" -> "AQP4"
+"AQP9" -> "MIP"
+"AQP9" -> "AQP3"
+"MIP" -> "AQP6"
+"MIP" -> "AQP2"
+"MIP" -> "AQP10"
+"MIP" -> "AQP5"
+"RHAG" -> "RHD"
+"RHAG" -> "RHCE"
+"RHAG" -> "RHCG"
+"RHAG" -> "RHBG"
+"RHBG" -> "RHCG"
+"RHBG" -> "RHD"
+"RHBG" -> "AQP6"
+"RHBG" -> "RHCE"
+"RHCE" -> "RHD"
+"RHCE" -> "RHAG"
+"RHCE" -> "RHCG"
+"RHCE" -> "RHBG"
+"RHCG" -> "RHBG"
+"RHCG" -> "RHAG"
+"RHCG" -> "AQP6"
+"RHCG" -> "RHCE"
+"RHD" -> "RHCE"
+"RHD" -> "RHAG"
+"RHD" -> "RHBG"
+"RHD" -> "RHCG"
+}

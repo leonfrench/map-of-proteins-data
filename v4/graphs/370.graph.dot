@@ -1,0 +1,132 @@
+digraph G {
+"ADCK1" ["l"="12.418,1.657"]
+"ADCK2" ["l"="12.343,1.728"]
+"ADCK5" ["l"="12.461,1.648"]
+"CBWD5" ["l"="12.396,1.865"]
+"CBWD6" ["l"="12.424,1.846"]
+"COQ8A" ["l"="12.334,1.718"]
+"COQ8B" ["l"="12.314,1.701"]
+"ELP3" ["l"="12.472,1.715"]
+"ENDOV" ["l"="12.403,1.818"]
+"ETNK2" ["l"="12.330,1.729"]
+"FAM118A" ["l"="12.267,1.639"]
+"FAM118B" ["l"="12.397,1.778"]
+"FARS2" ["l"="12.381,1.713"]
+"GLYATL2" ["l"="12.411,1.719"]
+"GMPPA" ["l"="12.360,1.605"]
+"HEXD" ["l"="12.303,1.614"]
+"KDM8" ["l"="12.421,1.828"]
+"LACC1" ["l"="12.335,1.744"]
+"MPI" ["l"="12.315,1.720"]
+"OSGEPL1" ["l"="12.413,1.665"]
+"PFKFB2" ["l"="12.423,1.726"]
+"PGPEP1L" ["l"="12.411,1.811"]
+"POLG2" ["l"="12.301,1.722"]
+"RCL1" ["l"="12.398,1.806"]
+"RTCA" ["l"="12.448,1.698"]
+"XPNPEP3" ["l"="12.379,1.649"]
+"ADCK1" -> "ADCK5"
+"ADCK1" -> "ADCK2"
+"ADCK1" -> "COQ8B"
+"ADCK1" -> "FARS2"
+"ADCK2" -> "ADCK1"
+"ADCK2" -> "ADCK5"
+"ADCK2" -> "KDM8"
+"ADCK2" -> "COQ8B"
+"ADCK5" -> "ADCK1"
+"ADCK5" -> "COQ8B"
+"ADCK5" -> "ADCK2"
+"ADCK5" -> "KDM8"
+"CBWD5" -> "CBWD6"
+"CBWD5" -> "ELP3"
+"CBWD5" -> "HEXD"
+"CBWD5" -> "ENDOV"
+"CBWD6" -> "CBWD5"
+"CBWD6" -> "ELP3"
+"CBWD6" -> "OSGEPL1"
+"CBWD6" -> "ENDOV"
+"COQ8A" -> "COQ8B"
+"COQ8A" -> "ADCK1"
+"COQ8A" -> "ADCK5"
+"COQ8A" -> "ADCK2"
+"COQ8B" -> "COQ8A"
+"COQ8B" -> "ADCK5"
+"COQ8B" -> "ADCK1"
+"COQ8B" -> "ADCK2"
+"ELP3" -> "KDM8"
+"ELP3" -> "RCL1"
+"ELP3" -> "XPNPEP3"
+"ELP3" -> "OSGEPL1"
+"ENDOV" -> "PGPEP1L"
+"ENDOV" -> "KDM8"
+"ENDOV" -> "MPI"
+"ENDOV" -> "HEXD"
+"ETNK2" -> "KDM8"
+"ETNK2" -> "HEXD"
+"ETNK2" -> "MPI"
+"ETNK2" -> "FARS2"
+"FAM118A" -> "FAM118B"
+"FAM118A" -> "ENDOV"
+"FAM118A" -> "ADCK5"
+"FAM118A" -> "KDM8"
+"FAM118B" -> "FAM118A"
+"FAM118B" -> "FARS2"
+"FAM118B" -> "XPNPEP3"
+"FAM118B" -> "ETNK2"
+"FARS2" -> "ADCK1"
+"FARS2" -> "KDM8"
+"FARS2" -> "ETNK2"
+"FARS2" -> "POLG2"
+"GLYATL2" -> "ELP3"
+"GLYATL2" -> "KDM8"
+"GLYATL2" -> "XPNPEP3"
+"GLYATL2" -> "HEXD"
+"GMPPA" -> "ENDOV"
+"GMPPA" -> "MPI"
+"GMPPA" -> "ELP3"
+"GMPPA" -> "XPNPEP3"
+"HEXD" -> "ETNK2"
+"HEXD" -> "KDM8"
+"HEXD" -> "ELP3"
+"HEXD" -> "ENDOV"
+"KDM8" -> "MPI"
+"KDM8" -> "ENDOV"
+"KDM8" -> "XPNPEP3"
+"KDM8" -> "FARS2"
+"LACC1" -> "OSGEPL1"
+"LACC1" -> "XPNPEP3"
+"LACC1" -> "KDM8"
+"LACC1" -> "ELP3"
+"MPI" -> "KDM8"
+"MPI" -> "XPNPEP3"
+"MPI" -> "ADCK1"
+"MPI" -> "ETNK2"
+"OSGEPL1" -> "XPNPEP3"
+"OSGEPL1" -> "RTCA"
+"OSGEPL1" -> "LACC1"
+"OSGEPL1" -> "ELP3"
+"PFKFB2" -> "ELP3"
+"PFKFB2" -> "ENDOV"
+"PFKFB2" -> "ETNK2"
+"PFKFB2" -> "FARS2"
+"PGPEP1L" -> "ENDOV"
+"PGPEP1L" -> "HEXD"
+"PGPEP1L" -> "KDM8"
+"PGPEP1L" -> "FAM118A"
+"POLG2" -> "FARS2"
+"POLG2" -> "KDM8"
+"POLG2" -> "OSGEPL1"
+"POLG2" -> "ELP3"
+"RCL1" -> "RTCA"
+"RCL1" -> "ELP3"
+"RCL1" -> "OSGEPL1"
+"RCL1" -> "ADCK1"
+"RTCA" -> "RCL1"
+"RTCA" -> "OSGEPL1"
+"RTCA" -> "ELP3"
+"RTCA" -> "ENDOV"
+"XPNPEP3" -> "KDM8"
+"XPNPEP3" -> "MPI"
+"XPNPEP3" -> "OSGEPL1"
+"XPNPEP3" -> "ELP3"
+}

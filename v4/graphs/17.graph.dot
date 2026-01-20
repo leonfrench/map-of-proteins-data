@@ -1,0 +1,337 @@
+digraph G {
+"BFSP1" ["l"="20.563,2.548"]
+"BFSP2" ["l"="20.650,2.524"]
+"DES" ["l"="20.633,2.522"]
+"GFAP" ["l"="20.615,2.530"]
+"IFFO1" ["l"="20.577,2.561"]
+"IFFO2" ["l"="20.617,2.537"]
+"INA" ["l"="20.608,2.539"]
+"KRT1" ["l"="20.767,2.421"]
+"KRT10" ["l"="20.760,2.427"]
+"KRT12" ["l"="20.693,2.501"]
+"KRT13" ["l"="20.696,2.486"]
+"KRT14" ["l"="20.693,2.487"]
+"KRT15" ["l"="20.685,2.493"]
+"KRT16" ["l"="20.690,2.490"]
+"KRT17" ["l"="20.675,2.502"]
+"KRT18" ["l"="20.661,2.509"]
+"KRT19" ["l"="20.659,2.511"]
+"KRT2" ["l"="20.765,2.424"]
+"KRT20" ["l"="20.652,2.523"]
+"KRT23" ["l"="20.651,2.523"]
+"KRT24" ["l"="20.689,2.493"]
+"KRT25" ["l"="20.660,2.518"]
+"KRT26" ["l"="20.659,2.517"]
+"KRT27" ["l"="20.659,2.518"]
+"KRT28" ["l"="20.651,2.525"]
+"KRT3" ["l"="20.766,2.423"]
+"KRT31" ["l"="20.638,2.537"]
+"KRT32" ["l"="20.649,2.528"]
+"KRT33A" ["l"="20.644,2.534"]
+"KRT33B" ["l"="20.634,2.544"]
+"KRT34" ["l"="20.638,2.534"]
+"KRT35" ["l"="20.642,2.532"]
+"KRT36" ["l"="20.645,2.534"]
+"KRT37" ["l"="20.647,2.531"]
+"KRT38" ["l"="20.653,2.521"]
+"KRT39" ["l"="20.606,2.571"]
+"KRT4" ["l"="20.735,2.446"]
+"KRT40" ["l"="20.641,2.537"]
+"KRT5" ["l"="20.752,2.434"]
+"KRT6A" ["l"="20.750,2.436"]
+"KRT6B" ["l"="20.741,2.442"]
+"KRT6C" ["l"="20.769,2.417"]
+"KRT7" ["l"="20.674,2.496"]
+"KRT71" ["l"="20.712,2.463"]
+"KRT72" ["l"="20.690,2.480"]
+"KRT73" ["l"="20.699,2.477"]
+"KRT74" ["l"="20.669,2.503"]
+"KRT75" ["l"="20.723,2.458"]
+"KRT76" ["l"="20.798,2.390"]
+"KRT77" ["l"="20.769,2.418"]
+"KRT78" ["l"="20.717,2.456"]
+"KRT79" ["l"="20.723,2.453"]
+"KRT8" ["l"="20.671,2.495"]
+"KRT80" ["l"="20.620,2.542"]
+"KRT81" ["l"="20.673,2.500"]
+"KRT82" ["l"="20.669,2.505"]
+"KRT83" ["l"="20.634,2.537"]
+"KRT84" ["l"="20.699,2.477"]
+"KRT85" ["l"="20.665,2.507"]
+"KRT86" ["l"="20.643,2.541"]
+"KRT9" ["l"="20.763,2.425"]
+"LMNA" ["l"="20.598,2.528"]
+"LMNB1" ["l"="20.584,2.531"]
+"LMNB2" ["l"="20.562,2.525"]
+"NEFL" ["l"="20.582,2.543"]
+"PRPH" ["l"="20.592,2.559"]
+"VIM" ["l"="20.621,2.529"]
+"BFSP1" -> "INA"
+"BFSP1" -> "KRT80"
+"BFSP1" -> "BFSP2"
+"BFSP1" -> "GFAP"
+"BFSP2" -> "KRT35"
+"BFSP2" -> "KRT26"
+"BFSP2" -> "KRT36"
+"BFSP2" -> "KRT27"
+"DES" -> "PRPH"
+"DES" -> "GFAP"
+"DES" -> "KRT8"
+"DES" -> "KRT19"
+"GFAP" -> "DES"
+"GFAP" -> "KRT74"
+"GFAP" -> "PRPH"
+"GFAP" -> "KRT36"
+"IFFO1" -> "IFFO2"
+"IFFO1" -> "GFAP"
+"IFFO1" -> "INA"
+"IFFO1" -> "KRT80"
+"IFFO2" -> "IFFO1"
+"IFFO2" -> "KRT80"
+"IFFO2" -> "KRT36"
+"IFFO2" -> "KRT82"
+"INA" -> "PRPH"
+"INA" -> "NEFL"
+"INA" -> "KRT80"
+"INA" -> "DES"
+"KRT1" -> "KRT2"
+"KRT1" -> "KRT76"
+"KRT1" -> "KRT77"
+"KRT1" -> "KRT3"
+"KRT10" -> "KRT9"
+"KRT10" -> "KRT1"
+"KRT10" -> "KRT2"
+"KRT10" -> "KRT77"
+"KRT12" -> "KRT13"
+"KRT12" -> "KRT24"
+"KRT12" -> "KRT75"
+"KRT12" -> "KRT15"
+"KRT13" -> "KRT16"
+"KRT13" -> "KRT14"
+"KRT13" -> "KRT15"
+"KRT13" -> "KRT17"
+"KRT14" -> "KRT16"
+"KRT14" -> "KRT15"
+"KRT14" -> "KRT17"
+"KRT14" -> "KRT13"
+"KRT15" -> "KRT14"
+"KRT15" -> "KRT17"
+"KRT15" -> "KRT13"
+"KRT15" -> "KRT19"
+"KRT16" -> "KRT14"
+"KRT16" -> "KRT13"
+"KRT16" -> "KRT17"
+"KRT16" -> "KRT15"
+"KRT17" -> "KRT14"
+"KRT17" -> "KRT19"
+"KRT17" -> "KRT15"
+"KRT17" -> "KRT13"
+"KRT18" -> "KRT19"
+"KRT18" -> "KRT8"
+"KRT18" -> "KRT17"
+"KRT18" -> "KRT7"
+"KRT19" -> "KRT18"
+"KRT19" -> "KRT17"
+"KRT19" -> "KRT8"
+"KRT19" -> "KRT15"
+"KRT2" -> "KRT1"
+"KRT2" -> "KRT76"
+"KRT2" -> "KRT77"
+"KRT2" -> "KRT3"
+"KRT20" -> "KRT23"
+"KRT20" -> "KRT18"
+"KRT20" -> "KRT33B"
+"KRT20" -> "KRT27"
+"KRT23" -> "KRT38"
+"KRT23" -> "KRT27"
+"KRT23" -> "KRT80"
+"KRT23" -> "KRT20"
+"KRT24" -> "KRT27"
+"KRT24" -> "KRT75"
+"KRT24" -> "KRT12"
+"KRT24" -> "KRT26"
+"KRT25" -> "KRT27"
+"KRT25" -> "KRT28"
+"KRT25" -> "KRT26"
+"KRT25" -> "KRT36"
+"KRT26" -> "KRT27"
+"KRT26" -> "KRT28"
+"KRT26" -> "KRT35"
+"KRT26" -> "KRT25"
+"KRT27" -> "KRT28"
+"KRT27" -> "KRT26"
+"KRT27" -> "KRT25"
+"KRT27" -> "KRT35"
+"KRT28" -> "KRT27"
+"KRT28" -> "KRT26"
+"KRT28" -> "KRT25"
+"KRT28" -> "KRT35"
+"KRT3" -> "KRT76"
+"KRT3" -> "KRT2"
+"KRT3" -> "KRT1"
+"KRT3" -> "KRT5"
+"KRT31" -> "KRT33B"
+"KRT31" -> "KRT33A"
+"KRT31" -> "KRT36"
+"KRT31" -> "KRT32"
+"KRT32" -> "KRT33B"
+"KRT32" -> "KRT36"
+"KRT32" -> "KRT37"
+"KRT32" -> "KRT40"
+"KRT33A" -> "KRT33B"
+"KRT33A" -> "KRT36"
+"KRT33A" -> "KRT32"
+"KRT33A" -> "KRT34"
+"KRT33B" -> "KRT36"
+"KRT33B" -> "KRT33A"
+"KRT33B" -> "KRT32"
+"KRT33B" -> "KRT35"
+"KRT34" -> "KRT35"
+"KRT34" -> "KRT33A"
+"KRT34" -> "KRT32"
+"KRT34" -> "KRT33B"
+"KRT35" -> "KRT36"
+"KRT35" -> "KRT34"
+"KRT35" -> "KRT37"
+"KRT35" -> "KRT38"
+"KRT36" -> "KRT33B"
+"KRT36" -> "KRT35"
+"KRT36" -> "KRT33A"
+"KRT36" -> "KRT32"
+"KRT37" -> "KRT38"
+"KRT37" -> "KRT35"
+"KRT37" -> "KRT32"
+"KRT37" -> "KRT33B"
+"KRT38" -> "KRT37"
+"KRT38" -> "KRT35"
+"KRT38" -> "KRT33B"
+"KRT38" -> "KRT82"
+"KRT39" -> "KRT40"
+"KRT39" -> "KRT33B"
+"KRT39" -> "KRT35"
+"KRT39" -> "KRT32"
+"KRT4" -> "KRT75"
+"KRT4" -> "KRT6A"
+"KRT4" -> "KRT6B"
+"KRT4" -> "KRT6C"
+"KRT40" -> "KRT32"
+"KRT40" -> "KRT33B"
+"KRT40" -> "KRT34"
+"KRT40" -> "KRT39"
+"KRT5" -> "KRT6A"
+"KRT5" -> "KRT6B"
+"KRT5" -> "KRT75"
+"KRT5" -> "KRT3"
+"KRT6A" -> "KRT6C"
+"KRT6A" -> "KRT6B"
+"KRT6A" -> "KRT5"
+"KRT6A" -> "KRT4"
+"KRT6B" -> "KRT6C"
+"KRT6B" -> "KRT6A"
+"KRT6B" -> "KRT75"
+"KRT6B" -> "KRT5"
+"KRT6C" -> "KRT6A"
+"KRT6C" -> "KRT6B"
+"KRT6C" -> "KRT76"
+"KRT6C" -> "KRT75"
+"KRT7" -> "KRT8"
+"KRT7" -> "KRT19"
+"KRT7" -> "KRT72"
+"KRT7" -> "KRT18"
+"KRT71" -> "KRT73"
+"KRT71" -> "KRT74"
+"KRT71" -> "KRT72"
+"KRT71" -> "KRT84"
+"KRT72" -> "KRT73"
+"KRT72" -> "KRT71"
+"KRT72" -> "KRT84"
+"KRT72" -> "KRT74"
+"KRT73" -> "KRT71"
+"KRT73" -> "KRT72"
+"KRT73" -> "KRT74"
+"KRT73" -> "KRT84"
+"KRT74" -> "KRT71"
+"KRT74" -> "KRT73"
+"KRT74" -> "KRT82"
+"KRT74" -> "KRT85"
+"KRT75" -> "KRT4"
+"KRT75" -> "KRT73"
+"KRT75" -> "KRT84"
+"KRT75" -> "KRT6B"
+"KRT76" -> "KRT2"
+"KRT76" -> "KRT6C"
+"KRT76" -> "KRT3"
+"KRT76" -> "KRT77"
+"KRT77" -> "KRT2"
+"KRT77" -> "KRT76"
+"KRT77" -> "KRT1"
+"KRT77" -> "KRT3"
+"KRT78" -> "KRT73"
+"KRT78" -> "KRT4"
+"KRT78" -> "KRT72"
+"KRT78" -> "KRT74"
+"KRT79" -> "KRT71"
+"KRT79" -> "KRT84"
+"KRT79" -> "KRT73"
+"KRT79" -> "KRT75"
+"KRT8" -> "KRT18"
+"KRT8" -> "KRT19"
+"KRT8" -> "KRT7"
+"KRT8" -> "KRT71"
+"KRT80" -> "KRT35"
+"KRT80" -> "KRT83"
+"KRT80" -> "KRT82"
+"KRT80" -> "KRT38"
+"KRT81" -> "KRT86"
+"KRT81" -> "KRT83"
+"KRT81" -> "KRT85"
+"KRT81" -> "KRT35"
+"KRT82" -> "KRT85"
+"KRT82" -> "KRT84"
+"KRT82" -> "KRT74"
+"KRT82" -> "KRT83"
+"KRT83" -> "KRT86"
+"KRT83" -> "KRT85"
+"KRT83" -> "KRT81"
+"KRT83" -> "KRT82"
+"KRT84" -> "KRT73"
+"KRT84" -> "KRT71"
+"KRT84" -> "KRT75"
+"KRT84" -> "KRT79"
+"KRT85" -> "KRT83"
+"KRT85" -> "KRT82"
+"KRT85" -> "KRT74"
+"KRT85" -> "KRT86"
+"KRT86" -> "KRT81"
+"KRT86" -> "KRT83"
+"KRT86" -> "KRT85"
+"KRT86" -> "KRT35"
+"KRT9" -> "KRT10"
+"KRT9" -> "KRT2"
+"KRT9" -> "KRT1"
+"KRT9" -> "KRT77"
+"LMNA" -> "LMNB2"
+"LMNA" -> "KRT8"
+"LMNA" -> "GFAP"
+"LMNA" -> "VIM"
+"LMNB1" -> "LMNB2"
+"LMNB1" -> "LMNA"
+"LMNB1" -> "GFAP"
+"LMNB1" -> "KRT33B"
+"LMNB2" -> "LMNB1"
+"LMNB2" -> "LMNA"
+"LMNB2" -> "GFAP"
+"LMNB2" -> "IFFO2"
+"NEFL" -> "INA"
+"NEFL" -> "PRPH"
+"NEFL" -> "DES"
+"NEFL" -> "BFSP1"
+"PRPH" -> "INA"
+"PRPH" -> "DES"
+"PRPH" -> "VIM"
+"PRPH" -> "GFAP"
+"VIM" -> "PRPH"
+"VIM" -> "DES"
+"VIM" -> "GFAP"
+"VIM" -> "KRT34"
+}

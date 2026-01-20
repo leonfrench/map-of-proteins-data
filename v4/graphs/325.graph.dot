@@ -1,0 +1,87 @@
+digraph G {
+"ABI3" ["l"="8.498,1.590"]
+"APBB1IP" ["l"="8.538,1.488"]
+"APC" ["l"="8.463,1.542"]
+"APC2" ["l"="8.537,1.542"]
+"ARHGAP32" ["l"="8.550,1.507"]
+"C2CD6" ["l"="8.594,1.559"]
+"CAP1" ["l"="8.551,1.532"]
+"EPS8" ["l"="8.557,1.377"]
+"LMTK3" ["l"="8.552,1.587"]
+"LRRC36" ["l"="8.581,1.461"]
+"NEK4" ["l"="8.567,1.422"]
+"PRC1" ["l"="8.566,1.523"]
+"RAB44" ["l"="8.542,1.461"]
+"RSPH6A" ["l"="8.557,1.394"]
+"SCAPER" ["l"="8.571,1.464"]
+"SHANK1" ["l"="8.571,1.352"]
+"WNK4" ["l"="8.546,1.430"]
+"ABI3" -> "CAP1"
+"ABI3" -> "APBB1IP"
+"ABI3" -> "WNK4"
+"ABI3" -> "EPS8"
+"APBB1IP" -> "EPS8"
+"APBB1IP" -> "ABI3"
+"APBB1IP" -> "CAP1"
+"APBB1IP" -> "WNK4"
+"APC" -> "APC2"
+"APC" -> "ARHGAP32"
+"APC" -> "SHANK1"
+"APC" -> "C2CD6"
+"APC2" -> "SHANK1"
+"APC2" -> "APC"
+"APC2" -> "LMTK3"
+"APC2" -> "ARHGAP32"
+"ARHGAP32" -> "APC"
+"ARHGAP32" -> "SHANK1"
+"ARHGAP32" -> "APC2"
+"ARHGAP32" -> "LMTK3"
+"C2CD6" -> "NEK4"
+"C2CD6" -> "LRRC36"
+"C2CD6" -> "APC"
+"C2CD6" -> "APC2"
+"CAP1" -> "ABI3"
+"CAP1" -> "EPS8"
+"CAP1" -> "APBB1IP"
+"CAP1" -> "WNK4"
+"EPS8" -> "APBB1IP"
+"EPS8" -> "CAP1"
+"EPS8" -> "ABI3"
+"EPS8" -> "NEK4"
+"LMTK3" -> "APC2"
+"LMTK3" -> "WNK4"
+"LMTK3" -> "SHANK1"
+"LMTK3" -> "RAB44"
+"LRRC36" -> "NEK4"
+"LRRC36" -> "RAB44"
+"LRRC36" -> "C2CD6"
+"LRRC36" -> "SCAPER"
+"NEK4" -> "LRRC36"
+"NEK4" -> "RAB44"
+"NEK4" -> "WNK4"
+"NEK4" -> "C2CD6"
+"PRC1" -> "LRRC36"
+"PRC1" -> "RAB44"
+"PRC1" -> "NEK4"
+"PRC1" -> "WNK4"
+"RAB44" -> "WNK4"
+"RAB44" -> "LMTK3"
+"RAB44" -> "NEK4"
+"RAB44" -> "LRRC36"
+"RSPH6A" -> "RAB44"
+"RSPH6A" -> "WNK4"
+"RSPH6A" -> "NEK4"
+"RSPH6A" -> "APC2"
+"SCAPER" -> "APC"
+"SCAPER" -> "RAB44"
+"SCAPER" -> "LRRC36"
+"SCAPER" -> "C2CD6"
+"SHANK1" -> "APC2"
+"SHANK1" -> "ARHGAP32"
+"SHANK1" -> "LMTK3"
+"SHANK1" -> "WNK4"
+"WNK4" -> "LMTK3"
+"WNK4" -> "RAB44"
+"WNK4" -> "NEK4"
+"WNK4" -> "SHANK1"
+}

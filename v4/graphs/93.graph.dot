@@ -1,0 +1,162 @@
+digraph G {
+"ARF1" ["l"="7.551,-7.080"]
+"ARF3" ["l"="7.487,-7.147"]
+"ARF5" ["l"="7.536,-7.104"]
+"ARL17A" ["l"="7.552,-7.090"]
+"CDC42" ["l"="7.519,-7.112"]
+"NRAS" ["l"="7.529,-7.110"]
+"RAB10" ["l"="7.552,-7.091"]
+"RAB11A" ["l"="7.559,-7.080"]
+"RAB11B" ["l"="7.522,-7.123"]
+"RAB13" ["l"="7.508,-7.137"]
+"RAB1B" ["l"="7.461,-7.183"]
+"RAB2A" ["l"="7.548,-7.096"]
+"RAB2B" ["l"="7.532,-7.111"]
+"RAB30" ["l"="7.563,-7.085"]
+"RAB35" ["l"="7.535,-7.106"]
+"RAB3A" ["l"="7.544,-7.101"]
+"RAB3C" ["l"="7.526,-7.121"]
+"RAB5A" ["l"="7.552,-7.094"]
+"RAB5B" ["l"="7.448,-7.203"]
+"RAB5C" ["l"="7.496,-7.150"]
+"RAB6A" ["l"="7.469,-7.176"]
+"RAB6B" ["l"="7.527,-7.099"]
+"RAB6D" ["l"="7.551,-7.088"]
+"RAB7A" ["l"="7.549,-7.097"]
+"RAB8A" ["l"="7.481,-7.164"]
+"RAB8B" ["l"="7.543,-7.084"]
+"RAC1" ["l"="7.520,-7.115"]
+"RAC2" ["l"="7.517,-7.118"]
+"RAC3" ["l"="7.503,-7.133"]
+"RHOA" ["l"="7.481,-7.013"]
+"RHOC" ["l"="7.556,-7.069"]
+"RHOG" ["l"="7.514,-7.126"]
+"ARF1" -> "ARF3"
+"ARF1" -> "RHOA"
+"ARF1" -> "ARF5"
+"ARF1" -> "RAB11A"
+"ARF3" -> "RAB11A"
+"ARF3" -> "RAB1B"
+"ARF3" -> "RAB6B"
+"ARF3" -> "RAB2B"
+"ARF5" -> "ARF1"
+"ARF5" -> "ARF3"
+"ARF5" -> "RAB1B"
+"ARF5" -> "RAB13"
+"ARL17A" -> "RAB6D"
+"ARL17A" -> "RAB2B"
+"ARL17A" -> "RAB8B"
+"ARL17A" -> "RAB35"
+"CDC42" -> "RAC1"
+"CDC42" -> "RHOA"
+"CDC42" -> "RAB11A"
+"CDC42" -> "ARF3"
+"NRAS" -> "RAB11A"
+"NRAS" -> "RAB2B"
+"NRAS" -> "RAB35"
+"NRAS" -> "RAB30"
+"RAB10" -> "RAB2A"
+"RAB10" -> "RAB8B"
+"RAB10" -> "RAB35"
+"RAB10" -> "RAB7A"
+"RAB11A" -> "RAB2A"
+"RAB11A" -> "RAB2B"
+"RAB11A" -> "RAB6A"
+"RAB11A" -> "RAC1"
+"RAB11B" -> "RAB1B"
+"RAB11B" -> "RAB2B"
+"RAB11B" -> "RAB6A"
+"RAB11B" -> "RAB11A"
+"RAB13" -> "RAB35"
+"RAB13" -> "RAB8A"
+"RAB13" -> "RAB8B"
+"RAB13" -> "RAB10"
+"RAB1B" -> "RAB11B"
+"RAB1B" -> "RAB35"
+"RAB1B" -> "RAB11A"
+"RAB1B" -> "ARF3"
+"RAB2A" -> "RAB6A"
+"RAB2A" -> "RAB5A"
+"RAB2A" -> "RAB11A"
+"RAB2A" -> "RAB10"
+"RAB2B" -> "RAB6A"
+"RAB2B" -> "RAB2A"
+"RAB2B" -> "RAB35"
+"RAB2B" -> "RAB11A"
+"RAB30" -> "RAB2B"
+"RAB30" -> "RAB35"
+"RAB30" -> "NRAS"
+"RAB30" -> "RAB11A"
+"RAB35" -> "RAB8B"
+"RAB35" -> "RAB2B"
+"RAB35" -> "RAB10"
+"RAB35" -> "RAB6B"
+"RAB3A" -> "RAB3C"
+"RAB3A" -> "RAB35"
+"RAB3A" -> "RAB11B"
+"RAB3A" -> "RAB2B"
+"RAB3C" -> "RAB3A"
+"RAB3C" -> "RAB6A"
+"RAB3C" -> "RAB2B"
+"RAB3C" -> "RAB6B"
+"RAB5A" -> "RAB6A"
+"RAB5A" -> "RAB2A"
+"RAB5A" -> "RAB5C"
+"RAB5A" -> "RAB11A"
+"RAB5B" -> "RAB2B"
+"RAB5B" -> "RAB5A"
+"RAB5B" -> "RAB6A"
+"RAB5B" -> "RAB1B"
+"RAB5C" -> "RAB5A"
+"RAB5C" -> "RAB7A"
+"RAB5C" -> "RAB6A"
+"RAB5C" -> "RAB35"
+"RAB6A" -> "RAB2A"
+"RAB6A" -> "RAB5A"
+"RAB6A" -> "RAB2B"
+"RAB6A" -> "RAB6B"
+"RAB6B" -> "RAB6A"
+"RAB6B" -> "RAB35"
+"RAB6B" -> "RAB2B"
+"RAB6B" -> "RAB8B"
+"RAB6D" -> "ARL17A"
+"RAB6D" -> "RAB2B"
+"RAB6D" -> "RAB8B"
+"RAB6D" -> "RAB6A"
+"RAB7A" -> "RAB10"
+"RAB7A" -> "RAB5C"
+"RAB7A" -> "RAB5A"
+"RAB7A" -> "RAB6A"
+"RAB8A" -> "RAB8B"
+"RAB8A" -> "RAB2A"
+"RAB8A" -> "RAB35"
+"RAB8A" -> "RAB1B"
+"RAB8B" -> "RAB8A"
+"RAB8B" -> "RAB35"
+"RAB8B" -> "RAB10"
+"RAB8B" -> "RAB6A"
+"RAC1" -> "CDC42"
+"RAC1" -> "RAB11A"
+"RAC1" -> "RHOA"
+"RAC1" -> "RAC3"
+"RAC2" -> "RHOG"
+"RAC2" -> "RAC3"
+"RAC2" -> "RHOA"
+"RAC2" -> "RAB1B"
+"RAC3" -> "RAC2"
+"RAC3" -> "RAC1"
+"RAC3" -> "RAB11A"
+"RAC3" -> "RHOC"
+"RHOA" -> "CDC42"
+"RHOA" -> "RAC1"
+"RHOA" -> "RHOC"
+"RHOA" -> "RAC2"
+"RHOC" -> "RHOA"
+"RHOC" -> "RAC3"
+"RHOC" -> "RAC2"
+"RHOC" -> "CDC42"
+"RHOG" -> "RAC2"
+"RHOG" -> "RHOA"
+"RHOG" -> "RAC3"
+"RHOG" -> "RAB7A"
+}

@@ -1,0 +1,187 @@
+digraph G {
+"ATG12" ["l"="10.939,2.765"]
+"C17orf75" ["l"="10.851,2.553"]
+"C2orf80" ["l"="10.988,2.785"]
+"CDC37L1" ["l"="10.842,2.566"]
+"CHIC2" ["l"="10.874,2.580"]
+"CYGB" ["l"="10.844,2.501"]
+"EID3" ["l"="10.835,2.571"]
+"EPM2A" ["l"="10.878,2.539"]
+"FGF2" ["l"="10.946,2.646"]
+"FIBP" ["l"="10.921,2.689"]
+"GID4" ["l"="10.935,2.636"]
+"GINS3" ["l"="11.038,2.708"]
+"GLTP" ["l"="10.882,2.704"]
+"GTF2F2" ["l"="10.971,2.664"]
+"LIX1" ["l"="10.760,2.516"]
+"MAEA" ["l"="10.859,2.555"]
+"MED27" ["l"="10.806,2.632"]
+"MIS18A" ["l"="10.991,2.664"]
+"MTURN" ["l"="10.951,2.718"]
+"MZT1" ["l"="11.056,2.788"]
+"NAA11" ["l"="11.021,2.535"]
+"NAT16" ["l"="10.918,2.493"]
+"NSMCE4A" ["l"="11.039,2.616"]
+"NUDCD3" ["l"="10.895,2.648"]
+"OIP5" ["l"="11.013,2.700"]
+"POLR2D" ["l"="11.056,2.793"]
+"PPIL2" ["l"="10.857,2.500"]
+"RMND5A" ["l"="10.800,2.514"]
+"ROGDI" ["l"="10.833,2.454"]
+"ROPN1L" ["l"="11.049,2.638"]
+"RWDD4" ["l"="10.950,2.789"]
+"SNAPC3" ["l"="10.810,2.473"]
+"SPSB3" ["l"="10.913,2.572"]
+"SUPT16H" ["l"="10.876,2.661"]
+"UBAC1" ["l"="11.071,2.640"]
+"UBTD2" ["l"="10.974,2.525"]
+"YEATS4" ["l"="11.059,2.741"]
+"ATG12" -> "POLR2D"
+"ATG12" -> "RWDD4"
+"ATG12" -> "UBTD2"
+"ATG12" -> "GID4"
+"C17orf75" -> "FIBP"
+"C17orf75" -> "POLR2D"
+"C17orf75" -> "EPM2A"
+"C17orf75" -> "MTURN"
+"C2orf80" -> "C17orf75"
+"C2orf80" -> "ROGDI"
+"C2orf80" -> "EPM2A"
+"C2orf80" -> "RWDD4"
+"CDC37L1" -> "RWDD4"
+"CDC37L1" -> "SNAPC3"
+"CDC37L1" -> "NUDCD3"
+"CDC37L1" -> "GID4"
+"CHIC2" -> "GID4"
+"CHIC2" -> "RWDD4"
+"CHIC2" -> "SNAPC3"
+"CHIC2" -> "C17orf75"
+"CYGB" -> "GLTP"
+"CYGB" -> "EPM2A"
+"CYGB" -> "ROGDI"
+"CYGB" -> "RWDD4"
+"EID3" -> "NSMCE4A"
+"EID3" -> "GINS3"
+"EID3" -> "SNAPC3"
+"EID3" -> "MIS18A"
+"EPM2A" -> "GID4"
+"EPM2A" -> "FGF2"
+"EPM2A" -> "C17orf75"
+"EPM2A" -> "SNAPC3"
+"FGF2" -> "GID4"
+"FGF2" -> "EPM2A"
+"FGF2" -> "C17orf75"
+"FGF2" -> "SNAPC3"
+"FIBP" -> "C17orf75"
+"FIBP" -> "ROGDI"
+"FIBP" -> "MED27"
+"FIBP" -> "POLR2D"
+"GID4" -> "EPM2A"
+"GID4" -> "FGF2"
+"GID4" -> "SNAPC3"
+"GID4" -> "POLR2D"
+"GINS3" -> "POLR2D"
+"GINS3" -> "SNAPC3"
+"GINS3" -> "EID3"
+"GINS3" -> "MIS18A"
+"GLTP" -> "GID4"
+"GLTP" -> "RMND5A"
+"GLTP" -> "CYGB"
+"GLTP" -> "MAEA"
+"GTF2F2" -> "MAEA"
+"GTF2F2" -> "POLR2D"
+"GTF2F2" -> "SNAPC3"
+"GTF2F2" -> "YEATS4"
+"LIX1" -> "C17orf75"
+"LIX1" -> "POLR2D"
+"LIX1" -> "ATG12"
+"LIX1" -> "CDC37L1"
+"MAEA" -> "RMND5A"
+"MAEA" -> "GTF2F2"
+"MAEA" -> "GLTP"
+"MAEA" -> "PPIL2"
+"MED27" -> "ROGDI"
+"MED27" -> "FIBP"
+"MED27" -> "RMND5A"
+"MED27" -> "C17orf75"
+"MIS18A" -> "OIP5"
+"MIS18A" -> "SNAPC3"
+"MIS18A" -> "C17orf75"
+"MIS18A" -> "GINS3"
+"MTURN" -> "C17orf75"
+"MTURN" -> "GID4"
+"MTURN" -> "EPM2A"
+"MTURN" -> "POLR2D"
+"MZT1" -> "ATG12"
+"MZT1" -> "POLR2D"
+"MZT1" -> "MIS18A"
+"MZT1" -> "OIP5"
+"NAA11" -> "C17orf75"
+"NAA11" -> "NAT16"
+"NAA11" -> "GINS3"
+"NAA11" -> "LIX1"
+"NAT16" -> "C17orf75"
+"NAT16" -> "ROGDI"
+"NAT16" -> "FIBP"
+"NAT16" -> "POLR2D"
+"NSMCE4A" -> "EID3"
+"NSMCE4A" -> "MIS18A"
+"NSMCE4A" -> "GINS3"
+"NSMCE4A" -> "POLR2D"
+"NUDCD3" -> "ATG12"
+"NUDCD3" -> "RWDD4"
+"NUDCD3" -> "UBAC1"
+"NUDCD3" -> "ROGDI"
+"OIP5" -> "MIS18A"
+"OIP5" -> "GID4"
+"OIP5" -> "SNAPC3"
+"OIP5" -> "C17orf75"
+"POLR2D" -> "ATG12"
+"POLR2D" -> "GINS3"
+"POLR2D" -> "SNAPC3"
+"POLR2D" -> "C17orf75"
+"PPIL2" -> "GTF2F2"
+"PPIL2" -> "ROGDI"
+"PPIL2" -> "MAEA"
+"PPIL2" -> "RWDD4"
+"RMND5A" -> "MAEA"
+"RMND5A" -> "SNAPC3"
+"RMND5A" -> "POLR2D"
+"RMND5A" -> "GTF2F2"
+"ROGDI" -> "FIBP"
+"ROGDI" -> "MED27"
+"ROGDI" -> "C17orf75"
+"ROGDI" -> "GTF2F2"
+"ROPN1L" -> "UBAC1"
+"ROPN1L" -> "GINS3"
+"ROPN1L" -> "NSMCE4A"
+"ROPN1L" -> "GLTP"
+"RWDD4" -> "ATG12"
+"RWDD4" -> "YEATS4"
+"RWDD4" -> "GID4"
+"RWDD4" -> "POLR2D"
+"SNAPC3" -> "POLR2D"
+"SNAPC3" -> "EPM2A"
+"SNAPC3" -> "GID4"
+"SNAPC3" -> "C17orf75"
+"SPSB3" -> "NAT16"
+"SPSB3" -> "SNAPC3"
+"SPSB3" -> "C17orf75"
+"SPSB3" -> "CDC37L1"
+"SUPT16H" -> "POLR2D"
+"SUPT16H" -> "C17orf75"
+"SUPT16H" -> "RWDD4"
+"SUPT16H" -> "SNAPC3"
+"UBAC1" -> "UBTD2"
+"UBAC1" -> "NUDCD3"
+"UBAC1" -> "RWDD4"
+"UBAC1" -> "GTF2F2"
+"UBTD2" -> "EPM2A"
+"UBTD2" -> "ATG12"
+"UBTD2" -> "POLR2D"
+"UBTD2" -> "SNAPC3"
+"YEATS4" -> "RWDD4"
+"YEATS4" -> "GTF2F2"
+"YEATS4" -> "MIS18A"
+"YEATS4" -> "NSMCE4A"
+}

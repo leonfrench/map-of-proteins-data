@@ -1,0 +1,97 @@
+digraph G {
+"BLK" ["l"="13.292,7.385"]
+"CSK" ["l"="13.274,7.397"]
+"FGR" ["l"="13.284,7.404"]
+"FYN" ["l"="13.297,7.374"]
+"HCK" ["l"="13.296,7.395"]
+"ITK" ["l"="13.280,7.392"]
+"JAK3" ["l"="13.286,7.267"]
+"LCK" ["l"="13.241,7.446"]
+"LYN" ["l"="13.325,7.405"]
+"MATK" ["l"="13.280,7.385"]
+"PTK6" ["l"="13.262,7.384"]
+"SRC" ["l"="13.284,7.390"]
+"SRMS" ["l"="13.210,7.356"]
+"SYK" ["l"="13.267,7.391"]
+"TEC" ["l"="13.302,7.363"]
+"TXK" ["l"="13.287,7.377"]
+"TYK2" ["l"="13.325,7.177"]
+"YES1" ["l"="13.319,7.369"]
+"ZAP70" ["l"="13.268,7.400"]
+"BLK" -> "HCK"
+"BLK" -> "PTK6"
+"BLK" -> "SRC"
+"BLK" -> "LYN"
+"CSK" -> "MATK"
+"CSK" -> "ZAP70"
+"CSK" -> "LYN"
+"CSK" -> "SRMS"
+"FGR" -> "HCK"
+"FGR" -> "SRC"
+"FGR" -> "BLK"
+"FGR" -> "LCK"
+"FYN" -> "YES1"
+"FYN" -> "LYN"
+"FYN" -> "SRMS"
+"FYN" -> "SRC"
+"HCK" -> "FGR"
+"HCK" -> "BLK"
+"HCK" -> "LYN"
+"HCK" -> "SRC"
+"ITK" -> "TXK"
+"ITK" -> "TEC"
+"ITK" -> "ZAP70"
+"ITK" -> "PTK6"
+"JAK3" -> "SRMS"
+"JAK3" -> "PTK6"
+"JAK3" -> "TYK2"
+"JAK3" -> "ITK"
+"LCK" -> "ZAP70"
+"LCK" -> "BLK"
+"LCK" -> "FGR"
+"LCK" -> "ITK"
+"LYN" -> "SRC"
+"LYN" -> "HCK"
+"LYN" -> "BLK"
+"LYN" -> "SYK"
+"MATK" -> "CSK"
+"MATK" -> "ZAP70"
+"MATK" -> "SRMS"
+"MATK" -> "BLK"
+"PTK6" -> "SRMS"
+"PTK6" -> "BLK"
+"PTK6" -> "SRC"
+"PTK6" -> "TXK"
+"SRC" -> "FGR"
+"SRC" -> "YES1"
+"SRC" -> "LYN"
+"SRC" -> "SRMS"
+"SRMS" -> "PTK6"
+"SRMS" -> "SRC"
+"SRMS" -> "BLK"
+"SRMS" -> "FYN"
+"SYK" -> "LYN"
+"SYK" -> "TEC"
+"SYK" -> "TXK"
+"SYK" -> "BLK"
+"TEC" -> "TXK"
+"TEC" -> "ITK"
+"TEC" -> "SYK"
+"TEC" -> "LYN"
+"TXK" -> "TEC"
+"TXK" -> "ITK"
+"TXK" -> "PTK6"
+"TXK" -> "BLK"
+"TYK2" -> "JAK3"
+"TYK2" -> "SRMS"
+"TYK2" -> "SRC"
+"TYK2" -> "ZAP70"
+"YES1" -> "SRC"
+"YES1" -> "LYN"
+"YES1" -> "FYN"
+"YES1" -> "SRMS"
+"ZAP70" -> "ITK"
+"ZAP70" -> "CSK"
+"ZAP70" -> "LCK"
+"ZAP70" -> "MATK"
+}

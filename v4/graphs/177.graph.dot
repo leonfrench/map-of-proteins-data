@@ -1,0 +1,167 @@
+digraph G {
+"ASIC1" ["l"="12.443,-0.864"]
+"ASIC2" ["l"="12.431,-1.041"]
+"ASIC3" ["l"="12.458,-0.918"]
+"ASIC4" ["l"="12.462,-0.920"]
+"ASIC5" ["l"="12.421,-0.800"]
+"ATP1B1" ["l"="12.412,-0.562"]
+"ATP1B2" ["l"="12.406,-0.601"]
+"ATP1B3" ["l"="12.407,-0.594"]
+"ATP4B" ["l"="12.402,-0.653"]
+"CAPN7" ["l"="11.956,-0.688"]
+"CD36" ["l"="12.604,-0.690"]
+"ERGIC1" ["l"="12.507,-0.626"]
+"FNDC3A" ["l"="12.184,-1.022"]
+"KCNMB1" ["l"="12.105,-0.389"]
+"NOMO1" ["l"="12.180,-0.976"]
+"NOMO3" ["l"="12.180,-0.955"]
+"P2RX1" ["l"="12.395,-0.848"]
+"P2RX2" ["l"="12.448,-0.821"]
+"P2RX3" ["l"="12.412,-0.854"]
+"P2RX4" ["l"="12.408,-0.822"]
+"P2RX5" ["l"="12.393,-0.831"]
+"P2RX6" ["l"="12.424,-0.869"]
+"P2RX7" ["l"="12.408,-0.852"]
+"SCARB1" ["l"="12.518,-0.713"]
+"SCNN1A" ["l"="12.438,-0.837"]
+"SCNN1B" ["l"="12.431,-0.845"]
+"SCNN1D" ["l"="12.444,-0.699"]
+"SCNN1G" ["l"="12.416,-0.845"]
+"SGCB" ["l"="12.209,-1.006"]
+"SGCD" ["l"="12.279,-1.039"]
+"SGCG" ["l"="12.227,-1.002"]
+"SMCHD1" ["l"="12.146,-0.917"]
+"TPP2" ["l"="12.097,-0.828"]
+"ASIC1" -> "ASIC4"
+"ASIC1" -> "ASIC3"
+"ASIC1" -> "SCNN1G"
+"ASIC1" -> "ASIC2"
+"ASIC2" -> "ASIC1"
+"ASIC2" -> "SCNN1G"
+"ASIC2" -> "ASIC3"
+"ASIC2" -> "SCNN1B"
+"ASIC3" -> "ASIC1"
+"ASIC3" -> "ASIC4"
+"ASIC3" -> "SCNN1G"
+"ASIC3" -> "SCNN1D"
+"ASIC4" -> "ASIC1"
+"ASIC4" -> "ASIC3"
+"ASIC4" -> "SCNN1G"
+"ASIC4" -> "SCNN1D"
+"ASIC5" -> "SCNN1G"
+"ASIC5" -> "SCNN1B"
+"ASIC5" -> "P2RX3"
+"ASIC5" -> "ASIC1"
+"ATP1B1" -> "ATP4B"
+"ATP1B1" -> "ATP1B3"
+"ATP1B1" -> "ATP1B2"
+"ATP1B1" -> "ERGIC1"
+"ATP1B2" -> "ATP4B"
+"ATP1B2" -> "ATP1B1"
+"ATP1B2" -> "ATP1B3"
+"ATP1B2" -> "P2RX3"
+"ATP1B3" -> "ATP1B1"
+"ATP1B3" -> "ATP4B"
+"ATP1B3" -> "ATP1B2"
+"ATP1B3" -> "ERGIC1"
+"ATP4B" -> "ATP1B1"
+"ATP4B" -> "ATP1B2"
+"ATP4B" -> "ATP1B3"
+"ATP4B" -> "P2RX1"
+"CAPN7" -> "TPP2"
+"CAPN7" -> "FNDC3A"
+"CAPN7" -> "NOMO3"
+"CAPN7" -> "NOMO1"
+"CD36" -> "SCARB1"
+"CD36" -> "P2RX3"
+"CD36" -> "P2RX4"
+"CD36" -> "SCNN1G"
+"ERGIC1" -> "P2RX3"
+"ERGIC1" -> "P2RX4"
+"ERGIC1" -> "ASIC1"
+"ERGIC1" -> "SCNN1G"
+"FNDC3A" -> "CAPN7"
+"FNDC3A" -> "NOMO3"
+"FNDC3A" -> "TPP2"
+"FNDC3A" -> "NOMO1"
+"KCNMB1" -> "SCNN1G"
+"KCNMB1" -> "P2RX3"
+"KCNMB1" -> "P2RX1"
+"KCNMB1" -> "ERGIC1"
+"NOMO1" -> "NOMO3"
+"NOMO1" -> "TPP2"
+"NOMO1" -> "FNDC3A"
+"NOMO1" -> "CAPN7"
+"NOMO3" -> "NOMO1"
+"NOMO3" -> "TPP2"
+"NOMO3" -> "FNDC3A"
+"NOMO3" -> "CAPN7"
+"P2RX1" -> "P2RX3"
+"P2RX1" -> "P2RX4"
+"P2RX1" -> "P2RX5"
+"P2RX1" -> "P2RX2"
+"P2RX2" -> "P2RX6"
+"P2RX2" -> "P2RX3"
+"P2RX2" -> "P2RX1"
+"P2RX2" -> "P2RX4"
+"P2RX3" -> "P2RX2"
+"P2RX3" -> "P2RX1"
+"P2RX3" -> "P2RX6"
+"P2RX3" -> "P2RX4"
+"P2RX4" -> "P2RX1"
+"P2RX4" -> "P2RX3"
+"P2RX4" -> "P2RX7"
+"P2RX4" -> "P2RX5"
+"P2RX5" -> "P2RX3"
+"P2RX5" -> "P2RX1"
+"P2RX5" -> "P2RX4"
+"P2RX5" -> "P2RX2"
+"P2RX6" -> "P2RX2"
+"P2RX6" -> "P2RX3"
+"P2RX6" -> "P2RX1"
+"P2RX6" -> "SCNN1G"
+"P2RX7" -> "P2RX4"
+"P2RX7" -> "P2RX3"
+"P2RX7" -> "SCNN1G"
+"P2RX7" -> "P2RX1"
+"SCARB1" -> "CD36"
+"SCARB1" -> "P2RX2"
+"SCARB1" -> "P2RX3"
+"SCARB1" -> "SCNN1G"
+"SCNN1A" -> "SCNN1G"
+"SCNN1A" -> "SCNN1B"
+"SCNN1A" -> "ASIC1"
+"SCNN1A" -> "P2RX3"
+"SCNN1B" -> "SCNN1G"
+"SCNN1B" -> "SCNN1A"
+"SCNN1B" -> "ASIC5"
+"SCNN1B" -> "P2RX3"
+"SCNN1D" -> "ASIC3"
+"SCNN1D" -> "ASIC4"
+"SCNN1D" -> "P2RX6"
+"SCNN1D" -> "SCNN1A"
+"SCNN1G" -> "SCNN1B"
+"SCNN1G" -> "SCNN1A"
+"SCNN1G" -> "ASIC5"
+"SCNN1G" -> "P2RX3"
+"SGCB" -> "SGCD"
+"SGCB" -> "SGCG"
+"SGCB" -> "KCNMB1"
+"SGCB" -> "NOMO3"
+"SGCD" -> "SGCG"
+"SGCD" -> "SGCB"
+"SGCD" -> "KCNMB1"
+"SGCD" -> "ASIC2"
+"SGCG" -> "SGCD"
+"SGCG" -> "SGCB"
+"SGCG" -> "KCNMB1"
+"SGCG" -> "P2RX3"
+"SMCHD1" -> "TPP2"
+"SMCHD1" -> "FNDC3A"
+"SMCHD1" -> "NOMO3"
+"SMCHD1" -> "CAPN7"
+"TPP2" -> "NOMO3"
+"TPP2" -> "CAPN7"
+"TPP2" -> "NOMO1"
+"TPP2" -> "SMCHD1"
+}

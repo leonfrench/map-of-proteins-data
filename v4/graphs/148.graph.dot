@@ -1,0 +1,167 @@
+digraph G {
+"AOPEP" ["l"="12.216,0.562"]
+"APOL1" ["l"="11.984,0.314"]
+"APOL2" ["l"="12.016,0.303"]
+"APOL3" ["l"="12.014,0.298"]
+"APOL4" ["l"="12.005,0.258"]
+"APOL5" ["l"="12.129,0.296"]
+"APOL6" ["l"="12.027,0.279"]
+"AUP1" ["l"="12.044,0.400"]
+"CD74" ["l"="12.268,-0.136"]
+"DNAJB11" ["l"="12.147,0.538"]
+"ERN2" ["l"="12.106,0.132"]
+"FICD" ["l"="12.263,0.664"]
+"GGT6" ["l"="12.205,0.359"]
+"GSDMC" ["l"="11.869,0.370"]
+"IFI27" ["l"="12.173,0.288"]
+"IFI27L1" ["l"="12.200,0.309"]
+"IFI27L2" ["l"="12.190,0.302"]
+"IFI6" ["l"="12.174,0.303"]
+"IL17RC" ["l"="12.261,-0.063"]
+"IL17RE" ["l"="12.317,-0.065"]
+"IL17REL" ["l"="12.189,0.166"]
+"ITFG1" ["l"="12.107,-0.304"]
+"LPCAT4" ["l"="12.064,0.393"]
+"PGAP1" ["l"="12.082,0.071"]
+"PLD1" ["l"="12.192,0.534"]
+"RNF133" ["l"="12.296,0.097"]
+"SARAF" ["l"="12.056,0.198"]
+"SFTPC" ["l"="12.325,-0.086"]
+"SUCO" ["l"="12.371,-0.026"]
+"TCAF2" ["l"="12.260,0.465"]
+"TCTN3" ["l"="11.975,-0.110"]
+"TMCO4" ["l"="12.245,0.484"]
+"UNC5CL" ["l"="12.039,0.270"]
+"AOPEP" -> "TCAF2"
+"AOPEP" -> "ITFG1"
+"AOPEP" -> "APOL5"
+"AOPEP" -> "PLD1"
+"APOL1" -> "APOL4"
+"APOL1" -> "APOL2"
+"APOL1" -> "APOL3"
+"APOL1" -> "APOL6"
+"APOL2" -> "APOL3"
+"APOL2" -> "APOL4"
+"APOL2" -> "APOL1"
+"APOL2" -> "APOL6"
+"APOL3" -> "APOL2"
+"APOL3" -> "APOL4"
+"APOL3" -> "APOL1"
+"APOL3" -> "APOL5"
+"APOL4" -> "APOL2"
+"APOL4" -> "APOL1"
+"APOL4" -> "APOL3"
+"APOL4" -> "APOL5"
+"APOL5" -> "APOL3"
+"APOL5" -> "APOL4"
+"APOL5" -> "APOL2"
+"APOL5" -> "APOL1"
+"APOL6" -> "APOL2"
+"APOL6" -> "APOL1"
+"APOL6" -> "APOL3"
+"APOL6" -> "APOL4"
+"AUP1" -> "LPCAT4"
+"AUP1" -> "UNC5CL"
+"AUP1" -> "TCAF2"
+"AUP1" -> "TCTN3"
+"CD74" -> "SFTPC"
+"CD74" -> "APOL5"
+"CD74" -> "PLD1"
+"CD74" -> "TCTN3"
+"DNAJB11" -> "TCTN3"
+"DNAJB11" -> "ITFG1"
+"DNAJB11" -> "SARAF"
+"DNAJB11" -> "RNF133"
+"ERN2" -> "UNC5CL"
+"ERN2" -> "IL17RC"
+"ERN2" -> "LPCAT4"
+"ERN2" -> "IL17RE"
+"FICD" -> "RNF133"
+"FICD" -> "PLD1"
+"FICD" -> "SUCO"
+"FICD" -> "APOL5"
+"GGT6" -> "LPCAT4"
+"GGT6" -> "UNC5CL"
+"GGT6" -> "TCAF2"
+"GGT6" -> "ERN2"
+"GSDMC" -> "APOL4"
+"GSDMC" -> "APOL1"
+"GSDMC" -> "UNC5CL"
+"GSDMC" -> "TCAF2"
+"IFI27" -> "IFI6"
+"IFI27" -> "IFI27L2"
+"IFI27" -> "IFI27L1"
+"IFI27" -> "APOL5"
+"IFI27L1" -> "IFI27L2"
+"IFI27L1" -> "IFI27"
+"IFI27L1" -> "IFI6"
+"IFI27L1" -> "TMCO4"
+"IFI27L2" -> "IFI27L1"
+"IFI27L2" -> "IFI27"
+"IFI27L2" -> "IFI6"
+"IFI27L2" -> "APOL5"
+"IFI6" -> "IFI27"
+"IFI6" -> "IFI27L2"
+"IFI6" -> "IFI27L1"
+"IFI6" -> "APOL5"
+"IL17RC" -> "IL17RE"
+"IL17RC" -> "IL17REL"
+"IL17RC" -> "UNC5CL"
+"IL17RC" -> "LPCAT4"
+"IL17RE" -> "IL17RC"
+"IL17RE" -> "IL17REL"
+"IL17RE" -> "UNC5CL"
+"IL17RE" -> "LPCAT4"
+"IL17REL" -> "UNC5CL"
+"IL17REL" -> "IL17RC"
+"IL17REL" -> "IL17RE"
+"IL17REL" -> "TCAF2"
+"ITFG1" -> "PLD1"
+"ITFG1" -> "PGAP1"
+"ITFG1" -> "LPCAT4"
+"ITFG1" -> "TCAF2"
+"LPCAT4" -> "AUP1"
+"LPCAT4" -> "UNC5CL"
+"LPCAT4" -> "IL17RC"
+"LPCAT4" -> "IL17RE"
+"PGAP1" -> "SUCO"
+"PGAP1" -> "PLD1"
+"PGAP1" -> "TCTN3"
+"PGAP1" -> "UNC5CL"
+"PLD1" -> "TCAF2"
+"PLD1" -> "ITFG1"
+"PLD1" -> "PGAP1"
+"PLD1" -> "FICD"
+"RNF133" -> "FICD"
+"RNF133" -> "APOL5"
+"RNF133" -> "PGAP1"
+"RNF133" -> "TCAF2"
+"SARAF" -> "PGAP1"
+"SARAF" -> "SUCO"
+"SARAF" -> "ITFG1"
+"SARAF" -> "TCTN3"
+"SFTPC" -> "CD74"
+"SFTPC" -> "IL17REL"
+"SFTPC" -> "TCAF2"
+"SFTPC" -> "APOL5"
+"SUCO" -> "PGAP1"
+"SUCO" -> "FICD"
+"SUCO" -> "PLD1"
+"SUCO" -> "TCTN3"
+"TCAF2" -> "UNC5CL"
+"TCAF2" -> "IL17REL"
+"TCAF2" -> "TMCO4"
+"TCAF2" -> "PLD1"
+"TCTN3" -> "ERN2"
+"TCTN3" -> "UNC5CL"
+"TCTN3" -> "PGAP1"
+"TCTN3" -> "IL17REL"
+"TMCO4" -> "APOL5"
+"TMCO4" -> "TCAF2"
+"TMCO4" -> "APOL4"
+"TMCO4" -> "GSDMC"
+"UNC5CL" -> "TCAF2"
+"UNC5CL" -> "IL17REL"
+"UNC5CL" -> "IL17RE"
+"UNC5CL" -> "IL17RC"
+}

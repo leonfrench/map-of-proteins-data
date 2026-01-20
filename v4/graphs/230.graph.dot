@@ -1,0 +1,247 @@
+digraph G {
+"ANPEP" ["l"="13.107,0.163"]
+"ART3" ["l"="13.012,0.302"]
+"CA1" ["l"="13.019,0.483"]
+"CA10" ["l"="13.032,0.371"]
+"CA13" ["l"="12.962,0.471"]
+"CA14" ["l"="13.139,0.034"]
+"CA2" ["l"="13.030,0.498"]
+"CA3" ["l"="13.034,0.429"]
+"CA4" ["l"="13.046,0.152"]
+"CA5A" ["l"="13.053,0.421"]
+"CA7" ["l"="13.010,0.441"]
+"CLN5" ["l"="13.039,0.054"]
+"DIO1" ["l"="12.971,0.558"]
+"DIO3" ["l"="12.975,0.269"]
+"ECE1" ["l"="13.158,0.323"]
+"ECE2" ["l"="13.201,0.283"]
+"ECEL1" ["l"="13.234,0.288"]
+"EEF1AKMT4-ECE2" ["l"="13.169,0.328"]
+"ENPEP" ["l"="13.120,0.210"]
+"ERAP1" ["l"="13.024,0.304"]
+"ERAP2" ["l"="13.017,0.300"]
+"GANC" ["l"="12.846,0.304"]
+"GLB1L3" ["l"="12.899,0.232"]
+"GPX3" ["l"="12.927,0.411"]
+"GPX5" ["l"="12.861,0.193"]
+"GPX6" ["l"="13.005,0.309"]
+"HEPHL1" ["l"="13.073,-0.013"]
+"KIAA2013" ["l"="13.068,0.187"]
+"LNPEP" ["l"="13.023,0.272"]
+"LTA4H" ["l"="13.032,0.367"]
+"LVRN" ["l"="13.064,0.239"]
+"MGAM" ["l"="13.123,0.078"]
+"MME" ["l"="13.119,0.248"]
+"MMEL1" ["l"="13.180,0.264"]
+"NCEH1" ["l"="13.197,0.489"]
+"NHLRC3" ["l"="13.071,0.076"]
+"PCYOX1" ["l"="13.221,0.531"]
+"PEBP4" ["l"="13.023,0.095"]
+"PON1" ["l"="13.148,0.634"]
+"PON3" ["l"="13.134,0.648"]
+"SI" ["l"="13.077,0.115"]
+"SUMF1" ["l"="13.147,0.349"]
+"TFR2" ["l"="13.221,0.209"]
+"TFRC" ["l"="13.096,0.123"]
+"TOR1A" ["l"="13.002,0.477"]
+"TOR1B" ["l"="13.072,0.486"]
+"TOR2A" ["l"="13.042,0.496"]
+"TOR3A" ["l"="13.152,0.435"]
+"TRHDE" ["l"="13.094,0.220"]
+"ANPEP" -> "ENPEP"
+"ANPEP" -> "ERAP1"
+"ANPEP" -> "SI"
+"ANPEP" -> "LVRN"
+"ART3" -> "GPX6"
+"ART3" -> "GPX5"
+"ART3" -> "NCEH1"
+"ART3" -> "TOR1B"
+"CA1" -> "CA2"
+"CA1" -> "CA13"
+"CA1" -> "CA3"
+"CA1" -> "CA7"
+"CA10" -> "CA13"
+"CA10" -> "CA7"
+"CA10" -> "CA3"
+"CA10" -> "CA2"
+"CA13" -> "CA3"
+"CA13" -> "CA2"
+"CA13" -> "CA1"
+"CA13" -> "CA7"
+"CA14" -> "CA2"
+"CA14" -> "CA4"
+"CA14" -> "CA13"
+"CA14" -> "GPX5"
+"CA2" -> "CA3"
+"CA2" -> "CA13"
+"CA2" -> "CA1"
+"CA2" -> "CA7"
+"CA3" -> "CA13"
+"CA3" -> "CA2"
+"CA3" -> "CA1"
+"CA3" -> "CA7"
+"CA4" -> "CA7"
+"CA4" -> "CA14"
+"CA4" -> "CA2"
+"CA4" -> "GPX5"
+"CA5A" -> "CA3"
+"CA5A" -> "CA13"
+"CA5A" -> "CA2"
+"CA5A" -> "CA7"
+"CA7" -> "CA2"
+"CA7" -> "CA13"
+"CA7" -> "CA1"
+"CA7" -> "CA3"
+"CLN5" -> "NCEH1"
+"CLN5" -> "PON1"
+"CLN5" -> "PCYOX1"
+"CLN5" -> "TOR1B"
+"DIO1" -> "GPX6"
+"DIO1" -> "DIO3"
+"DIO1" -> "GPX5"
+"DIO1" -> "NCEH1"
+"DIO3" -> "GPX5"
+"DIO3" -> "DIO1"
+"DIO3" -> "TOR1B"
+"DIO3" -> "GPX6"
+"ECE1" -> "ECE2"
+"ECE1" -> "MME"
+"ECE1" -> "EEF1AKMT4-ECE2"
+"ECE1" -> "MMEL1"
+"ECE2" -> "ECEL1"
+"ECE2" -> "EEF1AKMT4-ECE2"
+"ECE2" -> "MMEL1"
+"ECE2" -> "ECE1"
+"ECEL1" -> "ECE2"
+"ECEL1" -> "EEF1AKMT4-ECE2"
+"ECEL1" -> "MMEL1"
+"ECEL1" -> "TRHDE"
+"EEF1AKMT4-ECE2" -> "ECE2"
+"EEF1AKMT4-ECE2" -> "ECEL1"
+"EEF1AKMT4-ECE2" -> "MMEL1"
+"EEF1AKMT4-ECE2" -> "ECE1"
+"ENPEP" -> "ERAP1"
+"ENPEP" -> "ANPEP"
+"ENPEP" -> "LVRN"
+"ENPEP" -> "ERAP2"
+"ERAP1" -> "ERAP2"
+"ERAP1" -> "ENPEP"
+"ERAP1" -> "TRHDE"
+"ERAP1" -> "LVRN"
+"ERAP2" -> "ERAP1"
+"ERAP2" -> "LNPEP"
+"ERAP2" -> "ENPEP"
+"ERAP2" -> "LVRN"
+"GANC" -> "GLB1L3"
+"GANC" -> "ERAP1"
+"GANC" -> "CA13"
+"GANC" -> "GPX5"
+"GLB1L3" -> "GANC"
+"GLB1L3" -> "TRHDE"
+"GLB1L3" -> "ERAP2"
+"GLB1L3" -> "GPX5"
+"GPX3" -> "GPX6"
+"GPX3" -> "GPX5"
+"GPX3" -> "DIO1"
+"GPX3" -> "DIO3"
+"GPX5" -> "GPX6"
+"GPX5" -> "GPX3"
+"GPX5" -> "DIO3"
+"GPX5" -> "DIO1"
+"GPX6" -> "GPX5"
+"GPX6" -> "GPX3"
+"GPX6" -> "DIO1"
+"GPX6" -> "NCEH1"
+"HEPHL1" -> "ENPEP"
+"HEPHL1" -> "GANC"
+"HEPHL1" -> "CA13"
+"HEPHL1" -> "TRHDE"
+"KIAA2013" -> "NCEH1"
+"KIAA2013" -> "PCYOX1"
+"KIAA2013" -> "LVRN"
+"KIAA2013" -> "TOR3A"
+"LNPEP" -> "ERAP2"
+"LNPEP" -> "TRHDE"
+"LNPEP" -> "LVRN"
+"LNPEP" -> "ERAP1"
+"LTA4H" -> "ERAP1"
+"LTA4H" -> "LVRN"
+"LTA4H" -> "ENPEP"
+"LTA4H" -> "TRHDE"
+"LVRN" -> "ERAP1"
+"LVRN" -> "LNPEP"
+"LVRN" -> "TRHDE"
+"LVRN" -> "ENPEP"
+"MGAM" -> "SI"
+"MGAM" -> "GANC"
+"MGAM" -> "ANPEP"
+"MGAM" -> "MME"
+"MME" -> "ECE1"
+"MME" -> "MMEL1"
+"MME" -> "TRHDE"
+"MME" -> "ENPEP"
+"MMEL1" -> "ECE2"
+"MMEL1" -> "EEF1AKMT4-ECE2"
+"MMEL1" -> "ECEL1"
+"MMEL1" -> "MME"
+"NCEH1" -> "PCYOX1"
+"NCEH1" -> "GPX6"
+"NCEH1" -> "TOR1B"
+"NCEH1" -> "DIO1"
+"NHLRC3" -> "CLN5"
+"NHLRC3" -> "SUMF1"
+"NHLRC3" -> "ERAP2"
+"NHLRC3" -> "LNPEP"
+"PCYOX1" -> "NCEH1"
+"PCYOX1" -> "PON1"
+"PCYOX1" -> "CLN5"
+"PCYOX1" -> "TOR1B"
+"PEBP4" -> "GPX6"
+"PEBP4" -> "GPX5"
+"PEBP4" -> "CA4"
+"PEBP4" -> "CA3"
+"PON1" -> "PON3"
+"PON1" -> "PCYOX1"
+"PON1" -> "NCEH1"
+"PON1" -> "CLN5"
+"PON3" -> "PON1"
+"PON3" -> "PCYOX1"
+"PON3" -> "NCEH1"
+"PON3" -> "DIO1"
+"SI" -> "MGAM"
+"SI" -> "ANPEP"
+"SI" -> "ENPEP"
+"SI" -> "LVRN"
+"SUMF1" -> "TRHDE"
+"SUMF1" -> "NHLRC3"
+"SUMF1" -> "GANC"
+"SUMF1" -> "GPX5"
+"TFR2" -> "TFRC"
+"TFR2" -> "EEF1AKMT4-ECE2"
+"TFR2" -> "ECEL1"
+"TFR2" -> "TRHDE"
+"TFRC" -> "TFR2"
+"TFRC" -> "ENPEP"
+"TFRC" -> "NCEH1"
+"TFRC" -> "TRHDE"
+"TOR1A" -> "TOR1B"
+"TOR1A" -> "TOR2A"
+"TOR1A" -> "TOR3A"
+"TOR1A" -> "DIO3"
+"TOR1B" -> "TOR1A"
+"TOR1B" -> "TOR2A"
+"TOR1B" -> "TOR3A"
+"TOR1B" -> "DIO3"
+"TOR2A" -> "TOR1B"
+"TOR2A" -> "TOR1A"
+"TOR2A" -> "TOR3A"
+"TOR2A" -> "DIO3"
+"TOR3A" -> "TOR2A"
+"TOR3A" -> "TOR1A"
+"TOR3A" -> "TOR1B"
+"TOR3A" -> "DIO3"
+"TRHDE" -> "LNPEP"
+"TRHDE" -> "ERAP1"
+"TRHDE" -> "LVRN"
+"TRHDE" -> "ERAP2"
+}

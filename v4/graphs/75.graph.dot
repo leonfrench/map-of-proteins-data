@@ -1,0 +1,77 @@
+digraph G {
+"CEACAM1" ["l"="9.644,7.990"]
+"CEACAM5" ["l"="9.650,8.022"]
+"CEACAM6" ["l"="9.648,8.009"]
+"CEACAM7" ["l"="9.647,8.000"]
+"CEACAM8" ["l"="9.659,8.027"]
+"PSG1" ["l"="9.654,8.046"]
+"PSG11" ["l"="9.652,8.027"]
+"PSG2" ["l"="9.662,8.033"]
+"PSG3" ["l"="9.673,8.068"]
+"PSG4" ["l"="9.655,8.054"]
+"PSG5" ["l"="9.655,8.053"]
+"PSG6" ["l"="9.658,8.053"]
+"PSG7" ["l"="9.658,8.044"]
+"PSG8" ["l"="9.657,8.052"]
+"PSG9" ["l"="9.656,8.054"]
+"CEACAM1" -> "CEACAM8"
+"CEACAM1" -> "PSG2"
+"CEACAM1" -> "CEACAM7"
+"CEACAM1" -> "CEACAM6"
+"CEACAM5" -> "CEACAM1"
+"CEACAM5" -> "CEACAM6"
+"CEACAM5" -> "PSG7"
+"CEACAM5" -> "PSG1"
+"CEACAM6" -> "CEACAM1"
+"CEACAM6" -> "CEACAM8"
+"CEACAM6" -> "CEACAM7"
+"CEACAM6" -> "PSG2"
+"CEACAM7" -> "CEACAM1"
+"CEACAM7" -> "CEACAM8"
+"CEACAM7" -> "CEACAM6"
+"CEACAM7" -> "PSG11"
+"CEACAM8" -> "CEACAM1"
+"CEACAM8" -> "PSG2"
+"CEACAM8" -> "PSG7"
+"CEACAM8" -> "PSG11"
+"PSG1" -> "PSG7"
+"PSG1" -> "PSG3"
+"PSG1" -> "PSG4"
+"PSG1" -> "PSG6"
+"PSG11" -> "PSG2"
+"PSG11" -> "PSG7"
+"PSG11" -> "PSG5"
+"PSG11" -> "PSG4"
+"PSG2" -> "PSG11"
+"PSG2" -> "PSG3"
+"PSG2" -> "PSG7"
+"PSG2" -> "PSG4"
+"PSG3" -> "PSG6"
+"PSG3" -> "PSG7"
+"PSG3" -> "PSG4"
+"PSG3" -> "PSG1"
+"PSG4" -> "PSG3"
+"PSG4" -> "PSG5"
+"PSG4" -> "PSG6"
+"PSG4" -> "PSG1"
+"PSG5" -> "PSG4"
+"PSG5" -> "PSG3"
+"PSG5" -> "PSG9"
+"PSG5" -> "PSG7"
+"PSG6" -> "PSG3"
+"PSG6" -> "PSG7"
+"PSG6" -> "PSG4"
+"PSG6" -> "PSG1"
+"PSG7" -> "PSG1"
+"PSG7" -> "PSG3"
+"PSG7" -> "PSG6"
+"PSG7" -> "PSG4"
+"PSG8" -> "PSG1"
+"PSG8" -> "PSG9"
+"PSG8" -> "PSG7"
+"PSG8" -> "PSG4"
+"PSG9" -> "PSG4"
+"PSG9" -> "PSG6"
+"PSG9" -> "PSG5"
+"PSG9" -> "PSG3"
+}

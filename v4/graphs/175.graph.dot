@@ -1,0 +1,102 @@
+digraph G {
+"ACBD7" ["l"="11.774,3.323"]
+"BRK1" ["l"="11.834,3.515"]
+"FAM72A" ["l"="11.610,3.400"]
+"FAM72B" ["l"="11.598,3.394"]
+"FAM72C" ["l"="11.606,3.408"]
+"FAM72D" ["l"="11.616,3.383"]
+"HSBP1" ["l"="11.774,3.578"]
+"NCBP2" ["l"="11.741,3.534"]
+"NPM1" ["l"="11.856,3.573"]
+"NPM3" ["l"="11.797,3.362"]
+"RBM8A" ["l"="11.798,3.480"]
+"RPF2" ["l"="11.634,3.242"]
+"RPL7L1" ["l"="11.531,3.280"]
+"SNRPB2" ["l"="11.668,3.427"]
+"YKT6" ["l"="11.503,3.622"]
+"YPEL1" ["l"="11.654,3.461"]
+"YPEL2" ["l"="11.673,3.452"]
+"YPEL3" ["l"="11.685,3.444"]
+"YPEL4" ["l"="11.670,3.490"]
+"YPEL5" ["l"="11.654,3.457"]
+"ACBD7" -> "YKT6"
+"ACBD7" -> "BRK1"
+"ACBD7" -> "YPEL2"
+"ACBD7" -> "NCBP2"
+"BRK1" -> "HSBP1"
+"BRK1" -> "YKT6"
+"BRK1" -> "ACBD7"
+"BRK1" -> "RBM8A"
+"FAM72A" -> "FAM72D"
+"FAM72A" -> "FAM72C"
+"FAM72A" -> "FAM72B"
+"FAM72A" -> "YPEL4"
+"FAM72B" -> "FAM72C"
+"FAM72B" -> "FAM72D"
+"FAM72B" -> "FAM72A"
+"FAM72B" -> "YPEL4"
+"FAM72C" -> "FAM72D"
+"FAM72C" -> "FAM72B"
+"FAM72C" -> "FAM72A"
+"FAM72C" -> "YPEL4"
+"FAM72D" -> "FAM72C"
+"FAM72D" -> "FAM72A"
+"FAM72D" -> "FAM72B"
+"FAM72D" -> "YPEL4"
+"HSBP1" -> "BRK1"
+"HSBP1" -> "YKT6"
+"HSBP1" -> "ACBD7"
+"HSBP1" -> "RBM8A"
+"NCBP2" -> "SNRPB2"
+"NCBP2" -> "RBM8A"
+"NCBP2" -> "RPF2"
+"NCBP2" -> "ACBD7"
+"NPM1" -> "NPM3"
+"NPM1" -> "RBM8A"
+"NPM1" -> "RPL7L1"
+"NPM1" -> "YPEL5"
+"NPM3" -> "RBM8A"
+"NPM3" -> "NPM1"
+"NPM3" -> "RPL7L1"
+"NPM3" -> "RPF2"
+"RBM8A" -> "NCBP2"
+"RBM8A" -> "SNRPB2"
+"RBM8A" -> "YPEL5"
+"RBM8A" -> "RPL7L1"
+"RPF2" -> "RPL7L1"
+"RPF2" -> "SNRPB2"
+"RPF2" -> "NCBP2"
+"RPF2" -> "NPM3"
+"RPL7L1" -> "RPF2"
+"RPL7L1" -> "RBM8A"
+"RPL7L1" -> "NCBP2"
+"RPL7L1" -> "NPM3"
+"SNRPB2" -> "NCBP2"
+"SNRPB2" -> "RBM8A"
+"SNRPB2" -> "RPF2"
+"SNRPB2" -> "ACBD7"
+"YKT6" -> "BRK1"
+"YKT6" -> "ACBD7"
+"YKT6" -> "YPEL4"
+"YKT6" -> "HSBP1"
+"YPEL1" -> "YPEL2"
+"YPEL1" -> "YPEL4"
+"YPEL1" -> "YPEL3"
+"YPEL1" -> "YPEL5"
+"YPEL2" -> "YPEL1"
+"YPEL2" -> "YPEL4"
+"YPEL2" -> "YPEL5"
+"YPEL2" -> "YPEL3"
+"YPEL3" -> "YPEL4"
+"YPEL3" -> "YPEL2"
+"YPEL3" -> "YPEL1"
+"YPEL3" -> "YPEL5"
+"YPEL4" -> "YPEL2"
+"YPEL4" -> "YPEL5"
+"YPEL4" -> "YPEL1"
+"YPEL4" -> "YPEL3"
+"YPEL5" -> "YPEL2"
+"YPEL5" -> "YPEL4"
+"YPEL5" -> "FAM72A"
+"YPEL5" -> "YPEL1"
+}

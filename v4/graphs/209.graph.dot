@@ -1,0 +1,82 @@
+digraph G {
+"C16orf89" ["l"="13.809,-0.883"]
+"CBLIF" ["l"="13.743,-0.799"]
+"CTSB" ["l"="13.773,-0.770"]
+"CTSC" ["l"="13.780,-0.718"]
+"CTSF" ["l"="13.779,-0.895"]
+"CTSH" ["l"="13.759,-0.751"]
+"CTSK" ["l"="13.849,-0.768"]
+"CTSL" ["l"="13.808,-0.809"]
+"CTSS" ["l"="13.789,-0.787"]
+"CTSV" ["l"="13.928,-0.872"]
+"CTSZ" ["l"="13.751,-0.708"]
+"LOX" ["l"="13.864,-0.833"]
+"LOXL1" ["l"="13.779,-0.787"]
+"NDNF" ["l"="13.804,-0.617"]
+"SFTPB" ["l"="13.872,-0.840"]
+"TCN1" ["l"="13.759,-0.761"]
+"C16orf89" -> "CTSF"
+"C16orf89" -> "SFTPB"
+"C16orf89" -> "CTSH"
+"C16orf89" -> "CTSK"
+"CBLIF" -> "TCN1"
+"CBLIF" -> "C16orf89"
+"CBLIF" -> "CTSH"
+"CBLIF" -> "CTSK"
+"CTSB" -> "CTSS"
+"CTSB" -> "CTSV"
+"CTSB" -> "CTSH"
+"CTSB" -> "CTSK"
+"CTSC" -> "CTSB"
+"CTSC" -> "CTSH"
+"CTSC" -> "CTSV"
+"CTSC" -> "CTSK"
+"CTSF" -> "CTSH"
+"CTSF" -> "CTSK"
+"CTSF" -> "C16orf89"
+"CTSF" -> "CTSV"
+"CTSH" -> "CTSS"
+"CTSH" -> "CTSV"
+"CTSH" -> "CTSB"
+"CTSH" -> "CTSK"
+"CTSK" -> "CTSV"
+"CTSK" -> "CTSL"
+"CTSK" -> "CTSS"
+"CTSK" -> "CTSB"
+"CTSL" -> "CTSS"
+"CTSL" -> "CTSK"
+"CTSL" -> "CTSV"
+"CTSL" -> "CTSB"
+"CTSS" -> "CTSL"
+"CTSS" -> "CTSV"
+"CTSS" -> "CTSH"
+"CTSS" -> "CTSK"
+"CTSV" -> "CTSK"
+"CTSV" -> "CTSS"
+"CTSV" -> "CTSL"
+"CTSV" -> "CTSH"
+"CTSZ" -> "CTSB"
+"CTSZ" -> "CTSH"
+"CTSZ" -> "CTSC"
+"CTSZ" -> "CTSS"
+"LOX" -> "LOXL1"
+"LOX" -> "CTSK"
+"LOX" -> "CTSV"
+"LOX" -> "CTSF"
+"LOXL1" -> "LOX"
+"LOXL1" -> "NDNF"
+"LOXL1" -> "C16orf89"
+"LOXL1" -> "CTSK"
+"NDNF" -> "LOX"
+"NDNF" -> "CTSF"
+"NDNF" -> "C16orf89"
+"NDNF" -> "CTSC"
+"SFTPB" -> "C16orf89"
+"SFTPB" -> "CTSV"
+"SFTPB" -> "CTSH"
+"SFTPB" -> "CTSB"
+"TCN1" -> "CBLIF"
+"TCN1" -> "CTSS"
+"TCN1" -> "CTSF"
+"TCN1" -> "CTSK"
+}

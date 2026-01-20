@@ -1,0 +1,192 @@
+digraph G {
+"ACOT13" ["l"="12.912,2.306"]
+"AFG1L" ["l"="12.730,2.352"]
+"APRT" ["l"="12.869,2.350"]
+"BPGM" ["l"="12.975,2.228"]
+"CLPP" ["l"="13.121,2.392"]
+"CLYBL" ["l"="13.022,2.210"]
+"DDAH2" ["l"="12.751,2.203"]
+"DNAJA3" ["l"="12.819,2.364"]
+"ECI1" ["l"="13.118,2.433"]
+"ETHE1" ["l"="12.827,2.179"]
+"FAM185A" ["l"="12.681,2.317"]
+"FUOM" ["l"="12.815,2.284"]
+"GAMT" ["l"="12.914,2.149"]
+"GPX2" ["l"="12.883,2.281"]
+"GTPBP10" ["l"="12.841,2.304"]
+"ISOC2" ["l"="12.791,2.194"]
+"MCAT" ["l"="12.733,2.153"]
+"METTL26" ["l"="12.873,2.280"]
+"MPST" ["l"="13.007,2.282"]
+"MTG2" ["l"="12.791,2.200"]
+"NDUFAF6" ["l"="12.793,2.299"]
+"NUBPL" ["l"="12.895,2.156"]
+"PAFAH1B3" ["l"="12.740,2.176"]
+"PDSS1" ["l"="12.794,2.252"]
+"PEBP1" ["l"="12.874,2.319"]
+"PGAM2" ["l"="13.210,2.313"]
+"PGLS" ["l"="12.922,2.364"]
+"PMPCA" ["l"="12.989,2.238"]
+"PPA2" ["l"="12.811,2.179"]
+"RPE" ["l"="12.756,2.167"]
+"SAMM50" ["l"="12.882,2.336"]
+"SIRT3" ["l"="12.710,2.248"]
+"SIRT4" ["l"="12.675,2.236"]
+"SIRT5" ["l"="12.723,2.278"]
+"TST" ["l"="13.030,2.270"]
+"VDAC1" ["l"="13.097,2.327"]
+"VDAC2" ["l"="13.164,2.351"]
+"VDAC3" ["l"="13.122,2.328"]
+"ACOT13" -> "ISOC2"
+"ACOT13" -> "FUOM"
+"ACOT13" -> "CLPP"
+"ACOT13" -> "CLYBL"
+"AFG1L" -> "SIRT5"
+"AFG1L" -> "MTG2"
+"AFG1L" -> "NUBPL"
+"AFG1L" -> "NDUFAF6"
+"APRT" -> "PGLS"
+"APRT" -> "FUOM"
+"APRT" -> "MPST"
+"APRT" -> "SIRT4"
+"BPGM" -> "PGAM2"
+"BPGM" -> "MPST"
+"BPGM" -> "SIRT4"
+"BPGM" -> "GPX2"
+"CLPP" -> "MCAT"
+"CLPP" -> "NUBPL"
+"CLPP" -> "PMPCA"
+"CLPP" -> "SIRT3"
+"CLYBL" -> "NUBPL"
+"CLYBL" -> "AFG1L"
+"CLYBL" -> "SIRT5"
+"CLYBL" -> "RPE"
+"DDAH2" -> "PGLS"
+"DDAH2" -> "ETHE1"
+"DDAH2" -> "FUOM"
+"DDAH2" -> "PAFAH1B3"
+"DNAJA3" -> "MTG2"
+"DNAJA3" -> "NUBPL"
+"DNAJA3" -> "GTPBP10"
+"DNAJA3" -> "SIRT3"
+"ECI1" -> "MCAT"
+"ECI1" -> "CLPP"
+"ECI1" -> "PGLS"
+"ECI1" -> "NUBPL"
+"ETHE1" -> "PGLS"
+"ETHE1" -> "MPST"
+"ETHE1" -> "DDAH2"
+"ETHE1" -> "APRT"
+"FAM185A" -> "NUBPL"
+"FAM185A" -> "SIRT3"
+"FAM185A" -> "AFG1L"
+"FAM185A" -> "MTG2"
+"FUOM" -> "ISOC2"
+"FUOM" -> "APRT"
+"FUOM" -> "PGLS"
+"FUOM" -> "GAMT"
+"GAMT" -> "METTL26"
+"GAMT" -> "PEBP1"
+"GAMT" -> "MPST"
+"GAMT" -> "PGLS"
+"GPX2" -> "PEBP1"
+"GPX2" -> "MPST"
+"GPX2" -> "GAMT"
+"GPX2" -> "BPGM"
+"GTPBP10" -> "MTG2"
+"GTPBP10" -> "NUBPL"
+"GTPBP10" -> "AFG1L"
+"GTPBP10" -> "DNAJA3"
+"ISOC2" -> "FUOM"
+"ISOC2" -> "PAFAH1B3"
+"ISOC2" -> "CLPP"
+"ISOC2" -> "ACOT13"
+"MCAT" -> "CLPP"
+"MCAT" -> "SIRT5"
+"MCAT" -> "MTG2"
+"MCAT" -> "SIRT3"
+"METTL26" -> "GAMT"
+"METTL26" -> "PGLS"
+"METTL26" -> "MCAT"
+"METTL26" -> "APRT"
+"MPST" -> "TST"
+"MPST" -> "PGLS"
+"MPST" -> "PEBP1"
+"MPST" -> "ETHE1"
+"MTG2" -> "DNAJA3"
+"MTG2" -> "GTPBP10"
+"MTG2" -> "NUBPL"
+"MTG2" -> "SIRT3"
+"NDUFAF6" -> "AFG1L"
+"NDUFAF6" -> "PDSS1"
+"NDUFAF6" -> "NUBPL"
+"NDUFAF6" -> "MCAT"
+"NUBPL" -> "GTPBP10"
+"NUBPL" -> "MTG2"
+"NUBPL" -> "CLYBL"
+"NUBPL" -> "SIRT3"
+"PAFAH1B3" -> "ISOC2"
+"PAFAH1B3" -> "PGLS"
+"PAFAH1B3" -> "METTL26"
+"PAFAH1B3" -> "SIRT4"
+"PDSS1" -> "NDUFAF6"
+"PDSS1" -> "AFG1L"
+"PDSS1" -> "SIRT5"
+"PDSS1" -> "CLYBL"
+"PEBP1" -> "GPX2"
+"PEBP1" -> "GAMT"
+"PEBP1" -> "MPST"
+"PEBP1" -> "TST"
+"PGAM2" -> "BPGM"
+"PGAM2" -> "MPST"
+"PGAM2" -> "GAMT"
+"PGAM2" -> "TST"
+"PGLS" -> "MPST"
+"PGLS" -> "ETHE1"
+"PGLS" -> "APRT"
+"PGLS" -> "DDAH2"
+"PMPCA" -> "SAMM50"
+"PMPCA" -> "CLPP"
+"PMPCA" -> "MCAT"
+"PMPCA" -> "NUBPL"
+"PPA2" -> "AFG1L"
+"PPA2" -> "GPX2"
+"PPA2" -> "NUBPL"
+"PPA2" -> "PEBP1"
+"RPE" -> "CLYBL"
+"RPE" -> "SIRT5"
+"RPE" -> "AFG1L"
+"RPE" -> "NUBPL"
+"SAMM50" -> "PMPCA"
+"SAMM50" -> "CLPP"
+"SAMM50" -> "DNAJA3"
+"SAMM50" -> "MTG2"
+"SIRT3" -> "SIRT4"
+"SIRT3" -> "MTG2"
+"SIRT3" -> "NUBPL"
+"SIRT3" -> "SIRT5"
+"SIRT4" -> "SIRT5"
+"SIRT4" -> "SIRT3"
+"SIRT4" -> "MTG2"
+"SIRT4" -> "MPST"
+"SIRT5" -> "SIRT4"
+"SIRT5" -> "AFG1L"
+"SIRT5" -> "SIRT3"
+"SIRT5" -> "MTG2"
+"TST" -> "MPST"
+"TST" -> "PGLS"
+"TST" -> "PEBP1"
+"TST" -> "MCAT"
+"VDAC1" -> "VDAC2"
+"VDAC1" -> "VDAC3"
+"VDAC1" -> "SAMM50"
+"VDAC1" -> "FAM185A"
+"VDAC2" -> "VDAC1"
+"VDAC2" -> "VDAC3"
+"VDAC2" -> "SAMM50"
+"VDAC2" -> "FAM185A"
+"VDAC3" -> "VDAC2"
+"VDAC3" -> "VDAC1"
+"VDAC3" -> "SAMM50"
+"VDAC3" -> "FAM185A"
+}

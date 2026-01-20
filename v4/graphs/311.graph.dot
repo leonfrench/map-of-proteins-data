@@ -1,0 +1,167 @@
+digraph G {
+"CLVS2" ["l"="10.706,1.254"]
+"EHD1" ["l"="10.697,1.455"]
+"EHD3" ["l"="10.750,1.381"]
+"EHD4" ["l"="10.713,1.425"]
+"FIG4" ["l"="10.739,1.231"]
+"M1AP" ["l"="10.742,1.456"]
+"MON1B" ["l"="10.658,1.326"]
+"MSH3" ["l"="10.794,1.332"]
+"MSH4" ["l"="10.684,1.423"]
+"MTMR12" ["l"="10.746,1.186"]
+"MTMR9" ["l"="10.741,1.184"]
+"PDP1" ["l"="10.724,1.419"]
+"PDP2" ["l"="10.796,1.457"]
+"PIP5KL1" ["l"="10.731,1.536"]
+"PPM1A" ["l"="10.689,1.433"]
+"PPM1F" ["l"="10.768,1.573"]
+"PPM1H" ["l"="10.759,1.463"]
+"PPM1K" ["l"="10.654,1.449"]
+"PPM1L" ["l"="10.661,1.444"]
+"PPTC7" ["l"="10.687,1.464"]
+"PTEN" ["l"="10.771,1.319"]
+"RBPJL" ["l"="10.689,1.372"]
+"RNF17" ["l"="10.796,1.377"]
+"SNX16" ["l"="10.696,1.260"]
+"SPAG1" ["l"="10.702,1.472"]
+"SRBD1" ["l"="10.784,1.504"]
+"STK31" ["l"="10.759,1.390"]
+"TCP11" ["l"="10.693,1.308"]
+"TCP11L1" ["l"="10.708,1.317"]
+"TCP11L2" ["l"="10.693,1.462"]
+"TDRD1" ["l"="10.775,1.467"]
+"TTC31" ["l"="10.678,1.443"]
+"USP13" ["l"="10.794,1.370"]
+"CLVS2" -> "PTEN"
+"CLVS2" -> "MTMR9"
+"CLVS2" -> "MTMR12"
+"CLVS2" -> "USP13"
+"EHD1" -> "EHD4"
+"EHD1" -> "EHD3"
+"EHD1" -> "PPM1A"
+"EHD1" -> "PPTC7"
+"EHD3" -> "EHD1"
+"EHD3" -> "EHD4"
+"EHD3" -> "PPTC7"
+"EHD3" -> "PPM1A"
+"EHD4" -> "EHD1"
+"EHD4" -> "EHD3"
+"EHD4" -> "MTMR12"
+"EHD4" -> "PPTC7"
+"FIG4" -> "MTMR9"
+"FIG4" -> "MTMR12"
+"FIG4" -> "USP13"
+"FIG4" -> "CLVS2"
+"M1AP" -> "TCP11L1"
+"M1AP" -> "TCP11"
+"M1AP" -> "MTMR12"
+"M1AP" -> "TDRD1"
+"MON1B" -> "MTMR9"
+"MON1B" -> "TDRD1"
+"MON1B" -> "PIP5KL1"
+"MON1B" -> "TTC31"
+"MSH3" -> "SRBD1"
+"MSH3" -> "MSH4"
+"MSH3" -> "MTMR12"
+"MSH3" -> "TDRD1"
+"MSH4" -> "MSH3"
+"MSH4" -> "SRBD1"
+"MSH4" -> "TDRD1"
+"MSH4" -> "SNX16"
+"MTMR12" -> "MTMR9"
+"MTMR12" -> "PIP5KL1"
+"MTMR12" -> "FIG4"
+"MTMR12" -> "EHD4"
+"MTMR9" -> "MTMR12"
+"MTMR9" -> "FIG4"
+"MTMR9" -> "CLVS2"
+"MTMR9" -> "PTEN"
+"PDP1" -> "PDP2"
+"PDP1" -> "PPM1K"
+"PDP1" -> "PPTC7"
+"PDP1" -> "PPM1A"
+"PDP2" -> "PDP1"
+"PDP2" -> "PPM1H"
+"PDP2" -> "PPTC7"
+"PDP2" -> "PPM1K"
+"PIP5KL1" -> "RBPJL"
+"PIP5KL1" -> "MTMR12"
+"PIP5KL1" -> "CLVS2"
+"PIP5KL1" -> "PPM1H"
+"PPM1A" -> "PPM1K"
+"PPM1A" -> "PPTC7"
+"PPM1A" -> "PPM1L"
+"PPM1A" -> "PTEN"
+"PPM1F" -> "PPM1L"
+"PPM1F" -> "PPM1H"
+"PPM1F" -> "PPM1K"
+"PPM1F" -> "PPTC7"
+"PPM1H" -> "PDP2"
+"PPM1H" -> "PPM1K"
+"PPM1H" -> "PPM1L"
+"PPM1H" -> "PPTC7"
+"PPM1K" -> "PPM1A"
+"PPM1K" -> "PPM1L"
+"PPM1K" -> "PPTC7"
+"PPM1K" -> "PDP2"
+"PPM1L" -> "PPM1K"
+"PPM1L" -> "PPM1H"
+"PPM1L" -> "PPM1A"
+"PPM1L" -> "PPTC7"
+"PPTC7" -> "PPM1K"
+"PPTC7" -> "PPM1A"
+"PPTC7" -> "PDP2"
+"PPTC7" -> "PPM1H"
+"PTEN" -> "CLVS2"
+"PTEN" -> "PPM1A"
+"PTEN" -> "MTMR9"
+"PTEN" -> "MTMR12"
+"RBPJL" -> "PIP5KL1"
+"RBPJL" -> "TDRD1"
+"RBPJL" -> "PPM1H"
+"RBPJL" -> "M1AP"
+"RNF17" -> "TDRD1"
+"RNF17" -> "STK31"
+"RNF17" -> "USP13"
+"RNF17" -> "MSH3"
+"SNX16" -> "MTMR9"
+"SNX16" -> "PPM1K"
+"SNX16" -> "TCP11L2"
+"SNX16" -> "CLVS2"
+"SPAG1" -> "MSH3"
+"SPAG1" -> "TDRD1"
+"SPAG1" -> "USP13"
+"SPAG1" -> "SRBD1"
+"SRBD1" -> "MSH3"
+"SRBD1" -> "TDRD1"
+"SRBD1" -> "MSH4"
+"SRBD1" -> "TCP11L1"
+"STK31" -> "RNF17"
+"STK31" -> "TDRD1"
+"STK31" -> "USP13"
+"STK31" -> "MSH3"
+"TCP11" -> "TCP11L1"
+"TCP11" -> "TCP11L2"
+"TCP11" -> "M1AP"
+"TCP11" -> "PIP5KL1"
+"TCP11L1" -> "TCP11"
+"TCP11L1" -> "TCP11L2"
+"TCP11L1" -> "EHD4"
+"TCP11L1" -> "EHD1"
+"TCP11L2" -> "TCP11L1"
+"TCP11L2" -> "TCP11"
+"TCP11L2" -> "CLVS2"
+"TCP11L2" -> "EHD4"
+"TDRD1" -> "RNF17"
+"TDRD1" -> "STK31"
+"TDRD1" -> "SRBD1"
+"TDRD1" -> "USP13"
+"TTC31" -> "PPM1F"
+"TTC31" -> "MON1B"
+"TTC31" -> "EHD1"
+"TTC31" -> "PIP5KL1"
+"USP13" -> "TDRD1"
+"USP13" -> "EHD4"
+"USP13" -> "CLVS2"
+"USP13" -> "FIG4"
+}

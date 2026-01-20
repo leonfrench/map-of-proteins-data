@@ -1,0 +1,122 @@
+digraph G {
+"ACTR5" ["l"="11.754,1.651"]
+"ACTR8" ["l"="11.880,1.552"]
+"ASNSD1" ["l"="11.782,1.680"]
+"ASPHD2" ["l"="11.896,1.544"]
+"ATAD3B" ["l"="11.779,1.590"]
+"BBS12" ["l"="11.826,1.576"]
+"C2orf69" ["l"="11.868,1.562"]
+"CDKAL1" ["l"="11.937,1.603"]
+"DNAJC11" ["l"="11.823,1.576"]
+"ELAC2" ["l"="11.840,1.596"]
+"HMOX2" ["l"="11.849,1.444"]
+"IPPK" ["l"="11.816,1.547"]
+"KIAA0895L" ["l"="11.916,1.458"]
+"KPTN" ["l"="11.963,1.473"]
+"LONP1" ["l"="11.800,1.505"]
+"MKKS" ["l"="11.877,1.508"]
+"MSTO1" ["l"="11.782,1.563"]
+"NEU2" ["l"="11.798,1.493"]
+"OLA1" ["l"="11.890,1.544"]
+"PRKAB1" ["l"="11.889,1.488"]
+"PSMD14" ["l"="11.783,1.683"]
+"SRP54" ["l"="11.762,1.635"]
+"TYSND1" ["l"="11.932,1.512"]
+"UHMK1" ["l"="11.860,1.481"]
+"ACTR5" -> "ACTR8"
+"ACTR5" -> "ELAC2"
+"ACTR5" -> "DNAJC11"
+"ACTR5" -> "TYSND1"
+"ACTR8" -> "ACTR5"
+"ACTR8" -> "ELAC2"
+"ACTR8" -> "DNAJC11"
+"ACTR8" -> "BBS12"
+"ASNSD1" -> "BBS12"
+"ASNSD1" -> "ACTR8"
+"ASNSD1" -> "IPPK"
+"ASNSD1" -> "C2orf69"
+"ASPHD2" -> "PRKAB1"
+"ASPHD2" -> "C2orf69"
+"ASPHD2" -> "ACTR8"
+"ASPHD2" -> "KIAA0895L"
+"ATAD3B" -> "DNAJC11"
+"ATAD3B" -> "LONP1"
+"ATAD3B" -> "ELAC2"
+"ATAD3B" -> "ACTR8"
+"BBS12" -> "ASNSD1"
+"BBS12" -> "MKKS"
+"BBS12" -> "ACTR8"
+"BBS12" -> "C2orf69"
+"C2orf69" -> "UHMK1"
+"C2orf69" -> "ACTR8"
+"C2orf69" -> "ASPHD2"
+"C2orf69" -> "IPPK"
+"CDKAL1" -> "ELAC2"
+"CDKAL1" -> "ACTR8"
+"CDKAL1" -> "KIAA0895L"
+"CDKAL1" -> "PRKAB1"
+"DNAJC11" -> "ATAD3B"
+"DNAJC11" -> "ELAC2"
+"DNAJC11" -> "ACTR5"
+"DNAJC11" -> "ACTR8"
+"ELAC2" -> "ACTR8"
+"ELAC2" -> "DNAJC11"
+"ELAC2" -> "ACTR5"
+"ELAC2" -> "PRKAB1"
+"HMOX2" -> "ASPHD2"
+"HMOX2" -> "KIAA0895L"
+"HMOX2" -> "PRKAB1"
+"HMOX2" -> "DNAJC11"
+"IPPK" -> "ELAC2"
+"IPPK" -> "ACTR8"
+"IPPK" -> "C2orf69"
+"IPPK" -> "MSTO1"
+"KIAA0895L" -> "ELAC2"
+"KIAA0895L" -> "KPTN"
+"KIAA0895L" -> "ACTR8"
+"KIAA0895L" -> "ASPHD2"
+"KPTN" -> "TYSND1"
+"KPTN" -> "ELAC2"
+"KPTN" -> "KIAA0895L"
+"KPTN" -> "MSTO1"
+"LONP1" -> "ATAD3B"
+"LONP1" -> "ELAC2"
+"LONP1" -> "DNAJC11"
+"LONP1" -> "OLA1"
+"MKKS" -> "BBS12"
+"MKKS" -> "ACTR8"
+"MKKS" -> "C2orf69"
+"MKKS" -> "TYSND1"
+"MSTO1" -> "ELAC2"
+"MSTO1" -> "ACTR8"
+"MSTO1" -> "KPTN"
+"MSTO1" -> "DNAJC11"
+"NEU2" -> "KPTN"
+"NEU2" -> "C2orf69"
+"NEU2" -> "UHMK1"
+"NEU2" -> "IPPK"
+"OLA1" -> "LONP1"
+"OLA1" -> "ACTR8"
+"OLA1" -> "ACTR5"
+"OLA1" -> "DNAJC11"
+"PRKAB1" -> "ELAC2"
+"PRKAB1" -> "ASPHD2"
+"PRKAB1" -> "ACTR8"
+"PRKAB1" -> "DNAJC11"
+"PSMD14" -> "SRP54"
+"PSMD14" -> "OLA1"
+"PSMD14" -> "ACTR8"
+"PSMD14" -> "KPTN"
+"SRP54" -> "PSMD14"
+"SRP54" -> "OLA1"
+"SRP54" -> "LONP1"
+"SRP54" -> "ATAD3B"
+"TYSND1" -> "KPTN"
+"TYSND1" -> "ACTR5"
+"TYSND1" -> "ELAC2"
+"TYSND1" -> "UHMK1"
+"UHMK1" -> "C2orf69"
+"UHMK1" -> "TYSND1"
+"UHMK1" -> "ASPHD2"
+"UHMK1" -> "NEU2"
+}

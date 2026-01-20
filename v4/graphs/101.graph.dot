@@ -1,0 +1,112 @@
+digraph G {
+"BSCL2" ["l"="10.603,-1.173"]
+"CLCC1" ["l"="10.688,-1.222"]
+"CPNE1" ["l"="10.588,-0.499"]
+"CPNE2" ["l"="10.575,-0.491"]
+"CPNE3" ["l"="10.651,-0.488"]
+"CPNE4" ["l"="10.596,-0.508"]
+"CPNE5" ["l"="10.577,-0.435"]
+"CPNE6" ["l"="10.589,-0.504"]
+"CPNE7" ["l"="10.608,-0.520"]
+"CPNE8" ["l"="10.637,-0.511"]
+"CPNE9" ["l"="10.601,-0.464"]
+"LNPK" ["l"="10.597,-1.190"]
+"MFAP3" ["l"="10.774,-1.309"]
+"MFAP3L" ["l"="10.718,-1.469"]
+"RETREG1" ["l"="10.563,-1.017"]
+"RETREG2" ["l"="10.584,-0.941"]
+"RETREG3" ["l"="10.590,-1.061"]
+"RIC3" ["l"="10.742,-1.079"]
+"RNF19A" ["l"="10.604,-1.558"]
+"RNF19B" ["l"="10.614,-1.652"]
+"TMEM117" ["l"="10.739,-1.634"]
+"TMX4" ["l"="10.652,-0.829"]
+"BSCL2" -> "RETREG2"
+"BSCL2" -> "TMX4"
+"BSCL2" -> "LNPK"
+"BSCL2" -> "RETREG3"
+"CLCC1" -> "MFAP3"
+"CLCC1" -> "RIC3"
+"CLCC1" -> "LNPK"
+"CLCC1" -> "RETREG3"
+"CPNE1" -> "CPNE6"
+"CPNE1" -> "CPNE7"
+"CPNE1" -> "CPNE2"
+"CPNE1" -> "CPNE5"
+"CPNE2" -> "CPNE5"
+"CPNE2" -> "CPNE7"
+"CPNE2" -> "CPNE4"
+"CPNE2" -> "CPNE6"
+"CPNE3" -> "CPNE4"
+"CPNE3" -> "CPNE2"
+"CPNE3" -> "CPNE1"
+"CPNE3" -> "CPNE8"
+"CPNE4" -> "CPNE7"
+"CPNE4" -> "CPNE5"
+"CPNE4" -> "CPNE2"
+"CPNE4" -> "CPNE9"
+"CPNE5" -> "CPNE9"
+"CPNE5" -> "CPNE2"
+"CPNE5" -> "CPNE4"
+"CPNE5" -> "CPNE7"
+"CPNE6" -> "CPNE7"
+"CPNE6" -> "CPNE2"
+"CPNE6" -> "CPNE5"
+"CPNE6" -> "CPNE1"
+"CPNE7" -> "CPNE6"
+"CPNE7" -> "CPNE2"
+"CPNE7" -> "CPNE9"
+"CPNE7" -> "CPNE4"
+"CPNE8" -> "CPNE4"
+"CPNE8" -> "CPNE9"
+"CPNE8" -> "CPNE5"
+"CPNE8" -> "CPNE2"
+"CPNE9" -> "CPNE5"
+"CPNE9" -> "CPNE7"
+"CPNE9" -> "CPNE4"
+"CPNE9" -> "CPNE2"
+"LNPK" -> "CLCC1"
+"LNPK" -> "RIC3"
+"LNPK" -> "MFAP3"
+"LNPK" -> "RETREG3"
+"MFAP3" -> "MFAP3L"
+"MFAP3" -> "CLCC1"
+"MFAP3" -> "RETREG3"
+"MFAP3" -> "RETREG1"
+"MFAP3L" -> "MFAP3"
+"MFAP3L" -> "RETREG1"
+"MFAP3L" -> "CLCC1"
+"MFAP3L" -> "RNF19A"
+"RETREG1" -> "RETREG3"
+"RETREG1" -> "RETREG2"
+"RETREG1" -> "MFAP3"
+"RETREG1" -> "RIC3"
+"RETREG2" -> "RETREG3"
+"RETREG2" -> "RETREG1"
+"RETREG2" -> "TMX4"
+"RETREG2" -> "MFAP3"
+"RETREG3" -> "RETREG2"
+"RETREG3" -> "RETREG1"
+"RETREG3" -> "MFAP3"
+"RETREG3" -> "RIC3"
+"RIC3" -> "CLCC1"
+"RIC3" -> "RETREG3"
+"RIC3" -> "MFAP3"
+"RIC3" -> "LNPK"
+"RNF19A" -> "RNF19B"
+"RNF19A" -> "MFAP3"
+"RNF19A" -> "MFAP3L"
+"RNF19A" -> "TMEM117"
+"RNF19B" -> "RNF19A"
+"RNF19B" -> "RETREG3"
+"RNF19B" -> "RETREG1"
+"RNF19B" -> "RETREG2"
+"TMEM117" -> "MFAP3"
+"TMEM117" -> "RETREG1"
+"TMEM117" -> "MFAP3L"
+"TMEM117" -> "RIC3"
+"TMX4" -> "RETREG2"
+"TMX4" -> "RETREG1"
+"TMX4" -> "RIC3"
+"TMX4" -> "LNPK"
+}

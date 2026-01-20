@@ -1,0 +1,92 @@
+digraph G {
+"AMBP" ["l"="7.710,-1.940"]
+"APOD" ["l"="7.608,-1.926"]
+"APOM" ["l"="7.632,-1.900"]
+"C8G" ["l"="7.639,-1.892"]
+"LCN1" ["l"="7.634,-1.904"]
+"LCN12" ["l"="7.643,-1.888"]
+"LCN15" ["l"="7.632,-1.896"]
+"LCN2" ["l"="7.631,-1.912"]
+"LCN6" ["l"="7.589,-1.930"]
+"LCN8" ["l"="7.642,-1.882"]
+"LCN9" ["l"="7.633,-1.901"]
+"OBP2A" ["l"="7.620,-1.909"]
+"OBP2B" ["l"="7.618,-1.901"]
+"ORM1" ["l"="7.621,-1.915"]
+"ORM2" ["l"="7.621,-1.920"]
+"PAEP" ["l"="7.634,-1.899"]
+"PTGDS" ["l"="7.632,-1.904"]
+"RBP4" ["l"="7.622,-1.908"]
+"AMBP" -> "RBP4"
+"AMBP" -> "PTGDS"
+"AMBP" -> "PAEP"
+"AMBP" -> "LCN2"
+"APOD" -> "PAEP"
+"APOD" -> "RBP4"
+"APOD" -> "LCN9"
+"APOD" -> "LCN15"
+"APOM" -> "C8G"
+"APOM" -> "LCN9"
+"APOM" -> "PAEP"
+"APOM" -> "LCN15"
+"C8G" -> "LCN12"
+"C8G" -> "LCN15"
+"C8G" -> "LCN6"
+"C8G" -> "PAEP"
+"LCN1" -> "OBP2A"
+"LCN1" -> "PAEP"
+"LCN1" -> "OBP2B"
+"LCN1" -> "ORM1"
+"LCN12" -> "LCN15"
+"LCN12" -> "C8G"
+"LCN12" -> "LCN6"
+"LCN12" -> "LCN8"
+"LCN15" -> "LCN12"
+"LCN15" -> "LCN8"
+"LCN15" -> "LCN6"
+"LCN15" -> "PTGDS"
+"LCN2" -> "PAEP"
+"LCN2" -> "LCN1"
+"LCN2" -> "LCN15"
+"LCN2" -> "ORM1"
+"LCN6" -> "LCN8"
+"LCN6" -> "LCN15"
+"LCN6" -> "LCN12"
+"LCN6" -> "PTGDS"
+"LCN8" -> "LCN6"
+"LCN8" -> "LCN15"
+"LCN8" -> "LCN12"
+"LCN8" -> "PTGDS"
+"LCN9" -> "PAEP"
+"LCN9" -> "LCN15"
+"LCN9" -> "RBP4"
+"LCN9" -> "LCN6"
+"OBP2A" -> "OBP2B"
+"OBP2A" -> "LCN1"
+"OBP2A" -> "LCN6"
+"OBP2A" -> "PAEP"
+"OBP2B" -> "OBP2A"
+"OBP2B" -> "LCN1"
+"OBP2B" -> "LCN9"
+"OBP2B" -> "LCN2"
+"ORM1" -> "ORM2"
+"ORM1" -> "LCN1"
+"ORM1" -> "LCN2"
+"ORM1" -> "PAEP"
+"ORM2" -> "ORM1"
+"ORM2" -> "LCN2"
+"ORM2" -> "LCN1"
+"ORM2" -> "OBP2A"
+"PAEP" -> "LCN9"
+"PAEP" -> "LCN1"
+"PAEP" -> "APOD"
+"PAEP" -> "LCN15"
+"PTGDS" -> "LCN15"
+"PTGDS" -> "LCN6"
+"PTGDS" -> "LCN8"
+"PTGDS" -> "LCN2"
+"RBP4" -> "PAEP"
+"RBP4" -> "LCN9"
+"RBP4" -> "APOD"
+"RBP4" -> "LCN1"
+}

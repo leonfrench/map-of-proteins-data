@@ -1,0 +1,317 @@
+digraph G {
+"ACACA" ["l"="9.595,-0.345"]
+"ANKRD17" ["l"="9.413,-0.100"]
+"ARFGEF1" ["l"="9.596,-0.231"]
+"ARFGEF2" ["l"="9.653,-0.236"]
+"ASCC3" ["l"="9.663,-0.203"]
+"CFAP46" ["l"="9.644,-0.407"]
+"CFAP54" ["l"="9.423,-0.237"]
+"CKAP5" ["l"="9.709,-0.224"]
+"CNOT1" ["l"="9.626,-0.359"]
+"CPLANE1" ["l"="9.618,-0.365"]
+"DENND4A" ["l"="9.476,-0.058"]
+"DENND4C" ["l"="9.488,-0.132"]
+"DMXL1" ["l"="9.559,-0.358"]
+"DMXL2" ["l"="9.586,-0.410"]
+"DNAH12" ["l"="9.458,-0.359"]
+"DOCK1" ["l"="9.346,-0.194"]
+"DOCK10" ["l"="9.437,-0.259"]
+"DOCK2" ["l"="9.451,-0.225"]
+"DOCK3" ["l"="9.386,-0.211"]
+"DOCK4" ["l"="9.314,-0.169"]
+"DOCK5" ["l"="9.340,-0.124"]
+"DOCK7" ["l"="9.507,-0.273"]
+"DOCK8" ["l"="9.441,-0.365"]
+"DOCK9" ["l"="9.452,-0.313"]
+"DOP1A" ["l"="9.619,-0.392"]
+"FRYL" ["l"="9.574,-0.353"]
+"GBF1" ["l"="9.690,-0.103"]
+"HECTD1" ["l"="9.547,-0.328"]
+"IQGAP1" ["l"="9.375,-0.200"]
+"IQGAP2" ["l"="9.478,-0.205"]
+"IQGAP3" ["l"="9.580,-0.376"]
+"KIDINS220" ["l"="9.495,-0.122"]
+"LRBA" ["l"="9.561,-0.324"]
+"MADD" ["l"="9.583,-0.030"]
+"MED12L" ["l"="9.476,-0.325"]
+"MED13" ["l"="9.494,-0.248"]
+"MED13L" ["l"="9.468,-0.265"]
+"MYO7B" ["l"="9.585,-0.608"]
+"MYO9B" ["l"="9.399,-0.294"]
+"NBEA" ["l"="9.556,-0.419"]
+"PCNX2" ["l"="9.671,-0.391"]
+"PI4KA" ["l"="9.593,-0.362"]
+"PIKFYVE" ["l"="9.600,-0.150"]
+"PRPF8" ["l"="9.704,-0.403"]
+"RALGAPA1" ["l"="9.588,-0.348"]
+"RALGAPA2" ["l"="9.609,-0.041"]
+"SBF2" ["l"="9.510,-0.189"]
+"TLN2" ["l"="9.442,-0.651"]
+"TRIO" ["l"="9.197,-0.418"]
+"TRIP12" ["l"="9.543,-0.295"]
+"TRPM7" ["l"="9.656,-0.342"]
+"TSC2" ["l"="9.653,-0.070"]
+"TTC28" ["l"="9.532,-0.160"]
+"UBR1" ["l"="9.652,-0.230"]
+"UBR2" ["l"="9.603,-0.218"]
+"UBR3" ["l"="9.592,-0.285"]
+"UBR5" ["l"="9.523,-0.312"]
+"UGGT2" ["l"="9.642,-0.143"]
+"UNC79" ["l"="9.598,-0.389"]
+"USP24" ["l"="9.593,-0.318"]
+"USP34" ["l"="9.530,-0.340"]
+"VWA8" ["l"="9.591,-0.188"]
+"ZSWIM8" ["l"="9.657,-0.064"]
+"ACACA" -> "DOCK3"
+"ACACA" -> "PI4KA"
+"ACACA" -> "DOCK7"
+"ACACA" -> "NBEA"
+"ANKRD17" -> "UBR5"
+"ANKRD17" -> "LRBA"
+"ANKRD17" -> "ARFGEF1"
+"ANKRD17" -> "TRIP12"
+"ARFGEF1" -> "ARFGEF2"
+"ARFGEF1" -> "TRIP12"
+"ARFGEF1" -> "GBF1"
+"ARFGEF1" -> "RALGAPA2"
+"ARFGEF2" -> "ARFGEF1"
+"ARFGEF2" -> "GBF1"
+"ARFGEF2" -> "UBR1"
+"ARFGEF2" -> "PI4KA"
+"ASCC3" -> "ARFGEF1"
+"ASCC3" -> "LRBA"
+"ASCC3" -> "VWA8"
+"ASCC3" -> "USP24"
+"CFAP46" -> "CFAP54"
+"CFAP46" -> "DNAH12"
+"CFAP46" -> "MYO7B"
+"CFAP46" -> "CPLANE1"
+"CFAP54" -> "CFAP46"
+"CFAP54" -> "DNAH12"
+"CFAP54" -> "CPLANE1"
+"CFAP54" -> "DOCK7"
+"CKAP5" -> "ASCC3"
+"CKAP5" -> "GBF1"
+"CKAP5" -> "ARFGEF1"
+"CKAP5" -> "CNOT1"
+"CNOT1" -> "USP24"
+"CNOT1" -> "GBF1"
+"CNOT1" -> "HECTD1"
+"CNOT1" -> "LRBA"
+"CPLANE1" -> "LRBA"
+"CPLANE1" -> "DMXL1"
+"CPLANE1" -> "DOP1A"
+"CPLANE1" -> "DMXL2"
+"DENND4A" -> "DENND4C"
+"DENND4A" -> "SBF2"
+"DENND4A" -> "PIKFYVE"
+"DENND4A" -> "MED13L"
+"DENND4C" -> "DENND4A"
+"DENND4C" -> "PIKFYVE"
+"DENND4C" -> "LRBA"
+"DENND4C" -> "SBF2"
+"DMXL1" -> "DMXL2"
+"DMXL1" -> "DOP1A"
+"DMXL1" -> "FRYL"
+"DMXL1" -> "LRBA"
+"DMXL2" -> "DMXL1"
+"DMXL2" -> "DOP1A"
+"DMXL2" -> "UNC79"
+"DMXL2" -> "USP34"
+"DNAH12" -> "CFAP54"
+"DNAH12" -> "CFAP46"
+"DNAH12" -> "CNOT1"
+"DNAH12" -> "DOCK8"
+"DOCK1" -> "DOCK5"
+"DOCK1" -> "DOCK2"
+"DOCK1" -> "DOCK4"
+"DOCK1" -> "DOCK3"
+"DOCK10" -> "DOCK9"
+"DOCK10" -> "DOCK5"
+"DOCK10" -> "DOCK8"
+"DOCK10" -> "DOCK7"
+"DOCK2" -> "DOCK1"
+"DOCK2" -> "DOCK5"
+"DOCK2" -> "DOCK8"
+"DOCK2" -> "DOCK4"
+"DOCK3" -> "DOCK4"
+"DOCK3" -> "DOCK9"
+"DOCK3" -> "DOCK5"
+"DOCK3" -> "DOCK1"
+"DOCK4" -> "DOCK3"
+"DOCK4" -> "DOCK5"
+"DOCK4" -> "DOCK1"
+"DOCK4" -> "DOCK2"
+"DOCK5" -> "DOCK1"
+"DOCK5" -> "DOCK4"
+"DOCK5" -> "DOCK9"
+"DOCK5" -> "DOCK2"
+"DOCK7" -> "RALGAPA1"
+"DOCK7" -> "FRYL"
+"DOCK7" -> "SBF2"
+"DOCK7" -> "USP24"
+"DOCK8" -> "DOCK2"
+"DOCK8" -> "DOCK9"
+"DOCK8" -> "DOCK10"
+"DOCK8" -> "DOCK7"
+"DOCK9" -> "DOCK10"
+"DOCK9" -> "DOCK5"
+"DOCK9" -> "DOCK8"
+"DOCK9" -> "DOCK3"
+"DOP1A" -> "LRBA"
+"DOP1A" -> "UNC79"
+"DOP1A" -> "USP24"
+"DOP1A" -> "FRYL"
+"FRYL" -> "RALGAPA1"
+"FRYL" -> "LRBA"
+"FRYL" -> "USP34"
+"FRYL" -> "DOCK7"
+"GBF1" -> "ARFGEF2"
+"GBF1" -> "ARFGEF1"
+"GBF1" -> "RALGAPA2"
+"GBF1" -> "TSC2"
+"HECTD1" -> "UBR5"
+"HECTD1" -> "TRIP12"
+"HECTD1" -> "LRBA"
+"HECTD1" -> "USP34"
+"IQGAP1" -> "IQGAP2"
+"IQGAP1" -> "IQGAP3"
+"IQGAP1" -> "DOCK5"
+"IQGAP1" -> "DOCK1"
+"IQGAP2" -> "IQGAP1"
+"IQGAP2" -> "DOCK1"
+"IQGAP2" -> "DOCK2"
+"IQGAP2" -> "DOCK5"
+"IQGAP3" -> "IQGAP1"
+"IQGAP3" -> "MYO9B"
+"IQGAP3" -> "MYO7B"
+"IQGAP3" -> "ARFGEF2"
+"KIDINS220" -> "TRPM7"
+"KIDINS220" -> "ACACA"
+"KIDINS220" -> "ANKRD17"
+"KIDINS220" -> "DOCK3"
+"LRBA" -> "NBEA"
+"LRBA" -> "USP24"
+"LRBA" -> "FRYL"
+"LRBA" -> "USP34"
+"MADD" -> "TSC2"
+"MADD" -> "RALGAPA2"
+"MADD" -> "GBF1"
+"MADD" -> "PIKFYVE"
+"MED12L" -> "USP34"
+"MED12L" -> "DOCK7"
+"MED12L" -> "USP24"
+"MED12L" -> "UNC79"
+"MED13" -> "MED13L"
+"MED13" -> "DENND4A"
+"MED13" -> "DENND4C"
+"MED13" -> "UBR5"
+"MED13L" -> "MED13"
+"MED13L" -> "DENND4A"
+"MED13L" -> "UBR5"
+"MED13L" -> "SBF2"
+"MYO7B" -> "MYO9B"
+"MYO7B" -> "DOCK8"
+"MYO7B" -> "IQGAP3"
+"MYO7B" -> "DOCK2"
+"MYO9B" -> "MYO7B"
+"MYO9B" -> "DOCK2"
+"MYO9B" -> "DOCK5"
+"MYO9B" -> "DOCK1"
+"NBEA" -> "LRBA"
+"NBEA" -> "USP34"
+"NBEA" -> "UBR5"
+"NBEA" -> "RALGAPA1"
+"PCNX2" -> "RALGAPA2"
+"PCNX2" -> "NBEA"
+"PCNX2" -> "UNC79"
+"PCNX2" -> "LRBA"
+"PI4KA" -> "UNC79"
+"PI4KA" -> "FRYL"
+"PI4KA" -> "USP34"
+"PI4KA" -> "ARFGEF2"
+"PIKFYVE" -> "DENND4C"
+"PIKFYVE" -> "DOCK7"
+"PIKFYVE" -> "DENND4A"
+"PIKFYVE" -> "USP24"
+"PRPF8" -> "CNOT1"
+"PRPF8" -> "PI4KA"
+"PRPF8" -> "NBEA"
+"PRPF8" -> "LRBA"
+"RALGAPA1" -> "FRYL"
+"RALGAPA1" -> "DOCK7"
+"RALGAPA1" -> "USP34"
+"RALGAPA1" -> "LRBA"
+"RALGAPA2" -> "RALGAPA1"
+"RALGAPA2" -> "ARFGEF1"
+"RALGAPA2" -> "GBF1"
+"RALGAPA2" -> "SBF2"
+"SBF2" -> "DOCK7"
+"SBF2" -> "DENND4A"
+"SBF2" -> "LRBA"
+"SBF2" -> "DENND4C"
+"TLN2" -> "TRIO"
+"TLN2" -> "ARFGEF2"
+"TLN2" -> "TTC28"
+"TLN2" -> "GBF1"
+"TRIO" -> "DOCK9"
+"TRIO" -> "DOCK3"
+"TRIO" -> "SBF2"
+"TRIO" -> "TLN2"
+"TRIP12" -> "HECTD1"
+"TRIP12" -> "ARFGEF1"
+"TRIP12" -> "UBR5"
+"TRIP12" -> "USP24"
+"TRPM7" -> "PIKFYVE"
+"TRPM7" -> "ARFGEF2"
+"TRPM7" -> "USP24"
+"TRPM7" -> "ARFGEF1"
+"TSC2" -> "MADD"
+"TSC2" -> "GBF1"
+"TSC2" -> "PIKFYVE"
+"TSC2" -> "RALGAPA2"
+"TTC28" -> "DOCK7"
+"TTC28" -> "PI4KA"
+"TTC28" -> "TLN2"
+"TTC28" -> "SBF2"
+"UBR1" -> "UBR2"
+"UBR1" -> "UBR3"
+"UBR1" -> "ARFGEF2"
+"UBR1" -> "ARFGEF1"
+"UBR2" -> "UBR1"
+"UBR2" -> "UBR3"
+"UBR2" -> "ARFGEF1"
+"UBR2" -> "ARFGEF2"
+"UBR3" -> "UBR2"
+"UBR3" -> "UBR1"
+"UBR3" -> "ARFGEF1"
+"UBR3" -> "ARFGEF2"
+"UBR5" -> "HECTD1"
+"UBR5" -> "USP34"
+"UBR5" -> "TRIP12"
+"UBR5" -> "LRBA"
+"UGGT2" -> "IQGAP2"
+"UGGT2" -> "DOCK5"
+"UGGT2" -> "UBR2"
+"UGGT2" -> "DOCK2"
+"UNC79" -> "DOP1A"
+"UNC79" -> "PI4KA"
+"UNC79" -> "USP34"
+"UNC79" -> "LRBA"
+"USP24" -> "LRBA"
+"USP24" -> "USP34"
+"USP24" -> "FRYL"
+"USP24" -> "CNOT1"
+"USP34" -> "FRYL"
+"USP34" -> "USP24"
+"USP34" -> "LRBA"
+"USP34" -> "RALGAPA1"
+"VWA8" -> "ASCC3"
+"VWA8" -> "LRBA"
+"VWA8" -> "ACACA"
+"VWA8" -> "SBF2"
+"ZSWIM8" -> "TSC2"
+"ZSWIM8" -> "PIKFYVE"
+"ZSWIM8" -> "MADD"
+"ZSWIM8" -> "MED13"
+}

@@ -1,0 +1,97 @@
+digraph G {
+"ADIPOR1" ["l"="9.574,-3.336"]
+"ADIPOR2" ["l"="9.532,-3.333"]
+"CERS1" ["l"="9.532,-3.323"]
+"CERS2" ["l"="9.561,-3.355"]
+"CERS3" ["l"="9.541,-3.342"]
+"CERS4" ["l"="9.601,-3.366"]
+"CERS5" ["l"="9.597,-3.288"]
+"CERS6" ["l"="9.571,-3.378"]
+"CLN6" ["l"="9.613,-3.344"]
+"DHCR7" ["l"="9.580,-3.379"]
+"ELOVL4" ["l"="9.531,-3.389"]
+"HACD3" ["l"="9.575,-3.316"]
+"PAQR6" ["l"="9.560,-3.310"]
+"PAQR9" ["l"="9.536,-3.311"]
+"SRD5A2" ["l"="9.539,-3.293"]
+"TECR" ["l"="9.541,-3.366"]
+"TLCD4" ["l"="9.567,-3.416"]
+"TM7SF2" ["l"="9.572,-3.317"]
+"TMEM229A" ["l"="9.520,-3.316"]
+"ADIPOR1" -> "ADIPOR2"
+"ADIPOR1" -> "PAQR9"
+"ADIPOR1" -> "CERS5"
+"ADIPOR1" -> "CERS2"
+"ADIPOR2" -> "ADIPOR1"
+"ADIPOR2" -> "PAQR9"
+"ADIPOR2" -> "CERS5"
+"ADIPOR2" -> "CERS6"
+"CERS1" -> "PAQR9"
+"CERS1" -> "CERS5"
+"CERS1" -> "TM7SF2"
+"CERS1" -> "CERS6"
+"CERS2" -> "CERS5"
+"CERS2" -> "CERS3"
+"CERS2" -> "CERS4"
+"CERS2" -> "CERS6"
+"CERS3" -> "CERS6"
+"CERS3" -> "CERS5"
+"CERS3" -> "CERS2"
+"CERS3" -> "CERS4"
+"CERS4" -> "CERS5"
+"CERS4" -> "CERS2"
+"CERS4" -> "CERS3"
+"CERS4" -> "CERS6"
+"CERS5" -> "CERS6"
+"CERS5" -> "CERS2"
+"CERS5" -> "CERS3"
+"CERS5" -> "CERS4"
+"CERS6" -> "CERS5"
+"CERS6" -> "CERS3"
+"CERS6" -> "ELOVL4"
+"CERS6" -> "PAQR9"
+"CLN6" -> "CERS5"
+"CLN6" -> "PAQR9"
+"CLN6" -> "CERS6"
+"CLN6" -> "CERS1"
+"DHCR7" -> "TM7SF2"
+"DHCR7" -> "PAQR9"
+"DHCR7" -> "HACD3"
+"DHCR7" -> "CLN6"
+"ELOVL4" -> "CERS6"
+"ELOVL4" -> "TLCD4"
+"ELOVL4" -> "CERS1"
+"ELOVL4" -> "CERS5"
+"HACD3" -> "DHCR7"
+"HACD3" -> "CERS6"
+"HACD3" -> "PAQR9"
+"HACD3" -> "CERS5"
+"PAQR6" -> "PAQR9"
+"PAQR6" -> "CERS1"
+"PAQR6" -> "CLN6"
+"PAQR6" -> "DHCR7"
+"PAQR9" -> "CERS1"
+"PAQR9" -> "TMEM229A"
+"PAQR9" -> "SRD5A2"
+"PAQR9" -> "CERS6"
+"SRD5A2" -> "PAQR9"
+"SRD5A2" -> "TMEM229A"
+"SRD5A2" -> "TLCD4"
+"SRD5A2" -> "CERS1"
+"TECR" -> "HACD3"
+"TECR" -> "TM7SF2"
+"TECR" -> "CERS2"
+"TECR" -> "DHCR7"
+"TLCD4" -> "PAQR9"
+"TLCD4" -> "ELOVL4"
+"TLCD4" -> "SRD5A2"
+"TLCD4" -> "CERS6"
+"TM7SF2" -> "DHCR7"
+"TM7SF2" -> "CERS1"
+"TM7SF2" -> "SRD5A2"
+"TM7SF2" -> "HACD3"
+"TMEM229A" -> "PAQR9"
+"TMEM229A" -> "SRD5A2"
+"TMEM229A" -> "CERS6"
+"TMEM229A" -> "CERS1"
+}

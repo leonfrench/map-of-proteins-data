@@ -1,0 +1,142 @@
+digraph G {
+"ADK" ["l"="12.744,1.782"]
+"AZIN2" ["l"="12.718,1.664"]
+"CRYZL1" ["l"="12.724,1.845"]
+"FN3K" ["l"="12.666,1.793"]
+"FOXRED1" ["l"="12.730,1.723"]
+"GCH1" ["l"="12.729,1.950"]
+"GFOD2" ["l"="12.660,1.734"]
+"GLYAT" ["l"="12.637,1.827"]
+"INMT" ["l"="12.606,1.817"]
+"LYPLAL1" ["l"="12.707,1.882"]
+"MECR" ["l"="12.727,1.697"]
+"METTL27" ["l"="12.711,1.828"]
+"MGLL" ["l"="12.693,1.779"]
+"NAXD" ["l"="12.682,1.782"]
+"NDUFAF7" ["l"="12.618,1.763"]
+"OGG1" ["l"="12.659,1.784"]
+"PANK2" ["l"="12.720,1.805"]
+"PDSS2" ["l"="12.672,1.903"]
+"PGPEP1" ["l"="12.624,1.870"]
+"PPA1" ["l"="12.675,1.860"]
+"PRPSAP1" ["l"="12.739,1.901"]
+"QRSL1" ["l"="12.724,1.715"]
+"RIMKLB" ["l"="12.750,1.881"]
+"TANGO2" ["l"="12.715,1.673"]
+"TASP1" ["l"="12.654,1.697"]
+"UMPS" ["l"="12.684,1.856"]
+"YJEFN3" ["l"="12.591,1.723"]
+"ZADH2" ["l"="12.713,1.844"]
+"ADK" -> "PRPSAP1"
+"ADK" -> "NAXD"
+"ADK" -> "UMPS"
+"ADK" -> "FOXRED1"
+"AZIN2" -> "UMPS"
+"AZIN2" -> "NAXD"
+"AZIN2" -> "FOXRED1"
+"AZIN2" -> "NDUFAF7"
+"CRYZL1" -> "PRPSAP1"
+"CRYZL1" -> "GFOD2"
+"CRYZL1" -> "MECR"
+"CRYZL1" -> "NAXD"
+"FN3K" -> "NDUFAF7"
+"FN3K" -> "FOXRED1"
+"FN3K" -> "LYPLAL1"
+"FN3K" -> "ZADH2"
+"FOXRED1" -> "NAXD"
+"FOXRED1" -> "NDUFAF7"
+"FOXRED1" -> "FN3K"
+"FOXRED1" -> "UMPS"
+"GCH1" -> "PRPSAP1"
+"GCH1" -> "ZADH2"
+"GCH1" -> "UMPS"
+"GCH1" -> "NAXD"
+"GFOD2" -> "NAXD"
+"GFOD2" -> "ZADH2"
+"GFOD2" -> "PDSS2"
+"GFOD2" -> "PGPEP1"
+"GLYAT" -> "UMPS"
+"GLYAT" -> "AZIN2"
+"GLYAT" -> "INMT"
+"GLYAT" -> "ADK"
+"INMT" -> "ZADH2"
+"INMT" -> "GFOD2"
+"INMT" -> "MGLL"
+"INMT" -> "METTL27"
+"LYPLAL1" -> "NDUFAF7"
+"LYPLAL1" -> "FN3K"
+"LYPLAL1" -> "PGPEP1"
+"LYPLAL1" -> "ZADH2"
+"MECR" -> "NAXD"
+"MECR" -> "UMPS"
+"MECR" -> "ZADH2"
+"MECR" -> "GFOD2"
+"METTL27" -> "OGG1"
+"METTL27" -> "INMT"
+"METTL27" -> "LYPLAL1"
+"METTL27" -> "GLYAT"
+"MGLL" -> "PGPEP1"
+"MGLL" -> "FN3K"
+"MGLL" -> "LYPLAL1"
+"MGLL" -> "NAXD"
+"NAXD" -> "MECR"
+"NAXD" -> "FOXRED1"
+"NAXD" -> "UMPS"
+"NAXD" -> "GFOD2"
+"NDUFAF7" -> "UMPS"
+"NDUFAF7" -> "LYPLAL1"
+"NDUFAF7" -> "FOXRED1"
+"NDUFAF7" -> "FN3K"
+"OGG1" -> "METTL27"
+"OGG1" -> "FOXRED1"
+"OGG1" -> "LYPLAL1"
+"OGG1" -> "NAXD"
+"PANK2" -> "UMPS"
+"PANK2" -> "PDSS2"
+"PANK2" -> "AZIN2"
+"PANK2" -> "ADK"
+"PDSS2" -> "GFOD2"
+"PDSS2" -> "NAXD"
+"PDSS2" -> "FOXRED1"
+"PDSS2" -> "NDUFAF7"
+"PGPEP1" -> "NAXD"
+"PGPEP1" -> "MGLL"
+"PGPEP1" -> "LYPLAL1"
+"PGPEP1" -> "GFOD2"
+"PPA1" -> "ADK"
+"PPA1" -> "UMPS"
+"PPA1" -> "PRPSAP1"
+"PPA1" -> "NDUFAF7"
+"PRPSAP1" -> "NAXD"
+"PRPSAP1" -> "ADK"
+"PRPSAP1" -> "UMPS"
+"PRPSAP1" -> "RIMKLB"
+"QRSL1" -> "ZADH2"
+"QRSL1" -> "NAXD"
+"QRSL1" -> "GFOD2"
+"QRSL1" -> "UMPS"
+"RIMKLB" -> "UMPS"
+"RIMKLB" -> "NDUFAF7"
+"RIMKLB" -> "GFOD2"
+"RIMKLB" -> "PRPSAP1"
+"TANGO2" -> "NAXD"
+"TANGO2" -> "FOXRED1"
+"TANGO2" -> "PGPEP1"
+"TANGO2" -> "MECR"
+"TASP1" -> "NAXD"
+"TASP1" -> "FOXRED1"
+"TASP1" -> "QRSL1"
+"TASP1" -> "NDUFAF7"
+"UMPS" -> "NDUFAF7"
+"UMPS" -> "MECR"
+"UMPS" -> "AZIN2"
+"UMPS" -> "RIMKLB"
+"YJEFN3" -> "NAXD"
+"YJEFN3" -> "FOXRED1"
+"YJEFN3" -> "PRPSAP1"
+"YJEFN3" -> "TANGO2"
+"ZADH2" -> "QRSL1"
+"ZADH2" -> "NAXD"
+"ZADH2" -> "MECR"
+"ZADH2" -> "UMPS"
+}

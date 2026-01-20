@@ -1,0 +1,102 @@
+digraph G {
+"CALM1" ["l"="5.320,-0.387"]
+"CALM2" ["l"="5.297,-0.416"]
+"CALM3" ["l"="5.316,-0.389"]
+"CALML6" ["l"="5.311,-0.387"]
+"MYL1" ["l"="5.250,-0.439"]
+"MYL10" ["l"="5.314,-0.382"]
+"MYL12A" ["l"="5.302,-0.394"]
+"MYL12B" ["l"="5.296,-0.400"]
+"MYL2" ["l"="5.269,-0.428"]
+"MYL3" ["l"="5.266,-0.425"]
+"MYL4" ["l"="5.264,-0.428"]
+"MYL5" ["l"="5.264,-0.432"]
+"MYL6" ["l"="5.279,-0.419"]
+"MYL6B" ["l"="5.249,-0.443"]
+"MYL7" ["l"="5.252,-0.440"]
+"MYL9" ["l"="5.280,-0.414"]
+"MYLPF" ["l"="5.271,-0.421"]
+"PVALB" ["l"="5.284,-0.401"]
+"TNNC1" ["l"="5.247,-0.450"]
+"TNNC2" ["l"="5.275,-0.422"]
+"CALM1" -> "CALM3"
+"CALM1" -> "CALM2"
+"CALM1" -> "MYL12B"
+"CALM1" -> "MYL9"
+"CALM2" -> "CALM1"
+"CALM2" -> "CALM3"
+"CALM2" -> "MYL12B"
+"CALM2" -> "MYL6"
+"CALM3" -> "CALM1"
+"CALM3" -> "CALM2"
+"CALM3" -> "MYL9"
+"CALM3" -> "MYL12B"
+"CALML6" -> "TNNC2"
+"CALML6" -> "MYL9"
+"CALML6" -> "TNNC1"
+"CALML6" -> "MYL5"
+"MYL1" -> "MYL3"
+"MYL1" -> "MYL4"
+"MYL1" -> "MYL7"
+"MYL1" -> "MYL9"
+"MYL10" -> "MYL5"
+"MYL10" -> "MYLPF"
+"MYL10" -> "MYL9"
+"MYL10" -> "MYL2"
+"MYL12A" -> "MYL12B"
+"MYL12A" -> "MYL9"
+"MYL12A" -> "MYLPF"
+"MYL12A" -> "MYL2"
+"MYL12B" -> "MYL12A"
+"MYL12B" -> "MYL9"
+"MYL12B" -> "MYL2"
+"MYL12B" -> "MYLPF"
+"MYL2" -> "MYLPF"
+"MYL2" -> "MYL7"
+"MYL2" -> "MYL9"
+"MYL2" -> "TNNC1"
+"MYL3" -> "MYL4"
+"MYL3" -> "MYL1"
+"MYL3" -> "MYL6B"
+"MYL3" -> "MYL7"
+"MYL4" -> "MYL3"
+"MYL4" -> "MYL1"
+"MYL4" -> "MYL6B"
+"MYL4" -> "MYL9"
+"MYL5" -> "MYLPF"
+"MYL5" -> "MYL7"
+"MYL5" -> "MYL10"
+"MYL5" -> "MYL9"
+"MYL6" -> "MYL9"
+"MYL6" -> "MYL12B"
+"MYL6" -> "MYL4"
+"MYL6" -> "MYL2"
+"MYL6B" -> "MYL4"
+"MYL6B" -> "MYL3"
+"MYL6B" -> "MYL1"
+"MYL6B" -> "MYL9"
+"MYL7" -> "MYLPF"
+"MYL7" -> "MYL2"
+"MYL7" -> "MYL5"
+"MYL7" -> "MYL9"
+"MYL9" -> "MYL2"
+"MYL9" -> "MYL12B"
+"MYL9" -> "MYL7"
+"MYL9" -> "MYLPF"
+"MYLPF" -> "MYL7"
+"MYLPF" -> "MYL2"
+"MYLPF" -> "MYL5"
+"MYLPF" -> "MYL9"
+"PVALB" -> "MYL2"
+"PVALB" -> "MYLPF"
+"PVALB" -> "TNNC1"
+"PVALB" -> "MYL7"
+"TNNC1" -> "TNNC2"
+"TNNC1" -> "MYL2"
+"TNNC1" -> "MYL9"
+"TNNC1" -> "CALML6"
+"TNNC2" -> "TNNC1"
+"TNNC2" -> "CALML6"
+"TNNC2" -> "MYL2"
+"TNNC2" -> "MYLPF"
+}

@@ -1,0 +1,177 @@
+digraph G {
+"ARPP19" ["l"="10.417,3.666"]
+"BRD3OS" ["l"="10.332,3.809"]
+"C19orf81" ["l"="10.348,3.650"]
+"C1orf115" ["l"="10.248,3.607"]
+"C3orf14" ["l"="10.238,3.749"]
+"C6orf226" ["l"="10.310,3.527"]
+"CCDC127" ["l"="10.211,3.812"]
+"CCDC197" ["l"="10.165,3.611"]
+"CCDC28B" ["l"="10.406,3.448"]
+"CTNNBIP1" ["l"="10.270,3.639"]
+"EID1" ["l"="10.236,3.553"]
+"ENSA" ["l"="10.426,3.758"]
+"FAM177B" ["l"="10.263,3.523"]
+"FAM241A" ["l"="10.247,3.732"]
+"GON7" ["l"="10.293,3.544"]
+"HDGF" ["l"="10.300,3.632"]
+"MBD3" ["l"="10.262,3.400"]
+"MCRIP2" ["l"="10.385,3.614"]
+"MEA1" ["l"="10.209,3.510"]
+"MEIG1" ["l"="10.189,3.547"]
+"MLLT11" ["l"="10.193,3.771"]
+"MOSPD3" ["l"="10.388,3.769"]
+"MRFAP1" ["l"="10.192,3.663"]
+"MRFAP1L1" ["l"="10.308,3.596"]
+"MZT2A" ["l"="10.363,3.461"]
+"MZT2B" ["l"="10.371,3.400"]
+"NAP1L5" ["l"="10.231,3.463"]
+"POLD4" ["l"="10.370,3.443"]
+"PPP1R11" ["l"="10.286,3.489"]
+"RD3L" ["l"="10.214,3.508"]
+"REX1BD" ["l"="10.238,3.445"]
+"SWI5" ["l"="10.392,3.670"]
+"SYCE3" ["l"="10.160,3.580"]
+"TRIR" ["l"="10.310,3.456"]
+"TUSC2" ["l"="10.320,3.690"]
+"ARPP19" -> "ENSA"
+"ARPP19" -> "BRD3OS"
+"ARPP19" -> "MBD3"
+"ARPP19" -> "MLLT11"
+"BRD3OS" -> "C1orf115"
+"BRD3OS" -> "TUSC2"
+"BRD3OS" -> "CTNNBIP1"
+"BRD3OS" -> "MCRIP2"
+"C19orf81" -> "MRFAP1"
+"C19orf81" -> "BRD3OS"
+"C19orf81" -> "POLD4"
+"C19orf81" -> "C3orf14"
+"C1orf115" -> "FAM241A"
+"C1orf115" -> "TUSC2"
+"C1orf115" -> "BRD3OS"
+"C1orf115" -> "CTNNBIP1"
+"C3orf14" -> "RD3L"
+"C3orf14" -> "MRFAP1"
+"C3orf14" -> "MRFAP1L1"
+"C3orf14" -> "CCDC127"
+"C6orf226" -> "POLD4"
+"C6orf226" -> "BRD3OS"
+"C6orf226" -> "MCRIP2"
+"C6orf226" -> "TUSC2"
+"CCDC127" -> "MRFAP1"
+"CCDC127" -> "MRFAP1L1"
+"CCDC127" -> "C3orf14"
+"CCDC127" -> "C19orf81"
+"CCDC197" -> "SYCE3"
+"CCDC197" -> "RD3L"
+"CCDC197" -> "REX1BD"
+"CCDC197" -> "BRD3OS"
+"CCDC28B" -> "MBD3"
+"CCDC28B" -> "NAP1L5"
+"CCDC28B" -> "MOSPD3"
+"CCDC28B" -> "POLD4"
+"CTNNBIP1" -> "BRD3OS"
+"CTNNBIP1" -> "POLD4"
+"CTNNBIP1" -> "FAM241A"
+"CTNNBIP1" -> "C1orf115"
+"EID1" -> "MRFAP1"
+"EID1" -> "MEA1"
+"EID1" -> "MRFAP1L1"
+"EID1" -> "GON7"
+"ENSA" -> "ARPP19"
+"ENSA" -> "BRD3OS"
+"ENSA" -> "CTNNBIP1"
+"ENSA" -> "FAM177B"
+"FAM177B" -> "FAM241A"
+"FAM177B" -> "POLD4"
+"FAM177B" -> "C1orf115"
+"FAM177B" -> "RD3L"
+"FAM241A" -> "C1orf115"
+"FAM241A" -> "TRIR"
+"FAM241A" -> "CTNNBIP1"
+"FAM241A" -> "TUSC2"
+"GON7" -> "EID1"
+"GON7" -> "BRD3OS"
+"GON7" -> "MEA1"
+"GON7" -> "C1orf115"
+"HDGF" -> "MBD3"
+"HDGF" -> "ENSA"
+"HDGF" -> "C1orf115"
+"HDGF" -> "GON7"
+"MBD3" -> "HDGF"
+"MBD3" -> "CTNNBIP1"
+"MBD3" -> "POLD4"
+"MBD3" -> "CCDC28B"
+"MCRIP2" -> "TUSC2"
+"MCRIP2" -> "POLD4"
+"MCRIP2" -> "BRD3OS"
+"MCRIP2" -> "CTNNBIP1"
+"MEA1" -> "EID1"
+"MEA1" -> "POLD4"
+"MEA1" -> "TUSC2"
+"MEA1" -> "GON7"
+"MEIG1" -> "RD3L"
+"MEIG1" -> "BRD3OS"
+"MEIG1" -> "TUSC2"
+"MEIG1" -> "C3orf14"
+"MLLT11" -> "BRD3OS"
+"MLLT11" -> "MEA1"
+"MLLT11" -> "POLD4"
+"MLLT11" -> "ARPP19"
+"MOSPD3" -> "MZT2A"
+"MOSPD3" -> "BRD3OS"
+"MOSPD3" -> "REX1BD"
+"MOSPD3" -> "MCRIP2"
+"MRFAP1" -> "MRFAP1L1"
+"MRFAP1" -> "CCDC127"
+"MRFAP1" -> "EID1"
+"MRFAP1" -> "C3orf14"
+"MRFAP1L1" -> "MRFAP1"
+"MRFAP1L1" -> "EID1"
+"MRFAP1L1" -> "CCDC127"
+"MRFAP1L1" -> "C3orf14"
+"MZT2A" -> "MZT2B"
+"MZT2A" -> "MOSPD3"
+"MZT2A" -> "MCRIP2"
+"MZT2A" -> "POLD4"
+"MZT2B" -> "MZT2A"
+"MZT2B" -> "TRIR"
+"MZT2B" -> "POLD4"
+"MZT2B" -> "MCRIP2"
+"NAP1L5" -> "EID1"
+"NAP1L5" -> "CCDC28B"
+"NAP1L5" -> "FAM177B"
+"NAP1L5" -> "GON7"
+"POLD4" -> "MCRIP2"
+"POLD4" -> "CTNNBIP1"
+"POLD4" -> "C6orf226"
+"POLD4" -> "TUSC2"
+"PPP1R11" -> "FAM177B"
+"PPP1R11" -> "MEA1"
+"PPP1R11" -> "TUSC2"
+"PPP1R11" -> "ENSA"
+"RD3L" -> "C3orf14"
+"RD3L" -> "TUSC2"
+"RD3L" -> "BRD3OS"
+"RD3L" -> "SYCE3"
+"REX1BD" -> "POLD4"
+"REX1BD" -> "MCRIP2"
+"REX1BD" -> "MOSPD3"
+"REX1BD" -> "CCDC197"
+"SWI5" -> "MOSPD3"
+"SWI5" -> "REX1BD"
+"SWI5" -> "POLD4"
+"SWI5" -> "MZT2A"
+"SYCE3" -> "CCDC197"
+"SYCE3" -> "RD3L"
+"SYCE3" -> "C3orf14"
+"SYCE3" -> "MRFAP1L1"
+"TRIR" -> "FAM241A"
+"TRIR" -> "C1orf115"
+"TRIR" -> "MZT2B"
+"TRIR" -> "TUSC2"
+"TUSC2" -> "C1orf115"
+"TUSC2" -> "BRD3OS"
+"TUSC2" -> "MCRIP2"
+"TUSC2" -> "FAM241A"
+}

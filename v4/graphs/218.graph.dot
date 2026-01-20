@@ -1,0 +1,132 @@
+digraph G {
+"ARSJ" ["l"="13.509,-0.230"]
+"ART5" ["l"="13.846,-0.216"]
+"B4GALNT1" ["l"="13.824,-0.224"]
+"BTBD17" ["l"="13.728,-0.204"]
+"CHIT1" ["l"="13.533,-0.314"]
+"CRTAP" ["l"="13.673,-0.235"]
+"DHH" ["l"="13.784,-0.353"]
+"DNASE1" ["l"="13.690,-0.320"]
+"DNASE1L2" ["l"="13.708,-0.270"]
+"DNASE1L3" ["l"="13.552,-0.248"]
+"DNASE2B" ["l"="13.665,-0.175"]
+"IHH" ["l"="13.779,-0.399"]
+"MPEG1" ["l"="13.502,-0.308"]
+"NOTUM" ["l"="13.535,-0.313"]
+"P3H1" ["l"="13.669,-0.249"]
+"P3H2" ["l"="13.691,-0.276"]
+"P3H3" ["l"="13.655,-0.251"]
+"P3H4" ["l"="13.711,-0.267"]
+"P4HA1" ["l"="13.847,-0.132"]
+"P4HA2" ["l"="13.855,-0.221"]
+"P4HA3" ["l"="13.620,-0.262"]
+"P4HTM" ["l"="13.618,-0.264"]
+"PKDCC" ["l"="13.880,-0.265"]
+"PRF1" ["l"="13.783,-0.162"]
+"SUN5" ["l"="13.550,-0.231"]
+"TTC17" ["l"="13.569,-0.160"]
+"ARSJ" -> "NOTUM"
+"ARSJ" -> "B4GALNT1"
+"ARSJ" -> "PKDCC"
+"ARSJ" -> "P4HA3"
+"ART5" -> "DNASE1L2"
+"ART5" -> "B4GALNT1"
+"ART5" -> "P4HA2"
+"ART5" -> "DHH"
+"B4GALNT1" -> "PKDCC"
+"B4GALNT1" -> "DNASE1L2"
+"B4GALNT1" -> "IHH"
+"B4GALNT1" -> "P4HTM"
+"BTBD17" -> "IHH"
+"BTBD17" -> "B4GALNT1"
+"BTBD17" -> "DHH"
+"BTBD17" -> "PRF1"
+"CHIT1" -> "NOTUM"
+"CHIT1" -> "DNASE1L3"
+"CHIT1" -> "P4HA2"
+"CHIT1" -> "DNASE2B"
+"CRTAP" -> "P3H4"
+"CRTAP" -> "P3H2"
+"CRTAP" -> "P3H1"
+"CRTAP" -> "P4HA3"
+"DHH" -> "IHH"
+"DHH" -> "B4GALNT1"
+"DHH" -> "DNASE1L2"
+"DHH" -> "BTBD17"
+"DNASE1" -> "DNASE1L2"
+"DNASE1" -> "DNASE1L3"
+"DNASE1" -> "B4GALNT1"
+"DNASE1" -> "NOTUM"
+"DNASE1L2" -> "DNASE1"
+"DNASE1L2" -> "B4GALNT1"
+"DNASE1L2" -> "IHH"
+"DNASE1L2" -> "DNASE1L3"
+"DNASE1L3" -> "DNASE1L2"
+"DNASE1L3" -> "CHIT1"
+"DNASE1L3" -> "DNASE1"
+"DNASE1L3" -> "NOTUM"
+"DNASE2B" -> "CHIT1"
+"DNASE2B" -> "NOTUM"
+"DNASE2B" -> "DNASE1L3"
+"DNASE2B" -> "ART5"
+"IHH" -> "DHH"
+"IHH" -> "DNASE1L2"
+"IHH" -> "B4GALNT1"
+"IHH" -> "NOTUM"
+"MPEG1" -> "PRF1"
+"MPEG1" -> "CHIT1"
+"MPEG1" -> "ART5"
+"MPEG1" -> "B4GALNT1"
+"NOTUM" -> "PKDCC"
+"NOTUM" -> "ARSJ"
+"NOTUM" -> "P4HA3"
+"NOTUM" -> "B4GALNT1"
+"P3H1" -> "P3H2"
+"P3H1" -> "P3H4"
+"P3H1" -> "P4HA3"
+"P3H1" -> "P3H3"
+"P3H2" -> "P3H1"
+"P3H2" -> "CRTAP"
+"P3H2" -> "P4HA2"
+"P3H2" -> "P4HA3"
+"P3H3" -> "P3H4"
+"P3H3" -> "P3H1"
+"P3H3" -> "P3H2"
+"P3H3" -> "P4HA3"
+"P3H4" -> "P3H3"
+"P3H4" -> "P3H1"
+"P3H4" -> "CRTAP"
+"P3H4" -> "P4HA3"
+"P4HA1" -> "P4HA2"
+"P4HA1" -> "P4HA3"
+"P4HA1" -> "P3H2"
+"P4HA1" -> "P3H1"
+"P4HA2" -> "P4HA1"
+"P4HA2" -> "P4HA3"
+"P4HA2" -> "P3H2"
+"P4HA2" -> "P3H1"
+"P4HA3" -> "P4HA2"
+"P4HA3" -> "P3H1"
+"P4HA3" -> "P3H2"
+"P4HA3" -> "P3H4"
+"P4HTM" -> "B4GALNT1"
+"P4HTM" -> "P3H1"
+"P4HTM" -> "P4HA2"
+"P4HTM" -> "PKDCC"
+"PKDCC" -> "B4GALNT1"
+"PKDCC" -> "NOTUM"
+"PKDCC" -> "P3H3"
+"PKDCC" -> "IHH"
+"PRF1" -> "B4GALNT1"
+"PRF1" -> "MPEG1"
+"PRF1" -> "ARSJ"
+"PRF1" -> "DNASE1L2"
+"SUN5" -> "ART5"
+"SUN5" -> "DNASE1L2"
+"SUN5" -> "P4HA2"
+"SUN5" -> "B4GALNT1"
+"TTC17" -> "P4HA3"
+"TTC17" -> "P4HA2"
+"TTC17" -> "P3H2"
+"TTC17" -> "P3H1"
+}

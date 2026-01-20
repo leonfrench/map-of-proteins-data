@@ -1,0 +1,122 @@
+digraph G {
+"AMBN" ["l"="8.832,4.426"]
+"C10orf82" ["l"="8.693,4.342"]
+"C6orf15" ["l"="8.812,4.389"]
+"FAM166A" ["l"="8.700,4.380"]
+"FAM166B" ["l"="8.687,4.354"]
+"IBSP" ["l"="8.857,4.445"]
+"LEXM" ["l"="8.727,4.314"]
+"NBPF1" ["l"="8.699,4.542"]
+"NBPF11" ["l"="8.703,4.541"]
+"NBPF12" ["l"="8.662,4.566"]
+"NBPF14" ["l"="8.688,4.551"]
+"NBPF15" ["l"="8.703,4.556"]
+"NBPF26" ["l"="8.678,4.587"]
+"NBPF9" ["l"="8.687,4.546"]
+"ODF3" ["l"="8.720,4.385"]
+"ODF3B" ["l"="8.700,4.377"]
+"ODF3L1" ["l"="8.687,4.376"]
+"ODF3L2" ["l"="8.773,4.404"]
+"PIFO" ["l"="8.664,4.347"]
+"SLC24A1" ["l"="8.884,4.392"]
+"SPP1" ["l"="8.839,4.389"]
+"STPG1" ["l"="8.727,4.366"]
+"STPG2" ["l"="8.681,4.353"]
+"STPG4" ["l"="8.676,4.370"]
+"AMBN" -> "C6orf15"
+"AMBN" -> "IBSP"
+"AMBN" -> "SLC24A1"
+"AMBN" -> "SPP1"
+"C10orf82" -> "FAM166A"
+"C10orf82" -> "LEXM"
+"C10orf82" -> "PIFO"
+"C10orf82" -> "ODF3L1"
+"C6orf15" -> "AMBN"
+"C6orf15" -> "SLC24A1"
+"C6orf15" -> "IBSP"
+"C6orf15" -> "SPP1"
+"FAM166A" -> "LEXM"
+"FAM166A" -> "C10orf82"
+"FAM166A" -> "ODF3L1"
+"FAM166A" -> "FAM166B"
+"FAM166B" -> "FAM166A"
+"FAM166B" -> "PIFO"
+"FAM166B" -> "STPG1"
+"FAM166B" -> "LEXM"
+"IBSP" -> "SPP1"
+"IBSP" -> "AMBN"
+"IBSP" -> "SLC24A1"
+"IBSP" -> "C6orf15"
+"LEXM" -> "STPG1"
+"LEXM" -> "FAM166A"
+"LEXM" -> "PIFO"
+"LEXM" -> "STPG4"
+"NBPF1" -> "NBPF12"
+"NBPF1" -> "NBPF9"
+"NBPF1" -> "NBPF26"
+"NBPF1" -> "NBPF11"
+"NBPF11" -> "NBPF12"
+"NBPF11" -> "NBPF15"
+"NBPF11" -> "NBPF9"
+"NBPF11" -> "NBPF1"
+"NBPF12" -> "NBPF11"
+"NBPF12" -> "NBPF1"
+"NBPF12" -> "NBPF9"
+"NBPF12" -> "NBPF26"
+"NBPF14" -> "NBPF26"
+"NBPF14" -> "NBPF12"
+"NBPF14" -> "NBPF9"
+"NBPF14" -> "NBPF1"
+"NBPF15" -> "NBPF11"
+"NBPF15" -> "NBPF9"
+"NBPF15" -> "NBPF12"
+"NBPF15" -> "NBPF26"
+"NBPF26" -> "NBPF9"
+"NBPF26" -> "NBPF1"
+"NBPF26" -> "NBPF12"
+"NBPF26" -> "NBPF14"
+"NBPF9" -> "NBPF1"
+"NBPF9" -> "NBPF12"
+"NBPF9" -> "NBPF26"
+"NBPF9" -> "NBPF11"
+"ODF3" -> "ODF3L2"
+"ODF3" -> "ODF3L1"
+"ODF3" -> "STPG1"
+"ODF3" -> "ODF3B"
+"ODF3B" -> "PIFO"
+"ODF3B" -> "ODF3"
+"ODF3B" -> "STPG1"
+"ODF3B" -> "ODF3L1"
+"ODF3L1" -> "ODF3"
+"ODF3L1" -> "ODF3L2"
+"ODF3L1" -> "STPG1"
+"ODF3L1" -> "FAM166A"
+"ODF3L2" -> "ODF3"
+"ODF3L2" -> "ODF3L1"
+"ODF3L2" -> "STPG1"
+"ODF3L2" -> "STPG4"
+"PIFO" -> "STPG1"
+"PIFO" -> "ODF3B"
+"PIFO" -> "LEXM"
+"PIFO" -> "STPG4"
+"SLC24A1" -> "AMBN"
+"SLC24A1" -> "IBSP"
+"SLC24A1" -> "C6orf15"
+"SLC24A1" -> "FAM166A"
+"SPP1" -> "IBSP"
+"SPP1" -> "AMBN"
+"SPP1" -> "C6orf15"
+"SPP1" -> "SLC24A1"
+"STPG1" -> "STPG2"
+"STPG1" -> "LEXM"
+"STPG1" -> "STPG4"
+"STPG1" -> "PIFO"
+"STPG2" -> "STPG1"
+"STPG2" -> "PIFO"
+"STPG2" -> "STPG4"
+"STPG2" -> "LEXM"
+"STPG4" -> "STPG1"
+"STPG4" -> "ODF3L1"
+"STPG4" -> "LEXM"
+"STPG4" -> "PIFO"
+}

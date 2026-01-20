@@ -1,0 +1,77 @@
+digraph G {
+"ACTN1" ["l"="9.152,-0.778"]
+"ACTN2" ["l"="9.194,-0.754"]
+"ACTN3" ["l"="9.160,-0.786"]
+"ACTN4" ["l"="9.174,-0.762"]
+"DSP" ["l"="9.059,-0.912"]
+"EVPL" ["l"="9.103,-0.870"]
+"PPL" ["l"="9.090,-0.876"]
+"SPTA1" ["l"="9.143,-0.851"]
+"SPTAN1" ["l"="9.201,-0.819"]
+"SPTB" ["l"="9.169,-0.845"]
+"SPTBN1" ["l"="9.156,-0.814"]
+"SPTBN2" ["l"="9.167,-0.833"]
+"SPTBN4" ["l"="9.201,-0.762"]
+"SPTBN5" ["l"="9.206,-0.823"]
+"TLN1" ["l"="9.444,-0.730"]
+"ACTN1" -> "ACTN4"
+"ACTN1" -> "ACTN3"
+"ACTN1" -> "ACTN2"
+"ACTN1" -> "SPTAN1"
+"ACTN2" -> "ACTN4"
+"ACTN2" -> "ACTN1"
+"ACTN2" -> "ACTN3"
+"ACTN2" -> "SPTBN1"
+"ACTN3" -> "ACTN1"
+"ACTN3" -> "ACTN4"
+"ACTN3" -> "ACTN2"
+"ACTN3" -> "SPTBN2"
+"ACTN4" -> "ACTN1"
+"ACTN4" -> "ACTN2"
+"ACTN4" -> "ACTN3"
+"ACTN4" -> "SPTBN1"
+"DSP" -> "EVPL"
+"DSP" -> "PPL"
+"DSP" -> "SPTBN1"
+"DSP" -> "SPTBN2"
+"EVPL" -> "PPL"
+"EVPL" -> "DSP"
+"EVPL" -> "SPTBN2"
+"EVPL" -> "SPTBN1"
+"PPL" -> "EVPL"
+"PPL" -> "DSP"
+"PPL" -> "SPTBN2"
+"PPL" -> "SPTB"
+"SPTA1" -> "SPTB"
+"SPTA1" -> "SPTBN1"
+"SPTA1" -> "SPTBN2"
+"SPTA1" -> "SPTAN1"
+"SPTAN1" -> "SPTBN1"
+"SPTAN1" -> "SPTB"
+"SPTAN1" -> "SPTBN4"
+"SPTAN1" -> "SPTBN2"
+"SPTB" -> "SPTBN2"
+"SPTB" -> "SPTA1"
+"SPTB" -> "SPTBN1"
+"SPTB" -> "SPTAN1"
+"SPTBN1" -> "SPTAN1"
+"SPTBN1" -> "SPTB"
+"SPTBN1" -> "SPTA1"
+"SPTBN1" -> "SPTBN2"
+"SPTBN2" -> "SPTB"
+"SPTBN2" -> "SPTBN4"
+"SPTBN2" -> "SPTBN5"
+"SPTBN2" -> "SPTAN1"
+"SPTBN4" -> "SPTBN2"
+"SPTBN4" -> "SPTAN1"
+"SPTBN4" -> "SPTBN5"
+"SPTBN4" -> "SPTB"
+"SPTBN5" -> "SPTBN4"
+"SPTBN5" -> "SPTBN2"
+"SPTBN5" -> "SPTB"
+"SPTBN5" -> "SPTAN1"
+"TLN1" -> "SPTB"
+"TLN1" -> "SPTBN2"
+"TLN1" -> "SPTA1"
+"TLN1" -> "SPTAN1"
+}

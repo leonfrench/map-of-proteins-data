@@ -1,0 +1,92 @@
+digraph G {
+"FSHR" ["l"="12.756,-2.617"]
+"LGI1" ["l"="12.810,-2.474"]
+"LGI2" ["l"="12.844,-2.375"]
+"LGI3" ["l"="12.863,-2.400"]
+"LGI4" ["l"="12.886,-2.393"]
+"LGR4" ["l"="12.742,-2.631"]
+"LGR5" ["l"="12.749,-2.623"]
+"LGR6" ["l"="12.760,-2.626"]
+"LHCGR" ["l"="12.755,-2.617"]
+"LRIG1" ["l"="12.712,-2.617"]
+"LRIG2" ["l"="12.764,-2.564"]
+"LRIG3" ["l"="12.728,-2.609"]
+"RXFP1" ["l"="12.752,-2.590"]
+"RXFP2" ["l"="12.752,-2.608"]
+"SLIT1" ["l"="12.757,-2.558"]
+"SLIT2" ["l"="12.757,-2.576"]
+"SLIT3" ["l"="12.795,-2.565"]
+"TSHR" ["l"="12.753,-2.574"]
+"FSHR" -> "LHCGR"
+"FSHR" -> "TSHR"
+"FSHR" -> "LGR4"
+"FSHR" -> "RXFP2"
+"LGI1" -> "LGI2"
+"LGI1" -> "LGI3"
+"LGI1" -> "LGI4"
+"LGI1" -> "RXFP1"
+"LGI2" -> "LGI3"
+"LGI2" -> "LGI1"
+"LGI2" -> "TSHR"
+"LGI2" -> "LRIG2"
+"LGI3" -> "LGI2"
+"LGI3" -> "LGI4"
+"LGI3" -> "LGI1"
+"LGI3" -> "TSHR"
+"LGI4" -> "LGI3"
+"LGI4" -> "LGI1"
+"LGI4" -> "LGR4"
+"LGI4" -> "LGI2"
+"LGR4" -> "LGR5"
+"LGR4" -> "LHCGR"
+"LGR4" -> "LGR6"
+"LGR4" -> "RXFP1"
+"LGR5" -> "LGR4"
+"LGR5" -> "LGR6"
+"LGR5" -> "RXFP2"
+"LGR5" -> "RXFP1"
+"LGR6" -> "LGR5"
+"LGR6" -> "LGR4"
+"LGR6" -> "LRIG1"
+"LGR6" -> "RXFP1"
+"LHCGR" -> "FSHR"
+"LHCGR" -> "TSHR"
+"LHCGR" -> "LGR4"
+"LHCGR" -> "RXFP2"
+"LRIG1" -> "LRIG3"
+"LRIG1" -> "LRIG2"
+"LRIG1" -> "LGR4"
+"LRIG1" -> "LGR6"
+"LRIG2" -> "LRIG1"
+"LRIG2" -> "LGR4"
+"LRIG2" -> "LRIG3"
+"LRIG2" -> "RXFP1"
+"LRIG3" -> "LRIG1"
+"LRIG3" -> "LGR4"
+"LRIG3" -> "LRIG2"
+"LRIG3" -> "LGR6"
+"RXFP1" -> "RXFP2"
+"RXFP1" -> "LGR5"
+"RXFP1" -> "LGR4"
+"RXFP1" -> "LHCGR"
+"RXFP2" -> "RXFP1"
+"RXFP2" -> "LGR5"
+"RXFP2" -> "LHCGR"
+"RXFP2" -> "TSHR"
+"SLIT1" -> "SLIT3"
+"SLIT1" -> "SLIT2"
+"SLIT1" -> "TSHR"
+"SLIT1" -> "LGR4"
+"SLIT2" -> "SLIT3"
+"SLIT2" -> "SLIT1"
+"SLIT2" -> "LGR4"
+"SLIT2" -> "LRIG3"
+"SLIT3" -> "SLIT1"
+"SLIT3" -> "SLIT2"
+"SLIT3" -> "LGR4"
+"SLIT3" -> "LGR6"
+"TSHR" -> "LHCGR"
+"TSHR" -> "FSHR"
+"TSHR" -> "LGR4"
+"TSHR" -> "RXFP2"
+}

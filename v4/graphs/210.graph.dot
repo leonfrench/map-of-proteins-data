@@ -1,0 +1,127 @@
+digraph G {
+"CHRDL2" ["l"="13.819,-1.754"]
+"CRISPLD2" ["l"="13.636,-1.428"]
+"DKK3" ["l"="13.739,-1.482"]
+"FRZB" ["l"="13.876,-1.505"]
+"FSTL1" ["l"="13.754,-1.619"]
+"FSTL3" ["l"="13.789,-1.824"]
+"GFRA1" ["l"="13.919,-1.561"]
+"GFRA2" ["l"="13.874,-1.538"]
+"GFRA4" ["l"="13.776,-1.597"]
+"GFRAL" ["l"="13.847,-1.785"]
+"IGFBP7" ["l"="13.842,-1.662"]
+"IGFBPL1" ["l"="13.756,-1.626"]
+"LDLRAD1" ["l"="13.907,-1.550"]
+"SBSPON" ["l"="13.760,-1.678"]
+"SFRP1" ["l"="13.908,-1.503"]
+"SFRP2" ["l"="13.926,-1.484"]
+"SFRP4" ["l"="13.984,-1.568"]
+"SMOC1" ["l"="13.884,-1.618"]
+"SMOC2" ["l"="13.802,-1.685"]
+"SPARC" ["l"="13.784,-1.475"]
+"SPOCK1" ["l"="13.703,-1.452"]
+"SPOCK3" ["l"="13.571,-1.520"]
+"TINAGL1" ["l"="13.691,-1.600"]
+"VEGFC" ["l"="13.908,-1.629"]
+"VWC2" ["l"="13.856,-1.618"]
+"CHRDL2" -> "SMOC2"
+"CHRDL2" -> "SMOC1"
+"CHRDL2" -> "VWC2"
+"CHRDL2" -> "SBSPON"
+"CRISPLD2" -> "SBSPON"
+"CRISPLD2" -> "SMOC1"
+"CRISPLD2" -> "SMOC2"
+"CRISPLD2" -> "TINAGL1"
+"DKK3" -> "SPOCK1"
+"DKK3" -> "SPARC"
+"DKK3" -> "VWC2"
+"DKK3" -> "SBSPON"
+"FRZB" -> "SFRP2"
+"FRZB" -> "SFRP4"
+"FRZB" -> "SFRP1"
+"FRZB" -> "GFRA1"
+"FSTL1" -> "SPARC"
+"FSTL1" -> "SMOC2"
+"FSTL1" -> "SPOCK1"
+"FSTL1" -> "SMOC1"
+"FSTL3" -> "SBSPON"
+"FSTL3" -> "IGFBPL1"
+"FSTL3" -> "GFRA4"
+"FSTL3" -> "CHRDL2"
+"GFRA1" -> "GFRA2"
+"GFRA1" -> "SFRP4"
+"GFRA1" -> "FRZB"
+"GFRA1" -> "SMOC2"
+"GFRA2" -> "GFRA1"
+"GFRA2" -> "SFRP4"
+"GFRA2" -> "FRZB"
+"GFRA2" -> "SPOCK1"
+"GFRA4" -> "IGFBPL1"
+"GFRA4" -> "SBSPON"
+"GFRA4" -> "FSTL3"
+"GFRA4" -> "GFRA2"
+"GFRAL" -> "GFRA2"
+"GFRAL" -> "SBSPON"
+"GFRAL" -> "GFRA1"
+"GFRAL" -> "GFRA4"
+"IGFBP7" -> "IGFBPL1"
+"IGFBP7" -> "SMOC1"
+"IGFBP7" -> "FSTL3"
+"IGFBP7" -> "FRZB"
+"IGFBPL1" -> "IGFBP7"
+"IGFBPL1" -> "SBSPON"
+"IGFBPL1" -> "FSTL3"
+"IGFBPL1" -> "GFRA4"
+"LDLRAD1" -> "SBSPON"
+"LDLRAD1" -> "TINAGL1"
+"LDLRAD1" -> "GFRA4"
+"LDLRAD1" -> "FSTL3"
+"SBSPON" -> "FSTL3"
+"SBSPON" -> "SPOCK1"
+"SBSPON" -> "IGFBPL1"
+"SBSPON" -> "TINAGL1"
+"SFRP1" -> "SFRP2"
+"SFRP1" -> "FRZB"
+"SFRP1" -> "SFRP4"
+"SFRP1" -> "VWC2"
+"SFRP2" -> "SFRP1"
+"SFRP2" -> "FRZB"
+"SFRP2" -> "SFRP4"
+"SFRP2" -> "CHRDL2"
+"SFRP4" -> "FRZB"
+"SFRP4" -> "SFRP2"
+"SFRP4" -> "SFRP1"
+"SFRP4" -> "SMOC2"
+"SMOC1" -> "SMOC2"
+"SMOC1" -> "SPOCK1"
+"SMOC1" -> "CHRDL2"
+"SMOC1" -> "VWC2"
+"SMOC2" -> "SMOC1"
+"SMOC2" -> "SPOCK1"
+"SMOC2" -> "SFRP4"
+"SMOC2" -> "FSTL1"
+"SPARC" -> "FSTL1"
+"SPARC" -> "DKK3"
+"SPARC" -> "SPOCK1"
+"SPARC" -> "FRZB"
+"SPOCK1" -> "SPOCK3"
+"SPOCK1" -> "SMOC2"
+"SPOCK1" -> "SMOC1"
+"SPOCK1" -> "FSTL1"
+"SPOCK3" -> "SPOCK1"
+"SPOCK3" -> "SMOC2"
+"SPOCK3" -> "GFRA1"
+"SPOCK3" -> "VEGFC"
+"TINAGL1" -> "SBSPON"
+"TINAGL1" -> "FSTL3"
+"TINAGL1" -> "SPOCK1"
+"TINAGL1" -> "FRZB"
+"VEGFC" -> "VWC2"
+"VEGFC" -> "SMOC2"
+"VEGFC" -> "GFRA1"
+"VEGFC" -> "SPOCK1"
+"VWC2" -> "SMOC1"
+"VWC2" -> "VEGFC"
+"VWC2" -> "FRZB"
+"VWC2" -> "CHRDL2"
+}

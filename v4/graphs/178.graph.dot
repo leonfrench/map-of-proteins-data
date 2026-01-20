@@ -1,0 +1,97 @@
+digraph G {
+"DNAJC25" ["l"="12.570,0.193"]
+"EPB42" ["l"="12.452,0.306"]
+"F13A1" ["l"="12.496,0.249"]
+"FAM234A" ["l"="12.482,0.446"]
+"FAM234B" ["l"="12.439,0.429"]
+"GGT7" ["l"="12.454,0.307"]
+"HSPA13" ["l"="12.465,0.340"]
+"KY" ["l"="12.437,0.420"]
+"LACTB" ["l"="12.636,0.353"]
+"RNF148" ["l"="12.426,0.077"]
+"SLC3A2" ["l"="12.522,0.286"]
+"TGM1" ["l"="12.458,0.278"]
+"TGM2" ["l"="12.429,0.303"]
+"TGM3" ["l"="12.472,0.258"]
+"TGM4" ["l"="12.461,0.266"]
+"TGM5" ["l"="12.496,0.327"]
+"TGM6" ["l"="12.458,0.280"]
+"TGM7" ["l"="12.449,0.297"]
+"ZNRF4" ["l"="12.397,0.195"]
+"DNAJC25" -> "LACTB"
+"DNAJC25" -> "ZNRF4"
+"DNAJC25" -> "RNF148"
+"DNAJC25" -> "FAM234B"
+"EPB42" -> "TGM6"
+"EPB42" -> "TGM4"
+"EPB42" -> "TGM5"
+"EPB42" -> "TGM7"
+"F13A1" -> "TGM3"
+"F13A1" -> "TGM4"
+"F13A1" -> "TGM1"
+"F13A1" -> "TGM5"
+"FAM234A" -> "FAM234B"
+"FAM234A" -> "GGT7"
+"FAM234A" -> "SLC3A2"
+"FAM234A" -> "KY"
+"FAM234B" -> "FAM234A"
+"FAM234B" -> "GGT7"
+"FAM234B" -> "KY"
+"FAM234B" -> "TGM2"
+"GGT7" -> "FAM234B"
+"GGT7" -> "FAM234A"
+"GGT7" -> "ZNRF4"
+"GGT7" -> "SLC3A2"
+"HSPA13" -> "FAM234B"
+"HSPA13" -> "DNAJC25"
+"HSPA13" -> "KY"
+"HSPA13" -> "RNF148"
+"KY" -> "TGM2"
+"KY" -> "TGM5"
+"KY" -> "F13A1"
+"KY" -> "TGM6"
+"LACTB" -> "DNAJC25"
+"LACTB" -> "ZNRF4"
+"LACTB" -> "KY"
+"LACTB" -> "FAM234B"
+"RNF148" -> "ZNRF4"
+"RNF148" -> "FAM234B"
+"RNF148" -> "DNAJC25"
+"RNF148" -> "GGT7"
+"SLC3A2" -> "FAM234B"
+"SLC3A2" -> "FAM234A"
+"SLC3A2" -> "GGT7"
+"SLC3A2" -> "ZNRF4"
+"TGM1" -> "TGM3"
+"TGM1" -> "TGM7"
+"TGM1" -> "F13A1"
+"TGM1" -> "TGM2"
+"TGM2" -> "TGM4"
+"TGM2" -> "TGM5"
+"TGM2" -> "TGM6"
+"TGM2" -> "TGM3"
+"TGM3" -> "TGM4"
+"TGM3" -> "TGM1"
+"TGM3" -> "TGM5"
+"TGM3" -> "TGM7"
+"TGM4" -> "TGM6"
+"TGM4" -> "TGM3"
+"TGM4" -> "TGM5"
+"TGM4" -> "TGM2"
+"TGM5" -> "TGM7"
+"TGM5" -> "TGM6"
+"TGM5" -> "TGM4"
+"TGM5" -> "TGM2"
+"TGM6" -> "TGM4"
+"TGM6" -> "TGM5"
+"TGM6" -> "TGM7"
+"TGM6" -> "TGM2"
+"TGM7" -> "TGM5"
+"TGM7" -> "TGM6"
+"TGM7" -> "TGM4"
+"TGM7" -> "TGM3"
+"ZNRF4" -> "RNF148"
+"ZNRF4" -> "DNAJC25"
+"ZNRF4" -> "FAM234B"
+"ZNRF4" -> "GGT7"
+}

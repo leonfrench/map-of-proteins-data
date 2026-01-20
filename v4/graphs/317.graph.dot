@@ -1,0 +1,187 @@
+digraph G {
+"AIP" ["l"="10.898,1.455"]
+"BBS5" ["l"="10.983,1.431"]
+"C9orf72" ["l"="10.965,1.357"]
+"CGAS" ["l"="10.884,1.388"]
+"CNOT6L" ["l"="10.945,1.370"]
+"DHX29" ["l"="10.899,1.315"]
+"DHX36" ["l"="11.061,1.447"]
+"EHD2" ["l"="10.950,1.314"]
+"ELMOD3" ["l"="10.872,1.277"]
+"FAM91A1" ["l"="10.868,1.417"]
+"FBH1" ["l"="11.089,1.392"]
+"GLE1" ["l"="10.893,1.255"]
+"GUCY1B1" ["l"="10.780,1.191"]
+"INTS13" ["l"="10.851,1.525"]
+"KDM1B" ["l"="10.966,1.505"]
+"LIG3" ["l"="11.099,1.396"]
+"MOB4" ["l"="10.974,1.318"]
+"MSH6" ["l"="10.978,1.426"]
+"MTMR10" ["l"="10.889,1.221"]
+"MTMR6" ["l"="10.891,1.314"]
+"ODR4" ["l"="11.036,1.416"]
+"PARP6" ["l"="11.025,1.263"]
+"PIWIL1" ["l"="10.987,1.328"]
+"PIWIL2" ["l"="10.865,1.474"]
+"PIWIL3" ["l"="10.907,1.400"]
+"PIWIL4" ["l"="10.923,1.432"]
+"RAD54L" ["l"="10.895,1.425"]
+"SACM1L" ["l"="10.819,1.135"]
+"SLFNL1" ["l"="10.927,1.469"]
+"SPAST" ["l"="11.093,1.345"]
+"SRL" ["l"="11.051,1.464"]
+"TBC1D23" ["l"="10.894,1.199"]
+"TBC1D7" ["l"="10.922,1.483"]
+"TDRD12" ["l"="10.871,1.335"]
+"TDRD7" ["l"="10.928,1.335"]
+"TMEM268" ["l"="10.771,1.111"]
+"TTC9C" ["l"="10.943,1.199"]
+"AIP" -> "TTC9C"
+"AIP" -> "SLFNL1"
+"AIP" -> "MOB4"
+"AIP" -> "EHD2"
+"BBS5" -> "TBC1D23"
+"BBS5" -> "MTMR6"
+"BBS5" -> "ODR4"
+"BBS5" -> "C9orf72"
+"C9orf72" -> "MTMR10"
+"C9orf72" -> "MTMR6"
+"C9orf72" -> "ODR4"
+"C9orf72" -> "TBC1D23"
+"CGAS" -> "FBH1"
+"CGAS" -> "SPAST"
+"CGAS" -> "LIG3"
+"CGAS" -> "PIWIL3"
+"CNOT6L" -> "MTMR6"
+"CNOT6L" -> "SACM1L"
+"CNOT6L" -> "MTMR10"
+"CNOT6L" -> "GUCY1B1"
+"DHX29" -> "DHX36"
+"DHX29" -> "SPAST"
+"DHX29" -> "TDRD7"
+"DHX29" -> "LIG3"
+"DHX36" -> "DHX29"
+"DHX36" -> "PIWIL2"
+"DHX36" -> "SPAST"
+"DHX36" -> "INTS13"
+"EHD2" -> "SRL"
+"EHD2" -> "TMEM268"
+"EHD2" -> "SLFNL1"
+"EHD2" -> "GUCY1B1"
+"ELMOD3" -> "GLE1"
+"ELMOD3" -> "TMEM268"
+"ELMOD3" -> "SLFNL1"
+"ELMOD3" -> "TBC1D23"
+"FAM91A1" -> "TBC1D23"
+"FAM91A1" -> "MTMR6"
+"FAM91A1" -> "KDM1B"
+"FAM91A1" -> "MTMR10"
+"FBH1" -> "KDM1B"
+"FBH1" -> "LIG3"
+"FBH1" -> "PIWIL2"
+"FBH1" -> "MTMR6"
+"GLE1" -> "ELMOD3"
+"GLE1" -> "SLFNL1"
+"GLE1" -> "MTMR6"
+"GLE1" -> "FBH1"
+"GUCY1B1" -> "MTMR6"
+"GUCY1B1" -> "SACM1L"
+"GUCY1B1" -> "CNOT6L"
+"GUCY1B1" -> "ODR4"
+"INTS13" -> "ODR4"
+"INTS13" -> "MTMR6"
+"INTS13" -> "CNOT6L"
+"INTS13" -> "TBC1D23"
+"KDM1B" -> "FBH1"
+"KDM1B" -> "MTMR10"
+"KDM1B" -> "FAM91A1"
+"KDM1B" -> "MTMR6"
+"LIG3" -> "FBH1"
+"LIG3" -> "PIWIL2"
+"LIG3" -> "KDM1B"
+"LIG3" -> "TDRD7"
+"MOB4" -> "MTMR6"
+"MOB4" -> "SPAST"
+"MOB4" -> "TBC1D23"
+"MOB4" -> "SACM1L"
+"MSH6" -> "LIG3"
+"MSH6" -> "FBH1"
+"MSH6" -> "TDRD12"
+"MSH6" -> "CGAS"
+"MTMR10" -> "MTMR6"
+"MTMR10" -> "TBC1D23"
+"MTMR10" -> "KDM1B"
+"MTMR10" -> "C9orf72"
+"MTMR6" -> "MTMR10"
+"MTMR6" -> "SACM1L"
+"MTMR6" -> "TBC1D23"
+"MTMR6" -> "CNOT6L"
+"ODR4" -> "TBC1D23"
+"ODR4" -> "INTS13"
+"ODR4" -> "MTMR10"
+"ODR4" -> "MTMR6"
+"PARP6" -> "SACM1L"
+"PARP6" -> "MTMR10"
+"PARP6" -> "MTMR6"
+"PARP6" -> "TBC1D23"
+"PIWIL1" -> "PIWIL2"
+"PIWIL1" -> "PIWIL3"
+"PIWIL1" -> "PIWIL4"
+"PIWIL1" -> "FBH1"
+"PIWIL2" -> "PIWIL1"
+"PIWIL2" -> "PIWIL3"
+"PIWIL2" -> "PIWIL4"
+"PIWIL2" -> "FBH1"
+"PIWIL3" -> "PIWIL1"
+"PIWIL3" -> "PIWIL2"
+"PIWIL3" -> "PIWIL4"
+"PIWIL3" -> "LIG3"
+"PIWIL4" -> "PIWIL1"
+"PIWIL4" -> "PIWIL2"
+"PIWIL4" -> "PIWIL3"
+"PIWIL4" -> "FBH1"
+"RAD54L" -> "FBH1"
+"RAD54L" -> "LIG3"
+"RAD54L" -> "ELMOD3"
+"RAD54L" -> "INTS13"
+"SACM1L" -> "MTMR6"
+"SACM1L" -> "GUCY1B1"
+"SACM1L" -> "CNOT6L"
+"SACM1L" -> "MTMR10"
+"SLFNL1" -> "ELMOD3"
+"SLFNL1" -> "GLE1"
+"SLFNL1" -> "TMEM268"
+"SLFNL1" -> "INTS13"
+"SPAST" -> "MTMR6"
+"SPAST" -> "MOB4"
+"SPAST" -> "FBH1"
+"SPAST" -> "DHX36"
+"SRL" -> "EHD2"
+"SRL" -> "LIG3"
+"SRL" -> "ELMOD3"
+"SRL" -> "SLFNL1"
+"TBC1D23" -> "MTMR6"
+"TBC1D23" -> "BBS5"
+"TBC1D23" -> "MTMR10"
+"TBC1D23" -> "ODR4"
+"TBC1D7" -> "TBC1D23"
+"TBC1D7" -> "ELMOD3"
+"TBC1D7" -> "MTMR6"
+"TBC1D7" -> "MOB4"
+"TDRD12" -> "TDRD7"
+"TDRD12" -> "FBH1"
+"TDRD12" -> "LIG3"
+"TDRD12" -> "INTS13"
+"TDRD7" -> "TDRD12"
+"TDRD7" -> "LIG3"
+"TDRD7" -> "FBH1"
+"TDRD7" -> "KDM1B"
+"TMEM268" -> "ELMOD3"
+"TMEM268" -> "MTMR6"
+"TMEM268" -> "FAM91A1"
+"TMEM268" -> "SLFNL1"
+"TTC9C" -> "AIP"
+"TTC9C" -> "SLFNL1"
+"TTC9C" -> "GLE1"
+"TTC9C" -> "ELMOD3"
+}

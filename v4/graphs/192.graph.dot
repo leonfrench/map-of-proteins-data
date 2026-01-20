@@ -1,0 +1,182 @@
+digraph G {
+"CAPN1" ["l"="11.549,0.417"]
+"CAPN11" ["l"="11.510,0.415"]
+"CAPN12" ["l"="11.494,0.467"]
+"CAPN13" ["l"="11.578,0.440"]
+"CAPN14" ["l"="11.583,0.399"]
+"CAPN2" ["l"="11.515,0.488"]
+"CAPN3" ["l"="11.544,0.424"]
+"CAPN5" ["l"="11.381,0.489"]
+"CAPN8" ["l"="11.587,0.420"]
+"CAPN9" ["l"="11.584,0.443"]
+"DAGLB" ["l"="11.467,0.341"]
+"DDX58" ["l"="11.552,0.339"]
+"DTX3L" ["l"="11.490,0.446"]
+"FAM111A" ["l"="11.487,0.472"]
+"FAM111B" ["l"="11.486,0.447"]
+"IFI44" ["l"="11.555,0.478"]
+"IFI44L" ["l"="11.556,0.451"]
+"IFIH1" ["l"="11.519,0.352"]
+"MLKL" ["l"="11.453,0.571"]
+"MSLN" ["l"="11.567,0.429"]
+"MX2" ["l"="11.568,0.291"]
+"NOX5" ["l"="11.588,0.499"]
+"OAS1" ["l"="11.541,0.562"]
+"OAS2" ["l"="11.545,0.463"]
+"OAS3" ["l"="11.498,0.505"]
+"OASL" ["l"="11.494,0.508"]
+"PARP14" ["l"="11.510,0.418"]
+"PARP15" ["l"="11.575,0.566"]
+"PARP9" ["l"="11.522,0.426"]
+"SAMD9" ["l"="11.529,0.441"]
+"SAMD9L" ["l"="11.514,0.391"]
+"SLFN11" ["l"="11.520,0.454"]
+"SLFN12" ["l"="11.544,0.529"]
+"SLFN13" ["l"="11.525,0.439"]
+"SLFN14" ["l"="11.487,0.534"]
+"SLFN5" ["l"="11.513,0.435"]
+"CAPN1" -> "CAPN2"
+"CAPN1" -> "CAPN11"
+"CAPN1" -> "CAPN9"
+"CAPN1" -> "CAPN8"
+"CAPN11" -> "CAPN3"
+"CAPN11" -> "CAPN9"
+"CAPN11" -> "CAPN2"
+"CAPN11" -> "CAPN8"
+"CAPN12" -> "CAPN11"
+"CAPN12" -> "CAPN5"
+"CAPN12" -> "CAPN13"
+"CAPN12" -> "CAPN8"
+"CAPN13" -> "CAPN14"
+"CAPN13" -> "CAPN11"
+"CAPN13" -> "CAPN8"
+"CAPN13" -> "CAPN12"
+"CAPN14" -> "CAPN13"
+"CAPN14" -> "CAPN11"
+"CAPN14" -> "CAPN9"
+"CAPN14" -> "CAPN1"
+"CAPN2" -> "CAPN1"
+"CAPN2" -> "CAPN9"
+"CAPN2" -> "CAPN11"
+"CAPN2" -> "CAPN8"
+"CAPN3" -> "CAPN11"
+"CAPN3" -> "CAPN2"
+"CAPN3" -> "CAPN8"
+"CAPN3" -> "CAPN9"
+"CAPN5" -> "CAPN11"
+"CAPN5" -> "CAPN12"
+"CAPN5" -> "CAPN2"
+"CAPN5" -> "CAPN1"
+"CAPN8" -> "CAPN9"
+"CAPN8" -> "CAPN11"
+"CAPN8" -> "CAPN1"
+"CAPN8" -> "CAPN2"
+"CAPN9" -> "CAPN8"
+"CAPN9" -> "CAPN11"
+"CAPN9" -> "CAPN2"
+"CAPN9" -> "CAPN1"
+"DAGLB" -> "NOX5"
+"DAGLB" -> "CAPN12"
+"DAGLB" -> "CAPN5"
+"DAGLB" -> "CAPN11"
+"DDX58" -> "IFIH1"
+"DDX58" -> "SLFN11"
+"DDX58" -> "PARP9"
+"DDX58" -> "IFI44"
+"DTX3L" -> "PARP9"
+"DTX3L" -> "SLFN5"
+"DTX3L" -> "SLFN11"
+"DTX3L" -> "PARP14"
+"FAM111A" -> "FAM111B"
+"FAM111A" -> "SLFN13"
+"FAM111A" -> "DTX3L"
+"FAM111A" -> "SLFN12"
+"FAM111B" -> "FAM111A"
+"FAM111B" -> "SAMD9"
+"FAM111B" -> "DTX3L"
+"FAM111B" -> "SLFN12"
+"IFI44" -> "IFI44L"
+"IFI44" -> "SLFN12"
+"IFI44" -> "SLFN11"
+"IFI44" -> "MX2"
+"IFI44L" -> "IFI44"
+"IFI44L" -> "SLFN5"
+"IFI44L" -> "SLFN14"
+"IFI44L" -> "SLFN12"
+"IFIH1" -> "DDX58"
+"IFIH1" -> "SLFN11"
+"IFIH1" -> "MX2"
+"IFIH1" -> "IFI44"
+"MLKL" -> "SLFN11"
+"MLKL" -> "OASL"
+"MLKL" -> "OAS2"
+"MLKL" -> "IFI44"
+"MSLN" -> "NOX5"
+"MSLN" -> "DAGLB"
+"MSLN" -> "SLFN12"
+"MSLN" -> "SLFN14"
+"MX2" -> "IFI44"
+"MX2" -> "IFI44L"
+"MX2" -> "SLFN11"
+"MX2" -> "DDX58"
+"NOX5" -> "CAPN11"
+"NOX5" -> "DAGLB"
+"NOX5" -> "CAPN5"
+"NOX5" -> "CAPN12"
+"OAS1" -> "OASL"
+"OAS1" -> "OAS2"
+"OAS1" -> "OAS3"
+"OAS1" -> "MX2"
+"OAS2" -> "OAS3"
+"OAS2" -> "OASL"
+"OAS2" -> "OAS1"
+"OAS2" -> "SLFN11"
+"OAS3" -> "OAS2"
+"OAS3" -> "OASL"
+"OAS3" -> "SLFN11"
+"OAS3" -> "OAS1"
+"OASL" -> "OAS1"
+"OASL" -> "OAS2"
+"OASL" -> "OAS3"
+"OASL" -> "SLFN11"
+"PARP14" -> "PARP9"
+"PARP14" -> "DTX3L"
+"PARP14" -> "SAMD9L"
+"PARP14" -> "PARP15"
+"PARP15" -> "PARP9"
+"PARP15" -> "IFI44L"
+"PARP15" -> "DTX3L"
+"PARP15" -> "IFI44"
+"PARP9" -> "DTX3L"
+"PARP9" -> "SLFN5"
+"PARP9" -> "PARP14"
+"PARP9" -> "SLFN11"
+"SAMD9" -> "SAMD9L"
+"SAMD9" -> "SLFN5"
+"SAMD9" -> "SLFN12"
+"SAMD9" -> "DTX3L"
+"SAMD9L" -> "SAMD9"
+"SAMD9L" -> "SLFN12"
+"SAMD9L" -> "PARP14"
+"SAMD9L" -> "IFI44L"
+"SLFN11" -> "SLFN13"
+"SLFN11" -> "SLFN14"
+"SLFN11" -> "SLFN5"
+"SLFN11" -> "SLFN12"
+"SLFN12" -> "SLFN14"
+"SLFN12" -> "SLFN11"
+"SLFN12" -> "SLFN5"
+"SLFN12" -> "SLFN13"
+"SLFN13" -> "SLFN11"
+"SLFN13" -> "SLFN5"
+"SLFN13" -> "SLFN14"
+"SLFN13" -> "SLFN12"
+"SLFN14" -> "SLFN11"
+"SLFN14" -> "SLFN12"
+"SLFN14" -> "SLFN13"
+"SLFN14" -> "SLFN5"
+"SLFN5" -> "SLFN13"
+"SLFN5" -> "SLFN11"
+"SLFN5" -> "SLFN14"
+"SLFN5" -> "SLFN12"
+}

@@ -1,0 +1,162 @@
+digraph G {
+"ARHGDIB" ["l"="11.524,2.570"]
+"ASF1A" ["l"="11.416,2.595"]
+"ASF1B" ["l"="11.518,2.522"]
+"BYSL" ["l"="11.522,2.617"]
+"C21orf62" ["l"="11.627,2.526"]
+"DDX51" ["l"="11.570,2.563"]
+"DESI2" ["l"="11.555,2.460"]
+"EDDM3A" ["l"="11.568,2.501"]
+"EIF2S1" ["l"="11.619,2.562"]
+"FAM78A" ["l"="11.608,2.653"]
+"HUS1" ["l"="11.477,2.503"]
+"HUS1B" ["l"="11.468,2.489"]
+"JCHAIN" ["l"="11.635,2.665"]
+"MAD2L2" ["l"="11.500,2.583"]
+"MSRA" ["l"="11.467,2.471"]
+"NPRL2" ["l"="11.475,2.485"]
+"NUDCD2" ["l"="11.675,2.638"]
+"PA2G4" ["l"="11.611,2.657"]
+"PELO" ["l"="11.562,2.547"]
+"PITHD1" ["l"="11.648,2.531"]
+"PLET1" ["l"="11.512,2.509"]
+"POLR2C" ["l"="11.614,2.759"]
+"RAD1" ["l"="11.499,2.445"]
+"SRRD" ["l"="11.436,2.601"]
+"TDG" ["l"="11.499,2.404"]
+"TRAPPC3L" ["l"="11.591,2.670"]
+"TRAPPC5" ["l"="11.564,2.655"]
+"TRAPPC6B" ["l"="11.476,2.639"]
+"TSN" ["l"="11.588,2.582"]
+"TSNAX" ["l"="11.514,2.569"]
+"TXNL1" ["l"="11.545,2.628"]
+"ZPR1" ["l"="11.415,2.602"]
+"ARHGDIB" -> "TRAPPC3L"
+"ARHGDIB" -> "ASF1A"
+"ARHGDIB" -> "PA2G4"
+"ARHGDIB" -> "POLR2C"
+"ASF1A" -> "ASF1B"
+"ASF1A" -> "TXNL1"
+"ASF1A" -> "ZPR1"
+"ASF1A" -> "NUDCD2"
+"ASF1B" -> "ASF1A"
+"ASF1B" -> "MAD2L2"
+"ASF1B" -> "RAD1"
+"ASF1B" -> "POLR2C"
+"BYSL" -> "DDX51"
+"BYSL" -> "PELO"
+"BYSL" -> "EIF2S1"
+"BYSL" -> "SRRD"
+"C21orf62" -> "PLET1"
+"C21orf62" -> "EDDM3A"
+"C21orf62" -> "FAM78A"
+"C21orf62" -> "ASF1A"
+"DDX51" -> "SRRD"
+"DDX51" -> "ZPR1"
+"DDX51" -> "PELO"
+"DDX51" -> "BYSL"
+"DESI2" -> "TRAPPC3L"
+"DESI2" -> "TRAPPC6B"
+"DESI2" -> "ASF1A"
+"DESI2" -> "SRRD"
+"EDDM3A" -> "C21orf62"
+"EDDM3A" -> "FAM78A"
+"EDDM3A" -> "PLET1"
+"EDDM3A" -> "TRAPPC3L"
+"EIF2S1" -> "PA2G4"
+"EIF2S1" -> "ZPR1"
+"EIF2S1" -> "POLR2C"
+"EIF2S1" -> "TSN"
+"FAM78A" -> "C21orf62"
+"FAM78A" -> "PLET1"
+"FAM78A" -> "EDDM3A"
+"FAM78A" -> "ASF1A"
+"HUS1" -> "RAD1"
+"HUS1" -> "HUS1B"
+"HUS1" -> "POLR2C"
+"HUS1" -> "ASF1A"
+"HUS1B" -> "HUS1"
+"HUS1B" -> "RAD1"
+"HUS1B" -> "PELO"
+"HUS1B" -> "NPRL2"
+"JCHAIN" -> "PLET1"
+"JCHAIN" -> "FAM78A"
+"JCHAIN" -> "PELO"
+"JCHAIN" -> "C21orf62"
+"MAD2L2" -> "ASF1B"
+"MAD2L2" -> "ASF1A"
+"MAD2L2" -> "HUS1"
+"MAD2L2" -> "NPRL2"
+"MSRA" -> "SRRD"
+"MSRA" -> "DESI2"
+"MSRA" -> "PLET1"
+"MSRA" -> "TSNAX"
+"NPRL2" -> "PELO"
+"NPRL2" -> "HUS1"
+"NPRL2" -> "POLR2C"
+"NPRL2" -> "TRAPPC6B"
+"NUDCD2" -> "ASF1A"
+"NUDCD2" -> "PITHD1"
+"NUDCD2" -> "TXNL1"
+"NUDCD2" -> "ASF1B"
+"PA2G4" -> "EIF2S1"
+"PA2G4" -> "POLR2C"
+"PA2G4" -> "PELO"
+"PA2G4" -> "TSN"
+"PELO" -> "EIF2S1"
+"PELO" -> "NPRL2"
+"PELO" -> "ZPR1"
+"PELO" -> "TSN"
+"PITHD1" -> "TXNL1"
+"PITHD1" -> "ASF1A"
+"PITHD1" -> "NUDCD2"
+"PITHD1" -> "ZPR1"
+"PLET1" -> "C21orf62"
+"PLET1" -> "FAM78A"
+"PLET1" -> "EDDM3A"
+"PLET1" -> "ASF1A"
+"POLR2C" -> "ZPR1"
+"POLR2C" -> "EIF2S1"
+"POLR2C" -> "HUS1"
+"POLR2C" -> "ASF1A"
+"RAD1" -> "HUS1"
+"RAD1" -> "HUS1B"
+"RAD1" -> "ASF1A"
+"RAD1" -> "ASF1B"
+"SRRD" -> "DDX51"
+"SRRD" -> "ZPR1"
+"SRRD" -> "TRAPPC6B"
+"SRRD" -> "TSN"
+"TDG" -> "DESI2"
+"TDG" -> "SRRD"
+"TDG" -> "TRAPPC3L"
+"TDG" -> "TRAPPC6B"
+"TRAPPC3L" -> "TRAPPC6B"
+"TRAPPC3L" -> "DESI2"
+"TRAPPC3L" -> "TSNAX"
+"TRAPPC3L" -> "TRAPPC5"
+"TRAPPC5" -> "TRAPPC3L"
+"TRAPPC5" -> "TRAPPC6B"
+"TRAPPC5" -> "TSNAX"
+"TRAPPC5" -> "TSN"
+"TRAPPC6B" -> "TRAPPC3L"
+"TRAPPC6B" -> "TSNAX"
+"TRAPPC6B" -> "TSN"
+"TRAPPC6B" -> "DESI2"
+"TSN" -> "TSNAX"
+"TSN" -> "TRAPPC6B"
+"TSN" -> "EIF2S1"
+"TSN" -> "TRAPPC3L"
+"TSNAX" -> "TSN"
+"TSNAX" -> "TRAPPC6B"
+"TSNAX" -> "TRAPPC3L"
+"TSNAX" -> "SRRD"
+"TXNL1" -> "PITHD1"
+"TXNL1" -> "ASF1A"
+"TXNL1" -> "ZPR1"
+"TXNL1" -> "NUDCD2"
+"ZPR1" -> "POLR2C"
+"ZPR1" -> "EIF2S1"
+"ZPR1" -> "ASF1A"
+"ZPR1" -> "TXNL1"
+}

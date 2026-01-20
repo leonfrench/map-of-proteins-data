@@ -1,0 +1,137 @@
+digraph G {
+"ARID3B" ["l"="7.251,3.251"]
+"DEAF1" ["l"="7.299,3.083"]
+"FOXP1" ["l"="7.402,3.032"]
+"FOXP2" ["l"="7.394,3.061"]
+"FOXP4" ["l"="7.392,3.119"]
+"GLI2" ["l"="7.214,3.138"]
+"GMEB2" ["l"="7.214,3.124"]
+"HNF1A" ["l"="7.453,3.109"]
+"HNF1B" ["l"="7.395,3.284"]
+"NOVA2" ["l"="7.212,3.082"]
+"PKNOX2" ["l"="7.346,3.139"]
+"POU6F1" ["l"="7.343,2.949"]
+"POU6F2" ["l"="7.331,2.985"]
+"RFX2" ["l"="7.464,2.910"]
+"RFX3" ["l"="7.431,2.996"]
+"SATB1" ["l"="7.397,3.179"]
+"SATB2" ["l"="7.384,3.171"]
+"SIX4" ["l"="7.552,3.024"]
+"SOX5" ["l"="7.367,3.192"]
+"SOX6" ["l"="7.347,3.185"]
+"SRF" ["l"="7.492,3.017"]
+"SSBP2" ["l"="7.503,3.061"]
+"SSBP3" ["l"="7.406,3.074"]
+"SSBP4" ["l"="7.347,3.038"]
+"TBP" ["l"="7.337,3.055"]
+"TOX3" ["l"="7.462,3.014"]
+"USF2" ["l"="7.258,3.105"]
+"ARID3B" -> "DEAF1"
+"ARID3B" -> "SATB1"
+"ARID3B" -> "GMEB2"
+"ARID3B" -> "HNF1A"
+"DEAF1" -> "ARID3B"
+"DEAF1" -> "GMEB2"
+"DEAF1" -> "POU6F1"
+"DEAF1" -> "USF2"
+"FOXP1" -> "FOXP2"
+"FOXP1" -> "FOXP4"
+"FOXP1" -> "POU6F2"
+"FOXP1" -> "SOX5"
+"FOXP2" -> "FOXP1"
+"FOXP2" -> "FOXP4"
+"FOXP2" -> "POU6F2"
+"FOXP2" -> "SOX5"
+"FOXP4" -> "FOXP1"
+"FOXP4" -> "FOXP2"
+"FOXP4" -> "POU6F2"
+"FOXP4" -> "SOX5"
+"GLI2" -> "SIX4"
+"GLI2" -> "HNF1A"
+"GLI2" -> "HNF1B"
+"GLI2" -> "RFX2"
+"GMEB2" -> "SRF"
+"GMEB2" -> "ARID3B"
+"GMEB2" -> "HNF1A"
+"GMEB2" -> "DEAF1"
+"HNF1A" -> "HNF1B"
+"HNF1A" -> "GMEB2"
+"HNF1A" -> "ARID3B"
+"HNF1A" -> "SIX4"
+"HNF1B" -> "HNF1A"
+"HNF1B" -> "SATB1"
+"HNF1B" -> "SIX4"
+"HNF1B" -> "ARID3B"
+"NOVA2" -> "SRF"
+"NOVA2" -> "ARID3B"
+"NOVA2" -> "DEAF1"
+"NOVA2" -> "POU6F1"
+"PKNOX2" -> "SATB2"
+"PKNOX2" -> "POU6F2"
+"PKNOX2" -> "SATB1"
+"PKNOX2" -> "HNF1B"
+"POU6F1" -> "POU6F2"
+"POU6F1" -> "ARID3B"
+"POU6F1" -> "USF2"
+"POU6F1" -> "HNF1A"
+"POU6F2" -> "FOXP1"
+"POU6F2" -> "FOXP2"
+"POU6F2" -> "PKNOX2"
+"POU6F2" -> "FOXP4"
+"RFX2" -> "RFX3"
+"RFX2" -> "HNF1B"
+"RFX2" -> "SATB2"
+"RFX2" -> "POU6F1"
+"RFX3" -> "RFX2"
+"RFX3" -> "SOX5"
+"RFX3" -> "PKNOX2"
+"RFX3" -> "SOX6"
+"SATB1" -> "SATB2"
+"SATB1" -> "SOX6"
+"SATB1" -> "SOX5"
+"SATB1" -> "ARID3B"
+"SATB2" -> "SATB1"
+"SATB2" -> "PKNOX2"
+"SATB2" -> "SOX5"
+"SATB2" -> "SOX6"
+"SIX4" -> "SRF"
+"SIX4" -> "HNF1A"
+"SIX4" -> "HNF1B"
+"SIX4" -> "GMEB2"
+"SOX5" -> "SOX6"
+"SOX5" -> "SATB1"
+"SOX5" -> "FOXP1"
+"SOX5" -> "POU6F2"
+"SOX6" -> "SOX5"
+"SOX6" -> "SATB1"
+"SOX6" -> "SATB2"
+"SOX6" -> "ARID3B"
+"SRF" -> "SIX4"
+"SRF" -> "GMEB2"
+"SRF" -> "ARID3B"
+"SRF" -> "NOVA2"
+"SSBP2" -> "SSBP3"
+"SSBP2" -> "SSBP4"
+"SSBP2" -> "SOX5"
+"SSBP2" -> "SOX6"
+"SSBP3" -> "SSBP2"
+"SSBP3" -> "SSBP4"
+"SSBP3" -> "SOX5"
+"SSBP3" -> "PKNOX2"
+"SSBP4" -> "SSBP3"
+"SSBP4" -> "SSBP2"
+"SSBP4" -> "RFX2"
+"SSBP4" -> "GLI2"
+"TBP" -> "POU6F2"
+"TBP" -> "TOX3"
+"TBP" -> "FOXP2"
+"TBP" -> "FOXP1"
+"TOX3" -> "POU6F2"
+"TOX3" -> "ARID3B"
+"TOX3" -> "FOXP1"
+"TOX3" -> "TBP"
+"USF2" -> "SRF"
+"USF2" -> "POU6F1"
+"USF2" -> "DEAF1"
+"USF2" -> "GMEB2"
+}

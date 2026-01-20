@@ -1,0 +1,192 @@
+digraph G {
+"CHN1" ["l"="5.834,3.740"]
+"CHN2" ["l"="5.758,3.823"]
+"ESR1" ["l"="5.866,3.860"]
+"ESR2" ["l"="5.760,3.822"]
+"ESRRA" ["l"="5.686,3.897"]
+"ESRRB" ["l"="5.676,3.841"]
+"ESRRG" ["l"="5.705,3.863"]
+"HNF4A" ["l"="5.723,3.868"]
+"HNF4G" ["l"="5.748,3.841"]
+"NR1D1" ["l"="5.728,3.866"]
+"NR1D2" ["l"="5.753,3.838"]
+"NR1H2" ["l"="5.683,3.869"]
+"NR1H3" ["l"="5.629,3.837"]
+"NR1H4" ["l"="5.712,3.865"]
+"NR1I2" ["l"="5.706,3.873"]
+"NR1I3" ["l"="5.692,3.865"]
+"NR2C1" ["l"="5.777,3.808"]
+"NR2E1" ["l"="5.726,3.868"]
+"NR2E3" ["l"="5.668,3.829"]
+"NR2F1" ["l"="5.986,3.884"]
+"NR2F2" ["l"="5.948,3.869"]
+"NR5A1" ["l"="5.712,3.860"]
+"NR5A2" ["l"="5.751,3.836"]
+"NR6A1" ["l"="5.773,3.821"]
+"PPARA" ["l"="5.710,3.879"]
+"PPARD" ["l"="5.733,3.852"]
+"PPARG" ["l"="5.696,3.858"]
+"RARA" ["l"="5.726,3.893"]
+"RARB" ["l"="5.709,3.882"]
+"RARG" ["l"="5.710,3.882"]
+"RORA" ["l"="5.734,3.859"]
+"RORB" ["l"="5.724,3.874"]
+"RORC" ["l"="5.695,3.881"]
+"RXRA" ["l"="5.742,3.934"]
+"RXRG" ["l"="5.741,3.895"]
+"THRA" ["l"="5.705,3.890"]
+"THRB" ["l"="5.698,3.877"]
+"VDR" ["l"="5.700,3.875"]
+"CHN1" -> "CHN2"
+"CHN1" -> "THRB"
+"CHN1" -> "ESRRG"
+"CHN1" -> "RORA"
+"CHN2" -> "CHN1"
+"CHN2" -> "ESRRG"
+"CHN2" -> "ESRRB"
+"CHN2" -> "PPARD"
+"ESR1" -> "ESR2"
+"ESR1" -> "RORA"
+"ESR1" -> "NR5A2"
+"ESR1" -> "NR6A1"
+"ESR2" -> "ESRRB"
+"ESR2" -> "NR6A1"
+"ESR2" -> "ESR1"
+"ESR2" -> "ESRRG"
+"ESRRA" -> "ESRRB"
+"ESRRA" -> "PPARA"
+"ESRRA" -> "PPARD"
+"ESRRA" -> "RARG"
+"ESRRB" -> "ESRRG"
+"ESRRB" -> "ESR2"
+"ESRRB" -> "PPARA"
+"ESRRB" -> "PPARD"
+"ESRRG" -> "ESRRB"
+"ESRRG" -> "THRB"
+"ESRRG" -> "RORA"
+"ESRRG" -> "NR6A1"
+"HNF4A" -> "HNF4G"
+"HNF4A" -> "VDR"
+"HNF4A" -> "PPARD"
+"HNF4A" -> "NR1I2"
+"HNF4G" -> "HNF4A"
+"HNF4G" -> "NR5A2"
+"HNF4G" -> "NR2E1"
+"HNF4G" -> "NR2C1"
+"NR1D1" -> "NR1D2"
+"NR1D1" -> "RARA"
+"NR1D1" -> "RORC"
+"NR1D1" -> "ESR2"
+"NR1D2" -> "NR2C1"
+"NR1D2" -> "NR6A1"
+"NR1D2" -> "NR1D1"
+"NR1D2" -> "RORA"
+"NR1H2" -> "NR1H3"
+"NR1H2" -> "NR1I2"
+"NR1H2" -> "RARG"
+"NR1H2" -> "VDR"
+"NR1H3" -> "NR1H2"
+"NR1H3" -> "NR1I3"
+"NR1H3" -> "NR1I2"
+"NR1H3" -> "RORC"
+"NR1H4" -> "NR1I2"
+"NR1H4" -> "ESR1"
+"NR1H4" -> "PPARG"
+"NR1H4" -> "NR2C1"
+"NR1I2" -> "PPARD"
+"NR1I2" -> "VDR"
+"NR1I2" -> "NR6A1"
+"NR1I2" -> "PPARA"
+"NR1I3" -> "NR1I2"
+"NR1I3" -> "NR1H2"
+"NR1I3" -> "NR2E3"
+"NR1I3" -> "NR2E1"
+"NR2C1" -> "NR6A1"
+"NR2C1" -> "NR1D2"
+"NR2C1" -> "ESR2"
+"NR2C1" -> "RORA"
+"NR2E1" -> "RARG"
+"NR2E1" -> "NR2F2"
+"NR2E1" -> "NR1I2"
+"NR2E1" -> "RORC"
+"NR2E3" -> "ESR2"
+"NR2E3" -> "NR1I2"
+"NR2E3" -> "NR2E1"
+"NR2E3" -> "RORB"
+"NR2F1" -> "NR2F2"
+"NR2F1" -> "RORB"
+"NR2F1" -> "RORA"
+"NR2F1" -> "NR2E1"
+"NR2F2" -> "NR2F1"
+"NR2F2" -> "NR2E1"
+"NR2F2" -> "RORB"
+"NR2F2" -> "ESR1"
+"NR5A1" -> "NR5A2"
+"NR5A1" -> "NR6A1"
+"NR5A1" -> "PPARA"
+"NR5A1" -> "VDR"
+"NR5A2" -> "NR5A1"
+"NR5A2" -> "HNF4G"
+"NR5A2" -> "ESR1"
+"NR5A2" -> "NR6A1"
+"NR6A1" -> "RORA"
+"NR6A1" -> "ESR2"
+"NR6A1" -> "VDR"
+"NR6A1" -> "PPARD"
+"PPARA" -> "PPARD"
+"PPARA" -> "VDR"
+"PPARA" -> "ESRRB"
+"PPARA" -> "THRB"
+"PPARD" -> "PPARA"
+"PPARD" -> "NR1I2"
+"PPARD" -> "VDR"
+"PPARD" -> "NR6A1"
+"PPARG" -> "NR1H4"
+"PPARG" -> "ESRRB"
+"PPARG" -> "PPARD"
+"PPARG" -> "ESRRG"
+"RARA" -> "RARG"
+"RARA" -> "RARB"
+"RARA" -> "VDR"
+"RARA" -> "RXRA"
+"RARB" -> "RARA"
+"RARB" -> "THRB"
+"RARB" -> "RORA"
+"RARB" -> "RARG"
+"RARG" -> "RARA"
+"RARG" -> "NR2E1"
+"RARG" -> "RARB"
+"RARG" -> "NR1I2"
+"RORA" -> "RORB"
+"RORA" -> "THRB"
+"RORA" -> "NR6A1"
+"RORA" -> "ESRRG"
+"RORB" -> "RORA"
+"RORB" -> "THRB"
+"RORB" -> "RARB"
+"RORB" -> "NR6A1"
+"RORC" -> "NR1I2"
+"RORC" -> "NR2E1"
+"RORC" -> "RARG"
+"RORC" -> "PPARD"
+"RXRA" -> "RXRG"
+"RXRA" -> "RARA"
+"RXRA" -> "PPARA"
+"RXRA" -> "VDR"
+"RXRG" -> "RXRA"
+"RXRG" -> "RARA"
+"RXRG" -> "RARB"
+"RXRG" -> "NR2E1"
+"THRA" -> "VDR"
+"THRA" -> "PPARD"
+"THRA" -> "PPARA"
+"THRA" -> "THRB"
+"THRB" -> "RORA"
+"THRB" -> "ESRRG"
+"THRB" -> "RARB"
+"THRB" -> "PPARA"
+"VDR" -> "PPARA"
+"VDR" -> "PPARD"
+"VDR" -> "NR6A1"
+"VDR" -> "NR1I2"
+}

@@ -1,0 +1,162 @@
+digraph G {
+"ACER1" ["l"="9.422,-3.375"]
+"ACER2" ["l"="9.461,-3.361"]
+"ACER3" ["l"="9.480,-3.346"]
+"ADTRP" ["l"="9.456,-3.393"]
+"AIG1" ["l"="9.441,-3.341"]
+"CLN8" ["l"="9.453,-3.389"]
+"ELOVL1" ["l"="9.489,-3.406"]
+"ELOVL2" ["l"="9.494,-3.392"]
+"ELOVL3" ["l"="9.453,-3.425"]
+"ELOVL5" ["l"="9.510,-3.414"]
+"ELOVL6" ["l"="9.485,-3.432"]
+"ELOVL7" ["l"="9.476,-3.426"]
+"FITM1" ["l"="9.496,-3.297"]
+"FITM2" ["l"="9.457,-3.309"]
+"G6PC3" ["l"="9.463,-3.291"]
+"MMD" ["l"="9.452,-3.399"]
+"MMD2" ["l"="9.434,-3.398"]
+"MYMK" ["l"="9.420,-3.291"]
+"PAQR3" ["l"="9.502,-3.368"]
+"PAQR4" ["l"="9.439,-3.377"]
+"PAQR5" ["l"="9.452,-3.373"]
+"PAQR7" ["l"="9.440,-3.353"]
+"PAQR8" ["l"="9.450,-3.374"]
+"PGAP3" ["l"="9.463,-3.357"]
+"TLCD1" ["l"="9.469,-3.355"]
+"TLCD2" ["l"="9.459,-3.356"]
+"TLCD3A" ["l"="9.439,-3.366"]
+"TLCD3B" ["l"="9.492,-3.354"]
+"TLCD5" ["l"="9.480,-3.355"]
+"TMEM229B" ["l"="9.475,-3.385"]
+"TMEM86B" ["l"="9.460,-3.292"]
+"TSPO2" ["l"="9.480,-3.312"]
+"ACER1" -> "ACER2"
+"ACER1" -> "ACER3"
+"ACER1" -> "PGAP3"
+"ACER1" -> "PAQR5"
+"ACER2" -> "ACER3"
+"ACER2" -> "ACER1"
+"ACER2" -> "PGAP3"
+"ACER2" -> "TLCD3A"
+"ACER3" -> "ACER2"
+"ACER3" -> "PAQR3"
+"ACER3" -> "ACER1"
+"ACER3" -> "PGAP3"
+"ADTRP" -> "AIG1"
+"ADTRP" -> "TLCD3A"
+"ADTRP" -> "PAQR5"
+"ADTRP" -> "CLN8"
+"AIG1" -> "ADTRP"
+"AIG1" -> "TLCD1"
+"AIG1" -> "TLCD5"
+"AIG1" -> "PAQR5"
+"CLN8" -> "TLCD5"
+"CLN8" -> "TLCD3A"
+"CLN8" -> "TLCD2"
+"CLN8" -> "PAQR5"
+"ELOVL1" -> "ELOVL7"
+"ELOVL1" -> "ELOVL2"
+"ELOVL1" -> "ELOVL5"
+"ELOVL1" -> "ELOVL6"
+"ELOVL2" -> "ELOVL5"
+"ELOVL2" -> "ELOVL7"
+"ELOVL2" -> "ELOVL6"
+"ELOVL2" -> "ELOVL1"
+"ELOVL3" -> "TLCD3A"
+"ELOVL3" -> "ELOVL6"
+"ELOVL3" -> "ELOVL1"
+"ELOVL3" -> "PAQR5"
+"ELOVL5" -> "ELOVL2"
+"ELOVL5" -> "ELOVL6"
+"ELOVL5" -> "ELOVL7"
+"ELOVL5" -> "ELOVL1"
+"ELOVL6" -> "ELOVL5"
+"ELOVL6" -> "ELOVL2"
+"ELOVL6" -> "ELOVL7"
+"ELOVL6" -> "ELOVL1"
+"ELOVL7" -> "ELOVL2"
+"ELOVL7" -> "ELOVL1"
+"ELOVL7" -> "ELOVL5"
+"ELOVL7" -> "ELOVL6"
+"FITM1" -> "FITM2"
+"FITM1" -> "PGAP3"
+"FITM1" -> "TLCD3B"
+"FITM1" -> "PAQR7"
+"FITM2" -> "TLCD5"
+"FITM2" -> "FITM1"
+"FITM2" -> "PAQR5"
+"FITM2" -> "PGAP3"
+"G6PC3" -> "TMEM86B"
+"G6PC3" -> "PGAP3"
+"G6PC3" -> "TLCD3A"
+"G6PC3" -> "FITM1"
+"MMD" -> "ACER2"
+"MMD" -> "MMD2"
+"MMD" -> "PAQR3"
+"MMD" -> "ACER1"
+"MMD2" -> "MMD"
+"MMD2" -> "ACER2"
+"MMD2" -> "TMEM86B"
+"MMD2" -> "PAQR5"
+"MYMK" -> "PAQR5"
+"MYMK" -> "TLCD3A"
+"MYMK" -> "ACER2"
+"MYMK" -> "PGAP3"
+"PAQR3" -> "ACER3"
+"PAQR3" -> "PAQR8"
+"PAQR3" -> "MMD"
+"PAQR3" -> "PGAP3"
+"PAQR4" -> "PAQR8"
+"PAQR4" -> "PGAP3"
+"PAQR4" -> "PAQR7"
+"PAQR4" -> "ACER2"
+"PAQR5" -> "PGAP3"
+"PAQR5" -> "PAQR7"
+"PAQR5" -> "ACER2"
+"PAQR5" -> "PAQR8"
+"PAQR7" -> "PGAP3"
+"PAQR7" -> "PAQR8"
+"PAQR7" -> "PAQR5"
+"PAQR7" -> "TLCD5"
+"PAQR8" -> "PGAP3"
+"PAQR8" -> "PAQR7"
+"PAQR8" -> "PAQR5"
+"PAQR8" -> "PAQR4"
+"PGAP3" -> "ACER2"
+"PGAP3" -> "PAQR7"
+"PGAP3" -> "PAQR8"
+"PGAP3" -> "PAQR5"
+"TLCD1" -> "TLCD3A"
+"TLCD1" -> "TLCD2"
+"TLCD1" -> "PGAP3"
+"TLCD1" -> "ACER2"
+"TLCD2" -> "CLN8"
+"TLCD2" -> "TLCD1"
+"TLCD2" -> "TLCD3A"
+"TLCD2" -> "FITM2"
+"TLCD3A" -> "TLCD1"
+"TLCD3A" -> "CLN8"
+"TLCD3A" -> "ACER2"
+"TLCD3A" -> "PGAP3"
+"TLCD3B" -> "PGAP3"
+"TLCD3B" -> "TLCD3A"
+"TLCD3B" -> "ELOVL6"
+"TLCD3B" -> "FITM1"
+"TLCD5" -> "FITM2"
+"TLCD5" -> "CLN8"
+"TLCD5" -> "PAQR7"
+"TLCD5" -> "PAQR5"
+"TMEM229B" -> "CLN8"
+"TMEM229B" -> "FITM2"
+"TMEM229B" -> "PAQR5"
+"TMEM229B" -> "ACER2"
+"TMEM86B" -> "G6PC3"
+"TMEM86B" -> "PGAP3"
+"TMEM86B" -> "PAQR7"
+"TMEM86B" -> "TLCD1"
+"TSPO2" -> "TMEM86B"
+"TSPO2" -> "AIG1"
+"TSPO2" -> "ACER1"
+"TSPO2" -> "PAQR7"
+}

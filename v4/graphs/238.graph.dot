@@ -1,0 +1,437 @@
+digraph G {
+"A1BG" ["l"="9.739,6.893"]
+"BTNL2" ["l"="9.736,6.899"]
+"C17orf99" ["l"="9.846,6.689"]
+"CD101" ["l"="9.761,6.770"]
+"CD160" ["l"="9.624,6.717"]
+"CD2" ["l"="9.614,6.734"]
+"CD200" ["l"="9.764,6.641"]
+"CD200R1" ["l"="9.729,6.699"]
+"CD200R1L" ["l"="9.739,6.696"]
+"CD22" ["l"="9.641,7.032"]
+"CD244" ["l"="9.550,6.829"]
+"CD274" ["l"="9.690,6.772"]
+"CD28" ["l"="9.602,6.753"]
+"CD3D" ["l"="9.628,6.750"]
+"CD3E" ["l"="9.501,6.817"]
+"CD3G" ["l"="9.591,6.780"]
+"CD4" ["l"="9.718,6.825"]
+"CD48" ["l"="9.624,6.816"]
+"CD58" ["l"="9.685,6.766"]
+"CD7" ["l"="9.553,6.845"]
+"CD79A" ["l"="9.702,6.654"]
+"CD79B" ["l"="9.661,6.736"]
+"CD80" ["l"="9.712,6.722"]
+"CD83" ["l"="9.763,6.626"]
+"CD84" ["l"="9.559,6.683"]
+"CD86" ["l"="9.667,6.728"]
+"CD8A" ["l"="9.510,6.857"]
+"CD8B" ["l"="9.539,6.863"]
+"CD96" ["l"="9.688,6.687"]
+"CEACAM18" ["l"="9.755,6.806"]
+"CEACAM19" ["l"="9.670,6.697"]
+"CRTAM" ["l"="9.721,6.684"]
+"CTLA4" ["l"="9.702,6.698"]
+"FCMR" ["l"="9.629,6.726"]
+"FCRLA" ["l"="9.597,6.922"]
+"FCRLB" ["l"="9.674,6.879"]
+"HEPACAM2" ["l"="9.765,6.623"]
+"HHLA2" ["l"="9.734,6.774"]
+"ICAM2" ["l"="9.877,6.606"]
+"ICOS" ["l"="9.653,6.734"]
+"ICOSLG" ["l"="9.732,6.672"]
+"IGSF3" ["l"="9.867,6.636"]
+"IGSF6" ["l"="9.566,6.717"]
+"IL18BP" ["l"="9.737,6.682"]
+"JAML" ["l"="9.655,6.793"]
+"LAG3" ["l"="9.806,6.752"]
+"LAIR1" ["l"="9.451,6.969"]
+"LY6G6F" ["l"="9.542,6.881"]
+"MADCAM1" ["l"="9.725,6.782"]
+"MPIG6B" ["l"="9.599,6.759"]
+"NCR3" ["l"="9.508,6.903"]
+"NFAM1" ["l"="9.604,6.768"]
+"PDCD1" ["l"="9.565,6.780"]
+"PDCD1LG2" ["l"="9.726,6.731"]
+"PECAM1" ["l"="9.751,6.769"]
+"PTGFRN" ["l"="9.818,6.647"]
+"PVRIG" ["l"="9.534,6.848"]
+"SECTM1" ["l"="9.640,6.742"]
+"SIGLEC15" ["l"="9.659,6.780"]
+"SIRPA" ["l"="9.513,7.015"]
+"SIRPB2" ["l"="9.518,6.952"]
+"SLAMF1" ["l"="9.627,6.738"]
+"SLAMF6" ["l"="9.543,6.758"]
+"SLAMF7" ["l"="9.523,6.939"]
+"SLAMF8" ["l"="9.618,6.850"]
+"SLAMF9" ["l"="9.592,6.777"]
+"TAPBP" ["l"="9.821,6.764"]
+"TAPBPL" ["l"="9.780,6.757"]
+"TIGIT" ["l"="9.630,6.775"]
+"TMEM156" ["l"="9.682,6.502"]
+"TMIGD1" ["l"="9.717,6.789"]
+"TMIGD2" ["l"="9.528,6.724"]
+"TMIGD3" ["l"="9.592,6.790"]
+"TRAC" ["l"="9.668,6.900"]
+"TRBC1" ["l"="9.614,6.882"]
+"TRBC2" ["l"="9.609,6.884"]
+"TRDC" ["l"="9.642,6.843"]
+"TREM1" ["l"="9.474,6.768"]
+"TREM2" ["l"="9.486,6.882"]
+"TREML1" ["l"="9.546,6.764"]
+"TREML2" ["l"="9.448,6.843"]
+"TREML4" ["l"="9.493,6.902"]
+"TRGC1" ["l"="9.645,6.822"]
+"TRGC2" ["l"="9.663,6.808"]
+"VCAM1" ["l"="9.833,6.812"]
+"VSIR" ["l"="9.722,6.592"]
+"VTCN1" ["l"="9.757,6.704"]
+"A1BG" -> "FCRLB"
+"A1BG" -> "SIGLEC15"
+"A1BG" -> "SLAMF8"
+"A1BG" -> "C17orf99"
+"BTNL2" -> "CD101"
+"BTNL2" -> "CEACAM18"
+"BTNL2" -> "PDCD1LG2"
+"BTNL2" -> "VCAM1"
+"C17orf99" -> "FCRLA"
+"C17orf99" -> "SLAMF8"
+"C17orf99" -> "FCRLB"
+"C17orf99" -> "IL18BP"
+"CD101" -> "IGSF3"
+"CD101" -> "PTGFRN"
+"CD101" -> "PDCD1LG2"
+"CD101" -> "VCAM1"
+"CD160" -> "TIGIT"
+"CD160" -> "CD274"
+"CD160" -> "CTLA4"
+"CD160" -> "CD80"
+"CD2" -> "SLAMF1"
+"CD2" -> "CD3G"
+"CD2" -> "ICOS"
+"CD2" -> "CD274"
+"CD200" -> "CD80"
+"CD200" -> "PDCD1LG2"
+"CD200" -> "CD200R1"
+"CD200" -> "CD86"
+"CD200R1" -> "CD200"
+"CD200R1" -> "CD274"
+"CD200R1" -> "CD86"
+"CD200R1" -> "SLAMF6"
+"CD200R1L" -> "CD200R1"
+"CD200R1L" -> "CD200"
+"CD200R1L" -> "PDCD1LG2"
+"CD200R1L" -> "CD274"
+"CD22" -> "HEPACAM2"
+"CD22" -> "SLAMF8"
+"CD22" -> "PECAM1"
+"CD22" -> "A1BG"
+"CD244" -> "SLAMF6"
+"CD244" -> "SLAMF7"
+"CD244" -> "SLAMF1"
+"CD244" -> "TMIGD2"
+"CD274" -> "PDCD1LG2"
+"CD274" -> "CD80"
+"CD274" -> "ICOSLG"
+"CD274" -> "CD86"
+"CD28" -> "ICOS"
+"CD28" -> "CTLA4"
+"CD28" -> "TIGIT"
+"CD28" -> "SLAMF1"
+"CD3D" -> "CD3G"
+"CD3D" -> "CD3E"
+"CD3D" -> "TRAC"
+"CD3D" -> "TRBC2"
+"CD3E" -> "CD3G"
+"CD3E" -> "CD3D"
+"CD3E" -> "TRBC2"
+"CD3E" -> "CD28"
+"CD3G" -> "CD3E"
+"CD3G" -> "CD3D"
+"CD3G" -> "TIGIT"
+"CD3G" -> "CD8B"
+"CD4" -> "SLAMF8"
+"CD4" -> "CD101"
+"CD4" -> "TAPBPL"
+"CD4" -> "SLAMF1"
+"CD48" -> "CD86"
+"CD48" -> "CD80"
+"CD48" -> "SLAMF8"
+"CD48" -> "SLAMF1"
+"CD58" -> "CD80"
+"CD58" -> "CD86"
+"CD58" -> "TMIGD1"
+"CD58" -> "CD274"
+"CD7" -> "PDCD1"
+"CD7" -> "TMIGD2"
+"CD7" -> "TIGIT"
+"CD7" -> "LAIR1"
+"CD79A" -> "CD79B"
+"CD79A" -> "CD83"
+"CD79A" -> "FCRLA"
+"CD79A" -> "SLAMF8"
+"CD79B" -> "CD79A"
+"CD79B" -> "CD83"
+"CD79B" -> "SLAMF8"
+"CD79B" -> "FCRLA"
+"CD80" -> "PDCD1LG2"
+"CD80" -> "CD274"
+"CD80" -> "ICOSLG"
+"CD80" -> "CD86"
+"CD83" -> "CD80"
+"CD83" -> "CD79B"
+"CD83" -> "CD79A"
+"CD83" -> "SLAMF8"
+"CD84" -> "SLAMF6"
+"CD84" -> "SLAMF7"
+"CD84" -> "TIGIT"
+"CD84" -> "CD86"
+"CD86" -> "CD80"
+"CD86" -> "SLAMF6"
+"CD86" -> "SLAMF1"
+"CD86" -> "IGSF6"
+"CD8A" -> "CD8B"
+"CD8A" -> "PDCD1"
+"CD8A" -> "CD3G"
+"CD8A" -> "TREML4"
+"CD8B" -> "CD8A"
+"CD8B" -> "PDCD1"
+"CD8B" -> "CD3G"
+"CD8B" -> "TMIGD2"
+"CD96" -> "CD80"
+"CD96" -> "ICOSLG"
+"CD96" -> "CD200"
+"CD96" -> "PDCD1LG2"
+"CEACAM18" -> "PDCD1LG2"
+"CEACAM18" -> "TAPBPL"
+"CEACAM18" -> "ICOSLG"
+"CEACAM18" -> "VTCN1"
+"CEACAM19" -> "PDCD1"
+"CEACAM19" -> "TREML1"
+"CEACAM19" -> "TMIGD2"
+"CEACAM19" -> "VSIR"
+"CRTAM" -> "CD80"
+"CRTAM" -> "CD274"
+"CRTAM" -> "TIGIT"
+"CRTAM" -> "SLAMF1"
+"CTLA4" -> "TIGIT"
+"CTLA4" -> "CD28"
+"CTLA4" -> "PDCD1"
+"CTLA4" -> "ICOS"
+"FCMR" -> "SLAMF8"
+"FCMR" -> "SLAMF1"
+"FCMR" -> "TIGIT"
+"FCMR" -> "PDCD1"
+"FCRLA" -> "SLAMF8"
+"FCRLA" -> "SIRPB2"
+"FCRLA" -> "FCMR"
+"FCRLA" -> "TREML4"
+"FCRLB" -> "A1BG"
+"FCRLB" -> "FCRLA"
+"FCRLB" -> "SIGLEC15"
+"FCRLB" -> "SLAMF8"
+"HEPACAM2" -> "CD200"
+"HEPACAM2" -> "CD80"
+"HEPACAM2" -> "CEACAM19"
+"HEPACAM2" -> "PDCD1LG2"
+"HHLA2" -> "PDCD1LG2"
+"HHLA2" -> "CD80"
+"HHLA2" -> "CD274"
+"HHLA2" -> "TMIGD1"
+"ICAM2" -> "CD80"
+"ICAM2" -> "CD200"
+"ICAM2" -> "CTLA4"
+"ICAM2" -> "SLAMF9"
+"ICOS" -> "CD28"
+"ICOS" -> "CTLA4"
+"ICOS" -> "SLAMF6"
+"ICOS" -> "TIGIT"
+"ICOSLG" -> "CD80"
+"ICOSLG" -> "CD274"
+"ICOSLG" -> "PDCD1LG2"
+"ICOSLG" -> "VTCN1"
+"IGSF3" -> "PTGFRN"
+"IGSF3" -> "CD101"
+"IGSF3" -> "VCAM1"
+"IGSF3" -> "BTNL2"
+"IGSF6" -> "CD86"
+"IGSF6" -> "CD274"
+"IGSF6" -> "SLAMF6"
+"IGSF6" -> "CD84"
+"IL18BP" -> "SLAMF8"
+"IL18BP" -> "SECTM1"
+"IL18BP" -> "ICOSLG"
+"IL18BP" -> "NFAM1"
+"JAML" -> "CD86"
+"JAML" -> "SLAMF6"
+"JAML" -> "SLAMF1"
+"JAML" -> "CD274"
+"LAG3" -> "SLAMF8"
+"LAG3" -> "TAPBPL"
+"LAG3" -> "IL18BP"
+"LAG3" -> "CTLA4"
+"LAIR1" -> "SLAMF7"
+"LAIR1" -> "SLAMF8"
+"LAIR1" -> "CD84"
+"LAIR1" -> "PDCD1"
+"LY6G6F" -> "MPIG6B"
+"LY6G6F" -> "TREML1"
+"LY6G6F" -> "PVRIG"
+"LY6G6F" -> "SIGLEC15"
+"MADCAM1" -> "IL18BP"
+"MADCAM1" -> "FCRLB"
+"MADCAM1" -> "TAPBP"
+"MADCAM1" -> "SIGLEC15"
+"MPIG6B" -> "TREML1"
+"MPIG6B" -> "LY6G6F"
+"MPIG6B" -> "TMIGD2"
+"MPIG6B" -> "PDCD1"
+"NCR3" -> "LY6G6F"
+"NCR3" -> "SIRPB2"
+"NCR3" -> "TREM2"
+"NCR3" -> "PDCD1"
+"NFAM1" -> "SLAMF8"
+"NFAM1" -> "TIGIT"
+"NFAM1" -> "CD84"
+"NFAM1" -> "PDCD1"
+"PDCD1" -> "TIGIT"
+"PDCD1" -> "TMIGD2"
+"PDCD1" -> "CTLA4"
+"PDCD1" -> "SLAMF8"
+"PDCD1LG2" -> "CD80"
+"PDCD1LG2" -> "CD274"
+"PDCD1LG2" -> "HHLA2"
+"PDCD1LG2" -> "ICOSLG"
+"PECAM1" -> "PDCD1LG2"
+"PECAM1" -> "CD80"
+"PECAM1" -> "CD86"
+"PECAM1" -> "CD84"
+"PTGFRN" -> "IGSF3"
+"PTGFRN" -> "CD101"
+"PTGFRN" -> "VCAM1"
+"PTGFRN" -> "CD274"
+"PVRIG" -> "PDCD1"
+"PVRIG" -> "TMIGD2"
+"PVRIG" -> "CEACAM19"
+"PVRIG" -> "MPIG6B"
+"SECTM1" -> "SLAMF8"
+"SECTM1" -> "TIGIT"
+"SECTM1" -> "SLAMF9"
+"SECTM1" -> "IL18BP"
+"SIGLEC15" -> "PDCD1"
+"SIGLEC15" -> "TREM2"
+"SIGLEC15" -> "SLAMF8"
+"SIGLEC15" -> "TREML4"
+"SIRPA" -> "SLAMF8"
+"SIRPA" -> "ICOSLG"
+"SIRPA" -> "LAIR1"
+"SIRPA" -> "CD274"
+"SIRPB2" -> "FCRLA"
+"SIRPB2" -> "SLAMF8"
+"SIRPB2" -> "TREML4"
+"SIRPB2" -> "NFAM1"
+"SLAMF1" -> "SLAMF6"
+"SLAMF1" -> "TIGIT"
+"SLAMF1" -> "CD28"
+"SLAMF1" -> "CD86"
+"SLAMF6" -> "SLAMF1"
+"SLAMF6" -> "CD84"
+"SLAMF6" -> "CD86"
+"SLAMF6" -> "TIGIT"
+"SLAMF7" -> "SLAMF8"
+"SLAMF7" -> "CD274"
+"SLAMF7" -> "SLAMF1"
+"SLAMF7" -> "SLAMF6"
+"SLAMF8" -> "TIGIT"
+"SLAMF8" -> "SLAMF9"
+"SLAMF8" -> "IL18BP"
+"SLAMF8" -> "NFAM1"
+"SLAMF9" -> "SLAMF8"
+"SLAMF9" -> "TREML4"
+"SLAMF9" -> "SECTM1"
+"SLAMF9" -> "TIGIT"
+"TAPBP" -> "LAG3"
+"TAPBP" -> "SLAMF8"
+"TAPBP" -> "ICOSLG"
+"TAPBP" -> "TAPBPL"
+"TAPBPL" -> "PDCD1LG2"
+"TAPBPL" -> "SLAMF8"
+"TAPBPL" -> "LAG3"
+"TAPBPL" -> "FCRLA"
+"TIGIT" -> "CTLA4"
+"TIGIT" -> "PDCD1"
+"TIGIT" -> "SLAMF8"
+"TIGIT" -> "SLAMF6"
+"TMEM156" -> "CD86"
+"TMEM156" -> "SLAMF1"
+"TMEM156" -> "CD200R1"
+"TMEM156" -> "SLAMF6"
+"TMIGD1" -> "CD58"
+"TMIGD1" -> "CD80"
+"TMIGD1" -> "CD86"
+"TMIGD1" -> "HHLA2"
+"TMIGD2" -> "PDCD1"
+"TMIGD2" -> "TREML1"
+"TMIGD2" -> "TIGIT"
+"TMIGD2" -> "NFAM1"
+"TMIGD3" -> "TIGIT"
+"TMIGD3" -> "TREM2"
+"TMIGD3" -> "CTLA4"
+"TMIGD3" -> "IL18BP"
+"TRAC" -> "TRBC2"
+"TRAC" -> "TRBC1"
+"TRAC" -> "TRDC"
+"TRAC" -> "TRGC1"
+"TRBC1" -> "TRBC2"
+"TRBC1" -> "TRAC"
+"TRBC1" -> "TRGC1"
+"TRBC1" -> "TRGC2"
+"TRBC2" -> "TRBC1"
+"TRBC2" -> "TRAC"
+"TRBC2" -> "TRGC1"
+"TRBC2" -> "TRGC2"
+"TRDC" -> "TRGC1"
+"TRDC" -> "TRGC2"
+"TRDC" -> "TRAC"
+"TRDC" -> "TRBC1"
+"TREM1" -> "TREML2"
+"TREM1" -> "TREML4"
+"TREM1" -> "CD80"
+"TREM1" -> "TREM2"
+"TREM2" -> "TREM1"
+"TREM2" -> "TREML2"
+"TREM2" -> "SLAMF8"
+"TREM2" -> "SIGLEC15"
+"TREML1" -> "TMIGD2"
+"TREML1" -> "MPIG6B"
+"TREML1" -> "PDCD1"
+"TREML1" -> "CEACAM19"
+"TREML2" -> "TREML4"
+"TREML2" -> "TREM1"
+"TREML2" -> "TREM2"
+"TREML2" -> "FCMR"
+"TREML4" -> "TREML2"
+"TREML4" -> "TREM1"
+"TREML4" -> "SLAMF8"
+"TREML4" -> "SLAMF9"
+"TRGC1" -> "TRGC2"
+"TRGC1" -> "TRDC"
+"TRGC1" -> "TRBC2"
+"TRGC1" -> "TRAC"
+"TRGC2" -> "TRGC1"
+"TRGC2" -> "TRDC"
+"TRGC2" -> "TRAC"
+"TRGC2" -> "TRBC2"
+"VCAM1" -> "CD101"
+"VCAM1" -> "CD274"
+"VCAM1" -> "CD80"
+"VCAM1" -> "PDCD1LG2"
+"VSIR" -> "CEACAM19"
+"VSIR" -> "PDCD1"
+"VSIR" -> "NFAM1"
+"VSIR" -> "TMIGD2"
+"VTCN1" -> "CD80"
+"VTCN1" -> "ICOSLG"
+"VTCN1" -> "CD274"
+"VTCN1" -> "PDCD1LG2"
+}
