@@ -10,48 +10,48 @@ digraph G {
 "CRYGC" ["l"="6.393,-5.750"]
 "CRYGD" ["l"="6.396,-5.748"]
 "CRYGS" ["l"="6.396,-5.749"]
-"CRYBA1" -> "CRYBB3"
-"CRYBA1" -> "CRYBA2"
-"CRYBA1" -> "CRYBA4"
-"CRYBA1" -> "CRYBB2"
-"CRYBA2" -> "CRYBB3"
-"CRYBA2" -> "CRYBA1"
-"CRYBA2" -> "CRYBA4"
-"CRYBA2" -> "CRYBB2"
-"CRYBA4" -> "CRYBB3"
-"CRYBA4" -> "CRYBA2"
-"CRYBA4" -> "CRYBB2"
-"CRYBA4" -> "CRYBA1"
-"CRYBB1" -> "CRYBB3"
-"CRYBB1" -> "CRYBA1"
-"CRYBB1" -> "CRYBA2"
-"CRYBB1" -> "CRYGS"
-"CRYBB2" -> "CRYBB3"
-"CRYBB2" -> "CRYBA4"
-"CRYBB2" -> "CRYBA2"
-"CRYBB2" -> "CRYBA1"
-"CRYBB3" -> "CRYBA4"
-"CRYBB3" -> "CRYBA1"
-"CRYBB3" -> "CRYBA2"
-"CRYBB3" -> "CRYBB2"
-"CRYGA" -> "CRYGB"
-"CRYGA" -> "CRYGD"
-"CRYGA" -> "CRYGC"
-"CRYGA" -> "CRYGS"
-"CRYGB" -> "CRYGA"
-"CRYGB" -> "CRYGD"
-"CRYGB" -> "CRYGS"
-"CRYGB" -> "CRYGC"
-"CRYGC" -> "CRYGA"
-"CRYGC" -> "CRYGS"
-"CRYGC" -> "CRYGB"
-"CRYGC" -> "CRYGD"
-"CRYGD" -> "CRYGA"
-"CRYGD" -> "CRYGB"
-"CRYGD" -> "CRYGS"
-"CRYGD" -> "CRYGC"
-"CRYGS" -> "CRYGC"
-"CRYGS" -> "CRYGB"
-"CRYGS" -> "CRYGA"
-"CRYGS" -> "CRYGD"
+"CRYBA1" -> "CRYBB3" ["e"=1]
+"CRYBA1" -> "CRYBA2" ["e"=1]
+"CRYBA1" -> "CRYBA4" ["e"=1]
+"CRYBA1" -> "CRYBB2" ["e"=1]
+"CRYBA2" -> "CRYBB3" ["e"=1]
+"CRYBA2" -> "CRYBA1" ["e"=1]
+"CRYBA2" -> "CRYBA4" ["e"=1]
+"CRYBA2" -> "CRYBB2" ["e"=1]
+"CRYBA4" -> "CRYBB3" ["e"=1]
+"CRYBA4" -> "CRYBA2" ["e"=1]
+"CRYBA4" -> "CRYBB2" ["e"=1]
+"CRYBA4" -> "CRYBA1" ["e"=1]
+"CRYBB1" -> "CRYBB3" ["e"=1]
+"CRYBB1" -> "CRYBA1" ["e"=1]
+"CRYBB1" -> "CRYBA2" ["e"=1]
+"CRYBB1" -> "CRYGS" ["e"=1]
+"CRYBB2" -> "CRYBB3" ["e"=1]
+"CRYBB2" -> "CRYBA4" ["e"=1]
+"CRYBB2" -> "CRYBA2" ["e"=1]
+"CRYBB2" -> "CRYBA1" ["e"=1]
+"CRYBB3" -> "CRYBA4" ["e"=1]
+"CRYBB3" -> "CRYBA1" ["e"=1]
+"CRYBB3" -> "CRYBA2" ["e"=1]
+"CRYBB3" -> "CRYBB2" ["e"=1]
+"CRYGA" -> "CRYGB" ["e"=1]
+"CRYGA" -> "CRYGD" ["e"=1]
+"CRYGA" -> "CRYGC" ["e"=1]
+"CRYGA" -> "CRYGS" ["e"=1]
+"CRYGB" -> "CRYGA" ["e"=1]
+"CRYGB" -> "CRYGD" ["e"=1]
+"CRYGB" -> "CRYGS" ["e"=1]
+"CRYGB" -> "CRYGC" ["e"=1]
+"CRYGC" -> "CRYGA" ["e"=1]
+"CRYGC" -> "CRYGS" ["e"=1]
+"CRYGC" -> "CRYGB" ["e"=1]
+"CRYGC" -> "CRYGD" ["e"=1]
+"CRYGD" -> "CRYGA" ["e"=1]
+"CRYGD" -> "CRYGB" ["e"=1]
+"CRYGD" -> "CRYGS" ["e"=1]
+"CRYGD" -> "CRYGC" ["e"=1]
+"CRYGS" -> "CRYGC" ["e"=1]
+"CRYGS" -> "CRYGB" ["e"=1]
+"CRYGS" -> "CRYGA" ["e"=1]
+"CRYGS" -> "CRYGD" ["e"=1]
 }

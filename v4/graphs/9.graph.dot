@@ -25,108 +25,108 @@ digraph G {
 "KRTAP3-2" ["l"="3.824,-9.553"]
 "KRTAP3-3" ["l"="3.822,-9.553"]
 "ODF1" ["l"="3.801,-9.540"]
-"KRTAP1-1" -> "KRTAP1-3"
-"KRTAP1-1" -> "KRTAP1-4"
-"KRTAP1-1" -> "KRTAP1-5"
-"KRTAP1-1" -> "KRTAP2-1"
-"KRTAP1-3" -> "KRTAP1-1"
-"KRTAP1-3" -> "KRTAP1-5"
-"KRTAP1-3" -> "KRTAP1-4"
-"KRTAP1-3" -> "KRTAP2-1"
-"KRTAP1-4" -> "KRTAP1-1"
-"KRTAP1-4" -> "KRTAP1-3"
-"KRTAP1-4" -> "KRTAP1-5"
-"KRTAP1-4" -> "KRTAP2-4"
-"KRTAP1-5" -> "KRTAP1-3"
-"KRTAP1-5" -> "KRTAP1-1"
-"KRTAP1-5" -> "KRTAP1-4"
-"KRTAP1-5" -> "KRTAP2-2"
-"KRTAP11-1" -> "KRTAP26-1"
-"KRTAP11-1" -> "KRTAP15-1"
-"KRTAP11-1" -> "KRTAP12-1"
-"KRTAP11-1" -> "KRTAP13-2"
-"KRTAP12-1" -> "KRTAP12-3"
-"KRTAP12-1" -> "KRTAP12-4"
-"KRTAP12-1" -> "KRTAP2-3"
-"KRTAP12-1" -> "KRTAP11-1"
-"KRTAP12-2" -> "KRTAP12-1"
-"KRTAP12-2" -> "KRTAP12-3"
-"KRTAP12-2" -> "KRTAP12-4"
-"KRTAP12-2" -> "KRTAP29-1"
-"KRTAP12-3" -> "KRTAP12-1"
-"KRTAP12-3" -> "KRTAP12-4"
-"KRTAP12-3" -> "KRTAP2-3"
-"KRTAP12-3" -> "KRTAP2-1"
-"KRTAP12-4" -> "KRTAP12-3"
-"KRTAP12-4" -> "KRTAP2-2"
-"KRTAP12-4" -> "KRTAP12-1"
-"KRTAP12-4" -> "KRTAP2-4"
-"KRTAP13-1" -> "KRTAP13-2"
-"KRTAP13-1" -> "KRTAP13-3"
-"KRTAP13-1" -> "KRTAP15-1"
-"KRTAP13-1" -> "KRTAP13-4"
-"KRTAP13-2" -> "KRTAP13-3"
-"KRTAP13-2" -> "KRTAP13-1"
-"KRTAP13-2" -> "KRTAP13-4"
-"KRTAP13-2" -> "KRTAP15-1"
-"KRTAP13-3" -> "KRTAP13-2"
-"KRTAP13-3" -> "KRTAP15-1"
-"KRTAP13-3" -> "KRTAP13-1"
-"KRTAP13-3" -> "KRTAP13-4"
-"KRTAP13-4" -> "KRTAP13-2"
-"KRTAP13-4" -> "KRTAP15-1"
-"KRTAP13-4" -> "KRTAP13-1"
-"KRTAP13-4" -> "KRTAP13-3"
-"KRTAP15-1" -> "KRTAP13-3"
-"KRTAP15-1" -> "KRTAP13-4"
-"KRTAP15-1" -> "KRTAP13-2"
-"KRTAP15-1" -> "KRTAP13-1"
-"KRTAP16-1" -> "KRTAP29-1"
-"KRTAP16-1" -> "KRTAP12-4"
-"KRTAP16-1" -> "KRTAP12-2"
-"KRTAP16-1" -> "KRTAP12-3"
-"KRTAP2-1" -> "KRTAP2-2"
-"KRTAP2-1" -> "KRTAP2-4"
-"KRTAP2-1" -> "KRTAP2-3"
-"KRTAP2-1" -> "KRTAP1-4"
-"KRTAP2-2" -> "KRTAP2-1"
-"KRTAP2-2" -> "KRTAP2-4"
-"KRTAP2-2" -> "KRTAP2-3"
-"KRTAP2-2" -> "KRTAP12-4"
-"KRTAP2-3" -> "KRTAP2-2"
-"KRTAP2-3" -> "KRTAP2-1"
-"KRTAP2-3" -> "KRTAP2-4"
-"KRTAP2-3" -> "KRTAP1-4"
-"KRTAP2-4" -> "KRTAP2-2"
-"KRTAP2-4" -> "KRTAP2-1"
-"KRTAP2-4" -> "KRTAP2-3"
-"KRTAP2-4" -> "KRTAP1-4"
-"KRTAP24-1" -> "KRTAP26-1"
-"KRTAP24-1" -> "KRTAP15-1"
-"KRTAP24-1" -> "KRTAP13-3"
-"KRTAP24-1" -> "KRTAP11-1"
-"KRTAP26-1" -> "KRTAP24-1"
-"KRTAP26-1" -> "KRTAP11-1"
-"KRTAP26-1" -> "KRTAP15-1"
-"KRTAP26-1" -> "KRTAP13-3"
-"KRTAP29-1" -> "KRTAP16-1"
-"KRTAP29-1" -> "KRTAP26-1"
-"KRTAP29-1" -> "KRTAP11-1"
-"KRTAP29-1" -> "KRTAP12-2"
-"KRTAP3-1" -> "KRTAP3-2"
-"KRTAP3-1" -> "KRTAP3-3"
-"KRTAP3-1" -> "KRTAP12-1"
-"KRTAP3-1" -> "KRTAP2-3"
-"KRTAP3-2" -> "KRTAP3-3"
-"KRTAP3-2" -> "KRTAP3-1"
-"KRTAP3-2" -> "KRTAP12-1"
-"KRTAP3-2" -> "KRTAP2-3"
-"KRTAP3-3" -> "KRTAP3-2"
-"KRTAP3-3" -> "KRTAP3-1"
-"KRTAP3-3" -> "KRTAP12-1"
-"KRTAP3-3" -> "KRTAP2-3"
-"ODF1" -> "KRTAP3-1"
-"ODF1" -> "KRTAP11-1"
-"ODF1" -> "KRTAP3-2"
-"ODF1" -> "KRTAP24-1"
+"KRTAP1-1" -> "KRTAP1-3" ["e"=1]
+"KRTAP1-1" -> "KRTAP1-4" ["e"=1]
+"KRTAP1-1" -> "KRTAP1-5" ["e"=1]
+"KRTAP1-1" -> "KRTAP2-1" ["e"=1]
+"KRTAP1-3" -> "KRTAP1-1" ["e"=1]
+"KRTAP1-3" -> "KRTAP1-5" ["e"=1]
+"KRTAP1-3" -> "KRTAP1-4" ["e"=1]
+"KRTAP1-3" -> "KRTAP2-1" ["e"=1]
+"KRTAP1-4" -> "KRTAP1-1" ["e"=1]
+"KRTAP1-4" -> "KRTAP1-3" ["e"=1]
+"KRTAP1-4" -> "KRTAP1-5" ["e"=1]
+"KRTAP1-4" -> "KRTAP2-4" ["e"=1]
+"KRTAP1-5" -> "KRTAP1-3" ["e"=1]
+"KRTAP1-5" -> "KRTAP1-1" ["e"=1]
+"KRTAP1-5" -> "KRTAP1-4" ["e"=1]
+"KRTAP1-5" -> "KRTAP2-2" ["e"=1]
+"KRTAP11-1" -> "KRTAP26-1" ["e"=1]
+"KRTAP11-1" -> "KRTAP15-1" ["e"=1]
+"KRTAP11-1" -> "KRTAP12-1" ["e"=1]
+"KRTAP11-1" -> "KRTAP13-2" ["e"=1]
+"KRTAP12-1" -> "KRTAP12-3" ["e"=1]
+"KRTAP12-1" -> "KRTAP12-4" ["e"=1]
+"KRTAP12-1" -> "KRTAP2-3" ["e"=1]
+"KRTAP12-1" -> "KRTAP11-1" ["e"=1]
+"KRTAP12-2" -> "KRTAP12-1" ["e"=1]
+"KRTAP12-2" -> "KRTAP12-3" ["e"=1]
+"KRTAP12-2" -> "KRTAP12-4" ["e"=1]
+"KRTAP12-2" -> "KRTAP29-1" ["e"=1]
+"KRTAP12-3" -> "KRTAP12-1" ["e"=1]
+"KRTAP12-3" -> "KRTAP12-4" ["e"=1]
+"KRTAP12-3" -> "KRTAP2-3" ["e"=1]
+"KRTAP12-3" -> "KRTAP2-1" ["e"=1]
+"KRTAP12-4" -> "KRTAP12-3" ["e"=1]
+"KRTAP12-4" -> "KRTAP2-2" ["e"=1]
+"KRTAP12-4" -> "KRTAP12-1" ["e"=1]
+"KRTAP12-4" -> "KRTAP2-4" ["e"=1]
+"KRTAP13-1" -> "KRTAP13-2" ["e"=1]
+"KRTAP13-1" -> "KRTAP13-3" ["e"=1]
+"KRTAP13-1" -> "KRTAP15-1" ["e"=1]
+"KRTAP13-1" -> "KRTAP13-4" ["e"=1]
+"KRTAP13-2" -> "KRTAP13-3" ["e"=1]
+"KRTAP13-2" -> "KRTAP13-1" ["e"=1]
+"KRTAP13-2" -> "KRTAP13-4" ["e"=1]
+"KRTAP13-2" -> "KRTAP15-1" ["e"=1]
+"KRTAP13-3" -> "KRTAP13-2" ["e"=1]
+"KRTAP13-3" -> "KRTAP15-1" ["e"=1]
+"KRTAP13-3" -> "KRTAP13-1" ["e"=1]
+"KRTAP13-3" -> "KRTAP13-4" ["e"=1]
+"KRTAP13-4" -> "KRTAP13-2" ["e"=1]
+"KRTAP13-4" -> "KRTAP15-1" ["e"=1]
+"KRTAP13-4" -> "KRTAP13-1" ["e"=1]
+"KRTAP13-4" -> "KRTAP13-3" ["e"=1]
+"KRTAP15-1" -> "KRTAP13-3" ["e"=1]
+"KRTAP15-1" -> "KRTAP13-4" ["e"=1]
+"KRTAP15-1" -> "KRTAP13-2" ["e"=1]
+"KRTAP15-1" -> "KRTAP13-1" ["e"=1]
+"KRTAP16-1" -> "KRTAP29-1" ["e"=1]
+"KRTAP16-1" -> "KRTAP12-4" ["e"=1]
+"KRTAP16-1" -> "KRTAP12-2" ["e"=1]
+"KRTAP16-1" -> "KRTAP12-3" ["e"=1]
+"KRTAP2-1" -> "KRTAP2-2" ["e"=1]
+"KRTAP2-1" -> "KRTAP2-4" ["e"=1]
+"KRTAP2-1" -> "KRTAP2-3" ["e"=1]
+"KRTAP2-1" -> "KRTAP1-4" ["e"=1]
+"KRTAP2-2" -> "KRTAP2-1" ["e"=1]
+"KRTAP2-2" -> "KRTAP2-4" ["e"=1]
+"KRTAP2-2" -> "KRTAP2-3" ["e"=1]
+"KRTAP2-2" -> "KRTAP12-4" ["e"=1]
+"KRTAP2-3" -> "KRTAP2-2" ["e"=1]
+"KRTAP2-3" -> "KRTAP2-1" ["e"=1]
+"KRTAP2-3" -> "KRTAP2-4" ["e"=1]
+"KRTAP2-3" -> "KRTAP1-4" ["e"=1]
+"KRTAP2-4" -> "KRTAP2-2" ["e"=1]
+"KRTAP2-4" -> "KRTAP2-1" ["e"=1]
+"KRTAP2-4" -> "KRTAP2-3" ["e"=1]
+"KRTAP2-4" -> "KRTAP1-4" ["e"=1]
+"KRTAP24-1" -> "KRTAP26-1" ["e"=1]
+"KRTAP24-1" -> "KRTAP15-1" ["e"=1]
+"KRTAP24-1" -> "KRTAP13-3" ["e"=1]
+"KRTAP24-1" -> "KRTAP11-1" ["e"=1]
+"KRTAP26-1" -> "KRTAP24-1" ["e"=1]
+"KRTAP26-1" -> "KRTAP11-1" ["e"=1]
+"KRTAP26-1" -> "KRTAP15-1" ["e"=1]
+"KRTAP26-1" -> "KRTAP13-3" ["e"=1]
+"KRTAP29-1" -> "KRTAP16-1" ["e"=1]
+"KRTAP29-1" -> "KRTAP26-1" ["e"=1]
+"KRTAP29-1" -> "KRTAP11-1" ["e"=1]
+"KRTAP29-1" -> "KRTAP12-2" ["e"=1]
+"KRTAP3-1" -> "KRTAP3-2" ["e"=1]
+"KRTAP3-1" -> "KRTAP3-3" ["e"=1]
+"KRTAP3-1" -> "KRTAP12-1" ["e"=1]
+"KRTAP3-1" -> "KRTAP2-3" ["e"=1]
+"KRTAP3-2" -> "KRTAP3-3" ["e"=1]
+"KRTAP3-2" -> "KRTAP3-1" ["e"=1]
+"KRTAP3-2" -> "KRTAP12-1" ["e"=1]
+"KRTAP3-2" -> "KRTAP2-3" ["e"=1]
+"KRTAP3-3" -> "KRTAP3-2" ["e"=1]
+"KRTAP3-3" -> "KRTAP3-1" ["e"=1]
+"KRTAP3-3" -> "KRTAP12-1" ["e"=1]
+"KRTAP3-3" -> "KRTAP2-3" ["e"=1]
+"ODF1" -> "KRTAP3-1" ["e"=1]
+"ODF1" -> "KRTAP11-1" ["e"=1]
+"ODF1" -> "KRTAP3-2" ["e"=1]
+"ODF1" -> "KRTAP24-1" ["e"=1]
 }

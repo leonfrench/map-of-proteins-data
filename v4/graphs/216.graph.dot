@@ -152,616 +152,616 @@ digraph G {
 "XXYLT1" ["l"="13.997,0.120"]
 "XYLT1" ["l"="14.167,0.137"]
 "XYLT2" ["l"="14.088,0.150"]
-"A3GALT2" -> "FUT7"
-"A3GALT2" -> "B3GNT4"
-"A3GALT2" -> "B3GNT6"
-"A3GALT2" -> "GAL3ST2"
-"A4GALT" -> "FUT1"
-"A4GALT" -> "FUT3"
-"A4GALT" -> "B3GNT4"
-"A4GALT" -> "FUT6"
-"A4GNT" -> "B3GNT4"
-"A4GNT" -> "CHST4"
-"A4GNT" -> "FUT10"
-"A4GNT" -> "FUT5"
-"ABO" -> "GBGT1"
-"ABO" -> "A3GALT2"
-"ABO" -> "GLT6D1"
-"ABO" -> "B3GNT4"
-"ART1" -> "FUT5"
-"ART1" -> "ART4"
-"ART1" -> "FUT7"
-"ART1" -> "B3GNT4"
-"ART4" -> "ART1"
-"ART4" -> "CHST9"
-"ART4" -> "MGAT4D"
-"ART4" -> "FUT5"
-"B3GALNT1" -> "B3GNT4"
-"B3GALNT1" -> "B3GALT1"
-"B3GALNT1" -> "B3GALT2"
-"B3GALNT1" -> "MGAT4D"
-"B3GALT1" -> "B3GNT5"
-"B3GALT1" -> "GCNT4"
-"B3GALT1" -> "B3GALT2"
-"B3GALT1" -> "EXTL2"
-"B3GALT2" -> "B3GALT1"
-"B3GALT2" -> "EXTL2"
-"B3GALT2" -> "B3GALNT1"
-"B3GALT2" -> "B3GNT4"
-"B3GALT4" -> "B3GNT4"
-"B3GALT4" -> "B3GAT3"
-"B3GALT4" -> "B3GNT8"
-"B3GALT4" -> "GAL3ST4"
-"B3GALT6" -> "FJX1"
-"B3GALT6" -> "B3GNT9"
-"B3GALT6" -> "LFNG"
-"B3GALT6" -> "B3GNT6"
-"B3GAT1" -> "B3GAT2"
-"B3GAT1" -> "B4GALT5"
-"B3GAT1" -> "B3GNT4"
-"B3GAT1" -> "FUT1"
-"B3GAT2" -> "B4GALT7"
-"B3GAT2" -> "B3GAT1"
-"B3GAT2" -> "B3GNT4"
-"B3GAT2" -> "LFNG"
-"B3GAT3" -> "B4GALT7"
-"B3GAT3" -> "B3GALT4"
-"B3GAT3" -> "B3GNT4"
-"B3GAT3" -> "B3GNT9"
-"B3GNT2" -> "B3GNT7"
-"B3GNT2" -> "C1GALT1"
-"B3GNT2" -> "GCNT4"
-"B3GNT2" -> "EXTL2"
-"B3GNT3" -> "B3GNT4"
-"B3GNT3" -> "B3GNT6"
-"B3GNT3" -> "FUT6"
-"B3GNT3" -> "FUT3"
-"B3GNT4" -> "B3GNT3"
-"B3GNT4" -> "FUT5"
-"B3GNT4" -> "FUT1"
-"B3GNT4" -> "A4GNT"
-"B3GNT5" -> "B3GALT1"
-"B3GNT5" -> "GCNT4"
-"B3GNT5" -> "GCNT3"
-"B3GNT5" -> "EXTL2"
-"B3GNT6" -> "B3GNT9"
-"B3GNT6" -> "B3GNT3"
-"B3GNT6" -> "B3GNT4"
-"B3GNT6" -> "B3GNT7"
-"B3GNT7" -> "B4GALT1"
-"B3GNT7" -> "B3GNT2"
-"B3GNT7" -> "B3GNT6"
-"B3GNT7" -> "B3GNT3"
-"B3GNT8" -> "B3GNT4"
-"B3GNT8" -> "B3GNT6"
-"B3GNT8" -> "B3GNT3"
-"B3GNT8" -> "B3GNT9"
-"B3GNT9" -> "B3GNT6"
-"B3GNT9" -> "B3GNT4"
-"B3GNT9" -> "CHST14"
-"B3GNT9" -> "FJX1"
-"B4GALT1" -> "B3GNT7"
-"B4GALT1" -> "B4GALT5"
-"B4GALT1" -> "MGAT1"
-"B4GALT1" -> "HS3ST3B1"
-"B4GALT2" -> "B3GNT4"
-"B4GALT2" -> "B4GALT7"
-"B4GALT2" -> "B4GALT1"
-"B4GALT2" -> "LFNG"
-"B4GALT3" -> "B4GALT7"
-"B4GALT3" -> "B4GALT2"
-"B4GALT3" -> "B3GNT4"
-"B4GALT3" -> "B3GAT3"
-"B4GALT4" -> "B3GNT3"
-"B4GALT4" -> "GALNTL5"
-"B4GALT4" -> "CSGALNACT1"
-"B4GALT4" -> "CSGALNACT2"
-"B4GALT5" -> "B4GALT6"
-"B4GALT5" -> "B4GALT1"
-"B4GALT5" -> "GALNT2"
-"B4GALT5" -> "B3GAT1"
-"B4GALT6" -> "B4GALT5"
-"B4GALT6" -> "B4GALT2"
-"B4GALT6" -> "B4GALT1"
-"B4GALT6" -> "CSGALNACT2"
-"B4GALT7" -> "B3GAT3"
-"B4GALT7" -> "B3GNT4"
-"B4GALT7" -> "B4GALT2"
-"B4GALT7" -> "B4GALT3"
-"B4GAT1" -> "CHST2"
-"B4GAT1" -> "CHST4"
-"B4GAT1" -> "MGAT2"
-"B4GAT1" -> "FUT10"
-"C1GALT1" -> "B3GNT2"
-"C1GALT1" -> "HS2ST1"
-"C1GALT1" -> "GCNT4"
-"C1GALT1" -> "CSGALNACT2"
-"C1GALT1C1L" -> "GCNT7"
-"C1GALT1C1L" -> "CHST4"
-"C1GALT1C1L" -> "B3GNT5"
-"C1GALT1C1L" -> "B3GALT1"
-"C6orf89" -> "POFUT1"
-"C6orf89" -> "FAM20B"
-"C6orf89" -> "EXT2"
-"C6orf89" -> "POFUT2"
-"CANT1" -> "FUT1"
-"CANT1" -> "FAM20B"
-"CANT1" -> "FUT2"
-"CANT1" -> "POFUT2"
-"CERCAM" -> "COLGALT2"
-"CERCAM" -> "PLOD3"
-"CERCAM" -> "COLGALT1"
-"CERCAM" -> "POFUT2"
-"CHPF" -> "CHPF2"
-"CHPF" -> "B3GNT9"
-"CHPF" -> "B3GNT6"
-"CHPF" -> "GAL3ST3"
-"CHPF2" -> "CHPF"
-"CHPF2" -> "B3GNT9"
-"CHPF2" -> "B3GNT4"
-"CHPF2" -> "B3GNT6"
-"CHST1" -> "CHST5"
-"CHST1" -> "CHST6"
-"CHST1" -> "GAL3ST3"
-"CHST1" -> "CHST3"
-"CHST10" -> "CHST14"
-"CHST10" -> "HS2ST1"
-"CHST10" -> "HS3ST3B1"
-"CHST10" -> "GLT8D2"
-"CHST11" -> "CHST10"
-"CHST11" -> "TPST2"
-"CHST11" -> "HS3ST3A1"
-"CHST11" -> "HS3ST3B1"
-"CHST13" -> "GAL3ST3"
-"CHST13" -> "B3GNT6"
-"CHST13" -> "B3GNT9"
-"CHST13" -> "CHST14"
-"CHST14" -> "B3GNT9"
-"CHST14" -> "CHST10"
-"CHST14" -> "B3GNT4"
-"CHST14" -> "GAL3ST3"
-"CHST15" -> "CHST9"
-"CHST15" -> "FUT10"
-"CHST15" -> "LARGE1"
-"CHST15" -> "CHST3"
-"CHST2" -> "HS3ST3A1"
-"CHST2" -> "B3GNT9"
-"CHST2" -> "HS3ST3B1"
-"CHST2" -> "CHST3"
-"CHST3" -> "CHST6"
-"CHST3" -> "DIPK1C"
-"CHST3" -> "HS3ST3B1"
-"CHST3" -> "CHST1"
-"CHST4" -> "A4GNT"
-"CHST4" -> "FUT2"
-"CHST4" -> "FUT10"
-"CHST4" -> "CHST6"
-"CHST5" -> "CHST6"
-"CHST5" -> "CHST1"
-"CHST5" -> "GAL3ST3"
-"CHST5" -> "B3GNT4"
-"CHST6" -> "CHST5"
-"CHST6" -> "CHST3"
-"CHST6" -> "GAL3ST3"
-"CHST6" -> "CHST1"
-"CHST8" -> "CHST10"
-"CHST8" -> "CHST11"
-"CHST8" -> "HS3ST3B1"
-"CHST8" -> "HS3ST2"
-"CHST9" -> "HS2ST1"
-"CHST9" -> "FUT10"
-"CHST9" -> "CHST15"
-"CHST9" -> "HS3ST3A1"
-"CHSY1" -> "CSGALNACT1"
-"CHSY1" -> "CHSY3"
-"CHSY1" -> "GXYLT1"
-"CHSY1" -> "HS6ST1"
-"CHSY3" -> "CHSY1"
-"CHSY3" -> "CSGALNACT1"
-"CHSY3" -> "CSGALNACT2"
-"CHSY3" -> "HS6ST3"
-"COLGALT1" -> "POFUT1"
-"COLGALT1" -> "COLGALT2"
-"COLGALT1" -> "PLOD3"
-"COLGALT1" -> "MGAT4B"
-"COLGALT2" -> "POFUT2"
-"COLGALT2" -> "POFUT1"
-"COLGALT2" -> "FUT10"
-"COLGALT2" -> "FUT11"
-"CSGALNACT1" -> "CSGALNACT2"
-"CSGALNACT1" -> "CHSY1"
-"CSGALNACT1" -> "CHSY3"
-"CSGALNACT1" -> "MGAT4A"
-"CSGALNACT2" -> "CSGALNACT1"
-"CSGALNACT2" -> "MGAT4A"
-"CSGALNACT2" -> "B3GNT2"
-"CSGALNACT2" -> "FUT11"
-"DIPK1A" -> "DIPK1B"
-"DIPK1A" -> "DIPK2A"
-"DIPK1A" -> "HS2ST1"
-"DIPK1A" -> "DIPK1C"
-"DIPK1B" -> "DIPK1C"
-"DIPK1B" -> "DIPK1A"
-"DIPK1B" -> "FJX1"
-"DIPK1B" -> "B3GNT6"
-"DIPK1C" -> "DIPK2A"
-"DIPK1C" -> "CHST3"
-"DIPK1C" -> "LFNG"
-"DIPK1C" -> "DIPK1B"
-"DIPK2A" -> "DIPK1C"
-"DIPK2A" -> "DIPK1A"
-"DIPK2A" -> "HS2ST1"
-"DIPK2A" -> "FUT11"
-"EOGT" -> "POGLUT1"
-"EOGT" -> "FUT10"
-"EOGT" -> "POFUT2"
-"EOGT" -> "GCNT4"
-"EXT1" -> "LARGE1"
-"EXT1" -> "POFUT1"
-"EXT1" -> "EXT2"
-"EXT1" -> "GCNT2"
-"EXT2" -> "POGLUT1"
-"EXT2" -> "EXT1"
-"EXT2" -> "POFUT2"
-"EXT2" -> "MGAT5"
-"EXTL1" -> "B3GNT4"
-"EXTL1" -> "POFUT1"
-"EXTL1" -> "POFUT2"
-"EXTL1" -> "FUT5"
-"EXTL2" -> "B3GNT2"
-"EXTL2" -> "GCNT4"
-"EXTL2" -> "GLT8D2"
-"EXTL2" -> "HS2ST1"
-"EXTL3" -> "EXT2"
-"EXTL3" -> "MGAT3"
-"EXTL3" -> "EXT1"
-"EXTL3" -> "LARGE1"
-"FAM20A" -> "FAM20C"
-"FAM20A" -> "CSGALNACT1"
-"FAM20A" -> "POFUT1"
-"FAM20A" -> "GASK1A"
-"FAM20B" -> "NXPE3"
-"FAM20B" -> "MGAT5"
-"FAM20B" -> "POFUT1"
-"FAM20B" -> "GASK1B"
-"FAM20C" -> "FAM20A"
-"FAM20C" -> "CSGALNACT1"
-"FAM20C" -> "CSGALNACT2"
-"FAM20C" -> "LFNG"
-"FJX1" -> "B3GALT6"
-"FJX1" -> "B3GNT9"
-"FJX1" -> "LFNG"
-"FJX1" -> "B3GNT6"
-"FKRP" -> "MGAT3"
-"FKRP" -> "GAL3ST3"
-"FKRP" -> "EXTL3"
-"FKRP" -> "B3GNT4"
-"FUT1" -> "B3GNT4"
-"FUT1" -> "FUT2"
-"FUT1" -> "FUT5"
-"FUT1" -> "A4GALT"
-"FUT10" -> "FUT5"
-"FUT10" -> "POFUT1"
-"FUT10" -> "POFUT2"
-"FUT10" -> "CHST9"
-"FUT11" -> "POFUT2"
-"FUT11" -> "LFNG"
-"FUT11" -> "B3GNT4"
-"FUT11" -> "POFUT1"
-"FUT2" -> "FUT1"
-"FUT2" -> "GCNT3"
-"FUT2" -> "CHST4"
-"FUT2" -> "POFUT1"
-"FUT3" -> "FUT6"
-"FUT3" -> "FUT5"
-"FUT3" -> "A4GALT"
-"FUT3" -> "B3GNT3"
-"FUT5" -> "FUT6"
-"FUT5" -> "FUT3"
-"FUT5" -> "B3GNT4"
-"FUT5" -> "FUT10"
-"FUT6" -> "FUT3"
-"FUT6" -> "FUT5"
-"FUT6" -> "B3GNT4"
-"FUT6" -> "B3GNT3"
-"FUT7" -> "FUT5"
-"FUT7" -> "FUT6"
-"FUT7" -> "B3GNT4"
-"FUT7" -> "FUT3"
-"FUT8" -> "POFUT2"
-"FUT8" -> "MGAT5"
-"FUT8" -> "EXT1"
-"FUT8" -> "EXT2"
-"GAL3ST1" -> "GAL3ST2"
-"GAL3ST1" -> "GAL3ST3"
-"GAL3ST1" -> "HS6ST1"
-"GAL3ST1" -> "CHST10"
-"GAL3ST2" -> "GAL3ST1"
-"GAL3ST2" -> "GAL3ST3"
-"GAL3ST2" -> "CHST5"
-"GAL3ST2" -> "CHST3"
-"GAL3ST3" -> "CHST6"
-"GAL3ST3" -> "CHST5"
-"GAL3ST3" -> "CHST1"
-"GAL3ST3" -> "GAL3ST2"
-"GAL3ST4" -> "B3GNT4"
-"GAL3ST4" -> "FUT1"
-"GAL3ST4" -> "B3GALT4"
-"GAL3ST4" -> "FUT5"
-"GALNT15" -> "MGAT5B"
-"GALNT15" -> "FUT10"
-"GALNT15" -> "ST6GAL2"
-"GALNT15" -> "POFUT1"
-"GALNT2" -> "B4GALT5"
-"GALNT2" -> "MGAT5"
-"GALNT2" -> "XYLT1"
-"GALNT2" -> "CSGALNACT1"
-"GALNT5" -> "CHST9"
-"GALNT5" -> "ST6GALNAC1"
-"GALNT5" -> "GASK1B"
-"GALNT5" -> "GALNT15"
-"GALNTL5" -> "B3GNT4"
-"GALNTL5" -> "B3GALT1"
-"GALNTL5" -> "MGAT4D"
-"GALNTL5" -> "EXTL2"
-"GASK1A" -> "GASK1B"
-"GASK1A" -> "FAM20A"
-"GASK1A" -> "DIPK1C"
-"GASK1A" -> "POFUT1"
-"GASK1B" -> "GASK1A"
-"GASK1B" -> "FAM20B"
-"GASK1B" -> "HS3ST3B1"
-"GASK1B" -> "HS3ST3A1"
-"GBGT1" -> "ABO"
-"GBGT1" -> "A3GALT2"
-"GBGT1" -> "GLT6D1"
-"GBGT1" -> "FUT5"
-"GCNT1" -> "GCNT4"
-"GCNT1" -> "GCNT3"
-"GCNT1" -> "B3GNT2"
-"GCNT1" -> "GCNT2"
-"GCNT2" -> "GCNT3"
-"GCNT2" -> "EXT1"
-"GCNT2" -> "FUT10"
-"GCNT2" -> "FUT2"
-"GCNT3" -> "FUT2"
-"GCNT3" -> "GCNT2"
-"GCNT3" -> "GCNT4"
-"GCNT3" -> "GCNT1"
-"GCNT4" -> "GCNT1"
-"GCNT4" -> "B3GNT2"
-"GCNT4" -> "GCNT3"
-"GCNT4" -> "EXTL2"
-"GCNT7" -> "POFUT2"
-"GCNT7" -> "B3GNT4"
-"GCNT7" -> "FUT10"
-"GCNT7" -> "POGLUT2"
-"GLT6D1" -> "B3GNT4"
-"GLT6D1" -> "GCNT7"
-"GLT6D1" -> "POFUT2"
-"GLT6D1" -> "GALNTL5"
-"GLT8D1" -> "GLT8D2"
-"GLT8D1" -> "EXTL2"
-"GLT8D1" -> "A4GNT"
-"GLT8D1" -> "B3GNT4"
-"GLT8D2" -> "CHST10"
-"GLT8D2" -> "GLT8D1"
-"GLT8D2" -> "FUT10"
-"GLT8D2" -> "EXTL2"
-"GXYLT1" -> "XXYLT1"
-"GXYLT1" -> "MGAT4A"
-"GXYLT1" -> "RXYLT1"
-"GXYLT1" -> "POGLUT1"
-"GXYLT2" -> "XXYLT1"
-"GXYLT2" -> "GXYLT1"
-"GXYLT2" -> "POFUT1"
-"GXYLT2" -> "COLGALT2"
-"HS2ST1" -> "CHST9"
-"HS2ST1" -> "HS3ST3B1"
-"HS2ST1" -> "HS3ST1"
-"HS2ST1" -> "CHST10"
-"HS3ST1" -> "HS3ST3B1"
-"HS3ST1" -> "HS3ST3A1"
-"HS3ST1" -> "HS2ST1"
-"HS3ST1" -> "HS3ST2"
-"HS3ST2" -> "HS3ST3B1"
-"HS3ST2" -> "HS3ST3A1"
-"HS3ST2" -> "HS3ST4"
-"HS3ST2" -> "HS3ST1"
-"HS3ST3A1" -> "HS3ST3B1"
-"HS3ST3A1" -> "HS3ST1"
-"HS3ST3A1" -> "HS3ST4"
-"HS3ST3A1" -> "HS3ST2"
-"HS3ST3B1" -> "HS3ST3A1"
-"HS3ST3B1" -> "HS3ST1"
-"HS3ST3B1" -> "HS3ST2"
-"HS3ST3B1" -> "HS2ST1"
-"HS3ST4" -> "HS3ST3A1"
-"HS3ST4" -> "HS3ST2"
-"HS3ST4" -> "HS3ST3B1"
-"HS3ST4" -> "CHST2"
-"HS3ST5" -> "HS3ST1"
-"HS3ST5" -> "HS2ST1"
-"HS3ST5" -> "CHST9"
-"HS3ST5" -> "HS3ST3A1"
-"HS3ST6" -> "CHST13"
-"HS3ST6" -> "FJX1"
-"HS3ST6" -> "HS3ST3A1"
-"HS3ST6" -> "B3GNT4"
-"HS6ST1" -> "MGAT5B"
-"HS6ST1" -> "CHST1"
-"HS6ST1" -> "HS3ST3B1"
-"HS6ST1" -> "TPST2"
-"HS6ST3" -> "CSGALNACT1"
-"HS6ST3" -> "HS3ST3A1"
-"HS6ST3" -> "CSGALNACT2"
-"HS6ST3" -> "HS6ST1"
-"HYAL2" -> "GAL3ST3"
-"HYAL2" -> "LARGE2"
-"HYAL2" -> "FUT7"
-"HYAL2" -> "CHST5"
-"IL4I1" -> "CHST5"
-"IL4I1" -> "LACTBL1"
-"IL4I1" -> "GAL3ST2"
-"IL4I1" -> "FUT7"
-"LACTBL1" -> "IL4I1"
-"LACTBL1" -> "LARGE2"
-"LACTBL1" -> "XYLT2"
-"LACTBL1" -> "LARGE1"
-"LARGE1" -> "EXT1"
-"LARGE1" -> "CHST15"
-"LARGE1" -> "XYLT1"
-"LARGE1" -> "EXTL3"
-"LARGE2" -> "B3GNT4"
-"LARGE2" -> "COLGALT1"
-"LARGE2" -> "GAL3ST3"
-"LARGE2" -> "FUT11"
-"LFNG" -> "RFNG"
-"LFNG" -> "MGAT4B"
-"LFNG" -> "B3GNT9"
-"LFNG" -> "FUT11"
-"MANEAL" -> "B3GNT4"
-"MANEAL" -> "LFNG"
-"MANEAL" -> "FUT11"
-"MANEAL" -> "GXYLT2"
-"METTL24" -> "HS3ST3A1"
-"METTL24" -> "POGLUT1"
-"METTL24" -> "UST"
-"METTL24" -> "RXYLT1"
-"MFNG" -> "B3GNT4"
-"MFNG" -> "RFNG"
-"MFNG" -> "LFNG"
-"MFNG" -> "B3GNT3"
-"MGAT1" -> "B4GALT1"
-"MGAT1" -> "MGAT2"
-"MGAT1" -> "B3GNT7"
-"MGAT1" -> "COLGALT1"
-"MGAT2" -> "MGAT1"
-"MGAT2" -> "B3GNT2"
-"MGAT2" -> "EXTL2"
-"MGAT2" -> "CSGALNACT2"
-"MGAT3" -> "EXTL3"
-"MGAT3" -> "FKRP"
-"MGAT3" -> "B4GALT2"
-"MGAT3" -> "B3GNT7"
-"MGAT4A" -> "GXYLT1"
-"MGAT4A" -> "MGAT4D"
-"MGAT4A" -> "MGAT4B"
-"MGAT4A" -> "CSGALNACT1"
-"MGAT4B" -> "LFNG"
-"MGAT4B" -> "MGAT4A"
-"MGAT4B" -> "COLGALT1"
-"MGAT4B" -> "MGAT5B"
-"MGAT4D" -> "NXPE2"
-"MGAT4D" -> "MGAT4A"
-"MGAT4D" -> "B3GNT4"
-"MGAT4D" -> "B3GALT1"
-"MGAT5" -> "MGAT5B"
-"MGAT5" -> "NXPE3"
-"MGAT5" -> "FUT10"
-"MGAT5" -> "EXT2"
-"MGAT5B" -> "MGAT5"
-"MGAT5B" -> "NDST1"
-"MGAT5B" -> "HS6ST1"
-"MGAT5B" -> "POFUT1"
-"NDST1" -> "MGAT5B"
-"NDST1" -> "MGAT5"
-"NDST1" -> "POFUT1"
-"NDST1" -> "XYLT2"
-"NXPE2" -> "NXPE3"
-"NXPE2" -> "MGAT4D"
-"NXPE2" -> "ST6GALNAC1"
-"NXPE2" -> "MGAT5"
-"NXPE3" -> "NXPE2"
-"NXPE3" -> "MGAT5"
-"NXPE3" -> "FAM20B"
-"NXPE3" -> "EOGT"
-"PLOD1" -> "PLOD3"
-"PLOD1" -> "PLOD2"
-"PLOD1" -> "NDST1"
-"PLOD1" -> "COLGALT1"
-"PLOD2" -> "PLOD3"
-"PLOD2" -> "PLOD1"
-"PLOD2" -> "COLGALT2"
-"PLOD2" -> "HS2ST1"
-"PLOD3" -> "PLOD1"
-"PLOD3" -> "PLOD2"
-"PLOD3" -> "COLGALT1"
-"PLOD3" -> "CERCAM"
-"POFUT1" -> "POFUT2"
-"POFUT1" -> "POGLUT1"
-"POFUT1" -> "FUT10"
-"POFUT1" -> "FUT5"
-"POFUT2" -> "POFUT1"
-"POFUT2" -> "POGLUT1"
-"POFUT2" -> "FUT10"
-"POFUT2" -> "B3GNT4"
-"POGLUT1" -> "POFUT1"
-"POGLUT1" -> "POFUT2"
-"POGLUT1" -> "EXT2"
-"POGLUT1" -> "RXYLT1"
-"POGLUT2" -> "FUT10"
-"POGLUT2" -> "GCNT7"
-"POGLUT2" -> "POFUT2"
-"POGLUT2" -> "POGLUT1"
-"POMGNT1" -> "EXT2"
-"POMGNT1" -> "POFUT2"
-"POMGNT1" -> "MGAT5B"
-"POMGNT1" -> "PLOD3"
-"POMGNT2" -> "FUT10"
-"POMGNT2" -> "CHST1"
-"POMGNT2" -> "POFUT2"
-"POMGNT2" -> "FUT5"
-"POMK" -> "DIPK1C"
-"POMK" -> "FUT10"
-"POMK" -> "CHST4"
-"POMK" -> "B4GALT5"
-"PXYLP1" -> "CHST3"
-"PXYLP1" -> "FUT10"
-"PXYLP1" -> "CHST1"
-"PXYLP1" -> "CHST10"
-"RFNG" -> "LFNG"
-"RFNG" -> "MFNG"
-"RFNG" -> "B3GNT4"
-"RFNG" -> "B3GAT3"
-"RXYLT1" -> "POGLUT1"
-"RXYLT1" -> "GXYLT1"
-"RXYLT1" -> "POFUT2"
-"RXYLT1" -> "CSGALNACT1"
-"ST6GAL2" -> "EXT1"
-"ST6GAL2" -> "POFUT1"
-"ST6GAL2" -> "B3GNT4"
-"ST6GAL2" -> "CSGALNACT2"
-"ST6GALNAC1" -> "NXPE2"
-"ST6GALNAC1" -> "GALNT5"
-"ST6GALNAC1" -> "GASK1A"
-"ST6GALNAC1" -> "B3GNT6"
-"TPST1" -> "CHST4"
-"TPST1" -> "TPST2"
-"TPST1" -> "FUT8"
-"TPST1" -> "EXT1"
-"TPST2" -> "HS3ST3B1"
-"TPST2" -> "HS6ST1"
-"TPST2" -> "CHST11"
-"TPST2" -> "POFUT1"
-"UST" -> "HS2ST1"
-"UST" -> "CHST9"
-"UST" -> "HS3ST3B1"
-"UST" -> "HS3ST3A1"
-"WSCD2" -> "MGAT5B"
-"WSCD2" -> "HS3ST3A1"
-"WSCD2" -> "CHST15"
-"WSCD2" -> "HS3ST3B1"
-"XXYLT1" -> "GXYLT1"
-"XXYLT1" -> "HS3ST3A1"
-"XXYLT1" -> "GXYLT2"
-"XXYLT1" -> "FUT10"
-"XYLT1" -> "EXT1"
-"XYLT1" -> "LARGE1"
-"XYLT1" -> "CSGALNACT1"
-"XYLT1" -> "XYLT2"
-"XYLT2" -> "NDST1"
-"XYLT2" -> "XYLT1"
-"XYLT2" -> "B3GNT6"
-"XYLT2" -> "MGAT5B"
+"A3GALT2" -> "FUT7" ["e"=1]
+"A3GALT2" -> "B3GNT4" ["e"=1]
+"A3GALT2" -> "B3GNT6" ["e"=1]
+"A3GALT2" -> "GAL3ST2" ["e"=1]
+"A4GALT" -> "FUT1" ["e"=1]
+"A4GALT" -> "FUT3" ["e"=1]
+"A4GALT" -> "B3GNT4" ["e"=1]
+"A4GALT" -> "FUT6" ["e"=1]
+"A4GNT" -> "B3GNT4" ["e"=1]
+"A4GNT" -> "CHST4" ["e"=1]
+"A4GNT" -> "FUT10" ["e"=1]
+"A4GNT" -> "FUT5" ["e"=1]
+"ABO" -> "GBGT1" ["e"=1]
+"ABO" -> "A3GALT2" ["e"=1]
+"ABO" -> "GLT6D1" ["e"=1]
+"ABO" -> "B3GNT4" ["e"=1]
+"ART1" -> "FUT5" ["e"=1]
+"ART1" -> "ART4" ["e"=1]
+"ART1" -> "FUT7" ["e"=1]
+"ART1" -> "B3GNT4" ["e"=1]
+"ART4" -> "ART1" ["e"=1]
+"ART4" -> "CHST9" ["e"=1]
+"ART4" -> "MGAT4D" ["e"=1]
+"ART4" -> "FUT5" ["e"=1]
+"B3GALNT1" -> "B3GNT4" ["e"=1]
+"B3GALNT1" -> "B3GALT1" ["e"=1]
+"B3GALNT1" -> "B3GALT2" ["e"=1]
+"B3GALNT1" -> "MGAT4D" ["e"=1]
+"B3GALT1" -> "B3GNT5" ["e"=1]
+"B3GALT1" -> "GCNT4" ["e"=1]
+"B3GALT1" -> "B3GALT2" ["e"=1]
+"B3GALT1" -> "EXTL2" ["e"=1]
+"B3GALT2" -> "B3GALT1" ["e"=1]
+"B3GALT2" -> "EXTL2" ["e"=1]
+"B3GALT2" -> "B3GALNT1" ["e"=1]
+"B3GALT2" -> "B3GNT4" ["e"=1]
+"B3GALT4" -> "B3GNT4" ["e"=1]
+"B3GALT4" -> "B3GAT3" ["e"=1]
+"B3GALT4" -> "B3GNT8" ["e"=1]
+"B3GALT4" -> "GAL3ST4" ["e"=1]
+"B3GALT6" -> "FJX1" ["e"=1]
+"B3GALT6" -> "B3GNT9" ["e"=1]
+"B3GALT6" -> "LFNG" ["e"=1]
+"B3GALT6" -> "B3GNT6" ["e"=1]
+"B3GAT1" -> "B3GAT2" ["e"=1]
+"B3GAT1" -> "B4GALT5" ["e"=1]
+"B3GAT1" -> "B3GNT4" ["e"=1]
+"B3GAT1" -> "FUT1" ["e"=1]
+"B3GAT2" -> "B4GALT7" ["e"=1]
+"B3GAT2" -> "B3GAT1" ["e"=1]
+"B3GAT2" -> "B3GNT4" ["e"=1]
+"B3GAT2" -> "LFNG" ["e"=1]
+"B3GAT3" -> "B4GALT7" ["e"=1]
+"B3GAT3" -> "B3GALT4" ["e"=1]
+"B3GAT3" -> "B3GNT4" ["e"=1]
+"B3GAT3" -> "B3GNT9" ["e"=1]
+"B3GNT2" -> "B3GNT7" ["e"=1]
+"B3GNT2" -> "C1GALT1" ["e"=1]
+"B3GNT2" -> "GCNT4" ["e"=1]
+"B3GNT2" -> "EXTL2" ["e"=1]
+"B3GNT3" -> "B3GNT4" ["e"=1]
+"B3GNT3" -> "B3GNT6" ["e"=1]
+"B3GNT3" -> "FUT6" ["e"=1]
+"B3GNT3" -> "FUT3" ["e"=1]
+"B3GNT4" -> "B3GNT3" ["e"=1]
+"B3GNT4" -> "FUT5" ["e"=1]
+"B3GNT4" -> "FUT1" ["e"=1]
+"B3GNT4" -> "A4GNT" ["e"=1]
+"B3GNT5" -> "B3GALT1" ["e"=1]
+"B3GNT5" -> "GCNT4" ["e"=1]
+"B3GNT5" -> "GCNT3" ["e"=1]
+"B3GNT5" -> "EXTL2" ["e"=1]
+"B3GNT6" -> "B3GNT9" ["e"=1]
+"B3GNT6" -> "B3GNT3" ["e"=1]
+"B3GNT6" -> "B3GNT4" ["e"=1]
+"B3GNT6" -> "B3GNT7" ["e"=1]
+"B3GNT7" -> "B4GALT1" ["e"=1]
+"B3GNT7" -> "B3GNT2" ["e"=1]
+"B3GNT7" -> "B3GNT6" ["e"=1]
+"B3GNT7" -> "B3GNT3" ["e"=1]
+"B3GNT8" -> "B3GNT4" ["e"=1]
+"B3GNT8" -> "B3GNT6" ["e"=1]
+"B3GNT8" -> "B3GNT3" ["e"=1]
+"B3GNT8" -> "B3GNT9" ["e"=1]
+"B3GNT9" -> "B3GNT6" ["e"=1]
+"B3GNT9" -> "B3GNT4" ["e"=1]
+"B3GNT9" -> "CHST14" ["e"=1]
+"B3GNT9" -> "FJX1" ["e"=1]
+"B4GALT1" -> "B3GNT7" ["e"=1]
+"B4GALT1" -> "B4GALT5" ["e"=1]
+"B4GALT1" -> "MGAT1" ["e"=1]
+"B4GALT1" -> "HS3ST3B1" ["e"=1]
+"B4GALT2" -> "B3GNT4" ["e"=1]
+"B4GALT2" -> "B4GALT7" ["e"=1]
+"B4GALT2" -> "B4GALT1" ["e"=1]
+"B4GALT2" -> "LFNG" ["e"=1]
+"B4GALT3" -> "B4GALT7" ["e"=1]
+"B4GALT3" -> "B4GALT2" ["e"=1]
+"B4GALT3" -> "B3GNT4" ["e"=1]
+"B4GALT3" -> "B3GAT3" ["e"=1]
+"B4GALT4" -> "B3GNT3" ["e"=1]
+"B4GALT4" -> "GALNTL5" ["e"=1]
+"B4GALT4" -> "CSGALNACT1" ["e"=1]
+"B4GALT4" -> "CSGALNACT2" ["e"=1]
+"B4GALT5" -> "B4GALT6" ["e"=1]
+"B4GALT5" -> "B4GALT1" ["e"=1]
+"B4GALT5" -> "GALNT2" ["e"=1]
+"B4GALT5" -> "B3GAT1" ["e"=1]
+"B4GALT6" -> "B4GALT5" ["e"=1]
+"B4GALT6" -> "B4GALT2" ["e"=1]
+"B4GALT6" -> "B4GALT1" ["e"=1]
+"B4GALT6" -> "CSGALNACT2" ["e"=1]
+"B4GALT7" -> "B3GAT3" ["e"=1]
+"B4GALT7" -> "B3GNT4" ["e"=1]
+"B4GALT7" -> "B4GALT2" ["e"=1]
+"B4GALT7" -> "B4GALT3" ["e"=1]
+"B4GAT1" -> "CHST2" ["e"=1]
+"B4GAT1" -> "CHST4" ["e"=1]
+"B4GAT1" -> "MGAT2" ["e"=1]
+"B4GAT1" -> "FUT10" ["e"=1]
+"C1GALT1" -> "B3GNT2" ["e"=1]
+"C1GALT1" -> "HS2ST1" ["e"=1]
+"C1GALT1" -> "GCNT4" ["e"=1]
+"C1GALT1" -> "CSGALNACT2" ["e"=1]
+"C1GALT1C1L" -> "GCNT7" ["e"=1]
+"C1GALT1C1L" -> "CHST4" ["e"=1]
+"C1GALT1C1L" -> "B3GNT5" ["e"=1]
+"C1GALT1C1L" -> "B3GALT1" ["e"=1]
+"C6orf89" -> "POFUT1" ["e"=1]
+"C6orf89" -> "FAM20B" ["e"=1]
+"C6orf89" -> "EXT2" ["e"=1]
+"C6orf89" -> "POFUT2" ["e"=1]
+"CANT1" -> "FUT1" ["e"=1]
+"CANT1" -> "FAM20B" ["e"=1]
+"CANT1" -> "FUT2" ["e"=1]
+"CANT1" -> "POFUT2" ["e"=1]
+"CERCAM" -> "COLGALT2" ["e"=1]
+"CERCAM" -> "PLOD3" ["e"=1]
+"CERCAM" -> "COLGALT1" ["e"=1]
+"CERCAM" -> "POFUT2" ["e"=1]
+"CHPF" -> "CHPF2" ["e"=1]
+"CHPF" -> "B3GNT9" ["e"=1]
+"CHPF" -> "B3GNT6" ["e"=1]
+"CHPF" -> "GAL3ST3" ["e"=1]
+"CHPF2" -> "CHPF" ["e"=1]
+"CHPF2" -> "B3GNT9" ["e"=1]
+"CHPF2" -> "B3GNT4" ["e"=1]
+"CHPF2" -> "B3GNT6" ["e"=1]
+"CHST1" -> "CHST5" ["e"=1]
+"CHST1" -> "CHST6" ["e"=1]
+"CHST1" -> "GAL3ST3" ["e"=1]
+"CHST1" -> "CHST3" ["e"=1]
+"CHST10" -> "CHST14" ["e"=1]
+"CHST10" -> "HS2ST1" ["e"=1]
+"CHST10" -> "HS3ST3B1" ["e"=1]
+"CHST10" -> "GLT8D2" ["e"=1]
+"CHST11" -> "CHST10" ["e"=1]
+"CHST11" -> "TPST2" ["e"=1]
+"CHST11" -> "HS3ST3A1" ["e"=1]
+"CHST11" -> "HS3ST3B1" ["e"=1]
+"CHST13" -> "GAL3ST3" ["e"=1]
+"CHST13" -> "B3GNT6" ["e"=1]
+"CHST13" -> "B3GNT9" ["e"=1]
+"CHST13" -> "CHST14" ["e"=1]
+"CHST14" -> "B3GNT9" ["e"=1]
+"CHST14" -> "CHST10" ["e"=1]
+"CHST14" -> "B3GNT4" ["e"=1]
+"CHST14" -> "GAL3ST3" ["e"=1]
+"CHST15" -> "CHST9" ["e"=1]
+"CHST15" -> "FUT10" ["e"=1]
+"CHST15" -> "LARGE1" ["e"=1]
+"CHST15" -> "CHST3" ["e"=1]
+"CHST2" -> "HS3ST3A1" ["e"=1]
+"CHST2" -> "B3GNT9" ["e"=1]
+"CHST2" -> "HS3ST3B1" ["e"=1]
+"CHST2" -> "CHST3" ["e"=1]
+"CHST3" -> "CHST6" ["e"=1]
+"CHST3" -> "DIPK1C" ["e"=1]
+"CHST3" -> "HS3ST3B1" ["e"=1]
+"CHST3" -> "CHST1" ["e"=1]
+"CHST4" -> "A4GNT" ["e"=1]
+"CHST4" -> "FUT2" ["e"=1]
+"CHST4" -> "FUT10" ["e"=1]
+"CHST4" -> "CHST6" ["e"=1]
+"CHST5" -> "CHST6" ["e"=1]
+"CHST5" -> "CHST1" ["e"=1]
+"CHST5" -> "GAL3ST3" ["e"=1]
+"CHST5" -> "B3GNT4" ["e"=1]
+"CHST6" -> "CHST5" ["e"=1]
+"CHST6" -> "CHST3" ["e"=1]
+"CHST6" -> "GAL3ST3" ["e"=1]
+"CHST6" -> "CHST1" ["e"=1]
+"CHST8" -> "CHST10" ["e"=1]
+"CHST8" -> "CHST11" ["e"=1]
+"CHST8" -> "HS3ST3B1" ["e"=1]
+"CHST8" -> "HS3ST2" ["e"=1]
+"CHST9" -> "HS2ST1" ["e"=1]
+"CHST9" -> "FUT10" ["e"=1]
+"CHST9" -> "CHST15" ["e"=1]
+"CHST9" -> "HS3ST3A1" ["e"=1]
+"CHSY1" -> "CSGALNACT1" ["e"=1]
+"CHSY1" -> "CHSY3" ["e"=1]
+"CHSY1" -> "GXYLT1" ["e"=1]
+"CHSY1" -> "HS6ST1" ["e"=1]
+"CHSY3" -> "CHSY1" ["e"=1]
+"CHSY3" -> "CSGALNACT1" ["e"=1]
+"CHSY3" -> "CSGALNACT2" ["e"=1]
+"CHSY3" -> "HS6ST3" ["e"=1]
+"COLGALT1" -> "POFUT1" ["e"=1]
+"COLGALT1" -> "COLGALT2" ["e"=1]
+"COLGALT1" -> "PLOD3" ["e"=1]
+"COLGALT1" -> "MGAT4B" ["e"=1]
+"COLGALT2" -> "POFUT2" ["e"=1]
+"COLGALT2" -> "POFUT1" ["e"=1]
+"COLGALT2" -> "FUT10" ["e"=1]
+"COLGALT2" -> "FUT11" ["e"=1]
+"CSGALNACT1" -> "CSGALNACT2" ["e"=1]
+"CSGALNACT1" -> "CHSY1" ["e"=1]
+"CSGALNACT1" -> "CHSY3" ["e"=1]
+"CSGALNACT1" -> "MGAT4A" ["e"=1]
+"CSGALNACT2" -> "CSGALNACT1" ["e"=1]
+"CSGALNACT2" -> "MGAT4A" ["e"=1]
+"CSGALNACT2" -> "B3GNT2" ["e"=1]
+"CSGALNACT2" -> "FUT11" ["e"=1]
+"DIPK1A" -> "DIPK1B" ["e"=1]
+"DIPK1A" -> "DIPK2A" ["e"=1]
+"DIPK1A" -> "HS2ST1" ["e"=1]
+"DIPK1A" -> "DIPK1C" ["e"=1]
+"DIPK1B" -> "DIPK1C" ["e"=1]
+"DIPK1B" -> "DIPK1A" ["e"=1]
+"DIPK1B" -> "FJX1" ["e"=1]
+"DIPK1B" -> "B3GNT6" ["e"=1]
+"DIPK1C" -> "DIPK2A" ["e"=1]
+"DIPK1C" -> "CHST3" ["e"=1]
+"DIPK1C" -> "LFNG" ["e"=1]
+"DIPK1C" -> "DIPK1B" ["e"=1]
+"DIPK2A" -> "DIPK1C" ["e"=1]
+"DIPK2A" -> "DIPK1A" ["e"=1]
+"DIPK2A" -> "HS2ST1" ["e"=1]
+"DIPK2A" -> "FUT11" ["e"=1]
+"EOGT" -> "POGLUT1" ["e"=1]
+"EOGT" -> "FUT10" ["e"=1]
+"EOGT" -> "POFUT2" ["e"=1]
+"EOGT" -> "GCNT4" ["e"=1]
+"EXT1" -> "LARGE1" ["e"=1]
+"EXT1" -> "POFUT1" ["e"=1]
+"EXT1" -> "EXT2" ["e"=1]
+"EXT1" -> "GCNT2" ["e"=1]
+"EXT2" -> "POGLUT1" ["e"=1]
+"EXT2" -> "EXT1" ["e"=1]
+"EXT2" -> "POFUT2" ["e"=1]
+"EXT2" -> "MGAT5" ["e"=1]
+"EXTL1" -> "B3GNT4" ["e"=1]
+"EXTL1" -> "POFUT1" ["e"=1]
+"EXTL1" -> "POFUT2" ["e"=1]
+"EXTL1" -> "FUT5" ["e"=1]
+"EXTL2" -> "B3GNT2" ["e"=1]
+"EXTL2" -> "GCNT4" ["e"=1]
+"EXTL2" -> "GLT8D2" ["e"=1]
+"EXTL2" -> "HS2ST1" ["e"=1]
+"EXTL3" -> "EXT2" ["e"=1]
+"EXTL3" -> "MGAT3" ["e"=1]
+"EXTL3" -> "EXT1" ["e"=1]
+"EXTL3" -> "LARGE1" ["e"=1]
+"FAM20A" -> "FAM20C" ["e"=1]
+"FAM20A" -> "CSGALNACT1" ["e"=1]
+"FAM20A" -> "POFUT1" ["e"=1]
+"FAM20A" -> "GASK1A" ["e"=1]
+"FAM20B" -> "NXPE3" ["e"=1]
+"FAM20B" -> "MGAT5" ["e"=1]
+"FAM20B" -> "POFUT1" ["e"=1]
+"FAM20B" -> "GASK1B" ["e"=1]
+"FAM20C" -> "FAM20A" ["e"=1]
+"FAM20C" -> "CSGALNACT1" ["e"=1]
+"FAM20C" -> "CSGALNACT2" ["e"=1]
+"FAM20C" -> "LFNG" ["e"=1]
+"FJX1" -> "B3GALT6" ["e"=1]
+"FJX1" -> "B3GNT9" ["e"=1]
+"FJX1" -> "LFNG" ["e"=1]
+"FJX1" -> "B3GNT6" ["e"=1]
+"FKRP" -> "MGAT3" ["e"=1]
+"FKRP" -> "GAL3ST3" ["e"=1]
+"FKRP" -> "EXTL3" ["e"=1]
+"FKRP" -> "B3GNT4" ["e"=1]
+"FUT1" -> "B3GNT4" ["e"=1]
+"FUT1" -> "FUT2" ["e"=1]
+"FUT1" -> "FUT5" ["e"=1]
+"FUT1" -> "A4GALT" ["e"=1]
+"FUT10" -> "FUT5" ["e"=1]
+"FUT10" -> "POFUT1" ["e"=1]
+"FUT10" -> "POFUT2" ["e"=1]
+"FUT10" -> "CHST9" ["e"=1]
+"FUT11" -> "POFUT2" ["e"=1]
+"FUT11" -> "LFNG" ["e"=1]
+"FUT11" -> "B3GNT4" ["e"=1]
+"FUT11" -> "POFUT1" ["e"=1]
+"FUT2" -> "FUT1" ["e"=1]
+"FUT2" -> "GCNT3" ["e"=1]
+"FUT2" -> "CHST4" ["e"=1]
+"FUT2" -> "POFUT1" ["e"=1]
+"FUT3" -> "FUT6" ["e"=1]
+"FUT3" -> "FUT5" ["e"=1]
+"FUT3" -> "A4GALT" ["e"=1]
+"FUT3" -> "B3GNT3" ["e"=1]
+"FUT5" -> "FUT6" ["e"=1]
+"FUT5" -> "FUT3" ["e"=1]
+"FUT5" -> "B3GNT4" ["e"=1]
+"FUT5" -> "FUT10" ["e"=1]
+"FUT6" -> "FUT3" ["e"=1]
+"FUT6" -> "FUT5" ["e"=1]
+"FUT6" -> "B3GNT4" ["e"=1]
+"FUT6" -> "B3GNT3" ["e"=1]
+"FUT7" -> "FUT5" ["e"=1]
+"FUT7" -> "FUT6" ["e"=1]
+"FUT7" -> "B3GNT4" ["e"=1]
+"FUT7" -> "FUT3" ["e"=1]
+"FUT8" -> "POFUT2" ["e"=1]
+"FUT8" -> "MGAT5" ["e"=1]
+"FUT8" -> "EXT1" ["e"=1]
+"FUT8" -> "EXT2" ["e"=1]
+"GAL3ST1" -> "GAL3ST2" ["e"=1]
+"GAL3ST1" -> "GAL3ST3" ["e"=1]
+"GAL3ST1" -> "HS6ST1" ["e"=1]
+"GAL3ST1" -> "CHST10" ["e"=1]
+"GAL3ST2" -> "GAL3ST1" ["e"=1]
+"GAL3ST2" -> "GAL3ST3" ["e"=1]
+"GAL3ST2" -> "CHST5" ["e"=1]
+"GAL3ST2" -> "CHST3" ["e"=1]
+"GAL3ST3" -> "CHST6" ["e"=1]
+"GAL3ST3" -> "CHST5" ["e"=1]
+"GAL3ST3" -> "CHST1" ["e"=1]
+"GAL3ST3" -> "GAL3ST2" ["e"=1]
+"GAL3ST4" -> "B3GNT4" ["e"=1]
+"GAL3ST4" -> "FUT1" ["e"=1]
+"GAL3ST4" -> "B3GALT4" ["e"=1]
+"GAL3ST4" -> "FUT5" ["e"=1]
+"GALNT15" -> "MGAT5B" ["e"=1]
+"GALNT15" -> "FUT10" ["e"=1]
+"GALNT15" -> "ST6GAL2" ["e"=1]
+"GALNT15" -> "POFUT1" ["e"=1]
+"GALNT2" -> "B4GALT5" ["e"=1]
+"GALNT2" -> "MGAT5" ["e"=1]
+"GALNT2" -> "XYLT1" ["e"=1]
+"GALNT2" -> "CSGALNACT1" ["e"=1]
+"GALNT5" -> "CHST9" ["e"=1]
+"GALNT5" -> "ST6GALNAC1" ["e"=1]
+"GALNT5" -> "GASK1B" ["e"=1]
+"GALNT5" -> "GALNT15" ["e"=1]
+"GALNTL5" -> "B3GNT4" ["e"=1]
+"GALNTL5" -> "B3GALT1" ["e"=1]
+"GALNTL5" -> "MGAT4D" ["e"=1]
+"GALNTL5" -> "EXTL2" ["e"=1]
+"GASK1A" -> "GASK1B" ["e"=1]
+"GASK1A" -> "FAM20A" ["e"=1]
+"GASK1A" -> "DIPK1C" ["e"=1]
+"GASK1A" -> "POFUT1" ["e"=1]
+"GASK1B" -> "GASK1A" ["e"=1]
+"GASK1B" -> "FAM20B" ["e"=1]
+"GASK1B" -> "HS3ST3B1" ["e"=1]
+"GASK1B" -> "HS3ST3A1" ["e"=1]
+"GBGT1" -> "ABO" ["e"=1]
+"GBGT1" -> "A3GALT2" ["e"=1]
+"GBGT1" -> "GLT6D1" ["e"=1]
+"GBGT1" -> "FUT5" ["e"=1]
+"GCNT1" -> "GCNT4" ["e"=1]
+"GCNT1" -> "GCNT3" ["e"=1]
+"GCNT1" -> "B3GNT2" ["e"=1]
+"GCNT1" -> "GCNT2" ["e"=1]
+"GCNT2" -> "GCNT3" ["e"=1]
+"GCNT2" -> "EXT1" ["e"=1]
+"GCNT2" -> "FUT10" ["e"=1]
+"GCNT2" -> "FUT2" ["e"=1]
+"GCNT3" -> "FUT2" ["e"=1]
+"GCNT3" -> "GCNT2" ["e"=1]
+"GCNT3" -> "GCNT4" ["e"=1]
+"GCNT3" -> "GCNT1" ["e"=1]
+"GCNT4" -> "GCNT1" ["e"=1]
+"GCNT4" -> "B3GNT2" ["e"=1]
+"GCNT4" -> "GCNT3" ["e"=1]
+"GCNT4" -> "EXTL2" ["e"=1]
+"GCNT7" -> "POFUT2" ["e"=1]
+"GCNT7" -> "B3GNT4" ["e"=1]
+"GCNT7" -> "FUT10" ["e"=1]
+"GCNT7" -> "POGLUT2" ["e"=1]
+"GLT6D1" -> "B3GNT4" ["e"=1]
+"GLT6D1" -> "GCNT7" ["e"=1]
+"GLT6D1" -> "POFUT2" ["e"=1]
+"GLT6D1" -> "GALNTL5" ["e"=1]
+"GLT8D1" -> "GLT8D2" ["e"=1]
+"GLT8D1" -> "EXTL2" ["e"=1]
+"GLT8D1" -> "A4GNT" ["e"=1]
+"GLT8D1" -> "B3GNT4" ["e"=1]
+"GLT8D2" -> "CHST10" ["e"=1]
+"GLT8D2" -> "GLT8D1" ["e"=1]
+"GLT8D2" -> "FUT10" ["e"=1]
+"GLT8D2" -> "EXTL2" ["e"=1]
+"GXYLT1" -> "XXYLT1" ["e"=1]
+"GXYLT1" -> "MGAT4A" ["e"=1]
+"GXYLT1" -> "RXYLT1" ["e"=1]
+"GXYLT1" -> "POGLUT1" ["e"=1]
+"GXYLT2" -> "XXYLT1" ["e"=1]
+"GXYLT2" -> "GXYLT1" ["e"=1]
+"GXYLT2" -> "POFUT1" ["e"=1]
+"GXYLT2" -> "COLGALT2" ["e"=1]
+"HS2ST1" -> "CHST9" ["e"=1]
+"HS2ST1" -> "HS3ST3B1" ["e"=1]
+"HS2ST1" -> "HS3ST1" ["e"=1]
+"HS2ST1" -> "CHST10" ["e"=1]
+"HS3ST1" -> "HS3ST3B1" ["e"=1]
+"HS3ST1" -> "HS3ST3A1" ["e"=1]
+"HS3ST1" -> "HS2ST1" ["e"=1]
+"HS3ST1" -> "HS3ST2" ["e"=1]
+"HS3ST2" -> "HS3ST3B1" ["e"=1]
+"HS3ST2" -> "HS3ST3A1" ["e"=1]
+"HS3ST2" -> "HS3ST4" ["e"=1]
+"HS3ST2" -> "HS3ST1" ["e"=1]
+"HS3ST3A1" -> "HS3ST3B1" ["e"=1]
+"HS3ST3A1" -> "HS3ST1" ["e"=1]
+"HS3ST3A1" -> "HS3ST4" ["e"=1]
+"HS3ST3A1" -> "HS3ST2" ["e"=1]
+"HS3ST3B1" -> "HS3ST3A1" ["e"=1]
+"HS3ST3B1" -> "HS3ST1" ["e"=1]
+"HS3ST3B1" -> "HS3ST2" ["e"=1]
+"HS3ST3B1" -> "HS2ST1" ["e"=1]
+"HS3ST4" -> "HS3ST3A1" ["e"=1]
+"HS3ST4" -> "HS3ST2" ["e"=1]
+"HS3ST4" -> "HS3ST3B1" ["e"=1]
+"HS3ST4" -> "CHST2" ["e"=1]
+"HS3ST5" -> "HS3ST1" ["e"=1]
+"HS3ST5" -> "HS2ST1" ["e"=1]
+"HS3ST5" -> "CHST9" ["e"=1]
+"HS3ST5" -> "HS3ST3A1" ["e"=1]
+"HS3ST6" -> "CHST13" ["e"=1]
+"HS3ST6" -> "FJX1" ["e"=1]
+"HS3ST6" -> "HS3ST3A1" ["e"=1]
+"HS3ST6" -> "B3GNT4" ["e"=1]
+"HS6ST1" -> "MGAT5B" ["e"=1]
+"HS6ST1" -> "CHST1" ["e"=1]
+"HS6ST1" -> "HS3ST3B1" ["e"=1]
+"HS6ST1" -> "TPST2" ["e"=1]
+"HS6ST3" -> "CSGALNACT1" ["e"=1]
+"HS6ST3" -> "HS3ST3A1" ["e"=1]
+"HS6ST3" -> "CSGALNACT2" ["e"=1]
+"HS6ST3" -> "HS6ST1" ["e"=1]
+"HYAL2" -> "GAL3ST3" ["e"=1]
+"HYAL2" -> "LARGE2" ["e"=1]
+"HYAL2" -> "FUT7" ["e"=1]
+"HYAL2" -> "CHST5" ["e"=1]
+"IL4I1" -> "CHST5" ["e"=1]
+"IL4I1" -> "LACTBL1" ["e"=1]
+"IL4I1" -> "GAL3ST2" ["e"=1]
+"IL4I1" -> "FUT7" ["e"=1]
+"LACTBL1" -> "IL4I1" ["e"=1]
+"LACTBL1" -> "LARGE2" ["e"=1]
+"LACTBL1" -> "XYLT2" ["e"=1]
+"LACTBL1" -> "LARGE1" ["e"=1]
+"LARGE1" -> "EXT1" ["e"=1]
+"LARGE1" -> "CHST15" ["e"=1]
+"LARGE1" -> "XYLT1" ["e"=1]
+"LARGE1" -> "EXTL3" ["e"=1]
+"LARGE2" -> "B3GNT4" ["e"=1]
+"LARGE2" -> "COLGALT1" ["e"=1]
+"LARGE2" -> "GAL3ST3" ["e"=1]
+"LARGE2" -> "FUT11" ["e"=1]
+"LFNG" -> "RFNG" ["e"=1]
+"LFNG" -> "MGAT4B" ["e"=1]
+"LFNG" -> "B3GNT9" ["e"=1]
+"LFNG" -> "FUT11" ["e"=1]
+"MANEAL" -> "B3GNT4" ["e"=1]
+"MANEAL" -> "LFNG" ["e"=1]
+"MANEAL" -> "FUT11" ["e"=1]
+"MANEAL" -> "GXYLT2" ["e"=1]
+"METTL24" -> "HS3ST3A1" ["e"=1]
+"METTL24" -> "POGLUT1" ["e"=1]
+"METTL24" -> "UST" ["e"=1]
+"METTL24" -> "RXYLT1" ["e"=1]
+"MFNG" -> "B3GNT4" ["e"=1]
+"MFNG" -> "RFNG" ["e"=1]
+"MFNG" -> "LFNG" ["e"=1]
+"MFNG" -> "B3GNT3" ["e"=1]
+"MGAT1" -> "B4GALT1" ["e"=1]
+"MGAT1" -> "MGAT2" ["e"=1]
+"MGAT1" -> "B3GNT7" ["e"=1]
+"MGAT1" -> "COLGALT1" ["e"=1]
+"MGAT2" -> "MGAT1" ["e"=1]
+"MGAT2" -> "B3GNT2" ["e"=1]
+"MGAT2" -> "EXTL2" ["e"=1]
+"MGAT2" -> "CSGALNACT2" ["e"=1]
+"MGAT3" -> "EXTL3" ["e"=1]
+"MGAT3" -> "FKRP" ["e"=1]
+"MGAT3" -> "B4GALT2" ["e"=1]
+"MGAT3" -> "B3GNT7" ["e"=1]
+"MGAT4A" -> "GXYLT1" ["e"=1]
+"MGAT4A" -> "MGAT4D" ["e"=1]
+"MGAT4A" -> "MGAT4B" ["e"=1]
+"MGAT4A" -> "CSGALNACT1" ["e"=1]
+"MGAT4B" -> "LFNG" ["e"=1]
+"MGAT4B" -> "MGAT4A" ["e"=1]
+"MGAT4B" -> "COLGALT1" ["e"=1]
+"MGAT4B" -> "MGAT5B" ["e"=1]
+"MGAT4D" -> "NXPE2" ["e"=1]
+"MGAT4D" -> "MGAT4A" ["e"=1]
+"MGAT4D" -> "B3GNT4" ["e"=1]
+"MGAT4D" -> "B3GALT1" ["e"=1]
+"MGAT5" -> "MGAT5B" ["e"=1]
+"MGAT5" -> "NXPE3" ["e"=1]
+"MGAT5" -> "FUT10" ["e"=1]
+"MGAT5" -> "EXT2" ["e"=1]
+"MGAT5B" -> "MGAT5" ["e"=1]
+"MGAT5B" -> "NDST1" ["e"=1]
+"MGAT5B" -> "HS6ST1" ["e"=1]
+"MGAT5B" -> "POFUT1" ["e"=1]
+"NDST1" -> "MGAT5B" ["e"=1]
+"NDST1" -> "MGAT5" ["e"=1]
+"NDST1" -> "POFUT1" ["e"=1]
+"NDST1" -> "XYLT2" ["e"=1]
+"NXPE2" -> "NXPE3" ["e"=1]
+"NXPE2" -> "MGAT4D" ["e"=1]
+"NXPE2" -> "ST6GALNAC1" ["e"=1]
+"NXPE2" -> "MGAT5" ["e"=1]
+"NXPE3" -> "NXPE2" ["e"=1]
+"NXPE3" -> "MGAT5" ["e"=1]
+"NXPE3" -> "FAM20B" ["e"=1]
+"NXPE3" -> "EOGT" ["e"=1]
+"PLOD1" -> "PLOD3" ["e"=1]
+"PLOD1" -> "PLOD2" ["e"=1]
+"PLOD1" -> "NDST1" ["e"=1]
+"PLOD1" -> "COLGALT1" ["e"=1]
+"PLOD2" -> "PLOD3" ["e"=1]
+"PLOD2" -> "PLOD1" ["e"=1]
+"PLOD2" -> "COLGALT2" ["e"=1]
+"PLOD2" -> "HS2ST1" ["e"=1]
+"PLOD3" -> "PLOD1" ["e"=1]
+"PLOD3" -> "PLOD2" ["e"=1]
+"PLOD3" -> "COLGALT1" ["e"=1]
+"PLOD3" -> "CERCAM" ["e"=1]
+"POFUT1" -> "POFUT2" ["e"=1]
+"POFUT1" -> "POGLUT1" ["e"=1]
+"POFUT1" -> "FUT10" ["e"=1]
+"POFUT1" -> "FUT5" ["e"=1]
+"POFUT2" -> "POFUT1" ["e"=1]
+"POFUT2" -> "POGLUT1" ["e"=1]
+"POFUT2" -> "FUT10" ["e"=1]
+"POFUT2" -> "B3GNT4" ["e"=1]
+"POGLUT1" -> "POFUT1" ["e"=1]
+"POGLUT1" -> "POFUT2" ["e"=1]
+"POGLUT1" -> "EXT2" ["e"=1]
+"POGLUT1" -> "RXYLT1" ["e"=1]
+"POGLUT2" -> "FUT10" ["e"=1]
+"POGLUT2" -> "GCNT7" ["e"=1]
+"POGLUT2" -> "POFUT2" ["e"=1]
+"POGLUT2" -> "POGLUT1" ["e"=1]
+"POMGNT1" -> "EXT2" ["e"=1]
+"POMGNT1" -> "POFUT2" ["e"=1]
+"POMGNT1" -> "MGAT5B" ["e"=1]
+"POMGNT1" -> "PLOD3" ["e"=1]
+"POMGNT2" -> "FUT10" ["e"=1]
+"POMGNT2" -> "CHST1" ["e"=1]
+"POMGNT2" -> "POFUT2" ["e"=1]
+"POMGNT2" -> "FUT5" ["e"=1]
+"POMK" -> "DIPK1C" ["e"=1]
+"POMK" -> "FUT10" ["e"=1]
+"POMK" -> "CHST4" ["e"=1]
+"POMK" -> "B4GALT5" ["e"=1]
+"PXYLP1" -> "CHST3" ["e"=1]
+"PXYLP1" -> "FUT10" ["e"=1]
+"PXYLP1" -> "CHST1" ["e"=1]
+"PXYLP1" -> "CHST10" ["e"=1]
+"RFNG" -> "LFNG" ["e"=1]
+"RFNG" -> "MFNG" ["e"=1]
+"RFNG" -> "B3GNT4" ["e"=1]
+"RFNG" -> "B3GAT3" ["e"=1]
+"RXYLT1" -> "POGLUT1" ["e"=1]
+"RXYLT1" -> "GXYLT1" ["e"=1]
+"RXYLT1" -> "POFUT2" ["e"=1]
+"RXYLT1" -> "CSGALNACT1" ["e"=1]
+"ST6GAL2" -> "EXT1" ["e"=1]
+"ST6GAL2" -> "POFUT1" ["e"=1]
+"ST6GAL2" -> "B3GNT4" ["e"=1]
+"ST6GAL2" -> "CSGALNACT2" ["e"=1]
+"ST6GALNAC1" -> "NXPE2" ["e"=1]
+"ST6GALNAC1" -> "GALNT5" ["e"=1]
+"ST6GALNAC1" -> "GASK1A" ["e"=1]
+"ST6GALNAC1" -> "B3GNT6" ["e"=1]
+"TPST1" -> "CHST4" ["e"=1]
+"TPST1" -> "TPST2" ["e"=1]
+"TPST1" -> "FUT8" ["e"=1]
+"TPST1" -> "EXT1" ["e"=1]
+"TPST2" -> "HS3ST3B1" ["e"=1]
+"TPST2" -> "HS6ST1" ["e"=1]
+"TPST2" -> "CHST11" ["e"=1]
+"TPST2" -> "POFUT1" ["e"=1]
+"UST" -> "HS2ST1" ["e"=1]
+"UST" -> "CHST9" ["e"=1]
+"UST" -> "HS3ST3B1" ["e"=1]
+"UST" -> "HS3ST3A1" ["e"=1]
+"WSCD2" -> "MGAT5B" ["e"=1]
+"WSCD2" -> "HS3ST3A1" ["e"=1]
+"WSCD2" -> "CHST15" ["e"=1]
+"WSCD2" -> "HS3ST3B1" ["e"=1]
+"XXYLT1" -> "GXYLT1" ["e"=1]
+"XXYLT1" -> "HS3ST3A1" ["e"=1]
+"XXYLT1" -> "GXYLT2" ["e"=1]
+"XXYLT1" -> "FUT10" ["e"=1]
+"XYLT1" -> "EXT1" ["e"=1]
+"XYLT1" -> "LARGE1" ["e"=1]
+"XYLT1" -> "CSGALNACT1" ["e"=1]
+"XYLT1" -> "XYLT2" ["e"=1]
+"XYLT2" -> "NDST1" ["e"=1]
+"XYLT2" -> "XYLT1" ["e"=1]
+"XYLT2" -> "B3GNT6" ["e"=1]
+"XYLT2" -> "MGAT5B" ["e"=1]
 }

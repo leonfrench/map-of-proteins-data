@@ -55,228 +55,228 @@ digraph G {
 "TMEM102" ["l"="11.127,0.875"]
 "TOP3A" ["l"="11.457,1.202"]
 "TOP3B" ["l"="11.499,1.202"]
-"AASDH" -> "NHLRC2"
-"AASDH" -> "DCAF17"
-"AASDH" -> "POT1"
-"AASDH" -> "MCMDC2"
-"ASTE1" -> "MCMDC2"
-"ASTE1" -> "POLG"
-"ASTE1" -> "DCAF17"
-"ASTE1" -> "TOP3A"
-"BAG5" -> "DCAF17"
-"BAG5" -> "TMEM102"
-"BAG5" -> "ERO1B"
-"BAG5" -> "DNM1L"
-"CARD16" -> "MALT1"
-"CARD16" -> "DCAF17"
-"CARD16" -> "BAG5"
-"CARD16" -> "DNM1L"
-"CHAT" -> "RHOT1"
-"CHAT" -> "ERO1B"
-"CHAT" -> "DNM1L"
-"CHAT" -> "ELMOD2"
-"CSDE1" -> "SND1"
-"CSDE1" -> "HDLBP"
-"CSDE1" -> "PPP1CC"
-"CSDE1" -> "HDAC2"
-"DCAF17" -> "NHLRC2"
-"DCAF17" -> "MCMDC2"
-"DCAF17" -> "POT1"
-"DCAF17" -> "DDHD2"
-"DDHD2" -> "NHLRC2"
-"DDHD2" -> "DCAF17"
-"DDHD2" -> "MALT1"
-"DDHD2" -> "RHOT1"
-"DNM1L" -> "RHOT1"
-"DNM1L" -> "POLR2B"
-"DNM1L" -> "PTCD3"
-"DNM1L" -> "HDAC2"
-"ELMOD2" -> "NHLRC2"
-"ELMOD2" -> "DCAF17"
-"ELMOD2" -> "PTCD3"
-"ELMOD2" -> "RHOT1"
-"ERO1B" -> "CHAT"
-"ERO1B" -> "DDHD2"
-"ERO1B" -> "RHOT1"
-"ERO1B" -> "DCAF17"
-"FAM178B" -> "NOL6"
-"FAM178B" -> "FASTK"
-"FAM178B" -> "TBRG4"
-"FAM178B" -> "PEAK3"
-"FASTK" -> "TBRG4"
-"FASTK" -> "NOL6"
-"FASTK" -> "POLRMT"
-"FASTK" -> "PEAK3"
-"FASTKD1" -> "PTCD3"
-"FASTKD1" -> "TBRG4"
-"FASTKD1" -> "LRPPRC"
-"FASTKD1" -> "FASTK"
-"HDAC1" -> "HDAC2"
-"HDAC1" -> "HDAC3"
-"HDAC1" -> "PPP2CA"
-"HDAC1" -> "PPP1CC"
-"HDAC2" -> "HDAC1"
-"HDAC2" -> "PPP2CA"
-"HDAC2" -> "HDAC3"
-"HDAC2" -> "PPP1CC"
-"HDAC3" -> "HDAC2"
-"HDAC3" -> "PPP2CA"
-"HDAC3" -> "HDAC1"
-"HDAC3" -> "PPP6C"
-"HDLBP" -> "SND1"
-"HDLBP" -> "CSDE1"
-"HDLBP" -> "POLR3A"
-"HDLBP" -> "DNM1L"
-"KLHDC10" -> "DDHD2"
-"KLHDC10" -> "PPP3CC"
-"KLHDC10" -> "PPP2CB"
-"KLHDC10" -> "DCAF17"
-"LRPPRC" -> "PTCD3"
-"LRPPRC" -> "FASTKD1"
-"LRPPRC" -> "RHOT1"
-"LRPPRC" -> "POLR3A"
-"MALT1" -> "NHLRC2"
-"MALT1" -> "DDHD2"
-"MALT1" -> "RHOT1"
-"MALT1" -> "DCAF17"
-"MCMDC2" -> "POT1"
-"MCMDC2" -> "DCAF17"
-"MCMDC2" -> "MEIOB"
-"MCMDC2" -> "AASDH"
-"MEIOB" -> "MCMDC2"
-"MEIOB" -> "POT1"
-"MEIOB" -> "DCAF17"
-"MEIOB" -> "RTEL1"
-"NHLRC2" -> "DCAF17"
-"NHLRC2" -> "MALT1"
-"NHLRC2" -> "AASDH"
-"NHLRC2" -> "DDHD2"
-"NOL6" -> "POLG"
-"NOL6" -> "POLRMT"
-"NOL6" -> "SKIV2L"
-"NOL6" -> "FASTK"
-"NRDC" -> "DNM1L"
-"NRDC" -> "POLR3B"
-"NRDC" -> "RHOT1"
-"NRDC" -> "DDHD2"
-"PEAK3" -> "TMEM102"
-"PEAK3" -> "PRRT4"
-"PEAK3" -> "FASTK"
-"PEAK3" -> "NOL6"
-"POLG" -> "NOL6"
-"POLG" -> "SKIV2L"
-"POLG" -> "POLRMT"
-"POLG" -> "TOP3B"
-"POLR1B" -> "POLR3B"
-"POLR1B" -> "POLR3A"
-"POLR1B" -> "POLR2B"
-"POLR1B" -> "TOP3B"
-"POLR2A" -> "POLR3A"
-"POLR2A" -> "SBNO2"
-"POLR2A" -> "POLR2B"
-"POLR2A" -> "POLR3B"
-"POLR2B" -> "POLR3B"
-"POLR2B" -> "POLR3A"
-"POLR2B" -> "POLR1B"
-"POLR2B" -> "DNM1L"
-"POLR3A" -> "POLR3B"
-"POLR3A" -> "POLR1B"
-"POLR3A" -> "POLR2B"
-"POLR3A" -> "POLR2A"
-"POLR3B" -> "POLR1B"
-"POLR3B" -> "POLR3A"
-"POLR3B" -> "POLR2B"
-"POLR3B" -> "TOP3B"
-"POLRMT" -> "NOL6"
-"POLRMT" -> "POLG"
-"POLRMT" -> "SKIV2L"
-"POLRMT" -> "TBRG4"
-"POT1" -> "MCMDC2"
-"POT1" -> "DCAF17"
-"POT1" -> "AASDH"
-"POT1" -> "MEIOB"
-"PPP1CA" -> "PPP4C"
-"PPP1CA" -> "PPP1CC"
-"PPP1CA" -> "PPP2CA"
-"PPP1CA" -> "PPP1CB"
-"PPP1CB" -> "PPP2CA"
-"PPP1CB" -> "PPP2CB"
-"PPP1CB" -> "PPP1CC"
-"PPP1CB" -> "PPP6C"
-"PPP1CC" -> "PPP2CA"
-"PPP1CC" -> "PPP1CB"
-"PPP1CC" -> "PPP6C"
-"PPP1CC" -> "PPP2CB"
-"PPP2CA" -> "PPP2CB"
-"PPP2CA" -> "PPP1CB"
-"PPP2CA" -> "PPP1CC"
-"PPP2CA" -> "PPP6C"
-"PPP2CB" -> "PPP2CA"
-"PPP2CB" -> "PPP1CB"
-"PPP2CB" -> "PPP1CC"
-"PPP2CB" -> "PPP6C"
-"PPP3CC" -> "PPP6C"
-"PPP3CC" -> "PPP1CC"
-"PPP3CC" -> "PPP2CA"
-"PPP3CC" -> "PPP2CB"
-"PPP4C" -> "PPP1CA"
-"PPP4C" -> "PPP2CA"
-"PPP4C" -> "PPP1CC"
-"PPP4C" -> "PPP6C"
-"PPP6C" -> "PPP2CA"
-"PPP6C" -> "PPP1CB"
-"PPP6C" -> "PPP1CC"
-"PPP6C" -> "PPP2CB"
-"PRRT4" -> "PEAK3"
-"PRRT4" -> "TMEM102"
-"PRRT4" -> "FASTK"
-"PRRT4" -> "NOL6"
-"PTCD3" -> "RHOT1"
-"PTCD3" -> "FASTKD1"
-"PTCD3" -> "LRPPRC"
-"PTCD3" -> "DNM1L"
-"RHOT1" -> "PTCD3"
-"RHOT1" -> "DNM1L"
-"RHOT1" -> "DDHD2"
-"RHOT1" -> "CHAT"
-"RNF31" -> "SKIV2L"
-"RNF31" -> "POLG"
-"RNF31" -> "RTEL1"
-"RNF31" -> "NOL6"
-"RTEL1" -> "TOP3A"
-"RTEL1" -> "SBNO2"
-"RTEL1" -> "SKIV2L"
-"RTEL1" -> "TOP3B"
-"SBNO2" -> "RTEL1"
-"SBNO2" -> "SKIV2L"
-"SBNO2" -> "POLR2A"
-"SBNO2" -> "POLG"
-"SKIV2L" -> "SBNO2"
-"SKIV2L" -> "RTEL1"
-"SKIV2L" -> "POLG"
-"SKIV2L" -> "POLRMT"
-"SND1" -> "HDLBP"
-"SND1" -> "CSDE1"
-"SND1" -> "POLR3A"
-"SND1" -> "TOP3B"
-"STXBP1" -> "DNM1L"
-"STXBP1" -> "RHOT1"
-"STXBP1" -> "SND1"
-"STXBP1" -> "PPP2CA"
-"TBRG4" -> "FASTK"
-"TBRG4" -> "FASTKD1"
-"TBRG4" -> "POLRMT"
-"TBRG4" -> "PTCD3"
-"TMEM102" -> "PEAK3"
-"TMEM102" -> "PRRT4"
-"TMEM102" -> "NOL6"
-"TMEM102" -> "DNM1L"
-"TOP3A" -> "TOP3B"
-"TOP3A" -> "RTEL1"
-"TOP3A" -> "POLG"
-"TOP3A" -> "POLR3B"
-"TOP3B" -> "TOP3A"
-"TOP3B" -> "POLR3B"
-"TOP3B" -> "RTEL1"
-"TOP3B" -> "POLG"
+"AASDH" -> "NHLRC2" ["e"=1]
+"AASDH" -> "DCAF17" ["e"=1]
+"AASDH" -> "POT1" ["e"=1]
+"AASDH" -> "MCMDC2" ["e"=1]
+"ASTE1" -> "MCMDC2" ["e"=1]
+"ASTE1" -> "POLG" ["e"=1]
+"ASTE1" -> "DCAF17" ["e"=1]
+"ASTE1" -> "TOP3A" ["e"=1]
+"BAG5" -> "DCAF17" ["e"=1]
+"BAG5" -> "TMEM102" ["e"=1]
+"BAG5" -> "ERO1B" ["e"=1]
+"BAG5" -> "DNM1L" ["e"=1]
+"CARD16" -> "MALT1" ["e"=1]
+"CARD16" -> "DCAF17" ["e"=1]
+"CARD16" -> "BAG5" ["e"=1]
+"CARD16" -> "DNM1L" ["e"=1]
+"CHAT" -> "RHOT1" ["e"=1]
+"CHAT" -> "ERO1B" ["e"=1]
+"CHAT" -> "DNM1L" ["e"=1]
+"CHAT" -> "ELMOD2" ["e"=1]
+"CSDE1" -> "SND1" ["e"=1]
+"CSDE1" -> "HDLBP" ["e"=1]
+"CSDE1" -> "PPP1CC" ["e"=1]
+"CSDE1" -> "HDAC2" ["e"=1]
+"DCAF17" -> "NHLRC2" ["e"=1]
+"DCAF17" -> "MCMDC2" ["e"=1]
+"DCAF17" -> "POT1" ["e"=1]
+"DCAF17" -> "DDHD2" ["e"=1]
+"DDHD2" -> "NHLRC2" ["e"=1]
+"DDHD2" -> "DCAF17" ["e"=1]
+"DDHD2" -> "MALT1" ["e"=1]
+"DDHD2" -> "RHOT1" ["e"=1]
+"DNM1L" -> "RHOT1" ["e"=1]
+"DNM1L" -> "POLR2B" ["e"=1]
+"DNM1L" -> "PTCD3" ["e"=1]
+"DNM1L" -> "HDAC2" ["e"=1]
+"ELMOD2" -> "NHLRC2" ["e"=1]
+"ELMOD2" -> "DCAF17" ["e"=1]
+"ELMOD2" -> "PTCD3" ["e"=1]
+"ELMOD2" -> "RHOT1" ["e"=1]
+"ERO1B" -> "CHAT" ["e"=1]
+"ERO1B" -> "DDHD2" ["e"=1]
+"ERO1B" -> "RHOT1" ["e"=1]
+"ERO1B" -> "DCAF17" ["e"=1]
+"FAM178B" -> "NOL6" ["e"=1]
+"FAM178B" -> "FASTK" ["e"=1]
+"FAM178B" -> "TBRG4" ["e"=1]
+"FAM178B" -> "PEAK3" ["e"=1]
+"FASTK" -> "TBRG4" ["e"=1]
+"FASTK" -> "NOL6" ["e"=1]
+"FASTK" -> "POLRMT" ["e"=1]
+"FASTK" -> "PEAK3" ["e"=1]
+"FASTKD1" -> "PTCD3" ["e"=1]
+"FASTKD1" -> "TBRG4" ["e"=1]
+"FASTKD1" -> "LRPPRC" ["e"=1]
+"FASTKD1" -> "FASTK" ["e"=1]
+"HDAC1" -> "HDAC2" ["e"=1]
+"HDAC1" -> "HDAC3" ["e"=1]
+"HDAC1" -> "PPP2CA" ["e"=1]
+"HDAC1" -> "PPP1CC" ["e"=1]
+"HDAC2" -> "HDAC1" ["e"=1]
+"HDAC2" -> "PPP2CA" ["e"=1]
+"HDAC2" -> "HDAC3" ["e"=1]
+"HDAC2" -> "PPP1CC" ["e"=1]
+"HDAC3" -> "HDAC2" ["e"=1]
+"HDAC3" -> "PPP2CA" ["e"=1]
+"HDAC3" -> "HDAC1" ["e"=1]
+"HDAC3" -> "PPP6C" ["e"=1]
+"HDLBP" -> "SND1" ["e"=1]
+"HDLBP" -> "CSDE1" ["e"=1]
+"HDLBP" -> "POLR3A" ["e"=1]
+"HDLBP" -> "DNM1L" ["e"=1]
+"KLHDC10" -> "DDHD2" ["e"=1]
+"KLHDC10" -> "PPP3CC" ["e"=1]
+"KLHDC10" -> "PPP2CB" ["e"=1]
+"KLHDC10" -> "DCAF17" ["e"=1]
+"LRPPRC" -> "PTCD3" ["e"=1]
+"LRPPRC" -> "FASTKD1" ["e"=1]
+"LRPPRC" -> "RHOT1" ["e"=1]
+"LRPPRC" -> "POLR3A" ["e"=1]
+"MALT1" -> "NHLRC2" ["e"=1]
+"MALT1" -> "DDHD2" ["e"=1]
+"MALT1" -> "RHOT1" ["e"=1]
+"MALT1" -> "DCAF17" ["e"=1]
+"MCMDC2" -> "POT1" ["e"=1]
+"MCMDC2" -> "DCAF17" ["e"=1]
+"MCMDC2" -> "MEIOB" ["e"=1]
+"MCMDC2" -> "AASDH" ["e"=1]
+"MEIOB" -> "MCMDC2" ["e"=1]
+"MEIOB" -> "POT1" ["e"=1]
+"MEIOB" -> "DCAF17" ["e"=1]
+"MEIOB" -> "RTEL1" ["e"=1]
+"NHLRC2" -> "DCAF17" ["e"=1]
+"NHLRC2" -> "MALT1" ["e"=1]
+"NHLRC2" -> "AASDH" ["e"=1]
+"NHLRC2" -> "DDHD2" ["e"=1]
+"NOL6" -> "POLG" ["e"=1]
+"NOL6" -> "POLRMT" ["e"=1]
+"NOL6" -> "SKIV2L" ["e"=1]
+"NOL6" -> "FASTK" ["e"=1]
+"NRDC" -> "DNM1L" ["e"=1]
+"NRDC" -> "POLR3B" ["e"=1]
+"NRDC" -> "RHOT1" ["e"=1]
+"NRDC" -> "DDHD2" ["e"=1]
+"PEAK3" -> "TMEM102" ["e"=1]
+"PEAK3" -> "PRRT4" ["e"=1]
+"PEAK3" -> "FASTK" ["e"=1]
+"PEAK3" -> "NOL6" ["e"=1]
+"POLG" -> "NOL6" ["e"=1]
+"POLG" -> "SKIV2L" ["e"=1]
+"POLG" -> "POLRMT" ["e"=1]
+"POLG" -> "TOP3B" ["e"=1]
+"POLR1B" -> "POLR3B" ["e"=1]
+"POLR1B" -> "POLR3A" ["e"=1]
+"POLR1B" -> "POLR2B" ["e"=1]
+"POLR1B" -> "TOP3B" ["e"=1]
+"POLR2A" -> "POLR3A" ["e"=1]
+"POLR2A" -> "SBNO2" ["e"=1]
+"POLR2A" -> "POLR2B" ["e"=1]
+"POLR2A" -> "POLR3B" ["e"=1]
+"POLR2B" -> "POLR3B" ["e"=1]
+"POLR2B" -> "POLR3A" ["e"=1]
+"POLR2B" -> "POLR1B" ["e"=1]
+"POLR2B" -> "DNM1L" ["e"=1]
+"POLR3A" -> "POLR3B" ["e"=1]
+"POLR3A" -> "POLR1B" ["e"=1]
+"POLR3A" -> "POLR2B" ["e"=1]
+"POLR3A" -> "POLR2A" ["e"=1]
+"POLR3B" -> "POLR1B" ["e"=1]
+"POLR3B" -> "POLR3A" ["e"=1]
+"POLR3B" -> "POLR2B" ["e"=1]
+"POLR3B" -> "TOP3B" ["e"=1]
+"POLRMT" -> "NOL6" ["e"=1]
+"POLRMT" -> "POLG" ["e"=1]
+"POLRMT" -> "SKIV2L" ["e"=1]
+"POLRMT" -> "TBRG4" ["e"=1]
+"POT1" -> "MCMDC2" ["e"=1]
+"POT1" -> "DCAF17" ["e"=1]
+"POT1" -> "AASDH" ["e"=1]
+"POT1" -> "MEIOB" ["e"=1]
+"PPP1CA" -> "PPP4C" ["e"=1]
+"PPP1CA" -> "PPP1CC" ["e"=1]
+"PPP1CA" -> "PPP2CA" ["e"=1]
+"PPP1CA" -> "PPP1CB" ["e"=1]
+"PPP1CB" -> "PPP2CA" ["e"=1]
+"PPP1CB" -> "PPP2CB" ["e"=1]
+"PPP1CB" -> "PPP1CC" ["e"=1]
+"PPP1CB" -> "PPP6C" ["e"=1]
+"PPP1CC" -> "PPP2CA" ["e"=1]
+"PPP1CC" -> "PPP1CB" ["e"=1]
+"PPP1CC" -> "PPP6C" ["e"=1]
+"PPP1CC" -> "PPP2CB" ["e"=1]
+"PPP2CA" -> "PPP2CB" ["e"=1]
+"PPP2CA" -> "PPP1CB" ["e"=1]
+"PPP2CA" -> "PPP1CC" ["e"=1]
+"PPP2CA" -> "PPP6C" ["e"=1]
+"PPP2CB" -> "PPP2CA" ["e"=1]
+"PPP2CB" -> "PPP1CB" ["e"=1]
+"PPP2CB" -> "PPP1CC" ["e"=1]
+"PPP2CB" -> "PPP6C" ["e"=1]
+"PPP3CC" -> "PPP6C" ["e"=1]
+"PPP3CC" -> "PPP1CC" ["e"=1]
+"PPP3CC" -> "PPP2CA" ["e"=1]
+"PPP3CC" -> "PPP2CB" ["e"=1]
+"PPP4C" -> "PPP1CA" ["e"=1]
+"PPP4C" -> "PPP2CA" ["e"=1]
+"PPP4C" -> "PPP1CC" ["e"=1]
+"PPP4C" -> "PPP6C" ["e"=1]
+"PPP6C" -> "PPP2CA" ["e"=1]
+"PPP6C" -> "PPP1CB" ["e"=1]
+"PPP6C" -> "PPP1CC" ["e"=1]
+"PPP6C" -> "PPP2CB" ["e"=1]
+"PRRT4" -> "PEAK3" ["e"=1]
+"PRRT4" -> "TMEM102" ["e"=1]
+"PRRT4" -> "FASTK" ["e"=1]
+"PRRT4" -> "NOL6" ["e"=1]
+"PTCD3" -> "RHOT1" ["e"=1]
+"PTCD3" -> "FASTKD1" ["e"=1]
+"PTCD3" -> "LRPPRC" ["e"=1]
+"PTCD3" -> "DNM1L" ["e"=1]
+"RHOT1" -> "PTCD3" ["e"=1]
+"RHOT1" -> "DNM1L" ["e"=1]
+"RHOT1" -> "DDHD2" ["e"=1]
+"RHOT1" -> "CHAT" ["e"=1]
+"RNF31" -> "SKIV2L" ["e"=1]
+"RNF31" -> "POLG" ["e"=1]
+"RNF31" -> "RTEL1" ["e"=1]
+"RNF31" -> "NOL6" ["e"=1]
+"RTEL1" -> "TOP3A" ["e"=1]
+"RTEL1" -> "SBNO2" ["e"=1]
+"RTEL1" -> "SKIV2L" ["e"=1]
+"RTEL1" -> "TOP3B" ["e"=1]
+"SBNO2" -> "RTEL1" ["e"=1]
+"SBNO2" -> "SKIV2L" ["e"=1]
+"SBNO2" -> "POLR2A" ["e"=1]
+"SBNO2" -> "POLG" ["e"=1]
+"SKIV2L" -> "SBNO2" ["e"=1]
+"SKIV2L" -> "RTEL1" ["e"=1]
+"SKIV2L" -> "POLG" ["e"=1]
+"SKIV2L" -> "POLRMT" ["e"=1]
+"SND1" -> "HDLBP" ["e"=1]
+"SND1" -> "CSDE1" ["e"=1]
+"SND1" -> "POLR3A" ["e"=1]
+"SND1" -> "TOP3B" ["e"=1]
+"STXBP1" -> "DNM1L" ["e"=1]
+"STXBP1" -> "RHOT1" ["e"=1]
+"STXBP1" -> "SND1" ["e"=1]
+"STXBP1" -> "PPP2CA" ["e"=1]
+"TBRG4" -> "FASTK" ["e"=1]
+"TBRG4" -> "FASTKD1" ["e"=1]
+"TBRG4" -> "POLRMT" ["e"=1]
+"TBRG4" -> "PTCD3" ["e"=1]
+"TMEM102" -> "PEAK3" ["e"=1]
+"TMEM102" -> "PRRT4" ["e"=1]
+"TMEM102" -> "NOL6" ["e"=1]
+"TMEM102" -> "DNM1L" ["e"=1]
+"TOP3A" -> "TOP3B" ["e"=1]
+"TOP3A" -> "RTEL1" ["e"=1]
+"TOP3A" -> "POLG" ["e"=1]
+"TOP3A" -> "POLR3B" ["e"=1]
+"TOP3B" -> "TOP3A" ["e"=1]
+"TOP3B" -> "POLR3B" ["e"=1]
+"TOP3B" -> "RTEL1" ["e"=1]
+"TOP3B" -> "POLG" ["e"=1]
 }

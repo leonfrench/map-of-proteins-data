@@ -43,180 +43,180 @@ digraph G {
 "TRABD2A" ["l"="13.450,-0.629"]
 "TRABD2B" ["l"="13.512,-0.658"]
 "VWA1" ["l"="13.458,-0.759"]
-"AMY1A" -> "AMY1B"
-"AMY1A" -> "AMY1C"
-"AMY1A" -> "AMY2B"
-"AMY1A" -> "AMY2A"
-"AMY1B" -> "AMY1A"
-"AMY1B" -> "AMY1C"
-"AMY1B" -> "AMY2A"
-"AMY1B" -> "AMY2B"
-"AMY1C" -> "AMY1A"
-"AMY1C" -> "AMY1B"
-"AMY1C" -> "AMY2B"
-"AMY1C" -> "AMY2A"
-"AMY2A" -> "AMY2B"
-"AMY2A" -> "AMY1A"
-"AMY2A" -> "AMY1B"
-"AMY2A" -> "AMY1C"
-"AMY2B" -> "AMY2A"
-"AMY2B" -> "AMY1A"
-"AMY2B" -> "AMY1B"
-"AMY2B" -> "AMY1C"
-"BACE1" -> "BACE2"
-"BACE1" -> "QSOX1"
-"BACE1" -> "PLA2G12A"
-"BACE1" -> "LIPG"
-"BACE2" -> "BACE1"
-"BACE2" -> "QSOX1"
-"BACE2" -> "PLA2G12A"
-"BACE2" -> "PLA1A"
-"CEL" -> "QSOX1"
-"CEL" -> "PNLIPRP1"
-"CEL" -> "PNLIPRP2"
-"CEL" -> "PNLIP"
-"CPA1" -> "CPA2"
-"CPA1" -> "CPB1"
-"CPA1" -> "PNLIP"
-"CPA1" -> "PNLIPRP1"
-"CPA2" -> "CPA1"
-"CPA2" -> "CPB1"
-"CPA2" -> "CPA4"
-"CPA2" -> "PNLIP"
-"CPA3" -> "CPB2"
-"CPA3" -> "CPB1"
-"CPA3" -> "CPA5"
-"CPA3" -> "CPA4"
-"CPA4" -> "CPA6"
-"CPA4" -> "CPB1"
-"CPA4" -> "CPA5"
-"CPA4" -> "CPA2"
-"CPA5" -> "CPA6"
-"CPA5" -> "CPA4"
-"CPA5" -> "CPO"
-"CPA5" -> "CPA3"
-"CPA6" -> "CPA5"
-"CPA6" -> "CPA4"
-"CPA6" -> "LIPG"
-"CPA6" -> "LPL"
-"CPB1" -> "CPA2"
-"CPB1" -> "CPA1"
-"CPB1" -> "CPA4"
-"CPB1" -> "PNLIP"
-"CPB2" -> "CPO"
-"CPB2" -> "CPA3"
-"CPB2" -> "CPA4"
-"CPB2" -> "CPB1"
-"CPE" -> "CPXM2"
-"CPE" -> "CPN1"
-"CPE" -> "LPL"
-"CPE" -> "LIPG"
-"CPN1" -> "CPZ"
-"CPN1" -> "CPXM2"
-"CPN1" -> "LIPG"
-"CPN1" -> "CPE"
-"CPO" -> "CPB2"
-"CPO" -> "CPA4"
-"CPO" -> "CPA5"
-"CPO" -> "CPB1"
-"CPXM1" -> "CPZ"
-"CPXM1" -> "CPXM2"
-"CPXM1" -> "CPN1"
-"CPXM1" -> "CPE"
-"CPXM2" -> "CPXM1"
-"CPXM2" -> "CPE"
-"CPXM2" -> "CPZ"
-"CPXM2" -> "LIPG"
-"CPZ" -> "CPN1"
-"CPZ" -> "CPXM1"
-"CPZ" -> "CPXM2"
-"CPZ" -> "QSOX1"
-"CYB5D2" -> "SDF2"
-"CYB5D2" -> "TRABD2B"
-"CYB5D2" -> "PLA2G12A"
-"CYB5D2" -> "QSOX1"
-"HTRA2" -> "VWA1"
-"HTRA2" -> "SDF2"
-"HTRA2" -> "CYB5D2"
-"HTRA2" -> "LIPG"
-"LIPC" -> "LIPG"
-"LIPC" -> "PLA1A"
-"LIPC" -> "LPL"
-"LIPC" -> "LIPH"
-"LIPG" -> "LPL"
-"LIPG" -> "LIPC"
-"LIPG" -> "PLA1A"
-"LIPG" -> "CPXM2"
-"LIPH" -> "PLA1A"
-"LIPH" -> "LIPI"
-"LIPH" -> "PNLIPRP3"
-"LIPH" -> "LIPC"
-"LIPI" -> "PNLIPRP3"
-"LIPI" -> "LIPH"
-"LIPI" -> "LIPC"
-"LIPI" -> "PLA1A"
-"LPL" -> "LIPG"
-"LPL" -> "LIPC"
-"LPL" -> "PLA1A"
-"LPL" -> "PNLIPRP3"
-"LTF" -> "MELTF"
-"LTF" -> "PNLIPRP2"
-"LTF" -> "PNLIPRP1"
-"LTF" -> "PLA1A"
-"MELTF" -> "LTF"
-"MELTF" -> "QSOX1"
-"MELTF" -> "CYB5D2"
-"MELTF" -> "LIPH"
-"MOXD1" -> "CPXM2"
-"MOXD1" -> "PLA2G12A"
-"MOXD1" -> "CPA6"
-"MOXD1" -> "LIPC"
-"NPC2" -> "PLA2G12A"
-"NPC2" -> "SDF2"
-"NPC2" -> "QSOX1"
-"NPC2" -> "PLA1A"
-"PLA1A" -> "LIPG"
-"PLA1A" -> "PNLIPRP2"
-"PLA1A" -> "LIPC"
-"PLA1A" -> "LIPH"
-"PLA2G12A" -> "MOXD1"
-"PLA2G12A" -> "QSOX1"
-"PLA2G12A" -> "LPL"
-"PLA2G12A" -> "LIPG"
-"PNLIP" -> "PNLIPRP1"
-"PNLIP" -> "PNLIPRP2"
-"PNLIP" -> "CPA1"
-"PNLIP" -> "CPB1"
-"PNLIPRP1" -> "PNLIPRP2"
-"PNLIPRP1" -> "PNLIP"
-"PNLIPRP1" -> "PNLIPRP3"
-"PNLIPRP1" -> "CPA1"
-"PNLIPRP2" -> "PNLIPRP1"
-"PNLIPRP2" -> "PNLIP"
-"PNLIPRP2" -> "PLA1A"
-"PNLIPRP2" -> "PNLIPRP3"
-"PNLIPRP3" -> "LIPI"
-"PNLIPRP3" -> "PNLIPRP2"
-"PNLIPRP3" -> "PNLIPRP1"
-"PNLIPRP3" -> "LIPH"
-"QSOX1" -> "BACE1"
-"QSOX1" -> "PLA2G12A"
-"QSOX1" -> "CPZ"
-"QSOX1" -> "BACE2"
-"SDF2" -> "CYB5D2"
-"SDF2" -> "PLA2G12A"
-"SDF2" -> "LIPG"
-"SDF2" -> "MOXD1"
-"TRABD2A" -> "TRABD2B"
-"TRABD2A" -> "QSOX1"
-"TRABD2A" -> "BACE1"
-"TRABD2A" -> "LIPG"
-"TRABD2B" -> "TRABD2A"
-"TRABD2B" -> "CYB5D2"
-"TRABD2B" -> "LIPC"
-"TRABD2B" -> "VWA1"
-"VWA1" -> "QSOX1"
-"VWA1" -> "TRABD2B"
-"VWA1" -> "HTRA2"
-"VWA1" -> "CYB5D2"
+"AMY1A" -> "AMY1B" ["e"=1]
+"AMY1A" -> "AMY1C" ["e"=1]
+"AMY1A" -> "AMY2B" ["e"=1]
+"AMY1A" -> "AMY2A" ["e"=1]
+"AMY1B" -> "AMY1A" ["e"=1]
+"AMY1B" -> "AMY1C" ["e"=1]
+"AMY1B" -> "AMY2A" ["e"=1]
+"AMY1B" -> "AMY2B" ["e"=1]
+"AMY1C" -> "AMY1A" ["e"=1]
+"AMY1C" -> "AMY1B" ["e"=1]
+"AMY1C" -> "AMY2B" ["e"=1]
+"AMY1C" -> "AMY2A" ["e"=1]
+"AMY2A" -> "AMY2B" ["e"=1]
+"AMY2A" -> "AMY1A" ["e"=1]
+"AMY2A" -> "AMY1B" ["e"=1]
+"AMY2A" -> "AMY1C" ["e"=1]
+"AMY2B" -> "AMY2A" ["e"=1]
+"AMY2B" -> "AMY1A" ["e"=1]
+"AMY2B" -> "AMY1B" ["e"=1]
+"AMY2B" -> "AMY1C" ["e"=1]
+"BACE1" -> "BACE2" ["e"=1]
+"BACE1" -> "QSOX1" ["e"=1]
+"BACE1" -> "PLA2G12A" ["e"=1]
+"BACE1" -> "LIPG" ["e"=1]
+"BACE2" -> "BACE1" ["e"=1]
+"BACE2" -> "QSOX1" ["e"=1]
+"BACE2" -> "PLA2G12A" ["e"=1]
+"BACE2" -> "PLA1A" ["e"=1]
+"CEL" -> "QSOX1" ["e"=1]
+"CEL" -> "PNLIPRP1" ["e"=1]
+"CEL" -> "PNLIPRP2" ["e"=1]
+"CEL" -> "PNLIP" ["e"=1]
+"CPA1" -> "CPA2" ["e"=1]
+"CPA1" -> "CPB1" ["e"=1]
+"CPA1" -> "PNLIP" ["e"=1]
+"CPA1" -> "PNLIPRP1" ["e"=1]
+"CPA2" -> "CPA1" ["e"=1]
+"CPA2" -> "CPB1" ["e"=1]
+"CPA2" -> "CPA4" ["e"=1]
+"CPA2" -> "PNLIP" ["e"=1]
+"CPA3" -> "CPB2" ["e"=1]
+"CPA3" -> "CPB1" ["e"=1]
+"CPA3" -> "CPA5" ["e"=1]
+"CPA3" -> "CPA4" ["e"=1]
+"CPA4" -> "CPA6" ["e"=1]
+"CPA4" -> "CPB1" ["e"=1]
+"CPA4" -> "CPA5" ["e"=1]
+"CPA4" -> "CPA2" ["e"=1]
+"CPA5" -> "CPA6" ["e"=1]
+"CPA5" -> "CPA4" ["e"=1]
+"CPA5" -> "CPO" ["e"=1]
+"CPA5" -> "CPA3" ["e"=1]
+"CPA6" -> "CPA5" ["e"=1]
+"CPA6" -> "CPA4" ["e"=1]
+"CPA6" -> "LIPG" ["e"=1]
+"CPA6" -> "LPL" ["e"=1]
+"CPB1" -> "CPA2" ["e"=1]
+"CPB1" -> "CPA1" ["e"=1]
+"CPB1" -> "CPA4" ["e"=1]
+"CPB1" -> "PNLIP" ["e"=1]
+"CPB2" -> "CPO" ["e"=1]
+"CPB2" -> "CPA3" ["e"=1]
+"CPB2" -> "CPA4" ["e"=1]
+"CPB2" -> "CPB1" ["e"=1]
+"CPE" -> "CPXM2" ["e"=1]
+"CPE" -> "CPN1" ["e"=1]
+"CPE" -> "LPL" ["e"=1]
+"CPE" -> "LIPG" ["e"=1]
+"CPN1" -> "CPZ" ["e"=1]
+"CPN1" -> "CPXM2" ["e"=1]
+"CPN1" -> "LIPG" ["e"=1]
+"CPN1" -> "CPE" ["e"=1]
+"CPO" -> "CPB2" ["e"=1]
+"CPO" -> "CPA4" ["e"=1]
+"CPO" -> "CPA5" ["e"=1]
+"CPO" -> "CPB1" ["e"=1]
+"CPXM1" -> "CPZ" ["e"=1]
+"CPXM1" -> "CPXM2" ["e"=1]
+"CPXM1" -> "CPN1" ["e"=1]
+"CPXM1" -> "CPE" ["e"=1]
+"CPXM2" -> "CPXM1" ["e"=1]
+"CPXM2" -> "CPE" ["e"=1]
+"CPXM2" -> "CPZ" ["e"=1]
+"CPXM2" -> "LIPG" ["e"=1]
+"CPZ" -> "CPN1" ["e"=1]
+"CPZ" -> "CPXM1" ["e"=1]
+"CPZ" -> "CPXM2" ["e"=1]
+"CPZ" -> "QSOX1" ["e"=1]
+"CYB5D2" -> "SDF2" ["e"=1]
+"CYB5D2" -> "TRABD2B" ["e"=1]
+"CYB5D2" -> "PLA2G12A" ["e"=1]
+"CYB5D2" -> "QSOX1" ["e"=1]
+"HTRA2" -> "VWA1" ["e"=1]
+"HTRA2" -> "SDF2" ["e"=1]
+"HTRA2" -> "CYB5D2" ["e"=1]
+"HTRA2" -> "LIPG" ["e"=1]
+"LIPC" -> "LIPG" ["e"=1]
+"LIPC" -> "PLA1A" ["e"=1]
+"LIPC" -> "LPL" ["e"=1]
+"LIPC" -> "LIPH" ["e"=1]
+"LIPG" -> "LPL" ["e"=1]
+"LIPG" -> "LIPC" ["e"=1]
+"LIPG" -> "PLA1A" ["e"=1]
+"LIPG" -> "CPXM2" ["e"=1]
+"LIPH" -> "PLA1A" ["e"=1]
+"LIPH" -> "LIPI" ["e"=1]
+"LIPH" -> "PNLIPRP3" ["e"=1]
+"LIPH" -> "LIPC" ["e"=1]
+"LIPI" -> "PNLIPRP3" ["e"=1]
+"LIPI" -> "LIPH" ["e"=1]
+"LIPI" -> "LIPC" ["e"=1]
+"LIPI" -> "PLA1A" ["e"=1]
+"LPL" -> "LIPG" ["e"=1]
+"LPL" -> "LIPC" ["e"=1]
+"LPL" -> "PLA1A" ["e"=1]
+"LPL" -> "PNLIPRP3" ["e"=1]
+"LTF" -> "MELTF" ["e"=1]
+"LTF" -> "PNLIPRP2" ["e"=1]
+"LTF" -> "PNLIPRP1" ["e"=1]
+"LTF" -> "PLA1A" ["e"=1]
+"MELTF" -> "LTF" ["e"=1]
+"MELTF" -> "QSOX1" ["e"=1]
+"MELTF" -> "CYB5D2" ["e"=1]
+"MELTF" -> "LIPH" ["e"=1]
+"MOXD1" -> "CPXM2" ["e"=1]
+"MOXD1" -> "PLA2G12A" ["e"=1]
+"MOXD1" -> "CPA6" ["e"=1]
+"MOXD1" -> "LIPC" ["e"=1]
+"NPC2" -> "PLA2G12A" ["e"=1]
+"NPC2" -> "SDF2" ["e"=1]
+"NPC2" -> "QSOX1" ["e"=1]
+"NPC2" -> "PLA1A" ["e"=1]
+"PLA1A" -> "LIPG" ["e"=1]
+"PLA1A" -> "PNLIPRP2" ["e"=1]
+"PLA1A" -> "LIPC" ["e"=1]
+"PLA1A" -> "LIPH" ["e"=1]
+"PLA2G12A" -> "MOXD1" ["e"=1]
+"PLA2G12A" -> "QSOX1" ["e"=1]
+"PLA2G12A" -> "LPL" ["e"=1]
+"PLA2G12A" -> "LIPG" ["e"=1]
+"PNLIP" -> "PNLIPRP1" ["e"=1]
+"PNLIP" -> "PNLIPRP2" ["e"=1]
+"PNLIP" -> "CPA1" ["e"=1]
+"PNLIP" -> "CPB1" ["e"=1]
+"PNLIPRP1" -> "PNLIPRP2" ["e"=1]
+"PNLIPRP1" -> "PNLIP" ["e"=1]
+"PNLIPRP1" -> "PNLIPRP3" ["e"=1]
+"PNLIPRP1" -> "CPA1" ["e"=1]
+"PNLIPRP2" -> "PNLIPRP1" ["e"=1]
+"PNLIPRP2" -> "PNLIP" ["e"=1]
+"PNLIPRP2" -> "PLA1A" ["e"=1]
+"PNLIPRP2" -> "PNLIPRP3" ["e"=1]
+"PNLIPRP3" -> "LIPI" ["e"=1]
+"PNLIPRP3" -> "PNLIPRP2" ["e"=1]
+"PNLIPRP3" -> "PNLIPRP1" ["e"=1]
+"PNLIPRP3" -> "LIPH" ["e"=1]
+"QSOX1" -> "BACE1" ["e"=1]
+"QSOX1" -> "PLA2G12A" ["e"=1]
+"QSOX1" -> "CPZ" ["e"=1]
+"QSOX1" -> "BACE2" ["e"=1]
+"SDF2" -> "CYB5D2" ["e"=1]
+"SDF2" -> "PLA2G12A" ["e"=1]
+"SDF2" -> "LIPG" ["e"=1]
+"SDF2" -> "MOXD1" ["e"=1]
+"TRABD2A" -> "TRABD2B" ["e"=1]
+"TRABD2A" -> "QSOX1" ["e"=1]
+"TRABD2A" -> "BACE1" ["e"=1]
+"TRABD2A" -> "LIPG" ["e"=1]
+"TRABD2B" -> "TRABD2A" ["e"=1]
+"TRABD2B" -> "CYB5D2" ["e"=1]
+"TRABD2B" -> "LIPC" ["e"=1]
+"TRABD2B" -> "VWA1" ["e"=1]
+"VWA1" -> "QSOX1" ["e"=1]
+"VWA1" -> "TRABD2B" ["e"=1]
+"VWA1" -> "HTRA2" ["e"=1]
+"VWA1" -> "CYB5D2" ["e"=1]
 }

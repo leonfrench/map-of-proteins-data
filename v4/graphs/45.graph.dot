@@ -18,80 +18,80 @@ digraph G {
 "WNT8B" ["l"="15.992,-5.718"]
 "WNT9A" ["l"="15.993,-5.718"]
 "WNT9B" ["l"="15.990,-5.715"]
-"WNT1" -> "WNT6"
-"WNT1" -> "WNT10B"
-"WNT1" -> "WNT8B"
-"WNT1" -> "WNT9B"
-"WNT10A" -> "WNT10B"
-"WNT10A" -> "WNT9A"
-"WNT10A" -> "WNT3A"
-"WNT10A" -> "WNT9B"
-"WNT10B" -> "WNT9A"
-"WNT10B" -> "WNT10A"
-"WNT10B" -> "WNT1"
-"WNT10B" -> "WNT9B"
-"WNT11" -> "WNT7B"
-"WNT11" -> "WNT7A"
-"WNT11" -> "WNT9B"
-"WNT11" -> "WNT4"
-"WNT16" -> "WNT9A"
-"WNT16" -> "WNT2"
-"WNT16" -> "WNT7A"
-"WNT16" -> "WNT7B"
-"WNT2" -> "WNT16"
-"WNT2" -> "WNT9A"
-"WNT2" -> "WNT7A"
-"WNT2" -> "WNT7B"
-"WNT2B" -> "WNT7A"
-"WNT2B" -> "WNT9A"
-"WNT2B" -> "WNT7B"
-"WNT2B" -> "WNT2"
-"WNT3" -> "WNT3A"
-"WNT3" -> "WNT7B"
-"WNT3" -> "WNT7A"
-"WNT3" -> "WNT9B"
-"WNT3A" -> "WNT3"
-"WNT3A" -> "WNT7B"
-"WNT3A" -> "WNT8B"
-"WNT3A" -> "WNT9B"
-"WNT4" -> "WNT9B"
-"WNT4" -> "WNT7A"
-"WNT4" -> "WNT7B"
-"WNT4" -> "WNT5A"
-"WNT5A" -> "WNT7A"
-"WNT5A" -> "WNT7B"
-"WNT5A" -> "WNT3A"
-"WNT5A" -> "WNT4"
-"WNT5B" -> "WNT7A"
-"WNT5B" -> "WNT3"
-"WNT5B" -> "WNT5A"
-"WNT5B" -> "WNT16"
-"WNT6" -> "WNT1"
-"WNT6" -> "WNT10A"
-"WNT6" -> "WNT9B"
-"WNT6" -> "WNT10B"
-"WNT7A" -> "WNT7B"
-"WNT7A" -> "WNT5A"
-"WNT7A" -> "WNT4"
-"WNT7A" -> "WNT3"
-"WNT7B" -> "WNT7A"
-"WNT7B" -> "WNT3A"
-"WNT7B" -> "WNT3"
-"WNT7B" -> "WNT5A"
-"WNT8A" -> "WNT8B"
-"WNT8A" -> "WNT3A"
-"WNT8A" -> "WNT7B"
-"WNT8A" -> "WNT9B"
-"WNT8B" -> "WNT8A"
-"WNT8B" -> "WNT3A"
-"WNT8B" -> "WNT7B"
-"WNT8B" -> "WNT1"
-"WNT9A" -> "WNT10B"
-"WNT9A" -> "WNT10A"
-"WNT9A" -> "WNT9B"
-"WNT9A" -> "WNT16"
-"WNT9B" -> "WNT4"
-"WNT9B" -> "WNT3A"
-"WNT9B" -> "WNT9A"
-"WNT9B" -> "WNT7A"
+"WNT1" -> "WNT6" ["e"=1]
+"WNT1" -> "WNT10B" ["e"=1]
+"WNT1" -> "WNT8B" ["e"=1]
+"WNT1" -> "WNT9B" ["e"=1]
+"WNT10A" -> "WNT10B" ["e"=1]
+"WNT10A" -> "WNT9A" ["e"=1]
+"WNT10A" -> "WNT3A" ["e"=1]
+"WNT10A" -> "WNT9B" ["e"=1]
+"WNT10B" -> "WNT9A" ["e"=1]
+"WNT10B" -> "WNT10A" ["e"=1]
+"WNT10B" -> "WNT1" ["e"=1]
+"WNT10B" -> "WNT9B" ["e"=1]
+"WNT11" -> "WNT7B" ["e"=1]
+"WNT11" -> "WNT7A" ["e"=1]
+"WNT11" -> "WNT9B" ["e"=1]
+"WNT11" -> "WNT4" ["e"=1]
+"WNT16" -> "WNT9A" ["e"=1]
+"WNT16" -> "WNT2" ["e"=1]
+"WNT16" -> "WNT7A" ["e"=1]
+"WNT16" -> "WNT7B" ["e"=1]
+"WNT2" -> "WNT16" ["e"=1]
+"WNT2" -> "WNT9A" ["e"=1]
+"WNT2" -> "WNT7A" ["e"=1]
+"WNT2" -> "WNT7B" ["e"=1]
+"WNT2B" -> "WNT7A" ["e"=1]
+"WNT2B" -> "WNT9A" ["e"=1]
+"WNT2B" -> "WNT7B" ["e"=1]
+"WNT2B" -> "WNT2" ["e"=1]
+"WNT3" -> "WNT3A" ["e"=1]
+"WNT3" -> "WNT7B" ["e"=1]
+"WNT3" -> "WNT7A" ["e"=1]
+"WNT3" -> "WNT9B" ["e"=1]
+"WNT3A" -> "WNT3" ["e"=1]
+"WNT3A" -> "WNT7B" ["e"=1]
+"WNT3A" -> "WNT8B" ["e"=1]
+"WNT3A" -> "WNT9B" ["e"=1]
+"WNT4" -> "WNT9B" ["e"=1]
+"WNT4" -> "WNT7A" ["e"=1]
+"WNT4" -> "WNT7B" ["e"=1]
+"WNT4" -> "WNT5A" ["e"=1]
+"WNT5A" -> "WNT7A" ["e"=1]
+"WNT5A" -> "WNT7B" ["e"=1]
+"WNT5A" -> "WNT3A" ["e"=1]
+"WNT5A" -> "WNT4" ["e"=1]
+"WNT5B" -> "WNT7A" ["e"=1]
+"WNT5B" -> "WNT3" ["e"=1]
+"WNT5B" -> "WNT5A" ["e"=1]
+"WNT5B" -> "WNT16" ["e"=1]
+"WNT6" -> "WNT1" ["e"=1]
+"WNT6" -> "WNT10A" ["e"=1]
+"WNT6" -> "WNT9B" ["e"=1]
+"WNT6" -> "WNT10B" ["e"=1]
+"WNT7A" -> "WNT7B" ["e"=1]
+"WNT7A" -> "WNT5A" ["e"=1]
+"WNT7A" -> "WNT4" ["e"=1]
+"WNT7A" -> "WNT3" ["e"=1]
+"WNT7B" -> "WNT7A" ["e"=1]
+"WNT7B" -> "WNT3A" ["e"=1]
+"WNT7B" -> "WNT3" ["e"=1]
+"WNT7B" -> "WNT5A" ["e"=1]
+"WNT8A" -> "WNT8B" ["e"=1]
+"WNT8A" -> "WNT3A" ["e"=1]
+"WNT8A" -> "WNT7B" ["e"=1]
+"WNT8A" -> "WNT9B" ["e"=1]
+"WNT8B" -> "WNT8A" ["e"=1]
+"WNT8B" -> "WNT3A" ["e"=1]
+"WNT8B" -> "WNT7B" ["e"=1]
+"WNT8B" -> "WNT1" ["e"=1]
+"WNT9A" -> "WNT10B" ["e"=1]
+"WNT9A" -> "WNT10A" ["e"=1]
+"WNT9A" -> "WNT9B" ["e"=1]
+"WNT9A" -> "WNT16" ["e"=1]
+"WNT9B" -> "WNT4" ["e"=1]
+"WNT9B" -> "WNT3A" ["e"=1]
+"WNT9B" -> "WNT9A" ["e"=1]
+"WNT9B" -> "WNT7A" ["e"=1]
 }

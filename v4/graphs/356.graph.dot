@@ -21,92 +21,92 @@ digraph G {
 "TUT1" ["l"="9.802,1.981"]
 "ZC3H7A" ["l"="9.739,1.987"]
 "ZC3H7B" ["l"="9.774,1.897"]
-"ADAR" -> "ZC3H7B"
-"ADAR" -> "PLEKHM3"
-"ADAR" -> "FBXO10"
-"ADAR" -> "HELB"
-"ANKRD33B" -> "PNPLA1"
-"ANKRD33B" -> "FBXO10"
-"ANKRD33B" -> "FBXO31"
-"ANKRD33B" -> "TTLL8"
-"ATG13" -> "DCAF15"
-"ATG13" -> "BRF1"
-"ATG13" -> "PNPLA1"
-"ATG13" -> "FBXO31"
-"BIRC3" -> "RUBCNL"
-"BIRC3" -> "PLEKHM3"
-"BIRC3" -> "HELB"
-"BIRC3" -> "ADAR"
-"BRF1" -> "TTLL8"
-"BRF1" -> "DCAF15"
-"BRF1" -> "FBXO31"
-"BRF1" -> "L3MBTL1"
-"DCAF15" -> "FBXO31"
-"DCAF15" -> "FBXO10"
-"DCAF15" -> "BRF1"
-"DCAF15" -> "ATG13"
-"FBXO10" -> "FBXO31"
-"FBXO10" -> "ANKRD33B"
-"FBXO10" -> "PLEKHM3"
-"FBXO10" -> "DCAF15"
-"FBXO30" -> "FBXO31"
-"FBXO30" -> "KAT14"
-"FBXO30" -> "RUBCNL"
-"FBXO30" -> "PLEKHM3"
-"FBXO31" -> "FBXO10"
-"FBXO31" -> "DCAF15"
-"FBXO31" -> "L3MBTL1"
-"FBXO31" -> "TTLL8"
-"HELB" -> "BIRC3"
-"HELB" -> "ADAR"
-"HELB" -> "ANKRD33B"
-"HELB" -> "TENT4B"
-"KAT14" -> "FBXO31"
-"KAT14" -> "FBXO30"
-"KAT14" -> "DCAF15"
-"KAT14" -> "ZC3H7B"
-"L3MBTL1" -> "TTLL8"
-"L3MBTL1" -> "ZC3H7B"
-"L3MBTL1" -> "PLEKHM3"
-"L3MBTL1" -> "FBXO31"
-"NT5C1B" -> "RUBCNL"
-"NT5C1B" -> "PLEKHM3"
-"NT5C1B" -> "PNPLA1"
-"NT5C1B" -> "ANKRD33B"
-"PAPOLA" -> "TENT4B"
-"PAPOLA" -> "TTLL8"
-"PAPOLA" -> "PNPLA1"
-"PAPOLA" -> "BRF1"
-"PLEKHM3" -> "RUBCNL"
-"PLEKHM3" -> "ZC3H7B"
-"PLEKHM3" -> "FBXO10"
-"PLEKHM3" -> "L3MBTL1"
-"PNPLA1" -> "TTLL8"
-"PNPLA1" -> "ANKRD33B"
-"PNPLA1" -> "NT5C1B"
-"PNPLA1" -> "FBXO31"
-"RUBCNL" -> "PLEKHM3"
-"RUBCNL" -> "BIRC3"
-"RUBCNL" -> "NT5C1B"
-"RUBCNL" -> "L3MBTL1"
-"TENT4B" -> "PAPOLA"
-"TENT4B" -> "TTLL8"
-"TENT4B" -> "ANKRD33B"
-"TENT4B" -> "PNPLA1"
-"TTLL8" -> "L3MBTL1"
-"TTLL8" -> "PNPLA1"
-"TTLL8" -> "BRF1"
-"TTLL8" -> "FBXO31"
-"TUT1" -> "PNPLA1"
-"TUT1" -> "ANKRD33B"
-"TUT1" -> "TTLL8"
-"TUT1" -> "ZC3H7B"
-"ZC3H7A" -> "ZC3H7B"
-"ZC3H7A" -> "PLEKHM3"
-"ZC3H7A" -> "RUBCNL"
-"ZC3H7A" -> "ADAR"
-"ZC3H7B" -> "PLEKHM3"
-"ZC3H7B" -> "ZC3H7A"
-"ZC3H7B" -> "L3MBTL1"
-"ZC3H7B" -> "ADAR"
+"ADAR" -> "ZC3H7B" ["e"=1]
+"ADAR" -> "PLEKHM3" ["e"=1]
+"ADAR" -> "FBXO10" ["e"=1]
+"ADAR" -> "HELB" ["e"=1]
+"ANKRD33B" -> "PNPLA1" ["e"=1]
+"ANKRD33B" -> "FBXO10" ["e"=1]
+"ANKRD33B" -> "FBXO31" ["e"=1]
+"ANKRD33B" -> "TTLL8" ["e"=1]
+"ATG13" -> "DCAF15" ["e"=1]
+"ATG13" -> "BRF1" ["e"=1]
+"ATG13" -> "PNPLA1" ["e"=1]
+"ATG13" -> "FBXO31" ["e"=1]
+"BIRC3" -> "RUBCNL" ["e"=1]
+"BIRC3" -> "PLEKHM3" ["e"=1]
+"BIRC3" -> "HELB" ["e"=1]
+"BIRC3" -> "ADAR" ["e"=1]
+"BRF1" -> "TTLL8" ["e"=1]
+"BRF1" -> "DCAF15" ["e"=1]
+"BRF1" -> "FBXO31" ["e"=1]
+"BRF1" -> "L3MBTL1" ["e"=1]
+"DCAF15" -> "FBXO31" ["e"=1]
+"DCAF15" -> "FBXO10" ["e"=1]
+"DCAF15" -> "BRF1" ["e"=1]
+"DCAF15" -> "ATG13" ["e"=1]
+"FBXO10" -> "FBXO31" ["e"=1]
+"FBXO10" -> "ANKRD33B" ["e"=1]
+"FBXO10" -> "PLEKHM3" ["e"=1]
+"FBXO10" -> "DCAF15" ["e"=1]
+"FBXO30" -> "FBXO31" ["e"=1]
+"FBXO30" -> "KAT14" ["e"=1]
+"FBXO30" -> "RUBCNL" ["e"=1]
+"FBXO30" -> "PLEKHM3" ["e"=1]
+"FBXO31" -> "FBXO10" ["e"=1]
+"FBXO31" -> "DCAF15" ["e"=1]
+"FBXO31" -> "L3MBTL1" ["e"=1]
+"FBXO31" -> "TTLL8" ["e"=1]
+"HELB" -> "BIRC3" ["e"=1]
+"HELB" -> "ADAR" ["e"=1]
+"HELB" -> "ANKRD33B" ["e"=1]
+"HELB" -> "TENT4B" ["e"=1]
+"KAT14" -> "FBXO31" ["e"=1]
+"KAT14" -> "FBXO30" ["e"=1]
+"KAT14" -> "DCAF15" ["e"=1]
+"KAT14" -> "ZC3H7B" ["e"=1]
+"L3MBTL1" -> "TTLL8" ["e"=1]
+"L3MBTL1" -> "ZC3H7B" ["e"=1]
+"L3MBTL1" -> "PLEKHM3" ["e"=1]
+"L3MBTL1" -> "FBXO31" ["e"=1]
+"NT5C1B" -> "RUBCNL" ["e"=1]
+"NT5C1B" -> "PLEKHM3" ["e"=1]
+"NT5C1B" -> "PNPLA1" ["e"=1]
+"NT5C1B" -> "ANKRD33B" ["e"=1]
+"PAPOLA" -> "TENT4B" ["e"=1]
+"PAPOLA" -> "TTLL8" ["e"=1]
+"PAPOLA" -> "PNPLA1" ["e"=1]
+"PAPOLA" -> "BRF1" ["e"=1]
+"PLEKHM3" -> "RUBCNL" ["e"=1]
+"PLEKHM3" -> "ZC3H7B" ["e"=1]
+"PLEKHM3" -> "FBXO10" ["e"=1]
+"PLEKHM3" -> "L3MBTL1" ["e"=1]
+"PNPLA1" -> "TTLL8" ["e"=1]
+"PNPLA1" -> "ANKRD33B" ["e"=1]
+"PNPLA1" -> "NT5C1B" ["e"=1]
+"PNPLA1" -> "FBXO31" ["e"=1]
+"RUBCNL" -> "PLEKHM3" ["e"=1]
+"RUBCNL" -> "BIRC3" ["e"=1]
+"RUBCNL" -> "NT5C1B" ["e"=1]
+"RUBCNL" -> "L3MBTL1" ["e"=1]
+"TENT4B" -> "PAPOLA" ["e"=1]
+"TENT4B" -> "TTLL8" ["e"=1]
+"TENT4B" -> "ANKRD33B" ["e"=1]
+"TENT4B" -> "PNPLA1" ["e"=1]
+"TTLL8" -> "L3MBTL1" ["e"=1]
+"TTLL8" -> "PNPLA1" ["e"=1]
+"TTLL8" -> "BRF1" ["e"=1]
+"TTLL8" -> "FBXO31" ["e"=1]
+"TUT1" -> "PNPLA1" ["e"=1]
+"TUT1" -> "ANKRD33B" ["e"=1]
+"TUT1" -> "TTLL8" ["e"=1]
+"TUT1" -> "ZC3H7B" ["e"=1]
+"ZC3H7A" -> "ZC3H7B" ["e"=1]
+"ZC3H7A" -> "PLEKHM3" ["e"=1]
+"ZC3H7A" -> "RUBCNL" ["e"=1]
+"ZC3H7A" -> "ADAR" ["e"=1]
+"ZC3H7B" -> "PLEKHM3" ["e"=1]
+"ZC3H7B" -> "ZC3H7A" ["e"=1]
+"ZC3H7B" -> "L3MBTL1" ["e"=1]
+"ZC3H7B" -> "ADAR" ["e"=1]
 }

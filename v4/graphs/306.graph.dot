@@ -38,160 +38,160 @@ digraph G {
 "VXN" ["l"="9.470,4.056"]
 "ZBP1" ["l"="9.422,3.932"]
 "ZGLP1" ["l"="9.554,3.954"]
-"ANXA2R" -> "C19orf84"
-"ANXA2R" -> "C9orf152"
-"ANXA2R" -> "FRG2"
-"ANXA2R" -> "FRG2C"
-"C10orf62" -> "SSMEM1"
-"C10orf62" -> "FRG2"
-"C10orf62" -> "C12orf54"
-"C10orf62" -> "FRG2C"
-"C10orf95" -> "CBY3"
-"C10orf95" -> "C20orf144"
-"C10orf95" -> "C19orf84"
-"C10orf95" -> "RFLNA"
-"C12orf54" -> "FRG2C"
-"C12orf54" -> "CCDC201"
-"C12orf54" -> "DPPA3"
-"C12orf54" -> "C9orf152"
-"C12orf71" -> "DPPA3"
-"C12orf71" -> "SSMEM1"
-"C12orf71" -> "FRG2C"
-"C12orf71" -> "CCDC201"
-"C17orf100" -> "SNURF"
-"C17orf100" -> "VXN"
-"C17orf100" -> "RFLNA"
-"C17orf100" -> "FRG2"
-"C19orf84" -> "ANXA2R"
-"C19orf84" -> "CLBA1"
-"C19orf84" -> "FRG2C"
-"C19orf84" -> "C9orf152"
-"C20orf144" -> "CBY3"
-"C20orf144" -> "C19orf84"
-"C20orf144" -> "C9orf152"
-"C20orf144" -> "VXN"
-"C6orf141" -> "CLBA1"
-"C6orf141" -> "C19orf84"
-"C6orf141" -> "ANXA2R"
-"C6orf141" -> "C9orf152"
-"C9orf152" -> "CLBA1"
-"C9orf152" -> "FRG2C"
-"C9orf152" -> "ANXA2R"
-"C9orf152" -> "C19orf84"
-"CBY3" -> "C20orf144"
-"CBY3" -> "C10orf95"
-"CBY3" -> "C19orf84"
-"CBY3" -> "ANXA2R"
-"CCDC201" -> "C12orf71"
-"CCDC201" -> "C12orf54"
-"CCDC201" -> "DPPA3"
-"CCDC201" -> "ANXA2R"
-"CCDC32" -> "MYOCOS"
-"CCDC32" -> "C12orf71"
-"CCDC32" -> "CCDC201"
-"CCDC32" -> "DPPA3"
-"CLBA1" -> "C9orf152"
-"CLBA1" -> "C19orf84"
-"CLBA1" -> "FRG2C"
-"CLBA1" -> "C6orf141"
-"DDIT4L" -> "C12orf71"
-"DDIT4L" -> "MYOCOS"
-"DDIT4L" -> "DPPA3"
-"DDIT4L" -> "RFLNA"
-"DEXI" -> "PRR23B"
-"DEXI" -> "MYOCOS"
-"DEXI" -> "ANXA2R"
-"DEXI" -> "CCDC32"
-"DPPA3" -> "C12orf71"
-"DPPA3" -> "C12orf54"
-"DPPA3" -> "CCDC201"
-"DPPA3" -> "FRG2C"
-"FAM216B" -> "C9orf152"
-"FAM216B" -> "MYOCOS"
-"FAM216B" -> "SNURF"
-"FAM216B" -> "DPPA3"
-"FOXR1" -> "MAJIN"
-"FOXR1" -> "MYOCOS"
-"FOXR1" -> "FRG2C"
-"FOXR1" -> "ZGLP1"
-"FRG2" -> "FRG2C"
-"FRG2" -> "ANXA2R"
-"FRG2" -> "C9orf152"
-"FRG2" -> "C19orf84"
-"FRG2C" -> "FRG2"
-"FRG2C" -> "C9orf152"
-"FRG2C" -> "C19orf84"
-"FRG2C" -> "CLBA1"
-"GAP43" -> "FRG2C"
-"GAP43" -> "FRG2"
-"GAP43" -> "C17orf100"
-"GAP43" -> "SSMEM1"
-"IQCJ" -> "MYOCOS"
-"IQCJ" -> "C19orf84"
-"IQCJ" -> "RFLNA"
-"IQCJ" -> "ANXA2R"
-"LBHD1" -> "ANXA2R"
-"LBHD1" -> "CLBA1"
-"LBHD1" -> "C9orf152"
-"LBHD1" -> "C6orf141"
-"MAJIN" -> "FRG2C"
-"MAJIN" -> "FOXR1"
-"MAJIN" -> "FRG2"
-"MAJIN" -> "MYOCOS"
-"MOBP" -> "MYOCOS"
-"MOBP" -> "SSMEM1"
-"MOBP" -> "VXN"
-"MOBP" -> "FRG2"
-"MYOCOS" -> "VXN"
-"MYOCOS" -> "C19orf84"
-"MYOCOS" -> "FRG2C"
-"MYOCOS" -> "RFLNA"
-"PRR23B" -> "RFLNA"
-"PRR23B" -> "SPEM1"
-"PRR23B" -> "MYOCOS"
-"PRR23B" -> "C19orf84"
-"RFLNA" -> "C19orf84"
-"RFLNA" -> "PRR23B"
-"RFLNA" -> "MYOCOS"
-"RFLNA" -> "ANXA2R"
-"SNURF" -> "C17orf100"
-"SNURF" -> "ANXA2R"
-"SNURF" -> "C12orf54"
-"SNURF" -> "FRG2C"
-"SPACA7" -> "FRG2"
-"SPACA7" -> "FRG2C"
-"SPACA7" -> "CCDC32"
-"SPACA7" -> "C10orf62"
-"SPEM1" -> "SSMEM1"
-"SPEM1" -> "PRR23B"
-"SPEM1" -> "C12orf71"
-"SPEM1" -> "ANXA2R"
-"SSMEM1" -> "C12orf71"
-"SSMEM1" -> "FRG2C"
-"SSMEM1" -> "SPEM1"
-"SSMEM1" -> "FRG2"
-"TEX35" -> "C12orf54"
-"TEX35" -> "VXN"
-"TEX35" -> "C20orf144"
-"TEX35" -> "FRG2C"
-"TEX38" -> "SPEM1"
-"TEX38" -> "PRR23B"
-"TEX38" -> "MYOCOS"
-"TEX38" -> "FOXR1"
-"TSACC" -> "MYOCOS"
-"TSACC" -> "C12orf54"
-"TSACC" -> "FRG2C"
-"TSACC" -> "ZGLP1"
-"VXN" -> "MYOCOS"
-"VXN" -> "C20orf144"
-"VXN" -> "C9orf152"
-"VXN" -> "C12orf54"
-"ZBP1" -> "FRG2C"
-"ZBP1" -> "FRG2"
-"ZBP1" -> "C9orf152"
-"ZBP1" -> "ANXA2R"
-"ZGLP1" -> "ANXA2R"
-"ZGLP1" -> "C19orf84"
-"ZGLP1" -> "C9orf152"
-"ZGLP1" -> "CLBA1"
+"ANXA2R" -> "C19orf84" ["e"=1]
+"ANXA2R" -> "C9orf152" ["e"=1]
+"ANXA2R" -> "FRG2" ["e"=1]
+"ANXA2R" -> "FRG2C" ["e"=1]
+"C10orf62" -> "SSMEM1" ["e"=1]
+"C10orf62" -> "FRG2" ["e"=1]
+"C10orf62" -> "C12orf54" ["e"=1]
+"C10orf62" -> "FRG2C" ["e"=1]
+"C10orf95" -> "CBY3" ["e"=1]
+"C10orf95" -> "C20orf144" ["e"=1]
+"C10orf95" -> "C19orf84" ["e"=1]
+"C10orf95" -> "RFLNA" ["e"=1]
+"C12orf54" -> "FRG2C" ["e"=1]
+"C12orf54" -> "CCDC201" ["e"=1]
+"C12orf54" -> "DPPA3" ["e"=1]
+"C12orf54" -> "C9orf152" ["e"=1]
+"C12orf71" -> "DPPA3" ["e"=1]
+"C12orf71" -> "SSMEM1" ["e"=1]
+"C12orf71" -> "FRG2C" ["e"=1]
+"C12orf71" -> "CCDC201" ["e"=1]
+"C17orf100" -> "SNURF" ["e"=1]
+"C17orf100" -> "VXN" ["e"=1]
+"C17orf100" -> "RFLNA" ["e"=1]
+"C17orf100" -> "FRG2" ["e"=1]
+"C19orf84" -> "ANXA2R" ["e"=1]
+"C19orf84" -> "CLBA1" ["e"=1]
+"C19orf84" -> "FRG2C" ["e"=1]
+"C19orf84" -> "C9orf152" ["e"=1]
+"C20orf144" -> "CBY3" ["e"=1]
+"C20orf144" -> "C19orf84" ["e"=1]
+"C20orf144" -> "C9orf152" ["e"=1]
+"C20orf144" -> "VXN" ["e"=1]
+"C6orf141" -> "CLBA1" ["e"=1]
+"C6orf141" -> "C19orf84" ["e"=1]
+"C6orf141" -> "ANXA2R" ["e"=1]
+"C6orf141" -> "C9orf152" ["e"=1]
+"C9orf152" -> "CLBA1" ["e"=1]
+"C9orf152" -> "FRG2C" ["e"=1]
+"C9orf152" -> "ANXA2R" ["e"=1]
+"C9orf152" -> "C19orf84" ["e"=1]
+"CBY3" -> "C20orf144" ["e"=1]
+"CBY3" -> "C10orf95" ["e"=1]
+"CBY3" -> "C19orf84" ["e"=1]
+"CBY3" -> "ANXA2R" ["e"=1]
+"CCDC201" -> "C12orf71" ["e"=1]
+"CCDC201" -> "C12orf54" ["e"=1]
+"CCDC201" -> "DPPA3" ["e"=1]
+"CCDC201" -> "ANXA2R" ["e"=1]
+"CCDC32" -> "MYOCOS" ["e"=1]
+"CCDC32" -> "C12orf71" ["e"=1]
+"CCDC32" -> "CCDC201" ["e"=1]
+"CCDC32" -> "DPPA3" ["e"=1]
+"CLBA1" -> "C9orf152" ["e"=1]
+"CLBA1" -> "C19orf84" ["e"=1]
+"CLBA1" -> "FRG2C" ["e"=1]
+"CLBA1" -> "C6orf141" ["e"=1]
+"DDIT4L" -> "C12orf71" ["e"=1]
+"DDIT4L" -> "MYOCOS" ["e"=1]
+"DDIT4L" -> "DPPA3" ["e"=1]
+"DDIT4L" -> "RFLNA" ["e"=1]
+"DEXI" -> "PRR23B" ["e"=1]
+"DEXI" -> "MYOCOS" ["e"=1]
+"DEXI" -> "ANXA2R" ["e"=1]
+"DEXI" -> "CCDC32" ["e"=1]
+"DPPA3" -> "C12orf71" ["e"=1]
+"DPPA3" -> "C12orf54" ["e"=1]
+"DPPA3" -> "CCDC201" ["e"=1]
+"DPPA3" -> "FRG2C" ["e"=1]
+"FAM216B" -> "C9orf152" ["e"=1]
+"FAM216B" -> "MYOCOS" ["e"=1]
+"FAM216B" -> "SNURF" ["e"=1]
+"FAM216B" -> "DPPA3" ["e"=1]
+"FOXR1" -> "MAJIN" ["e"=1]
+"FOXR1" -> "MYOCOS" ["e"=1]
+"FOXR1" -> "FRG2C" ["e"=1]
+"FOXR1" -> "ZGLP1" ["e"=1]
+"FRG2" -> "FRG2C" ["e"=1]
+"FRG2" -> "ANXA2R" ["e"=1]
+"FRG2" -> "C9orf152" ["e"=1]
+"FRG2" -> "C19orf84" ["e"=1]
+"FRG2C" -> "FRG2" ["e"=1]
+"FRG2C" -> "C9orf152" ["e"=1]
+"FRG2C" -> "C19orf84" ["e"=1]
+"FRG2C" -> "CLBA1" ["e"=1]
+"GAP43" -> "FRG2C" ["e"=1]
+"GAP43" -> "FRG2" ["e"=1]
+"GAP43" -> "C17orf100" ["e"=1]
+"GAP43" -> "SSMEM1" ["e"=1]
+"IQCJ" -> "MYOCOS" ["e"=1]
+"IQCJ" -> "C19orf84" ["e"=1]
+"IQCJ" -> "RFLNA" ["e"=1]
+"IQCJ" -> "ANXA2R" ["e"=1]
+"LBHD1" -> "ANXA2R" ["e"=1]
+"LBHD1" -> "CLBA1" ["e"=1]
+"LBHD1" -> "C9orf152" ["e"=1]
+"LBHD1" -> "C6orf141" ["e"=1]
+"MAJIN" -> "FRG2C" ["e"=1]
+"MAJIN" -> "FOXR1" ["e"=1]
+"MAJIN" -> "FRG2" ["e"=1]
+"MAJIN" -> "MYOCOS" ["e"=1]
+"MOBP" -> "MYOCOS" ["e"=1]
+"MOBP" -> "SSMEM1" ["e"=1]
+"MOBP" -> "VXN" ["e"=1]
+"MOBP" -> "FRG2" ["e"=1]
+"MYOCOS" -> "VXN" ["e"=1]
+"MYOCOS" -> "C19orf84" ["e"=1]
+"MYOCOS" -> "FRG2C" ["e"=1]
+"MYOCOS" -> "RFLNA" ["e"=1]
+"PRR23B" -> "RFLNA" ["e"=1]
+"PRR23B" -> "SPEM1" ["e"=1]
+"PRR23B" -> "MYOCOS" ["e"=1]
+"PRR23B" -> "C19orf84" ["e"=1]
+"RFLNA" -> "C19orf84" ["e"=1]
+"RFLNA" -> "PRR23B" ["e"=1]
+"RFLNA" -> "MYOCOS" ["e"=1]
+"RFLNA" -> "ANXA2R" ["e"=1]
+"SNURF" -> "C17orf100" ["e"=1]
+"SNURF" -> "ANXA2R" ["e"=1]
+"SNURF" -> "C12orf54" ["e"=1]
+"SNURF" -> "FRG2C" ["e"=1]
+"SPACA7" -> "FRG2" ["e"=1]
+"SPACA7" -> "FRG2C" ["e"=1]
+"SPACA7" -> "CCDC32" ["e"=1]
+"SPACA7" -> "C10orf62" ["e"=1]
+"SPEM1" -> "SSMEM1" ["e"=1]
+"SPEM1" -> "PRR23B" ["e"=1]
+"SPEM1" -> "C12orf71" ["e"=1]
+"SPEM1" -> "ANXA2R" ["e"=1]
+"SSMEM1" -> "C12orf71" ["e"=1]
+"SSMEM1" -> "FRG2C" ["e"=1]
+"SSMEM1" -> "SPEM1" ["e"=1]
+"SSMEM1" -> "FRG2" ["e"=1]
+"TEX35" -> "C12orf54" ["e"=1]
+"TEX35" -> "VXN" ["e"=1]
+"TEX35" -> "C20orf144" ["e"=1]
+"TEX35" -> "FRG2C" ["e"=1]
+"TEX38" -> "SPEM1" ["e"=1]
+"TEX38" -> "PRR23B" ["e"=1]
+"TEX38" -> "MYOCOS" ["e"=1]
+"TEX38" -> "FOXR1" ["e"=1]
+"TSACC" -> "MYOCOS" ["e"=1]
+"TSACC" -> "C12orf54" ["e"=1]
+"TSACC" -> "FRG2C" ["e"=1]
+"TSACC" -> "ZGLP1" ["e"=1]
+"VXN" -> "MYOCOS" ["e"=1]
+"VXN" -> "C20orf144" ["e"=1]
+"VXN" -> "C9orf152" ["e"=1]
+"VXN" -> "C12orf54" ["e"=1]
+"ZBP1" -> "FRG2C" ["e"=1]
+"ZBP1" -> "FRG2" ["e"=1]
+"ZBP1" -> "C9orf152" ["e"=1]
+"ZBP1" -> "ANXA2R" ["e"=1]
+"ZGLP1" -> "ANXA2R" ["e"=1]
+"ZGLP1" -> "C19orf84" ["e"=1]
+"ZGLP1" -> "C9orf152" ["e"=1]
+"ZGLP1" -> "CLBA1" ["e"=1]
 }

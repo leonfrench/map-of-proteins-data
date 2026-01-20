@@ -24,104 +24,104 @@ digraph G {
 "WFDC13" ["l"="14.506,-2.186"]
 "WFDC2" ["l"="14.637,-2.299"]
 "WFDC3" ["l"="14.502,-2.238"]
-"CLPS" -> "SLPI"
-"CLPS" -> "SPINK7"
-"CLPS" -> "SPINK4"
-"CLPS" -> "MSMB"
-"DEFB118" -> "DEFB132"
-"DEFB118" -> "WFDC13"
-"DEFB118" -> "DEFB129"
-"DEFB118" -> "WFDC12"
-"DEFB129" -> "DEFB118"
-"DEFB129" -> "SPESP1"
-"DEFB129" -> "DEFB132"
-"DEFB129" -> "WFDC13"
-"DEFB132" -> "WFDC13"
-"DEFB132" -> "DEFB118"
-"DEFB132" -> "DEFB129"
-"DEFB132" -> "WFDC12"
-"MIA" -> "SPINK2"
-"MIA" -> "MSMB"
-"MIA" -> "SPINK4"
-"MIA" -> "SLPI"
-"MSMB" -> "SPINK8"
-"MSMB" -> "SPINK4"
-"MSMB" -> "SPINK7"
-"MSMB" -> "TFF3"
-"PI3" -> "SLPI"
-"PI3" -> "SPINK7"
-"PI3" -> "WFDC12"
-"PI3" -> "SPINK6"
-"SLPI" -> "WFDC2"
-"SLPI" -> "PI3"
-"SLPI" -> "WFDC12"
-"SLPI" -> "SPINK6"
-"SPESP1" -> "DEFB129"
-"SPESP1" -> "DEFB118"
-"SPESP1" -> "WFDC13"
-"SPESP1" -> "DEFB132"
-"SPINK1" -> "SPINK6"
-"SPINK1" -> "SPINK7"
-"SPINK1" -> "SPINK4"
-"SPINK1" -> "MSMB"
-"SPINK13" -> "SPINK14"
-"SPINK13" -> "SPINK9"
-"SPINK13" -> "SPINK8"
-"SPINK13" -> "SPINK6"
-"SPINK14" -> "SPINK13"
-"SPINK14" -> "SPINK9"
-"SPINK14" -> "SPINK8"
-"SPINK14" -> "SPINK6"
-"SPINK2" -> "SPINK6"
-"SPINK2" -> "SPINK14"
-"SPINK2" -> "SPINK13"
-"SPINK2" -> "WFDC2"
-"SPINK4" -> "TFF3"
-"SPINK4" -> "TFF1"
-"SPINK4" -> "SPINK8"
-"SPINK4" -> "MSMB"
-"SPINK6" -> "SPINK9"
-"SPINK6" -> "SPINK7"
-"SPINK6" -> "SPINK14"
-"SPINK6" -> "SPINK1"
-"SPINK7" -> "SPINK6"
-"SPINK7" -> "SPINK9"
-"SPINK7" -> "SPINK1"
-"SPINK7" -> "PI3"
-"SPINK8" -> "SPINK14"
-"SPINK8" -> "SPINK13"
-"SPINK8" -> "SPINK4"
-"SPINK8" -> "SPINK9"
-"SPINK9" -> "SPINK14"
-"SPINK9" -> "SPINK13"
-"SPINK9" -> "SPINK6"
-"SPINK9" -> "SPINK8"
-"TFF1" -> "TFF3"
-"TFF1" -> "TFF2"
-"TFF1" -> "SPINK4"
-"TFF1" -> "MSMB"
-"TFF2" -> "TFF1"
-"TFF2" -> "TFF3"
-"TFF2" -> "WFDC2"
-"TFF2" -> "SLPI"
-"TFF3" -> "TFF1"
-"TFF3" -> "TFF2"
-"TFF3" -> "SPINK4"
-"TFF3" -> "WFDC2"
-"WFDC12" -> "WFDC13"
-"WFDC12" -> "WFDC3"
-"WFDC12" -> "DEFB132"
-"WFDC12" -> "SLPI"
-"WFDC13" -> "DEFB132"
-"WFDC13" -> "DEFB118"
-"WFDC13" -> "WFDC12"
-"WFDC13" -> "SPINK14"
-"WFDC2" -> "SLPI"
-"WFDC2" -> "TFF2"
-"WFDC2" -> "WFDC12"
-"WFDC2" -> "SPINK6"
-"WFDC3" -> "WFDC12"
-"WFDC3" -> "WFDC2"
-"WFDC3" -> "SLPI"
-"WFDC3" -> "WFDC13"
+"CLPS" -> "SLPI" ["e"=1]
+"CLPS" -> "SPINK7" ["e"=1]
+"CLPS" -> "SPINK4" ["e"=1]
+"CLPS" -> "MSMB" ["e"=1]
+"DEFB118" -> "DEFB132" ["e"=1]
+"DEFB118" -> "WFDC13" ["e"=1]
+"DEFB118" -> "DEFB129" ["e"=1]
+"DEFB118" -> "WFDC12" ["e"=1]
+"DEFB129" -> "DEFB118" ["e"=1]
+"DEFB129" -> "SPESP1" ["e"=1]
+"DEFB129" -> "DEFB132" ["e"=1]
+"DEFB129" -> "WFDC13" ["e"=1]
+"DEFB132" -> "WFDC13" ["e"=1]
+"DEFB132" -> "DEFB118" ["e"=1]
+"DEFB132" -> "DEFB129" ["e"=1]
+"DEFB132" -> "WFDC12" ["e"=1]
+"MIA" -> "SPINK2" ["e"=1]
+"MIA" -> "MSMB" ["e"=1]
+"MIA" -> "SPINK4" ["e"=1]
+"MIA" -> "SLPI" ["e"=1]
+"MSMB" -> "SPINK8" ["e"=1]
+"MSMB" -> "SPINK4" ["e"=1]
+"MSMB" -> "SPINK7" ["e"=1]
+"MSMB" -> "TFF3" ["e"=1]
+"PI3" -> "SLPI" ["e"=1]
+"PI3" -> "SPINK7" ["e"=1]
+"PI3" -> "WFDC12" ["e"=1]
+"PI3" -> "SPINK6" ["e"=1]
+"SLPI" -> "WFDC2" ["e"=1]
+"SLPI" -> "PI3" ["e"=1]
+"SLPI" -> "WFDC12" ["e"=1]
+"SLPI" -> "SPINK6" ["e"=1]
+"SPESP1" -> "DEFB129" ["e"=1]
+"SPESP1" -> "DEFB118" ["e"=1]
+"SPESP1" -> "WFDC13" ["e"=1]
+"SPESP1" -> "DEFB132" ["e"=1]
+"SPINK1" -> "SPINK6" ["e"=1]
+"SPINK1" -> "SPINK7" ["e"=1]
+"SPINK1" -> "SPINK4" ["e"=1]
+"SPINK1" -> "MSMB" ["e"=1]
+"SPINK13" -> "SPINK14" ["e"=1]
+"SPINK13" -> "SPINK9" ["e"=1]
+"SPINK13" -> "SPINK8" ["e"=1]
+"SPINK13" -> "SPINK6" ["e"=1]
+"SPINK14" -> "SPINK13" ["e"=1]
+"SPINK14" -> "SPINK9" ["e"=1]
+"SPINK14" -> "SPINK8" ["e"=1]
+"SPINK14" -> "SPINK6" ["e"=1]
+"SPINK2" -> "SPINK6" ["e"=1]
+"SPINK2" -> "SPINK14" ["e"=1]
+"SPINK2" -> "SPINK13" ["e"=1]
+"SPINK2" -> "WFDC2" ["e"=1]
+"SPINK4" -> "TFF3" ["e"=1]
+"SPINK4" -> "TFF1" ["e"=1]
+"SPINK4" -> "SPINK8" ["e"=1]
+"SPINK4" -> "MSMB" ["e"=1]
+"SPINK6" -> "SPINK9" ["e"=1]
+"SPINK6" -> "SPINK7" ["e"=1]
+"SPINK6" -> "SPINK14" ["e"=1]
+"SPINK6" -> "SPINK1" ["e"=1]
+"SPINK7" -> "SPINK6" ["e"=1]
+"SPINK7" -> "SPINK9" ["e"=1]
+"SPINK7" -> "SPINK1" ["e"=1]
+"SPINK7" -> "PI3" ["e"=1]
+"SPINK8" -> "SPINK14" ["e"=1]
+"SPINK8" -> "SPINK13" ["e"=1]
+"SPINK8" -> "SPINK4" ["e"=1]
+"SPINK8" -> "SPINK9" ["e"=1]
+"SPINK9" -> "SPINK14" ["e"=1]
+"SPINK9" -> "SPINK13" ["e"=1]
+"SPINK9" -> "SPINK6" ["e"=1]
+"SPINK9" -> "SPINK8" ["e"=1]
+"TFF1" -> "TFF3" ["e"=1]
+"TFF1" -> "TFF2" ["e"=1]
+"TFF1" -> "SPINK4" ["e"=1]
+"TFF1" -> "MSMB" ["e"=1]
+"TFF2" -> "TFF1" ["e"=1]
+"TFF2" -> "TFF3" ["e"=1]
+"TFF2" -> "WFDC2" ["e"=1]
+"TFF2" -> "SLPI" ["e"=1]
+"TFF3" -> "TFF1" ["e"=1]
+"TFF3" -> "TFF2" ["e"=1]
+"TFF3" -> "SPINK4" ["e"=1]
+"TFF3" -> "WFDC2" ["e"=1]
+"WFDC12" -> "WFDC13" ["e"=1]
+"WFDC12" -> "WFDC3" ["e"=1]
+"WFDC12" -> "DEFB132" ["e"=1]
+"WFDC12" -> "SLPI" ["e"=1]
+"WFDC13" -> "DEFB132" ["e"=1]
+"WFDC13" -> "DEFB118" ["e"=1]
+"WFDC13" -> "WFDC12" ["e"=1]
+"WFDC13" -> "SPINK14" ["e"=1]
+"WFDC2" -> "SLPI" ["e"=1]
+"WFDC2" -> "TFF2" ["e"=1]
+"WFDC2" -> "WFDC12" ["e"=1]
+"WFDC2" -> "SPINK6" ["e"=1]
+"WFDC3" -> "WFDC12" ["e"=1]
+"WFDC3" -> "WFDC2" ["e"=1]
+"WFDC3" -> "SLPI" ["e"=1]
+"WFDC3" -> "WFDC13" ["e"=1]
 }

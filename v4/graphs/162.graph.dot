@@ -18,80 +18,80 @@ digraph G {
 "TLCD4" ["l"="9.567,-3.416"]
 "TM7SF2" ["l"="9.572,-3.317"]
 "TMEM229A" ["l"="9.520,-3.316"]
-"ADIPOR1" -> "ADIPOR2"
-"ADIPOR1" -> "PAQR9"
-"ADIPOR1" -> "CERS5"
-"ADIPOR1" -> "CERS2"
-"ADIPOR2" -> "ADIPOR1"
-"ADIPOR2" -> "PAQR9"
-"ADIPOR2" -> "CERS5"
-"ADIPOR2" -> "CERS6"
-"CERS1" -> "PAQR9"
-"CERS1" -> "CERS5"
-"CERS1" -> "TM7SF2"
-"CERS1" -> "CERS6"
-"CERS2" -> "CERS5"
-"CERS2" -> "CERS3"
-"CERS2" -> "CERS4"
-"CERS2" -> "CERS6"
-"CERS3" -> "CERS6"
-"CERS3" -> "CERS5"
-"CERS3" -> "CERS2"
-"CERS3" -> "CERS4"
-"CERS4" -> "CERS5"
-"CERS4" -> "CERS2"
-"CERS4" -> "CERS3"
-"CERS4" -> "CERS6"
-"CERS5" -> "CERS6"
-"CERS5" -> "CERS2"
-"CERS5" -> "CERS3"
-"CERS5" -> "CERS4"
-"CERS6" -> "CERS5"
-"CERS6" -> "CERS3"
-"CERS6" -> "ELOVL4"
-"CERS6" -> "PAQR9"
-"CLN6" -> "CERS5"
-"CLN6" -> "PAQR9"
-"CLN6" -> "CERS6"
-"CLN6" -> "CERS1"
-"DHCR7" -> "TM7SF2"
-"DHCR7" -> "PAQR9"
-"DHCR7" -> "HACD3"
-"DHCR7" -> "CLN6"
-"ELOVL4" -> "CERS6"
-"ELOVL4" -> "TLCD4"
-"ELOVL4" -> "CERS1"
-"ELOVL4" -> "CERS5"
-"HACD3" -> "DHCR7"
-"HACD3" -> "CERS6"
-"HACD3" -> "PAQR9"
-"HACD3" -> "CERS5"
-"PAQR6" -> "PAQR9"
-"PAQR6" -> "CERS1"
-"PAQR6" -> "CLN6"
-"PAQR6" -> "DHCR7"
-"PAQR9" -> "CERS1"
-"PAQR9" -> "TMEM229A"
-"PAQR9" -> "SRD5A2"
-"PAQR9" -> "CERS6"
-"SRD5A2" -> "PAQR9"
-"SRD5A2" -> "TMEM229A"
-"SRD5A2" -> "TLCD4"
-"SRD5A2" -> "CERS1"
-"TECR" -> "HACD3"
-"TECR" -> "TM7SF2"
-"TECR" -> "CERS2"
-"TECR" -> "DHCR7"
-"TLCD4" -> "PAQR9"
-"TLCD4" -> "ELOVL4"
-"TLCD4" -> "SRD5A2"
-"TLCD4" -> "CERS6"
-"TM7SF2" -> "DHCR7"
-"TM7SF2" -> "CERS1"
-"TM7SF2" -> "SRD5A2"
-"TM7SF2" -> "HACD3"
-"TMEM229A" -> "PAQR9"
-"TMEM229A" -> "SRD5A2"
-"TMEM229A" -> "CERS6"
-"TMEM229A" -> "CERS1"
+"ADIPOR1" -> "ADIPOR2" ["e"=1]
+"ADIPOR1" -> "PAQR9" ["e"=1]
+"ADIPOR1" -> "CERS5" ["e"=1]
+"ADIPOR1" -> "CERS2" ["e"=1]
+"ADIPOR2" -> "ADIPOR1" ["e"=1]
+"ADIPOR2" -> "PAQR9" ["e"=1]
+"ADIPOR2" -> "CERS5" ["e"=1]
+"ADIPOR2" -> "CERS6" ["e"=1]
+"CERS1" -> "PAQR9" ["e"=1]
+"CERS1" -> "CERS5" ["e"=1]
+"CERS1" -> "TM7SF2" ["e"=1]
+"CERS1" -> "CERS6" ["e"=1]
+"CERS2" -> "CERS5" ["e"=1]
+"CERS2" -> "CERS3" ["e"=1]
+"CERS2" -> "CERS4" ["e"=1]
+"CERS2" -> "CERS6" ["e"=1]
+"CERS3" -> "CERS6" ["e"=1]
+"CERS3" -> "CERS5" ["e"=1]
+"CERS3" -> "CERS2" ["e"=1]
+"CERS3" -> "CERS4" ["e"=1]
+"CERS4" -> "CERS5" ["e"=1]
+"CERS4" -> "CERS2" ["e"=1]
+"CERS4" -> "CERS3" ["e"=1]
+"CERS4" -> "CERS6" ["e"=1]
+"CERS5" -> "CERS6" ["e"=1]
+"CERS5" -> "CERS2" ["e"=1]
+"CERS5" -> "CERS3" ["e"=1]
+"CERS5" -> "CERS4" ["e"=1]
+"CERS6" -> "CERS5" ["e"=1]
+"CERS6" -> "CERS3" ["e"=1]
+"CERS6" -> "ELOVL4" ["e"=1]
+"CERS6" -> "PAQR9" ["e"=1]
+"CLN6" -> "CERS5" ["e"=1]
+"CLN6" -> "PAQR9" ["e"=1]
+"CLN6" -> "CERS6" ["e"=1]
+"CLN6" -> "CERS1" ["e"=1]
+"DHCR7" -> "TM7SF2" ["e"=1]
+"DHCR7" -> "PAQR9" ["e"=1]
+"DHCR7" -> "HACD3" ["e"=1]
+"DHCR7" -> "CLN6" ["e"=1]
+"ELOVL4" -> "CERS6" ["e"=1]
+"ELOVL4" -> "TLCD4" ["e"=1]
+"ELOVL4" -> "CERS1" ["e"=1]
+"ELOVL4" -> "CERS5" ["e"=1]
+"HACD3" -> "DHCR7" ["e"=1]
+"HACD3" -> "CERS6" ["e"=1]
+"HACD3" -> "PAQR9" ["e"=1]
+"HACD3" -> "CERS5" ["e"=1]
+"PAQR6" -> "PAQR9" ["e"=1]
+"PAQR6" -> "CERS1" ["e"=1]
+"PAQR6" -> "CLN6" ["e"=1]
+"PAQR6" -> "DHCR7" ["e"=1]
+"PAQR9" -> "CERS1" ["e"=1]
+"PAQR9" -> "TMEM229A" ["e"=1]
+"PAQR9" -> "SRD5A2" ["e"=1]
+"PAQR9" -> "CERS6" ["e"=1]
+"SRD5A2" -> "PAQR9" ["e"=1]
+"SRD5A2" -> "TMEM229A" ["e"=1]
+"SRD5A2" -> "TLCD4" ["e"=1]
+"SRD5A2" -> "CERS1" ["e"=1]
+"TECR" -> "HACD3" ["e"=1]
+"TECR" -> "TM7SF2" ["e"=1]
+"TECR" -> "CERS2" ["e"=1]
+"TECR" -> "DHCR7" ["e"=1]
+"TLCD4" -> "PAQR9" ["e"=1]
+"TLCD4" -> "ELOVL4" ["e"=1]
+"TLCD4" -> "SRD5A2" ["e"=1]
+"TLCD4" -> "CERS6" ["e"=1]
+"TM7SF2" -> "DHCR7" ["e"=1]
+"TM7SF2" -> "CERS1" ["e"=1]
+"TM7SF2" -> "SRD5A2" ["e"=1]
+"TM7SF2" -> "HACD3" ["e"=1]
+"TMEM229A" -> "PAQR9" ["e"=1]
+"TMEM229A" -> "SRD5A2" ["e"=1]
+"TMEM229A" -> "CERS6" ["e"=1]
+"TMEM229A" -> "CERS1" ["e"=1]
 }

@@ -22,96 +22,96 @@ digraph G {
 "SSNA1" ["l"="11.354,3.802"]
 "STX17" ["l"="11.427,3.937"]
 "TBCA" ["l"="11.470,3.886"]
-"ATP6V1D" -> "ATP6V1E1"
-"ATP6V1D" -> "CHMP5"
-"ATP6V1D" -> "CHMP1A"
-"ATP6V1D" -> "CHMP6"
-"ATP6V1E1" -> "CHMP5"
-"ATP6V1E1" -> "PFDN1"
-"ATP6V1E1" -> "ATP6V1D"
-"ATP6V1E1" -> "ATP6V1E2"
-"ATP6V1E2" -> "ATP6V1E1"
-"ATP6V1E2" -> "CHMP6"
-"ATP6V1E2" -> "CHMP1B"
-"ATP6V1E2" -> "ATP6V1G1"
-"ATP6V1G1" -> "ATP6V1G2"
-"ATP6V1G1" -> "ATP6V1G3"
-"ATP6V1G1" -> "CHMP1B"
-"ATP6V1G1" -> "ATP6V1E1"
-"ATP6V1G2" -> "ATP6V1G1"
-"ATP6V1G2" -> "CHMP1B"
-"ATP6V1G2" -> "ATP6V1E1"
-"ATP6V1G2" -> "ATP6V1G3"
-"ATP6V1G3" -> "ATP6V1G1"
-"ATP6V1G3" -> "ATP6V1G2"
-"ATP6V1G3" -> "ATP6V1E2"
-"ATP6V1G3" -> "ATP6V1E1"
-"CHMP1A" -> "CHMP1B"
-"CHMP1A" -> "CHMP6"
-"CHMP1A" -> "CHMP5"
-"CHMP1A" -> "CHMP3"
-"CHMP1B" -> "CHMP1A"
-"CHMP1B" -> "CHMP4B"
-"CHMP1B" -> "CHMP6"
-"CHMP1B" -> "CHMP2B"
-"CHMP2A" -> "CHMP3"
-"CHMP2A" -> "CHMP4A"
-"CHMP2A" -> "CHMP4B"
-"CHMP2A" -> "CHMP5"
-"CHMP2B" -> "CHMP5"
-"CHMP2B" -> "CHMP4B"
-"CHMP2B" -> "CHMP3"
-"CHMP2B" -> "CHMP1B"
-"CHMP3" -> "CHMP4B"
-"CHMP3" -> "CHMP2B"
-"CHMP3" -> "CHMP5"
-"CHMP3" -> "CHMP1A"
-"CHMP4A" -> "CHMP4B"
-"CHMP4A" -> "CHMP5"
-"CHMP4A" -> "CHMP3"
-"CHMP4A" -> "CHMP6"
-"CHMP4B" -> "CHMP5"
-"CHMP4B" -> "CHMP3"
-"CHMP4B" -> "CHMP2B"
-"CHMP4B" -> "CHMP1B"
-"CHMP5" -> "CHMP4B"
-"CHMP5" -> "CHMP2B"
-"CHMP5" -> "CHMP6"
-"CHMP5" -> "ATP6V1E1"
-"CHMP6" -> "CHMP1A"
-"CHMP6" -> "CHMP1B"
-"CHMP6" -> "CHMP5"
-"CHMP6" -> "CHMP4B"
-"PDCD5" -> "PFDN1"
-"PDCD5" -> "CHMP2B"
-"PDCD5" -> "CHMP4B"
-"PDCD5" -> "CHMP6"
-"PFDN1" -> "ATP6V1E1"
-"PFDN1" -> "CHMP6"
-"PFDN1" -> "CHMP1A"
-"PFDN1" -> "SSNA1"
-"PFDN2" -> "CHMP5"
-"PFDN2" -> "PFDN1"
-"PFDN2" -> "PFDN6"
-"PFDN2" -> "SSNA1"
-"PFDN6" -> "PFDN1"
-"PFDN6" -> "PFDN2"
-"PFDN6" -> "SSNA1"
-"PFDN6" -> "ATP6V1E1"
-"RGS20" -> "CHMP6"
-"RGS20" -> "ATP6V1D"
-"RGS20" -> "CHMP1B"
-"RGS20" -> "ATP6V1E2"
-"SSNA1" -> "CHMP1A"
-"SSNA1" -> "PFDN1"
-"SSNA1" -> "CHMP6"
-"SSNA1" -> "CHMP1B"
-"STX17" -> "CHMP1B"
-"STX17" -> "CHMP6"
-"STX17" -> "ATP6V1D"
-"STX17" -> "CHMP1A"
-"TBCA" -> "PFDN1"
-"TBCA" -> "ATP6V1E1"
-"TBCA" -> "ATP6V1G1"
-"TBCA" -> "ATP6V1G3"
+"ATP6V1D" -> "ATP6V1E1" ["e"=1]
+"ATP6V1D" -> "CHMP5" ["e"=1]
+"ATP6V1D" -> "CHMP1A" ["e"=1]
+"ATP6V1D" -> "CHMP6" ["e"=1]
+"ATP6V1E1" -> "CHMP5" ["e"=1]
+"ATP6V1E1" -> "PFDN1" ["e"=1]
+"ATP6V1E1" -> "ATP6V1D" ["e"=1]
+"ATP6V1E1" -> "ATP6V1E2" ["e"=1]
+"ATP6V1E2" -> "ATP6V1E1" ["e"=1]
+"ATP6V1E2" -> "CHMP6" ["e"=1]
+"ATP6V1E2" -> "CHMP1B" ["e"=1]
+"ATP6V1E2" -> "ATP6V1G1" ["e"=1]
+"ATP6V1G1" -> "ATP6V1G2" ["e"=1]
+"ATP6V1G1" -> "ATP6V1G3" ["e"=1]
+"ATP6V1G1" -> "CHMP1B" ["e"=1]
+"ATP6V1G1" -> "ATP6V1E1" ["e"=1]
+"ATP6V1G2" -> "ATP6V1G1" ["e"=1]
+"ATP6V1G2" -> "CHMP1B" ["e"=1]
+"ATP6V1G2" -> "ATP6V1E1" ["e"=1]
+"ATP6V1G2" -> "ATP6V1G3" ["e"=1]
+"ATP6V1G3" -> "ATP6V1G1" ["e"=1]
+"ATP6V1G3" -> "ATP6V1G2" ["e"=1]
+"ATP6V1G3" -> "ATP6V1E2" ["e"=1]
+"ATP6V1G3" -> "ATP6V1E1" ["e"=1]
+"CHMP1A" -> "CHMP1B" ["e"=1]
+"CHMP1A" -> "CHMP6" ["e"=1]
+"CHMP1A" -> "CHMP5" ["e"=1]
+"CHMP1A" -> "CHMP3" ["e"=1]
+"CHMP1B" -> "CHMP1A" ["e"=1]
+"CHMP1B" -> "CHMP4B" ["e"=1]
+"CHMP1B" -> "CHMP6" ["e"=1]
+"CHMP1B" -> "CHMP2B" ["e"=1]
+"CHMP2A" -> "CHMP3" ["e"=1]
+"CHMP2A" -> "CHMP4A" ["e"=1]
+"CHMP2A" -> "CHMP4B" ["e"=1]
+"CHMP2A" -> "CHMP5" ["e"=1]
+"CHMP2B" -> "CHMP5" ["e"=1]
+"CHMP2B" -> "CHMP4B" ["e"=1]
+"CHMP2B" -> "CHMP3" ["e"=1]
+"CHMP2B" -> "CHMP1B" ["e"=1]
+"CHMP3" -> "CHMP4B" ["e"=1]
+"CHMP3" -> "CHMP2B" ["e"=1]
+"CHMP3" -> "CHMP5" ["e"=1]
+"CHMP3" -> "CHMP1A" ["e"=1]
+"CHMP4A" -> "CHMP4B" ["e"=1]
+"CHMP4A" -> "CHMP5" ["e"=1]
+"CHMP4A" -> "CHMP3" ["e"=1]
+"CHMP4A" -> "CHMP6" ["e"=1]
+"CHMP4B" -> "CHMP5" ["e"=1]
+"CHMP4B" -> "CHMP3" ["e"=1]
+"CHMP4B" -> "CHMP2B" ["e"=1]
+"CHMP4B" -> "CHMP1B" ["e"=1]
+"CHMP5" -> "CHMP4B" ["e"=1]
+"CHMP5" -> "CHMP2B" ["e"=1]
+"CHMP5" -> "CHMP6" ["e"=1]
+"CHMP5" -> "ATP6V1E1" ["e"=1]
+"CHMP6" -> "CHMP1A" ["e"=1]
+"CHMP6" -> "CHMP1B" ["e"=1]
+"CHMP6" -> "CHMP5" ["e"=1]
+"CHMP6" -> "CHMP4B" ["e"=1]
+"PDCD5" -> "PFDN1" ["e"=1]
+"PDCD5" -> "CHMP2B" ["e"=1]
+"PDCD5" -> "CHMP4B" ["e"=1]
+"PDCD5" -> "CHMP6" ["e"=1]
+"PFDN1" -> "ATP6V1E1" ["e"=1]
+"PFDN1" -> "CHMP6" ["e"=1]
+"PFDN1" -> "CHMP1A" ["e"=1]
+"PFDN1" -> "SSNA1" ["e"=1]
+"PFDN2" -> "CHMP5" ["e"=1]
+"PFDN2" -> "PFDN1" ["e"=1]
+"PFDN2" -> "PFDN6" ["e"=1]
+"PFDN2" -> "SSNA1" ["e"=1]
+"PFDN6" -> "PFDN1" ["e"=1]
+"PFDN6" -> "PFDN2" ["e"=1]
+"PFDN6" -> "SSNA1" ["e"=1]
+"PFDN6" -> "ATP6V1E1" ["e"=1]
+"RGS20" -> "CHMP6" ["e"=1]
+"RGS20" -> "ATP6V1D" ["e"=1]
+"RGS20" -> "CHMP1B" ["e"=1]
+"RGS20" -> "ATP6V1E2" ["e"=1]
+"SSNA1" -> "CHMP1A" ["e"=1]
+"SSNA1" -> "PFDN1" ["e"=1]
+"SSNA1" -> "CHMP6" ["e"=1]
+"SSNA1" -> "CHMP1B" ["e"=1]
+"STX17" -> "CHMP1B" ["e"=1]
+"STX17" -> "CHMP6" ["e"=1]
+"STX17" -> "ATP6V1D" ["e"=1]
+"STX17" -> "CHMP1A" ["e"=1]
+"TBCA" -> "PFDN1" ["e"=1]
+"TBCA" -> "ATP6V1E1" ["e"=1]
+"TBCA" -> "ATP6V1G1" ["e"=1]
+"TBCA" -> "ATP6V1G3" ["e"=1]
 }

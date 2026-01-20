@@ -18,80 +18,80 @@ digraph G {
 "HLA-E" ["l"="8.262,9.725"]
 "HLA-F" ["l"="8.263,9.724"]
 "HLA-G" ["l"="8.262,9.726"]
-"HLA-A" -> "HLA-B"
-"HLA-A" -> "HLA-C"
-"HLA-A" -> "HLA-E"
-"HLA-A" -> "HLA-F"
-"HLA-B" -> "HLA-A"
-"HLA-B" -> "HLA-C"
-"HLA-B" -> "HLA-E"
-"HLA-B" -> "HLA-F"
-"HLA-C" -> "HLA-A"
-"HLA-C" -> "HLA-B"
-"HLA-C" -> "HLA-E"
-"HLA-C" -> "HLA-G"
-"HLA-DMA" -> "HLA-DPA1"
-"HLA-DMA" -> "HLA-DQA2"
-"HLA-DMA" -> "HLA-DRA"
-"HLA-DMA" -> "HLA-DMB"
-"HLA-DMB" -> "HLA-DMA"
-"HLA-DMB" -> "HLA-DQA2"
-"HLA-DMB" -> "HLA-DOA"
-"HLA-DMB" -> "HLA-DQB1"
-"HLA-DOA" -> "HLA-DPA1"
-"HLA-DOA" -> "HLA-DQA1"
-"HLA-DOA" -> "HLA-DOB"
-"HLA-DOA" -> "HLA-DQA2"
-"HLA-DOB" -> "HLA-DQB2"
-"HLA-DOB" -> "HLA-DOA"
-"HLA-DOB" -> "HLA-DPB1"
-"HLA-DOB" -> "HLA-DQB1"
-"HLA-DPA1" -> "HLA-DRA"
-"HLA-DPA1" -> "HLA-DQA2"
-"HLA-DPA1" -> "HLA-DQA1"
-"HLA-DPA1" -> "HLA-DMA"
-"HLA-DPB1" -> "HLA-DQB1"
-"HLA-DPB1" -> "HLA-DRB1"
-"HLA-DPB1" -> "HLA-DRB5"
-"HLA-DPB1" -> "HLA-DPA1"
-"HLA-DQA1" -> "HLA-DQA2"
-"HLA-DQA1" -> "HLA-DPA1"
-"HLA-DQA1" -> "HLA-DRA"
-"HLA-DQA1" -> "HLA-DQB1"
-"HLA-DQA2" -> "HLA-DQA1"
-"HLA-DQA2" -> "HLA-DPA1"
-"HLA-DQA2" -> "HLA-DRA"
-"HLA-DQA2" -> "HLA-DOA"
-"HLA-DQB1" -> "HLA-DPB1"
-"HLA-DQB1" -> "HLA-DRB1"
-"HLA-DQB1" -> "HLA-DRB5"
-"HLA-DQB1" -> "HLA-DQA1"
-"HLA-DQB2" -> "HLA-DRB5"
-"HLA-DQB2" -> "HLA-DQB1"
-"HLA-DQB2" -> "HLA-DOB"
-"HLA-DQB2" -> "HLA-DRB1"
-"HLA-DRA" -> "HLA-DPA1"
-"HLA-DRA" -> "HLA-DQA1"
-"HLA-DRA" -> "HLA-DQA2"
-"HLA-DRA" -> "HLA-DMA"
-"HLA-DRB1" -> "HLA-DRB5"
-"HLA-DRB1" -> "HLA-DQB1"
-"HLA-DRB1" -> "HLA-DPB1"
-"HLA-DRB1" -> "HLA-DQB2"
-"HLA-DRB5" -> "HLA-DRB1"
-"HLA-DRB5" -> "HLA-DQB1"
-"HLA-DRB5" -> "HLA-DPB1"
-"HLA-DRB5" -> "HLA-DQB2"
-"HLA-E" -> "HLA-A"
-"HLA-E" -> "HLA-B"
-"HLA-E" -> "HLA-C"
-"HLA-E" -> "HLA-F"
-"HLA-F" -> "HLA-B"
-"HLA-F" -> "HLA-A"
-"HLA-F" -> "HLA-C"
-"HLA-F" -> "HLA-E"
-"HLA-G" -> "HLA-A"
-"HLA-G" -> "HLA-C"
-"HLA-G" -> "HLA-B"
-"HLA-G" -> "HLA-F"
+"HLA-A" -> "HLA-B" ["e"=1]
+"HLA-A" -> "HLA-C" ["e"=1]
+"HLA-A" -> "HLA-E" ["e"=1]
+"HLA-A" -> "HLA-F" ["e"=1]
+"HLA-B" -> "HLA-A" ["e"=1]
+"HLA-B" -> "HLA-C" ["e"=1]
+"HLA-B" -> "HLA-E" ["e"=1]
+"HLA-B" -> "HLA-F" ["e"=1]
+"HLA-C" -> "HLA-A" ["e"=1]
+"HLA-C" -> "HLA-B" ["e"=1]
+"HLA-C" -> "HLA-E" ["e"=1]
+"HLA-C" -> "HLA-G" ["e"=1]
+"HLA-DMA" -> "HLA-DPA1" ["e"=1]
+"HLA-DMA" -> "HLA-DQA2" ["e"=1]
+"HLA-DMA" -> "HLA-DRA" ["e"=1]
+"HLA-DMA" -> "HLA-DMB" ["e"=1]
+"HLA-DMB" -> "HLA-DMA" ["e"=1]
+"HLA-DMB" -> "HLA-DQA2" ["e"=1]
+"HLA-DMB" -> "HLA-DOA" ["e"=1]
+"HLA-DMB" -> "HLA-DQB1" ["e"=1]
+"HLA-DOA" -> "HLA-DPA1" ["e"=1]
+"HLA-DOA" -> "HLA-DQA1" ["e"=1]
+"HLA-DOA" -> "HLA-DOB" ["e"=1]
+"HLA-DOA" -> "HLA-DQA2" ["e"=1]
+"HLA-DOB" -> "HLA-DQB2" ["e"=1]
+"HLA-DOB" -> "HLA-DOA" ["e"=1]
+"HLA-DOB" -> "HLA-DPB1" ["e"=1]
+"HLA-DOB" -> "HLA-DQB1" ["e"=1]
+"HLA-DPA1" -> "HLA-DRA" ["e"=1]
+"HLA-DPA1" -> "HLA-DQA2" ["e"=1]
+"HLA-DPA1" -> "HLA-DQA1" ["e"=1]
+"HLA-DPA1" -> "HLA-DMA" ["e"=1]
+"HLA-DPB1" -> "HLA-DQB1" ["e"=1]
+"HLA-DPB1" -> "HLA-DRB1" ["e"=1]
+"HLA-DPB1" -> "HLA-DRB5" ["e"=1]
+"HLA-DPB1" -> "HLA-DPA1" ["e"=1]
+"HLA-DQA1" -> "HLA-DQA2" ["e"=1]
+"HLA-DQA1" -> "HLA-DPA1" ["e"=1]
+"HLA-DQA1" -> "HLA-DRA" ["e"=1]
+"HLA-DQA1" -> "HLA-DQB1" ["e"=1]
+"HLA-DQA2" -> "HLA-DQA1" ["e"=1]
+"HLA-DQA2" -> "HLA-DPA1" ["e"=1]
+"HLA-DQA2" -> "HLA-DRA" ["e"=1]
+"HLA-DQA2" -> "HLA-DOA" ["e"=1]
+"HLA-DQB1" -> "HLA-DPB1" ["e"=1]
+"HLA-DQB1" -> "HLA-DRB1" ["e"=1]
+"HLA-DQB1" -> "HLA-DRB5" ["e"=1]
+"HLA-DQB1" -> "HLA-DQA1" ["e"=1]
+"HLA-DQB2" -> "HLA-DRB5" ["e"=1]
+"HLA-DQB2" -> "HLA-DQB1" ["e"=1]
+"HLA-DQB2" -> "HLA-DOB" ["e"=1]
+"HLA-DQB2" -> "HLA-DRB1" ["e"=1]
+"HLA-DRA" -> "HLA-DPA1" ["e"=1]
+"HLA-DRA" -> "HLA-DQA1" ["e"=1]
+"HLA-DRA" -> "HLA-DQA2" ["e"=1]
+"HLA-DRA" -> "HLA-DMA" ["e"=1]
+"HLA-DRB1" -> "HLA-DRB5" ["e"=1]
+"HLA-DRB1" -> "HLA-DQB1" ["e"=1]
+"HLA-DRB1" -> "HLA-DPB1" ["e"=1]
+"HLA-DRB1" -> "HLA-DQB2" ["e"=1]
+"HLA-DRB5" -> "HLA-DRB1" ["e"=1]
+"HLA-DRB5" -> "HLA-DQB1" ["e"=1]
+"HLA-DRB5" -> "HLA-DPB1" ["e"=1]
+"HLA-DRB5" -> "HLA-DQB2" ["e"=1]
+"HLA-E" -> "HLA-A" ["e"=1]
+"HLA-E" -> "HLA-B" ["e"=1]
+"HLA-E" -> "HLA-C" ["e"=1]
+"HLA-E" -> "HLA-F" ["e"=1]
+"HLA-F" -> "HLA-B" ["e"=1]
+"HLA-F" -> "HLA-A" ["e"=1]
+"HLA-F" -> "HLA-C" ["e"=1]
+"HLA-F" -> "HLA-E" ["e"=1]
+"HLA-G" -> "HLA-A" ["e"=1]
+"HLA-G" -> "HLA-C" ["e"=1]
+"HLA-G" -> "HLA-B" ["e"=1]
+"HLA-G" -> "HLA-F" ["e"=1]
 }

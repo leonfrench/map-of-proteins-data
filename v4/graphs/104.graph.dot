@@ -14,64 +14,64 @@ digraph G {
 "SPTBN4" ["l"="9.201,-0.762"]
 "SPTBN5" ["l"="9.206,-0.823"]
 "TLN1" ["l"="9.444,-0.730"]
-"ACTN1" -> "ACTN4"
-"ACTN1" -> "ACTN3"
-"ACTN1" -> "ACTN2"
-"ACTN1" -> "SPTAN1"
-"ACTN2" -> "ACTN4"
-"ACTN2" -> "ACTN1"
-"ACTN2" -> "ACTN3"
-"ACTN2" -> "SPTBN1"
-"ACTN3" -> "ACTN1"
-"ACTN3" -> "ACTN4"
-"ACTN3" -> "ACTN2"
-"ACTN3" -> "SPTBN2"
-"ACTN4" -> "ACTN1"
-"ACTN4" -> "ACTN2"
-"ACTN4" -> "ACTN3"
-"ACTN4" -> "SPTBN1"
-"DSP" -> "EVPL"
-"DSP" -> "PPL"
-"DSP" -> "SPTBN1"
-"DSP" -> "SPTBN2"
-"EVPL" -> "PPL"
-"EVPL" -> "DSP"
-"EVPL" -> "SPTBN2"
-"EVPL" -> "SPTBN1"
-"PPL" -> "EVPL"
-"PPL" -> "DSP"
-"PPL" -> "SPTBN2"
-"PPL" -> "SPTB"
-"SPTA1" -> "SPTB"
-"SPTA1" -> "SPTBN1"
-"SPTA1" -> "SPTBN2"
-"SPTA1" -> "SPTAN1"
-"SPTAN1" -> "SPTBN1"
-"SPTAN1" -> "SPTB"
-"SPTAN1" -> "SPTBN4"
-"SPTAN1" -> "SPTBN2"
-"SPTB" -> "SPTBN2"
-"SPTB" -> "SPTA1"
-"SPTB" -> "SPTBN1"
-"SPTB" -> "SPTAN1"
-"SPTBN1" -> "SPTAN1"
-"SPTBN1" -> "SPTB"
-"SPTBN1" -> "SPTA1"
-"SPTBN1" -> "SPTBN2"
-"SPTBN2" -> "SPTB"
-"SPTBN2" -> "SPTBN4"
-"SPTBN2" -> "SPTBN5"
-"SPTBN2" -> "SPTAN1"
-"SPTBN4" -> "SPTBN2"
-"SPTBN4" -> "SPTAN1"
-"SPTBN4" -> "SPTBN5"
-"SPTBN4" -> "SPTB"
-"SPTBN5" -> "SPTBN4"
-"SPTBN5" -> "SPTBN2"
-"SPTBN5" -> "SPTB"
-"SPTBN5" -> "SPTAN1"
-"TLN1" -> "SPTB"
-"TLN1" -> "SPTBN2"
-"TLN1" -> "SPTA1"
-"TLN1" -> "SPTAN1"
+"ACTN1" -> "ACTN4" ["e"=1]
+"ACTN1" -> "ACTN3" ["e"=1]
+"ACTN1" -> "ACTN2" ["e"=1]
+"ACTN1" -> "SPTAN1" ["e"=1]
+"ACTN2" -> "ACTN4" ["e"=1]
+"ACTN2" -> "ACTN1" ["e"=1]
+"ACTN2" -> "ACTN3" ["e"=1]
+"ACTN2" -> "SPTBN1" ["e"=1]
+"ACTN3" -> "ACTN1" ["e"=1]
+"ACTN3" -> "ACTN4" ["e"=1]
+"ACTN3" -> "ACTN2" ["e"=1]
+"ACTN3" -> "SPTBN2" ["e"=1]
+"ACTN4" -> "ACTN1" ["e"=1]
+"ACTN4" -> "ACTN2" ["e"=1]
+"ACTN4" -> "ACTN3" ["e"=1]
+"ACTN4" -> "SPTBN1" ["e"=1]
+"DSP" -> "EVPL" ["e"=1]
+"DSP" -> "PPL" ["e"=1]
+"DSP" -> "SPTBN1" ["e"=1]
+"DSP" -> "SPTBN2" ["e"=1]
+"EVPL" -> "PPL" ["e"=1]
+"EVPL" -> "DSP" ["e"=1]
+"EVPL" -> "SPTBN2" ["e"=1]
+"EVPL" -> "SPTBN1" ["e"=1]
+"PPL" -> "EVPL" ["e"=1]
+"PPL" -> "DSP" ["e"=1]
+"PPL" -> "SPTBN2" ["e"=1]
+"PPL" -> "SPTB" ["e"=1]
+"SPTA1" -> "SPTB" ["e"=1]
+"SPTA1" -> "SPTBN1" ["e"=1]
+"SPTA1" -> "SPTBN2" ["e"=1]
+"SPTA1" -> "SPTAN1" ["e"=1]
+"SPTAN1" -> "SPTBN1" ["e"=1]
+"SPTAN1" -> "SPTB" ["e"=1]
+"SPTAN1" -> "SPTBN4" ["e"=1]
+"SPTAN1" -> "SPTBN2" ["e"=1]
+"SPTB" -> "SPTBN2" ["e"=1]
+"SPTB" -> "SPTA1" ["e"=1]
+"SPTB" -> "SPTBN1" ["e"=1]
+"SPTB" -> "SPTAN1" ["e"=1]
+"SPTBN1" -> "SPTAN1" ["e"=1]
+"SPTBN1" -> "SPTB" ["e"=1]
+"SPTBN1" -> "SPTA1" ["e"=1]
+"SPTBN1" -> "SPTBN2" ["e"=1]
+"SPTBN2" -> "SPTB" ["e"=1]
+"SPTBN2" -> "SPTBN4" ["e"=1]
+"SPTBN2" -> "SPTBN5" ["e"=1]
+"SPTBN2" -> "SPTAN1" ["e"=1]
+"SPTBN4" -> "SPTBN2" ["e"=1]
+"SPTBN4" -> "SPTAN1" ["e"=1]
+"SPTBN4" -> "SPTBN5" ["e"=1]
+"SPTBN4" -> "SPTB" ["e"=1]
+"SPTBN5" -> "SPTBN4" ["e"=1]
+"SPTBN5" -> "SPTBN2" ["e"=1]
+"SPTBN5" -> "SPTB" ["e"=1]
+"SPTBN5" -> "SPTAN1" ["e"=1]
+"TLN1" -> "SPTB" ["e"=1]
+"TLN1" -> "SPTBN2" ["e"=1]
+"TLN1" -> "SPTA1" ["e"=1]
+"TLN1" -> "SPTAN1" ["e"=1]
 }

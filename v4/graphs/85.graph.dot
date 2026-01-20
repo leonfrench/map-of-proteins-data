@@ -26,112 +26,112 @@ digraph G {
 "PSMB7" ["l"="14.265,3.055"]
 "PSMB8" ["l"="14.299,3.074"]
 "PSMB9" ["l"="14.301,3.075"]
-"PPIA" -> "PPIAL4C"
-"PPIA" -> "PPIAL4D"
-"PPIA" -> "PPIAL4G"
-"PPIA" -> "PPIAL4H"
-"PPIAL4A" -> "PPIAL4F"
-"PPIAL4A" -> "PPIAL4G"
-"PPIAL4A" -> "PPIAL4C"
-"PPIAL4A" -> "PPIAL4E"
-"PPIAL4C" -> "PPIAL4G"
-"PPIAL4C" -> "PPIAL4F"
-"PPIAL4C" -> "PPIAL4D"
-"PPIAL4C" -> "PPIAL4A"
-"PPIAL4D" -> "PPIAL4C"
-"PPIAL4D" -> "PPIAL4G"
-"PPIAL4D" -> "PPIAL4E"
-"PPIAL4D" -> "PPIAL4A"
-"PPIAL4E" -> "PPIAL4F"
-"PPIAL4E" -> "PPIAL4D"
-"PPIAL4E" -> "PPIAL4C"
-"PPIAL4E" -> "PPIAL4A"
-"PPIAL4F" -> "PPIAL4E"
-"PPIAL4F" -> "PPIAL4A"
-"PPIAL4F" -> "PPIAL4C"
-"PPIAL4F" -> "PPIAL4G"
-"PPIAL4G" -> "PPIAL4C"
-"PPIAL4G" -> "PPIAL4A"
-"PPIAL4G" -> "PPIAL4D"
-"PPIAL4G" -> "PPIAL4F"
-"PPIAL4H" -> "PPIAL4C"
-"PPIAL4H" -> "PPIAL4G"
-"PPIAL4H" -> "PPIAL4D"
-"PPIAL4H" -> "PPIAL4A"
-"PSMA1" -> "PSMA2"
-"PSMA1" -> "PSMA3"
-"PSMA1" -> "PSMA4"
-"PSMA1" -> "PSMA6"
-"PSMA2" -> "PSMA4"
-"PSMA2" -> "PSMA5"
-"PSMA2" -> "PSMA1"
-"PSMA2" -> "PSMB2"
-"PSMA3" -> "PSMA2"
-"PSMA3" -> "PSMA4"
-"PSMA3" -> "PSMA1"
-"PSMA3" -> "PSMA5"
-"PSMA4" -> "PSMA2"
-"PSMA4" -> "PSMB2"
-"PSMA4" -> "PSMA5"
-"PSMA4" -> "PSMB7"
-"PSMA5" -> "PSMB2"
-"PSMA5" -> "PSMA4"
-"PSMA5" -> "PSMA2"
-"PSMA5" -> "PSMB7"
-"PSMA6" -> "PSMA2"
-"PSMA6" -> "PSMA1"
-"PSMA6" -> "PSMA5"
-"PSMA6" -> "PSMA7"
-"PSMA7" -> "PSMA8"
-"PSMA7" -> "PSMA4"
-"PSMA7" -> "PSMA2"
-"PSMA7" -> "PSMA5"
-"PSMA8" -> "PSMA4"
-"PSMA8" -> "PSMA7"
-"PSMA8" -> "PSMA2"
-"PSMA8" -> "PSMA5"
-"PSMB1" -> "PSMB7"
-"PSMB1" -> "PSMB2"
-"PSMB1" -> "PSMB6"
-"PSMB1" -> "PSMB3"
-"PSMB10" -> "PSMB9"
-"PSMB10" -> "PSMB7"
-"PSMB10" -> "PSMB6"
-"PSMB10" -> "PSMB4"
-"PSMB11" -> "PSMB5"
-"PSMB11" -> "PSMA5"
-"PSMB11" -> "PSMB6"
-"PSMB11" -> "PSMA4"
-"PSMB2" -> "PSMA5"
-"PSMB2" -> "PSMA4"
-"PSMB2" -> "PSMB1"
-"PSMB2" -> "PSMA2"
-"PSMB3" -> "PSMB1"
-"PSMB3" -> "PSMB2"
-"PSMB3" -> "PSMB7"
-"PSMB3" -> "PSMB6"
-"PSMB4" -> "PSMB7"
-"PSMB4" -> "PSMB2"
-"PSMB4" -> "PSMB1"
-"PSMB4" -> "PSMB5"
-"PSMB5" -> "PSMB6"
-"PSMB5" -> "PSMB7"
-"PSMB5" -> "PSMB1"
-"PSMB5" -> "PSMB4"
-"PSMB6" -> "PSMB5"
-"PSMB6" -> "PSMB7"
-"PSMB6" -> "PSMB1"
-"PSMB6" -> "PSMB9"
-"PSMB7" -> "PSMB1"
-"PSMB7" -> "PSMB4"
-"PSMB7" -> "PSMB6"
-"PSMB7" -> "PSMB5"
-"PSMB8" -> "PSMB9"
-"PSMB8" -> "PSMB5"
-"PSMB8" -> "PSMB6"
-"PSMB8" -> "PSMB1"
-"PSMB9" -> "PSMB8"
-"PSMB9" -> "PSMB10"
-"PSMB9" -> "PSMB6"
-"PSMB9" -> "PSMB7"
+"PPIA" -> "PPIAL4C" ["e"=1]
+"PPIA" -> "PPIAL4D" ["e"=1]
+"PPIA" -> "PPIAL4G" ["e"=1]
+"PPIA" -> "PPIAL4H" ["e"=1]
+"PPIAL4A" -> "PPIAL4F" ["e"=1]
+"PPIAL4A" -> "PPIAL4G" ["e"=1]
+"PPIAL4A" -> "PPIAL4C" ["e"=1]
+"PPIAL4A" -> "PPIAL4E" ["e"=1]
+"PPIAL4C" -> "PPIAL4G" ["e"=1]
+"PPIAL4C" -> "PPIAL4F" ["e"=1]
+"PPIAL4C" -> "PPIAL4D" ["e"=1]
+"PPIAL4C" -> "PPIAL4A" ["e"=1]
+"PPIAL4D" -> "PPIAL4C" ["e"=1]
+"PPIAL4D" -> "PPIAL4G" ["e"=1]
+"PPIAL4D" -> "PPIAL4E" ["e"=1]
+"PPIAL4D" -> "PPIAL4A" ["e"=1]
+"PPIAL4E" -> "PPIAL4F" ["e"=1]
+"PPIAL4E" -> "PPIAL4D" ["e"=1]
+"PPIAL4E" -> "PPIAL4C" ["e"=1]
+"PPIAL4E" -> "PPIAL4A" ["e"=1]
+"PPIAL4F" -> "PPIAL4E" ["e"=1]
+"PPIAL4F" -> "PPIAL4A" ["e"=1]
+"PPIAL4F" -> "PPIAL4C" ["e"=1]
+"PPIAL4F" -> "PPIAL4G" ["e"=1]
+"PPIAL4G" -> "PPIAL4C" ["e"=1]
+"PPIAL4G" -> "PPIAL4A" ["e"=1]
+"PPIAL4G" -> "PPIAL4D" ["e"=1]
+"PPIAL4G" -> "PPIAL4F" ["e"=1]
+"PPIAL4H" -> "PPIAL4C" ["e"=1]
+"PPIAL4H" -> "PPIAL4G" ["e"=1]
+"PPIAL4H" -> "PPIAL4D" ["e"=1]
+"PPIAL4H" -> "PPIAL4A" ["e"=1]
+"PSMA1" -> "PSMA2" ["e"=1]
+"PSMA1" -> "PSMA3" ["e"=1]
+"PSMA1" -> "PSMA4" ["e"=1]
+"PSMA1" -> "PSMA6" ["e"=1]
+"PSMA2" -> "PSMA4" ["e"=1]
+"PSMA2" -> "PSMA5" ["e"=1]
+"PSMA2" -> "PSMA1" ["e"=1]
+"PSMA2" -> "PSMB2" ["e"=1]
+"PSMA3" -> "PSMA2" ["e"=1]
+"PSMA3" -> "PSMA4" ["e"=1]
+"PSMA3" -> "PSMA1" ["e"=1]
+"PSMA3" -> "PSMA5" ["e"=1]
+"PSMA4" -> "PSMA2" ["e"=1]
+"PSMA4" -> "PSMB2" ["e"=1]
+"PSMA4" -> "PSMA5" ["e"=1]
+"PSMA4" -> "PSMB7" ["e"=1]
+"PSMA5" -> "PSMB2" ["e"=1]
+"PSMA5" -> "PSMA4" ["e"=1]
+"PSMA5" -> "PSMA2" ["e"=1]
+"PSMA5" -> "PSMB7" ["e"=1]
+"PSMA6" -> "PSMA2" ["e"=1]
+"PSMA6" -> "PSMA1" ["e"=1]
+"PSMA6" -> "PSMA5" ["e"=1]
+"PSMA6" -> "PSMA7" ["e"=1]
+"PSMA7" -> "PSMA8" ["e"=1]
+"PSMA7" -> "PSMA4" ["e"=1]
+"PSMA7" -> "PSMA2" ["e"=1]
+"PSMA7" -> "PSMA5" ["e"=1]
+"PSMA8" -> "PSMA4" ["e"=1]
+"PSMA8" -> "PSMA7" ["e"=1]
+"PSMA8" -> "PSMA2" ["e"=1]
+"PSMA8" -> "PSMA5" ["e"=1]
+"PSMB1" -> "PSMB7" ["e"=1]
+"PSMB1" -> "PSMB2" ["e"=1]
+"PSMB1" -> "PSMB6" ["e"=1]
+"PSMB1" -> "PSMB3" ["e"=1]
+"PSMB10" -> "PSMB9" ["e"=1]
+"PSMB10" -> "PSMB7" ["e"=1]
+"PSMB10" -> "PSMB6" ["e"=1]
+"PSMB10" -> "PSMB4" ["e"=1]
+"PSMB11" -> "PSMB5" ["e"=1]
+"PSMB11" -> "PSMA5" ["e"=1]
+"PSMB11" -> "PSMB6" ["e"=1]
+"PSMB11" -> "PSMA4" ["e"=1]
+"PSMB2" -> "PSMA5" ["e"=1]
+"PSMB2" -> "PSMA4" ["e"=1]
+"PSMB2" -> "PSMB1" ["e"=1]
+"PSMB2" -> "PSMA2" ["e"=1]
+"PSMB3" -> "PSMB1" ["e"=1]
+"PSMB3" -> "PSMB2" ["e"=1]
+"PSMB3" -> "PSMB7" ["e"=1]
+"PSMB3" -> "PSMB6" ["e"=1]
+"PSMB4" -> "PSMB7" ["e"=1]
+"PSMB4" -> "PSMB2" ["e"=1]
+"PSMB4" -> "PSMB1" ["e"=1]
+"PSMB4" -> "PSMB5" ["e"=1]
+"PSMB5" -> "PSMB6" ["e"=1]
+"PSMB5" -> "PSMB7" ["e"=1]
+"PSMB5" -> "PSMB1" ["e"=1]
+"PSMB5" -> "PSMB4" ["e"=1]
+"PSMB6" -> "PSMB5" ["e"=1]
+"PSMB6" -> "PSMB7" ["e"=1]
+"PSMB6" -> "PSMB1" ["e"=1]
+"PSMB6" -> "PSMB9" ["e"=1]
+"PSMB7" -> "PSMB1" ["e"=1]
+"PSMB7" -> "PSMB4" ["e"=1]
+"PSMB7" -> "PSMB6" ["e"=1]
+"PSMB7" -> "PSMB5" ["e"=1]
+"PSMB8" -> "PSMB9" ["e"=1]
+"PSMB8" -> "PSMB5" ["e"=1]
+"PSMB8" -> "PSMB6" ["e"=1]
+"PSMB8" -> "PSMB1" ["e"=1]
+"PSMB9" -> "PSMB8" ["e"=1]
+"PSMB9" -> "PSMB10" ["e"=1]
+"PSMB9" -> "PSMB6" ["e"=1]
+"PSMB9" -> "PSMB7" ["e"=1]
 }

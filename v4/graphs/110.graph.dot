@@ -13,60 +13,60 @@ digraph G {
 "MYO5B" ["l"="8.877,-0.132"]
 "MYO5C" ["l"="8.768,-0.106"]
 "MYO6" ["l"="8.723,-0.031"]
-"KIF1A" -> "MYO5A"
-"KIF1A" -> "MYO5B"
-"KIF1A" -> "MYO10"
-"KIF1A" -> "MYO1G"
-"MYO10" -> "MYO5B"
-"MYO10" -> "MYO1E"
-"MYO10" -> "MYO5C"
-"MYO10" -> "MYO5A"
-"MYO1A" -> "MYO1H"
-"MYO1A" -> "MYO1C"
-"MYO1A" -> "MYO1B"
-"MYO1A" -> "MYO1D"
-"MYO1B" -> "MYO1H"
-"MYO1B" -> "MYO1E"
-"MYO1B" -> "MYO1A"
-"MYO1B" -> "MYO1C"
-"MYO1C" -> "MYO1A"
-"MYO1C" -> "MYO1H"
-"MYO1C" -> "MYO1E"
-"MYO1C" -> "MYO1B"
-"MYO1D" -> "MYO1H"
-"MYO1D" -> "MYO1E"
-"MYO1D" -> "MYO1A"
-"MYO1D" -> "MYO1B"
-"MYO1E" -> "MYO1H"
-"MYO1E" -> "MYO1B"
-"MYO1E" -> "MYO1D"
-"MYO1E" -> "MYO1F"
-"MYO1F" -> "MYO1G"
-"MYO1F" -> "MYO1H"
-"MYO1F" -> "MYO1E"
-"MYO1F" -> "MYO1A"
-"MYO1G" -> "MYO1F"
-"MYO1G" -> "MYO1A"
-"MYO1G" -> "MYO1H"
-"MYO1G" -> "MYO1C"
-"MYO1H" -> "MYO1E"
-"MYO1H" -> "MYO1B"
-"MYO1H" -> "MYO1F"
-"MYO1H" -> "MYO1D"
-"MYO5A" -> "MYO5B"
-"MYO5A" -> "MYO5C"
-"MYO5A" -> "MYO6"
-"MYO5A" -> "MYO10"
-"MYO5B" -> "MYO5C"
-"MYO5B" -> "MYO5A"
-"MYO5B" -> "MYO10"
-"MYO5B" -> "MYO1E"
-"MYO5C" -> "MYO5B"
-"MYO5C" -> "MYO5A"
-"MYO5C" -> "MYO10"
-"MYO5C" -> "MYO6"
-"MYO6" -> "MYO5A"
-"MYO6" -> "MYO5C"
-"MYO6" -> "MYO1H"
-"MYO6" -> "MYO10"
+"KIF1A" -> "MYO5A" ["e"=1]
+"KIF1A" -> "MYO5B" ["e"=1]
+"KIF1A" -> "MYO10" ["e"=1]
+"KIF1A" -> "MYO1G" ["e"=1]
+"MYO10" -> "MYO5B" ["e"=1]
+"MYO10" -> "MYO1E" ["e"=1]
+"MYO10" -> "MYO5C" ["e"=1]
+"MYO10" -> "MYO5A" ["e"=1]
+"MYO1A" -> "MYO1H" ["e"=1]
+"MYO1A" -> "MYO1C" ["e"=1]
+"MYO1A" -> "MYO1B" ["e"=1]
+"MYO1A" -> "MYO1D" ["e"=1]
+"MYO1B" -> "MYO1H" ["e"=1]
+"MYO1B" -> "MYO1E" ["e"=1]
+"MYO1B" -> "MYO1A" ["e"=1]
+"MYO1B" -> "MYO1C" ["e"=1]
+"MYO1C" -> "MYO1A" ["e"=1]
+"MYO1C" -> "MYO1H" ["e"=1]
+"MYO1C" -> "MYO1E" ["e"=1]
+"MYO1C" -> "MYO1B" ["e"=1]
+"MYO1D" -> "MYO1H" ["e"=1]
+"MYO1D" -> "MYO1E" ["e"=1]
+"MYO1D" -> "MYO1A" ["e"=1]
+"MYO1D" -> "MYO1B" ["e"=1]
+"MYO1E" -> "MYO1H" ["e"=1]
+"MYO1E" -> "MYO1B" ["e"=1]
+"MYO1E" -> "MYO1D" ["e"=1]
+"MYO1E" -> "MYO1F" ["e"=1]
+"MYO1F" -> "MYO1G" ["e"=1]
+"MYO1F" -> "MYO1H" ["e"=1]
+"MYO1F" -> "MYO1E" ["e"=1]
+"MYO1F" -> "MYO1A" ["e"=1]
+"MYO1G" -> "MYO1F" ["e"=1]
+"MYO1G" -> "MYO1A" ["e"=1]
+"MYO1G" -> "MYO1H" ["e"=1]
+"MYO1G" -> "MYO1C" ["e"=1]
+"MYO1H" -> "MYO1E" ["e"=1]
+"MYO1H" -> "MYO1B" ["e"=1]
+"MYO1H" -> "MYO1F" ["e"=1]
+"MYO1H" -> "MYO1D" ["e"=1]
+"MYO5A" -> "MYO5B" ["e"=1]
+"MYO5A" -> "MYO5C" ["e"=1]
+"MYO5A" -> "MYO6" ["e"=1]
+"MYO5A" -> "MYO10" ["e"=1]
+"MYO5B" -> "MYO5C" ["e"=1]
+"MYO5B" -> "MYO5A" ["e"=1]
+"MYO5B" -> "MYO10" ["e"=1]
+"MYO5B" -> "MYO1E" ["e"=1]
+"MYO5C" -> "MYO5B" ["e"=1]
+"MYO5C" -> "MYO5A" ["e"=1]
+"MYO5C" -> "MYO10" ["e"=1]
+"MYO5C" -> "MYO6" ["e"=1]
+"MYO6" -> "MYO5A" ["e"=1]
+"MYO6" -> "MYO5C" ["e"=1]
+"MYO6" -> "MYO1H" ["e"=1]
+"MYO6" -> "MYO10" ["e"=1]
 }

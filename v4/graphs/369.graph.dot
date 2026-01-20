@@ -53,220 +53,220 @@ digraph G {
 "WASHC3" ["l"="11.034,3.030"]
 "ZC3H8" ["l"="11.067,3.084"]
 "ZNHIT3" ["l"="11.126,2.987"]
-"ACBD6" -> "TTC1"
-"ACBD6" -> "ZC3H8"
-"ACBD6" -> "DENR"
-"ACBD6" -> "MED4"
-"BAG1" -> "BLOC1S5"
-"BAG1" -> "MCUR1"
-"BAG1" -> "PSMD9"
-"BAG1" -> "LSM12"
-"BAG2" -> "HAUS2"
-"BAG2" -> "BLOC1S5"
-"BAG2" -> "FGFR1OP2"
-"BAG2" -> "DFFA"
-"BCAS2" -> "MED6"
-"BCAS2" -> "MED7"
-"BCAS2" -> "BLOC1S5"
-"BCAS2" -> "MED4"
-"BLOC1S5" -> "PSMD9"
-"BLOC1S5" -> "MED4"
-"BLOC1S5" -> "MED28"
-"BLOC1S5" -> "CDKN2AIPNL"
-"C14orf119" -> "C4orf46"
-"C14orf119" -> "BLOC1S5"
-"C14orf119" -> "MED28"
-"C14orf119" -> "ZNHIT3"
-"C1D" -> "CRCP"
-"C1D" -> "MED4"
-"C1D" -> "HAUS2"
-"C1D" -> "MED28"
-"C4orf46" -> "BLOC1S5"
-"C4orf46" -> "MED30"
-"C4orf46" -> "CDKN2AIPNL"
-"C4orf46" -> "HAUS2"
-"CDC37" -> "PDCL"
-"CDC37" -> "CFAP298"
-"CDC37" -> "TTC1"
-"CDC37" -> "BCAS2"
-"CDKN2AIPNL" -> "BLOC1S5"
-"CDKN2AIPNL" -> "HAUS2"
-"CDKN2AIPNL" -> "BAG2"
-"CDKN2AIPNL" -> "DFFA"
-"CFAP298" -> "PRPF18"
-"CFAP298" -> "CRCP"
-"CFAP298" -> "C1D"
-"CFAP298" -> "BCAS2"
-"CINP" -> "HAUS2"
-"CINP" -> "BLOC1S5"
-"CINP" -> "MED22"
-"CINP" -> "DFFA"
-"CRCP" -> "C1D"
-"CRCP" -> "MED4"
-"CRCP" -> "PRPF18"
-"CRCP" -> "HAUS2"
-"DCTN2" -> "BCAS2"
-"DCTN2" -> "MED22"
-"DCTN2" -> "MED8"
-"DCTN2" -> "PSMD9"
-"DENR" -> "ZC3H8"
-"DENR" -> "CRCP"
-"DENR" -> "TTC1"
-"DENR" -> "ZNHIT3"
-"DFFA" -> "BLOC1S5"
-"DFFA" -> "LSM12"
-"DFFA" -> "HAUS2"
-"DFFA" -> "CINP"
-"DR1" -> "LSM12"
-"DR1" -> "DFFA"
-"DR1" -> "MED28"
-"DR1" -> "MED22"
-"EIF1AD" -> "MED7"
-"EIF1AD" -> "CRCP"
-"EIF1AD" -> "LSM12"
-"EIF1AD" -> "PDCL"
-"EIF5B" -> "ZC3H8"
-"EIF5B" -> "DENR"
-"EIF5B" -> "SEC62"
-"EIF5B" -> "CDC37"
-"FGFR1OP2" -> "BLOC1S5"
-"FGFR1OP2" -> "GID8"
-"FGFR1OP2" -> "BAG2"
-"FGFR1OP2" -> "MED22"
-"FKBPL" -> "TSEN34"
-"FKBPL" -> "KTI12"
-"FKBPL" -> "TBCC"
-"FKBPL" -> "TTC1"
-"GID8" -> "MED4"
-"GID8" -> "MED22"
-"GID8" -> "MED28"
-"GID8" -> "PSMD9"
-"HAUS2" -> "CINP"
-"HAUS2" -> "MED28"
-"HAUS2" -> "SKA2"
-"HAUS2" -> "BAG2"
-"IQCA1" -> "CFAP298"
-"IQCA1" -> "ZC3H8"
-"IQCA1" -> "CDC37"
-"IQCA1" -> "SSRP1"
-"KTI12" -> "TBCC"
-"KTI12" -> "TSEN34"
-"KTI12" -> "RPP25"
-"KTI12" -> "FKBPL"
-"LSM12" -> "PSMD9"
-"LSM12" -> "BLOC1S5"
-"LSM12" -> "DFFA"
-"LSM12" -> "CRCP"
-"MCUR1" -> "BAG1"
-"MCUR1" -> "HAUS2"
-"MCUR1" -> "BLOC1S5"
-"MCUR1" -> "BAG2"
-"MED22" -> "MED8"
-"MED22" -> "MED28"
-"MED22" -> "BLOC1S5"
-"MED22" -> "GID8"
-"MED28" -> "BLOC1S5"
-"MED28" -> "MED22"
-"MED28" -> "HAUS2"
-"MED28" -> "MED4"
-"MED30" -> "PSMD9"
-"MED30" -> "MED28"
-"MED30" -> "BLOC1S5"
-"MED30" -> "MED7"
-"MED31" -> "MED6"
-"MED31" -> "BLOC1S5"
-"MED31" -> "MED7"
-"MED31" -> "PSMD9"
-"MED4" -> "PSMD9"
-"MED4" -> "BLOC1S5"
-"MED4" -> "C1D"
-"MED4" -> "CRCP"
-"MED6" -> "MED7"
-"MED6" -> "BCAS2"
-"MED6" -> "MED8"
-"MED6" -> "MED22"
-"MED7" -> "MED6"
-"MED7" -> "BLOC1S5"
-"MED7" -> "BCAS2"
-"MED7" -> "MED22"
-"MED8" -> "MED22"
-"MED8" -> "MED6"
-"MED8" -> "MED28"
-"MED8" -> "MED4"
-"PDCD10" -> "FGFR1OP2"
-"PDCD10" -> "CRCP"
-"PDCD10" -> "MED22"
-"PDCD10" -> "CINP"
-"PDCL" -> "PDCL2"
-"PDCL" -> "MED4"
-"PDCL" -> "TBCC"
-"PDCL" -> "TTC1"
-"PDCL2" -> "PDCL"
-"PDCL2" -> "PRPF18"
-"PDCL2" -> "MED4"
-"PDCL2" -> "C1D"
-"PRPF18" -> "CFAP298"
-"PRPF18" -> "CRCP"
-"PRPF18" -> "MED4"
-"PRPF18" -> "PSMD9"
-"PSMD9" -> "BLOC1S5"
-"PSMD9" -> "MED4"
-"PSMD9" -> "LSM12"
-"PSMD9" -> "GID8"
-"RPP25" -> "KTI12"
-"RPP25" -> "TSEN34"
-"RPP25" -> "TBCC"
-"RPP25" -> "BAG1"
-"SEC62" -> "SEC63"
-"SEC62" -> "DENR"
-"SEC62" -> "TTC1"
-"SEC62" -> "ZC3H8"
-"SEC63" -> "SEC62"
-"SEC63" -> "DENR"
-"SEC63" -> "MED4"
-"SEC63" -> "CRCP"
-"SKA2" -> "HAUS2"
-"SKA2" -> "BLOC1S5"
-"SKA2" -> "C1D"
-"SKA2" -> "FGFR1OP2"
-"SSRP1" -> "SEC63"
-"SSRP1" -> "EIF1AD"
-"SSRP1" -> "IQCA1"
-"SSRP1" -> "DENR"
-"TBCC" -> "KTI12"
-"TBCC" -> "TSEN34"
-"TBCC" -> "PDCL"
-"TBCC" -> "FKBPL"
-"THOC7" -> "BLOC1S5"
-"THOC7" -> "CRCP"
-"THOC7" -> "BCAS2"
-"THOC7" -> "MED4"
-"TMEM98" -> "MED22"
-"TMEM98" -> "BAG2"
-"TMEM98" -> "CINP"
-"TMEM98" -> "HAUS2"
-"TSEN34" -> "KTI12"
-"TSEN34" -> "FKBPL"
-"TSEN34" -> "TBCC"
-"TSEN34" -> "RPP25"
-"TTC1" -> "ZC3H8"
-"TTC1" -> "DENR"
-"TTC1" -> "MED4"
-"TTC1" -> "ACBD6"
-"VHLL" -> "BAG1"
-"VHLL" -> "CDKN2AIPNL"
-"VHLL" -> "EIF1AD"
-"VHLL" -> "BLOC1S5"
-"WASHC3" -> "ZNHIT3"
-"WASHC3" -> "MED22"
-"WASHC3" -> "MED7"
-"WASHC3" -> "CRCP"
-"ZC3H8" -> "TTC1"
-"ZC3H8" -> "DENR"
-"ZC3H8" -> "PRPF18"
-"ZC3H8" -> "HAUS2"
-"ZNHIT3" -> "C1D"
-"ZNHIT3" -> "MED4"
-"ZNHIT3" -> "DENR"
-"ZNHIT3" -> "WASHC3"
+"ACBD6" -> "TTC1" ["e"=1]
+"ACBD6" -> "ZC3H8" ["e"=1]
+"ACBD6" -> "DENR" ["e"=1]
+"ACBD6" -> "MED4" ["e"=1]
+"BAG1" -> "BLOC1S5" ["e"=1]
+"BAG1" -> "MCUR1" ["e"=1]
+"BAG1" -> "PSMD9" ["e"=1]
+"BAG1" -> "LSM12" ["e"=1]
+"BAG2" -> "HAUS2" ["e"=1]
+"BAG2" -> "BLOC1S5" ["e"=1]
+"BAG2" -> "FGFR1OP2" ["e"=1]
+"BAG2" -> "DFFA" ["e"=1]
+"BCAS2" -> "MED6" ["e"=1]
+"BCAS2" -> "MED7" ["e"=1]
+"BCAS2" -> "BLOC1S5" ["e"=1]
+"BCAS2" -> "MED4" ["e"=1]
+"BLOC1S5" -> "PSMD9" ["e"=1]
+"BLOC1S5" -> "MED4" ["e"=1]
+"BLOC1S5" -> "MED28" ["e"=1]
+"BLOC1S5" -> "CDKN2AIPNL" ["e"=1]
+"C14orf119" -> "C4orf46" ["e"=1]
+"C14orf119" -> "BLOC1S5" ["e"=1]
+"C14orf119" -> "MED28" ["e"=1]
+"C14orf119" -> "ZNHIT3" ["e"=1]
+"C1D" -> "CRCP" ["e"=1]
+"C1D" -> "MED4" ["e"=1]
+"C1D" -> "HAUS2" ["e"=1]
+"C1D" -> "MED28" ["e"=1]
+"C4orf46" -> "BLOC1S5" ["e"=1]
+"C4orf46" -> "MED30" ["e"=1]
+"C4orf46" -> "CDKN2AIPNL" ["e"=1]
+"C4orf46" -> "HAUS2" ["e"=1]
+"CDC37" -> "PDCL" ["e"=1]
+"CDC37" -> "CFAP298" ["e"=1]
+"CDC37" -> "TTC1" ["e"=1]
+"CDC37" -> "BCAS2" ["e"=1]
+"CDKN2AIPNL" -> "BLOC1S5" ["e"=1]
+"CDKN2AIPNL" -> "HAUS2" ["e"=1]
+"CDKN2AIPNL" -> "BAG2" ["e"=1]
+"CDKN2AIPNL" -> "DFFA" ["e"=1]
+"CFAP298" -> "PRPF18" ["e"=1]
+"CFAP298" -> "CRCP" ["e"=1]
+"CFAP298" -> "C1D" ["e"=1]
+"CFAP298" -> "BCAS2" ["e"=1]
+"CINP" -> "HAUS2" ["e"=1]
+"CINP" -> "BLOC1S5" ["e"=1]
+"CINP" -> "MED22" ["e"=1]
+"CINP" -> "DFFA" ["e"=1]
+"CRCP" -> "C1D" ["e"=1]
+"CRCP" -> "MED4" ["e"=1]
+"CRCP" -> "PRPF18" ["e"=1]
+"CRCP" -> "HAUS2" ["e"=1]
+"DCTN2" -> "BCAS2" ["e"=1]
+"DCTN2" -> "MED22" ["e"=1]
+"DCTN2" -> "MED8" ["e"=1]
+"DCTN2" -> "PSMD9" ["e"=1]
+"DENR" -> "ZC3H8" ["e"=1]
+"DENR" -> "CRCP" ["e"=1]
+"DENR" -> "TTC1" ["e"=1]
+"DENR" -> "ZNHIT3" ["e"=1]
+"DFFA" -> "BLOC1S5" ["e"=1]
+"DFFA" -> "LSM12" ["e"=1]
+"DFFA" -> "HAUS2" ["e"=1]
+"DFFA" -> "CINP" ["e"=1]
+"DR1" -> "LSM12" ["e"=1]
+"DR1" -> "DFFA" ["e"=1]
+"DR1" -> "MED28" ["e"=1]
+"DR1" -> "MED22" ["e"=1]
+"EIF1AD" -> "MED7" ["e"=1]
+"EIF1AD" -> "CRCP" ["e"=1]
+"EIF1AD" -> "LSM12" ["e"=1]
+"EIF1AD" -> "PDCL" ["e"=1]
+"EIF5B" -> "ZC3H8" ["e"=1]
+"EIF5B" -> "DENR" ["e"=1]
+"EIF5B" -> "SEC62" ["e"=1]
+"EIF5B" -> "CDC37" ["e"=1]
+"FGFR1OP2" -> "BLOC1S5" ["e"=1]
+"FGFR1OP2" -> "GID8" ["e"=1]
+"FGFR1OP2" -> "BAG2" ["e"=1]
+"FGFR1OP2" -> "MED22" ["e"=1]
+"FKBPL" -> "TSEN34" ["e"=1]
+"FKBPL" -> "KTI12" ["e"=1]
+"FKBPL" -> "TBCC" ["e"=1]
+"FKBPL" -> "TTC1" ["e"=1]
+"GID8" -> "MED4" ["e"=1]
+"GID8" -> "MED22" ["e"=1]
+"GID8" -> "MED28" ["e"=1]
+"GID8" -> "PSMD9" ["e"=1]
+"HAUS2" -> "CINP" ["e"=1]
+"HAUS2" -> "MED28" ["e"=1]
+"HAUS2" -> "SKA2" ["e"=1]
+"HAUS2" -> "BAG2" ["e"=1]
+"IQCA1" -> "CFAP298" ["e"=1]
+"IQCA1" -> "ZC3H8" ["e"=1]
+"IQCA1" -> "CDC37" ["e"=1]
+"IQCA1" -> "SSRP1" ["e"=1]
+"KTI12" -> "TBCC" ["e"=1]
+"KTI12" -> "TSEN34" ["e"=1]
+"KTI12" -> "RPP25" ["e"=1]
+"KTI12" -> "FKBPL" ["e"=1]
+"LSM12" -> "PSMD9" ["e"=1]
+"LSM12" -> "BLOC1S5" ["e"=1]
+"LSM12" -> "DFFA" ["e"=1]
+"LSM12" -> "CRCP" ["e"=1]
+"MCUR1" -> "BAG1" ["e"=1]
+"MCUR1" -> "HAUS2" ["e"=1]
+"MCUR1" -> "BLOC1S5" ["e"=1]
+"MCUR1" -> "BAG2" ["e"=1]
+"MED22" -> "MED8" ["e"=1]
+"MED22" -> "MED28" ["e"=1]
+"MED22" -> "BLOC1S5" ["e"=1]
+"MED22" -> "GID8" ["e"=1]
+"MED28" -> "BLOC1S5" ["e"=1]
+"MED28" -> "MED22" ["e"=1]
+"MED28" -> "HAUS2" ["e"=1]
+"MED28" -> "MED4" ["e"=1]
+"MED30" -> "PSMD9" ["e"=1]
+"MED30" -> "MED28" ["e"=1]
+"MED30" -> "BLOC1S5" ["e"=1]
+"MED30" -> "MED7" ["e"=1]
+"MED31" -> "MED6" ["e"=1]
+"MED31" -> "BLOC1S5" ["e"=1]
+"MED31" -> "MED7" ["e"=1]
+"MED31" -> "PSMD9" ["e"=1]
+"MED4" -> "PSMD9" ["e"=1]
+"MED4" -> "BLOC1S5" ["e"=1]
+"MED4" -> "C1D" ["e"=1]
+"MED4" -> "CRCP" ["e"=1]
+"MED6" -> "MED7" ["e"=1]
+"MED6" -> "BCAS2" ["e"=1]
+"MED6" -> "MED8" ["e"=1]
+"MED6" -> "MED22" ["e"=1]
+"MED7" -> "MED6" ["e"=1]
+"MED7" -> "BLOC1S5" ["e"=1]
+"MED7" -> "BCAS2" ["e"=1]
+"MED7" -> "MED22" ["e"=1]
+"MED8" -> "MED22" ["e"=1]
+"MED8" -> "MED6" ["e"=1]
+"MED8" -> "MED28" ["e"=1]
+"MED8" -> "MED4" ["e"=1]
+"PDCD10" -> "FGFR1OP2" ["e"=1]
+"PDCD10" -> "CRCP" ["e"=1]
+"PDCD10" -> "MED22" ["e"=1]
+"PDCD10" -> "CINP" ["e"=1]
+"PDCL" -> "PDCL2" ["e"=1]
+"PDCL" -> "MED4" ["e"=1]
+"PDCL" -> "TBCC" ["e"=1]
+"PDCL" -> "TTC1" ["e"=1]
+"PDCL2" -> "PDCL" ["e"=1]
+"PDCL2" -> "PRPF18" ["e"=1]
+"PDCL2" -> "MED4" ["e"=1]
+"PDCL2" -> "C1D" ["e"=1]
+"PRPF18" -> "CFAP298" ["e"=1]
+"PRPF18" -> "CRCP" ["e"=1]
+"PRPF18" -> "MED4" ["e"=1]
+"PRPF18" -> "PSMD9" ["e"=1]
+"PSMD9" -> "BLOC1S5" ["e"=1]
+"PSMD9" -> "MED4" ["e"=1]
+"PSMD9" -> "LSM12" ["e"=1]
+"PSMD9" -> "GID8" ["e"=1]
+"RPP25" -> "KTI12" ["e"=1]
+"RPP25" -> "TSEN34" ["e"=1]
+"RPP25" -> "TBCC" ["e"=1]
+"RPP25" -> "BAG1" ["e"=1]
+"SEC62" -> "SEC63" ["e"=1]
+"SEC62" -> "DENR" ["e"=1]
+"SEC62" -> "TTC1" ["e"=1]
+"SEC62" -> "ZC3H8" ["e"=1]
+"SEC63" -> "SEC62" ["e"=1]
+"SEC63" -> "DENR" ["e"=1]
+"SEC63" -> "MED4" ["e"=1]
+"SEC63" -> "CRCP" ["e"=1]
+"SKA2" -> "HAUS2" ["e"=1]
+"SKA2" -> "BLOC1S5" ["e"=1]
+"SKA2" -> "C1D" ["e"=1]
+"SKA2" -> "FGFR1OP2" ["e"=1]
+"SSRP1" -> "SEC63" ["e"=1]
+"SSRP1" -> "EIF1AD" ["e"=1]
+"SSRP1" -> "IQCA1" ["e"=1]
+"SSRP1" -> "DENR" ["e"=1]
+"TBCC" -> "KTI12" ["e"=1]
+"TBCC" -> "TSEN34" ["e"=1]
+"TBCC" -> "PDCL" ["e"=1]
+"TBCC" -> "FKBPL" ["e"=1]
+"THOC7" -> "BLOC1S5" ["e"=1]
+"THOC7" -> "CRCP" ["e"=1]
+"THOC7" -> "BCAS2" ["e"=1]
+"THOC7" -> "MED4" ["e"=1]
+"TMEM98" -> "MED22" ["e"=1]
+"TMEM98" -> "BAG2" ["e"=1]
+"TMEM98" -> "CINP" ["e"=1]
+"TMEM98" -> "HAUS2" ["e"=1]
+"TSEN34" -> "KTI12" ["e"=1]
+"TSEN34" -> "FKBPL" ["e"=1]
+"TSEN34" -> "TBCC" ["e"=1]
+"TSEN34" -> "RPP25" ["e"=1]
+"TTC1" -> "ZC3H8" ["e"=1]
+"TTC1" -> "DENR" ["e"=1]
+"TTC1" -> "MED4" ["e"=1]
+"TTC1" -> "ACBD6" ["e"=1]
+"VHLL" -> "BAG1" ["e"=1]
+"VHLL" -> "CDKN2AIPNL" ["e"=1]
+"VHLL" -> "EIF1AD" ["e"=1]
+"VHLL" -> "BLOC1S5" ["e"=1]
+"WASHC3" -> "ZNHIT3" ["e"=1]
+"WASHC3" -> "MED22" ["e"=1]
+"WASHC3" -> "MED7" ["e"=1]
+"WASHC3" -> "CRCP" ["e"=1]
+"ZC3H8" -> "TTC1" ["e"=1]
+"ZC3H8" -> "DENR" ["e"=1]
+"ZC3H8" -> "PRPF18" ["e"=1]
+"ZC3H8" -> "HAUS2" ["e"=1]
+"ZNHIT3" -> "C1D" ["e"=1]
+"ZNHIT3" -> "MED4" ["e"=1]
+"ZNHIT3" -> "DENR" ["e"=1]
+"ZNHIT3" -> "WASHC3" ["e"=1]
 }

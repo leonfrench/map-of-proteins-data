@@ -23,100 +23,100 @@ digraph G {
 "STC1" ["l"="14.309,-1.575"]
 "VEGFA" ["l"="14.365,-1.545"]
 "VEGFB" ["l"="14.403,-1.474"]
-"ALKAL1" -> "EDN3"
-"ALKAL1" -> "PDGFA"
-"ALKAL1" -> "FGFBP3"
-"ALKAL1" -> "SOST"
-"CER1" -> "SOST"
-"CER1" -> "EDN3"
-"CER1" -> "ALKAL1"
-"CER1" -> "IL25"
-"EDDM13" -> "ALKAL1"
-"EDDM13" -> "LY6G5C"
-"EDDM13" -> "CER1"
-"EDDM13" -> "IL17A"
-"EDN3" -> "ALKAL1"
-"EDN3" -> "CER1"
-"EDN3" -> "PGF"
-"EDN3" -> "IL25"
-"FGFBP1" -> "FGFBP3"
-"FGFBP1" -> "FGFBP2"
-"FGFBP1" -> "ALKAL1"
-"FGFBP1" -> "PDGFB"
-"FGFBP2" -> "FGFBP1"
-"FGFBP2" -> "FGFBP3"
-"FGFBP2" -> "PDGFB"
-"FGFBP2" -> "IL17F"
-"FGFBP3" -> "FGFBP1"
-"FGFBP3" -> "ALKAL1"
-"FGFBP3" -> "PDGFB"
-"FGFBP3" -> "IL17C"
-"GREM2" -> "SOSTDC1"
-"GREM2" -> "SOST"
-"GREM2" -> "PDGFB"
-"GREM2" -> "PDGFA"
-"IL17A" -> "IL17F"
-"IL17A" -> "IL17C"
-"IL17A" -> "IL25"
-"IL17A" -> "ALKAL1"
-"IL17B" -> "IL17F"
-"IL17B" -> "IL17C"
-"IL17B" -> "IL25"
-"IL17B" -> "SOST"
-"IL17C" -> "IL17F"
-"IL17C" -> "IL17A"
-"IL17C" -> "IL25"
-"IL17C" -> "SOST"
-"IL17F" -> "IL17A"
-"IL17F" -> "IL17C"
-"IL17F" -> "IL25"
-"IL17F" -> "GREM2"
-"IL25" -> "IL17F"
-"IL25" -> "IL17C"
-"IL25" -> "IL17A"
-"IL25" -> "GREM2"
-"LY6G5C" -> "IL25"
-"LY6G5C" -> "EDDM13"
-"LY6G5C" -> "ALKAL1"
-"LY6G5C" -> "IL17C"
-"NBL1" -> "SOST"
-"NBL1" -> "PDGFB"
-"NBL1" -> "VEGFB"
-"NBL1" -> "PDGFA"
-"PDGFA" -> "PDGFB"
-"PDGFA" -> "PGF"
-"PDGFA" -> "SOST"
-"PDGFA" -> "ALKAL1"
-"PDGFB" -> "PDGFA"
-"PDGFB" -> "SOST"
-"PDGFB" -> "SOSTDC1"
-"PDGFB" -> "PGF"
-"PGF" -> "PDGFA"
-"PGF" -> "VEGFA"
-"PGF" -> "PDGFB"
-"PGF" -> "VEGFB"
-"PLA2G10" -> "LY6G5C"
-"PLA2G10" -> "IL25"
-"PLA2G10" -> "EDN3"
-"PLA2G10" -> "VEGFB"
-"SOST" -> "PDGFB"
-"SOST" -> "SOSTDC1"
-"SOST" -> "PDGFA"
-"SOST" -> "GREM2"
-"SOSTDC1" -> "PDGFB"
-"SOSTDC1" -> "SOST"
-"SOSTDC1" -> "GREM2"
-"SOSTDC1" -> "PDGFA"
-"STC1" -> "PDGFB"
-"STC1" -> "PGF"
-"STC1" -> "EDN3"
-"STC1" -> "PDGFA"
-"VEGFA" -> "PGF"
-"VEGFA" -> "PDGFA"
-"VEGFA" -> "PDGFB"
-"VEGFA" -> "GREM2"
-"VEGFB" -> "PGF"
-"VEGFB" -> "NBL1"
-"VEGFB" -> "FGFBP3"
-"VEGFB" -> "PDGFB"
+"ALKAL1" -> "EDN3" ["e"=1]
+"ALKAL1" -> "PDGFA" ["e"=1]
+"ALKAL1" -> "FGFBP3" ["e"=1]
+"ALKAL1" -> "SOST" ["e"=1]
+"CER1" -> "SOST" ["e"=1]
+"CER1" -> "EDN3" ["e"=1]
+"CER1" -> "ALKAL1" ["e"=1]
+"CER1" -> "IL25" ["e"=1]
+"EDDM13" -> "ALKAL1" ["e"=1]
+"EDDM13" -> "LY6G5C" ["e"=1]
+"EDDM13" -> "CER1" ["e"=1]
+"EDDM13" -> "IL17A" ["e"=1]
+"EDN3" -> "ALKAL1" ["e"=1]
+"EDN3" -> "CER1" ["e"=1]
+"EDN3" -> "PGF" ["e"=1]
+"EDN3" -> "IL25" ["e"=1]
+"FGFBP1" -> "FGFBP3" ["e"=1]
+"FGFBP1" -> "FGFBP2" ["e"=1]
+"FGFBP1" -> "ALKAL1" ["e"=1]
+"FGFBP1" -> "PDGFB" ["e"=1]
+"FGFBP2" -> "FGFBP1" ["e"=1]
+"FGFBP2" -> "FGFBP3" ["e"=1]
+"FGFBP2" -> "PDGFB" ["e"=1]
+"FGFBP2" -> "IL17F" ["e"=1]
+"FGFBP3" -> "FGFBP1" ["e"=1]
+"FGFBP3" -> "ALKAL1" ["e"=1]
+"FGFBP3" -> "PDGFB" ["e"=1]
+"FGFBP3" -> "IL17C" ["e"=1]
+"GREM2" -> "SOSTDC1" ["e"=1]
+"GREM2" -> "SOST" ["e"=1]
+"GREM2" -> "PDGFB" ["e"=1]
+"GREM2" -> "PDGFA" ["e"=1]
+"IL17A" -> "IL17F" ["e"=1]
+"IL17A" -> "IL17C" ["e"=1]
+"IL17A" -> "IL25" ["e"=1]
+"IL17A" -> "ALKAL1" ["e"=1]
+"IL17B" -> "IL17F" ["e"=1]
+"IL17B" -> "IL17C" ["e"=1]
+"IL17B" -> "IL25" ["e"=1]
+"IL17B" -> "SOST" ["e"=1]
+"IL17C" -> "IL17F" ["e"=1]
+"IL17C" -> "IL17A" ["e"=1]
+"IL17C" -> "IL25" ["e"=1]
+"IL17C" -> "SOST" ["e"=1]
+"IL17F" -> "IL17A" ["e"=1]
+"IL17F" -> "IL17C" ["e"=1]
+"IL17F" -> "IL25" ["e"=1]
+"IL17F" -> "GREM2" ["e"=1]
+"IL25" -> "IL17F" ["e"=1]
+"IL25" -> "IL17C" ["e"=1]
+"IL25" -> "IL17A" ["e"=1]
+"IL25" -> "GREM2" ["e"=1]
+"LY6G5C" -> "IL25" ["e"=1]
+"LY6G5C" -> "EDDM13" ["e"=1]
+"LY6G5C" -> "ALKAL1" ["e"=1]
+"LY6G5C" -> "IL17C" ["e"=1]
+"NBL1" -> "SOST" ["e"=1]
+"NBL1" -> "PDGFB" ["e"=1]
+"NBL1" -> "VEGFB" ["e"=1]
+"NBL1" -> "PDGFA" ["e"=1]
+"PDGFA" -> "PDGFB" ["e"=1]
+"PDGFA" -> "PGF" ["e"=1]
+"PDGFA" -> "SOST" ["e"=1]
+"PDGFA" -> "ALKAL1" ["e"=1]
+"PDGFB" -> "PDGFA" ["e"=1]
+"PDGFB" -> "SOST" ["e"=1]
+"PDGFB" -> "SOSTDC1" ["e"=1]
+"PDGFB" -> "PGF" ["e"=1]
+"PGF" -> "PDGFA" ["e"=1]
+"PGF" -> "VEGFA" ["e"=1]
+"PGF" -> "PDGFB" ["e"=1]
+"PGF" -> "VEGFB" ["e"=1]
+"PLA2G10" -> "LY6G5C" ["e"=1]
+"PLA2G10" -> "IL25" ["e"=1]
+"PLA2G10" -> "EDN3" ["e"=1]
+"PLA2G10" -> "VEGFB" ["e"=1]
+"SOST" -> "PDGFB" ["e"=1]
+"SOST" -> "SOSTDC1" ["e"=1]
+"SOST" -> "PDGFA" ["e"=1]
+"SOST" -> "GREM2" ["e"=1]
+"SOSTDC1" -> "PDGFB" ["e"=1]
+"SOSTDC1" -> "SOST" ["e"=1]
+"SOSTDC1" -> "GREM2" ["e"=1]
+"SOSTDC1" -> "PDGFA" ["e"=1]
+"STC1" -> "PDGFB" ["e"=1]
+"STC1" -> "PGF" ["e"=1]
+"STC1" -> "EDN3" ["e"=1]
+"STC1" -> "PDGFA" ["e"=1]
+"VEGFA" -> "PGF" ["e"=1]
+"VEGFA" -> "PDGFA" ["e"=1]
+"VEGFA" -> "PDGFB" ["e"=1]
+"VEGFA" -> "GREM2" ["e"=1]
+"VEGFB" -> "PGF" ["e"=1]
+"VEGFB" -> "NBL1" ["e"=1]
+"VEGFB" -> "FGFBP3" ["e"=1]
+"VEGFB" -> "PDGFB" ["e"=1]
 }

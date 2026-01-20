@@ -36,152 +36,152 @@ digraph G {
 "KLRK1" ["l"="7.019,-4.433"]
 "OLR1" ["l"="7.050,-4.395"]
 "SELL" ["l"="7.058,-4.391"]
-"ASGR1" -> "ASGR2"
-"ASGR1" -> "CLEC10A"
-"ASGR1" -> "FCER2"
-"ASGR1" -> "CLEC4G"
-"ASGR2" -> "ASGR1"
-"ASGR2" -> "CLEC10A"
-"ASGR2" -> "FCER2"
-"ASGR2" -> "CLEC4G"
-"CD207" -> "FCER2"
-"CD207" -> "CLEC4C"
-"CD207" -> "CLEC4F"
-"CD207" -> "CLEC6A"
-"CD209" -> "CLEC4M"
-"CD209" -> "CLEC1A"
-"CD209" -> "CLEC4F"
-"CD209" -> "CD207"
-"CD69" -> "CLEC2D"
-"CD69" -> "KLRG1"
-"CD69" -> "KLRB1"
-"CD69" -> "CLEC6A"
-"CD72" -> "FCER2"
-"CD72" -> "OLR1"
-"CD72" -> "CLEC1A"
-"CD72" -> "CLEC4G"
-"CLEC10A" -> "ASGR2"
-"CLEC10A" -> "FCER2"
-"CLEC10A" -> "ASGR1"
-"CLEC10A" -> "CLEC9A"
-"CLEC12A" -> "CLEC4A"
-"CLEC12A" -> "CLEC12B"
-"CLEC12A" -> "CLEC1B"
-"CLEC12A" -> "OLR1"
-"CLEC12B" -> "CLEC12A"
-"CLEC12B" -> "CLEC9A"
-"CLEC12B" -> "CLEC1B"
-"CLEC12B" -> "OLR1"
-"CLEC1A" -> "CLEC9A"
-"CLEC1A" -> "OLR1"
-"CLEC1A" -> "CLEC6A"
-"CLEC1A" -> "FCER2"
-"CLEC1B" -> "CLEC9A"
-"CLEC1B" -> "CLEC4C"
-"CLEC1B" -> "CLEC12A"
-"CLEC1B" -> "CLEC4A"
-"CLEC2A" -> "CLEC6A"
-"CLEC2A" -> "CLEC2B"
-"CLEC2A" -> "CLEC2D"
-"CLEC2A" -> "KLRG1"
-"CLEC2B" -> "CLEC2A"
-"CLEC2B" -> "CLEC4E"
-"CLEC2B" -> "CLEC4D"
-"CLEC2B" -> "CLEC6A"
-"CLEC2D" -> "CLEC6A"
-"CLEC2D" -> "CLEC4D"
-"CLEC2D" -> "CD69"
-"CLEC2D" -> "KLRG1"
-"CLEC4A" -> "KLRB1"
-"CLEC4A" -> "CLEC6A"
-"CLEC4A" -> "CLEC12A"
-"CLEC4A" -> "CLEC4D"
-"CLEC4C" -> "CLEC6A"
-"CLEC4C" -> "CLEC4A"
-"CLEC4C" -> "CLEC4D"
-"CLEC4C" -> "CLEC1B"
-"CLEC4D" -> "CLEC6A"
-"CLEC4D" -> "CLEC4E"
-"CLEC4D" -> "CLEC4A"
-"CLEC4D" -> "CLEC2D"
-"CLEC4E" -> "CLEC6A"
-"CLEC4E" -> "CLEC4D"
-"CLEC4E" -> "CLEC4A"
-"CLEC4E" -> "CLEC2B"
-"CLEC4F" -> "CD207"
-"CLEC4F" -> "CLEC1A"
-"CLEC4F" -> "FCER2"
-"CLEC4F" -> "CLEC4M"
-"CLEC4G" -> "FCER2"
-"CLEC4G" -> "CD207"
-"CLEC4G" -> "CLEC1B"
-"CLEC4G" -> "CLEC10A"
-"CLEC4M" -> "CD209"
-"CLEC4M" -> "CD207"
-"CLEC4M" -> "CLEC1A"
-"CLEC4M" -> "CLEC4F"
-"CLEC5A" -> "CLEC6A"
-"CLEC5A" -> "CLEC4D"
-"CLEC5A" -> "KLRB1"
-"CLEC5A" -> "CLEC2A"
-"CLEC6A" -> "CLEC4D"
-"CLEC6A" -> "CLEC4E"
-"CLEC6A" -> "KLRG1"
-"CLEC6A" -> "CLEC2A"
-"CLEC7A" -> "CLEC4A"
-"CLEC7A" -> "KLRG1"
-"CLEC7A" -> "CLEC12A"
-"CLEC7A" -> "KLRB1"
-"CLEC9A" -> "CLEC6A"
-"CLEC9A" -> "KLRG1"
-"CLEC9A" -> "KLRB1"
-"CLEC9A" -> "CLEC1A"
-"FCER2" -> "CLEC4G"
-"FCER2" -> "CLEC10A"
-"FCER2" -> "CD207"
-"FCER2" -> "CLEC1A"
-"KLRB1" -> "KLRG1"
-"KLRB1" -> "CLEC4A"
-"KLRB1" -> "KLRF1"
-"KLRB1" -> "CLEC6A"
-"KLRC1" -> "KLRC2"
-"KLRC1" -> "KLRC3"
-"KLRC1" -> "KLRK1"
-"KLRC1" -> "KLRF1"
-"KLRC2" -> "KLRC3"
-"KLRC2" -> "KLRC1"
-"KLRC2" -> "KLRK1"
-"KLRC2" -> "KLRC4"
-"KLRC3" -> "KLRC2"
-"KLRC3" -> "KLRC4"
-"KLRC3" -> "KLRC1"
-"KLRC3" -> "KLRK1"
-"KLRC4" -> "KLRC3"
-"KLRC4" -> "KLRC2"
-"KLRC4" -> "KLRC1"
-"KLRC4" -> "KLRK1"
-"KLRF1" -> "KLRB1"
-"KLRF1" -> "KLRG1"
-"KLRF1" -> "KLRK1"
-"KLRF1" -> "KLRF2"
-"KLRF2" -> "KLRG1"
-"KLRF2" -> "KLRK1"
-"KLRF2" -> "CLEC4A"
-"KLRF2" -> "KLRF1"
-"KLRG1" -> "KLRB1"
-"KLRG1" -> "CLEC6A"
-"KLRG1" -> "CLEC4A"
-"KLRG1" -> "CLEC9A"
-"KLRK1" -> "KLRC2"
-"KLRK1" -> "KLRF1"
-"KLRK1" -> "KLRF2"
-"KLRK1" -> "KLRG1"
-"OLR1" -> "CLEC1A"
-"OLR1" -> "CLEC12A"
-"OLR1" -> "CLEC6A"
-"OLR1" -> "CLEC9A"
-"SELL" -> "CLEC6A"
-"SELL" -> "CLEC4D"
-"SELL" -> "CLEC2D"
-"SELL" -> "CLEC4E"
+"ASGR1" -> "ASGR2" ["e"=1]
+"ASGR1" -> "CLEC10A" ["e"=1]
+"ASGR1" -> "FCER2" ["e"=1]
+"ASGR1" -> "CLEC4G" ["e"=1]
+"ASGR2" -> "ASGR1" ["e"=1]
+"ASGR2" -> "CLEC10A" ["e"=1]
+"ASGR2" -> "FCER2" ["e"=1]
+"ASGR2" -> "CLEC4G" ["e"=1]
+"CD207" -> "FCER2" ["e"=1]
+"CD207" -> "CLEC4C" ["e"=1]
+"CD207" -> "CLEC4F" ["e"=1]
+"CD207" -> "CLEC6A" ["e"=1]
+"CD209" -> "CLEC4M" ["e"=1]
+"CD209" -> "CLEC1A" ["e"=1]
+"CD209" -> "CLEC4F" ["e"=1]
+"CD209" -> "CD207" ["e"=1]
+"CD69" -> "CLEC2D" ["e"=1]
+"CD69" -> "KLRG1" ["e"=1]
+"CD69" -> "KLRB1" ["e"=1]
+"CD69" -> "CLEC6A" ["e"=1]
+"CD72" -> "FCER2" ["e"=1]
+"CD72" -> "OLR1" ["e"=1]
+"CD72" -> "CLEC1A" ["e"=1]
+"CD72" -> "CLEC4G" ["e"=1]
+"CLEC10A" -> "ASGR2" ["e"=1]
+"CLEC10A" -> "FCER2" ["e"=1]
+"CLEC10A" -> "ASGR1" ["e"=1]
+"CLEC10A" -> "CLEC9A" ["e"=1]
+"CLEC12A" -> "CLEC4A" ["e"=1]
+"CLEC12A" -> "CLEC12B" ["e"=1]
+"CLEC12A" -> "CLEC1B" ["e"=1]
+"CLEC12A" -> "OLR1" ["e"=1]
+"CLEC12B" -> "CLEC12A" ["e"=1]
+"CLEC12B" -> "CLEC9A" ["e"=1]
+"CLEC12B" -> "CLEC1B" ["e"=1]
+"CLEC12B" -> "OLR1" ["e"=1]
+"CLEC1A" -> "CLEC9A" ["e"=1]
+"CLEC1A" -> "OLR1" ["e"=1]
+"CLEC1A" -> "CLEC6A" ["e"=1]
+"CLEC1A" -> "FCER2" ["e"=1]
+"CLEC1B" -> "CLEC9A" ["e"=1]
+"CLEC1B" -> "CLEC4C" ["e"=1]
+"CLEC1B" -> "CLEC12A" ["e"=1]
+"CLEC1B" -> "CLEC4A" ["e"=1]
+"CLEC2A" -> "CLEC6A" ["e"=1]
+"CLEC2A" -> "CLEC2B" ["e"=1]
+"CLEC2A" -> "CLEC2D" ["e"=1]
+"CLEC2A" -> "KLRG1" ["e"=1]
+"CLEC2B" -> "CLEC2A" ["e"=1]
+"CLEC2B" -> "CLEC4E" ["e"=1]
+"CLEC2B" -> "CLEC4D" ["e"=1]
+"CLEC2B" -> "CLEC6A" ["e"=1]
+"CLEC2D" -> "CLEC6A" ["e"=1]
+"CLEC2D" -> "CLEC4D" ["e"=1]
+"CLEC2D" -> "CD69" ["e"=1]
+"CLEC2D" -> "KLRG1" ["e"=1]
+"CLEC4A" -> "KLRB1" ["e"=1]
+"CLEC4A" -> "CLEC6A" ["e"=1]
+"CLEC4A" -> "CLEC12A" ["e"=1]
+"CLEC4A" -> "CLEC4D" ["e"=1]
+"CLEC4C" -> "CLEC6A" ["e"=1]
+"CLEC4C" -> "CLEC4A" ["e"=1]
+"CLEC4C" -> "CLEC4D" ["e"=1]
+"CLEC4C" -> "CLEC1B" ["e"=1]
+"CLEC4D" -> "CLEC6A" ["e"=1]
+"CLEC4D" -> "CLEC4E" ["e"=1]
+"CLEC4D" -> "CLEC4A" ["e"=1]
+"CLEC4D" -> "CLEC2D" ["e"=1]
+"CLEC4E" -> "CLEC6A" ["e"=1]
+"CLEC4E" -> "CLEC4D" ["e"=1]
+"CLEC4E" -> "CLEC4A" ["e"=1]
+"CLEC4E" -> "CLEC2B" ["e"=1]
+"CLEC4F" -> "CD207" ["e"=1]
+"CLEC4F" -> "CLEC1A" ["e"=1]
+"CLEC4F" -> "FCER2" ["e"=1]
+"CLEC4F" -> "CLEC4M" ["e"=1]
+"CLEC4G" -> "FCER2" ["e"=1]
+"CLEC4G" -> "CD207" ["e"=1]
+"CLEC4G" -> "CLEC1B" ["e"=1]
+"CLEC4G" -> "CLEC10A" ["e"=1]
+"CLEC4M" -> "CD209" ["e"=1]
+"CLEC4M" -> "CD207" ["e"=1]
+"CLEC4M" -> "CLEC1A" ["e"=1]
+"CLEC4M" -> "CLEC4F" ["e"=1]
+"CLEC5A" -> "CLEC6A" ["e"=1]
+"CLEC5A" -> "CLEC4D" ["e"=1]
+"CLEC5A" -> "KLRB1" ["e"=1]
+"CLEC5A" -> "CLEC2A" ["e"=1]
+"CLEC6A" -> "CLEC4D" ["e"=1]
+"CLEC6A" -> "CLEC4E" ["e"=1]
+"CLEC6A" -> "KLRG1" ["e"=1]
+"CLEC6A" -> "CLEC2A" ["e"=1]
+"CLEC7A" -> "CLEC4A" ["e"=1]
+"CLEC7A" -> "KLRG1" ["e"=1]
+"CLEC7A" -> "CLEC12A" ["e"=1]
+"CLEC7A" -> "KLRB1" ["e"=1]
+"CLEC9A" -> "CLEC6A" ["e"=1]
+"CLEC9A" -> "KLRG1" ["e"=1]
+"CLEC9A" -> "KLRB1" ["e"=1]
+"CLEC9A" -> "CLEC1A" ["e"=1]
+"FCER2" -> "CLEC4G" ["e"=1]
+"FCER2" -> "CLEC10A" ["e"=1]
+"FCER2" -> "CD207" ["e"=1]
+"FCER2" -> "CLEC1A" ["e"=1]
+"KLRB1" -> "KLRG1" ["e"=1]
+"KLRB1" -> "CLEC4A" ["e"=1]
+"KLRB1" -> "KLRF1" ["e"=1]
+"KLRB1" -> "CLEC6A" ["e"=1]
+"KLRC1" -> "KLRC2" ["e"=1]
+"KLRC1" -> "KLRC3" ["e"=1]
+"KLRC1" -> "KLRK1" ["e"=1]
+"KLRC1" -> "KLRF1" ["e"=1]
+"KLRC2" -> "KLRC3" ["e"=1]
+"KLRC2" -> "KLRC1" ["e"=1]
+"KLRC2" -> "KLRK1" ["e"=1]
+"KLRC2" -> "KLRC4" ["e"=1]
+"KLRC3" -> "KLRC2" ["e"=1]
+"KLRC3" -> "KLRC4" ["e"=1]
+"KLRC3" -> "KLRC1" ["e"=1]
+"KLRC3" -> "KLRK1" ["e"=1]
+"KLRC4" -> "KLRC3" ["e"=1]
+"KLRC4" -> "KLRC2" ["e"=1]
+"KLRC4" -> "KLRC1" ["e"=1]
+"KLRC4" -> "KLRK1" ["e"=1]
+"KLRF1" -> "KLRB1" ["e"=1]
+"KLRF1" -> "KLRG1" ["e"=1]
+"KLRF1" -> "KLRK1" ["e"=1]
+"KLRF1" -> "KLRF2" ["e"=1]
+"KLRF2" -> "KLRG1" ["e"=1]
+"KLRF2" -> "KLRK1" ["e"=1]
+"KLRF2" -> "CLEC4A" ["e"=1]
+"KLRF2" -> "KLRF1" ["e"=1]
+"KLRG1" -> "KLRB1" ["e"=1]
+"KLRG1" -> "CLEC6A" ["e"=1]
+"KLRG1" -> "CLEC4A" ["e"=1]
+"KLRG1" -> "CLEC9A" ["e"=1]
+"KLRK1" -> "KLRC2" ["e"=1]
+"KLRK1" -> "KLRF1" ["e"=1]
+"KLRK1" -> "KLRF2" ["e"=1]
+"KLRK1" -> "KLRG1" ["e"=1]
+"OLR1" -> "CLEC1A" ["e"=1]
+"OLR1" -> "CLEC12A" ["e"=1]
+"OLR1" -> "CLEC6A" ["e"=1]
+"OLR1" -> "CLEC9A" ["e"=1]
+"SELL" -> "CLEC6A" ["e"=1]
+"SELL" -> "CLEC4D" ["e"=1]
+"SELL" -> "CLEC2D" ["e"=1]
+"SELL" -> "CLEC4E" ["e"=1]
 }

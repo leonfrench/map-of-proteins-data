@@ -36,152 +36,152 @@ digraph G {
 "TMEM262" ["l"="8.636,-3.086"]
 "TMEM54" ["l"="8.613,-2.993"]
 "TMEM72" ["l"="8.856,-2.738"]
-"AGTRAP" -> "SYNGR3"
-"AGTRAP" -> "NKAIN4"
-"AGTRAP" -> "PLLP"
-"AGTRAP" -> "TMEM179B"
-"CKLF" -> "CMTM1"
-"CKLF" -> "CMTM6"
-"CKLF" -> "MALL"
-"CKLF" -> "CMTM7"
-"CMTM1" -> "CMTM7"
-"CMTM1" -> "CMTM6"
-"CMTM1" -> "CKLF"
-"CMTM1" -> "MAL2"
-"CMTM3" -> "CMTM7"
-"CMTM3" -> "CMTM6"
-"CMTM3" -> "MAL2"
-"CMTM3" -> "MALL"
-"CMTM4" -> "PLLP"
-"CMTM4" -> "CMTM7"
-"CMTM4" -> "MAL2"
-"CMTM4" -> "CMTM6"
-"CMTM5" -> "MAL"
-"CMTM5" -> "MALL"
-"CMTM5" -> "PLLP"
-"CMTM5" -> "CMTM7"
-"CMTM6" -> "CMTM3"
-"CMTM6" -> "MAL2"
-"CMTM6" -> "MALL"
-"CMTM6" -> "SYPL1"
-"CMTM7" -> "CMTM8"
-"CMTM7" -> "PLLP"
-"CMTM7" -> "CMTM3"
-"CMTM7" -> "CMTM4"
-"CMTM8" -> "CMTM7"
-"CMTM8" -> "PLLP"
-"CMTM8" -> "MAL"
-"CMTM8" -> "MALL"
-"CYBA" -> "TMEM72"
-"CYBA" -> "SYNGR1"
-"CYBA" -> "AGTRAP"
-"CYBA" -> "SYNGR3"
-"GPM6A" -> "NKAIN2"
-"GPM6A" -> "NKAIN4"
-"GPM6A" -> "SYNGR3"
-"GPM6A" -> "SYNPR"
-"LAPTM4A" -> "LAPTM5"
-"LAPTM4A" -> "SYPL1"
-"LAPTM4A" -> "NKAIN4"
-"LAPTM4A" -> "MYADM"
-"LAPTM5" -> "LAPTM4A"
-"LAPTM5" -> "MYADML2"
-"LAPTM5" -> "TMEM212"
-"LAPTM5" -> "NKAIN4"
-"MAL" -> "MALL"
-"MAL" -> "PLLP"
-"MAL" -> "MAL2"
-"MAL" -> "CMTM8"
-"MAL2" -> "MALL"
-"MAL2" -> "CMTM6"
-"MAL2" -> "CMTM3"
-"MAL2" -> "CMTM7"
-"MALL" -> "MAL2"
-"MALL" -> "MAL"
-"MALL" -> "PLLP"
-"MALL" -> "CMTM3"
-"MARVELD1" -> "MYADML2"
-"MARVELD1" -> "SSPN"
-"MARVELD1" -> "SYNGR3"
-"MARVELD1" -> "MYADM"
-"MYADM" -> "MYADML2"
-"MYADM" -> "MARVELD1"
-"MYADM" -> "CMTM3"
-"MYADM" -> "SYNGR3"
-"MYADML2" -> "MARVELD1"
-"MYADML2" -> "MYADM"
-"MYADML2" -> "TMEM212"
-"MYADML2" -> "PLLP"
-"NKAIN2" -> "NKAIN4"
-"NKAIN2" -> "GPM6A"
-"NKAIN2" -> "SYPL1"
-"NKAIN2" -> "SYNGR3"
-"NKAIN4" -> "NKAIN2"
-"NKAIN4" -> "PLLP"
-"NKAIN4" -> "AGTRAP"
-"NKAIN4" -> "CMTM7"
-"PLLP" -> "CMTM7"
-"PLLP" -> "MALL"
-"PLLP" -> "CMTM8"
-"PLLP" -> "CMTM4"
-"SLC48A1" -> "TMEM212"
-"SLC48A1" -> "MYADML2"
-"SLC48A1" -> "MARVELD1"
-"SLC48A1" -> "MAL"
-"SSPN" -> "MARVELD1"
-"SSPN" -> "TMEM212"
-"SSPN" -> "MYADML2"
-"SSPN" -> "CMTM4"
-"SYNGR1" -> "SYNGR3"
-"SYNGR1" -> "SYNGR2"
-"SYNGR1" -> "CMTM4"
-"SYNGR1" -> "SYPL1"
-"SYNGR2" -> "SYNGR3"
-"SYNGR2" -> "SYNGR1"
-"SYNGR2" -> "SYPL1"
-"SYNGR2" -> "PLLP"
-"SYNGR3" -> "SYNGR1"
-"SYNGR3" -> "SYNGR2"
-"SYNGR3" -> "AGTRAP"
-"SYNGR3" -> "MYADML2"
-"SYNPR" -> "SYPL1"
-"SYNPR" -> "SYNGR3"
-"SYNPR" -> "CMTM4"
-"SYNPR" -> "SYNGR2"
-"SYPL1" -> "CMTM6"
-"SYPL1" -> "SYNPR"
-"SYPL1" -> "SYNGR2"
-"SYPL1" -> "MAL2"
-"TMEM125" -> "TMEM238L"
-"TMEM125" -> "SLC48A1"
-"TMEM125" -> "TMEM212"
-"TMEM125" -> "MYADML2"
-"TMEM150B" -> "SLC48A1"
-"TMEM150B" -> "TMEM212"
-"TMEM150B" -> "MYADML2"
-"TMEM150B" -> "TMEM238L"
-"TMEM179B" -> "TMEM54"
-"TMEM179B" -> "MYADML2"
-"TMEM179B" -> "AGTRAP"
-"TMEM179B" -> "MARVELD1"
-"TMEM212" -> "MYADML2"
-"TMEM212" -> "TMEM72"
-"TMEM212" -> "SLC48A1"
-"TMEM212" -> "SSPN"
-"TMEM238L" -> "SLC48A1"
-"TMEM238L" -> "MARVELD1"
-"TMEM238L" -> "SSPN"
-"TMEM238L" -> "TMEM125"
-"TMEM262" -> "SLC48A1"
-"TMEM262" -> "MYADML2"
-"TMEM262" -> "TMEM212"
-"TMEM262" -> "MARVELD1"
-"TMEM54" -> "TMEM179B"
-"TMEM54" -> "SSPN"
-"TMEM54" -> "PLLP"
-"TMEM54" -> "SYNGR3"
-"TMEM72" -> "TMEM212"
-"TMEM72" -> "CMTM4"
-"TMEM72" -> "SSPN"
-"TMEM72" -> "NKAIN4"
+"AGTRAP" -> "SYNGR3" ["e"=1]
+"AGTRAP" -> "NKAIN4" ["e"=1]
+"AGTRAP" -> "PLLP" ["e"=1]
+"AGTRAP" -> "TMEM179B" ["e"=1]
+"CKLF" -> "CMTM1" ["e"=1]
+"CKLF" -> "CMTM6" ["e"=1]
+"CKLF" -> "MALL" ["e"=1]
+"CKLF" -> "CMTM7" ["e"=1]
+"CMTM1" -> "CMTM7" ["e"=1]
+"CMTM1" -> "CMTM6" ["e"=1]
+"CMTM1" -> "CKLF" ["e"=1]
+"CMTM1" -> "MAL2" ["e"=1]
+"CMTM3" -> "CMTM7" ["e"=1]
+"CMTM3" -> "CMTM6" ["e"=1]
+"CMTM3" -> "MAL2" ["e"=1]
+"CMTM3" -> "MALL" ["e"=1]
+"CMTM4" -> "PLLP" ["e"=1]
+"CMTM4" -> "CMTM7" ["e"=1]
+"CMTM4" -> "MAL2" ["e"=1]
+"CMTM4" -> "CMTM6" ["e"=1]
+"CMTM5" -> "MAL" ["e"=1]
+"CMTM5" -> "MALL" ["e"=1]
+"CMTM5" -> "PLLP" ["e"=1]
+"CMTM5" -> "CMTM7" ["e"=1]
+"CMTM6" -> "CMTM3" ["e"=1]
+"CMTM6" -> "MAL2" ["e"=1]
+"CMTM6" -> "MALL" ["e"=1]
+"CMTM6" -> "SYPL1" ["e"=1]
+"CMTM7" -> "CMTM8" ["e"=1]
+"CMTM7" -> "PLLP" ["e"=1]
+"CMTM7" -> "CMTM3" ["e"=1]
+"CMTM7" -> "CMTM4" ["e"=1]
+"CMTM8" -> "CMTM7" ["e"=1]
+"CMTM8" -> "PLLP" ["e"=1]
+"CMTM8" -> "MAL" ["e"=1]
+"CMTM8" -> "MALL" ["e"=1]
+"CYBA" -> "TMEM72" ["e"=1]
+"CYBA" -> "SYNGR1" ["e"=1]
+"CYBA" -> "AGTRAP" ["e"=1]
+"CYBA" -> "SYNGR3" ["e"=1]
+"GPM6A" -> "NKAIN2" ["e"=1]
+"GPM6A" -> "NKAIN4" ["e"=1]
+"GPM6A" -> "SYNGR3" ["e"=1]
+"GPM6A" -> "SYNPR" ["e"=1]
+"LAPTM4A" -> "LAPTM5" ["e"=1]
+"LAPTM4A" -> "SYPL1" ["e"=1]
+"LAPTM4A" -> "NKAIN4" ["e"=1]
+"LAPTM4A" -> "MYADM" ["e"=1]
+"LAPTM5" -> "LAPTM4A" ["e"=1]
+"LAPTM5" -> "MYADML2" ["e"=1]
+"LAPTM5" -> "TMEM212" ["e"=1]
+"LAPTM5" -> "NKAIN4" ["e"=1]
+"MAL" -> "MALL" ["e"=1]
+"MAL" -> "PLLP" ["e"=1]
+"MAL" -> "MAL2" ["e"=1]
+"MAL" -> "CMTM8" ["e"=1]
+"MAL2" -> "MALL" ["e"=1]
+"MAL2" -> "CMTM6" ["e"=1]
+"MAL2" -> "CMTM3" ["e"=1]
+"MAL2" -> "CMTM7" ["e"=1]
+"MALL" -> "MAL2" ["e"=1]
+"MALL" -> "MAL" ["e"=1]
+"MALL" -> "PLLP" ["e"=1]
+"MALL" -> "CMTM3" ["e"=1]
+"MARVELD1" -> "MYADML2" ["e"=1]
+"MARVELD1" -> "SSPN" ["e"=1]
+"MARVELD1" -> "SYNGR3" ["e"=1]
+"MARVELD1" -> "MYADM" ["e"=1]
+"MYADM" -> "MYADML2" ["e"=1]
+"MYADM" -> "MARVELD1" ["e"=1]
+"MYADM" -> "CMTM3" ["e"=1]
+"MYADM" -> "SYNGR3" ["e"=1]
+"MYADML2" -> "MARVELD1" ["e"=1]
+"MYADML2" -> "MYADM" ["e"=1]
+"MYADML2" -> "TMEM212" ["e"=1]
+"MYADML2" -> "PLLP" ["e"=1]
+"NKAIN2" -> "NKAIN4" ["e"=1]
+"NKAIN2" -> "GPM6A" ["e"=1]
+"NKAIN2" -> "SYPL1" ["e"=1]
+"NKAIN2" -> "SYNGR3" ["e"=1]
+"NKAIN4" -> "NKAIN2" ["e"=1]
+"NKAIN4" -> "PLLP" ["e"=1]
+"NKAIN4" -> "AGTRAP" ["e"=1]
+"NKAIN4" -> "CMTM7" ["e"=1]
+"PLLP" -> "CMTM7" ["e"=1]
+"PLLP" -> "MALL" ["e"=1]
+"PLLP" -> "CMTM8" ["e"=1]
+"PLLP" -> "CMTM4" ["e"=1]
+"SLC48A1" -> "TMEM212" ["e"=1]
+"SLC48A1" -> "MYADML2" ["e"=1]
+"SLC48A1" -> "MARVELD1" ["e"=1]
+"SLC48A1" -> "MAL" ["e"=1]
+"SSPN" -> "MARVELD1" ["e"=1]
+"SSPN" -> "TMEM212" ["e"=1]
+"SSPN" -> "MYADML2" ["e"=1]
+"SSPN" -> "CMTM4" ["e"=1]
+"SYNGR1" -> "SYNGR3" ["e"=1]
+"SYNGR1" -> "SYNGR2" ["e"=1]
+"SYNGR1" -> "CMTM4" ["e"=1]
+"SYNGR1" -> "SYPL1" ["e"=1]
+"SYNGR2" -> "SYNGR3" ["e"=1]
+"SYNGR2" -> "SYNGR1" ["e"=1]
+"SYNGR2" -> "SYPL1" ["e"=1]
+"SYNGR2" -> "PLLP" ["e"=1]
+"SYNGR3" -> "SYNGR1" ["e"=1]
+"SYNGR3" -> "SYNGR2" ["e"=1]
+"SYNGR3" -> "AGTRAP" ["e"=1]
+"SYNGR3" -> "MYADML2" ["e"=1]
+"SYNPR" -> "SYPL1" ["e"=1]
+"SYNPR" -> "SYNGR3" ["e"=1]
+"SYNPR" -> "CMTM4" ["e"=1]
+"SYNPR" -> "SYNGR2" ["e"=1]
+"SYPL1" -> "CMTM6" ["e"=1]
+"SYPL1" -> "SYNPR" ["e"=1]
+"SYPL1" -> "SYNGR2" ["e"=1]
+"SYPL1" -> "MAL2" ["e"=1]
+"TMEM125" -> "TMEM238L" ["e"=1]
+"TMEM125" -> "SLC48A1" ["e"=1]
+"TMEM125" -> "TMEM212" ["e"=1]
+"TMEM125" -> "MYADML2" ["e"=1]
+"TMEM150B" -> "SLC48A1" ["e"=1]
+"TMEM150B" -> "TMEM212" ["e"=1]
+"TMEM150B" -> "MYADML2" ["e"=1]
+"TMEM150B" -> "TMEM238L" ["e"=1]
+"TMEM179B" -> "TMEM54" ["e"=1]
+"TMEM179B" -> "MYADML2" ["e"=1]
+"TMEM179B" -> "AGTRAP" ["e"=1]
+"TMEM179B" -> "MARVELD1" ["e"=1]
+"TMEM212" -> "MYADML2" ["e"=1]
+"TMEM212" -> "TMEM72" ["e"=1]
+"TMEM212" -> "SLC48A1" ["e"=1]
+"TMEM212" -> "SSPN" ["e"=1]
+"TMEM238L" -> "SLC48A1" ["e"=1]
+"TMEM238L" -> "MARVELD1" ["e"=1]
+"TMEM238L" -> "SSPN" ["e"=1]
+"TMEM238L" -> "TMEM125" ["e"=1]
+"TMEM262" -> "SLC48A1" ["e"=1]
+"TMEM262" -> "MYADML2" ["e"=1]
+"TMEM262" -> "TMEM212" ["e"=1]
+"TMEM262" -> "MARVELD1" ["e"=1]
+"TMEM54" -> "TMEM179B" ["e"=1]
+"TMEM54" -> "SSPN" ["e"=1]
+"TMEM54" -> "PLLP" ["e"=1]
+"TMEM54" -> "SYNGR3" ["e"=1]
+"TMEM72" -> "TMEM212" ["e"=1]
+"TMEM72" -> "CMTM4" ["e"=1]
+"TMEM72" -> "SSPN" ["e"=1]
+"TMEM72" -> "NKAIN4" ["e"=1]
 }

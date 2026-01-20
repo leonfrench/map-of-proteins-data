@@ -17,76 +17,76 @@ digraph G {
 "VSIG10" ["l"="9.895,6.705"]
 "VSIG10L" ["l"="9.925,6.799"]
 "VSIG10L2" ["l"="9.956,6.839"]
-"AGER" -> "ICAM3"
-"AGER" -> "VSIG10L2"
-"AGER" -> "IL11RA"
-"AGER" -> "BCAM"
-"BCAM" -> "KIRREL2"
-"BCAM" -> "ICAM3"
-"BCAM" -> "VSIG10L2"
-"BCAM" -> "MAG"
-"CEACAM16" -> "VSIG10L2"
-"CEACAM16" -> "CEACAM20"
-"CEACAM16" -> "KIRREL2"
-"CEACAM16" -> "MAG"
-"CEACAM20" -> "VSIG10L2"
-"CEACAM20" -> "CEACAM16"
-"CEACAM20" -> "ICAM3"
-"CEACAM20" -> "KIRREL2"
-"ICAM1" -> "ICAM3"
-"ICAM1" -> "BCAM"
-"ICAM1" -> "VSIG10L2"
-"ICAM1" -> "ICAM5"
-"ICAM3" -> "BCAM"
-"ICAM3" -> "ICAM1"
-"ICAM3" -> "VSIG10L2"
-"ICAM3" -> "VSIG10"
-"ICAM5" -> "VSIG10L2"
-"ICAM5" -> "KIRREL2"
-"ICAM5" -> "IGSF8"
-"ICAM5" -> "NPHS1"
-"IGSF8" -> "ICAM5"
-"IGSF8" -> "VSIG10L2"
-"IGSF8" -> "KIRREL2"
-"IGSF8" -> "BCAM"
-"IL11RA" -> "VSIG10L2"
-"IL11RA" -> "AGER"
-"IL11RA" -> "KIRREL2"
-"IL11RA" -> "ICAM3"
-"KIRREL2" -> "VSIG10L2"
-"KIRREL2" -> "NPHS1"
-"KIRREL2" -> "BCAM"
-"KIRREL2" -> "ICAM5"
-"MAG" -> "VSIG10L2"
-"MAG" -> "KIRREL2"
-"MAG" -> "BCAM"
-"MAG" -> "ICAM3"
-"MCAM" -> "VSIG10L2"
-"MCAM" -> "BCAM"
-"MCAM" -> "ICAM3"
-"MCAM" -> "KIRREL2"
-"NPHS1" -> "KIRREL2"
-"NPHS1" -> "VSIG10L2"
-"NPHS1" -> "ICAM5"
-"NPHS1" -> "CEACAM20"
-"PTPRC" -> "VSIG10"
-"PTPRC" -> "VSIG10L"
-"PTPRC" -> "ICAM3"
-"PTPRC" -> "MCAM"
-"SIGLEC1" -> "ICAM5"
-"SIGLEC1" -> "VSIG10L2"
-"SIGLEC1" -> "NPHS1"
-"SIGLEC1" -> "KIRREL2"
-"VSIG10" -> "ICAM3"
-"VSIG10" -> "VSIG10L2"
-"VSIG10" -> "MCAM"
-"VSIG10" -> "BCAM"
-"VSIG10L" -> "VSIG10L2"
-"VSIG10L" -> "CEACAM16"
-"VSIG10L" -> "KIRREL2"
-"VSIG10L" -> "ICAM3"
-"VSIG10L2" -> "KIRREL2"
-"VSIG10L2" -> "CEACAM16"
-"VSIG10L2" -> "NPHS1"
-"VSIG10L2" -> "ICAM5"
+"AGER" -> "ICAM3" ["e"=1]
+"AGER" -> "VSIG10L2" ["e"=1]
+"AGER" -> "IL11RA" ["e"=1]
+"AGER" -> "BCAM" ["e"=1]
+"BCAM" -> "KIRREL2" ["e"=1]
+"BCAM" -> "ICAM3" ["e"=1]
+"BCAM" -> "VSIG10L2" ["e"=1]
+"BCAM" -> "MAG" ["e"=1]
+"CEACAM16" -> "VSIG10L2" ["e"=1]
+"CEACAM16" -> "CEACAM20" ["e"=1]
+"CEACAM16" -> "KIRREL2" ["e"=1]
+"CEACAM16" -> "MAG" ["e"=1]
+"CEACAM20" -> "VSIG10L2" ["e"=1]
+"CEACAM20" -> "CEACAM16" ["e"=1]
+"CEACAM20" -> "ICAM3" ["e"=1]
+"CEACAM20" -> "KIRREL2" ["e"=1]
+"ICAM1" -> "ICAM3" ["e"=1]
+"ICAM1" -> "BCAM" ["e"=1]
+"ICAM1" -> "VSIG10L2" ["e"=1]
+"ICAM1" -> "ICAM5" ["e"=1]
+"ICAM3" -> "BCAM" ["e"=1]
+"ICAM3" -> "ICAM1" ["e"=1]
+"ICAM3" -> "VSIG10L2" ["e"=1]
+"ICAM3" -> "VSIG10" ["e"=1]
+"ICAM5" -> "VSIG10L2" ["e"=1]
+"ICAM5" -> "KIRREL2" ["e"=1]
+"ICAM5" -> "IGSF8" ["e"=1]
+"ICAM5" -> "NPHS1" ["e"=1]
+"IGSF8" -> "ICAM5" ["e"=1]
+"IGSF8" -> "VSIG10L2" ["e"=1]
+"IGSF8" -> "KIRREL2" ["e"=1]
+"IGSF8" -> "BCAM" ["e"=1]
+"IL11RA" -> "VSIG10L2" ["e"=1]
+"IL11RA" -> "AGER" ["e"=1]
+"IL11RA" -> "KIRREL2" ["e"=1]
+"IL11RA" -> "ICAM3" ["e"=1]
+"KIRREL2" -> "VSIG10L2" ["e"=1]
+"KIRREL2" -> "NPHS1" ["e"=1]
+"KIRREL2" -> "BCAM" ["e"=1]
+"KIRREL2" -> "ICAM5" ["e"=1]
+"MAG" -> "VSIG10L2" ["e"=1]
+"MAG" -> "KIRREL2" ["e"=1]
+"MAG" -> "BCAM" ["e"=1]
+"MAG" -> "ICAM3" ["e"=1]
+"MCAM" -> "VSIG10L2" ["e"=1]
+"MCAM" -> "BCAM" ["e"=1]
+"MCAM" -> "ICAM3" ["e"=1]
+"MCAM" -> "KIRREL2" ["e"=1]
+"NPHS1" -> "KIRREL2" ["e"=1]
+"NPHS1" -> "VSIG10L2" ["e"=1]
+"NPHS1" -> "ICAM5" ["e"=1]
+"NPHS1" -> "CEACAM20" ["e"=1]
+"PTPRC" -> "VSIG10" ["e"=1]
+"PTPRC" -> "VSIG10L" ["e"=1]
+"PTPRC" -> "ICAM3" ["e"=1]
+"PTPRC" -> "MCAM" ["e"=1]
+"SIGLEC1" -> "ICAM5" ["e"=1]
+"SIGLEC1" -> "VSIG10L2" ["e"=1]
+"SIGLEC1" -> "NPHS1" ["e"=1]
+"SIGLEC1" -> "KIRREL2" ["e"=1]
+"VSIG10" -> "ICAM3" ["e"=1]
+"VSIG10" -> "VSIG10L2" ["e"=1]
+"VSIG10" -> "MCAM" ["e"=1]
+"VSIG10" -> "BCAM" ["e"=1]
+"VSIG10L" -> "VSIG10L2" ["e"=1]
+"VSIG10L" -> "CEACAM16" ["e"=1]
+"VSIG10L" -> "KIRREL2" ["e"=1]
+"VSIG10L" -> "ICAM3" ["e"=1]
+"VSIG10L2" -> "KIRREL2" ["e"=1]
+"VSIG10L2" -> "CEACAM16" ["e"=1]
+"VSIG10L2" -> "NPHS1" ["e"=1]
+"VSIG10L2" -> "ICAM5" ["e"=1]
 }

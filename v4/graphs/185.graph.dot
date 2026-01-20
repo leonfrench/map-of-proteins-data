@@ -29,124 +29,124 @@ digraph G {
 "TMEM168" ["l"="12.735,0.635"]
 "TMPPE" ["l"="12.717,0.655"]
 "TMX2" ["l"="12.722,0.390"]
-"ALOX12" -> "ALOXE3"
-"ALOX12" -> "ALOX12B"
-"ALOX12" -> "ALOX15B"
-"ALOX12" -> "ALOX5"
-"ALOX12B" -> "ALOXE3"
-"ALOX12B" -> "ALOX12"
-"ALOX12B" -> "ALOX15B"
-"ALOX12B" -> "ALOX5"
-"ALOX15" -> "ALOXE3"
-"ALOX15" -> "ALOX12"
-"ALOX15" -> "ALOX5"
-"ALOX15" -> "ALOX12B"
-"ALOX15B" -> "ALOXE3"
-"ALOX15B" -> "ALOX12B"
-"ALOX15B" -> "ALOX12"
-"ALOX15B" -> "ALOX5"
-"ALOX5" -> "ALOX12B"
-"ALOX5" -> "ALOX12"
-"ALOX5" -> "ALOX15B"
-"ALOX5" -> "ALOXE3"
-"ALOXE3" -> "ALOX12B"
-"ALOXE3" -> "ALOX15B"
-"ALOXE3" -> "ALOX12"
-"ALOXE3" -> "ALOX15"
-"ASAH2B" -> "DIO2"
-"ASAH2B" -> "RPE65"
-"ASAH2B" -> "NPEPPS"
-"ASAH2B" -> "TCAF1"
-"BCO1" -> "RPE65"
-"BCO1" -> "BCO2"
-"BCO1" -> "ALOX12B"
-"BCO1" -> "RNPEPL1"
-"BCO2" -> "RPE65"
-"BCO2" -> "BCO1"
-"BCO2" -> "GBE1"
-"BCO2" -> "ALOX12B"
-"CRAT" -> "ALOX12B"
-"CRAT" -> "ALOXE3"
-"CRAT" -> "ALOX12"
-"CRAT" -> "ALOX15B"
-"CWH43" -> "GDPD4"
-"CWH43" -> "TMEM168"
-"CWH43" -> "TMPPE"
-"CWH43" -> "DIO2"
-"DIO2" -> "ASAH2B"
-"DIO2" -> "TCAF1"
-"DIO2" -> "TMPPE"
-"DIO2" -> "PLA2G4D"
-"FAM187A" -> "TMEM168"
-"FAM187A" -> "PLA2G4D"
-"FAM187A" -> "TMPPE"
-"FAM187A" -> "ALOX12B"
-"GBE1" -> "BCO2"
-"GBE1" -> "RNPEP"
-"GBE1" -> "RPE65"
-"GBE1" -> "NPEPPS"
-"GDPD4" -> "CWH43"
-"GDPD4" -> "TMPPE"
-"GDPD4" -> "TMEM168"
-"GDPD4" -> "DIO2"
-"NLN" -> "THOP1"
-"NLN" -> "NPEPPS"
-"NLN" -> "TCAF1"
-"NLN" -> "RNPEPL1"
-"NPEPPS" -> "TCAF1"
-"NPEPPS" -> "RNPEP"
-"NPEPPS" -> "THOP1"
-"NPEPPS" -> "NLN"
-"PLA2G4B" -> "PLA2G4D"
-"PLA2G4B" -> "PLA2G4E"
-"PLA2G4B" -> "PLA2G4F"
-"PLA2G4B" -> "ALOX12B"
-"PLA2G4C" -> "PLA2G4F"
-"PLA2G4C" -> "PLA2G4D"
-"PLA2G4C" -> "PLA2G4E"
-"PLA2G4C" -> "PLA2G4B"
-"PLA2G4D" -> "PLA2G4F"
-"PLA2G4D" -> "PLA2G4E"
-"PLA2G4D" -> "PLA2G4B"
-"PLA2G4D" -> "ALOX12B"
-"PLA2G4E" -> "PLA2G4D"
-"PLA2G4E" -> "PLA2G4F"
-"PLA2G4E" -> "PLA2G4B"
-"PLA2G4E" -> "ALOX15B"
-"PLA2G4F" -> "PLA2G4D"
-"PLA2G4F" -> "PLA2G4E"
-"PLA2G4F" -> "PLA2G4B"
-"PLA2G4F" -> "ALOX15B"
-"RNPEP" -> "RNPEPL1"
-"RNPEP" -> "NPEPPS"
-"RNPEP" -> "THOP1"
-"RNPEP" -> "TCAF1"
-"RNPEPL1" -> "RNPEP"
-"RNPEPL1" -> "TCAF1"
-"RNPEPL1" -> "NPEPPS"
-"RNPEPL1" -> "THOP1"
-"RPE65" -> "BCO1"
-"RPE65" -> "BCO2"
-"RPE65" -> "ALOX12B"
-"RPE65" -> "ALOXE3"
-"TCAF1" -> "RNPEPL1"
-"TCAF1" -> "NPEPPS"
-"TCAF1" -> "NLN"
-"TCAF1" -> "THOP1"
-"THOP1" -> "NLN"
-"THOP1" -> "NPEPPS"
-"THOP1" -> "RNPEPL1"
-"THOP1" -> "TCAF1"
-"TMEM168" -> "CWH43"
-"TMEM168" -> "TMPPE"
-"TMEM168" -> "GDPD4"
-"TMEM168" -> "DIO2"
-"TMPPE" -> "CWH43"
-"TMPPE" -> "TMEM168"
-"TMPPE" -> "DIO2"
-"TMPPE" -> "GDPD4"
-"TMX2" -> "DIO2"
-"TMX2" -> "CWH43"
-"TMX2" -> "TMEM168"
-"TMX2" -> "FAM187A"
+"ALOX12" -> "ALOXE3" ["e"=1]
+"ALOX12" -> "ALOX12B" ["e"=1]
+"ALOX12" -> "ALOX15B" ["e"=1]
+"ALOX12" -> "ALOX5" ["e"=1]
+"ALOX12B" -> "ALOXE3" ["e"=1]
+"ALOX12B" -> "ALOX12" ["e"=1]
+"ALOX12B" -> "ALOX15B" ["e"=1]
+"ALOX12B" -> "ALOX5" ["e"=1]
+"ALOX15" -> "ALOXE3" ["e"=1]
+"ALOX15" -> "ALOX12" ["e"=1]
+"ALOX15" -> "ALOX5" ["e"=1]
+"ALOX15" -> "ALOX12B" ["e"=1]
+"ALOX15B" -> "ALOXE3" ["e"=1]
+"ALOX15B" -> "ALOX12B" ["e"=1]
+"ALOX15B" -> "ALOX12" ["e"=1]
+"ALOX15B" -> "ALOX5" ["e"=1]
+"ALOX5" -> "ALOX12B" ["e"=1]
+"ALOX5" -> "ALOX12" ["e"=1]
+"ALOX5" -> "ALOX15B" ["e"=1]
+"ALOX5" -> "ALOXE3" ["e"=1]
+"ALOXE3" -> "ALOX12B" ["e"=1]
+"ALOXE3" -> "ALOX15B" ["e"=1]
+"ALOXE3" -> "ALOX12" ["e"=1]
+"ALOXE3" -> "ALOX15" ["e"=1]
+"ASAH2B" -> "DIO2" ["e"=1]
+"ASAH2B" -> "RPE65" ["e"=1]
+"ASAH2B" -> "NPEPPS" ["e"=1]
+"ASAH2B" -> "TCAF1" ["e"=1]
+"BCO1" -> "RPE65" ["e"=1]
+"BCO1" -> "BCO2" ["e"=1]
+"BCO1" -> "ALOX12B" ["e"=1]
+"BCO1" -> "RNPEPL1" ["e"=1]
+"BCO2" -> "RPE65" ["e"=1]
+"BCO2" -> "BCO1" ["e"=1]
+"BCO2" -> "GBE1" ["e"=1]
+"BCO2" -> "ALOX12B" ["e"=1]
+"CRAT" -> "ALOX12B" ["e"=1]
+"CRAT" -> "ALOXE3" ["e"=1]
+"CRAT" -> "ALOX12" ["e"=1]
+"CRAT" -> "ALOX15B" ["e"=1]
+"CWH43" -> "GDPD4" ["e"=1]
+"CWH43" -> "TMEM168" ["e"=1]
+"CWH43" -> "TMPPE" ["e"=1]
+"CWH43" -> "DIO2" ["e"=1]
+"DIO2" -> "ASAH2B" ["e"=1]
+"DIO2" -> "TCAF1" ["e"=1]
+"DIO2" -> "TMPPE" ["e"=1]
+"DIO2" -> "PLA2G4D" ["e"=1]
+"FAM187A" -> "TMEM168" ["e"=1]
+"FAM187A" -> "PLA2G4D" ["e"=1]
+"FAM187A" -> "TMPPE" ["e"=1]
+"FAM187A" -> "ALOX12B" ["e"=1]
+"GBE1" -> "BCO2" ["e"=1]
+"GBE1" -> "RNPEP" ["e"=1]
+"GBE1" -> "RPE65" ["e"=1]
+"GBE1" -> "NPEPPS" ["e"=1]
+"GDPD4" -> "CWH43" ["e"=1]
+"GDPD4" -> "TMPPE" ["e"=1]
+"GDPD4" -> "TMEM168" ["e"=1]
+"GDPD4" -> "DIO2" ["e"=1]
+"NLN" -> "THOP1" ["e"=1]
+"NLN" -> "NPEPPS" ["e"=1]
+"NLN" -> "TCAF1" ["e"=1]
+"NLN" -> "RNPEPL1" ["e"=1]
+"NPEPPS" -> "TCAF1" ["e"=1]
+"NPEPPS" -> "RNPEP" ["e"=1]
+"NPEPPS" -> "THOP1" ["e"=1]
+"NPEPPS" -> "NLN" ["e"=1]
+"PLA2G4B" -> "PLA2G4D" ["e"=1]
+"PLA2G4B" -> "PLA2G4E" ["e"=1]
+"PLA2G4B" -> "PLA2G4F" ["e"=1]
+"PLA2G4B" -> "ALOX12B" ["e"=1]
+"PLA2G4C" -> "PLA2G4F" ["e"=1]
+"PLA2G4C" -> "PLA2G4D" ["e"=1]
+"PLA2G4C" -> "PLA2G4E" ["e"=1]
+"PLA2G4C" -> "PLA2G4B" ["e"=1]
+"PLA2G4D" -> "PLA2G4F" ["e"=1]
+"PLA2G4D" -> "PLA2G4E" ["e"=1]
+"PLA2G4D" -> "PLA2G4B" ["e"=1]
+"PLA2G4D" -> "ALOX12B" ["e"=1]
+"PLA2G4E" -> "PLA2G4D" ["e"=1]
+"PLA2G4E" -> "PLA2G4F" ["e"=1]
+"PLA2G4E" -> "PLA2G4B" ["e"=1]
+"PLA2G4E" -> "ALOX15B" ["e"=1]
+"PLA2G4F" -> "PLA2G4D" ["e"=1]
+"PLA2G4F" -> "PLA2G4E" ["e"=1]
+"PLA2G4F" -> "PLA2G4B" ["e"=1]
+"PLA2G4F" -> "ALOX15B" ["e"=1]
+"RNPEP" -> "RNPEPL1" ["e"=1]
+"RNPEP" -> "NPEPPS" ["e"=1]
+"RNPEP" -> "THOP1" ["e"=1]
+"RNPEP" -> "TCAF1" ["e"=1]
+"RNPEPL1" -> "RNPEP" ["e"=1]
+"RNPEPL1" -> "TCAF1" ["e"=1]
+"RNPEPL1" -> "NPEPPS" ["e"=1]
+"RNPEPL1" -> "THOP1" ["e"=1]
+"RPE65" -> "BCO1" ["e"=1]
+"RPE65" -> "BCO2" ["e"=1]
+"RPE65" -> "ALOX12B" ["e"=1]
+"RPE65" -> "ALOXE3" ["e"=1]
+"TCAF1" -> "RNPEPL1" ["e"=1]
+"TCAF1" -> "NPEPPS" ["e"=1]
+"TCAF1" -> "NLN" ["e"=1]
+"TCAF1" -> "THOP1" ["e"=1]
+"THOP1" -> "NLN" ["e"=1]
+"THOP1" -> "NPEPPS" ["e"=1]
+"THOP1" -> "RNPEPL1" ["e"=1]
+"THOP1" -> "TCAF1" ["e"=1]
+"TMEM168" -> "CWH43" ["e"=1]
+"TMEM168" -> "TMPPE" ["e"=1]
+"TMEM168" -> "GDPD4" ["e"=1]
+"TMEM168" -> "DIO2" ["e"=1]
+"TMPPE" -> "CWH43" ["e"=1]
+"TMPPE" -> "TMEM168" ["e"=1]
+"TMPPE" -> "DIO2" ["e"=1]
+"TMPPE" -> "GDPD4" ["e"=1]
+"TMX2" -> "DIO2" ["e"=1]
+"TMX2" -> "CWH43" ["e"=1]
+"TMX2" -> "TMEM168" ["e"=1]
+"TMX2" -> "FAM187A" ["e"=1]
 }

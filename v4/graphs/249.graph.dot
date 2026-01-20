@@ -22,96 +22,96 @@ digraph G {
 "LIFR" ["l"="10.261,6.632"]
 "OSMR" ["l"="10.239,6.605"]
 "SIGIRR" ["l"="10.268,6.527"]
-"EBI3" -> "IL22RA2"
-"EBI3" -> "IL31RA"
-"EBI3" -> "IL5RA"
-"EBI3" -> "IL12B"
-"IFNAR1" -> "LIFR"
-"IFNAR1" -> "IL31RA"
-"IFNAR1" -> "LEPR"
-"IFNAR1" -> "IL1R1"
-"IFNGR1" -> "IL23R"
-"IFNGR1" -> "IL7R"
-"IFNGR1" -> "LIFR"
-"IFNGR1" -> "IFNAR1"
-"IL12B" -> "IL5RA"
-"IL12B" -> "IL31RA"
-"IL12B" -> "IL1RAP"
-"IL12B" -> "IL22RA2"
-"IL12RB2" -> "IL31RA"
-"IL12RB2" -> "OSMR"
-"IL12RB2" -> "IL23R"
-"IL12RB2" -> "IL7R"
-"IL18R1" -> "IL18RAP"
-"IL18R1" -> "IL1RAP"
-"IL18R1" -> "IL1R1"
-"IL18R1" -> "IL1RL1"
-"IL18RAP" -> "IL18R1"
-"IL18RAP" -> "IL1RAP"
-"IL18RAP" -> "IL1RL2"
-"IL18RAP" -> "IL1R1"
-"IL1R1" -> "IL1RAP"
-"IL1R1" -> "IL18R1"
-"IL1R1" -> "IL1RL2"
-"IL1R1" -> "IL18RAP"
-"IL1R2" -> "IL1RAP"
-"IL1R2" -> "IL1RL2"
-"IL1R2" -> "IL20RB"
-"IL1R2" -> "IL5RA"
-"IL1RAP" -> "IL1R1"
-"IL1RAP" -> "IL1RL2"
-"IL1RAP" -> "IL18R1"
-"IL1RAP" -> "IL1RL1"
-"IL1RL1" -> "IL18R1"
-"IL1RL1" -> "IL1RAP"
-"IL1RL1" -> "IL1RL2"
-"IL1RL1" -> "IL1R1"
-"IL1RL2" -> "IL1RAP"
-"IL1RL2" -> "IL1R1"
-"IL1RL2" -> "IL18R1"
-"IL1RL2" -> "IL18RAP"
-"IL20RB" -> "IL1RL2"
-"IL20RB" -> "IL22RA2"
-"IL20RB" -> "IL12B"
-"IL20RB" -> "IL7R"
-"IL22RA2" -> "IL1RAP"
-"IL22RA2" -> "IL31RA"
-"IL22RA2" -> "IL20RB"
-"IL22RA2" -> "IL12B"
-"IL23R" -> "IL31RA"
-"IL23R" -> "IL12RB2"
-"IL23R" -> "IL7R"
-"IL23R" -> "OSMR"
-"IL31RA" -> "IL12RB2"
-"IL31RA" -> "LIFR"
-"IL31RA" -> "OSMR"
-"IL31RA" -> "LEPR"
-"IL5RA" -> "IL12B"
-"IL5RA" -> "IL31RA"
-"IL5RA" -> "IFNAR1"
-"IL5RA" -> "IL12RB2"
-"IL6ST" -> "LIFR"
-"IL6ST" -> "OSMR"
-"IL6ST" -> "IL31RA"
-"IL6ST" -> "LEPR"
-"IL7R" -> "IL23R"
-"IL7R" -> "IL12RB2"
-"IL7R" -> "IL18RAP"
-"IL7R" -> "IL18R1"
-"LEPR" -> "IL31RA"
-"LEPR" -> "LIFR"
-"LEPR" -> "IL6ST"
-"LEPR" -> "IFNAR1"
-"LIFR" -> "IL6ST"
-"LIFR" -> "IL31RA"
-"LIFR" -> "OSMR"
-"LIFR" -> "LEPR"
-"OSMR" -> "IL12RB2"
-"OSMR" -> "IL6ST"
-"OSMR" -> "IL31RA"
-"OSMR" -> "LIFR"
-"SIGIRR" -> "IL18RAP"
-"SIGIRR" -> "IL1RL2"
-"SIGIRR" -> "IL18R1"
-"SIGIRR" -> "IL7R"
+"EBI3" -> "IL22RA2" ["e"=1]
+"EBI3" -> "IL31RA" ["e"=1]
+"EBI3" -> "IL5RA" ["e"=1]
+"EBI3" -> "IL12B" ["e"=1]
+"IFNAR1" -> "LIFR" ["e"=1]
+"IFNAR1" -> "IL31RA" ["e"=1]
+"IFNAR1" -> "LEPR" ["e"=1]
+"IFNAR1" -> "IL1R1" ["e"=1]
+"IFNGR1" -> "IL23R" ["e"=1]
+"IFNGR1" -> "IL7R" ["e"=1]
+"IFNGR1" -> "LIFR" ["e"=1]
+"IFNGR1" -> "IFNAR1" ["e"=1]
+"IL12B" -> "IL5RA" ["e"=1]
+"IL12B" -> "IL31RA" ["e"=1]
+"IL12B" -> "IL1RAP" ["e"=1]
+"IL12B" -> "IL22RA2" ["e"=1]
+"IL12RB2" -> "IL31RA" ["e"=1]
+"IL12RB2" -> "OSMR" ["e"=1]
+"IL12RB2" -> "IL23R" ["e"=1]
+"IL12RB2" -> "IL7R" ["e"=1]
+"IL18R1" -> "IL18RAP" ["e"=1]
+"IL18R1" -> "IL1RAP" ["e"=1]
+"IL18R1" -> "IL1R1" ["e"=1]
+"IL18R1" -> "IL1RL1" ["e"=1]
+"IL18RAP" -> "IL18R1" ["e"=1]
+"IL18RAP" -> "IL1RAP" ["e"=1]
+"IL18RAP" -> "IL1RL2" ["e"=1]
+"IL18RAP" -> "IL1R1" ["e"=1]
+"IL1R1" -> "IL1RAP" ["e"=1]
+"IL1R1" -> "IL18R1" ["e"=1]
+"IL1R1" -> "IL1RL2" ["e"=1]
+"IL1R1" -> "IL18RAP" ["e"=1]
+"IL1R2" -> "IL1RAP" ["e"=1]
+"IL1R2" -> "IL1RL2" ["e"=1]
+"IL1R2" -> "IL20RB" ["e"=1]
+"IL1R2" -> "IL5RA" ["e"=1]
+"IL1RAP" -> "IL1R1" ["e"=1]
+"IL1RAP" -> "IL1RL2" ["e"=1]
+"IL1RAP" -> "IL18R1" ["e"=1]
+"IL1RAP" -> "IL1RL1" ["e"=1]
+"IL1RL1" -> "IL18R1" ["e"=1]
+"IL1RL1" -> "IL1RAP" ["e"=1]
+"IL1RL1" -> "IL1RL2" ["e"=1]
+"IL1RL1" -> "IL1R1" ["e"=1]
+"IL1RL2" -> "IL1RAP" ["e"=1]
+"IL1RL2" -> "IL1R1" ["e"=1]
+"IL1RL2" -> "IL18R1" ["e"=1]
+"IL1RL2" -> "IL18RAP" ["e"=1]
+"IL20RB" -> "IL1RL2" ["e"=1]
+"IL20RB" -> "IL22RA2" ["e"=1]
+"IL20RB" -> "IL12B" ["e"=1]
+"IL20RB" -> "IL7R" ["e"=1]
+"IL22RA2" -> "IL1RAP" ["e"=1]
+"IL22RA2" -> "IL31RA" ["e"=1]
+"IL22RA2" -> "IL20RB" ["e"=1]
+"IL22RA2" -> "IL12B" ["e"=1]
+"IL23R" -> "IL31RA" ["e"=1]
+"IL23R" -> "IL12RB2" ["e"=1]
+"IL23R" -> "IL7R" ["e"=1]
+"IL23R" -> "OSMR" ["e"=1]
+"IL31RA" -> "IL12RB2" ["e"=1]
+"IL31RA" -> "LIFR" ["e"=1]
+"IL31RA" -> "OSMR" ["e"=1]
+"IL31RA" -> "LEPR" ["e"=1]
+"IL5RA" -> "IL12B" ["e"=1]
+"IL5RA" -> "IL31RA" ["e"=1]
+"IL5RA" -> "IFNAR1" ["e"=1]
+"IL5RA" -> "IL12RB2" ["e"=1]
+"IL6ST" -> "LIFR" ["e"=1]
+"IL6ST" -> "OSMR" ["e"=1]
+"IL6ST" -> "IL31RA" ["e"=1]
+"IL6ST" -> "LEPR" ["e"=1]
+"IL7R" -> "IL23R" ["e"=1]
+"IL7R" -> "IL12RB2" ["e"=1]
+"IL7R" -> "IL18RAP" ["e"=1]
+"IL7R" -> "IL18R1" ["e"=1]
+"LEPR" -> "IL31RA" ["e"=1]
+"LEPR" -> "LIFR" ["e"=1]
+"LEPR" -> "IL6ST" ["e"=1]
+"LEPR" -> "IFNAR1" ["e"=1]
+"LIFR" -> "IL6ST" ["e"=1]
+"LIFR" -> "IL31RA" ["e"=1]
+"LIFR" -> "OSMR" ["e"=1]
+"LIFR" -> "LEPR" ["e"=1]
+"OSMR" -> "IL12RB2" ["e"=1]
+"OSMR" -> "IL6ST" ["e"=1]
+"OSMR" -> "IL31RA" ["e"=1]
+"OSMR" -> "LIFR" ["e"=1]
+"SIGIRR" -> "IL18RAP" ["e"=1]
+"SIGIRR" -> "IL1RL2" ["e"=1]
+"SIGIRR" -> "IL18R1" ["e"=1]
+"SIGIRR" -> "IL7R" ["e"=1]
 }

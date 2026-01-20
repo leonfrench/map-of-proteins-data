@@ -9,44 +9,44 @@ digraph G {
 "BTNL9" ["l"="9.627,7.296"]
 "ERMAP" ["l"="9.626,7.300"]
 "MOG" ["l"="9.612,7.272"]
-"BTN1A1" -> "BTN3A1"
-"BTN1A1" -> "BTN2A2"
-"BTN1A1" -> "BTN3A3"
-"BTN1A1" -> "ERMAP"
-"BTN2A1" -> "BTN2A2"
-"BTN2A1" -> "BTN3A1"
-"BTN2A1" -> "BTN3A3"
-"BTN2A1" -> "BTN1A1"
-"BTN2A2" -> "BTN2A1"
-"BTN2A2" -> "BTN3A1"
-"BTN2A2" -> "BTN3A3"
-"BTN2A2" -> "BTN1A1"
-"BTN3A1" -> "BTN3A3"
-"BTN3A1" -> "BTN2A1"
-"BTN3A1" -> "BTN2A2"
-"BTN3A1" -> "BTN1A1"
-"BTN3A3" -> "BTN3A1"
-"BTN3A3" -> "BTN2A1"
-"BTN3A3" -> "BTN2A2"
-"BTN3A3" -> "BTN1A1"
-"BTNL3" -> "BTNL8"
-"BTNL3" -> "BTN3A1"
-"BTNL3" -> "ERMAP"
-"BTNL3" -> "BTN1A1"
-"BTNL8" -> "BTNL3"
-"BTNL8" -> "BTN3A1"
-"BTNL8" -> "BTN3A3"
-"BTNL8" -> "ERMAP"
-"BTNL9" -> "BTN1A1"
-"BTNL9" -> "ERMAP"
-"BTNL9" -> "BTNL3"
-"BTNL9" -> "BTN3A1"
-"ERMAP" -> "BTN3A1"
-"ERMAP" -> "BTNL3"
-"ERMAP" -> "BTN1A1"
-"ERMAP" -> "BTN2A2"
-"MOG" -> "ERMAP"
-"MOG" -> "BTN1A1"
-"MOG" -> "BTN3A1"
-"MOG" -> "BTNL3"
+"BTN1A1" -> "BTN3A1" ["e"=1]
+"BTN1A1" -> "BTN2A2" ["e"=1]
+"BTN1A1" -> "BTN3A3" ["e"=1]
+"BTN1A1" -> "ERMAP" ["e"=1]
+"BTN2A1" -> "BTN2A2" ["e"=1]
+"BTN2A1" -> "BTN3A1" ["e"=1]
+"BTN2A1" -> "BTN3A3" ["e"=1]
+"BTN2A1" -> "BTN1A1" ["e"=1]
+"BTN2A2" -> "BTN2A1" ["e"=1]
+"BTN2A2" -> "BTN3A1" ["e"=1]
+"BTN2A2" -> "BTN3A3" ["e"=1]
+"BTN2A2" -> "BTN1A1" ["e"=1]
+"BTN3A1" -> "BTN3A3" ["e"=1]
+"BTN3A1" -> "BTN2A1" ["e"=1]
+"BTN3A1" -> "BTN2A2" ["e"=1]
+"BTN3A1" -> "BTN1A1" ["e"=1]
+"BTN3A3" -> "BTN3A1" ["e"=1]
+"BTN3A3" -> "BTN2A1" ["e"=1]
+"BTN3A3" -> "BTN2A2" ["e"=1]
+"BTN3A3" -> "BTN1A1" ["e"=1]
+"BTNL3" -> "BTNL8" ["e"=1]
+"BTNL3" -> "BTN3A1" ["e"=1]
+"BTNL3" -> "ERMAP" ["e"=1]
+"BTNL3" -> "BTN1A1" ["e"=1]
+"BTNL8" -> "BTNL3" ["e"=1]
+"BTNL8" -> "BTN3A1" ["e"=1]
+"BTNL8" -> "BTN3A3" ["e"=1]
+"BTNL8" -> "ERMAP" ["e"=1]
+"BTNL9" -> "BTN1A1" ["e"=1]
+"BTNL9" -> "ERMAP" ["e"=1]
+"BTNL9" -> "BTNL3" ["e"=1]
+"BTNL9" -> "BTN3A1" ["e"=1]
+"ERMAP" -> "BTN3A1" ["e"=1]
+"ERMAP" -> "BTNL3" ["e"=1]
+"ERMAP" -> "BTN1A1" ["e"=1]
+"ERMAP" -> "BTN2A2" ["e"=1]
+"MOG" -> "ERMAP" ["e"=1]
+"MOG" -> "BTN1A1" ["e"=1]
+"MOG" -> "BTN3A1" ["e"=1]
+"MOG" -> "BTNL3" ["e"=1]
 }

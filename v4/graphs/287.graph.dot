@@ -46,192 +46,192 @@ digraph G {
 "USP32" ["l"="9.577,0.509"]
 "VAV2" ["l"="9.627,0.857"]
 "VAV3" ["l"="9.611,0.786"]
-"ABR" -> "CMIP"
-"ABR" -> "VAV2"
-"ABR" -> "RASGRF2"
-"ABR" -> "RAPGEF5"
-"ANKFN1" -> "NEK10"
-"ANKFN1" -> "INPP4B"
-"ANKFN1" -> "MAP3K5"
-"ANKFN1" -> "RASGRF2"
-"APPL1" -> "SH3GLB1"
-"APPL1" -> "SNX4"
-"APPL1" -> "SNX2"
-"APPL1" -> "SNX6"
-"BIN3" -> "SNX4"
-"BIN3" -> "SNX32"
-"BIN3" -> "PICK1"
-"BIN3" -> "SNX8"
-"CMIP" -> "ABR"
-"CMIP" -> "VAV2"
-"CMIP" -> "SGSM1"
-"CMIP" -> "RASGRF2"
-"DENND1B" -> "FER"
-"DENND1B" -> "SNX4"
-"DENND1B" -> "APPL1"
-"DENND1B" -> "USP32"
-"DZIP3" -> "TMEM232"
-"DZIP3" -> "NEK10"
-"DZIP3" -> "APPL1"
-"DZIP3" -> "PLCB4"
-"EDC4" -> "PLCB3"
-"EDC4" -> "MAP3K6"
-"EDC4" -> "MICAL1"
-"EDC4" -> "SGSM1"
-"FCHSD1" -> "FER"
-"FCHSD1" -> "PICK1"
-"FCHSD1" -> "SNX4"
-"FCHSD1" -> "APPL1"
-"FER" -> "VAV3"
-"FER" -> "RAPGEF5"
-"FER" -> "APPL1"
-"FER" -> "SNX4"
-"GPHN" -> "INPP4B"
-"GPHN" -> "HECW2"
-"GPHN" -> "NEDD4L"
-"GPHN" -> "FER"
-"HECW1" -> "HECW2"
-"HECW1" -> "NEDD4L"
-"HECW1" -> "PITPNM2"
-"HECW1" -> "CMIP"
-"HECW2" -> "HECW1"
-"HECW2" -> "NEDD4L"
-"HECW2" -> "INPP4B"
-"HECW2" -> "USP32"
-"INPP4B" -> "HECW2"
-"INPP4B" -> "ANKFN1"
-"INPP4B" -> "USP32"
-"INPP4B" -> "RASGRF2"
-"MAP3K5" -> "NEK10"
-"MAP3K5" -> "RASGRF2"
-"MAP3K5" -> "ANKFN1"
-"MAP3K5" -> "USP32"
-"MAP3K6" -> "PLCB3"
-"MAP3K6" -> "EDC4"
-"MAP3K6" -> "MICAL1"
-"MAP3K6" -> "FCHSD1"
-"MICAL1" -> "PLCB3"
-"MICAL1" -> "PLCB2"
-"MICAL1" -> "RASGRP2"
-"MICAL1" -> "MAP3K6"
-"NEDD4L" -> "HECW2"
-"NEDD4L" -> "HECW1"
-"NEDD4L" -> "VAV3"
-"NEDD4L" -> "TBC1D1"
-"NEK10" -> "MAP3K5"
-"NEK10" -> "ANKFN1"
-"NEK10" -> "RASGRF2"
-"NEK10" -> "PPP4R4"
-"NOSTRIN" -> "APPL1"
-"NOSTRIN" -> "BIN3"
-"NOSTRIN" -> "VAV3"
-"NOSTRIN" -> "SH3GLB1"
-"PICK1" -> "SNX32"
-"PICK1" -> "BIN3"
-"PICK1" -> "SNX4"
-"PICK1" -> "SH3GLB2"
-"PITPNM2" -> "SGSM1"
-"PITPNM2" -> "RASGRF2"
-"PITPNM2" -> "USP32"
-"PITPNM2" -> "HECW1"
-"PLCB2" -> "PLCB3"
-"PLCB2" -> "PLCB4"
-"PLCB2" -> "RASGRP2"
-"PLCB2" -> "MICAL1"
-"PLCB3" -> "PLCB2"
-"PLCB3" -> "MAP3K6"
-"PLCB3" -> "MICAL1"
-"PLCB3" -> "EDC4"
-"PLCB4" -> "VAV3"
-"PLCB4" -> "PLCB2"
-"PLCB4" -> "APPL1"
-"PLCB4" -> "INPP4B"
-"PPP4R4" -> "NEK10"
-"PPP4R4" -> "TBC1D5"
-"PPP4R4" -> "RASGRF2"
-"PPP4R4" -> "TMEM232"
-"RAPGEF5" -> "RASGRF2"
-"RAPGEF5" -> "VAV2"
-"RAPGEF5" -> "FER"
-"RAPGEF5" -> "VAV3"
-"RASGRF2" -> "USP32"
-"RASGRF2" -> "RAPGEF5"
-"RASGRF2" -> "CMIP"
-"RASGRF2" -> "VAV3"
-"RASGRP2" -> "VAV2"
-"RASGRP2" -> "RAPGEF5"
-"RASGRP2" -> "PLCB2"
-"RASGRP2" -> "VAV3"
-"SGSM1" -> "CMIP"
-"SGSM1" -> "TBC1D1"
-"SGSM1" -> "USP32"
-"SGSM1" -> "PITPNM2"
-"SH3GLB1" -> "APPL1"
-"SH3GLB1" -> "SNX1"
-"SH3GLB1" -> "SNX6"
-"SH3GLB1" -> "SNX2"
-"SH3GLB2" -> "SNX32"
-"SH3GLB2" -> "PICK1"
-"SH3GLB2" -> "SH3GLB1"
-"SH3GLB2" -> "BIN3"
-"SNX1" -> "SNX2"
-"SNX1" -> "SNX4"
-"SNX1" -> "SNX8"
-"SNX1" -> "SNX30"
-"SNX2" -> "SNX1"
-"SNX2" -> "SNX5"
-"SNX2" -> "SNX6"
-"SNX2" -> "SNX4"
-"SNX30" -> "SNX8"
-"SNX30" -> "SNX1"
-"SNX30" -> "SNX4"
-"SNX30" -> "SNX2"
-"SNX32" -> "SNX4"
-"SNX32" -> "SNX6"
-"SNX32" -> "PICK1"
-"SNX32" -> "BIN3"
-"SNX4" -> "SNX1"
-"SNX4" -> "SNX2"
-"SNX4" -> "SNX8"
-"SNX4" -> "APPL1"
-"SNX5" -> "SNX2"
-"SNX5" -> "SNX6"
-"SNX5" -> "SNX1"
-"SNX5" -> "SNX32"
-"SNX6" -> "SNX5"
-"SNX6" -> "SNX2"
-"SNX6" -> "SNX4"
-"SNX6" -> "SNX1"
-"SNX8" -> "SNX30"
-"SNX8" -> "SNX4"
-"SNX8" -> "SNX1"
-"SNX8" -> "BIN3"
-"SNX9" -> "SNX2"
-"SNX9" -> "SNX1"
-"SNX9" -> "SNX4"
-"SNX9" -> "APPL1"
-"TBC1D1" -> "CMIP"
-"TBC1D1" -> "SGSM1"
-"TBC1D1" -> "TBC1D5"
-"TBC1D1" -> "RASGRF2"
-"TBC1D5" -> "USP32"
-"TBC1D5" -> "NEK10"
-"TBC1D5" -> "TBC1D1"
-"TBC1D5" -> "RASGRF2"
-"TMEM232" -> "DZIP3"
-"TMEM232" -> "NEK10"
-"TMEM232" -> "ANKFN1"
-"TMEM232" -> "PPP4R4"
-"USP32" -> "TBC1D5"
-"USP32" -> "RASGRF2"
-"USP32" -> "VAV3"
-"USP32" -> "RAPGEF5"
-"VAV2" -> "VAV3"
-"VAV2" -> "ABR"
-"VAV2" -> "CMIP"
-"VAV2" -> "RAPGEF5"
-"VAV3" -> "VAV2"
-"VAV3" -> "FER"
-"VAV3" -> "USP32"
-"VAV3" -> "RASGRF2"
+"ABR" -> "CMIP" ["e"=1]
+"ABR" -> "VAV2" ["e"=1]
+"ABR" -> "RASGRF2" ["e"=1]
+"ABR" -> "RAPGEF5" ["e"=1]
+"ANKFN1" -> "NEK10" ["e"=1]
+"ANKFN1" -> "INPP4B" ["e"=1]
+"ANKFN1" -> "MAP3K5" ["e"=1]
+"ANKFN1" -> "RASGRF2" ["e"=1]
+"APPL1" -> "SH3GLB1" ["e"=1]
+"APPL1" -> "SNX4" ["e"=1]
+"APPL1" -> "SNX2" ["e"=1]
+"APPL1" -> "SNX6" ["e"=1]
+"BIN3" -> "SNX4" ["e"=1]
+"BIN3" -> "SNX32" ["e"=1]
+"BIN3" -> "PICK1" ["e"=1]
+"BIN3" -> "SNX8" ["e"=1]
+"CMIP" -> "ABR" ["e"=1]
+"CMIP" -> "VAV2" ["e"=1]
+"CMIP" -> "SGSM1" ["e"=1]
+"CMIP" -> "RASGRF2" ["e"=1]
+"DENND1B" -> "FER" ["e"=1]
+"DENND1B" -> "SNX4" ["e"=1]
+"DENND1B" -> "APPL1" ["e"=1]
+"DENND1B" -> "USP32" ["e"=1]
+"DZIP3" -> "TMEM232" ["e"=1]
+"DZIP3" -> "NEK10" ["e"=1]
+"DZIP3" -> "APPL1" ["e"=1]
+"DZIP3" -> "PLCB4" ["e"=1]
+"EDC4" -> "PLCB3" ["e"=1]
+"EDC4" -> "MAP3K6" ["e"=1]
+"EDC4" -> "MICAL1" ["e"=1]
+"EDC4" -> "SGSM1" ["e"=1]
+"FCHSD1" -> "FER" ["e"=1]
+"FCHSD1" -> "PICK1" ["e"=1]
+"FCHSD1" -> "SNX4" ["e"=1]
+"FCHSD1" -> "APPL1" ["e"=1]
+"FER" -> "VAV3" ["e"=1]
+"FER" -> "RAPGEF5" ["e"=1]
+"FER" -> "APPL1" ["e"=1]
+"FER" -> "SNX4" ["e"=1]
+"GPHN" -> "INPP4B" ["e"=1]
+"GPHN" -> "HECW2" ["e"=1]
+"GPHN" -> "NEDD4L" ["e"=1]
+"GPHN" -> "FER" ["e"=1]
+"HECW1" -> "HECW2" ["e"=1]
+"HECW1" -> "NEDD4L" ["e"=1]
+"HECW1" -> "PITPNM2" ["e"=1]
+"HECW1" -> "CMIP" ["e"=1]
+"HECW2" -> "HECW1" ["e"=1]
+"HECW2" -> "NEDD4L" ["e"=1]
+"HECW2" -> "INPP4B" ["e"=1]
+"HECW2" -> "USP32" ["e"=1]
+"INPP4B" -> "HECW2" ["e"=1]
+"INPP4B" -> "ANKFN1" ["e"=1]
+"INPP4B" -> "USP32" ["e"=1]
+"INPP4B" -> "RASGRF2" ["e"=1]
+"MAP3K5" -> "NEK10" ["e"=1]
+"MAP3K5" -> "RASGRF2" ["e"=1]
+"MAP3K5" -> "ANKFN1" ["e"=1]
+"MAP3K5" -> "USP32" ["e"=1]
+"MAP3K6" -> "PLCB3" ["e"=1]
+"MAP3K6" -> "EDC4" ["e"=1]
+"MAP3K6" -> "MICAL1" ["e"=1]
+"MAP3K6" -> "FCHSD1" ["e"=1]
+"MICAL1" -> "PLCB3" ["e"=1]
+"MICAL1" -> "PLCB2" ["e"=1]
+"MICAL1" -> "RASGRP2" ["e"=1]
+"MICAL1" -> "MAP3K6" ["e"=1]
+"NEDD4L" -> "HECW2" ["e"=1]
+"NEDD4L" -> "HECW1" ["e"=1]
+"NEDD4L" -> "VAV3" ["e"=1]
+"NEDD4L" -> "TBC1D1" ["e"=1]
+"NEK10" -> "MAP3K5" ["e"=1]
+"NEK10" -> "ANKFN1" ["e"=1]
+"NEK10" -> "RASGRF2" ["e"=1]
+"NEK10" -> "PPP4R4" ["e"=1]
+"NOSTRIN" -> "APPL1" ["e"=1]
+"NOSTRIN" -> "BIN3" ["e"=1]
+"NOSTRIN" -> "VAV3" ["e"=1]
+"NOSTRIN" -> "SH3GLB1" ["e"=1]
+"PICK1" -> "SNX32" ["e"=1]
+"PICK1" -> "BIN3" ["e"=1]
+"PICK1" -> "SNX4" ["e"=1]
+"PICK1" -> "SH3GLB2" ["e"=1]
+"PITPNM2" -> "SGSM1" ["e"=1]
+"PITPNM2" -> "RASGRF2" ["e"=1]
+"PITPNM2" -> "USP32" ["e"=1]
+"PITPNM2" -> "HECW1" ["e"=1]
+"PLCB2" -> "PLCB3" ["e"=1]
+"PLCB2" -> "PLCB4" ["e"=1]
+"PLCB2" -> "RASGRP2" ["e"=1]
+"PLCB2" -> "MICAL1" ["e"=1]
+"PLCB3" -> "PLCB2" ["e"=1]
+"PLCB3" -> "MAP3K6" ["e"=1]
+"PLCB3" -> "MICAL1" ["e"=1]
+"PLCB3" -> "EDC4" ["e"=1]
+"PLCB4" -> "VAV3" ["e"=1]
+"PLCB4" -> "PLCB2" ["e"=1]
+"PLCB4" -> "APPL1" ["e"=1]
+"PLCB4" -> "INPP4B" ["e"=1]
+"PPP4R4" -> "NEK10" ["e"=1]
+"PPP4R4" -> "TBC1D5" ["e"=1]
+"PPP4R4" -> "RASGRF2" ["e"=1]
+"PPP4R4" -> "TMEM232" ["e"=1]
+"RAPGEF5" -> "RASGRF2" ["e"=1]
+"RAPGEF5" -> "VAV2" ["e"=1]
+"RAPGEF5" -> "FER" ["e"=1]
+"RAPGEF5" -> "VAV3" ["e"=1]
+"RASGRF2" -> "USP32" ["e"=1]
+"RASGRF2" -> "RAPGEF5" ["e"=1]
+"RASGRF2" -> "CMIP" ["e"=1]
+"RASGRF2" -> "VAV3" ["e"=1]
+"RASGRP2" -> "VAV2" ["e"=1]
+"RASGRP2" -> "RAPGEF5" ["e"=1]
+"RASGRP2" -> "PLCB2" ["e"=1]
+"RASGRP2" -> "VAV3" ["e"=1]
+"SGSM1" -> "CMIP" ["e"=1]
+"SGSM1" -> "TBC1D1" ["e"=1]
+"SGSM1" -> "USP32" ["e"=1]
+"SGSM1" -> "PITPNM2" ["e"=1]
+"SH3GLB1" -> "APPL1" ["e"=1]
+"SH3GLB1" -> "SNX1" ["e"=1]
+"SH3GLB1" -> "SNX6" ["e"=1]
+"SH3GLB1" -> "SNX2" ["e"=1]
+"SH3GLB2" -> "SNX32" ["e"=1]
+"SH3GLB2" -> "PICK1" ["e"=1]
+"SH3GLB2" -> "SH3GLB1" ["e"=1]
+"SH3GLB2" -> "BIN3" ["e"=1]
+"SNX1" -> "SNX2" ["e"=1]
+"SNX1" -> "SNX4" ["e"=1]
+"SNX1" -> "SNX8" ["e"=1]
+"SNX1" -> "SNX30" ["e"=1]
+"SNX2" -> "SNX1" ["e"=1]
+"SNX2" -> "SNX5" ["e"=1]
+"SNX2" -> "SNX6" ["e"=1]
+"SNX2" -> "SNX4" ["e"=1]
+"SNX30" -> "SNX8" ["e"=1]
+"SNX30" -> "SNX1" ["e"=1]
+"SNX30" -> "SNX4" ["e"=1]
+"SNX30" -> "SNX2" ["e"=1]
+"SNX32" -> "SNX4" ["e"=1]
+"SNX32" -> "SNX6" ["e"=1]
+"SNX32" -> "PICK1" ["e"=1]
+"SNX32" -> "BIN3" ["e"=1]
+"SNX4" -> "SNX1" ["e"=1]
+"SNX4" -> "SNX2" ["e"=1]
+"SNX4" -> "SNX8" ["e"=1]
+"SNX4" -> "APPL1" ["e"=1]
+"SNX5" -> "SNX2" ["e"=1]
+"SNX5" -> "SNX6" ["e"=1]
+"SNX5" -> "SNX1" ["e"=1]
+"SNX5" -> "SNX32" ["e"=1]
+"SNX6" -> "SNX5" ["e"=1]
+"SNX6" -> "SNX2" ["e"=1]
+"SNX6" -> "SNX4" ["e"=1]
+"SNX6" -> "SNX1" ["e"=1]
+"SNX8" -> "SNX30" ["e"=1]
+"SNX8" -> "SNX4" ["e"=1]
+"SNX8" -> "SNX1" ["e"=1]
+"SNX8" -> "BIN3" ["e"=1]
+"SNX9" -> "SNX2" ["e"=1]
+"SNX9" -> "SNX1" ["e"=1]
+"SNX9" -> "SNX4" ["e"=1]
+"SNX9" -> "APPL1" ["e"=1]
+"TBC1D1" -> "CMIP" ["e"=1]
+"TBC1D1" -> "SGSM1" ["e"=1]
+"TBC1D1" -> "TBC1D5" ["e"=1]
+"TBC1D1" -> "RASGRF2" ["e"=1]
+"TBC1D5" -> "USP32" ["e"=1]
+"TBC1D5" -> "NEK10" ["e"=1]
+"TBC1D5" -> "TBC1D1" ["e"=1]
+"TBC1D5" -> "RASGRF2" ["e"=1]
+"TMEM232" -> "DZIP3" ["e"=1]
+"TMEM232" -> "NEK10" ["e"=1]
+"TMEM232" -> "ANKFN1" ["e"=1]
+"TMEM232" -> "PPP4R4" ["e"=1]
+"USP32" -> "TBC1D5" ["e"=1]
+"USP32" -> "RASGRF2" ["e"=1]
+"USP32" -> "VAV3" ["e"=1]
+"USP32" -> "RAPGEF5" ["e"=1]
+"VAV2" -> "VAV3" ["e"=1]
+"VAV2" -> "ABR" ["e"=1]
+"VAV2" -> "CMIP" ["e"=1]
+"VAV2" -> "RAPGEF5" ["e"=1]
+"VAV3" -> "VAV2" ["e"=1]
+"VAV3" -> "FER" ["e"=1]
+"VAV3" -> "USP32" ["e"=1]
+"VAV3" -> "RASGRF2" ["e"=1]
 }

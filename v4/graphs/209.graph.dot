@@ -15,68 +15,68 @@ digraph G {
 "NDNF" ["l"="13.804,-0.617"]
 "SFTPB" ["l"="13.872,-0.840"]
 "TCN1" ["l"="13.759,-0.761"]
-"C16orf89" -> "CTSF"
-"C16orf89" -> "SFTPB"
-"C16orf89" -> "CTSH"
-"C16orf89" -> "CTSK"
-"CBLIF" -> "TCN1"
-"CBLIF" -> "C16orf89"
-"CBLIF" -> "CTSH"
-"CBLIF" -> "CTSK"
-"CTSB" -> "CTSS"
-"CTSB" -> "CTSV"
-"CTSB" -> "CTSH"
-"CTSB" -> "CTSK"
-"CTSC" -> "CTSB"
-"CTSC" -> "CTSH"
-"CTSC" -> "CTSV"
-"CTSC" -> "CTSK"
-"CTSF" -> "CTSH"
-"CTSF" -> "CTSK"
-"CTSF" -> "C16orf89"
-"CTSF" -> "CTSV"
-"CTSH" -> "CTSS"
-"CTSH" -> "CTSV"
-"CTSH" -> "CTSB"
-"CTSH" -> "CTSK"
-"CTSK" -> "CTSV"
-"CTSK" -> "CTSL"
-"CTSK" -> "CTSS"
-"CTSK" -> "CTSB"
-"CTSL" -> "CTSS"
-"CTSL" -> "CTSK"
-"CTSL" -> "CTSV"
-"CTSL" -> "CTSB"
-"CTSS" -> "CTSL"
-"CTSS" -> "CTSV"
-"CTSS" -> "CTSH"
-"CTSS" -> "CTSK"
-"CTSV" -> "CTSK"
-"CTSV" -> "CTSS"
-"CTSV" -> "CTSL"
-"CTSV" -> "CTSH"
-"CTSZ" -> "CTSB"
-"CTSZ" -> "CTSH"
-"CTSZ" -> "CTSC"
-"CTSZ" -> "CTSS"
-"LOX" -> "LOXL1"
-"LOX" -> "CTSK"
-"LOX" -> "CTSV"
-"LOX" -> "CTSF"
-"LOXL1" -> "LOX"
-"LOXL1" -> "NDNF"
-"LOXL1" -> "C16orf89"
-"LOXL1" -> "CTSK"
-"NDNF" -> "LOX"
-"NDNF" -> "CTSF"
-"NDNF" -> "C16orf89"
-"NDNF" -> "CTSC"
-"SFTPB" -> "C16orf89"
-"SFTPB" -> "CTSV"
-"SFTPB" -> "CTSH"
-"SFTPB" -> "CTSB"
-"TCN1" -> "CBLIF"
-"TCN1" -> "CTSS"
-"TCN1" -> "CTSF"
-"TCN1" -> "CTSK"
+"C16orf89" -> "CTSF" ["e"=1]
+"C16orf89" -> "SFTPB" ["e"=1]
+"C16orf89" -> "CTSH" ["e"=1]
+"C16orf89" -> "CTSK" ["e"=1]
+"CBLIF" -> "TCN1" ["e"=1]
+"CBLIF" -> "C16orf89" ["e"=1]
+"CBLIF" -> "CTSH" ["e"=1]
+"CBLIF" -> "CTSK" ["e"=1]
+"CTSB" -> "CTSS" ["e"=1]
+"CTSB" -> "CTSV" ["e"=1]
+"CTSB" -> "CTSH" ["e"=1]
+"CTSB" -> "CTSK" ["e"=1]
+"CTSC" -> "CTSB" ["e"=1]
+"CTSC" -> "CTSH" ["e"=1]
+"CTSC" -> "CTSV" ["e"=1]
+"CTSC" -> "CTSK" ["e"=1]
+"CTSF" -> "CTSH" ["e"=1]
+"CTSF" -> "CTSK" ["e"=1]
+"CTSF" -> "C16orf89" ["e"=1]
+"CTSF" -> "CTSV" ["e"=1]
+"CTSH" -> "CTSS" ["e"=1]
+"CTSH" -> "CTSV" ["e"=1]
+"CTSH" -> "CTSB" ["e"=1]
+"CTSH" -> "CTSK" ["e"=1]
+"CTSK" -> "CTSV" ["e"=1]
+"CTSK" -> "CTSL" ["e"=1]
+"CTSK" -> "CTSS" ["e"=1]
+"CTSK" -> "CTSB" ["e"=1]
+"CTSL" -> "CTSS" ["e"=1]
+"CTSL" -> "CTSK" ["e"=1]
+"CTSL" -> "CTSV" ["e"=1]
+"CTSL" -> "CTSB" ["e"=1]
+"CTSS" -> "CTSL" ["e"=1]
+"CTSS" -> "CTSV" ["e"=1]
+"CTSS" -> "CTSH" ["e"=1]
+"CTSS" -> "CTSK" ["e"=1]
+"CTSV" -> "CTSK" ["e"=1]
+"CTSV" -> "CTSS" ["e"=1]
+"CTSV" -> "CTSL" ["e"=1]
+"CTSV" -> "CTSH" ["e"=1]
+"CTSZ" -> "CTSB" ["e"=1]
+"CTSZ" -> "CTSH" ["e"=1]
+"CTSZ" -> "CTSC" ["e"=1]
+"CTSZ" -> "CTSS" ["e"=1]
+"LOX" -> "LOXL1" ["e"=1]
+"LOX" -> "CTSK" ["e"=1]
+"LOX" -> "CTSV" ["e"=1]
+"LOX" -> "CTSF" ["e"=1]
+"LOXL1" -> "LOX" ["e"=1]
+"LOXL1" -> "NDNF" ["e"=1]
+"LOXL1" -> "C16orf89" ["e"=1]
+"LOXL1" -> "CTSK" ["e"=1]
+"NDNF" -> "LOX" ["e"=1]
+"NDNF" -> "CTSF" ["e"=1]
+"NDNF" -> "C16orf89" ["e"=1]
+"NDNF" -> "CTSC" ["e"=1]
+"SFTPB" -> "C16orf89" ["e"=1]
+"SFTPB" -> "CTSV" ["e"=1]
+"SFTPB" -> "CTSH" ["e"=1]
+"SFTPB" -> "CTSB" ["e"=1]
+"TCN1" -> "CBLIF" ["e"=1]
+"TCN1" -> "CTSS" ["e"=1]
+"TCN1" -> "CTSF" ["e"=1]
+"TCN1" -> "CTSK" ["e"=1]
 }

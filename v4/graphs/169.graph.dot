@@ -33,140 +33,140 @@ digraph G {
 "VAMP8" ["l"="11.268,4.287"]
 "VTI1A" ["l"="11.292,4.225"]
 "VTI1B" ["l"="11.275,4.183"]
-"BET1" -> "BET1L"
-"BET1" -> "VAMP4"
-"BET1" -> "VTI1B"
-"BET1" -> "GOSR1"
-"BET1L" -> "VTI1B"
-"BET1L" -> "BET1"
-"BET1L" -> "SNAP29"
-"BET1L" -> "GOSR1"
-"BNIP1" -> "GOSR1"
-"BNIP1" -> "USE1"
-"BNIP1" -> "STX10"
-"BNIP1" -> "GOSR2"
-"CCDC167" -> "VTI1B"
-"CCDC167" -> "VAMP5"
-"CCDC167" -> "BET1L"
-"CCDC167" -> "BNIP1"
-"CHMP4C" -> "STX12"
-"CHMP4C" -> "VTI1B"
-"CHMP4C" -> "SNAP29"
-"CHMP4C" -> "GOSR1"
-"GOSR1" -> "BNIP1"
-"GOSR1" -> "VTI1B"
-"GOSR1" -> "STX6"
-"GOSR1" -> "VTI1A"
-"GOSR2" -> "GOSR1"
-"GOSR2" -> "BNIP1"
-"GOSR2" -> "VTI1B"
-"GOSR2" -> "VTI1A"
-"SELENOK" -> "BET1"
-"SELENOK" -> "VAMP4"
-"SELENOK" -> "BET1L"
-"SELENOK" -> "VAMP1"
-"SNAP23" -> "SNAP25"
-"SNAP23" -> "STX12"
-"SNAP23" -> "SNAP29"
-"SNAP23" -> "VTI1B"
-"SNAP25" -> "SNAP23"
-"SNAP25" -> "VTI1A"
-"SNAP25" -> "STX3"
-"SNAP25" -> "STX8"
-"SNAP29" -> "VTI1B"
-"SNAP29" -> "BET1L"
-"SNAP29" -> "GOSR1"
-"SNAP29" -> "BNIP1"
-"STX10" -> "STX6"
-"STX10" -> "BNIP1"
-"STX10" -> "USE1"
-"STX10" -> "GOSR1"
-"STX11" -> "STX16"
-"STX11" -> "STX12"
-"STX11" -> "STX19"
-"STX11" -> "STX4"
-"STX12" -> "STX6"
-"STX12" -> "STX16"
-"STX12" -> "STX5"
-"STX12" -> "STX3"
-"STX16" -> "STX12"
-"STX16" -> "STX6"
-"STX16" -> "VTI1B"
-"STX16" -> "STX3"
-"STX18" -> "GOSR1"
-"STX18" -> "SNAP29"
-"STX18" -> "STX6"
-"STX18" -> "STX10"
-"STX19" -> "STX11"
-"STX19" -> "STX12"
-"STX19" -> "STX2"
-"STX19" -> "STX4"
-"STX1A" -> "STX1B"
-"STX1A" -> "STX3"
-"STX1A" -> "STX2"
-"STX1A" -> "STX12"
-"STX1B" -> "STX1A"
-"STX1B" -> "STX3"
-"STX1B" -> "STX2"
-"STX1B" -> "VAMP1"
-"STX2" -> "STX3"
-"STX2" -> "STX1A"
-"STX2" -> "STX12"
-"STX2" -> "STX4"
-"STX3" -> "STX2"
-"STX3" -> "STX1A"
-"STX3" -> "STX1B"
-"STX3" -> "STX12"
-"STX4" -> "STX12"
-"STX4" -> "STX2"
-"STX4" -> "STX5"
-"STX4" -> "STX10"
-"STX5" -> "STX12"
-"STX5" -> "STX6"
-"STX5" -> "STX4"
-"STX5" -> "STX10"
-"STX6" -> "GOSR1"
-"STX6" -> "STX10"
-"STX6" -> "STX12"
-"STX6" -> "BNIP1"
-"STX8" -> "STX10"
-"STX8" -> "VTI1A"
-"STX8" -> "BNIP1"
-"STX8" -> "SNAP25"
-"USE1" -> "BNIP1"
-"USE1" -> "STX10"
-"USE1" -> "GOSR1"
-"USE1" -> "STX6"
-"VAMP1" -> "VAMP2"
-"VAMP1" -> "VAMP4"
-"VAMP1" -> "VAMP3"
-"VAMP1" -> "STX1B"
-"VAMP2" -> "VAMP1"
-"VAMP2" -> "VAMP3"
-"VAMP2" -> "VAMP4"
-"VAMP2" -> "BET1L"
-"VAMP3" -> "VAMP1"
-"VAMP3" -> "VAMP2"
-"VAMP3" -> "VAMP4"
-"VAMP3" -> "VAMP8"
-"VAMP4" -> "VAMP1"
-"VAMP4" -> "BET1"
-"VAMP4" -> "VTI1B"
-"VAMP4" -> "VAMP3"
-"VAMP5" -> "VAMP8"
-"VAMP5" -> "VAMP3"
-"VAMP5" -> "STX4"
-"VAMP5" -> "VAMP1"
-"VAMP8" -> "VAMP5"
-"VAMP8" -> "VAMP3"
-"VAMP8" -> "VAMP1"
-"VAMP8" -> "BET1L"
-"VTI1A" -> "VTI1B"
-"VTI1A" -> "GOSR1"
-"VTI1A" -> "BNIP1"
-"VTI1A" -> "STX8"
-"VTI1B" -> "GOSR1"
-"VTI1B" -> "VTI1A"
-"VTI1B" -> "BET1L"
-"VTI1B" -> "SNAP29"
+"BET1" -> "BET1L" ["e"=1]
+"BET1" -> "VAMP4" ["e"=1]
+"BET1" -> "VTI1B" ["e"=1]
+"BET1" -> "GOSR1" ["e"=1]
+"BET1L" -> "VTI1B" ["e"=1]
+"BET1L" -> "BET1" ["e"=1]
+"BET1L" -> "SNAP29" ["e"=1]
+"BET1L" -> "GOSR1" ["e"=1]
+"BNIP1" -> "GOSR1" ["e"=1]
+"BNIP1" -> "USE1" ["e"=1]
+"BNIP1" -> "STX10" ["e"=1]
+"BNIP1" -> "GOSR2" ["e"=1]
+"CCDC167" -> "VTI1B" ["e"=1]
+"CCDC167" -> "VAMP5" ["e"=1]
+"CCDC167" -> "BET1L" ["e"=1]
+"CCDC167" -> "BNIP1" ["e"=1]
+"CHMP4C" -> "STX12" ["e"=1]
+"CHMP4C" -> "VTI1B" ["e"=1]
+"CHMP4C" -> "SNAP29" ["e"=1]
+"CHMP4C" -> "GOSR1" ["e"=1]
+"GOSR1" -> "BNIP1" ["e"=1]
+"GOSR1" -> "VTI1B" ["e"=1]
+"GOSR1" -> "STX6" ["e"=1]
+"GOSR1" -> "VTI1A" ["e"=1]
+"GOSR2" -> "GOSR1" ["e"=1]
+"GOSR2" -> "BNIP1" ["e"=1]
+"GOSR2" -> "VTI1B" ["e"=1]
+"GOSR2" -> "VTI1A" ["e"=1]
+"SELENOK" -> "BET1" ["e"=1]
+"SELENOK" -> "VAMP4" ["e"=1]
+"SELENOK" -> "BET1L" ["e"=1]
+"SELENOK" -> "VAMP1" ["e"=1]
+"SNAP23" -> "SNAP25" ["e"=1]
+"SNAP23" -> "STX12" ["e"=1]
+"SNAP23" -> "SNAP29" ["e"=1]
+"SNAP23" -> "VTI1B" ["e"=1]
+"SNAP25" -> "SNAP23" ["e"=1]
+"SNAP25" -> "VTI1A" ["e"=1]
+"SNAP25" -> "STX3" ["e"=1]
+"SNAP25" -> "STX8" ["e"=1]
+"SNAP29" -> "VTI1B" ["e"=1]
+"SNAP29" -> "BET1L" ["e"=1]
+"SNAP29" -> "GOSR1" ["e"=1]
+"SNAP29" -> "BNIP1" ["e"=1]
+"STX10" -> "STX6" ["e"=1]
+"STX10" -> "BNIP1" ["e"=1]
+"STX10" -> "USE1" ["e"=1]
+"STX10" -> "GOSR1" ["e"=1]
+"STX11" -> "STX16" ["e"=1]
+"STX11" -> "STX12" ["e"=1]
+"STX11" -> "STX19" ["e"=1]
+"STX11" -> "STX4" ["e"=1]
+"STX12" -> "STX6" ["e"=1]
+"STX12" -> "STX16" ["e"=1]
+"STX12" -> "STX5" ["e"=1]
+"STX12" -> "STX3" ["e"=1]
+"STX16" -> "STX12" ["e"=1]
+"STX16" -> "STX6" ["e"=1]
+"STX16" -> "VTI1B" ["e"=1]
+"STX16" -> "STX3" ["e"=1]
+"STX18" -> "GOSR1" ["e"=1]
+"STX18" -> "SNAP29" ["e"=1]
+"STX18" -> "STX6" ["e"=1]
+"STX18" -> "STX10" ["e"=1]
+"STX19" -> "STX11" ["e"=1]
+"STX19" -> "STX12" ["e"=1]
+"STX19" -> "STX2" ["e"=1]
+"STX19" -> "STX4" ["e"=1]
+"STX1A" -> "STX1B" ["e"=1]
+"STX1A" -> "STX3" ["e"=1]
+"STX1A" -> "STX2" ["e"=1]
+"STX1A" -> "STX12" ["e"=1]
+"STX1B" -> "STX1A" ["e"=1]
+"STX1B" -> "STX3" ["e"=1]
+"STX1B" -> "STX2" ["e"=1]
+"STX1B" -> "VAMP1" ["e"=1]
+"STX2" -> "STX3" ["e"=1]
+"STX2" -> "STX1A" ["e"=1]
+"STX2" -> "STX12" ["e"=1]
+"STX2" -> "STX4" ["e"=1]
+"STX3" -> "STX2" ["e"=1]
+"STX3" -> "STX1A" ["e"=1]
+"STX3" -> "STX1B" ["e"=1]
+"STX3" -> "STX12" ["e"=1]
+"STX4" -> "STX12" ["e"=1]
+"STX4" -> "STX2" ["e"=1]
+"STX4" -> "STX5" ["e"=1]
+"STX4" -> "STX10" ["e"=1]
+"STX5" -> "STX12" ["e"=1]
+"STX5" -> "STX6" ["e"=1]
+"STX5" -> "STX4" ["e"=1]
+"STX5" -> "STX10" ["e"=1]
+"STX6" -> "GOSR1" ["e"=1]
+"STX6" -> "STX10" ["e"=1]
+"STX6" -> "STX12" ["e"=1]
+"STX6" -> "BNIP1" ["e"=1]
+"STX8" -> "STX10" ["e"=1]
+"STX8" -> "VTI1A" ["e"=1]
+"STX8" -> "BNIP1" ["e"=1]
+"STX8" -> "SNAP25" ["e"=1]
+"USE1" -> "BNIP1" ["e"=1]
+"USE1" -> "STX10" ["e"=1]
+"USE1" -> "GOSR1" ["e"=1]
+"USE1" -> "STX6" ["e"=1]
+"VAMP1" -> "VAMP2" ["e"=1]
+"VAMP1" -> "VAMP4" ["e"=1]
+"VAMP1" -> "VAMP3" ["e"=1]
+"VAMP1" -> "STX1B" ["e"=1]
+"VAMP2" -> "VAMP1" ["e"=1]
+"VAMP2" -> "VAMP3" ["e"=1]
+"VAMP2" -> "VAMP4" ["e"=1]
+"VAMP2" -> "BET1L" ["e"=1]
+"VAMP3" -> "VAMP1" ["e"=1]
+"VAMP3" -> "VAMP2" ["e"=1]
+"VAMP3" -> "VAMP4" ["e"=1]
+"VAMP3" -> "VAMP8" ["e"=1]
+"VAMP4" -> "VAMP1" ["e"=1]
+"VAMP4" -> "BET1" ["e"=1]
+"VAMP4" -> "VTI1B" ["e"=1]
+"VAMP4" -> "VAMP3" ["e"=1]
+"VAMP5" -> "VAMP8" ["e"=1]
+"VAMP5" -> "VAMP3" ["e"=1]
+"VAMP5" -> "STX4" ["e"=1]
+"VAMP5" -> "VAMP1" ["e"=1]
+"VAMP8" -> "VAMP5" ["e"=1]
+"VAMP8" -> "VAMP3" ["e"=1]
+"VAMP8" -> "VAMP1" ["e"=1]
+"VAMP8" -> "BET1L" ["e"=1]
+"VTI1A" -> "VTI1B" ["e"=1]
+"VTI1A" -> "GOSR1" ["e"=1]
+"VTI1A" -> "BNIP1" ["e"=1]
+"VTI1A" -> "STX8" ["e"=1]
+"VTI1B" -> "GOSR1" ["e"=1]
+"VTI1B" -> "VTI1A" ["e"=1]
+"VTI1B" -> "BET1L" ["e"=1]
+"VTI1B" -> "SNAP29" ["e"=1]
 }

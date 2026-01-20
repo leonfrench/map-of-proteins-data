@@ -17,76 +17,76 @@ digraph G {
 "SCN7A" ["l"="11.587,-2.945"]
 "SCN8A" ["l"="11.595,-2.954"]
 "SCN9A" ["l"="11.608,-2.917"]
-"CACNA1A" -> "CACNA1B"
-"CACNA1A" -> "CACNA1D"
-"CACNA1A" -> "SCN2A"
-"CACNA1A" -> "SCN3A"
-"CACNA1B" -> "CACNA1A"
-"CACNA1B" -> "SCN8A"
-"CACNA1B" -> "CACNA1D"
-"CACNA1B" -> "SCN2A"
-"CACNA1D" -> "SCN2A"
-"CACNA1D" -> "SCN8A"
-"CACNA1D" -> "CACNA1A"
-"CACNA1D" -> "CACNA1B"
-"CACNA1G" -> "CACNA1I"
-"CACNA1G" -> "CACNA1H"
-"CACNA1G" -> "SCN3A"
-"CACNA1G" -> "SCN5A"
-"CACNA1H" -> "CACNA1I"
-"CACNA1H" -> "CACNA1G"
-"CACNA1H" -> "SCN5A"
-"CACNA1H" -> "CACNA1S"
-"CACNA1I" -> "CACNA1H"
-"CACNA1I" -> "CACNA1G"
-"CACNA1I" -> "CACNA1S"
-"CACNA1I" -> "SCN4A"
-"CACNA1S" -> "SCN4A"
-"CACNA1S" -> "SCN5A"
-"CACNA1S" -> "SCN10A"
-"CACNA1S" -> "SCN8A"
-"NALCN" -> "SCN3A"
-"NALCN" -> "SCN2A"
-"NALCN" -> "SCN8A"
-"NALCN" -> "SCN1A"
-"SCN10A" -> "SCN5A"
-"SCN10A" -> "CACNA1S"
-"SCN10A" -> "SCN11A"
-"SCN10A" -> "SCN3A"
-"SCN11A" -> "SCN10A"
-"SCN11A" -> "SCN7A"
-"SCN11A" -> "CACNA1S"
-"SCN11A" -> "SCN4A"
-"SCN1A" -> "SCN2A"
-"SCN1A" -> "SCN8A"
-"SCN1A" -> "SCN3A"
-"SCN1A" -> "SCN9A"
-"SCN2A" -> "SCN3A"
-"SCN2A" -> "SCN8A"
-"SCN2A" -> "SCN1A"
-"SCN2A" -> "CACNA1D"
-"SCN3A" -> "SCN2A"
-"SCN3A" -> "SCN1A"
-"SCN3A" -> "SCN9A"
-"SCN3A" -> "SCN8A"
-"SCN4A" -> "CACNA1S"
-"SCN4A" -> "SCN5A"
-"SCN4A" -> "SCN2A"
-"SCN4A" -> "SCN3A"
-"SCN5A" -> "SCN10A"
-"SCN5A" -> "CACNA1S"
-"SCN5A" -> "SCN4A"
-"SCN5A" -> "SCN3A"
-"SCN7A" -> "SCN11A"
-"SCN7A" -> "SCN9A"
-"SCN7A" -> "SCN4A"
-"SCN7A" -> "SCN3A"
-"SCN8A" -> "SCN2A"
-"SCN8A" -> "SCN1A"
-"SCN8A" -> "SCN3A"
-"SCN8A" -> "CACNA1D"
-"SCN9A" -> "SCN3A"
-"SCN9A" -> "SCN1A"
-"SCN9A" -> "SCN2A"
-"SCN9A" -> "SCN8A"
+"CACNA1A" -> "CACNA1B" ["e"=1]
+"CACNA1A" -> "CACNA1D" ["e"=1]
+"CACNA1A" -> "SCN2A" ["e"=1]
+"CACNA1A" -> "SCN3A" ["e"=1]
+"CACNA1B" -> "CACNA1A" ["e"=1]
+"CACNA1B" -> "SCN8A" ["e"=1]
+"CACNA1B" -> "CACNA1D" ["e"=1]
+"CACNA1B" -> "SCN2A" ["e"=1]
+"CACNA1D" -> "SCN2A" ["e"=1]
+"CACNA1D" -> "SCN8A" ["e"=1]
+"CACNA1D" -> "CACNA1A" ["e"=1]
+"CACNA1D" -> "CACNA1B" ["e"=1]
+"CACNA1G" -> "CACNA1I" ["e"=1]
+"CACNA1G" -> "CACNA1H" ["e"=1]
+"CACNA1G" -> "SCN3A" ["e"=1]
+"CACNA1G" -> "SCN5A" ["e"=1]
+"CACNA1H" -> "CACNA1I" ["e"=1]
+"CACNA1H" -> "CACNA1G" ["e"=1]
+"CACNA1H" -> "SCN5A" ["e"=1]
+"CACNA1H" -> "CACNA1S" ["e"=1]
+"CACNA1I" -> "CACNA1H" ["e"=1]
+"CACNA1I" -> "CACNA1G" ["e"=1]
+"CACNA1I" -> "CACNA1S" ["e"=1]
+"CACNA1I" -> "SCN4A" ["e"=1]
+"CACNA1S" -> "SCN4A" ["e"=1]
+"CACNA1S" -> "SCN5A" ["e"=1]
+"CACNA1S" -> "SCN10A" ["e"=1]
+"CACNA1S" -> "SCN8A" ["e"=1]
+"NALCN" -> "SCN3A" ["e"=1]
+"NALCN" -> "SCN2A" ["e"=1]
+"NALCN" -> "SCN8A" ["e"=1]
+"NALCN" -> "SCN1A" ["e"=1]
+"SCN10A" -> "SCN5A" ["e"=1]
+"SCN10A" -> "CACNA1S" ["e"=1]
+"SCN10A" -> "SCN11A" ["e"=1]
+"SCN10A" -> "SCN3A" ["e"=1]
+"SCN11A" -> "SCN10A" ["e"=1]
+"SCN11A" -> "SCN7A" ["e"=1]
+"SCN11A" -> "CACNA1S" ["e"=1]
+"SCN11A" -> "SCN4A" ["e"=1]
+"SCN1A" -> "SCN2A" ["e"=1]
+"SCN1A" -> "SCN8A" ["e"=1]
+"SCN1A" -> "SCN3A" ["e"=1]
+"SCN1A" -> "SCN9A" ["e"=1]
+"SCN2A" -> "SCN3A" ["e"=1]
+"SCN2A" -> "SCN8A" ["e"=1]
+"SCN2A" -> "SCN1A" ["e"=1]
+"SCN2A" -> "CACNA1D" ["e"=1]
+"SCN3A" -> "SCN2A" ["e"=1]
+"SCN3A" -> "SCN1A" ["e"=1]
+"SCN3A" -> "SCN9A" ["e"=1]
+"SCN3A" -> "SCN8A" ["e"=1]
+"SCN4A" -> "CACNA1S" ["e"=1]
+"SCN4A" -> "SCN5A" ["e"=1]
+"SCN4A" -> "SCN2A" ["e"=1]
+"SCN4A" -> "SCN3A" ["e"=1]
+"SCN5A" -> "SCN10A" ["e"=1]
+"SCN5A" -> "CACNA1S" ["e"=1]
+"SCN5A" -> "SCN4A" ["e"=1]
+"SCN5A" -> "SCN3A" ["e"=1]
+"SCN7A" -> "SCN11A" ["e"=1]
+"SCN7A" -> "SCN9A" ["e"=1]
+"SCN7A" -> "SCN4A" ["e"=1]
+"SCN7A" -> "SCN3A" ["e"=1]
+"SCN8A" -> "SCN2A" ["e"=1]
+"SCN8A" -> "SCN1A" ["e"=1]
+"SCN8A" -> "SCN3A" ["e"=1]
+"SCN8A" -> "CACNA1D" ["e"=1]
+"SCN9A" -> "SCN3A" ["e"=1]
+"SCN9A" -> "SCN1A" ["e"=1]
+"SCN9A" -> "SCN2A" ["e"=1]
+"SCN9A" -> "SCN8A" ["e"=1]
 }

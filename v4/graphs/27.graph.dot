@@ -14,64 +14,64 @@ digraph G {
 "SPRR3" ["l"="0.967,-6.983"]
 "SPRR4" ["l"="0.969,-6.981"]
 "SPRR5" ["l"="0.967,-6.984"]
-"LCE6A" -> "SMCP"
-"LCE6A" -> "LELP1"
-"LCE6A" -> "SPRR4"
-"LCE6A" -> "PRR9"
-"LELP1" -> "SPRR2G"
-"LELP1" -> "PRR9"
-"LELP1" -> "SMCP"
-"LELP1" -> "LCE6A"
-"PRR9" -> "SMCP"
-"PRR9" -> "LELP1"
-"PRR9" -> "SPRR2F"
-"PRR9" -> "SPRR4"
-"SMCP" -> "SPRR4"
-"SMCP" -> "PRR9"
-"SMCP" -> "LELP1"
-"SMCP" -> "LCE6A"
-"SPRR1A" -> "SPRR1B"
-"SPRR1A" -> "SPRR2B"
-"SPRR1A" -> "SPRR2A"
-"SPRR1A" -> "SPRR2F"
-"SPRR1B" -> "SPRR1A"
-"SPRR1B" -> "SPRR2A"
-"SPRR1B" -> "SPRR2D"
-"SPRR1B" -> "SPRR2E"
-"SPRR2A" -> "SPRR2D"
-"SPRR2A" -> "SPRR2E"
-"SPRR2A" -> "SPRR2B"
-"SPRR2A" -> "SPRR1B"
-"SPRR2B" -> "SPRR2G"
-"SPRR2B" -> "SPRR2E"
-"SPRR2B" -> "SPRR2D"
-"SPRR2B" -> "SPRR2A"
-"SPRR2D" -> "SPRR2A"
-"SPRR2D" -> "SPRR2E"
-"SPRR2D" -> "SPRR2B"
-"SPRR2D" -> "SPRR2G"
-"SPRR2E" -> "SPRR2A"
-"SPRR2E" -> "SPRR2D"
-"SPRR2E" -> "SPRR2B"
-"SPRR2E" -> "SPRR2G"
-"SPRR2F" -> "SPRR2B"
-"SPRR2F" -> "SPRR2E"
-"SPRR2F" -> "SPRR2G"
-"SPRR2F" -> "SPRR2D"
-"SPRR2G" -> "SPRR2B"
-"SPRR2G" -> "SPRR2E"
-"SPRR2G" -> "SPRR2D"
-"SPRR2G" -> "SPRR2A"
-"SPRR3" -> "SPRR1B"
-"SPRR3" -> "SPRR1A"
-"SPRR3" -> "SPRR2F"
-"SPRR3" -> "SPRR4"
-"SPRR4" -> "SPRR1A"
-"SPRR4" -> "SPRR2G"
-"SPRR4" -> "SMCP"
-"SPRR4" -> "SPRR1B"
-"SPRR5" -> "SPRR2F"
-"SPRR5" -> "SPRR2B"
-"SPRR5" -> "SPRR4"
-"SPRR5" -> "SPRR1A"
+"LCE6A" -> "SMCP" ["e"=1]
+"LCE6A" -> "LELP1" ["e"=1]
+"LCE6A" -> "SPRR4" ["e"=1]
+"LCE6A" -> "PRR9" ["e"=1]
+"LELP1" -> "SPRR2G" ["e"=1]
+"LELP1" -> "PRR9" ["e"=1]
+"LELP1" -> "SMCP" ["e"=1]
+"LELP1" -> "LCE6A" ["e"=1]
+"PRR9" -> "SMCP" ["e"=1]
+"PRR9" -> "LELP1" ["e"=1]
+"PRR9" -> "SPRR2F" ["e"=1]
+"PRR9" -> "SPRR4" ["e"=1]
+"SMCP" -> "SPRR4" ["e"=1]
+"SMCP" -> "PRR9" ["e"=1]
+"SMCP" -> "LELP1" ["e"=1]
+"SMCP" -> "LCE6A" ["e"=1]
+"SPRR1A" -> "SPRR1B" ["e"=1]
+"SPRR1A" -> "SPRR2B" ["e"=1]
+"SPRR1A" -> "SPRR2A" ["e"=1]
+"SPRR1A" -> "SPRR2F" ["e"=1]
+"SPRR1B" -> "SPRR1A" ["e"=1]
+"SPRR1B" -> "SPRR2A" ["e"=1]
+"SPRR1B" -> "SPRR2D" ["e"=1]
+"SPRR1B" -> "SPRR2E" ["e"=1]
+"SPRR2A" -> "SPRR2D" ["e"=1]
+"SPRR2A" -> "SPRR2E" ["e"=1]
+"SPRR2A" -> "SPRR2B" ["e"=1]
+"SPRR2A" -> "SPRR1B" ["e"=1]
+"SPRR2B" -> "SPRR2G" ["e"=1]
+"SPRR2B" -> "SPRR2E" ["e"=1]
+"SPRR2B" -> "SPRR2D" ["e"=1]
+"SPRR2B" -> "SPRR2A" ["e"=1]
+"SPRR2D" -> "SPRR2A" ["e"=1]
+"SPRR2D" -> "SPRR2E" ["e"=1]
+"SPRR2D" -> "SPRR2B" ["e"=1]
+"SPRR2D" -> "SPRR2G" ["e"=1]
+"SPRR2E" -> "SPRR2A" ["e"=1]
+"SPRR2E" -> "SPRR2D" ["e"=1]
+"SPRR2E" -> "SPRR2B" ["e"=1]
+"SPRR2E" -> "SPRR2G" ["e"=1]
+"SPRR2F" -> "SPRR2B" ["e"=1]
+"SPRR2F" -> "SPRR2E" ["e"=1]
+"SPRR2F" -> "SPRR2G" ["e"=1]
+"SPRR2F" -> "SPRR2D" ["e"=1]
+"SPRR2G" -> "SPRR2B" ["e"=1]
+"SPRR2G" -> "SPRR2E" ["e"=1]
+"SPRR2G" -> "SPRR2D" ["e"=1]
+"SPRR2G" -> "SPRR2A" ["e"=1]
+"SPRR3" -> "SPRR1B" ["e"=1]
+"SPRR3" -> "SPRR1A" ["e"=1]
+"SPRR3" -> "SPRR2F" ["e"=1]
+"SPRR3" -> "SPRR4" ["e"=1]
+"SPRR4" -> "SPRR1A" ["e"=1]
+"SPRR4" -> "SPRR2G" ["e"=1]
+"SPRR4" -> "SMCP" ["e"=1]
+"SPRR4" -> "SPRR1B" ["e"=1]
+"SPRR5" -> "SPRR2F" ["e"=1]
+"SPRR5" -> "SPRR2B" ["e"=1]
+"SPRR5" -> "SPRR4" ["e"=1]
+"SPRR5" -> "SPRR1A" ["e"=1]
 }

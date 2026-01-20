@@ -10,48 +10,48 @@ digraph G {
 "HBQ1" ["l"="4.896,-0.965"]
 "HBZ" ["l"="4.895,-0.964"]
 "MB" ["l"="4.948,-0.904"]
-"HBA1" -> "HBA2"
-"HBA1" -> "HBG1"
-"HBA1" -> "HBG2"
-"HBA1" -> "HBB"
-"HBA2" -> "HBA1"
-"HBA2" -> "HBG1"
-"HBA2" -> "HBG2"
-"HBA2" -> "HBB"
-"HBB" -> "HBG1"
-"HBB" -> "HBD"
-"HBB" -> "HBG2"
-"HBB" -> "HBA2"
-"HBD" -> "HBB"
-"HBD" -> "HBG1"
-"HBD" -> "HBG2"
-"HBD" -> "HBZ"
-"HBE1" -> "HBZ"
-"HBE1" -> "HBG1"
-"HBE1" -> "HBG2"
-"HBE1" -> "HBA1"
-"HBG1" -> "HBG2"
-"HBG1" -> "HBB"
-"HBG1" -> "HBA2"
-"HBG1" -> "HBA1"
-"HBG2" -> "HBG1"
-"HBG2" -> "HBB"
-"HBG2" -> "HBA1"
-"HBG2" -> "HBA2"
-"HBM" -> "HBZ"
-"HBM" -> "HBQ1"
-"HBM" -> "HBA2"
-"HBM" -> "HBA1"
-"HBQ1" -> "HBM"
-"HBQ1" -> "HBZ"
-"HBQ1" -> "HBA1"
-"HBQ1" -> "HBG1"
-"HBZ" -> "HBE1"
-"HBZ" -> "HBG1"
-"HBZ" -> "HBM"
-"HBZ" -> "HBA2"
-"MB" -> "HBD"
-"MB" -> "HBG1"
-"MB" -> "HBZ"
-"MB" -> "HBB"
+"HBA1" -> "HBA2" ["e"=1]
+"HBA1" -> "HBG1" ["e"=1]
+"HBA1" -> "HBG2" ["e"=1]
+"HBA1" -> "HBB" ["e"=1]
+"HBA2" -> "HBA1" ["e"=1]
+"HBA2" -> "HBG1" ["e"=1]
+"HBA2" -> "HBG2" ["e"=1]
+"HBA2" -> "HBB" ["e"=1]
+"HBB" -> "HBG1" ["e"=1]
+"HBB" -> "HBD" ["e"=1]
+"HBB" -> "HBG2" ["e"=1]
+"HBB" -> "HBA2" ["e"=1]
+"HBD" -> "HBB" ["e"=1]
+"HBD" -> "HBG1" ["e"=1]
+"HBD" -> "HBG2" ["e"=1]
+"HBD" -> "HBZ" ["e"=1]
+"HBE1" -> "HBZ" ["e"=1]
+"HBE1" -> "HBG1" ["e"=1]
+"HBE1" -> "HBG2" ["e"=1]
+"HBE1" -> "HBA1" ["e"=1]
+"HBG1" -> "HBG2" ["e"=1]
+"HBG1" -> "HBB" ["e"=1]
+"HBG1" -> "HBA2" ["e"=1]
+"HBG1" -> "HBA1" ["e"=1]
+"HBG2" -> "HBG1" ["e"=1]
+"HBG2" -> "HBB" ["e"=1]
+"HBG2" -> "HBA1" ["e"=1]
+"HBG2" -> "HBA2" ["e"=1]
+"HBM" -> "HBZ" ["e"=1]
+"HBM" -> "HBQ1" ["e"=1]
+"HBM" -> "HBA2" ["e"=1]
+"HBM" -> "HBA1" ["e"=1]
+"HBQ1" -> "HBM" ["e"=1]
+"HBQ1" -> "HBZ" ["e"=1]
+"HBQ1" -> "HBA1" ["e"=1]
+"HBQ1" -> "HBG1" ["e"=1]
+"HBZ" -> "HBE1" ["e"=1]
+"HBZ" -> "HBG1" ["e"=1]
+"HBZ" -> "HBM" ["e"=1]
+"HBZ" -> "HBA2" ["e"=1]
+"MB" -> "HBD" ["e"=1]
+"MB" -> "HBG1" ["e"=1]
+"MB" -> "HBZ" ["e"=1]
+"MB" -> "HBB" ["e"=1]
 }

@@ -21,92 +21,92 @@ digraph G {
 "IDE" ["l"="11.904,0.729"]
 "IRGC" ["l"="11.861,0.595"]
 "PFAS" ["l"="11.933,0.912"]
-"AARS2" -> "PFAS"
-"AARS2" -> "FCSK"
-"AARS2" -> "HSPA12A"
-"AARS2" -> "IDE"
-"APOF" -> "IRGC"
-"APOF" -> "DNAJB7"
-"APOF" -> "DNAJC18"
-"APOF" -> "AARS2"
-"DNAJA1" -> "DNAJA4"
-"DNAJA1" -> "DNAJB1"
-"DNAJA1" -> "DNAJA2"
-"DNAJA1" -> "DNAJB4"
-"DNAJA2" -> "DNAJA1"
-"DNAJA2" -> "DNAJA4"
-"DNAJA2" -> "DNAJB5"
-"DNAJA2" -> "DNAJB4"
-"DNAJA4" -> "DNAJA1"
-"DNAJA4" -> "DNAJB1"
-"DNAJA4" -> "DNAJA2"
-"DNAJA4" -> "DNAJB4"
-"DNAJB1" -> "DNAJB4"
-"DNAJB1" -> "DNAJA1"
-"DNAJB1" -> "DNAJA4"
-"DNAJB1" -> "DNAJB5"
-"DNAJB13" -> "DNAJB5"
-"DNAJB13" -> "DNAJB1"
-"DNAJB13" -> "DNAJB4"
-"DNAJB13" -> "DNAJA1"
-"DNAJB14" -> "DNAJC18"
-"DNAJB14" -> "DNAJA2"
-"DNAJB14" -> "DNAJB7"
-"DNAJB14" -> "DNAJB9"
-"DNAJB2" -> "DNAJB6"
-"DNAJB2" -> "DNAJB7"
-"DNAJB2" -> "DNAJC18"
-"DNAJB2" -> "DNAJB8"
-"DNAJB4" -> "DNAJB1"
-"DNAJB4" -> "DNAJB5"
-"DNAJB4" -> "DNAJA1"
-"DNAJB4" -> "DNAJA4"
-"DNAJB5" -> "DNAJB1"
-"DNAJB5" -> "DNAJB4"
-"DNAJB5" -> "DNAJA2"
-"DNAJB5" -> "DNAJB13"
-"DNAJB6" -> "DNAJB2"
-"DNAJB6" -> "DNAJB8"
-"DNAJB6" -> "DNAJB5"
-"DNAJB6" -> "DNAJB9"
-"DNAJB7" -> "DNAJB2"
-"DNAJB7" -> "DNAJB9"
-"DNAJB7" -> "DNAJB8"
-"DNAJB7" -> "DNAJB5"
-"DNAJB8" -> "DNAJB6"
-"DNAJB8" -> "DNAJB7"
-"DNAJB8" -> "DNAJB2"
-"DNAJB8" -> "DNAJB5"
-"DNAJB9" -> "DNAJB7"
-"DNAJB9" -> "DNAJB2"
-"DNAJB9" -> "DNAJB14"
-"DNAJB9" -> "DNAJB6"
-"DNAJC18" -> "DNAJB14"
-"DNAJC18" -> "DNAJB2"
-"DNAJC18" -> "DNAJB7"
-"DNAJC18" -> "DNAJB8"
-"DPP8" -> "IDE"
-"DPP8" -> "HSPA12A"
-"DPP8" -> "AARS2"
-"DPP8" -> "DNAJC18"
-"FCSK" -> "PFAS"
-"FCSK" -> "AARS2"
-"FCSK" -> "HSPA12A"
-"FCSK" -> "DPP8"
-"HSPA12A" -> "IDE"
-"HSPA12A" -> "DPP8"
-"HSPA12A" -> "DNAJC18"
-"HSPA12A" -> "AARS2"
-"IDE" -> "DPP8"
-"IDE" -> "HSPA12A"
-"IDE" -> "AARS2"
-"IDE" -> "DNAJC18"
-"IRGC" -> "APOF"
-"IRGC" -> "HSPA12A"
-"IRGC" -> "AARS2"
-"IRGC" -> "DNAJB7"
-"PFAS" -> "FCSK"
-"PFAS" -> "AARS2"
-"PFAS" -> "HSPA12A"
-"PFAS" -> "DPP8"
+"AARS2" -> "PFAS" ["e"=1]
+"AARS2" -> "FCSK" ["e"=1]
+"AARS2" -> "HSPA12A" ["e"=1]
+"AARS2" -> "IDE" ["e"=1]
+"APOF" -> "IRGC" ["e"=1]
+"APOF" -> "DNAJB7" ["e"=1]
+"APOF" -> "DNAJC18" ["e"=1]
+"APOF" -> "AARS2" ["e"=1]
+"DNAJA1" -> "DNAJA4" ["e"=1]
+"DNAJA1" -> "DNAJB1" ["e"=1]
+"DNAJA1" -> "DNAJA2" ["e"=1]
+"DNAJA1" -> "DNAJB4" ["e"=1]
+"DNAJA2" -> "DNAJA1" ["e"=1]
+"DNAJA2" -> "DNAJA4" ["e"=1]
+"DNAJA2" -> "DNAJB5" ["e"=1]
+"DNAJA2" -> "DNAJB4" ["e"=1]
+"DNAJA4" -> "DNAJA1" ["e"=1]
+"DNAJA4" -> "DNAJB1" ["e"=1]
+"DNAJA4" -> "DNAJA2" ["e"=1]
+"DNAJA4" -> "DNAJB4" ["e"=1]
+"DNAJB1" -> "DNAJB4" ["e"=1]
+"DNAJB1" -> "DNAJA1" ["e"=1]
+"DNAJB1" -> "DNAJA4" ["e"=1]
+"DNAJB1" -> "DNAJB5" ["e"=1]
+"DNAJB13" -> "DNAJB5" ["e"=1]
+"DNAJB13" -> "DNAJB1" ["e"=1]
+"DNAJB13" -> "DNAJB4" ["e"=1]
+"DNAJB13" -> "DNAJA1" ["e"=1]
+"DNAJB14" -> "DNAJC18" ["e"=1]
+"DNAJB14" -> "DNAJA2" ["e"=1]
+"DNAJB14" -> "DNAJB7" ["e"=1]
+"DNAJB14" -> "DNAJB9" ["e"=1]
+"DNAJB2" -> "DNAJB6" ["e"=1]
+"DNAJB2" -> "DNAJB7" ["e"=1]
+"DNAJB2" -> "DNAJC18" ["e"=1]
+"DNAJB2" -> "DNAJB8" ["e"=1]
+"DNAJB4" -> "DNAJB1" ["e"=1]
+"DNAJB4" -> "DNAJB5" ["e"=1]
+"DNAJB4" -> "DNAJA1" ["e"=1]
+"DNAJB4" -> "DNAJA4" ["e"=1]
+"DNAJB5" -> "DNAJB1" ["e"=1]
+"DNAJB5" -> "DNAJB4" ["e"=1]
+"DNAJB5" -> "DNAJA2" ["e"=1]
+"DNAJB5" -> "DNAJB13" ["e"=1]
+"DNAJB6" -> "DNAJB2" ["e"=1]
+"DNAJB6" -> "DNAJB8" ["e"=1]
+"DNAJB6" -> "DNAJB5" ["e"=1]
+"DNAJB6" -> "DNAJB9" ["e"=1]
+"DNAJB7" -> "DNAJB2" ["e"=1]
+"DNAJB7" -> "DNAJB9" ["e"=1]
+"DNAJB7" -> "DNAJB8" ["e"=1]
+"DNAJB7" -> "DNAJB5" ["e"=1]
+"DNAJB8" -> "DNAJB6" ["e"=1]
+"DNAJB8" -> "DNAJB7" ["e"=1]
+"DNAJB8" -> "DNAJB2" ["e"=1]
+"DNAJB8" -> "DNAJB5" ["e"=1]
+"DNAJB9" -> "DNAJB7" ["e"=1]
+"DNAJB9" -> "DNAJB2" ["e"=1]
+"DNAJB9" -> "DNAJB14" ["e"=1]
+"DNAJB9" -> "DNAJB6" ["e"=1]
+"DNAJC18" -> "DNAJB14" ["e"=1]
+"DNAJC18" -> "DNAJB2" ["e"=1]
+"DNAJC18" -> "DNAJB7" ["e"=1]
+"DNAJC18" -> "DNAJB8" ["e"=1]
+"DPP8" -> "IDE" ["e"=1]
+"DPP8" -> "HSPA12A" ["e"=1]
+"DPP8" -> "AARS2" ["e"=1]
+"DPP8" -> "DNAJC18" ["e"=1]
+"FCSK" -> "PFAS" ["e"=1]
+"FCSK" -> "AARS2" ["e"=1]
+"FCSK" -> "HSPA12A" ["e"=1]
+"FCSK" -> "DPP8" ["e"=1]
+"HSPA12A" -> "IDE" ["e"=1]
+"HSPA12A" -> "DPP8" ["e"=1]
+"HSPA12A" -> "DNAJC18" ["e"=1]
+"HSPA12A" -> "AARS2" ["e"=1]
+"IDE" -> "DPP8" ["e"=1]
+"IDE" -> "HSPA12A" ["e"=1]
+"IDE" -> "AARS2" ["e"=1]
+"IDE" -> "DNAJC18" ["e"=1]
+"IRGC" -> "APOF" ["e"=1]
+"IRGC" -> "HSPA12A" ["e"=1]
+"IRGC" -> "AARS2" ["e"=1]
+"IRGC" -> "DNAJB7" ["e"=1]
+"PFAS" -> "FCSK" ["e"=1]
+"PFAS" -> "AARS2" ["e"=1]
+"PFAS" -> "HSPA12A" ["e"=1]
+"PFAS" -> "DPP8" ["e"=1]
 }

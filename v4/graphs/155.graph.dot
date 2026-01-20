@@ -24,104 +24,104 @@ digraph G {
 "TMEM150C" ["l"="9.303,-3.392"]
 "TMEM45A" ["l"="9.356,-3.393"]
 "TMEM45B" ["l"="9.318,-3.418"]
-"CH25H" -> "FAXDC2"
-"CH25H" -> "SC5D"
-"CH25H" -> "FADS1"
-"CH25H" -> "MSMO1"
-"CYB561" -> "CYB561D1"
-"CYB561" -> "CYB561A3"
-"CYB561" -> "CYBRD1"
-"CYB561" -> "TMEM150C"
-"CYB561A3" -> "CYB561D1"
-"CYB561A3" -> "CYBRD1"
-"CYB561A3" -> "CYB561"
-"CYB561A3" -> "DRAM1"
-"CYB561D1" -> "CYB561A3"
-"CYB561D1" -> "CYB561"
-"CYB561D1" -> "CYBRD1"
-"CYB561D1" -> "TMEM150C"
-"CYBRD1" -> "CYB561A3"
-"CYBRD1" -> "CYB561D1"
-"CYBRD1" -> "CYB561"
-"CYBRD1" -> "TMEM150C"
-"DEGS1" -> "DEGS2"
-"DEGS1" -> "SCD5"
-"DEGS1" -> "FADS3"
-"DEGS1" -> "FADS6"
-"DEGS2" -> "DEGS1"
-"DEGS2" -> "FADS6"
-"DEGS2" -> "SCD5"
-"DEGS2" -> "FA2H"
-"DRAM1" -> "TMEM150C"
-"DRAM1" -> "DRAM2"
-"DRAM1" -> "CYB561A3"
-"DRAM1" -> "TMEM150A"
-"DRAM2" -> "DRAM1"
-"DRAM2" -> "TMEM150C"
-"DRAM2" -> "TMEM150A"
-"DRAM2" -> "PGAP2"
-"FA2H" -> "FADS3"
-"FA2H" -> "FADS2"
-"FA2H" -> "FADS1"
-"FA2H" -> "FAXDC2"
-"FADS1" -> "FADS2"
-"FADS1" -> "SCD"
-"FADS1" -> "FADS3"
-"FADS1" -> "FAXDC2"
-"FADS2" -> "FADS1"
-"FADS2" -> "SCD"
-"FADS2" -> "FA2H"
-"FADS2" -> "FADS3"
-"FADS3" -> "FADS1"
-"FADS3" -> "FA2H"
-"FADS3" -> "FADS2"
-"FADS3" -> "DEGS1"
-"FADS6" -> "FAXDC2"
-"FADS6" -> "FA2H"
-"FADS6" -> "DEGS2"
-"FADS6" -> "FADS3"
-"FAXDC2" -> "FADS1"
-"FAXDC2" -> "FADS6"
-"FAXDC2" -> "FA2H"
-"FAXDC2" -> "FADS2"
-"MSMO1" -> "SC5D"
-"MSMO1" -> "FADS1"
-"MSMO1" -> "FADS2"
-"MSMO1" -> "SCD"
-"PGAP2" -> "DRAM1"
-"PGAP2" -> "TMEM150C"
-"PGAP2" -> "DRAM2"
-"PGAP2" -> "TMEM150A"
-"SC5D" -> "MSMO1"
-"SC5D" -> "FADS1"
-"SC5D" -> "FADS2"
-"SC5D" -> "FAXDC2"
-"SCD" -> "FADS1"
-"SCD" -> "FADS2"
-"SCD" -> "SCD5"
-"SCD" -> "FA2H"
-"SCD5" -> "SCD"
-"SCD5" -> "FADS1"
-"SCD5" -> "FADS2"
-"SCD5" -> "DEGS1"
-"TEDDM1" -> "TMEM45A"
-"TEDDM1" -> "TMEM150C"
-"TEDDM1" -> "CYB561D1"
-"TEDDM1" -> "CYB561A3"
-"TMEM150A" -> "TMEM150C"
-"TMEM150A" -> "DRAM1"
-"TMEM150A" -> "DRAM2"
-"TMEM150A" -> "CYB561A3"
-"TMEM150C" -> "DRAM1"
-"TMEM150C" -> "DRAM2"
-"TMEM150C" -> "TEDDM1"
-"TMEM150C" -> "CYB561"
-"TMEM45A" -> "TEDDM1"
-"TMEM45A" -> "TMEM45B"
-"TMEM45A" -> "CYB561A3"
-"TMEM45A" -> "TMEM150C"
-"TMEM45B" -> "TMEM45A"
-"TMEM45B" -> "CYB561"
-"TMEM45B" -> "TMEM150C"
-"TMEM45B" -> "TEDDM1"
+"CH25H" -> "FAXDC2" ["e"=1]
+"CH25H" -> "SC5D" ["e"=1]
+"CH25H" -> "FADS1" ["e"=1]
+"CH25H" -> "MSMO1" ["e"=1]
+"CYB561" -> "CYB561D1" ["e"=1]
+"CYB561" -> "CYB561A3" ["e"=1]
+"CYB561" -> "CYBRD1" ["e"=1]
+"CYB561" -> "TMEM150C" ["e"=1]
+"CYB561A3" -> "CYB561D1" ["e"=1]
+"CYB561A3" -> "CYBRD1" ["e"=1]
+"CYB561A3" -> "CYB561" ["e"=1]
+"CYB561A3" -> "DRAM1" ["e"=1]
+"CYB561D1" -> "CYB561A3" ["e"=1]
+"CYB561D1" -> "CYB561" ["e"=1]
+"CYB561D1" -> "CYBRD1" ["e"=1]
+"CYB561D1" -> "TMEM150C" ["e"=1]
+"CYBRD1" -> "CYB561A3" ["e"=1]
+"CYBRD1" -> "CYB561D1" ["e"=1]
+"CYBRD1" -> "CYB561" ["e"=1]
+"CYBRD1" -> "TMEM150C" ["e"=1]
+"DEGS1" -> "DEGS2" ["e"=1]
+"DEGS1" -> "SCD5" ["e"=1]
+"DEGS1" -> "FADS3" ["e"=1]
+"DEGS1" -> "FADS6" ["e"=1]
+"DEGS2" -> "DEGS1" ["e"=1]
+"DEGS2" -> "FADS6" ["e"=1]
+"DEGS2" -> "SCD5" ["e"=1]
+"DEGS2" -> "FA2H" ["e"=1]
+"DRAM1" -> "TMEM150C" ["e"=1]
+"DRAM1" -> "DRAM2" ["e"=1]
+"DRAM1" -> "CYB561A3" ["e"=1]
+"DRAM1" -> "TMEM150A" ["e"=1]
+"DRAM2" -> "DRAM1" ["e"=1]
+"DRAM2" -> "TMEM150C" ["e"=1]
+"DRAM2" -> "TMEM150A" ["e"=1]
+"DRAM2" -> "PGAP2" ["e"=1]
+"FA2H" -> "FADS3" ["e"=1]
+"FA2H" -> "FADS2" ["e"=1]
+"FA2H" -> "FADS1" ["e"=1]
+"FA2H" -> "FAXDC2" ["e"=1]
+"FADS1" -> "FADS2" ["e"=1]
+"FADS1" -> "SCD" ["e"=1]
+"FADS1" -> "FADS3" ["e"=1]
+"FADS1" -> "FAXDC2" ["e"=1]
+"FADS2" -> "FADS1" ["e"=1]
+"FADS2" -> "SCD" ["e"=1]
+"FADS2" -> "FA2H" ["e"=1]
+"FADS2" -> "FADS3" ["e"=1]
+"FADS3" -> "FADS1" ["e"=1]
+"FADS3" -> "FA2H" ["e"=1]
+"FADS3" -> "FADS2" ["e"=1]
+"FADS3" -> "DEGS1" ["e"=1]
+"FADS6" -> "FAXDC2" ["e"=1]
+"FADS6" -> "FA2H" ["e"=1]
+"FADS6" -> "DEGS2" ["e"=1]
+"FADS6" -> "FADS3" ["e"=1]
+"FAXDC2" -> "FADS1" ["e"=1]
+"FAXDC2" -> "FADS6" ["e"=1]
+"FAXDC2" -> "FA2H" ["e"=1]
+"FAXDC2" -> "FADS2" ["e"=1]
+"MSMO1" -> "SC5D" ["e"=1]
+"MSMO1" -> "FADS1" ["e"=1]
+"MSMO1" -> "FADS2" ["e"=1]
+"MSMO1" -> "SCD" ["e"=1]
+"PGAP2" -> "DRAM1" ["e"=1]
+"PGAP2" -> "TMEM150C" ["e"=1]
+"PGAP2" -> "DRAM2" ["e"=1]
+"PGAP2" -> "TMEM150A" ["e"=1]
+"SC5D" -> "MSMO1" ["e"=1]
+"SC5D" -> "FADS1" ["e"=1]
+"SC5D" -> "FADS2" ["e"=1]
+"SC5D" -> "FAXDC2" ["e"=1]
+"SCD" -> "FADS1" ["e"=1]
+"SCD" -> "FADS2" ["e"=1]
+"SCD" -> "SCD5" ["e"=1]
+"SCD" -> "FA2H" ["e"=1]
+"SCD5" -> "SCD" ["e"=1]
+"SCD5" -> "FADS1" ["e"=1]
+"SCD5" -> "FADS2" ["e"=1]
+"SCD5" -> "DEGS1" ["e"=1]
+"TEDDM1" -> "TMEM45A" ["e"=1]
+"TEDDM1" -> "TMEM150C" ["e"=1]
+"TEDDM1" -> "CYB561D1" ["e"=1]
+"TEDDM1" -> "CYB561A3" ["e"=1]
+"TMEM150A" -> "TMEM150C" ["e"=1]
+"TMEM150A" -> "DRAM1" ["e"=1]
+"TMEM150A" -> "DRAM2" ["e"=1]
+"TMEM150A" -> "CYB561A3" ["e"=1]
+"TMEM150C" -> "DRAM1" ["e"=1]
+"TMEM150C" -> "DRAM2" ["e"=1]
+"TMEM150C" -> "TEDDM1" ["e"=1]
+"TMEM150C" -> "CYB561" ["e"=1]
+"TMEM45A" -> "TEDDM1" ["e"=1]
+"TMEM45A" -> "TMEM45B" ["e"=1]
+"TMEM45A" -> "CYB561A3" ["e"=1]
+"TMEM45A" -> "TMEM150C" ["e"=1]
+"TMEM45B" -> "TMEM45A" ["e"=1]
+"TMEM45B" -> "CYB561" ["e"=1]
+"TMEM45B" -> "TMEM150C" ["e"=1]
+"TMEM45B" -> "TEDDM1" ["e"=1]
 }

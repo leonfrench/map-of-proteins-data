@@ -43,180 +43,180 @@ digraph G {
 "MARCO" ["l"="16.286,-1.251"]
 "OTOL1" ["l"="16.322,-1.261"]
 "SFTPD" ["l"="16.052,-1.182"]
-"C1QTNF9" -> "C1QTNF9B"
-"C1QTNF9" -> "OTOL1"
-"C1QTNF9" -> "SFTPD"
-"C1QTNF9" -> "COL28A1"
-"C1QTNF9B" -> "C1QTNF9"
-"C1QTNF9B" -> "OTOL1"
-"C1QTNF9B" -> "SFTPD"
-"C1QTNF9B" -> "COL25A1"
-"COL10A1" -> "COL8A1"
-"COL10A1" -> "COL4A3"
-"COL10A1" -> "COL4A4"
-"COL10A1" -> "COL8A2"
-"COL11A1" -> "COL5A2"
-"COL11A1" -> "COL11A2"
-"COL11A1" -> "COL9A1"
-"COL11A1" -> "COL2A1"
-"COL11A2" -> "COL5A1"
-"COL11A2" -> "COL5A3"
-"COL11A2" -> "COL9A3"
-"COL11A2" -> "COL27A1"
-"COL13A1" -> "COL23A1"
-"COL13A1" -> "COL22A1"
-"COL13A1" -> "COL9A2"
-"COL13A1" -> "COL9A3"
-"COL15A1" -> "COL18A1"
-"COL15A1" -> "COL19A1"
-"COL15A1" -> "COLQ"
-"COL15A1" -> "COL4A1"
-"COL16A1" -> "COL22A1"
-"COL16A1" -> "COL11A2"
-"COL16A1" -> "COL9A3"
-"COL16A1" -> "COL5A3"
-"COL17A1" -> "COL15A1"
-"COL17A1" -> "COL10A1"
-"COL17A1" -> "COLQ"
-"COL17A1" -> "COL18A1"
-"COL18A1" -> "COL15A1"
-"COL18A1" -> "COL19A1"
-"COL18A1" -> "COL27A1"
-"COL18A1" -> "COL5A3"
-"COL19A1" -> "COL25A1"
-"COL19A1" -> "COL22A1"
-"COL19A1" -> "COL21A1"
-"COL19A1" -> "COL28A1"
-"COL1A1" -> "COL1A2"
-"COL1A1" -> "COL3A1"
-"COL1A1" -> "COL2A1"
-"COL1A1" -> "COL5A2"
-"COL1A2" -> "COL1A1"
-"COL1A2" -> "COL3A1"
-"COL1A2" -> "COL5A2"
-"COL1A2" -> "COL2A1"
-"COL21A1" -> "COL19A1"
-"COL21A1" -> "COL25A1"
-"COL21A1" -> "COL22A1"
-"COL21A1" -> "COL11A1"
-"COL22A1" -> "COL23A1"
-"COL22A1" -> "COL9A1"
-"COL22A1" -> "COL19A1"
-"COL22A1" -> "COL16A1"
-"COL23A1" -> "COL22A1"
-"COL23A1" -> "COL13A1"
-"COL23A1" -> "COL25A1"
-"COL23A1" -> "COL19A1"
-"COL24A1" -> "COL5A2"
-"COL24A1" -> "COL19A1"
-"COL24A1" -> "COL11A1"
-"COL24A1" -> "COL21A1"
-"COL25A1" -> "COL19A1"
-"COL25A1" -> "COL23A1"
-"COL25A1" -> "COL21A1"
-"COL25A1" -> "COL22A1"
-"COL26A1" -> "EMID1"
-"COL26A1" -> "COLQ"
-"COL26A1" -> "COL15A1"
-"COL26A1" -> "COL10A1"
-"COL27A1" -> "COL11A2"
-"COL27A1" -> "COL5A1"
-"COL27A1" -> "COL5A3"
-"COL27A1" -> "COL22A1"
-"COL28A1" -> "COL19A1"
-"COL28A1" -> "COL9A1"
-"COL28A1" -> "COL23A1"
-"COL28A1" -> "COL21A1"
-"COL2A1" -> "COL1A1"
-"COL2A1" -> "COL11A1"
-"COL2A1" -> "COL11A2"
-"COL2A1" -> "COL1A2"
-"COL3A1" -> "COL1A2"
-"COL3A1" -> "COL1A1"
-"COL3A1" -> "COL5A2"
-"COL3A1" -> "COL5A1"
-"COL4A1" -> "COL4A2"
-"COL4A1" -> "COL4A4"
-"COL4A1" -> "COL4A3"
-"COL4A1" -> "COL10A1"
-"COL4A2" -> "COL4A1"
-"COL4A2" -> "COL4A4"
-"COL4A2" -> "COL4A3"
-"COL4A2" -> "COL9A1"
-"COL4A3" -> "COL4A4"
-"COL4A3" -> "COL4A2"
-"COL4A3" -> "COL4A1"
-"COL4A3" -> "COL10A1"
-"COL4A4" -> "COL4A3"
-"COL4A4" -> "COL4A2"
-"COL4A4" -> "COL4A1"
-"COL4A4" -> "COL10A1"
-"COL5A1" -> "COL5A2"
-"COL5A1" -> "COL11A2"
-"COL5A1" -> "COL3A1"
-"COL5A1" -> "COL6A1"
-"COL5A2" -> "COL5A1"
-"COL5A2" -> "COL3A1"
-"COL5A2" -> "COL11A1"
-"COL5A2" -> "COL24A1"
-"COL5A3" -> "COL11A2"
-"COL5A3" -> "COL16A1"
-"COL5A3" -> "COL27A1"
-"COL5A3" -> "COL9A2"
-"COL6A1" -> "COL6A2"
-"COL6A1" -> "COL5A1"
-"COL6A1" -> "COL28A1"
-"COL6A1" -> "COL21A1"
-"COL6A2" -> "COL6A1"
-"COL6A2" -> "COL22A1"
-"COL6A2" -> "COL28A1"
-"COL6A2" -> "COL23A1"
-"COL7A1" -> "COL27A1"
-"COL7A1" -> "COL11A2"
-"COL7A1" -> "COL18A1"
-"COL7A1" -> "COL22A1"
-"COL8A1" -> "COL10A1"
-"COL8A1" -> "COL8A2"
-"COL8A1" -> "COL4A3"
-"COL8A1" -> "COL4A4"
-"COL8A2" -> "COL8A1"
-"COL8A2" -> "COL10A1"
-"COL8A2" -> "COL19A1"
-"COL8A2" -> "COL4A1"
-"COL9A1" -> "COL9A3"
-"COL9A1" -> "COL9A2"
-"COL9A1" -> "COL22A1"
-"COL9A1" -> "COL11A2"
-"COL9A2" -> "COL9A3"
-"COL9A2" -> "COL9A1"
-"COL9A2" -> "COL11A2"
-"COL9A2" -> "COL23A1"
-"COL9A3" -> "COL9A2"
-"COL9A3" -> "COL9A1"
-"COL9A3" -> "COL11A2"
-"COL9A3" -> "COL16A1"
-"COLQ" -> "COL19A1"
-"COLQ" -> "COL10A1"
-"COLQ" -> "COL25A1"
-"COLQ" -> "COL26A1"
-"ELN" -> "COL17A1"
-"ELN" -> "COL8A2"
-"ELN" -> "COL18A1"
-"ELN" -> "COL8A1"
-"EMID1" -> "COL26A1"
-"EMID1" -> "COLQ"
-"EMID1" -> "COL10A1"
-"EMID1" -> "COL18A1"
-"MARCO" -> "C1QTNF9"
-"MARCO" -> "C1QTNF9B"
-"MARCO" -> "SFTPD"
-"MARCO" -> "OTOL1"
-"OTOL1" -> "C1QTNF9B"
-"OTOL1" -> "C1QTNF9"
-"OTOL1" -> "COL8A1"
-"OTOL1" -> "COL10A1"
-"SFTPD" -> "C1QTNF9"
-"SFTPD" -> "C1QTNF9B"
-"SFTPD" -> "OTOL1"
-"SFTPD" -> "MARCO"
+"C1QTNF9" -> "C1QTNF9B" ["e"=1]
+"C1QTNF9" -> "OTOL1" ["e"=1]
+"C1QTNF9" -> "SFTPD" ["e"=1]
+"C1QTNF9" -> "COL28A1" ["e"=1]
+"C1QTNF9B" -> "C1QTNF9" ["e"=1]
+"C1QTNF9B" -> "OTOL1" ["e"=1]
+"C1QTNF9B" -> "SFTPD" ["e"=1]
+"C1QTNF9B" -> "COL25A1" ["e"=1]
+"COL10A1" -> "COL8A1" ["e"=1]
+"COL10A1" -> "COL4A3" ["e"=1]
+"COL10A1" -> "COL4A4" ["e"=1]
+"COL10A1" -> "COL8A2" ["e"=1]
+"COL11A1" -> "COL5A2" ["e"=1]
+"COL11A1" -> "COL11A2" ["e"=1]
+"COL11A1" -> "COL9A1" ["e"=1]
+"COL11A1" -> "COL2A1" ["e"=1]
+"COL11A2" -> "COL5A1" ["e"=1]
+"COL11A2" -> "COL5A3" ["e"=1]
+"COL11A2" -> "COL9A3" ["e"=1]
+"COL11A2" -> "COL27A1" ["e"=1]
+"COL13A1" -> "COL23A1" ["e"=1]
+"COL13A1" -> "COL22A1" ["e"=1]
+"COL13A1" -> "COL9A2" ["e"=1]
+"COL13A1" -> "COL9A3" ["e"=1]
+"COL15A1" -> "COL18A1" ["e"=1]
+"COL15A1" -> "COL19A1" ["e"=1]
+"COL15A1" -> "COLQ" ["e"=1]
+"COL15A1" -> "COL4A1" ["e"=1]
+"COL16A1" -> "COL22A1" ["e"=1]
+"COL16A1" -> "COL11A2" ["e"=1]
+"COL16A1" -> "COL9A3" ["e"=1]
+"COL16A1" -> "COL5A3" ["e"=1]
+"COL17A1" -> "COL15A1" ["e"=1]
+"COL17A1" -> "COL10A1" ["e"=1]
+"COL17A1" -> "COLQ" ["e"=1]
+"COL17A1" -> "COL18A1" ["e"=1]
+"COL18A1" -> "COL15A1" ["e"=1]
+"COL18A1" -> "COL19A1" ["e"=1]
+"COL18A1" -> "COL27A1" ["e"=1]
+"COL18A1" -> "COL5A3" ["e"=1]
+"COL19A1" -> "COL25A1" ["e"=1]
+"COL19A1" -> "COL22A1" ["e"=1]
+"COL19A1" -> "COL21A1" ["e"=1]
+"COL19A1" -> "COL28A1" ["e"=1]
+"COL1A1" -> "COL1A2" ["e"=1]
+"COL1A1" -> "COL3A1" ["e"=1]
+"COL1A1" -> "COL2A1" ["e"=1]
+"COL1A1" -> "COL5A2" ["e"=1]
+"COL1A2" -> "COL1A1" ["e"=1]
+"COL1A2" -> "COL3A1" ["e"=1]
+"COL1A2" -> "COL5A2" ["e"=1]
+"COL1A2" -> "COL2A1" ["e"=1]
+"COL21A1" -> "COL19A1" ["e"=1]
+"COL21A1" -> "COL25A1" ["e"=1]
+"COL21A1" -> "COL22A1" ["e"=1]
+"COL21A1" -> "COL11A1" ["e"=1]
+"COL22A1" -> "COL23A1" ["e"=1]
+"COL22A1" -> "COL9A1" ["e"=1]
+"COL22A1" -> "COL19A1" ["e"=1]
+"COL22A1" -> "COL16A1" ["e"=1]
+"COL23A1" -> "COL22A1" ["e"=1]
+"COL23A1" -> "COL13A1" ["e"=1]
+"COL23A1" -> "COL25A1" ["e"=1]
+"COL23A1" -> "COL19A1" ["e"=1]
+"COL24A1" -> "COL5A2" ["e"=1]
+"COL24A1" -> "COL19A1" ["e"=1]
+"COL24A1" -> "COL11A1" ["e"=1]
+"COL24A1" -> "COL21A1" ["e"=1]
+"COL25A1" -> "COL19A1" ["e"=1]
+"COL25A1" -> "COL23A1" ["e"=1]
+"COL25A1" -> "COL21A1" ["e"=1]
+"COL25A1" -> "COL22A1" ["e"=1]
+"COL26A1" -> "EMID1" ["e"=1]
+"COL26A1" -> "COLQ" ["e"=1]
+"COL26A1" -> "COL15A1" ["e"=1]
+"COL26A1" -> "COL10A1" ["e"=1]
+"COL27A1" -> "COL11A2" ["e"=1]
+"COL27A1" -> "COL5A1" ["e"=1]
+"COL27A1" -> "COL5A3" ["e"=1]
+"COL27A1" -> "COL22A1" ["e"=1]
+"COL28A1" -> "COL19A1" ["e"=1]
+"COL28A1" -> "COL9A1" ["e"=1]
+"COL28A1" -> "COL23A1" ["e"=1]
+"COL28A1" -> "COL21A1" ["e"=1]
+"COL2A1" -> "COL1A1" ["e"=1]
+"COL2A1" -> "COL11A1" ["e"=1]
+"COL2A1" -> "COL11A2" ["e"=1]
+"COL2A1" -> "COL1A2" ["e"=1]
+"COL3A1" -> "COL1A2" ["e"=1]
+"COL3A1" -> "COL1A1" ["e"=1]
+"COL3A1" -> "COL5A2" ["e"=1]
+"COL3A1" -> "COL5A1" ["e"=1]
+"COL4A1" -> "COL4A2" ["e"=1]
+"COL4A1" -> "COL4A4" ["e"=1]
+"COL4A1" -> "COL4A3" ["e"=1]
+"COL4A1" -> "COL10A1" ["e"=1]
+"COL4A2" -> "COL4A1" ["e"=1]
+"COL4A2" -> "COL4A4" ["e"=1]
+"COL4A2" -> "COL4A3" ["e"=1]
+"COL4A2" -> "COL9A1" ["e"=1]
+"COL4A3" -> "COL4A4" ["e"=1]
+"COL4A3" -> "COL4A2" ["e"=1]
+"COL4A3" -> "COL4A1" ["e"=1]
+"COL4A3" -> "COL10A1" ["e"=1]
+"COL4A4" -> "COL4A3" ["e"=1]
+"COL4A4" -> "COL4A2" ["e"=1]
+"COL4A4" -> "COL4A1" ["e"=1]
+"COL4A4" -> "COL10A1" ["e"=1]
+"COL5A1" -> "COL5A2" ["e"=1]
+"COL5A1" -> "COL11A2" ["e"=1]
+"COL5A1" -> "COL3A1" ["e"=1]
+"COL5A1" -> "COL6A1" ["e"=1]
+"COL5A2" -> "COL5A1" ["e"=1]
+"COL5A2" -> "COL3A1" ["e"=1]
+"COL5A2" -> "COL11A1" ["e"=1]
+"COL5A2" -> "COL24A1" ["e"=1]
+"COL5A3" -> "COL11A2" ["e"=1]
+"COL5A3" -> "COL16A1" ["e"=1]
+"COL5A3" -> "COL27A1" ["e"=1]
+"COL5A3" -> "COL9A2" ["e"=1]
+"COL6A1" -> "COL6A2" ["e"=1]
+"COL6A1" -> "COL5A1" ["e"=1]
+"COL6A1" -> "COL28A1" ["e"=1]
+"COL6A1" -> "COL21A1" ["e"=1]
+"COL6A2" -> "COL6A1" ["e"=1]
+"COL6A2" -> "COL22A1" ["e"=1]
+"COL6A2" -> "COL28A1" ["e"=1]
+"COL6A2" -> "COL23A1" ["e"=1]
+"COL7A1" -> "COL27A1" ["e"=1]
+"COL7A1" -> "COL11A2" ["e"=1]
+"COL7A1" -> "COL18A1" ["e"=1]
+"COL7A1" -> "COL22A1" ["e"=1]
+"COL8A1" -> "COL10A1" ["e"=1]
+"COL8A1" -> "COL8A2" ["e"=1]
+"COL8A1" -> "COL4A3" ["e"=1]
+"COL8A1" -> "COL4A4" ["e"=1]
+"COL8A2" -> "COL8A1" ["e"=1]
+"COL8A2" -> "COL10A1" ["e"=1]
+"COL8A2" -> "COL19A1" ["e"=1]
+"COL8A2" -> "COL4A1" ["e"=1]
+"COL9A1" -> "COL9A3" ["e"=1]
+"COL9A1" -> "COL9A2" ["e"=1]
+"COL9A1" -> "COL22A1" ["e"=1]
+"COL9A1" -> "COL11A2" ["e"=1]
+"COL9A2" -> "COL9A3" ["e"=1]
+"COL9A2" -> "COL9A1" ["e"=1]
+"COL9A2" -> "COL11A2" ["e"=1]
+"COL9A2" -> "COL23A1" ["e"=1]
+"COL9A3" -> "COL9A2" ["e"=1]
+"COL9A3" -> "COL9A1" ["e"=1]
+"COL9A3" -> "COL11A2" ["e"=1]
+"COL9A3" -> "COL16A1" ["e"=1]
+"COLQ" -> "COL19A1" ["e"=1]
+"COLQ" -> "COL10A1" ["e"=1]
+"COLQ" -> "COL25A1" ["e"=1]
+"COLQ" -> "COL26A1" ["e"=1]
+"ELN" -> "COL17A1" ["e"=1]
+"ELN" -> "COL8A2" ["e"=1]
+"ELN" -> "COL18A1" ["e"=1]
+"ELN" -> "COL8A1" ["e"=1]
+"EMID1" -> "COL26A1" ["e"=1]
+"EMID1" -> "COLQ" ["e"=1]
+"EMID1" -> "COL10A1" ["e"=1]
+"EMID1" -> "COL18A1" ["e"=1]
+"MARCO" -> "C1QTNF9" ["e"=1]
+"MARCO" -> "C1QTNF9B" ["e"=1]
+"MARCO" -> "SFTPD" ["e"=1]
+"MARCO" -> "OTOL1" ["e"=1]
+"OTOL1" -> "C1QTNF9B" ["e"=1]
+"OTOL1" -> "C1QTNF9" ["e"=1]
+"OTOL1" -> "COL8A1" ["e"=1]
+"OTOL1" -> "COL10A1" ["e"=1]
+"SFTPD" -> "C1QTNF9" ["e"=1]
+"SFTPD" -> "C1QTNF9B" ["e"=1]
+"SFTPD" -> "OTOL1" ["e"=1]
+"SFTPD" -> "MARCO" ["e"=1]
 }

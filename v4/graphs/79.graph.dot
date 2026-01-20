@@ -17,76 +17,76 @@ digraph G {
 "LCNL1" ["l"="7.703,-1.817"]
 "PIP" ["l"="7.694,-1.776"]
 "RARRES2" ["l"="7.783,-1.897"]
-"CAMP" -> "CST1"
-"CAMP" -> "CST4"
-"CAMP" -> "CST6"
-"CAMP" -> "CST2"
-"CST1" -> "CST4"
-"CST1" -> "CST2"
-"CST1" -> "CST5"
-"CST1" -> "CST6"
-"CST11" -> "CST8"
-"CST11" -> "CST9L"
-"CST11" -> "CST2"
-"CST11" -> "CST4"
-"CST2" -> "CST4"
-"CST2" -> "CST5"
-"CST2" -> "CST1"
-"CST2" -> "CST11"
-"CST3" -> "CST6"
-"CST3" -> "CST4"
-"CST3" -> "CST1"
-"CST3" -> "CST5"
-"CST4" -> "CST1"
-"CST4" -> "CST2"
-"CST4" -> "CST5"
-"CST4" -> "CST6"
-"CST5" -> "CST2"
-"CST5" -> "CST4"
-"CST5" -> "CST1"
-"CST5" -> "CST6"
-"CST6" -> "CST4"
-"CST6" -> "CST5"
-"CST6" -> "CST1"
-"CST6" -> "CST2"
-"CST7" -> "CST6"
-"CST7" -> "CST11"
-"CST7" -> "CST5"
-"CST7" -> "CSTL1"
-"CST8" -> "CST11"
-"CST8" -> "CST4"
-"CST8" -> "CSTL1"
-"CST8" -> "CST2"
-"CST9L" -> "CST11"
-"CST9L" -> "CSTL1"
-"CST9L" -> "CST8"
-"CST9L" -> "LCN10"
-"CSTL1" -> "CST8"
-"CSTL1" -> "CST11"
-"CSTL1" -> "CST9L"
-"CSTL1" -> "CST7"
-"GKN1" -> "GKN2"
-"GKN1" -> "CAMP"
-"GKN1" -> "PIP"
-"GKN1" -> "CST4"
-"GKN2" -> "GKN1"
-"GKN2" -> "CAMP"
-"GKN2" -> "CST4"
-"GKN2" -> "CST5"
-"LCN10" -> "LCNL1"
-"LCN10" -> "CST9L"
-"LCN10" -> "CSTL1"
-"LCN10" -> "CST11"
-"LCNL1" -> "LCN10"
-"LCNL1" -> "CST9L"
-"LCNL1" -> "CST11"
-"LCNL1" -> "CSTL1"
-"PIP" -> "CST4"
-"PIP" -> "CST6"
-"PIP" -> "CAMP"
-"PIP" -> "CST8"
-"RARRES2" -> "CST4"
-"RARRES2" -> "CST6"
-"RARRES2" -> "CST1"
-"RARRES2" -> "CST3"
+"CAMP" -> "CST1" ["e"=1]
+"CAMP" -> "CST4" ["e"=1]
+"CAMP" -> "CST6" ["e"=1]
+"CAMP" -> "CST2" ["e"=1]
+"CST1" -> "CST4" ["e"=1]
+"CST1" -> "CST2" ["e"=1]
+"CST1" -> "CST5" ["e"=1]
+"CST1" -> "CST6" ["e"=1]
+"CST11" -> "CST8" ["e"=1]
+"CST11" -> "CST9L" ["e"=1]
+"CST11" -> "CST2" ["e"=1]
+"CST11" -> "CST4" ["e"=1]
+"CST2" -> "CST4" ["e"=1]
+"CST2" -> "CST5" ["e"=1]
+"CST2" -> "CST1" ["e"=1]
+"CST2" -> "CST11" ["e"=1]
+"CST3" -> "CST6" ["e"=1]
+"CST3" -> "CST4" ["e"=1]
+"CST3" -> "CST1" ["e"=1]
+"CST3" -> "CST5" ["e"=1]
+"CST4" -> "CST1" ["e"=1]
+"CST4" -> "CST2" ["e"=1]
+"CST4" -> "CST5" ["e"=1]
+"CST4" -> "CST6" ["e"=1]
+"CST5" -> "CST2" ["e"=1]
+"CST5" -> "CST4" ["e"=1]
+"CST5" -> "CST1" ["e"=1]
+"CST5" -> "CST6" ["e"=1]
+"CST6" -> "CST4" ["e"=1]
+"CST6" -> "CST5" ["e"=1]
+"CST6" -> "CST1" ["e"=1]
+"CST6" -> "CST2" ["e"=1]
+"CST7" -> "CST6" ["e"=1]
+"CST7" -> "CST11" ["e"=1]
+"CST7" -> "CST5" ["e"=1]
+"CST7" -> "CSTL1" ["e"=1]
+"CST8" -> "CST11" ["e"=1]
+"CST8" -> "CST4" ["e"=1]
+"CST8" -> "CSTL1" ["e"=1]
+"CST8" -> "CST2" ["e"=1]
+"CST9L" -> "CST11" ["e"=1]
+"CST9L" -> "CSTL1" ["e"=1]
+"CST9L" -> "CST8" ["e"=1]
+"CST9L" -> "LCN10" ["e"=1]
+"CSTL1" -> "CST8" ["e"=1]
+"CSTL1" -> "CST11" ["e"=1]
+"CSTL1" -> "CST9L" ["e"=1]
+"CSTL1" -> "CST7" ["e"=1]
+"GKN1" -> "GKN2" ["e"=1]
+"GKN1" -> "CAMP" ["e"=1]
+"GKN1" -> "PIP" ["e"=1]
+"GKN1" -> "CST4" ["e"=1]
+"GKN2" -> "GKN1" ["e"=1]
+"GKN2" -> "CAMP" ["e"=1]
+"GKN2" -> "CST4" ["e"=1]
+"GKN2" -> "CST5" ["e"=1]
+"LCN10" -> "LCNL1" ["e"=1]
+"LCN10" -> "CST9L" ["e"=1]
+"LCN10" -> "CSTL1" ["e"=1]
+"LCN10" -> "CST11" ["e"=1]
+"LCNL1" -> "LCN10" ["e"=1]
+"LCNL1" -> "CST9L" ["e"=1]
+"LCNL1" -> "CST11" ["e"=1]
+"LCNL1" -> "CSTL1" ["e"=1]
+"PIP" -> "CST4" ["e"=1]
+"PIP" -> "CST6" ["e"=1]
+"PIP" -> "CAMP" ["e"=1]
+"PIP" -> "CST8" ["e"=1]
+"RARRES2" -> "CST4" ["e"=1]
+"RARRES2" -> "CST6" ["e"=1]
+"RARRES2" -> "CST1" ["e"=1]
+"RARRES2" -> "CST3" ["e"=1]
 }

@@ -36,152 +36,152 @@ digraph G {
 "TEX37" ["l"="8.750,4.264"]
 "TEX45" ["l"="8.715,4.292"]
 "THEGL" ["l"="8.738,4.242"]
-"C11orf1" -> "C1orf100"
-"C11orf1" -> "C3orf84"
-"C11orf1" -> "C7orf31"
-"C11orf1" -> "FAM166C"
-"C1orf100" -> "C7orf31"
-"C1orf100" -> "TEX26"
-"C1orf100" -> "C3orf84"
-"C1orf100" -> "TEX45"
-"C20orf85" -> "FAM183A"
-"C20orf85" -> "C5orf49"
-"C20orf85" -> "C7orf57"
-"C20orf85" -> "SAXO2"
-"C22orf42" -> "FAM153A"
-"C22orf42" -> "NBPF3"
-"C22orf42" -> "DRICH1"
-"C22orf42" -> "NBPF6"
-"C3orf84" -> "C1orf100"
-"C3orf84" -> "TEX45"
-"C3orf84" -> "C11orf1"
-"C3orf84" -> "TEX37"
-"C4orf47" -> "SAXO2"
-"C4orf47" -> "PPP1R32"
-"C4orf47" -> "C7orf57"
-"C4orf47" -> "TEX26"
-"C5orf49" -> "FAM183A"
-"C5orf49" -> "C7orf57"
-"C5orf49" -> "TEX26"
-"C5orf49" -> "EFHB"
-"C7orf31" -> "C1orf100"
-"C7orf31" -> "C7orf57"
-"C7orf31" -> "SPATA48"
-"C7orf31" -> "TEX26"
-"C7orf57" -> "C7orf31"
-"C7orf57" -> "PPP1R32"
-"C7orf57" -> "TEX26"
-"C7orf57" -> "C5orf49"
-"CHGB" -> "DMP1"
-"CHGB" -> "HRC"
-"CHGB" -> "SEMG2"
-"CHGB" -> "ENAM"
-"CRNN" -> "RPTN"
-"CRNN" -> "SEMG2"
-"CRNN" -> "SEMG1"
-"CRNN" -> "FLG2"
-"DMP1" -> "CHGB"
-"DMP1" -> "HRC"
-"DMP1" -> "MARCOL"
-"DMP1" -> "SEMG2"
-"DRICH1" -> "C22orf42"
-"DRICH1" -> "NBPF3"
-"DRICH1" -> "FAM153A"
-"DRICH1" -> "NBPF6"
-"EFHB" -> "SAXO2"
-"EFHB" -> "C5orf49"
-"EFHB" -> "C7orf31"
-"EFHB" -> "C1orf100"
-"ENAM" -> "MARCOL"
-"ENAM" -> "FLG2"
-"ENAM" -> "NBPF6"
-"ENAM" -> "SAXO1"
-"FAM153A" -> "C22orf42"
-"FAM153A" -> "NBPF3"
-"FAM153A" -> "NBPF6"
-"FAM153A" -> "DRICH1"
-"FAM166C" -> "C7orf31"
-"FAM166C" -> "C1orf100"
-"FAM166C" -> "C11orf1"
-"FAM166C" -> "TEX26"
-"FAM183A" -> "C5orf49"
-"FAM183A" -> "C20orf85"
-"FAM183A" -> "TEX26"
-"FAM183A" -> "C7orf57"
-"FLG2" -> "HRNR"
-"FLG2" -> "MARCOL"
-"FLG2" -> "RPTN"
-"FLG2" -> "SEMG2"
-"HRC" -> "CHGB"
-"HRC" -> "DMP1"
-"HRC" -> "NBPF3"
-"HRC" -> "NBPF6"
-"HRNR" -> "FLG2"
-"HRNR" -> "RPTN"
-"HRNR" -> "MARCOL"
-"HRNR" -> "SBSN"
-"MARCOL" -> "SEMG2"
-"MARCOL" -> "FLG2"
-"MARCOL" -> "ENAM"
-"MARCOL" -> "RPTN"
-"NBPF3" -> "NBPF6"
-"NBPF3" -> "FAM153A"
-"NBPF3" -> "C22orf42"
-"NBPF3" -> "DRICH1"
-"NBPF6" -> "NBPF3"
-"NBPF6" -> "C22orf42"
-"NBPF6" -> "FAM153A"
-"NBPF6" -> "ENAM"
-"PPP1R32" -> "SAXO2"
-"PPP1R32" -> "TEX45"
-"PPP1R32" -> "TEX26"
-"PPP1R32" -> "C7orf57"
-"RPTN" -> "CRNN"
-"RPTN" -> "FLG2"
-"RPTN" -> "MARCOL"
-"RPTN" -> "SEMG2"
-"SAXO1" -> "SAXO2"
-"SAXO1" -> "C1orf100"
-"SAXO1" -> "TEX45"
-"SAXO1" -> "C7orf31"
-"SAXO2" -> "TEX26"
-"SAXO2" -> "PPP1R32"
-"SAXO2" -> "C1orf100"
-"SAXO2" -> "SAXO1"
-"SBSN" -> "SEMG2"
-"SBSN" -> "FLG2"
-"SBSN" -> "MARCOL"
-"SBSN" -> "RPTN"
-"SEMG1" -> "SEMG2"
-"SEMG1" -> "MARCOL"
-"SEMG1" -> "FLG2"
-"SEMG1" -> "CRNN"
-"SEMG2" -> "SEMG1"
-"SEMG2" -> "MARCOL"
-"SEMG2" -> "FLG2"
-"SEMG2" -> "RPTN"
-"SPAG8" -> "C7orf57"
-"SPAG8" -> "C1orf100"
-"SPAG8" -> "EFHB"
-"SPAG8" -> "C7orf31"
-"SPATA48" -> "C7orf31"
-"SPATA48" -> "C1orf100"
-"SPATA48" -> "PPP1R32"
-"SPATA48" -> "TEX26"
-"TEX26" -> "SAXO2"
-"TEX26" -> "C1orf100"
-"TEX26" -> "PPP1R32"
-"TEX26" -> "C7orf31"
-"TEX37" -> "C7orf31"
-"TEX37" -> "C3orf84"
-"TEX37" -> "FAM166C"
-"TEX37" -> "C11orf1"
-"TEX45" -> "C1orf100"
-"TEX45" -> "PPP1R32"
-"TEX45" -> "C3orf84"
-"TEX45" -> "SAXO1"
-"THEGL" -> "TEX45"
-"THEGL" -> "C1orf100"
-"THEGL" -> "SAXO1"
-"THEGL" -> "SAXO2"
+"C11orf1" -> "C1orf100" ["e"=1]
+"C11orf1" -> "C3orf84" ["e"=1]
+"C11orf1" -> "C7orf31" ["e"=1]
+"C11orf1" -> "FAM166C" ["e"=1]
+"C1orf100" -> "C7orf31" ["e"=1]
+"C1orf100" -> "TEX26" ["e"=1]
+"C1orf100" -> "C3orf84" ["e"=1]
+"C1orf100" -> "TEX45" ["e"=1]
+"C20orf85" -> "FAM183A" ["e"=1]
+"C20orf85" -> "C5orf49" ["e"=1]
+"C20orf85" -> "C7orf57" ["e"=1]
+"C20orf85" -> "SAXO2" ["e"=1]
+"C22orf42" -> "FAM153A" ["e"=1]
+"C22orf42" -> "NBPF3" ["e"=1]
+"C22orf42" -> "DRICH1" ["e"=1]
+"C22orf42" -> "NBPF6" ["e"=1]
+"C3orf84" -> "C1orf100" ["e"=1]
+"C3orf84" -> "TEX45" ["e"=1]
+"C3orf84" -> "C11orf1" ["e"=1]
+"C3orf84" -> "TEX37" ["e"=1]
+"C4orf47" -> "SAXO2" ["e"=1]
+"C4orf47" -> "PPP1R32" ["e"=1]
+"C4orf47" -> "C7orf57" ["e"=1]
+"C4orf47" -> "TEX26" ["e"=1]
+"C5orf49" -> "FAM183A" ["e"=1]
+"C5orf49" -> "C7orf57" ["e"=1]
+"C5orf49" -> "TEX26" ["e"=1]
+"C5orf49" -> "EFHB" ["e"=1]
+"C7orf31" -> "C1orf100" ["e"=1]
+"C7orf31" -> "C7orf57" ["e"=1]
+"C7orf31" -> "SPATA48" ["e"=1]
+"C7orf31" -> "TEX26" ["e"=1]
+"C7orf57" -> "C7orf31" ["e"=1]
+"C7orf57" -> "PPP1R32" ["e"=1]
+"C7orf57" -> "TEX26" ["e"=1]
+"C7orf57" -> "C5orf49" ["e"=1]
+"CHGB" -> "DMP1" ["e"=1]
+"CHGB" -> "HRC" ["e"=1]
+"CHGB" -> "SEMG2" ["e"=1]
+"CHGB" -> "ENAM" ["e"=1]
+"CRNN" -> "RPTN" ["e"=1]
+"CRNN" -> "SEMG2" ["e"=1]
+"CRNN" -> "SEMG1" ["e"=1]
+"CRNN" -> "FLG2" ["e"=1]
+"DMP1" -> "CHGB" ["e"=1]
+"DMP1" -> "HRC" ["e"=1]
+"DMP1" -> "MARCOL" ["e"=1]
+"DMP1" -> "SEMG2" ["e"=1]
+"DRICH1" -> "C22orf42" ["e"=1]
+"DRICH1" -> "NBPF3" ["e"=1]
+"DRICH1" -> "FAM153A" ["e"=1]
+"DRICH1" -> "NBPF6" ["e"=1]
+"EFHB" -> "SAXO2" ["e"=1]
+"EFHB" -> "C5orf49" ["e"=1]
+"EFHB" -> "C7orf31" ["e"=1]
+"EFHB" -> "C1orf100" ["e"=1]
+"ENAM" -> "MARCOL" ["e"=1]
+"ENAM" -> "FLG2" ["e"=1]
+"ENAM" -> "NBPF6" ["e"=1]
+"ENAM" -> "SAXO1" ["e"=1]
+"FAM153A" -> "C22orf42" ["e"=1]
+"FAM153A" -> "NBPF3" ["e"=1]
+"FAM153A" -> "NBPF6" ["e"=1]
+"FAM153A" -> "DRICH1" ["e"=1]
+"FAM166C" -> "C7orf31" ["e"=1]
+"FAM166C" -> "C1orf100" ["e"=1]
+"FAM166C" -> "C11orf1" ["e"=1]
+"FAM166C" -> "TEX26" ["e"=1]
+"FAM183A" -> "C5orf49" ["e"=1]
+"FAM183A" -> "C20orf85" ["e"=1]
+"FAM183A" -> "TEX26" ["e"=1]
+"FAM183A" -> "C7orf57" ["e"=1]
+"FLG2" -> "HRNR" ["e"=1]
+"FLG2" -> "MARCOL" ["e"=1]
+"FLG2" -> "RPTN" ["e"=1]
+"FLG2" -> "SEMG2" ["e"=1]
+"HRC" -> "CHGB" ["e"=1]
+"HRC" -> "DMP1" ["e"=1]
+"HRC" -> "NBPF3" ["e"=1]
+"HRC" -> "NBPF6" ["e"=1]
+"HRNR" -> "FLG2" ["e"=1]
+"HRNR" -> "RPTN" ["e"=1]
+"HRNR" -> "MARCOL" ["e"=1]
+"HRNR" -> "SBSN" ["e"=1]
+"MARCOL" -> "SEMG2" ["e"=1]
+"MARCOL" -> "FLG2" ["e"=1]
+"MARCOL" -> "ENAM" ["e"=1]
+"MARCOL" -> "RPTN" ["e"=1]
+"NBPF3" -> "NBPF6" ["e"=1]
+"NBPF3" -> "FAM153A" ["e"=1]
+"NBPF3" -> "C22orf42" ["e"=1]
+"NBPF3" -> "DRICH1" ["e"=1]
+"NBPF6" -> "NBPF3" ["e"=1]
+"NBPF6" -> "C22orf42" ["e"=1]
+"NBPF6" -> "FAM153A" ["e"=1]
+"NBPF6" -> "ENAM" ["e"=1]
+"PPP1R32" -> "SAXO2" ["e"=1]
+"PPP1R32" -> "TEX45" ["e"=1]
+"PPP1R32" -> "TEX26" ["e"=1]
+"PPP1R32" -> "C7orf57" ["e"=1]
+"RPTN" -> "CRNN" ["e"=1]
+"RPTN" -> "FLG2" ["e"=1]
+"RPTN" -> "MARCOL" ["e"=1]
+"RPTN" -> "SEMG2" ["e"=1]
+"SAXO1" -> "SAXO2" ["e"=1]
+"SAXO1" -> "C1orf100" ["e"=1]
+"SAXO1" -> "TEX45" ["e"=1]
+"SAXO1" -> "C7orf31" ["e"=1]
+"SAXO2" -> "TEX26" ["e"=1]
+"SAXO2" -> "PPP1R32" ["e"=1]
+"SAXO2" -> "C1orf100" ["e"=1]
+"SAXO2" -> "SAXO1" ["e"=1]
+"SBSN" -> "SEMG2" ["e"=1]
+"SBSN" -> "FLG2" ["e"=1]
+"SBSN" -> "MARCOL" ["e"=1]
+"SBSN" -> "RPTN" ["e"=1]
+"SEMG1" -> "SEMG2" ["e"=1]
+"SEMG1" -> "MARCOL" ["e"=1]
+"SEMG1" -> "FLG2" ["e"=1]
+"SEMG1" -> "CRNN" ["e"=1]
+"SEMG2" -> "SEMG1" ["e"=1]
+"SEMG2" -> "MARCOL" ["e"=1]
+"SEMG2" -> "FLG2" ["e"=1]
+"SEMG2" -> "RPTN" ["e"=1]
+"SPAG8" -> "C7orf57" ["e"=1]
+"SPAG8" -> "C1orf100" ["e"=1]
+"SPAG8" -> "EFHB" ["e"=1]
+"SPAG8" -> "C7orf31" ["e"=1]
+"SPATA48" -> "C7orf31" ["e"=1]
+"SPATA48" -> "C1orf100" ["e"=1]
+"SPATA48" -> "PPP1R32" ["e"=1]
+"SPATA48" -> "TEX26" ["e"=1]
+"TEX26" -> "SAXO2" ["e"=1]
+"TEX26" -> "C1orf100" ["e"=1]
+"TEX26" -> "PPP1R32" ["e"=1]
+"TEX26" -> "C7orf31" ["e"=1]
+"TEX37" -> "C7orf31" ["e"=1]
+"TEX37" -> "C3orf84" ["e"=1]
+"TEX37" -> "FAM166C" ["e"=1]
+"TEX37" -> "C11orf1" ["e"=1]
+"TEX45" -> "C1orf100" ["e"=1]
+"TEX45" -> "PPP1R32" ["e"=1]
+"TEX45" -> "C3orf84" ["e"=1]
+"TEX45" -> "SAXO1" ["e"=1]
+"THEGL" -> "TEX45" ["e"=1]
+"THEGL" -> "C1orf100" ["e"=1]
+"THEGL" -> "SAXO1" ["e"=1]
+"THEGL" -> "SAXO2" ["e"=1]
 }

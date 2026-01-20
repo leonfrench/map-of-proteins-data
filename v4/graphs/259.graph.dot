@@ -19,84 +19,84 @@ digraph G {
 "NDUFS5" ["l"="12.848,3.874"]
 "SDHAF3" ["l"="12.961,3.765"]
 "UQCC2" ["l"="13.059,3.759"]
-"CHCHD2" -> "NDUFA6"
-"CHCHD2" -> "COX6B1"
-"CHCHD2" -> "LYRM9"
-"CHCHD2" -> "UQCC2"
-"COX6B1" -> "NDUFS5"
-"COX6B1" -> "NDUFA6"
-"COX6B1" -> "NDUFA2"
-"COX6B1" -> "NDUFB7"
-"ETFRF1" -> "LYRM2"
-"ETFRF1" -> "SDHAF3"
-"ETFRF1" -> "LYRM9"
-"ETFRF1" -> "LYRM1"
-"FMC1" -> "SDHAF3"
-"FMC1" -> "UQCC2"
-"FMC1" -> "NDUFA6"
-"FMC1" -> "LYRM9"
-"LYRM1" -> "LYRM2"
-"LYRM1" -> "LYRM4"
-"LYRM1" -> "LYRM9"
-"LYRM1" -> "SDHAF3"
-"LYRM2" -> "LYRM9"
-"LYRM2" -> "LYRM7"
-"LYRM2" -> "SDHAF3"
-"LYRM2" -> "LYRM1"
-"LYRM4" -> "LYRM1"
-"LYRM4" -> "LYRM9"
-"LYRM4" -> "LYRM2"
-"LYRM4" -> "SDHAF3"
-"LYRM7" -> "LYRM2"
-"LYRM7" -> "SDHAF3"
-"LYRM7" -> "NDUFA5"
-"LYRM7" -> "LYRM4"
-"LYRM9" -> "LYRM2"
-"LYRM9" -> "SDHAF3"
-"LYRM9" -> "LYRM4"
-"LYRM9" -> "FMC1"
-"MRPL43" -> "MRPL53"
-"MRPL43" -> "FMC1"
-"MRPL43" -> "NDUFA2"
-"MRPL43" -> "NDUFA6"
-"MRPL53" -> "MRPL43"
-"MRPL53" -> "FMC1"
-"MRPL53" -> "NDUFA2"
-"MRPL53" -> "NDUFA6"
-"NDUFA2" -> "NDUFA6"
-"NDUFA2" -> "FMC1"
-"NDUFA2" -> "MRPL53"
-"NDUFA2" -> "LYRM9"
-"NDUFA5" -> "LYRM7"
-"NDUFA5" -> "SDHAF3"
-"NDUFA5" -> "NDUFA6"
-"NDUFA5" -> "LYRM2"
-"NDUFA6" -> "NDUFA2"
-"NDUFA6" -> "UQCC2"
-"NDUFA6" -> "FMC1"
-"NDUFA6" -> "SDHAF3"
-"NDUFB10" -> "NDUFB7"
-"NDUFB10" -> "NDUFS5"
-"NDUFB10" -> "NDUFB9"
-"NDUFB10" -> "COX6B1"
-"NDUFB7" -> "NDUFB10"
-"NDUFB7" -> "NDUFS5"
-"NDUFB7" -> "NDUFB9"
-"NDUFB7" -> "NDUFA6"
-"NDUFB9" -> "NDUFA6"
-"NDUFB9" -> "NDUFB7"
-"NDUFB9" -> "NDUFB10"
-"NDUFB9" -> "NDUFS5"
-"NDUFS5" -> "COX6B1"
-"NDUFS5" -> "NDUFB7"
-"NDUFS5" -> "NDUFB10"
-"NDUFS5" -> "NDUFB9"
-"SDHAF3" -> "FMC1"
-"SDHAF3" -> "LYRM2"
-"SDHAF3" -> "LYRM9"
-"SDHAF3" -> "LYRM7"
-"UQCC2" -> "NDUFA6"
-"UQCC2" -> "FMC1"
-"UQCC2" -> "SDHAF3"
-"UQCC2" -> "LYRM2"
+"CHCHD2" -> "NDUFA6" ["e"=1]
+"CHCHD2" -> "COX6B1" ["e"=1]
+"CHCHD2" -> "LYRM9" ["e"=1]
+"CHCHD2" -> "UQCC2" ["e"=1]
+"COX6B1" -> "NDUFS5" ["e"=1]
+"COX6B1" -> "NDUFA6" ["e"=1]
+"COX6B1" -> "NDUFA2" ["e"=1]
+"COX6B1" -> "NDUFB7" ["e"=1]
+"ETFRF1" -> "LYRM2" ["e"=1]
+"ETFRF1" -> "SDHAF3" ["e"=1]
+"ETFRF1" -> "LYRM9" ["e"=1]
+"ETFRF1" -> "LYRM1" ["e"=1]
+"FMC1" -> "SDHAF3" ["e"=1]
+"FMC1" -> "UQCC2" ["e"=1]
+"FMC1" -> "NDUFA6" ["e"=1]
+"FMC1" -> "LYRM9" ["e"=1]
+"LYRM1" -> "LYRM2" ["e"=1]
+"LYRM1" -> "LYRM4" ["e"=1]
+"LYRM1" -> "LYRM9" ["e"=1]
+"LYRM1" -> "SDHAF3" ["e"=1]
+"LYRM2" -> "LYRM9" ["e"=1]
+"LYRM2" -> "LYRM7" ["e"=1]
+"LYRM2" -> "SDHAF3" ["e"=1]
+"LYRM2" -> "LYRM1" ["e"=1]
+"LYRM4" -> "LYRM1" ["e"=1]
+"LYRM4" -> "LYRM9" ["e"=1]
+"LYRM4" -> "LYRM2" ["e"=1]
+"LYRM4" -> "SDHAF3" ["e"=1]
+"LYRM7" -> "LYRM2" ["e"=1]
+"LYRM7" -> "SDHAF3" ["e"=1]
+"LYRM7" -> "NDUFA5" ["e"=1]
+"LYRM7" -> "LYRM4" ["e"=1]
+"LYRM9" -> "LYRM2" ["e"=1]
+"LYRM9" -> "SDHAF3" ["e"=1]
+"LYRM9" -> "LYRM4" ["e"=1]
+"LYRM9" -> "FMC1" ["e"=1]
+"MRPL43" -> "MRPL53" ["e"=1]
+"MRPL43" -> "FMC1" ["e"=1]
+"MRPL43" -> "NDUFA2" ["e"=1]
+"MRPL43" -> "NDUFA6" ["e"=1]
+"MRPL53" -> "MRPL43" ["e"=1]
+"MRPL53" -> "FMC1" ["e"=1]
+"MRPL53" -> "NDUFA2" ["e"=1]
+"MRPL53" -> "NDUFA6" ["e"=1]
+"NDUFA2" -> "NDUFA6" ["e"=1]
+"NDUFA2" -> "FMC1" ["e"=1]
+"NDUFA2" -> "MRPL53" ["e"=1]
+"NDUFA2" -> "LYRM9" ["e"=1]
+"NDUFA5" -> "LYRM7" ["e"=1]
+"NDUFA5" -> "SDHAF3" ["e"=1]
+"NDUFA5" -> "NDUFA6" ["e"=1]
+"NDUFA5" -> "LYRM2" ["e"=1]
+"NDUFA6" -> "NDUFA2" ["e"=1]
+"NDUFA6" -> "UQCC2" ["e"=1]
+"NDUFA6" -> "FMC1" ["e"=1]
+"NDUFA6" -> "SDHAF3" ["e"=1]
+"NDUFB10" -> "NDUFB7" ["e"=1]
+"NDUFB10" -> "NDUFS5" ["e"=1]
+"NDUFB10" -> "NDUFB9" ["e"=1]
+"NDUFB10" -> "COX6B1" ["e"=1]
+"NDUFB7" -> "NDUFB10" ["e"=1]
+"NDUFB7" -> "NDUFS5" ["e"=1]
+"NDUFB7" -> "NDUFB9" ["e"=1]
+"NDUFB7" -> "NDUFA6" ["e"=1]
+"NDUFB9" -> "NDUFA6" ["e"=1]
+"NDUFB9" -> "NDUFB7" ["e"=1]
+"NDUFB9" -> "NDUFB10" ["e"=1]
+"NDUFB9" -> "NDUFS5" ["e"=1]
+"NDUFS5" -> "COX6B1" ["e"=1]
+"NDUFS5" -> "NDUFB7" ["e"=1]
+"NDUFS5" -> "NDUFB10" ["e"=1]
+"NDUFS5" -> "NDUFB9" ["e"=1]
+"SDHAF3" -> "FMC1" ["e"=1]
+"SDHAF3" -> "LYRM2" ["e"=1]
+"SDHAF3" -> "LYRM9" ["e"=1]
+"SDHAF3" -> "LYRM7" ["e"=1]
+"UQCC2" -> "NDUFA6" ["e"=1]
+"UQCC2" -> "FMC1" ["e"=1]
+"UQCC2" -> "SDHAF3" ["e"=1]
+"UQCC2" -> "LYRM2" ["e"=1]
 }

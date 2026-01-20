@@ -33,140 +33,140 @@ digraph G {
 "ATP9A" ["l"="11.449,-3.455"]
 "ATP9B" ["l"="11.459,-3.473"]
 "TMEM94" ["l"="11.313,-3.249"]
-"ATP10A" -> "ATP10B"
-"ATP10A" -> "ATP10D"
-"ATP10A" -> "ATP11A"
-"ATP10A" -> "ATP8B2"
-"ATP10B" -> "ATP10D"
-"ATP10B" -> "ATP10A"
-"ATP10B" -> "ATP13A4"
-"ATP10B" -> "ATP8B1"
-"ATP10D" -> "ATP10B"
-"ATP10D" -> "ATP10A"
-"ATP10D" -> "ATP13A5"
-"ATP10D" -> "ATP11B"
-"ATP11A" -> "ATP8B2"
-"ATP11A" -> "ATP9A"
-"ATP11A" -> "ATP9B"
-"ATP11A" -> "ATP10A"
-"ATP11B" -> "ATP9B"
-"ATP11B" -> "ATP11A"
-"ATP11B" -> "ATP8B4"
-"ATP11B" -> "ATP13A3"
-"ATP12A" -> "ATP1A4"
-"ATP12A" -> "ATP4A"
-"ATP12A" -> "ATP1A2"
-"ATP12A" -> "ATP1A1"
-"ATP13A1" -> "ATP8B3"
-"ATP13A1" -> "ATP13A2"
-"ATP13A1" -> "ATP2A3"
-"ATP13A1" -> "ATP8B2"
-"ATP13A2" -> "ATP13A1"
-"ATP13A2" -> "ATP8B2"
-"ATP13A2" -> "ATP8B3"
-"ATP13A2" -> "ATP9A"
-"ATP13A3" -> "ATP13A4"
-"ATP13A3" -> "ATP8B4"
-"ATP13A3" -> "ATP13A5"
-"ATP13A3" -> "ATP11B"
-"ATP13A4" -> "ATP13A5"
-"ATP13A4" -> "ATP13A3"
-"ATP13A4" -> "ATP11A"
-"ATP13A4" -> "ATP2C2"
-"ATP13A5" -> "ATP13A4"
-"ATP13A5" -> "ATP8B3"
-"ATP13A5" -> "ATP13A3"
-"ATP13A5" -> "ATP10D"
-"ATP1A1" -> "ATP4A"
-"ATP1A1" -> "ATP1A4"
-"ATP1A1" -> "ATP12A"
-"ATP1A1" -> "ATP1A3"
-"ATP1A2" -> "ATP4A"
-"ATP1A2" -> "ATP1A4"
-"ATP1A2" -> "ATP2A1"
-"ATP1A2" -> "ATP2B2"
-"ATP1A3" -> "ATP2A1"
-"ATP1A3" -> "ATP1A4"
-"ATP1A3" -> "ATP1A2"
-"ATP1A3" -> "ATP4A"
-"ATP1A4" -> "ATP12A"
-"ATP1A4" -> "ATP4A"
-"ATP1A4" -> "ATP1A2"
-"ATP1A4" -> "ATP2A3"
-"ATP2A1" -> "ATP4A"
-"ATP2A1" -> "ATP2A3"
-"ATP2A1" -> "ATP1A2"
-"ATP2A1" -> "ATP1A4"
-"ATP2A2" -> "ATP4A"
-"ATP2A2" -> "ATP2C1"
-"ATP2A2" -> "ATP1A4"
-"ATP2A2" -> "ATP2A3"
-"ATP2A3" -> "ATP2A1"
-"ATP2A3" -> "ATP4A"
-"ATP2A3" -> "ATP1A4"
-"ATP2A3" -> "ATP1A2"
-"ATP2B1" -> "ATP2B2"
-"ATP2B1" -> "ATP2B4"
-"ATP2B1" -> "ATP8A2"
-"ATP2B1" -> "ATP8A1"
-"ATP2B2" -> "ATP2B1"
-"ATP2B2" -> "ATP2B4"
-"ATP2B2" -> "ATP1A2"
-"ATP2B2" -> "ATP1A4"
-"ATP2B4" -> "ATP2B2"
-"ATP2B4" -> "ATP2B1"
-"ATP2B4" -> "ATP1A2"
-"ATP2B4" -> "ATP1A4"
-"ATP2C1" -> "ATP2A2"
-"ATP2C1" -> "ATP7B"
-"ATP2C1" -> "ATP2C2"
-"ATP2C1" -> "ATP13A4"
-"ATP2C2" -> "ATP13A4"
-"ATP2C2" -> "ATP13A5"
-"ATP2C2" -> "ATP2C1"
-"ATP2C2" -> "ATP11A"
-"ATP4A" -> "ATP2A1"
-"ATP4A" -> "ATP1A1"
-"ATP4A" -> "ATP12A"
-"ATP4A" -> "ATP1A4"
-"ATP7B" -> "ATP2C1"
-"ATP7B" -> "ATP13A4"
-"ATP7B" -> "ATP2C2"
-"ATP7B" -> "ATP2A2"
-"ATP8A1" -> "ATP8A2"
-"ATP8A1" -> "ATP9A"
-"ATP8A1" -> "ATP11A"
-"ATP8A1" -> "ATP8B4"
-"ATP8A2" -> "ATP8A1"
-"ATP8A2" -> "ATP8B2"
-"ATP8A2" -> "ATP9A"
-"ATP8A2" -> "ATP11A"
-"ATP8B1" -> "ATP9A"
-"ATP8B1" -> "ATP8B4"
-"ATP8B1" -> "ATP8B2"
-"ATP8B1" -> "ATP11A"
-"ATP8B2" -> "ATP8A2"
-"ATP8B2" -> "ATP8B4"
-"ATP8B2" -> "ATP8B3"
-"ATP8B2" -> "ATP11A"
-"ATP8B3" -> "ATP8B2"
-"ATP8B3" -> "ATP13A5"
-"ATP8B3" -> "ATP13A1"
-"ATP8B3" -> "ATP9A"
-"ATP8B4" -> "ATP8B2"
-"ATP8B4" -> "ATP9B"
-"ATP8B4" -> "ATP11A"
-"ATP8B4" -> "ATP8B1"
-"ATP9A" -> "ATP8A2"
-"ATP9A" -> "ATP11A"
-"ATP9A" -> "ATP8B2"
-"ATP9A" -> "ATP8B1"
-"ATP9B" -> "ATP11A"
-"ATP9B" -> "ATP8B4"
-"ATP9B" -> "ATP11B"
-"ATP9B" -> "ATP9A"
-"TMEM94" -> "ATP13A2"
-"TMEM94" -> "ATP13A4"
-"TMEM94" -> "ATP13A5"
-"TMEM94" -> "ATP13A1"
+"ATP10A" -> "ATP10B" ["e"=1]
+"ATP10A" -> "ATP10D" ["e"=1]
+"ATP10A" -> "ATP11A" ["e"=1]
+"ATP10A" -> "ATP8B2" ["e"=1]
+"ATP10B" -> "ATP10D" ["e"=1]
+"ATP10B" -> "ATP10A" ["e"=1]
+"ATP10B" -> "ATP13A4" ["e"=1]
+"ATP10B" -> "ATP8B1" ["e"=1]
+"ATP10D" -> "ATP10B" ["e"=1]
+"ATP10D" -> "ATP10A" ["e"=1]
+"ATP10D" -> "ATP13A5" ["e"=1]
+"ATP10D" -> "ATP11B" ["e"=1]
+"ATP11A" -> "ATP8B2" ["e"=1]
+"ATP11A" -> "ATP9A" ["e"=1]
+"ATP11A" -> "ATP9B" ["e"=1]
+"ATP11A" -> "ATP10A" ["e"=1]
+"ATP11B" -> "ATP9B" ["e"=1]
+"ATP11B" -> "ATP11A" ["e"=1]
+"ATP11B" -> "ATP8B4" ["e"=1]
+"ATP11B" -> "ATP13A3" ["e"=1]
+"ATP12A" -> "ATP1A4" ["e"=1]
+"ATP12A" -> "ATP4A" ["e"=1]
+"ATP12A" -> "ATP1A2" ["e"=1]
+"ATP12A" -> "ATP1A1" ["e"=1]
+"ATP13A1" -> "ATP8B3" ["e"=1]
+"ATP13A1" -> "ATP13A2" ["e"=1]
+"ATP13A1" -> "ATP2A3" ["e"=1]
+"ATP13A1" -> "ATP8B2" ["e"=1]
+"ATP13A2" -> "ATP13A1" ["e"=1]
+"ATP13A2" -> "ATP8B2" ["e"=1]
+"ATP13A2" -> "ATP8B3" ["e"=1]
+"ATP13A2" -> "ATP9A" ["e"=1]
+"ATP13A3" -> "ATP13A4" ["e"=1]
+"ATP13A3" -> "ATP8B4" ["e"=1]
+"ATP13A3" -> "ATP13A5" ["e"=1]
+"ATP13A3" -> "ATP11B" ["e"=1]
+"ATP13A4" -> "ATP13A5" ["e"=1]
+"ATP13A4" -> "ATP13A3" ["e"=1]
+"ATP13A4" -> "ATP11A" ["e"=1]
+"ATP13A4" -> "ATP2C2" ["e"=1]
+"ATP13A5" -> "ATP13A4" ["e"=1]
+"ATP13A5" -> "ATP8B3" ["e"=1]
+"ATP13A5" -> "ATP13A3" ["e"=1]
+"ATP13A5" -> "ATP10D" ["e"=1]
+"ATP1A1" -> "ATP4A" ["e"=1]
+"ATP1A1" -> "ATP1A4" ["e"=1]
+"ATP1A1" -> "ATP12A" ["e"=1]
+"ATP1A1" -> "ATP1A3" ["e"=1]
+"ATP1A2" -> "ATP4A" ["e"=1]
+"ATP1A2" -> "ATP1A4" ["e"=1]
+"ATP1A2" -> "ATP2A1" ["e"=1]
+"ATP1A2" -> "ATP2B2" ["e"=1]
+"ATP1A3" -> "ATP2A1" ["e"=1]
+"ATP1A3" -> "ATP1A4" ["e"=1]
+"ATP1A3" -> "ATP1A2" ["e"=1]
+"ATP1A3" -> "ATP4A" ["e"=1]
+"ATP1A4" -> "ATP12A" ["e"=1]
+"ATP1A4" -> "ATP4A" ["e"=1]
+"ATP1A4" -> "ATP1A2" ["e"=1]
+"ATP1A4" -> "ATP2A3" ["e"=1]
+"ATP2A1" -> "ATP4A" ["e"=1]
+"ATP2A1" -> "ATP2A3" ["e"=1]
+"ATP2A1" -> "ATP1A2" ["e"=1]
+"ATP2A1" -> "ATP1A4" ["e"=1]
+"ATP2A2" -> "ATP4A" ["e"=1]
+"ATP2A2" -> "ATP2C1" ["e"=1]
+"ATP2A2" -> "ATP1A4" ["e"=1]
+"ATP2A2" -> "ATP2A3" ["e"=1]
+"ATP2A3" -> "ATP2A1" ["e"=1]
+"ATP2A3" -> "ATP4A" ["e"=1]
+"ATP2A3" -> "ATP1A4" ["e"=1]
+"ATP2A3" -> "ATP1A2" ["e"=1]
+"ATP2B1" -> "ATP2B2" ["e"=1]
+"ATP2B1" -> "ATP2B4" ["e"=1]
+"ATP2B1" -> "ATP8A2" ["e"=1]
+"ATP2B1" -> "ATP8A1" ["e"=1]
+"ATP2B2" -> "ATP2B1" ["e"=1]
+"ATP2B2" -> "ATP2B4" ["e"=1]
+"ATP2B2" -> "ATP1A2" ["e"=1]
+"ATP2B2" -> "ATP1A4" ["e"=1]
+"ATP2B4" -> "ATP2B2" ["e"=1]
+"ATP2B4" -> "ATP2B1" ["e"=1]
+"ATP2B4" -> "ATP1A2" ["e"=1]
+"ATP2B4" -> "ATP1A4" ["e"=1]
+"ATP2C1" -> "ATP2A2" ["e"=1]
+"ATP2C1" -> "ATP7B" ["e"=1]
+"ATP2C1" -> "ATP2C2" ["e"=1]
+"ATP2C1" -> "ATP13A4" ["e"=1]
+"ATP2C2" -> "ATP13A4" ["e"=1]
+"ATP2C2" -> "ATP13A5" ["e"=1]
+"ATP2C2" -> "ATP2C1" ["e"=1]
+"ATP2C2" -> "ATP11A" ["e"=1]
+"ATP4A" -> "ATP2A1" ["e"=1]
+"ATP4A" -> "ATP1A1" ["e"=1]
+"ATP4A" -> "ATP12A" ["e"=1]
+"ATP4A" -> "ATP1A4" ["e"=1]
+"ATP7B" -> "ATP2C1" ["e"=1]
+"ATP7B" -> "ATP13A4" ["e"=1]
+"ATP7B" -> "ATP2C2" ["e"=1]
+"ATP7B" -> "ATP2A2" ["e"=1]
+"ATP8A1" -> "ATP8A2" ["e"=1]
+"ATP8A1" -> "ATP9A" ["e"=1]
+"ATP8A1" -> "ATP11A" ["e"=1]
+"ATP8A1" -> "ATP8B4" ["e"=1]
+"ATP8A2" -> "ATP8A1" ["e"=1]
+"ATP8A2" -> "ATP8B2" ["e"=1]
+"ATP8A2" -> "ATP9A" ["e"=1]
+"ATP8A2" -> "ATP11A" ["e"=1]
+"ATP8B1" -> "ATP9A" ["e"=1]
+"ATP8B1" -> "ATP8B4" ["e"=1]
+"ATP8B1" -> "ATP8B2" ["e"=1]
+"ATP8B1" -> "ATP11A" ["e"=1]
+"ATP8B2" -> "ATP8A2" ["e"=1]
+"ATP8B2" -> "ATP8B4" ["e"=1]
+"ATP8B2" -> "ATP8B3" ["e"=1]
+"ATP8B2" -> "ATP11A" ["e"=1]
+"ATP8B3" -> "ATP8B2" ["e"=1]
+"ATP8B3" -> "ATP13A5" ["e"=1]
+"ATP8B3" -> "ATP13A1" ["e"=1]
+"ATP8B3" -> "ATP9A" ["e"=1]
+"ATP8B4" -> "ATP8B2" ["e"=1]
+"ATP8B4" -> "ATP9B" ["e"=1]
+"ATP8B4" -> "ATP11A" ["e"=1]
+"ATP8B4" -> "ATP8B1" ["e"=1]
+"ATP9A" -> "ATP8A2" ["e"=1]
+"ATP9A" -> "ATP11A" ["e"=1]
+"ATP9A" -> "ATP8B2" ["e"=1]
+"ATP9A" -> "ATP8B1" ["e"=1]
+"ATP9B" -> "ATP11A" ["e"=1]
+"ATP9B" -> "ATP8B4" ["e"=1]
+"ATP9B" -> "ATP11B" ["e"=1]
+"ATP9B" -> "ATP9A" ["e"=1]
+"TMEM94" -> "ATP13A2" ["e"=1]
+"TMEM94" -> "ATP13A4" ["e"=1]
+"TMEM94" -> "ATP13A5" ["e"=1]
+"TMEM94" -> "ATP13A1" ["e"=1]
 }

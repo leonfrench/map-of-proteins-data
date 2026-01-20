@@ -27,116 +27,116 @@ digraph G {
 "UFSP2" ["l"="11.311,1.553"]
 "UPF1" ["l"="11.171,1.567"]
 "USP14" ["l"="11.296,1.566"]
-"ARRB1" -> "THOC5"
-"ARRB1" -> "ERCC3"
-"ARRB1" -> "GTPBP1"
-"ARRB1" -> "USP14"
-"ATG4C" -> "GSTCD"
-"ATG4C" -> "UFSP2"
-"ATG4C" -> "TDP1"
-"ATG4C" -> "PARN"
-"CMTR1" -> "TDP1"
-"CMTR1" -> "ERCC3"
-"CMTR1" -> "PARP2"
-"CMTR1" -> "NEK9"
-"DDX11" -> "ERCC3"
-"DDX11" -> "RECQL4"
-"DDX11" -> "GTPBP1"
-"DDX11" -> "THOC5"
-"DDX42" -> "DHX9"
-"DDX42" -> "GTPBP1"
-"DDX42" -> "ERCC3"
-"DDX42" -> "UPF1"
-"DDX59" -> "SMARCAL1"
-"DDX59" -> "GSTCD"
-"DDX59" -> "DHX40"
-"DDX59" -> "ERCC3"
-"DHX40" -> "ERCC3"
-"DHX40" -> "NEK9"
-"DHX40" -> "GTPBP1"
-"DHX40" -> "GSTCD"
-"DHX9" -> "DDX42"
-"DHX9" -> "DHX40"
-"DHX9" -> "ERCC3"
-"DHX9" -> "UPF1"
-"ERCC3" -> "DHX40"
-"ERCC3" -> "UPF1"
-"ERCC3" -> "GTPBP1"
-"ERCC3" -> "POLR3C"
-"EXOSC10" -> "ERCC3"
-"EXOSC10" -> "DDX42"
-"EXOSC10" -> "PARN"
-"EXOSC10" -> "DHX40"
-"GSTCD" -> "UFSP2"
-"GSTCD" -> "TBCCD1"
-"GSTCD" -> "PARN"
-"GSTCD" -> "NEK9"
-"GTPBP1" -> "UPF1"
-"GTPBP1" -> "ERCC3"
-"GTPBP1" -> "DDX42"
-"GTPBP1" -> "NEK9"
-"KATNA1" -> "KATNAL1"
-"KATNA1" -> "DHX40"
-"KATNA1" -> "POLR3C"
-"KATNA1" -> "ERCC3"
-"KATNAL1" -> "KATNA1"
-"KATNAL1" -> "GSTCD"
-"KATNAL1" -> "NEK9"
-"KATNAL1" -> "DHX40"
-"KCTD3" -> "NEK9"
-"KCTD3" -> "GTPBP1"
-"KCTD3" -> "GSTCD"
-"KCTD3" -> "DHX40"
-"LIG1" -> "CMTR1"
-"LIG1" -> "DDX11"
-"LIG1" -> "RECQL4"
-"LIG1" -> "PARP2"
-"NEK9" -> "KCTD3"
-"NEK9" -> "GTPBP1"
-"NEK9" -> "ERCC3"
-"NEK9" -> "DHX40"
-"PARN" -> "USP14"
-"PARN" -> "THOC5"
-"PARN" -> "GSTCD"
-"PARN" -> "NEK9"
-"PARP2" -> "CMTR1"
-"PARP2" -> "ERCC3"
-"PARP2" -> "TDP1"
-"PARP2" -> "THOC5"
-"POLR3C" -> "ERCC3"
-"POLR3C" -> "THOC5"
-"POLR3C" -> "PARN"
-"POLR3C" -> "DHX40"
-"RECQL4" -> "DDX11"
-"RECQL4" -> "LIG1"
-"RECQL4" -> "SMARCAL1"
-"RECQL4" -> "GTPBP1"
-"SMARCAL1" -> "TDP1"
-"SMARCAL1" -> "DDX59"
-"SMARCAL1" -> "GSTCD"
-"SMARCAL1" -> "DHX40"
-"TBCCD1" -> "THOC5"
-"TBCCD1" -> "GSTCD"
-"TBCCD1" -> "UFSP2"
-"TBCCD1" -> "TDP1"
-"TDP1" -> "SMARCAL1"
-"TDP1" -> "CMTR1"
-"TDP1" -> "PARN"
-"TDP1" -> "ERCC3"
-"THOC5" -> "TBCCD1"
-"THOC5" -> "PARN"
-"THOC5" -> "POLR3C"
-"THOC5" -> "GTPBP1"
-"UFSP2" -> "GSTCD"
-"UFSP2" -> "ATG4C"
-"UFSP2" -> "TBCCD1"
-"UFSP2" -> "TDP1"
-"UPF1" -> "GTPBP1"
-"UPF1" -> "ERCC3"
-"UPF1" -> "DDX42"
-"UPF1" -> "DHX40"
-"USP14" -> "PARN"
-"USP14" -> "KATNAL1"
-"USP14" -> "ATG4C"
-"USP14" -> "GSTCD"
+"ARRB1" -> "THOC5" ["e"=1]
+"ARRB1" -> "ERCC3" ["e"=1]
+"ARRB1" -> "GTPBP1" ["e"=1]
+"ARRB1" -> "USP14" ["e"=1]
+"ATG4C" -> "GSTCD" ["e"=1]
+"ATG4C" -> "UFSP2" ["e"=1]
+"ATG4C" -> "TDP1" ["e"=1]
+"ATG4C" -> "PARN" ["e"=1]
+"CMTR1" -> "TDP1" ["e"=1]
+"CMTR1" -> "ERCC3" ["e"=1]
+"CMTR1" -> "PARP2" ["e"=1]
+"CMTR1" -> "NEK9" ["e"=1]
+"DDX11" -> "ERCC3" ["e"=1]
+"DDX11" -> "RECQL4" ["e"=1]
+"DDX11" -> "GTPBP1" ["e"=1]
+"DDX11" -> "THOC5" ["e"=1]
+"DDX42" -> "DHX9" ["e"=1]
+"DDX42" -> "GTPBP1" ["e"=1]
+"DDX42" -> "ERCC3" ["e"=1]
+"DDX42" -> "UPF1" ["e"=1]
+"DDX59" -> "SMARCAL1" ["e"=1]
+"DDX59" -> "GSTCD" ["e"=1]
+"DDX59" -> "DHX40" ["e"=1]
+"DDX59" -> "ERCC3" ["e"=1]
+"DHX40" -> "ERCC3" ["e"=1]
+"DHX40" -> "NEK9" ["e"=1]
+"DHX40" -> "GTPBP1" ["e"=1]
+"DHX40" -> "GSTCD" ["e"=1]
+"DHX9" -> "DDX42" ["e"=1]
+"DHX9" -> "DHX40" ["e"=1]
+"DHX9" -> "ERCC3" ["e"=1]
+"DHX9" -> "UPF1" ["e"=1]
+"ERCC3" -> "DHX40" ["e"=1]
+"ERCC3" -> "UPF1" ["e"=1]
+"ERCC3" -> "GTPBP1" ["e"=1]
+"ERCC3" -> "POLR3C" ["e"=1]
+"EXOSC10" -> "ERCC3" ["e"=1]
+"EXOSC10" -> "DDX42" ["e"=1]
+"EXOSC10" -> "PARN" ["e"=1]
+"EXOSC10" -> "DHX40" ["e"=1]
+"GSTCD" -> "UFSP2" ["e"=1]
+"GSTCD" -> "TBCCD1" ["e"=1]
+"GSTCD" -> "PARN" ["e"=1]
+"GSTCD" -> "NEK9" ["e"=1]
+"GTPBP1" -> "UPF1" ["e"=1]
+"GTPBP1" -> "ERCC3" ["e"=1]
+"GTPBP1" -> "DDX42" ["e"=1]
+"GTPBP1" -> "NEK9" ["e"=1]
+"KATNA1" -> "KATNAL1" ["e"=1]
+"KATNA1" -> "DHX40" ["e"=1]
+"KATNA1" -> "POLR3C" ["e"=1]
+"KATNA1" -> "ERCC3" ["e"=1]
+"KATNAL1" -> "KATNA1" ["e"=1]
+"KATNAL1" -> "GSTCD" ["e"=1]
+"KATNAL1" -> "NEK9" ["e"=1]
+"KATNAL1" -> "DHX40" ["e"=1]
+"KCTD3" -> "NEK9" ["e"=1]
+"KCTD3" -> "GTPBP1" ["e"=1]
+"KCTD3" -> "GSTCD" ["e"=1]
+"KCTD3" -> "DHX40" ["e"=1]
+"LIG1" -> "CMTR1" ["e"=1]
+"LIG1" -> "DDX11" ["e"=1]
+"LIG1" -> "RECQL4" ["e"=1]
+"LIG1" -> "PARP2" ["e"=1]
+"NEK9" -> "KCTD3" ["e"=1]
+"NEK9" -> "GTPBP1" ["e"=1]
+"NEK9" -> "ERCC3" ["e"=1]
+"NEK9" -> "DHX40" ["e"=1]
+"PARN" -> "USP14" ["e"=1]
+"PARN" -> "THOC5" ["e"=1]
+"PARN" -> "GSTCD" ["e"=1]
+"PARN" -> "NEK9" ["e"=1]
+"PARP2" -> "CMTR1" ["e"=1]
+"PARP2" -> "ERCC3" ["e"=1]
+"PARP2" -> "TDP1" ["e"=1]
+"PARP2" -> "THOC5" ["e"=1]
+"POLR3C" -> "ERCC3" ["e"=1]
+"POLR3C" -> "THOC5" ["e"=1]
+"POLR3C" -> "PARN" ["e"=1]
+"POLR3C" -> "DHX40" ["e"=1]
+"RECQL4" -> "DDX11" ["e"=1]
+"RECQL4" -> "LIG1" ["e"=1]
+"RECQL4" -> "SMARCAL1" ["e"=1]
+"RECQL4" -> "GTPBP1" ["e"=1]
+"SMARCAL1" -> "TDP1" ["e"=1]
+"SMARCAL1" -> "DDX59" ["e"=1]
+"SMARCAL1" -> "GSTCD" ["e"=1]
+"SMARCAL1" -> "DHX40" ["e"=1]
+"TBCCD1" -> "THOC5" ["e"=1]
+"TBCCD1" -> "GSTCD" ["e"=1]
+"TBCCD1" -> "UFSP2" ["e"=1]
+"TBCCD1" -> "TDP1" ["e"=1]
+"TDP1" -> "SMARCAL1" ["e"=1]
+"TDP1" -> "CMTR1" ["e"=1]
+"TDP1" -> "PARN" ["e"=1]
+"TDP1" -> "ERCC3" ["e"=1]
+"THOC5" -> "TBCCD1" ["e"=1]
+"THOC5" -> "PARN" ["e"=1]
+"THOC5" -> "POLR3C" ["e"=1]
+"THOC5" -> "GTPBP1" ["e"=1]
+"UFSP2" -> "GSTCD" ["e"=1]
+"UFSP2" -> "ATG4C" ["e"=1]
+"UFSP2" -> "TBCCD1" ["e"=1]
+"UFSP2" -> "TDP1" ["e"=1]
+"UPF1" -> "GTPBP1" ["e"=1]
+"UPF1" -> "ERCC3" ["e"=1]
+"UPF1" -> "DDX42" ["e"=1]
+"UPF1" -> "DHX40" ["e"=1]
+"USP14" -> "PARN" ["e"=1]
+"USP14" -> "KATNAL1" ["e"=1]
+"USP14" -> "ATG4C" ["e"=1]
+"USP14" -> "GSTCD" ["e"=1]
 }

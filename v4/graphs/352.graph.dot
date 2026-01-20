@@ -22,96 +22,96 @@ digraph G {
 "SPIRE2" ["l"="9.291,1.402"]
 "USP43" ["l"="9.285,1.349"]
 "WHRN" ["l"="9.240,1.362"]
-"AHI1" -> "ARHGEF26"
-"AHI1" -> "SPATA1"
-"AHI1" -> "FBXW10"
-"AHI1" -> "PSD4"
-"AMBRA1" -> "DCAF6"
-"AMBRA1" -> "B4GALNT3"
-"AMBRA1" -> "FAM169A"
-"AMBRA1" -> "NOS1AP"
-"ANKUB1" -> "FBXW10"
-"ANKUB1" -> "SPATA1"
-"ANKUB1" -> "CEP78"
-"ANKUB1" -> "USP43"
-"ARHGAP39" -> "B4GALNT3"
-"ARHGAP39" -> "PSD4"
-"ARHGAP39" -> "ARHGEF26"
-"ARHGAP39" -> "KIAA1755"
-"ARHGEF26" -> "PSD4"
-"ARHGEF26" -> "ARHGAP39"
-"ARHGEF26" -> "NOS1AP"
-"ARHGEF26" -> "KIAA1755"
-"B4GALNT3" -> "SPIRE2"
-"B4GALNT3" -> "KIAA1755"
-"B4GALNT3" -> "ARHGAP39"
-"B4GALNT3" -> "NOS1AP"
-"CEP78" -> "SPIRE2"
-"CEP78" -> "SPATA1"
-"CEP78" -> "FAM169A"
-"CEP78" -> "USP43"
-"DCAF6" -> "AMBRA1"
-"DCAF6" -> "NOS1AP"
-"DCAF6" -> "FAM169A"
-"DCAF6" -> "B4GALNT3"
-"EFCAB13" -> "SPATA1"
-"EFCAB13" -> "ANKUB1"
-"EFCAB13" -> "ARHGEF26"
-"EFCAB13" -> "RASSF9"
-"FAM169A" -> "CEP78"
-"FAM169A" -> "NOS1AP"
-"FAM169A" -> "SPATA1"
-"FAM169A" -> "B4GALNT3"
-"FBXW10" -> "ANKUB1"
-"FBXW10" -> "CEP78"
-"FBXW10" -> "SPATA1"
-"FBXW10" -> "AHI1"
-"GPSM2" -> "CEP78"
-"GPSM2" -> "RASSF9"
-"GPSM2" -> "SH2D4A"
-"GPSM2" -> "ANKUB1"
-"KIAA1755" -> "PSD4"
-"KIAA1755" -> "B4GALNT3"
-"KIAA1755" -> "SPIRE2"
-"KIAA1755" -> "SPATA1"
-"NOS1AP" -> "SPIRE2"
-"NOS1AP" -> "USP43"
-"NOS1AP" -> "SPATA1"
-"NOS1AP" -> "WHRN"
-"PLCH2" -> "USP43"
-"PLCH2" -> "WHRN"
-"PLCH2" -> "NOS1AP"
-"PLCH2" -> "SPIRE2"
-"POC5" -> "CEP78"
-"POC5" -> "SPATA1"
-"POC5" -> "FAM169A"
-"POC5" -> "ARHGEF26"
-"PSD4" -> "ARHGEF26"
-"PSD4" -> "KIAA1755"
-"PSD4" -> "ARHGAP39"
-"PSD4" -> "USP43"
-"RASSF9" -> "SPATA1"
-"RASSF9" -> "SH2D4A"
-"RASSF9" -> "NOS1AP"
-"RASSF9" -> "CEP78"
-"SH2D4A" -> "SPATA1"
-"SH2D4A" -> "RASSF9"
-"SH2D4A" -> "SPIRE2"
-"SH2D4A" -> "KIAA1755"
-"SPATA1" -> "RASSF9"
-"SPATA1" -> "ANKUB1"
-"SPATA1" -> "SPIRE2"
-"SPATA1" -> "EFCAB13"
-"SPIRE2" -> "NOS1AP"
-"SPIRE2" -> "B4GALNT3"
-"SPIRE2" -> "SPATA1"
-"SPIRE2" -> "CEP78"
-"USP43" -> "PLCH2"
-"USP43" -> "NOS1AP"
-"USP43" -> "SPIRE2"
-"USP43" -> "CEP78"
-"WHRN" -> "SPIRE2"
-"WHRN" -> "NOS1AP"
-"WHRN" -> "PLCH2"
-"WHRN" -> "USP43"
+"AHI1" -> "ARHGEF26" ["e"=1]
+"AHI1" -> "SPATA1" ["e"=1]
+"AHI1" -> "FBXW10" ["e"=1]
+"AHI1" -> "PSD4" ["e"=1]
+"AMBRA1" -> "DCAF6" ["e"=1]
+"AMBRA1" -> "B4GALNT3" ["e"=1]
+"AMBRA1" -> "FAM169A" ["e"=1]
+"AMBRA1" -> "NOS1AP" ["e"=1]
+"ANKUB1" -> "FBXW10" ["e"=1]
+"ANKUB1" -> "SPATA1" ["e"=1]
+"ANKUB1" -> "CEP78" ["e"=1]
+"ANKUB1" -> "USP43" ["e"=1]
+"ARHGAP39" -> "B4GALNT3" ["e"=1]
+"ARHGAP39" -> "PSD4" ["e"=1]
+"ARHGAP39" -> "ARHGEF26" ["e"=1]
+"ARHGAP39" -> "KIAA1755" ["e"=1]
+"ARHGEF26" -> "PSD4" ["e"=1]
+"ARHGEF26" -> "ARHGAP39" ["e"=1]
+"ARHGEF26" -> "NOS1AP" ["e"=1]
+"ARHGEF26" -> "KIAA1755" ["e"=1]
+"B4GALNT3" -> "SPIRE2" ["e"=1]
+"B4GALNT3" -> "KIAA1755" ["e"=1]
+"B4GALNT3" -> "ARHGAP39" ["e"=1]
+"B4GALNT3" -> "NOS1AP" ["e"=1]
+"CEP78" -> "SPIRE2" ["e"=1]
+"CEP78" -> "SPATA1" ["e"=1]
+"CEP78" -> "FAM169A" ["e"=1]
+"CEP78" -> "USP43" ["e"=1]
+"DCAF6" -> "AMBRA1" ["e"=1]
+"DCAF6" -> "NOS1AP" ["e"=1]
+"DCAF6" -> "FAM169A" ["e"=1]
+"DCAF6" -> "B4GALNT3" ["e"=1]
+"EFCAB13" -> "SPATA1" ["e"=1]
+"EFCAB13" -> "ANKUB1" ["e"=1]
+"EFCAB13" -> "ARHGEF26" ["e"=1]
+"EFCAB13" -> "RASSF9" ["e"=1]
+"FAM169A" -> "CEP78" ["e"=1]
+"FAM169A" -> "NOS1AP" ["e"=1]
+"FAM169A" -> "SPATA1" ["e"=1]
+"FAM169A" -> "B4GALNT3" ["e"=1]
+"FBXW10" -> "ANKUB1" ["e"=1]
+"FBXW10" -> "CEP78" ["e"=1]
+"FBXW10" -> "SPATA1" ["e"=1]
+"FBXW10" -> "AHI1" ["e"=1]
+"GPSM2" -> "CEP78" ["e"=1]
+"GPSM2" -> "RASSF9" ["e"=1]
+"GPSM2" -> "SH2D4A" ["e"=1]
+"GPSM2" -> "ANKUB1" ["e"=1]
+"KIAA1755" -> "PSD4" ["e"=1]
+"KIAA1755" -> "B4GALNT3" ["e"=1]
+"KIAA1755" -> "SPIRE2" ["e"=1]
+"KIAA1755" -> "SPATA1" ["e"=1]
+"NOS1AP" -> "SPIRE2" ["e"=1]
+"NOS1AP" -> "USP43" ["e"=1]
+"NOS1AP" -> "SPATA1" ["e"=1]
+"NOS1AP" -> "WHRN" ["e"=1]
+"PLCH2" -> "USP43" ["e"=1]
+"PLCH2" -> "WHRN" ["e"=1]
+"PLCH2" -> "NOS1AP" ["e"=1]
+"PLCH2" -> "SPIRE2" ["e"=1]
+"POC5" -> "CEP78" ["e"=1]
+"POC5" -> "SPATA1" ["e"=1]
+"POC5" -> "FAM169A" ["e"=1]
+"POC5" -> "ARHGEF26" ["e"=1]
+"PSD4" -> "ARHGEF26" ["e"=1]
+"PSD4" -> "KIAA1755" ["e"=1]
+"PSD4" -> "ARHGAP39" ["e"=1]
+"PSD4" -> "USP43" ["e"=1]
+"RASSF9" -> "SPATA1" ["e"=1]
+"RASSF9" -> "SH2D4A" ["e"=1]
+"RASSF9" -> "NOS1AP" ["e"=1]
+"RASSF9" -> "CEP78" ["e"=1]
+"SH2D4A" -> "SPATA1" ["e"=1]
+"SH2D4A" -> "RASSF9" ["e"=1]
+"SH2D4A" -> "SPIRE2" ["e"=1]
+"SH2D4A" -> "KIAA1755" ["e"=1]
+"SPATA1" -> "RASSF9" ["e"=1]
+"SPATA1" -> "ANKUB1" ["e"=1]
+"SPATA1" -> "SPIRE2" ["e"=1]
+"SPATA1" -> "EFCAB13" ["e"=1]
+"SPIRE2" -> "NOS1AP" ["e"=1]
+"SPIRE2" -> "B4GALNT3" ["e"=1]
+"SPIRE2" -> "SPATA1" ["e"=1]
+"SPIRE2" -> "CEP78" ["e"=1]
+"USP43" -> "PLCH2" ["e"=1]
+"USP43" -> "NOS1AP" ["e"=1]
+"USP43" -> "SPIRE2" ["e"=1]
+"USP43" -> "CEP78" ["e"=1]
+"WHRN" -> "SPIRE2" ["e"=1]
+"WHRN" -> "NOS1AP" ["e"=1]
+"WHRN" -> "PLCH2" ["e"=1]
+"WHRN" -> "USP43" ["e"=1]
 }

@@ -18,80 +18,80 @@ digraph G {
 "SLC9C2" ["l"="10.945,-3.373"]
 "VIPR1" ["l"="11.110,-3.188"]
 "VIPR2" ["l"="11.104,-3.229"]
-"ADCYAP1R1" -> "VIPR1"
-"ADCYAP1R1" -> "CRHR2"
-"ADCYAP1R1" -> "GLP1R"
-"ADCYAP1R1" -> "CRHR1"
-"CALCR" -> "ADCYAP1R1"
-"CALCR" -> "CALCRL"
-"CALCR" -> "CRHR2"
-"CALCR" -> "VIPR1"
-"CALCRL" -> "VIPR1"
-"CALCRL" -> "CRHR2"
-"CALCRL" -> "GLP1R"
-"CALCRL" -> "CALCR"
-"CRHR1" -> "VIPR1"
-"CRHR1" -> "ADCYAP1R1"
-"CRHR1" -> "CRHR2"
-"CRHR1" -> "GLP1R"
-"CRHR2" -> "GLP1R"
-"CRHR2" -> "ADCYAP1R1"
-"CRHR2" -> "VIPR2"
-"CRHR2" -> "VIPR1"
-"GCGR" -> "GIPR"
-"GCGR" -> "GLP1R"
-"GCGR" -> "VIPR1"
-"GCGR" -> "SCTR"
-"GHRHR" -> "VIPR1"
-"GHRHR" -> "ADCYAP1R1"
-"GHRHR" -> "SCTR"
-"GHRHR" -> "PTH2R"
-"GIPR" -> "GLP1R"
-"GIPR" -> "GCGR"
-"GIPR" -> "GLP2R"
-"GIPR" -> "VIPR2"
-"GLP1R" -> "GLP2R"
-"GLP1R" -> "VIPR2"
-"GLP1R" -> "GIPR"
-"GLP1R" -> "CRHR2"
-"GLP2R" -> "GLP1R"
-"GLP2R" -> "GIPR"
-"GLP2R" -> "VIPR1"
-"GLP2R" -> "VIPR2"
-"NPC1" -> "SLC8A3"
-"NPC1" -> "VIPR1"
-"NPC1" -> "SLC8A2"
-"NPC1" -> "CALCRL"
-"PTH1R" -> "PTH2R"
-"PTH1R" -> "VIPR1"
-"PTH1R" -> "ADCYAP1R1"
-"PTH1R" -> "SCTR"
-"PTH2R" -> "GLP1R"
-"PTH2R" -> "ADCYAP1R1"
-"PTH2R" -> "SCTR"
-"PTH2R" -> "GLP2R"
-"SCTR" -> "VIPR1"
-"SCTR" -> "CRHR2"
-"SCTR" -> "PTH2R"
-"SCTR" -> "ADCYAP1R1"
-"SLC8A2" -> "SLC8A3"
-"SLC8A2" -> "ADCYAP1R1"
-"SLC8A2" -> "GLP1R"
-"SLC8A2" -> "CRHR1"
-"SLC8A3" -> "SLC8A2"
-"SLC8A3" -> "ADCYAP1R1"
-"SLC8A3" -> "NPC1"
-"SLC8A3" -> "CRHR1"
-"SLC9C2" -> "SLC8A2"
-"SLC9C2" -> "SLC8A3"
-"SLC9C2" -> "NPC1"
-"SLC9C2" -> "CALCRL"
-"VIPR1" -> "ADCYAP1R1"
-"VIPR1" -> "VIPR2"
-"VIPR1" -> "GLP1R"
-"VIPR1" -> "SCTR"
-"VIPR2" -> "GLP1R"
-"VIPR2" -> "VIPR1"
-"VIPR2" -> "CRHR2"
-"VIPR2" -> "GLP2R"
+"ADCYAP1R1" -> "VIPR1" ["e"=1]
+"ADCYAP1R1" -> "CRHR2" ["e"=1]
+"ADCYAP1R1" -> "GLP1R" ["e"=1]
+"ADCYAP1R1" -> "CRHR1" ["e"=1]
+"CALCR" -> "ADCYAP1R1" ["e"=1]
+"CALCR" -> "CALCRL" ["e"=1]
+"CALCR" -> "CRHR2" ["e"=1]
+"CALCR" -> "VIPR1" ["e"=1]
+"CALCRL" -> "VIPR1" ["e"=1]
+"CALCRL" -> "CRHR2" ["e"=1]
+"CALCRL" -> "GLP1R" ["e"=1]
+"CALCRL" -> "CALCR" ["e"=1]
+"CRHR1" -> "VIPR1" ["e"=1]
+"CRHR1" -> "ADCYAP1R1" ["e"=1]
+"CRHR1" -> "CRHR2" ["e"=1]
+"CRHR1" -> "GLP1R" ["e"=1]
+"CRHR2" -> "GLP1R" ["e"=1]
+"CRHR2" -> "ADCYAP1R1" ["e"=1]
+"CRHR2" -> "VIPR2" ["e"=1]
+"CRHR2" -> "VIPR1" ["e"=1]
+"GCGR" -> "GIPR" ["e"=1]
+"GCGR" -> "GLP1R" ["e"=1]
+"GCGR" -> "VIPR1" ["e"=1]
+"GCGR" -> "SCTR" ["e"=1]
+"GHRHR" -> "VIPR1" ["e"=1]
+"GHRHR" -> "ADCYAP1R1" ["e"=1]
+"GHRHR" -> "SCTR" ["e"=1]
+"GHRHR" -> "PTH2R" ["e"=1]
+"GIPR" -> "GLP1R" ["e"=1]
+"GIPR" -> "GCGR" ["e"=1]
+"GIPR" -> "GLP2R" ["e"=1]
+"GIPR" -> "VIPR2" ["e"=1]
+"GLP1R" -> "GLP2R" ["e"=1]
+"GLP1R" -> "VIPR2" ["e"=1]
+"GLP1R" -> "GIPR" ["e"=1]
+"GLP1R" -> "CRHR2" ["e"=1]
+"GLP2R" -> "GLP1R" ["e"=1]
+"GLP2R" -> "GIPR" ["e"=1]
+"GLP2R" -> "VIPR1" ["e"=1]
+"GLP2R" -> "VIPR2" ["e"=1]
+"NPC1" -> "SLC8A3" ["e"=1]
+"NPC1" -> "VIPR1" ["e"=1]
+"NPC1" -> "SLC8A2" ["e"=1]
+"NPC1" -> "CALCRL" ["e"=1]
+"PTH1R" -> "PTH2R" ["e"=1]
+"PTH1R" -> "VIPR1" ["e"=1]
+"PTH1R" -> "ADCYAP1R1" ["e"=1]
+"PTH1R" -> "SCTR" ["e"=1]
+"PTH2R" -> "GLP1R" ["e"=1]
+"PTH2R" -> "ADCYAP1R1" ["e"=1]
+"PTH2R" -> "SCTR" ["e"=1]
+"PTH2R" -> "GLP2R" ["e"=1]
+"SCTR" -> "VIPR1" ["e"=1]
+"SCTR" -> "CRHR2" ["e"=1]
+"SCTR" -> "PTH2R" ["e"=1]
+"SCTR" -> "ADCYAP1R1" ["e"=1]
+"SLC8A2" -> "SLC8A3" ["e"=1]
+"SLC8A2" -> "ADCYAP1R1" ["e"=1]
+"SLC8A2" -> "GLP1R" ["e"=1]
+"SLC8A2" -> "CRHR1" ["e"=1]
+"SLC8A3" -> "SLC8A2" ["e"=1]
+"SLC8A3" -> "ADCYAP1R1" ["e"=1]
+"SLC8A3" -> "NPC1" ["e"=1]
+"SLC8A3" -> "CRHR1" ["e"=1]
+"SLC9C2" -> "SLC8A2" ["e"=1]
+"SLC9C2" -> "SLC8A3" ["e"=1]
+"SLC9C2" -> "NPC1" ["e"=1]
+"SLC9C2" -> "CALCRL" ["e"=1]
+"VIPR1" -> "ADCYAP1R1" ["e"=1]
+"VIPR1" -> "VIPR2" ["e"=1]
+"VIPR1" -> "GLP1R" ["e"=1]
+"VIPR1" -> "SCTR" ["e"=1]
+"VIPR2" -> "GLP1R" ["e"=1]
+"VIPR2" -> "VIPR1" ["e"=1]
+"VIPR2" -> "CRHR2" ["e"=1]
+"VIPR2" -> "GLP2R" ["e"=1]
 }

@@ -74,304 +74,304 @@ digraph G {
 "TMEM225B" ["l"="8.485,-3.207"]
 "TMEM235" ["l"="8.463,-3.206"]
 "TMEM37" ["l"="8.537,-3.230"]
-"CACNG1" -> "TMEM182"
-"CACNG1" -> "CLRN1"
-"CACNG1" -> "CLDN22"
-"CACNG1" -> "GSG1L2"
-"CACNG2" -> "CACNG3"
-"CACNG2" -> "CACNG7"
-"CACNG2" -> "CACNG4"
-"CACNG2" -> "CACNG5"
-"CACNG3" -> "CACNG2"
-"CACNG3" -> "CACNG4"
-"CACNG3" -> "CACNG7"
-"CACNG3" -> "CACNG5"
-"CACNG4" -> "CACNG5"
-"CACNG4" -> "CACNG3"
-"CACNG4" -> "GSG1L"
-"CACNG4" -> "CACNG2"
-"CACNG5" -> "CACNG7"
-"CACNG5" -> "CACNG4"
-"CACNG5" -> "GSG1L2"
-"CACNG5" -> "CACNG2"
-"CACNG6" -> "LHFPL2"
-"CACNG6" -> "CACNG1"
-"CACNG6" -> "LHFPL5"
-"CACNG6" -> "TMEM235"
-"CACNG7" -> "CACNG5"
-"CACNG7" -> "CACNG2"
-"CACNG7" -> "GSG1L2"
-"CACNG7" -> "LHFPL4"
-"CLDN1" -> "CLDN19"
-"CLDN1" -> "CLDN11"
-"CLDN1" -> "CLDN6"
-"CLDN1" -> "CLDN4"
-"CLDN10" -> "CLDN15"
-"CLDN10" -> "CLDN19"
-"CLDN10" -> "CLDN20"
-"CLDN10" -> "CLDN7"
-"CLDN11" -> "CLDN1"
-"CLDN11" -> "CLDN19"
-"CLDN11" -> "LHFPL2"
-"CLDN11" -> "LHFPL6"
-"CLDN12" -> "CLRN1"
-"CLDN12" -> "CLDND1"
-"CLDN12" -> "TMEM182"
-"CLDN12" -> "CLDN22"
-"CLDN14" -> "CLDN17"
-"CLDN14" -> "CLDN15"
-"CLDN14" -> "CLDN20"
-"CLDN14" -> "CLDN19"
-"CLDN15" -> "CLDN14"
-"CLDN15" -> "CLDN19"
-"CLDN15" -> "CLDN10"
-"CLDN15" -> "CLDN7"
-"CLDN16" -> "LHFPL2"
-"CLDN16" -> "TMEM182"
-"CLDN16" -> "CLDN10"
-"CLDN16" -> "CLDN12"
-"CLDN17" -> "CLDN14"
-"CLDN17" -> "CLDN20"
-"CLDN17" -> "CLDN8"
-"CLDN17" -> "CLDN15"
-"CLDN18" -> "CLDN19"
-"CLDN18" -> "CLDN7"
-"CLDN18" -> "CLDN1"
-"CLDN18" -> "CLDN10"
-"CLDN19" -> "LHFPL2"
-"CLDN19" -> "CLDN1"
-"CLDN19" -> "CLDN15"
-"CLDN19" -> "CLDN10"
-"CLDN20" -> "CLDN17"
-"CLDN20" -> "CLDN8"
-"CLDN20" -> "CLDN14"
-"CLDN20" -> "CLDN19"
-"CLDN22" -> "CLDN24"
-"CLDN22" -> "CLDN25"
-"CLDN22" -> "CLRN1"
-"CLDN22" -> "CLDN6"
-"CLDN23" -> "CLDN12"
-"CLDN23" -> "CLDN6"
-"CLDN23" -> "CLDN17"
-"CLDN23" -> "CLDN22"
-"CLDN24" -> "CLDN22"
-"CLDN24" -> "CLDN25"
-"CLDN24" -> "CLRN1"
-"CLDN24" -> "CLDN6"
-"CLDN25" -> "GSG1L2"
-"CLDN25" -> "CLDN22"
-"CLDN25" -> "CLDN20"
-"CLDN25" -> "CLDN24"
-"CLDN3" -> "CLDN4"
-"CLDN3" -> "CLDN7"
-"CLDN3" -> "CLDN5"
-"CLDN3" -> "CLDN9"
-"CLDN4" -> "CLDN3"
-"CLDN4" -> "CLDN7"
-"CLDN4" -> "CLDN6"
-"CLDN4" -> "CLDN5"
-"CLDN5" -> "CLDN6"
-"CLDN5" -> "CLDN4"
-"CLDN5" -> "CLDN9"
-"CLDN5" -> "CLDN8"
-"CLDN6" -> "CLDN9"
-"CLDN6" -> "CLDN22"
-"CLDN6" -> "CLDN4"
-"CLDN6" -> "CLDN5"
-"CLDN7" -> "CLDN4"
-"CLDN7" -> "CLDN3"
-"CLDN7" -> "CLDN15"
-"CLDN7" -> "CLDN18"
-"CLDN8" -> "CLDN20"
-"CLDN8" -> "CLDN17"
-"CLDN8" -> "CLDN6"
-"CLDN8" -> "CLDN1"
-"CLDN9" -> "CLDN6"
-"CLDN9" -> "CLDN5"
-"CLDN9" -> "CLDN3"
-"CLDN9" -> "CLDN4"
-"CLDND1" -> "CLDN12"
-"CLDND1" -> "CLRN1"
-"CLDND1" -> "CACNG7"
-"CLDND1" -> "TMEM182"
-"CLDND2" -> "LIM2"
-"CLDND2" -> "CLDN24"
-"CLDND2" -> "CLDN22"
-"CLDND2" -> "EMP3"
-"CLRN1" -> "CLDN12"
-"CLRN1" -> "CLDN22"
-"CLRN1" -> "TMEM204"
-"CLRN1" -> "CLRN2"
-"CLRN2" -> "CLRN1"
-"CLRN2" -> "CLDN25"
-"CLRN2" -> "TMEM182"
-"CLRN2" -> "CLDN22"
-"CLRN3" -> "CLRN1"
-"CLRN3" -> "TM4SF20"
-"CLRN3" -> "TMEM225"
-"CLRN3" -> "CLRN2"
-"EMP1" -> "PMP22"
-"EMP1" -> "EMP2"
-"EMP1" -> "PERP"
-"EMP1" -> "CLDN1"
-"EMP2" -> "EMP1"
-"EMP2" -> "PERP"
-"EMP2" -> "CLRN1"
-"EMP2" -> "PMP22"
-"EMP3" -> "PMP22"
-"EMP3" -> "CLDND2"
-"EMP3" -> "NKG7"
-"EMP3" -> "LIM2"
-"GSG1" -> "GSG1L2"
-"GSG1" -> "CLRN1"
-"GSG1" -> "CACNG7"
-"GSG1" -> "TMEM178A"
-"GSG1L" -> "CACNG4"
-"GSG1L" -> "GSG1L2"
-"GSG1L" -> "GSG1"
-"GSG1L" -> "CACNG2"
-"GSG1L2" -> "GSG1"
-"GSG1L2" -> "CLDN25"
-"GSG1L2" -> "CACNG7"
-"GSG1L2" -> "CLRN1"
-"KRTCAP3" -> "TM4SF5"
-"KRTCAP3" -> "CLDN22"
-"KRTCAP3" -> "TM4SF19"
-"KRTCAP3" -> "CLDN6"
-"LHFPL2" -> "CLDN19"
-"LHFPL2" -> "TMEM182"
-"LHFPL2" -> "LHFPL5"
-"LHFPL2" -> "CLRN1"
-"LHFPL3" -> "LHFPL5"
-"LHFPL3" -> "LHFPL4"
-"LHFPL3" -> "TMEM179"
-"LHFPL3" -> "GSG1L"
-"LHFPL4" -> "LHFPL5"
-"LHFPL4" -> "CACNG7"
-"LHFPL4" -> "LHFPL2"
-"LHFPL4" -> "SYPL2"
-"LHFPL5" -> "LHFPL4"
-"LHFPL5" -> "LHFPL2"
-"LHFPL5" -> "TMEM179"
-"LHFPL5" -> "LHFPL3"
-"LHFPL6" -> "CLRN1"
-"LHFPL6" -> "CLDN22"
-"LHFPL6" -> "TMEM182"
-"LHFPL6" -> "CLRN2"
-"LIM2" -> "CLDND2"
-"LIM2" -> "CACNG1"
-"LIM2" -> "TMEM114"
-"LIM2" -> "TMEM225B"
-"MOSMO" -> "LHFPL5"
-"MOSMO" -> "EMP2"
-"MOSMO" -> "CLDN22"
-"MOSMO" -> "CLRN1"
-"NKAIN1" -> "LHFPL4"
-"NKAIN1" -> "CACNG4"
-"NKAIN1" -> "SYPL2"
-"NKAIN1" -> "TMEM179"
-"NKG7" -> "TMEM37"
-"NKG7" -> "LIM2"
-"NKG7" -> "EMP3"
-"NKG7" -> "CLDN19"
-"ODF4" -> "TMEM202"
-"ODF4" -> "TMEM225B"
-"ODF4" -> "TMEM225"
-"ODF4" -> "LHFPL4"
-"PERP" -> "CLDN1"
-"PERP" -> "EMP2"
-"PERP" -> "EMP1"
-"PERP" -> "CLDN12"
-"PMP22" -> "EMP1"
-"PMP22" -> "EMP3"
-"PMP22" -> "EMP2"
-"PMP22" -> "CLDN11"
-"SYNGR4" -> "LHFPL4"
-"SYNGR4" -> "CLDN19"
-"SYNGR4" -> "CACNG5"
-"SYNGR4" -> "SYPL2"
-"SYPL2" -> "TMEM179"
-"SYPL2" -> "LHFPL4"
-"SYPL2" -> "CACNG7"
-"SYPL2" -> "GSG1"
-"TM4SF1" -> "TM4SF4"
-"TM4SF1" -> "TM4SF18"
-"TM4SF1" -> "TM4SF5"
-"TM4SF1" -> "CLDN5"
-"TM4SF18" -> "TM4SF1"
-"TM4SF18" -> "CLRN1"
-"TM4SF18" -> "TM4SF20"
-"TM4SF18" -> "TM4SF4"
-"TM4SF19" -> "CLDN22"
-"TM4SF19" -> "CLRN1"
-"TM4SF19" -> "TM4SF5"
-"TM4SF19" -> "CLRN2"
-"TM4SF20" -> "TM4SF18"
-"TM4SF20" -> "TM4SF4"
-"TM4SF20" -> "CLRN1"
-"TM4SF20" -> "CLDN22"
-"TM4SF4" -> "TM4SF5"
-"TM4SF4" -> "TM4SF1"
-"TM4SF4" -> "TM4SF20"
-"TM4SF4" -> "TM4SF18"
-"TM4SF5" -> "TM4SF4"
-"TM4SF5" -> "TM4SF1"
-"TM4SF5" -> "TM4SF19"
-"TM4SF5" -> "TM4SF18"
-"TMEM114" -> "TMEM235"
-"TMEM114" -> "CLRN1"
-"TMEM114" -> "CACNG1"
-"TMEM114" -> "TMEM204"
-"TMEM127" -> "LHFPL2"
-"TMEM127" -> "LHFPL5"
-"TMEM127" -> "CLRN1"
-"TMEM127" -> "CLDN19"
-"TMEM140" -> "TMEM37"
-"TMEM140" -> "CLDN22"
-"TMEM140" -> "CLDN24"
-"TMEM140" -> "CLRN1"
-"TMEM178A" -> "TMEM178B"
-"TMEM178A" -> "LHFPL2"
-"TMEM178A" -> "GSG1"
-"TMEM178A" -> "GSG1L2"
-"TMEM178B" -> "TMEM178A"
-"TMEM178B" -> "TMEM182"
-"TMEM178B" -> "GSG1L"
-"TMEM178B" -> "GSG1L2"
-"TMEM179" -> "SYPL2"
-"TMEM179" -> "LHFPL5"
-"TMEM179" -> "TMEM235"
-"TMEM179" -> "LHFPL4"
-"TMEM182" -> "CACNG1"
-"TMEM182" -> "LHFPL2"
-"TMEM182" -> "CLRN1"
-"TMEM182" -> "GSG1L2"
-"TMEM196" -> "CLDN22"
-"TMEM196" -> "CLDN20"
-"TMEM196" -> "CLRN1"
-"TMEM196" -> "CLDN25"
-"TMEM202" -> "ODF4"
-"TMEM202" -> "GSG1L2"
-"TMEM202" -> "TMEM225"
-"TMEM202" -> "GSG1"
-"TMEM204" -> "CLRN1"
-"TMEM204" -> "TMEM37"
-"TMEM204" -> "CLDN5"
-"TMEM204" -> "LHFPL2"
-"TMEM225" -> "TMEM202"
-"TMEM225" -> "CLRN1"
-"TMEM225" -> "CLDN22"
-"TMEM225" -> "ODF4"
-"TMEM225B" -> "ODF4"
-"TMEM225B" -> "TMEM202"
-"TMEM225B" -> "LIM2"
-"TMEM225B" -> "TMEM140"
-"TMEM235" -> "GSG1L2"
-"TMEM235" -> "CLDN19"
-"TMEM235" -> "CLDN25"
-"TMEM235" -> "TMEM114"
-"TMEM37" -> "TMEM140"
-"TMEM37" -> "TMEM204"
-"TMEM37" -> "CLRN1"
-"TMEM37" -> "CLDN22"
+"CACNG1" -> "TMEM182" ["e"=1]
+"CACNG1" -> "CLRN1" ["e"=1]
+"CACNG1" -> "CLDN22" ["e"=1]
+"CACNG1" -> "GSG1L2" ["e"=1]
+"CACNG2" -> "CACNG3" ["e"=1]
+"CACNG2" -> "CACNG7" ["e"=1]
+"CACNG2" -> "CACNG4" ["e"=1]
+"CACNG2" -> "CACNG5" ["e"=1]
+"CACNG3" -> "CACNG2" ["e"=1]
+"CACNG3" -> "CACNG4" ["e"=1]
+"CACNG3" -> "CACNG7" ["e"=1]
+"CACNG3" -> "CACNG5" ["e"=1]
+"CACNG4" -> "CACNG5" ["e"=1]
+"CACNG4" -> "CACNG3" ["e"=1]
+"CACNG4" -> "GSG1L" ["e"=1]
+"CACNG4" -> "CACNG2" ["e"=1]
+"CACNG5" -> "CACNG7" ["e"=1]
+"CACNG5" -> "CACNG4" ["e"=1]
+"CACNG5" -> "GSG1L2" ["e"=1]
+"CACNG5" -> "CACNG2" ["e"=1]
+"CACNG6" -> "LHFPL2" ["e"=1]
+"CACNG6" -> "CACNG1" ["e"=1]
+"CACNG6" -> "LHFPL5" ["e"=1]
+"CACNG6" -> "TMEM235" ["e"=1]
+"CACNG7" -> "CACNG5" ["e"=1]
+"CACNG7" -> "CACNG2" ["e"=1]
+"CACNG7" -> "GSG1L2" ["e"=1]
+"CACNG7" -> "LHFPL4" ["e"=1]
+"CLDN1" -> "CLDN19" ["e"=1]
+"CLDN1" -> "CLDN11" ["e"=1]
+"CLDN1" -> "CLDN6" ["e"=1]
+"CLDN1" -> "CLDN4" ["e"=1]
+"CLDN10" -> "CLDN15" ["e"=1]
+"CLDN10" -> "CLDN19" ["e"=1]
+"CLDN10" -> "CLDN20" ["e"=1]
+"CLDN10" -> "CLDN7" ["e"=1]
+"CLDN11" -> "CLDN1" ["e"=1]
+"CLDN11" -> "CLDN19" ["e"=1]
+"CLDN11" -> "LHFPL2" ["e"=1]
+"CLDN11" -> "LHFPL6" ["e"=1]
+"CLDN12" -> "CLRN1" ["e"=1]
+"CLDN12" -> "CLDND1" ["e"=1]
+"CLDN12" -> "TMEM182" ["e"=1]
+"CLDN12" -> "CLDN22" ["e"=1]
+"CLDN14" -> "CLDN17" ["e"=1]
+"CLDN14" -> "CLDN15" ["e"=1]
+"CLDN14" -> "CLDN20" ["e"=1]
+"CLDN14" -> "CLDN19" ["e"=1]
+"CLDN15" -> "CLDN14" ["e"=1]
+"CLDN15" -> "CLDN19" ["e"=1]
+"CLDN15" -> "CLDN10" ["e"=1]
+"CLDN15" -> "CLDN7" ["e"=1]
+"CLDN16" -> "LHFPL2" ["e"=1]
+"CLDN16" -> "TMEM182" ["e"=1]
+"CLDN16" -> "CLDN10" ["e"=1]
+"CLDN16" -> "CLDN12" ["e"=1]
+"CLDN17" -> "CLDN14" ["e"=1]
+"CLDN17" -> "CLDN20" ["e"=1]
+"CLDN17" -> "CLDN8" ["e"=1]
+"CLDN17" -> "CLDN15" ["e"=1]
+"CLDN18" -> "CLDN19" ["e"=1]
+"CLDN18" -> "CLDN7" ["e"=1]
+"CLDN18" -> "CLDN1" ["e"=1]
+"CLDN18" -> "CLDN10" ["e"=1]
+"CLDN19" -> "LHFPL2" ["e"=1]
+"CLDN19" -> "CLDN1" ["e"=1]
+"CLDN19" -> "CLDN15" ["e"=1]
+"CLDN19" -> "CLDN10" ["e"=1]
+"CLDN20" -> "CLDN17" ["e"=1]
+"CLDN20" -> "CLDN8" ["e"=1]
+"CLDN20" -> "CLDN14" ["e"=1]
+"CLDN20" -> "CLDN19" ["e"=1]
+"CLDN22" -> "CLDN24" ["e"=1]
+"CLDN22" -> "CLDN25" ["e"=1]
+"CLDN22" -> "CLRN1" ["e"=1]
+"CLDN22" -> "CLDN6" ["e"=1]
+"CLDN23" -> "CLDN12" ["e"=1]
+"CLDN23" -> "CLDN6" ["e"=1]
+"CLDN23" -> "CLDN17" ["e"=1]
+"CLDN23" -> "CLDN22" ["e"=1]
+"CLDN24" -> "CLDN22" ["e"=1]
+"CLDN24" -> "CLDN25" ["e"=1]
+"CLDN24" -> "CLRN1" ["e"=1]
+"CLDN24" -> "CLDN6" ["e"=1]
+"CLDN25" -> "GSG1L2" ["e"=1]
+"CLDN25" -> "CLDN22" ["e"=1]
+"CLDN25" -> "CLDN20" ["e"=1]
+"CLDN25" -> "CLDN24" ["e"=1]
+"CLDN3" -> "CLDN4" ["e"=1]
+"CLDN3" -> "CLDN7" ["e"=1]
+"CLDN3" -> "CLDN5" ["e"=1]
+"CLDN3" -> "CLDN9" ["e"=1]
+"CLDN4" -> "CLDN3" ["e"=1]
+"CLDN4" -> "CLDN7" ["e"=1]
+"CLDN4" -> "CLDN6" ["e"=1]
+"CLDN4" -> "CLDN5" ["e"=1]
+"CLDN5" -> "CLDN6" ["e"=1]
+"CLDN5" -> "CLDN4" ["e"=1]
+"CLDN5" -> "CLDN9" ["e"=1]
+"CLDN5" -> "CLDN8" ["e"=1]
+"CLDN6" -> "CLDN9" ["e"=1]
+"CLDN6" -> "CLDN22" ["e"=1]
+"CLDN6" -> "CLDN4" ["e"=1]
+"CLDN6" -> "CLDN5" ["e"=1]
+"CLDN7" -> "CLDN4" ["e"=1]
+"CLDN7" -> "CLDN3" ["e"=1]
+"CLDN7" -> "CLDN15" ["e"=1]
+"CLDN7" -> "CLDN18" ["e"=1]
+"CLDN8" -> "CLDN20" ["e"=1]
+"CLDN8" -> "CLDN17" ["e"=1]
+"CLDN8" -> "CLDN6" ["e"=1]
+"CLDN8" -> "CLDN1" ["e"=1]
+"CLDN9" -> "CLDN6" ["e"=1]
+"CLDN9" -> "CLDN5" ["e"=1]
+"CLDN9" -> "CLDN3" ["e"=1]
+"CLDN9" -> "CLDN4" ["e"=1]
+"CLDND1" -> "CLDN12" ["e"=1]
+"CLDND1" -> "CLRN1" ["e"=1]
+"CLDND1" -> "CACNG7" ["e"=1]
+"CLDND1" -> "TMEM182" ["e"=1]
+"CLDND2" -> "LIM2" ["e"=1]
+"CLDND2" -> "CLDN24" ["e"=1]
+"CLDND2" -> "CLDN22" ["e"=1]
+"CLDND2" -> "EMP3" ["e"=1]
+"CLRN1" -> "CLDN12" ["e"=1]
+"CLRN1" -> "CLDN22" ["e"=1]
+"CLRN1" -> "TMEM204" ["e"=1]
+"CLRN1" -> "CLRN2" ["e"=1]
+"CLRN2" -> "CLRN1" ["e"=1]
+"CLRN2" -> "CLDN25" ["e"=1]
+"CLRN2" -> "TMEM182" ["e"=1]
+"CLRN2" -> "CLDN22" ["e"=1]
+"CLRN3" -> "CLRN1" ["e"=1]
+"CLRN3" -> "TM4SF20" ["e"=1]
+"CLRN3" -> "TMEM225" ["e"=1]
+"CLRN3" -> "CLRN2" ["e"=1]
+"EMP1" -> "PMP22" ["e"=1]
+"EMP1" -> "EMP2" ["e"=1]
+"EMP1" -> "PERP" ["e"=1]
+"EMP1" -> "CLDN1" ["e"=1]
+"EMP2" -> "EMP1" ["e"=1]
+"EMP2" -> "PERP" ["e"=1]
+"EMP2" -> "CLRN1" ["e"=1]
+"EMP2" -> "PMP22" ["e"=1]
+"EMP3" -> "PMP22" ["e"=1]
+"EMP3" -> "CLDND2" ["e"=1]
+"EMP3" -> "NKG7" ["e"=1]
+"EMP3" -> "LIM2" ["e"=1]
+"GSG1" -> "GSG1L2" ["e"=1]
+"GSG1" -> "CLRN1" ["e"=1]
+"GSG1" -> "CACNG7" ["e"=1]
+"GSG1" -> "TMEM178A" ["e"=1]
+"GSG1L" -> "CACNG4" ["e"=1]
+"GSG1L" -> "GSG1L2" ["e"=1]
+"GSG1L" -> "GSG1" ["e"=1]
+"GSG1L" -> "CACNG2" ["e"=1]
+"GSG1L2" -> "GSG1" ["e"=1]
+"GSG1L2" -> "CLDN25" ["e"=1]
+"GSG1L2" -> "CACNG7" ["e"=1]
+"GSG1L2" -> "CLRN1" ["e"=1]
+"KRTCAP3" -> "TM4SF5" ["e"=1]
+"KRTCAP3" -> "CLDN22" ["e"=1]
+"KRTCAP3" -> "TM4SF19" ["e"=1]
+"KRTCAP3" -> "CLDN6" ["e"=1]
+"LHFPL2" -> "CLDN19" ["e"=1]
+"LHFPL2" -> "TMEM182" ["e"=1]
+"LHFPL2" -> "LHFPL5" ["e"=1]
+"LHFPL2" -> "CLRN1" ["e"=1]
+"LHFPL3" -> "LHFPL5" ["e"=1]
+"LHFPL3" -> "LHFPL4" ["e"=1]
+"LHFPL3" -> "TMEM179" ["e"=1]
+"LHFPL3" -> "GSG1L" ["e"=1]
+"LHFPL4" -> "LHFPL5" ["e"=1]
+"LHFPL4" -> "CACNG7" ["e"=1]
+"LHFPL4" -> "LHFPL2" ["e"=1]
+"LHFPL4" -> "SYPL2" ["e"=1]
+"LHFPL5" -> "LHFPL4" ["e"=1]
+"LHFPL5" -> "LHFPL2" ["e"=1]
+"LHFPL5" -> "TMEM179" ["e"=1]
+"LHFPL5" -> "LHFPL3" ["e"=1]
+"LHFPL6" -> "CLRN1" ["e"=1]
+"LHFPL6" -> "CLDN22" ["e"=1]
+"LHFPL6" -> "TMEM182" ["e"=1]
+"LHFPL6" -> "CLRN2" ["e"=1]
+"LIM2" -> "CLDND2" ["e"=1]
+"LIM2" -> "CACNG1" ["e"=1]
+"LIM2" -> "TMEM114" ["e"=1]
+"LIM2" -> "TMEM225B" ["e"=1]
+"MOSMO" -> "LHFPL5" ["e"=1]
+"MOSMO" -> "EMP2" ["e"=1]
+"MOSMO" -> "CLDN22" ["e"=1]
+"MOSMO" -> "CLRN1" ["e"=1]
+"NKAIN1" -> "LHFPL4" ["e"=1]
+"NKAIN1" -> "CACNG4" ["e"=1]
+"NKAIN1" -> "SYPL2" ["e"=1]
+"NKAIN1" -> "TMEM179" ["e"=1]
+"NKG7" -> "TMEM37" ["e"=1]
+"NKG7" -> "LIM2" ["e"=1]
+"NKG7" -> "EMP3" ["e"=1]
+"NKG7" -> "CLDN19" ["e"=1]
+"ODF4" -> "TMEM202" ["e"=1]
+"ODF4" -> "TMEM225B" ["e"=1]
+"ODF4" -> "TMEM225" ["e"=1]
+"ODF4" -> "LHFPL4" ["e"=1]
+"PERP" -> "CLDN1" ["e"=1]
+"PERP" -> "EMP2" ["e"=1]
+"PERP" -> "EMP1" ["e"=1]
+"PERP" -> "CLDN12" ["e"=1]
+"PMP22" -> "EMP1" ["e"=1]
+"PMP22" -> "EMP3" ["e"=1]
+"PMP22" -> "EMP2" ["e"=1]
+"PMP22" -> "CLDN11" ["e"=1]
+"SYNGR4" -> "LHFPL4" ["e"=1]
+"SYNGR4" -> "CLDN19" ["e"=1]
+"SYNGR4" -> "CACNG5" ["e"=1]
+"SYNGR4" -> "SYPL2" ["e"=1]
+"SYPL2" -> "TMEM179" ["e"=1]
+"SYPL2" -> "LHFPL4" ["e"=1]
+"SYPL2" -> "CACNG7" ["e"=1]
+"SYPL2" -> "GSG1" ["e"=1]
+"TM4SF1" -> "TM4SF4" ["e"=1]
+"TM4SF1" -> "TM4SF18" ["e"=1]
+"TM4SF1" -> "TM4SF5" ["e"=1]
+"TM4SF1" -> "CLDN5" ["e"=1]
+"TM4SF18" -> "TM4SF1" ["e"=1]
+"TM4SF18" -> "CLRN1" ["e"=1]
+"TM4SF18" -> "TM4SF20" ["e"=1]
+"TM4SF18" -> "TM4SF4" ["e"=1]
+"TM4SF19" -> "CLDN22" ["e"=1]
+"TM4SF19" -> "CLRN1" ["e"=1]
+"TM4SF19" -> "TM4SF5" ["e"=1]
+"TM4SF19" -> "CLRN2" ["e"=1]
+"TM4SF20" -> "TM4SF18" ["e"=1]
+"TM4SF20" -> "TM4SF4" ["e"=1]
+"TM4SF20" -> "CLRN1" ["e"=1]
+"TM4SF20" -> "CLDN22" ["e"=1]
+"TM4SF4" -> "TM4SF5" ["e"=1]
+"TM4SF4" -> "TM4SF1" ["e"=1]
+"TM4SF4" -> "TM4SF20" ["e"=1]
+"TM4SF4" -> "TM4SF18" ["e"=1]
+"TM4SF5" -> "TM4SF4" ["e"=1]
+"TM4SF5" -> "TM4SF1" ["e"=1]
+"TM4SF5" -> "TM4SF19" ["e"=1]
+"TM4SF5" -> "TM4SF18" ["e"=1]
+"TMEM114" -> "TMEM235" ["e"=1]
+"TMEM114" -> "CLRN1" ["e"=1]
+"TMEM114" -> "CACNG1" ["e"=1]
+"TMEM114" -> "TMEM204" ["e"=1]
+"TMEM127" -> "LHFPL2" ["e"=1]
+"TMEM127" -> "LHFPL5" ["e"=1]
+"TMEM127" -> "CLRN1" ["e"=1]
+"TMEM127" -> "CLDN19" ["e"=1]
+"TMEM140" -> "TMEM37" ["e"=1]
+"TMEM140" -> "CLDN22" ["e"=1]
+"TMEM140" -> "CLDN24" ["e"=1]
+"TMEM140" -> "CLRN1" ["e"=1]
+"TMEM178A" -> "TMEM178B" ["e"=1]
+"TMEM178A" -> "LHFPL2" ["e"=1]
+"TMEM178A" -> "GSG1" ["e"=1]
+"TMEM178A" -> "GSG1L2" ["e"=1]
+"TMEM178B" -> "TMEM178A" ["e"=1]
+"TMEM178B" -> "TMEM182" ["e"=1]
+"TMEM178B" -> "GSG1L" ["e"=1]
+"TMEM178B" -> "GSG1L2" ["e"=1]
+"TMEM179" -> "SYPL2" ["e"=1]
+"TMEM179" -> "LHFPL5" ["e"=1]
+"TMEM179" -> "TMEM235" ["e"=1]
+"TMEM179" -> "LHFPL4" ["e"=1]
+"TMEM182" -> "CACNG1" ["e"=1]
+"TMEM182" -> "LHFPL2" ["e"=1]
+"TMEM182" -> "CLRN1" ["e"=1]
+"TMEM182" -> "GSG1L2" ["e"=1]
+"TMEM196" -> "CLDN22" ["e"=1]
+"TMEM196" -> "CLDN20" ["e"=1]
+"TMEM196" -> "CLRN1" ["e"=1]
+"TMEM196" -> "CLDN25" ["e"=1]
+"TMEM202" -> "ODF4" ["e"=1]
+"TMEM202" -> "GSG1L2" ["e"=1]
+"TMEM202" -> "TMEM225" ["e"=1]
+"TMEM202" -> "GSG1" ["e"=1]
+"TMEM204" -> "CLRN1" ["e"=1]
+"TMEM204" -> "TMEM37" ["e"=1]
+"TMEM204" -> "CLDN5" ["e"=1]
+"TMEM204" -> "LHFPL2" ["e"=1]
+"TMEM225" -> "TMEM202" ["e"=1]
+"TMEM225" -> "CLRN1" ["e"=1]
+"TMEM225" -> "CLDN22" ["e"=1]
+"TMEM225" -> "ODF4" ["e"=1]
+"TMEM225B" -> "ODF4" ["e"=1]
+"TMEM225B" -> "TMEM202" ["e"=1]
+"TMEM225B" -> "LIM2" ["e"=1]
+"TMEM225B" -> "TMEM140" ["e"=1]
+"TMEM235" -> "GSG1L2" ["e"=1]
+"TMEM235" -> "CLDN19" ["e"=1]
+"TMEM235" -> "CLDN25" ["e"=1]
+"TMEM235" -> "TMEM114" ["e"=1]
+"TMEM37" -> "TMEM140" ["e"=1]
+"TMEM37" -> "TMEM204" ["e"=1]
+"TMEM37" -> "CLRN1" ["e"=1]
+"TMEM37" -> "CLDN22" ["e"=1]
 }

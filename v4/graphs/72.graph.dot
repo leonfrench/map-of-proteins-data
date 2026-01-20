@@ -21,92 +21,92 @@ digraph G {
 "FSCN1" ["l"="15.426,-0.295"]
 "FSCN2" ["l"="15.475,-0.287"]
 "FSCN3" ["l"="15.464,-0.267"]
-"CRYGN" -> "FGF22"
-"CRYGN" -> "FGF23"
-"CRYGN" -> "FSCN3"
-"CRYGN" -> "FGF17"
-"FGF1" -> "FGF11"
-"FGF1" -> "FGF20"
-"FGF1" -> "FGF9"
-"FGF1" -> "FGF10"
-"FGF10" -> "FGF7"
-"FGF10" -> "FGF5"
-"FGF10" -> "FGF20"
-"FGF10" -> "FGF9"
-"FGF11" -> "FGF23"
-"FGF11" -> "FGF20"
-"FGF11" -> "FGF3"
-"FGF11" -> "FGF10"
-"FGF12" -> "FGF11"
-"FGF12" -> "FGF9"
-"FGF12" -> "FGF3"
-"FGF12" -> "FGF6"
-"FGF17" -> "FGF8"
-"FGF17" -> "FGF18"
-"FGF17" -> "FGF3"
-"FGF17" -> "FGF22"
-"FGF18" -> "FGF17"
-"FGF18" -> "FGF19"
-"FGF18" -> "FGF9"
-"FGF18" -> "FGF11"
-"FGF19" -> "FGF23"
-"FGF19" -> "FGF21"
-"FGF19" -> "FGF6"
-"FGF19" -> "FGF20"
-"FGF20" -> "FGF9"
-"FGF20" -> "FGF4"
-"FGF20" -> "FGF6"
-"FGF20" -> "FGF10"
-"FGF21" -> "FGF23"
-"FGF21" -> "FGF19"
-"FGF21" -> "FGF11"
-"FGF21" -> "FGF22"
-"FGF22" -> "FGF3"
-"FGF22" -> "FGF20"
-"FGF22" -> "FGF6"
-"FGF22" -> "FGF17"
-"FGF23" -> "FGF19"
-"FGF23" -> "FGF21"
-"FGF23" -> "FGF11"
-"FGF23" -> "FGF7"
-"FGF3" -> "FGF22"
-"FGF3" -> "FGF11"
-"FGF3" -> "FGF17"
-"FGF3" -> "FGF20"
-"FGF4" -> "FGF20"
-"FGF4" -> "FGF6"
-"FGF4" -> "FGF3"
-"FGF4" -> "FGF10"
-"FGF5" -> "FGF10"
-"FGF5" -> "FGF7"
-"FGF5" -> "FGF20"
-"FGF5" -> "FGF11"
-"FGF6" -> "FGF20"
-"FGF6" -> "FGF9"
-"FGF6" -> "FGF22"
-"FGF6" -> "FGF19"
-"FGF7" -> "FGF10"
-"FGF7" -> "FGF9"
-"FGF7" -> "FGF23"
-"FGF7" -> "FGF5"
-"FGF8" -> "FGF17"
-"FGF8" -> "FGF19"
-"FGF8" -> "FGF3"
-"FGF8" -> "FGF18"
-"FGF9" -> "FGF20"
-"FGF9" -> "FGF6"
-"FGF9" -> "FGF7"
-"FGF9" -> "FGF10"
-"FSCN1" -> "FSCN2"
-"FSCN1" -> "FSCN3"
-"FSCN1" -> "FGF17"
-"FSCN1" -> "FGF19"
-"FSCN2" -> "FSCN3"
-"FSCN2" -> "FSCN1"
-"FSCN2" -> "FGF22"
-"FSCN2" -> "FGF11"
-"FSCN3" -> "FSCN2"
-"FSCN3" -> "FGF22"
-"FSCN3" -> "CRYGN"
-"FSCN3" -> "FGF11"
+"CRYGN" -> "FGF22" ["e"=1]
+"CRYGN" -> "FGF23" ["e"=1]
+"CRYGN" -> "FSCN3" ["e"=1]
+"CRYGN" -> "FGF17" ["e"=1]
+"FGF1" -> "FGF11" ["e"=1]
+"FGF1" -> "FGF20" ["e"=1]
+"FGF1" -> "FGF9" ["e"=1]
+"FGF1" -> "FGF10" ["e"=1]
+"FGF10" -> "FGF7" ["e"=1]
+"FGF10" -> "FGF5" ["e"=1]
+"FGF10" -> "FGF20" ["e"=1]
+"FGF10" -> "FGF9" ["e"=1]
+"FGF11" -> "FGF23" ["e"=1]
+"FGF11" -> "FGF20" ["e"=1]
+"FGF11" -> "FGF3" ["e"=1]
+"FGF11" -> "FGF10" ["e"=1]
+"FGF12" -> "FGF11" ["e"=1]
+"FGF12" -> "FGF9" ["e"=1]
+"FGF12" -> "FGF3" ["e"=1]
+"FGF12" -> "FGF6" ["e"=1]
+"FGF17" -> "FGF8" ["e"=1]
+"FGF17" -> "FGF18" ["e"=1]
+"FGF17" -> "FGF3" ["e"=1]
+"FGF17" -> "FGF22" ["e"=1]
+"FGF18" -> "FGF17" ["e"=1]
+"FGF18" -> "FGF19" ["e"=1]
+"FGF18" -> "FGF9" ["e"=1]
+"FGF18" -> "FGF11" ["e"=1]
+"FGF19" -> "FGF23" ["e"=1]
+"FGF19" -> "FGF21" ["e"=1]
+"FGF19" -> "FGF6" ["e"=1]
+"FGF19" -> "FGF20" ["e"=1]
+"FGF20" -> "FGF9" ["e"=1]
+"FGF20" -> "FGF4" ["e"=1]
+"FGF20" -> "FGF6" ["e"=1]
+"FGF20" -> "FGF10" ["e"=1]
+"FGF21" -> "FGF23" ["e"=1]
+"FGF21" -> "FGF19" ["e"=1]
+"FGF21" -> "FGF11" ["e"=1]
+"FGF21" -> "FGF22" ["e"=1]
+"FGF22" -> "FGF3" ["e"=1]
+"FGF22" -> "FGF20" ["e"=1]
+"FGF22" -> "FGF6" ["e"=1]
+"FGF22" -> "FGF17" ["e"=1]
+"FGF23" -> "FGF19" ["e"=1]
+"FGF23" -> "FGF21" ["e"=1]
+"FGF23" -> "FGF11" ["e"=1]
+"FGF23" -> "FGF7" ["e"=1]
+"FGF3" -> "FGF22" ["e"=1]
+"FGF3" -> "FGF11" ["e"=1]
+"FGF3" -> "FGF17" ["e"=1]
+"FGF3" -> "FGF20" ["e"=1]
+"FGF4" -> "FGF20" ["e"=1]
+"FGF4" -> "FGF6" ["e"=1]
+"FGF4" -> "FGF3" ["e"=1]
+"FGF4" -> "FGF10" ["e"=1]
+"FGF5" -> "FGF10" ["e"=1]
+"FGF5" -> "FGF7" ["e"=1]
+"FGF5" -> "FGF20" ["e"=1]
+"FGF5" -> "FGF11" ["e"=1]
+"FGF6" -> "FGF20" ["e"=1]
+"FGF6" -> "FGF9" ["e"=1]
+"FGF6" -> "FGF22" ["e"=1]
+"FGF6" -> "FGF19" ["e"=1]
+"FGF7" -> "FGF10" ["e"=1]
+"FGF7" -> "FGF9" ["e"=1]
+"FGF7" -> "FGF23" ["e"=1]
+"FGF7" -> "FGF5" ["e"=1]
+"FGF8" -> "FGF17" ["e"=1]
+"FGF8" -> "FGF19" ["e"=1]
+"FGF8" -> "FGF3" ["e"=1]
+"FGF8" -> "FGF18" ["e"=1]
+"FGF9" -> "FGF20" ["e"=1]
+"FGF9" -> "FGF6" ["e"=1]
+"FGF9" -> "FGF7" ["e"=1]
+"FGF9" -> "FGF10" ["e"=1]
+"FSCN1" -> "FSCN2" ["e"=1]
+"FSCN1" -> "FSCN3" ["e"=1]
+"FSCN1" -> "FGF17" ["e"=1]
+"FSCN1" -> "FGF19" ["e"=1]
+"FSCN2" -> "FSCN3" ["e"=1]
+"FSCN2" -> "FSCN1" ["e"=1]
+"FSCN2" -> "FGF22" ["e"=1]
+"FSCN2" -> "FGF11" ["e"=1]
+"FSCN3" -> "FSCN2" ["e"=1]
+"FSCN3" -> "FGF22" ["e"=1]
+"FSCN3" -> "CRYGN" ["e"=1]
+"FSCN3" -> "FGF11" ["e"=1]
 }

@@ -24,104 +24,104 @@ digraph G {
 "ST13" ["l"="11.190,2.728"]
 "THUMPD1" ["l"="11.190,2.651"]
 "TYW3" ["l"="11.199,2.755"]
-"CCNDBP1" -> "MAF1"
-"CCNDBP1" -> "RTRAF"
-"CCNDBP1" -> "GEMIN2"
-"CCNDBP1" -> "MED18"
-"CENPN" -> "GINS4"
-"CENPN" -> "MAD2L1"
-"CENPN" -> "MED18"
-"CENPN" -> "GINS2"
-"CHORDC1" -> "TYW3"
-"CHORDC1" -> "THUMPD1"
-"CHORDC1" -> "GEMIN2"
-"CHORDC1" -> "ST13"
-"CHTF8" -> "MED18"
-"CHTF8" -> "GINS4"
-"CHTF8" -> "PSME3"
-"CHTF8" -> "RNASEH2C"
-"GEMIN2" -> "CCNDBP1"
-"GEMIN2" -> "MAD2L1"
-"GEMIN2" -> "GINS4"
-"GEMIN2" -> "PGAM5"
-"GINS2" -> "GINS4"
-"GINS2" -> "MED18"
-"GINS2" -> "RNASEH2C"
-"GINS2" -> "PSME3"
-"GINS4" -> "GINS2"
-"GINS4" -> "MED18"
-"GINS4" -> "PSME3"
-"GINS4" -> "CHTF8"
-"ISG20L2" -> "THUMPD1"
-"ISG20L2" -> "PGAM5"
-"ISG20L2" -> "METAP2"
-"ISG20L2" -> "PSME3"
-"MAD2L1" -> "GINS4"
-"MAD2L1" -> "MED18"
-"MAD2L1" -> "GEMIN2"
-"MAD2L1" -> "RTRAF"
-"MAF1" -> "CCNDBP1"
-"MAF1" -> "MED18"
-"MAF1" -> "GINS4"
-"MAF1" -> "THUMPD1"
-"MED18" -> "GINS4"
-"MED18" -> "CHTF8"
-"MED18" -> "PSME3"
-"MED18" -> "RTRAF"
-"METAP2" -> "THUMPD1"
-"METAP2" -> "TYW3"
-"METAP2" -> "PGAM5"
-"METAP2" -> "RTRAF"
-"NT5M" -> "PGAM5"
-"NT5M" -> "GEMIN2"
-"NT5M" -> "THUMPD1"
-"NT5M" -> "GINS4"
-"PGAM5" -> "NT5M"
-"PGAM5" -> "GINS4"
-"PGAM5" -> "THUMPD1"
-"PGAM5" -> "RNASEH2C"
-"PSME1" -> "PSME2"
-"PSME1" -> "PSME3"
-"PSME1" -> "SF3A3"
-"PSME1" -> "MED18"
-"PSME2" -> "PSME1"
-"PSME2" -> "PSME3"
-"PSME2" -> "GINS4"
-"PSME2" -> "MED18"
-"PSME3" -> "MED18"
-"PSME3" -> "GINS4"
-"PSME3" -> "CHTF8"
-"PSME3" -> "SF3A3"
-"RNASEH2C" -> "GINS4"
-"RNASEH2C" -> "GINS2"
-"RNASEH2C" -> "PGAM5"
-"RNASEH2C" -> "CHTF8"
-"ROPN1" -> "GEMIN2"
-"ROPN1" -> "RTRAF"
-"ROPN1" -> "MED18"
-"ROPN1" -> "MAD2L1"
-"RTRAF" -> "MED18"
-"RTRAF" -> "CCNDBP1"
-"RTRAF" -> "MAD2L1"
-"RTRAF" -> "GINS2"
-"SF3A3" -> "PSME3"
-"SF3A3" -> "GINS4"
-"SF3A3" -> "MED18"
-"SF3A3" -> "GEMIN2"
-"SNF8" -> "GINS4"
-"SNF8" -> "THUMPD1"
-"SNF8" -> "RTRAF"
-"SNF8" -> "MED18"
-"ST13" -> "CHORDC1"
-"ST13" -> "RTRAF"
-"ST13" -> "METAP2"
-"ST13" -> "SF3A3"
-"THUMPD1" -> "TYW3"
-"THUMPD1" -> "PGAM5"
-"THUMPD1" -> "METAP2"
-"THUMPD1" -> "CHORDC1"
-"TYW3" -> "THUMPD1"
-"TYW3" -> "CHORDC1"
-"TYW3" -> "MED18"
-"TYW3" -> "METAP2"
+"CCNDBP1" -> "MAF1" ["e"=1]
+"CCNDBP1" -> "RTRAF" ["e"=1]
+"CCNDBP1" -> "GEMIN2" ["e"=1]
+"CCNDBP1" -> "MED18" ["e"=1]
+"CENPN" -> "GINS4" ["e"=1]
+"CENPN" -> "MAD2L1" ["e"=1]
+"CENPN" -> "MED18" ["e"=1]
+"CENPN" -> "GINS2" ["e"=1]
+"CHORDC1" -> "TYW3" ["e"=1]
+"CHORDC1" -> "THUMPD1" ["e"=1]
+"CHORDC1" -> "GEMIN2" ["e"=1]
+"CHORDC1" -> "ST13" ["e"=1]
+"CHTF8" -> "MED18" ["e"=1]
+"CHTF8" -> "GINS4" ["e"=1]
+"CHTF8" -> "PSME3" ["e"=1]
+"CHTF8" -> "RNASEH2C" ["e"=1]
+"GEMIN2" -> "CCNDBP1" ["e"=1]
+"GEMIN2" -> "MAD2L1" ["e"=1]
+"GEMIN2" -> "GINS4" ["e"=1]
+"GEMIN2" -> "PGAM5" ["e"=1]
+"GINS2" -> "GINS4" ["e"=1]
+"GINS2" -> "MED18" ["e"=1]
+"GINS2" -> "RNASEH2C" ["e"=1]
+"GINS2" -> "PSME3" ["e"=1]
+"GINS4" -> "GINS2" ["e"=1]
+"GINS4" -> "MED18" ["e"=1]
+"GINS4" -> "PSME3" ["e"=1]
+"GINS4" -> "CHTF8" ["e"=1]
+"ISG20L2" -> "THUMPD1" ["e"=1]
+"ISG20L2" -> "PGAM5" ["e"=1]
+"ISG20L2" -> "METAP2" ["e"=1]
+"ISG20L2" -> "PSME3" ["e"=1]
+"MAD2L1" -> "GINS4" ["e"=1]
+"MAD2L1" -> "MED18" ["e"=1]
+"MAD2L1" -> "GEMIN2" ["e"=1]
+"MAD2L1" -> "RTRAF" ["e"=1]
+"MAF1" -> "CCNDBP1" ["e"=1]
+"MAF1" -> "MED18" ["e"=1]
+"MAF1" -> "GINS4" ["e"=1]
+"MAF1" -> "THUMPD1" ["e"=1]
+"MED18" -> "GINS4" ["e"=1]
+"MED18" -> "CHTF8" ["e"=1]
+"MED18" -> "PSME3" ["e"=1]
+"MED18" -> "RTRAF" ["e"=1]
+"METAP2" -> "THUMPD1" ["e"=1]
+"METAP2" -> "TYW3" ["e"=1]
+"METAP2" -> "PGAM5" ["e"=1]
+"METAP2" -> "RTRAF" ["e"=1]
+"NT5M" -> "PGAM5" ["e"=1]
+"NT5M" -> "GEMIN2" ["e"=1]
+"NT5M" -> "THUMPD1" ["e"=1]
+"NT5M" -> "GINS4" ["e"=1]
+"PGAM5" -> "NT5M" ["e"=1]
+"PGAM5" -> "GINS4" ["e"=1]
+"PGAM5" -> "THUMPD1" ["e"=1]
+"PGAM5" -> "RNASEH2C" ["e"=1]
+"PSME1" -> "PSME2" ["e"=1]
+"PSME1" -> "PSME3" ["e"=1]
+"PSME1" -> "SF3A3" ["e"=1]
+"PSME1" -> "MED18" ["e"=1]
+"PSME2" -> "PSME1" ["e"=1]
+"PSME2" -> "PSME3" ["e"=1]
+"PSME2" -> "GINS4" ["e"=1]
+"PSME2" -> "MED18" ["e"=1]
+"PSME3" -> "MED18" ["e"=1]
+"PSME3" -> "GINS4" ["e"=1]
+"PSME3" -> "CHTF8" ["e"=1]
+"PSME3" -> "SF3A3" ["e"=1]
+"RNASEH2C" -> "GINS4" ["e"=1]
+"RNASEH2C" -> "GINS2" ["e"=1]
+"RNASEH2C" -> "PGAM5" ["e"=1]
+"RNASEH2C" -> "CHTF8" ["e"=1]
+"ROPN1" -> "GEMIN2" ["e"=1]
+"ROPN1" -> "RTRAF" ["e"=1]
+"ROPN1" -> "MED18" ["e"=1]
+"ROPN1" -> "MAD2L1" ["e"=1]
+"RTRAF" -> "MED18" ["e"=1]
+"RTRAF" -> "CCNDBP1" ["e"=1]
+"RTRAF" -> "MAD2L1" ["e"=1]
+"RTRAF" -> "GINS2" ["e"=1]
+"SF3A3" -> "PSME3" ["e"=1]
+"SF3A3" -> "GINS4" ["e"=1]
+"SF3A3" -> "MED18" ["e"=1]
+"SF3A3" -> "GEMIN2" ["e"=1]
+"SNF8" -> "GINS4" ["e"=1]
+"SNF8" -> "THUMPD1" ["e"=1]
+"SNF8" -> "RTRAF" ["e"=1]
+"SNF8" -> "MED18" ["e"=1]
+"ST13" -> "CHORDC1" ["e"=1]
+"ST13" -> "RTRAF" ["e"=1]
+"ST13" -> "METAP2" ["e"=1]
+"ST13" -> "SF3A3" ["e"=1]
+"THUMPD1" -> "TYW3" ["e"=1]
+"THUMPD1" -> "PGAM5" ["e"=1]
+"THUMPD1" -> "METAP2" ["e"=1]
+"THUMPD1" -> "CHORDC1" ["e"=1]
+"TYW3" -> "THUMPD1" ["e"=1]
+"TYW3" -> "CHORDC1" ["e"=1]
+"TYW3" -> "MED18" ["e"=1]
+"TYW3" -> "METAP2" ["e"=1]
 }

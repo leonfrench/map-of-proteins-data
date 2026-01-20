@@ -33,140 +33,140 @@ digraph G {
 "WIPF3" ["l"="8.256,1.437"]
 "WNK2" ["l"="8.321,1.572"]
 "ZBBX" ["l"="8.453,1.338"]
-"CAMSAP3" -> "MAPK7"
-"CAMSAP3" -> "ESPN"
-"CAMSAP3" -> "WNK2"
-"CAMSAP3" -> "KIAA0753"
-"CAP2" -> "WASF3"
-"CAP2" -> "WIPF3"
-"CAP2" -> "CBLB"
-"CAP2" -> "WASF2"
-"CBLB" -> "WASF3"
-"CBLB" -> "WIPF3"
-"CBLB" -> "WASF2"
-"CBLB" -> "WIPF2"
-"CCDC66" -> "KIAA1328"
-"CCDC66" -> "FSIP1"
-"CCDC66" -> "KIAA0753"
-"CCDC66" -> "CSPP1"
-"CCDC7" -> "FSIP1"
-"CCDC7" -> "NEK1"
-"CCDC7" -> "CCDC66"
-"CCDC7" -> "KIAA1328"
-"CSPP1" -> "CCDC66"
-"CSPP1" -> "NEK1"
-"CSPP1" -> "KIAA0753"
-"CSPP1" -> "KIAA1328"
-"ESPN" -> "WASF3"
-"ESPN" -> "WIPF3"
-"ESPN" -> "WASF1"
-"ESPN" -> "WASF2"
-"EVL" -> "VASP"
-"EVL" -> "MTFR1"
-"EVL" -> "WASHC1"
-"EVL" -> "WASF3"
-"FMN2" -> "WASF3"
-"FMN2" -> "WASF1"
-"FMN2" -> "WIPF3"
-"FMN2" -> "WNK2"
-"FSIP1" -> "SPICE1"
-"FSIP1" -> "KIAA1328"
-"FSIP1" -> "ZBBX"
-"FSIP1" -> "CCDC66"
-"KIAA0753" -> "SPICE1"
-"KIAA0753" -> "KIAA1328"
-"KIAA0753" -> "FSIP1"
-"KIAA0753" -> "CCDC66"
-"KIAA1328" -> "KIAA0753"
-"KIAA1328" -> "SPICE1"
-"KIAA1328" -> "FSIP1"
-"KIAA1328" -> "CCDC66"
-"MAPK7" -> "CAMSAP3"
-"MAPK7" -> "WNK2"
-"MAPK7" -> "ESPN"
-"MAPK7" -> "WASF3"
-"MIA3" -> "TACC1"
-"MIA3" -> "NEK1"
-"MIA3" -> "CCDC7"
-"MIA3" -> "KIAA0753"
-"MTFR1" -> "MTFR2"
-"MTFR1" -> "WASHC1"
-"MTFR1" -> "WASF1"
-"MTFR1" -> "VASP"
-"MTFR2" -> "MTFR1"
-"MTFR2" -> "WASF1"
-"MTFR2" -> "WASF3"
-"MTFR2" -> "CAP2"
-"NEK1" -> "CCDC66"
-"NEK1" -> "KIAA0753"
-"NEK1" -> "CSPP1"
-"NEK1" -> "KIAA1328"
-"RIMBP3" -> "RIMBP3B"
-"RIMBP3" -> "RIMBP3C"
-"RIMBP3" -> "KIAA1328"
-"RIMBP3" -> "KIAA0753"
-"RIMBP3B" -> "RIMBP3"
-"RIMBP3B" -> "RIMBP3C"
-"RIMBP3B" -> "KIAA1328"
-"RIMBP3B" -> "KIAA0753"
-"RIMBP3C" -> "RIMBP3"
-"RIMBP3C" -> "RIMBP3B"
-"RIMBP3C" -> "KIAA1328"
-"RIMBP3C" -> "KIAA0753"
-"SPICE1" -> "KIAA0753"
-"SPICE1" -> "FSIP1"
-"SPICE1" -> "KIAA1328"
-"SPICE1" -> "ZBBX"
-"TACC1" -> "TACC3"
-"TACC1" -> "FSIP1"
-"TACC1" -> "MIA3"
-"TACC1" -> "KIAA1328"
-"TACC3" -> "TACC1"
-"TACC3" -> "FSIP1"
-"TACC3" -> "FMN2"
-"TACC3" -> "SPICE1"
-"VASP" -> "EVL"
-"VASP" -> "WASL"
-"VASP" -> "WASF2"
-"VASP" -> "WIPF3"
-"WASF1" -> "WASF3"
-"WASF1" -> "WASL"
-"WASF1" -> "WASF2"
-"WASF1" -> "WIPF3"
-"WASF2" -> "WASF3"
-"WASF2" -> "WASL"
-"WASF2" -> "WIPF2"
-"WASF2" -> "WIPF3"
-"WASF3" -> "WASF2"
-"WASF3" -> "CBLB"
-"WASF3" -> "WASF1"
-"WASF3" -> "WASL"
-"WASHC1" -> "WASF3"
-"WASHC1" -> "WASF2"
-"WASHC1" -> "MTFR1"
-"WASHC1" -> "VASP"
-"WASL" -> "WASF2"
-"WASL" -> "WASF3"
-"WASL" -> "WIPF3"
-"WASL" -> "WIPF2"
-"WIPF1" -> "WIPF2"
-"WIPF1" -> "WIPF3"
-"WIPF1" -> "WASF2"
-"WIPF1" -> "WASL"
-"WIPF2" -> "WIPF3"
-"WIPF2" -> "WIPF1"
-"WIPF2" -> "WASF2"
-"WIPF2" -> "WASF3"
-"WIPF3" -> "WIPF2"
-"WIPF3" -> "WIPF1"
-"WIPF3" -> "WASF2"
-"WIPF3" -> "WASF3"
-"WNK2" -> "FMN2"
-"WNK2" -> "WASF3"
-"WNK2" -> "KIAA0753"
-"WNK2" -> "TACC1"
-"ZBBX" -> "FSIP1"
-"ZBBX" -> "SPICE1"
-"ZBBX" -> "KIAA1328"
-"ZBBX" -> "KIAA0753"
+"CAMSAP3" -> "MAPK7" ["e"=1]
+"CAMSAP3" -> "ESPN" ["e"=1]
+"CAMSAP3" -> "WNK2" ["e"=1]
+"CAMSAP3" -> "KIAA0753" ["e"=1]
+"CAP2" -> "WASF3" ["e"=1]
+"CAP2" -> "WIPF3" ["e"=1]
+"CAP2" -> "CBLB" ["e"=1]
+"CAP2" -> "WASF2" ["e"=1]
+"CBLB" -> "WASF3" ["e"=1]
+"CBLB" -> "WIPF3" ["e"=1]
+"CBLB" -> "WASF2" ["e"=1]
+"CBLB" -> "WIPF2" ["e"=1]
+"CCDC66" -> "KIAA1328" ["e"=1]
+"CCDC66" -> "FSIP1" ["e"=1]
+"CCDC66" -> "KIAA0753" ["e"=1]
+"CCDC66" -> "CSPP1" ["e"=1]
+"CCDC7" -> "FSIP1" ["e"=1]
+"CCDC7" -> "NEK1" ["e"=1]
+"CCDC7" -> "CCDC66" ["e"=1]
+"CCDC7" -> "KIAA1328" ["e"=1]
+"CSPP1" -> "CCDC66" ["e"=1]
+"CSPP1" -> "NEK1" ["e"=1]
+"CSPP1" -> "KIAA0753" ["e"=1]
+"CSPP1" -> "KIAA1328" ["e"=1]
+"ESPN" -> "WASF3" ["e"=1]
+"ESPN" -> "WIPF3" ["e"=1]
+"ESPN" -> "WASF1" ["e"=1]
+"ESPN" -> "WASF2" ["e"=1]
+"EVL" -> "VASP" ["e"=1]
+"EVL" -> "MTFR1" ["e"=1]
+"EVL" -> "WASHC1" ["e"=1]
+"EVL" -> "WASF3" ["e"=1]
+"FMN2" -> "WASF3" ["e"=1]
+"FMN2" -> "WASF1" ["e"=1]
+"FMN2" -> "WIPF3" ["e"=1]
+"FMN2" -> "WNK2" ["e"=1]
+"FSIP1" -> "SPICE1" ["e"=1]
+"FSIP1" -> "KIAA1328" ["e"=1]
+"FSIP1" -> "ZBBX" ["e"=1]
+"FSIP1" -> "CCDC66" ["e"=1]
+"KIAA0753" -> "SPICE1" ["e"=1]
+"KIAA0753" -> "KIAA1328" ["e"=1]
+"KIAA0753" -> "FSIP1" ["e"=1]
+"KIAA0753" -> "CCDC66" ["e"=1]
+"KIAA1328" -> "KIAA0753" ["e"=1]
+"KIAA1328" -> "SPICE1" ["e"=1]
+"KIAA1328" -> "FSIP1" ["e"=1]
+"KIAA1328" -> "CCDC66" ["e"=1]
+"MAPK7" -> "CAMSAP3" ["e"=1]
+"MAPK7" -> "WNK2" ["e"=1]
+"MAPK7" -> "ESPN" ["e"=1]
+"MAPK7" -> "WASF3" ["e"=1]
+"MIA3" -> "TACC1" ["e"=1]
+"MIA3" -> "NEK1" ["e"=1]
+"MIA3" -> "CCDC7" ["e"=1]
+"MIA3" -> "KIAA0753" ["e"=1]
+"MTFR1" -> "MTFR2" ["e"=1]
+"MTFR1" -> "WASHC1" ["e"=1]
+"MTFR1" -> "WASF1" ["e"=1]
+"MTFR1" -> "VASP" ["e"=1]
+"MTFR2" -> "MTFR1" ["e"=1]
+"MTFR2" -> "WASF1" ["e"=1]
+"MTFR2" -> "WASF3" ["e"=1]
+"MTFR2" -> "CAP2" ["e"=1]
+"NEK1" -> "CCDC66" ["e"=1]
+"NEK1" -> "KIAA0753" ["e"=1]
+"NEK1" -> "CSPP1" ["e"=1]
+"NEK1" -> "KIAA1328" ["e"=1]
+"RIMBP3" -> "RIMBP3B" ["e"=1]
+"RIMBP3" -> "RIMBP3C" ["e"=1]
+"RIMBP3" -> "KIAA1328" ["e"=1]
+"RIMBP3" -> "KIAA0753" ["e"=1]
+"RIMBP3B" -> "RIMBP3" ["e"=1]
+"RIMBP3B" -> "RIMBP3C" ["e"=1]
+"RIMBP3B" -> "KIAA1328" ["e"=1]
+"RIMBP3B" -> "KIAA0753" ["e"=1]
+"RIMBP3C" -> "RIMBP3" ["e"=1]
+"RIMBP3C" -> "RIMBP3B" ["e"=1]
+"RIMBP3C" -> "KIAA1328" ["e"=1]
+"RIMBP3C" -> "KIAA0753" ["e"=1]
+"SPICE1" -> "KIAA0753" ["e"=1]
+"SPICE1" -> "FSIP1" ["e"=1]
+"SPICE1" -> "KIAA1328" ["e"=1]
+"SPICE1" -> "ZBBX" ["e"=1]
+"TACC1" -> "TACC3" ["e"=1]
+"TACC1" -> "FSIP1" ["e"=1]
+"TACC1" -> "MIA3" ["e"=1]
+"TACC1" -> "KIAA1328" ["e"=1]
+"TACC3" -> "TACC1" ["e"=1]
+"TACC3" -> "FSIP1" ["e"=1]
+"TACC3" -> "FMN2" ["e"=1]
+"TACC3" -> "SPICE1" ["e"=1]
+"VASP" -> "EVL" ["e"=1]
+"VASP" -> "WASL" ["e"=1]
+"VASP" -> "WASF2" ["e"=1]
+"VASP" -> "WIPF3" ["e"=1]
+"WASF1" -> "WASF3" ["e"=1]
+"WASF1" -> "WASL" ["e"=1]
+"WASF1" -> "WASF2" ["e"=1]
+"WASF1" -> "WIPF3" ["e"=1]
+"WASF2" -> "WASF3" ["e"=1]
+"WASF2" -> "WASL" ["e"=1]
+"WASF2" -> "WIPF2" ["e"=1]
+"WASF2" -> "WIPF3" ["e"=1]
+"WASF3" -> "WASF2" ["e"=1]
+"WASF3" -> "CBLB" ["e"=1]
+"WASF3" -> "WASF1" ["e"=1]
+"WASF3" -> "WASL" ["e"=1]
+"WASHC1" -> "WASF3" ["e"=1]
+"WASHC1" -> "WASF2" ["e"=1]
+"WASHC1" -> "MTFR1" ["e"=1]
+"WASHC1" -> "VASP" ["e"=1]
+"WASL" -> "WASF2" ["e"=1]
+"WASL" -> "WASF3" ["e"=1]
+"WASL" -> "WIPF3" ["e"=1]
+"WASL" -> "WIPF2" ["e"=1]
+"WIPF1" -> "WIPF2" ["e"=1]
+"WIPF1" -> "WIPF3" ["e"=1]
+"WIPF1" -> "WASF2" ["e"=1]
+"WIPF1" -> "WASL" ["e"=1]
+"WIPF2" -> "WIPF3" ["e"=1]
+"WIPF2" -> "WIPF1" ["e"=1]
+"WIPF2" -> "WASF2" ["e"=1]
+"WIPF2" -> "WASF3" ["e"=1]
+"WIPF3" -> "WIPF2" ["e"=1]
+"WIPF3" -> "WIPF1" ["e"=1]
+"WIPF3" -> "WASF2" ["e"=1]
+"WIPF3" -> "WASF3" ["e"=1]
+"WNK2" -> "FMN2" ["e"=1]
+"WNK2" -> "WASF3" ["e"=1]
+"WNK2" -> "KIAA0753" ["e"=1]
+"WNK2" -> "TACC1" ["e"=1]
+"ZBBX" -> "FSIP1" ["e"=1]
+"ZBBX" -> "SPICE1" ["e"=1]
+"ZBBX" -> "KIAA1328" ["e"=1]
+"ZBBX" -> "KIAA0753" ["e"=1]
 }

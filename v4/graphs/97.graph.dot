@@ -55,228 +55,228 @@ digraph G {
 "TNFSF4" ["l"="15.704,-0.689"]
 "TNFSF8" ["l"="15.673,-0.752"]
 "TNFSF9" ["l"="15.541,-0.831"]
-"ADIPOQ" -> "C1QTNF1"
-"ADIPOQ" -> "C1QTNF3"
-"ADIPOQ" -> "C1QTNF7"
-"ADIPOQ" -> "C1QTNF6"
-"C1QA" -> "C1QB"
-"C1QA" -> "C1QC"
-"C1QA" -> "C1QTNF5"
-"C1QA" -> "C1QTNF2"
-"C1QB" -> "C1QA"
-"C1QB" -> "C1QC"
-"C1QB" -> "C1QTNF5"
-"C1QB" -> "C1QTNF2"
-"C1QC" -> "C1QB"
-"C1QC" -> "C1QA"
-"C1QC" -> "C1QTNF5"
-"C1QC" -> "C1QTNF2"
-"C1QL1" -> "C1QL2"
-"C1QL1" -> "C1QL4"
-"C1QL1" -> "C1QL3"
-"C1QL1" -> "CBLN4"
-"C1QL2" -> "C1QL4"
-"C1QL2" -> "C1QL1"
-"C1QL2" -> "C1QL3"
-"C1QL2" -> "CBLN4"
-"C1QL3" -> "C1QL1"
-"C1QL3" -> "C1QL2"
-"C1QL3" -> "C1QL4"
-"C1QL3" -> "CBLN4"
-"C1QL4" -> "C1QL2"
-"C1QL4" -> "C1QL1"
-"C1QL4" -> "C1QL3"
-"C1QL4" -> "C1QTNF6"
-"C1QTNF1" -> "ADIPOQ"
-"C1QTNF1" -> "C1QTNF6"
-"C1QTNF1" -> "C1QTNF8"
-"C1QTNF1" -> "C1QTNF3"
-"C1QTNF12" -> "ERFE"
-"C1QTNF12" -> "C1QTNF8"
-"C1QTNF12" -> "TNFSF13"
-"C1QTNF12" -> "CBLN3"
-"C1QTNF2" -> "C1QTNF3"
-"C1QTNF2" -> "C1QTNF5"
-"C1QTNF2" -> "C1QTNF6"
-"C1QTNF2" -> "C1QTNF7"
-"C1QTNF3" -> "ADIPOQ"
-"C1QTNF3" -> "C1QTNF2"
-"C1QTNF3" -> "C1QTNF6"
-"C1QTNF3" -> "C1QTNF7"
-"C1QTNF4" -> "TNFSF9"
-"C1QTNF4" -> "C1QTNF8"
-"C1QTNF4" -> "CBLN3"
-"C1QTNF4" -> "CBLN4"
-"C1QTNF5" -> "C1QTNF2"
-"C1QTNF5" -> "ADIPOQ"
-"C1QTNF5" -> "C1QA"
-"C1QTNF5" -> "C1QL4"
-"C1QTNF6" -> "C1QTNF1"
-"C1QTNF6" -> "C1QTNF8"
-"C1QTNF6" -> "C1QTNF3"
-"C1QTNF6" -> "ADIPOQ"
-"C1QTNF7" -> "ADIPOQ"
-"C1QTNF7" -> "C1QTNF3"
-"C1QTNF7" -> "C1QTNF2"
-"C1QTNF7" -> "C1QTNF6"
-"C1QTNF8" -> "C1QTNF6"
-"C1QTNF8" -> "CBLN3"
-"C1QTNF8" -> "C1QTNF1"
-"C1QTNF8" -> "TNFSF12"
-"CBLN1" -> "CBLN3"
-"CBLN1" -> "CBLN2"
-"CBLN1" -> "CBLN4"
-"CBLN1" -> "C1QL4"
-"CBLN2" -> "CBLN1"
-"CBLN2" -> "CBLN4"
-"CBLN2" -> "CBLN3"
-"CBLN2" -> "C1QL3"
-"CBLN3" -> "CBLN1"
-"CBLN3" -> "C1QTNF8"
-"CBLN3" -> "CBLN2"
-"CBLN3" -> "TNFSF12"
-"CBLN4" -> "CBLN2"
-"CBLN4" -> "CBLN1"
-"CBLN4" -> "C1QL2"
-"CBLN4" -> "C1QL3"
-"CD70" -> "TNFSF14"
-"CD70" -> "LTA"
-"CD70" -> "TNFSF15"
-"CD70" -> "TNFSF18"
-"COLEC10" -> "COLEC11"
-"COLEC10" -> "MBL2"
-"COLEC10" -> "C1QTNF3"
-"COLEC10" -> "SFTPA2"
-"COLEC11" -> "COLEC10"
-"COLEC11" -> "SFTPA1"
-"COLEC11" -> "SFTPA2"
-"COLEC11" -> "FCN2"
-"COLEC12" -> "SCARA3"
-"COLEC12" -> "SCARA5"
-"COLEC12" -> "MSR1"
-"COLEC12" -> "EMILIN2"
-"CTHRC1" -> "C1QTNF3"
-"CTHRC1" -> "C1QTNF6"
-"CTHRC1" -> "CBLN4"
-"CTHRC1" -> "C1QL2"
-"EMILIN1" -> "EMILIN3"
-"EMILIN1" -> "MMRN2"
-"EMILIN1" -> "EMILIN2"
-"EMILIN1" -> "SCARA5"
-"EMILIN2" -> "MMRN2"
-"EMILIN2" -> "EMILIN3"
-"EMILIN2" -> "COLEC12"
-"EMILIN2" -> "SCARA5"
-"EMILIN3" -> "EMILIN1"
-"EMILIN3" -> "MMRN2"
-"EMILIN3" -> "EMILIN2"
-"EMILIN3" -> "ERFE"
-"ERFE" -> "C1QTNF12"
-"ERFE" -> "C1QTNF8"
-"ERFE" -> "CBLN3"
-"ERFE" -> "C1QTNF6"
-"FASLG" -> "TNFSF18"
-"FASLG" -> "TNFSF8"
-"FASLG" -> "TNFSF15"
-"FASLG" -> "TNF"
-"FCN1" -> "FCN2"
-"FCN1" -> "COLEC10"
-"FCN1" -> "MBL2"
-"FCN1" -> "FCN3"
-"FCN2" -> "FCN3"
-"FCN2" -> "COLEC11"
-"FCN2" -> "FCN1"
-"FCN2" -> "SFTPA2"
-"FCN3" -> "FCN2"
-"FCN3" -> "FCN1"
-"FCN3" -> "MBL2"
-"FCN3" -> "SFTPA1"
-"GLDN" -> "MSR1"
-"GLDN" -> "C1QTNF6"
-"GLDN" -> "ADIPOQ"
-"GLDN" -> "C1QTNF3"
-"LTA" -> "TNFSF14"
-"LTA" -> "CD70"
-"LTA" -> "TNFSF15"
-"LTA" -> "TNFSF11"
-"LTB" -> "CD70"
-"LTB" -> "CBLN3"
-"LTB" -> "TNFSF10"
-"LTB" -> "C1QTNF12"
-"MBL2" -> "COLEC10"
-"MBL2" -> "SFTPA2"
-"MBL2" -> "SFTPA1"
-"MBL2" -> "ADIPOQ"
-"MMRN2" -> "EMILIN3"
-"MMRN2" -> "EMILIN2"
-"MMRN2" -> "EMILIN1"
-"MMRN2" -> "SCARA5"
-"MSR1" -> "COLEC12"
-"MSR1" -> "GLDN"
-"MSR1" -> "SCARA5"
-"MSR1" -> "COLEC10"
-"SCARA3" -> "COLEC12"
-"SCARA3" -> "SCARA5"
-"SCARA3" -> "MSR1"
-"SCARA3" -> "COLEC10"
-"SCARA5" -> "COLEC12"
-"SCARA5" -> "SCARA3"
-"SCARA5" -> "MSR1"
-"SCARA5" -> "EMILIN2"
-"SFTPA1" -> "SFTPA2"
-"SFTPA1" -> "COLEC11"
-"SFTPA1" -> "COLEC10"
-"SFTPA1" -> "MBL2"
-"SFTPA2" -> "SFTPA1"
-"SFTPA2" -> "COLEC11"
-"SFTPA2" -> "MBL2"
-"SFTPA2" -> "COLEC10"
-"TNF" -> "TNFSF15"
-"TNF" -> "FASLG"
-"TNF" -> "TNFSF14"
-"TNF" -> "TNFSF18"
-"TNFSF10" -> "TNFSF15"
-"TNFSF10" -> "TNFSF13B"
-"TNFSF10" -> "TNFSF18"
-"TNFSF10" -> "TNFSF8"
-"TNFSF11" -> "TNFSF15"
-"TNFSF11" -> "TNFSF13B"
-"TNFSF11" -> "TNFSF10"
-"TNFSF11" -> "TNFSF8"
-"TNFSF12" -> "TNFSF13"
-"TNFSF12" -> "CBLN3"
-"TNFSF12" -> "C1QTNF8"
-"TNFSF12" -> "TNFSF9"
-"TNFSF13" -> "TNFSF12"
-"TNFSF13" -> "TNFSF13B"
-"TNFSF13" -> "CBLN3"
-"TNFSF13" -> "C1QTNF12"
-"TNFSF13B" -> "TNFSF15"
-"TNFSF13B" -> "TNFSF10"
-"TNFSF13B" -> "TNFSF18"
-"TNFSF13B" -> "TNFSF11"
-"TNFSF14" -> "TNFSF15"
-"TNFSF14" -> "CD70"
-"TNFSF14" -> "LTA"
-"TNFSF14" -> "TNFSF18"
-"TNFSF15" -> "TNFSF14"
-"TNFSF15" -> "TNFSF11"
-"TNFSF15" -> "TNFSF13B"
-"TNFSF15" -> "TNFSF10"
-"TNFSF18" -> "TNFSF8"
-"TNFSF18" -> "TNFSF4"
-"TNFSF18" -> "TNFSF13B"
-"TNFSF18" -> "TNFSF15"
-"TNFSF4" -> "TNFSF18"
-"TNFSF4" -> "TNFSF13B"
-"TNFSF4" -> "TNFSF15"
-"TNFSF4" -> "TNFSF8"
-"TNFSF8" -> "TNFSF18"
-"TNFSF8" -> "TNFSF15"
-"TNFSF8" -> "FASLG"
-"TNFSF8" -> "TNFSF13B"
-"TNFSF9" -> "C1QTNF4"
-"TNFSF9" -> "CBLN3"
-"TNFSF9" -> "TNFSF12"
-"TNFSF9" -> "C1QTNF8"
+"ADIPOQ" -> "C1QTNF1" ["e"=1]
+"ADIPOQ" -> "C1QTNF3" ["e"=1]
+"ADIPOQ" -> "C1QTNF7" ["e"=1]
+"ADIPOQ" -> "C1QTNF6" ["e"=1]
+"C1QA" -> "C1QB" ["e"=1]
+"C1QA" -> "C1QC" ["e"=1]
+"C1QA" -> "C1QTNF5" ["e"=1]
+"C1QA" -> "C1QTNF2" ["e"=1]
+"C1QB" -> "C1QA" ["e"=1]
+"C1QB" -> "C1QC" ["e"=1]
+"C1QB" -> "C1QTNF5" ["e"=1]
+"C1QB" -> "C1QTNF2" ["e"=1]
+"C1QC" -> "C1QB" ["e"=1]
+"C1QC" -> "C1QA" ["e"=1]
+"C1QC" -> "C1QTNF5" ["e"=1]
+"C1QC" -> "C1QTNF2" ["e"=1]
+"C1QL1" -> "C1QL2" ["e"=1]
+"C1QL1" -> "C1QL4" ["e"=1]
+"C1QL1" -> "C1QL3" ["e"=1]
+"C1QL1" -> "CBLN4" ["e"=1]
+"C1QL2" -> "C1QL4" ["e"=1]
+"C1QL2" -> "C1QL1" ["e"=1]
+"C1QL2" -> "C1QL3" ["e"=1]
+"C1QL2" -> "CBLN4" ["e"=1]
+"C1QL3" -> "C1QL1" ["e"=1]
+"C1QL3" -> "C1QL2" ["e"=1]
+"C1QL3" -> "C1QL4" ["e"=1]
+"C1QL3" -> "CBLN4" ["e"=1]
+"C1QL4" -> "C1QL2" ["e"=1]
+"C1QL4" -> "C1QL1" ["e"=1]
+"C1QL4" -> "C1QL3" ["e"=1]
+"C1QL4" -> "C1QTNF6" ["e"=1]
+"C1QTNF1" -> "ADIPOQ" ["e"=1]
+"C1QTNF1" -> "C1QTNF6" ["e"=1]
+"C1QTNF1" -> "C1QTNF8" ["e"=1]
+"C1QTNF1" -> "C1QTNF3" ["e"=1]
+"C1QTNF12" -> "ERFE" ["e"=1]
+"C1QTNF12" -> "C1QTNF8" ["e"=1]
+"C1QTNF12" -> "TNFSF13" ["e"=1]
+"C1QTNF12" -> "CBLN3" ["e"=1]
+"C1QTNF2" -> "C1QTNF3" ["e"=1]
+"C1QTNF2" -> "C1QTNF5" ["e"=1]
+"C1QTNF2" -> "C1QTNF6" ["e"=1]
+"C1QTNF2" -> "C1QTNF7" ["e"=1]
+"C1QTNF3" -> "ADIPOQ" ["e"=1]
+"C1QTNF3" -> "C1QTNF2" ["e"=1]
+"C1QTNF3" -> "C1QTNF6" ["e"=1]
+"C1QTNF3" -> "C1QTNF7" ["e"=1]
+"C1QTNF4" -> "TNFSF9" ["e"=1]
+"C1QTNF4" -> "C1QTNF8" ["e"=1]
+"C1QTNF4" -> "CBLN3" ["e"=1]
+"C1QTNF4" -> "CBLN4" ["e"=1]
+"C1QTNF5" -> "C1QTNF2" ["e"=1]
+"C1QTNF5" -> "ADIPOQ" ["e"=1]
+"C1QTNF5" -> "C1QA" ["e"=1]
+"C1QTNF5" -> "C1QL4" ["e"=1]
+"C1QTNF6" -> "C1QTNF1" ["e"=1]
+"C1QTNF6" -> "C1QTNF8" ["e"=1]
+"C1QTNF6" -> "C1QTNF3" ["e"=1]
+"C1QTNF6" -> "ADIPOQ" ["e"=1]
+"C1QTNF7" -> "ADIPOQ" ["e"=1]
+"C1QTNF7" -> "C1QTNF3" ["e"=1]
+"C1QTNF7" -> "C1QTNF2" ["e"=1]
+"C1QTNF7" -> "C1QTNF6" ["e"=1]
+"C1QTNF8" -> "C1QTNF6" ["e"=1]
+"C1QTNF8" -> "CBLN3" ["e"=1]
+"C1QTNF8" -> "C1QTNF1" ["e"=1]
+"C1QTNF8" -> "TNFSF12" ["e"=1]
+"CBLN1" -> "CBLN3" ["e"=1]
+"CBLN1" -> "CBLN2" ["e"=1]
+"CBLN1" -> "CBLN4" ["e"=1]
+"CBLN1" -> "C1QL4" ["e"=1]
+"CBLN2" -> "CBLN1" ["e"=1]
+"CBLN2" -> "CBLN4" ["e"=1]
+"CBLN2" -> "CBLN3" ["e"=1]
+"CBLN2" -> "C1QL3" ["e"=1]
+"CBLN3" -> "CBLN1" ["e"=1]
+"CBLN3" -> "C1QTNF8" ["e"=1]
+"CBLN3" -> "CBLN2" ["e"=1]
+"CBLN3" -> "TNFSF12" ["e"=1]
+"CBLN4" -> "CBLN2" ["e"=1]
+"CBLN4" -> "CBLN1" ["e"=1]
+"CBLN4" -> "C1QL2" ["e"=1]
+"CBLN4" -> "C1QL3" ["e"=1]
+"CD70" -> "TNFSF14" ["e"=1]
+"CD70" -> "LTA" ["e"=1]
+"CD70" -> "TNFSF15" ["e"=1]
+"CD70" -> "TNFSF18" ["e"=1]
+"COLEC10" -> "COLEC11" ["e"=1]
+"COLEC10" -> "MBL2" ["e"=1]
+"COLEC10" -> "C1QTNF3" ["e"=1]
+"COLEC10" -> "SFTPA2" ["e"=1]
+"COLEC11" -> "COLEC10" ["e"=1]
+"COLEC11" -> "SFTPA1" ["e"=1]
+"COLEC11" -> "SFTPA2" ["e"=1]
+"COLEC11" -> "FCN2" ["e"=1]
+"COLEC12" -> "SCARA3" ["e"=1]
+"COLEC12" -> "SCARA5" ["e"=1]
+"COLEC12" -> "MSR1" ["e"=1]
+"COLEC12" -> "EMILIN2" ["e"=1]
+"CTHRC1" -> "C1QTNF3" ["e"=1]
+"CTHRC1" -> "C1QTNF6" ["e"=1]
+"CTHRC1" -> "CBLN4" ["e"=1]
+"CTHRC1" -> "C1QL2" ["e"=1]
+"EMILIN1" -> "EMILIN3" ["e"=1]
+"EMILIN1" -> "MMRN2" ["e"=1]
+"EMILIN1" -> "EMILIN2" ["e"=1]
+"EMILIN1" -> "SCARA5" ["e"=1]
+"EMILIN2" -> "MMRN2" ["e"=1]
+"EMILIN2" -> "EMILIN3" ["e"=1]
+"EMILIN2" -> "COLEC12" ["e"=1]
+"EMILIN2" -> "SCARA5" ["e"=1]
+"EMILIN3" -> "EMILIN1" ["e"=1]
+"EMILIN3" -> "MMRN2" ["e"=1]
+"EMILIN3" -> "EMILIN2" ["e"=1]
+"EMILIN3" -> "ERFE" ["e"=1]
+"ERFE" -> "C1QTNF12" ["e"=1]
+"ERFE" -> "C1QTNF8" ["e"=1]
+"ERFE" -> "CBLN3" ["e"=1]
+"ERFE" -> "C1QTNF6" ["e"=1]
+"FASLG" -> "TNFSF18" ["e"=1]
+"FASLG" -> "TNFSF8" ["e"=1]
+"FASLG" -> "TNFSF15" ["e"=1]
+"FASLG" -> "TNF" ["e"=1]
+"FCN1" -> "FCN2" ["e"=1]
+"FCN1" -> "COLEC10" ["e"=1]
+"FCN1" -> "MBL2" ["e"=1]
+"FCN1" -> "FCN3" ["e"=1]
+"FCN2" -> "FCN3" ["e"=1]
+"FCN2" -> "COLEC11" ["e"=1]
+"FCN2" -> "FCN1" ["e"=1]
+"FCN2" -> "SFTPA2" ["e"=1]
+"FCN3" -> "FCN2" ["e"=1]
+"FCN3" -> "FCN1" ["e"=1]
+"FCN3" -> "MBL2" ["e"=1]
+"FCN3" -> "SFTPA1" ["e"=1]
+"GLDN" -> "MSR1" ["e"=1]
+"GLDN" -> "C1QTNF6" ["e"=1]
+"GLDN" -> "ADIPOQ" ["e"=1]
+"GLDN" -> "C1QTNF3" ["e"=1]
+"LTA" -> "TNFSF14" ["e"=1]
+"LTA" -> "CD70" ["e"=1]
+"LTA" -> "TNFSF15" ["e"=1]
+"LTA" -> "TNFSF11" ["e"=1]
+"LTB" -> "CD70" ["e"=1]
+"LTB" -> "CBLN3" ["e"=1]
+"LTB" -> "TNFSF10" ["e"=1]
+"LTB" -> "C1QTNF12" ["e"=1]
+"MBL2" -> "COLEC10" ["e"=1]
+"MBL2" -> "SFTPA2" ["e"=1]
+"MBL2" -> "SFTPA1" ["e"=1]
+"MBL2" -> "ADIPOQ" ["e"=1]
+"MMRN2" -> "EMILIN3" ["e"=1]
+"MMRN2" -> "EMILIN2" ["e"=1]
+"MMRN2" -> "EMILIN1" ["e"=1]
+"MMRN2" -> "SCARA5" ["e"=1]
+"MSR1" -> "COLEC12" ["e"=1]
+"MSR1" -> "GLDN" ["e"=1]
+"MSR1" -> "SCARA5" ["e"=1]
+"MSR1" -> "COLEC10" ["e"=1]
+"SCARA3" -> "COLEC12" ["e"=1]
+"SCARA3" -> "SCARA5" ["e"=1]
+"SCARA3" -> "MSR1" ["e"=1]
+"SCARA3" -> "COLEC10" ["e"=1]
+"SCARA5" -> "COLEC12" ["e"=1]
+"SCARA5" -> "SCARA3" ["e"=1]
+"SCARA5" -> "MSR1" ["e"=1]
+"SCARA5" -> "EMILIN2" ["e"=1]
+"SFTPA1" -> "SFTPA2" ["e"=1]
+"SFTPA1" -> "COLEC11" ["e"=1]
+"SFTPA1" -> "COLEC10" ["e"=1]
+"SFTPA1" -> "MBL2" ["e"=1]
+"SFTPA2" -> "SFTPA1" ["e"=1]
+"SFTPA2" -> "COLEC11" ["e"=1]
+"SFTPA2" -> "MBL2" ["e"=1]
+"SFTPA2" -> "COLEC10" ["e"=1]
+"TNF" -> "TNFSF15" ["e"=1]
+"TNF" -> "FASLG" ["e"=1]
+"TNF" -> "TNFSF14" ["e"=1]
+"TNF" -> "TNFSF18" ["e"=1]
+"TNFSF10" -> "TNFSF15" ["e"=1]
+"TNFSF10" -> "TNFSF13B" ["e"=1]
+"TNFSF10" -> "TNFSF18" ["e"=1]
+"TNFSF10" -> "TNFSF8" ["e"=1]
+"TNFSF11" -> "TNFSF15" ["e"=1]
+"TNFSF11" -> "TNFSF13B" ["e"=1]
+"TNFSF11" -> "TNFSF10" ["e"=1]
+"TNFSF11" -> "TNFSF8" ["e"=1]
+"TNFSF12" -> "TNFSF13" ["e"=1]
+"TNFSF12" -> "CBLN3" ["e"=1]
+"TNFSF12" -> "C1QTNF8" ["e"=1]
+"TNFSF12" -> "TNFSF9" ["e"=1]
+"TNFSF13" -> "TNFSF12" ["e"=1]
+"TNFSF13" -> "TNFSF13B" ["e"=1]
+"TNFSF13" -> "CBLN3" ["e"=1]
+"TNFSF13" -> "C1QTNF12" ["e"=1]
+"TNFSF13B" -> "TNFSF15" ["e"=1]
+"TNFSF13B" -> "TNFSF10" ["e"=1]
+"TNFSF13B" -> "TNFSF18" ["e"=1]
+"TNFSF13B" -> "TNFSF11" ["e"=1]
+"TNFSF14" -> "TNFSF15" ["e"=1]
+"TNFSF14" -> "CD70" ["e"=1]
+"TNFSF14" -> "LTA" ["e"=1]
+"TNFSF14" -> "TNFSF18" ["e"=1]
+"TNFSF15" -> "TNFSF14" ["e"=1]
+"TNFSF15" -> "TNFSF11" ["e"=1]
+"TNFSF15" -> "TNFSF13B" ["e"=1]
+"TNFSF15" -> "TNFSF10" ["e"=1]
+"TNFSF18" -> "TNFSF8" ["e"=1]
+"TNFSF18" -> "TNFSF4" ["e"=1]
+"TNFSF18" -> "TNFSF13B" ["e"=1]
+"TNFSF18" -> "TNFSF15" ["e"=1]
+"TNFSF4" -> "TNFSF18" ["e"=1]
+"TNFSF4" -> "TNFSF13B" ["e"=1]
+"TNFSF4" -> "TNFSF15" ["e"=1]
+"TNFSF4" -> "TNFSF8" ["e"=1]
+"TNFSF8" -> "TNFSF18" ["e"=1]
+"TNFSF8" -> "TNFSF15" ["e"=1]
+"TNFSF8" -> "FASLG" ["e"=1]
+"TNFSF8" -> "TNFSF13B" ["e"=1]
+"TNFSF9" -> "C1QTNF4" ["e"=1]
+"TNFSF9" -> "CBLN3" ["e"=1]
+"TNFSF9" -> "TNFSF12" ["e"=1]
+"TNFSF9" -> "C1QTNF8" ["e"=1]
 }

@@ -41,172 +41,172 @@ digraph G {
 "TOMM22" ["l"="12.252,3.271"]
 "TRAPPC1" ["l"="11.940,3.441"]
 "TRAPPC2L" ["l"="11.954,3.260"]
-"ATP6V1F" -> "DYNLRB1"
-"ATP6V1F" -> "DNAL4"
-"ATP6V1F" -> "ENY2"
-"ATP6V1F" -> "SAP18"
-"BOLA2" -> "BOLA2B"
-"BOLA2" -> "CENPX"
-"BOLA2" -> "POLR2J"
-"BOLA2" -> "NAA38"
-"BOLA2B" -> "BOLA2"
-"BOLA2B" -> "CENPX"
-"BOLA2B" -> "NAA38"
-"BOLA2B" -> "CIAO2B"
-"BUD31" -> "DNAL4"
-"BUD31" -> "SUPT4H1"
-"BUD31" -> "MAGOH"
-"BUD31" -> "GTF2A2"
-"C2orf76" -> "DYNLRB2"
-"C2orf76" -> "ELOC"
-"C2orf76" -> "RPA3"
-"C2orf76" -> "MAGOH"
-"CENPX" -> "BOLA2"
-"CENPX" -> "NAA38"
-"CENPX" -> "LSM10"
-"CENPX" -> "TRAPPC2L"
-"CIAO2B" -> "ATP6V1F"
-"CIAO2B" -> "GTF2A2"
-"CIAO2B" -> "MIEN1"
-"CIAO2B" -> "TOMM22"
-"CKS1B" -> "GTF2A2"
-"CKS1B" -> "ENY2"
-"CKS1B" -> "DNAL4"
-"CKS1B" -> "SAP18"
-"CRIPT" -> "POLR3K"
-"CRIPT" -> "SUPT4H1"
-"CRIPT" -> "CZIB"
-"CRIPT" -> "DNAL4"
-"CSNK2B" -> "MAGOH"
-"CSNK2B" -> "SUPT4H1"
-"CSNK2B" -> "ATP6V1F"
-"CSNK2B" -> "BUD31"
-"CSTB" -> "GCHFR"
-"CSTB" -> "SELENOW"
-"CSTB" -> "DNAL4"
-"CSTB" -> "SAP18"
-"CZIB" -> "POLR3K"
-"CZIB" -> "SUPT4H1"
-"CZIB" -> "CRIPT"
-"CZIB" -> "DNAL4"
-"DNAL4" -> "DYNLT1"
-"DNAL4" -> "ATP6V1F"
-"DNAL4" -> "SAP18"
-"DNAL4" -> "GTF2A2"
-"DYNLRB1" -> "ATP6V1F"
-"DYNLRB1" -> "DYNLRB2"
-"DYNLRB1" -> "POLR2J"
-"DYNLRB1" -> "GTF2A2"
-"DYNLRB2" -> "DYNLRB1"
-"DYNLRB2" -> "DNAL4"
-"DYNLRB2" -> "RPA3"
-"DYNLRB2" -> "DYNLT1"
-"DYNLT1" -> "DNAL4"
-"DYNLT1" -> "DYNLRB1"
-"DYNLT1" -> "GTF2A2"
-"DYNLT1" -> "SAP18"
-"ELOC" -> "ENY2"
-"ELOC" -> "POMP"
-"ELOC" -> "SAP18"
-"ELOC" -> "ATP6V1F"
-"ENY2" -> "GTF2A2"
-"ENY2" -> "ATP6V1F"
-"ENY2" -> "DNAL4"
-"ENY2" -> "SAP18"
-"FKBP1B" -> "DNAL4"
-"FKBP1B" -> "DYNLRB1"
-"FKBP1B" -> "SAP18"
-"FKBP1B" -> "SELENOW"
-"GCHFR" -> "DNAL4"
-"GCHFR" -> "MIEN1"
-"GCHFR" -> "CSTB"
-"GCHFR" -> "LAMTOR5"
-"GTF2A2" -> "ENY2"
-"GTF2A2" -> "DNAL4"
-"GTF2A2" -> "SUPT4H1"
-"GTF2A2" -> "LAMTOR2"
-"GTF3C6" -> "RPA3"
-"GTF3C6" -> "TOMM22"
-"GTF3C6" -> "GTF2A2"
-"GTF3C6" -> "POLR2J"
-"HSPB11" -> "RPA3"
-"HSPB11" -> "C2orf76"
-"HSPB11" -> "GTF3C6"
-"HSPB11" -> "ELOC"
-"LAMTOR2" -> "LAMTOR5"
-"LAMTOR2" -> "TRAPPC1"
-"LAMTOR2" -> "TRAPPC2L"
-"LAMTOR2" -> "GTF2A2"
-"LAMTOR4" -> "TRAPPC2L"
-"LAMTOR4" -> "LAMTOR5"
-"LAMTOR4" -> "MIEN1"
-"LAMTOR4" -> "TRAPPC1"
-"LAMTOR5" -> "LAMTOR2"
-"LAMTOR5" -> "MIEN1"
-"LAMTOR5" -> "GTF2A2"
-"LAMTOR5" -> "LAMTOR4"
-"LSM10" -> "CENPX"
-"LSM10" -> "GTF2A2"
-"LSM10" -> "ATP6V1F"
-"LSM10" -> "POLR2J"
-"MAGOH" -> "SAP18"
-"MAGOH" -> "ATP6V1F"
-"MAGOH" -> "GTF2A2"
-"MAGOH" -> "SF3B6"
-"MIEN1" -> "DNAL4"
-"MIEN1" -> "ATP6V1F"
-"MIEN1" -> "TRAPPC2L"
-"MIEN1" -> "LAMTOR5"
-"NAA38" -> "CENPX"
-"NAA38" -> "MIEN1"
-"NAA38" -> "BOLA2"
-"NAA38" -> "DNAL4"
-"PFN1" -> "SAP18"
-"PFN1" -> "DNAL4"
-"PFN1" -> "DYNLT1"
-"PFN1" -> "SELENOW"
-"POLR2J" -> "DYNLRB1"
-"POLR2J" -> "TRAPPC2L"
-"POLR2J" -> "DNAL4"
-"POLR2J" -> "GTF2A2"
-"POLR3K" -> "SUPT4H1"
-"POLR3K" -> "CRIPT"
-"POLR3K" -> "CZIB"
-"POLR3K" -> "DNAL4"
-"POMP" -> "GTF2A2"
-"POMP" -> "ELOC"
-"POMP" -> "SAP18"
-"POMP" -> "TOMM22"
-"RPA3" -> "DYNLRB2"
-"RPA3" -> "GTF3C6"
-"RPA3" -> "POLR2J"
-"RPA3" -> "GTF2A2"
-"SAP18" -> "DNAL4"
-"SAP18" -> "ATP6V1F"
-"SAP18" -> "GTF2A2"
-"SAP18" -> "MAGOH"
-"SELENOW" -> "DNAL4"
-"SELENOW" -> "MIEN1"
-"SELENOW" -> "CSTB"
-"SELENOW" -> "CZIB"
-"SF3B6" -> "GTF2A2"
-"SF3B6" -> "MAGOH"
-"SF3B6" -> "SAP18"
-"SF3B6" -> "ENY2"
-"SUPT4H1" -> "POLR3K"
-"SUPT4H1" -> "GTF2A2"
-"SUPT4H1" -> "CZIB"
-"SUPT4H1" -> "DNAL4"
-"TOMM22" -> "DNAL4"
-"TOMM22" -> "GTF2A2"
-"TOMM22" -> "POMP"
-"TOMM22" -> "CIAO2B"
-"TRAPPC1" -> "TRAPPC2L"
-"TRAPPC1" -> "LAMTOR2"
-"TRAPPC1" -> "POLR2J"
-"TRAPPC1" -> "DNAL4"
-"TRAPPC2L" -> "TRAPPC1"
-"TRAPPC2L" -> "LAMTOR2"
-"TRAPPC2L" -> "POLR2J"
-"TRAPPC2L" -> "DNAL4"
+"ATP6V1F" -> "DYNLRB1" ["e"=1]
+"ATP6V1F" -> "DNAL4" ["e"=1]
+"ATP6V1F" -> "ENY2" ["e"=1]
+"ATP6V1F" -> "SAP18" ["e"=1]
+"BOLA2" -> "BOLA2B" ["e"=1]
+"BOLA2" -> "CENPX" ["e"=1]
+"BOLA2" -> "POLR2J" ["e"=1]
+"BOLA2" -> "NAA38" ["e"=1]
+"BOLA2B" -> "BOLA2" ["e"=1]
+"BOLA2B" -> "CENPX" ["e"=1]
+"BOLA2B" -> "NAA38" ["e"=1]
+"BOLA2B" -> "CIAO2B" ["e"=1]
+"BUD31" -> "DNAL4" ["e"=1]
+"BUD31" -> "SUPT4H1" ["e"=1]
+"BUD31" -> "MAGOH" ["e"=1]
+"BUD31" -> "GTF2A2" ["e"=1]
+"C2orf76" -> "DYNLRB2" ["e"=1]
+"C2orf76" -> "ELOC" ["e"=1]
+"C2orf76" -> "RPA3" ["e"=1]
+"C2orf76" -> "MAGOH" ["e"=1]
+"CENPX" -> "BOLA2" ["e"=1]
+"CENPX" -> "NAA38" ["e"=1]
+"CENPX" -> "LSM10" ["e"=1]
+"CENPX" -> "TRAPPC2L" ["e"=1]
+"CIAO2B" -> "ATP6V1F" ["e"=1]
+"CIAO2B" -> "GTF2A2" ["e"=1]
+"CIAO2B" -> "MIEN1" ["e"=1]
+"CIAO2B" -> "TOMM22" ["e"=1]
+"CKS1B" -> "GTF2A2" ["e"=1]
+"CKS1B" -> "ENY2" ["e"=1]
+"CKS1B" -> "DNAL4" ["e"=1]
+"CKS1B" -> "SAP18" ["e"=1]
+"CRIPT" -> "POLR3K" ["e"=1]
+"CRIPT" -> "SUPT4H1" ["e"=1]
+"CRIPT" -> "CZIB" ["e"=1]
+"CRIPT" -> "DNAL4" ["e"=1]
+"CSNK2B" -> "MAGOH" ["e"=1]
+"CSNK2B" -> "SUPT4H1" ["e"=1]
+"CSNK2B" -> "ATP6V1F" ["e"=1]
+"CSNK2B" -> "BUD31" ["e"=1]
+"CSTB" -> "GCHFR" ["e"=1]
+"CSTB" -> "SELENOW" ["e"=1]
+"CSTB" -> "DNAL4" ["e"=1]
+"CSTB" -> "SAP18" ["e"=1]
+"CZIB" -> "POLR3K" ["e"=1]
+"CZIB" -> "SUPT4H1" ["e"=1]
+"CZIB" -> "CRIPT" ["e"=1]
+"CZIB" -> "DNAL4" ["e"=1]
+"DNAL4" -> "DYNLT1" ["e"=1]
+"DNAL4" -> "ATP6V1F" ["e"=1]
+"DNAL4" -> "SAP18" ["e"=1]
+"DNAL4" -> "GTF2A2" ["e"=1]
+"DYNLRB1" -> "ATP6V1F" ["e"=1]
+"DYNLRB1" -> "DYNLRB2" ["e"=1]
+"DYNLRB1" -> "POLR2J" ["e"=1]
+"DYNLRB1" -> "GTF2A2" ["e"=1]
+"DYNLRB2" -> "DYNLRB1" ["e"=1]
+"DYNLRB2" -> "DNAL4" ["e"=1]
+"DYNLRB2" -> "RPA3" ["e"=1]
+"DYNLRB2" -> "DYNLT1" ["e"=1]
+"DYNLT1" -> "DNAL4" ["e"=1]
+"DYNLT1" -> "DYNLRB1" ["e"=1]
+"DYNLT1" -> "GTF2A2" ["e"=1]
+"DYNLT1" -> "SAP18" ["e"=1]
+"ELOC" -> "ENY2" ["e"=1]
+"ELOC" -> "POMP" ["e"=1]
+"ELOC" -> "SAP18" ["e"=1]
+"ELOC" -> "ATP6V1F" ["e"=1]
+"ENY2" -> "GTF2A2" ["e"=1]
+"ENY2" -> "ATP6V1F" ["e"=1]
+"ENY2" -> "DNAL4" ["e"=1]
+"ENY2" -> "SAP18" ["e"=1]
+"FKBP1B" -> "DNAL4" ["e"=1]
+"FKBP1B" -> "DYNLRB1" ["e"=1]
+"FKBP1B" -> "SAP18" ["e"=1]
+"FKBP1B" -> "SELENOW" ["e"=1]
+"GCHFR" -> "DNAL4" ["e"=1]
+"GCHFR" -> "MIEN1" ["e"=1]
+"GCHFR" -> "CSTB" ["e"=1]
+"GCHFR" -> "LAMTOR5" ["e"=1]
+"GTF2A2" -> "ENY2" ["e"=1]
+"GTF2A2" -> "DNAL4" ["e"=1]
+"GTF2A2" -> "SUPT4H1" ["e"=1]
+"GTF2A2" -> "LAMTOR2" ["e"=1]
+"GTF3C6" -> "RPA3" ["e"=1]
+"GTF3C6" -> "TOMM22" ["e"=1]
+"GTF3C6" -> "GTF2A2" ["e"=1]
+"GTF3C6" -> "POLR2J" ["e"=1]
+"HSPB11" -> "RPA3" ["e"=1]
+"HSPB11" -> "C2orf76" ["e"=1]
+"HSPB11" -> "GTF3C6" ["e"=1]
+"HSPB11" -> "ELOC" ["e"=1]
+"LAMTOR2" -> "LAMTOR5" ["e"=1]
+"LAMTOR2" -> "TRAPPC1" ["e"=1]
+"LAMTOR2" -> "TRAPPC2L" ["e"=1]
+"LAMTOR2" -> "GTF2A2" ["e"=1]
+"LAMTOR4" -> "TRAPPC2L" ["e"=1]
+"LAMTOR4" -> "LAMTOR5" ["e"=1]
+"LAMTOR4" -> "MIEN1" ["e"=1]
+"LAMTOR4" -> "TRAPPC1" ["e"=1]
+"LAMTOR5" -> "LAMTOR2" ["e"=1]
+"LAMTOR5" -> "MIEN1" ["e"=1]
+"LAMTOR5" -> "GTF2A2" ["e"=1]
+"LAMTOR5" -> "LAMTOR4" ["e"=1]
+"LSM10" -> "CENPX" ["e"=1]
+"LSM10" -> "GTF2A2" ["e"=1]
+"LSM10" -> "ATP6V1F" ["e"=1]
+"LSM10" -> "POLR2J" ["e"=1]
+"MAGOH" -> "SAP18" ["e"=1]
+"MAGOH" -> "ATP6V1F" ["e"=1]
+"MAGOH" -> "GTF2A2" ["e"=1]
+"MAGOH" -> "SF3B6" ["e"=1]
+"MIEN1" -> "DNAL4" ["e"=1]
+"MIEN1" -> "ATP6V1F" ["e"=1]
+"MIEN1" -> "TRAPPC2L" ["e"=1]
+"MIEN1" -> "LAMTOR5" ["e"=1]
+"NAA38" -> "CENPX" ["e"=1]
+"NAA38" -> "MIEN1" ["e"=1]
+"NAA38" -> "BOLA2" ["e"=1]
+"NAA38" -> "DNAL4" ["e"=1]
+"PFN1" -> "SAP18" ["e"=1]
+"PFN1" -> "DNAL4" ["e"=1]
+"PFN1" -> "DYNLT1" ["e"=1]
+"PFN1" -> "SELENOW" ["e"=1]
+"POLR2J" -> "DYNLRB1" ["e"=1]
+"POLR2J" -> "TRAPPC2L" ["e"=1]
+"POLR2J" -> "DNAL4" ["e"=1]
+"POLR2J" -> "GTF2A2" ["e"=1]
+"POLR3K" -> "SUPT4H1" ["e"=1]
+"POLR3K" -> "CRIPT" ["e"=1]
+"POLR3K" -> "CZIB" ["e"=1]
+"POLR3K" -> "DNAL4" ["e"=1]
+"POMP" -> "GTF2A2" ["e"=1]
+"POMP" -> "ELOC" ["e"=1]
+"POMP" -> "SAP18" ["e"=1]
+"POMP" -> "TOMM22" ["e"=1]
+"RPA3" -> "DYNLRB2" ["e"=1]
+"RPA3" -> "GTF3C6" ["e"=1]
+"RPA3" -> "POLR2J" ["e"=1]
+"RPA3" -> "GTF2A2" ["e"=1]
+"SAP18" -> "DNAL4" ["e"=1]
+"SAP18" -> "ATP6V1F" ["e"=1]
+"SAP18" -> "GTF2A2" ["e"=1]
+"SAP18" -> "MAGOH" ["e"=1]
+"SELENOW" -> "DNAL4" ["e"=1]
+"SELENOW" -> "MIEN1" ["e"=1]
+"SELENOW" -> "CSTB" ["e"=1]
+"SELENOW" -> "CZIB" ["e"=1]
+"SF3B6" -> "GTF2A2" ["e"=1]
+"SF3B6" -> "MAGOH" ["e"=1]
+"SF3B6" -> "SAP18" ["e"=1]
+"SF3B6" -> "ENY2" ["e"=1]
+"SUPT4H1" -> "POLR3K" ["e"=1]
+"SUPT4H1" -> "GTF2A2" ["e"=1]
+"SUPT4H1" -> "CZIB" ["e"=1]
+"SUPT4H1" -> "DNAL4" ["e"=1]
+"TOMM22" -> "DNAL4" ["e"=1]
+"TOMM22" -> "GTF2A2" ["e"=1]
+"TOMM22" -> "POMP" ["e"=1]
+"TOMM22" -> "CIAO2B" ["e"=1]
+"TRAPPC1" -> "TRAPPC2L" ["e"=1]
+"TRAPPC1" -> "LAMTOR2" ["e"=1]
+"TRAPPC1" -> "POLR2J" ["e"=1]
+"TRAPPC1" -> "DNAL4" ["e"=1]
+"TRAPPC2L" -> "TRAPPC1" ["e"=1]
+"TRAPPC2L" -> "LAMTOR2" ["e"=1]
+"TRAPPC2L" -> "POLR2J" ["e"=1]
+"TRAPPC2L" -> "DNAL4" ["e"=1]
 }

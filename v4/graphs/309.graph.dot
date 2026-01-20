@@ -65,268 +65,268 @@ digraph G {
 "ZNF512B" ["l"="8.552,2.537"]
 "ZNF750" ["l"="8.233,3.034"]
 "ZNF831" ["l"="8.393,2.458"]
-"AKAP3" -> "PPP1R26"
-"AKAP3" -> "C4orf54"
-"AKAP3" -> "PCARE"
-"AKAP3" -> "C17orf80"
-"AKNA" -> "CCDC187"
-"AKNA" -> "KIAA1614"
-"AKNA" -> "KIAA1522"
-"AKNA" -> "NUTM2G"
-"AMER3" -> "KIAA1614"
-"AMER3" -> "ZNF831"
-"AMER3" -> "PCARE"
-"AMER3" -> "DACT2"
-"ANKRD40" -> "IST1"
-"ANKRD40" -> "SKIL"
-"ANKRD40" -> "MLXIPL"
-"ANKRD40" -> "BAHD1"
-"ATXN7L2" -> "NUTM2E"
-"ATXN7L2" -> "NUTM2G"
-"ATXN7L2" -> "NUTM2D"
-"ATXN7L2" -> "ZC3H3"
-"BAHD1" -> "C15orf39"
-"BAHD1" -> "KIAA1614"
-"BAHD1" -> "KRBA1"
-"BAHD1" -> "KIAA1522"
-"BRD2" -> "NUTM2E"
-"BRD2" -> "ZNF512B"
-"BRD2" -> "SMARCD1"
-"BRD2" -> "NUTM2G"
-"C15orf39" -> "BAHD1"
-"C15orf39" -> "NUTM2D"
-"C15orf39" -> "NUTM2B"
-"C15orf39" -> "NUTM2E"
-"C17orf80" -> "KIAA1614"
-"C17orf80" -> "ZNF831"
-"C17orf80" -> "AMER3"
-"C17orf80" -> "KRBA1"
-"C4orf54" -> "JCAD"
-"C4orf54" -> "SYNPO2"
-"C4orf54" -> "PPP1R26"
-"C4orf54" -> "PCARE"
-"C6orf132" -> "KIAA1522"
-"C6orf132" -> "SYNPO2L"
-"C6orf132" -> "SYNPO"
-"C6orf132" -> "ZNF750"
-"CCDC116" -> "PCARE"
-"CCDC116" -> "NUTM2E"
-"CCDC116" -> "KIAA1614"
-"CCDC116" -> "NUTM2D"
-"CCDC187" -> "AKNA"
-"CCDC187" -> "KIAA1614"
-"CCDC187" -> "KRBA1"
-"CCDC187" -> "NUTM2G"
-"DACT2" -> "KIAA1614"
-"DACT2" -> "AMER3"
-"DACT2" -> "NCKAP5L"
-"DACT2" -> "PCARE"
-"GAS2L2" -> "NUTM2G"
-"GAS2L2" -> "NUTM1"
-"GAS2L2" -> "NUTM2F"
-"GAS2L2" -> "PCARE"
-"GGN" -> "SYNPO2L"
-"GGN" -> "C6orf132"
-"GGN" -> "BAHD1"
-"GGN" -> "KIAA1522"
-"GTF2A1L" -> "ANKRD40"
-"GTF2A1L" -> "SKIL"
-"GTF2A1L" -> "MYB"
-"GTF2A1L" -> "HIF1A"
-"HIF1A" -> "MYB"
-"HIF1A" -> "NPAS4"
-"HIF1A" -> "NUTM2E"
-"HIF1A" -> "SKIL"
-"IRS2" -> "C4orf54"
-"IRS2" -> "DACT2"
-"IRS2" -> "C6orf132"
-"IRS2" -> "AMER3"
-"IST1" -> "ANKRD40"
-"IST1" -> "SMARCD1"
-"IST1" -> "SMARCD2"
-"IST1" -> "SKIL"
-"JCAD" -> "AMER3"
-"JCAD" -> "KIAA1614"
-"JCAD" -> "PPP1R26"
-"JCAD" -> "ZNF831"
-"KIAA1522" -> "C6orf132"
-"KIAA1522" -> "KIAA1614"
-"KIAA1522" -> "SYNPO2L"
-"KIAA1522" -> "SYNPO"
-"KIAA1614" -> "AMER3"
-"KIAA1614" -> "PCARE"
-"KIAA1614" -> "AKNA"
-"KIAA1614" -> "KRBA1"
-"KRBA1" -> "KIAA1614"
-"KRBA1" -> "CCDC187"
-"KRBA1" -> "AMER3"
-"KRBA1" -> "NUTM2D"
-"LRRC53" -> "PCARE"
-"LRRC53" -> "GAS2L2"
-"LRRC53" -> "NUTM1"
-"LRRC53" -> "ZNF831"
-"MAPT" -> "KIAA1614"
-"MAPT" -> "PCARE"
-"MAPT" -> "SYNPO2L"
-"MAPT" -> "SYNPO"
-"MISP" -> "KIAA1614"
-"MISP" -> "CCDC187"
-"MISP" -> "AMER3"
-"MISP" -> "DACT2"
-"MLXIPL" -> "ANKRD40"
-"MLXIPL" -> "NUTM2F"
-"MLXIPL" -> "NUTM2G"
-"MLXIPL" -> "NUTM2E"
-"MYB" -> "TFDP2"
-"MYB" -> "HIF1A"
-"MYB" -> "KIAA1614"
-"MYB" -> "NUTM2E"
-"NCKAP5L" -> "DACT2"
-"NCKAP5L" -> "KIAA1614"
-"NCKAP5L" -> "KRBA1"
-"NCKAP5L" -> "ZNF831"
-"NELFE" -> "SNRNP35"
-"NELFE" -> "RBM15B"
-"NELFE" -> "IST1"
-"NELFE" -> "SMARCD1"
-"NPAS4" -> "HIF1A"
-"NPAS4" -> "NUTM2E"
-"NPAS4" -> "PRR22"
-"NPAS4" -> "DACT2"
-"NUTM1" -> "NUTM2D"
-"NUTM1" -> "NUTM2G"
-"NUTM1" -> "NUTM2F"
-"NUTM1" -> "NUTM2B"
-"NUTM2A" -> "NUTM2B"
-"NUTM2A" -> "NUTM2D"
-"NUTM2A" -> "NUTM2E"
-"NUTM2A" -> "NUTM2G"
-"NUTM2B" -> "NUTM2D"
-"NUTM2B" -> "NUTM2A"
-"NUTM2B" -> "NUTM2E"
-"NUTM2B" -> "NUTM2G"
-"NUTM2D" -> "NUTM2B"
-"NUTM2D" -> "NUTM2A"
-"NUTM2D" -> "NUTM2E"
-"NUTM2D" -> "NUTM2G"
-"NUTM2E" -> "NUTM2D"
-"NUTM2E" -> "NUTM2B"
-"NUTM2E" -> "NUTM2A"
-"NUTM2E" -> "NUTM2G"
-"NUTM2F" -> "NUTM2B"
-"NUTM2F" -> "NUTM2D"
-"NUTM2F" -> "NUTM2G"
-"NUTM2F" -> "NUTM2A"
-"NUTM2G" -> "NUTM2B"
-"NUTM2G" -> "NUTM2D"
-"NUTM2G" -> "NUTM2A"
-"NUTM2G" -> "NUTM2F"
-"PCARE" -> "KIAA1614"
-"PCARE" -> "NUTM1"
-"PCARE" -> "AMER3"
-"PCARE" -> "GAS2L2"
-"PCED1B" -> "YY1AP1"
-"PCED1B" -> "NPAS4"
-"PCED1B" -> "RCOR2"
-"PCED1B" -> "ANKRD40"
-"PPP1R26" -> "JCAD"
-"PPP1R26" -> "C4orf54"
-"PPP1R26" -> "AMER3"
-"PPP1R26" -> "PCARE"
-"PROX1" -> "SKIL"
-"PROX1" -> "MYB"
-"PROX1" -> "ANKRD40"
-"PROX1" -> "C17orf80"
-"PRR22" -> "NUTM2D"
-"PRR22" -> "C15orf39"
-"PRR22" -> "NUTM2B"
-"PRR22" -> "NUTM2F"
-"PTOV1" -> "SMARCD3"
-"PTOV1" -> "SMARCD2"
-"PTOV1" -> "SMARCD1"
-"PTOV1" -> "RBM15B"
-"RBBP8NL" -> "KIAA1614"
-"RBBP8NL" -> "DACT2"
-"RBBP8NL" -> "NUTM2F"
-"RBBP8NL" -> "PCARE"
-"RBM15B" -> "C4orf54"
-"RBM15B" -> "BAHD1"
-"RBM15B" -> "SMARCD1"
-"RBM15B" -> "SMARCD2"
-"RCOR2" -> "TAF6"
-"RCOR2" -> "SMARCD1"
-"RCOR2" -> "NUTM2E"
-"RCOR2" -> "BAHD1"
-"RFX5" -> "NUTM2G"
-"RFX5" -> "GAS2L2"
-"RFX5" -> "NUTM2D"
-"RFX5" -> "NUTM1"
-"SKIL" -> "PROX1"
-"SKIL" -> "ANKRD40"
-"SKIL" -> "BAHD1"
-"SKIL" -> "HIF1A"
-"SMARCD1" -> "SMARCD2"
-"SMARCD1" -> "SMARCD3"
-"SMARCD1" -> "NUTM2A"
-"SMARCD1" -> "NUTM2E"
-"SMARCD2" -> "SMARCD1"
-"SMARCD2" -> "SMARCD3"
-"SMARCD2" -> "PTOV1"
-"SMARCD2" -> "RCOR2"
-"SMARCD3" -> "SMARCD1"
-"SMARCD3" -> "SMARCD2"
-"SMARCD3" -> "PTOV1"
-"SMARCD3" -> "RCOR2"
-"SNRNP35" -> "NELFE"
-"SNRNP35" -> "RBM15B"
-"SNRNP35" -> "C17orf80"
-"SNRNP35" -> "PROX1"
-"SYNPO" -> "SYNPO2L"
-"SYNPO" -> "KIAA1522"
-"SYNPO" -> "SYNPO2"
-"SYNPO" -> "C6orf132"
-"SYNPO2" -> "SYNPO"
-"SYNPO2" -> "SYNPO2L"
-"SYNPO2" -> "C4orf54"
-"SYNPO2" -> "KIAA1522"
-"SYNPO2L" -> "SYNPO"
-"SYNPO2L" -> "C6orf132"
-"SYNPO2L" -> "KIAA1522"
-"SYNPO2L" -> "SYNPO2"
-"TAF6" -> "RCOR2"
-"TAF6" -> "YY1AP1"
-"TAF6" -> "RFX5"
-"TAF6" -> "NUTM2E"
-"TFDP2" -> "MYB"
-"TFDP2" -> "HIF1A"
-"TFDP2" -> "SMARCD1"
-"TFDP2" -> "SKIL"
-"TNKS1BP1" -> "C6orf132"
-"TNKS1BP1" -> "KIAA1614"
-"TNKS1BP1" -> "KIAA1522"
-"TNKS1BP1" -> "AMER3"
-"XIRP1" -> "C4orf54"
-"XIRP1" -> "PCARE"
-"XIRP1" -> "NUTM1"
-"XIRP1" -> "GAS2L2"
-"YY1AP1" -> "NUTM2E"
-"YY1AP1" -> "NUTM2G"
-"YY1AP1" -> "NUTM2B"
-"YY1AP1" -> "NUTM2D"
-"ZC3H3" -> "ATXN7L2"
-"ZC3H3" -> "ZNF512B"
-"ZC3H3" -> "BAHD1"
-"ZC3H3" -> "KIAA1614"
-"ZNF512B" -> "ATXN7L2"
-"ZNF512B" -> "BAHD1"
-"ZNF512B" -> "ZC3H3"
-"ZNF512B" -> "NUTM2E"
-"ZNF750" -> "C6orf132"
-"ZNF750" -> "BAHD1"
-"ZNF750" -> "ZNF831"
-"ZNF750" -> "C15orf39"
-"ZNF831" -> "AMER3"
-"ZNF831" -> "KIAA1614"
-"ZNF831" -> "NUTM1"
-"ZNF831" -> "PCARE"
+"AKAP3" -> "PPP1R26" ["e"=1]
+"AKAP3" -> "C4orf54" ["e"=1]
+"AKAP3" -> "PCARE" ["e"=1]
+"AKAP3" -> "C17orf80" ["e"=1]
+"AKNA" -> "CCDC187" ["e"=1]
+"AKNA" -> "KIAA1614" ["e"=1]
+"AKNA" -> "KIAA1522" ["e"=1]
+"AKNA" -> "NUTM2G" ["e"=1]
+"AMER3" -> "KIAA1614" ["e"=1]
+"AMER3" -> "ZNF831" ["e"=1]
+"AMER3" -> "PCARE" ["e"=1]
+"AMER3" -> "DACT2" ["e"=1]
+"ANKRD40" -> "IST1" ["e"=1]
+"ANKRD40" -> "SKIL" ["e"=1]
+"ANKRD40" -> "MLXIPL" ["e"=1]
+"ANKRD40" -> "BAHD1" ["e"=1]
+"ATXN7L2" -> "NUTM2E" ["e"=1]
+"ATXN7L2" -> "NUTM2G" ["e"=1]
+"ATXN7L2" -> "NUTM2D" ["e"=1]
+"ATXN7L2" -> "ZC3H3" ["e"=1]
+"BAHD1" -> "C15orf39" ["e"=1]
+"BAHD1" -> "KIAA1614" ["e"=1]
+"BAHD1" -> "KRBA1" ["e"=1]
+"BAHD1" -> "KIAA1522" ["e"=1]
+"BRD2" -> "NUTM2E" ["e"=1]
+"BRD2" -> "ZNF512B" ["e"=1]
+"BRD2" -> "SMARCD1" ["e"=1]
+"BRD2" -> "NUTM2G" ["e"=1]
+"C15orf39" -> "BAHD1" ["e"=1]
+"C15orf39" -> "NUTM2D" ["e"=1]
+"C15orf39" -> "NUTM2B" ["e"=1]
+"C15orf39" -> "NUTM2E" ["e"=1]
+"C17orf80" -> "KIAA1614" ["e"=1]
+"C17orf80" -> "ZNF831" ["e"=1]
+"C17orf80" -> "AMER3" ["e"=1]
+"C17orf80" -> "KRBA1" ["e"=1]
+"C4orf54" -> "JCAD" ["e"=1]
+"C4orf54" -> "SYNPO2" ["e"=1]
+"C4orf54" -> "PPP1R26" ["e"=1]
+"C4orf54" -> "PCARE" ["e"=1]
+"C6orf132" -> "KIAA1522" ["e"=1]
+"C6orf132" -> "SYNPO2L" ["e"=1]
+"C6orf132" -> "SYNPO" ["e"=1]
+"C6orf132" -> "ZNF750" ["e"=1]
+"CCDC116" -> "PCARE" ["e"=1]
+"CCDC116" -> "NUTM2E" ["e"=1]
+"CCDC116" -> "KIAA1614" ["e"=1]
+"CCDC116" -> "NUTM2D" ["e"=1]
+"CCDC187" -> "AKNA" ["e"=1]
+"CCDC187" -> "KIAA1614" ["e"=1]
+"CCDC187" -> "KRBA1" ["e"=1]
+"CCDC187" -> "NUTM2G" ["e"=1]
+"DACT2" -> "KIAA1614" ["e"=1]
+"DACT2" -> "AMER3" ["e"=1]
+"DACT2" -> "NCKAP5L" ["e"=1]
+"DACT2" -> "PCARE" ["e"=1]
+"GAS2L2" -> "NUTM2G" ["e"=1]
+"GAS2L2" -> "NUTM1" ["e"=1]
+"GAS2L2" -> "NUTM2F" ["e"=1]
+"GAS2L2" -> "PCARE" ["e"=1]
+"GGN" -> "SYNPO2L" ["e"=1]
+"GGN" -> "C6orf132" ["e"=1]
+"GGN" -> "BAHD1" ["e"=1]
+"GGN" -> "KIAA1522" ["e"=1]
+"GTF2A1L" -> "ANKRD40" ["e"=1]
+"GTF2A1L" -> "SKIL" ["e"=1]
+"GTF2A1L" -> "MYB" ["e"=1]
+"GTF2A1L" -> "HIF1A" ["e"=1]
+"HIF1A" -> "MYB" ["e"=1]
+"HIF1A" -> "NPAS4" ["e"=1]
+"HIF1A" -> "NUTM2E" ["e"=1]
+"HIF1A" -> "SKIL" ["e"=1]
+"IRS2" -> "C4orf54" ["e"=1]
+"IRS2" -> "DACT2" ["e"=1]
+"IRS2" -> "C6orf132" ["e"=1]
+"IRS2" -> "AMER3" ["e"=1]
+"IST1" -> "ANKRD40" ["e"=1]
+"IST1" -> "SMARCD1" ["e"=1]
+"IST1" -> "SMARCD2" ["e"=1]
+"IST1" -> "SKIL" ["e"=1]
+"JCAD" -> "AMER3" ["e"=1]
+"JCAD" -> "KIAA1614" ["e"=1]
+"JCAD" -> "PPP1R26" ["e"=1]
+"JCAD" -> "ZNF831" ["e"=1]
+"KIAA1522" -> "C6orf132" ["e"=1]
+"KIAA1522" -> "KIAA1614" ["e"=1]
+"KIAA1522" -> "SYNPO2L" ["e"=1]
+"KIAA1522" -> "SYNPO" ["e"=1]
+"KIAA1614" -> "AMER3" ["e"=1]
+"KIAA1614" -> "PCARE" ["e"=1]
+"KIAA1614" -> "AKNA" ["e"=1]
+"KIAA1614" -> "KRBA1" ["e"=1]
+"KRBA1" -> "KIAA1614" ["e"=1]
+"KRBA1" -> "CCDC187" ["e"=1]
+"KRBA1" -> "AMER3" ["e"=1]
+"KRBA1" -> "NUTM2D" ["e"=1]
+"LRRC53" -> "PCARE" ["e"=1]
+"LRRC53" -> "GAS2L2" ["e"=1]
+"LRRC53" -> "NUTM1" ["e"=1]
+"LRRC53" -> "ZNF831" ["e"=1]
+"MAPT" -> "KIAA1614" ["e"=1]
+"MAPT" -> "PCARE" ["e"=1]
+"MAPT" -> "SYNPO2L" ["e"=1]
+"MAPT" -> "SYNPO" ["e"=1]
+"MISP" -> "KIAA1614" ["e"=1]
+"MISP" -> "CCDC187" ["e"=1]
+"MISP" -> "AMER3" ["e"=1]
+"MISP" -> "DACT2" ["e"=1]
+"MLXIPL" -> "ANKRD40" ["e"=1]
+"MLXIPL" -> "NUTM2F" ["e"=1]
+"MLXIPL" -> "NUTM2G" ["e"=1]
+"MLXIPL" -> "NUTM2E" ["e"=1]
+"MYB" -> "TFDP2" ["e"=1]
+"MYB" -> "HIF1A" ["e"=1]
+"MYB" -> "KIAA1614" ["e"=1]
+"MYB" -> "NUTM2E" ["e"=1]
+"NCKAP5L" -> "DACT2" ["e"=1]
+"NCKAP5L" -> "KIAA1614" ["e"=1]
+"NCKAP5L" -> "KRBA1" ["e"=1]
+"NCKAP5L" -> "ZNF831" ["e"=1]
+"NELFE" -> "SNRNP35" ["e"=1]
+"NELFE" -> "RBM15B" ["e"=1]
+"NELFE" -> "IST1" ["e"=1]
+"NELFE" -> "SMARCD1" ["e"=1]
+"NPAS4" -> "HIF1A" ["e"=1]
+"NPAS4" -> "NUTM2E" ["e"=1]
+"NPAS4" -> "PRR22" ["e"=1]
+"NPAS4" -> "DACT2" ["e"=1]
+"NUTM1" -> "NUTM2D" ["e"=1]
+"NUTM1" -> "NUTM2G" ["e"=1]
+"NUTM1" -> "NUTM2F" ["e"=1]
+"NUTM1" -> "NUTM2B" ["e"=1]
+"NUTM2A" -> "NUTM2B" ["e"=1]
+"NUTM2A" -> "NUTM2D" ["e"=1]
+"NUTM2A" -> "NUTM2E" ["e"=1]
+"NUTM2A" -> "NUTM2G" ["e"=1]
+"NUTM2B" -> "NUTM2D" ["e"=1]
+"NUTM2B" -> "NUTM2A" ["e"=1]
+"NUTM2B" -> "NUTM2E" ["e"=1]
+"NUTM2B" -> "NUTM2G" ["e"=1]
+"NUTM2D" -> "NUTM2B" ["e"=1]
+"NUTM2D" -> "NUTM2A" ["e"=1]
+"NUTM2D" -> "NUTM2E" ["e"=1]
+"NUTM2D" -> "NUTM2G" ["e"=1]
+"NUTM2E" -> "NUTM2D" ["e"=1]
+"NUTM2E" -> "NUTM2B" ["e"=1]
+"NUTM2E" -> "NUTM2A" ["e"=1]
+"NUTM2E" -> "NUTM2G" ["e"=1]
+"NUTM2F" -> "NUTM2B" ["e"=1]
+"NUTM2F" -> "NUTM2D" ["e"=1]
+"NUTM2F" -> "NUTM2G" ["e"=1]
+"NUTM2F" -> "NUTM2A" ["e"=1]
+"NUTM2G" -> "NUTM2B" ["e"=1]
+"NUTM2G" -> "NUTM2D" ["e"=1]
+"NUTM2G" -> "NUTM2A" ["e"=1]
+"NUTM2G" -> "NUTM2F" ["e"=1]
+"PCARE" -> "KIAA1614" ["e"=1]
+"PCARE" -> "NUTM1" ["e"=1]
+"PCARE" -> "AMER3" ["e"=1]
+"PCARE" -> "GAS2L2" ["e"=1]
+"PCED1B" -> "YY1AP1" ["e"=1]
+"PCED1B" -> "NPAS4" ["e"=1]
+"PCED1B" -> "RCOR2" ["e"=1]
+"PCED1B" -> "ANKRD40" ["e"=1]
+"PPP1R26" -> "JCAD" ["e"=1]
+"PPP1R26" -> "C4orf54" ["e"=1]
+"PPP1R26" -> "AMER3" ["e"=1]
+"PPP1R26" -> "PCARE" ["e"=1]
+"PROX1" -> "SKIL" ["e"=1]
+"PROX1" -> "MYB" ["e"=1]
+"PROX1" -> "ANKRD40" ["e"=1]
+"PROX1" -> "C17orf80" ["e"=1]
+"PRR22" -> "NUTM2D" ["e"=1]
+"PRR22" -> "C15orf39" ["e"=1]
+"PRR22" -> "NUTM2B" ["e"=1]
+"PRR22" -> "NUTM2F" ["e"=1]
+"PTOV1" -> "SMARCD3" ["e"=1]
+"PTOV1" -> "SMARCD2" ["e"=1]
+"PTOV1" -> "SMARCD1" ["e"=1]
+"PTOV1" -> "RBM15B" ["e"=1]
+"RBBP8NL" -> "KIAA1614" ["e"=1]
+"RBBP8NL" -> "DACT2" ["e"=1]
+"RBBP8NL" -> "NUTM2F" ["e"=1]
+"RBBP8NL" -> "PCARE" ["e"=1]
+"RBM15B" -> "C4orf54" ["e"=1]
+"RBM15B" -> "BAHD1" ["e"=1]
+"RBM15B" -> "SMARCD1" ["e"=1]
+"RBM15B" -> "SMARCD2" ["e"=1]
+"RCOR2" -> "TAF6" ["e"=1]
+"RCOR2" -> "SMARCD1" ["e"=1]
+"RCOR2" -> "NUTM2E" ["e"=1]
+"RCOR2" -> "BAHD1" ["e"=1]
+"RFX5" -> "NUTM2G" ["e"=1]
+"RFX5" -> "GAS2L2" ["e"=1]
+"RFX5" -> "NUTM2D" ["e"=1]
+"RFX5" -> "NUTM1" ["e"=1]
+"SKIL" -> "PROX1" ["e"=1]
+"SKIL" -> "ANKRD40" ["e"=1]
+"SKIL" -> "BAHD1" ["e"=1]
+"SKIL" -> "HIF1A" ["e"=1]
+"SMARCD1" -> "SMARCD2" ["e"=1]
+"SMARCD1" -> "SMARCD3" ["e"=1]
+"SMARCD1" -> "NUTM2A" ["e"=1]
+"SMARCD1" -> "NUTM2E" ["e"=1]
+"SMARCD2" -> "SMARCD1" ["e"=1]
+"SMARCD2" -> "SMARCD3" ["e"=1]
+"SMARCD2" -> "PTOV1" ["e"=1]
+"SMARCD2" -> "RCOR2" ["e"=1]
+"SMARCD3" -> "SMARCD1" ["e"=1]
+"SMARCD3" -> "SMARCD2" ["e"=1]
+"SMARCD3" -> "PTOV1" ["e"=1]
+"SMARCD3" -> "RCOR2" ["e"=1]
+"SNRNP35" -> "NELFE" ["e"=1]
+"SNRNP35" -> "RBM15B" ["e"=1]
+"SNRNP35" -> "C17orf80" ["e"=1]
+"SNRNP35" -> "PROX1" ["e"=1]
+"SYNPO" -> "SYNPO2L" ["e"=1]
+"SYNPO" -> "KIAA1522" ["e"=1]
+"SYNPO" -> "SYNPO2" ["e"=1]
+"SYNPO" -> "C6orf132" ["e"=1]
+"SYNPO2" -> "SYNPO" ["e"=1]
+"SYNPO2" -> "SYNPO2L" ["e"=1]
+"SYNPO2" -> "C4orf54" ["e"=1]
+"SYNPO2" -> "KIAA1522" ["e"=1]
+"SYNPO2L" -> "SYNPO" ["e"=1]
+"SYNPO2L" -> "C6orf132" ["e"=1]
+"SYNPO2L" -> "KIAA1522" ["e"=1]
+"SYNPO2L" -> "SYNPO2" ["e"=1]
+"TAF6" -> "RCOR2" ["e"=1]
+"TAF6" -> "YY1AP1" ["e"=1]
+"TAF6" -> "RFX5" ["e"=1]
+"TAF6" -> "NUTM2E" ["e"=1]
+"TFDP2" -> "MYB" ["e"=1]
+"TFDP2" -> "HIF1A" ["e"=1]
+"TFDP2" -> "SMARCD1" ["e"=1]
+"TFDP2" -> "SKIL" ["e"=1]
+"TNKS1BP1" -> "C6orf132" ["e"=1]
+"TNKS1BP1" -> "KIAA1614" ["e"=1]
+"TNKS1BP1" -> "KIAA1522" ["e"=1]
+"TNKS1BP1" -> "AMER3" ["e"=1]
+"XIRP1" -> "C4orf54" ["e"=1]
+"XIRP1" -> "PCARE" ["e"=1]
+"XIRP1" -> "NUTM1" ["e"=1]
+"XIRP1" -> "GAS2L2" ["e"=1]
+"YY1AP1" -> "NUTM2E" ["e"=1]
+"YY1AP1" -> "NUTM2G" ["e"=1]
+"YY1AP1" -> "NUTM2B" ["e"=1]
+"YY1AP1" -> "NUTM2D" ["e"=1]
+"ZC3H3" -> "ATXN7L2" ["e"=1]
+"ZC3H3" -> "ZNF512B" ["e"=1]
+"ZC3H3" -> "BAHD1" ["e"=1]
+"ZC3H3" -> "KIAA1614" ["e"=1]
+"ZNF512B" -> "ATXN7L2" ["e"=1]
+"ZNF512B" -> "BAHD1" ["e"=1]
+"ZNF512B" -> "ZC3H3" ["e"=1]
+"ZNF512B" -> "NUTM2E" ["e"=1]
+"ZNF750" -> "C6orf132" ["e"=1]
+"ZNF750" -> "BAHD1" ["e"=1]
+"ZNF750" -> "ZNF831" ["e"=1]
+"ZNF750" -> "C15orf39" ["e"=1]
+"ZNF831" -> "AMER3" ["e"=1]
+"ZNF831" -> "KIAA1614" ["e"=1]
+"ZNF831" -> "NUTM1" ["e"=1]
+"ZNF831" -> "PCARE" ["e"=1]
 }

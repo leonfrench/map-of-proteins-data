@@ -12,56 +12,56 @@ digraph G {
 "RGS21" ["l"="11.656,3.886"]
 "RGS4" ["l"="11.677,3.935"]
 "RGS8" ["l"="11.657,3.964"]
-"BANF2" -> "RGS21"
-"BANF2" -> "RGS4"
-"BANF2" -> "RGS13"
-"BANF2" -> "RGS16"
-"PFDN5" -> "RGS21"
-"PFDN5" -> "RGS1"
-"PFDN5" -> "RGS4"
-"PFDN5" -> "RGS17"
-"RGS1" -> "RGS2"
-"RGS1" -> "RGS13"
-"RGS1" -> "RGS21"
-"RGS1" -> "RGS4"
-"RGS10" -> "RGS18"
-"RGS10" -> "RGS19"
-"RGS10" -> "RGS4"
-"RGS10" -> "RGS13"
-"RGS13" -> "RGS21"
-"RGS13" -> "RGS4"
-"RGS13" -> "RGS2"
-"RGS13" -> "RGS1"
-"RGS16" -> "RGS8"
-"RGS16" -> "RGS4"
-"RGS16" -> "RGS2"
-"RGS16" -> "RGS1"
-"RGS17" -> "RGS19"
-"RGS17" -> "RGS13"
-"RGS17" -> "RGS18"
-"RGS17" -> "RGS21"
-"RGS18" -> "RGS21"
-"RGS18" -> "RGS4"
-"RGS18" -> "RGS17"
-"RGS18" -> "RGS2"
-"RGS19" -> "RGS17"
-"RGS19" -> "RGS18"
-"RGS19" -> "RGS10"
-"RGS19" -> "RGS4"
-"RGS2" -> "RGS1"
-"RGS2" -> "RGS4"
-"RGS2" -> "RGS16"
-"RGS2" -> "RGS8"
-"RGS21" -> "RGS4"
-"RGS21" -> "RGS13"
-"RGS21" -> "RGS2"
-"RGS21" -> "RGS1"
-"RGS4" -> "RGS2"
-"RGS4" -> "RGS21"
-"RGS4" -> "RGS16"
-"RGS4" -> "RGS8"
-"RGS8" -> "RGS16"
-"RGS8" -> "RGS4"
-"RGS8" -> "RGS2"
-"RGS8" -> "RGS21"
+"BANF2" -> "RGS21" ["e"=1]
+"BANF2" -> "RGS4" ["e"=1]
+"BANF2" -> "RGS13" ["e"=1]
+"BANF2" -> "RGS16" ["e"=1]
+"PFDN5" -> "RGS21" ["e"=1]
+"PFDN5" -> "RGS1" ["e"=1]
+"PFDN5" -> "RGS4" ["e"=1]
+"PFDN5" -> "RGS17" ["e"=1]
+"RGS1" -> "RGS2" ["e"=1]
+"RGS1" -> "RGS13" ["e"=1]
+"RGS1" -> "RGS21" ["e"=1]
+"RGS1" -> "RGS4" ["e"=1]
+"RGS10" -> "RGS18" ["e"=1]
+"RGS10" -> "RGS19" ["e"=1]
+"RGS10" -> "RGS4" ["e"=1]
+"RGS10" -> "RGS13" ["e"=1]
+"RGS13" -> "RGS21" ["e"=1]
+"RGS13" -> "RGS4" ["e"=1]
+"RGS13" -> "RGS2" ["e"=1]
+"RGS13" -> "RGS1" ["e"=1]
+"RGS16" -> "RGS8" ["e"=1]
+"RGS16" -> "RGS4" ["e"=1]
+"RGS16" -> "RGS2" ["e"=1]
+"RGS16" -> "RGS1" ["e"=1]
+"RGS17" -> "RGS19" ["e"=1]
+"RGS17" -> "RGS13" ["e"=1]
+"RGS17" -> "RGS18" ["e"=1]
+"RGS17" -> "RGS21" ["e"=1]
+"RGS18" -> "RGS21" ["e"=1]
+"RGS18" -> "RGS4" ["e"=1]
+"RGS18" -> "RGS17" ["e"=1]
+"RGS18" -> "RGS2" ["e"=1]
+"RGS19" -> "RGS17" ["e"=1]
+"RGS19" -> "RGS18" ["e"=1]
+"RGS19" -> "RGS10" ["e"=1]
+"RGS19" -> "RGS4" ["e"=1]
+"RGS2" -> "RGS1" ["e"=1]
+"RGS2" -> "RGS4" ["e"=1]
+"RGS2" -> "RGS16" ["e"=1]
+"RGS2" -> "RGS8" ["e"=1]
+"RGS21" -> "RGS4" ["e"=1]
+"RGS21" -> "RGS13" ["e"=1]
+"RGS21" -> "RGS2" ["e"=1]
+"RGS21" -> "RGS1" ["e"=1]
+"RGS4" -> "RGS2" ["e"=1]
+"RGS4" -> "RGS21" ["e"=1]
+"RGS4" -> "RGS16" ["e"=1]
+"RGS4" -> "RGS8" ["e"=1]
+"RGS8" -> "RGS16" ["e"=1]
+"RGS8" -> "RGS4" ["e"=1]
+"RGS8" -> "RGS2" ["e"=1]
+"RGS8" -> "RGS21" ["e"=1]
 }

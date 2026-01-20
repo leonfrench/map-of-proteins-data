@@ -61,252 +61,252 @@ digraph G {
 "TSHB" ["l"="14.410,-1.740"]
 "WFDC5" ["l"="14.433,-1.990"]
 "WFDC8" ["l"="14.325,-2.134"]
-"BSPH1" -> "DEFB112"
-"BSPH1" -> "IGFL4"
-"BSPH1" -> "PATE1"
-"BSPH1" -> "WFDC8"
-"C9orf57" -> "PATE4"
-"C9orf57" -> "PATE2"
-"C9orf57" -> "PATE1"
-"C9orf57" -> "PLGLB2"
-"CD177" -> "PINLYP"
-"CD177" -> "LYPD5"
-"CD177" -> "TEX101"
-"CD177" -> "PLAUR"
-"CD59" -> "LYPD5"
-"CD59" -> "LY6H"
-"CD59" -> "LY6L"
-"CD59" -> "LY6K"
-"CLPSL1" -> "LRCOL1"
-"CLPSL1" -> "CLPSL2"
-"CLPSL1" -> "PROK2"
-"CLPSL1" -> "PROK1"
-"CLPSL2" -> "IGFL3"
-"CLPSL2" -> "MSMP"
-"CLPSL2" -> "FSHB"
-"CLPSL2" -> "PINLYP"
-"CXCL17" -> "PROK2"
-"CXCL17" -> "TMEM213"
-"CXCL17" -> "LEAP2"
-"CXCL17" -> "DKK4"
-"DEFB112" -> "DKK4"
-"DEFB112" -> "IGFL4"
-"DEFB112" -> "MFAP5"
-"DEFB112" -> "ESM1"
-"DKK4" -> "PROK2"
-"DKK4" -> "PROK1"
-"DKK4" -> "DEFB112"
-"DKK4" -> "IGFL4"
-"ESM1" -> "DKK4"
-"ESM1" -> "DEFB112"
-"ESM1" -> "PROK1"
-"ESM1" -> "MSMP"
-"FSHB" -> "TSHB"
-"FSHB" -> "IGFL3"
-"FSHB" -> "IGFL4"
-"FSHB" -> "CLPSL2"
-"GML" -> "LY6K"
-"GML" -> "LYPD1"
-"GML" -> "LY6L"
-"GML" -> "LYPD6"
-"GPIHBP1" -> "LY6L"
-"GPIHBP1" -> "LYPD5"
-"GPIHBP1" -> "CD177"
-"GPIHBP1" -> "TEX101"
-"IGFL1" -> "IGFL3"
-"IGFL1" -> "IGFL2"
-"IGFL1" -> "WFDC5"
-"IGFL1" -> "IGFL4"
-"IGFL2" -> "IGFL3"
-"IGFL2" -> "IGFL1"
-"IGFL2" -> "IGFL4"
-"IGFL2" -> "MSMP"
-"IGFL3" -> "IGFL1"
-"IGFL3" -> "IGFL2"
-"IGFL3" -> "IGFL4"
-"IGFL3" -> "FSHB"
-"IGFL4" -> "IGFL2"
-"IGFL4" -> "IGFL3"
-"IGFL4" -> "FSHB"
-"IGFL4" -> "DKK4"
-"LEAP2" -> "PROK1"
-"LEAP2" -> "PROK2"
-"LEAP2" -> "CXCL17"
-"LEAP2" -> "PLGLB1"
-"LRCOL1" -> "CLPSL1"
-"LRCOL1" -> "CLPSL2"
-"LRCOL1" -> "PROK1"
-"LRCOL1" -> "WFDC5"
-"LY6D" -> "LY6G6C"
-"LY6D" -> "LYPD2"
-"LY6D" -> "LYNX1"
-"LY6D" -> "SLURP1"
-"LY6E" -> "LY6H"
-"LY6E" -> "LYPD2"
-"LY6E" -> "LYNX1"
-"LY6E" -> "LY6G6C"
-"LY6G6C" -> "LY6L"
-"LY6G6C" -> "LY6H"
-"LY6G6C" -> "PSCA"
-"LY6G6C" -> "LY6D"
-"LY6G6D" -> "LY6L"
-"LY6G6D" -> "LYPD5"
-"LY6G6D" -> "LYPD1"
-"LY6G6D" -> "LY6H"
-"LY6H" -> "LY6E"
-"LY6H" -> "LY6L"
-"LY6H" -> "LYPD2"
-"LY6H" -> "LY6G6C"
-"LY6K" -> "GML"
-"LY6K" -> "LY6L"
-"LY6K" -> "LYPD6"
-"LY6K" -> "LYPD1"
-"LY6L" -> "LYPD1"
-"LY6L" -> "LY6G6D"
-"LY6L" -> "LY6K"
-"LY6L" -> "LY6H"
-"LYNX1" -> "PSCA"
-"LYNX1" -> "LYPD2"
-"LYNX1" -> "LY6E"
-"LYNX1" -> "LY6G6C"
-"LYPD1" -> "LY6L"
-"LYPD1" -> "LYPD6"
-"LYPD1" -> "GML"
-"LYPD1" -> "LYPD5"
-"LYPD2" -> "PSCA"
-"LYPD2" -> "SLURP1"
-"LYPD2" -> "LY6H"
-"LYPD2" -> "LYNX1"
-"LYPD3" -> "LYPD5"
-"LYPD3" -> "PLAUR"
-"LYPD3" -> "LY6K"
-"LYPD3" -> "LY6L"
-"LYPD4" -> "PINLYP"
-"LYPD4" -> "TEX101"
-"LYPD4" -> "LYPD5"
-"LYPD4" -> "LY6L"
-"LYPD5" -> "PINLYP"
-"LYPD5" -> "TEX101"
-"LYPD5" -> "PLAUR"
-"LYPD5" -> "CD177"
-"LYPD6" -> "LYPD6B"
-"LYPD6" -> "LY6K"
-"LYPD6" -> "LYPD1"
-"LYPD6" -> "LY6L"
-"LYPD6B" -> "LYPD6"
-"LYPD6B" -> "LY6K"
-"LYPD6B" -> "LYPD1"
-"LYPD6B" -> "LY6L"
-"LYPD8" -> "TEX101"
-"LYPD8" -> "LYPD5"
-"LYPD8" -> "CD177"
-"LYPD8" -> "SLURP1"
-"MFAP5" -> "DEFB112"
-"MFAP5" -> "DKK4"
-"MFAP5" -> "TSHB"
-"MFAP5" -> "C9orf57"
-"MSMP" -> "WFDC5"
-"MSMP" -> "LY6L"
-"MSMP" -> "IGFL3"
-"MSMP" -> "CLPSL2"
-"NRN1" -> "LYPD1"
-"NRN1" -> "LY6H"
-"NRN1" -> "LY6K"
-"NRN1" -> "CD59"
-"NRN1L" -> "SPACA4"
-"NRN1L" -> "LY6L"
-"NRN1L" -> "LY6H"
-"NRN1L" -> "LYPD6"
-"OXT" -> "CLPSL2"
-"OXT" -> "LRCOL1"
-"OXT" -> "PROK1"
-"OXT" -> "WFDC5"
-"PATE1" -> "PATE4"
-"PATE1" -> "PATE2"
-"PATE1" -> "PATE3"
-"PATE1" -> "LY6L"
-"PATE2" -> "PATE1"
-"PATE2" -> "PATE3"
-"PATE2" -> "PATE4"
-"PATE2" -> "LY6L"
-"PATE3" -> "PATE2"
-"PATE3" -> "PATE4"
-"PATE3" -> "PATE1"
-"PATE3" -> "C9orf57"
-"PATE4" -> "PATE1"
-"PATE4" -> "PATE2"
-"PATE4" -> "PATE3"
-"PATE4" -> "LY6L"
-"PINLYP" -> "LYPD4"
-"PINLYP" -> "LYPD5"
-"PINLYP" -> "CD177"
-"PINLYP" -> "LY6L"
-"PLAUR" -> "LYPD5"
-"PLAUR" -> "LYPD3"
-"PLAUR" -> "PINLYP"
-"PLAUR" -> "CD177"
-"PLGLB1" -> "PLGLB2"
-"PLGLB1" -> "C9orf57"
-"PLGLB1" -> "LEAP2"
-"PLGLB1" -> "PROK1"
-"PLGLB2" -> "PLGLB1"
-"PLGLB2" -> "C9orf57"
-"PLGLB2" -> "LYPD5"
-"PLGLB2" -> "PATE1"
-"PROK1" -> "DKK4"
-"PROK1" -> "PROK2"
-"PROK1" -> "LEAP2"
-"PROK1" -> "CLPSL2"
-"PROK2" -> "DKK4"
-"PROK2" -> "PROK1"
-"PROK2" -> "CLPSL1"
-"PROK2" -> "LEAP2"
-"PSCA" -> "LYNX1"
-"PSCA" -> "LYPD2"
-"PSCA" -> "LY6G6C"
-"PSCA" -> "SLURP2"
-"RETN" -> "CLPSL2"
-"RETN" -> "PINLYP"
-"RETN" -> "SLURP2"
-"RETN" -> "LRCOL1"
-"SLURP1" -> "SLURP2"
-"SLURP1" -> "LYPD2"
-"SLURP1" -> "LY6G6C"
-"SLURP1" -> "LYPD5"
-"SLURP2" -> "SLURP1"
-"SLURP2" -> "LYPD2"
-"SLURP2" -> "PSCA"
-"SLURP2" -> "LY6G6C"
-"SPACA4" -> "LY6G6C"
-"SPACA4" -> "LY6H"
-"SPACA4" -> "LYPD6"
-"SPACA4" -> "LY6G6D"
-"TAFA3" -> "TAFA5"
-"TAFA3" -> "DKK4"
-"TAFA3" -> "CLPSL2"
-"TAFA3" -> "MSMP"
-"TAFA5" -> "TAFA3"
-"TAFA5" -> "DKK4"
-"TAFA5" -> "WFDC5"
-"TAFA5" -> "PINLYP"
-"TEX101" -> "LYPD5"
-"TEX101" -> "LYPD4"
-"TEX101" -> "LY6L"
-"TEX101" -> "PINLYP"
-"TMEM213" -> "PATE1"
-"TMEM213" -> "LY6L"
-"TMEM213" -> "CXCL17"
-"TMEM213" -> "PATE4"
-"TSHB" -> "FSHB"
-"TSHB" -> "IGFL3"
-"TSHB" -> "PATE2"
-"TSHB" -> "MSMP"
-"WFDC5" -> "MSMP"
-"WFDC5" -> "IGFL3"
-"WFDC5" -> "IGFL1"
-"WFDC5" -> "IGFL2"
-"WFDC8" -> "CLPSL2"
-"WFDC8" -> "IGFL2"
-"WFDC8" -> "LRCOL1"
-"WFDC8" -> "WFDC5"
+"BSPH1" -> "DEFB112" ["e"=1]
+"BSPH1" -> "IGFL4" ["e"=1]
+"BSPH1" -> "PATE1" ["e"=1]
+"BSPH1" -> "WFDC8" ["e"=1]
+"C9orf57" -> "PATE4" ["e"=1]
+"C9orf57" -> "PATE2" ["e"=1]
+"C9orf57" -> "PATE1" ["e"=1]
+"C9orf57" -> "PLGLB2" ["e"=1]
+"CD177" -> "PINLYP" ["e"=1]
+"CD177" -> "LYPD5" ["e"=1]
+"CD177" -> "TEX101" ["e"=1]
+"CD177" -> "PLAUR" ["e"=1]
+"CD59" -> "LYPD5" ["e"=1]
+"CD59" -> "LY6H" ["e"=1]
+"CD59" -> "LY6L" ["e"=1]
+"CD59" -> "LY6K" ["e"=1]
+"CLPSL1" -> "LRCOL1" ["e"=1]
+"CLPSL1" -> "CLPSL2" ["e"=1]
+"CLPSL1" -> "PROK2" ["e"=1]
+"CLPSL1" -> "PROK1" ["e"=1]
+"CLPSL2" -> "IGFL3" ["e"=1]
+"CLPSL2" -> "MSMP" ["e"=1]
+"CLPSL2" -> "FSHB" ["e"=1]
+"CLPSL2" -> "PINLYP" ["e"=1]
+"CXCL17" -> "PROK2" ["e"=1]
+"CXCL17" -> "TMEM213" ["e"=1]
+"CXCL17" -> "LEAP2" ["e"=1]
+"CXCL17" -> "DKK4" ["e"=1]
+"DEFB112" -> "DKK4" ["e"=1]
+"DEFB112" -> "IGFL4" ["e"=1]
+"DEFB112" -> "MFAP5" ["e"=1]
+"DEFB112" -> "ESM1" ["e"=1]
+"DKK4" -> "PROK2" ["e"=1]
+"DKK4" -> "PROK1" ["e"=1]
+"DKK4" -> "DEFB112" ["e"=1]
+"DKK4" -> "IGFL4" ["e"=1]
+"ESM1" -> "DKK4" ["e"=1]
+"ESM1" -> "DEFB112" ["e"=1]
+"ESM1" -> "PROK1" ["e"=1]
+"ESM1" -> "MSMP" ["e"=1]
+"FSHB" -> "TSHB" ["e"=1]
+"FSHB" -> "IGFL3" ["e"=1]
+"FSHB" -> "IGFL4" ["e"=1]
+"FSHB" -> "CLPSL2" ["e"=1]
+"GML" -> "LY6K" ["e"=1]
+"GML" -> "LYPD1" ["e"=1]
+"GML" -> "LY6L" ["e"=1]
+"GML" -> "LYPD6" ["e"=1]
+"GPIHBP1" -> "LY6L" ["e"=1]
+"GPIHBP1" -> "LYPD5" ["e"=1]
+"GPIHBP1" -> "CD177" ["e"=1]
+"GPIHBP1" -> "TEX101" ["e"=1]
+"IGFL1" -> "IGFL3" ["e"=1]
+"IGFL1" -> "IGFL2" ["e"=1]
+"IGFL1" -> "WFDC5" ["e"=1]
+"IGFL1" -> "IGFL4" ["e"=1]
+"IGFL2" -> "IGFL3" ["e"=1]
+"IGFL2" -> "IGFL1" ["e"=1]
+"IGFL2" -> "IGFL4" ["e"=1]
+"IGFL2" -> "MSMP" ["e"=1]
+"IGFL3" -> "IGFL1" ["e"=1]
+"IGFL3" -> "IGFL2" ["e"=1]
+"IGFL3" -> "IGFL4" ["e"=1]
+"IGFL3" -> "FSHB" ["e"=1]
+"IGFL4" -> "IGFL2" ["e"=1]
+"IGFL4" -> "IGFL3" ["e"=1]
+"IGFL4" -> "FSHB" ["e"=1]
+"IGFL4" -> "DKK4" ["e"=1]
+"LEAP2" -> "PROK1" ["e"=1]
+"LEAP2" -> "PROK2" ["e"=1]
+"LEAP2" -> "CXCL17" ["e"=1]
+"LEAP2" -> "PLGLB1" ["e"=1]
+"LRCOL1" -> "CLPSL1" ["e"=1]
+"LRCOL1" -> "CLPSL2" ["e"=1]
+"LRCOL1" -> "PROK1" ["e"=1]
+"LRCOL1" -> "WFDC5" ["e"=1]
+"LY6D" -> "LY6G6C" ["e"=1]
+"LY6D" -> "LYPD2" ["e"=1]
+"LY6D" -> "LYNX1" ["e"=1]
+"LY6D" -> "SLURP1" ["e"=1]
+"LY6E" -> "LY6H" ["e"=1]
+"LY6E" -> "LYPD2" ["e"=1]
+"LY6E" -> "LYNX1" ["e"=1]
+"LY6E" -> "LY6G6C" ["e"=1]
+"LY6G6C" -> "LY6L" ["e"=1]
+"LY6G6C" -> "LY6H" ["e"=1]
+"LY6G6C" -> "PSCA" ["e"=1]
+"LY6G6C" -> "LY6D" ["e"=1]
+"LY6G6D" -> "LY6L" ["e"=1]
+"LY6G6D" -> "LYPD5" ["e"=1]
+"LY6G6D" -> "LYPD1" ["e"=1]
+"LY6G6D" -> "LY6H" ["e"=1]
+"LY6H" -> "LY6E" ["e"=1]
+"LY6H" -> "LY6L" ["e"=1]
+"LY6H" -> "LYPD2" ["e"=1]
+"LY6H" -> "LY6G6C" ["e"=1]
+"LY6K" -> "GML" ["e"=1]
+"LY6K" -> "LY6L" ["e"=1]
+"LY6K" -> "LYPD6" ["e"=1]
+"LY6K" -> "LYPD1" ["e"=1]
+"LY6L" -> "LYPD1" ["e"=1]
+"LY6L" -> "LY6G6D" ["e"=1]
+"LY6L" -> "LY6K" ["e"=1]
+"LY6L" -> "LY6H" ["e"=1]
+"LYNX1" -> "PSCA" ["e"=1]
+"LYNX1" -> "LYPD2" ["e"=1]
+"LYNX1" -> "LY6E" ["e"=1]
+"LYNX1" -> "LY6G6C" ["e"=1]
+"LYPD1" -> "LY6L" ["e"=1]
+"LYPD1" -> "LYPD6" ["e"=1]
+"LYPD1" -> "GML" ["e"=1]
+"LYPD1" -> "LYPD5" ["e"=1]
+"LYPD2" -> "PSCA" ["e"=1]
+"LYPD2" -> "SLURP1" ["e"=1]
+"LYPD2" -> "LY6H" ["e"=1]
+"LYPD2" -> "LYNX1" ["e"=1]
+"LYPD3" -> "LYPD5" ["e"=1]
+"LYPD3" -> "PLAUR" ["e"=1]
+"LYPD3" -> "LY6K" ["e"=1]
+"LYPD3" -> "LY6L" ["e"=1]
+"LYPD4" -> "PINLYP" ["e"=1]
+"LYPD4" -> "TEX101" ["e"=1]
+"LYPD4" -> "LYPD5" ["e"=1]
+"LYPD4" -> "LY6L" ["e"=1]
+"LYPD5" -> "PINLYP" ["e"=1]
+"LYPD5" -> "TEX101" ["e"=1]
+"LYPD5" -> "PLAUR" ["e"=1]
+"LYPD5" -> "CD177" ["e"=1]
+"LYPD6" -> "LYPD6B" ["e"=1]
+"LYPD6" -> "LY6K" ["e"=1]
+"LYPD6" -> "LYPD1" ["e"=1]
+"LYPD6" -> "LY6L" ["e"=1]
+"LYPD6B" -> "LYPD6" ["e"=1]
+"LYPD6B" -> "LY6K" ["e"=1]
+"LYPD6B" -> "LYPD1" ["e"=1]
+"LYPD6B" -> "LY6L" ["e"=1]
+"LYPD8" -> "TEX101" ["e"=1]
+"LYPD8" -> "LYPD5" ["e"=1]
+"LYPD8" -> "CD177" ["e"=1]
+"LYPD8" -> "SLURP1" ["e"=1]
+"MFAP5" -> "DEFB112" ["e"=1]
+"MFAP5" -> "DKK4" ["e"=1]
+"MFAP5" -> "TSHB" ["e"=1]
+"MFAP5" -> "C9orf57" ["e"=1]
+"MSMP" -> "WFDC5" ["e"=1]
+"MSMP" -> "LY6L" ["e"=1]
+"MSMP" -> "IGFL3" ["e"=1]
+"MSMP" -> "CLPSL2" ["e"=1]
+"NRN1" -> "LYPD1" ["e"=1]
+"NRN1" -> "LY6H" ["e"=1]
+"NRN1" -> "LY6K" ["e"=1]
+"NRN1" -> "CD59" ["e"=1]
+"NRN1L" -> "SPACA4" ["e"=1]
+"NRN1L" -> "LY6L" ["e"=1]
+"NRN1L" -> "LY6H" ["e"=1]
+"NRN1L" -> "LYPD6" ["e"=1]
+"OXT" -> "CLPSL2" ["e"=1]
+"OXT" -> "LRCOL1" ["e"=1]
+"OXT" -> "PROK1" ["e"=1]
+"OXT" -> "WFDC5" ["e"=1]
+"PATE1" -> "PATE4" ["e"=1]
+"PATE1" -> "PATE2" ["e"=1]
+"PATE1" -> "PATE3" ["e"=1]
+"PATE1" -> "LY6L" ["e"=1]
+"PATE2" -> "PATE1" ["e"=1]
+"PATE2" -> "PATE3" ["e"=1]
+"PATE2" -> "PATE4" ["e"=1]
+"PATE2" -> "LY6L" ["e"=1]
+"PATE3" -> "PATE2" ["e"=1]
+"PATE3" -> "PATE4" ["e"=1]
+"PATE3" -> "PATE1" ["e"=1]
+"PATE3" -> "C9orf57" ["e"=1]
+"PATE4" -> "PATE1" ["e"=1]
+"PATE4" -> "PATE2" ["e"=1]
+"PATE4" -> "PATE3" ["e"=1]
+"PATE4" -> "LY6L" ["e"=1]
+"PINLYP" -> "LYPD4" ["e"=1]
+"PINLYP" -> "LYPD5" ["e"=1]
+"PINLYP" -> "CD177" ["e"=1]
+"PINLYP" -> "LY6L" ["e"=1]
+"PLAUR" -> "LYPD5" ["e"=1]
+"PLAUR" -> "LYPD3" ["e"=1]
+"PLAUR" -> "PINLYP" ["e"=1]
+"PLAUR" -> "CD177" ["e"=1]
+"PLGLB1" -> "PLGLB2" ["e"=1]
+"PLGLB1" -> "C9orf57" ["e"=1]
+"PLGLB1" -> "LEAP2" ["e"=1]
+"PLGLB1" -> "PROK1" ["e"=1]
+"PLGLB2" -> "PLGLB1" ["e"=1]
+"PLGLB2" -> "C9orf57" ["e"=1]
+"PLGLB2" -> "LYPD5" ["e"=1]
+"PLGLB2" -> "PATE1" ["e"=1]
+"PROK1" -> "DKK4" ["e"=1]
+"PROK1" -> "PROK2" ["e"=1]
+"PROK1" -> "LEAP2" ["e"=1]
+"PROK1" -> "CLPSL2" ["e"=1]
+"PROK2" -> "DKK4" ["e"=1]
+"PROK2" -> "PROK1" ["e"=1]
+"PROK2" -> "CLPSL1" ["e"=1]
+"PROK2" -> "LEAP2" ["e"=1]
+"PSCA" -> "LYNX1" ["e"=1]
+"PSCA" -> "LYPD2" ["e"=1]
+"PSCA" -> "LY6G6C" ["e"=1]
+"PSCA" -> "SLURP2" ["e"=1]
+"RETN" -> "CLPSL2" ["e"=1]
+"RETN" -> "PINLYP" ["e"=1]
+"RETN" -> "SLURP2" ["e"=1]
+"RETN" -> "LRCOL1" ["e"=1]
+"SLURP1" -> "SLURP2" ["e"=1]
+"SLURP1" -> "LYPD2" ["e"=1]
+"SLURP1" -> "LY6G6C" ["e"=1]
+"SLURP1" -> "LYPD5" ["e"=1]
+"SLURP2" -> "SLURP1" ["e"=1]
+"SLURP2" -> "LYPD2" ["e"=1]
+"SLURP2" -> "PSCA" ["e"=1]
+"SLURP2" -> "LY6G6C" ["e"=1]
+"SPACA4" -> "LY6G6C" ["e"=1]
+"SPACA4" -> "LY6H" ["e"=1]
+"SPACA4" -> "LYPD6" ["e"=1]
+"SPACA4" -> "LY6G6D" ["e"=1]
+"TAFA3" -> "TAFA5" ["e"=1]
+"TAFA3" -> "DKK4" ["e"=1]
+"TAFA3" -> "CLPSL2" ["e"=1]
+"TAFA3" -> "MSMP" ["e"=1]
+"TAFA5" -> "TAFA3" ["e"=1]
+"TAFA5" -> "DKK4" ["e"=1]
+"TAFA5" -> "WFDC5" ["e"=1]
+"TAFA5" -> "PINLYP" ["e"=1]
+"TEX101" -> "LYPD5" ["e"=1]
+"TEX101" -> "LYPD4" ["e"=1]
+"TEX101" -> "LY6L" ["e"=1]
+"TEX101" -> "PINLYP" ["e"=1]
+"TMEM213" -> "PATE1" ["e"=1]
+"TMEM213" -> "LY6L" ["e"=1]
+"TMEM213" -> "CXCL17" ["e"=1]
+"TMEM213" -> "PATE4" ["e"=1]
+"TSHB" -> "FSHB" ["e"=1]
+"TSHB" -> "IGFL3" ["e"=1]
+"TSHB" -> "PATE2" ["e"=1]
+"TSHB" -> "MSMP" ["e"=1]
+"WFDC5" -> "MSMP" ["e"=1]
+"WFDC5" -> "IGFL3" ["e"=1]
+"WFDC5" -> "IGFL1" ["e"=1]
+"WFDC5" -> "IGFL2" ["e"=1]
+"WFDC8" -> "CLPSL2" ["e"=1]
+"WFDC8" -> "IGFL2" ["e"=1]
+"WFDC8" -> "LRCOL1" ["e"=1]
+"WFDC8" -> "WFDC5" ["e"=1]
 }

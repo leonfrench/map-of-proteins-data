@@ -24,104 +24,104 @@ digraph G {
 "SNAI3" ["l"="6.104,3.418"]
 "ZFP42" ["l"="6.148,3.369"]
 "ZNF367" ["l"="6.579,3.479"]
-"GFI1" -> "KLF15"
-"GFI1" -> "SCRT2"
-"GFI1" -> "KLF9"
-"GFI1" -> "OVOL1"
-"GFI1B" -> "SNAI1"
-"GFI1B" -> "OVOL1"
-"GFI1B" -> "SNAI3"
-"GFI1B" -> "OSR2"
-"KLF1" -> "KLF15"
-"KLF1" -> "GFI1B"
-"KLF1" -> "KLF14"
-"KLF1" -> "GFI1"
-"KLF10" -> "KLF11"
-"KLF10" -> "SNAI1"
-"KLF10" -> "KLF9"
-"KLF10" -> "KLF6"
-"KLF11" -> "KLF10"
-"KLF11" -> "KLF15"
-"KLF11" -> "SNAI1"
-"KLF11" -> "KLF9"
-"KLF13" -> "KLF9"
-"KLF13" -> "KLF14"
-"KLF13" -> "GFI1"
-"KLF13" -> "SCRT2"
-"KLF14" -> "KLF16"
-"KLF14" -> "SCRT1"
-"KLF14" -> "SCRT2"
-"KLF14" -> "KLF13"
-"KLF15" -> "KLF9"
-"KLF15" -> "GFI1"
-"KLF15" -> "KLF11"
-"KLF15" -> "SNAI1"
-"KLF16" -> "KLF14"
-"KLF16" -> "SCRT1"
-"KLF16" -> "KLF13"
-"KLF16" -> "SCRT2"
-"KLF3" -> "KLF11"
-"KLF3" -> "KLF10"
-"KLF3" -> "KLF7"
-"KLF3" -> "KLF9"
-"KLF6" -> "KLF7"
-"KLF6" -> "SNAI1"
-"KLF6" -> "KLF9"
-"KLF6" -> "KLF10"
-"KLF7" -> "KLF6"
-"KLF7" -> "KLF11"
-"KLF7" -> "KLF9"
-"KLF7" -> "KLF10"
-"KLF9" -> "KLF13"
-"KLF9" -> "SNAI1"
-"KLF9" -> "KLF15"
-"KLF9" -> "KLF11"
-"MAZ" -> "KLF14"
-"MAZ" -> "SCRT1"
-"MAZ" -> "KLF16"
-"MAZ" -> "ZNF367"
-"OSR2" -> "SNAI3"
-"OSR2" -> "SNAI1"
-"OSR2" -> "SNAI2"
-"OSR2" -> "GFI1B"
-"OVOL1" -> "SNAI3"
-"OVOL1" -> "SNAI1"
-"OVOL1" -> "GFI1"
-"OVOL1" -> "OVOL2"
-"OVOL2" -> "OVOL1"
-"OVOL2" -> "GFI1"
-"OVOL2" -> "SNAI3"
-"OVOL2" -> "SCRT2"
-"PRDM12" -> "SNAI3"
-"PRDM12" -> "KLF14"
-"PRDM12" -> "SCRT1"
-"PRDM12" -> "OVOL2"
-"SCRT1" -> "SCRT2"
-"SCRT1" -> "KLF14"
-"SCRT1" -> "KLF16"
-"SCRT1" -> "GFI1"
-"SCRT2" -> "SCRT1"
-"SCRT2" -> "GFI1"
-"SCRT2" -> "KLF14"
-"SCRT2" -> "OVOL1"
-"SNAI1" -> "KLF9"
-"SNAI1" -> "SNAI3"
-"SNAI1" -> "SNAI2"
-"SNAI1" -> "KLF11"
-"SNAI2" -> "SNAI1"
-"SNAI2" -> "SNAI3"
-"SNAI2" -> "KLF9"
-"SNAI2" -> "OVOL1"
-"SNAI3" -> "SNAI1"
-"SNAI3" -> "OVOL1"
-"SNAI3" -> "SNAI2"
-"SNAI3" -> "OSR2"
-"ZFP42" -> "SNAI3"
-"ZFP42" -> "SNAI2"
-"ZFP42" -> "OVOL1"
-"ZFP42" -> "KLF15"
-"ZNF367" -> "KLF9"
-"ZNF367" -> "KLF14"
-"ZNF367" -> "KLF13"
-"ZNF367" -> "KLF16"
+"GFI1" -> "KLF15" ["e"=1]
+"GFI1" -> "SCRT2" ["e"=1]
+"GFI1" -> "KLF9" ["e"=1]
+"GFI1" -> "OVOL1" ["e"=1]
+"GFI1B" -> "SNAI1" ["e"=1]
+"GFI1B" -> "OVOL1" ["e"=1]
+"GFI1B" -> "SNAI3" ["e"=1]
+"GFI1B" -> "OSR2" ["e"=1]
+"KLF1" -> "KLF15" ["e"=1]
+"KLF1" -> "GFI1B" ["e"=1]
+"KLF1" -> "KLF14" ["e"=1]
+"KLF1" -> "GFI1" ["e"=1]
+"KLF10" -> "KLF11" ["e"=1]
+"KLF10" -> "SNAI1" ["e"=1]
+"KLF10" -> "KLF9" ["e"=1]
+"KLF10" -> "KLF6" ["e"=1]
+"KLF11" -> "KLF10" ["e"=1]
+"KLF11" -> "KLF15" ["e"=1]
+"KLF11" -> "SNAI1" ["e"=1]
+"KLF11" -> "KLF9" ["e"=1]
+"KLF13" -> "KLF9" ["e"=1]
+"KLF13" -> "KLF14" ["e"=1]
+"KLF13" -> "GFI1" ["e"=1]
+"KLF13" -> "SCRT2" ["e"=1]
+"KLF14" -> "KLF16" ["e"=1]
+"KLF14" -> "SCRT1" ["e"=1]
+"KLF14" -> "SCRT2" ["e"=1]
+"KLF14" -> "KLF13" ["e"=1]
+"KLF15" -> "KLF9" ["e"=1]
+"KLF15" -> "GFI1" ["e"=1]
+"KLF15" -> "KLF11" ["e"=1]
+"KLF15" -> "SNAI1" ["e"=1]
+"KLF16" -> "KLF14" ["e"=1]
+"KLF16" -> "SCRT1" ["e"=1]
+"KLF16" -> "KLF13" ["e"=1]
+"KLF16" -> "SCRT2" ["e"=1]
+"KLF3" -> "KLF11" ["e"=1]
+"KLF3" -> "KLF10" ["e"=1]
+"KLF3" -> "KLF7" ["e"=1]
+"KLF3" -> "KLF9" ["e"=1]
+"KLF6" -> "KLF7" ["e"=1]
+"KLF6" -> "SNAI1" ["e"=1]
+"KLF6" -> "KLF9" ["e"=1]
+"KLF6" -> "KLF10" ["e"=1]
+"KLF7" -> "KLF6" ["e"=1]
+"KLF7" -> "KLF11" ["e"=1]
+"KLF7" -> "KLF9" ["e"=1]
+"KLF7" -> "KLF10" ["e"=1]
+"KLF9" -> "KLF13" ["e"=1]
+"KLF9" -> "SNAI1" ["e"=1]
+"KLF9" -> "KLF15" ["e"=1]
+"KLF9" -> "KLF11" ["e"=1]
+"MAZ" -> "KLF14" ["e"=1]
+"MAZ" -> "SCRT1" ["e"=1]
+"MAZ" -> "KLF16" ["e"=1]
+"MAZ" -> "ZNF367" ["e"=1]
+"OSR2" -> "SNAI3" ["e"=1]
+"OSR2" -> "SNAI1" ["e"=1]
+"OSR2" -> "SNAI2" ["e"=1]
+"OSR2" -> "GFI1B" ["e"=1]
+"OVOL1" -> "SNAI3" ["e"=1]
+"OVOL1" -> "SNAI1" ["e"=1]
+"OVOL1" -> "GFI1" ["e"=1]
+"OVOL1" -> "OVOL2" ["e"=1]
+"OVOL2" -> "OVOL1" ["e"=1]
+"OVOL2" -> "GFI1" ["e"=1]
+"OVOL2" -> "SNAI3" ["e"=1]
+"OVOL2" -> "SCRT2" ["e"=1]
+"PRDM12" -> "SNAI3" ["e"=1]
+"PRDM12" -> "KLF14" ["e"=1]
+"PRDM12" -> "SCRT1" ["e"=1]
+"PRDM12" -> "OVOL2" ["e"=1]
+"SCRT1" -> "SCRT2" ["e"=1]
+"SCRT1" -> "KLF14" ["e"=1]
+"SCRT1" -> "KLF16" ["e"=1]
+"SCRT1" -> "GFI1" ["e"=1]
+"SCRT2" -> "SCRT1" ["e"=1]
+"SCRT2" -> "GFI1" ["e"=1]
+"SCRT2" -> "KLF14" ["e"=1]
+"SCRT2" -> "OVOL1" ["e"=1]
+"SNAI1" -> "KLF9" ["e"=1]
+"SNAI1" -> "SNAI3" ["e"=1]
+"SNAI1" -> "SNAI2" ["e"=1]
+"SNAI1" -> "KLF11" ["e"=1]
+"SNAI2" -> "SNAI1" ["e"=1]
+"SNAI2" -> "SNAI3" ["e"=1]
+"SNAI2" -> "KLF9" ["e"=1]
+"SNAI2" -> "OVOL1" ["e"=1]
+"SNAI3" -> "SNAI1" ["e"=1]
+"SNAI3" -> "OVOL1" ["e"=1]
+"SNAI3" -> "SNAI2" ["e"=1]
+"SNAI3" -> "OSR2" ["e"=1]
+"ZFP42" -> "SNAI3" ["e"=1]
+"ZFP42" -> "SNAI2" ["e"=1]
+"ZFP42" -> "OVOL1" ["e"=1]
+"ZFP42" -> "KLF15" ["e"=1]
+"ZNF367" -> "KLF9" ["e"=1]
+"ZNF367" -> "KLF14" ["e"=1]
+"ZNF367" -> "KLF13" ["e"=1]
+"ZNF367" -> "KLF16" ["e"=1]
 }

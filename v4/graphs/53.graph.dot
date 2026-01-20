@@ -64,264 +64,264 @@ digraph G {
 "TRIM74" ["l"="4.056,1.696"]
 "TRIM8" ["l"="4.009,1.705"]
 "TRIM9" ["l"="4.074,1.691"]
-"BSPRY" -> "TRIM14"
-"BSPRY" -> "TRIM65"
-"BSPRY" -> "RNF135"
-"BSPRY" -> "TRIM62"
-"FSD1" -> "TRIM46"
-"FSD1" -> "TRIM62"
-"FSD1" -> "TRIM67"
-"FSD1" -> "BSPRY"
-"FSD2" -> "TRIM14"
-"FSD2" -> "TRIM72"
-"FSD2" -> "TRIM67"
-"FSD2" -> "TRIM45"
-"MEFV" -> "TRIM31"
-"MEFV" -> "TRIM27"
-"MEFV" -> "TRIM16"
-"MEFV" -> "TRIM58"
-"PML" -> "RNF207"
-"PML" -> "TRAF1"
-"PML" -> "TRAF4"
-"PML" -> "TRIM13"
-"RFPL1" -> "RFPL3"
-"RFPL1" -> "RFPL4B"
-"RFPL1" -> "RFPL4AL1"
-"RFPL1" -> "RFPL4A"
-"RFPL2" -> "RFPL3"
-"RFPL2" -> "RFPL4A"
-"RFPL2" -> "RFPL1"
-"RFPL2" -> "RFPL4AL1"
-"RFPL3" -> "RFPL1"
-"RFPL3" -> "RFPL4B"
-"RFPL3" -> "RFPL2"
-"RFPL3" -> "RFPL4A"
-"RFPL4A" -> "RFPL4AL1"
-"RFPL4A" -> "RFPL4B"
-"RFPL4A" -> "RFPL3"
-"RFPL4A" -> "RFPL1"
-"RFPL4AL1" -> "RFPL4A"
-"RFPL4AL1" -> "RFPL4B"
-"RFPL4AL1" -> "RFPL3"
-"RFPL4AL1" -> "RFPL1"
-"RFPL4B" -> "RFPL4AL1"
-"RFPL4B" -> "RFPL3"
-"RFPL4B" -> "RFPL4A"
-"RFPL4B" -> "RFPL1"
-"RNF135" -> "BSPRY"
-"RNF135" -> "TRIM14"
-"RNF135" -> "TRIM65"
-"RNF135" -> "TRIM58"
-"RNF151" -> "TRIM45"
-"RNF151" -> "TRIM54"
-"RNF151" -> "RNF207"
-"RNF151" -> "TRIM48"
-"RNF207" -> "TRIM54"
-"RNF207" -> "PML"
-"RNF207" -> "TRIM45"
-"RNF207" -> "TRIM73"
-"RNF39" -> "TRIM72"
-"RNF39" -> "RFPL3"
-"RNF39" -> "TRIM65"
-"RNF39" -> "RFPL1"
-"TRAF1" -> "PML"
-"TRAF1" -> "TRAF6"
-"TRAF1" -> "TRAF5"
-"TRAF1" -> "TRIM65"
-"TRAF2" -> "TRAF3"
-"TRAF2" -> "TRAF4"
-"TRAF2" -> "TRAF1"
-"TRAF2" -> "TRAF6"
-"TRAF3" -> "TRAF5"
-"TRAF3" -> "TRAF2"
-"TRAF3" -> "TRAF4"
-"TRAF3" -> "TRIM45"
-"TRAF4" -> "TRAF2"
-"TRAF4" -> "TRAF3"
-"TRAF4" -> "TRAF6"
-"TRAF4" -> "PML"
-"TRAF5" -> "TRAF3"
-"TRAF5" -> "TRAF6"
-"TRAF5" -> "TRAF1"
-"TRAF5" -> "TRIM45"
-"TRAF6" -> "TRAF5"
-"TRAF6" -> "TRAF4"
-"TRAF6" -> "TRAF1"
-"TRAF6" -> "TRAF2"
-"TRIM10" -> "TRIM35"
-"TRIM10" -> "TRIM27"
-"TRIM10" -> "TRIM72"
-"TRIM10" -> "TRIM15"
-"TRIM11" -> "TRIM15"
-"TRIM11" -> "TRIM62"
-"TRIM11" -> "TRIM58"
-"TRIM11" -> "TRIM35"
-"TRIM13" -> "TRIM59"
-"TRIM13" -> "TRIM72"
-"TRIM13" -> "TRIM73"
-"TRIM13" -> "TRIM74"
-"TRIM14" -> "BSPRY"
-"TRIM14" -> "TRIM72"
-"TRIM14" -> "TRIM65"
-"TRIM14" -> "TRIM62"
-"TRIM15" -> "TRIM11"
-"TRIM15" -> "TRIM4"
-"TRIM15" -> "TRIM27"
-"TRIM15" -> "TRIM10"
-"TRIM16" -> "TRIM62"
-"TRIM16" -> "TRIM4"
-"TRIM16" -> "TRIM25"
-"TRIM16" -> "TRIM27"
-"TRIM2" -> "TRIM3"
-"TRIM2" -> "TRIM45"
-"TRIM2" -> "TRIM9"
-"TRIM2" -> "TRAF3"
-"TRIM25" -> "TRIM14"
-"TRIM25" -> "TRIM62"
-"TRIM25" -> "TRIM27"
-"TRIM25" -> "TRIM4"
-"TRIM26" -> "TRIM4"
-"TRIM26" -> "TRIM35"
-"TRIM26" -> "TRIM11"
-"TRIM26" -> "TRIM39"
-"TRIM27" -> "TRIM4"
-"TRIM27" -> "TRIM11"
-"TRIM27" -> "TRIM10"
-"TRIM27" -> "TRIM15"
-"TRIM29" -> "TRIM45"
-"TRIM29" -> "TRIM16"
-"TRIM29" -> "FSD2"
-"TRIM29" -> "TRIM8"
-"TRIM3" -> "TRIM2"
-"TRIM3" -> "TRIM62"
-"TRIM3" -> "TRIM46"
-"TRIM3" -> "TRIM45"
-"TRIM31" -> "TRIM15"
-"TRIM31" -> "TRIM27"
-"TRIM31" -> "MEFV"
-"TRIM31" -> "TRIM4"
-"TRIM32" -> "TRIM45"
-"TRIM32" -> "TRIM62"
-"TRIM32" -> "TRIM65"
-"TRIM32" -> "TRIM13"
-"TRIM35" -> "TRIM62"
-"TRIM35" -> "TRIM65"
-"TRIM35" -> "TRIM11"
-"TRIM35" -> "TRIM39"
-"TRIM36" -> "TRIM46"
-"TRIM36" -> "TRAF5"
-"TRIM36" -> "TRIM13"
-"TRIM36" -> "TRAF3"
-"TRIM38" -> "TRIM27"
-"TRIM38" -> "TRIM10"
-"TRIM38" -> "TRIM58"
-"TRIM38" -> "TRIM4"
-"TRIM39" -> "TRIM11"
-"TRIM39" -> "TRIM35"
-"TRIM39" -> "TRIM27"
-"TRIM39" -> "TRIM4"
-"TRIM4" -> "TRIM27"
-"TRIM4" -> "TRIM35"
-"TRIM4" -> "TRIM11"
-"TRIM4" -> "TRIM15"
-"TRIM40" -> "TRIM74"
-"TRIM40" -> "TRIM45"
-"TRIM40" -> "TRIM73"
-"TRIM40" -> "TRIM48"
-"TRIM41" -> "TRIM11"
-"TRIM41" -> "TRIM39"
-"TRIM41" -> "TRIM72"
-"TRIM41" -> "TRIM26"
-"TRIM42" -> "TRIM13"
-"TRIM42" -> "TRIM48"
-"TRIM42" -> "TRIM72"
-"TRIM42" -> "TRIM74"
-"TRIM45" -> "TRIM40"
-"TRIM45" -> "TRIM74"
-"TRIM45" -> "TRIM46"
-"TRIM45" -> "TRAF3"
-"TRIM46" -> "TRIM62"
-"TRIM46" -> "TRIM65"
-"TRIM46" -> "TRIM45"
-"TRIM46" -> "TRIM36"
-"TRIM47" -> "TRIM65"
-"TRIM47" -> "TRIM11"
-"TRIM47" -> "TRIM62"
-"TRIM47" -> "TRIM72"
-"TRIM48" -> "TRIM73"
-"TRIM48" -> "TRIM74"
-"TRIM48" -> "TRIM40"
-"TRIM48" -> "TRIM61"
-"TRIM50" -> "TRIM72"
-"TRIM50" -> "TRIM62"
-"TRIM50" -> "TRIM65"
-"TRIM50" -> "TRIM10"
-"TRIM54" -> "TRIM63"
-"TRIM54" -> "RNF207"
-"TRIM54" -> "TRIM55"
-"TRIM54" -> "TRIM73"
-"TRIM55" -> "TRIM54"
-"TRIM55" -> "TRIM63"
-"TRIM55" -> "TRIM45"
-"TRIM55" -> "FSD2"
-"TRIM56" -> "PML"
-"TRIM56" -> "TRIM25"
-"TRIM56" -> "TRIM45"
-"TRIM56" -> "TRIM32"
-"TRIM58" -> "TRIM11"
-"TRIM58" -> "TRIM35"
-"TRIM58" -> "TRIM65"
-"TRIM58" -> "TRIM27"
-"TRIM59" -> "TRIM13"
-"TRIM59" -> "RNF207"
-"TRIM59" -> "TRIM73"
-"TRIM59" -> "TRIM45"
-"TRIM61" -> "TRIM40"
-"TRIM61" -> "TRIM48"
-"TRIM61" -> "TRIM45"
-"TRIM61" -> "TRIM73"
-"TRIM62" -> "TRIM35"
-"TRIM62" -> "TRIM11"
-"TRIM62" -> "TRIM65"
-"TRIM62" -> "TRIM72"
-"TRIM63" -> "TRIM54"
-"TRIM63" -> "TRIM55"
-"TRIM63" -> "TRIM73"
-"TRIM63" -> "TRIM74"
-"TRIM65" -> "TRIM72"
-"TRIM65" -> "TRIM35"
-"TRIM65" -> "TRIM11"
-"TRIM65" -> "BSPRY"
-"TRIM67" -> "TRIM71"
-"TRIM67" -> "TRIM62"
-"TRIM67" -> "TRIM45"
-"TRIM67" -> "TRIM9"
-"TRIM7" -> "TRIM11"
-"TRIM7" -> "TRIM15"
-"TRIM7" -> "TRIM10"
-"TRIM7" -> "TRIM35"
-"TRIM71" -> "TRIM67"
-"TRIM71" -> "TRIM65"
-"TRIM71" -> "TRIM45"
-"TRIM71" -> "TRIM14"
-"TRIM72" -> "TRIM65"
-"TRIM72" -> "TRIM14"
-"TRIM72" -> "TRIM62"
-"TRIM72" -> "TRIM35"
-"TRIM73" -> "TRIM74"
-"TRIM73" -> "TRIM48"
-"TRIM73" -> "TRIM40"
-"TRIM73" -> "TRIM65"
-"TRIM74" -> "TRIM73"
-"TRIM74" -> "TRIM40"
-"TRIM74" -> "TRIM48"
-"TRIM74" -> "TRIM45"
-"TRIM8" -> "TRIM72"
-"TRIM8" -> "TRIM35"
-"TRIM8" -> "TRIM11"
-"TRIM8" -> "PML"
-"TRIM9" -> "TRIM46"
-"TRIM9" -> "TRIM67"
-"TRIM9" -> "TRIM2"
-"TRIM9" -> "TRIM45"
+"BSPRY" -> "TRIM14" ["e"=1]
+"BSPRY" -> "TRIM65" ["e"=1]
+"BSPRY" -> "RNF135" ["e"=1]
+"BSPRY" -> "TRIM62" ["e"=1]
+"FSD1" -> "TRIM46" ["e"=1]
+"FSD1" -> "TRIM62" ["e"=1]
+"FSD1" -> "TRIM67" ["e"=1]
+"FSD1" -> "BSPRY" ["e"=1]
+"FSD2" -> "TRIM14" ["e"=1]
+"FSD2" -> "TRIM72" ["e"=1]
+"FSD2" -> "TRIM67" ["e"=1]
+"FSD2" -> "TRIM45" ["e"=1]
+"MEFV" -> "TRIM31" ["e"=1]
+"MEFV" -> "TRIM27" ["e"=1]
+"MEFV" -> "TRIM16" ["e"=1]
+"MEFV" -> "TRIM58" ["e"=1]
+"PML" -> "RNF207" ["e"=1]
+"PML" -> "TRAF1" ["e"=1]
+"PML" -> "TRAF4" ["e"=1]
+"PML" -> "TRIM13" ["e"=1]
+"RFPL1" -> "RFPL3" ["e"=1]
+"RFPL1" -> "RFPL4B" ["e"=1]
+"RFPL1" -> "RFPL4AL1" ["e"=1]
+"RFPL1" -> "RFPL4A" ["e"=1]
+"RFPL2" -> "RFPL3" ["e"=1]
+"RFPL2" -> "RFPL4A" ["e"=1]
+"RFPL2" -> "RFPL1" ["e"=1]
+"RFPL2" -> "RFPL4AL1" ["e"=1]
+"RFPL3" -> "RFPL1" ["e"=1]
+"RFPL3" -> "RFPL4B" ["e"=1]
+"RFPL3" -> "RFPL2" ["e"=1]
+"RFPL3" -> "RFPL4A" ["e"=1]
+"RFPL4A" -> "RFPL4AL1" ["e"=1]
+"RFPL4A" -> "RFPL4B" ["e"=1]
+"RFPL4A" -> "RFPL3" ["e"=1]
+"RFPL4A" -> "RFPL1" ["e"=1]
+"RFPL4AL1" -> "RFPL4A" ["e"=1]
+"RFPL4AL1" -> "RFPL4B" ["e"=1]
+"RFPL4AL1" -> "RFPL3" ["e"=1]
+"RFPL4AL1" -> "RFPL1" ["e"=1]
+"RFPL4B" -> "RFPL4AL1" ["e"=1]
+"RFPL4B" -> "RFPL3" ["e"=1]
+"RFPL4B" -> "RFPL4A" ["e"=1]
+"RFPL4B" -> "RFPL1" ["e"=1]
+"RNF135" -> "BSPRY" ["e"=1]
+"RNF135" -> "TRIM14" ["e"=1]
+"RNF135" -> "TRIM65" ["e"=1]
+"RNF135" -> "TRIM58" ["e"=1]
+"RNF151" -> "TRIM45" ["e"=1]
+"RNF151" -> "TRIM54" ["e"=1]
+"RNF151" -> "RNF207" ["e"=1]
+"RNF151" -> "TRIM48" ["e"=1]
+"RNF207" -> "TRIM54" ["e"=1]
+"RNF207" -> "PML" ["e"=1]
+"RNF207" -> "TRIM45" ["e"=1]
+"RNF207" -> "TRIM73" ["e"=1]
+"RNF39" -> "TRIM72" ["e"=1]
+"RNF39" -> "RFPL3" ["e"=1]
+"RNF39" -> "TRIM65" ["e"=1]
+"RNF39" -> "RFPL1" ["e"=1]
+"TRAF1" -> "PML" ["e"=1]
+"TRAF1" -> "TRAF6" ["e"=1]
+"TRAF1" -> "TRAF5" ["e"=1]
+"TRAF1" -> "TRIM65" ["e"=1]
+"TRAF2" -> "TRAF3" ["e"=1]
+"TRAF2" -> "TRAF4" ["e"=1]
+"TRAF2" -> "TRAF1" ["e"=1]
+"TRAF2" -> "TRAF6" ["e"=1]
+"TRAF3" -> "TRAF5" ["e"=1]
+"TRAF3" -> "TRAF2" ["e"=1]
+"TRAF3" -> "TRAF4" ["e"=1]
+"TRAF3" -> "TRIM45" ["e"=1]
+"TRAF4" -> "TRAF2" ["e"=1]
+"TRAF4" -> "TRAF3" ["e"=1]
+"TRAF4" -> "TRAF6" ["e"=1]
+"TRAF4" -> "PML" ["e"=1]
+"TRAF5" -> "TRAF3" ["e"=1]
+"TRAF5" -> "TRAF6" ["e"=1]
+"TRAF5" -> "TRAF1" ["e"=1]
+"TRAF5" -> "TRIM45" ["e"=1]
+"TRAF6" -> "TRAF5" ["e"=1]
+"TRAF6" -> "TRAF4" ["e"=1]
+"TRAF6" -> "TRAF1" ["e"=1]
+"TRAF6" -> "TRAF2" ["e"=1]
+"TRIM10" -> "TRIM35" ["e"=1]
+"TRIM10" -> "TRIM27" ["e"=1]
+"TRIM10" -> "TRIM72" ["e"=1]
+"TRIM10" -> "TRIM15" ["e"=1]
+"TRIM11" -> "TRIM15" ["e"=1]
+"TRIM11" -> "TRIM62" ["e"=1]
+"TRIM11" -> "TRIM58" ["e"=1]
+"TRIM11" -> "TRIM35" ["e"=1]
+"TRIM13" -> "TRIM59" ["e"=1]
+"TRIM13" -> "TRIM72" ["e"=1]
+"TRIM13" -> "TRIM73" ["e"=1]
+"TRIM13" -> "TRIM74" ["e"=1]
+"TRIM14" -> "BSPRY" ["e"=1]
+"TRIM14" -> "TRIM72" ["e"=1]
+"TRIM14" -> "TRIM65" ["e"=1]
+"TRIM14" -> "TRIM62" ["e"=1]
+"TRIM15" -> "TRIM11" ["e"=1]
+"TRIM15" -> "TRIM4" ["e"=1]
+"TRIM15" -> "TRIM27" ["e"=1]
+"TRIM15" -> "TRIM10" ["e"=1]
+"TRIM16" -> "TRIM62" ["e"=1]
+"TRIM16" -> "TRIM4" ["e"=1]
+"TRIM16" -> "TRIM25" ["e"=1]
+"TRIM16" -> "TRIM27" ["e"=1]
+"TRIM2" -> "TRIM3" ["e"=1]
+"TRIM2" -> "TRIM45" ["e"=1]
+"TRIM2" -> "TRIM9" ["e"=1]
+"TRIM2" -> "TRAF3" ["e"=1]
+"TRIM25" -> "TRIM14" ["e"=1]
+"TRIM25" -> "TRIM62" ["e"=1]
+"TRIM25" -> "TRIM27" ["e"=1]
+"TRIM25" -> "TRIM4" ["e"=1]
+"TRIM26" -> "TRIM4" ["e"=1]
+"TRIM26" -> "TRIM35" ["e"=1]
+"TRIM26" -> "TRIM11" ["e"=1]
+"TRIM26" -> "TRIM39" ["e"=1]
+"TRIM27" -> "TRIM4" ["e"=1]
+"TRIM27" -> "TRIM11" ["e"=1]
+"TRIM27" -> "TRIM10" ["e"=1]
+"TRIM27" -> "TRIM15" ["e"=1]
+"TRIM29" -> "TRIM45" ["e"=1]
+"TRIM29" -> "TRIM16" ["e"=1]
+"TRIM29" -> "FSD2" ["e"=1]
+"TRIM29" -> "TRIM8" ["e"=1]
+"TRIM3" -> "TRIM2" ["e"=1]
+"TRIM3" -> "TRIM62" ["e"=1]
+"TRIM3" -> "TRIM46" ["e"=1]
+"TRIM3" -> "TRIM45" ["e"=1]
+"TRIM31" -> "TRIM15" ["e"=1]
+"TRIM31" -> "TRIM27" ["e"=1]
+"TRIM31" -> "MEFV" ["e"=1]
+"TRIM31" -> "TRIM4" ["e"=1]
+"TRIM32" -> "TRIM45" ["e"=1]
+"TRIM32" -> "TRIM62" ["e"=1]
+"TRIM32" -> "TRIM65" ["e"=1]
+"TRIM32" -> "TRIM13" ["e"=1]
+"TRIM35" -> "TRIM62" ["e"=1]
+"TRIM35" -> "TRIM65" ["e"=1]
+"TRIM35" -> "TRIM11" ["e"=1]
+"TRIM35" -> "TRIM39" ["e"=1]
+"TRIM36" -> "TRIM46" ["e"=1]
+"TRIM36" -> "TRAF5" ["e"=1]
+"TRIM36" -> "TRIM13" ["e"=1]
+"TRIM36" -> "TRAF3" ["e"=1]
+"TRIM38" -> "TRIM27" ["e"=1]
+"TRIM38" -> "TRIM10" ["e"=1]
+"TRIM38" -> "TRIM58" ["e"=1]
+"TRIM38" -> "TRIM4" ["e"=1]
+"TRIM39" -> "TRIM11" ["e"=1]
+"TRIM39" -> "TRIM35" ["e"=1]
+"TRIM39" -> "TRIM27" ["e"=1]
+"TRIM39" -> "TRIM4" ["e"=1]
+"TRIM4" -> "TRIM27" ["e"=1]
+"TRIM4" -> "TRIM35" ["e"=1]
+"TRIM4" -> "TRIM11" ["e"=1]
+"TRIM4" -> "TRIM15" ["e"=1]
+"TRIM40" -> "TRIM74" ["e"=1]
+"TRIM40" -> "TRIM45" ["e"=1]
+"TRIM40" -> "TRIM73" ["e"=1]
+"TRIM40" -> "TRIM48" ["e"=1]
+"TRIM41" -> "TRIM11" ["e"=1]
+"TRIM41" -> "TRIM39" ["e"=1]
+"TRIM41" -> "TRIM72" ["e"=1]
+"TRIM41" -> "TRIM26" ["e"=1]
+"TRIM42" -> "TRIM13" ["e"=1]
+"TRIM42" -> "TRIM48" ["e"=1]
+"TRIM42" -> "TRIM72" ["e"=1]
+"TRIM42" -> "TRIM74" ["e"=1]
+"TRIM45" -> "TRIM40" ["e"=1]
+"TRIM45" -> "TRIM74" ["e"=1]
+"TRIM45" -> "TRIM46" ["e"=1]
+"TRIM45" -> "TRAF3" ["e"=1]
+"TRIM46" -> "TRIM62" ["e"=1]
+"TRIM46" -> "TRIM65" ["e"=1]
+"TRIM46" -> "TRIM45" ["e"=1]
+"TRIM46" -> "TRIM36" ["e"=1]
+"TRIM47" -> "TRIM65" ["e"=1]
+"TRIM47" -> "TRIM11" ["e"=1]
+"TRIM47" -> "TRIM62" ["e"=1]
+"TRIM47" -> "TRIM72" ["e"=1]
+"TRIM48" -> "TRIM73" ["e"=1]
+"TRIM48" -> "TRIM74" ["e"=1]
+"TRIM48" -> "TRIM40" ["e"=1]
+"TRIM48" -> "TRIM61" ["e"=1]
+"TRIM50" -> "TRIM72" ["e"=1]
+"TRIM50" -> "TRIM62" ["e"=1]
+"TRIM50" -> "TRIM65" ["e"=1]
+"TRIM50" -> "TRIM10" ["e"=1]
+"TRIM54" -> "TRIM63" ["e"=1]
+"TRIM54" -> "RNF207" ["e"=1]
+"TRIM54" -> "TRIM55" ["e"=1]
+"TRIM54" -> "TRIM73" ["e"=1]
+"TRIM55" -> "TRIM54" ["e"=1]
+"TRIM55" -> "TRIM63" ["e"=1]
+"TRIM55" -> "TRIM45" ["e"=1]
+"TRIM55" -> "FSD2" ["e"=1]
+"TRIM56" -> "PML" ["e"=1]
+"TRIM56" -> "TRIM25" ["e"=1]
+"TRIM56" -> "TRIM45" ["e"=1]
+"TRIM56" -> "TRIM32" ["e"=1]
+"TRIM58" -> "TRIM11" ["e"=1]
+"TRIM58" -> "TRIM35" ["e"=1]
+"TRIM58" -> "TRIM65" ["e"=1]
+"TRIM58" -> "TRIM27" ["e"=1]
+"TRIM59" -> "TRIM13" ["e"=1]
+"TRIM59" -> "RNF207" ["e"=1]
+"TRIM59" -> "TRIM73" ["e"=1]
+"TRIM59" -> "TRIM45" ["e"=1]
+"TRIM61" -> "TRIM40" ["e"=1]
+"TRIM61" -> "TRIM48" ["e"=1]
+"TRIM61" -> "TRIM45" ["e"=1]
+"TRIM61" -> "TRIM73" ["e"=1]
+"TRIM62" -> "TRIM35" ["e"=1]
+"TRIM62" -> "TRIM11" ["e"=1]
+"TRIM62" -> "TRIM65" ["e"=1]
+"TRIM62" -> "TRIM72" ["e"=1]
+"TRIM63" -> "TRIM54" ["e"=1]
+"TRIM63" -> "TRIM55" ["e"=1]
+"TRIM63" -> "TRIM73" ["e"=1]
+"TRIM63" -> "TRIM74" ["e"=1]
+"TRIM65" -> "TRIM72" ["e"=1]
+"TRIM65" -> "TRIM35" ["e"=1]
+"TRIM65" -> "TRIM11" ["e"=1]
+"TRIM65" -> "BSPRY" ["e"=1]
+"TRIM67" -> "TRIM71" ["e"=1]
+"TRIM67" -> "TRIM62" ["e"=1]
+"TRIM67" -> "TRIM45" ["e"=1]
+"TRIM67" -> "TRIM9" ["e"=1]
+"TRIM7" -> "TRIM11" ["e"=1]
+"TRIM7" -> "TRIM15" ["e"=1]
+"TRIM7" -> "TRIM10" ["e"=1]
+"TRIM7" -> "TRIM35" ["e"=1]
+"TRIM71" -> "TRIM67" ["e"=1]
+"TRIM71" -> "TRIM65" ["e"=1]
+"TRIM71" -> "TRIM45" ["e"=1]
+"TRIM71" -> "TRIM14" ["e"=1]
+"TRIM72" -> "TRIM65" ["e"=1]
+"TRIM72" -> "TRIM14" ["e"=1]
+"TRIM72" -> "TRIM62" ["e"=1]
+"TRIM72" -> "TRIM35" ["e"=1]
+"TRIM73" -> "TRIM74" ["e"=1]
+"TRIM73" -> "TRIM48" ["e"=1]
+"TRIM73" -> "TRIM40" ["e"=1]
+"TRIM73" -> "TRIM65" ["e"=1]
+"TRIM74" -> "TRIM73" ["e"=1]
+"TRIM74" -> "TRIM40" ["e"=1]
+"TRIM74" -> "TRIM48" ["e"=1]
+"TRIM74" -> "TRIM45" ["e"=1]
+"TRIM8" -> "TRIM72" ["e"=1]
+"TRIM8" -> "TRIM35" ["e"=1]
+"TRIM8" -> "TRIM11" ["e"=1]
+"TRIM8" -> "PML" ["e"=1]
+"TRIM9" -> "TRIM46" ["e"=1]
+"TRIM9" -> "TRIM67" ["e"=1]
+"TRIM9" -> "TRIM2" ["e"=1]
+"TRIM9" -> "TRIM45" ["e"=1]
 }

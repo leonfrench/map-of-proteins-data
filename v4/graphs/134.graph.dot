@@ -20,88 +20,88 @@ digraph G {
 "SLC9A4" ["l"="10.699,-3.465"]
 "SLC9A5" ["l"="10.645,-3.495"]
 "SLC9C1" ["l"="10.878,-3.481"]
-"SLC24A2" -> "SLC24A4"
-"SLC24A2" -> "SLC24A3"
-"SLC24A2" -> "SLC4A8"
-"SLC24A2" -> "SLC4A10"
-"SLC24A3" -> "SLC24A4"
-"SLC24A3" -> "SLC24A2"
-"SLC24A3" -> "SLC4A8"
-"SLC24A3" -> "SLC9A4"
-"SLC24A4" -> "SLC24A2"
-"SLC24A4" -> "SLC24A3"
-"SLC24A4" -> "SLC4A5"
-"SLC24A4" -> "SLC4A8"
-"SLC26A5" -> "SLC9C1"
-"SLC26A5" -> "SLC26A8"
-"SLC26A5" -> "SLC9A4"
-"SLC26A5" -> "SLC9A5"
-"SLC26A8" -> "SLC26A5"
-"SLC26A8" -> "SLC9A5"
-"SLC26A8" -> "SLC9C1"
-"SLC26A8" -> "SLC9A4"
-"SLC4A1" -> "SLC4A9"
-"SLC4A1" -> "SLC4A5"
-"SLC4A1" -> "SLC4A2"
-"SLC4A1" -> "SLC4A8"
-"SLC4A10" -> "SLC4A7"
-"SLC4A10" -> "SLC4A8"
-"SLC4A10" -> "SLC4A4"
-"SLC4A10" -> "SLC4A5"
-"SLC4A11" -> "SLC4A9"
-"SLC4A11" -> "SLC4A5"
-"SLC4A11" -> "SLC4A8"
-"SLC4A11" -> "SLC4A1"
-"SLC4A2" -> "SLC4A3"
-"SLC4A2" -> "SLC4A1"
-"SLC4A2" -> "SLC4A5"
-"SLC4A2" -> "SLC4A9"
-"SLC4A3" -> "SLC4A2"
-"SLC4A3" -> "SLC4A5"
-"SLC4A3" -> "SLC4A1"
-"SLC4A3" -> "SLC4A4"
-"SLC4A4" -> "SLC4A7"
-"SLC4A4" -> "SLC4A5"
-"SLC4A4" -> "SLC4A8"
-"SLC4A4" -> "SLC4A10"
-"SLC4A5" -> "SLC4A8"
-"SLC4A5" -> "SLC4A4"
-"SLC4A5" -> "SLC4A10"
-"SLC4A5" -> "SLC4A7"
-"SLC4A7" -> "SLC4A10"
-"SLC4A7" -> "SLC4A4"
-"SLC4A7" -> "SLC4A8"
-"SLC4A7" -> "SLC4A5"
-"SLC4A8" -> "SLC4A5"
-"SLC4A8" -> "SLC4A10"
-"SLC4A8" -> "SLC4A4"
-"SLC4A8" -> "SLC4A7"
-"SLC4A9" -> "SLC4A1"
-"SLC4A9" -> "SLC4A11"
-"SLC4A9" -> "SLC4A5"
-"SLC4A9" -> "SLC4A2"
-"SLC9A1" -> "SLC9A5"
-"SLC9A1" -> "SLC9A2"
-"SLC9A1" -> "SLC9A3"
-"SLC9A1" -> "SLC9A4"
-"SLC9A2" -> "SLC9A4"
-"SLC9A2" -> "SLC9A1"
-"SLC9A2" -> "SLC9A5"
-"SLC9A2" -> "SLC9A3"
-"SLC9A3" -> "SLC9A5"
-"SLC9A3" -> "SLC9A4"
-"SLC9A3" -> "SLC9A2"
-"SLC9A3" -> "SLC9A1"
-"SLC9A4" -> "SLC9A2"
-"SLC9A4" -> "SLC9A3"
-"SLC9A4" -> "SLC9A5"
-"SLC9A4" -> "SLC9A1"
-"SLC9A5" -> "SLC9A3"
-"SLC9A5" -> "SLC9A1"
-"SLC9A5" -> "SLC9A2"
-"SLC9A5" -> "SLC9A4"
-"SLC9C1" -> "SLC26A5"
-"SLC9C1" -> "SLC26A8"
-"SLC9C1" -> "SLC9A4"
-"SLC9C1" -> "SLC9A5"
+"SLC24A2" -> "SLC24A4" ["e"=1]
+"SLC24A2" -> "SLC24A3" ["e"=1]
+"SLC24A2" -> "SLC4A8" ["e"=1]
+"SLC24A2" -> "SLC4A10" ["e"=1]
+"SLC24A3" -> "SLC24A4" ["e"=1]
+"SLC24A3" -> "SLC24A2" ["e"=1]
+"SLC24A3" -> "SLC4A8" ["e"=1]
+"SLC24A3" -> "SLC9A4" ["e"=1]
+"SLC24A4" -> "SLC24A2" ["e"=1]
+"SLC24A4" -> "SLC24A3" ["e"=1]
+"SLC24A4" -> "SLC4A5" ["e"=1]
+"SLC24A4" -> "SLC4A8" ["e"=1]
+"SLC26A5" -> "SLC9C1" ["e"=1]
+"SLC26A5" -> "SLC26A8" ["e"=1]
+"SLC26A5" -> "SLC9A4" ["e"=1]
+"SLC26A5" -> "SLC9A5" ["e"=1]
+"SLC26A8" -> "SLC26A5" ["e"=1]
+"SLC26A8" -> "SLC9A5" ["e"=1]
+"SLC26A8" -> "SLC9C1" ["e"=1]
+"SLC26A8" -> "SLC9A4" ["e"=1]
+"SLC4A1" -> "SLC4A9" ["e"=1]
+"SLC4A1" -> "SLC4A5" ["e"=1]
+"SLC4A1" -> "SLC4A2" ["e"=1]
+"SLC4A1" -> "SLC4A8" ["e"=1]
+"SLC4A10" -> "SLC4A7" ["e"=1]
+"SLC4A10" -> "SLC4A8" ["e"=1]
+"SLC4A10" -> "SLC4A4" ["e"=1]
+"SLC4A10" -> "SLC4A5" ["e"=1]
+"SLC4A11" -> "SLC4A9" ["e"=1]
+"SLC4A11" -> "SLC4A5" ["e"=1]
+"SLC4A11" -> "SLC4A8" ["e"=1]
+"SLC4A11" -> "SLC4A1" ["e"=1]
+"SLC4A2" -> "SLC4A3" ["e"=1]
+"SLC4A2" -> "SLC4A1" ["e"=1]
+"SLC4A2" -> "SLC4A5" ["e"=1]
+"SLC4A2" -> "SLC4A9" ["e"=1]
+"SLC4A3" -> "SLC4A2" ["e"=1]
+"SLC4A3" -> "SLC4A5" ["e"=1]
+"SLC4A3" -> "SLC4A1" ["e"=1]
+"SLC4A3" -> "SLC4A4" ["e"=1]
+"SLC4A4" -> "SLC4A7" ["e"=1]
+"SLC4A4" -> "SLC4A5" ["e"=1]
+"SLC4A4" -> "SLC4A8" ["e"=1]
+"SLC4A4" -> "SLC4A10" ["e"=1]
+"SLC4A5" -> "SLC4A8" ["e"=1]
+"SLC4A5" -> "SLC4A4" ["e"=1]
+"SLC4A5" -> "SLC4A10" ["e"=1]
+"SLC4A5" -> "SLC4A7" ["e"=1]
+"SLC4A7" -> "SLC4A10" ["e"=1]
+"SLC4A7" -> "SLC4A4" ["e"=1]
+"SLC4A7" -> "SLC4A8" ["e"=1]
+"SLC4A7" -> "SLC4A5" ["e"=1]
+"SLC4A8" -> "SLC4A5" ["e"=1]
+"SLC4A8" -> "SLC4A10" ["e"=1]
+"SLC4A8" -> "SLC4A4" ["e"=1]
+"SLC4A8" -> "SLC4A7" ["e"=1]
+"SLC4A9" -> "SLC4A1" ["e"=1]
+"SLC4A9" -> "SLC4A11" ["e"=1]
+"SLC4A9" -> "SLC4A5" ["e"=1]
+"SLC4A9" -> "SLC4A2" ["e"=1]
+"SLC9A1" -> "SLC9A5" ["e"=1]
+"SLC9A1" -> "SLC9A2" ["e"=1]
+"SLC9A1" -> "SLC9A3" ["e"=1]
+"SLC9A1" -> "SLC9A4" ["e"=1]
+"SLC9A2" -> "SLC9A4" ["e"=1]
+"SLC9A2" -> "SLC9A1" ["e"=1]
+"SLC9A2" -> "SLC9A5" ["e"=1]
+"SLC9A2" -> "SLC9A3" ["e"=1]
+"SLC9A3" -> "SLC9A5" ["e"=1]
+"SLC9A3" -> "SLC9A4" ["e"=1]
+"SLC9A3" -> "SLC9A2" ["e"=1]
+"SLC9A3" -> "SLC9A1" ["e"=1]
+"SLC9A4" -> "SLC9A2" ["e"=1]
+"SLC9A4" -> "SLC9A3" ["e"=1]
+"SLC9A4" -> "SLC9A5" ["e"=1]
+"SLC9A4" -> "SLC9A1" ["e"=1]
+"SLC9A5" -> "SLC9A3" ["e"=1]
+"SLC9A5" -> "SLC9A1" ["e"=1]
+"SLC9A5" -> "SLC9A2" ["e"=1]
+"SLC9A5" -> "SLC9A4" ["e"=1]
+"SLC9C1" -> "SLC26A5" ["e"=1]
+"SLC9C1" -> "SLC26A8" ["e"=1]
+"SLC9C1" -> "SLC9A4" ["e"=1]
+"SLC9C1" -> "SLC9A5" ["e"=1]
 }

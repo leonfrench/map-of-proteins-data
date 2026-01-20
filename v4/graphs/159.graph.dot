@@ -38,160 +38,160 @@ digraph G {
 "UBIAD1" ["l"="9.894,-3.418"]
 "VMP1" ["l"="10.002,-3.263"]
 "XKR9" ["l"="9.834,-3.302"]
-"CEPT1" -> "STEAP1"
-"CEPT1" -> "VMP1"
-"CEPT1" -> "STEAP2"
-"CEPT1" -> "SLC33A1"
-"CHPT1" -> "CEPT1"
-"CHPT1" -> "SLC35D1"
-"CHPT1" -> "UBIAD1"
-"CHPT1" -> "SLC33A1"
-"MFSD13A" -> "SLC35C2"
-"MFSD13A" -> "SLC35A5"
-"MFSD13A" -> "SLC35B4"
-"MFSD13A" -> "TMEM175"
-"MFSD5" -> "SLC35C1"
-"MFSD5" -> "SLC35A4"
-"MFSD5" -> "SLC35B2"
-"MFSD5" -> "UBIAD1"
-"NIPA1" -> "NIPAL3"
-"NIPA1" -> "SLC35B4"
-"NIPA1" -> "SLC35E2B"
-"NIPA1" -> "SLC35E1"
-"NIPAL2" -> "NIPAL3"
-"NIPAL2" -> "NIPA1"
-"NIPAL2" -> "SLC35B4"
-"NIPAL2" -> "TMEM241"
-"NIPAL3" -> "NIPAL2"
-"NIPAL3" -> "NIPA1"
-"NIPAL3" -> "SLC35E2B"
-"NIPAL3" -> "SLC35C1"
-"OTOP1" -> "OTOP2"
-"OTOP1" -> "UBIAD1"
-"OTOP1" -> "SLC35E1"
-"OTOP1" -> "NIPA1"
-"OTOP2" -> "OTOP1"
-"OTOP2" -> "UBIAD1"
-"OTOP2" -> "TMEM175"
-"OTOP2" -> "SLC35A5"
-"SLC10A5" -> "XKR9"
-"SLC10A5" -> "STEAP4"
-"SLC10A5" -> "SLC35A4"
-"SLC10A5" -> "SLC35C1"
-"SLC31A1" -> "SLC35F6"
-"SLC31A1" -> "SLC35C1"
-"SLC31A1" -> "SLC35B4"
-"SLC31A1" -> "SLC35E2B"
-"SLC33A1" -> "SLC35B4"
-"SLC33A1" -> "SLC35D1"
-"SLC33A1" -> "SLC35A5"
-"SLC33A1" -> "SLC35E1"
-"SLC35A1" -> "SLC35B4"
-"SLC35A1" -> "SLC35B3"
-"SLC35A1" -> "SLC35E2B"
-"SLC35A1" -> "SLC35D1"
-"SLC35A4" -> "SLC35C1"
-"SLC35A4" -> "SLC35B2"
-"SLC35A4" -> "SLC35F6"
-"SLC35A4" -> "MFSD5"
-"SLC35A5" -> "SLC35B4"
-"SLC35A5" -> "SLC33A1"
-"SLC35A5" -> "SLC35D1"
-"SLC35A5" -> "SLC35E2B"
-"SLC35B2" -> "SLC35C1"
-"SLC35B2" -> "SLC35A4"
-"SLC35B2" -> "SLC35A5"
-"SLC35B2" -> "SLC35F6"
-"SLC35B3" -> "SLC35B4"
-"SLC35B3" -> "SLC35A1"
-"SLC35B3" -> "SLC35D1"
-"SLC35B3" -> "SLC35A5"
-"SLC35B4" -> "SLC35D1"
-"SLC35B4" -> "SLC35A5"
-"SLC35B4" -> "SLC35E2B"
-"SLC35B4" -> "SLC33A1"
-"SLC35C1" -> "SLC35B2"
-"SLC35C1" -> "SLC35E4"
-"SLC35C1" -> "SLC35A4"
-"SLC35C1" -> "SLC35E2B"
-"SLC35C2" -> "SLC35E2B"
-"SLC35C2" -> "SLC35B4"
-"SLC35C2" -> "SLC35D1"
-"SLC35C2" -> "SLC35F6"
-"SLC35D1" -> "SLC35B4"
-"SLC35D1" -> "SLC35E2B"
-"SLC35D1" -> "SLC33A1"
-"SLC35D1" -> "SLC35E1"
-"SLC35D2" -> "SLC35B4"
-"SLC35D2" -> "SLC35D1"
-"SLC35D2" -> "SLC35E1"
-"SLC35D2" -> "TMEM241"
-"SLC35D3" -> "SLC35E2B"
-"SLC35D3" -> "SLC35C1"
-"SLC35D3" -> "SLC35E4"
-"SLC35D3" -> "SLC35A5"
-"SLC35E1" -> "SLC35B4"
-"SLC35E1" -> "SLC35E2B"
-"SLC35E1" -> "SLC35D1"
-"SLC35E1" -> "NIPA1"
-"SLC35E2B" -> "SLC35D1"
-"SLC35E2B" -> "SLC35B4"
-"SLC35E2B" -> "SLC35C2"
-"SLC35E2B" -> "SLC35E1"
-"SLC35E4" -> "UBIAD1"
-"SLC35E4" -> "SLC35C1"
-"SLC35E4" -> "SLC35E1"
-"SLC35E4" -> "SLC35E2B"
-"SLC35F6" -> "SLC35C1"
-"SLC35F6" -> "SLC35E2B"
-"SLC35F6" -> "SLC35C2"
-"SLC35F6" -> "SLC35B4"
-"SOAT2" -> "TMEM120B"
-"SOAT2" -> "SLC35C1"
-"SOAT2" -> "CEPT1"
-"SOAT2" -> "TMEM41B"
-"STEAP1" -> "STEAP2"
-"STEAP1" -> "CEPT1"
-"STEAP1" -> "STEAP4"
-"STEAP1" -> "VMP1"
-"STEAP2" -> "STEAP4"
-"STEAP2" -> "SLC33A1"
-"STEAP2" -> "STEAP1"
-"STEAP2" -> "UBIAD1"
-"STEAP4" -> "STEAP2"
-"STEAP4" -> "SLC33A1"
-"STEAP4" -> "UBIAD1"
-"STEAP4" -> "STEAP1"
-"TMEM120B" -> "VMP1"
-"TMEM120B" -> "SOAT2"
-"TMEM120B" -> "UBIAD1"
-"TMEM120B" -> "TMEM41B"
-"TMEM175" -> "MFSD13A"
-"TMEM175" -> "UBIAD1"
-"TMEM175" -> "SLC35A5"
-"TMEM175" -> "TMEM241"
-"TMEM237" -> "STEAP2"
-"TMEM237" -> "SLC35E2B"
-"TMEM237" -> "SLC33A1"
-"TMEM237" -> "SLC35A5"
-"TMEM241" -> "SLC35B4"
-"TMEM241" -> "SLC35D1"
-"TMEM241" -> "SLC35E2B"
-"TMEM241" -> "SLC35C2"
-"TMEM41B" -> "VMP1"
-"TMEM41B" -> "SLC35D1"
-"TMEM41B" -> "SLC33A1"
-"TMEM41B" -> "SLC35B4"
-"UBIAD1" -> "SLC35E4"
-"UBIAD1" -> "SLC35E2B"
-"UBIAD1" -> "SLC35E1"
-"UBIAD1" -> "SLC35B4"
-"VMP1" -> "TMEM41B"
-"VMP1" -> "CEPT1"
-"VMP1" -> "STEAP2"
-"VMP1" -> "STEAP4"
-"XKR9" -> "STEAP2"
-"XKR9" -> "STEAP4"
-"XKR9" -> "SLC35A5"
-"XKR9" -> "SLC10A5"
+"CEPT1" -> "STEAP1" ["e"=1]
+"CEPT1" -> "VMP1" ["e"=1]
+"CEPT1" -> "STEAP2" ["e"=1]
+"CEPT1" -> "SLC33A1" ["e"=1]
+"CHPT1" -> "CEPT1" ["e"=1]
+"CHPT1" -> "SLC35D1" ["e"=1]
+"CHPT1" -> "UBIAD1" ["e"=1]
+"CHPT1" -> "SLC33A1" ["e"=1]
+"MFSD13A" -> "SLC35C2" ["e"=1]
+"MFSD13A" -> "SLC35A5" ["e"=1]
+"MFSD13A" -> "SLC35B4" ["e"=1]
+"MFSD13A" -> "TMEM175" ["e"=1]
+"MFSD5" -> "SLC35C1" ["e"=1]
+"MFSD5" -> "SLC35A4" ["e"=1]
+"MFSD5" -> "SLC35B2" ["e"=1]
+"MFSD5" -> "UBIAD1" ["e"=1]
+"NIPA1" -> "NIPAL3" ["e"=1]
+"NIPA1" -> "SLC35B4" ["e"=1]
+"NIPA1" -> "SLC35E2B" ["e"=1]
+"NIPA1" -> "SLC35E1" ["e"=1]
+"NIPAL2" -> "NIPAL3" ["e"=1]
+"NIPAL2" -> "NIPA1" ["e"=1]
+"NIPAL2" -> "SLC35B4" ["e"=1]
+"NIPAL2" -> "TMEM241" ["e"=1]
+"NIPAL3" -> "NIPAL2" ["e"=1]
+"NIPAL3" -> "NIPA1" ["e"=1]
+"NIPAL3" -> "SLC35E2B" ["e"=1]
+"NIPAL3" -> "SLC35C1" ["e"=1]
+"OTOP1" -> "OTOP2" ["e"=1]
+"OTOP1" -> "UBIAD1" ["e"=1]
+"OTOP1" -> "SLC35E1" ["e"=1]
+"OTOP1" -> "NIPA1" ["e"=1]
+"OTOP2" -> "OTOP1" ["e"=1]
+"OTOP2" -> "UBIAD1" ["e"=1]
+"OTOP2" -> "TMEM175" ["e"=1]
+"OTOP2" -> "SLC35A5" ["e"=1]
+"SLC10A5" -> "XKR9" ["e"=1]
+"SLC10A5" -> "STEAP4" ["e"=1]
+"SLC10A5" -> "SLC35A4" ["e"=1]
+"SLC10A5" -> "SLC35C1" ["e"=1]
+"SLC31A1" -> "SLC35F6" ["e"=1]
+"SLC31A1" -> "SLC35C1" ["e"=1]
+"SLC31A1" -> "SLC35B4" ["e"=1]
+"SLC31A1" -> "SLC35E2B" ["e"=1]
+"SLC33A1" -> "SLC35B4" ["e"=1]
+"SLC33A1" -> "SLC35D1" ["e"=1]
+"SLC33A1" -> "SLC35A5" ["e"=1]
+"SLC33A1" -> "SLC35E1" ["e"=1]
+"SLC35A1" -> "SLC35B4" ["e"=1]
+"SLC35A1" -> "SLC35B3" ["e"=1]
+"SLC35A1" -> "SLC35E2B" ["e"=1]
+"SLC35A1" -> "SLC35D1" ["e"=1]
+"SLC35A4" -> "SLC35C1" ["e"=1]
+"SLC35A4" -> "SLC35B2" ["e"=1]
+"SLC35A4" -> "SLC35F6" ["e"=1]
+"SLC35A4" -> "MFSD5" ["e"=1]
+"SLC35A5" -> "SLC35B4" ["e"=1]
+"SLC35A5" -> "SLC33A1" ["e"=1]
+"SLC35A5" -> "SLC35D1" ["e"=1]
+"SLC35A5" -> "SLC35E2B" ["e"=1]
+"SLC35B2" -> "SLC35C1" ["e"=1]
+"SLC35B2" -> "SLC35A4" ["e"=1]
+"SLC35B2" -> "SLC35A5" ["e"=1]
+"SLC35B2" -> "SLC35F6" ["e"=1]
+"SLC35B3" -> "SLC35B4" ["e"=1]
+"SLC35B3" -> "SLC35A1" ["e"=1]
+"SLC35B3" -> "SLC35D1" ["e"=1]
+"SLC35B3" -> "SLC35A5" ["e"=1]
+"SLC35B4" -> "SLC35D1" ["e"=1]
+"SLC35B4" -> "SLC35A5" ["e"=1]
+"SLC35B4" -> "SLC35E2B" ["e"=1]
+"SLC35B4" -> "SLC33A1" ["e"=1]
+"SLC35C1" -> "SLC35B2" ["e"=1]
+"SLC35C1" -> "SLC35E4" ["e"=1]
+"SLC35C1" -> "SLC35A4" ["e"=1]
+"SLC35C1" -> "SLC35E2B" ["e"=1]
+"SLC35C2" -> "SLC35E2B" ["e"=1]
+"SLC35C2" -> "SLC35B4" ["e"=1]
+"SLC35C2" -> "SLC35D1" ["e"=1]
+"SLC35C2" -> "SLC35F6" ["e"=1]
+"SLC35D1" -> "SLC35B4" ["e"=1]
+"SLC35D1" -> "SLC35E2B" ["e"=1]
+"SLC35D1" -> "SLC33A1" ["e"=1]
+"SLC35D1" -> "SLC35E1" ["e"=1]
+"SLC35D2" -> "SLC35B4" ["e"=1]
+"SLC35D2" -> "SLC35D1" ["e"=1]
+"SLC35D2" -> "SLC35E1" ["e"=1]
+"SLC35D2" -> "TMEM241" ["e"=1]
+"SLC35D3" -> "SLC35E2B" ["e"=1]
+"SLC35D3" -> "SLC35C1" ["e"=1]
+"SLC35D3" -> "SLC35E4" ["e"=1]
+"SLC35D3" -> "SLC35A5" ["e"=1]
+"SLC35E1" -> "SLC35B4" ["e"=1]
+"SLC35E1" -> "SLC35E2B" ["e"=1]
+"SLC35E1" -> "SLC35D1" ["e"=1]
+"SLC35E1" -> "NIPA1" ["e"=1]
+"SLC35E2B" -> "SLC35D1" ["e"=1]
+"SLC35E2B" -> "SLC35B4" ["e"=1]
+"SLC35E2B" -> "SLC35C2" ["e"=1]
+"SLC35E2B" -> "SLC35E1" ["e"=1]
+"SLC35E4" -> "UBIAD1" ["e"=1]
+"SLC35E4" -> "SLC35C1" ["e"=1]
+"SLC35E4" -> "SLC35E1" ["e"=1]
+"SLC35E4" -> "SLC35E2B" ["e"=1]
+"SLC35F6" -> "SLC35C1" ["e"=1]
+"SLC35F6" -> "SLC35E2B" ["e"=1]
+"SLC35F6" -> "SLC35C2" ["e"=1]
+"SLC35F6" -> "SLC35B4" ["e"=1]
+"SOAT2" -> "TMEM120B" ["e"=1]
+"SOAT2" -> "SLC35C1" ["e"=1]
+"SOAT2" -> "CEPT1" ["e"=1]
+"SOAT2" -> "TMEM41B" ["e"=1]
+"STEAP1" -> "STEAP2" ["e"=1]
+"STEAP1" -> "CEPT1" ["e"=1]
+"STEAP1" -> "STEAP4" ["e"=1]
+"STEAP1" -> "VMP1" ["e"=1]
+"STEAP2" -> "STEAP4" ["e"=1]
+"STEAP2" -> "SLC33A1" ["e"=1]
+"STEAP2" -> "STEAP1" ["e"=1]
+"STEAP2" -> "UBIAD1" ["e"=1]
+"STEAP4" -> "STEAP2" ["e"=1]
+"STEAP4" -> "SLC33A1" ["e"=1]
+"STEAP4" -> "UBIAD1" ["e"=1]
+"STEAP4" -> "STEAP1" ["e"=1]
+"TMEM120B" -> "VMP1" ["e"=1]
+"TMEM120B" -> "SOAT2" ["e"=1]
+"TMEM120B" -> "UBIAD1" ["e"=1]
+"TMEM120B" -> "TMEM41B" ["e"=1]
+"TMEM175" -> "MFSD13A" ["e"=1]
+"TMEM175" -> "UBIAD1" ["e"=1]
+"TMEM175" -> "SLC35A5" ["e"=1]
+"TMEM175" -> "TMEM241" ["e"=1]
+"TMEM237" -> "STEAP2" ["e"=1]
+"TMEM237" -> "SLC35E2B" ["e"=1]
+"TMEM237" -> "SLC33A1" ["e"=1]
+"TMEM237" -> "SLC35A5" ["e"=1]
+"TMEM241" -> "SLC35B4" ["e"=1]
+"TMEM241" -> "SLC35D1" ["e"=1]
+"TMEM241" -> "SLC35E2B" ["e"=1]
+"TMEM241" -> "SLC35C2" ["e"=1]
+"TMEM41B" -> "VMP1" ["e"=1]
+"TMEM41B" -> "SLC35D1" ["e"=1]
+"TMEM41B" -> "SLC33A1" ["e"=1]
+"TMEM41B" -> "SLC35B4" ["e"=1]
+"UBIAD1" -> "SLC35E4" ["e"=1]
+"UBIAD1" -> "SLC35E2B" ["e"=1]
+"UBIAD1" -> "SLC35E1" ["e"=1]
+"UBIAD1" -> "SLC35B4" ["e"=1]
+"VMP1" -> "TMEM41B" ["e"=1]
+"VMP1" -> "CEPT1" ["e"=1]
+"VMP1" -> "STEAP2" ["e"=1]
+"VMP1" -> "STEAP4" ["e"=1]
+"XKR9" -> "STEAP2" ["e"=1]
+"XKR9" -> "STEAP4" ["e"=1]
+"XKR9" -> "SLC35A5" ["e"=1]
+"XKR9" -> "SLC10A5" ["e"=1]
 }

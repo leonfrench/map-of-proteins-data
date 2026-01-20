@@ -17,76 +17,76 @@ digraph G {
 "GLRA1" ["l"="17.913,-4.791"]
 "GLRA3" ["l"="17.916,-4.789"]
 "GLRB" ["l"="17.919,-4.786"]
-"GABRA1" -> "GABRG2"
-"GABRA1" -> "GABRA6"
-"GABRA1" -> "GABRB2"
-"GABRA1" -> "GABRA2"
-"GABRA2" -> "GABRG1"
-"GABRA2" -> "GABRA1"
-"GABRA2" -> "GABRA5"
-"GABRA2" -> "GLRA3"
-"GABRA4" -> "GABRG2"
-"GABRA4" -> "GABRA1"
-"GABRA4" -> "GABRA2"
-"GABRA4" -> "GABRA6"
-"GABRA5" -> "GABRA6"
-"GABRA5" -> "GABRA2"
-"GABRA5" -> "GABRA1"
-"GABRA5" -> "GABRD"
-"GABRA6" -> "GABRA5"
-"GABRA6" -> "GABRA1"
-"GABRA6" -> "GABRG2"
-"GABRA6" -> "GABRR3"
-"GABRB1" -> "GABRB3"
-"GABRB1" -> "GABRB2"
-"GABRB1" -> "GABRG2"
-"GABRB1" -> "GABRA1"
-"GABRB2" -> "GABRG2"
-"GABRB2" -> "GABRB3"
-"GABRB2" -> "GABRA1"
-"GABRB2" -> "GABRB1"
-"GABRB3" -> "GABRB2"
-"GABRB3" -> "GABRB1"
-"GABRB3" -> "GABRG2"
-"GABRB3" -> "GABRG3"
-"GABRD" -> "GABRR2"
-"GABRD" -> "GABRR1"
-"GABRD" -> "GABRA5"
-"GABRD" -> "GABRA1"
-"GABRG1" -> "GLRA3"
-"GABRG1" -> "GABRA2"
-"GABRG1" -> "GABRG2"
-"GABRG1" -> "GABRA6"
-"GABRG2" -> "GABRA1"
-"GABRG2" -> "GABRB2"
-"GABRG2" -> "GABRA6"
-"GABRG2" -> "GLRB"
-"GABRG3" -> "GABRB3"
-"GABRG3" -> "GABRB2"
-"GABRG3" -> "GABRG1"
-"GABRG3" -> "GABRR2"
-"GABRR1" -> "GABRR3"
-"GABRR1" -> "GABRR2"
-"GABRR1" -> "GABRD"
-"GABRR1" -> "GABRA6"
-"GABRR2" -> "GABRR1"
-"GABRR2" -> "GABRR3"
-"GABRR2" -> "GABRD"
-"GABRR2" -> "GABRB3"
-"GABRR3" -> "GABRR1"
-"GABRR3" -> "GABRR2"
-"GABRR3" -> "GABRA6"
-"GABRR3" -> "GABRG2"
-"GLRA1" -> "GLRA3"
-"GLRA1" -> "GABRR2"
-"GLRA1" -> "GABRA6"
-"GLRA1" -> "GABRR1"
-"GLRA3" -> "GABRG1"
-"GLRA3" -> "GLRA1"
-"GLRA3" -> "GABRG2"
-"GLRA3" -> "GABRA2"
-"GLRB" -> "GABRG2"
-"GLRB" -> "GABRA1"
-"GLRB" -> "GLRA3"
-"GLRB" -> "GABRA4"
+"GABRA1" -> "GABRG2" ["e"=1]
+"GABRA1" -> "GABRA6" ["e"=1]
+"GABRA1" -> "GABRB2" ["e"=1]
+"GABRA1" -> "GABRA2" ["e"=1]
+"GABRA2" -> "GABRG1" ["e"=1]
+"GABRA2" -> "GABRA1" ["e"=1]
+"GABRA2" -> "GABRA5" ["e"=1]
+"GABRA2" -> "GLRA3" ["e"=1]
+"GABRA4" -> "GABRG2" ["e"=1]
+"GABRA4" -> "GABRA1" ["e"=1]
+"GABRA4" -> "GABRA2" ["e"=1]
+"GABRA4" -> "GABRA6" ["e"=1]
+"GABRA5" -> "GABRA6" ["e"=1]
+"GABRA5" -> "GABRA2" ["e"=1]
+"GABRA5" -> "GABRA1" ["e"=1]
+"GABRA5" -> "GABRD" ["e"=1]
+"GABRA6" -> "GABRA5" ["e"=1]
+"GABRA6" -> "GABRA1" ["e"=1]
+"GABRA6" -> "GABRG2" ["e"=1]
+"GABRA6" -> "GABRR3" ["e"=1]
+"GABRB1" -> "GABRB3" ["e"=1]
+"GABRB1" -> "GABRB2" ["e"=1]
+"GABRB1" -> "GABRG2" ["e"=1]
+"GABRB1" -> "GABRA1" ["e"=1]
+"GABRB2" -> "GABRG2" ["e"=1]
+"GABRB2" -> "GABRB3" ["e"=1]
+"GABRB2" -> "GABRA1" ["e"=1]
+"GABRB2" -> "GABRB1" ["e"=1]
+"GABRB3" -> "GABRB2" ["e"=1]
+"GABRB3" -> "GABRB1" ["e"=1]
+"GABRB3" -> "GABRG2" ["e"=1]
+"GABRB3" -> "GABRG3" ["e"=1]
+"GABRD" -> "GABRR2" ["e"=1]
+"GABRD" -> "GABRR1" ["e"=1]
+"GABRD" -> "GABRA5" ["e"=1]
+"GABRD" -> "GABRA1" ["e"=1]
+"GABRG1" -> "GLRA3" ["e"=1]
+"GABRG1" -> "GABRA2" ["e"=1]
+"GABRG1" -> "GABRG2" ["e"=1]
+"GABRG1" -> "GABRA6" ["e"=1]
+"GABRG2" -> "GABRA1" ["e"=1]
+"GABRG2" -> "GABRB2" ["e"=1]
+"GABRG2" -> "GABRA6" ["e"=1]
+"GABRG2" -> "GLRB" ["e"=1]
+"GABRG3" -> "GABRB3" ["e"=1]
+"GABRG3" -> "GABRB2" ["e"=1]
+"GABRG3" -> "GABRG1" ["e"=1]
+"GABRG3" -> "GABRR2" ["e"=1]
+"GABRR1" -> "GABRR3" ["e"=1]
+"GABRR1" -> "GABRR2" ["e"=1]
+"GABRR1" -> "GABRD" ["e"=1]
+"GABRR1" -> "GABRA6" ["e"=1]
+"GABRR2" -> "GABRR1" ["e"=1]
+"GABRR2" -> "GABRR3" ["e"=1]
+"GABRR2" -> "GABRD" ["e"=1]
+"GABRR2" -> "GABRB3" ["e"=1]
+"GABRR3" -> "GABRR1" ["e"=1]
+"GABRR3" -> "GABRR2" ["e"=1]
+"GABRR3" -> "GABRA6" ["e"=1]
+"GABRR3" -> "GABRG2" ["e"=1]
+"GLRA1" -> "GLRA3" ["e"=1]
+"GLRA1" -> "GABRR2" ["e"=1]
+"GLRA1" -> "GABRA6" ["e"=1]
+"GLRA1" -> "GABRR1" ["e"=1]
+"GLRA3" -> "GABRG1" ["e"=1]
+"GLRA3" -> "GLRA1" ["e"=1]
+"GLRA3" -> "GABRG2" ["e"=1]
+"GLRA3" -> "GABRA2" ["e"=1]
+"GLRB" -> "GABRG2" ["e"=1]
+"GLRB" -> "GABRA1" ["e"=1]
+"GLRB" -> "GLRA3" ["e"=1]
+"GLRB" -> "GABRA4" ["e"=1]
 }

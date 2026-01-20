@@ -10,48 +10,48 @@ digraph G {
 "IL36G" ["l"="15.675,-0.126"]
 "IL36RN" ["l"="15.660,-0.129"]
 "IL37" ["l"="15.647,-0.167"]
-"IL18" -> "IL1A"
-"IL18" -> "IL36G"
-"IL18" -> "IL36A"
-"IL18" -> "IL1RN"
-"IL1A" -> "IL1RN"
-"IL1A" -> "IL36G"
-"IL1A" -> "IL33"
-"IL1A" -> "IL18"
-"IL1B" -> "IL1RN"
-"IL1B" -> "IL1A"
-"IL1B" -> "IL36G"
-"IL1B" -> "IL36A"
-"IL1F10" -> "IL36RN"
-"IL1F10" -> "IL37"
-"IL1F10" -> "IL36A"
-"IL1F10" -> "IL36G"
-"IL1RN" -> "IL36G"
-"IL1RN" -> "IL36RN"
-"IL1RN" -> "IL1A"
-"IL1RN" -> "IL1B"
-"IL33" -> "IL1A"
-"IL33" -> "IL36G"
-"IL33" -> "IL36A"
-"IL33" -> "IL18"
-"IL36A" -> "IL36RN"
-"IL36A" -> "IL36G"
-"IL36A" -> "IL1RN"
-"IL36A" -> "IL37"
-"IL36B" -> "IL37"
-"IL36B" -> "IL1F10"
-"IL36B" -> "IL36RN"
-"IL36B" -> "IL36A"
-"IL36G" -> "IL1RN"
-"IL36G" -> "IL36RN"
-"IL36G" -> "IL36A"
-"IL36G" -> "IL1A"
-"IL36RN" -> "IL36G"
-"IL36RN" -> "IL1RN"
-"IL36RN" -> "IL36A"
-"IL36RN" -> "IL1F10"
-"IL37" -> "IL36A"
-"IL37" -> "IL1F10"
-"IL37" -> "IL36G"
-"IL37" -> "IL36B"
+"IL18" -> "IL1A" ["e"=1]
+"IL18" -> "IL36G" ["e"=1]
+"IL18" -> "IL36A" ["e"=1]
+"IL18" -> "IL1RN" ["e"=1]
+"IL1A" -> "IL1RN" ["e"=1]
+"IL1A" -> "IL36G" ["e"=1]
+"IL1A" -> "IL33" ["e"=1]
+"IL1A" -> "IL18" ["e"=1]
+"IL1B" -> "IL1RN" ["e"=1]
+"IL1B" -> "IL1A" ["e"=1]
+"IL1B" -> "IL36G" ["e"=1]
+"IL1B" -> "IL36A" ["e"=1]
+"IL1F10" -> "IL36RN" ["e"=1]
+"IL1F10" -> "IL37" ["e"=1]
+"IL1F10" -> "IL36A" ["e"=1]
+"IL1F10" -> "IL36G" ["e"=1]
+"IL1RN" -> "IL36G" ["e"=1]
+"IL1RN" -> "IL36RN" ["e"=1]
+"IL1RN" -> "IL1A" ["e"=1]
+"IL1RN" -> "IL1B" ["e"=1]
+"IL33" -> "IL1A" ["e"=1]
+"IL33" -> "IL36G" ["e"=1]
+"IL33" -> "IL36A" ["e"=1]
+"IL33" -> "IL18" ["e"=1]
+"IL36A" -> "IL36RN" ["e"=1]
+"IL36A" -> "IL36G" ["e"=1]
+"IL36A" -> "IL1RN" ["e"=1]
+"IL36A" -> "IL37" ["e"=1]
+"IL36B" -> "IL37" ["e"=1]
+"IL36B" -> "IL1F10" ["e"=1]
+"IL36B" -> "IL36RN" ["e"=1]
+"IL36B" -> "IL36A" ["e"=1]
+"IL36G" -> "IL1RN" ["e"=1]
+"IL36G" -> "IL36RN" ["e"=1]
+"IL36G" -> "IL36A" ["e"=1]
+"IL36G" -> "IL1A" ["e"=1]
+"IL36RN" -> "IL36G" ["e"=1]
+"IL36RN" -> "IL1RN" ["e"=1]
+"IL36RN" -> "IL36A" ["e"=1]
+"IL36RN" -> "IL1F10" ["e"=1]
+"IL37" -> "IL36A" ["e"=1]
+"IL37" -> "IL1F10" ["e"=1]
+"IL37" -> "IL36G" ["e"=1]
+"IL37" -> "IL36B" ["e"=1]
 }

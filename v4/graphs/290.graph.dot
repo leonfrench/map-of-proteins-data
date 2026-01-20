@@ -36,152 +36,152 @@ digraph G {
 "TPPP3" ["l"="10.452,1.622"]
 "USP12" ["l"="10.474,1.635"]
 "VCPIP1" ["l"="10.402,1.557"]
-"AK8" -> "MDH1B"
-"AK8" -> "NSUN7"
-"AK8" -> "SMG9"
-"AK8" -> "ENO4"
-"ANKZF1" -> "ASPSCR1"
-"ANKZF1" -> "MED17"
-"ANKZF1" -> "NEPRO"
-"ANKZF1" -> "MCRS1"
-"ARHGEF39" -> "NEPRO"
-"ARHGEF39" -> "MCRS1"
-"ARHGEF39" -> "ASH2L"
-"ARHGEF39" -> "MTBP"
-"ASH2L" -> "MED17"
-"ASH2L" -> "MCRS1"
-"ASH2L" -> "PCIF1"
-"ASH2L" -> "SMG9"
-"ASPSCR1" -> "LEMD2"
-"ASPSCR1" -> "PMS2"
-"ASPSCR1" -> "MCRS1"
-"ASPSCR1" -> "SMG9"
-"CNN1" -> "CNN2"
-"CNN1" -> "TAGLN"
-"CNN1" -> "CNN3"
-"CNN1" -> "TAGLN3"
-"CNN2" -> "CNN1"
-"CNN2" -> "CNN3"
-"CNN2" -> "TAGLN2"
-"CNN2" -> "TAGLN"
-"CNN3" -> "CNN2"
-"CNN3" -> "CNN1"
-"CNN3" -> "TAGLN"
-"CNN3" -> "TAGLN2"
-"ENO4" -> "MDH1B"
-"ENO4" -> "NSUN7"
-"ENO4" -> "ASH2L"
-"ENO4" -> "GLYR1"
-"FBXL7" -> "NEURL1"
-"FBXL7" -> "NEURL1B"
-"FBXL7" -> "NSUN7"
-"FBXL7" -> "PARVA"
-"GLYR1" -> "LEMD2"
-"GLYR1" -> "ASH2L"
-"GLYR1" -> "SMG9"
-"GLYR1" -> "NEURL1"
-"ITPK1" -> "NEURL1"
-"ITPK1" -> "SMG9"
-"ITPK1" -> "PARVA"
-"ITPK1" -> "TPPP"
-"KATNBL1" -> "NEPRO"
-"KATNBL1" -> "MED17"
-"KATNBL1" -> "MTBP"
-"KATNBL1" -> "GLYR1"
-"LEMD2" -> "MED17"
-"LEMD2" -> "SMG9"
-"LEMD2" -> "GLYR1"
-"LEMD2" -> "ASPSCR1"
-"LIN7A" -> "MED17"
-"LIN7A" -> "USP12"
-"LIN7A" -> "NEPRO"
-"LIN7A" -> "PARVA"
-"MCRS1" -> "ASH2L"
-"MCRS1" -> "PCIF1"
-"MCRS1" -> "SMG9"
-"MCRS1" -> "PARVA"
-"MDH1B" -> "ENO4"
-"MDH1B" -> "NSUN7"
-"MDH1B" -> "AK8"
-"MDH1B" -> "TAGLN3"
-"MED17" -> "SMG8"
-"MED17" -> "MTBP"
-"MED17" -> "NEPRO"
-"MED17" -> "ASH2L"
-"MTBP" -> "MED17"
-"MTBP" -> "NEPRO"
-"MTBP" -> "NSUN7"
-"MTBP" -> "SMG8"
-"NEPRO" -> "MTBP"
-"NEPRO" -> "MED17"
-"NEPRO" -> "NSUN7"
-"NEPRO" -> "KATNBL1"
-"NEURL1" -> "NEURL1B"
-"NEURL1" -> "ITPK1"
-"NEURL1" -> "FBXL7"
-"NEURL1" -> "SMG9"
-"NEURL1B" -> "NEURL1"
-"NEURL1B" -> "USP12"
-"NEURL1B" -> "FBXL7"
-"NEURL1B" -> "LEMD2"
-"NSUN7" -> "MTBP"
-"NSUN7" -> "NEPRO"
-"NSUN7" -> "MED17"
-"NSUN7" -> "ENO4"
-"PARVA" -> "TAGLN"
-"PARVA" -> "CNN2"
-"PARVA" -> "SMG9"
-"PARVA" -> "MCRS1"
-"PCIF1" -> "SMG9"
-"PCIF1" -> "ASH2L"
-"PCIF1" -> "MCRS1"
-"PCIF1" -> "MED17"
-"PMS2" -> "MED17"
-"PMS2" -> "LEMD2"
-"PMS2" -> "ASPSCR1"
-"PMS2" -> "ITPK1"
-"PPM1B" -> "USP12"
-"PPM1B" -> "MED17"
-"PPM1B" -> "ASH2L"
-"PPM1B" -> "SMG8"
-"SMG8" -> "MED17"
-"SMG8" -> "VCPIP1"
-"SMG8" -> "ASH2L"
-"SMG8" -> "MTBP"
-"SMG9" -> "PCIF1"
-"SMG9" -> "ASH2L"
-"SMG9" -> "LEMD2"
-"SMG9" -> "MED17"
-"TAGLN" -> "CNN1"
-"TAGLN" -> "TAGLN3"
-"TAGLN" -> "TAGLN2"
-"TAGLN" -> "CNN2"
-"TAGLN2" -> "TAGLN3"
-"TAGLN2" -> "CNN2"
-"TAGLN2" -> "TAGLN"
-"TAGLN2" -> "CNN1"
-"TAGLN3" -> "TAGLN"
-"TAGLN3" -> "TAGLN2"
-"TAGLN3" -> "CNN1"
-"TAGLN3" -> "CNN2"
-"TPPP" -> "TPPP2"
-"TPPP" -> "TPPP3"
-"TPPP" -> "ITPK1"
-"TPPP" -> "TAGLN"
-"TPPP2" -> "TPPP"
-"TPPP2" -> "TPPP3"
-"TPPP2" -> "CNN2"
-"TPPP2" -> "TAGLN"
-"TPPP3" -> "TPPP2"
-"TPPP3" -> "TPPP"
-"TPPP3" -> "TAGLN"
-"TPPP3" -> "TAGLN2"
-"USP12" -> "NEURL1B"
-"USP12" -> "ASH2L"
-"USP12" -> "MED17"
-"USP12" -> "NEPRO"
-"VCPIP1" -> "SMG8"
-"VCPIP1" -> "MED17"
-"VCPIP1" -> "ASH2L"
-"VCPIP1" -> "NEPRO"
+"AK8" -> "MDH1B" ["e"=1]
+"AK8" -> "NSUN7" ["e"=1]
+"AK8" -> "SMG9" ["e"=1]
+"AK8" -> "ENO4" ["e"=1]
+"ANKZF1" -> "ASPSCR1" ["e"=1]
+"ANKZF1" -> "MED17" ["e"=1]
+"ANKZF1" -> "NEPRO" ["e"=1]
+"ANKZF1" -> "MCRS1" ["e"=1]
+"ARHGEF39" -> "NEPRO" ["e"=1]
+"ARHGEF39" -> "MCRS1" ["e"=1]
+"ARHGEF39" -> "ASH2L" ["e"=1]
+"ARHGEF39" -> "MTBP" ["e"=1]
+"ASH2L" -> "MED17" ["e"=1]
+"ASH2L" -> "MCRS1" ["e"=1]
+"ASH2L" -> "PCIF1" ["e"=1]
+"ASH2L" -> "SMG9" ["e"=1]
+"ASPSCR1" -> "LEMD2" ["e"=1]
+"ASPSCR1" -> "PMS2" ["e"=1]
+"ASPSCR1" -> "MCRS1" ["e"=1]
+"ASPSCR1" -> "SMG9" ["e"=1]
+"CNN1" -> "CNN2" ["e"=1]
+"CNN1" -> "TAGLN" ["e"=1]
+"CNN1" -> "CNN3" ["e"=1]
+"CNN1" -> "TAGLN3" ["e"=1]
+"CNN2" -> "CNN1" ["e"=1]
+"CNN2" -> "CNN3" ["e"=1]
+"CNN2" -> "TAGLN2" ["e"=1]
+"CNN2" -> "TAGLN" ["e"=1]
+"CNN3" -> "CNN2" ["e"=1]
+"CNN3" -> "CNN1" ["e"=1]
+"CNN3" -> "TAGLN" ["e"=1]
+"CNN3" -> "TAGLN2" ["e"=1]
+"ENO4" -> "MDH1B" ["e"=1]
+"ENO4" -> "NSUN7" ["e"=1]
+"ENO4" -> "ASH2L" ["e"=1]
+"ENO4" -> "GLYR1" ["e"=1]
+"FBXL7" -> "NEURL1" ["e"=1]
+"FBXL7" -> "NEURL1B" ["e"=1]
+"FBXL7" -> "NSUN7" ["e"=1]
+"FBXL7" -> "PARVA" ["e"=1]
+"GLYR1" -> "LEMD2" ["e"=1]
+"GLYR1" -> "ASH2L" ["e"=1]
+"GLYR1" -> "SMG9" ["e"=1]
+"GLYR1" -> "NEURL1" ["e"=1]
+"ITPK1" -> "NEURL1" ["e"=1]
+"ITPK1" -> "SMG9" ["e"=1]
+"ITPK1" -> "PARVA" ["e"=1]
+"ITPK1" -> "TPPP" ["e"=1]
+"KATNBL1" -> "NEPRO" ["e"=1]
+"KATNBL1" -> "MED17" ["e"=1]
+"KATNBL1" -> "MTBP" ["e"=1]
+"KATNBL1" -> "GLYR1" ["e"=1]
+"LEMD2" -> "MED17" ["e"=1]
+"LEMD2" -> "SMG9" ["e"=1]
+"LEMD2" -> "GLYR1" ["e"=1]
+"LEMD2" -> "ASPSCR1" ["e"=1]
+"LIN7A" -> "MED17" ["e"=1]
+"LIN7A" -> "USP12" ["e"=1]
+"LIN7A" -> "NEPRO" ["e"=1]
+"LIN7A" -> "PARVA" ["e"=1]
+"MCRS1" -> "ASH2L" ["e"=1]
+"MCRS1" -> "PCIF1" ["e"=1]
+"MCRS1" -> "SMG9" ["e"=1]
+"MCRS1" -> "PARVA" ["e"=1]
+"MDH1B" -> "ENO4" ["e"=1]
+"MDH1B" -> "NSUN7" ["e"=1]
+"MDH1B" -> "AK8" ["e"=1]
+"MDH1B" -> "TAGLN3" ["e"=1]
+"MED17" -> "SMG8" ["e"=1]
+"MED17" -> "MTBP" ["e"=1]
+"MED17" -> "NEPRO" ["e"=1]
+"MED17" -> "ASH2L" ["e"=1]
+"MTBP" -> "MED17" ["e"=1]
+"MTBP" -> "NEPRO" ["e"=1]
+"MTBP" -> "NSUN7" ["e"=1]
+"MTBP" -> "SMG8" ["e"=1]
+"NEPRO" -> "MTBP" ["e"=1]
+"NEPRO" -> "MED17" ["e"=1]
+"NEPRO" -> "NSUN7" ["e"=1]
+"NEPRO" -> "KATNBL1" ["e"=1]
+"NEURL1" -> "NEURL1B" ["e"=1]
+"NEURL1" -> "ITPK1" ["e"=1]
+"NEURL1" -> "FBXL7" ["e"=1]
+"NEURL1" -> "SMG9" ["e"=1]
+"NEURL1B" -> "NEURL1" ["e"=1]
+"NEURL1B" -> "USP12" ["e"=1]
+"NEURL1B" -> "FBXL7" ["e"=1]
+"NEURL1B" -> "LEMD2" ["e"=1]
+"NSUN7" -> "MTBP" ["e"=1]
+"NSUN7" -> "NEPRO" ["e"=1]
+"NSUN7" -> "MED17" ["e"=1]
+"NSUN7" -> "ENO4" ["e"=1]
+"PARVA" -> "TAGLN" ["e"=1]
+"PARVA" -> "CNN2" ["e"=1]
+"PARVA" -> "SMG9" ["e"=1]
+"PARVA" -> "MCRS1" ["e"=1]
+"PCIF1" -> "SMG9" ["e"=1]
+"PCIF1" -> "ASH2L" ["e"=1]
+"PCIF1" -> "MCRS1" ["e"=1]
+"PCIF1" -> "MED17" ["e"=1]
+"PMS2" -> "MED17" ["e"=1]
+"PMS2" -> "LEMD2" ["e"=1]
+"PMS2" -> "ASPSCR1" ["e"=1]
+"PMS2" -> "ITPK1" ["e"=1]
+"PPM1B" -> "USP12" ["e"=1]
+"PPM1B" -> "MED17" ["e"=1]
+"PPM1B" -> "ASH2L" ["e"=1]
+"PPM1B" -> "SMG8" ["e"=1]
+"SMG8" -> "MED17" ["e"=1]
+"SMG8" -> "VCPIP1" ["e"=1]
+"SMG8" -> "ASH2L" ["e"=1]
+"SMG8" -> "MTBP" ["e"=1]
+"SMG9" -> "PCIF1" ["e"=1]
+"SMG9" -> "ASH2L" ["e"=1]
+"SMG9" -> "LEMD2" ["e"=1]
+"SMG9" -> "MED17" ["e"=1]
+"TAGLN" -> "CNN1" ["e"=1]
+"TAGLN" -> "TAGLN3" ["e"=1]
+"TAGLN" -> "TAGLN2" ["e"=1]
+"TAGLN" -> "CNN2" ["e"=1]
+"TAGLN2" -> "TAGLN3" ["e"=1]
+"TAGLN2" -> "CNN2" ["e"=1]
+"TAGLN2" -> "TAGLN" ["e"=1]
+"TAGLN2" -> "CNN1" ["e"=1]
+"TAGLN3" -> "TAGLN" ["e"=1]
+"TAGLN3" -> "TAGLN2" ["e"=1]
+"TAGLN3" -> "CNN1" ["e"=1]
+"TAGLN3" -> "CNN2" ["e"=1]
+"TPPP" -> "TPPP2" ["e"=1]
+"TPPP" -> "TPPP3" ["e"=1]
+"TPPP" -> "ITPK1" ["e"=1]
+"TPPP" -> "TAGLN" ["e"=1]
+"TPPP2" -> "TPPP" ["e"=1]
+"TPPP2" -> "TPPP3" ["e"=1]
+"TPPP2" -> "CNN2" ["e"=1]
+"TPPP2" -> "TAGLN" ["e"=1]
+"TPPP3" -> "TPPP2" ["e"=1]
+"TPPP3" -> "TPPP" ["e"=1]
+"TPPP3" -> "TAGLN" ["e"=1]
+"TPPP3" -> "TAGLN2" ["e"=1]
+"USP12" -> "NEURL1B" ["e"=1]
+"USP12" -> "ASH2L" ["e"=1]
+"USP12" -> "MED17" ["e"=1]
+"USP12" -> "NEPRO" ["e"=1]
+"VCPIP1" -> "SMG8" ["e"=1]
+"VCPIP1" -> "MED17" ["e"=1]
+"VCPIP1" -> "ASH2L" ["e"=1]
+"VCPIP1" -> "NEPRO" ["e"=1]
 }

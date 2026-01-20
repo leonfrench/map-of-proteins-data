@@ -39,164 +39,164 @@ digraph G {
 "VOPP1" ["l"="9.765,5.285"]
 "WBP1" ["l"="9.874,5.385"]
 "WBP1L" ["l"="9.793,5.520"]
-"BEAN1" -> "PMEPA1"
-"BEAN1" -> "FAM163A"
-"BEAN1" -> "WBP1L"
-"BEAN1" -> "LDLRAD4"
-"BSND" -> "TMEM139"
-"BSND" -> "PTPRCAP"
-"BSND" -> "TMEM252"
-"BSND" -> "FAM163B"
-"C19orf18" -> "SMIM28"
-"C19orf18" -> "C1orf159"
-"C19orf18" -> "PRRG4"
-"C19orf18" -> "SHISAL1"
-"C1orf159" -> "SMIM28"
-"C1orf159" -> "SHISA3"
-"C1orf159" -> "SHISA8"
-"C1orf159" -> "SHISA2"
-"CD24" -> "CD52"
-"CD24" -> "PRRG4"
-"CD24" -> "SHISA2"
-"CD24" -> "SHISA3"
-"CD52" -> "CD24"
-"CD52" -> "PTPRCAP"
-"CD52" -> "SHISA3"
-"CD52" -> "SMIM28"
-"CYYR1" -> "VOPP1"
-"CYYR1" -> "SHISA5"
-"CYYR1" -> "TMEM207"
-"CYYR1" -> "SHISA3"
-"FAM163A" -> "BEAN1"
-"FAM163A" -> "FAM163B"
-"FAM163A" -> "PMEPA1"
-"FAM163A" -> "SHISA2"
-"FAM163B" -> "FAM163A"
-"FAM163B" -> "PMEPA1"
-"FAM163B" -> "BEAN1"
-"FAM163B" -> "SHISA2"
-"LDLRAD3" -> "SHISA2"
-"LDLRAD3" -> "SHISA3"
-"LDLRAD3" -> "WBP1L"
-"LDLRAD3" -> "PMEPA1"
-"LDLRAD4" -> "PMEPA1"
-"LDLRAD4" -> "BEAN1"
-"LDLRAD4" -> "WBP1L"
-"LDLRAD4" -> "LDLRAD3"
-"MLANA" -> "SMIM28"
-"MLANA" -> "TMEM207"
-"MLANA" -> "BEAN1"
-"MLANA" -> "TMEM252"
-"MYCT1" -> "TMEM174"
-"MYCT1" -> "PRRG4"
-"MYCT1" -> "SMIM28"
-"MYCT1" -> "SHISA3"
-"PMEPA1" -> "LDLRAD4"
-"PMEPA1" -> "BEAN1"
-"PMEPA1" -> "WBP1L"
-"PMEPA1" -> "FAM163A"
-"PRR7" -> "PMEPA1"
-"PRR7" -> "BEAN1"
-"PRR7" -> "TMEM52"
-"PRR7" -> "SHISA8"
-"PRRG2" -> "PRRG4"
-"PRRG2" -> "SMIM28"
-"PRRG2" -> "C1orf159"
-"PRRG2" -> "MLANA"
-"PRRG4" -> "PRRG2"
-"PRRG4" -> "TMEM61"
-"PRRG4" -> "TMEM92"
-"PRRG4" -> "TMEM252"
-"PTPRCAP" -> "RELL2"
-"PTPRCAP" -> "BSND"
-"PTPRCAP" -> "TMEM210"
-"PTPRCAP" -> "TMEM139"
-"RELL2" -> "PTPRCAP"
-"RELL2" -> "C1orf159"
-"RELL2" -> "BSND"
-"RELL2" -> "BEAN1"
-"SHISA2" -> "SHISA3"
-"SHISA2" -> "LDLRAD3"
-"SHISA2" -> "PMEPA1"
-"SHISA2" -> "TMEM52B"
-"SHISA3" -> "SHISA2"
-"SHISA3" -> "LDLRAD3"
-"SHISA3" -> "TMEM174"
-"SHISA3" -> "C1orf159"
-"SHISA4" -> "SHISA5"
-"SHISA4" -> "VOPP1"
-"SHISA4" -> "CYYR1"
-"SHISA4" -> "TMEM52"
-"SHISA5" -> "SHISA4"
-"SHISA5" -> "CYYR1"
-"SHISA5" -> "VOPP1"
-"SHISA5" -> "TMEM92"
-"SHISA8" -> "C1orf159"
-"SHISA8" -> "TMEM52"
-"SHISA8" -> "SHISA3"
-"SHISA8" -> "SHISA2"
-"SHISAL1" -> "SHISA2"
-"SHISAL1" -> "SHISA3"
-"SHISAL1" -> "FAM163B"
-"SHISAL1" -> "C1orf159"
-"SMIM28" -> "TMEM207"
-"SMIM28" -> "C1orf159"
-"SMIM28" -> "MLANA"
-"SMIM28" -> "TMEM52B"
-"TMEM139" -> "TMEM252"
-"TMEM139" -> "TMEM61"
-"TMEM139" -> "TMEM174"
-"TMEM139" -> "TMEM52"
-"TMEM171" -> "TMEM252"
-"TMEM171" -> "TMEM51"
-"TMEM171" -> "TMEM174"
-"TMEM171" -> "TMEM61"
-"TMEM174" -> "TMEM252"
-"TMEM174" -> "TMEM139"
-"TMEM174" -> "TMEM207"
-"TMEM174" -> "SHISA3"
-"TMEM207" -> "TMEM52B"
-"TMEM207" -> "TMEM174"
-"TMEM207" -> "TMEM252"
-"TMEM207" -> "TMEM92"
-"TMEM210" -> "TMEM139"
-"TMEM210" -> "TMEM61"
-"TMEM210" -> "TMEM92"
-"TMEM210" -> "PTPRCAP"
-"TMEM252" -> "TMEM139"
-"TMEM252" -> "TMEM174"
-"TMEM252" -> "TMEM51"
-"TMEM252" -> "TMEM61"
-"TMEM51" -> "TMEM252"
-"TMEM51" -> "PMEPA1"
-"TMEM51" -> "TMEM61"
-"TMEM51" -> "TMEM171"
-"TMEM52" -> "TMEM92"
-"TMEM52" -> "TMEM139"
-"TMEM52" -> "TMEM61"
-"TMEM52" -> "SMIM28"
-"TMEM52B" -> "TMEM207"
-"TMEM52B" -> "TMEM252"
-"TMEM52B" -> "SMIM28"
-"TMEM52B" -> "TMEM174"
-"TMEM61" -> "TMEM139"
-"TMEM61" -> "TMEM252"
-"TMEM61" -> "TMEM52"
-"TMEM61" -> "PRRG4"
-"TMEM92" -> "TMEM52"
-"TMEM92" -> "TMEM139"
-"TMEM92" -> "TMEM207"
-"TMEM92" -> "TMEM252"
-"VOPP1" -> "CYYR1"
-"VOPP1" -> "SHISA4"
-"VOPP1" -> "SHISA5"
-"VOPP1" -> "TMEM92"
-"WBP1" -> "TMEM52B"
-"WBP1" -> "TMEM52"
-"WBP1" -> "TMEM139"
-"WBP1" -> "WBP1L"
-"WBP1L" -> "PMEPA1"
-"WBP1L" -> "TMEM252"
-"WBP1L" -> "BEAN1"
-"WBP1L" -> "LDLRAD3"
+"BEAN1" -> "PMEPA1" ["e"=1]
+"BEAN1" -> "FAM163A" ["e"=1]
+"BEAN1" -> "WBP1L" ["e"=1]
+"BEAN1" -> "LDLRAD4" ["e"=1]
+"BSND" -> "TMEM139" ["e"=1]
+"BSND" -> "PTPRCAP" ["e"=1]
+"BSND" -> "TMEM252" ["e"=1]
+"BSND" -> "FAM163B" ["e"=1]
+"C19orf18" -> "SMIM28" ["e"=1]
+"C19orf18" -> "C1orf159" ["e"=1]
+"C19orf18" -> "PRRG4" ["e"=1]
+"C19orf18" -> "SHISAL1" ["e"=1]
+"C1orf159" -> "SMIM28" ["e"=1]
+"C1orf159" -> "SHISA3" ["e"=1]
+"C1orf159" -> "SHISA8" ["e"=1]
+"C1orf159" -> "SHISA2" ["e"=1]
+"CD24" -> "CD52" ["e"=1]
+"CD24" -> "PRRG4" ["e"=1]
+"CD24" -> "SHISA2" ["e"=1]
+"CD24" -> "SHISA3" ["e"=1]
+"CD52" -> "CD24" ["e"=1]
+"CD52" -> "PTPRCAP" ["e"=1]
+"CD52" -> "SHISA3" ["e"=1]
+"CD52" -> "SMIM28" ["e"=1]
+"CYYR1" -> "VOPP1" ["e"=1]
+"CYYR1" -> "SHISA5" ["e"=1]
+"CYYR1" -> "TMEM207" ["e"=1]
+"CYYR1" -> "SHISA3" ["e"=1]
+"FAM163A" -> "BEAN1" ["e"=1]
+"FAM163A" -> "FAM163B" ["e"=1]
+"FAM163A" -> "PMEPA1" ["e"=1]
+"FAM163A" -> "SHISA2" ["e"=1]
+"FAM163B" -> "FAM163A" ["e"=1]
+"FAM163B" -> "PMEPA1" ["e"=1]
+"FAM163B" -> "BEAN1" ["e"=1]
+"FAM163B" -> "SHISA2" ["e"=1]
+"LDLRAD3" -> "SHISA2" ["e"=1]
+"LDLRAD3" -> "SHISA3" ["e"=1]
+"LDLRAD3" -> "WBP1L" ["e"=1]
+"LDLRAD3" -> "PMEPA1" ["e"=1]
+"LDLRAD4" -> "PMEPA1" ["e"=1]
+"LDLRAD4" -> "BEAN1" ["e"=1]
+"LDLRAD4" -> "WBP1L" ["e"=1]
+"LDLRAD4" -> "LDLRAD3" ["e"=1]
+"MLANA" -> "SMIM28" ["e"=1]
+"MLANA" -> "TMEM207" ["e"=1]
+"MLANA" -> "BEAN1" ["e"=1]
+"MLANA" -> "TMEM252" ["e"=1]
+"MYCT1" -> "TMEM174" ["e"=1]
+"MYCT1" -> "PRRG4" ["e"=1]
+"MYCT1" -> "SMIM28" ["e"=1]
+"MYCT1" -> "SHISA3" ["e"=1]
+"PMEPA1" -> "LDLRAD4" ["e"=1]
+"PMEPA1" -> "BEAN1" ["e"=1]
+"PMEPA1" -> "WBP1L" ["e"=1]
+"PMEPA1" -> "FAM163A" ["e"=1]
+"PRR7" -> "PMEPA1" ["e"=1]
+"PRR7" -> "BEAN1" ["e"=1]
+"PRR7" -> "TMEM52" ["e"=1]
+"PRR7" -> "SHISA8" ["e"=1]
+"PRRG2" -> "PRRG4" ["e"=1]
+"PRRG2" -> "SMIM28" ["e"=1]
+"PRRG2" -> "C1orf159" ["e"=1]
+"PRRG2" -> "MLANA" ["e"=1]
+"PRRG4" -> "PRRG2" ["e"=1]
+"PRRG4" -> "TMEM61" ["e"=1]
+"PRRG4" -> "TMEM92" ["e"=1]
+"PRRG4" -> "TMEM252" ["e"=1]
+"PTPRCAP" -> "RELL2" ["e"=1]
+"PTPRCAP" -> "BSND" ["e"=1]
+"PTPRCAP" -> "TMEM210" ["e"=1]
+"PTPRCAP" -> "TMEM139" ["e"=1]
+"RELL2" -> "PTPRCAP" ["e"=1]
+"RELL2" -> "C1orf159" ["e"=1]
+"RELL2" -> "BSND" ["e"=1]
+"RELL2" -> "BEAN1" ["e"=1]
+"SHISA2" -> "SHISA3" ["e"=1]
+"SHISA2" -> "LDLRAD3" ["e"=1]
+"SHISA2" -> "PMEPA1" ["e"=1]
+"SHISA2" -> "TMEM52B" ["e"=1]
+"SHISA3" -> "SHISA2" ["e"=1]
+"SHISA3" -> "LDLRAD3" ["e"=1]
+"SHISA3" -> "TMEM174" ["e"=1]
+"SHISA3" -> "C1orf159" ["e"=1]
+"SHISA4" -> "SHISA5" ["e"=1]
+"SHISA4" -> "VOPP1" ["e"=1]
+"SHISA4" -> "CYYR1" ["e"=1]
+"SHISA4" -> "TMEM52" ["e"=1]
+"SHISA5" -> "SHISA4" ["e"=1]
+"SHISA5" -> "CYYR1" ["e"=1]
+"SHISA5" -> "VOPP1" ["e"=1]
+"SHISA5" -> "TMEM92" ["e"=1]
+"SHISA8" -> "C1orf159" ["e"=1]
+"SHISA8" -> "TMEM52" ["e"=1]
+"SHISA8" -> "SHISA3" ["e"=1]
+"SHISA8" -> "SHISA2" ["e"=1]
+"SHISAL1" -> "SHISA2" ["e"=1]
+"SHISAL1" -> "SHISA3" ["e"=1]
+"SHISAL1" -> "FAM163B" ["e"=1]
+"SHISAL1" -> "C1orf159" ["e"=1]
+"SMIM28" -> "TMEM207" ["e"=1]
+"SMIM28" -> "C1orf159" ["e"=1]
+"SMIM28" -> "MLANA" ["e"=1]
+"SMIM28" -> "TMEM52B" ["e"=1]
+"TMEM139" -> "TMEM252" ["e"=1]
+"TMEM139" -> "TMEM61" ["e"=1]
+"TMEM139" -> "TMEM174" ["e"=1]
+"TMEM139" -> "TMEM52" ["e"=1]
+"TMEM171" -> "TMEM252" ["e"=1]
+"TMEM171" -> "TMEM51" ["e"=1]
+"TMEM171" -> "TMEM174" ["e"=1]
+"TMEM171" -> "TMEM61" ["e"=1]
+"TMEM174" -> "TMEM252" ["e"=1]
+"TMEM174" -> "TMEM139" ["e"=1]
+"TMEM174" -> "TMEM207" ["e"=1]
+"TMEM174" -> "SHISA3" ["e"=1]
+"TMEM207" -> "TMEM52B" ["e"=1]
+"TMEM207" -> "TMEM174" ["e"=1]
+"TMEM207" -> "TMEM252" ["e"=1]
+"TMEM207" -> "TMEM92" ["e"=1]
+"TMEM210" -> "TMEM139" ["e"=1]
+"TMEM210" -> "TMEM61" ["e"=1]
+"TMEM210" -> "TMEM92" ["e"=1]
+"TMEM210" -> "PTPRCAP" ["e"=1]
+"TMEM252" -> "TMEM139" ["e"=1]
+"TMEM252" -> "TMEM174" ["e"=1]
+"TMEM252" -> "TMEM51" ["e"=1]
+"TMEM252" -> "TMEM61" ["e"=1]
+"TMEM51" -> "TMEM252" ["e"=1]
+"TMEM51" -> "PMEPA1" ["e"=1]
+"TMEM51" -> "TMEM61" ["e"=1]
+"TMEM51" -> "TMEM171" ["e"=1]
+"TMEM52" -> "TMEM92" ["e"=1]
+"TMEM52" -> "TMEM139" ["e"=1]
+"TMEM52" -> "TMEM61" ["e"=1]
+"TMEM52" -> "SMIM28" ["e"=1]
+"TMEM52B" -> "TMEM207" ["e"=1]
+"TMEM52B" -> "TMEM252" ["e"=1]
+"TMEM52B" -> "SMIM28" ["e"=1]
+"TMEM52B" -> "TMEM174" ["e"=1]
+"TMEM61" -> "TMEM139" ["e"=1]
+"TMEM61" -> "TMEM252" ["e"=1]
+"TMEM61" -> "TMEM52" ["e"=1]
+"TMEM61" -> "PRRG4" ["e"=1]
+"TMEM92" -> "TMEM52" ["e"=1]
+"TMEM92" -> "TMEM139" ["e"=1]
+"TMEM92" -> "TMEM207" ["e"=1]
+"TMEM92" -> "TMEM252" ["e"=1]
+"VOPP1" -> "CYYR1" ["e"=1]
+"VOPP1" -> "SHISA4" ["e"=1]
+"VOPP1" -> "SHISA5" ["e"=1]
+"VOPP1" -> "TMEM92" ["e"=1]
+"WBP1" -> "TMEM52B" ["e"=1]
+"WBP1" -> "TMEM52" ["e"=1]
+"WBP1" -> "TMEM139" ["e"=1]
+"WBP1" -> "WBP1L" ["e"=1]
+"WBP1L" -> "PMEPA1" ["e"=1]
+"WBP1L" -> "TMEM252" ["e"=1]
+"WBP1L" -> "BEAN1" ["e"=1]
+"WBP1L" -> "LDLRAD3" ["e"=1]
 }

@@ -60,248 +60,248 @@ digraph G {
 "TMEM42" ["l"="9.791,-3.196"]
 "XKR3" ["l"="9.814,-3.117"]
 "XKR8" ["l"="9.857,-2.953"]
-"AGMO" -> "MBOAT1"
-"AGMO" -> "SLC51A"
-"AGMO" -> "SELENOI"
-"AGMO" -> "TMEM161B"
-"ALG10" -> "ALG10B"
-"ALG10" -> "PIGV"
-"ALG10" -> "PIGM"
-"ALG10" -> "RFT1"
-"ALG10B" -> "ALG10"
-"ALG10B" -> "PIGM"
-"ALG10B" -> "PIGV"
-"ALG10B" -> "RFT1"
-"ALG12" -> "PIGV"
-"ALG12" -> "RFT1"
-"ALG12" -> "XKR8"
-"ALG12" -> "PIGM"
-"ALG3" -> "PIGU"
-"ALG3" -> "ALG8"
-"ALG3" -> "RFT1"
-"ALG3" -> "XKR8"
-"ALG6" -> "ALG8"
-"ALG6" -> "ALG10"
-"ALG6" -> "RFT1"
-"ALG6" -> "PIGU"
-"ALG8" -> "ALG6"
-"ALG8" -> "PIGU"
-"ALG8" -> "RFT1"
-"ALG8" -> "ALG3"
-"CDS1" -> "CTNS"
-"CDS1" -> "TMEM184A"
-"CDS1" -> "STIMATE"
-"CDS1" -> "MBOAT1"
-"CTNS" -> "CDS1"
-"CTNS" -> "TMEM184A"
-"CTNS" -> "MBOAT1"
-"CTNS" -> "RFT1"
-"DGAT1" -> "MBOAT1"
-"DGAT1" -> "PXMP2"
-"DGAT1" -> "TMEM184A"
-"DGAT1" -> "SGPP1"
-"DOLK" -> "PIGV"
-"DOLK" -> "XKR8"
-"DOLK" -> "PIGM"
-"DOLK" -> "PIGW"
-"DPAGT1" -> "CTNS"
-"DPAGT1" -> "RFT1"
-"DPAGT1" -> "TMEM161A"
-"DPAGT1" -> "SELENOI"
-"GPR180" -> "HACD2"
-"GPR180" -> "ALG10B"
-"GPR180" -> "RFT1"
-"GPR180" -> "TMEM184A"
-"HACD2" -> "SGPP1"
-"HACD2" -> "GPR180"
-"HACD2" -> "SLC66A3"
-"HACD2" -> "TMEM38B"
-"HHATL" -> "MBOAT1"
-"HHATL" -> "MBOAT7"
-"HHATL" -> "LPCAT3"
-"HHATL" -> "TM6SF2"
-"INSIG2" -> "TM6SF1"
-"INSIG2" -> "TMEM38B"
-"INSIG2" -> "HACD2"
-"INSIG2" -> "TMEM267"
-"LBR" -> "SOAT1"
-"LBR" -> "PTDSS1"
-"LBR" -> "STEAP3"
-"LBR" -> "HACD2"
-"LPCAT3" -> "MBOAT1"
-"LPCAT3" -> "MBOAT2"
-"LPCAT3" -> "HHATL"
-"LPCAT3" -> "DGAT1"
-"MBOAT1" -> "MBOAT2"
-"MBOAT1" -> "HHATL"
-"MBOAT1" -> "LPCAT3"
-"MBOAT1" -> "RFT1"
-"MBOAT2" -> "MBOAT1"
-"MBOAT2" -> "SELENOI"
-"MBOAT2" -> "LPCAT3"
-"MBOAT2" -> "TMEM184A"
-"MBOAT4" -> "PIGV"
-"MBOAT4" -> "XKR8"
-"MBOAT4" -> "MBOAT1"
-"MBOAT4" -> "ALG12"
-"MBOAT7" -> "HHATL"
-"MBOAT7" -> "MBOAT1"
-"MBOAT7" -> "MBOAT4"
-"MBOAT7" -> "MBOAT2"
-"NRM" -> "XKR8"
-"NRM" -> "PTGES"
-"NRM" -> "TMEM41A"
-"NRM" -> "HHATL"
-"PIGM" -> "ALG10B"
-"PIGM" -> "ALG10"
-"PIGM" -> "PIGV"
-"PIGM" -> "ALG12"
-"PIGU" -> "ALG8"
-"PIGU" -> "ALG3"
-"PIGU" -> "ALG6"
-"PIGU" -> "RFT1"
-"PIGV" -> "ALG10"
-"PIGV" -> "RFT1"
-"PIGV" -> "ALG10B"
-"PIGV" -> "ALG12"
-"PIGW" -> "DOLK"
-"PIGW" -> "ALG10"
-"PIGW" -> "ALG10B"
-"PIGW" -> "PIGM"
-"PLPP7" -> "SGPP1"
-"PLPP7" -> "SGPP2"
-"PLPP7" -> "TMEM269"
-"PLPP7" -> "RHBDL3"
-"PTDSS1" -> "PTDSS2"
-"PTDSS1" -> "SOAT1"
-"PTDSS1" -> "MBOAT1"
-"PTDSS1" -> "SELENOI"
-"PTDSS2" -> "PTDSS1"
-"PTDSS2" -> "STIMATE"
-"PTDSS2" -> "DGAT1"
-"PTDSS2" -> "TMEM184A"
-"PTGES" -> "STEAP3"
-"PTGES" -> "TMEM41A"
-"PTGES" -> "SELENOI"
-"PTGES" -> "SLC66A3"
-"PXMP2" -> "DGAT1"
-"PXMP2" -> "LPCAT3"
-"PXMP2" -> "STIMATE"
-"PXMP2" -> "SGPP1"
-"RFT1" -> "PIGV"
-"RFT1" -> "ALG10"
-"RFT1" -> "MBOAT1"
-"RFT1" -> "ALG12"
-"RHBDL1" -> "RHBDL3"
-"RHBDL1" -> "TMEM184A"
-"RHBDL1" -> "XKR8"
-"RHBDL1" -> "PTDSS2"
-"RHBDL3" -> "RHBDL1"
-"RHBDL3" -> "TMEM184A"
-"RHBDL3" -> "XKR8"
-"RHBDL3" -> "SLC31A2"
-"SELENOI" -> "MBOAT1"
-"SELENOI" -> "MBOAT2"
-"SELENOI" -> "RFT1"
-"SELENOI" -> "TMEM161B"
-"SERINC4" -> "TMEM184A"
-"SERINC4" -> "TMEM269"
-"SERINC4" -> "XKR8"
-"SERINC4" -> "PIGV"
-"SGPP1" -> "SGPP2"
-"SGPP1" -> "PLPP7"
-"SGPP1" -> "HACD2"
-"SGPP1" -> "MBOAT1"
-"SGPP2" -> "SGPP1"
-"SGPP2" -> "PLPP7"
-"SGPP2" -> "TMEM184A"
-"SGPP2" -> "STEAP3"
-"SLC10A7" -> "INSIG2"
-"SLC10A7" -> "TMEM161B"
-"SLC10A7" -> "HACD2"
-"SLC10A7" -> "SGPP1"
-"SLC31A2" -> "TMEM184A"
-"SLC31A2" -> "CTNS"
-"SLC31A2" -> "MBOAT1"
-"SLC31A2" -> "RHBDL3"
-"SLC51A" -> "MBOAT1"
-"SLC51A" -> "SGPP2"
-"SLC51A" -> "TMEM269"
-"SLC51A" -> "TM6SF2"
-"SLC66A3" -> "HACD2"
-"SLC66A3" -> "CTNS"
-"SLC66A3" -> "RFT1"
-"SLC66A3" -> "PIGU"
-"SOAT1" -> "MBOAT1"
-"SOAT1" -> "PTDSS1"
-"SOAT1" -> "SELENOI"
-"SOAT1" -> "CTNS"
-"STEAP1B" -> "STEAP3"
-"STEAP1B" -> "SGPP1"
-"STEAP1B" -> "PLPP7"
-"STEAP1B" -> "SGPP2"
-"STEAP3" -> "PTGES"
-"STEAP3" -> "CTNS"
-"STEAP3" -> "SGPP2"
-"STEAP3" -> "MBOAT1"
-"STIMATE" -> "CDS1"
-"STIMATE" -> "PTDSS2"
-"STIMATE" -> "SGPP1"
-"STIMATE" -> "TMEM184A"
-"TM6SF1" -> "TM6SF2"
-"TM6SF1" -> "INSIG2"
-"TM6SF1" -> "MBOAT1"
-"TM6SF1" -> "TMEM38B"
-"TM6SF2" -> "TM6SF1"
-"TM6SF2" -> "MBOAT1"
-"TM6SF2" -> "HHATL"
-"TM6SF2" -> "DGAT1"
-"TMEM161A" -> "TMEM161B"
-"TMEM161A" -> "XKR8"
-"TMEM161A" -> "TMEM41A"
-"TMEM161A" -> "RFT1"
-"TMEM161B" -> "TMEM161A"
-"TMEM161B" -> "SELENOI"
-"TMEM161B" -> "ALG6"
-"TMEM161B" -> "TMEM38B"
-"TMEM184A" -> "CTNS"
-"TMEM184A" -> "MBOAT1"
-"TMEM184A" -> "CDS1"
-"TMEM184A" -> "XKR8"
-"TMEM19" -> "SELENOI"
-"TMEM19" -> "CDS1"
-"TMEM19" -> "DOLK"
-"TMEM19" -> "SGPP1"
-"TMEM267" -> "SELENOI"
-"TMEM267" -> "INSIG2"
-"TMEM267" -> "SGPP1"
-"TMEM267" -> "ALG6"
-"TMEM269" -> "CTNS"
-"TMEM269" -> "PLPP7"
-"TMEM269" -> "XKR3"
-"TMEM269" -> "RFT1"
-"TMEM38A" -> "TMEM38B"
-"TMEM38A" -> "PTDSS1"
-"TMEM38A" -> "TMEM184A"
-"TMEM38A" -> "TMEM161A"
-"TMEM38B" -> "TMEM38A"
-"TMEM38B" -> "HACD2"
-"TMEM38B" -> "TMEM161B"
-"TMEM38B" -> "INSIG2"
-"TMEM41A" -> "XKR8"
-"TMEM41A" -> "ALG12"
-"TMEM41A" -> "PTGES"
-"TMEM41A" -> "RFT1"
-"TMEM42" -> "TMEM269"
-"TMEM42" -> "RFT1"
-"TMEM42" -> "SLC66A3"
-"TMEM42" -> "TMEM41A"
-"XKR3" -> "ALG10"
-"XKR3" -> "XKR8"
-"XKR3" -> "MBOAT1"
-"XKR3" -> "TMEM269"
-"XKR8" -> "PIGV"
-"XKR8" -> "RFT1"
-"XKR8" -> "ALG12"
-"XKR8" -> "TMEM41A"
+"AGMO" -> "MBOAT1" ["e"=1]
+"AGMO" -> "SLC51A" ["e"=1]
+"AGMO" -> "SELENOI" ["e"=1]
+"AGMO" -> "TMEM161B" ["e"=1]
+"ALG10" -> "ALG10B" ["e"=1]
+"ALG10" -> "PIGV" ["e"=1]
+"ALG10" -> "PIGM" ["e"=1]
+"ALG10" -> "RFT1" ["e"=1]
+"ALG10B" -> "ALG10" ["e"=1]
+"ALG10B" -> "PIGM" ["e"=1]
+"ALG10B" -> "PIGV" ["e"=1]
+"ALG10B" -> "RFT1" ["e"=1]
+"ALG12" -> "PIGV" ["e"=1]
+"ALG12" -> "RFT1" ["e"=1]
+"ALG12" -> "XKR8" ["e"=1]
+"ALG12" -> "PIGM" ["e"=1]
+"ALG3" -> "PIGU" ["e"=1]
+"ALG3" -> "ALG8" ["e"=1]
+"ALG3" -> "RFT1" ["e"=1]
+"ALG3" -> "XKR8" ["e"=1]
+"ALG6" -> "ALG8" ["e"=1]
+"ALG6" -> "ALG10" ["e"=1]
+"ALG6" -> "RFT1" ["e"=1]
+"ALG6" -> "PIGU" ["e"=1]
+"ALG8" -> "ALG6" ["e"=1]
+"ALG8" -> "PIGU" ["e"=1]
+"ALG8" -> "RFT1" ["e"=1]
+"ALG8" -> "ALG3" ["e"=1]
+"CDS1" -> "CTNS" ["e"=1]
+"CDS1" -> "TMEM184A" ["e"=1]
+"CDS1" -> "STIMATE" ["e"=1]
+"CDS1" -> "MBOAT1" ["e"=1]
+"CTNS" -> "CDS1" ["e"=1]
+"CTNS" -> "TMEM184A" ["e"=1]
+"CTNS" -> "MBOAT1" ["e"=1]
+"CTNS" -> "RFT1" ["e"=1]
+"DGAT1" -> "MBOAT1" ["e"=1]
+"DGAT1" -> "PXMP2" ["e"=1]
+"DGAT1" -> "TMEM184A" ["e"=1]
+"DGAT1" -> "SGPP1" ["e"=1]
+"DOLK" -> "PIGV" ["e"=1]
+"DOLK" -> "XKR8" ["e"=1]
+"DOLK" -> "PIGM" ["e"=1]
+"DOLK" -> "PIGW" ["e"=1]
+"DPAGT1" -> "CTNS" ["e"=1]
+"DPAGT1" -> "RFT1" ["e"=1]
+"DPAGT1" -> "TMEM161A" ["e"=1]
+"DPAGT1" -> "SELENOI" ["e"=1]
+"GPR180" -> "HACD2" ["e"=1]
+"GPR180" -> "ALG10B" ["e"=1]
+"GPR180" -> "RFT1" ["e"=1]
+"GPR180" -> "TMEM184A" ["e"=1]
+"HACD2" -> "SGPP1" ["e"=1]
+"HACD2" -> "GPR180" ["e"=1]
+"HACD2" -> "SLC66A3" ["e"=1]
+"HACD2" -> "TMEM38B" ["e"=1]
+"HHATL" -> "MBOAT1" ["e"=1]
+"HHATL" -> "MBOAT7" ["e"=1]
+"HHATL" -> "LPCAT3" ["e"=1]
+"HHATL" -> "TM6SF2" ["e"=1]
+"INSIG2" -> "TM6SF1" ["e"=1]
+"INSIG2" -> "TMEM38B" ["e"=1]
+"INSIG2" -> "HACD2" ["e"=1]
+"INSIG2" -> "TMEM267" ["e"=1]
+"LBR" -> "SOAT1" ["e"=1]
+"LBR" -> "PTDSS1" ["e"=1]
+"LBR" -> "STEAP3" ["e"=1]
+"LBR" -> "HACD2" ["e"=1]
+"LPCAT3" -> "MBOAT1" ["e"=1]
+"LPCAT3" -> "MBOAT2" ["e"=1]
+"LPCAT3" -> "HHATL" ["e"=1]
+"LPCAT3" -> "DGAT1" ["e"=1]
+"MBOAT1" -> "MBOAT2" ["e"=1]
+"MBOAT1" -> "HHATL" ["e"=1]
+"MBOAT1" -> "LPCAT3" ["e"=1]
+"MBOAT1" -> "RFT1" ["e"=1]
+"MBOAT2" -> "MBOAT1" ["e"=1]
+"MBOAT2" -> "SELENOI" ["e"=1]
+"MBOAT2" -> "LPCAT3" ["e"=1]
+"MBOAT2" -> "TMEM184A" ["e"=1]
+"MBOAT4" -> "PIGV" ["e"=1]
+"MBOAT4" -> "XKR8" ["e"=1]
+"MBOAT4" -> "MBOAT1" ["e"=1]
+"MBOAT4" -> "ALG12" ["e"=1]
+"MBOAT7" -> "HHATL" ["e"=1]
+"MBOAT7" -> "MBOAT1" ["e"=1]
+"MBOAT7" -> "MBOAT4" ["e"=1]
+"MBOAT7" -> "MBOAT2" ["e"=1]
+"NRM" -> "XKR8" ["e"=1]
+"NRM" -> "PTGES" ["e"=1]
+"NRM" -> "TMEM41A" ["e"=1]
+"NRM" -> "HHATL" ["e"=1]
+"PIGM" -> "ALG10B" ["e"=1]
+"PIGM" -> "ALG10" ["e"=1]
+"PIGM" -> "PIGV" ["e"=1]
+"PIGM" -> "ALG12" ["e"=1]
+"PIGU" -> "ALG8" ["e"=1]
+"PIGU" -> "ALG3" ["e"=1]
+"PIGU" -> "ALG6" ["e"=1]
+"PIGU" -> "RFT1" ["e"=1]
+"PIGV" -> "ALG10" ["e"=1]
+"PIGV" -> "RFT1" ["e"=1]
+"PIGV" -> "ALG10B" ["e"=1]
+"PIGV" -> "ALG12" ["e"=1]
+"PIGW" -> "DOLK" ["e"=1]
+"PIGW" -> "ALG10" ["e"=1]
+"PIGW" -> "ALG10B" ["e"=1]
+"PIGW" -> "PIGM" ["e"=1]
+"PLPP7" -> "SGPP1" ["e"=1]
+"PLPP7" -> "SGPP2" ["e"=1]
+"PLPP7" -> "TMEM269" ["e"=1]
+"PLPP7" -> "RHBDL3" ["e"=1]
+"PTDSS1" -> "PTDSS2" ["e"=1]
+"PTDSS1" -> "SOAT1" ["e"=1]
+"PTDSS1" -> "MBOAT1" ["e"=1]
+"PTDSS1" -> "SELENOI" ["e"=1]
+"PTDSS2" -> "PTDSS1" ["e"=1]
+"PTDSS2" -> "STIMATE" ["e"=1]
+"PTDSS2" -> "DGAT1" ["e"=1]
+"PTDSS2" -> "TMEM184A" ["e"=1]
+"PTGES" -> "STEAP3" ["e"=1]
+"PTGES" -> "TMEM41A" ["e"=1]
+"PTGES" -> "SELENOI" ["e"=1]
+"PTGES" -> "SLC66A3" ["e"=1]
+"PXMP2" -> "DGAT1" ["e"=1]
+"PXMP2" -> "LPCAT3" ["e"=1]
+"PXMP2" -> "STIMATE" ["e"=1]
+"PXMP2" -> "SGPP1" ["e"=1]
+"RFT1" -> "PIGV" ["e"=1]
+"RFT1" -> "ALG10" ["e"=1]
+"RFT1" -> "MBOAT1" ["e"=1]
+"RFT1" -> "ALG12" ["e"=1]
+"RHBDL1" -> "RHBDL3" ["e"=1]
+"RHBDL1" -> "TMEM184A" ["e"=1]
+"RHBDL1" -> "XKR8" ["e"=1]
+"RHBDL1" -> "PTDSS2" ["e"=1]
+"RHBDL3" -> "RHBDL1" ["e"=1]
+"RHBDL3" -> "TMEM184A" ["e"=1]
+"RHBDL3" -> "XKR8" ["e"=1]
+"RHBDL3" -> "SLC31A2" ["e"=1]
+"SELENOI" -> "MBOAT1" ["e"=1]
+"SELENOI" -> "MBOAT2" ["e"=1]
+"SELENOI" -> "RFT1" ["e"=1]
+"SELENOI" -> "TMEM161B" ["e"=1]
+"SERINC4" -> "TMEM184A" ["e"=1]
+"SERINC4" -> "TMEM269" ["e"=1]
+"SERINC4" -> "XKR8" ["e"=1]
+"SERINC4" -> "PIGV" ["e"=1]
+"SGPP1" -> "SGPP2" ["e"=1]
+"SGPP1" -> "PLPP7" ["e"=1]
+"SGPP1" -> "HACD2" ["e"=1]
+"SGPP1" -> "MBOAT1" ["e"=1]
+"SGPP2" -> "SGPP1" ["e"=1]
+"SGPP2" -> "PLPP7" ["e"=1]
+"SGPP2" -> "TMEM184A" ["e"=1]
+"SGPP2" -> "STEAP3" ["e"=1]
+"SLC10A7" -> "INSIG2" ["e"=1]
+"SLC10A7" -> "TMEM161B" ["e"=1]
+"SLC10A7" -> "HACD2" ["e"=1]
+"SLC10A7" -> "SGPP1" ["e"=1]
+"SLC31A2" -> "TMEM184A" ["e"=1]
+"SLC31A2" -> "CTNS" ["e"=1]
+"SLC31A2" -> "MBOAT1" ["e"=1]
+"SLC31A2" -> "RHBDL3" ["e"=1]
+"SLC51A" -> "MBOAT1" ["e"=1]
+"SLC51A" -> "SGPP2" ["e"=1]
+"SLC51A" -> "TMEM269" ["e"=1]
+"SLC51A" -> "TM6SF2" ["e"=1]
+"SLC66A3" -> "HACD2" ["e"=1]
+"SLC66A3" -> "CTNS" ["e"=1]
+"SLC66A3" -> "RFT1" ["e"=1]
+"SLC66A3" -> "PIGU" ["e"=1]
+"SOAT1" -> "MBOAT1" ["e"=1]
+"SOAT1" -> "PTDSS1" ["e"=1]
+"SOAT1" -> "SELENOI" ["e"=1]
+"SOAT1" -> "CTNS" ["e"=1]
+"STEAP1B" -> "STEAP3" ["e"=1]
+"STEAP1B" -> "SGPP1" ["e"=1]
+"STEAP1B" -> "PLPP7" ["e"=1]
+"STEAP1B" -> "SGPP2" ["e"=1]
+"STEAP3" -> "PTGES" ["e"=1]
+"STEAP3" -> "CTNS" ["e"=1]
+"STEAP3" -> "SGPP2" ["e"=1]
+"STEAP3" -> "MBOAT1" ["e"=1]
+"STIMATE" -> "CDS1" ["e"=1]
+"STIMATE" -> "PTDSS2" ["e"=1]
+"STIMATE" -> "SGPP1" ["e"=1]
+"STIMATE" -> "TMEM184A" ["e"=1]
+"TM6SF1" -> "TM6SF2" ["e"=1]
+"TM6SF1" -> "INSIG2" ["e"=1]
+"TM6SF1" -> "MBOAT1" ["e"=1]
+"TM6SF1" -> "TMEM38B" ["e"=1]
+"TM6SF2" -> "TM6SF1" ["e"=1]
+"TM6SF2" -> "MBOAT1" ["e"=1]
+"TM6SF2" -> "HHATL" ["e"=1]
+"TM6SF2" -> "DGAT1" ["e"=1]
+"TMEM161A" -> "TMEM161B" ["e"=1]
+"TMEM161A" -> "XKR8" ["e"=1]
+"TMEM161A" -> "TMEM41A" ["e"=1]
+"TMEM161A" -> "RFT1" ["e"=1]
+"TMEM161B" -> "TMEM161A" ["e"=1]
+"TMEM161B" -> "SELENOI" ["e"=1]
+"TMEM161B" -> "ALG6" ["e"=1]
+"TMEM161B" -> "TMEM38B" ["e"=1]
+"TMEM184A" -> "CTNS" ["e"=1]
+"TMEM184A" -> "MBOAT1" ["e"=1]
+"TMEM184A" -> "CDS1" ["e"=1]
+"TMEM184A" -> "XKR8" ["e"=1]
+"TMEM19" -> "SELENOI" ["e"=1]
+"TMEM19" -> "CDS1" ["e"=1]
+"TMEM19" -> "DOLK" ["e"=1]
+"TMEM19" -> "SGPP1" ["e"=1]
+"TMEM267" -> "SELENOI" ["e"=1]
+"TMEM267" -> "INSIG2" ["e"=1]
+"TMEM267" -> "SGPP1" ["e"=1]
+"TMEM267" -> "ALG6" ["e"=1]
+"TMEM269" -> "CTNS" ["e"=1]
+"TMEM269" -> "PLPP7" ["e"=1]
+"TMEM269" -> "XKR3" ["e"=1]
+"TMEM269" -> "RFT1" ["e"=1]
+"TMEM38A" -> "TMEM38B" ["e"=1]
+"TMEM38A" -> "PTDSS1" ["e"=1]
+"TMEM38A" -> "TMEM184A" ["e"=1]
+"TMEM38A" -> "TMEM161A" ["e"=1]
+"TMEM38B" -> "TMEM38A" ["e"=1]
+"TMEM38B" -> "HACD2" ["e"=1]
+"TMEM38B" -> "TMEM161B" ["e"=1]
+"TMEM38B" -> "INSIG2" ["e"=1]
+"TMEM41A" -> "XKR8" ["e"=1]
+"TMEM41A" -> "ALG12" ["e"=1]
+"TMEM41A" -> "PTGES" ["e"=1]
+"TMEM41A" -> "RFT1" ["e"=1]
+"TMEM42" -> "TMEM269" ["e"=1]
+"TMEM42" -> "RFT1" ["e"=1]
+"TMEM42" -> "SLC66A3" ["e"=1]
+"TMEM42" -> "TMEM41A" ["e"=1]
+"XKR3" -> "ALG10" ["e"=1]
+"XKR3" -> "XKR8" ["e"=1]
+"XKR3" -> "MBOAT1" ["e"=1]
+"XKR3" -> "TMEM269" ["e"=1]
+"XKR8" -> "PIGV" ["e"=1]
+"XKR8" -> "RFT1" ["e"=1]
+"XKR8" -> "ALG12" ["e"=1]
+"XKR8" -> "TMEM41A" ["e"=1]
 }

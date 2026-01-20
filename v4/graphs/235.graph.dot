@@ -19,84 +19,84 @@ digraph G {
 "TFAP2C" ["l"="6.799,4.085"]
 "TFAP2D" ["l"="6.781,4.176"]
 "TFAP2E" ["l"="6.802,4.121"]
-"FOXA1" -> "FOXA2"
-"FOXA1" -> "GATA4"
-"FOXA1" -> "SP9"
-"FOXA1" -> "SP8"
-"FOXA2" -> "FOXA1"
-"FOXA2" -> "SP9"
-"FOXA2" -> "SP8"
-"FOXA2" -> "GATA4"
-"GATA3" -> "TFAP2A"
-"GATA3" -> "ONECUT1"
-"GATA3" -> "TFAP2D"
-"GATA3" -> "TFAP2B"
-"GATA4" -> "GATA5"
-"GATA4" -> "GATA6"
-"GATA4" -> "FOXA1"
-"GATA4" -> "SP9"
-"GATA5" -> "GATA4"
-"GATA5" -> "GATA6"
-"GATA5" -> "FOXA1"
-"GATA5" -> "TFAP2E"
-"GATA6" -> "GATA4"
-"GATA6" -> "GATA5"
-"GATA6" -> "FOXA1"
-"GATA6" -> "SP9"
-"ONECUT1" -> "POU4F3"
-"ONECUT1" -> "POU4F2"
-"ONECUT1" -> "TFAP2D"
-"ONECUT1" -> "TFAP2B"
-"PAX3" -> "PAX7"
-"PAX3" -> "PAX6"
-"PAX3" -> "TFAP2B"
-"PAX3" -> "TFAP2D"
-"PAX6" -> "PAX3"
-"PAX6" -> "PAX7"
-"PAX6" -> "TFAP2B"
-"PAX6" -> "POU4F3"
-"PAX7" -> "PAX3"
-"PAX7" -> "PAX6"
-"PAX7" -> "TFAP2B"
-"PAX7" -> "TFAP2D"
-"POU4F2" -> "POU4F3"
-"POU4F2" -> "ONECUT1"
-"POU4F2" -> "GATA6"
-"POU4F2" -> "TFAP2C"
-"POU4F3" -> "ONECUT1"
-"POU4F3" -> "POU4F2"
-"POU4F3" -> "TFAP2B"
-"POU4F3" -> "TFAP2C"
-"PRDM13" -> "SP9"
-"PRDM13" -> "SP8"
-"PRDM13" -> "GATA6"
-"PRDM13" -> "POU4F2"
-"SP8" -> "SP9"
-"SP8" -> "FOXA1"
-"SP8" -> "PRDM13"
-"SP8" -> "GATA4"
-"SP9" -> "SP8"
-"SP9" -> "PRDM13"
-"SP9" -> "FOXA1"
-"SP9" -> "GATA4"
-"TFAP2A" -> "TFAP2B"
-"TFAP2A" -> "TFAP2C"
-"TFAP2A" -> "TFAP2D"
-"TFAP2A" -> "TFAP2E"
-"TFAP2B" -> "TFAP2A"
-"TFAP2B" -> "TFAP2D"
-"TFAP2B" -> "TFAP2C"
-"TFAP2B" -> "TFAP2E"
-"TFAP2C" -> "TFAP2A"
-"TFAP2C" -> "TFAP2B"
-"TFAP2C" -> "TFAP2E"
-"TFAP2C" -> "TFAP2D"
-"TFAP2D" -> "TFAP2B"
-"TFAP2D" -> "TFAP2A"
-"TFAP2D" -> "TFAP2C"
-"TFAP2D" -> "TFAP2E"
-"TFAP2E" -> "TFAP2C"
-"TFAP2E" -> "TFAP2B"
-"TFAP2E" -> "TFAP2D"
-"TFAP2E" -> "TFAP2A"
+"FOXA1" -> "FOXA2" ["e"=1]
+"FOXA1" -> "GATA4" ["e"=1]
+"FOXA1" -> "SP9" ["e"=1]
+"FOXA1" -> "SP8" ["e"=1]
+"FOXA2" -> "FOXA1" ["e"=1]
+"FOXA2" -> "SP9" ["e"=1]
+"FOXA2" -> "SP8" ["e"=1]
+"FOXA2" -> "GATA4" ["e"=1]
+"GATA3" -> "TFAP2A" ["e"=1]
+"GATA3" -> "ONECUT1" ["e"=1]
+"GATA3" -> "TFAP2D" ["e"=1]
+"GATA3" -> "TFAP2B" ["e"=1]
+"GATA4" -> "GATA5" ["e"=1]
+"GATA4" -> "GATA6" ["e"=1]
+"GATA4" -> "FOXA1" ["e"=1]
+"GATA4" -> "SP9" ["e"=1]
+"GATA5" -> "GATA4" ["e"=1]
+"GATA5" -> "GATA6" ["e"=1]
+"GATA5" -> "FOXA1" ["e"=1]
+"GATA5" -> "TFAP2E" ["e"=1]
+"GATA6" -> "GATA4" ["e"=1]
+"GATA6" -> "GATA5" ["e"=1]
+"GATA6" -> "FOXA1" ["e"=1]
+"GATA6" -> "SP9" ["e"=1]
+"ONECUT1" -> "POU4F3" ["e"=1]
+"ONECUT1" -> "POU4F2" ["e"=1]
+"ONECUT1" -> "TFAP2D" ["e"=1]
+"ONECUT1" -> "TFAP2B" ["e"=1]
+"PAX3" -> "PAX7" ["e"=1]
+"PAX3" -> "PAX6" ["e"=1]
+"PAX3" -> "TFAP2B" ["e"=1]
+"PAX3" -> "TFAP2D" ["e"=1]
+"PAX6" -> "PAX3" ["e"=1]
+"PAX6" -> "PAX7" ["e"=1]
+"PAX6" -> "TFAP2B" ["e"=1]
+"PAX6" -> "POU4F3" ["e"=1]
+"PAX7" -> "PAX3" ["e"=1]
+"PAX7" -> "PAX6" ["e"=1]
+"PAX7" -> "TFAP2B" ["e"=1]
+"PAX7" -> "TFAP2D" ["e"=1]
+"POU4F2" -> "POU4F3" ["e"=1]
+"POU4F2" -> "ONECUT1" ["e"=1]
+"POU4F2" -> "GATA6" ["e"=1]
+"POU4F2" -> "TFAP2C" ["e"=1]
+"POU4F3" -> "ONECUT1" ["e"=1]
+"POU4F3" -> "POU4F2" ["e"=1]
+"POU4F3" -> "TFAP2B" ["e"=1]
+"POU4F3" -> "TFAP2C" ["e"=1]
+"PRDM13" -> "SP9" ["e"=1]
+"PRDM13" -> "SP8" ["e"=1]
+"PRDM13" -> "GATA6" ["e"=1]
+"PRDM13" -> "POU4F2" ["e"=1]
+"SP8" -> "SP9" ["e"=1]
+"SP8" -> "FOXA1" ["e"=1]
+"SP8" -> "PRDM13" ["e"=1]
+"SP8" -> "GATA4" ["e"=1]
+"SP9" -> "SP8" ["e"=1]
+"SP9" -> "PRDM13" ["e"=1]
+"SP9" -> "FOXA1" ["e"=1]
+"SP9" -> "GATA4" ["e"=1]
+"TFAP2A" -> "TFAP2B" ["e"=1]
+"TFAP2A" -> "TFAP2C" ["e"=1]
+"TFAP2A" -> "TFAP2D" ["e"=1]
+"TFAP2A" -> "TFAP2E" ["e"=1]
+"TFAP2B" -> "TFAP2A" ["e"=1]
+"TFAP2B" -> "TFAP2D" ["e"=1]
+"TFAP2B" -> "TFAP2C" ["e"=1]
+"TFAP2B" -> "TFAP2E" ["e"=1]
+"TFAP2C" -> "TFAP2A" ["e"=1]
+"TFAP2C" -> "TFAP2B" ["e"=1]
+"TFAP2C" -> "TFAP2E" ["e"=1]
+"TFAP2C" -> "TFAP2D" ["e"=1]
+"TFAP2D" -> "TFAP2B" ["e"=1]
+"TFAP2D" -> "TFAP2A" ["e"=1]
+"TFAP2D" -> "TFAP2C" ["e"=1]
+"TFAP2D" -> "TFAP2E" ["e"=1]
+"TFAP2E" -> "TFAP2C" ["e"=1]
+"TFAP2E" -> "TFAP2B" ["e"=1]
+"TFAP2E" -> "TFAP2D" ["e"=1]
+"TFAP2E" -> "TFAP2A" ["e"=1]
 }

@@ -16,72 +16,72 @@ digraph G {
 "IGF1" ["l"="14.608,-1.631"]
 "IGF2" ["l"="14.660,-1.736"]
 "LHB" ["l"="14.699,-1.799"]
-"ADM5" -> "CGB5"
-"ADM5" -> "CGB7"
-"ADM5" -> "EDN2"
-"ADM5" -> "CGB8"
-"ASIP" -> "CGA"
-"ASIP" -> "IGF1"
-"ASIP" -> "GPHB5"
-"ASIP" -> "EDN1"
-"AVP" -> "EDN2"
-"AVP" -> "EDN1"
-"AVP" -> "CGB2"
-"AVP" -> "GPHB5"
-"CGA" -> "GPHB5"
-"CGA" -> "CGB7"
-"CGA" -> "CGB3"
-"CGA" -> "EDN2"
-"CGB1" -> "CGB2"
-"CGB1" -> "CGB8"
-"CGB1" -> "CGB3"
-"CGB1" -> "CGB5"
-"CGB2" -> "CGB3"
-"CGB2" -> "CGB8"
-"CGB2" -> "CGB5"
-"CGB2" -> "CGB1"
-"CGB3" -> "CGB8"
-"CGB3" -> "CGB2"
-"CGB3" -> "CGB7"
-"CGB3" -> "CGB5"
-"CGB5" -> "CGB8"
-"CGB5" -> "CGB7"
-"CGB5" -> "CGB3"
-"CGB5" -> "CGB2"
-"CGB7" -> "CGB8"
-"CGB7" -> "CGB3"
-"CGB7" -> "CGB5"
-"CGB7" -> "CGB2"
-"CGB8" -> "CGB5"
-"CGB8" -> "CGB3"
-"CGB8" -> "CGB7"
-"CGB8" -> "CGB2"
-"EDN1" -> "EDN2"
-"EDN1" -> "IGF2"
-"EDN1" -> "IGF1"
-"EDN1" -> "CGA"
-"EDN2" -> "EDN1"
-"EDN2" -> "IGF2"
-"EDN2" -> "ADM5"
-"EDN2" -> "AVP"
-"GPHA2" -> "CGB2"
-"GPHA2" -> "LHB"
-"GPHA2" -> "CGB8"
-"GPHA2" -> "GPHB5"
-"GPHB5" -> "CGB5"
-"GPHB5" -> "LHB"
-"GPHB5" -> "CGB8"
-"GPHB5" -> "CGA"
-"IGF1" -> "IGF2"
-"IGF1" -> "EDN1"
-"IGF1" -> "EDN2"
-"IGF1" -> "CGB2"
-"IGF2" -> "IGF1"
-"IGF2" -> "EDN2"
-"IGF2" -> "EDN1"
-"IGF2" -> "CGB2"
-"LHB" -> "CGB2"
-"LHB" -> "CGB8"
-"LHB" -> "CGB5"
-"LHB" -> "CGB7"
+"ADM5" -> "CGB5" ["e"=1]
+"ADM5" -> "CGB7" ["e"=1]
+"ADM5" -> "EDN2" ["e"=1]
+"ADM5" -> "CGB8" ["e"=1]
+"ASIP" -> "CGA" ["e"=1]
+"ASIP" -> "IGF1" ["e"=1]
+"ASIP" -> "GPHB5" ["e"=1]
+"ASIP" -> "EDN1" ["e"=1]
+"AVP" -> "EDN2" ["e"=1]
+"AVP" -> "EDN1" ["e"=1]
+"AVP" -> "CGB2" ["e"=1]
+"AVP" -> "GPHB5" ["e"=1]
+"CGA" -> "GPHB5" ["e"=1]
+"CGA" -> "CGB7" ["e"=1]
+"CGA" -> "CGB3" ["e"=1]
+"CGA" -> "EDN2" ["e"=1]
+"CGB1" -> "CGB2" ["e"=1]
+"CGB1" -> "CGB8" ["e"=1]
+"CGB1" -> "CGB3" ["e"=1]
+"CGB1" -> "CGB5" ["e"=1]
+"CGB2" -> "CGB3" ["e"=1]
+"CGB2" -> "CGB8" ["e"=1]
+"CGB2" -> "CGB5" ["e"=1]
+"CGB2" -> "CGB1" ["e"=1]
+"CGB3" -> "CGB8" ["e"=1]
+"CGB3" -> "CGB2" ["e"=1]
+"CGB3" -> "CGB7" ["e"=1]
+"CGB3" -> "CGB5" ["e"=1]
+"CGB5" -> "CGB8" ["e"=1]
+"CGB5" -> "CGB7" ["e"=1]
+"CGB5" -> "CGB3" ["e"=1]
+"CGB5" -> "CGB2" ["e"=1]
+"CGB7" -> "CGB8" ["e"=1]
+"CGB7" -> "CGB3" ["e"=1]
+"CGB7" -> "CGB5" ["e"=1]
+"CGB7" -> "CGB2" ["e"=1]
+"CGB8" -> "CGB5" ["e"=1]
+"CGB8" -> "CGB3" ["e"=1]
+"CGB8" -> "CGB7" ["e"=1]
+"CGB8" -> "CGB2" ["e"=1]
+"EDN1" -> "EDN2" ["e"=1]
+"EDN1" -> "IGF2" ["e"=1]
+"EDN1" -> "IGF1" ["e"=1]
+"EDN1" -> "CGA" ["e"=1]
+"EDN2" -> "EDN1" ["e"=1]
+"EDN2" -> "IGF2" ["e"=1]
+"EDN2" -> "ADM5" ["e"=1]
+"EDN2" -> "AVP" ["e"=1]
+"GPHA2" -> "CGB2" ["e"=1]
+"GPHA2" -> "LHB" ["e"=1]
+"GPHA2" -> "CGB8" ["e"=1]
+"GPHA2" -> "GPHB5" ["e"=1]
+"GPHB5" -> "CGB5" ["e"=1]
+"GPHB5" -> "LHB" ["e"=1]
+"GPHB5" -> "CGB8" ["e"=1]
+"GPHB5" -> "CGA" ["e"=1]
+"IGF1" -> "IGF2" ["e"=1]
+"IGF1" -> "EDN1" ["e"=1]
+"IGF1" -> "EDN2" ["e"=1]
+"IGF1" -> "CGB2" ["e"=1]
+"IGF2" -> "IGF1" ["e"=1]
+"IGF2" -> "EDN2" ["e"=1]
+"IGF2" -> "EDN1" ["e"=1]
+"IGF2" -> "CGB2" ["e"=1]
+"LHB" -> "CGB2" ["e"=1]
+"LHB" -> "CGB8" ["e"=1]
+"LHB" -> "CGB5" ["e"=1]
+"LHB" -> "CGB7" ["e"=1]
 }

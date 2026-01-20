@@ -49,204 +49,204 @@ digraph G {
 "VPS33A" ["l"="11.210,1.176"]
 "VPS33B" ["l"="11.133,1.161"]
 "VPS45" ["l"="11.181,1.092"]
-"AIM2" -> "MNDA"
-"AIM2" -> "PYHIN1"
-"AIM2" -> "NMI"
-"AIM2" -> "IFI16"
-"ATL2" -> "ATL3"
-"ATL2" -> "MFN1"
-"ATL2" -> "OPA1"
-"ATL2" -> "MFN2"
-"ATL3" -> "ATL2"
-"ATL3" -> "MFN2"
-"ATL3" -> "MFN1"
-"ATL3" -> "OPA1"
-"BBS1" -> "NOL11"
-"BBS1" -> "MOV10L1"
-"BBS1" -> "VPS33A"
-"BBS1" -> "GPCPD1"
-"DELE1" -> "TCAIM"
-"DELE1" -> "IRAK2"
-"DELE1" -> "MRPS27"
-"DELE1" -> "ELMOD1"
-"DET1" -> "GPCPD1"
-"DET1" -> "BBS1"
-"DET1" -> "KLHDC1"
-"DET1" -> "RCBTB2"
-"ELMOD1" -> "TCAIM"
-"ELMOD1" -> "PEX3"
-"ELMOD1" -> "ATL2"
-"ELMOD1" -> "DELE1"
-"FKBP6" -> "DELE1"
-"FKBP6" -> "TCAIM"
-"FKBP6" -> "ELMOD1"
-"FKBP6" -> "BBS1"
-"GPCPD1" -> "KLHDC1"
-"GPCPD1" -> "IRAK3"
-"GPCPD1" -> "BBS1"
-"GPCPD1" -> "IFRD1"
-"HGH1" -> "HSPBP1"
-"HGH1" -> "SCFD2"
-"HGH1" -> "IFRD1"
-"HGH1" -> "VPS33A"
-"HSPBP1" -> "HGH1"
-"HSPBP1" -> "MRPS27"
-"HSPBP1" -> "MFN2"
-"HSPBP1" -> "IFRD2"
-"IFI16" -> "PYHIN1"
-"IFI16" -> "MNDA"
-"IFI16" -> "AIM2"
-"IFI16" -> "NMI"
-"IFRD1" -> "IFRD2"
-"IFRD1" -> "PDCD4"
-"IFRD1" -> "PEX3"
-"IFRD1" -> "GPCPD1"
-"IFRD2" -> "IFRD1"
-"IFRD2" -> "PDCD4"
-"IFRD2" -> "HSPBP1"
-"IFRD2" -> "IRAK2"
-"IRAK2" -> "IRAK3"
-"IRAK2" -> "DELE1"
-"IRAK2" -> "GPCPD1"
-"IRAK2" -> "IFRD1"
-"IRAK3" -> "IRAK2"
-"IRAK3" -> "GPCPD1"
-"IRAK3" -> "IFRD1"
-"IRAK3" -> "DELE1"
-"KLHDC1" -> "GPCPD1"
-"KLHDC1" -> "RCBTB2"
-"KLHDC1" -> "RCBTB1"
-"KLHDC1" -> "NOL11"
-"MFN1" -> "MFN2"
-"MFN1" -> "ATL2"
-"MFN1" -> "OPA1"
-"MFN1" -> "ATL3"
-"MFN2" -> "ATL3"
-"MFN2" -> "MFN1"
-"MFN2" -> "ATL2"
-"MFN2" -> "OPA1"
-"MNDA" -> "PYHIN1"
-"MNDA" -> "IFI16"
-"MNDA" -> "AIM2"
-"MNDA" -> "NMI"
-"MORN1" -> "MORN3"
-"MORN1" -> "RSPH1"
-"MORN1" -> "MORN4"
-"MORN1" -> "RSPH10B2"
-"MORN2" -> "MORN4"
-"MORN2" -> "RSPH1"
-"MORN2" -> "MORN5"
-"MORN2" -> "MORN3"
-"MORN3" -> "MORN1"
-"MORN3" -> "MORN4"
-"MORN3" -> "RSPH1"
-"MORN3" -> "MORN2"
-"MORN4" -> "MORN3"
-"MORN4" -> "MORN2"
-"MORN4" -> "MORN1"
-"MORN4" -> "TCAIM"
-"MORN5" -> "MORN2"
-"MORN5" -> "RSPH1"
-"MORN5" -> "MORN3"
-"MORN5" -> "MORN4"
-"MOV10L1" -> "TDRD9"
-"MOV10L1" -> "BBS1"
-"MOV10L1" -> "PEX1"
-"MOV10L1" -> "KLHDC1"
-"MRPS27" -> "DELE1"
-"MRPS27" -> "TCAIM"
-"MRPS27" -> "NOL11"
-"MRPS27" -> "PEX3"
-"MTREX" -> "OPA1"
-"MTREX" -> "STXBP3"
-"MTREX" -> "VPS45"
-"MTREX" -> "PEX1"
-"NMI" -> "AIM2"
-"NMI" -> "IFI16"
-"NMI" -> "MNDA"
-"NMI" -> "PYHIN1"
-"NOL11" -> "NUDCD1"
-"NOL11" -> "BBS1"
-"NOL11" -> "PEX3"
-"NOL11" -> "KLHDC1"
-"NUDCD1" -> "NOL11"
-"NUDCD1" -> "TCAIM"
-"NUDCD1" -> "BBS1"
-"NUDCD1" -> "GPCPD1"
-"OPA1" -> "ATL2"
-"OPA1" -> "MFN1"
-"OPA1" -> "MFN2"
-"OPA1" -> "MTREX"
-"PDCD4" -> "IFRD1"
-"PDCD4" -> "ATL2"
-"PDCD4" -> "IFRD2"
-"PDCD4" -> "DELE1"
-"PEX1" -> "MOV10L1"
-"PEX1" -> "TCAIM"
-"PEX1" -> "MTREX"
-"PEX1" -> "SCFD2"
-"PEX3" -> "ELMOD1"
-"PEX3" -> "TCAIM"
-"PEX3" -> "MFN1"
-"PEX3" -> "NOL11"
-"PYHIN1" -> "MNDA"
-"PYHIN1" -> "IFI16"
-"PYHIN1" -> "AIM2"
-"PYHIN1" -> "NMI"
-"RCBTB1" -> "RCBTB2"
-"RCBTB1" -> "KLHDC1"
-"RCBTB1" -> "GPCPD1"
-"RCBTB1" -> "IFRD1"
-"RCBTB2" -> "RCBTB1"
-"RCBTB2" -> "KLHDC1"
-"RCBTB2" -> "GPCPD1"
-"RCBTB2" -> "DET1"
-"RSPH1" -> "MORN3"
-"RSPH1" -> "MORN1"
-"RSPH1" -> "MORN2"
-"RSPH1" -> "MORN5"
-"RSPH10B2" -> "MORN1"
-"RSPH10B2" -> "MORN3"
-"RSPH10B2" -> "RSPH1"
-"RSPH10B2" -> "MORN5"
-"SCFD1" -> "VPS33A"
-"SCFD1" -> "STXBP3"
-"SCFD1" -> "STXBP2"
-"SCFD1" -> "VPS45"
-"SCFD2" -> "VPS33A"
-"SCFD2" -> "VPS33B"
-"SCFD2" -> "VPS45"
-"SCFD2" -> "PEX1"
-"SEC23A" -> "MFN2"
-"SEC23A" -> "GPCPD1"
-"SEC23A" -> "BBS1"
-"SEC23A" -> "OPA1"
-"STXBP2" -> "VPS45"
-"STXBP2" -> "STXBP3"
-"STXBP2" -> "VPS33A"
-"STXBP2" -> "SCFD1"
-"STXBP3" -> "VPS45"
-"STXBP3" -> "STXBP2"
-"STXBP3" -> "VPS33A"
-"STXBP3" -> "SCFD1"
-"TCAIM" -> "ELMOD1"
-"TCAIM" -> "PEX3"
-"TCAIM" -> "DELE1"
-"TCAIM" -> "MRPS27"
-"TDRD9" -> "MOV10L1"
-"TDRD9" -> "BBS1"
-"TDRD9" -> "GPCPD1"
-"TDRD9" -> "VPS33A"
-"VPS33A" -> "VPS33B"
-"VPS33A" -> "SCFD2"
-"VPS33A" -> "VPS45"
-"VPS33A" -> "STXBP2"
-"VPS33B" -> "VPS33A"
-"VPS33B" -> "VPS45"
-"VPS33B" -> "SCFD2"
-"VPS33B" -> "STXBP2"
-"VPS45" -> "STXBP3"
-"VPS45" -> "VPS33A"
-"VPS45" -> "STXBP2"
-"VPS45" -> "VPS33B"
+"AIM2" -> "MNDA" ["e"=1]
+"AIM2" -> "PYHIN1" ["e"=1]
+"AIM2" -> "NMI" ["e"=1]
+"AIM2" -> "IFI16" ["e"=1]
+"ATL2" -> "ATL3" ["e"=1]
+"ATL2" -> "MFN1" ["e"=1]
+"ATL2" -> "OPA1" ["e"=1]
+"ATL2" -> "MFN2" ["e"=1]
+"ATL3" -> "ATL2" ["e"=1]
+"ATL3" -> "MFN2" ["e"=1]
+"ATL3" -> "MFN1" ["e"=1]
+"ATL3" -> "OPA1" ["e"=1]
+"BBS1" -> "NOL11" ["e"=1]
+"BBS1" -> "MOV10L1" ["e"=1]
+"BBS1" -> "VPS33A" ["e"=1]
+"BBS1" -> "GPCPD1" ["e"=1]
+"DELE1" -> "TCAIM" ["e"=1]
+"DELE1" -> "IRAK2" ["e"=1]
+"DELE1" -> "MRPS27" ["e"=1]
+"DELE1" -> "ELMOD1" ["e"=1]
+"DET1" -> "GPCPD1" ["e"=1]
+"DET1" -> "BBS1" ["e"=1]
+"DET1" -> "KLHDC1" ["e"=1]
+"DET1" -> "RCBTB2" ["e"=1]
+"ELMOD1" -> "TCAIM" ["e"=1]
+"ELMOD1" -> "PEX3" ["e"=1]
+"ELMOD1" -> "ATL2" ["e"=1]
+"ELMOD1" -> "DELE1" ["e"=1]
+"FKBP6" -> "DELE1" ["e"=1]
+"FKBP6" -> "TCAIM" ["e"=1]
+"FKBP6" -> "ELMOD1" ["e"=1]
+"FKBP6" -> "BBS1" ["e"=1]
+"GPCPD1" -> "KLHDC1" ["e"=1]
+"GPCPD1" -> "IRAK3" ["e"=1]
+"GPCPD1" -> "BBS1" ["e"=1]
+"GPCPD1" -> "IFRD1" ["e"=1]
+"HGH1" -> "HSPBP1" ["e"=1]
+"HGH1" -> "SCFD2" ["e"=1]
+"HGH1" -> "IFRD1" ["e"=1]
+"HGH1" -> "VPS33A" ["e"=1]
+"HSPBP1" -> "HGH1" ["e"=1]
+"HSPBP1" -> "MRPS27" ["e"=1]
+"HSPBP1" -> "MFN2" ["e"=1]
+"HSPBP1" -> "IFRD2" ["e"=1]
+"IFI16" -> "PYHIN1" ["e"=1]
+"IFI16" -> "MNDA" ["e"=1]
+"IFI16" -> "AIM2" ["e"=1]
+"IFI16" -> "NMI" ["e"=1]
+"IFRD1" -> "IFRD2" ["e"=1]
+"IFRD1" -> "PDCD4" ["e"=1]
+"IFRD1" -> "PEX3" ["e"=1]
+"IFRD1" -> "GPCPD1" ["e"=1]
+"IFRD2" -> "IFRD1" ["e"=1]
+"IFRD2" -> "PDCD4" ["e"=1]
+"IFRD2" -> "HSPBP1" ["e"=1]
+"IFRD2" -> "IRAK2" ["e"=1]
+"IRAK2" -> "IRAK3" ["e"=1]
+"IRAK2" -> "DELE1" ["e"=1]
+"IRAK2" -> "GPCPD1" ["e"=1]
+"IRAK2" -> "IFRD1" ["e"=1]
+"IRAK3" -> "IRAK2" ["e"=1]
+"IRAK3" -> "GPCPD1" ["e"=1]
+"IRAK3" -> "IFRD1" ["e"=1]
+"IRAK3" -> "DELE1" ["e"=1]
+"KLHDC1" -> "GPCPD1" ["e"=1]
+"KLHDC1" -> "RCBTB2" ["e"=1]
+"KLHDC1" -> "RCBTB1" ["e"=1]
+"KLHDC1" -> "NOL11" ["e"=1]
+"MFN1" -> "MFN2" ["e"=1]
+"MFN1" -> "ATL2" ["e"=1]
+"MFN1" -> "OPA1" ["e"=1]
+"MFN1" -> "ATL3" ["e"=1]
+"MFN2" -> "ATL3" ["e"=1]
+"MFN2" -> "MFN1" ["e"=1]
+"MFN2" -> "ATL2" ["e"=1]
+"MFN2" -> "OPA1" ["e"=1]
+"MNDA" -> "PYHIN1" ["e"=1]
+"MNDA" -> "IFI16" ["e"=1]
+"MNDA" -> "AIM2" ["e"=1]
+"MNDA" -> "NMI" ["e"=1]
+"MORN1" -> "MORN3" ["e"=1]
+"MORN1" -> "RSPH1" ["e"=1]
+"MORN1" -> "MORN4" ["e"=1]
+"MORN1" -> "RSPH10B2" ["e"=1]
+"MORN2" -> "MORN4" ["e"=1]
+"MORN2" -> "RSPH1" ["e"=1]
+"MORN2" -> "MORN5" ["e"=1]
+"MORN2" -> "MORN3" ["e"=1]
+"MORN3" -> "MORN1" ["e"=1]
+"MORN3" -> "MORN4" ["e"=1]
+"MORN3" -> "RSPH1" ["e"=1]
+"MORN3" -> "MORN2" ["e"=1]
+"MORN4" -> "MORN3" ["e"=1]
+"MORN4" -> "MORN2" ["e"=1]
+"MORN4" -> "MORN1" ["e"=1]
+"MORN4" -> "TCAIM" ["e"=1]
+"MORN5" -> "MORN2" ["e"=1]
+"MORN5" -> "RSPH1" ["e"=1]
+"MORN5" -> "MORN3" ["e"=1]
+"MORN5" -> "MORN4" ["e"=1]
+"MOV10L1" -> "TDRD9" ["e"=1]
+"MOV10L1" -> "BBS1" ["e"=1]
+"MOV10L1" -> "PEX1" ["e"=1]
+"MOV10L1" -> "KLHDC1" ["e"=1]
+"MRPS27" -> "DELE1" ["e"=1]
+"MRPS27" -> "TCAIM" ["e"=1]
+"MRPS27" -> "NOL11" ["e"=1]
+"MRPS27" -> "PEX3" ["e"=1]
+"MTREX" -> "OPA1" ["e"=1]
+"MTREX" -> "STXBP3" ["e"=1]
+"MTREX" -> "VPS45" ["e"=1]
+"MTREX" -> "PEX1" ["e"=1]
+"NMI" -> "AIM2" ["e"=1]
+"NMI" -> "IFI16" ["e"=1]
+"NMI" -> "MNDA" ["e"=1]
+"NMI" -> "PYHIN1" ["e"=1]
+"NOL11" -> "NUDCD1" ["e"=1]
+"NOL11" -> "BBS1" ["e"=1]
+"NOL11" -> "PEX3" ["e"=1]
+"NOL11" -> "KLHDC1" ["e"=1]
+"NUDCD1" -> "NOL11" ["e"=1]
+"NUDCD1" -> "TCAIM" ["e"=1]
+"NUDCD1" -> "BBS1" ["e"=1]
+"NUDCD1" -> "GPCPD1" ["e"=1]
+"OPA1" -> "ATL2" ["e"=1]
+"OPA1" -> "MFN1" ["e"=1]
+"OPA1" -> "MFN2" ["e"=1]
+"OPA1" -> "MTREX" ["e"=1]
+"PDCD4" -> "IFRD1" ["e"=1]
+"PDCD4" -> "ATL2" ["e"=1]
+"PDCD4" -> "IFRD2" ["e"=1]
+"PDCD4" -> "DELE1" ["e"=1]
+"PEX1" -> "MOV10L1" ["e"=1]
+"PEX1" -> "TCAIM" ["e"=1]
+"PEX1" -> "MTREX" ["e"=1]
+"PEX1" -> "SCFD2" ["e"=1]
+"PEX3" -> "ELMOD1" ["e"=1]
+"PEX3" -> "TCAIM" ["e"=1]
+"PEX3" -> "MFN1" ["e"=1]
+"PEX3" -> "NOL11" ["e"=1]
+"PYHIN1" -> "MNDA" ["e"=1]
+"PYHIN1" -> "IFI16" ["e"=1]
+"PYHIN1" -> "AIM2" ["e"=1]
+"PYHIN1" -> "NMI" ["e"=1]
+"RCBTB1" -> "RCBTB2" ["e"=1]
+"RCBTB1" -> "KLHDC1" ["e"=1]
+"RCBTB1" -> "GPCPD1" ["e"=1]
+"RCBTB1" -> "IFRD1" ["e"=1]
+"RCBTB2" -> "RCBTB1" ["e"=1]
+"RCBTB2" -> "KLHDC1" ["e"=1]
+"RCBTB2" -> "GPCPD1" ["e"=1]
+"RCBTB2" -> "DET1" ["e"=1]
+"RSPH1" -> "MORN3" ["e"=1]
+"RSPH1" -> "MORN1" ["e"=1]
+"RSPH1" -> "MORN2" ["e"=1]
+"RSPH1" -> "MORN5" ["e"=1]
+"RSPH10B2" -> "MORN1" ["e"=1]
+"RSPH10B2" -> "MORN3" ["e"=1]
+"RSPH10B2" -> "RSPH1" ["e"=1]
+"RSPH10B2" -> "MORN5" ["e"=1]
+"SCFD1" -> "VPS33A" ["e"=1]
+"SCFD1" -> "STXBP3" ["e"=1]
+"SCFD1" -> "STXBP2" ["e"=1]
+"SCFD1" -> "VPS45" ["e"=1]
+"SCFD2" -> "VPS33A" ["e"=1]
+"SCFD2" -> "VPS33B" ["e"=1]
+"SCFD2" -> "VPS45" ["e"=1]
+"SCFD2" -> "PEX1" ["e"=1]
+"SEC23A" -> "MFN2" ["e"=1]
+"SEC23A" -> "GPCPD1" ["e"=1]
+"SEC23A" -> "BBS1" ["e"=1]
+"SEC23A" -> "OPA1" ["e"=1]
+"STXBP2" -> "VPS45" ["e"=1]
+"STXBP2" -> "STXBP3" ["e"=1]
+"STXBP2" -> "VPS33A" ["e"=1]
+"STXBP2" -> "SCFD1" ["e"=1]
+"STXBP3" -> "VPS45" ["e"=1]
+"STXBP3" -> "STXBP2" ["e"=1]
+"STXBP3" -> "VPS33A" ["e"=1]
+"STXBP3" -> "SCFD1" ["e"=1]
+"TCAIM" -> "ELMOD1" ["e"=1]
+"TCAIM" -> "PEX3" ["e"=1]
+"TCAIM" -> "DELE1" ["e"=1]
+"TCAIM" -> "MRPS27" ["e"=1]
+"TDRD9" -> "MOV10L1" ["e"=1]
+"TDRD9" -> "BBS1" ["e"=1]
+"TDRD9" -> "GPCPD1" ["e"=1]
+"TDRD9" -> "VPS33A" ["e"=1]
+"VPS33A" -> "VPS33B" ["e"=1]
+"VPS33A" -> "SCFD2" ["e"=1]
+"VPS33A" -> "VPS45" ["e"=1]
+"VPS33A" -> "STXBP2" ["e"=1]
+"VPS33B" -> "VPS33A" ["e"=1]
+"VPS33B" -> "VPS45" ["e"=1]
+"VPS33B" -> "SCFD2" ["e"=1]
+"VPS33B" -> "STXBP2" ["e"=1]
+"VPS45" -> "STXBP3" ["e"=1]
+"VPS45" -> "VPS33A" ["e"=1]
+"VPS45" -> "STXBP2" ["e"=1]
+"VPS45" -> "VPS33B" ["e"=1]
 }

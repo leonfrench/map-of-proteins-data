@@ -35,148 +35,148 @@ digraph G {
 "SLFN13" ["l"="11.525,0.439"]
 "SLFN14" ["l"="11.487,0.534"]
 "SLFN5" ["l"="11.513,0.435"]
-"CAPN1" -> "CAPN2"
-"CAPN1" -> "CAPN11"
-"CAPN1" -> "CAPN9"
-"CAPN1" -> "CAPN8"
-"CAPN11" -> "CAPN3"
-"CAPN11" -> "CAPN9"
-"CAPN11" -> "CAPN2"
-"CAPN11" -> "CAPN8"
-"CAPN12" -> "CAPN11"
-"CAPN12" -> "CAPN5"
-"CAPN12" -> "CAPN13"
-"CAPN12" -> "CAPN8"
-"CAPN13" -> "CAPN14"
-"CAPN13" -> "CAPN11"
-"CAPN13" -> "CAPN8"
-"CAPN13" -> "CAPN12"
-"CAPN14" -> "CAPN13"
-"CAPN14" -> "CAPN11"
-"CAPN14" -> "CAPN9"
-"CAPN14" -> "CAPN1"
-"CAPN2" -> "CAPN1"
-"CAPN2" -> "CAPN9"
-"CAPN2" -> "CAPN11"
-"CAPN2" -> "CAPN8"
-"CAPN3" -> "CAPN11"
-"CAPN3" -> "CAPN2"
-"CAPN3" -> "CAPN8"
-"CAPN3" -> "CAPN9"
-"CAPN5" -> "CAPN11"
-"CAPN5" -> "CAPN12"
-"CAPN5" -> "CAPN2"
-"CAPN5" -> "CAPN1"
-"CAPN8" -> "CAPN9"
-"CAPN8" -> "CAPN11"
-"CAPN8" -> "CAPN1"
-"CAPN8" -> "CAPN2"
-"CAPN9" -> "CAPN8"
-"CAPN9" -> "CAPN11"
-"CAPN9" -> "CAPN2"
-"CAPN9" -> "CAPN1"
-"DAGLB" -> "NOX5"
-"DAGLB" -> "CAPN12"
-"DAGLB" -> "CAPN5"
-"DAGLB" -> "CAPN11"
-"DDX58" -> "IFIH1"
-"DDX58" -> "SLFN11"
-"DDX58" -> "PARP9"
-"DDX58" -> "IFI44"
-"DTX3L" -> "PARP9"
-"DTX3L" -> "SLFN5"
-"DTX3L" -> "SLFN11"
-"DTX3L" -> "PARP14"
-"FAM111A" -> "FAM111B"
-"FAM111A" -> "SLFN13"
-"FAM111A" -> "DTX3L"
-"FAM111A" -> "SLFN12"
-"FAM111B" -> "FAM111A"
-"FAM111B" -> "SAMD9"
-"FAM111B" -> "DTX3L"
-"FAM111B" -> "SLFN12"
-"IFI44" -> "IFI44L"
-"IFI44" -> "SLFN12"
-"IFI44" -> "SLFN11"
-"IFI44" -> "MX2"
-"IFI44L" -> "IFI44"
-"IFI44L" -> "SLFN5"
-"IFI44L" -> "SLFN14"
-"IFI44L" -> "SLFN12"
-"IFIH1" -> "DDX58"
-"IFIH1" -> "SLFN11"
-"IFIH1" -> "MX2"
-"IFIH1" -> "IFI44"
-"MLKL" -> "SLFN11"
-"MLKL" -> "OASL"
-"MLKL" -> "OAS2"
-"MLKL" -> "IFI44"
-"MSLN" -> "NOX5"
-"MSLN" -> "DAGLB"
-"MSLN" -> "SLFN12"
-"MSLN" -> "SLFN14"
-"MX2" -> "IFI44"
-"MX2" -> "IFI44L"
-"MX2" -> "SLFN11"
-"MX2" -> "DDX58"
-"NOX5" -> "CAPN11"
-"NOX5" -> "DAGLB"
-"NOX5" -> "CAPN5"
-"NOX5" -> "CAPN12"
-"OAS1" -> "OASL"
-"OAS1" -> "OAS2"
-"OAS1" -> "OAS3"
-"OAS1" -> "MX2"
-"OAS2" -> "OAS3"
-"OAS2" -> "OASL"
-"OAS2" -> "OAS1"
-"OAS2" -> "SLFN11"
-"OAS3" -> "OAS2"
-"OAS3" -> "OASL"
-"OAS3" -> "SLFN11"
-"OAS3" -> "OAS1"
-"OASL" -> "OAS1"
-"OASL" -> "OAS2"
-"OASL" -> "OAS3"
-"OASL" -> "SLFN11"
-"PARP14" -> "PARP9"
-"PARP14" -> "DTX3L"
-"PARP14" -> "SAMD9L"
-"PARP14" -> "PARP15"
-"PARP15" -> "PARP9"
-"PARP15" -> "IFI44L"
-"PARP15" -> "DTX3L"
-"PARP15" -> "IFI44"
-"PARP9" -> "DTX3L"
-"PARP9" -> "SLFN5"
-"PARP9" -> "PARP14"
-"PARP9" -> "SLFN11"
-"SAMD9" -> "SAMD9L"
-"SAMD9" -> "SLFN5"
-"SAMD9" -> "SLFN12"
-"SAMD9" -> "DTX3L"
-"SAMD9L" -> "SAMD9"
-"SAMD9L" -> "SLFN12"
-"SAMD9L" -> "PARP14"
-"SAMD9L" -> "IFI44L"
-"SLFN11" -> "SLFN13"
-"SLFN11" -> "SLFN14"
-"SLFN11" -> "SLFN5"
-"SLFN11" -> "SLFN12"
-"SLFN12" -> "SLFN14"
-"SLFN12" -> "SLFN11"
-"SLFN12" -> "SLFN5"
-"SLFN12" -> "SLFN13"
-"SLFN13" -> "SLFN11"
-"SLFN13" -> "SLFN5"
-"SLFN13" -> "SLFN14"
-"SLFN13" -> "SLFN12"
-"SLFN14" -> "SLFN11"
-"SLFN14" -> "SLFN12"
-"SLFN14" -> "SLFN13"
-"SLFN14" -> "SLFN5"
-"SLFN5" -> "SLFN13"
-"SLFN5" -> "SLFN11"
-"SLFN5" -> "SLFN14"
-"SLFN5" -> "SLFN12"
+"CAPN1" -> "CAPN2" ["e"=1]
+"CAPN1" -> "CAPN11" ["e"=1]
+"CAPN1" -> "CAPN9" ["e"=1]
+"CAPN1" -> "CAPN8" ["e"=1]
+"CAPN11" -> "CAPN3" ["e"=1]
+"CAPN11" -> "CAPN9" ["e"=1]
+"CAPN11" -> "CAPN2" ["e"=1]
+"CAPN11" -> "CAPN8" ["e"=1]
+"CAPN12" -> "CAPN11" ["e"=1]
+"CAPN12" -> "CAPN5" ["e"=1]
+"CAPN12" -> "CAPN13" ["e"=1]
+"CAPN12" -> "CAPN8" ["e"=1]
+"CAPN13" -> "CAPN14" ["e"=1]
+"CAPN13" -> "CAPN11" ["e"=1]
+"CAPN13" -> "CAPN8" ["e"=1]
+"CAPN13" -> "CAPN12" ["e"=1]
+"CAPN14" -> "CAPN13" ["e"=1]
+"CAPN14" -> "CAPN11" ["e"=1]
+"CAPN14" -> "CAPN9" ["e"=1]
+"CAPN14" -> "CAPN1" ["e"=1]
+"CAPN2" -> "CAPN1" ["e"=1]
+"CAPN2" -> "CAPN9" ["e"=1]
+"CAPN2" -> "CAPN11" ["e"=1]
+"CAPN2" -> "CAPN8" ["e"=1]
+"CAPN3" -> "CAPN11" ["e"=1]
+"CAPN3" -> "CAPN2" ["e"=1]
+"CAPN3" -> "CAPN8" ["e"=1]
+"CAPN3" -> "CAPN9" ["e"=1]
+"CAPN5" -> "CAPN11" ["e"=1]
+"CAPN5" -> "CAPN12" ["e"=1]
+"CAPN5" -> "CAPN2" ["e"=1]
+"CAPN5" -> "CAPN1" ["e"=1]
+"CAPN8" -> "CAPN9" ["e"=1]
+"CAPN8" -> "CAPN11" ["e"=1]
+"CAPN8" -> "CAPN1" ["e"=1]
+"CAPN8" -> "CAPN2" ["e"=1]
+"CAPN9" -> "CAPN8" ["e"=1]
+"CAPN9" -> "CAPN11" ["e"=1]
+"CAPN9" -> "CAPN2" ["e"=1]
+"CAPN9" -> "CAPN1" ["e"=1]
+"DAGLB" -> "NOX5" ["e"=1]
+"DAGLB" -> "CAPN12" ["e"=1]
+"DAGLB" -> "CAPN5" ["e"=1]
+"DAGLB" -> "CAPN11" ["e"=1]
+"DDX58" -> "IFIH1" ["e"=1]
+"DDX58" -> "SLFN11" ["e"=1]
+"DDX58" -> "PARP9" ["e"=1]
+"DDX58" -> "IFI44" ["e"=1]
+"DTX3L" -> "PARP9" ["e"=1]
+"DTX3L" -> "SLFN5" ["e"=1]
+"DTX3L" -> "SLFN11" ["e"=1]
+"DTX3L" -> "PARP14" ["e"=1]
+"FAM111A" -> "FAM111B" ["e"=1]
+"FAM111A" -> "SLFN13" ["e"=1]
+"FAM111A" -> "DTX3L" ["e"=1]
+"FAM111A" -> "SLFN12" ["e"=1]
+"FAM111B" -> "FAM111A" ["e"=1]
+"FAM111B" -> "SAMD9" ["e"=1]
+"FAM111B" -> "DTX3L" ["e"=1]
+"FAM111B" -> "SLFN12" ["e"=1]
+"IFI44" -> "IFI44L" ["e"=1]
+"IFI44" -> "SLFN12" ["e"=1]
+"IFI44" -> "SLFN11" ["e"=1]
+"IFI44" -> "MX2" ["e"=1]
+"IFI44L" -> "IFI44" ["e"=1]
+"IFI44L" -> "SLFN5" ["e"=1]
+"IFI44L" -> "SLFN14" ["e"=1]
+"IFI44L" -> "SLFN12" ["e"=1]
+"IFIH1" -> "DDX58" ["e"=1]
+"IFIH1" -> "SLFN11" ["e"=1]
+"IFIH1" -> "MX2" ["e"=1]
+"IFIH1" -> "IFI44" ["e"=1]
+"MLKL" -> "SLFN11" ["e"=1]
+"MLKL" -> "OASL" ["e"=1]
+"MLKL" -> "OAS2" ["e"=1]
+"MLKL" -> "IFI44" ["e"=1]
+"MSLN" -> "NOX5" ["e"=1]
+"MSLN" -> "DAGLB" ["e"=1]
+"MSLN" -> "SLFN12" ["e"=1]
+"MSLN" -> "SLFN14" ["e"=1]
+"MX2" -> "IFI44" ["e"=1]
+"MX2" -> "IFI44L" ["e"=1]
+"MX2" -> "SLFN11" ["e"=1]
+"MX2" -> "DDX58" ["e"=1]
+"NOX5" -> "CAPN11" ["e"=1]
+"NOX5" -> "DAGLB" ["e"=1]
+"NOX5" -> "CAPN5" ["e"=1]
+"NOX5" -> "CAPN12" ["e"=1]
+"OAS1" -> "OASL" ["e"=1]
+"OAS1" -> "OAS2" ["e"=1]
+"OAS1" -> "OAS3" ["e"=1]
+"OAS1" -> "MX2" ["e"=1]
+"OAS2" -> "OAS3" ["e"=1]
+"OAS2" -> "OASL" ["e"=1]
+"OAS2" -> "OAS1" ["e"=1]
+"OAS2" -> "SLFN11" ["e"=1]
+"OAS3" -> "OAS2" ["e"=1]
+"OAS3" -> "OASL" ["e"=1]
+"OAS3" -> "SLFN11" ["e"=1]
+"OAS3" -> "OAS1" ["e"=1]
+"OASL" -> "OAS1" ["e"=1]
+"OASL" -> "OAS2" ["e"=1]
+"OASL" -> "OAS3" ["e"=1]
+"OASL" -> "SLFN11" ["e"=1]
+"PARP14" -> "PARP9" ["e"=1]
+"PARP14" -> "DTX3L" ["e"=1]
+"PARP14" -> "SAMD9L" ["e"=1]
+"PARP14" -> "PARP15" ["e"=1]
+"PARP15" -> "PARP9" ["e"=1]
+"PARP15" -> "IFI44L" ["e"=1]
+"PARP15" -> "DTX3L" ["e"=1]
+"PARP15" -> "IFI44" ["e"=1]
+"PARP9" -> "DTX3L" ["e"=1]
+"PARP9" -> "SLFN5" ["e"=1]
+"PARP9" -> "PARP14" ["e"=1]
+"PARP9" -> "SLFN11" ["e"=1]
+"SAMD9" -> "SAMD9L" ["e"=1]
+"SAMD9" -> "SLFN5" ["e"=1]
+"SAMD9" -> "SLFN12" ["e"=1]
+"SAMD9" -> "DTX3L" ["e"=1]
+"SAMD9L" -> "SAMD9" ["e"=1]
+"SAMD9L" -> "SLFN12" ["e"=1]
+"SAMD9L" -> "PARP14" ["e"=1]
+"SAMD9L" -> "IFI44L" ["e"=1]
+"SLFN11" -> "SLFN13" ["e"=1]
+"SLFN11" -> "SLFN14" ["e"=1]
+"SLFN11" -> "SLFN5" ["e"=1]
+"SLFN11" -> "SLFN12" ["e"=1]
+"SLFN12" -> "SLFN14" ["e"=1]
+"SLFN12" -> "SLFN11" ["e"=1]
+"SLFN12" -> "SLFN5" ["e"=1]
+"SLFN12" -> "SLFN13" ["e"=1]
+"SLFN13" -> "SLFN11" ["e"=1]
+"SLFN13" -> "SLFN5" ["e"=1]
+"SLFN13" -> "SLFN14" ["e"=1]
+"SLFN13" -> "SLFN12" ["e"=1]
+"SLFN14" -> "SLFN11" ["e"=1]
+"SLFN14" -> "SLFN12" ["e"=1]
+"SLFN14" -> "SLFN13" ["e"=1]
+"SLFN14" -> "SLFN5" ["e"=1]
+"SLFN5" -> "SLFN13" ["e"=1]
+"SLFN5" -> "SLFN11" ["e"=1]
+"SLFN5" -> "SLFN14" ["e"=1]
+"SLFN5" -> "SLFN12" ["e"=1]
 }

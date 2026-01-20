@@ -225,908 +225,908 @@ digraph G {
 "ULK3" ["l"="12.883,7.588"]
 "VRK1" ["l"="12.721,7.798"]
 "VRK2" ["l"="12.686,7.775"]
-"AKT1" -> "AKT2"
-"AKT1" -> "GRK6"
-"AKT1" -> "PRKACA"
-"AKT1" -> "AKT3"
-"AKT2" -> "AKT1"
-"AKT2" -> "MKNK1"
-"AKT2" -> "RPS6KB1"
-"AKT2" -> "PRKCZ"
-"AKT3" -> "CDK14"
-"AKT3" -> "PRKCA"
-"AKT3" -> "PRKACB"
-"AKT3" -> "SGK3"
-"AURKA" -> "AURKB"
-"AURKA" -> "DYRK4"
-"AURKA" -> "DYRK3"
-"AURKA" -> "PLK1"
-"AURKB" -> "AURKC"
-"AURKB" -> "AURKA"
-"AURKB" -> "CDK1"
-"AURKB" -> "CDK3"
-"AURKC" -> "CDK20"
-"AURKC" -> "AURKB"
-"AURKC" -> "CDK3"
-"AURKC" -> "DYRK4"
-"BRAF" -> "RAF1"
-"BRAF" -> "TLK1"
-"BRAF" -> "MAP2K4"
-"BRAF" -> "MAP3K2"
-"BRSK1" -> "BRSK2"
-"BRSK1" -> "MARK4"
-"BRSK1" -> "MARK2"
-"BRSK1" -> "RPS6KB2"
-"BRSK2" -> "BRSK1"
-"BRSK2" -> "MARK4"
-"BRSK2" -> "PRKAA1"
-"BRSK2" -> "MARK2"
-"CAMK1" -> "CAMK1G"
-"CAMK1" -> "CDK3"
-"CAMK1" -> "CAMK1D"
-"CAMK1" -> "PHKG2"
-"CAMK1D" -> "MYLK4"
-"CAMK1D" -> "PRKCE"
-"CAMK1D" -> "CDK14"
-"CAMK1D" -> "PHKG2"
-"CAMK1G" -> "TSSK1B"
-"CAMK1G" -> "CAMK1D"
-"CAMK1G" -> "PHKG2"
-"CAMK1G" -> "TSSK2"
-"CAMK2A" -> "CAMK2G"
-"CAMK2A" -> "CAMK2B"
-"CAMK2A" -> "CAMK2D"
-"CAMK2A" -> "STK25"
-"CAMK2B" -> "CAMK2G"
-"CAMK2B" -> "CAMK2A"
-"CAMK2B" -> "CAMK2D"
-"CAMK2B" -> "CAMK1D"
-"CAMK2D" -> "CAMK2G"
-"CAMK2D" -> "CAMK2B"
-"CAMK2D" -> "CAMK2A"
-"CAMK2D" -> "CDK14"
-"CAMK2G" -> "CAMK2A"
-"CAMK2G" -> "CAMK2B"
-"CAMK2G" -> "CAMK2D"
-"CAMK2G" -> "STK25"
-"CAMK4" -> "PSKH2"
-"CAMK4" -> "MAPKAPK5"
-"CAMK4" -> "PRKAA2"
-"CAMK4" -> "CAMK1D"
-"CAMKK1" -> "CAMKK2"
-"CAMKK1" -> "PDPK1"
-"CAMKK1" -> "RPS6KB1"
-"CAMKK1" -> "RPS6KA2"
-"CAMKK2" -> "CAMKK1"
-"CAMKK2" -> "PDPK1"
-"CAMKK2" -> "MAPKAPK3"
-"CAMKK2" -> "PRKCI"
-"CAMKV" -> "CAMK4"
-"CAMKV" -> "STK11"
-"CAMKV" -> "TSSK1B"
-"CAMKV" -> "MAPK11"
-"CDK1" -> "CDK2"
-"CDK1" -> "CDK3"
-"CDK1" -> "CDKL4"
-"CDK1" -> "CDK7"
-"CDK10" -> "CDK9"
-"CDK10" -> "CDK20"
-"CDK10" -> "CDK3"
-"CDK10" -> "CDK18"
-"CDK14" -> "GSK3B"
-"CDK14" -> "CDK17"
-"CDK14" -> "MAPK8"
-"CDK14" -> "PRKCE"
-"CDK15" -> "CDK14"
-"CDK15" -> "PSKH2"
-"CDK15" -> "RSKR"
-"CDK15" -> "MKNK1"
-"CDK17" -> "CDK14"
-"CDK17" -> "MAP2K4"
-"CDK17" -> "RPS6KA2"
-"CDK17" -> "TLK1"
-"CDK18" -> "CDK14"
-"CDK18" -> "CDK17"
-"CDK18" -> "CAMKK2"
-"CDK18" -> "MAP2K7"
-"CDK19" -> "CDK8"
-"CDK19" -> "NLK"
-"CDK19" -> "MAPK8"
-"CDK19" -> "MAPK1"
-"CDK2" -> "CDK3"
-"CDK2" -> "CDK1"
-"CDK2" -> "CDK9"
-"CDK2" -> "CDK4"
-"CDK20" -> "CDK3"
-"CDK20" -> "CDK9"
-"CDK20" -> "CDKL1"
-"CDK20" -> "CDK2"
-"CDK3" -> "CDK2"
-"CDK3" -> "CDK20"
-"CDK3" -> "CDK9"
-"CDK3" -> "CDK5"
-"CDK4" -> "CDK2"
-"CDK4" -> "CDK20"
-"CDK4" -> "CDK3"
-"CDK4" -> "CDK6"
-"CDK5" -> "CDK3"
-"CDK5" -> "CDK2"
-"CDK5" -> "CDK20"
-"CDK5" -> "CDK7"
-"CDK6" -> "MAPKAPK5"
-"CDK6" -> "PDIK1L"
-"CDK6" -> "PSKH2"
-"CDK6" -> "MAPK13"
-"CDK7" -> "CDKL4"
-"CDK7" -> "CDK3"
-"CDK7" -> "CDK9"
-"CDK7" -> "CDKL1"
-"CDK8" -> "CDK19"
-"CDK8" -> "MAPK8"
-"CDK8" -> "GSK3B"
-"CDK8" -> "CSNK1G3"
-"CDK9" -> "CDK20"
-"CDK9" -> "CDK3"
-"CDK9" -> "CDKL1"
-"CDK9" -> "MAPK3"
-"CDKL1" -> "MAPK8"
-"CDKL1" -> "CDK9"
-"CDKL1" -> "MAPK1"
-"CDKL1" -> "NIM1K"
-"CDKL2" -> "CDKL3"
-"CDKL2" -> "CDKL1"
-"CDKL2" -> "NEK3"
-"CDKL2" -> "PRKAA1"
-"CDKL3" -> "CDKL2"
-"CDKL3" -> "CDKL1"
-"CDKL3" -> "NEK3"
-"CDKL3" -> "MOK"
-"CDKL4" -> "CDK7"
-"CDKL4" -> "CDK3"
-"CDKL4" -> "CDKL1"
-"CDKL4" -> "PSKH2"
-"CHEK1" -> "CDK2"
-"CHEK1" -> "PDIK1L"
-"CHEK1" -> "MAP2K7"
-"CHEK1" -> "RPS6KB1"
-"CHEK2" -> "MAP3K8"
-"CHEK2" -> "MYLK4"
-"CHEK2" -> "CHEK1"
-"CHEK2" -> "TSSK1B"
-"CLK1" -> "CLK4"
-"CLK1" -> "CLK3"
-"CLK1" -> "CLK2"
-"CLK1" -> "STK17B"
-"CLK2" -> "CLK3"
-"CLK2" -> "CLK4"
-"CLK2" -> "CLK1"
-"CLK2" -> "DYRK1B"
-"CLK3" -> "CLK2"
-"CLK3" -> "CLK4"
-"CLK3" -> "CLK1"
-"CLK3" -> "PHKG2"
-"CLK4" -> "CLK1"
-"CLK4" -> "CLK2"
-"CLK4" -> "CLK3"
-"CLK4" -> "DYRK3"
-"CSNK1A1" -> "CSNK1A1L"
-"CSNK1A1" -> "CSNK1G3"
-"CSNK1A1" -> "CSNK1G1"
-"CSNK1A1" -> "GSK3B"
-"CSNK1A1L" -> "CSNK1A1"
-"CSNK1A1L" -> "CSNK1E"
-"CSNK1A1L" -> "CSNK1G1"
-"CSNK1A1L" -> "CSNK1G2"
-"CSNK1D" -> "CSNK1E"
-"CSNK1D" -> "CSNK1G2"
-"CSNK1D" -> "CSNK1A1"
-"CSNK1D" -> "CSNK1G1"
-"CSNK1E" -> "CSNK1D"
-"CSNK1E" -> "CSNK1G2"
-"CSNK1E" -> "CSNK1A1L"
-"CSNK1E" -> "CSNK1A1"
-"CSNK1G1" -> "CSNK1G3"
-"CSNK1G1" -> "CSNK1A1"
-"CSNK1G1" -> "CSNK1G2"
-"CSNK1G1" -> "CSNK1A1L"
-"CSNK1G2" -> "CSNK1E"
-"CSNK1G2" -> "CSNK1G1"
-"CSNK1G2" -> "CSNK1D"
-"CSNK1G2" -> "CSNK1A1L"
-"CSNK1G3" -> "CSNK1A1"
-"CSNK1G3" -> "CSNK1G1"
-"CSNK1G3" -> "CDK8"
-"CSNK1G3" -> "PRKAA1"
-"CSNK2A2" -> "MAPK9"
-"CSNK2A2" -> "MAPK13"
-"CSNK2A2" -> "MAPK1"
-"CSNK2A2" -> "MAPK14"
-"CSNK2A3" -> "MAPK8"
-"CSNK2A3" -> "PRKAA2"
-"CSNK2A3" -> "STK38"
-"CSNK2A3" -> "PSKH2"
-"DAPK2" -> "MYLK4"
-"DAPK2" -> "PHKG2"
-"DAPK2" -> "DAPK3"
-"DAPK2" -> "STK11"
-"DAPK3" -> "DAPK2"
-"DAPK3" -> "PHKG2"
-"DAPK3" -> "STK25"
-"DAPK3" -> "MAPK11"
-"DCLK1" -> "DCLK2"
-"DCLK1" -> "MARK1"
-"DCLK1" -> "BRAF"
-"DCLK1" -> "PRKG1"
-"DCLK2" -> "DCLK1"
-"DCLK2" -> "MARK1"
-"DCLK2" -> "PRKCE"
-"DCLK2" -> "BRAF"
-"DCLK3" -> "MYLK2"
-"DCLK3" -> "PSKH2"
-"DCLK3" -> "MYLK3"
-"DCLK3" -> "TSSK1B"
-"DMPK" -> "PHKG2"
-"DMPK" -> "SIK1"
-"DMPK" -> "ULK3"
-"DMPK" -> "STK11"
-"DYRK1B" -> "HIPK4"
-"DYRK1B" -> "NUAK2"
-"DYRK1B" -> "SIK1"
-"DYRK1B" -> "RPS6KB2"
-"DYRK2" -> "DYRK3"
-"DYRK2" -> "PRKAA2"
-"DYRK2" -> "PRKAA1"
-"DYRK2" -> "MAPK1"
-"DYRK3" -> "HIPK4"
-"DYRK3" -> "PSKH2"
-"DYRK3" -> "DYRK2"
-"DYRK3" -> "MKNK2"
-"DYRK4" -> "PSKH2"
-"DYRK4" -> "CDK14"
-"DYRK4" -> "STK32B"
-"DYRK4" -> "STK32A"
-"EIF2AK1" -> "PDPK1"
-"EIF2AK1" -> "PRKCI"
-"EIF2AK1" -> "RPS6KB1"
-"EIF2AK1" -> "MAP3K2"
-"FES" -> "PKN3"
-"FES" -> "PKN1"
-"FES" -> "GRK6"
-"FES" -> "GRK1"
-"GRK1" -> "GRK7"
-"GRK1" -> "PRKACG"
-"GRK1" -> "GRK6"
-"GRK1" -> "GRK5"
-"GRK2" -> "GRK6"
-"GRK2" -> "GRK3"
-"GRK2" -> "PRKCG"
-"GRK2" -> "RPS6KA4"
-"GRK3" -> "PRKCA"
-"GRK3" -> "PRKCI"
-"GRK3" -> "RPS6KA2"
-"GRK3" -> "PRKCE"
-"GRK4" -> "GRK5"
-"GRK4" -> "GRK6"
-"GRK4" -> "GRK1"
-"GRK4" -> "GRK3"
-"GRK5" -> "GRK4"
-"GRK5" -> "GRK6"
-"GRK5" -> "GRK3"
-"GRK5" -> "PRKCE"
-"GRK6" -> "GRK2"
-"GRK6" -> "GRK5"
-"GRK6" -> "STK11"
-"GRK6" -> "AKT1"
-"GRK7" -> "GRK1"
-"GRK7" -> "GRK5"
-"GRK7" -> "PRKCE"
-"GRK7" -> "MYLK4"
-"GSK3A" -> "MAPK3"
-"GSK3A" -> "MAPK1"
-"GSK3A" -> "MAPKAPK2"
-"GSK3A" -> "MAP2K2"
-"GSK3B" -> "MAPK8"
-"GSK3B" -> "CDK14"
-"GSK3B" -> "CDK8"
-"GSK3B" -> "CSNK1A1"
-"HIPK4" -> "MAPK4"
-"HIPK4" -> "TESK2"
-"HIPK4" -> "NUAK2"
-"HIPK4" -> "DYRK3"
-"HUNK" -> "NUAK1"
-"HUNK" -> "SNRK"
-"HUNK" -> "TESK2"
-"HUNK" -> "NUAK2"
-"IRAK4" -> "STK4"
-"IRAK4" -> "PAK2"
-"IRAK4" -> "PDIK1L"
-"IRAK4" -> "PRKAA1"
-"LIMK1" -> "LIMK2"
-"LIMK1" -> "AKT2"
-"LIMK1" -> "PRKD2"
-"LIMK1" -> "MAP3K3"
-"LIMK2" -> "LIMK1"
-"LIMK2" -> "PRKD2"
-"LIMK2" -> "MAP3K3"
-"LIMK2" -> "PRKCE"
-"MAK" -> "CDKL2"
-"MAK" -> "CDKL3"
-"MAK" -> "MOK"
-"MAK" -> "MAPK6"
-"MAP2K1" -> "MAP2K7"
-"MAP2K1" -> "MAP2K4"
-"MAP2K1" -> "MAP2K3"
-"MAP2K1" -> "MAP2K2"
-"MAP2K2" -> "MAP2K1"
-"MAP2K2" -> "MAP2K3"
-"MAP2K2" -> "MAP2K7"
-"MAP2K2" -> "MAPKAPK2"
-"MAP2K3" -> "MAP2K7"
-"MAP2K3" -> "MAPK13"
-"MAP2K3" -> "MAP2K1"
-"MAP2K3" -> "MAP2K2"
-"MAP2K4" -> "PRKCI"
-"MAP2K4" -> "MAP2K1"
-"MAP2K4" -> "NEK7"
-"MAP2K4" -> "BRAF"
-"MAP2K5" -> "MAP2K4"
-"MAP2K5" -> "PRKCI"
-"MAP2K5" -> "BRAF"
-"MAP2K5" -> "MAP4K3"
-"MAP2K7" -> "MAP2K3"
-"MAP2K7" -> "MAP2K1"
-"MAP2K7" -> "RPS6KB1"
-"MAP2K7" -> "AKT2"
-"MAP3K2" -> "MAP3K3"
-"MAP3K2" -> "BRAF"
-"MAP3K2" -> "MAP3K7"
-"MAP3K2" -> "PRKAA1"
-"MAP3K20" -> "MAP3K2"
-"MAP3K20" -> "MAP3K7"
-"MAP3K20" -> "SNRK"
-"MAP3K20" -> "PRKAA1"
-"MAP3K3" -> "MAP3K2"
-"MAP3K3" -> "PDPK1"
-"MAP3K3" -> "RAF1"
-"MAP3K3" -> "BRAF"
-"MAP3K7" -> "MAP3K2"
-"MAP3K7" -> "PRKAA1"
-"MAP3K7" -> "MAP2K4"
-"MAP3K7" -> "BRAF"
-"MAP3K8" -> "PDIK1L"
-"MAP3K8" -> "RIPK2"
-"MAP3K8" -> "STK17B"
-"MAP3K8" -> "CHEK2"
-"MAP4K1" -> "MAP4K2"
-"MAP4K1" -> "MAP4K3"
-"MAP4K1" -> "MAP4K5"
-"MAP4K1" -> "PTK2B"
-"MAP4K2" -> "MAP4K1"
-"MAP4K2" -> "STK25"
-"MAP4K2" -> "MARK4"
-"MAP4K2" -> "OXSR1"
-"MAP4K3" -> "MAP4K5"
-"MAP4K3" -> "MAP2K4"
-"MAP4K3" -> "MAP4K1"
-"MAP4K3" -> "MARK1"
-"MAP4K5" -> "MAP4K3"
-"MAP4K5" -> "MAP2K4"
-"MAP4K5" -> "MARK1"
-"MAP4K5" -> "OXSR1"
-"MAPK1" -> "MAPK14"
-"MAPK1" -> "MAPK9"
-"MAPK1" -> "MAPK3"
-"MAPK1" -> "MAPK13"
-"MAPK10" -> "MAPK8"
-"MAPK10" -> "MAPK9"
-"MAPK10" -> "MAPK11"
-"MAPK10" -> "CDK14"
-"MAPK11" -> "MAPK12"
-"MAPK11" -> "MAPK9"
-"MAPK11" -> "MAPK14"
-"MAPK11" -> "MAPK13"
-"MAPK12" -> "MAPK11"
-"MAPK12" -> "MAPK13"
-"MAPK12" -> "MAPK9"
-"MAPK12" -> "MAPK14"
-"MAPK13" -> "MAPK14"
-"MAPK13" -> "MAPK11"
-"MAPK13" -> "MAPK9"
-"MAPK13" -> "MAPK1"
-"MAPK14" -> "MAPK13"
-"MAPK14" -> "MAPK9"
-"MAPK14" -> "MAPK1"
-"MAPK14" -> "MAPK11"
-"MAPK15" -> "HIPK4"
-"MAPK15" -> "CDK20"
-"MAPK15" -> "DYRK1B"
-"MAPK15" -> "MOK"
-"MAPK3" -> "MAPK1"
-"MAPK3" -> "MAPK11"
-"MAPK3" -> "CDK9"
-"MAPK3" -> "MAPK12"
-"MAPK4" -> "HIPK4"
-"MAPK4" -> "NUAK2"
-"MAPK4" -> "MAPK6"
-"MAPK4" -> "PSKH2"
-"MAPK6" -> "HIPK4"
-"MAPK6" -> "MAPK4"
-"MAPK6" -> "PRKAA2"
-"MAPK6" -> "NUAK2"
-"MAPK8" -> "MAPK10"
-"MAPK8" -> "MAPK9"
-"MAPK8" -> "GSK3B"
-"MAPK8" -> "CDK8"
-"MAPK9" -> "MAPK8"
-"MAPK9" -> "MAPK14"
-"MAPK9" -> "MAPK11"
-"MAPK9" -> "MAPK13"
-"MAPKAPK2" -> "MAPKAPK3"
-"MAPKAPK2" -> "MAPK1"
-"MAPKAPK2" -> "NEK7"
-"MAPKAPK2" -> "MYLK4"
-"MAPKAPK3" -> "MAPKAPK2"
-"MAPKAPK3" -> "STK32A"
-"MAPKAPK3" -> "NEK6"
-"MAPKAPK3" -> "MAPK13"
-"MAPKAPK5" -> "STK40"
-"MAPKAPK5" -> "CDK6"
-"MAPKAPK5" -> "RPS6KB1"
-"MAPKAPK5" -> "OXSR1"
-"MARK1" -> "MARK3"
-"MARK1" -> "MARK4"
-"MARK1" -> "DCLK1"
-"MARK1" -> "MARK2"
-"MARK2" -> "MARK4"
-"MARK2" -> "MARK1"
-"MARK2" -> "MARK3"
-"MARK2" -> "OXSR1"
-"MARK3" -> "MARK1"
-"MARK3" -> "MARK2"
-"MARK3" -> "DCLK1"
-"MARK3" -> "MARK4"
-"MARK4" -> "MARK2"
-"MARK4" -> "MARK1"
-"MARK4" -> "BRSK1"
-"MARK4" -> "PAK4"
-"MELK" -> "PLK4"
-"MELK" -> "CHEK1"
-"MELK" -> "NUAK2"
-"MELK" -> "CDK1"
-"MKNK1" -> "AKT2"
-"MKNK1" -> "MKNK2"
-"MKNK1" -> "PRKCI"
-"MKNK1" -> "PRKCZ"
-"MKNK2" -> "NUAK2"
-"MKNK2" -> "MKNK1"
-"MKNK2" -> "SGK1"
-"MKNK2" -> "PIM1"
-"MOK" -> "CDKL1"
-"MOK" -> "CDKL3"
-"MOK" -> "NEK3"
-"MOK" -> "DYRK4"
-"MOS" -> "SBK2"
-"MOS" -> "PDIK1L"
-"MOS" -> "CDK15"
-"MOS" -> "MKNK2"
-"MYLK2" -> "MYLK3"
-"MYLK2" -> "MYLK4"
-"MYLK2" -> "DCLK3"
-"MYLK2" -> "CAMKK1"
-"MYLK3" -> "MYLK2"
-"MYLK3" -> "DCLK3"
-"MYLK3" -> "MYLK4"
-"MYLK3" -> "PRKAA2"
-"MYLK4" -> "DAPK2"
-"MYLK4" -> "PHKG2"
-"MYLK4" -> "PSKH2"
-"MYLK4" -> "CAMK1D"
-"NEK2" -> "PLK1"
-"NEK2" -> "AURKA"
-"NEK2" -> "MAP3K8"
-"NEK2" -> "NUAK2"
-"NEK3" -> "TESK2"
-"NEK3" -> "CDKL2"
-"NEK3" -> "CDKL1"
-"NEK3" -> "CDKL3"
-"NEK6" -> "MAPKAPK3"
-"NEK6" -> "STK40"
-"NEK6" -> "NEK7"
-"NEK6" -> "AKT2"
-"NEK7" -> "MAP2K4"
-"NEK7" -> "PRKAA1"
-"NEK7" -> "NEK6"
-"NEK7" -> "MAPKAPK2"
-"NEK8" -> "STK16"
-"NEK8" -> "PSKH2"
-"NEK8" -> "STK40"
-"NEK8" -> "NUAK2"
-"NIM1K" -> "CDKL1"
-"NIM1K" -> "TSSK2"
-"NIM1K" -> "PSKH2"
-"NIM1K" -> "TSSK1B"
-"NLK" -> "CDK19"
-"NLK" -> "MAPK8"
-"NLK" -> "BRAF"
-"NLK" -> "MAP2K4"
-"NUAK1" -> "NUAK2"
-"NUAK1" -> "HUNK"
-"NUAK1" -> "SNRK"
-"NUAK1" -> "PRKAA2"
-"NUAK2" -> "SIK1"
-"NUAK2" -> "NUAK1"
-"NUAK2" -> "MKNK2"
-"NUAK2" -> "MAPK4"
-"OXSR1" -> "STK39"
-"OXSR1" -> "STK24"
-"OXSR1" -> "STK4"
-"OXSR1" -> "PRKAA1"
-"PAK1" -> "PAK2"
-"PAK1" -> "CDK14"
-"PAK1" -> "PRKCB"
-"PAK1" -> "PRKCE"
-"PAK2" -> "PAK1"
-"PAK2" -> "STK4"
-"PAK2" -> "STK24"
-"PAK2" -> "OXSR1"
-"PAK4" -> "PAK6"
-"PAK4" -> "MARK4"
-"PAK4" -> "MAP2K7"
-"PAK4" -> "MAP3K3"
-"PAK5" -> "MAP3K3"
-"PAK5" -> "MARK4"
-"PAK5" -> "PAK4"
-"PAK5" -> "PAK6"
-"PAK6" -> "PAK4"
-"PAK6" -> "MARK4"
-"PAK6" -> "PSKH1"
-"PAK6" -> "TESK2"
-"PDIK1L" -> "PSKH1"
-"PDIK1L" -> "PSKH2"
-"PDIK1L" -> "STK17B"
-"PDIK1L" -> "CDK6"
-"PDPK1" -> "STK40"
-"PDPK1" -> "CAMKK2"
-"PDPK1" -> "RPS6KB1"
-"PDPK1" -> "CAMKK1"
-"PHKG1" -> "PHKG2"
-"PHKG1" -> "MYLK4"
-"PHKG1" -> "STK11"
-"PHKG1" -> "DAPK2"
-"PHKG2" -> "STK11"
-"PHKG2" -> "MAPK11"
-"PHKG2" -> "DAPK2"
-"PHKG2" -> "MYLK4"
-"PIM1" -> "PIM3"
-"PIM1" -> "MKNK2"
-"PIM1" -> "CDK6"
-"PIM1" -> "NEK6"
-"PIM3" -> "PIM1"
-"PIM3" -> "MKNK2"
-"PIM3" -> "STK17A"
-"PIM3" -> "PHKG2"
-"PKN1" -> "PKN3"
-"PKN1" -> "PKN2"
-"PKN1" -> "FES"
-"PKN1" -> "ULK3"
-"PKN2" -> "MAP3K2"
-"PKN2" -> "BRAF"
-"PKN2" -> "PRKCI"
-"PKN2" -> "TLK2"
-"PKN3" -> "PKN1"
-"PKN3" -> "PAK4"
-"PKN3" -> "FES"
-"PKN3" -> "PKN2"
-"PLK1" -> "PLK3"
-"PLK1" -> "AURKA"
-"PLK1" -> "NEK2"
-"PLK1" -> "PLK2"
-"PLK2" -> "PLK3"
-"PLK2" -> "DYRK3"
-"PLK2" -> "PRKAA1"
-"PLK2" -> "NIM1K"
-"PLK3" -> "PLK2"
-"PLK3" -> "NUAK2"
-"PLK3" -> "PIM3"
-"PLK3" -> "PLK1"
-"PLK4" -> "MELK"
-"PLK4" -> "ULK2"
-"PLK4" -> "PLK2"
-"PLK4" -> "SIK1"
-"PRKAA1" -> "PRKAA2"
-"PRKAA1" -> "NEK7"
-"PRKAA1" -> "OXSR1"
-"PRKAA1" -> "RPS6KB1"
-"PRKAA2" -> "PRKAA1"
-"PRKAA2" -> "MAPK8"
-"PRKAA2" -> "MAPK1"
-"PRKAA2" -> "GSK3B"
-"PRKACA" -> "PRKACG"
-"PRKACA" -> "MAPK1"
-"PRKACA" -> "PRKACB"
-"PRKACA" -> "STK38"
-"PRKACB" -> "PRKACA"
-"PRKACB" -> "AKT3"
-"PRKACB" -> "MAPK1"
-"PRKACB" -> "MAP2K4"
-"PRKACG" -> "PRKACA"
-"PRKACG" -> "GRK1"
-"PRKACG" -> "PRKACB"
-"PRKACG" -> "STK38"
-"PRKCA" -> "PRKCB"
-"PRKCA" -> "PRKCE"
-"PRKCA" -> "GRK3"
-"PRKCA" -> "PRKCI"
-"PRKCB" -> "PRKCA"
-"PRKCB" -> "PRKCE"
-"PRKCB" -> "PRKCI"
-"PRKCB" -> "PRKCG"
-"PRKCD" -> "PRKCG"
-"PRKCD" -> "PRKCQ"
-"PRKCD" -> "AKT1"
-"PRKCD" -> "GRK1"
-"PRKCE" -> "PRKCA"
-"PRKCE" -> "PRKCB"
-"PRKCE" -> "PRKCI"
-"PRKCE" -> "RPS6KA2"
-"PRKCG" -> "PRKCH"
-"PRKCG" -> "PRKCB"
-"PRKCG" -> "PRKCE"
-"PRKCG" -> "PRKCI"
-"PRKCH" -> "PRKCG"
-"PRKCH" -> "PRKCQ"
-"PRKCH" -> "PRKCE"
-"PRKCH" -> "PRKD2"
-"PRKCI" -> "MAP2K4"
-"PRKCI" -> "PRKCB"
-"PRKCI" -> "PRKCE"
-"PRKCI" -> "RPS6KB1"
-"PRKCQ" -> "PRKCH"
-"PRKCQ" -> "PRKCE"
-"PRKCQ" -> "PRKCD"
-"PRKCQ" -> "PRKCB"
-"PRKCZ" -> "PRKCI"
-"PRKCZ" -> "AKT2"
-"PRKCZ" -> "MKNK1"
-"PRKCZ" -> "GRK6"
-"PRKD1" -> "PRKCE"
-"PRKD1" -> "PRKD3"
-"PRKD1" -> "BRAF"
-"PRKD1" -> "PRKD2"
-"PRKD2" -> "PRKCG"
-"PRKD2" -> "LIMK2"
-"PRKD2" -> "PRKD3"
-"PRKD2" -> "PRKCE"
-"PRKD3" -> "PRKCI"
-"PRKD3" -> "BRAF"
-"PRKD3" -> "PRKD2"
-"PRKD3" -> "PRKD1"
-"PRKG1" -> "PRKCA"
-"PRKG1" -> "DCLK1"
-"PRKG1" -> "GRK3"
-"PRKG1" -> "PRKG2"
-"PRKG2" -> "PRKG1"
-"PRKG2" -> "PRKCE"
-"PRKG2" -> "GRK5"
-"PRKG2" -> "PRKCA"
-"PSKH1" -> "PSKH2"
-"PSKH1" -> "PDIK1L"
-"PSKH1" -> "TSSK1B"
-"PSKH1" -> "STK40"
-"PSKH2" -> "TSSK1B"
-"PSKH2" -> "PSKH1"
-"PSKH2" -> "MYLK4"
-"PSKH2" -> "PDIK1L"
-"PTK2" -> "BRAF"
-"PTK2" -> "PTK2B"
-"PTK2" -> "MAP2K4"
-"PTK2" -> "PRKCE"
-"PTK2B" -> "PTK2"
-"PTK2B" -> "PRKCE"
-"PTK2B" -> "GRK3"
-"PTK2B" -> "GRK2"
-"RAF1" -> "BRAF"
-"RAF1" -> "MAP3K3"
-"RAF1" -> "PRKD3"
-"RAF1" -> "TLK1"
-"RIPK1" -> "MAP3K2"
-"RIPK1" -> "SNRK"
-"RIPK1" -> "RIPK2"
-"RIPK1" -> "OXSR1"
-"RIPK2" -> "RIPK3"
-"RIPK2" -> "RIPK1"
-"RIPK2" -> "MAP3K7"
-"RIPK2" -> "MAP3K8"
-"RIPK3" -> "TNK1"
-"RIPK3" -> "PRKAA1"
-"RIPK3" -> "PHKG2"
-"RIPK3" -> "TSSK1B"
-"RPS6KA1" -> "RPS6KA4"
-"RPS6KA1" -> "SGK2"
-"RPS6KA1" -> "RPS6KA2"
-"RPS6KA1" -> "PRKCZ"
-"RPS6KA2" -> "PRKCE"
-"RPS6KA2" -> "GRK3"
-"RPS6KA2" -> "PRKCA"
-"RPS6KA2" -> "CDK14"
-"RPS6KA4" -> "RPS6KA1"
-"RPS6KA4" -> "RPS6KB2"
-"RPS6KA4" -> "GRK2"
-"RPS6KA4" -> "GRK6"
-"RPS6KB1" -> "PRKCI"
-"RPS6KB1" -> "AKT2"
-"RPS6KB1" -> "STK38L"
-"RPS6KB1" -> "TESK2"
-"RPS6KB2" -> "RPS6KB1"
-"RPS6KB2" -> "AKT2"
-"RPS6KB2" -> "PHKG2"
-"RPS6KB2" -> "MAP2K7"
-"RSKR" -> "SBK2"
-"RSKR" -> "MKNK2"
-"RSKR" -> "CAMKK1"
-"RSKR" -> "CDK15"
-"SBK1" -> "STK40"
-"SBK1" -> "PSKH1"
-"SBK1" -> "PHKG2"
-"SBK1" -> "STK11"
-"SBK2" -> "MOS"
-"SBK2" -> "RSKR"
-"SBK2" -> "PSKH2"
-"SBK2" -> "CDK20"
-"SGK1" -> "MKNK2"
-"SGK1" -> "PRKCE"
-"SGK1" -> "SGK2"
-"SGK1" -> "RPS6KA2"
-"SGK2" -> "SGK3"
-"SGK2" -> "AKT2"
-"SGK2" -> "MKNK1"
-"SGK2" -> "SGK1"
-"SGK3" -> "PRKCA"
-"SGK3" -> "SGK2"
-"SGK3" -> "PRKCI"
-"SGK3" -> "AKT3"
-"SIK1" -> "NUAK2"
-"SIK1" -> "TESK2"
-"SIK1" -> "HIPK4"
-"SIK1" -> "DYRK1B"
-"SNRK" -> "NUAK1"
-"SNRK" -> "HUNK"
-"SNRK" -> "PRKAA1"
-"SNRK" -> "NUAK2"
-"SRPK1" -> "SRPK2"
-"SRPK1" -> "MAP2K7"
-"SRPK1" -> "OXSR1"
-"SRPK1" -> "MAPKAPK5"
-"SRPK2" -> "SRPK1"
-"SRPK2" -> "MAPK8"
-"SRPK2" -> "PRKCE"
-"SRPK2" -> "STK3"
-"STK11" -> "PHKG2"
-"STK11" -> "MYLK4"
-"STK11" -> "GRK6"
-"STK11" -> "TSSK1B"
-"STK16" -> "STK40"
-"STK16" -> "PHKG2"
-"STK16" -> "PDIK1L"
-"STK16" -> "NEK6"
-"STK17A" -> "STK17B"
-"STK17A" -> "MYLK4"
-"STK17A" -> "DAPK2"
-"STK17A" -> "PSKH2"
-"STK17B" -> "STK17A"
-"STK17B" -> "PDIK1L"
-"STK17B" -> "MKNK2"
-"STK17B" -> "TESK2"
-"STK24" -> "OXSR1"
-"STK24" -> "STK3"
-"STK24" -> "STK25"
-"STK24" -> "PDPK1"
-"STK25" -> "MAPK11"
-"STK25" -> "OXSR1"
-"STK25" -> "PRKAA1"
-"STK25" -> "STK24"
-"STK3" -> "STK4"
-"STK3" -> "STK24"
-"STK3" -> "OXSR1"
-"STK3" -> "MAPK8"
-"STK32A" -> "STK32B"
-"STK32A" -> "MAPKAPK3"
-"STK32A" -> "PHKG2"
-"STK32A" -> "STK32C"
-"STK32B" -> "STK32A"
-"STK32B" -> "STK32C"
-"STK32B" -> "PHKG2"
-"STK32B" -> "MAPKAPK3"
-"STK32C" -> "STK32B"
-"STK32C" -> "STK32A"
-"STK32C" -> "MYLK4"
-"STK32C" -> "STK40"
-"STK33" -> "DYRK4"
-"STK33" -> "PSKH2"
-"STK33" -> "STK32A"
-"STK33" -> "DCLK2"
-"STK35" -> "PDPK1"
-"STK35" -> "MYLK4"
-"STK35" -> "STK24"
-"STK35" -> "PSKH2"
-"STK38" -> "STK38L"
-"STK38" -> "CDK14"
-"STK38" -> "MAPKAPK5"
-"STK38" -> "RPS6KB1"
-"STK38L" -> "STK38"
-"STK38L" -> "RPS6KB1"
-"STK38L" -> "OXSR1"
-"STK38L" -> "MAPKAPK5"
-"STK39" -> "OXSR1"
-"STK39" -> "MAP2K4"
-"STK39" -> "STK24"
-"STK39" -> "PRKCE"
-"STK4" -> "STK3"
-"STK4" -> "OXSR1"
-"STK4" -> "STK24"
-"STK4" -> "PAK2"
-"STK40" -> "PHKG2"
-"STK40" -> "PDPK1"
-"STK40" -> "MAPKAPK5"
-"STK40" -> "MAPK13"
-"TESK1" -> "TESK2"
-"TESK1" -> "DYRK1B"
-"TESK1" -> "HIPK4"
-"TESK1" -> "NUAK2"
-"TESK2" -> "RPS6KB1"
-"TESK2" -> "HIPK4"
-"TESK2" -> "TESK1"
-"TESK2" -> "NUAK2"
-"TLK1" -> "TLK2"
-"TLK1" -> "BRAF"
-"TLK1" -> "PRKCE"
-"TLK1" -> "CDK17"
-"TLK2" -> "TLK1"
-"TLK2" -> "CDK14"
-"TLK2" -> "RPS6KB1"
-"TLK2" -> "PRKCI"
-"TNK1" -> "RIPK3"
-"TNK1" -> "PLK3"
-"TNK1" -> "SBK2"
-"TNK1" -> "PKN3"
-"TSSK1B" -> "TSSK2"
-"TSSK1B" -> "PSKH2"
-"TSSK1B" -> "PSKH1"
-"TSSK1B" -> "STK11"
-"TSSK2" -> "TSSK1B"
-"TSSK2" -> "TSSK3"
-"TSSK2" -> "TSSK4"
-"TSSK2" -> "TSSK6"
-"TSSK3" -> "TSSK6"
-"TSSK3" -> "TSSK2"
-"TSSK3" -> "TSSK4"
-"TSSK3" -> "TSSK1B"
-"TSSK4" -> "TSSK3"
-"TSSK4" -> "TSSK2"
-"TSSK4" -> "PSKH1"
-"TSSK4" -> "TSSK6"
-"TSSK6" -> "TSSK3"
-"TSSK6" -> "TSSK2"
-"TSSK6" -> "TSSK4"
-"TSSK6" -> "CDK20"
-"ULK1" -> "ULK2"
-"ULK1" -> "MAP3K3"
-"ULK1" -> "BRSK1"
-"ULK1" -> "MARK4"
-"ULK2" -> "ULK1"
-"ULK2" -> "MAP3K2"
-"ULK2" -> "MAP3K3"
-"ULK2" -> "MAP3K7"
-"ULK3" -> "STK25"
-"ULK3" -> "MAPK11"
-"ULK3" -> "CAMKK1"
-"ULK3" -> "PHKG2"
-"VRK1" -> "VRK2"
-"VRK1" -> "MAPK9"
-"VRK1" -> "STK32A"
-"VRK1" -> "CSNK1G3"
-"VRK2" -> "VRK1"
-"VRK2" -> "STK32A"
-"VRK2" -> "HIPK4"
-"VRK2" -> "CSNK1G3"
+"AKT1" -> "AKT2" ["e"=1]
+"AKT1" -> "GRK6" ["e"=1]
+"AKT1" -> "PRKACA" ["e"=1]
+"AKT1" -> "AKT3" ["e"=1]
+"AKT2" -> "AKT1" ["e"=1]
+"AKT2" -> "MKNK1" ["e"=1]
+"AKT2" -> "RPS6KB1" ["e"=1]
+"AKT2" -> "PRKCZ" ["e"=1]
+"AKT3" -> "CDK14" ["e"=1]
+"AKT3" -> "PRKCA" ["e"=1]
+"AKT3" -> "PRKACB" ["e"=1]
+"AKT3" -> "SGK3" ["e"=1]
+"AURKA" -> "AURKB" ["e"=1]
+"AURKA" -> "DYRK4" ["e"=1]
+"AURKA" -> "DYRK3" ["e"=1]
+"AURKA" -> "PLK1" ["e"=1]
+"AURKB" -> "AURKC" ["e"=1]
+"AURKB" -> "AURKA" ["e"=1]
+"AURKB" -> "CDK1" ["e"=1]
+"AURKB" -> "CDK3" ["e"=1]
+"AURKC" -> "CDK20" ["e"=1]
+"AURKC" -> "AURKB" ["e"=1]
+"AURKC" -> "CDK3" ["e"=1]
+"AURKC" -> "DYRK4" ["e"=1]
+"BRAF" -> "RAF1" ["e"=1]
+"BRAF" -> "TLK1" ["e"=1]
+"BRAF" -> "MAP2K4" ["e"=1]
+"BRAF" -> "MAP3K2" ["e"=1]
+"BRSK1" -> "BRSK2" ["e"=1]
+"BRSK1" -> "MARK4" ["e"=1]
+"BRSK1" -> "MARK2" ["e"=1]
+"BRSK1" -> "RPS6KB2" ["e"=1]
+"BRSK2" -> "BRSK1" ["e"=1]
+"BRSK2" -> "MARK4" ["e"=1]
+"BRSK2" -> "PRKAA1" ["e"=1]
+"BRSK2" -> "MARK2" ["e"=1]
+"CAMK1" -> "CAMK1G" ["e"=1]
+"CAMK1" -> "CDK3" ["e"=1]
+"CAMK1" -> "CAMK1D" ["e"=1]
+"CAMK1" -> "PHKG2" ["e"=1]
+"CAMK1D" -> "MYLK4" ["e"=1]
+"CAMK1D" -> "PRKCE" ["e"=1]
+"CAMK1D" -> "CDK14" ["e"=1]
+"CAMK1D" -> "PHKG2" ["e"=1]
+"CAMK1G" -> "TSSK1B" ["e"=1]
+"CAMK1G" -> "CAMK1D" ["e"=1]
+"CAMK1G" -> "PHKG2" ["e"=1]
+"CAMK1G" -> "TSSK2" ["e"=1]
+"CAMK2A" -> "CAMK2G" ["e"=1]
+"CAMK2A" -> "CAMK2B" ["e"=1]
+"CAMK2A" -> "CAMK2D" ["e"=1]
+"CAMK2A" -> "STK25" ["e"=1]
+"CAMK2B" -> "CAMK2G" ["e"=1]
+"CAMK2B" -> "CAMK2A" ["e"=1]
+"CAMK2B" -> "CAMK2D" ["e"=1]
+"CAMK2B" -> "CAMK1D" ["e"=1]
+"CAMK2D" -> "CAMK2G" ["e"=1]
+"CAMK2D" -> "CAMK2B" ["e"=1]
+"CAMK2D" -> "CAMK2A" ["e"=1]
+"CAMK2D" -> "CDK14" ["e"=1]
+"CAMK2G" -> "CAMK2A" ["e"=1]
+"CAMK2G" -> "CAMK2B" ["e"=1]
+"CAMK2G" -> "CAMK2D" ["e"=1]
+"CAMK2G" -> "STK25" ["e"=1]
+"CAMK4" -> "PSKH2" ["e"=1]
+"CAMK4" -> "MAPKAPK5" ["e"=1]
+"CAMK4" -> "PRKAA2" ["e"=1]
+"CAMK4" -> "CAMK1D" ["e"=1]
+"CAMKK1" -> "CAMKK2" ["e"=1]
+"CAMKK1" -> "PDPK1" ["e"=1]
+"CAMKK1" -> "RPS6KB1" ["e"=1]
+"CAMKK1" -> "RPS6KA2" ["e"=1]
+"CAMKK2" -> "CAMKK1" ["e"=1]
+"CAMKK2" -> "PDPK1" ["e"=1]
+"CAMKK2" -> "MAPKAPK3" ["e"=1]
+"CAMKK2" -> "PRKCI" ["e"=1]
+"CAMKV" -> "CAMK4" ["e"=1]
+"CAMKV" -> "STK11" ["e"=1]
+"CAMKV" -> "TSSK1B" ["e"=1]
+"CAMKV" -> "MAPK11" ["e"=1]
+"CDK1" -> "CDK2" ["e"=1]
+"CDK1" -> "CDK3" ["e"=1]
+"CDK1" -> "CDKL4" ["e"=1]
+"CDK1" -> "CDK7" ["e"=1]
+"CDK10" -> "CDK9" ["e"=1]
+"CDK10" -> "CDK20" ["e"=1]
+"CDK10" -> "CDK3" ["e"=1]
+"CDK10" -> "CDK18" ["e"=1]
+"CDK14" -> "GSK3B" ["e"=1]
+"CDK14" -> "CDK17" ["e"=1]
+"CDK14" -> "MAPK8" ["e"=1]
+"CDK14" -> "PRKCE" ["e"=1]
+"CDK15" -> "CDK14" ["e"=1]
+"CDK15" -> "PSKH2" ["e"=1]
+"CDK15" -> "RSKR" ["e"=1]
+"CDK15" -> "MKNK1" ["e"=1]
+"CDK17" -> "CDK14" ["e"=1]
+"CDK17" -> "MAP2K4" ["e"=1]
+"CDK17" -> "RPS6KA2" ["e"=1]
+"CDK17" -> "TLK1" ["e"=1]
+"CDK18" -> "CDK14" ["e"=1]
+"CDK18" -> "CDK17" ["e"=1]
+"CDK18" -> "CAMKK2" ["e"=1]
+"CDK18" -> "MAP2K7" ["e"=1]
+"CDK19" -> "CDK8" ["e"=1]
+"CDK19" -> "NLK" ["e"=1]
+"CDK19" -> "MAPK8" ["e"=1]
+"CDK19" -> "MAPK1" ["e"=1]
+"CDK2" -> "CDK3" ["e"=1]
+"CDK2" -> "CDK1" ["e"=1]
+"CDK2" -> "CDK9" ["e"=1]
+"CDK2" -> "CDK4" ["e"=1]
+"CDK20" -> "CDK3" ["e"=1]
+"CDK20" -> "CDK9" ["e"=1]
+"CDK20" -> "CDKL1" ["e"=1]
+"CDK20" -> "CDK2" ["e"=1]
+"CDK3" -> "CDK2" ["e"=1]
+"CDK3" -> "CDK20" ["e"=1]
+"CDK3" -> "CDK9" ["e"=1]
+"CDK3" -> "CDK5" ["e"=1]
+"CDK4" -> "CDK2" ["e"=1]
+"CDK4" -> "CDK20" ["e"=1]
+"CDK4" -> "CDK3" ["e"=1]
+"CDK4" -> "CDK6" ["e"=1]
+"CDK5" -> "CDK3" ["e"=1]
+"CDK5" -> "CDK2" ["e"=1]
+"CDK5" -> "CDK20" ["e"=1]
+"CDK5" -> "CDK7" ["e"=1]
+"CDK6" -> "MAPKAPK5" ["e"=1]
+"CDK6" -> "PDIK1L" ["e"=1]
+"CDK6" -> "PSKH2" ["e"=1]
+"CDK6" -> "MAPK13" ["e"=1]
+"CDK7" -> "CDKL4" ["e"=1]
+"CDK7" -> "CDK3" ["e"=1]
+"CDK7" -> "CDK9" ["e"=1]
+"CDK7" -> "CDKL1" ["e"=1]
+"CDK8" -> "CDK19" ["e"=1]
+"CDK8" -> "MAPK8" ["e"=1]
+"CDK8" -> "GSK3B" ["e"=1]
+"CDK8" -> "CSNK1G3" ["e"=1]
+"CDK9" -> "CDK20" ["e"=1]
+"CDK9" -> "CDK3" ["e"=1]
+"CDK9" -> "CDKL1" ["e"=1]
+"CDK9" -> "MAPK3" ["e"=1]
+"CDKL1" -> "MAPK8" ["e"=1]
+"CDKL1" -> "CDK9" ["e"=1]
+"CDKL1" -> "MAPK1" ["e"=1]
+"CDKL1" -> "NIM1K" ["e"=1]
+"CDKL2" -> "CDKL3" ["e"=1]
+"CDKL2" -> "CDKL1" ["e"=1]
+"CDKL2" -> "NEK3" ["e"=1]
+"CDKL2" -> "PRKAA1" ["e"=1]
+"CDKL3" -> "CDKL2" ["e"=1]
+"CDKL3" -> "CDKL1" ["e"=1]
+"CDKL3" -> "NEK3" ["e"=1]
+"CDKL3" -> "MOK" ["e"=1]
+"CDKL4" -> "CDK7" ["e"=1]
+"CDKL4" -> "CDK3" ["e"=1]
+"CDKL4" -> "CDKL1" ["e"=1]
+"CDKL4" -> "PSKH2" ["e"=1]
+"CHEK1" -> "CDK2" ["e"=1]
+"CHEK1" -> "PDIK1L" ["e"=1]
+"CHEK1" -> "MAP2K7" ["e"=1]
+"CHEK1" -> "RPS6KB1" ["e"=1]
+"CHEK2" -> "MAP3K8" ["e"=1]
+"CHEK2" -> "MYLK4" ["e"=1]
+"CHEK2" -> "CHEK1" ["e"=1]
+"CHEK2" -> "TSSK1B" ["e"=1]
+"CLK1" -> "CLK4" ["e"=1]
+"CLK1" -> "CLK3" ["e"=1]
+"CLK1" -> "CLK2" ["e"=1]
+"CLK1" -> "STK17B" ["e"=1]
+"CLK2" -> "CLK3" ["e"=1]
+"CLK2" -> "CLK4" ["e"=1]
+"CLK2" -> "CLK1" ["e"=1]
+"CLK2" -> "DYRK1B" ["e"=1]
+"CLK3" -> "CLK2" ["e"=1]
+"CLK3" -> "CLK4" ["e"=1]
+"CLK3" -> "CLK1" ["e"=1]
+"CLK3" -> "PHKG2" ["e"=1]
+"CLK4" -> "CLK1" ["e"=1]
+"CLK4" -> "CLK2" ["e"=1]
+"CLK4" -> "CLK3" ["e"=1]
+"CLK4" -> "DYRK3" ["e"=1]
+"CSNK1A1" -> "CSNK1A1L" ["e"=1]
+"CSNK1A1" -> "CSNK1G3" ["e"=1]
+"CSNK1A1" -> "CSNK1G1" ["e"=1]
+"CSNK1A1" -> "GSK3B" ["e"=1]
+"CSNK1A1L" -> "CSNK1A1" ["e"=1]
+"CSNK1A1L" -> "CSNK1E" ["e"=1]
+"CSNK1A1L" -> "CSNK1G1" ["e"=1]
+"CSNK1A1L" -> "CSNK1G2" ["e"=1]
+"CSNK1D" -> "CSNK1E" ["e"=1]
+"CSNK1D" -> "CSNK1G2" ["e"=1]
+"CSNK1D" -> "CSNK1A1" ["e"=1]
+"CSNK1D" -> "CSNK1G1" ["e"=1]
+"CSNK1E" -> "CSNK1D" ["e"=1]
+"CSNK1E" -> "CSNK1G2" ["e"=1]
+"CSNK1E" -> "CSNK1A1L" ["e"=1]
+"CSNK1E" -> "CSNK1A1" ["e"=1]
+"CSNK1G1" -> "CSNK1G3" ["e"=1]
+"CSNK1G1" -> "CSNK1A1" ["e"=1]
+"CSNK1G1" -> "CSNK1G2" ["e"=1]
+"CSNK1G1" -> "CSNK1A1L" ["e"=1]
+"CSNK1G2" -> "CSNK1E" ["e"=1]
+"CSNK1G2" -> "CSNK1G1" ["e"=1]
+"CSNK1G2" -> "CSNK1D" ["e"=1]
+"CSNK1G2" -> "CSNK1A1L" ["e"=1]
+"CSNK1G3" -> "CSNK1A1" ["e"=1]
+"CSNK1G3" -> "CSNK1G1" ["e"=1]
+"CSNK1G3" -> "CDK8" ["e"=1]
+"CSNK1G3" -> "PRKAA1" ["e"=1]
+"CSNK2A2" -> "MAPK9" ["e"=1]
+"CSNK2A2" -> "MAPK13" ["e"=1]
+"CSNK2A2" -> "MAPK1" ["e"=1]
+"CSNK2A2" -> "MAPK14" ["e"=1]
+"CSNK2A3" -> "MAPK8" ["e"=1]
+"CSNK2A3" -> "PRKAA2" ["e"=1]
+"CSNK2A3" -> "STK38" ["e"=1]
+"CSNK2A3" -> "PSKH2" ["e"=1]
+"DAPK2" -> "MYLK4" ["e"=1]
+"DAPK2" -> "PHKG2" ["e"=1]
+"DAPK2" -> "DAPK3" ["e"=1]
+"DAPK2" -> "STK11" ["e"=1]
+"DAPK3" -> "DAPK2" ["e"=1]
+"DAPK3" -> "PHKG2" ["e"=1]
+"DAPK3" -> "STK25" ["e"=1]
+"DAPK3" -> "MAPK11" ["e"=1]
+"DCLK1" -> "DCLK2" ["e"=1]
+"DCLK1" -> "MARK1" ["e"=1]
+"DCLK1" -> "BRAF" ["e"=1]
+"DCLK1" -> "PRKG1" ["e"=1]
+"DCLK2" -> "DCLK1" ["e"=1]
+"DCLK2" -> "MARK1" ["e"=1]
+"DCLK2" -> "PRKCE" ["e"=1]
+"DCLK2" -> "BRAF" ["e"=1]
+"DCLK3" -> "MYLK2" ["e"=1]
+"DCLK3" -> "PSKH2" ["e"=1]
+"DCLK3" -> "MYLK3" ["e"=1]
+"DCLK3" -> "TSSK1B" ["e"=1]
+"DMPK" -> "PHKG2" ["e"=1]
+"DMPK" -> "SIK1" ["e"=1]
+"DMPK" -> "ULK3" ["e"=1]
+"DMPK" -> "STK11" ["e"=1]
+"DYRK1B" -> "HIPK4" ["e"=1]
+"DYRK1B" -> "NUAK2" ["e"=1]
+"DYRK1B" -> "SIK1" ["e"=1]
+"DYRK1B" -> "RPS6KB2" ["e"=1]
+"DYRK2" -> "DYRK3" ["e"=1]
+"DYRK2" -> "PRKAA2" ["e"=1]
+"DYRK2" -> "PRKAA1" ["e"=1]
+"DYRK2" -> "MAPK1" ["e"=1]
+"DYRK3" -> "HIPK4" ["e"=1]
+"DYRK3" -> "PSKH2" ["e"=1]
+"DYRK3" -> "DYRK2" ["e"=1]
+"DYRK3" -> "MKNK2" ["e"=1]
+"DYRK4" -> "PSKH2" ["e"=1]
+"DYRK4" -> "CDK14" ["e"=1]
+"DYRK4" -> "STK32B" ["e"=1]
+"DYRK4" -> "STK32A" ["e"=1]
+"EIF2AK1" -> "PDPK1" ["e"=1]
+"EIF2AK1" -> "PRKCI" ["e"=1]
+"EIF2AK1" -> "RPS6KB1" ["e"=1]
+"EIF2AK1" -> "MAP3K2" ["e"=1]
+"FES" -> "PKN3" ["e"=1]
+"FES" -> "PKN1" ["e"=1]
+"FES" -> "GRK6" ["e"=1]
+"FES" -> "GRK1" ["e"=1]
+"GRK1" -> "GRK7" ["e"=1]
+"GRK1" -> "PRKACG" ["e"=1]
+"GRK1" -> "GRK6" ["e"=1]
+"GRK1" -> "GRK5" ["e"=1]
+"GRK2" -> "GRK6" ["e"=1]
+"GRK2" -> "GRK3" ["e"=1]
+"GRK2" -> "PRKCG" ["e"=1]
+"GRK2" -> "RPS6KA4" ["e"=1]
+"GRK3" -> "PRKCA" ["e"=1]
+"GRK3" -> "PRKCI" ["e"=1]
+"GRK3" -> "RPS6KA2" ["e"=1]
+"GRK3" -> "PRKCE" ["e"=1]
+"GRK4" -> "GRK5" ["e"=1]
+"GRK4" -> "GRK6" ["e"=1]
+"GRK4" -> "GRK1" ["e"=1]
+"GRK4" -> "GRK3" ["e"=1]
+"GRK5" -> "GRK4" ["e"=1]
+"GRK5" -> "GRK6" ["e"=1]
+"GRK5" -> "GRK3" ["e"=1]
+"GRK5" -> "PRKCE" ["e"=1]
+"GRK6" -> "GRK2" ["e"=1]
+"GRK6" -> "GRK5" ["e"=1]
+"GRK6" -> "STK11" ["e"=1]
+"GRK6" -> "AKT1" ["e"=1]
+"GRK7" -> "GRK1" ["e"=1]
+"GRK7" -> "GRK5" ["e"=1]
+"GRK7" -> "PRKCE" ["e"=1]
+"GRK7" -> "MYLK4" ["e"=1]
+"GSK3A" -> "MAPK3" ["e"=1]
+"GSK3A" -> "MAPK1" ["e"=1]
+"GSK3A" -> "MAPKAPK2" ["e"=1]
+"GSK3A" -> "MAP2K2" ["e"=1]
+"GSK3B" -> "MAPK8" ["e"=1]
+"GSK3B" -> "CDK14" ["e"=1]
+"GSK3B" -> "CDK8" ["e"=1]
+"GSK3B" -> "CSNK1A1" ["e"=1]
+"HIPK4" -> "MAPK4" ["e"=1]
+"HIPK4" -> "TESK2" ["e"=1]
+"HIPK4" -> "NUAK2" ["e"=1]
+"HIPK4" -> "DYRK3" ["e"=1]
+"HUNK" -> "NUAK1" ["e"=1]
+"HUNK" -> "SNRK" ["e"=1]
+"HUNK" -> "TESK2" ["e"=1]
+"HUNK" -> "NUAK2" ["e"=1]
+"IRAK4" -> "STK4" ["e"=1]
+"IRAK4" -> "PAK2" ["e"=1]
+"IRAK4" -> "PDIK1L" ["e"=1]
+"IRAK4" -> "PRKAA1" ["e"=1]
+"LIMK1" -> "LIMK2" ["e"=1]
+"LIMK1" -> "AKT2" ["e"=1]
+"LIMK1" -> "PRKD2" ["e"=1]
+"LIMK1" -> "MAP3K3" ["e"=1]
+"LIMK2" -> "LIMK1" ["e"=1]
+"LIMK2" -> "PRKD2" ["e"=1]
+"LIMK2" -> "MAP3K3" ["e"=1]
+"LIMK2" -> "PRKCE" ["e"=1]
+"MAK" -> "CDKL2" ["e"=1]
+"MAK" -> "CDKL3" ["e"=1]
+"MAK" -> "MOK" ["e"=1]
+"MAK" -> "MAPK6" ["e"=1]
+"MAP2K1" -> "MAP2K7" ["e"=1]
+"MAP2K1" -> "MAP2K4" ["e"=1]
+"MAP2K1" -> "MAP2K3" ["e"=1]
+"MAP2K1" -> "MAP2K2" ["e"=1]
+"MAP2K2" -> "MAP2K1" ["e"=1]
+"MAP2K2" -> "MAP2K3" ["e"=1]
+"MAP2K2" -> "MAP2K7" ["e"=1]
+"MAP2K2" -> "MAPKAPK2" ["e"=1]
+"MAP2K3" -> "MAP2K7" ["e"=1]
+"MAP2K3" -> "MAPK13" ["e"=1]
+"MAP2K3" -> "MAP2K1" ["e"=1]
+"MAP2K3" -> "MAP2K2" ["e"=1]
+"MAP2K4" -> "PRKCI" ["e"=1]
+"MAP2K4" -> "MAP2K1" ["e"=1]
+"MAP2K4" -> "NEK7" ["e"=1]
+"MAP2K4" -> "BRAF" ["e"=1]
+"MAP2K5" -> "MAP2K4" ["e"=1]
+"MAP2K5" -> "PRKCI" ["e"=1]
+"MAP2K5" -> "BRAF" ["e"=1]
+"MAP2K5" -> "MAP4K3" ["e"=1]
+"MAP2K7" -> "MAP2K3" ["e"=1]
+"MAP2K7" -> "MAP2K1" ["e"=1]
+"MAP2K7" -> "RPS6KB1" ["e"=1]
+"MAP2K7" -> "AKT2" ["e"=1]
+"MAP3K2" -> "MAP3K3" ["e"=1]
+"MAP3K2" -> "BRAF" ["e"=1]
+"MAP3K2" -> "MAP3K7" ["e"=1]
+"MAP3K2" -> "PRKAA1" ["e"=1]
+"MAP3K20" -> "MAP3K2" ["e"=1]
+"MAP3K20" -> "MAP3K7" ["e"=1]
+"MAP3K20" -> "SNRK" ["e"=1]
+"MAP3K20" -> "PRKAA1" ["e"=1]
+"MAP3K3" -> "MAP3K2" ["e"=1]
+"MAP3K3" -> "PDPK1" ["e"=1]
+"MAP3K3" -> "RAF1" ["e"=1]
+"MAP3K3" -> "BRAF" ["e"=1]
+"MAP3K7" -> "MAP3K2" ["e"=1]
+"MAP3K7" -> "PRKAA1" ["e"=1]
+"MAP3K7" -> "MAP2K4" ["e"=1]
+"MAP3K7" -> "BRAF" ["e"=1]
+"MAP3K8" -> "PDIK1L" ["e"=1]
+"MAP3K8" -> "RIPK2" ["e"=1]
+"MAP3K8" -> "STK17B" ["e"=1]
+"MAP3K8" -> "CHEK2" ["e"=1]
+"MAP4K1" -> "MAP4K2" ["e"=1]
+"MAP4K1" -> "MAP4K3" ["e"=1]
+"MAP4K1" -> "MAP4K5" ["e"=1]
+"MAP4K1" -> "PTK2B" ["e"=1]
+"MAP4K2" -> "MAP4K1" ["e"=1]
+"MAP4K2" -> "STK25" ["e"=1]
+"MAP4K2" -> "MARK4" ["e"=1]
+"MAP4K2" -> "OXSR1" ["e"=1]
+"MAP4K3" -> "MAP4K5" ["e"=1]
+"MAP4K3" -> "MAP2K4" ["e"=1]
+"MAP4K3" -> "MAP4K1" ["e"=1]
+"MAP4K3" -> "MARK1" ["e"=1]
+"MAP4K5" -> "MAP4K3" ["e"=1]
+"MAP4K5" -> "MAP2K4" ["e"=1]
+"MAP4K5" -> "MARK1" ["e"=1]
+"MAP4K5" -> "OXSR1" ["e"=1]
+"MAPK1" -> "MAPK14" ["e"=1]
+"MAPK1" -> "MAPK9" ["e"=1]
+"MAPK1" -> "MAPK3" ["e"=1]
+"MAPK1" -> "MAPK13" ["e"=1]
+"MAPK10" -> "MAPK8" ["e"=1]
+"MAPK10" -> "MAPK9" ["e"=1]
+"MAPK10" -> "MAPK11" ["e"=1]
+"MAPK10" -> "CDK14" ["e"=1]
+"MAPK11" -> "MAPK12" ["e"=1]
+"MAPK11" -> "MAPK9" ["e"=1]
+"MAPK11" -> "MAPK14" ["e"=1]
+"MAPK11" -> "MAPK13" ["e"=1]
+"MAPK12" -> "MAPK11" ["e"=1]
+"MAPK12" -> "MAPK13" ["e"=1]
+"MAPK12" -> "MAPK9" ["e"=1]
+"MAPK12" -> "MAPK14" ["e"=1]
+"MAPK13" -> "MAPK14" ["e"=1]
+"MAPK13" -> "MAPK11" ["e"=1]
+"MAPK13" -> "MAPK9" ["e"=1]
+"MAPK13" -> "MAPK1" ["e"=1]
+"MAPK14" -> "MAPK13" ["e"=1]
+"MAPK14" -> "MAPK9" ["e"=1]
+"MAPK14" -> "MAPK1" ["e"=1]
+"MAPK14" -> "MAPK11" ["e"=1]
+"MAPK15" -> "HIPK4" ["e"=1]
+"MAPK15" -> "CDK20" ["e"=1]
+"MAPK15" -> "DYRK1B" ["e"=1]
+"MAPK15" -> "MOK" ["e"=1]
+"MAPK3" -> "MAPK1" ["e"=1]
+"MAPK3" -> "MAPK11" ["e"=1]
+"MAPK3" -> "CDK9" ["e"=1]
+"MAPK3" -> "MAPK12" ["e"=1]
+"MAPK4" -> "HIPK4" ["e"=1]
+"MAPK4" -> "NUAK2" ["e"=1]
+"MAPK4" -> "MAPK6" ["e"=1]
+"MAPK4" -> "PSKH2" ["e"=1]
+"MAPK6" -> "HIPK4" ["e"=1]
+"MAPK6" -> "MAPK4" ["e"=1]
+"MAPK6" -> "PRKAA2" ["e"=1]
+"MAPK6" -> "NUAK2" ["e"=1]
+"MAPK8" -> "MAPK10" ["e"=1]
+"MAPK8" -> "MAPK9" ["e"=1]
+"MAPK8" -> "GSK3B" ["e"=1]
+"MAPK8" -> "CDK8" ["e"=1]
+"MAPK9" -> "MAPK8" ["e"=1]
+"MAPK9" -> "MAPK14" ["e"=1]
+"MAPK9" -> "MAPK11" ["e"=1]
+"MAPK9" -> "MAPK13" ["e"=1]
+"MAPKAPK2" -> "MAPKAPK3" ["e"=1]
+"MAPKAPK2" -> "MAPK1" ["e"=1]
+"MAPKAPK2" -> "NEK7" ["e"=1]
+"MAPKAPK2" -> "MYLK4" ["e"=1]
+"MAPKAPK3" -> "MAPKAPK2" ["e"=1]
+"MAPKAPK3" -> "STK32A" ["e"=1]
+"MAPKAPK3" -> "NEK6" ["e"=1]
+"MAPKAPK3" -> "MAPK13" ["e"=1]
+"MAPKAPK5" -> "STK40" ["e"=1]
+"MAPKAPK5" -> "CDK6" ["e"=1]
+"MAPKAPK5" -> "RPS6KB1" ["e"=1]
+"MAPKAPK5" -> "OXSR1" ["e"=1]
+"MARK1" -> "MARK3" ["e"=1]
+"MARK1" -> "MARK4" ["e"=1]
+"MARK1" -> "DCLK1" ["e"=1]
+"MARK1" -> "MARK2" ["e"=1]
+"MARK2" -> "MARK4" ["e"=1]
+"MARK2" -> "MARK1" ["e"=1]
+"MARK2" -> "MARK3" ["e"=1]
+"MARK2" -> "OXSR1" ["e"=1]
+"MARK3" -> "MARK1" ["e"=1]
+"MARK3" -> "MARK2" ["e"=1]
+"MARK3" -> "DCLK1" ["e"=1]
+"MARK3" -> "MARK4" ["e"=1]
+"MARK4" -> "MARK2" ["e"=1]
+"MARK4" -> "MARK1" ["e"=1]
+"MARK4" -> "BRSK1" ["e"=1]
+"MARK4" -> "PAK4" ["e"=1]
+"MELK" -> "PLK4" ["e"=1]
+"MELK" -> "CHEK1" ["e"=1]
+"MELK" -> "NUAK2" ["e"=1]
+"MELK" -> "CDK1" ["e"=1]
+"MKNK1" -> "AKT2" ["e"=1]
+"MKNK1" -> "MKNK2" ["e"=1]
+"MKNK1" -> "PRKCI" ["e"=1]
+"MKNK1" -> "PRKCZ" ["e"=1]
+"MKNK2" -> "NUAK2" ["e"=1]
+"MKNK2" -> "MKNK1" ["e"=1]
+"MKNK2" -> "SGK1" ["e"=1]
+"MKNK2" -> "PIM1" ["e"=1]
+"MOK" -> "CDKL1" ["e"=1]
+"MOK" -> "CDKL3" ["e"=1]
+"MOK" -> "NEK3" ["e"=1]
+"MOK" -> "DYRK4" ["e"=1]
+"MOS" -> "SBK2" ["e"=1]
+"MOS" -> "PDIK1L" ["e"=1]
+"MOS" -> "CDK15" ["e"=1]
+"MOS" -> "MKNK2" ["e"=1]
+"MYLK2" -> "MYLK3" ["e"=1]
+"MYLK2" -> "MYLK4" ["e"=1]
+"MYLK2" -> "DCLK3" ["e"=1]
+"MYLK2" -> "CAMKK1" ["e"=1]
+"MYLK3" -> "MYLK2" ["e"=1]
+"MYLK3" -> "DCLK3" ["e"=1]
+"MYLK3" -> "MYLK4" ["e"=1]
+"MYLK3" -> "PRKAA2" ["e"=1]
+"MYLK4" -> "DAPK2" ["e"=1]
+"MYLK4" -> "PHKG2" ["e"=1]
+"MYLK4" -> "PSKH2" ["e"=1]
+"MYLK4" -> "CAMK1D" ["e"=1]
+"NEK2" -> "PLK1" ["e"=1]
+"NEK2" -> "AURKA" ["e"=1]
+"NEK2" -> "MAP3K8" ["e"=1]
+"NEK2" -> "NUAK2" ["e"=1]
+"NEK3" -> "TESK2" ["e"=1]
+"NEK3" -> "CDKL2" ["e"=1]
+"NEK3" -> "CDKL1" ["e"=1]
+"NEK3" -> "CDKL3" ["e"=1]
+"NEK6" -> "MAPKAPK3" ["e"=1]
+"NEK6" -> "STK40" ["e"=1]
+"NEK6" -> "NEK7" ["e"=1]
+"NEK6" -> "AKT2" ["e"=1]
+"NEK7" -> "MAP2K4" ["e"=1]
+"NEK7" -> "PRKAA1" ["e"=1]
+"NEK7" -> "NEK6" ["e"=1]
+"NEK7" -> "MAPKAPK2" ["e"=1]
+"NEK8" -> "STK16" ["e"=1]
+"NEK8" -> "PSKH2" ["e"=1]
+"NEK8" -> "STK40" ["e"=1]
+"NEK8" -> "NUAK2" ["e"=1]
+"NIM1K" -> "CDKL1" ["e"=1]
+"NIM1K" -> "TSSK2" ["e"=1]
+"NIM1K" -> "PSKH2" ["e"=1]
+"NIM1K" -> "TSSK1B" ["e"=1]
+"NLK" -> "CDK19" ["e"=1]
+"NLK" -> "MAPK8" ["e"=1]
+"NLK" -> "BRAF" ["e"=1]
+"NLK" -> "MAP2K4" ["e"=1]
+"NUAK1" -> "NUAK2" ["e"=1]
+"NUAK1" -> "HUNK" ["e"=1]
+"NUAK1" -> "SNRK" ["e"=1]
+"NUAK1" -> "PRKAA2" ["e"=1]
+"NUAK2" -> "SIK1" ["e"=1]
+"NUAK2" -> "NUAK1" ["e"=1]
+"NUAK2" -> "MKNK2" ["e"=1]
+"NUAK2" -> "MAPK4" ["e"=1]
+"OXSR1" -> "STK39" ["e"=1]
+"OXSR1" -> "STK24" ["e"=1]
+"OXSR1" -> "STK4" ["e"=1]
+"OXSR1" -> "PRKAA1" ["e"=1]
+"PAK1" -> "PAK2" ["e"=1]
+"PAK1" -> "CDK14" ["e"=1]
+"PAK1" -> "PRKCB" ["e"=1]
+"PAK1" -> "PRKCE" ["e"=1]
+"PAK2" -> "PAK1" ["e"=1]
+"PAK2" -> "STK4" ["e"=1]
+"PAK2" -> "STK24" ["e"=1]
+"PAK2" -> "OXSR1" ["e"=1]
+"PAK4" -> "PAK6" ["e"=1]
+"PAK4" -> "MARK4" ["e"=1]
+"PAK4" -> "MAP2K7" ["e"=1]
+"PAK4" -> "MAP3K3" ["e"=1]
+"PAK5" -> "MAP3K3" ["e"=1]
+"PAK5" -> "MARK4" ["e"=1]
+"PAK5" -> "PAK4" ["e"=1]
+"PAK5" -> "PAK6" ["e"=1]
+"PAK6" -> "PAK4" ["e"=1]
+"PAK6" -> "MARK4" ["e"=1]
+"PAK6" -> "PSKH1" ["e"=1]
+"PAK6" -> "TESK2" ["e"=1]
+"PDIK1L" -> "PSKH1" ["e"=1]
+"PDIK1L" -> "PSKH2" ["e"=1]
+"PDIK1L" -> "STK17B" ["e"=1]
+"PDIK1L" -> "CDK6" ["e"=1]
+"PDPK1" -> "STK40" ["e"=1]
+"PDPK1" -> "CAMKK2" ["e"=1]
+"PDPK1" -> "RPS6KB1" ["e"=1]
+"PDPK1" -> "CAMKK1" ["e"=1]
+"PHKG1" -> "PHKG2" ["e"=1]
+"PHKG1" -> "MYLK4" ["e"=1]
+"PHKG1" -> "STK11" ["e"=1]
+"PHKG1" -> "DAPK2" ["e"=1]
+"PHKG2" -> "STK11" ["e"=1]
+"PHKG2" -> "MAPK11" ["e"=1]
+"PHKG2" -> "DAPK2" ["e"=1]
+"PHKG2" -> "MYLK4" ["e"=1]
+"PIM1" -> "PIM3" ["e"=1]
+"PIM1" -> "MKNK2" ["e"=1]
+"PIM1" -> "CDK6" ["e"=1]
+"PIM1" -> "NEK6" ["e"=1]
+"PIM3" -> "PIM1" ["e"=1]
+"PIM3" -> "MKNK2" ["e"=1]
+"PIM3" -> "STK17A" ["e"=1]
+"PIM3" -> "PHKG2" ["e"=1]
+"PKN1" -> "PKN3" ["e"=1]
+"PKN1" -> "PKN2" ["e"=1]
+"PKN1" -> "FES" ["e"=1]
+"PKN1" -> "ULK3" ["e"=1]
+"PKN2" -> "MAP3K2" ["e"=1]
+"PKN2" -> "BRAF" ["e"=1]
+"PKN2" -> "PRKCI" ["e"=1]
+"PKN2" -> "TLK2" ["e"=1]
+"PKN3" -> "PKN1" ["e"=1]
+"PKN3" -> "PAK4" ["e"=1]
+"PKN3" -> "FES" ["e"=1]
+"PKN3" -> "PKN2" ["e"=1]
+"PLK1" -> "PLK3" ["e"=1]
+"PLK1" -> "AURKA" ["e"=1]
+"PLK1" -> "NEK2" ["e"=1]
+"PLK1" -> "PLK2" ["e"=1]
+"PLK2" -> "PLK3" ["e"=1]
+"PLK2" -> "DYRK3" ["e"=1]
+"PLK2" -> "PRKAA1" ["e"=1]
+"PLK2" -> "NIM1K" ["e"=1]
+"PLK3" -> "PLK2" ["e"=1]
+"PLK3" -> "NUAK2" ["e"=1]
+"PLK3" -> "PIM3" ["e"=1]
+"PLK3" -> "PLK1" ["e"=1]
+"PLK4" -> "MELK" ["e"=1]
+"PLK4" -> "ULK2" ["e"=1]
+"PLK4" -> "PLK2" ["e"=1]
+"PLK4" -> "SIK1" ["e"=1]
+"PRKAA1" -> "PRKAA2" ["e"=1]
+"PRKAA1" -> "NEK7" ["e"=1]
+"PRKAA1" -> "OXSR1" ["e"=1]
+"PRKAA1" -> "RPS6KB1" ["e"=1]
+"PRKAA2" -> "PRKAA1" ["e"=1]
+"PRKAA2" -> "MAPK8" ["e"=1]
+"PRKAA2" -> "MAPK1" ["e"=1]
+"PRKAA2" -> "GSK3B" ["e"=1]
+"PRKACA" -> "PRKACG" ["e"=1]
+"PRKACA" -> "MAPK1" ["e"=1]
+"PRKACA" -> "PRKACB" ["e"=1]
+"PRKACA" -> "STK38" ["e"=1]
+"PRKACB" -> "PRKACA" ["e"=1]
+"PRKACB" -> "AKT3" ["e"=1]
+"PRKACB" -> "MAPK1" ["e"=1]
+"PRKACB" -> "MAP2K4" ["e"=1]
+"PRKACG" -> "PRKACA" ["e"=1]
+"PRKACG" -> "GRK1" ["e"=1]
+"PRKACG" -> "PRKACB" ["e"=1]
+"PRKACG" -> "STK38" ["e"=1]
+"PRKCA" -> "PRKCB" ["e"=1]
+"PRKCA" -> "PRKCE" ["e"=1]
+"PRKCA" -> "GRK3" ["e"=1]
+"PRKCA" -> "PRKCI" ["e"=1]
+"PRKCB" -> "PRKCA" ["e"=1]
+"PRKCB" -> "PRKCE" ["e"=1]
+"PRKCB" -> "PRKCI" ["e"=1]
+"PRKCB" -> "PRKCG" ["e"=1]
+"PRKCD" -> "PRKCG" ["e"=1]
+"PRKCD" -> "PRKCQ" ["e"=1]
+"PRKCD" -> "AKT1" ["e"=1]
+"PRKCD" -> "GRK1" ["e"=1]
+"PRKCE" -> "PRKCA" ["e"=1]
+"PRKCE" -> "PRKCB" ["e"=1]
+"PRKCE" -> "PRKCI" ["e"=1]
+"PRKCE" -> "RPS6KA2" ["e"=1]
+"PRKCG" -> "PRKCH" ["e"=1]
+"PRKCG" -> "PRKCB" ["e"=1]
+"PRKCG" -> "PRKCE" ["e"=1]
+"PRKCG" -> "PRKCI" ["e"=1]
+"PRKCH" -> "PRKCG" ["e"=1]
+"PRKCH" -> "PRKCQ" ["e"=1]
+"PRKCH" -> "PRKCE" ["e"=1]
+"PRKCH" -> "PRKD2" ["e"=1]
+"PRKCI" -> "MAP2K4" ["e"=1]
+"PRKCI" -> "PRKCB" ["e"=1]
+"PRKCI" -> "PRKCE" ["e"=1]
+"PRKCI" -> "RPS6KB1" ["e"=1]
+"PRKCQ" -> "PRKCH" ["e"=1]
+"PRKCQ" -> "PRKCE" ["e"=1]
+"PRKCQ" -> "PRKCD" ["e"=1]
+"PRKCQ" -> "PRKCB" ["e"=1]
+"PRKCZ" -> "PRKCI" ["e"=1]
+"PRKCZ" -> "AKT2" ["e"=1]
+"PRKCZ" -> "MKNK1" ["e"=1]
+"PRKCZ" -> "GRK6" ["e"=1]
+"PRKD1" -> "PRKCE" ["e"=1]
+"PRKD1" -> "PRKD3" ["e"=1]
+"PRKD1" -> "BRAF" ["e"=1]
+"PRKD1" -> "PRKD2" ["e"=1]
+"PRKD2" -> "PRKCG" ["e"=1]
+"PRKD2" -> "LIMK2" ["e"=1]
+"PRKD2" -> "PRKD3" ["e"=1]
+"PRKD2" -> "PRKCE" ["e"=1]
+"PRKD3" -> "PRKCI" ["e"=1]
+"PRKD3" -> "BRAF" ["e"=1]
+"PRKD3" -> "PRKD2" ["e"=1]
+"PRKD3" -> "PRKD1" ["e"=1]
+"PRKG1" -> "PRKCA" ["e"=1]
+"PRKG1" -> "DCLK1" ["e"=1]
+"PRKG1" -> "GRK3" ["e"=1]
+"PRKG1" -> "PRKG2" ["e"=1]
+"PRKG2" -> "PRKG1" ["e"=1]
+"PRKG2" -> "PRKCE" ["e"=1]
+"PRKG2" -> "GRK5" ["e"=1]
+"PRKG2" -> "PRKCA" ["e"=1]
+"PSKH1" -> "PSKH2" ["e"=1]
+"PSKH1" -> "PDIK1L" ["e"=1]
+"PSKH1" -> "TSSK1B" ["e"=1]
+"PSKH1" -> "STK40" ["e"=1]
+"PSKH2" -> "TSSK1B" ["e"=1]
+"PSKH2" -> "PSKH1" ["e"=1]
+"PSKH2" -> "MYLK4" ["e"=1]
+"PSKH2" -> "PDIK1L" ["e"=1]
+"PTK2" -> "BRAF" ["e"=1]
+"PTK2" -> "PTK2B" ["e"=1]
+"PTK2" -> "MAP2K4" ["e"=1]
+"PTK2" -> "PRKCE" ["e"=1]
+"PTK2B" -> "PTK2" ["e"=1]
+"PTK2B" -> "PRKCE" ["e"=1]
+"PTK2B" -> "GRK3" ["e"=1]
+"PTK2B" -> "GRK2" ["e"=1]
+"RAF1" -> "BRAF" ["e"=1]
+"RAF1" -> "MAP3K3" ["e"=1]
+"RAF1" -> "PRKD3" ["e"=1]
+"RAF1" -> "TLK1" ["e"=1]
+"RIPK1" -> "MAP3K2" ["e"=1]
+"RIPK1" -> "SNRK" ["e"=1]
+"RIPK1" -> "RIPK2" ["e"=1]
+"RIPK1" -> "OXSR1" ["e"=1]
+"RIPK2" -> "RIPK3" ["e"=1]
+"RIPK2" -> "RIPK1" ["e"=1]
+"RIPK2" -> "MAP3K7" ["e"=1]
+"RIPK2" -> "MAP3K8" ["e"=1]
+"RIPK3" -> "TNK1" ["e"=1]
+"RIPK3" -> "PRKAA1" ["e"=1]
+"RIPK3" -> "PHKG2" ["e"=1]
+"RIPK3" -> "TSSK1B" ["e"=1]
+"RPS6KA1" -> "RPS6KA4" ["e"=1]
+"RPS6KA1" -> "SGK2" ["e"=1]
+"RPS6KA1" -> "RPS6KA2" ["e"=1]
+"RPS6KA1" -> "PRKCZ" ["e"=1]
+"RPS6KA2" -> "PRKCE" ["e"=1]
+"RPS6KA2" -> "GRK3" ["e"=1]
+"RPS6KA2" -> "PRKCA" ["e"=1]
+"RPS6KA2" -> "CDK14" ["e"=1]
+"RPS6KA4" -> "RPS6KA1" ["e"=1]
+"RPS6KA4" -> "RPS6KB2" ["e"=1]
+"RPS6KA4" -> "GRK2" ["e"=1]
+"RPS6KA4" -> "GRK6" ["e"=1]
+"RPS6KB1" -> "PRKCI" ["e"=1]
+"RPS6KB1" -> "AKT2" ["e"=1]
+"RPS6KB1" -> "STK38L" ["e"=1]
+"RPS6KB1" -> "TESK2" ["e"=1]
+"RPS6KB2" -> "RPS6KB1" ["e"=1]
+"RPS6KB2" -> "AKT2" ["e"=1]
+"RPS6KB2" -> "PHKG2" ["e"=1]
+"RPS6KB2" -> "MAP2K7" ["e"=1]
+"RSKR" -> "SBK2" ["e"=1]
+"RSKR" -> "MKNK2" ["e"=1]
+"RSKR" -> "CAMKK1" ["e"=1]
+"RSKR" -> "CDK15" ["e"=1]
+"SBK1" -> "STK40" ["e"=1]
+"SBK1" -> "PSKH1" ["e"=1]
+"SBK1" -> "PHKG2" ["e"=1]
+"SBK1" -> "STK11" ["e"=1]
+"SBK2" -> "MOS" ["e"=1]
+"SBK2" -> "RSKR" ["e"=1]
+"SBK2" -> "PSKH2" ["e"=1]
+"SBK2" -> "CDK20" ["e"=1]
+"SGK1" -> "MKNK2" ["e"=1]
+"SGK1" -> "PRKCE" ["e"=1]
+"SGK1" -> "SGK2" ["e"=1]
+"SGK1" -> "RPS6KA2" ["e"=1]
+"SGK2" -> "SGK3" ["e"=1]
+"SGK2" -> "AKT2" ["e"=1]
+"SGK2" -> "MKNK1" ["e"=1]
+"SGK2" -> "SGK1" ["e"=1]
+"SGK3" -> "PRKCA" ["e"=1]
+"SGK3" -> "SGK2" ["e"=1]
+"SGK3" -> "PRKCI" ["e"=1]
+"SGK3" -> "AKT3" ["e"=1]
+"SIK1" -> "NUAK2" ["e"=1]
+"SIK1" -> "TESK2" ["e"=1]
+"SIK1" -> "HIPK4" ["e"=1]
+"SIK1" -> "DYRK1B" ["e"=1]
+"SNRK" -> "NUAK1" ["e"=1]
+"SNRK" -> "HUNK" ["e"=1]
+"SNRK" -> "PRKAA1" ["e"=1]
+"SNRK" -> "NUAK2" ["e"=1]
+"SRPK1" -> "SRPK2" ["e"=1]
+"SRPK1" -> "MAP2K7" ["e"=1]
+"SRPK1" -> "OXSR1" ["e"=1]
+"SRPK1" -> "MAPKAPK5" ["e"=1]
+"SRPK2" -> "SRPK1" ["e"=1]
+"SRPK2" -> "MAPK8" ["e"=1]
+"SRPK2" -> "PRKCE" ["e"=1]
+"SRPK2" -> "STK3" ["e"=1]
+"STK11" -> "PHKG2" ["e"=1]
+"STK11" -> "MYLK4" ["e"=1]
+"STK11" -> "GRK6" ["e"=1]
+"STK11" -> "TSSK1B" ["e"=1]
+"STK16" -> "STK40" ["e"=1]
+"STK16" -> "PHKG2" ["e"=1]
+"STK16" -> "PDIK1L" ["e"=1]
+"STK16" -> "NEK6" ["e"=1]
+"STK17A" -> "STK17B" ["e"=1]
+"STK17A" -> "MYLK4" ["e"=1]
+"STK17A" -> "DAPK2" ["e"=1]
+"STK17A" -> "PSKH2" ["e"=1]
+"STK17B" -> "STK17A" ["e"=1]
+"STK17B" -> "PDIK1L" ["e"=1]
+"STK17B" -> "MKNK2" ["e"=1]
+"STK17B" -> "TESK2" ["e"=1]
+"STK24" -> "OXSR1" ["e"=1]
+"STK24" -> "STK3" ["e"=1]
+"STK24" -> "STK25" ["e"=1]
+"STK24" -> "PDPK1" ["e"=1]
+"STK25" -> "MAPK11" ["e"=1]
+"STK25" -> "OXSR1" ["e"=1]
+"STK25" -> "PRKAA1" ["e"=1]
+"STK25" -> "STK24" ["e"=1]
+"STK3" -> "STK4" ["e"=1]
+"STK3" -> "STK24" ["e"=1]
+"STK3" -> "OXSR1" ["e"=1]
+"STK3" -> "MAPK8" ["e"=1]
+"STK32A" -> "STK32B" ["e"=1]
+"STK32A" -> "MAPKAPK3" ["e"=1]
+"STK32A" -> "PHKG2" ["e"=1]
+"STK32A" -> "STK32C" ["e"=1]
+"STK32B" -> "STK32A" ["e"=1]
+"STK32B" -> "STK32C" ["e"=1]
+"STK32B" -> "PHKG2" ["e"=1]
+"STK32B" -> "MAPKAPK3" ["e"=1]
+"STK32C" -> "STK32B" ["e"=1]
+"STK32C" -> "STK32A" ["e"=1]
+"STK32C" -> "MYLK4" ["e"=1]
+"STK32C" -> "STK40" ["e"=1]
+"STK33" -> "DYRK4" ["e"=1]
+"STK33" -> "PSKH2" ["e"=1]
+"STK33" -> "STK32A" ["e"=1]
+"STK33" -> "DCLK2" ["e"=1]
+"STK35" -> "PDPK1" ["e"=1]
+"STK35" -> "MYLK4" ["e"=1]
+"STK35" -> "STK24" ["e"=1]
+"STK35" -> "PSKH2" ["e"=1]
+"STK38" -> "STK38L" ["e"=1]
+"STK38" -> "CDK14" ["e"=1]
+"STK38" -> "MAPKAPK5" ["e"=1]
+"STK38" -> "RPS6KB1" ["e"=1]
+"STK38L" -> "STK38" ["e"=1]
+"STK38L" -> "RPS6KB1" ["e"=1]
+"STK38L" -> "OXSR1" ["e"=1]
+"STK38L" -> "MAPKAPK5" ["e"=1]
+"STK39" -> "OXSR1" ["e"=1]
+"STK39" -> "MAP2K4" ["e"=1]
+"STK39" -> "STK24" ["e"=1]
+"STK39" -> "PRKCE" ["e"=1]
+"STK4" -> "STK3" ["e"=1]
+"STK4" -> "OXSR1" ["e"=1]
+"STK4" -> "STK24" ["e"=1]
+"STK4" -> "PAK2" ["e"=1]
+"STK40" -> "PHKG2" ["e"=1]
+"STK40" -> "PDPK1" ["e"=1]
+"STK40" -> "MAPKAPK5" ["e"=1]
+"STK40" -> "MAPK13" ["e"=1]
+"TESK1" -> "TESK2" ["e"=1]
+"TESK1" -> "DYRK1B" ["e"=1]
+"TESK1" -> "HIPK4" ["e"=1]
+"TESK1" -> "NUAK2" ["e"=1]
+"TESK2" -> "RPS6KB1" ["e"=1]
+"TESK2" -> "HIPK4" ["e"=1]
+"TESK2" -> "TESK1" ["e"=1]
+"TESK2" -> "NUAK2" ["e"=1]
+"TLK1" -> "TLK2" ["e"=1]
+"TLK1" -> "BRAF" ["e"=1]
+"TLK1" -> "PRKCE" ["e"=1]
+"TLK1" -> "CDK17" ["e"=1]
+"TLK2" -> "TLK1" ["e"=1]
+"TLK2" -> "CDK14" ["e"=1]
+"TLK2" -> "RPS6KB1" ["e"=1]
+"TLK2" -> "PRKCI" ["e"=1]
+"TNK1" -> "RIPK3" ["e"=1]
+"TNK1" -> "PLK3" ["e"=1]
+"TNK1" -> "SBK2" ["e"=1]
+"TNK1" -> "PKN3" ["e"=1]
+"TSSK1B" -> "TSSK2" ["e"=1]
+"TSSK1B" -> "PSKH2" ["e"=1]
+"TSSK1B" -> "PSKH1" ["e"=1]
+"TSSK1B" -> "STK11" ["e"=1]
+"TSSK2" -> "TSSK1B" ["e"=1]
+"TSSK2" -> "TSSK3" ["e"=1]
+"TSSK2" -> "TSSK4" ["e"=1]
+"TSSK2" -> "TSSK6" ["e"=1]
+"TSSK3" -> "TSSK6" ["e"=1]
+"TSSK3" -> "TSSK2" ["e"=1]
+"TSSK3" -> "TSSK4" ["e"=1]
+"TSSK3" -> "TSSK1B" ["e"=1]
+"TSSK4" -> "TSSK3" ["e"=1]
+"TSSK4" -> "TSSK2" ["e"=1]
+"TSSK4" -> "PSKH1" ["e"=1]
+"TSSK4" -> "TSSK6" ["e"=1]
+"TSSK6" -> "TSSK3" ["e"=1]
+"TSSK6" -> "TSSK2" ["e"=1]
+"TSSK6" -> "TSSK4" ["e"=1]
+"TSSK6" -> "CDK20" ["e"=1]
+"ULK1" -> "ULK2" ["e"=1]
+"ULK1" -> "MAP3K3" ["e"=1]
+"ULK1" -> "BRSK1" ["e"=1]
+"ULK1" -> "MARK4" ["e"=1]
+"ULK2" -> "ULK1" ["e"=1]
+"ULK2" -> "MAP3K2" ["e"=1]
+"ULK2" -> "MAP3K3" ["e"=1]
+"ULK2" -> "MAP3K7" ["e"=1]
+"ULK3" -> "STK25" ["e"=1]
+"ULK3" -> "MAPK11" ["e"=1]
+"ULK3" -> "CAMKK1" ["e"=1]
+"ULK3" -> "PHKG2" ["e"=1]
+"VRK1" -> "VRK2" ["e"=1]
+"VRK1" -> "MAPK9" ["e"=1]
+"VRK1" -> "STK32A" ["e"=1]
+"VRK1" -> "CSNK1G3" ["e"=1]
+"VRK2" -> "VRK1" ["e"=1]
+"VRK2" -> "STK32A" ["e"=1]
+"VRK2" -> "HIPK4" ["e"=1]
+"VRK2" -> "CSNK1G3" ["e"=1]
 }

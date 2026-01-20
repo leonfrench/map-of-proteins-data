@@ -20,88 +20,88 @@ digraph G {
 "LILRB4" ["l"="9.202,7.745"]
 "LILRB5" ["l"="9.185,7.728"]
 "NCR1" ["l"="9.235,7.686"]
-"CEACAM21" -> "FCAR"
-"CEACAM21" -> "LILRA2"
-"CEACAM21" -> "LAIR2"
-"CEACAM21" -> "GP6"
-"FCAR" -> "LILRA2"
-"FCAR" -> "GP6"
-"FCAR" -> "LILRA1"
-"FCAR" -> "LAIR2"
-"GP6" -> "FCAR"
-"GP6" -> "LILRA2"
-"GP6" -> "LILRA1"
-"GP6" -> "LILRA6"
-"KIR2DL1" -> "KIR2DL3"
-"KIR2DL1" -> "KIR3DL1"
-"KIR2DL1" -> "KIR3DL2"
-"KIR2DL1" -> "KIR3DL3"
-"KIR2DL3" -> "KIR2DL1"
-"KIR2DL3" -> "KIR3DL1"
-"KIR2DL3" -> "KIR3DL2"
-"KIR2DL3" -> "KIR3DL3"
-"KIR2DL4" -> "KIR3DL2"
-"KIR2DL4" -> "KIR2DL1"
-"KIR2DL4" -> "KIR2DL3"
-"KIR2DL4" -> "KIR3DL3"
-"KIR3DL1" -> "KIR2DL3"
-"KIR3DL1" -> "KIR2DL1"
-"KIR3DL1" -> "KIR3DL2"
-"KIR3DL1" -> "KIR3DL3"
-"KIR3DL2" -> "KIR2DL3"
-"KIR3DL2" -> "KIR3DL1"
-"KIR3DL2" -> "KIR2DL1"
-"KIR3DL2" -> "KIR3DL3"
-"KIR3DL3" -> "KIR3DL2"
-"KIR3DL3" -> "KIR2DL1"
-"KIR3DL3" -> "KIR2DL3"
-"KIR3DL3" -> "KIR3DL1"
-"LAIR2" -> "FCAR"
-"LAIR2" -> "LILRA2"
-"LAIR2" -> "LILRA5"
-"LAIR2" -> "GP6"
-"LILRA1" -> "LILRA2"
-"LILRA1" -> "LILRA5"
-"LILRA1" -> "LILRA6"
-"LILRA1" -> "LILRB2"
-"LILRA2" -> "LILRA1"
-"LILRA2" -> "LILRA6"
-"LILRA2" -> "LILRA5"
-"LILRA2" -> "FCAR"
-"LILRA4" -> "LILRA5"
-"LILRA4" -> "LILRA1"
-"LILRA4" -> "LILRA6"
-"LILRA4" -> "LILRB5"
-"LILRA5" -> "LILRA1"
-"LILRA5" -> "LILRA6"
-"LILRA5" -> "LILRA2"
-"LILRA5" -> "LILRA4"
-"LILRA6" -> "LILRA1"
-"LILRA6" -> "LILRA5"
-"LILRA6" -> "LILRA2"
-"LILRA6" -> "LILRB5"
-"LILRB1" -> "LILRB2"
-"LILRB1" -> "LILRB3"
-"LILRB1" -> "LILRB4"
-"LILRB1" -> "LILRB5"
-"LILRB2" -> "LILRB1"
-"LILRB2" -> "LILRB3"
-"LILRB2" -> "LILRB4"
-"LILRB2" -> "LILRB5"
-"LILRB3" -> "LILRB2"
-"LILRB3" -> "LILRB1"
-"LILRB3" -> "LILRB4"
-"LILRB3" -> "LILRB5"
-"LILRB4" -> "LILRB1"
-"LILRB4" -> "LILRB2"
-"LILRB4" -> "LILRB3"
-"LILRB4" -> "LILRB5"
-"LILRB5" -> "LILRB1"
-"LILRB5" -> "LILRB2"
-"LILRB5" -> "LILRB3"
-"LILRB5" -> "LILRA6"
-"NCR1" -> "KIR2DL4"
-"NCR1" -> "LILRA4"
-"NCR1" -> "GP6"
-"NCR1" -> "LILRA5"
+"CEACAM21" -> "FCAR" ["e"=1]
+"CEACAM21" -> "LILRA2" ["e"=1]
+"CEACAM21" -> "LAIR2" ["e"=1]
+"CEACAM21" -> "GP6" ["e"=1]
+"FCAR" -> "LILRA2" ["e"=1]
+"FCAR" -> "GP6" ["e"=1]
+"FCAR" -> "LILRA1" ["e"=1]
+"FCAR" -> "LAIR2" ["e"=1]
+"GP6" -> "FCAR" ["e"=1]
+"GP6" -> "LILRA2" ["e"=1]
+"GP6" -> "LILRA1" ["e"=1]
+"GP6" -> "LILRA6" ["e"=1]
+"KIR2DL1" -> "KIR2DL3" ["e"=1]
+"KIR2DL1" -> "KIR3DL1" ["e"=1]
+"KIR2DL1" -> "KIR3DL2" ["e"=1]
+"KIR2DL1" -> "KIR3DL3" ["e"=1]
+"KIR2DL3" -> "KIR2DL1" ["e"=1]
+"KIR2DL3" -> "KIR3DL1" ["e"=1]
+"KIR2DL3" -> "KIR3DL2" ["e"=1]
+"KIR2DL3" -> "KIR3DL3" ["e"=1]
+"KIR2DL4" -> "KIR3DL2" ["e"=1]
+"KIR2DL4" -> "KIR2DL1" ["e"=1]
+"KIR2DL4" -> "KIR2DL3" ["e"=1]
+"KIR2DL4" -> "KIR3DL3" ["e"=1]
+"KIR3DL1" -> "KIR2DL3" ["e"=1]
+"KIR3DL1" -> "KIR2DL1" ["e"=1]
+"KIR3DL1" -> "KIR3DL2" ["e"=1]
+"KIR3DL1" -> "KIR3DL3" ["e"=1]
+"KIR3DL2" -> "KIR2DL3" ["e"=1]
+"KIR3DL2" -> "KIR3DL1" ["e"=1]
+"KIR3DL2" -> "KIR2DL1" ["e"=1]
+"KIR3DL2" -> "KIR3DL3" ["e"=1]
+"KIR3DL3" -> "KIR3DL2" ["e"=1]
+"KIR3DL3" -> "KIR2DL1" ["e"=1]
+"KIR3DL3" -> "KIR2DL3" ["e"=1]
+"KIR3DL3" -> "KIR3DL1" ["e"=1]
+"LAIR2" -> "FCAR" ["e"=1]
+"LAIR2" -> "LILRA2" ["e"=1]
+"LAIR2" -> "LILRA5" ["e"=1]
+"LAIR2" -> "GP6" ["e"=1]
+"LILRA1" -> "LILRA2" ["e"=1]
+"LILRA1" -> "LILRA5" ["e"=1]
+"LILRA1" -> "LILRA6" ["e"=1]
+"LILRA1" -> "LILRB2" ["e"=1]
+"LILRA2" -> "LILRA1" ["e"=1]
+"LILRA2" -> "LILRA6" ["e"=1]
+"LILRA2" -> "LILRA5" ["e"=1]
+"LILRA2" -> "FCAR" ["e"=1]
+"LILRA4" -> "LILRA5" ["e"=1]
+"LILRA4" -> "LILRA1" ["e"=1]
+"LILRA4" -> "LILRA6" ["e"=1]
+"LILRA4" -> "LILRB5" ["e"=1]
+"LILRA5" -> "LILRA1" ["e"=1]
+"LILRA5" -> "LILRA6" ["e"=1]
+"LILRA5" -> "LILRA2" ["e"=1]
+"LILRA5" -> "LILRA4" ["e"=1]
+"LILRA6" -> "LILRA1" ["e"=1]
+"LILRA6" -> "LILRA5" ["e"=1]
+"LILRA6" -> "LILRA2" ["e"=1]
+"LILRA6" -> "LILRB5" ["e"=1]
+"LILRB1" -> "LILRB2" ["e"=1]
+"LILRB1" -> "LILRB3" ["e"=1]
+"LILRB1" -> "LILRB4" ["e"=1]
+"LILRB1" -> "LILRB5" ["e"=1]
+"LILRB2" -> "LILRB1" ["e"=1]
+"LILRB2" -> "LILRB3" ["e"=1]
+"LILRB2" -> "LILRB4" ["e"=1]
+"LILRB2" -> "LILRB5" ["e"=1]
+"LILRB3" -> "LILRB2" ["e"=1]
+"LILRB3" -> "LILRB1" ["e"=1]
+"LILRB3" -> "LILRB4" ["e"=1]
+"LILRB3" -> "LILRB5" ["e"=1]
+"LILRB4" -> "LILRB1" ["e"=1]
+"LILRB4" -> "LILRB2" ["e"=1]
+"LILRB4" -> "LILRB3" ["e"=1]
+"LILRB4" -> "LILRB5" ["e"=1]
+"LILRB5" -> "LILRB1" ["e"=1]
+"LILRB5" -> "LILRB2" ["e"=1]
+"LILRB5" -> "LILRB3" ["e"=1]
+"LILRB5" -> "LILRA6" ["e"=1]
+"NCR1" -> "KIR2DL4" ["e"=1]
+"NCR1" -> "LILRA4" ["e"=1]
+"NCR1" -> "GP6" ["e"=1]
+"NCR1" -> "LILRA5" ["e"=1]
 }

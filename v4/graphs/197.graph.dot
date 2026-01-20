@@ -53,220 +53,220 @@ digraph G {
 "UNC5B" ["l"="12.189,-1.329"]
 "UNC5C" ["l"="12.167,-1.379"]
 "UNC5D" ["l"="12.173,-1.356"]
-"A2M" -> "PZP"
-"A2M" -> "C4B"
-"A2M" -> "C5"
-"A2M" -> "A2ML1"
-"A2ML1" -> "A2M"
-"A2ML1" -> "PZP"
-"A2ML1" -> "CD109"
-"A2ML1" -> "C4B"
-"ASTN1" -> "ASTN2"
-"ASTN1" -> "UNC5D"
-"ASTN1" -> "UNC5C"
-"ASTN1" -> "DPP6"
-"ASTN2" -> "ASTN1"
-"ASTN2" -> "UNC5C"
-"ASTN2" -> "UNC5D"
-"ASTN2" -> "DPP6"
-"BOC" -> "CDON"
-"BOC" -> "IGDCC4"
-"BOC" -> "IGDCC3"
-"BOC" -> "MDGA1"
-"C3" -> "C4A"
-"C3" -> "C5"
-"C3" -> "C4B"
-"C3" -> "A2M"
-"C4A" -> "C4B"
-"C4A" -> "C3"
-"C4A" -> "CPAMD8"
-"C4A" -> "A2M"
-"C4B" -> "C4A"
-"C4B" -> "A2M"
-"C4B" -> "CPAMD8"
-"C4B" -> "C5"
-"C5" -> "C3"
-"C5" -> "A2M"
-"C5" -> "C4B"
-"C5" -> "PZP"
-"CD109" -> "A2M"
-"CD109" -> "A2ML1"
-"CD109" -> "C4B"
-"CD109" -> "PZP"
-"CDON" -> "IGDCC4"
-"CDON" -> "BOC"
-"CDON" -> "PRTG"
-"CDON" -> "MDGA1"
-"CNTN2" -> "MDGA1"
-"CNTN2" -> "IGLON5"
-"CNTN2" -> "CDON"
-"CNTN2" -> "IGDCC4"
-"COL20A1" -> "IGDCC4"
-"COL20A1" -> "ROBO3"
-"COL20A1" -> "IGDCC3"
-"COL20A1" -> "CNTN2"
-"CPAMD8" -> "C4B"
-"CPAMD8" -> "C4A"
-"CPAMD8" -> "A2M"
-"CPAMD8" -> "NUP210"
-"DPP6" -> "UNC5C"
-"DPP6" -> "ASTN1"
-"DPP6" -> "PTPRM"
-"DPP6" -> "UNC5D"
-"FNDC7" -> "IGDCC4"
-"FNDC7" -> "MDGA1"
-"FNDC7" -> "PRTG"
-"FNDC7" -> "PTPRJ"
-"IGDCC3" -> "IGDCC4"
-"IGDCC3" -> "MDGA1"
-"IGDCC3" -> "PTK7"
-"IGDCC3" -> "PRTG"
-"IGDCC4" -> "IGDCC3"
-"IGDCC4" -> "ROBO3"
-"IGDCC4" -> "PRTG"
-"IGDCC4" -> "CDON"
-"IGLON5" -> "MDGA1"
-"IGLON5" -> "CNTN2"
-"IGLON5" -> "IGSF21"
-"IGLON5" -> "IGDCC3"
-"IGSF21" -> "IGLON5"
-"IGSF21" -> "MDGA1"
-"IGSF21" -> "CNTN2"
-"IGSF21" -> "IGDCC3"
-"IGSF9" -> "ROBO3"
-"IGSF9" -> "IGDCC4"
-"IGSF9" -> "IGDCC3"
-"IGSF9" -> "PTK7"
-"KIRREL1" -> "MDGA1"
-"KIRREL1" -> "IGDCC4"
-"KIRREL1" -> "IGDCC3"
-"KIRREL1" -> "BOC"
-"LRP12" -> "NETO2"
-"LRP12" -> "NETO1"
-"LRP12" -> "RNF150"
-"LRP12" -> "UNC5C"
-"MDGA1" -> "IGDCC3"
-"MDGA1" -> "IGDCC4"
-"MDGA1" -> "CNTN2"
-"MDGA1" -> "IGLON5"
-"NETO1" -> "NETO2"
-"NETO1" -> "UNC5C"
-"NETO1" -> "NRG1"
-"NETO1" -> "LRP12"
-"NETO2" -> "NETO1"
-"NETO2" -> "UNC5C"
-"NETO2" -> "UNC5D"
-"NETO2" -> "LRP12"
-"NRG1" -> "NRG3"
-"NRG1" -> "NETO1"
-"NRG1" -> "UNC5C"
-"NRG1" -> "NETO2"
-"NRG2" -> "SHISA6"
-"NRG2" -> "SHISA9"
-"NRG2" -> "NETO1"
-"NRG2" -> "NRG1"
-"NRG3" -> "NRG1"
-"NRG3" -> "UNC5C"
-"NRG3" -> "UNC5D"
-"NRG3" -> "NETO1"
-"NUP210" -> "NUP210L"
-"NUP210" -> "C4A"
-"NUP210" -> "CPAMD8"
-"NUP210" -> "C4B"
-"NUP210L" -> "NUP210"
-"NUP210L" -> "C4A"
-"NUP210L" -> "C4B"
-"NUP210L" -> "A2M"
-"PRTG" -> "IGDCC4"
-"PRTG" -> "CDON"
-"PRTG" -> "UNC5C"
-"PRTG" -> "IGDCC3"
-"PTK7" -> "IGDCC4"
-"PTK7" -> "IGDCC3"
-"PTK7" -> "MDGA1"
-"PTK7" -> "BOC"
-"PTPRG" -> "PTPRM"
-"PTPRG" -> "PTPRO"
-"PTPRG" -> "PTPRK"
-"PTPRG" -> "UNC5D"
-"PTPRJ" -> "PTPRO"
-"PTPRJ" -> "FNDC7"
-"PTPRJ" -> "UNC5C"
-"PTPRJ" -> "UNC5D"
-"PTPRK" -> "PTPRM"
-"PTPRK" -> "UNC5C"
-"PTPRK" -> "UNC5D"
-"PTPRK" -> "PTPRO"
-"PTPRM" -> "PTPRK"
-"PTPRM" -> "PTPRO"
-"PTPRM" -> "UNC5C"
-"PTPRM" -> "PTPRU"
-"PTPRO" -> "PTPRM"
-"PTPRO" -> "PTPRJ"
-"PTPRO" -> "UNC5D"
-"PTPRO" -> "PTPRK"
-"PTPRU" -> "UNC5B"
-"PTPRU" -> "PTPRK"
-"PTPRU" -> "PTPRM"
-"PTPRU" -> "UNC5A"
-"PZP" -> "A2M"
-"PZP" -> "C5"
-"PZP" -> "A2ML1"
-"PZP" -> "C4B"
-"RNF150" -> "NETO1"
-"RNF150" -> "NETO2"
-"RNF150" -> "UNC5C"
-"RNF150" -> "LRP12"
-"ROBO3" -> "IGDCC4"
-"ROBO3" -> "IGSF9"
-"ROBO3" -> "COL20A1"
-"ROBO3" -> "PTK7"
-"SGCZ" -> "UNC5C"
-"SGCZ" -> "UNC5D"
-"SGCZ" -> "NETO2"
-"SGCZ" -> "SHISA9"
-"SHISA6" -> "SHISA9"
-"SHISA6" -> "NETO2"
-"SHISA6" -> "NRG3"
-"SHISA6" -> "NETO1"
-"SHISA9" -> "SHISA6"
-"SHISA9" -> "NETO2"
-"SHISA9" -> "NRG1"
-"SHISA9" -> "NETO1"
-"TMEM132A" -> "TMEM132E"
-"TMEM132A" -> "IGDCC4"
-"TMEM132A" -> "ROBO3"
-"TMEM132A" -> "IGSF9"
-"TMEM132B" -> "TMEM132D"
-"TMEM132B" -> "TMEM132C"
-"TMEM132B" -> "TMEM132E"
-"TMEM132B" -> "UNC5C"
-"TMEM132C" -> "TMEM132D"
-"TMEM132C" -> "TMEM132B"
-"TMEM132C" -> "TMEM132E"
-"TMEM132C" -> "UNC5C"
-"TMEM132D" -> "TMEM132B"
-"TMEM132D" -> "TMEM132C"
-"TMEM132D" -> "TMEM132E"
-"TMEM132D" -> "UNC5D"
-"TMEM132E" -> "TMEM132C"
-"TMEM132E" -> "TMEM132D"
-"TMEM132E" -> "TMEM132B"
-"TMEM132E" -> "IGDCC3"
-"UNC5A" -> "UNC5B"
-"UNC5A" -> "UNC5C"
-"UNC5A" -> "MDGA1"
-"UNC5A" -> "PTPRU"
-"UNC5B" -> "UNC5A"
-"UNC5B" -> "UNC5C"
-"UNC5B" -> "UNC5D"
-"UNC5B" -> "MDGA1"
-"UNC5C" -> "UNC5D"
-"UNC5C" -> "UNC5B"
-"UNC5C" -> "ASTN1"
-"UNC5C" -> "NETO2"
-"UNC5D" -> "UNC5C"
-"UNC5D" -> "ASTN1"
-"UNC5D" -> "NETO2"
-"UNC5D" -> "UNC5B"
+"A2M" -> "PZP" ["e"=1]
+"A2M" -> "C4B" ["e"=1]
+"A2M" -> "C5" ["e"=1]
+"A2M" -> "A2ML1" ["e"=1]
+"A2ML1" -> "A2M" ["e"=1]
+"A2ML1" -> "PZP" ["e"=1]
+"A2ML1" -> "CD109" ["e"=1]
+"A2ML1" -> "C4B" ["e"=1]
+"ASTN1" -> "ASTN2" ["e"=1]
+"ASTN1" -> "UNC5D" ["e"=1]
+"ASTN1" -> "UNC5C" ["e"=1]
+"ASTN1" -> "DPP6" ["e"=1]
+"ASTN2" -> "ASTN1" ["e"=1]
+"ASTN2" -> "UNC5C" ["e"=1]
+"ASTN2" -> "UNC5D" ["e"=1]
+"ASTN2" -> "DPP6" ["e"=1]
+"BOC" -> "CDON" ["e"=1]
+"BOC" -> "IGDCC4" ["e"=1]
+"BOC" -> "IGDCC3" ["e"=1]
+"BOC" -> "MDGA1" ["e"=1]
+"C3" -> "C4A" ["e"=1]
+"C3" -> "C5" ["e"=1]
+"C3" -> "C4B" ["e"=1]
+"C3" -> "A2M" ["e"=1]
+"C4A" -> "C4B" ["e"=1]
+"C4A" -> "C3" ["e"=1]
+"C4A" -> "CPAMD8" ["e"=1]
+"C4A" -> "A2M" ["e"=1]
+"C4B" -> "C4A" ["e"=1]
+"C4B" -> "A2M" ["e"=1]
+"C4B" -> "CPAMD8" ["e"=1]
+"C4B" -> "C5" ["e"=1]
+"C5" -> "C3" ["e"=1]
+"C5" -> "A2M" ["e"=1]
+"C5" -> "C4B" ["e"=1]
+"C5" -> "PZP" ["e"=1]
+"CD109" -> "A2M" ["e"=1]
+"CD109" -> "A2ML1" ["e"=1]
+"CD109" -> "C4B" ["e"=1]
+"CD109" -> "PZP" ["e"=1]
+"CDON" -> "IGDCC4" ["e"=1]
+"CDON" -> "BOC" ["e"=1]
+"CDON" -> "PRTG" ["e"=1]
+"CDON" -> "MDGA1" ["e"=1]
+"CNTN2" -> "MDGA1" ["e"=1]
+"CNTN2" -> "IGLON5" ["e"=1]
+"CNTN2" -> "CDON" ["e"=1]
+"CNTN2" -> "IGDCC4" ["e"=1]
+"COL20A1" -> "IGDCC4" ["e"=1]
+"COL20A1" -> "ROBO3" ["e"=1]
+"COL20A1" -> "IGDCC3" ["e"=1]
+"COL20A1" -> "CNTN2" ["e"=1]
+"CPAMD8" -> "C4B" ["e"=1]
+"CPAMD8" -> "C4A" ["e"=1]
+"CPAMD8" -> "A2M" ["e"=1]
+"CPAMD8" -> "NUP210" ["e"=1]
+"DPP6" -> "UNC5C" ["e"=1]
+"DPP6" -> "ASTN1" ["e"=1]
+"DPP6" -> "PTPRM" ["e"=1]
+"DPP6" -> "UNC5D" ["e"=1]
+"FNDC7" -> "IGDCC4" ["e"=1]
+"FNDC7" -> "MDGA1" ["e"=1]
+"FNDC7" -> "PRTG" ["e"=1]
+"FNDC7" -> "PTPRJ" ["e"=1]
+"IGDCC3" -> "IGDCC4" ["e"=1]
+"IGDCC3" -> "MDGA1" ["e"=1]
+"IGDCC3" -> "PTK7" ["e"=1]
+"IGDCC3" -> "PRTG" ["e"=1]
+"IGDCC4" -> "IGDCC3" ["e"=1]
+"IGDCC4" -> "ROBO3" ["e"=1]
+"IGDCC4" -> "PRTG" ["e"=1]
+"IGDCC4" -> "CDON" ["e"=1]
+"IGLON5" -> "MDGA1" ["e"=1]
+"IGLON5" -> "CNTN2" ["e"=1]
+"IGLON5" -> "IGSF21" ["e"=1]
+"IGLON5" -> "IGDCC3" ["e"=1]
+"IGSF21" -> "IGLON5" ["e"=1]
+"IGSF21" -> "MDGA1" ["e"=1]
+"IGSF21" -> "CNTN2" ["e"=1]
+"IGSF21" -> "IGDCC3" ["e"=1]
+"IGSF9" -> "ROBO3" ["e"=1]
+"IGSF9" -> "IGDCC4" ["e"=1]
+"IGSF9" -> "IGDCC3" ["e"=1]
+"IGSF9" -> "PTK7" ["e"=1]
+"KIRREL1" -> "MDGA1" ["e"=1]
+"KIRREL1" -> "IGDCC4" ["e"=1]
+"KIRREL1" -> "IGDCC3" ["e"=1]
+"KIRREL1" -> "BOC" ["e"=1]
+"LRP12" -> "NETO2" ["e"=1]
+"LRP12" -> "NETO1" ["e"=1]
+"LRP12" -> "RNF150" ["e"=1]
+"LRP12" -> "UNC5C" ["e"=1]
+"MDGA1" -> "IGDCC3" ["e"=1]
+"MDGA1" -> "IGDCC4" ["e"=1]
+"MDGA1" -> "CNTN2" ["e"=1]
+"MDGA1" -> "IGLON5" ["e"=1]
+"NETO1" -> "NETO2" ["e"=1]
+"NETO1" -> "UNC5C" ["e"=1]
+"NETO1" -> "NRG1" ["e"=1]
+"NETO1" -> "LRP12" ["e"=1]
+"NETO2" -> "NETO1" ["e"=1]
+"NETO2" -> "UNC5C" ["e"=1]
+"NETO2" -> "UNC5D" ["e"=1]
+"NETO2" -> "LRP12" ["e"=1]
+"NRG1" -> "NRG3" ["e"=1]
+"NRG1" -> "NETO1" ["e"=1]
+"NRG1" -> "UNC5C" ["e"=1]
+"NRG1" -> "NETO2" ["e"=1]
+"NRG2" -> "SHISA6" ["e"=1]
+"NRG2" -> "SHISA9" ["e"=1]
+"NRG2" -> "NETO1" ["e"=1]
+"NRG2" -> "NRG1" ["e"=1]
+"NRG3" -> "NRG1" ["e"=1]
+"NRG3" -> "UNC5C" ["e"=1]
+"NRG3" -> "UNC5D" ["e"=1]
+"NRG3" -> "NETO1" ["e"=1]
+"NUP210" -> "NUP210L" ["e"=1]
+"NUP210" -> "C4A" ["e"=1]
+"NUP210" -> "CPAMD8" ["e"=1]
+"NUP210" -> "C4B" ["e"=1]
+"NUP210L" -> "NUP210" ["e"=1]
+"NUP210L" -> "C4A" ["e"=1]
+"NUP210L" -> "C4B" ["e"=1]
+"NUP210L" -> "A2M" ["e"=1]
+"PRTG" -> "IGDCC4" ["e"=1]
+"PRTG" -> "CDON" ["e"=1]
+"PRTG" -> "UNC5C" ["e"=1]
+"PRTG" -> "IGDCC3" ["e"=1]
+"PTK7" -> "IGDCC4" ["e"=1]
+"PTK7" -> "IGDCC3" ["e"=1]
+"PTK7" -> "MDGA1" ["e"=1]
+"PTK7" -> "BOC" ["e"=1]
+"PTPRG" -> "PTPRM" ["e"=1]
+"PTPRG" -> "PTPRO" ["e"=1]
+"PTPRG" -> "PTPRK" ["e"=1]
+"PTPRG" -> "UNC5D" ["e"=1]
+"PTPRJ" -> "PTPRO" ["e"=1]
+"PTPRJ" -> "FNDC7" ["e"=1]
+"PTPRJ" -> "UNC5C" ["e"=1]
+"PTPRJ" -> "UNC5D" ["e"=1]
+"PTPRK" -> "PTPRM" ["e"=1]
+"PTPRK" -> "UNC5C" ["e"=1]
+"PTPRK" -> "UNC5D" ["e"=1]
+"PTPRK" -> "PTPRO" ["e"=1]
+"PTPRM" -> "PTPRK" ["e"=1]
+"PTPRM" -> "PTPRO" ["e"=1]
+"PTPRM" -> "UNC5C" ["e"=1]
+"PTPRM" -> "PTPRU" ["e"=1]
+"PTPRO" -> "PTPRM" ["e"=1]
+"PTPRO" -> "PTPRJ" ["e"=1]
+"PTPRO" -> "UNC5D" ["e"=1]
+"PTPRO" -> "PTPRK" ["e"=1]
+"PTPRU" -> "UNC5B" ["e"=1]
+"PTPRU" -> "PTPRK" ["e"=1]
+"PTPRU" -> "PTPRM" ["e"=1]
+"PTPRU" -> "UNC5A" ["e"=1]
+"PZP" -> "A2M" ["e"=1]
+"PZP" -> "C5" ["e"=1]
+"PZP" -> "A2ML1" ["e"=1]
+"PZP" -> "C4B" ["e"=1]
+"RNF150" -> "NETO1" ["e"=1]
+"RNF150" -> "NETO2" ["e"=1]
+"RNF150" -> "UNC5C" ["e"=1]
+"RNF150" -> "LRP12" ["e"=1]
+"ROBO3" -> "IGDCC4" ["e"=1]
+"ROBO3" -> "IGSF9" ["e"=1]
+"ROBO3" -> "COL20A1" ["e"=1]
+"ROBO3" -> "PTK7" ["e"=1]
+"SGCZ" -> "UNC5C" ["e"=1]
+"SGCZ" -> "UNC5D" ["e"=1]
+"SGCZ" -> "NETO2" ["e"=1]
+"SGCZ" -> "SHISA9" ["e"=1]
+"SHISA6" -> "SHISA9" ["e"=1]
+"SHISA6" -> "NETO2" ["e"=1]
+"SHISA6" -> "NRG3" ["e"=1]
+"SHISA6" -> "NETO1" ["e"=1]
+"SHISA9" -> "SHISA6" ["e"=1]
+"SHISA9" -> "NETO2" ["e"=1]
+"SHISA9" -> "NRG1" ["e"=1]
+"SHISA9" -> "NETO1" ["e"=1]
+"TMEM132A" -> "TMEM132E" ["e"=1]
+"TMEM132A" -> "IGDCC4" ["e"=1]
+"TMEM132A" -> "ROBO3" ["e"=1]
+"TMEM132A" -> "IGSF9" ["e"=1]
+"TMEM132B" -> "TMEM132D" ["e"=1]
+"TMEM132B" -> "TMEM132C" ["e"=1]
+"TMEM132B" -> "TMEM132E" ["e"=1]
+"TMEM132B" -> "UNC5C" ["e"=1]
+"TMEM132C" -> "TMEM132D" ["e"=1]
+"TMEM132C" -> "TMEM132B" ["e"=1]
+"TMEM132C" -> "TMEM132E" ["e"=1]
+"TMEM132C" -> "UNC5C" ["e"=1]
+"TMEM132D" -> "TMEM132B" ["e"=1]
+"TMEM132D" -> "TMEM132C" ["e"=1]
+"TMEM132D" -> "TMEM132E" ["e"=1]
+"TMEM132D" -> "UNC5D" ["e"=1]
+"TMEM132E" -> "TMEM132C" ["e"=1]
+"TMEM132E" -> "TMEM132D" ["e"=1]
+"TMEM132E" -> "TMEM132B" ["e"=1]
+"TMEM132E" -> "IGDCC3" ["e"=1]
+"UNC5A" -> "UNC5B" ["e"=1]
+"UNC5A" -> "UNC5C" ["e"=1]
+"UNC5A" -> "MDGA1" ["e"=1]
+"UNC5A" -> "PTPRU" ["e"=1]
+"UNC5B" -> "UNC5A" ["e"=1]
+"UNC5B" -> "UNC5C" ["e"=1]
+"UNC5B" -> "UNC5D" ["e"=1]
+"UNC5B" -> "MDGA1" ["e"=1]
+"UNC5C" -> "UNC5D" ["e"=1]
+"UNC5C" -> "UNC5B" ["e"=1]
+"UNC5C" -> "ASTN1" ["e"=1]
+"UNC5C" -> "NETO2" ["e"=1]
+"UNC5D" -> "UNC5C" ["e"=1]
+"UNC5D" -> "ASTN1" ["e"=1]
+"UNC5D" -> "NETO2" ["e"=1]
+"UNC5D" -> "UNC5B" ["e"=1]
 }

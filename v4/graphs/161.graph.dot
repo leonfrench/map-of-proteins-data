@@ -14,64 +14,64 @@ digraph G {
 "TECRL" ["l"="9.658,-3.305"]
 "TMEM120A" ["l"="9.706,-3.296"]
 "TP53I11" ["l"="9.635,-3.271"]
-"EBPL" -> "SLC66A2"
-"EBPL" -> "HACD1"
-"EBPL" -> "SRD5A3"
-"EBPL" -> "SRD5A1"
-"G6PC2" -> "SAMD8"
-"G6PC2" -> "SRD5A3"
-"G6PC2" -> "INSIG1"
-"G6PC2" -> "HACD1"
-"HACD1" -> "TECRL"
-"HACD1" -> "HACD4"
-"HACD1" -> "EBPL"
-"HACD1" -> "SRD5A1"
-"HACD4" -> "SRD5A1"
-"HACD4" -> "HACD1"
-"HACD4" -> "SRD5A3"
-"HACD4" -> "SLC66A2"
-"INSIG1" -> "SLC66A2"
-"INSIG1" -> "SRD5A1"
-"INSIG1" -> "TP53I11"
-"INSIG1" -> "RCE1"
-"RCE1" -> "SRD5A3"
-"RCE1" -> "INSIG1"
-"RCE1" -> "SLC66A2"
-"RCE1" -> "HACD1"
-"SAMD8" -> "SGMS2"
-"SAMD8" -> "SGMS1"
-"SAMD8" -> "G6PC2"
-"SAMD8" -> "SLC66A2"
-"SGMS1" -> "SGMS2"
-"SGMS1" -> "SAMD8"
-"SGMS1" -> "INSIG1"
-"SGMS1" -> "TMEM120A"
-"SGMS2" -> "SGMS1"
-"SGMS2" -> "SAMD8"
-"SGMS2" -> "TECRL"
-"SGMS2" -> "G6PC2"
-"SLC66A2" -> "SRD5A1"
-"SLC66A2" -> "SRD5A3"
-"SLC66A2" -> "INSIG1"
-"SLC66A2" -> "EBPL"
-"SRD5A1" -> "SRD5A3"
-"SRD5A1" -> "SLC66A2"
-"SRD5A1" -> "HACD4"
-"SRD5A1" -> "INSIG1"
-"SRD5A3" -> "SRD5A1"
-"SRD5A3" -> "SLC66A2"
-"SRD5A3" -> "HACD4"
-"SRD5A3" -> "EBPL"
-"TECRL" -> "HACD1"
-"TECRL" -> "HACD4"
-"TECRL" -> "G6PC2"
-"TECRL" -> "SGMS2"
-"TMEM120A" -> "RCE1"
-"TMEM120A" -> "INSIG1"
-"TMEM120A" -> "SAMD8"
-"TMEM120A" -> "SLC66A2"
-"TP53I11" -> "INSIG1"
-"TP53I11" -> "SLC66A2"
-"TP53I11" -> "SRD5A3"
-"TP53I11" -> "HACD4"
+"EBPL" -> "SLC66A2" ["e"=1]
+"EBPL" -> "HACD1" ["e"=1]
+"EBPL" -> "SRD5A3" ["e"=1]
+"EBPL" -> "SRD5A1" ["e"=1]
+"G6PC2" -> "SAMD8" ["e"=1]
+"G6PC2" -> "SRD5A3" ["e"=1]
+"G6PC2" -> "INSIG1" ["e"=1]
+"G6PC2" -> "HACD1" ["e"=1]
+"HACD1" -> "TECRL" ["e"=1]
+"HACD1" -> "HACD4" ["e"=1]
+"HACD1" -> "EBPL" ["e"=1]
+"HACD1" -> "SRD5A1" ["e"=1]
+"HACD4" -> "SRD5A1" ["e"=1]
+"HACD4" -> "HACD1" ["e"=1]
+"HACD4" -> "SRD5A3" ["e"=1]
+"HACD4" -> "SLC66A2" ["e"=1]
+"INSIG1" -> "SLC66A2" ["e"=1]
+"INSIG1" -> "SRD5A1" ["e"=1]
+"INSIG1" -> "TP53I11" ["e"=1]
+"INSIG1" -> "RCE1" ["e"=1]
+"RCE1" -> "SRD5A3" ["e"=1]
+"RCE1" -> "INSIG1" ["e"=1]
+"RCE1" -> "SLC66A2" ["e"=1]
+"RCE1" -> "HACD1" ["e"=1]
+"SAMD8" -> "SGMS2" ["e"=1]
+"SAMD8" -> "SGMS1" ["e"=1]
+"SAMD8" -> "G6PC2" ["e"=1]
+"SAMD8" -> "SLC66A2" ["e"=1]
+"SGMS1" -> "SGMS2" ["e"=1]
+"SGMS1" -> "SAMD8" ["e"=1]
+"SGMS1" -> "INSIG1" ["e"=1]
+"SGMS1" -> "TMEM120A" ["e"=1]
+"SGMS2" -> "SGMS1" ["e"=1]
+"SGMS2" -> "SAMD8" ["e"=1]
+"SGMS2" -> "TECRL" ["e"=1]
+"SGMS2" -> "G6PC2" ["e"=1]
+"SLC66A2" -> "SRD5A1" ["e"=1]
+"SLC66A2" -> "SRD5A3" ["e"=1]
+"SLC66A2" -> "INSIG1" ["e"=1]
+"SLC66A2" -> "EBPL" ["e"=1]
+"SRD5A1" -> "SRD5A3" ["e"=1]
+"SRD5A1" -> "SLC66A2" ["e"=1]
+"SRD5A1" -> "HACD4" ["e"=1]
+"SRD5A1" -> "INSIG1" ["e"=1]
+"SRD5A3" -> "SRD5A1" ["e"=1]
+"SRD5A3" -> "SLC66A2" ["e"=1]
+"SRD5A3" -> "HACD4" ["e"=1]
+"SRD5A3" -> "EBPL" ["e"=1]
+"TECRL" -> "HACD1" ["e"=1]
+"TECRL" -> "HACD4" ["e"=1]
+"TECRL" -> "G6PC2" ["e"=1]
+"TECRL" -> "SGMS2" ["e"=1]
+"TMEM120A" -> "RCE1" ["e"=1]
+"TMEM120A" -> "INSIG1" ["e"=1]
+"TMEM120A" -> "SAMD8" ["e"=1]
+"TMEM120A" -> "SLC66A2" ["e"=1]
+"TP53I11" -> "INSIG1" ["e"=1]
+"TP53I11" -> "SLC66A2" ["e"=1]
+"TP53I11" -> "SRD5A3" ["e"=1]
+"TP53I11" -> "HACD4" ["e"=1]
 }

@@ -9,44 +9,44 @@ digraph G {
 "TRGV5" ["l"="11.829,14.510"]
 "TRGV8" ["l"="11.826,14.529"]
 "TRGV9" ["l"="11.844,14.523"]
-"TRAV18" -> "TRGV11"
-"TRAV18" -> "TRGV1"
-"TRAV18" -> "TRGV5"
-"TRAV18" -> "TRGV3"
-"TRDV2" -> "TRGV8"
-"TRDV2" -> "TRGV4"
-"TRDV2" -> "TRGV2"
-"TRDV2" -> "TRGV3"
-"TRGV1" -> "TRGV5"
-"TRGV1" -> "TRGV3"
-"TRGV1" -> "TRGV4"
-"TRGV1" -> "TRGV8"
-"TRGV11" -> "TRAV18"
-"TRGV11" -> "TRGV3"
-"TRGV11" -> "TRGV1"
-"TRGV11" -> "TRGV9"
-"TRGV2" -> "TRGV3"
-"TRGV2" -> "TRGV4"
-"TRGV2" -> "TRGV8"
-"TRGV2" -> "TRGV5"
-"TRGV3" -> "TRGV5"
-"TRGV3" -> "TRGV2"
-"TRGV3" -> "TRGV8"
-"TRGV3" -> "TRGV4"
-"TRGV4" -> "TRGV2"
-"TRGV4" -> "TRGV8"
-"TRGV4" -> "TRGV3"
-"TRGV4" -> "TRGV5"
-"TRGV5" -> "TRGV3"
-"TRGV5" -> "TRGV4"
-"TRGV5" -> "TRGV8"
-"TRGV5" -> "TRGV2"
-"TRGV8" -> "TRGV3"
-"TRGV8" -> "TRGV4"
-"TRGV8" -> "TRGV2"
-"TRGV8" -> "TRGV5"
-"TRGV9" -> "TRGV5"
-"TRGV9" -> "TRGV3"
-"TRGV9" -> "TRGV4"
-"TRGV9" -> "TRGV8"
+"TRAV18" -> "TRGV11" ["e"=1]
+"TRAV18" -> "TRGV1" ["e"=1]
+"TRAV18" -> "TRGV5" ["e"=1]
+"TRAV18" -> "TRGV3" ["e"=1]
+"TRDV2" -> "TRGV8" ["e"=1]
+"TRDV2" -> "TRGV4" ["e"=1]
+"TRDV2" -> "TRGV2" ["e"=1]
+"TRDV2" -> "TRGV3" ["e"=1]
+"TRGV1" -> "TRGV5" ["e"=1]
+"TRGV1" -> "TRGV3" ["e"=1]
+"TRGV1" -> "TRGV4" ["e"=1]
+"TRGV1" -> "TRGV8" ["e"=1]
+"TRGV11" -> "TRAV18" ["e"=1]
+"TRGV11" -> "TRGV3" ["e"=1]
+"TRGV11" -> "TRGV1" ["e"=1]
+"TRGV11" -> "TRGV9" ["e"=1]
+"TRGV2" -> "TRGV3" ["e"=1]
+"TRGV2" -> "TRGV4" ["e"=1]
+"TRGV2" -> "TRGV8" ["e"=1]
+"TRGV2" -> "TRGV5" ["e"=1]
+"TRGV3" -> "TRGV5" ["e"=1]
+"TRGV3" -> "TRGV2" ["e"=1]
+"TRGV3" -> "TRGV8" ["e"=1]
+"TRGV3" -> "TRGV4" ["e"=1]
+"TRGV4" -> "TRGV2" ["e"=1]
+"TRGV4" -> "TRGV8" ["e"=1]
+"TRGV4" -> "TRGV3" ["e"=1]
+"TRGV4" -> "TRGV5" ["e"=1]
+"TRGV5" -> "TRGV3" ["e"=1]
+"TRGV5" -> "TRGV4" ["e"=1]
+"TRGV5" -> "TRGV8" ["e"=1]
+"TRGV5" -> "TRGV2" ["e"=1]
+"TRGV8" -> "TRGV3" ["e"=1]
+"TRGV8" -> "TRGV4" ["e"=1]
+"TRGV8" -> "TRGV2" ["e"=1]
+"TRGV8" -> "TRGV5" ["e"=1]
+"TRGV9" -> "TRGV5" ["e"=1]
+"TRGV9" -> "TRGV3" ["e"=1]
+"TRGV9" -> "TRGV4" ["e"=1]
+"TRGV9" -> "TRGV8" ["e"=1]
 }

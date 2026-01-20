@@ -34,144 +34,144 @@ digraph G {
 "SDK2" ["l"="12.187,-1.802"]
 "TENM2" ["l"="12.260,-1.851"]
 "TENM3" ["l"="12.266,-1.836"]
-"ALCAM" -> "NCAM2"
-"ALCAM" -> "NCAM1"
-"ALCAM" -> "CHL1"
-"ALCAM" -> "CADM1"
-"CADM1" -> "CADM2"
-"CADM1" -> "LSAMP"
-"CADM1" -> "NTM"
-"CADM1" -> "NCAM1"
-"CADM2" -> "NTM"
-"CADM2" -> "LSAMP"
-"CADM2" -> "OPCML"
-"CADM2" -> "CADM1"
-"CHL1" -> "NCAM2"
-"CHL1" -> "CNTN1"
-"CHL1" -> "NRCAM"
-"CHL1" -> "CNTN3"
-"CNTN1" -> "NCAM2"
-"CNTN1" -> "MDGA2"
-"CNTN1" -> "CNTN4"
-"CNTN1" -> "CNTN3"
-"CNTN3" -> "CNTN4"
-"CNTN3" -> "CNTN1"
-"CNTN3" -> "CNTN5"
-"CNTN3" -> "CNTN6"
-"CNTN4" -> "CNTN5"
-"CNTN4" -> "CNTN3"
-"CNTN4" -> "CNTN6"
-"CNTN4" -> "CNTN1"
-"CNTN5" -> "CNTN4"
-"CNTN5" -> "CNTN3"
-"CNTN5" -> "CNTN6"
-"CNTN5" -> "MDGA2"
-"CNTN6" -> "CNTN4"
-"CNTN6" -> "CNTN3"
-"CNTN6" -> "CNTN5"
-"CNTN6" -> "CNTN1"
-"DCC" -> "NEO1"
-"DCC" -> "CNTN5"
-"DCC" -> "ROBO2"
-"DCC" -> "MDGA2"
-"DSCAM" -> "DSCAML1"
-"DSCAM" -> "SDK1"
-"DSCAM" -> "DCC"
-"DSCAM" -> "PTPRD"
-"DSCAML1" -> "DSCAM"
-"DSCAML1" -> "SDK2"
-"DSCAML1" -> "SDK1"
-"DSCAML1" -> "DCC"
-"KIRREL3" -> "DCC"
-"KIRREL3" -> "NTM"
-"KIRREL3" -> "NCAM2"
-"KIRREL3" -> "NCAM1"
-"LSAMP" -> "OPCML"
-"LSAMP" -> "NTM"
-"LSAMP" -> "CADM2"
-"LSAMP" -> "NCAM2"
-"MDGA2" -> "CNTN1"
-"MDGA2" -> "NCAM2"
-"MDGA2" -> "CNTN5"
-"MDGA2" -> "CNTN4"
-"NCAM1" -> "NCAM2"
-"NCAM1" -> "CADM2"
-"NCAM1" -> "CNTN1"
-"NCAM1" -> "NTM"
-"NCAM2" -> "CNTN1"
-"NCAM2" -> "CHL1"
-"NCAM2" -> "NCAM1"
-"NCAM2" -> "MDGA2"
-"NEO1" -> "DCC"
-"NEO1" -> "CNTN1"
-"NEO1" -> "CADM2"
-"NEO1" -> "MDGA2"
-"NFASC" -> "NRCAM"
-"NFASC" -> "CNTN1"
-"NFASC" -> "NCAM1"
-"NFASC" -> "CNTN4"
-"NRCAM" -> "CHL1"
-"NRCAM" -> "CNTN1"
-"NRCAM" -> "MDGA2"
-"NRCAM" -> "NFASC"
-"NRXN1" -> "NRXN3"
-"NRXN1" -> "MDGA2"
-"NRXN1" -> "CADM2"
-"NRXN1" -> "LSAMP"
-"NRXN3" -> "NRXN1"
-"NRXN3" -> "CNTN4"
-"NRXN3" -> "MDGA2"
-"NRXN3" -> "LSAMP"
-"NTM" -> "OPCML"
-"NTM" -> "LSAMP"
-"NTM" -> "CADM2"
-"NTM" -> "NCAM1"
-"OPCML" -> "LSAMP"
-"OPCML" -> "NTM"
-"OPCML" -> "CADM2"
-"OPCML" -> "CNTN4"
-"PKD1L1" -> "PTPRQ"
-"PKD1L1" -> "SDK2"
-"PKD1L1" -> "PTPRF"
-"PKD1L1" -> "SDK1"
-"PTPRD" -> "PTPRS"
-"PTPRD" -> "DSCAM"
-"PTPRD" -> "ROBO2"
-"PTPRD" -> "SDK1"
-"PTPRF" -> "PTPRS"
-"PTPRF" -> "SDK2"
-"PTPRF" -> "PTPRD"
-"PTPRF" -> "SDK1"
-"PTPRQ" -> "SDK1"
-"PTPRQ" -> "DSCAM"
-"PTPRQ" -> "SDK2"
-"PTPRQ" -> "PTPRD"
-"PTPRS" -> "PTPRD"
-"PTPRS" -> "PTPRF"
-"PTPRS" -> "SDK2"
-"PTPRS" -> "SDK1"
-"ROBO1" -> "ROBO2"
-"ROBO1" -> "NEO1"
-"ROBO1" -> "PTPRD"
-"ROBO1" -> "DCC"
-"ROBO2" -> "ROBO1"
-"ROBO2" -> "DCC"
-"ROBO2" -> "PTPRD"
-"ROBO2" -> "DSCAM"
-"SDK1" -> "SDK2"
-"SDK1" -> "DSCAM"
-"SDK1" -> "DSCAML1"
-"SDK1" -> "PTPRD"
-"SDK2" -> "SDK1"
-"SDK2" -> "DSCAML1"
-"SDK2" -> "PTPRF"
-"SDK2" -> "DSCAM"
-"TENM2" -> "TENM3"
-"TENM2" -> "PTPRD"
-"TENM2" -> "SDK1"
-"TENM2" -> "PTPRS"
-"TENM3" -> "TENM2"
-"TENM3" -> "PTPRD"
-"TENM3" -> "SDK1"
-"TENM3" -> "PTPRS"
+"ALCAM" -> "NCAM2" ["e"=1]
+"ALCAM" -> "NCAM1" ["e"=1]
+"ALCAM" -> "CHL1" ["e"=1]
+"ALCAM" -> "CADM1" ["e"=1]
+"CADM1" -> "CADM2" ["e"=1]
+"CADM1" -> "LSAMP" ["e"=1]
+"CADM1" -> "NTM" ["e"=1]
+"CADM1" -> "NCAM1" ["e"=1]
+"CADM2" -> "NTM" ["e"=1]
+"CADM2" -> "LSAMP" ["e"=1]
+"CADM2" -> "OPCML" ["e"=1]
+"CADM2" -> "CADM1" ["e"=1]
+"CHL1" -> "NCAM2" ["e"=1]
+"CHL1" -> "CNTN1" ["e"=1]
+"CHL1" -> "NRCAM" ["e"=1]
+"CHL1" -> "CNTN3" ["e"=1]
+"CNTN1" -> "NCAM2" ["e"=1]
+"CNTN1" -> "MDGA2" ["e"=1]
+"CNTN1" -> "CNTN4" ["e"=1]
+"CNTN1" -> "CNTN3" ["e"=1]
+"CNTN3" -> "CNTN4" ["e"=1]
+"CNTN3" -> "CNTN1" ["e"=1]
+"CNTN3" -> "CNTN5" ["e"=1]
+"CNTN3" -> "CNTN6" ["e"=1]
+"CNTN4" -> "CNTN5" ["e"=1]
+"CNTN4" -> "CNTN3" ["e"=1]
+"CNTN4" -> "CNTN6" ["e"=1]
+"CNTN4" -> "CNTN1" ["e"=1]
+"CNTN5" -> "CNTN4" ["e"=1]
+"CNTN5" -> "CNTN3" ["e"=1]
+"CNTN5" -> "CNTN6" ["e"=1]
+"CNTN5" -> "MDGA2" ["e"=1]
+"CNTN6" -> "CNTN4" ["e"=1]
+"CNTN6" -> "CNTN3" ["e"=1]
+"CNTN6" -> "CNTN5" ["e"=1]
+"CNTN6" -> "CNTN1" ["e"=1]
+"DCC" -> "NEO1" ["e"=1]
+"DCC" -> "CNTN5" ["e"=1]
+"DCC" -> "ROBO2" ["e"=1]
+"DCC" -> "MDGA2" ["e"=1]
+"DSCAM" -> "DSCAML1" ["e"=1]
+"DSCAM" -> "SDK1" ["e"=1]
+"DSCAM" -> "DCC" ["e"=1]
+"DSCAM" -> "PTPRD" ["e"=1]
+"DSCAML1" -> "DSCAM" ["e"=1]
+"DSCAML1" -> "SDK2" ["e"=1]
+"DSCAML1" -> "SDK1" ["e"=1]
+"DSCAML1" -> "DCC" ["e"=1]
+"KIRREL3" -> "DCC" ["e"=1]
+"KIRREL3" -> "NTM" ["e"=1]
+"KIRREL3" -> "NCAM2" ["e"=1]
+"KIRREL3" -> "NCAM1" ["e"=1]
+"LSAMP" -> "OPCML" ["e"=1]
+"LSAMP" -> "NTM" ["e"=1]
+"LSAMP" -> "CADM2" ["e"=1]
+"LSAMP" -> "NCAM2" ["e"=1]
+"MDGA2" -> "CNTN1" ["e"=1]
+"MDGA2" -> "NCAM2" ["e"=1]
+"MDGA2" -> "CNTN5" ["e"=1]
+"MDGA2" -> "CNTN4" ["e"=1]
+"NCAM1" -> "NCAM2" ["e"=1]
+"NCAM1" -> "CADM2" ["e"=1]
+"NCAM1" -> "CNTN1" ["e"=1]
+"NCAM1" -> "NTM" ["e"=1]
+"NCAM2" -> "CNTN1" ["e"=1]
+"NCAM2" -> "CHL1" ["e"=1]
+"NCAM2" -> "NCAM1" ["e"=1]
+"NCAM2" -> "MDGA2" ["e"=1]
+"NEO1" -> "DCC" ["e"=1]
+"NEO1" -> "CNTN1" ["e"=1]
+"NEO1" -> "CADM2" ["e"=1]
+"NEO1" -> "MDGA2" ["e"=1]
+"NFASC" -> "NRCAM" ["e"=1]
+"NFASC" -> "CNTN1" ["e"=1]
+"NFASC" -> "NCAM1" ["e"=1]
+"NFASC" -> "CNTN4" ["e"=1]
+"NRCAM" -> "CHL1" ["e"=1]
+"NRCAM" -> "CNTN1" ["e"=1]
+"NRCAM" -> "MDGA2" ["e"=1]
+"NRCAM" -> "NFASC" ["e"=1]
+"NRXN1" -> "NRXN3" ["e"=1]
+"NRXN1" -> "MDGA2" ["e"=1]
+"NRXN1" -> "CADM2" ["e"=1]
+"NRXN1" -> "LSAMP" ["e"=1]
+"NRXN3" -> "NRXN1" ["e"=1]
+"NRXN3" -> "CNTN4" ["e"=1]
+"NRXN3" -> "MDGA2" ["e"=1]
+"NRXN3" -> "LSAMP" ["e"=1]
+"NTM" -> "OPCML" ["e"=1]
+"NTM" -> "LSAMP" ["e"=1]
+"NTM" -> "CADM2" ["e"=1]
+"NTM" -> "NCAM1" ["e"=1]
+"OPCML" -> "LSAMP" ["e"=1]
+"OPCML" -> "NTM" ["e"=1]
+"OPCML" -> "CADM2" ["e"=1]
+"OPCML" -> "CNTN4" ["e"=1]
+"PKD1L1" -> "PTPRQ" ["e"=1]
+"PKD1L1" -> "SDK2" ["e"=1]
+"PKD1L1" -> "PTPRF" ["e"=1]
+"PKD1L1" -> "SDK1" ["e"=1]
+"PTPRD" -> "PTPRS" ["e"=1]
+"PTPRD" -> "DSCAM" ["e"=1]
+"PTPRD" -> "ROBO2" ["e"=1]
+"PTPRD" -> "SDK1" ["e"=1]
+"PTPRF" -> "PTPRS" ["e"=1]
+"PTPRF" -> "SDK2" ["e"=1]
+"PTPRF" -> "PTPRD" ["e"=1]
+"PTPRF" -> "SDK1" ["e"=1]
+"PTPRQ" -> "SDK1" ["e"=1]
+"PTPRQ" -> "DSCAM" ["e"=1]
+"PTPRQ" -> "SDK2" ["e"=1]
+"PTPRQ" -> "PTPRD" ["e"=1]
+"PTPRS" -> "PTPRD" ["e"=1]
+"PTPRS" -> "PTPRF" ["e"=1]
+"PTPRS" -> "SDK2" ["e"=1]
+"PTPRS" -> "SDK1" ["e"=1]
+"ROBO1" -> "ROBO2" ["e"=1]
+"ROBO1" -> "NEO1" ["e"=1]
+"ROBO1" -> "PTPRD" ["e"=1]
+"ROBO1" -> "DCC" ["e"=1]
+"ROBO2" -> "ROBO1" ["e"=1]
+"ROBO2" -> "DCC" ["e"=1]
+"ROBO2" -> "PTPRD" ["e"=1]
+"ROBO2" -> "DSCAM" ["e"=1]
+"SDK1" -> "SDK2" ["e"=1]
+"SDK1" -> "DSCAM" ["e"=1]
+"SDK1" -> "DSCAML1" ["e"=1]
+"SDK1" -> "PTPRD" ["e"=1]
+"SDK2" -> "SDK1" ["e"=1]
+"SDK2" -> "DSCAML1" ["e"=1]
+"SDK2" -> "PTPRF" ["e"=1]
+"SDK2" -> "DSCAM" ["e"=1]
+"TENM2" -> "TENM3" ["e"=1]
+"TENM2" -> "PTPRD" ["e"=1]
+"TENM2" -> "SDK1" ["e"=1]
+"TENM2" -> "PTPRS" ["e"=1]
+"TENM3" -> "TENM2" ["e"=1]
+"TENM3" -> "PTPRD" ["e"=1]
+"TENM3" -> "SDK1" ["e"=1]
+"TENM3" -> "PTPRS" ["e"=1]
 }

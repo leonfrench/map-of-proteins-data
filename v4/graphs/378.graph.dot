@@ -32,136 +32,136 @@ digraph G {
 "WEE2" ["l"="9.762,2.583"]
 "ZCCHC24" ["l"="9.613,2.571"]
 "ZMYND10" ["l"="9.748,2.750"]
-"ATXN7L3" -> "DUSP7"
-"ATXN7L3" -> "CXXC1"
-"ATXN7L3" -> "TCEA3"
-"ATXN7L3" -> "ZCCHC24"
-"CDK5R1" -> "DUSP7"
-"CDK5R1" -> "ZCCHC24"
-"CDK5R1" -> "WEE2"
-"CDK5R1" -> "ATXN7L3"
-"CDT1" -> "CENPQ"
-"CDT1" -> "WEE1"
-"CDT1" -> "WEE2"
-"CDT1" -> "RAB3IL1"
-"CENPK" -> "CENPQ"
-"CENPK" -> "RNF32"
-"CENPK" -> "CDT1"
-"CENPK" -> "WEE2"
-"CENPQ" -> "CENPK"
-"CENPQ" -> "WEE2"
-"CENPQ" -> "CDT1"
-"CENPQ" -> "RNF32"
-"CRIP1" -> "CRIP2"
-"CRIP1" -> "CSRP2"
-"CRIP1" -> "CSRP1"
-"CRIP1" -> "CRIP3"
-"CRIP2" -> "CRIP3"
-"CRIP2" -> "CSRP1"
-"CRIP2" -> "CSRP2"
-"CRIP2" -> "CRIP1"
-"CRIP3" -> "CRIP2"
-"CRIP3" -> "CSRP2"
-"CRIP3" -> "CSRP3"
-"CRIP3" -> "CRIP1"
-"CSRP1" -> "CSRP3"
-"CSRP1" -> "CRIP2"
-"CSRP1" -> "CSRP2"
-"CSRP1" -> "TES"
-"CSRP2" -> "CRIP2"
-"CSRP2" -> "CSRP1"
-"CSRP2" -> "CRIP3"
-"CSRP2" -> "CSRP3"
-"CSRP3" -> "CSRP1"
-"CSRP3" -> "CSRP2"
-"CSRP3" -> "CRIP2"
-"CSRP3" -> "CRIP3"
-"CXXC1" -> "ATXN7L3"
-"CXXC1" -> "ZCCHC24"
-"CXXC1" -> "TES"
-"CXXC1" -> "TCEA3"
-"DUSP7" -> "ATXN7L3"
-"DUSP7" -> "CDK5R1"
-"DUSP7" -> "LMO4"
-"DUSP7" -> "WEE2"
-"EGLN2" -> "WEE2"
-"EGLN2" -> "LMO4"
-"EGLN2" -> "DUSP7"
-"EGLN2" -> "RAB3IL1"
-"FBLIM1" -> "LIMS2"
-"FBLIM1" -> "FHL5"
-"FBLIM1" -> "TES"
-"FBLIM1" -> "FHL2"
-"FHL2" -> "FHL3"
-"FHL2" -> "FHL5"
-"FHL2" -> "LIMS2"
-"FHL2" -> "LMO1"
-"FHL3" -> "FHL2"
-"FHL3" -> "FHL5"
-"FHL3" -> "LIMS1"
-"FHL3" -> "LIMS2"
-"FHL5" -> "FHL2"
-"FHL5" -> "FHL3"
-"FHL5" -> "LIMS2"
-"FHL5" -> "LIMS1"
-"LEMD3" -> "WEE1"
-"LEMD3" -> "WEE2"
-"LEMD3" -> "PAWR"
-"LEMD3" -> "EGLN2"
-"LIMS1" -> "LIMS2"
-"LIMS1" -> "FHL5"
-"LIMS1" -> "TES"
-"LIMS1" -> "FHL3"
-"LIMS2" -> "LIMS1"
-"LIMS2" -> "FHL5"
-"LIMS2" -> "FHL2"
-"LIMS2" -> "LMO1"
-"LMO1" -> "LMO4"
-"LMO1" -> "LIMS2"
-"LMO1" -> "FHL2"
-"LMO1" -> "LIMS1"
-"LMO4" -> "LMO1"
-"LMO4" -> "CSRP2"
-"LMO4" -> "LIMS1"
-"LMO4" -> "LIMS2"
-"PAWR" -> "WEE1"
-"PAWR" -> "WEE2"
-"PAWR" -> "LEMD3"
-"PAWR" -> "TES"
-"PBK" -> "WEE2"
-"PBK" -> "WEE1"
-"PBK" -> "CENPQ"
-"PBK" -> "CENPK"
-"RAB3IL1" -> "WEE2"
-"RAB3IL1" -> "EGLN2"
-"RAB3IL1" -> "ZCCHC24"
-"RAB3IL1" -> "TCEA3"
-"RNF32" -> "TES"
-"RNF32" -> "LIMS1"
-"RNF32" -> "ZMYND10"
-"RNF32" -> "WEE2"
-"TCEA3" -> "ATXN7L3"
-"TCEA3" -> "ZCCHC24"
-"TCEA3" -> "RAB3IL1"
-"TCEA3" -> "PAWR"
-"TES" -> "LIMS1"
-"TES" -> "RNF32"
-"TES" -> "CRIP2"
-"TES" -> "CSRP1"
-"WEE1" -> "WEE2"
-"WEE1" -> "PAWR"
-"WEE1" -> "PBK"
-"WEE1" -> "LEMD3"
-"WEE2" -> "WEE1"
-"WEE2" -> "EGLN2"
-"WEE2" -> "PBK"
-"WEE2" -> "DUSP7"
-"ZCCHC24" -> "TES"
-"ZCCHC24" -> "LMO4"
-"ZCCHC24" -> "ATXN7L3"
-"ZCCHC24" -> "CDK5R1"
-"ZMYND10" -> "RNF32"
-"ZMYND10" -> "TES"
-"ZMYND10" -> "CRIP2"
-"ZMYND10" -> "ZCCHC24"
+"ATXN7L3" -> "DUSP7" ["e"=1]
+"ATXN7L3" -> "CXXC1" ["e"=1]
+"ATXN7L3" -> "TCEA3" ["e"=1]
+"ATXN7L3" -> "ZCCHC24" ["e"=1]
+"CDK5R1" -> "DUSP7" ["e"=1]
+"CDK5R1" -> "ZCCHC24" ["e"=1]
+"CDK5R1" -> "WEE2" ["e"=1]
+"CDK5R1" -> "ATXN7L3" ["e"=1]
+"CDT1" -> "CENPQ" ["e"=1]
+"CDT1" -> "WEE1" ["e"=1]
+"CDT1" -> "WEE2" ["e"=1]
+"CDT1" -> "RAB3IL1" ["e"=1]
+"CENPK" -> "CENPQ" ["e"=1]
+"CENPK" -> "RNF32" ["e"=1]
+"CENPK" -> "CDT1" ["e"=1]
+"CENPK" -> "WEE2" ["e"=1]
+"CENPQ" -> "CENPK" ["e"=1]
+"CENPQ" -> "WEE2" ["e"=1]
+"CENPQ" -> "CDT1" ["e"=1]
+"CENPQ" -> "RNF32" ["e"=1]
+"CRIP1" -> "CRIP2" ["e"=1]
+"CRIP1" -> "CSRP2" ["e"=1]
+"CRIP1" -> "CSRP1" ["e"=1]
+"CRIP1" -> "CRIP3" ["e"=1]
+"CRIP2" -> "CRIP3" ["e"=1]
+"CRIP2" -> "CSRP1" ["e"=1]
+"CRIP2" -> "CSRP2" ["e"=1]
+"CRIP2" -> "CRIP1" ["e"=1]
+"CRIP3" -> "CRIP2" ["e"=1]
+"CRIP3" -> "CSRP2" ["e"=1]
+"CRIP3" -> "CSRP3" ["e"=1]
+"CRIP3" -> "CRIP1" ["e"=1]
+"CSRP1" -> "CSRP3" ["e"=1]
+"CSRP1" -> "CRIP2" ["e"=1]
+"CSRP1" -> "CSRP2" ["e"=1]
+"CSRP1" -> "TES" ["e"=1]
+"CSRP2" -> "CRIP2" ["e"=1]
+"CSRP2" -> "CSRP1" ["e"=1]
+"CSRP2" -> "CRIP3" ["e"=1]
+"CSRP2" -> "CSRP3" ["e"=1]
+"CSRP3" -> "CSRP1" ["e"=1]
+"CSRP3" -> "CSRP2" ["e"=1]
+"CSRP3" -> "CRIP2" ["e"=1]
+"CSRP3" -> "CRIP3" ["e"=1]
+"CXXC1" -> "ATXN7L3" ["e"=1]
+"CXXC1" -> "ZCCHC24" ["e"=1]
+"CXXC1" -> "TES" ["e"=1]
+"CXXC1" -> "TCEA3" ["e"=1]
+"DUSP7" -> "ATXN7L3" ["e"=1]
+"DUSP7" -> "CDK5R1" ["e"=1]
+"DUSP7" -> "LMO4" ["e"=1]
+"DUSP7" -> "WEE2" ["e"=1]
+"EGLN2" -> "WEE2" ["e"=1]
+"EGLN2" -> "LMO4" ["e"=1]
+"EGLN2" -> "DUSP7" ["e"=1]
+"EGLN2" -> "RAB3IL1" ["e"=1]
+"FBLIM1" -> "LIMS2" ["e"=1]
+"FBLIM1" -> "FHL5" ["e"=1]
+"FBLIM1" -> "TES" ["e"=1]
+"FBLIM1" -> "FHL2" ["e"=1]
+"FHL2" -> "FHL3" ["e"=1]
+"FHL2" -> "FHL5" ["e"=1]
+"FHL2" -> "LIMS2" ["e"=1]
+"FHL2" -> "LMO1" ["e"=1]
+"FHL3" -> "FHL2" ["e"=1]
+"FHL3" -> "FHL5" ["e"=1]
+"FHL3" -> "LIMS1" ["e"=1]
+"FHL3" -> "LIMS2" ["e"=1]
+"FHL5" -> "FHL2" ["e"=1]
+"FHL5" -> "FHL3" ["e"=1]
+"FHL5" -> "LIMS2" ["e"=1]
+"FHL5" -> "LIMS1" ["e"=1]
+"LEMD3" -> "WEE1" ["e"=1]
+"LEMD3" -> "WEE2" ["e"=1]
+"LEMD3" -> "PAWR" ["e"=1]
+"LEMD3" -> "EGLN2" ["e"=1]
+"LIMS1" -> "LIMS2" ["e"=1]
+"LIMS1" -> "FHL5" ["e"=1]
+"LIMS1" -> "TES" ["e"=1]
+"LIMS1" -> "FHL3" ["e"=1]
+"LIMS2" -> "LIMS1" ["e"=1]
+"LIMS2" -> "FHL5" ["e"=1]
+"LIMS2" -> "FHL2" ["e"=1]
+"LIMS2" -> "LMO1" ["e"=1]
+"LMO1" -> "LMO4" ["e"=1]
+"LMO1" -> "LIMS2" ["e"=1]
+"LMO1" -> "FHL2" ["e"=1]
+"LMO1" -> "LIMS1" ["e"=1]
+"LMO4" -> "LMO1" ["e"=1]
+"LMO4" -> "CSRP2" ["e"=1]
+"LMO4" -> "LIMS1" ["e"=1]
+"LMO4" -> "LIMS2" ["e"=1]
+"PAWR" -> "WEE1" ["e"=1]
+"PAWR" -> "WEE2" ["e"=1]
+"PAWR" -> "LEMD3" ["e"=1]
+"PAWR" -> "TES" ["e"=1]
+"PBK" -> "WEE2" ["e"=1]
+"PBK" -> "WEE1" ["e"=1]
+"PBK" -> "CENPQ" ["e"=1]
+"PBK" -> "CENPK" ["e"=1]
+"RAB3IL1" -> "WEE2" ["e"=1]
+"RAB3IL1" -> "EGLN2" ["e"=1]
+"RAB3IL1" -> "ZCCHC24" ["e"=1]
+"RAB3IL1" -> "TCEA3" ["e"=1]
+"RNF32" -> "TES" ["e"=1]
+"RNF32" -> "LIMS1" ["e"=1]
+"RNF32" -> "ZMYND10" ["e"=1]
+"RNF32" -> "WEE2" ["e"=1]
+"TCEA3" -> "ATXN7L3" ["e"=1]
+"TCEA3" -> "ZCCHC24" ["e"=1]
+"TCEA3" -> "RAB3IL1" ["e"=1]
+"TCEA3" -> "PAWR" ["e"=1]
+"TES" -> "LIMS1" ["e"=1]
+"TES" -> "RNF32" ["e"=1]
+"TES" -> "CRIP2" ["e"=1]
+"TES" -> "CSRP1" ["e"=1]
+"WEE1" -> "WEE2" ["e"=1]
+"WEE1" -> "PAWR" ["e"=1]
+"WEE1" -> "PBK" ["e"=1]
+"WEE1" -> "LEMD3" ["e"=1]
+"WEE2" -> "WEE1" ["e"=1]
+"WEE2" -> "EGLN2" ["e"=1]
+"WEE2" -> "PBK" ["e"=1]
+"WEE2" -> "DUSP7" ["e"=1]
+"ZCCHC24" -> "TES" ["e"=1]
+"ZCCHC24" -> "LMO4" ["e"=1]
+"ZCCHC24" -> "ATXN7L3" ["e"=1]
+"ZCCHC24" -> "CDK5R1" ["e"=1]
+"ZMYND10" -> "RNF32" ["e"=1]
+"ZMYND10" -> "TES" ["e"=1]
+"ZMYND10" -> "CRIP2" ["e"=1]
+"ZMYND10" -> "ZCCHC24" ["e"=1]
 }

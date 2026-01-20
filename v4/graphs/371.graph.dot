@@ -14,64 +14,64 @@ digraph G {
 "TIPIN" ["l"="10.831,3.121"]
 "URAD" ["l"="10.823,3.069"]
 "ZNF622" ["l"="10.889,3.099"]
-"BLOC1S6" -> "MED21"
-"BLOC1S6" -> "C1orf52"
-"BLOC1S6" -> "PMF1"
-"BLOC1S6" -> "SCOC"
-"BORCS7" -> "PMF1"
-"BORCS7" -> "SIKE1"
-"BORCS7" -> "MED21"
-"BORCS7" -> "BLOC1S6"
-"C1orf52" -> "ISY1"
-"C1orf52" -> "MED21"
-"C1orf52" -> "TAF11"
-"C1orf52" -> "SLC7A6OS"
-"GPANK1" -> "TAF11"
-"GPANK1" -> "C1orf52"
-"GPANK1" -> "SIKE1"
-"GPANK1" -> "ISY1"
-"ISY1" -> "C1orf52"
-"ISY1" -> "TIPIN"
-"ISY1" -> "SIKE1"
-"ISY1" -> "TAF11"
-"KXD1" -> "MED21"
-"KXD1" -> "PMF1"
-"KXD1" -> "BLOC1S6"
-"KXD1" -> "SIKE1"
-"MED21" -> "SIKE1"
-"MED21" -> "BLOC1S6"
-"MED21" -> "BORCS7"
-"MED21" -> "C1orf52"
-"PMF1" -> "BORCS7"
-"PMF1" -> "MED21"
-"PMF1" -> "BLOC1S6"
-"PMF1" -> "SIKE1"
-"SCOC" -> "SIKE1"
-"SCOC" -> "BLOC1S6"
-"SCOC" -> "MED21"
-"SCOC" -> "TAF11"
-"SIKE1" -> "MED21"
-"SIKE1" -> "BORCS7"
-"SIKE1" -> "SCOC"
-"SIKE1" -> "PMF1"
-"SLC7A6OS" -> "C1orf52"
-"SLC7A6OS" -> "ISY1"
-"SLC7A6OS" -> "SIKE1"
-"SLC7A6OS" -> "TAF11"
-"TAF11" -> "C1orf52"
-"TAF11" -> "BLOC1S6"
-"TAF11" -> "ISY1"
-"TAF11" -> "TIPIN"
-"TIPIN" -> "ISY1"
-"TIPIN" -> "TAF11"
-"TIPIN" -> "SIKE1"
-"TIPIN" -> "C1orf52"
-"URAD" -> "SIKE1"
-"URAD" -> "PMF1"
-"URAD" -> "BORCS7"
-"URAD" -> "MED21"
-"ZNF622" -> "ISY1"
-"ZNF622" -> "SLC7A6OS"
-"ZNF622" -> "C1orf52"
-"ZNF622" -> "SIKE1"
+"BLOC1S6" -> "MED21" ["e"=1]
+"BLOC1S6" -> "C1orf52" ["e"=1]
+"BLOC1S6" -> "PMF1" ["e"=1]
+"BLOC1S6" -> "SCOC" ["e"=1]
+"BORCS7" -> "PMF1" ["e"=1]
+"BORCS7" -> "SIKE1" ["e"=1]
+"BORCS7" -> "MED21" ["e"=1]
+"BORCS7" -> "BLOC1S6" ["e"=1]
+"C1orf52" -> "ISY1" ["e"=1]
+"C1orf52" -> "MED21" ["e"=1]
+"C1orf52" -> "TAF11" ["e"=1]
+"C1orf52" -> "SLC7A6OS" ["e"=1]
+"GPANK1" -> "TAF11" ["e"=1]
+"GPANK1" -> "C1orf52" ["e"=1]
+"GPANK1" -> "SIKE1" ["e"=1]
+"GPANK1" -> "ISY1" ["e"=1]
+"ISY1" -> "C1orf52" ["e"=1]
+"ISY1" -> "TIPIN" ["e"=1]
+"ISY1" -> "SIKE1" ["e"=1]
+"ISY1" -> "TAF11" ["e"=1]
+"KXD1" -> "MED21" ["e"=1]
+"KXD1" -> "PMF1" ["e"=1]
+"KXD1" -> "BLOC1S6" ["e"=1]
+"KXD1" -> "SIKE1" ["e"=1]
+"MED21" -> "SIKE1" ["e"=1]
+"MED21" -> "BLOC1S6" ["e"=1]
+"MED21" -> "BORCS7" ["e"=1]
+"MED21" -> "C1orf52" ["e"=1]
+"PMF1" -> "BORCS7" ["e"=1]
+"PMF1" -> "MED21" ["e"=1]
+"PMF1" -> "BLOC1S6" ["e"=1]
+"PMF1" -> "SIKE1" ["e"=1]
+"SCOC" -> "SIKE1" ["e"=1]
+"SCOC" -> "BLOC1S6" ["e"=1]
+"SCOC" -> "MED21" ["e"=1]
+"SCOC" -> "TAF11" ["e"=1]
+"SIKE1" -> "MED21" ["e"=1]
+"SIKE1" -> "BORCS7" ["e"=1]
+"SIKE1" -> "SCOC" ["e"=1]
+"SIKE1" -> "PMF1" ["e"=1]
+"SLC7A6OS" -> "C1orf52" ["e"=1]
+"SLC7A6OS" -> "ISY1" ["e"=1]
+"SLC7A6OS" -> "SIKE1" ["e"=1]
+"SLC7A6OS" -> "TAF11" ["e"=1]
+"TAF11" -> "C1orf52" ["e"=1]
+"TAF11" -> "BLOC1S6" ["e"=1]
+"TAF11" -> "ISY1" ["e"=1]
+"TAF11" -> "TIPIN" ["e"=1]
+"TIPIN" -> "ISY1" ["e"=1]
+"TIPIN" -> "TAF11" ["e"=1]
+"TIPIN" -> "SIKE1" ["e"=1]
+"TIPIN" -> "C1orf52" ["e"=1]
+"URAD" -> "SIKE1" ["e"=1]
+"URAD" -> "PMF1" ["e"=1]
+"URAD" -> "BORCS7" ["e"=1]
+"URAD" -> "MED21" ["e"=1]
+"ZNF622" -> "ISY1" ["e"=1]
+"ZNF622" -> "SLC7A6OS" ["e"=1]
+"ZNF622" -> "C1orf52" ["e"=1]
+"ZNF622" -> "SIKE1" ["e"=1]
 }

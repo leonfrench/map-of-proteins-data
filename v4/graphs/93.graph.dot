@@ -31,132 +31,132 @@ digraph G {
 "RHOA" ["l"="7.481,-7.013"]
 "RHOC" ["l"="7.556,-7.069"]
 "RHOG" ["l"="7.514,-7.126"]
-"ARF1" -> "ARF3"
-"ARF1" -> "RHOA"
-"ARF1" -> "ARF5"
-"ARF1" -> "RAB11A"
-"ARF3" -> "RAB11A"
-"ARF3" -> "RAB1B"
-"ARF3" -> "RAB6B"
-"ARF3" -> "RAB2B"
-"ARF5" -> "ARF1"
-"ARF5" -> "ARF3"
-"ARF5" -> "RAB1B"
-"ARF5" -> "RAB13"
-"ARL17A" -> "RAB6D"
-"ARL17A" -> "RAB2B"
-"ARL17A" -> "RAB8B"
-"ARL17A" -> "RAB35"
-"CDC42" -> "RAC1"
-"CDC42" -> "RHOA"
-"CDC42" -> "RAB11A"
-"CDC42" -> "ARF3"
-"NRAS" -> "RAB11A"
-"NRAS" -> "RAB2B"
-"NRAS" -> "RAB35"
-"NRAS" -> "RAB30"
-"RAB10" -> "RAB2A"
-"RAB10" -> "RAB8B"
-"RAB10" -> "RAB35"
-"RAB10" -> "RAB7A"
-"RAB11A" -> "RAB2A"
-"RAB11A" -> "RAB2B"
-"RAB11A" -> "RAB6A"
-"RAB11A" -> "RAC1"
-"RAB11B" -> "RAB1B"
-"RAB11B" -> "RAB2B"
-"RAB11B" -> "RAB6A"
-"RAB11B" -> "RAB11A"
-"RAB13" -> "RAB35"
-"RAB13" -> "RAB8A"
-"RAB13" -> "RAB8B"
-"RAB13" -> "RAB10"
-"RAB1B" -> "RAB11B"
-"RAB1B" -> "RAB35"
-"RAB1B" -> "RAB11A"
-"RAB1B" -> "ARF3"
-"RAB2A" -> "RAB6A"
-"RAB2A" -> "RAB5A"
-"RAB2A" -> "RAB11A"
-"RAB2A" -> "RAB10"
-"RAB2B" -> "RAB6A"
-"RAB2B" -> "RAB2A"
-"RAB2B" -> "RAB35"
-"RAB2B" -> "RAB11A"
-"RAB30" -> "RAB2B"
-"RAB30" -> "RAB35"
-"RAB30" -> "NRAS"
-"RAB30" -> "RAB11A"
-"RAB35" -> "RAB8B"
-"RAB35" -> "RAB2B"
-"RAB35" -> "RAB10"
-"RAB35" -> "RAB6B"
-"RAB3A" -> "RAB3C"
-"RAB3A" -> "RAB35"
-"RAB3A" -> "RAB11B"
-"RAB3A" -> "RAB2B"
-"RAB3C" -> "RAB3A"
-"RAB3C" -> "RAB6A"
-"RAB3C" -> "RAB2B"
-"RAB3C" -> "RAB6B"
-"RAB5A" -> "RAB6A"
-"RAB5A" -> "RAB2A"
-"RAB5A" -> "RAB5C"
-"RAB5A" -> "RAB11A"
-"RAB5B" -> "RAB2B"
-"RAB5B" -> "RAB5A"
-"RAB5B" -> "RAB6A"
-"RAB5B" -> "RAB1B"
-"RAB5C" -> "RAB5A"
-"RAB5C" -> "RAB7A"
-"RAB5C" -> "RAB6A"
-"RAB5C" -> "RAB35"
-"RAB6A" -> "RAB2A"
-"RAB6A" -> "RAB5A"
-"RAB6A" -> "RAB2B"
-"RAB6A" -> "RAB6B"
-"RAB6B" -> "RAB6A"
-"RAB6B" -> "RAB35"
-"RAB6B" -> "RAB2B"
-"RAB6B" -> "RAB8B"
-"RAB6D" -> "ARL17A"
-"RAB6D" -> "RAB2B"
-"RAB6D" -> "RAB8B"
-"RAB6D" -> "RAB6A"
-"RAB7A" -> "RAB10"
-"RAB7A" -> "RAB5C"
-"RAB7A" -> "RAB5A"
-"RAB7A" -> "RAB6A"
-"RAB8A" -> "RAB8B"
-"RAB8A" -> "RAB2A"
-"RAB8A" -> "RAB35"
-"RAB8A" -> "RAB1B"
-"RAB8B" -> "RAB8A"
-"RAB8B" -> "RAB35"
-"RAB8B" -> "RAB10"
-"RAB8B" -> "RAB6A"
-"RAC1" -> "CDC42"
-"RAC1" -> "RAB11A"
-"RAC1" -> "RHOA"
-"RAC1" -> "RAC3"
-"RAC2" -> "RHOG"
-"RAC2" -> "RAC3"
-"RAC2" -> "RHOA"
-"RAC2" -> "RAB1B"
-"RAC3" -> "RAC2"
-"RAC3" -> "RAC1"
-"RAC3" -> "RAB11A"
-"RAC3" -> "RHOC"
-"RHOA" -> "CDC42"
-"RHOA" -> "RAC1"
-"RHOA" -> "RHOC"
-"RHOA" -> "RAC2"
-"RHOC" -> "RHOA"
-"RHOC" -> "RAC3"
-"RHOC" -> "RAC2"
-"RHOC" -> "CDC42"
-"RHOG" -> "RAC2"
-"RHOG" -> "RHOA"
-"RHOG" -> "RAC3"
-"RHOG" -> "RAB7A"
+"ARF1" -> "ARF3" ["e"=1]
+"ARF1" -> "RHOA" ["e"=1]
+"ARF1" -> "ARF5" ["e"=1]
+"ARF1" -> "RAB11A" ["e"=1]
+"ARF3" -> "RAB11A" ["e"=1]
+"ARF3" -> "RAB1B" ["e"=1]
+"ARF3" -> "RAB6B" ["e"=1]
+"ARF3" -> "RAB2B" ["e"=1]
+"ARF5" -> "ARF1" ["e"=1]
+"ARF5" -> "ARF3" ["e"=1]
+"ARF5" -> "RAB1B" ["e"=1]
+"ARF5" -> "RAB13" ["e"=1]
+"ARL17A" -> "RAB6D" ["e"=1]
+"ARL17A" -> "RAB2B" ["e"=1]
+"ARL17A" -> "RAB8B" ["e"=1]
+"ARL17A" -> "RAB35" ["e"=1]
+"CDC42" -> "RAC1" ["e"=1]
+"CDC42" -> "RHOA" ["e"=1]
+"CDC42" -> "RAB11A" ["e"=1]
+"CDC42" -> "ARF3" ["e"=1]
+"NRAS" -> "RAB11A" ["e"=1]
+"NRAS" -> "RAB2B" ["e"=1]
+"NRAS" -> "RAB35" ["e"=1]
+"NRAS" -> "RAB30" ["e"=1]
+"RAB10" -> "RAB2A" ["e"=1]
+"RAB10" -> "RAB8B" ["e"=1]
+"RAB10" -> "RAB35" ["e"=1]
+"RAB10" -> "RAB7A" ["e"=1]
+"RAB11A" -> "RAB2A" ["e"=1]
+"RAB11A" -> "RAB2B" ["e"=1]
+"RAB11A" -> "RAB6A" ["e"=1]
+"RAB11A" -> "RAC1" ["e"=1]
+"RAB11B" -> "RAB1B" ["e"=1]
+"RAB11B" -> "RAB2B" ["e"=1]
+"RAB11B" -> "RAB6A" ["e"=1]
+"RAB11B" -> "RAB11A" ["e"=1]
+"RAB13" -> "RAB35" ["e"=1]
+"RAB13" -> "RAB8A" ["e"=1]
+"RAB13" -> "RAB8B" ["e"=1]
+"RAB13" -> "RAB10" ["e"=1]
+"RAB1B" -> "RAB11B" ["e"=1]
+"RAB1B" -> "RAB35" ["e"=1]
+"RAB1B" -> "RAB11A" ["e"=1]
+"RAB1B" -> "ARF3" ["e"=1]
+"RAB2A" -> "RAB6A" ["e"=1]
+"RAB2A" -> "RAB5A" ["e"=1]
+"RAB2A" -> "RAB11A" ["e"=1]
+"RAB2A" -> "RAB10" ["e"=1]
+"RAB2B" -> "RAB6A" ["e"=1]
+"RAB2B" -> "RAB2A" ["e"=1]
+"RAB2B" -> "RAB35" ["e"=1]
+"RAB2B" -> "RAB11A" ["e"=1]
+"RAB30" -> "RAB2B" ["e"=1]
+"RAB30" -> "RAB35" ["e"=1]
+"RAB30" -> "NRAS" ["e"=1]
+"RAB30" -> "RAB11A" ["e"=1]
+"RAB35" -> "RAB8B" ["e"=1]
+"RAB35" -> "RAB2B" ["e"=1]
+"RAB35" -> "RAB10" ["e"=1]
+"RAB35" -> "RAB6B" ["e"=1]
+"RAB3A" -> "RAB3C" ["e"=1]
+"RAB3A" -> "RAB35" ["e"=1]
+"RAB3A" -> "RAB11B" ["e"=1]
+"RAB3A" -> "RAB2B" ["e"=1]
+"RAB3C" -> "RAB3A" ["e"=1]
+"RAB3C" -> "RAB6A" ["e"=1]
+"RAB3C" -> "RAB2B" ["e"=1]
+"RAB3C" -> "RAB6B" ["e"=1]
+"RAB5A" -> "RAB6A" ["e"=1]
+"RAB5A" -> "RAB2A" ["e"=1]
+"RAB5A" -> "RAB5C" ["e"=1]
+"RAB5A" -> "RAB11A" ["e"=1]
+"RAB5B" -> "RAB2B" ["e"=1]
+"RAB5B" -> "RAB5A" ["e"=1]
+"RAB5B" -> "RAB6A" ["e"=1]
+"RAB5B" -> "RAB1B" ["e"=1]
+"RAB5C" -> "RAB5A" ["e"=1]
+"RAB5C" -> "RAB7A" ["e"=1]
+"RAB5C" -> "RAB6A" ["e"=1]
+"RAB5C" -> "RAB35" ["e"=1]
+"RAB6A" -> "RAB2A" ["e"=1]
+"RAB6A" -> "RAB5A" ["e"=1]
+"RAB6A" -> "RAB2B" ["e"=1]
+"RAB6A" -> "RAB6B" ["e"=1]
+"RAB6B" -> "RAB6A" ["e"=1]
+"RAB6B" -> "RAB35" ["e"=1]
+"RAB6B" -> "RAB2B" ["e"=1]
+"RAB6B" -> "RAB8B" ["e"=1]
+"RAB6D" -> "ARL17A" ["e"=1]
+"RAB6D" -> "RAB2B" ["e"=1]
+"RAB6D" -> "RAB8B" ["e"=1]
+"RAB6D" -> "RAB6A" ["e"=1]
+"RAB7A" -> "RAB10" ["e"=1]
+"RAB7A" -> "RAB5C" ["e"=1]
+"RAB7A" -> "RAB5A" ["e"=1]
+"RAB7A" -> "RAB6A" ["e"=1]
+"RAB8A" -> "RAB8B" ["e"=1]
+"RAB8A" -> "RAB2A" ["e"=1]
+"RAB8A" -> "RAB35" ["e"=1]
+"RAB8A" -> "RAB1B" ["e"=1]
+"RAB8B" -> "RAB8A" ["e"=1]
+"RAB8B" -> "RAB35" ["e"=1]
+"RAB8B" -> "RAB10" ["e"=1]
+"RAB8B" -> "RAB6A" ["e"=1]
+"RAC1" -> "CDC42" ["e"=1]
+"RAC1" -> "RAB11A" ["e"=1]
+"RAC1" -> "RHOA" ["e"=1]
+"RAC1" -> "RAC3" ["e"=1]
+"RAC2" -> "RHOG" ["e"=1]
+"RAC2" -> "RAC3" ["e"=1]
+"RAC2" -> "RHOA" ["e"=1]
+"RAC2" -> "RAB1B" ["e"=1]
+"RAC3" -> "RAC2" ["e"=1]
+"RAC3" -> "RAC1" ["e"=1]
+"RAC3" -> "RAB11A" ["e"=1]
+"RAC3" -> "RHOC" ["e"=1]
+"RHOA" -> "CDC42" ["e"=1]
+"RHOA" -> "RAC1" ["e"=1]
+"RHOA" -> "RHOC" ["e"=1]
+"RHOA" -> "RAC2" ["e"=1]
+"RHOC" -> "RHOA" ["e"=1]
+"RHOC" -> "RAC3" ["e"=1]
+"RHOC" -> "RAC2" ["e"=1]
+"RHOC" -> "CDC42" ["e"=1]
+"RHOG" -> "RAC2" ["e"=1]
+"RHOG" -> "RHOA" ["e"=1]
+"RHOG" -> "RAC3" ["e"=1]
+"RHOG" -> "RAB7A" ["e"=1]
 }

@@ -9,44 +9,44 @@ digraph G {
 "CCT8" ["l"="14.286,2.579"]
 "HSPD1" ["l"="14.267,2.550"]
 "TCP1" ["l"="14.254,2.551"]
-"CCT2" -> "CCT6A"
-"CCT2" -> "CCT5"
-"CCT2" -> "CCT7"
-"CCT2" -> "CCT4"
-"CCT3" -> "CCT4"
-"CCT3" -> "CCT7"
-"CCT3" -> "CCT2"
-"CCT3" -> "CCT5"
-"CCT4" -> "TCP1"
-"CCT4" -> "CCT5"
-"CCT4" -> "CCT3"
-"CCT4" -> "CCT2"
-"CCT5" -> "CCT6A"
-"CCT5" -> "CCT8"
-"CCT5" -> "CCT7"
-"CCT5" -> "CCT4"
-"CCT6A" -> "CCT5"
-"CCT6A" -> "CCT2"
-"CCT6A" -> "CCT4"
-"CCT6A" -> "TCP1"
-"CCT6B" -> "CCT6A"
-"CCT6B" -> "CCT2"
-"CCT6B" -> "CCT5"
-"CCT6B" -> "TCP1"
-"CCT7" -> "CCT5"
-"CCT7" -> "CCT3"
-"CCT7" -> "CCT2"
-"CCT7" -> "CCT4"
-"CCT8" -> "CCT5"
-"CCT8" -> "CCT4"
-"CCT8" -> "CCT2"
-"CCT8" -> "TCP1"
-"HSPD1" -> "CCT2"
-"HSPD1" -> "TCP1"
-"HSPD1" -> "CCT6A"
-"HSPD1" -> "CCT5"
-"TCP1" -> "CCT4"
-"TCP1" -> "CCT5"
-"TCP1" -> "CCT2"
-"TCP1" -> "CCT8"
+"CCT2" -> "CCT6A" ["e"=1]
+"CCT2" -> "CCT5" ["e"=1]
+"CCT2" -> "CCT7" ["e"=1]
+"CCT2" -> "CCT4" ["e"=1]
+"CCT3" -> "CCT4" ["e"=1]
+"CCT3" -> "CCT7" ["e"=1]
+"CCT3" -> "CCT2" ["e"=1]
+"CCT3" -> "CCT5" ["e"=1]
+"CCT4" -> "TCP1" ["e"=1]
+"CCT4" -> "CCT5" ["e"=1]
+"CCT4" -> "CCT3" ["e"=1]
+"CCT4" -> "CCT2" ["e"=1]
+"CCT5" -> "CCT6A" ["e"=1]
+"CCT5" -> "CCT8" ["e"=1]
+"CCT5" -> "CCT7" ["e"=1]
+"CCT5" -> "CCT4" ["e"=1]
+"CCT6A" -> "CCT5" ["e"=1]
+"CCT6A" -> "CCT2" ["e"=1]
+"CCT6A" -> "CCT4" ["e"=1]
+"CCT6A" -> "TCP1" ["e"=1]
+"CCT6B" -> "CCT6A" ["e"=1]
+"CCT6B" -> "CCT2" ["e"=1]
+"CCT6B" -> "CCT5" ["e"=1]
+"CCT6B" -> "TCP1" ["e"=1]
+"CCT7" -> "CCT5" ["e"=1]
+"CCT7" -> "CCT3" ["e"=1]
+"CCT7" -> "CCT2" ["e"=1]
+"CCT7" -> "CCT4" ["e"=1]
+"CCT8" -> "CCT5" ["e"=1]
+"CCT8" -> "CCT4" ["e"=1]
+"CCT8" -> "CCT2" ["e"=1]
+"CCT8" -> "TCP1" ["e"=1]
+"HSPD1" -> "CCT2" ["e"=1]
+"HSPD1" -> "TCP1" ["e"=1]
+"HSPD1" -> "CCT6A" ["e"=1]
+"HSPD1" -> "CCT5" ["e"=1]
+"TCP1" -> "CCT4" ["e"=1]
+"TCP1" -> "CCT5" ["e"=1]
+"TCP1" -> "CCT2" ["e"=1]
+"TCP1" -> "CCT8" ["e"=1]
 }

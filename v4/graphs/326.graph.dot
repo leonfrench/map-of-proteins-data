@@ -28,120 +28,120 @@ digraph G {
 "TBC1D9B" ["l"="9.766,0.449"]
 "TECPR1" ["l"="10.030,0.428"]
 "TECPR2" ["l"="9.922,0.376"]
-"C2CD2" -> "C2CD2L"
-"C2CD2" -> "ESYT3"
-"C2CD2" -> "ESYT1"
-"C2CD2" -> "DENND3"
-"C2CD2L" -> "C2CD2"
-"C2CD2L" -> "ESYT3"
-"C2CD2L" -> "ESYT1"
-"C2CD2L" -> "ESYT2"
-"CADPS" -> "CADPS2"
-"CADPS" -> "CYFIP2"
-"CADPS" -> "DENND5B"
-"CADPS" -> "DGKB"
-"CADPS2" -> "CADPS"
-"CADPS2" -> "CYFIP2"
-"CADPS2" -> "DENND5B"
-"CADPS2" -> "PPP1R21"
-"CLEC16A" -> "DENND5B"
-"CLEC16A" -> "RPTOR"
-"CLEC16A" -> "TBC1D9"
-"CLEC16A" -> "TBC1D9B"
-"CYFIP2" -> "DENND5B"
-"CYFIP2" -> "CADPS2"
-"CYFIP2" -> "CADPS"
-"CYFIP2" -> "CLEC16A"
-"DENND3" -> "TBC1D8"
-"DENND3" -> "TBC1D9B"
-"DENND3" -> "C2CD2"
-"DENND3" -> "TBC1D9"
-"DENND5B" -> "CYFIP2"
-"DENND5B" -> "DIP2B"
-"DENND5B" -> "RPTOR"
-"DENND5B" -> "DIP2C"
-"DGKB" -> "MCTP1"
-"DGKB" -> "DIP2B"
-"DGKB" -> "MCTP2"
-"DGKB" -> "DENND5B"
-"DIP2A" -> "DIP2B"
-"DIP2A" -> "DIP2C"
-"DIP2A" -> "PNPLA7"
-"DIP2A" -> "DENND5B"
-"DIP2B" -> "DIP2C"
-"DIP2B" -> "DIP2A"
-"DIP2B" -> "DENND5B"
-"DIP2B" -> "PNPLA7"
-"DIP2C" -> "DIP2B"
-"DIP2C" -> "DIP2A"
-"DIP2C" -> "DENND5B"
-"DIP2C" -> "RPTOR"
-"ESYT1" -> "ESYT3"
-"ESYT1" -> "ESYT2"
-"ESYT1" -> "C2CD2"
-"ESYT1" -> "C2CD2L"
-"ESYT2" -> "ESYT3"
-"ESYT2" -> "ESYT1"
-"ESYT2" -> "MCTP2"
-"ESYT2" -> "MCTP1"
-"ESYT3" -> "ESYT1"
-"ESYT3" -> "ESYT2"
-"ESYT3" -> "C2CD2"
-"ESYT3" -> "C2CD2L"
-"MCTP1" -> "MCTP2"
-"MCTP1" -> "DGKB"
-"MCTP1" -> "ESYT2"
-"MCTP1" -> "ESYT3"
-"MCTP2" -> "MCTP1"
-"MCTP2" -> "ESYT2"
-"MCTP2" -> "ESYT3"
-"MCTP2" -> "C2CD2"
-"PNPLA6" -> "PNPLA7"
-"PNPLA6" -> "TBC1D9B"
-"PNPLA6" -> "DIP2A"
-"PNPLA6" -> "RPTOR"
-"PNPLA7" -> "PNPLA6"
-"PNPLA7" -> "DIP2B"
-"PNPLA7" -> "RPTOR"
-"PNPLA7" -> "DIP2A"
-"PPP1R21" -> "CADPS2"
-"PPP1R21" -> "DENND5B"
-"PPP1R21" -> "SNX7"
-"PPP1R21" -> "CADPS"
-"PTPN5" -> "MCTP1"
-"PTPN5" -> "C2CD2L"
-"PTPN5" -> "MCTP2"
-"PTPN5" -> "ESYT1"
-"RPTOR" -> "DENND5B"
-"RPTOR" -> "DIP2B"
-"RPTOR" -> "PNPLA7"
-"RPTOR" -> "CLEC16A"
-"SNX7" -> "PPP1R21"
-"SNX7" -> "MCTP2"
-"SNX7" -> "MCTP1"
-"SNX7" -> "C2CD2L"
-"SYTL1" -> "ESYT1"
-"SYTL1" -> "C2CD2"
-"SYTL1" -> "C2CD2L"
-"SYTL1" -> "ESYT3"
-"TBC1D8" -> "TBC1D9"
-"TBC1D8" -> "TBC1D9B"
-"TBC1D8" -> "DENND3"
-"TBC1D8" -> "DENND5B"
-"TBC1D9" -> "TBC1D9B"
-"TBC1D9" -> "TBC1D8"
-"TBC1D9" -> "DENND3"
-"TBC1D9" -> "CLEC16A"
-"TBC1D9B" -> "TBC1D9"
-"TBC1D9B" -> "TBC1D8"
-"TBC1D9B" -> "DENND3"
-"TBC1D9B" -> "PNPLA6"
-"TECPR1" -> "TECPR2"
-"TECPR1" -> "DENND3"
-"TECPR1" -> "TBC1D9B"
-"TECPR1" -> "TBC1D8"
-"TECPR2" -> "TECPR1"
-"TECPR2" -> "DENND3"
-"TECPR2" -> "RPTOR"
-"TECPR2" -> "TBC1D9B"
+"C2CD2" -> "C2CD2L" ["e"=1]
+"C2CD2" -> "ESYT3" ["e"=1]
+"C2CD2" -> "ESYT1" ["e"=1]
+"C2CD2" -> "DENND3" ["e"=1]
+"C2CD2L" -> "C2CD2" ["e"=1]
+"C2CD2L" -> "ESYT3" ["e"=1]
+"C2CD2L" -> "ESYT1" ["e"=1]
+"C2CD2L" -> "ESYT2" ["e"=1]
+"CADPS" -> "CADPS2" ["e"=1]
+"CADPS" -> "CYFIP2" ["e"=1]
+"CADPS" -> "DENND5B" ["e"=1]
+"CADPS" -> "DGKB" ["e"=1]
+"CADPS2" -> "CADPS" ["e"=1]
+"CADPS2" -> "CYFIP2" ["e"=1]
+"CADPS2" -> "DENND5B" ["e"=1]
+"CADPS2" -> "PPP1R21" ["e"=1]
+"CLEC16A" -> "DENND5B" ["e"=1]
+"CLEC16A" -> "RPTOR" ["e"=1]
+"CLEC16A" -> "TBC1D9" ["e"=1]
+"CLEC16A" -> "TBC1D9B" ["e"=1]
+"CYFIP2" -> "DENND5B" ["e"=1]
+"CYFIP2" -> "CADPS2" ["e"=1]
+"CYFIP2" -> "CADPS" ["e"=1]
+"CYFIP2" -> "CLEC16A" ["e"=1]
+"DENND3" -> "TBC1D8" ["e"=1]
+"DENND3" -> "TBC1D9B" ["e"=1]
+"DENND3" -> "C2CD2" ["e"=1]
+"DENND3" -> "TBC1D9" ["e"=1]
+"DENND5B" -> "CYFIP2" ["e"=1]
+"DENND5B" -> "DIP2B" ["e"=1]
+"DENND5B" -> "RPTOR" ["e"=1]
+"DENND5B" -> "DIP2C" ["e"=1]
+"DGKB" -> "MCTP1" ["e"=1]
+"DGKB" -> "DIP2B" ["e"=1]
+"DGKB" -> "MCTP2" ["e"=1]
+"DGKB" -> "DENND5B" ["e"=1]
+"DIP2A" -> "DIP2B" ["e"=1]
+"DIP2A" -> "DIP2C" ["e"=1]
+"DIP2A" -> "PNPLA7" ["e"=1]
+"DIP2A" -> "DENND5B" ["e"=1]
+"DIP2B" -> "DIP2C" ["e"=1]
+"DIP2B" -> "DIP2A" ["e"=1]
+"DIP2B" -> "DENND5B" ["e"=1]
+"DIP2B" -> "PNPLA7" ["e"=1]
+"DIP2C" -> "DIP2B" ["e"=1]
+"DIP2C" -> "DIP2A" ["e"=1]
+"DIP2C" -> "DENND5B" ["e"=1]
+"DIP2C" -> "RPTOR" ["e"=1]
+"ESYT1" -> "ESYT3" ["e"=1]
+"ESYT1" -> "ESYT2" ["e"=1]
+"ESYT1" -> "C2CD2" ["e"=1]
+"ESYT1" -> "C2CD2L" ["e"=1]
+"ESYT2" -> "ESYT3" ["e"=1]
+"ESYT2" -> "ESYT1" ["e"=1]
+"ESYT2" -> "MCTP2" ["e"=1]
+"ESYT2" -> "MCTP1" ["e"=1]
+"ESYT3" -> "ESYT1" ["e"=1]
+"ESYT3" -> "ESYT2" ["e"=1]
+"ESYT3" -> "C2CD2" ["e"=1]
+"ESYT3" -> "C2CD2L" ["e"=1]
+"MCTP1" -> "MCTP2" ["e"=1]
+"MCTP1" -> "DGKB" ["e"=1]
+"MCTP1" -> "ESYT2" ["e"=1]
+"MCTP1" -> "ESYT3" ["e"=1]
+"MCTP2" -> "MCTP1" ["e"=1]
+"MCTP2" -> "ESYT2" ["e"=1]
+"MCTP2" -> "ESYT3" ["e"=1]
+"MCTP2" -> "C2CD2" ["e"=1]
+"PNPLA6" -> "PNPLA7" ["e"=1]
+"PNPLA6" -> "TBC1D9B" ["e"=1]
+"PNPLA6" -> "DIP2A" ["e"=1]
+"PNPLA6" -> "RPTOR" ["e"=1]
+"PNPLA7" -> "PNPLA6" ["e"=1]
+"PNPLA7" -> "DIP2B" ["e"=1]
+"PNPLA7" -> "RPTOR" ["e"=1]
+"PNPLA7" -> "DIP2A" ["e"=1]
+"PPP1R21" -> "CADPS2" ["e"=1]
+"PPP1R21" -> "DENND5B" ["e"=1]
+"PPP1R21" -> "SNX7" ["e"=1]
+"PPP1R21" -> "CADPS" ["e"=1]
+"PTPN5" -> "MCTP1" ["e"=1]
+"PTPN5" -> "C2CD2L" ["e"=1]
+"PTPN5" -> "MCTP2" ["e"=1]
+"PTPN5" -> "ESYT1" ["e"=1]
+"RPTOR" -> "DENND5B" ["e"=1]
+"RPTOR" -> "DIP2B" ["e"=1]
+"RPTOR" -> "PNPLA7" ["e"=1]
+"RPTOR" -> "CLEC16A" ["e"=1]
+"SNX7" -> "PPP1R21" ["e"=1]
+"SNX7" -> "MCTP2" ["e"=1]
+"SNX7" -> "MCTP1" ["e"=1]
+"SNX7" -> "C2CD2L" ["e"=1]
+"SYTL1" -> "ESYT1" ["e"=1]
+"SYTL1" -> "C2CD2" ["e"=1]
+"SYTL1" -> "C2CD2L" ["e"=1]
+"SYTL1" -> "ESYT3" ["e"=1]
+"TBC1D8" -> "TBC1D9" ["e"=1]
+"TBC1D8" -> "TBC1D9B" ["e"=1]
+"TBC1D8" -> "DENND3" ["e"=1]
+"TBC1D8" -> "DENND5B" ["e"=1]
+"TBC1D9" -> "TBC1D9B" ["e"=1]
+"TBC1D9" -> "TBC1D8" ["e"=1]
+"TBC1D9" -> "DENND3" ["e"=1]
+"TBC1D9" -> "CLEC16A" ["e"=1]
+"TBC1D9B" -> "TBC1D9" ["e"=1]
+"TBC1D9B" -> "TBC1D8" ["e"=1]
+"TBC1D9B" -> "DENND3" ["e"=1]
+"TBC1D9B" -> "PNPLA6" ["e"=1]
+"TECPR1" -> "TECPR2" ["e"=1]
+"TECPR1" -> "DENND3" ["e"=1]
+"TECPR1" -> "TBC1D9B" ["e"=1]
+"TECPR1" -> "TBC1D8" ["e"=1]
+"TECPR2" -> "TECPR1" ["e"=1]
+"TECPR2" -> "DENND3" ["e"=1]
+"TECPR2" -> "RPTOR" ["e"=1]
+"TECPR2" -> "TBC1D9B" ["e"=1]
 }

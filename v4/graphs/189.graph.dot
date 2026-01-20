@@ -36,152 +36,152 @@ digraph G {
 "VWA5B1" ["l"="11.911,-0.427"]
 "VWA5B2" ["l"="11.959,-0.441"]
 "WFS1" ["l"="11.722,0.333"]
-"CARD8" -> "NUGGC"
-"CARD8" -> "GIMAP6"
-"CARD8" -> "GIMAP8"
-"CARD8" -> "GIMAP2"
-"CATSPERB" -> "CATSPERE"
-"CATSPERB" -> "CATSPERG"
-"CATSPERB" -> "TCTN2"
-"CATSPERB" -> "CATSPERD"
-"CATSPERD" -> "CATSPERE"
-"CATSPERD" -> "CATSPERG"
-"CATSPERD" -> "TCTN2"
-"CATSPERD" -> "TMEM231"
-"CATSPERE" -> "CATSPERD"
-"CATSPERE" -> "CATSPERB"
-"CATSPERE" -> "TCTN2"
-"CATSPERE" -> "CATSPERG"
-"CATSPERG" -> "CATSPERD"
-"CATSPERG" -> "CATSPERB"
-"CATSPERG" -> "CATSPERE"
-"CATSPERG" -> "TCTN2"
-"DNAJC3" -> "WFS1"
-"DNAJC3" -> "TCTN2"
-"DNAJC3" -> "VWA5B1"
-"DNAJC3" -> "NOX4"
-"GBP1" -> "GBP2"
-"GBP1" -> "GBP3"
-"GBP1" -> "GBP5"
-"GBP1" -> "GBP4"
-"GBP2" -> "GBP1"
-"GBP2" -> "GBP4"
-"GBP2" -> "GBP5"
-"GBP2" -> "GBP3"
-"GBP3" -> "GBP4"
-"GBP3" -> "GBP1"
-"GBP3" -> "GBP5"
-"GBP3" -> "GBP7"
-"GBP4" -> "GBP5"
-"GBP4" -> "GBP3"
-"GBP4" -> "GBP2"
-"GBP4" -> "GBP7"
-"GBP5" -> "GBP4"
-"GBP5" -> "GBP3"
-"GBP5" -> "GBP1"
-"GBP5" -> "GBP2"
-"GBP6" -> "GBP3"
-"GBP6" -> "GBP4"
-"GBP6" -> "GBP7"
-"GBP6" -> "GBP5"
-"GBP7" -> "GBP4"
-"GBP7" -> "GBP3"
-"GBP7" -> "GBP6"
-"GBP7" -> "GBP1"
-"GIMAP1" -> "GIMAP5"
-"GIMAP1" -> "GIMAP2"
-"GIMAP1" -> "GIMAP6"
-"GIMAP1" -> "GIMAP4"
-"GIMAP2" -> "GIMAP1"
-"GIMAP2" -> "GIMAP5"
-"GIMAP2" -> "GIMAP6"
-"GIMAP2" -> "GIMAP4"
-"GIMAP4" -> "GIMAP7"
-"GIMAP4" -> "GIMAP5"
-"GIMAP4" -> "GIMAP6"
-"GIMAP4" -> "GIMAP1"
-"GIMAP5" -> "GIMAP1"
-"GIMAP5" -> "GIMAP2"
-"GIMAP5" -> "GIMAP4"
-"GIMAP5" -> "GIMAP6"
-"GIMAP6" -> "GIMAP1"
-"GIMAP6" -> "GIMAP5"
-"GIMAP6" -> "GIMAP2"
-"GIMAP6" -> "GIMAP8"
-"GIMAP7" -> "GIMAP4"
-"GIMAP7" -> "GIMAP5"
-"GIMAP7" -> "GIMAP1"
-"GIMAP7" -> "GIMAP2"
-"GIMAP8" -> "GIMAP6"
-"GIMAP8" -> "GIMAP1"
-"GIMAP8" -> "GIMAP2"
-"GIMAP8" -> "GIMAP7"
-"GPC2" -> "NOX3"
-"GPC2" -> "GSDME"
-"GPC2" -> "TCTN2"
-"GPC2" -> "VWA5B1"
-"GSDMB" -> "GSDME"
-"GSDMB" -> "GSDMD"
-"GSDMB" -> "NUGGC"
-"GSDMB" -> "CARD8"
-"GSDMD" -> "GSDMB"
-"GSDMD" -> "GSDME"
-"GSDMD" -> "CARD8"
-"GSDMD" -> "NUGGC"
-"GSDME" -> "GSDMB"
-"GSDME" -> "GSDMD"
-"GSDME" -> "NUGGC"
-"GSDME" -> "TCTN2"
-"MX1" -> "GBP1"
-"MX1" -> "GBP5"
-"MX1" -> "GBP4"
-"MX1" -> "GBP3"
-"NOX3" -> "NOX4"
-"NOX3" -> "VWA5B1"
-"NOX3" -> "NUGGC"
-"NOX3" -> "WFS1"
-"NOX4" -> "NOX3"
-"NOX4" -> "CATSPERB"
-"NOX4" -> "WFS1"
-"NOX4" -> "VWA5B1"
-"NUGGC" -> "GBP7"
-"NUGGC" -> "GBP6"
-"NUGGC" -> "GBP5"
-"NUGGC" -> "CARD8"
-"PARP4" -> "VWA5A"
-"PARP4" -> "VWA5B1"
-"PARP4" -> "NUGGC"
-"PARP4" -> "CARD8"
-"TCTN1" -> "TCTN2"
-"TCTN1" -> "TMEM67"
-"TCTN1" -> "CATSPERD"
-"TCTN1" -> "TMEM231"
-"TCTN2" -> "TCTN1"
-"TCTN2" -> "CATSPERD"
-"TCTN2" -> "CATSPERE"
-"TCTN2" -> "TMEM67"
-"TMEM231" -> "TMEM67"
-"TMEM231" -> "TCTN2"
-"TMEM231" -> "CATSPERD"
-"TMEM231" -> "TCTN1"
-"TMEM67" -> "TMEM231"
-"TMEM67" -> "TCTN2"
-"TMEM67" -> "TCTN1"
-"TMEM67" -> "CATSPERE"
-"VWA5A" -> "VWA5B1"
-"VWA5A" -> "PARP4"
-"VWA5A" -> "VWA5B2"
-"VWA5A" -> "TCTN2"
-"VWA5B1" -> "VWA5B2"
-"VWA5B1" -> "VWA5A"
-"VWA5B1" -> "PARP4"
-"VWA5B1" -> "TCTN2"
-"VWA5B2" -> "VWA5B1"
-"VWA5B2" -> "VWA5A"
-"VWA5B2" -> "TCTN2"
-"VWA5B2" -> "CATSPERB"
-"WFS1" -> "CATSPERG"
-"WFS1" -> "TCTN2"
-"WFS1" -> "NOX4"
-"WFS1" -> "GSDMB"
+"CARD8" -> "NUGGC" ["e"=1]
+"CARD8" -> "GIMAP6" ["e"=1]
+"CARD8" -> "GIMAP8" ["e"=1]
+"CARD8" -> "GIMAP2" ["e"=1]
+"CATSPERB" -> "CATSPERE" ["e"=1]
+"CATSPERB" -> "CATSPERG" ["e"=1]
+"CATSPERB" -> "TCTN2" ["e"=1]
+"CATSPERB" -> "CATSPERD" ["e"=1]
+"CATSPERD" -> "CATSPERE" ["e"=1]
+"CATSPERD" -> "CATSPERG" ["e"=1]
+"CATSPERD" -> "TCTN2" ["e"=1]
+"CATSPERD" -> "TMEM231" ["e"=1]
+"CATSPERE" -> "CATSPERD" ["e"=1]
+"CATSPERE" -> "CATSPERB" ["e"=1]
+"CATSPERE" -> "TCTN2" ["e"=1]
+"CATSPERE" -> "CATSPERG" ["e"=1]
+"CATSPERG" -> "CATSPERD" ["e"=1]
+"CATSPERG" -> "CATSPERB" ["e"=1]
+"CATSPERG" -> "CATSPERE" ["e"=1]
+"CATSPERG" -> "TCTN2" ["e"=1]
+"DNAJC3" -> "WFS1" ["e"=1]
+"DNAJC3" -> "TCTN2" ["e"=1]
+"DNAJC3" -> "VWA5B1" ["e"=1]
+"DNAJC3" -> "NOX4" ["e"=1]
+"GBP1" -> "GBP2" ["e"=1]
+"GBP1" -> "GBP3" ["e"=1]
+"GBP1" -> "GBP5" ["e"=1]
+"GBP1" -> "GBP4" ["e"=1]
+"GBP2" -> "GBP1" ["e"=1]
+"GBP2" -> "GBP4" ["e"=1]
+"GBP2" -> "GBP5" ["e"=1]
+"GBP2" -> "GBP3" ["e"=1]
+"GBP3" -> "GBP4" ["e"=1]
+"GBP3" -> "GBP1" ["e"=1]
+"GBP3" -> "GBP5" ["e"=1]
+"GBP3" -> "GBP7" ["e"=1]
+"GBP4" -> "GBP5" ["e"=1]
+"GBP4" -> "GBP3" ["e"=1]
+"GBP4" -> "GBP2" ["e"=1]
+"GBP4" -> "GBP7" ["e"=1]
+"GBP5" -> "GBP4" ["e"=1]
+"GBP5" -> "GBP3" ["e"=1]
+"GBP5" -> "GBP1" ["e"=1]
+"GBP5" -> "GBP2" ["e"=1]
+"GBP6" -> "GBP3" ["e"=1]
+"GBP6" -> "GBP4" ["e"=1]
+"GBP6" -> "GBP7" ["e"=1]
+"GBP6" -> "GBP5" ["e"=1]
+"GBP7" -> "GBP4" ["e"=1]
+"GBP7" -> "GBP3" ["e"=1]
+"GBP7" -> "GBP6" ["e"=1]
+"GBP7" -> "GBP1" ["e"=1]
+"GIMAP1" -> "GIMAP5" ["e"=1]
+"GIMAP1" -> "GIMAP2" ["e"=1]
+"GIMAP1" -> "GIMAP6" ["e"=1]
+"GIMAP1" -> "GIMAP4" ["e"=1]
+"GIMAP2" -> "GIMAP1" ["e"=1]
+"GIMAP2" -> "GIMAP5" ["e"=1]
+"GIMAP2" -> "GIMAP6" ["e"=1]
+"GIMAP2" -> "GIMAP4" ["e"=1]
+"GIMAP4" -> "GIMAP7" ["e"=1]
+"GIMAP4" -> "GIMAP5" ["e"=1]
+"GIMAP4" -> "GIMAP6" ["e"=1]
+"GIMAP4" -> "GIMAP1" ["e"=1]
+"GIMAP5" -> "GIMAP1" ["e"=1]
+"GIMAP5" -> "GIMAP2" ["e"=1]
+"GIMAP5" -> "GIMAP4" ["e"=1]
+"GIMAP5" -> "GIMAP6" ["e"=1]
+"GIMAP6" -> "GIMAP1" ["e"=1]
+"GIMAP6" -> "GIMAP5" ["e"=1]
+"GIMAP6" -> "GIMAP2" ["e"=1]
+"GIMAP6" -> "GIMAP8" ["e"=1]
+"GIMAP7" -> "GIMAP4" ["e"=1]
+"GIMAP7" -> "GIMAP5" ["e"=1]
+"GIMAP7" -> "GIMAP1" ["e"=1]
+"GIMAP7" -> "GIMAP2" ["e"=1]
+"GIMAP8" -> "GIMAP6" ["e"=1]
+"GIMAP8" -> "GIMAP1" ["e"=1]
+"GIMAP8" -> "GIMAP2" ["e"=1]
+"GIMAP8" -> "GIMAP7" ["e"=1]
+"GPC2" -> "NOX3" ["e"=1]
+"GPC2" -> "GSDME" ["e"=1]
+"GPC2" -> "TCTN2" ["e"=1]
+"GPC2" -> "VWA5B1" ["e"=1]
+"GSDMB" -> "GSDME" ["e"=1]
+"GSDMB" -> "GSDMD" ["e"=1]
+"GSDMB" -> "NUGGC" ["e"=1]
+"GSDMB" -> "CARD8" ["e"=1]
+"GSDMD" -> "GSDMB" ["e"=1]
+"GSDMD" -> "GSDME" ["e"=1]
+"GSDMD" -> "CARD8" ["e"=1]
+"GSDMD" -> "NUGGC" ["e"=1]
+"GSDME" -> "GSDMB" ["e"=1]
+"GSDME" -> "GSDMD" ["e"=1]
+"GSDME" -> "NUGGC" ["e"=1]
+"GSDME" -> "TCTN2" ["e"=1]
+"MX1" -> "GBP1" ["e"=1]
+"MX1" -> "GBP5" ["e"=1]
+"MX1" -> "GBP4" ["e"=1]
+"MX1" -> "GBP3" ["e"=1]
+"NOX3" -> "NOX4" ["e"=1]
+"NOX3" -> "VWA5B1" ["e"=1]
+"NOX3" -> "NUGGC" ["e"=1]
+"NOX3" -> "WFS1" ["e"=1]
+"NOX4" -> "NOX3" ["e"=1]
+"NOX4" -> "CATSPERB" ["e"=1]
+"NOX4" -> "WFS1" ["e"=1]
+"NOX4" -> "VWA5B1" ["e"=1]
+"NUGGC" -> "GBP7" ["e"=1]
+"NUGGC" -> "GBP6" ["e"=1]
+"NUGGC" -> "GBP5" ["e"=1]
+"NUGGC" -> "CARD8" ["e"=1]
+"PARP4" -> "VWA5A" ["e"=1]
+"PARP4" -> "VWA5B1" ["e"=1]
+"PARP4" -> "NUGGC" ["e"=1]
+"PARP4" -> "CARD8" ["e"=1]
+"TCTN1" -> "TCTN2" ["e"=1]
+"TCTN1" -> "TMEM67" ["e"=1]
+"TCTN1" -> "CATSPERD" ["e"=1]
+"TCTN1" -> "TMEM231" ["e"=1]
+"TCTN2" -> "TCTN1" ["e"=1]
+"TCTN2" -> "CATSPERD" ["e"=1]
+"TCTN2" -> "CATSPERE" ["e"=1]
+"TCTN2" -> "TMEM67" ["e"=1]
+"TMEM231" -> "TMEM67" ["e"=1]
+"TMEM231" -> "TCTN2" ["e"=1]
+"TMEM231" -> "CATSPERD" ["e"=1]
+"TMEM231" -> "TCTN1" ["e"=1]
+"TMEM67" -> "TMEM231" ["e"=1]
+"TMEM67" -> "TCTN2" ["e"=1]
+"TMEM67" -> "TCTN1" ["e"=1]
+"TMEM67" -> "CATSPERE" ["e"=1]
+"VWA5A" -> "VWA5B1" ["e"=1]
+"VWA5A" -> "PARP4" ["e"=1]
+"VWA5A" -> "VWA5B2" ["e"=1]
+"VWA5A" -> "TCTN2" ["e"=1]
+"VWA5B1" -> "VWA5B2" ["e"=1]
+"VWA5B1" -> "VWA5A" ["e"=1]
+"VWA5B1" -> "PARP4" ["e"=1]
+"VWA5B1" -> "TCTN2" ["e"=1]
+"VWA5B2" -> "VWA5B1" ["e"=1]
+"VWA5B2" -> "VWA5A" ["e"=1]
+"VWA5B2" -> "TCTN2" ["e"=1]
+"VWA5B2" -> "CATSPERB" ["e"=1]
+"WFS1" -> "CATSPERG" ["e"=1]
+"WFS1" -> "TCTN2" ["e"=1]
+"WFS1" -> "NOX4" ["e"=1]
+"WFS1" -> "GSDMB" ["e"=1]
 }

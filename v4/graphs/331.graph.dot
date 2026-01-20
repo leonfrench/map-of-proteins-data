@@ -29,124 +29,124 @@ digraph G {
 "TANC1" ["l"="9.301,0.500"]
 "TRIP10" ["l"="9.228,0.535"]
 "TTC3" ["l"="9.197,0.420"]
-"ARHGEF12" -> "RAPGEF6"
-"ARHGEF12" -> "EVI5"
-"ARHGEF12" -> "SRGAP3"
-"ARHGEF12" -> "FCHSD2"
-"BAIAP2" -> "SH3GL1"
-"BAIAP2" -> "TRIP10"
-"BAIAP2" -> "FNBP1L"
-"BAIAP2" -> "GAS7"
-"BIN1" -> "PACSIN2"
-"BIN1" -> "PACSIN1"
-"BIN1" -> "SH3GL1"
-"BIN1" -> "TRIP10"
-"CTTNBP2" -> "DAPK1"
-"CTTNBP2" -> "MYO16"
-"CTTNBP2" -> "TTC3"
-"CTTNBP2" -> "TANC1"
-"DAPK1" -> "CTTNBP2"
-"DAPK1" -> "TANC1"
-"DAPK1" -> "MYO16"
-"DAPK1" -> "PLCB1"
-"EVI5" -> "FCHSD2"
-"EVI5" -> "ARHGEF12"
-"EVI5" -> "SRGAP2"
-"EVI5" -> "SRGAP2C"
-"FCHSD2" -> "SRGAP3"
-"FCHSD2" -> "SRGAP2"
-"FCHSD2" -> "FNBP1"
-"FCHSD2" -> "FNBP1L"
-"FNBP1" -> "FNBP1L"
-"FNBP1" -> "FCHSD2"
-"FNBP1" -> "SRGAP3"
-"FNBP1" -> "SRGAP2C"
-"FNBP1L" -> "FNBP1"
-"FNBP1L" -> "FCHSD2"
-"FNBP1L" -> "TRIP10"
-"FNBP1L" -> "PACSIN2"
-"GAS7" -> "SRGAP2C"
-"GAS7" -> "PACSIN1"
-"GAS7" -> "SRGAP2B"
-"GAS7" -> "PSTPIP2"
-"MYO16" -> "TANC1"
-"MYO16" -> "CTTNBP2"
-"MYO16" -> "DAPK1"
-"MYO16" -> "RAPGEF6"
-"NEBL" -> "PLCB1"
-"NEBL" -> "SRGAP3"
-"NEBL" -> "FNBP1"
-"NEBL" -> "SH3GL2"
-"NPHP4" -> "DAPK1"
-"NPHP4" -> "CTTNBP2"
-"NPHP4" -> "ARHGEF12"
-"NPHP4" -> "PLCB1"
-"PACSIN1" -> "PACSIN2"
-"PACSIN1" -> "SH3GL2"
-"PACSIN1" -> "SRGAP2C"
-"PACSIN1" -> "FNBP1L"
-"PACSIN2" -> "PACSIN1"
-"PACSIN2" -> "FNBP1L"
-"PACSIN2" -> "FCHSD2"
-"PACSIN2" -> "SRGAP2"
-"PACSIN3" -> "TRIP10"
-"PACSIN3" -> "PACSIN1"
-"PACSIN3" -> "PSTPIP1"
-"PACSIN3" -> "PACSIN2"
-"PLCB1" -> "SRGAP3"
-"PLCB1" -> "GAS7"
-"PLCB1" -> "TTC3"
-"PLCB1" -> "SH3GL2"
-"PSTPIP1" -> "PSTPIP2"
-"PSTPIP1" -> "PACSIN2"
-"PSTPIP1" -> "PACSIN3"
-"PSTPIP1" -> "TRIP10"
-"PSTPIP2" -> "SRGAP2C"
-"PSTPIP2" -> "FCHSD2"
-"PSTPIP2" -> "SRGAP2B"
-"PSTPIP2" -> "FNBP1L"
-"RAPGEF6" -> "ARHGEF12"
-"RAPGEF6" -> "FCHSD2"
-"RAPGEF6" -> "SRGAP3"
-"RAPGEF6" -> "MYO16"
-"SH3GL1" -> "TRIP10"
-"SH3GL1" -> "SH3GL2"
-"SH3GL1" -> "SH3GL3"
-"SH3GL1" -> "BAIAP2"
-"SH3GL2" -> "SH3GL1"
-"SH3GL2" -> "SH3GL3"
-"SH3GL2" -> "PACSIN1"
-"SH3GL2" -> "FNBP1L"
-"SH3GL3" -> "SH3GL1"
-"SH3GL3" -> "SH3GL2"
-"SH3GL3" -> "FNBP1"
-"SH3GL3" -> "FCHSD2"
-"SRGAP2" -> "SRGAP2B"
-"SRGAP2" -> "SRGAP3"
-"SRGAP2" -> "SRGAP2C"
-"SRGAP2" -> "FCHSD2"
-"SRGAP2B" -> "SRGAP2C"
-"SRGAP2B" -> "SRGAP2"
-"SRGAP2B" -> "PSTPIP2"
-"SRGAP2B" -> "FCHSD2"
-"SRGAP2C" -> "SRGAP2B"
-"SRGAP2C" -> "SRGAP2"
-"SRGAP2C" -> "PSTPIP2"
-"SRGAP2C" -> "FCHSD2"
-"SRGAP3" -> "SRGAP2"
-"SRGAP3" -> "FCHSD2"
-"SRGAP3" -> "FNBP1"
-"SRGAP3" -> "SRGAP2C"
-"TANC1" -> "DAPK1"
-"TANC1" -> "MYO16"
-"TANC1" -> "CTTNBP2"
-"TANC1" -> "RAPGEF6"
-"TRIP10" -> "SH3GL1"
-"TRIP10" -> "FNBP1L"
-"TRIP10" -> "PACSIN3"
-"TRIP10" -> "PACSIN2"
-"TTC3" -> "CTTNBP2"
-"TTC3" -> "PLCB1"
-"TTC3" -> "ARHGEF12"
-"TTC3" -> "DAPK1"
+"ARHGEF12" -> "RAPGEF6" ["e"=1]
+"ARHGEF12" -> "EVI5" ["e"=1]
+"ARHGEF12" -> "SRGAP3" ["e"=1]
+"ARHGEF12" -> "FCHSD2" ["e"=1]
+"BAIAP2" -> "SH3GL1" ["e"=1]
+"BAIAP2" -> "TRIP10" ["e"=1]
+"BAIAP2" -> "FNBP1L" ["e"=1]
+"BAIAP2" -> "GAS7" ["e"=1]
+"BIN1" -> "PACSIN2" ["e"=1]
+"BIN1" -> "PACSIN1" ["e"=1]
+"BIN1" -> "SH3GL1" ["e"=1]
+"BIN1" -> "TRIP10" ["e"=1]
+"CTTNBP2" -> "DAPK1" ["e"=1]
+"CTTNBP2" -> "MYO16" ["e"=1]
+"CTTNBP2" -> "TTC3" ["e"=1]
+"CTTNBP2" -> "TANC1" ["e"=1]
+"DAPK1" -> "CTTNBP2" ["e"=1]
+"DAPK1" -> "TANC1" ["e"=1]
+"DAPK1" -> "MYO16" ["e"=1]
+"DAPK1" -> "PLCB1" ["e"=1]
+"EVI5" -> "FCHSD2" ["e"=1]
+"EVI5" -> "ARHGEF12" ["e"=1]
+"EVI5" -> "SRGAP2" ["e"=1]
+"EVI5" -> "SRGAP2C" ["e"=1]
+"FCHSD2" -> "SRGAP3" ["e"=1]
+"FCHSD2" -> "SRGAP2" ["e"=1]
+"FCHSD2" -> "FNBP1" ["e"=1]
+"FCHSD2" -> "FNBP1L" ["e"=1]
+"FNBP1" -> "FNBP1L" ["e"=1]
+"FNBP1" -> "FCHSD2" ["e"=1]
+"FNBP1" -> "SRGAP3" ["e"=1]
+"FNBP1" -> "SRGAP2C" ["e"=1]
+"FNBP1L" -> "FNBP1" ["e"=1]
+"FNBP1L" -> "FCHSD2" ["e"=1]
+"FNBP1L" -> "TRIP10" ["e"=1]
+"FNBP1L" -> "PACSIN2" ["e"=1]
+"GAS7" -> "SRGAP2C" ["e"=1]
+"GAS7" -> "PACSIN1" ["e"=1]
+"GAS7" -> "SRGAP2B" ["e"=1]
+"GAS7" -> "PSTPIP2" ["e"=1]
+"MYO16" -> "TANC1" ["e"=1]
+"MYO16" -> "CTTNBP2" ["e"=1]
+"MYO16" -> "DAPK1" ["e"=1]
+"MYO16" -> "RAPGEF6" ["e"=1]
+"NEBL" -> "PLCB1" ["e"=1]
+"NEBL" -> "SRGAP3" ["e"=1]
+"NEBL" -> "FNBP1" ["e"=1]
+"NEBL" -> "SH3GL2" ["e"=1]
+"NPHP4" -> "DAPK1" ["e"=1]
+"NPHP4" -> "CTTNBP2" ["e"=1]
+"NPHP4" -> "ARHGEF12" ["e"=1]
+"NPHP4" -> "PLCB1" ["e"=1]
+"PACSIN1" -> "PACSIN2" ["e"=1]
+"PACSIN1" -> "SH3GL2" ["e"=1]
+"PACSIN1" -> "SRGAP2C" ["e"=1]
+"PACSIN1" -> "FNBP1L" ["e"=1]
+"PACSIN2" -> "PACSIN1" ["e"=1]
+"PACSIN2" -> "FNBP1L" ["e"=1]
+"PACSIN2" -> "FCHSD2" ["e"=1]
+"PACSIN2" -> "SRGAP2" ["e"=1]
+"PACSIN3" -> "TRIP10" ["e"=1]
+"PACSIN3" -> "PACSIN1" ["e"=1]
+"PACSIN3" -> "PSTPIP1" ["e"=1]
+"PACSIN3" -> "PACSIN2" ["e"=1]
+"PLCB1" -> "SRGAP3" ["e"=1]
+"PLCB1" -> "GAS7" ["e"=1]
+"PLCB1" -> "TTC3" ["e"=1]
+"PLCB1" -> "SH3GL2" ["e"=1]
+"PSTPIP1" -> "PSTPIP2" ["e"=1]
+"PSTPIP1" -> "PACSIN2" ["e"=1]
+"PSTPIP1" -> "PACSIN3" ["e"=1]
+"PSTPIP1" -> "TRIP10" ["e"=1]
+"PSTPIP2" -> "SRGAP2C" ["e"=1]
+"PSTPIP2" -> "FCHSD2" ["e"=1]
+"PSTPIP2" -> "SRGAP2B" ["e"=1]
+"PSTPIP2" -> "FNBP1L" ["e"=1]
+"RAPGEF6" -> "ARHGEF12" ["e"=1]
+"RAPGEF6" -> "FCHSD2" ["e"=1]
+"RAPGEF6" -> "SRGAP3" ["e"=1]
+"RAPGEF6" -> "MYO16" ["e"=1]
+"SH3GL1" -> "TRIP10" ["e"=1]
+"SH3GL1" -> "SH3GL2" ["e"=1]
+"SH3GL1" -> "SH3GL3" ["e"=1]
+"SH3GL1" -> "BAIAP2" ["e"=1]
+"SH3GL2" -> "SH3GL1" ["e"=1]
+"SH3GL2" -> "SH3GL3" ["e"=1]
+"SH3GL2" -> "PACSIN1" ["e"=1]
+"SH3GL2" -> "FNBP1L" ["e"=1]
+"SH3GL3" -> "SH3GL1" ["e"=1]
+"SH3GL3" -> "SH3GL2" ["e"=1]
+"SH3GL3" -> "FNBP1" ["e"=1]
+"SH3GL3" -> "FCHSD2" ["e"=1]
+"SRGAP2" -> "SRGAP2B" ["e"=1]
+"SRGAP2" -> "SRGAP3" ["e"=1]
+"SRGAP2" -> "SRGAP2C" ["e"=1]
+"SRGAP2" -> "FCHSD2" ["e"=1]
+"SRGAP2B" -> "SRGAP2C" ["e"=1]
+"SRGAP2B" -> "SRGAP2" ["e"=1]
+"SRGAP2B" -> "PSTPIP2" ["e"=1]
+"SRGAP2B" -> "FCHSD2" ["e"=1]
+"SRGAP2C" -> "SRGAP2B" ["e"=1]
+"SRGAP2C" -> "SRGAP2" ["e"=1]
+"SRGAP2C" -> "PSTPIP2" ["e"=1]
+"SRGAP2C" -> "FCHSD2" ["e"=1]
+"SRGAP3" -> "SRGAP2" ["e"=1]
+"SRGAP3" -> "FCHSD2" ["e"=1]
+"SRGAP3" -> "FNBP1" ["e"=1]
+"SRGAP3" -> "SRGAP2C" ["e"=1]
+"TANC1" -> "DAPK1" ["e"=1]
+"TANC1" -> "MYO16" ["e"=1]
+"TANC1" -> "CTTNBP2" ["e"=1]
+"TANC1" -> "RAPGEF6" ["e"=1]
+"TRIP10" -> "SH3GL1" ["e"=1]
+"TRIP10" -> "FNBP1L" ["e"=1]
+"TRIP10" -> "PACSIN3" ["e"=1]
+"TRIP10" -> "PACSIN2" ["e"=1]
+"TTC3" -> "CTTNBP2" ["e"=1]
+"TTC3" -> "PLCB1" ["e"=1]
+"TTC3" -> "ARHGEF12" ["e"=1]
+"TTC3" -> "DAPK1" ["e"=1]
 }

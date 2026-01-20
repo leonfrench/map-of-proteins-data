@@ -49,204 +49,204 @@ digraph G {
 "SLC27A4" ["l"="13.396,1.328"]
 "SLC27A5" ["l"="13.275,1.225"]
 "WWOX" ["l"="13.386,1.205"]
-"BDH1" -> "HSDL1"
-"BDH1" -> "KDSR"
-"BDH1" -> "HSD17B2"
-"BDH1" -> "HSD17B12"
-"CAT" -> "SELENBP1"
-"CAT" -> "KMO"
-"CAT" -> "SCCPDH"
-"CAT" -> "FMO2"
-"CBR4" -> "KDSR"
-"CBR4" -> "HSDL1"
-"CBR4" -> "SDR9C7"
-"CBR4" -> "HSD17B13"
-"DHRS1" -> "RDH5"
-"DHRS1" -> "SDR9C7"
-"DHRS1" -> "RDH16"
-"DHRS1" -> "DHRS7"
-"DHRS12" -> "RDH13"
-"DHRS12" -> "SDR42E2"
-"DHRS12" -> "HSD3B7"
-"DHRS12" -> "HSD17B3"
-"DHRS13" -> "RDH13"
-"DHRS13" -> "RDH11"
-"DHRS13" -> "RDH12"
-"DHRS13" -> "HSD17B1"
-"DHRS3" -> "RDH16"
-"DHRS3" -> "HSD17B13"
-"DHRS3" -> "RDH10"
-"DHRS3" -> "HSD17B6"
-"DHRS7" -> "HSD17B11"
-"DHRS7" -> "HSD17B12"
-"DHRS7" -> "KDSR"
-"DHRS7" -> "RDH11"
-"DHRS7B" -> "SDR9C7"
-"DHRS7B" -> "DHRS7"
-"DHRS7B" -> "DHRS7C"
-"DHRS7B" -> "RDH8"
-"DHRS7C" -> "RDH16"
-"DHRS7C" -> "DHRS7B"
-"DHRS7C" -> "HSD17B6"
-"DHRS7C" -> "HSD17B3"
-"DHRS9" -> "HSD17B6"
-"DHRS9" -> "SDR9C7"
-"DHRS9" -> "SDR16C5"
-"DHRS9" -> "HSD17B13"
-"FMO1" -> "FMO4"
-"FMO1" -> "FMO3"
-"FMO1" -> "FMO2"
-"FMO1" -> "KMO"
-"FMO2" -> "FMO4"
-"FMO2" -> "FMO3"
-"FMO2" -> "FMO1"
-"FMO2" -> "KMO"
-"FMO3" -> "FMO4"
-"FMO3" -> "FMO1"
-"FMO3" -> "FMO2"
-"FMO3" -> "KMO"
-"FMO4" -> "FMO1"
-"FMO4" -> "FMO3"
-"FMO4" -> "FMO2"
-"FMO4" -> "KMO"
-"HPGD" -> "SDR16C5"
-"HPGD" -> "KDSR"
-"HPGD" -> "SCCPDH"
-"HPGD" -> "DHRS7"
-"HSD11B1" -> "DHRS9"
-"HSD11B1" -> "DHRS7"
-"HSD11B1" -> "HSD17B6"
-"HSD11B1" -> "RDH8"
-"HSD11B1L" -> "SDR42E2"
-"HSD11B1L" -> "HSD17B1"
-"HSD11B1L" -> "RDH13"
-"HSD11B1L" -> "DHRS13"
-"HSD11B2" -> "HSD3B7"
-"HSD11B2" -> "RDH8"
-"HSD11B2" -> "HSD17B2"
-"HSD11B2" -> "RDH5"
-"HSD17B1" -> "HSD3B7"
-"HSD17B1" -> "RDH8"
-"HSD17B1" -> "SDR9C7"
-"HSD17B1" -> "SDR42E2"
-"HSD17B11" -> "HSD17B13"
-"HSD17B11" -> "DHRS7"
-"HSD17B11" -> "SDR16C5"
-"HSD17B11" -> "KDSR"
-"HSD17B12" -> "DHRS7"
-"HSD17B12" -> "RDH10"
-"HSD17B12" -> "HSD17B13"
-"HSD17B12" -> "KDSR"
-"HSD17B13" -> "SDR16C5"
-"HSD17B13" -> "HSD17B11"
-"HSD17B13" -> "SDR9C7"
-"HSD17B13" -> "HSDL1"
-"HSD17B2" -> "DHRS9"
-"HSD17B2" -> "HSD11B2"
-"HSD17B2" -> "RDH16"
-"HSD17B2" -> "DHRS7"
-"HSD17B3" -> "DHRS7C"
-"HSD17B3" -> "SDR9C7"
-"HSD17B3" -> "DHRS7B"
-"HSD17B3" -> "RDH16"
-"HSD17B6" -> "RDH16"
-"HSD17B6" -> "SDR9C7"
-"HSD17B6" -> "DHRS9"
-"HSD17B6" -> "HSD17B13"
-"HSD17B7" -> "RDH11"
-"HSD17B7" -> "DHRS7B"
-"HSD17B7" -> "RDH8"
-"HSD17B7" -> "HSDL1"
-"HSD3B1" -> "HSD3B2"
-"HSD3B1" -> "HSD3B7"
-"HSD3B1" -> "SCCPDH"
-"HSD3B1" -> "KMO"
-"HSD3B2" -> "HSD3B1"
-"HSD3B2" -> "RDH10"
-"HSD3B2" -> "RDH8"
-"HSD3B2" -> "KMO"
-"HSD3B7" -> "HSD17B1"
-"HSD3B7" -> "HSD3B1"
-"HSD3B7" -> "SDR42E2"
-"HSD3B7" -> "SDR9C7"
-"HSDL1" -> "HSD17B13"
-"HSDL1" -> "KDSR"
-"HSDL1" -> "SDR9C7"
-"HSDL1" -> "CBR4"
-"KDSR" -> "HSDL1"
-"KDSR" -> "HSD17B13"
-"KDSR" -> "CBR4"
-"KDSR" -> "DHRS7"
-"KMO" -> "FMO2"
-"KMO" -> "HSD3B1"
-"KMO" -> "HSD3B2"
-"KMO" -> "RDH10"
-"RDH10" -> "HSDL1"
-"RDH10" -> "HSD17B12"
-"RDH10" -> "KDSR"
-"RDH10" -> "DHRS3"
-"RDH11" -> "RDH13"
-"RDH11" -> "RDH12"
-"RDH11" -> "DHRS7"
-"RDH11" -> "DHRS13"
-"RDH12" -> "RDH11"
-"RDH12" -> "RDH13"
-"RDH12" -> "RDH8"
-"RDH12" -> "SDR9C7"
-"RDH13" -> "RDH11"
-"RDH13" -> "DHRS13"
-"RDH13" -> "RDH12"
-"RDH13" -> "DHRS12"
-"RDH16" -> "HSD17B6"
-"RDH16" -> "SDR9C7"
-"RDH16" -> "RDH5"
-"RDH16" -> "DHRS7C"
-"RDH5" -> "SDR9C7"
-"RDH5" -> "RDH16"
-"RDH5" -> "HSD17B6"
-"RDH5" -> "HSD3B7"
-"RDH8" -> "HSD17B1"
-"RDH8" -> "RDH16"
-"RDH8" -> "RDH12"
-"RDH8" -> "SDR9C7"
-"SCCPDH" -> "HPGD"
-"SCCPDH" -> "HSD17B12"
-"SCCPDH" -> "HSD3B7"
-"SCCPDH" -> "KDSR"
-"SDR16C5" -> "HSD17B13"
-"SDR16C5" -> "KDSR"
-"SDR16C5" -> "HPGD"
-"SDR16C5" -> "DHRS9"
-"SDR42E2" -> "HSD3B7"
-"SDR42E2" -> "HSD17B1"
-"SDR42E2" -> "RDH8"
-"SDR42E2" -> "HSD11B1L"
-"SDR9C7" -> "HSD17B6"
-"SDR9C7" -> "RDH16"
-"SDR9C7" -> "HSD17B13"
-"SDR9C7" -> "RDH5"
-"SELENBP1" -> "CAT"
-"SELENBP1" -> "FMO2"
-"SELENBP1" -> "HSD3B2"
-"SELENBP1" -> "SDR42E2"
-"SLC27A2" -> "SLC27A3"
-"SLC27A2" -> "SLC27A4"
-"SLC27A2" -> "SLC27A5"
-"SLC27A2" -> "DHRS7"
-"SLC27A3" -> "SLC27A5"
-"SLC27A3" -> "SLC27A4"
-"SLC27A3" -> "HSD11B2"
-"SLC27A3" -> "SLC27A2"
-"SLC27A4" -> "SLC27A5"
-"SLC27A4" -> "SLC27A3"
-"SLC27A4" -> "HSD3B7"
-"SLC27A4" -> "HSD11B2"
-"SLC27A5" -> "SLC27A4"
-"SLC27A5" -> "SLC27A3"
-"SLC27A5" -> "SLC27A2"
-"SLC27A5" -> "HSD11B2"
-"WWOX" -> "HSD17B7"
-"WWOX" -> "DHRS12"
-"WWOX" -> "RDH13"
-"WWOX" -> "RDH11"
+"BDH1" -> "HSDL1" ["e"=1]
+"BDH1" -> "KDSR" ["e"=1]
+"BDH1" -> "HSD17B2" ["e"=1]
+"BDH1" -> "HSD17B12" ["e"=1]
+"CAT" -> "SELENBP1" ["e"=1]
+"CAT" -> "KMO" ["e"=1]
+"CAT" -> "SCCPDH" ["e"=1]
+"CAT" -> "FMO2" ["e"=1]
+"CBR4" -> "KDSR" ["e"=1]
+"CBR4" -> "HSDL1" ["e"=1]
+"CBR4" -> "SDR9C7" ["e"=1]
+"CBR4" -> "HSD17B13" ["e"=1]
+"DHRS1" -> "RDH5" ["e"=1]
+"DHRS1" -> "SDR9C7" ["e"=1]
+"DHRS1" -> "RDH16" ["e"=1]
+"DHRS1" -> "DHRS7" ["e"=1]
+"DHRS12" -> "RDH13" ["e"=1]
+"DHRS12" -> "SDR42E2" ["e"=1]
+"DHRS12" -> "HSD3B7" ["e"=1]
+"DHRS12" -> "HSD17B3" ["e"=1]
+"DHRS13" -> "RDH13" ["e"=1]
+"DHRS13" -> "RDH11" ["e"=1]
+"DHRS13" -> "RDH12" ["e"=1]
+"DHRS13" -> "HSD17B1" ["e"=1]
+"DHRS3" -> "RDH16" ["e"=1]
+"DHRS3" -> "HSD17B13" ["e"=1]
+"DHRS3" -> "RDH10" ["e"=1]
+"DHRS3" -> "HSD17B6" ["e"=1]
+"DHRS7" -> "HSD17B11" ["e"=1]
+"DHRS7" -> "HSD17B12" ["e"=1]
+"DHRS7" -> "KDSR" ["e"=1]
+"DHRS7" -> "RDH11" ["e"=1]
+"DHRS7B" -> "SDR9C7" ["e"=1]
+"DHRS7B" -> "DHRS7" ["e"=1]
+"DHRS7B" -> "DHRS7C" ["e"=1]
+"DHRS7B" -> "RDH8" ["e"=1]
+"DHRS7C" -> "RDH16" ["e"=1]
+"DHRS7C" -> "DHRS7B" ["e"=1]
+"DHRS7C" -> "HSD17B6" ["e"=1]
+"DHRS7C" -> "HSD17B3" ["e"=1]
+"DHRS9" -> "HSD17B6" ["e"=1]
+"DHRS9" -> "SDR9C7" ["e"=1]
+"DHRS9" -> "SDR16C5" ["e"=1]
+"DHRS9" -> "HSD17B13" ["e"=1]
+"FMO1" -> "FMO4" ["e"=1]
+"FMO1" -> "FMO3" ["e"=1]
+"FMO1" -> "FMO2" ["e"=1]
+"FMO1" -> "KMO" ["e"=1]
+"FMO2" -> "FMO4" ["e"=1]
+"FMO2" -> "FMO3" ["e"=1]
+"FMO2" -> "FMO1" ["e"=1]
+"FMO2" -> "KMO" ["e"=1]
+"FMO3" -> "FMO4" ["e"=1]
+"FMO3" -> "FMO1" ["e"=1]
+"FMO3" -> "FMO2" ["e"=1]
+"FMO3" -> "KMO" ["e"=1]
+"FMO4" -> "FMO1" ["e"=1]
+"FMO4" -> "FMO3" ["e"=1]
+"FMO4" -> "FMO2" ["e"=1]
+"FMO4" -> "KMO" ["e"=1]
+"HPGD" -> "SDR16C5" ["e"=1]
+"HPGD" -> "KDSR" ["e"=1]
+"HPGD" -> "SCCPDH" ["e"=1]
+"HPGD" -> "DHRS7" ["e"=1]
+"HSD11B1" -> "DHRS9" ["e"=1]
+"HSD11B1" -> "DHRS7" ["e"=1]
+"HSD11B1" -> "HSD17B6" ["e"=1]
+"HSD11B1" -> "RDH8" ["e"=1]
+"HSD11B1L" -> "SDR42E2" ["e"=1]
+"HSD11B1L" -> "HSD17B1" ["e"=1]
+"HSD11B1L" -> "RDH13" ["e"=1]
+"HSD11B1L" -> "DHRS13" ["e"=1]
+"HSD11B2" -> "HSD3B7" ["e"=1]
+"HSD11B2" -> "RDH8" ["e"=1]
+"HSD11B2" -> "HSD17B2" ["e"=1]
+"HSD11B2" -> "RDH5" ["e"=1]
+"HSD17B1" -> "HSD3B7" ["e"=1]
+"HSD17B1" -> "RDH8" ["e"=1]
+"HSD17B1" -> "SDR9C7" ["e"=1]
+"HSD17B1" -> "SDR42E2" ["e"=1]
+"HSD17B11" -> "HSD17B13" ["e"=1]
+"HSD17B11" -> "DHRS7" ["e"=1]
+"HSD17B11" -> "SDR16C5" ["e"=1]
+"HSD17B11" -> "KDSR" ["e"=1]
+"HSD17B12" -> "DHRS7" ["e"=1]
+"HSD17B12" -> "RDH10" ["e"=1]
+"HSD17B12" -> "HSD17B13" ["e"=1]
+"HSD17B12" -> "KDSR" ["e"=1]
+"HSD17B13" -> "SDR16C5" ["e"=1]
+"HSD17B13" -> "HSD17B11" ["e"=1]
+"HSD17B13" -> "SDR9C7" ["e"=1]
+"HSD17B13" -> "HSDL1" ["e"=1]
+"HSD17B2" -> "DHRS9" ["e"=1]
+"HSD17B2" -> "HSD11B2" ["e"=1]
+"HSD17B2" -> "RDH16" ["e"=1]
+"HSD17B2" -> "DHRS7" ["e"=1]
+"HSD17B3" -> "DHRS7C" ["e"=1]
+"HSD17B3" -> "SDR9C7" ["e"=1]
+"HSD17B3" -> "DHRS7B" ["e"=1]
+"HSD17B3" -> "RDH16" ["e"=1]
+"HSD17B6" -> "RDH16" ["e"=1]
+"HSD17B6" -> "SDR9C7" ["e"=1]
+"HSD17B6" -> "DHRS9" ["e"=1]
+"HSD17B6" -> "HSD17B13" ["e"=1]
+"HSD17B7" -> "RDH11" ["e"=1]
+"HSD17B7" -> "DHRS7B" ["e"=1]
+"HSD17B7" -> "RDH8" ["e"=1]
+"HSD17B7" -> "HSDL1" ["e"=1]
+"HSD3B1" -> "HSD3B2" ["e"=1]
+"HSD3B1" -> "HSD3B7" ["e"=1]
+"HSD3B1" -> "SCCPDH" ["e"=1]
+"HSD3B1" -> "KMO" ["e"=1]
+"HSD3B2" -> "HSD3B1" ["e"=1]
+"HSD3B2" -> "RDH10" ["e"=1]
+"HSD3B2" -> "RDH8" ["e"=1]
+"HSD3B2" -> "KMO" ["e"=1]
+"HSD3B7" -> "HSD17B1" ["e"=1]
+"HSD3B7" -> "HSD3B1" ["e"=1]
+"HSD3B7" -> "SDR42E2" ["e"=1]
+"HSD3B7" -> "SDR9C7" ["e"=1]
+"HSDL1" -> "HSD17B13" ["e"=1]
+"HSDL1" -> "KDSR" ["e"=1]
+"HSDL1" -> "SDR9C7" ["e"=1]
+"HSDL1" -> "CBR4" ["e"=1]
+"KDSR" -> "HSDL1" ["e"=1]
+"KDSR" -> "HSD17B13" ["e"=1]
+"KDSR" -> "CBR4" ["e"=1]
+"KDSR" -> "DHRS7" ["e"=1]
+"KMO" -> "FMO2" ["e"=1]
+"KMO" -> "HSD3B1" ["e"=1]
+"KMO" -> "HSD3B2" ["e"=1]
+"KMO" -> "RDH10" ["e"=1]
+"RDH10" -> "HSDL1" ["e"=1]
+"RDH10" -> "HSD17B12" ["e"=1]
+"RDH10" -> "KDSR" ["e"=1]
+"RDH10" -> "DHRS3" ["e"=1]
+"RDH11" -> "RDH13" ["e"=1]
+"RDH11" -> "RDH12" ["e"=1]
+"RDH11" -> "DHRS7" ["e"=1]
+"RDH11" -> "DHRS13" ["e"=1]
+"RDH12" -> "RDH11" ["e"=1]
+"RDH12" -> "RDH13" ["e"=1]
+"RDH12" -> "RDH8" ["e"=1]
+"RDH12" -> "SDR9C7" ["e"=1]
+"RDH13" -> "RDH11" ["e"=1]
+"RDH13" -> "DHRS13" ["e"=1]
+"RDH13" -> "RDH12" ["e"=1]
+"RDH13" -> "DHRS12" ["e"=1]
+"RDH16" -> "HSD17B6" ["e"=1]
+"RDH16" -> "SDR9C7" ["e"=1]
+"RDH16" -> "RDH5" ["e"=1]
+"RDH16" -> "DHRS7C" ["e"=1]
+"RDH5" -> "SDR9C7" ["e"=1]
+"RDH5" -> "RDH16" ["e"=1]
+"RDH5" -> "HSD17B6" ["e"=1]
+"RDH5" -> "HSD3B7" ["e"=1]
+"RDH8" -> "HSD17B1" ["e"=1]
+"RDH8" -> "RDH16" ["e"=1]
+"RDH8" -> "RDH12" ["e"=1]
+"RDH8" -> "SDR9C7" ["e"=1]
+"SCCPDH" -> "HPGD" ["e"=1]
+"SCCPDH" -> "HSD17B12" ["e"=1]
+"SCCPDH" -> "HSD3B7" ["e"=1]
+"SCCPDH" -> "KDSR" ["e"=1]
+"SDR16C5" -> "HSD17B13" ["e"=1]
+"SDR16C5" -> "KDSR" ["e"=1]
+"SDR16C5" -> "HPGD" ["e"=1]
+"SDR16C5" -> "DHRS9" ["e"=1]
+"SDR42E2" -> "HSD3B7" ["e"=1]
+"SDR42E2" -> "HSD17B1" ["e"=1]
+"SDR42E2" -> "RDH8" ["e"=1]
+"SDR42E2" -> "HSD11B1L" ["e"=1]
+"SDR9C7" -> "HSD17B6" ["e"=1]
+"SDR9C7" -> "RDH16" ["e"=1]
+"SDR9C7" -> "HSD17B13" ["e"=1]
+"SDR9C7" -> "RDH5" ["e"=1]
+"SELENBP1" -> "CAT" ["e"=1]
+"SELENBP1" -> "FMO2" ["e"=1]
+"SELENBP1" -> "HSD3B2" ["e"=1]
+"SELENBP1" -> "SDR42E2" ["e"=1]
+"SLC27A2" -> "SLC27A3" ["e"=1]
+"SLC27A2" -> "SLC27A4" ["e"=1]
+"SLC27A2" -> "SLC27A5" ["e"=1]
+"SLC27A2" -> "DHRS7" ["e"=1]
+"SLC27A3" -> "SLC27A5" ["e"=1]
+"SLC27A3" -> "SLC27A4" ["e"=1]
+"SLC27A3" -> "HSD11B2" ["e"=1]
+"SLC27A3" -> "SLC27A2" ["e"=1]
+"SLC27A4" -> "SLC27A5" ["e"=1]
+"SLC27A4" -> "SLC27A3" ["e"=1]
+"SLC27A4" -> "HSD3B7" ["e"=1]
+"SLC27A4" -> "HSD11B2" ["e"=1]
+"SLC27A5" -> "SLC27A4" ["e"=1]
+"SLC27A5" -> "SLC27A3" ["e"=1]
+"SLC27A5" -> "SLC27A2" ["e"=1]
+"SLC27A5" -> "HSD11B2" ["e"=1]
+"WWOX" -> "HSD17B7" ["e"=1]
+"WWOX" -> "DHRS12" ["e"=1]
+"WWOX" -> "RDH13" ["e"=1]
+"WWOX" -> "RDH11" ["e"=1]
 }

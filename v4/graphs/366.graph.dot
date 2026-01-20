@@ -41,172 +41,172 @@ digraph G {
 "TRIT1" ["l"="12.176,1.856"]
 "TRNT1" ["l"="12.247,1.973"]
 "USB1" ["l"="12.206,1.824"]
-"AARSD1" -> "GTPBP3"
-"AARSD1" -> "TRIT1"
-"AARSD1" -> "DUS2"
-"AARSD1" -> "APTX"
-"ADAT3" -> "OGFOD2"
-"ADAT3" -> "GTPBP3"
-"ADAT3" -> "NSUN3"
-"ADAT3" -> "PYROXD1"
-"ADPRM" -> "FAM151B"
-"ADPRM" -> "MBLAC2"
-"ADPRM" -> "NSUN3"
-"ADPRM" -> "CYB5RL"
-"ALKBH3" -> "GLYATL1B"
-"ALKBH3" -> "APTX"
-"ALKBH3" -> "FAM151B"
-"ALKBH3" -> "PNKP"
-"APTX" -> "PNKP"
-"APTX" -> "TRIT1"
-"APTX" -> "CYB5RL"
-"APTX" -> "DAP3"
-"AS3MT" -> "PYROXD1"
-"AS3MT" -> "CYB5RL"
-"AS3MT" -> "RSAD2"
-"AS3MT" -> "NT5DC1"
-"ASCC1" -> "USB1"
-"ASCC1" -> "TRIT1"
-"ASCC1" -> "FAM151B"
-"ASCC1" -> "APTX"
-"C4orf33" -> "FAM151B"
-"C4orf33" -> "PYROXD1"
-"C4orf33" -> "ADPRM"
-"C4orf33" -> "GLYATL1B"
-"C9orf64" -> "FAM151B"
-"C9orf64" -> "GLYATL1B"
-"C9orf64" -> "RSAD2"
-"C9orf64" -> "CYB5RL"
-"CMAS" -> "GLYATL1B"
-"CMAS" -> "PYROXD1"
-"CMAS" -> "TRIT1"
-"CMAS" -> "NUDT12"
-"CYB5RL" -> "AS3MT"
-"CYB5RL" -> "RSAD2"
-"CYB5RL" -> "DAP3"
-"CYB5RL" -> "PYROXD1"
-"DAP3" -> "CYB5RL"
-"DAP3" -> "TRIT1"
-"DAP3" -> "NT5DC1"
-"DAP3" -> "APTX"
-"DENND10" -> "PYROXD1"
-"DENND10" -> "NSUN3"
-"DENND10" -> "GYG1"
-"DENND10" -> "CYB5RL"
-"DUS1L" -> "PDXK"
-"DUS1L" -> "DUS2"
-"DUS1L" -> "TRIT1"
-"DUS1L" -> "HDHD5"
-"DUS2" -> "TRIT1"
-"DUS2" -> "PNKP"
-"DUS2" -> "HDHD5"
-"DUS2" -> "DUS1L"
-"FAM151B" -> "TRIT1"
-"FAM151B" -> "ADPRM"
-"FAM151B" -> "GLYATL1B"
-"FAM151B" -> "NSUN3"
-"GLYATL1B" -> "FAM151B"
-"GLYATL1B" -> "NAT1"
-"GLYATL1B" -> "TRIT1"
-"GLYATL1B" -> "CYB5RL"
-"GTPBP3" -> "OGFOD2"
-"GTPBP3" -> "TRNT1"
-"GTPBP3" -> "AARSD1"
-"GTPBP3" -> "TRIT1"
-"GYG1" -> "DENND10"
-"GYG1" -> "NSUN3"
-"GYG1" -> "PYROXD1"
-"GYG1" -> "FAM151B"
-"HDHD5" -> "NT5C3B"
-"HDHD5" -> "TRIT1"
-"HDHD5" -> "PDXK"
-"HDHD5" -> "PNKP"
-"LTO1" -> "PYROXD1"
-"LTO1" -> "CYB5RL"
-"LTO1" -> "TRIT1"
-"LTO1" -> "USB1"
-"MBLAC2" -> "ADPRM"
-"MBLAC2" -> "PYROXD1"
-"MBLAC2" -> "CYB5RL"
-"MBLAC2" -> "FAM151B"
-"NAT1" -> "GLYATL1B"
-"NAT1" -> "NUDT12"
-"NAT1" -> "FAM151B"
-"NAT1" -> "C9orf64"
-"NHLRC4" -> "OGFOD2"
-"NHLRC4" -> "DENND10"
-"NHLRC4" -> "MBLAC2"
-"NHLRC4" -> "FAM151B"
-"NMRK1" -> "FAM151B"
-"NMRK1" -> "CYB5RL"
-"NMRK1" -> "NT5DC1"
-"NMRK1" -> "TRIT1"
-"NSUN3" -> "FAM151B"
-"NSUN3" -> "TRIT1"
-"NSUN3" -> "GLYATL1B"
-"NSUN3" -> "NUDT12"
-"NT5C3B" -> "HDHD5"
-"NT5C3B" -> "PDXK"
-"NT5C3B" -> "CYB5RL"
-"NT5C3B" -> "TRIT1"
-"NT5DC1" -> "PYROXD1"
-"NT5DC1" -> "TRIT1"
-"NT5DC1" -> "AS3MT"
-"NT5DC1" -> "CYB5RL"
-"NUDT12" -> "PYROXD1"
-"NUDT12" -> "NSUN3"
-"NUDT12" -> "NAT1"
-"NUDT12" -> "PNPO"
-"OGFOD2" -> "USB1"
-"OGFOD2" -> "CYB5RL"
-"OGFOD2" -> "ADAT3"
-"OGFOD2" -> "GTPBP3"
-"OTULINL" -> "CYB5RL"
-"OTULINL" -> "FAM151B"
-"OTULINL" -> "C9orf64"
-"OTULINL" -> "PYROXD1"
-"PAICS" -> "GLYATL1B"
-"PAICS" -> "TRIT1"
-"PAICS" -> "CYB5RL"
-"PAICS" -> "DAP3"
-"PDXK" -> "NT5C3B"
-"PDXK" -> "HDHD5"
-"PDXK" -> "DUS1L"
-"PDXK" -> "APTX"
-"PNKP" -> "SIRT6"
-"PNKP" -> "APTX"
-"PNKP" -> "DUS2"
-"PNKP" -> "HDHD5"
-"PNPO" -> "CYB5RL"
-"PNPO" -> "NUDT12"
-"PNPO" -> "OGFOD2"
-"PNPO" -> "PYROXD1"
-"PYROXD1" -> "NT5DC1"
-"PYROXD1" -> "AS3MT"
-"PYROXD1" -> "CYB5RL"
-"PYROXD1" -> "TRIT1"
-"RSAD2" -> "CYB5RL"
-"RSAD2" -> "AS3MT"
-"RSAD2" -> "TRIT1"
-"RSAD2" -> "C9orf64"
-"SIRT6" -> "PNKP"
-"SIRT6" -> "NT5C3B"
-"SIRT6" -> "OGFOD2"
-"SIRT6" -> "DUS2"
-"TRABD" -> "GTPBP3"
-"TRABD" -> "USB1"
-"TRABD" -> "OGFOD2"
-"TRABD" -> "SIRT6"
-"TRIT1" -> "TRNT1"
-"TRIT1" -> "FAM151B"
-"TRIT1" -> "GLYATL1B"
-"TRIT1" -> "NSUN3"
-"TRNT1" -> "TRIT1"
-"TRNT1" -> "GTPBP3"
-"TRNT1" -> "FAM151B"
-"TRNT1" -> "GLYATL1B"
-"USB1" -> "OGFOD2"
-"USB1" -> "ASCC1"
-"USB1" -> "FAM151B"
-"USB1" -> "ADPRM"
+"AARSD1" -> "GTPBP3" ["e"=1]
+"AARSD1" -> "TRIT1" ["e"=1]
+"AARSD1" -> "DUS2" ["e"=1]
+"AARSD1" -> "APTX" ["e"=1]
+"ADAT3" -> "OGFOD2" ["e"=1]
+"ADAT3" -> "GTPBP3" ["e"=1]
+"ADAT3" -> "NSUN3" ["e"=1]
+"ADAT3" -> "PYROXD1" ["e"=1]
+"ADPRM" -> "FAM151B" ["e"=1]
+"ADPRM" -> "MBLAC2" ["e"=1]
+"ADPRM" -> "NSUN3" ["e"=1]
+"ADPRM" -> "CYB5RL" ["e"=1]
+"ALKBH3" -> "GLYATL1B" ["e"=1]
+"ALKBH3" -> "APTX" ["e"=1]
+"ALKBH3" -> "FAM151B" ["e"=1]
+"ALKBH3" -> "PNKP" ["e"=1]
+"APTX" -> "PNKP" ["e"=1]
+"APTX" -> "TRIT1" ["e"=1]
+"APTX" -> "CYB5RL" ["e"=1]
+"APTX" -> "DAP3" ["e"=1]
+"AS3MT" -> "PYROXD1" ["e"=1]
+"AS3MT" -> "CYB5RL" ["e"=1]
+"AS3MT" -> "RSAD2" ["e"=1]
+"AS3MT" -> "NT5DC1" ["e"=1]
+"ASCC1" -> "USB1" ["e"=1]
+"ASCC1" -> "TRIT1" ["e"=1]
+"ASCC1" -> "FAM151B" ["e"=1]
+"ASCC1" -> "APTX" ["e"=1]
+"C4orf33" -> "FAM151B" ["e"=1]
+"C4orf33" -> "PYROXD1" ["e"=1]
+"C4orf33" -> "ADPRM" ["e"=1]
+"C4orf33" -> "GLYATL1B" ["e"=1]
+"C9orf64" -> "FAM151B" ["e"=1]
+"C9orf64" -> "GLYATL1B" ["e"=1]
+"C9orf64" -> "RSAD2" ["e"=1]
+"C9orf64" -> "CYB5RL" ["e"=1]
+"CMAS" -> "GLYATL1B" ["e"=1]
+"CMAS" -> "PYROXD1" ["e"=1]
+"CMAS" -> "TRIT1" ["e"=1]
+"CMAS" -> "NUDT12" ["e"=1]
+"CYB5RL" -> "AS3MT" ["e"=1]
+"CYB5RL" -> "RSAD2" ["e"=1]
+"CYB5RL" -> "DAP3" ["e"=1]
+"CYB5RL" -> "PYROXD1" ["e"=1]
+"DAP3" -> "CYB5RL" ["e"=1]
+"DAP3" -> "TRIT1" ["e"=1]
+"DAP3" -> "NT5DC1" ["e"=1]
+"DAP3" -> "APTX" ["e"=1]
+"DENND10" -> "PYROXD1" ["e"=1]
+"DENND10" -> "NSUN3" ["e"=1]
+"DENND10" -> "GYG1" ["e"=1]
+"DENND10" -> "CYB5RL" ["e"=1]
+"DUS1L" -> "PDXK" ["e"=1]
+"DUS1L" -> "DUS2" ["e"=1]
+"DUS1L" -> "TRIT1" ["e"=1]
+"DUS1L" -> "HDHD5" ["e"=1]
+"DUS2" -> "TRIT1" ["e"=1]
+"DUS2" -> "PNKP" ["e"=1]
+"DUS2" -> "HDHD5" ["e"=1]
+"DUS2" -> "DUS1L" ["e"=1]
+"FAM151B" -> "TRIT1" ["e"=1]
+"FAM151B" -> "ADPRM" ["e"=1]
+"FAM151B" -> "GLYATL1B" ["e"=1]
+"FAM151B" -> "NSUN3" ["e"=1]
+"GLYATL1B" -> "FAM151B" ["e"=1]
+"GLYATL1B" -> "NAT1" ["e"=1]
+"GLYATL1B" -> "TRIT1" ["e"=1]
+"GLYATL1B" -> "CYB5RL" ["e"=1]
+"GTPBP3" -> "OGFOD2" ["e"=1]
+"GTPBP3" -> "TRNT1" ["e"=1]
+"GTPBP3" -> "AARSD1" ["e"=1]
+"GTPBP3" -> "TRIT1" ["e"=1]
+"GYG1" -> "DENND10" ["e"=1]
+"GYG1" -> "NSUN3" ["e"=1]
+"GYG1" -> "PYROXD1" ["e"=1]
+"GYG1" -> "FAM151B" ["e"=1]
+"HDHD5" -> "NT5C3B" ["e"=1]
+"HDHD5" -> "TRIT1" ["e"=1]
+"HDHD5" -> "PDXK" ["e"=1]
+"HDHD5" -> "PNKP" ["e"=1]
+"LTO1" -> "PYROXD1" ["e"=1]
+"LTO1" -> "CYB5RL" ["e"=1]
+"LTO1" -> "TRIT1" ["e"=1]
+"LTO1" -> "USB1" ["e"=1]
+"MBLAC2" -> "ADPRM" ["e"=1]
+"MBLAC2" -> "PYROXD1" ["e"=1]
+"MBLAC2" -> "CYB5RL" ["e"=1]
+"MBLAC2" -> "FAM151B" ["e"=1]
+"NAT1" -> "GLYATL1B" ["e"=1]
+"NAT1" -> "NUDT12" ["e"=1]
+"NAT1" -> "FAM151B" ["e"=1]
+"NAT1" -> "C9orf64" ["e"=1]
+"NHLRC4" -> "OGFOD2" ["e"=1]
+"NHLRC4" -> "DENND10" ["e"=1]
+"NHLRC4" -> "MBLAC2" ["e"=1]
+"NHLRC4" -> "FAM151B" ["e"=1]
+"NMRK1" -> "FAM151B" ["e"=1]
+"NMRK1" -> "CYB5RL" ["e"=1]
+"NMRK1" -> "NT5DC1" ["e"=1]
+"NMRK1" -> "TRIT1" ["e"=1]
+"NSUN3" -> "FAM151B" ["e"=1]
+"NSUN3" -> "TRIT1" ["e"=1]
+"NSUN3" -> "GLYATL1B" ["e"=1]
+"NSUN3" -> "NUDT12" ["e"=1]
+"NT5C3B" -> "HDHD5" ["e"=1]
+"NT5C3B" -> "PDXK" ["e"=1]
+"NT5C3B" -> "CYB5RL" ["e"=1]
+"NT5C3B" -> "TRIT1" ["e"=1]
+"NT5DC1" -> "PYROXD1" ["e"=1]
+"NT5DC1" -> "TRIT1" ["e"=1]
+"NT5DC1" -> "AS3MT" ["e"=1]
+"NT5DC1" -> "CYB5RL" ["e"=1]
+"NUDT12" -> "PYROXD1" ["e"=1]
+"NUDT12" -> "NSUN3" ["e"=1]
+"NUDT12" -> "NAT1" ["e"=1]
+"NUDT12" -> "PNPO" ["e"=1]
+"OGFOD2" -> "USB1" ["e"=1]
+"OGFOD2" -> "CYB5RL" ["e"=1]
+"OGFOD2" -> "ADAT3" ["e"=1]
+"OGFOD2" -> "GTPBP3" ["e"=1]
+"OTULINL" -> "CYB5RL" ["e"=1]
+"OTULINL" -> "FAM151B" ["e"=1]
+"OTULINL" -> "C9orf64" ["e"=1]
+"OTULINL" -> "PYROXD1" ["e"=1]
+"PAICS" -> "GLYATL1B" ["e"=1]
+"PAICS" -> "TRIT1" ["e"=1]
+"PAICS" -> "CYB5RL" ["e"=1]
+"PAICS" -> "DAP3" ["e"=1]
+"PDXK" -> "NT5C3B" ["e"=1]
+"PDXK" -> "HDHD5" ["e"=1]
+"PDXK" -> "DUS1L" ["e"=1]
+"PDXK" -> "APTX" ["e"=1]
+"PNKP" -> "SIRT6" ["e"=1]
+"PNKP" -> "APTX" ["e"=1]
+"PNKP" -> "DUS2" ["e"=1]
+"PNKP" -> "HDHD5" ["e"=1]
+"PNPO" -> "CYB5RL" ["e"=1]
+"PNPO" -> "NUDT12" ["e"=1]
+"PNPO" -> "OGFOD2" ["e"=1]
+"PNPO" -> "PYROXD1" ["e"=1]
+"PYROXD1" -> "NT5DC1" ["e"=1]
+"PYROXD1" -> "AS3MT" ["e"=1]
+"PYROXD1" -> "CYB5RL" ["e"=1]
+"PYROXD1" -> "TRIT1" ["e"=1]
+"RSAD2" -> "CYB5RL" ["e"=1]
+"RSAD2" -> "AS3MT" ["e"=1]
+"RSAD2" -> "TRIT1" ["e"=1]
+"RSAD2" -> "C9orf64" ["e"=1]
+"SIRT6" -> "PNKP" ["e"=1]
+"SIRT6" -> "NT5C3B" ["e"=1]
+"SIRT6" -> "OGFOD2" ["e"=1]
+"SIRT6" -> "DUS2" ["e"=1]
+"TRABD" -> "GTPBP3" ["e"=1]
+"TRABD" -> "USB1" ["e"=1]
+"TRABD" -> "OGFOD2" ["e"=1]
+"TRABD" -> "SIRT6" ["e"=1]
+"TRIT1" -> "TRNT1" ["e"=1]
+"TRIT1" -> "FAM151B" ["e"=1]
+"TRIT1" -> "GLYATL1B" ["e"=1]
+"TRIT1" -> "NSUN3" ["e"=1]
+"TRNT1" -> "TRIT1" ["e"=1]
+"TRNT1" -> "GTPBP3" ["e"=1]
+"TRNT1" -> "FAM151B" ["e"=1]
+"TRNT1" -> "GLYATL1B" ["e"=1]
+"USB1" -> "OGFOD2" ["e"=1]
+"USB1" -> "ASCC1" ["e"=1]
+"USB1" -> "FAM151B" ["e"=1]
+"USB1" -> "ADPRM" ["e"=1]
 }

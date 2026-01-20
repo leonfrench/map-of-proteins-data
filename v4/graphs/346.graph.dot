@@ -29,124 +29,124 @@ digraph G {
 "UNC119B" ["l"="10.577,2.647"]
 "ZGPAT" ["l"="10.607,2.525"]
 "ZWINT" ["l"="10.555,2.521"]
-"AKAP7" -> "ANKRD60"
-"AKAP7" -> "PEX19"
-"AKAP7" -> "KCTD2"
-"AKAP7" -> "GOLGA7B"
-"ANKRD60" -> "LIX1L"
-"ANKRD60" -> "KCTD2"
-"ANKRD60" -> "UBFD1"
-"ANKRD60" -> "UNC119B"
-"CARHSP1" -> "PPP1R8"
-"CARHSP1" -> "ZWINT"
-"CARHSP1" -> "ANKRD60"
-"CARHSP1" -> "GTF2E2"
-"CCDC134" -> "LIX1L"
-"CCDC134" -> "PPP1R8"
-"CCDC134" -> "KCTD2"
-"CCDC134" -> "GOLGA7B"
-"DDX23" -> "ANKRD60"
-"DDX23" -> "NEMF"
-"DDX23" -> "PPP1R8"
-"DDX23" -> "UBXN6"
-"DNAJC12" -> "PPP1R8"
-"DNAJC12" -> "NEMF"
-"DNAJC12" -> "ANKRD60"
-"DNAJC12" -> "GTF2E2"
-"EIF3G" -> "UBFD1"
-"EIF3G" -> "PPP1R8"
-"EIF3G" -> "ANKRD60"
-"EIF3G" -> "UBXN6"
-"FBXO45" -> "KCTD2"
-"FBXO45" -> "UBFD1"
-"FBXO45" -> "TPRG1L"
-"FBXO45" -> "ANKRD60"
-"GOLGA7B" -> "KCTD2"
-"GOLGA7B" -> "LIX1L"
-"GOLGA7B" -> "ANKRD60"
-"GOLGA7B" -> "TPRG1L"
-"GTF2E2" -> "INO80C"
-"GTF2E2" -> "UBFD1"
-"GTF2E2" -> "PPP1R8"
-"GTF2E2" -> "ANKRD60"
-"HAUS4" -> "ZWINT"
-"HAUS4" -> "CCDC134"
-"HAUS4" -> "MEDAG"
-"HAUS4" -> "PEX19"
-"INO80C" -> "GTF2E2"
-"INO80C" -> "ANKRD60"
-"INO80C" -> "UBFD1"
-"INO80C" -> "PPP1R8"
-"KCTD2" -> "UBFD1"
-"KCTD2" -> "TPRG1L"
-"KCTD2" -> "ANKRD60"
-"KCTD2" -> "FBXO45"
-"LIX1L" -> "ANKRD60"
-"LIX1L" -> "UBFD1"
-"LIX1L" -> "KCTD2"
-"LIX1L" -> "UNC119B"
-"MEDAG" -> "KCTD2"
-"MEDAG" -> "ANKRD60"
-"MEDAG" -> "UNC119B"
-"MEDAG" -> "PPP1R8"
-"NEMF" -> "PPP1R8"
-"NEMF" -> "AKAP7"
-"NEMF" -> "UBFD1"
-"NEMF" -> "TPRG1L"
-"PCGF6" -> "UBFD1"
-"PCGF6" -> "KCTD2"
-"PCGF6" -> "ANKRD60"
-"PCGF6" -> "UNC119B"
-"PEX19" -> "ANKRD60"
-"PEX19" -> "KCTD2"
-"PEX19" -> "UBXN6"
-"PEX19" -> "LIX1L"
-"PPP1R8" -> "PRCC"
-"PPP1R8" -> "CCDC134"
-"PPP1R8" -> "UBFD1"
-"PPP1R8" -> "PEX19"
-"PRCC" -> "PPP1R8"
-"PRCC" -> "PEX19"
-"PRCC" -> "EIF3G"
-"PRCC" -> "LIX1L"
-"SPC24" -> "SPC25"
-"SPC24" -> "ZWINT"
-"SPC24" -> "HAUS4"
-"SPC24" -> "PEX19"
-"SPC25" -> "SPC24"
-"SPC25" -> "ZWINT"
-"SPC25" -> "HAUS4"
-"SPC25" -> "MEDAG"
-"TPRG1L" -> "KCTD2"
-"TPRG1L" -> "UBFD1"
-"TPRG1L" -> "UNC119B"
-"TPRG1L" -> "FBXO45"
-"UBFD1" -> "KCTD2"
-"UBFD1" -> "TPRG1L"
-"UBFD1" -> "UNC119B"
-"UBFD1" -> "FBXO45"
-"UBL7" -> "PEX19"
-"UBL7" -> "PPP1R8"
-"UBL7" -> "HAUS4"
-"UBL7" -> "UBXN6"
-"UBXN6" -> "PEX19"
-"UBXN6" -> "UBFD1"
-"UBXN6" -> "ANKRD60"
-"UBXN6" -> "TPRG1L"
-"UNC119" -> "UNC119B"
-"UNC119" -> "LIX1L"
-"UNC119" -> "KCTD2"
-"UNC119" -> "TPRG1L"
-"UNC119B" -> "UNC119"
-"UNC119B" -> "UBFD1"
-"UNC119B" -> "TPRG1L"
-"UNC119B" -> "ANKRD60"
-"ZGPAT" -> "ANKRD60"
-"ZGPAT" -> "UBXN6"
-"ZGPAT" -> "GOLGA7B"
-"ZGPAT" -> "LIX1L"
-"ZWINT" -> "HAUS4"
-"ZWINT" -> "SPC24"
-"ZWINT" -> "SPC25"
-"ZWINT" -> "PPP1R8"
+"AKAP7" -> "ANKRD60" ["e"=1]
+"AKAP7" -> "PEX19" ["e"=1]
+"AKAP7" -> "KCTD2" ["e"=1]
+"AKAP7" -> "GOLGA7B" ["e"=1]
+"ANKRD60" -> "LIX1L" ["e"=1]
+"ANKRD60" -> "KCTD2" ["e"=1]
+"ANKRD60" -> "UBFD1" ["e"=1]
+"ANKRD60" -> "UNC119B" ["e"=1]
+"CARHSP1" -> "PPP1R8" ["e"=1]
+"CARHSP1" -> "ZWINT" ["e"=1]
+"CARHSP1" -> "ANKRD60" ["e"=1]
+"CARHSP1" -> "GTF2E2" ["e"=1]
+"CCDC134" -> "LIX1L" ["e"=1]
+"CCDC134" -> "PPP1R8" ["e"=1]
+"CCDC134" -> "KCTD2" ["e"=1]
+"CCDC134" -> "GOLGA7B" ["e"=1]
+"DDX23" -> "ANKRD60" ["e"=1]
+"DDX23" -> "NEMF" ["e"=1]
+"DDX23" -> "PPP1R8" ["e"=1]
+"DDX23" -> "UBXN6" ["e"=1]
+"DNAJC12" -> "PPP1R8" ["e"=1]
+"DNAJC12" -> "NEMF" ["e"=1]
+"DNAJC12" -> "ANKRD60" ["e"=1]
+"DNAJC12" -> "GTF2E2" ["e"=1]
+"EIF3G" -> "UBFD1" ["e"=1]
+"EIF3G" -> "PPP1R8" ["e"=1]
+"EIF3G" -> "ANKRD60" ["e"=1]
+"EIF3G" -> "UBXN6" ["e"=1]
+"FBXO45" -> "KCTD2" ["e"=1]
+"FBXO45" -> "UBFD1" ["e"=1]
+"FBXO45" -> "TPRG1L" ["e"=1]
+"FBXO45" -> "ANKRD60" ["e"=1]
+"GOLGA7B" -> "KCTD2" ["e"=1]
+"GOLGA7B" -> "LIX1L" ["e"=1]
+"GOLGA7B" -> "ANKRD60" ["e"=1]
+"GOLGA7B" -> "TPRG1L" ["e"=1]
+"GTF2E2" -> "INO80C" ["e"=1]
+"GTF2E2" -> "UBFD1" ["e"=1]
+"GTF2E2" -> "PPP1R8" ["e"=1]
+"GTF2E2" -> "ANKRD60" ["e"=1]
+"HAUS4" -> "ZWINT" ["e"=1]
+"HAUS4" -> "CCDC134" ["e"=1]
+"HAUS4" -> "MEDAG" ["e"=1]
+"HAUS4" -> "PEX19" ["e"=1]
+"INO80C" -> "GTF2E2" ["e"=1]
+"INO80C" -> "ANKRD60" ["e"=1]
+"INO80C" -> "UBFD1" ["e"=1]
+"INO80C" -> "PPP1R8" ["e"=1]
+"KCTD2" -> "UBFD1" ["e"=1]
+"KCTD2" -> "TPRG1L" ["e"=1]
+"KCTD2" -> "ANKRD60" ["e"=1]
+"KCTD2" -> "FBXO45" ["e"=1]
+"LIX1L" -> "ANKRD60" ["e"=1]
+"LIX1L" -> "UBFD1" ["e"=1]
+"LIX1L" -> "KCTD2" ["e"=1]
+"LIX1L" -> "UNC119B" ["e"=1]
+"MEDAG" -> "KCTD2" ["e"=1]
+"MEDAG" -> "ANKRD60" ["e"=1]
+"MEDAG" -> "UNC119B" ["e"=1]
+"MEDAG" -> "PPP1R8" ["e"=1]
+"NEMF" -> "PPP1R8" ["e"=1]
+"NEMF" -> "AKAP7" ["e"=1]
+"NEMF" -> "UBFD1" ["e"=1]
+"NEMF" -> "TPRG1L" ["e"=1]
+"PCGF6" -> "UBFD1" ["e"=1]
+"PCGF6" -> "KCTD2" ["e"=1]
+"PCGF6" -> "ANKRD60" ["e"=1]
+"PCGF6" -> "UNC119B" ["e"=1]
+"PEX19" -> "ANKRD60" ["e"=1]
+"PEX19" -> "KCTD2" ["e"=1]
+"PEX19" -> "UBXN6" ["e"=1]
+"PEX19" -> "LIX1L" ["e"=1]
+"PPP1R8" -> "PRCC" ["e"=1]
+"PPP1R8" -> "CCDC134" ["e"=1]
+"PPP1R8" -> "UBFD1" ["e"=1]
+"PPP1R8" -> "PEX19" ["e"=1]
+"PRCC" -> "PPP1R8" ["e"=1]
+"PRCC" -> "PEX19" ["e"=1]
+"PRCC" -> "EIF3G" ["e"=1]
+"PRCC" -> "LIX1L" ["e"=1]
+"SPC24" -> "SPC25" ["e"=1]
+"SPC24" -> "ZWINT" ["e"=1]
+"SPC24" -> "HAUS4" ["e"=1]
+"SPC24" -> "PEX19" ["e"=1]
+"SPC25" -> "SPC24" ["e"=1]
+"SPC25" -> "ZWINT" ["e"=1]
+"SPC25" -> "HAUS4" ["e"=1]
+"SPC25" -> "MEDAG" ["e"=1]
+"TPRG1L" -> "KCTD2" ["e"=1]
+"TPRG1L" -> "UBFD1" ["e"=1]
+"TPRG1L" -> "UNC119B" ["e"=1]
+"TPRG1L" -> "FBXO45" ["e"=1]
+"UBFD1" -> "KCTD2" ["e"=1]
+"UBFD1" -> "TPRG1L" ["e"=1]
+"UBFD1" -> "UNC119B" ["e"=1]
+"UBFD1" -> "FBXO45" ["e"=1]
+"UBL7" -> "PEX19" ["e"=1]
+"UBL7" -> "PPP1R8" ["e"=1]
+"UBL7" -> "HAUS4" ["e"=1]
+"UBL7" -> "UBXN6" ["e"=1]
+"UBXN6" -> "PEX19" ["e"=1]
+"UBXN6" -> "UBFD1" ["e"=1]
+"UBXN6" -> "ANKRD60" ["e"=1]
+"UBXN6" -> "TPRG1L" ["e"=1]
+"UNC119" -> "UNC119B" ["e"=1]
+"UNC119" -> "LIX1L" ["e"=1]
+"UNC119" -> "KCTD2" ["e"=1]
+"UNC119" -> "TPRG1L" ["e"=1]
+"UNC119B" -> "UNC119" ["e"=1]
+"UNC119B" -> "UBFD1" ["e"=1]
+"UNC119B" -> "TPRG1L" ["e"=1]
+"UNC119B" -> "ANKRD60" ["e"=1]
+"ZGPAT" -> "ANKRD60" ["e"=1]
+"ZGPAT" -> "UBXN6" ["e"=1]
+"ZGPAT" -> "GOLGA7B" ["e"=1]
+"ZGPAT" -> "LIX1L" ["e"=1]
+"ZWINT" -> "HAUS4" ["e"=1]
+"ZWINT" -> "SPC24" ["e"=1]
+"ZWINT" -> "SPC25" ["e"=1]
+"ZWINT" -> "PPP1R8" ["e"=1]
 }

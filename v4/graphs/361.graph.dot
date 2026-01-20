@@ -17,76 +17,76 @@ digraph G {
 "USP33" ["l"="10.039,1.364"]
 "USP35" ["l"="10.146,1.368"]
 "USP48" ["l"="10.121,1.380"]
-"ADAP1" -> "PLEKHJ1"
-"ADAP1" -> "MPP2"
-"ADAP1" -> "PTPN9"
-"ADAP1" -> "USP35"
-"CCDC138" -> "USP33"
-"CCDC138" -> "PPIP5K1"
-"CCDC138" -> "USP48"
-"CCDC138" -> "RAB3GAP1"
-"DLG4" -> "MPP2"
-"DLG4" -> "PTPN9"
-"DLG4" -> "ADAP1"
-"DLG4" -> "PPIP5K1"
-"MPP2" -> "DLG4"
-"MPP2" -> "PTPN9"
-"MPP2" -> "ADAP1"
-"MPP2" -> "PLEKHJ1"
-"PIP5K1A" -> "PTPN9"
-"PIP5K1A" -> "PPIP5K1"
-"PIP5K1A" -> "TPRG1"
-"PIP5K1A" -> "RAB3GAP1"
-"PLEKHJ1" -> "ADAP1"
-"PLEKHJ1" -> "PTPN9"
-"PLEKHJ1" -> "MPP2"
-"PLEKHJ1" -> "PRMT2"
-"PPIP5K1" -> "RAD54L2"
-"PPIP5K1" -> "PIP5K1A"
-"PPIP5K1" -> "PTPN9"
-"PPIP5K1" -> "USP35"
-"PRMT2" -> "PTPN9"
-"PRMT2" -> "TPRG1"
-"PRMT2" -> "PTPN1"
-"PRMT2" -> "ADAP1"
-"PTPN1" -> "PTPN9"
-"PTPN1" -> "PRMT2"
-"PTPN1" -> "TPRG1"
-"PTPN1" -> "USP48"
-"PTPN9" -> "TPRG1"
-"PTPN9" -> "PTPN1"
-"PTPN9" -> "MPP2"
-"PTPN9" -> "PRMT2"
-"RAB3GAP1" -> "USP33"
-"RAB3GAP1" -> "USP48"
-"RAB3GAP1" -> "USP35"
-"RAB3GAP1" -> "PTPN9"
-"RAD54L2" -> "PPIP5K1"
-"RAD54L2" -> "SBNO1"
-"RAD54L2" -> "PTPN9"
-"RAD54L2" -> "USP35"
-"SBNO1" -> "RAD54L2"
-"SBNO1" -> "RAB3GAP1"
-"SBNO1" -> "PTPN9"
-"SBNO1" -> "USP33"
-"SYN2" -> "PTPN9"
-"SYN2" -> "TPRG1"
-"SYN2" -> "ADAP1"
-"SYN2" -> "PIP5K1A"
-"TPRG1" -> "PTPN9"
-"TPRG1" -> "PIP5K1A"
-"TPRG1" -> "PRMT2"
-"TPRG1" -> "SYN2"
-"USP33" -> "USP48"
-"USP33" -> "RAB3GAP1"
-"USP33" -> "USP35"
-"USP33" -> "PTPN9"
-"USP35" -> "RAB3GAP1"
-"USP35" -> "PTPN9"
-"USP35" -> "PPIP5K1"
-"USP35" -> "USP33"
-"USP48" -> "USP33"
-"USP48" -> "RAB3GAP1"
-"USP48" -> "PTPN9"
-"USP48" -> "USP35"
+"ADAP1" -> "PLEKHJ1" ["e"=1]
+"ADAP1" -> "MPP2" ["e"=1]
+"ADAP1" -> "PTPN9" ["e"=1]
+"ADAP1" -> "USP35" ["e"=1]
+"CCDC138" -> "USP33" ["e"=1]
+"CCDC138" -> "PPIP5K1" ["e"=1]
+"CCDC138" -> "USP48" ["e"=1]
+"CCDC138" -> "RAB3GAP1" ["e"=1]
+"DLG4" -> "MPP2" ["e"=1]
+"DLG4" -> "PTPN9" ["e"=1]
+"DLG4" -> "ADAP1" ["e"=1]
+"DLG4" -> "PPIP5K1" ["e"=1]
+"MPP2" -> "DLG4" ["e"=1]
+"MPP2" -> "PTPN9" ["e"=1]
+"MPP2" -> "ADAP1" ["e"=1]
+"MPP2" -> "PLEKHJ1" ["e"=1]
+"PIP5K1A" -> "PTPN9" ["e"=1]
+"PIP5K1A" -> "PPIP5K1" ["e"=1]
+"PIP5K1A" -> "TPRG1" ["e"=1]
+"PIP5K1A" -> "RAB3GAP1" ["e"=1]
+"PLEKHJ1" -> "ADAP1" ["e"=1]
+"PLEKHJ1" -> "PTPN9" ["e"=1]
+"PLEKHJ1" -> "MPP2" ["e"=1]
+"PLEKHJ1" -> "PRMT2" ["e"=1]
+"PPIP5K1" -> "RAD54L2" ["e"=1]
+"PPIP5K1" -> "PIP5K1A" ["e"=1]
+"PPIP5K1" -> "PTPN9" ["e"=1]
+"PPIP5K1" -> "USP35" ["e"=1]
+"PRMT2" -> "PTPN9" ["e"=1]
+"PRMT2" -> "TPRG1" ["e"=1]
+"PRMT2" -> "PTPN1" ["e"=1]
+"PRMT2" -> "ADAP1" ["e"=1]
+"PTPN1" -> "PTPN9" ["e"=1]
+"PTPN1" -> "PRMT2" ["e"=1]
+"PTPN1" -> "TPRG1" ["e"=1]
+"PTPN1" -> "USP48" ["e"=1]
+"PTPN9" -> "TPRG1" ["e"=1]
+"PTPN9" -> "PTPN1" ["e"=1]
+"PTPN9" -> "MPP2" ["e"=1]
+"PTPN9" -> "PRMT2" ["e"=1]
+"RAB3GAP1" -> "USP33" ["e"=1]
+"RAB3GAP1" -> "USP48" ["e"=1]
+"RAB3GAP1" -> "USP35" ["e"=1]
+"RAB3GAP1" -> "PTPN9" ["e"=1]
+"RAD54L2" -> "PPIP5K1" ["e"=1]
+"RAD54L2" -> "SBNO1" ["e"=1]
+"RAD54L2" -> "PTPN9" ["e"=1]
+"RAD54L2" -> "USP35" ["e"=1]
+"SBNO1" -> "RAD54L2" ["e"=1]
+"SBNO1" -> "RAB3GAP1" ["e"=1]
+"SBNO1" -> "PTPN9" ["e"=1]
+"SBNO1" -> "USP33" ["e"=1]
+"SYN2" -> "PTPN9" ["e"=1]
+"SYN2" -> "TPRG1" ["e"=1]
+"SYN2" -> "ADAP1" ["e"=1]
+"SYN2" -> "PIP5K1A" ["e"=1]
+"TPRG1" -> "PTPN9" ["e"=1]
+"TPRG1" -> "PIP5K1A" ["e"=1]
+"TPRG1" -> "PRMT2" ["e"=1]
+"TPRG1" -> "SYN2" ["e"=1]
+"USP33" -> "USP48" ["e"=1]
+"USP33" -> "RAB3GAP1" ["e"=1]
+"USP33" -> "USP35" ["e"=1]
+"USP33" -> "PTPN9" ["e"=1]
+"USP35" -> "RAB3GAP1" ["e"=1]
+"USP35" -> "PTPN9" ["e"=1]
+"USP35" -> "PPIP5K1" ["e"=1]
+"USP35" -> "USP33" ["e"=1]
+"USP48" -> "USP33" ["e"=1]
+"USP48" -> "RAB3GAP1" ["e"=1]
+"USP48" -> "PTPN9" ["e"=1]
+"USP48" -> "USP35" ["e"=1]
 }

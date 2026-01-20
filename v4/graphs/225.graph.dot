@@ -14,64 +14,64 @@ digraph G {
 "THSD8" ["l"="14.264,-1.234"]
 "ZG16" ["l"="14.071,-1.348"]
 "ZG16B" ["l"="14.077,-1.320"]
-"ALKAL2" -> "PDGFD"
-"ALKAL2" -> "THSD8"
-"ALKAL2" -> "PRG2"
-"ALKAL2" -> "REG4"
-"ITLN1" -> "ITLN2"
-"ITLN1" -> "REG4"
-"ITLN1" -> "ZG16"
-"ITLN1" -> "REG1A"
-"ITLN2" -> "ITLN1"
-"ITLN2" -> "REG4"
-"ITLN2" -> "REG1A"
-"ITLN2" -> "ZG16"
-"PDGFD" -> "ALKAL2"
-"PDGFD" -> "PRG2"
-"PDGFD" -> "THSD8"
-"PDGFD" -> "REG4"
-"PRG2" -> "PRG3"
-"PRG2" -> "REG4"
-"PRG2" -> "REG1A"
-"PRG2" -> "ALKAL2"
-"PRG3" -> "PRG2"
-"PRG3" -> "REG4"
-"PRG3" -> "REG1A"
-"PRG3" -> "REG3A"
-"REG1A" -> "REG1B"
-"REG1A" -> "REG3A"
-"REG1A" -> "REG3G"
-"REG1A" -> "REG4"
-"REG1B" -> "REG1A"
-"REG1B" -> "REG3A"
-"REG1B" -> "REG3G"
-"REG1B" -> "REG4"
-"REG3A" -> "REG3G"
-"REG3A" -> "REG1A"
-"REG3A" -> "REG1B"
-"REG3A" -> "REG4"
-"REG3G" -> "REG3A"
-"REG3G" -> "REG1B"
-"REG3G" -> "REG1A"
-"REG3G" -> "REG4"
-"REG4" -> "REG3A"
-"REG4" -> "REG1A"
-"REG4" -> "ITLN2"
-"REG4" -> "ZG16"
-"SPACA3" -> "REG4"
-"SPACA3" -> "THSD8"
-"SPACA3" -> "ZG16"
-"SPACA3" -> "ZG16B"
-"THSD8" -> "ALKAL2"
-"THSD8" -> "SPACA3"
-"THSD8" -> "REG4"
-"THSD8" -> "ZG16B"
-"ZG16" -> "ZG16B"
-"ZG16" -> "REG4"
-"ZG16" -> "ITLN1"
-"ZG16" -> "ITLN2"
-"ZG16B" -> "ZG16"
-"ZG16B" -> "REG4"
-"ZG16B" -> "SPACA3"
-"ZG16B" -> "REG3A"
+"ALKAL2" -> "PDGFD" ["e"=1]
+"ALKAL2" -> "THSD8" ["e"=1]
+"ALKAL2" -> "PRG2" ["e"=1]
+"ALKAL2" -> "REG4" ["e"=1]
+"ITLN1" -> "ITLN2" ["e"=1]
+"ITLN1" -> "REG4" ["e"=1]
+"ITLN1" -> "ZG16" ["e"=1]
+"ITLN1" -> "REG1A" ["e"=1]
+"ITLN2" -> "ITLN1" ["e"=1]
+"ITLN2" -> "REG4" ["e"=1]
+"ITLN2" -> "REG1A" ["e"=1]
+"ITLN2" -> "ZG16" ["e"=1]
+"PDGFD" -> "ALKAL2" ["e"=1]
+"PDGFD" -> "PRG2" ["e"=1]
+"PDGFD" -> "THSD8" ["e"=1]
+"PDGFD" -> "REG4" ["e"=1]
+"PRG2" -> "PRG3" ["e"=1]
+"PRG2" -> "REG4" ["e"=1]
+"PRG2" -> "REG1A" ["e"=1]
+"PRG2" -> "ALKAL2" ["e"=1]
+"PRG3" -> "PRG2" ["e"=1]
+"PRG3" -> "REG4" ["e"=1]
+"PRG3" -> "REG1A" ["e"=1]
+"PRG3" -> "REG3A" ["e"=1]
+"REG1A" -> "REG1B" ["e"=1]
+"REG1A" -> "REG3A" ["e"=1]
+"REG1A" -> "REG3G" ["e"=1]
+"REG1A" -> "REG4" ["e"=1]
+"REG1B" -> "REG1A" ["e"=1]
+"REG1B" -> "REG3A" ["e"=1]
+"REG1B" -> "REG3G" ["e"=1]
+"REG1B" -> "REG4" ["e"=1]
+"REG3A" -> "REG3G" ["e"=1]
+"REG3A" -> "REG1A" ["e"=1]
+"REG3A" -> "REG1B" ["e"=1]
+"REG3A" -> "REG4" ["e"=1]
+"REG3G" -> "REG3A" ["e"=1]
+"REG3G" -> "REG1B" ["e"=1]
+"REG3G" -> "REG1A" ["e"=1]
+"REG3G" -> "REG4" ["e"=1]
+"REG4" -> "REG3A" ["e"=1]
+"REG4" -> "REG1A" ["e"=1]
+"REG4" -> "ITLN2" ["e"=1]
+"REG4" -> "ZG16" ["e"=1]
+"SPACA3" -> "REG4" ["e"=1]
+"SPACA3" -> "THSD8" ["e"=1]
+"SPACA3" -> "ZG16" ["e"=1]
+"SPACA3" -> "ZG16B" ["e"=1]
+"THSD8" -> "ALKAL2" ["e"=1]
+"THSD8" -> "SPACA3" ["e"=1]
+"THSD8" -> "REG4" ["e"=1]
+"THSD8" -> "ZG16B" ["e"=1]
+"ZG16" -> "ZG16B" ["e"=1]
+"ZG16" -> "REG4" ["e"=1]
+"ZG16" -> "ITLN1" ["e"=1]
+"ZG16" -> "ITLN2" ["e"=1]
+"ZG16B" -> "ZG16" ["e"=1]
+"ZG16B" -> "REG4" ["e"=1]
+"ZG16B" -> "SPACA3" ["e"=1]
+"ZG16B" -> "REG3A" ["e"=1]
 }

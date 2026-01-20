@@ -15,68 +15,68 @@ digraph G {
 "RNASE7" ["l"="14.959,-1.442"]
 "RNASE8" ["l"="14.989,-1.452"]
 "RNASE9" ["l"="14.971,-1.425"]
-"ANG" -> "RNASE4"
-"ANG" -> "RNASE2"
-"ANG" -> "RNASE1"
-"ANG" -> "RNASE8"
-"EDDM3B" -> "RNASE13"
-"EDDM3B" -> "RNASE11"
-"EDDM3B" -> "RNASE8"
-"EDDM3B" -> "RNASE4"
-"MMRN1" -> "RNASE10"
-"MMRN1" -> "RNASE11"
-"MMRN1" -> "POMC"
-"MMRN1" -> "RNASE13"
-"POMC" -> "RNASE10"
-"POMC" -> "RNASE11"
-"POMC" -> "RNASE4"
-"POMC" -> "RNASE7"
-"RNASE1" -> "RNASE4"
-"RNASE1" -> "ANG"
-"RNASE1" -> "RNASE7"
-"RNASE1" -> "RNASE6"
-"RNASE10" -> "RNASE11"
-"RNASE10" -> "RNASE4"
-"RNASE10" -> "RNASE9"
-"RNASE10" -> "RNASE12"
-"RNASE11" -> "RNASE10"
-"RNASE11" -> "RNASE9"
-"RNASE11" -> "EDDM3B"
-"RNASE11" -> "RNASE13"
-"RNASE12" -> "RNASE9"
-"RNASE12" -> "RNASE13"
-"RNASE12" -> "EDDM3B"
-"RNASE12" -> "RNASE11"
-"RNASE13" -> "EDDM3B"
-"RNASE13" -> "RNASE11"
-"RNASE13" -> "RNASE4"
-"RNASE13" -> "RNASE12"
-"RNASE2" -> "RNASE3"
-"RNASE2" -> "RNASE6"
-"RNASE2" -> "RNASE4"
-"RNASE2" -> "ANG"
-"RNASE3" -> "RNASE2"
-"RNASE3" -> "RNASE6"
-"RNASE3" -> "RNASE4"
-"RNASE3" -> "EDDM3B"
-"RNASE4" -> "ANG"
-"RNASE4" -> "RNASE6"
-"RNASE4" -> "RNASE3"
-"RNASE4" -> "RNASE13"
-"RNASE6" -> "RNASE4"
-"RNASE6" -> "RNASE3"
-"RNASE6" -> "RNASE2"
-"RNASE6" -> "RNASE7"
-"RNASE7" -> "RNASE8"
-"RNASE7" -> "RNASE6"
-"RNASE7" -> "RNASE4"
-"RNASE7" -> "EDDM3B"
-"RNASE8" -> "RNASE7"
-"RNASE8" -> "EDDM3B"
-"RNASE8" -> "RNASE4"
-"RNASE8" -> "RNASE11"
-"RNASE9" -> "RNASE11"
-"RNASE9" -> "RNASE12"
-"RNASE9" -> "EDDM3B"
-"RNASE9" -> "RNASE10"
+"ANG" -> "RNASE4" ["e"=1]
+"ANG" -> "RNASE2" ["e"=1]
+"ANG" -> "RNASE1" ["e"=1]
+"ANG" -> "RNASE8" ["e"=1]
+"EDDM3B" -> "RNASE13" ["e"=1]
+"EDDM3B" -> "RNASE11" ["e"=1]
+"EDDM3B" -> "RNASE8" ["e"=1]
+"EDDM3B" -> "RNASE4" ["e"=1]
+"MMRN1" -> "RNASE10" ["e"=1]
+"MMRN1" -> "RNASE11" ["e"=1]
+"MMRN1" -> "POMC" ["e"=1]
+"MMRN1" -> "RNASE13" ["e"=1]
+"POMC" -> "RNASE10" ["e"=1]
+"POMC" -> "RNASE11" ["e"=1]
+"POMC" -> "RNASE4" ["e"=1]
+"POMC" -> "RNASE7" ["e"=1]
+"RNASE1" -> "RNASE4" ["e"=1]
+"RNASE1" -> "ANG" ["e"=1]
+"RNASE1" -> "RNASE7" ["e"=1]
+"RNASE1" -> "RNASE6" ["e"=1]
+"RNASE10" -> "RNASE11" ["e"=1]
+"RNASE10" -> "RNASE4" ["e"=1]
+"RNASE10" -> "RNASE9" ["e"=1]
+"RNASE10" -> "RNASE12" ["e"=1]
+"RNASE11" -> "RNASE10" ["e"=1]
+"RNASE11" -> "RNASE9" ["e"=1]
+"RNASE11" -> "EDDM3B" ["e"=1]
+"RNASE11" -> "RNASE13" ["e"=1]
+"RNASE12" -> "RNASE9" ["e"=1]
+"RNASE12" -> "RNASE13" ["e"=1]
+"RNASE12" -> "EDDM3B" ["e"=1]
+"RNASE12" -> "RNASE11" ["e"=1]
+"RNASE13" -> "EDDM3B" ["e"=1]
+"RNASE13" -> "RNASE11" ["e"=1]
+"RNASE13" -> "RNASE4" ["e"=1]
+"RNASE13" -> "RNASE12" ["e"=1]
+"RNASE2" -> "RNASE3" ["e"=1]
+"RNASE2" -> "RNASE6" ["e"=1]
+"RNASE2" -> "RNASE4" ["e"=1]
+"RNASE2" -> "ANG" ["e"=1]
+"RNASE3" -> "RNASE2" ["e"=1]
+"RNASE3" -> "RNASE6" ["e"=1]
+"RNASE3" -> "RNASE4" ["e"=1]
+"RNASE3" -> "EDDM3B" ["e"=1]
+"RNASE4" -> "ANG" ["e"=1]
+"RNASE4" -> "RNASE6" ["e"=1]
+"RNASE4" -> "RNASE3" ["e"=1]
+"RNASE4" -> "RNASE13" ["e"=1]
+"RNASE6" -> "RNASE4" ["e"=1]
+"RNASE6" -> "RNASE3" ["e"=1]
+"RNASE6" -> "RNASE2" ["e"=1]
+"RNASE6" -> "RNASE7" ["e"=1]
+"RNASE7" -> "RNASE8" ["e"=1]
+"RNASE7" -> "RNASE6" ["e"=1]
+"RNASE7" -> "RNASE4" ["e"=1]
+"RNASE7" -> "EDDM3B" ["e"=1]
+"RNASE8" -> "RNASE7" ["e"=1]
+"RNASE8" -> "EDDM3B" ["e"=1]
+"RNASE8" -> "RNASE4" ["e"=1]
+"RNASE8" -> "RNASE11" ["e"=1]
+"RNASE9" -> "RNASE11" ["e"=1]
+"RNASE9" -> "RNASE12" ["e"=1]
+"RNASE9" -> "EDDM3B" ["e"=1]
+"RNASE9" -> "RNASE10" ["e"=1]
 }

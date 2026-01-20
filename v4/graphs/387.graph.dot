@@ -64,264 +64,264 @@ digraph G {
 "USP5" ["l"="11.256,1.396"]
 "XRCC5" ["l"="11.481,1.556"]
 "XRCC6" ["l"="11.520,1.544"]
-"ABTB1" -> "ATG4B"
-"ABTB1" -> "CASTOR1"
-"ABTB1" -> "ATP6V0D1"
-"ABTB1" -> "SERAC1"
-"ANGEL1" -> "MTRR"
-"ANGEL1" -> "RGP1"
-"ANGEL1" -> "ARRDC4"
-"ANGEL1" -> "PPP5C"
-"ARRB2" -> "SAG"
-"ARRB2" -> "CASTOR1"
-"ARRB2" -> "CWF19L1"
-"ARRB2" -> "ARRDC2"
-"ARRDC2" -> "ARRDC3"
-"ARRDC2" -> "TXNIP"
-"ARRDC2" -> "ARRDC4"
-"ARRDC2" -> "ARRDC5"
-"ARRDC3" -> "ARRDC2"
-"ARRDC3" -> "ARRDC4"
-"ARRDC3" -> "TXNIP"
-"ARRDC3" -> "RGP1"
-"ARRDC4" -> "ARRDC2"
-"ARRDC4" -> "ARRDC3"
-"ARRDC4" -> "RGP1"
-"ARRDC4" -> "TTPA"
-"ARRDC5" -> "ARRDC2"
-"ARRDC5" -> "TXNIP"
-"ARRDC5" -> "ARRDC4"
-"ARRDC5" -> "RGP1"
-"ATG4B" -> "MINDY3"
-"ATG4B" -> "UBA3"
-"ATG4B" -> "CWF19L1"
-"ATG4B" -> "CASTOR1"
-"ATP6V0D1" -> "HMOX1"
-"ATP6V0D1" -> "PPP5C"
-"ATP6V0D1" -> "ABTB1"
-"ATP6V0D1" -> "CNOT8"
-"BABAM2" -> "FANCL"
-"BABAM2" -> "ATG4B"
-"BABAM2" -> "MINDY3"
-"BABAM2" -> "UBE3D"
-"CASTOR1" -> "ATG4B"
-"CASTOR1" -> "ARRB2"
-"CASTOR1" -> "CWF19L1"
-"CASTOR1" -> "POLA2"
-"CDC123" -> "UBA3"
-"CDC123" -> "NAE1"
-"CDC123" -> "IFT52"
-"CDC123" -> "MINDY3"
-"CDC45" -> "POLA2"
-"CDC45" -> "NAT10"
-"CDC45" -> "MSH5"
-"CDC45" -> "PNLDC1"
-"CHTF18" -> "POLA2"
-"CHTF18" -> "NVL"
-"CHTF18" -> "GTPBP2"
-"CHTF18" -> "USP5"
-"CNOT7" -> "CNOT8"
-"CNOT7" -> "PPP5C"
-"CNOT7" -> "UBA3"
-"CNOT7" -> "ATG4B"
-"CNOT8" -> "CNOT7"
-"CNOT8" -> "PPP5C"
-"CNOT8" -> "CWF19L1"
-"CNOT8" -> "ATG4B"
-"CPSF3" -> "IFT52"
-"CPSF3" -> "MSH5"
-"CPSF3" -> "SUPV3L1"
-"CPSF3" -> "INTS9"
-"CWF19L1" -> "POLA2"
-"CWF19L1" -> "INTS9"
-"CWF19L1" -> "NAT10"
-"CWF19L1" -> "SUPV3L1"
-"DDX1" -> "EIF2S3B"
-"DDX1" -> "SUPV3L1"
-"DDX1" -> "NAT10"
-"DDX1" -> "DHX35"
-"DHX30" -> "DHX33"
-"DHX30" -> "DHX57"
-"DHX30" -> "CHTF18"
-"DHX30" -> "EFTUD2"
-"DHX32" -> "DHX35"
-"DHX32" -> "DHX57"
-"DHX32" -> "DHX33"
-"DHX32" -> "NAT10"
-"DHX33" -> "DHX35"
-"DHX33" -> "DHX30"
-"DHX33" -> "DHX57"
-"DHX33" -> "NAT10"
-"DHX35" -> "DHX33"
-"DHX35" -> "NAT10"
-"DHX35" -> "SERAC1"
-"DHX35" -> "DHX32"
-"DHX57" -> "DHX33"
-"DHX57" -> "DHX30"
-"DHX57" -> "DHX35"
-"DHX57" -> "NVL"
-"DNMT3L" -> "ATG4B"
-"DNMT3L" -> "PNLDC1"
-"DNMT3L" -> "CWF19L1"
-"DNMT3L" -> "UBA3"
-"EFTUD2" -> "NAT10"
-"EFTUD2" -> "USP5"
-"EFTUD2" -> "XRCC6"
-"EFTUD2" -> "DHX30"
-"EIF2S3B" -> "GTPBP2"
-"EIF2S3B" -> "MSH5"
-"EIF2S3B" -> "SERAC1"
-"EIF2S3B" -> "DHX35"
-"FANCL" -> "BABAM2"
-"FANCL" -> "MINDY3"
-"FANCL" -> "UBA3"
-"FANCL" -> "ATG4B"
-"GTPBP2" -> "EIF2S3B"
-"GTPBP2" -> "CHTF18"
-"GTPBP2" -> "NAT10"
-"GTPBP2" -> "MSH5"
-"HMOX1" -> "ATP6V0D1"
-"HMOX1" -> "PPP5C"
-"HMOX1" -> "ARRDC2"
-"HMOX1" -> "TTPA"
-"IFT52" -> "CPSF3"
-"IFT52" -> "CWF19L1"
-"IFT52" -> "MTRR"
-"IFT52" -> "CDC123"
-"INTS9" -> "CWF19L1"
-"INTS9" -> "POLA2"
-"INTS9" -> "POLE2"
-"INTS9" -> "MTRR"
-"IP6K1" -> "IP6K2"
-"IP6K1" -> "PPP5C"
-"IP6K1" -> "CNOT8"
-"IP6K1" -> "ANGEL1"
-"IP6K2" -> "IP6K1"
-"IP6K2" -> "PPP5C"
-"IP6K2" -> "PARP3"
-"IP6K2" -> "MKS1"
-"LIG4" -> "MSH2"
-"LIG4" -> "EIF2S3B"
-"LIG4" -> "DHX57"
-"LIG4" -> "USP5"
-"MINDY3" -> "ATG4B"
-"MINDY3" -> "UBA3"
-"MINDY3" -> "SERAC1"
-"MINDY3" -> "NAE1"
-"MKS1" -> "ANGEL1"
-"MKS1" -> "MTRR"
-"MKS1" -> "UBE3D"
-"MKS1" -> "POLA2"
-"MSH2" -> "MSH5"
-"MSH2" -> "XRCC5"
-"MSH2" -> "DHX57"
-"MSH2" -> "PPP5C"
-"MSH5" -> "POLA2"
-"MSH5" -> "MSH2"
-"MSH5" -> "REXO5"
-"MSH5" -> "CPSF3"
-"MTRR" -> "SERAC1"
-"MTRR" -> "CWF19L1"
-"MTRR" -> "NAT10"
-"MTRR" -> "ANGEL1"
-"NAE1" -> "UBA3"
-"NAE1" -> "MINDY3"
-"NAE1" -> "CDC123"
-"NAE1" -> "XRCC5"
-"NAT10" -> "DHX35"
-"NAT10" -> "CWF19L1"
-"NAT10" -> "EFTUD2"
-"NAT10" -> "USP5"
-"NVL" -> "CHTF18"
-"NVL" -> "POLA2"
-"NVL" -> "DHX57"
-"NVL" -> "SERAC1"
-"PARP3" -> "USP5"
-"PARP3" -> "PPP5C"
-"PARP3" -> "TFIP11"
-"PARP3" -> "ARRDC2"
-"PNLDC1" -> "REXO5"
-"PNLDC1" -> "ATG4B"
-"PNLDC1" -> "DHX35"
-"PNLDC1" -> "DNMT3L"
-"POLA2" -> "CWF19L1"
-"POLA2" -> "POLE2"
-"POLA2" -> "INTS9"
-"POLA2" -> "REXO5"
-"POLE2" -> "POLA2"
-"POLE2" -> "CWF19L1"
-"POLE2" -> "INTS9"
-"POLE2" -> "REXO5"
-"PPP5C" -> "CNOT8"
-"PPP5C" -> "USP5"
-"PPP5C" -> "CNOT7"
-"PPP5C" -> "CWF19L1"
-"PTCD2" -> "DHX33"
-"PTCD2" -> "TTPA"
-"PTCD2" -> "CWF19L1"
-"PTCD2" -> "NAT10"
-"REXO5" -> "POLA2"
-"REXO5" -> "PNLDC1"
-"REXO5" -> "CWF19L1"
-"REXO5" -> "MSH5"
-"RGP1" -> "ARRDC4"
-"RGP1" -> "ARRDC3"
-"RGP1" -> "ARRDC2"
-"RGP1" -> "MTRR"
-"SAG" -> "ARRB2"
-"SAG" -> "CWF19L1"
-"SAG" -> "ARRDC5"
-"SAG" -> "INTS9"
-"SERAC1" -> "DHX35"
-"SERAC1" -> "MTRR"
-"SERAC1" -> "MINDY3"
-"SERAC1" -> "NVL"
-"SETD7" -> "ATG4B"
-"SETD7" -> "DHX57"
-"SETD7" -> "CWF19L1"
-"SETD7" -> "USP5"
-"SPHK2" -> "CASTOR1"
-"SPHK2" -> "RGP1"
-"SPHK2" -> "ARRDC2"
-"SPHK2" -> "INTS9"
-"SRPRA" -> "EIF2S3B"
-"SRPRA" -> "GTPBP2"
-"SRPRA" -> "NVL"
-"SRPRA" -> "USP5"
-"SUPV3L1" -> "CWF19L1"
-"SUPV3L1" -> "DHX35"
-"SUPV3L1" -> "DHX33"
-"SUPV3L1" -> "NAT10"
-"TFIP11" -> "DHX57"
-"TFIP11" -> "USP5"
-"TFIP11" -> "PARP3"
-"TFIP11" -> "PPP5C"
-"TTPA" -> "ARRDC4"
-"TTPA" -> "PTCD2"
-"TTPA" -> "CASTOR1"
-"TTPA" -> "DHX33"
-"TXNIP" -> "ARRDC2"
-"TXNIP" -> "ARRDC3"
-"TXNIP" -> "ARRDC4"
-"TXNIP" -> "ARRDC5"
-"UBA3" -> "ATG4B"
-"UBA3" -> "NAE1"
-"UBA3" -> "MINDY3"
-"UBA3" -> "MTRR"
-"UBE3D" -> "CWF19L1"
-"UBE3D" -> "MTRR"
-"UBE3D" -> "MKS1"
-"UBE3D" -> "MINDY3"
-"USP5" -> "PPP5C"
-"USP5" -> "NAT10"
-"USP5" -> "PARP3"
-"USP5" -> "ATG4B"
-"XRCC5" -> "XRCC6"
-"XRCC5" -> "MSH2"
-"XRCC5" -> "MSH5"
-"XRCC5" -> "CWF19L1"
-"XRCC6" -> "XRCC5"
-"XRCC6" -> "CPSF3"
-"XRCC6" -> "MSH5"
-"XRCC6" -> "NAT10"
+"ABTB1" -> "ATG4B" ["e"=1]
+"ABTB1" -> "CASTOR1" ["e"=1]
+"ABTB1" -> "ATP6V0D1" ["e"=1]
+"ABTB1" -> "SERAC1" ["e"=1]
+"ANGEL1" -> "MTRR" ["e"=1]
+"ANGEL1" -> "RGP1" ["e"=1]
+"ANGEL1" -> "ARRDC4" ["e"=1]
+"ANGEL1" -> "PPP5C" ["e"=1]
+"ARRB2" -> "SAG" ["e"=1]
+"ARRB2" -> "CASTOR1" ["e"=1]
+"ARRB2" -> "CWF19L1" ["e"=1]
+"ARRB2" -> "ARRDC2" ["e"=1]
+"ARRDC2" -> "ARRDC3" ["e"=1]
+"ARRDC2" -> "TXNIP" ["e"=1]
+"ARRDC2" -> "ARRDC4" ["e"=1]
+"ARRDC2" -> "ARRDC5" ["e"=1]
+"ARRDC3" -> "ARRDC2" ["e"=1]
+"ARRDC3" -> "ARRDC4" ["e"=1]
+"ARRDC3" -> "TXNIP" ["e"=1]
+"ARRDC3" -> "RGP1" ["e"=1]
+"ARRDC4" -> "ARRDC2" ["e"=1]
+"ARRDC4" -> "ARRDC3" ["e"=1]
+"ARRDC4" -> "RGP1" ["e"=1]
+"ARRDC4" -> "TTPA" ["e"=1]
+"ARRDC5" -> "ARRDC2" ["e"=1]
+"ARRDC5" -> "TXNIP" ["e"=1]
+"ARRDC5" -> "ARRDC4" ["e"=1]
+"ARRDC5" -> "RGP1" ["e"=1]
+"ATG4B" -> "MINDY3" ["e"=1]
+"ATG4B" -> "UBA3" ["e"=1]
+"ATG4B" -> "CWF19L1" ["e"=1]
+"ATG4B" -> "CASTOR1" ["e"=1]
+"ATP6V0D1" -> "HMOX1" ["e"=1]
+"ATP6V0D1" -> "PPP5C" ["e"=1]
+"ATP6V0D1" -> "ABTB1" ["e"=1]
+"ATP6V0D1" -> "CNOT8" ["e"=1]
+"BABAM2" -> "FANCL" ["e"=1]
+"BABAM2" -> "ATG4B" ["e"=1]
+"BABAM2" -> "MINDY3" ["e"=1]
+"BABAM2" -> "UBE3D" ["e"=1]
+"CASTOR1" -> "ATG4B" ["e"=1]
+"CASTOR1" -> "ARRB2" ["e"=1]
+"CASTOR1" -> "CWF19L1" ["e"=1]
+"CASTOR1" -> "POLA2" ["e"=1]
+"CDC123" -> "UBA3" ["e"=1]
+"CDC123" -> "NAE1" ["e"=1]
+"CDC123" -> "IFT52" ["e"=1]
+"CDC123" -> "MINDY3" ["e"=1]
+"CDC45" -> "POLA2" ["e"=1]
+"CDC45" -> "NAT10" ["e"=1]
+"CDC45" -> "MSH5" ["e"=1]
+"CDC45" -> "PNLDC1" ["e"=1]
+"CHTF18" -> "POLA2" ["e"=1]
+"CHTF18" -> "NVL" ["e"=1]
+"CHTF18" -> "GTPBP2" ["e"=1]
+"CHTF18" -> "USP5" ["e"=1]
+"CNOT7" -> "CNOT8" ["e"=1]
+"CNOT7" -> "PPP5C" ["e"=1]
+"CNOT7" -> "UBA3" ["e"=1]
+"CNOT7" -> "ATG4B" ["e"=1]
+"CNOT8" -> "CNOT7" ["e"=1]
+"CNOT8" -> "PPP5C" ["e"=1]
+"CNOT8" -> "CWF19L1" ["e"=1]
+"CNOT8" -> "ATG4B" ["e"=1]
+"CPSF3" -> "IFT52" ["e"=1]
+"CPSF3" -> "MSH5" ["e"=1]
+"CPSF3" -> "SUPV3L1" ["e"=1]
+"CPSF3" -> "INTS9" ["e"=1]
+"CWF19L1" -> "POLA2" ["e"=1]
+"CWF19L1" -> "INTS9" ["e"=1]
+"CWF19L1" -> "NAT10" ["e"=1]
+"CWF19L1" -> "SUPV3L1" ["e"=1]
+"DDX1" -> "EIF2S3B" ["e"=1]
+"DDX1" -> "SUPV3L1" ["e"=1]
+"DDX1" -> "NAT10" ["e"=1]
+"DDX1" -> "DHX35" ["e"=1]
+"DHX30" -> "DHX33" ["e"=1]
+"DHX30" -> "DHX57" ["e"=1]
+"DHX30" -> "CHTF18" ["e"=1]
+"DHX30" -> "EFTUD2" ["e"=1]
+"DHX32" -> "DHX35" ["e"=1]
+"DHX32" -> "DHX57" ["e"=1]
+"DHX32" -> "DHX33" ["e"=1]
+"DHX32" -> "NAT10" ["e"=1]
+"DHX33" -> "DHX35" ["e"=1]
+"DHX33" -> "DHX30" ["e"=1]
+"DHX33" -> "DHX57" ["e"=1]
+"DHX33" -> "NAT10" ["e"=1]
+"DHX35" -> "DHX33" ["e"=1]
+"DHX35" -> "NAT10" ["e"=1]
+"DHX35" -> "SERAC1" ["e"=1]
+"DHX35" -> "DHX32" ["e"=1]
+"DHX57" -> "DHX33" ["e"=1]
+"DHX57" -> "DHX30" ["e"=1]
+"DHX57" -> "DHX35" ["e"=1]
+"DHX57" -> "NVL" ["e"=1]
+"DNMT3L" -> "ATG4B" ["e"=1]
+"DNMT3L" -> "PNLDC1" ["e"=1]
+"DNMT3L" -> "CWF19L1" ["e"=1]
+"DNMT3L" -> "UBA3" ["e"=1]
+"EFTUD2" -> "NAT10" ["e"=1]
+"EFTUD2" -> "USP5" ["e"=1]
+"EFTUD2" -> "XRCC6" ["e"=1]
+"EFTUD2" -> "DHX30" ["e"=1]
+"EIF2S3B" -> "GTPBP2" ["e"=1]
+"EIF2S3B" -> "MSH5" ["e"=1]
+"EIF2S3B" -> "SERAC1" ["e"=1]
+"EIF2S3B" -> "DHX35" ["e"=1]
+"FANCL" -> "BABAM2" ["e"=1]
+"FANCL" -> "MINDY3" ["e"=1]
+"FANCL" -> "UBA3" ["e"=1]
+"FANCL" -> "ATG4B" ["e"=1]
+"GTPBP2" -> "EIF2S3B" ["e"=1]
+"GTPBP2" -> "CHTF18" ["e"=1]
+"GTPBP2" -> "NAT10" ["e"=1]
+"GTPBP2" -> "MSH5" ["e"=1]
+"HMOX1" -> "ATP6V0D1" ["e"=1]
+"HMOX1" -> "PPP5C" ["e"=1]
+"HMOX1" -> "ARRDC2" ["e"=1]
+"HMOX1" -> "TTPA" ["e"=1]
+"IFT52" -> "CPSF3" ["e"=1]
+"IFT52" -> "CWF19L1" ["e"=1]
+"IFT52" -> "MTRR" ["e"=1]
+"IFT52" -> "CDC123" ["e"=1]
+"INTS9" -> "CWF19L1" ["e"=1]
+"INTS9" -> "POLA2" ["e"=1]
+"INTS9" -> "POLE2" ["e"=1]
+"INTS9" -> "MTRR" ["e"=1]
+"IP6K1" -> "IP6K2" ["e"=1]
+"IP6K1" -> "PPP5C" ["e"=1]
+"IP6K1" -> "CNOT8" ["e"=1]
+"IP6K1" -> "ANGEL1" ["e"=1]
+"IP6K2" -> "IP6K1" ["e"=1]
+"IP6K2" -> "PPP5C" ["e"=1]
+"IP6K2" -> "PARP3" ["e"=1]
+"IP6K2" -> "MKS1" ["e"=1]
+"LIG4" -> "MSH2" ["e"=1]
+"LIG4" -> "EIF2S3B" ["e"=1]
+"LIG4" -> "DHX57" ["e"=1]
+"LIG4" -> "USP5" ["e"=1]
+"MINDY3" -> "ATG4B" ["e"=1]
+"MINDY3" -> "UBA3" ["e"=1]
+"MINDY3" -> "SERAC1" ["e"=1]
+"MINDY3" -> "NAE1" ["e"=1]
+"MKS1" -> "ANGEL1" ["e"=1]
+"MKS1" -> "MTRR" ["e"=1]
+"MKS1" -> "UBE3D" ["e"=1]
+"MKS1" -> "POLA2" ["e"=1]
+"MSH2" -> "MSH5" ["e"=1]
+"MSH2" -> "XRCC5" ["e"=1]
+"MSH2" -> "DHX57" ["e"=1]
+"MSH2" -> "PPP5C" ["e"=1]
+"MSH5" -> "POLA2" ["e"=1]
+"MSH5" -> "MSH2" ["e"=1]
+"MSH5" -> "REXO5" ["e"=1]
+"MSH5" -> "CPSF3" ["e"=1]
+"MTRR" -> "SERAC1" ["e"=1]
+"MTRR" -> "CWF19L1" ["e"=1]
+"MTRR" -> "NAT10" ["e"=1]
+"MTRR" -> "ANGEL1" ["e"=1]
+"NAE1" -> "UBA3" ["e"=1]
+"NAE1" -> "MINDY3" ["e"=1]
+"NAE1" -> "CDC123" ["e"=1]
+"NAE1" -> "XRCC5" ["e"=1]
+"NAT10" -> "DHX35" ["e"=1]
+"NAT10" -> "CWF19L1" ["e"=1]
+"NAT10" -> "EFTUD2" ["e"=1]
+"NAT10" -> "USP5" ["e"=1]
+"NVL" -> "CHTF18" ["e"=1]
+"NVL" -> "POLA2" ["e"=1]
+"NVL" -> "DHX57" ["e"=1]
+"NVL" -> "SERAC1" ["e"=1]
+"PARP3" -> "USP5" ["e"=1]
+"PARP3" -> "PPP5C" ["e"=1]
+"PARP3" -> "TFIP11" ["e"=1]
+"PARP3" -> "ARRDC2" ["e"=1]
+"PNLDC1" -> "REXO5" ["e"=1]
+"PNLDC1" -> "ATG4B" ["e"=1]
+"PNLDC1" -> "DHX35" ["e"=1]
+"PNLDC1" -> "DNMT3L" ["e"=1]
+"POLA2" -> "CWF19L1" ["e"=1]
+"POLA2" -> "POLE2" ["e"=1]
+"POLA2" -> "INTS9" ["e"=1]
+"POLA2" -> "REXO5" ["e"=1]
+"POLE2" -> "POLA2" ["e"=1]
+"POLE2" -> "CWF19L1" ["e"=1]
+"POLE2" -> "INTS9" ["e"=1]
+"POLE2" -> "REXO5" ["e"=1]
+"PPP5C" -> "CNOT8" ["e"=1]
+"PPP5C" -> "USP5" ["e"=1]
+"PPP5C" -> "CNOT7" ["e"=1]
+"PPP5C" -> "CWF19L1" ["e"=1]
+"PTCD2" -> "DHX33" ["e"=1]
+"PTCD2" -> "TTPA" ["e"=1]
+"PTCD2" -> "CWF19L1" ["e"=1]
+"PTCD2" -> "NAT10" ["e"=1]
+"REXO5" -> "POLA2" ["e"=1]
+"REXO5" -> "PNLDC1" ["e"=1]
+"REXO5" -> "CWF19L1" ["e"=1]
+"REXO5" -> "MSH5" ["e"=1]
+"RGP1" -> "ARRDC4" ["e"=1]
+"RGP1" -> "ARRDC3" ["e"=1]
+"RGP1" -> "ARRDC2" ["e"=1]
+"RGP1" -> "MTRR" ["e"=1]
+"SAG" -> "ARRB2" ["e"=1]
+"SAG" -> "CWF19L1" ["e"=1]
+"SAG" -> "ARRDC5" ["e"=1]
+"SAG" -> "INTS9" ["e"=1]
+"SERAC1" -> "DHX35" ["e"=1]
+"SERAC1" -> "MTRR" ["e"=1]
+"SERAC1" -> "MINDY3" ["e"=1]
+"SERAC1" -> "NVL" ["e"=1]
+"SETD7" -> "ATG4B" ["e"=1]
+"SETD7" -> "DHX57" ["e"=1]
+"SETD7" -> "CWF19L1" ["e"=1]
+"SETD7" -> "USP5" ["e"=1]
+"SPHK2" -> "CASTOR1" ["e"=1]
+"SPHK2" -> "RGP1" ["e"=1]
+"SPHK2" -> "ARRDC2" ["e"=1]
+"SPHK2" -> "INTS9" ["e"=1]
+"SRPRA" -> "EIF2S3B" ["e"=1]
+"SRPRA" -> "GTPBP2" ["e"=1]
+"SRPRA" -> "NVL" ["e"=1]
+"SRPRA" -> "USP5" ["e"=1]
+"SUPV3L1" -> "CWF19L1" ["e"=1]
+"SUPV3L1" -> "DHX35" ["e"=1]
+"SUPV3L1" -> "DHX33" ["e"=1]
+"SUPV3L1" -> "NAT10" ["e"=1]
+"TFIP11" -> "DHX57" ["e"=1]
+"TFIP11" -> "USP5" ["e"=1]
+"TFIP11" -> "PARP3" ["e"=1]
+"TFIP11" -> "PPP5C" ["e"=1]
+"TTPA" -> "ARRDC4" ["e"=1]
+"TTPA" -> "PTCD2" ["e"=1]
+"TTPA" -> "CASTOR1" ["e"=1]
+"TTPA" -> "DHX33" ["e"=1]
+"TXNIP" -> "ARRDC2" ["e"=1]
+"TXNIP" -> "ARRDC3" ["e"=1]
+"TXNIP" -> "ARRDC4" ["e"=1]
+"TXNIP" -> "ARRDC5" ["e"=1]
+"UBA3" -> "ATG4B" ["e"=1]
+"UBA3" -> "NAE1" ["e"=1]
+"UBA3" -> "MINDY3" ["e"=1]
+"UBA3" -> "MTRR" ["e"=1]
+"UBE3D" -> "CWF19L1" ["e"=1]
+"UBE3D" -> "MTRR" ["e"=1]
+"UBE3D" -> "MKS1" ["e"=1]
+"UBE3D" -> "MINDY3" ["e"=1]
+"USP5" -> "PPP5C" ["e"=1]
+"USP5" -> "NAT10" ["e"=1]
+"USP5" -> "PARP3" ["e"=1]
+"USP5" -> "ATG4B" ["e"=1]
+"XRCC5" -> "XRCC6" ["e"=1]
+"XRCC5" -> "MSH2" ["e"=1]
+"XRCC5" -> "MSH5" ["e"=1]
+"XRCC5" -> "CWF19L1" ["e"=1]
+"XRCC6" -> "XRCC5" ["e"=1]
+"XRCC6" -> "CPSF3" ["e"=1]
+"XRCC6" -> "MSH5" ["e"=1]
+"XRCC6" -> "NAT10" ["e"=1]
 }

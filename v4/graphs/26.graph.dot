@@ -17,76 +17,76 @@ digraph G {
 "LCE3E" ["l"="0.904,-7.068"]
 "LCE4A" ["l"="0.897,-7.075"]
 "LCE5A" ["l"="0.904,-7.067"]
-"CRCT1" -> "LCE1A"
-"CRCT1" -> "LCE1B"
-"CRCT1" -> "LCE5A"
-"CRCT1" -> "LCE1C"
-"LCE1A" -> "LCE1B"
-"LCE1A" -> "LCE1F"
-"LCE1A" -> "LCE5A"
-"LCE1A" -> "LCE1E"
-"LCE1B" -> "LCE1C"
-"LCE1B" -> "LCE1A"
-"LCE1B" -> "LCE1F"
-"LCE1B" -> "LCE5A"
-"LCE1C" -> "LCE1B"
-"LCE1C" -> "LCE5A"
-"LCE1C" -> "LCE1F"
-"LCE1C" -> "LCE4A"
-"LCE1D" -> "LCE4A"
-"LCE1D" -> "LCE1C"
-"LCE1D" -> "LCE5A"
-"LCE1D" -> "LCE1F"
-"LCE1E" -> "LCE1F"
-"LCE1E" -> "LCE1A"
-"LCE1E" -> "LCE1C"
-"LCE1E" -> "LCE5A"
-"LCE1F" -> "LCE1A"
-"LCE1F" -> "LCE1C"
-"LCE1F" -> "LCE1E"
-"LCE1F" -> "LCE1B"
-"LCE2A" -> "LCE5A"
-"LCE2A" -> "LCE4A"
-"LCE2A" -> "LCE2D"
-"LCE2A" -> "LCE1C"
-"LCE2B" -> "LCE2C"
-"LCE2B" -> "LCE2D"
-"LCE2B" -> "LCE5A"
-"LCE2B" -> "LCE3B"
-"LCE2C" -> "LCE2D"
-"LCE2C" -> "LCE2B"
-"LCE2C" -> "LCE2A"
-"LCE2C" -> "LCE4A"
-"LCE2D" -> "LCE2C"
-"LCE2D" -> "LCE2B"
-"LCE2D" -> "LCE2A"
-"LCE2D" -> "LCE4A"
-"LCE3A" -> "LCE1A"
-"LCE3A" -> "LCE3B"
-"LCE3A" -> "LCE3C"
-"LCE3A" -> "LCE5A"
-"LCE3B" -> "LCE3C"
-"LCE3B" -> "LCE2B"
-"LCE3B" -> "LCE3A"
-"LCE3B" -> "LCE2D"
-"LCE3C" -> "LCE3B"
-"LCE3C" -> "LCE4A"
-"LCE3C" -> "LCE3E"
-"LCE3C" -> "LCE3A"
-"LCE3D" -> "LCE3E"
-"LCE3D" -> "LCE5A"
-"LCE3D" -> "LCE3C"
-"LCE3D" -> "LCE3A"
-"LCE3E" -> "LCE3D"
-"LCE3E" -> "LCE3C"
-"LCE3E" -> "LCE5A"
-"LCE3E" -> "LCE2A"
-"LCE4A" -> "LCE1C"
-"LCE4A" -> "LCE2A"
-"LCE4A" -> "LCE2D"
-"LCE4A" -> "LCE5A"
-"LCE5A" -> "LCE1C"
-"LCE5A" -> "LCE1A"
-"LCE5A" -> "LCE2A"
-"LCE5A" -> "LCE1F"
+"CRCT1" -> "LCE1A" ["e"=1]
+"CRCT1" -> "LCE1B" ["e"=1]
+"CRCT1" -> "LCE5A" ["e"=1]
+"CRCT1" -> "LCE1C" ["e"=1]
+"LCE1A" -> "LCE1B" ["e"=1]
+"LCE1A" -> "LCE1F" ["e"=1]
+"LCE1A" -> "LCE5A" ["e"=1]
+"LCE1A" -> "LCE1E" ["e"=1]
+"LCE1B" -> "LCE1C" ["e"=1]
+"LCE1B" -> "LCE1A" ["e"=1]
+"LCE1B" -> "LCE1F" ["e"=1]
+"LCE1B" -> "LCE5A" ["e"=1]
+"LCE1C" -> "LCE1B" ["e"=1]
+"LCE1C" -> "LCE5A" ["e"=1]
+"LCE1C" -> "LCE1F" ["e"=1]
+"LCE1C" -> "LCE4A" ["e"=1]
+"LCE1D" -> "LCE4A" ["e"=1]
+"LCE1D" -> "LCE1C" ["e"=1]
+"LCE1D" -> "LCE5A" ["e"=1]
+"LCE1D" -> "LCE1F" ["e"=1]
+"LCE1E" -> "LCE1F" ["e"=1]
+"LCE1E" -> "LCE1A" ["e"=1]
+"LCE1E" -> "LCE1C" ["e"=1]
+"LCE1E" -> "LCE5A" ["e"=1]
+"LCE1F" -> "LCE1A" ["e"=1]
+"LCE1F" -> "LCE1C" ["e"=1]
+"LCE1F" -> "LCE1E" ["e"=1]
+"LCE1F" -> "LCE1B" ["e"=1]
+"LCE2A" -> "LCE5A" ["e"=1]
+"LCE2A" -> "LCE4A" ["e"=1]
+"LCE2A" -> "LCE2D" ["e"=1]
+"LCE2A" -> "LCE1C" ["e"=1]
+"LCE2B" -> "LCE2C" ["e"=1]
+"LCE2B" -> "LCE2D" ["e"=1]
+"LCE2B" -> "LCE5A" ["e"=1]
+"LCE2B" -> "LCE3B" ["e"=1]
+"LCE2C" -> "LCE2D" ["e"=1]
+"LCE2C" -> "LCE2B" ["e"=1]
+"LCE2C" -> "LCE2A" ["e"=1]
+"LCE2C" -> "LCE4A" ["e"=1]
+"LCE2D" -> "LCE2C" ["e"=1]
+"LCE2D" -> "LCE2B" ["e"=1]
+"LCE2D" -> "LCE2A" ["e"=1]
+"LCE2D" -> "LCE4A" ["e"=1]
+"LCE3A" -> "LCE1A" ["e"=1]
+"LCE3A" -> "LCE3B" ["e"=1]
+"LCE3A" -> "LCE3C" ["e"=1]
+"LCE3A" -> "LCE5A" ["e"=1]
+"LCE3B" -> "LCE3C" ["e"=1]
+"LCE3B" -> "LCE2B" ["e"=1]
+"LCE3B" -> "LCE3A" ["e"=1]
+"LCE3B" -> "LCE2D" ["e"=1]
+"LCE3C" -> "LCE3B" ["e"=1]
+"LCE3C" -> "LCE4A" ["e"=1]
+"LCE3C" -> "LCE3E" ["e"=1]
+"LCE3C" -> "LCE3A" ["e"=1]
+"LCE3D" -> "LCE3E" ["e"=1]
+"LCE3D" -> "LCE5A" ["e"=1]
+"LCE3D" -> "LCE3C" ["e"=1]
+"LCE3D" -> "LCE3A" ["e"=1]
+"LCE3E" -> "LCE3D" ["e"=1]
+"LCE3E" -> "LCE3C" ["e"=1]
+"LCE3E" -> "LCE5A" ["e"=1]
+"LCE3E" -> "LCE2A" ["e"=1]
+"LCE4A" -> "LCE1C" ["e"=1]
+"LCE4A" -> "LCE2A" ["e"=1]
+"LCE4A" -> "LCE2D" ["e"=1]
+"LCE4A" -> "LCE5A" ["e"=1]
+"LCE5A" -> "LCE1C" ["e"=1]
+"LCE5A" -> "LCE1A" ["e"=1]
+"LCE5A" -> "LCE2A" ["e"=1]
+"LCE5A" -> "LCE1F" ["e"=1]
 }

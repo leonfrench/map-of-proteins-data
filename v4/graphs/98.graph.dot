@@ -37,156 +37,156 @@ digraph G {
 "ZER1" ["l"="15.253,4.376"]
 "ZYG11A" ["l"="15.222,4.344"]
 "ZYG11B" ["l"="15.181,4.305"]
-"AMN1" -> "FBXL20"
-"AMN1" -> "FBXL2"
-"AMN1" -> "ZER1"
-"AMN1" -> "FBXL12"
-"CFAP410" -> "LRRC46"
-"CFAP410" -> "LRRC73"
-"CFAP410" -> "LRRC75B"
-"CFAP410" -> "LRRC56"
-"DNAL1" -> "LRRC46"
-"DNAL1" -> "LRRC34"
-"DNAL1" -> "LRRC61"
-"DNAL1" -> "LRRC49"
-"DRC3" -> "LRRC46"
-"DRC3" -> "PPP1R42"
-"DRC3" -> "LRRC49"
-"DRC3" -> "LRRC34"
-"FBXL12" -> "FBXL15"
-"FBXL12" -> "LRRC73"
-"FBXL12" -> "LRRC61"
-"FBXL12" -> "CFAP410"
-"FBXL13" -> "FBXL2"
-"FBXL13" -> "LRRC9"
-"FBXL13" -> "LRRC34"
-"FBXL13" -> "LRRC49"
-"FBXL15" -> "LRRC73"
-"FBXL15" -> "FBXL12"
-"FBXL15" -> "LRRC61"
-"FBXL15" -> "LRRC75B"
-"FBXL16" -> "ZER1"
-"FBXL16" -> "FBXL3"
-"FBXL16" -> "ZYG11B"
-"FBXL16" -> "TCTE1"
-"FBXL18" -> "ZYG11A"
-"FBXL18" -> "ZYG11B"
-"FBXL18" -> "ZER1"
-"FBXL18" -> "TBCEL"
-"FBXL2" -> "FBXL20"
-"FBXL2" -> "FBXL13"
-"FBXL2" -> "AMN1"
-"FBXL2" -> "LRRC61"
-"FBXL20" -> "FBXL2"
-"FBXL20" -> "AMN1"
-"FBXL20" -> "ZYG11B"
-"FBXL20" -> "ZER1"
-"FBXL3" -> "ZYG11B"
-"FBXL3" -> "ZER1"
-"FBXL3" -> "FBXL4"
-"FBXL3" -> "FBXL16"
-"FBXL4" -> "TBCEL"
-"FBXL4" -> "FBXL20"
-"FBXL4" -> "SKP2"
-"FBXL4" -> "FBXL3"
-"FBXL6" -> "LRRC75B"
-"FBXL6" -> "FBXL15"
-"FBXL6" -> "ZYG11A"
-"FBXL6" -> "FBXL12"
-"LRGUK" -> "LRRC49"
-"LRGUK" -> "LRRC34"
-"LRGUK" -> "LRRC43"
-"LRGUK" -> "LRRC74B"
-"LRMDA" -> "CFAP410"
-"LRMDA" -> "LRRC61"
-"LRMDA" -> "TBCEL"
-"LRMDA" -> "LRRC72"
-"LRRC31" -> "LRRC74A"
-"LRRC31" -> "ZYG11A"
-"LRRC31" -> "FBXL13"
-"LRRC31" -> "LRRC74B"
-"LRRC34" -> "LRRC74B"
-"LRRC34" -> "LRRC74A"
-"LRRC34" -> "LRRC49"
-"LRRC34" -> "LRGUK"
-"LRRC43" -> "LRRC46"
-"LRRC43" -> "LRRC71"
-"LRRC43" -> "LRGUK"
-"LRRC43" -> "LRRC74B"
-"LRRC46" -> "LRRC74B"
-"LRRC46" -> "CFAP410"
-"LRRC46" -> "LRRC73"
-"LRRC46" -> "LRRC56"
-"LRRC49" -> "LRRC9"
-"LRRC49" -> "LRGUK"
-"LRRC49" -> "LRRC34"
-"LRRC49" -> "LRRC46"
-"LRRC56" -> "LRRC46"
-"LRRC56" -> "CFAP410"
-"LRRC56" -> "LRRC74B"
-"LRRC56" -> "LRRC61"
-"LRRC59" -> "TCTE1"
-"LRRC59" -> "LRRC56"
-"LRRC59" -> "CFAP410"
-"LRRC59" -> "LRRC49"
-"LRRC61" -> "LRRC73"
-"LRRC61" -> "FBXL15"
-"LRRC61" -> "LRRC46"
-"LRRC61" -> "FBXL12"
-"LRRC71" -> "LRRC43"
-"LRRC71" -> "LRRC46"
-"LRRC71" -> "LRRC74B"
-"LRRC71" -> "LRRC49"
-"LRRC72" -> "PPP1R42"
-"LRRC72" -> "LRRC46"
-"LRRC72" -> "LRRC56"
-"LRRC72" -> "LRRC49"
-"LRRC73" -> "LRRC61"
-"LRRC73" -> "TCTE1"
-"LRRC73" -> "LRRC74B"
-"LRRC73" -> "LRRC46"
-"LRRC74A" -> "LRRC74B"
-"LRRC74A" -> "LRRC34"
-"LRRC74A" -> "LRRC73"
-"LRRC74A" -> "TCTE1"
-"LRRC74B" -> "LRRC74A"
-"LRRC74B" -> "LRRC73"
-"LRRC74B" -> "LRRC34"
-"LRRC74B" -> "LRRC46"
-"LRRC75B" -> "FBXL6"
-"LRRC75B" -> "CFAP410"
-"LRRC75B" -> "FBXL15"
-"LRRC75B" -> "LRRC73"
-"LRRC9" -> "LRRC49"
-"LRRC9" -> "FBXL13"
-"LRRC9" -> "LRRC46"
-"LRRC9" -> "PPP1R42"
-"PPP1R42" -> "LRRC72"
-"PPP1R42" -> "LRRC46"
-"PPP1R42" -> "LRRC9"
-"PPP1R42" -> "LRRC34"
-"SKP2" -> "TBCEL"
-"SKP2" -> "FBXL4"
-"SKP2" -> "LRRC74B"
-"SKP2" -> "FBXL16"
-"TBCEL" -> "FBXL4"
-"TBCEL" -> "SKP2"
-"TBCEL" -> "CFAP410"
-"TBCEL" -> "ZYG11A"
-"TCTE1" -> "LRRC73"
-"TCTE1" -> "LRRC74B"
-"TCTE1" -> "LRRC49"
-"TCTE1" -> "LRRC74A"
-"ZER1" -> "ZYG11B"
-"ZER1" -> "ZYG11A"
-"ZER1" -> "FBXL3"
-"ZER1" -> "FBXL20"
-"ZYG11A" -> "ZYG11B"
-"ZYG11A" -> "ZER1"
-"ZYG11A" -> "FBXL18"
-"ZYG11A" -> "FBXL3"
-"ZYG11B" -> "ZER1"
-"ZYG11B" -> "ZYG11A"
-"ZYG11B" -> "FBXL3"
-"ZYG11B" -> "FBXL20"
+"AMN1" -> "FBXL20" ["e"=1]
+"AMN1" -> "FBXL2" ["e"=1]
+"AMN1" -> "ZER1" ["e"=1]
+"AMN1" -> "FBXL12" ["e"=1]
+"CFAP410" -> "LRRC46" ["e"=1]
+"CFAP410" -> "LRRC73" ["e"=1]
+"CFAP410" -> "LRRC75B" ["e"=1]
+"CFAP410" -> "LRRC56" ["e"=1]
+"DNAL1" -> "LRRC46" ["e"=1]
+"DNAL1" -> "LRRC34" ["e"=1]
+"DNAL1" -> "LRRC61" ["e"=1]
+"DNAL1" -> "LRRC49" ["e"=1]
+"DRC3" -> "LRRC46" ["e"=1]
+"DRC3" -> "PPP1R42" ["e"=1]
+"DRC3" -> "LRRC49" ["e"=1]
+"DRC3" -> "LRRC34" ["e"=1]
+"FBXL12" -> "FBXL15" ["e"=1]
+"FBXL12" -> "LRRC73" ["e"=1]
+"FBXL12" -> "LRRC61" ["e"=1]
+"FBXL12" -> "CFAP410" ["e"=1]
+"FBXL13" -> "FBXL2" ["e"=1]
+"FBXL13" -> "LRRC9" ["e"=1]
+"FBXL13" -> "LRRC34" ["e"=1]
+"FBXL13" -> "LRRC49" ["e"=1]
+"FBXL15" -> "LRRC73" ["e"=1]
+"FBXL15" -> "FBXL12" ["e"=1]
+"FBXL15" -> "LRRC61" ["e"=1]
+"FBXL15" -> "LRRC75B" ["e"=1]
+"FBXL16" -> "ZER1" ["e"=1]
+"FBXL16" -> "FBXL3" ["e"=1]
+"FBXL16" -> "ZYG11B" ["e"=1]
+"FBXL16" -> "TCTE1" ["e"=1]
+"FBXL18" -> "ZYG11A" ["e"=1]
+"FBXL18" -> "ZYG11B" ["e"=1]
+"FBXL18" -> "ZER1" ["e"=1]
+"FBXL18" -> "TBCEL" ["e"=1]
+"FBXL2" -> "FBXL20" ["e"=1]
+"FBXL2" -> "FBXL13" ["e"=1]
+"FBXL2" -> "AMN1" ["e"=1]
+"FBXL2" -> "LRRC61" ["e"=1]
+"FBXL20" -> "FBXL2" ["e"=1]
+"FBXL20" -> "AMN1" ["e"=1]
+"FBXL20" -> "ZYG11B" ["e"=1]
+"FBXL20" -> "ZER1" ["e"=1]
+"FBXL3" -> "ZYG11B" ["e"=1]
+"FBXL3" -> "ZER1" ["e"=1]
+"FBXL3" -> "FBXL4" ["e"=1]
+"FBXL3" -> "FBXL16" ["e"=1]
+"FBXL4" -> "TBCEL" ["e"=1]
+"FBXL4" -> "FBXL20" ["e"=1]
+"FBXL4" -> "SKP2" ["e"=1]
+"FBXL4" -> "FBXL3" ["e"=1]
+"FBXL6" -> "LRRC75B" ["e"=1]
+"FBXL6" -> "FBXL15" ["e"=1]
+"FBXL6" -> "ZYG11A" ["e"=1]
+"FBXL6" -> "FBXL12" ["e"=1]
+"LRGUK" -> "LRRC49" ["e"=1]
+"LRGUK" -> "LRRC34" ["e"=1]
+"LRGUK" -> "LRRC43" ["e"=1]
+"LRGUK" -> "LRRC74B" ["e"=1]
+"LRMDA" -> "CFAP410" ["e"=1]
+"LRMDA" -> "LRRC61" ["e"=1]
+"LRMDA" -> "TBCEL" ["e"=1]
+"LRMDA" -> "LRRC72" ["e"=1]
+"LRRC31" -> "LRRC74A" ["e"=1]
+"LRRC31" -> "ZYG11A" ["e"=1]
+"LRRC31" -> "FBXL13" ["e"=1]
+"LRRC31" -> "LRRC74B" ["e"=1]
+"LRRC34" -> "LRRC74B" ["e"=1]
+"LRRC34" -> "LRRC74A" ["e"=1]
+"LRRC34" -> "LRRC49" ["e"=1]
+"LRRC34" -> "LRGUK" ["e"=1]
+"LRRC43" -> "LRRC46" ["e"=1]
+"LRRC43" -> "LRRC71" ["e"=1]
+"LRRC43" -> "LRGUK" ["e"=1]
+"LRRC43" -> "LRRC74B" ["e"=1]
+"LRRC46" -> "LRRC74B" ["e"=1]
+"LRRC46" -> "CFAP410" ["e"=1]
+"LRRC46" -> "LRRC73" ["e"=1]
+"LRRC46" -> "LRRC56" ["e"=1]
+"LRRC49" -> "LRRC9" ["e"=1]
+"LRRC49" -> "LRGUK" ["e"=1]
+"LRRC49" -> "LRRC34" ["e"=1]
+"LRRC49" -> "LRRC46" ["e"=1]
+"LRRC56" -> "LRRC46" ["e"=1]
+"LRRC56" -> "CFAP410" ["e"=1]
+"LRRC56" -> "LRRC74B" ["e"=1]
+"LRRC56" -> "LRRC61" ["e"=1]
+"LRRC59" -> "TCTE1" ["e"=1]
+"LRRC59" -> "LRRC56" ["e"=1]
+"LRRC59" -> "CFAP410" ["e"=1]
+"LRRC59" -> "LRRC49" ["e"=1]
+"LRRC61" -> "LRRC73" ["e"=1]
+"LRRC61" -> "FBXL15" ["e"=1]
+"LRRC61" -> "LRRC46" ["e"=1]
+"LRRC61" -> "FBXL12" ["e"=1]
+"LRRC71" -> "LRRC43" ["e"=1]
+"LRRC71" -> "LRRC46" ["e"=1]
+"LRRC71" -> "LRRC74B" ["e"=1]
+"LRRC71" -> "LRRC49" ["e"=1]
+"LRRC72" -> "PPP1R42" ["e"=1]
+"LRRC72" -> "LRRC46" ["e"=1]
+"LRRC72" -> "LRRC56" ["e"=1]
+"LRRC72" -> "LRRC49" ["e"=1]
+"LRRC73" -> "LRRC61" ["e"=1]
+"LRRC73" -> "TCTE1" ["e"=1]
+"LRRC73" -> "LRRC74B" ["e"=1]
+"LRRC73" -> "LRRC46" ["e"=1]
+"LRRC74A" -> "LRRC74B" ["e"=1]
+"LRRC74A" -> "LRRC34" ["e"=1]
+"LRRC74A" -> "LRRC73" ["e"=1]
+"LRRC74A" -> "TCTE1" ["e"=1]
+"LRRC74B" -> "LRRC74A" ["e"=1]
+"LRRC74B" -> "LRRC73" ["e"=1]
+"LRRC74B" -> "LRRC34" ["e"=1]
+"LRRC74B" -> "LRRC46" ["e"=1]
+"LRRC75B" -> "FBXL6" ["e"=1]
+"LRRC75B" -> "CFAP410" ["e"=1]
+"LRRC75B" -> "FBXL15" ["e"=1]
+"LRRC75B" -> "LRRC73" ["e"=1]
+"LRRC9" -> "LRRC49" ["e"=1]
+"LRRC9" -> "FBXL13" ["e"=1]
+"LRRC9" -> "LRRC46" ["e"=1]
+"LRRC9" -> "PPP1R42" ["e"=1]
+"PPP1R42" -> "LRRC72" ["e"=1]
+"PPP1R42" -> "LRRC46" ["e"=1]
+"PPP1R42" -> "LRRC9" ["e"=1]
+"PPP1R42" -> "LRRC34" ["e"=1]
+"SKP2" -> "TBCEL" ["e"=1]
+"SKP2" -> "FBXL4" ["e"=1]
+"SKP2" -> "LRRC74B" ["e"=1]
+"SKP2" -> "FBXL16" ["e"=1]
+"TBCEL" -> "FBXL4" ["e"=1]
+"TBCEL" -> "SKP2" ["e"=1]
+"TBCEL" -> "CFAP410" ["e"=1]
+"TBCEL" -> "ZYG11A" ["e"=1]
+"TCTE1" -> "LRRC73" ["e"=1]
+"TCTE1" -> "LRRC74B" ["e"=1]
+"TCTE1" -> "LRRC49" ["e"=1]
+"TCTE1" -> "LRRC74A" ["e"=1]
+"ZER1" -> "ZYG11B" ["e"=1]
+"ZER1" -> "ZYG11A" ["e"=1]
+"ZER1" -> "FBXL3" ["e"=1]
+"ZER1" -> "FBXL20" ["e"=1]
+"ZYG11A" -> "ZYG11B" ["e"=1]
+"ZYG11A" -> "ZER1" ["e"=1]
+"ZYG11A" -> "FBXL18" ["e"=1]
+"ZYG11A" -> "FBXL3" ["e"=1]
+"ZYG11B" -> "ZER1" ["e"=1]
+"ZYG11B" -> "ZYG11A" ["e"=1]
+"ZYG11B" -> "FBXL3" ["e"=1]
+"ZYG11B" -> "FBXL20" ["e"=1]
 }

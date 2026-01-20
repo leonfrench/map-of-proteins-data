@@ -54,224 +54,224 @@ digraph G {
 "TPBGL" ["l"="15.726,4.443"]
 "TRIL" ["l"="15.725,4.453"]
 "VASN" ["l"="15.682,4.447"]
-"AMIGO1" -> "LRIT2"
-"AMIGO1" -> "LRTM2"
-"AMIGO1" -> "AMIGO2"
-"AMIGO1" -> "LINGO3"
-"AMIGO2" -> "LRIT2"
-"AMIGO2" -> "AMIGO1"
-"AMIGO2" -> "AMIGO3"
-"AMIGO2" -> "LRRN1"
-"AMIGO3" -> "LINGO3"
-"AMIGO3" -> "LRFN3"
-"AMIGO3" -> "TPBGL"
-"AMIGO3" -> "LRFN4"
-"CLEC20A" -> "LRIT3"
-"CLEC20A" -> "LRIT2"
-"CLEC20A" -> "LRIT1"
-"CLEC20A" -> "LRRN4"
-"ELFN1" -> "SLITRK3"
-"ELFN1" -> "SLITRK5"
-"ELFN1" -> "ISLR2"
-"ELFN1" -> "LRFN2"
-"FLRT1" -> "LRRN2"
-"FLRT1" -> "LINGO3"
-"FLRT1" -> "LRRTM1"
-"FLRT1" -> "SLITRK1"
-"FLRT3" -> "LRRTM2"
-"FLRT3" -> "LRRC4"
-"FLRT3" -> "SLITRK6"
-"FLRT3" -> "LRRN3"
-"GP1BA" -> "LRRN4"
-"GP1BA" -> "VASN"
-"GP1BA" -> "LRIT3"
-"GP1BA" -> "GP9"
-"GP1BB" -> "GP9"
-"GP1BB" -> "TPBGL"
-"GP1BB" -> "LRRC24"
-"GP1BB" -> "LRFN4"
-"GP9" -> "LRRC3C"
-"GP9" -> "LRRC55"
-"GP9" -> "LRRC3"
-"GP9" -> "GP1BB"
-"ISLR" -> "LRIT2"
-"ISLR" -> "AMIGO1"
-"ISLR" -> "RTN4R"
-"ISLR" -> "VASN"
-"ISLR2" -> "LRFN1"
-"ISLR2" -> "LRFN4"
-"ISLR2" -> "LRIT2"
-"ISLR2" -> "LINGO3"
-"LINGO1" -> "LINGO3"
-"LINGO1" -> "AMIGO1"
-"LINGO1" -> "FLRT1"
-"LINGO1" -> "LRTM2"
-"LINGO3" -> "LRFN4"
-"LINGO3" -> "TPBGL"
-"LINGO3" -> "AMIGO3"
-"LINGO3" -> "LRFN1"
-"LRFN1" -> "LRFN3"
-"LRFN1" -> "LRFN4"
-"LRFN1" -> "ISLR2"
-"LRFN1" -> "LINGO3"
-"LRFN2" -> "FLRT1"
-"LRFN2" -> "LRRN2"
-"LRFN2" -> "LRTM2"
-"LRFN2" -> "LRRTM2"
-"LRFN3" -> "LRFN4"
-"LRFN3" -> "LRFN1"
-"LRFN3" -> "AMIGO3"
-"LRFN3" -> "LINGO3"
-"LRFN4" -> "LRFN3"
-"LRFN4" -> "LRFN1"
-"LRFN4" -> "LINGO3"
-"LRFN4" -> "AMIGO3"
-"LRFN5" -> "LRRTM4"
-"LRFN5" -> "LRRN1"
-"LRFN5" -> "LRRC4C"
-"LRFN5" -> "LRRTM3"
-"LRIT1" -> "LRIT2"
-"LRIT1" -> "LRRN4"
-"LRIT1" -> "LRIT3"
-"LRIT1" -> "LRTM2"
-"LRIT2" -> "LRIT3"
-"LRIT2" -> "AMIGO2"
-"LRIT2" -> "LRIT1"
-"LRIT2" -> "AMIGO1"
-"LRIT3" -> "LRIT2"
-"LRIT3" -> "LRIT1"
-"LRIT3" -> "LRTM2"
-"LRIT3" -> "LRRN4"
-"LRRC24" -> "AMIGO3"
-"LRRC24" -> "LINGO3"
-"LRRC24" -> "TPBGL"
-"LRRC24" -> "LRRC26"
-"LRRC26" -> "LRRC24"
-"LRRC26" -> "TPBGL"
-"LRRC26" -> "AMIGO3"
-"LRRC26" -> "LINGO3"
-"LRRC3" -> "LRRC55"
-"LRRC3" -> "LRTM2"
-"LRRC3" -> "LRIT2"
-"LRRC3" -> "LRRC3C"
-"LRRC38" -> "LRRC52"
-"LRRC38" -> "LRRC55"
-"LRRC38" -> "LRTM2"
-"LRRC38" -> "LINGO3"
-"LRRC3B" -> "LRTM2"
-"LRRC3B" -> "LRRC3"
-"LRRC3B" -> "LRRC52"
-"LRRC3B" -> "LRRC3C"
-"LRRC3C" -> "LRRC55"
-"LRRC3C" -> "LRTM2"
-"LRRC3C" -> "LRRC3"
-"LRRC3C" -> "GP9"
-"LRRC4" -> "FLRT3"
-"LRRC4" -> "AMIGO1"
-"LRRC4" -> "LRRTM2"
-"LRRC4" -> "LRRTM1"
-"LRRC4B" -> "ISLR2"
-"LRRC4B" -> "LRFN1"
-"LRRC4B" -> "LRRC4"
-"LRRC4B" -> "LRRTM1"
-"LRRC4C" -> "LRRTM4"
-"LRRC4C" -> "LRRTM3"
-"LRRC4C" -> "LRFN5"
-"LRRC4C" -> "LRRN1"
-"LRRC52" -> "LRRC38"
-"LRRC52" -> "LRRC55"
-"LRRC52" -> "AMIGO2"
-"LRRC52" -> "LRIT2"
-"LRRC55" -> "LRRC3"
-"LRRC55" -> "LRTM2"
-"LRRC55" -> "LRRC3C"
-"LRRC55" -> "AMIGO1"
-"LRRN1" -> "LRRN3"
-"LRRN1" -> "FLRT3"
-"LRRN1" -> "AMIGO2"
-"LRRN1" -> "LRRTM4"
-"LRRN2" -> "LINGO3"
-"LRRN2" -> "FLRT1"
-"LRRN2" -> "AMIGO3"
-"LRRN2" -> "RTN4RL1"
-"LRRN3" -> "LRRN1"
-"LRRN3" -> "FLRT3"
-"LRRN3" -> "SLITRK6"
-"LRRN3" -> "SLITRK1"
-"LRRN4" -> "LRIT1"
-"LRRN4" -> "LRIT2"
-"LRRN4" -> "LRTM2"
-"LRRN4" -> "LRIT3"
-"LRRTM1" -> "LRRTM2"
-"LRRTM1" -> "AMIGO1"
-"LRRTM1" -> "SLITRK5"
-"LRRTM1" -> "AMIGO2"
-"LRRTM2" -> "LRRTM3"
-"LRRTM2" -> "SLITRK1"
-"LRRTM2" -> "LRRTM1"
-"LRRTM2" -> "FLRT3"
-"LRRTM3" -> "LRRTM4"
-"LRRTM3" -> "LRRTM2"
-"LRRTM3" -> "SLITRK5"
-"LRRTM3" -> "LRRN1"
-"LRRTM4" -> "LRRTM3"
-"LRRTM4" -> "LRFN5"
-"LRRTM4" -> "LRRN1"
-"LRRTM4" -> "LRRTM2"
-"LRTM1" -> "LRRC55"
-"LRTM1" -> "LRTM2"
-"LRTM1" -> "LRRC52"
-"LRTM1" -> "LRRC3C"
-"LRTM2" -> "LRRC55"
-"LRTM2" -> "AMIGO1"
-"LRTM2" -> "LRRC3"
-"LRTM2" -> "LINGO3"
-"OMG" -> "LRIT3"
-"OMG" -> "LRRTM2"
-"OMG" -> "LRRC4"
-"OMG" -> "FLRT3"
-"RTN4R" -> "RTN4RL2"
-"RTN4R" -> "RTN4RL1"
-"RTN4R" -> "AMIGO3"
-"RTN4R" -> "LRFN4"
-"RTN4RL1" -> "RTN4R"
-"RTN4RL1" -> "RTN4RL2"
-"RTN4RL1" -> "LRRTM2"
-"RTN4RL1" -> "LRRN2"
-"RTN4RL2" -> "RTN4R"
-"RTN4RL2" -> "RTN4RL1"
-"RTN4RL2" -> "AMIGO3"
-"RTN4RL2" -> "VASN"
-"SLITRK1" -> "LRRTM2"
-"SLITRK1" -> "LRRN1"
-"SLITRK1" -> "SLITRK5"
-"SLITRK1" -> "FLRT3"
-"SLITRK3" -> "SLITRK5"
-"SLITRK3" -> "ELFN1"
-"SLITRK3" -> "FLRT3"
-"SLITRK3" -> "LRRTM2"
-"SLITRK5" -> "SLITRK3"
-"SLITRK5" -> "LRRTM2"
-"SLITRK5" -> "LRRTM3"
-"SLITRK5" -> "LRRTM1"
-"SLITRK6" -> "FLRT3"
-"SLITRK6" -> "SLITRK5"
-"SLITRK6" -> "SLITRK3"
-"SLITRK6" -> "LRRTM2"
-"TPBG" -> "AMIGO3"
-"TPBG" -> "AMIGO2"
-"TPBG" -> "LRTM2"
-"TPBG" -> "TPBGL"
-"TPBGL" -> "LINGO3"
-"TPBGL" -> "AMIGO3"
-"TPBGL" -> "LRFN3"
-"TPBGL" -> "LRRC24"
-"TRIL" -> "AMIGO3"
-"TRIL" -> "LRFN4"
-"TRIL" -> "LINGO3"
-"TRIL" -> "LRFN1"
-"VASN" -> "LINGO3"
-"VASN" -> "AMIGO3"
-"VASN" -> "RTN4R"
-"VASN" -> "LRTM2"
+"AMIGO1" -> "LRIT2" ["e"=1]
+"AMIGO1" -> "LRTM2" ["e"=1]
+"AMIGO1" -> "AMIGO2" ["e"=1]
+"AMIGO1" -> "LINGO3" ["e"=1]
+"AMIGO2" -> "LRIT2" ["e"=1]
+"AMIGO2" -> "AMIGO1" ["e"=1]
+"AMIGO2" -> "AMIGO3" ["e"=1]
+"AMIGO2" -> "LRRN1" ["e"=1]
+"AMIGO3" -> "LINGO3" ["e"=1]
+"AMIGO3" -> "LRFN3" ["e"=1]
+"AMIGO3" -> "TPBGL" ["e"=1]
+"AMIGO3" -> "LRFN4" ["e"=1]
+"CLEC20A" -> "LRIT3" ["e"=1]
+"CLEC20A" -> "LRIT2" ["e"=1]
+"CLEC20A" -> "LRIT1" ["e"=1]
+"CLEC20A" -> "LRRN4" ["e"=1]
+"ELFN1" -> "SLITRK3" ["e"=1]
+"ELFN1" -> "SLITRK5" ["e"=1]
+"ELFN1" -> "ISLR2" ["e"=1]
+"ELFN1" -> "LRFN2" ["e"=1]
+"FLRT1" -> "LRRN2" ["e"=1]
+"FLRT1" -> "LINGO3" ["e"=1]
+"FLRT1" -> "LRRTM1" ["e"=1]
+"FLRT1" -> "SLITRK1" ["e"=1]
+"FLRT3" -> "LRRTM2" ["e"=1]
+"FLRT3" -> "LRRC4" ["e"=1]
+"FLRT3" -> "SLITRK6" ["e"=1]
+"FLRT3" -> "LRRN3" ["e"=1]
+"GP1BA" -> "LRRN4" ["e"=1]
+"GP1BA" -> "VASN" ["e"=1]
+"GP1BA" -> "LRIT3" ["e"=1]
+"GP1BA" -> "GP9" ["e"=1]
+"GP1BB" -> "GP9" ["e"=1]
+"GP1BB" -> "TPBGL" ["e"=1]
+"GP1BB" -> "LRRC24" ["e"=1]
+"GP1BB" -> "LRFN4" ["e"=1]
+"GP9" -> "LRRC3C" ["e"=1]
+"GP9" -> "LRRC55" ["e"=1]
+"GP9" -> "LRRC3" ["e"=1]
+"GP9" -> "GP1BB" ["e"=1]
+"ISLR" -> "LRIT2" ["e"=1]
+"ISLR" -> "AMIGO1" ["e"=1]
+"ISLR" -> "RTN4R" ["e"=1]
+"ISLR" -> "VASN" ["e"=1]
+"ISLR2" -> "LRFN1" ["e"=1]
+"ISLR2" -> "LRFN4" ["e"=1]
+"ISLR2" -> "LRIT2" ["e"=1]
+"ISLR2" -> "LINGO3" ["e"=1]
+"LINGO1" -> "LINGO3" ["e"=1]
+"LINGO1" -> "AMIGO1" ["e"=1]
+"LINGO1" -> "FLRT1" ["e"=1]
+"LINGO1" -> "LRTM2" ["e"=1]
+"LINGO3" -> "LRFN4" ["e"=1]
+"LINGO3" -> "TPBGL" ["e"=1]
+"LINGO3" -> "AMIGO3" ["e"=1]
+"LINGO3" -> "LRFN1" ["e"=1]
+"LRFN1" -> "LRFN3" ["e"=1]
+"LRFN1" -> "LRFN4" ["e"=1]
+"LRFN1" -> "ISLR2" ["e"=1]
+"LRFN1" -> "LINGO3" ["e"=1]
+"LRFN2" -> "FLRT1" ["e"=1]
+"LRFN2" -> "LRRN2" ["e"=1]
+"LRFN2" -> "LRTM2" ["e"=1]
+"LRFN2" -> "LRRTM2" ["e"=1]
+"LRFN3" -> "LRFN4" ["e"=1]
+"LRFN3" -> "LRFN1" ["e"=1]
+"LRFN3" -> "AMIGO3" ["e"=1]
+"LRFN3" -> "LINGO3" ["e"=1]
+"LRFN4" -> "LRFN3" ["e"=1]
+"LRFN4" -> "LRFN1" ["e"=1]
+"LRFN4" -> "LINGO3" ["e"=1]
+"LRFN4" -> "AMIGO3" ["e"=1]
+"LRFN5" -> "LRRTM4" ["e"=1]
+"LRFN5" -> "LRRN1" ["e"=1]
+"LRFN5" -> "LRRC4C" ["e"=1]
+"LRFN5" -> "LRRTM3" ["e"=1]
+"LRIT1" -> "LRIT2" ["e"=1]
+"LRIT1" -> "LRRN4" ["e"=1]
+"LRIT1" -> "LRIT3" ["e"=1]
+"LRIT1" -> "LRTM2" ["e"=1]
+"LRIT2" -> "LRIT3" ["e"=1]
+"LRIT2" -> "AMIGO2" ["e"=1]
+"LRIT2" -> "LRIT1" ["e"=1]
+"LRIT2" -> "AMIGO1" ["e"=1]
+"LRIT3" -> "LRIT2" ["e"=1]
+"LRIT3" -> "LRIT1" ["e"=1]
+"LRIT3" -> "LRTM2" ["e"=1]
+"LRIT3" -> "LRRN4" ["e"=1]
+"LRRC24" -> "AMIGO3" ["e"=1]
+"LRRC24" -> "LINGO3" ["e"=1]
+"LRRC24" -> "TPBGL" ["e"=1]
+"LRRC24" -> "LRRC26" ["e"=1]
+"LRRC26" -> "LRRC24" ["e"=1]
+"LRRC26" -> "TPBGL" ["e"=1]
+"LRRC26" -> "AMIGO3" ["e"=1]
+"LRRC26" -> "LINGO3" ["e"=1]
+"LRRC3" -> "LRRC55" ["e"=1]
+"LRRC3" -> "LRTM2" ["e"=1]
+"LRRC3" -> "LRIT2" ["e"=1]
+"LRRC3" -> "LRRC3C" ["e"=1]
+"LRRC38" -> "LRRC52" ["e"=1]
+"LRRC38" -> "LRRC55" ["e"=1]
+"LRRC38" -> "LRTM2" ["e"=1]
+"LRRC38" -> "LINGO3" ["e"=1]
+"LRRC3B" -> "LRTM2" ["e"=1]
+"LRRC3B" -> "LRRC3" ["e"=1]
+"LRRC3B" -> "LRRC52" ["e"=1]
+"LRRC3B" -> "LRRC3C" ["e"=1]
+"LRRC3C" -> "LRRC55" ["e"=1]
+"LRRC3C" -> "LRTM2" ["e"=1]
+"LRRC3C" -> "LRRC3" ["e"=1]
+"LRRC3C" -> "GP9" ["e"=1]
+"LRRC4" -> "FLRT3" ["e"=1]
+"LRRC4" -> "AMIGO1" ["e"=1]
+"LRRC4" -> "LRRTM2" ["e"=1]
+"LRRC4" -> "LRRTM1" ["e"=1]
+"LRRC4B" -> "ISLR2" ["e"=1]
+"LRRC4B" -> "LRFN1" ["e"=1]
+"LRRC4B" -> "LRRC4" ["e"=1]
+"LRRC4B" -> "LRRTM1" ["e"=1]
+"LRRC4C" -> "LRRTM4" ["e"=1]
+"LRRC4C" -> "LRRTM3" ["e"=1]
+"LRRC4C" -> "LRFN5" ["e"=1]
+"LRRC4C" -> "LRRN1" ["e"=1]
+"LRRC52" -> "LRRC38" ["e"=1]
+"LRRC52" -> "LRRC55" ["e"=1]
+"LRRC52" -> "AMIGO2" ["e"=1]
+"LRRC52" -> "LRIT2" ["e"=1]
+"LRRC55" -> "LRRC3" ["e"=1]
+"LRRC55" -> "LRTM2" ["e"=1]
+"LRRC55" -> "LRRC3C" ["e"=1]
+"LRRC55" -> "AMIGO1" ["e"=1]
+"LRRN1" -> "LRRN3" ["e"=1]
+"LRRN1" -> "FLRT3" ["e"=1]
+"LRRN1" -> "AMIGO2" ["e"=1]
+"LRRN1" -> "LRRTM4" ["e"=1]
+"LRRN2" -> "LINGO3" ["e"=1]
+"LRRN2" -> "FLRT1" ["e"=1]
+"LRRN2" -> "AMIGO3" ["e"=1]
+"LRRN2" -> "RTN4RL1" ["e"=1]
+"LRRN3" -> "LRRN1" ["e"=1]
+"LRRN3" -> "FLRT3" ["e"=1]
+"LRRN3" -> "SLITRK6" ["e"=1]
+"LRRN3" -> "SLITRK1" ["e"=1]
+"LRRN4" -> "LRIT1" ["e"=1]
+"LRRN4" -> "LRIT2" ["e"=1]
+"LRRN4" -> "LRTM2" ["e"=1]
+"LRRN4" -> "LRIT3" ["e"=1]
+"LRRTM1" -> "LRRTM2" ["e"=1]
+"LRRTM1" -> "AMIGO1" ["e"=1]
+"LRRTM1" -> "SLITRK5" ["e"=1]
+"LRRTM1" -> "AMIGO2" ["e"=1]
+"LRRTM2" -> "LRRTM3" ["e"=1]
+"LRRTM2" -> "SLITRK1" ["e"=1]
+"LRRTM2" -> "LRRTM1" ["e"=1]
+"LRRTM2" -> "FLRT3" ["e"=1]
+"LRRTM3" -> "LRRTM4" ["e"=1]
+"LRRTM3" -> "LRRTM2" ["e"=1]
+"LRRTM3" -> "SLITRK5" ["e"=1]
+"LRRTM3" -> "LRRN1" ["e"=1]
+"LRRTM4" -> "LRRTM3" ["e"=1]
+"LRRTM4" -> "LRFN5" ["e"=1]
+"LRRTM4" -> "LRRN1" ["e"=1]
+"LRRTM4" -> "LRRTM2" ["e"=1]
+"LRTM1" -> "LRRC55" ["e"=1]
+"LRTM1" -> "LRTM2" ["e"=1]
+"LRTM1" -> "LRRC52" ["e"=1]
+"LRTM1" -> "LRRC3C" ["e"=1]
+"LRTM2" -> "LRRC55" ["e"=1]
+"LRTM2" -> "AMIGO1" ["e"=1]
+"LRTM2" -> "LRRC3" ["e"=1]
+"LRTM2" -> "LINGO3" ["e"=1]
+"OMG" -> "LRIT3" ["e"=1]
+"OMG" -> "LRRTM2" ["e"=1]
+"OMG" -> "LRRC4" ["e"=1]
+"OMG" -> "FLRT3" ["e"=1]
+"RTN4R" -> "RTN4RL2" ["e"=1]
+"RTN4R" -> "RTN4RL1" ["e"=1]
+"RTN4R" -> "AMIGO3" ["e"=1]
+"RTN4R" -> "LRFN4" ["e"=1]
+"RTN4RL1" -> "RTN4R" ["e"=1]
+"RTN4RL1" -> "RTN4RL2" ["e"=1]
+"RTN4RL1" -> "LRRTM2" ["e"=1]
+"RTN4RL1" -> "LRRN2" ["e"=1]
+"RTN4RL2" -> "RTN4R" ["e"=1]
+"RTN4RL2" -> "RTN4RL1" ["e"=1]
+"RTN4RL2" -> "AMIGO3" ["e"=1]
+"RTN4RL2" -> "VASN" ["e"=1]
+"SLITRK1" -> "LRRTM2" ["e"=1]
+"SLITRK1" -> "LRRN1" ["e"=1]
+"SLITRK1" -> "SLITRK5" ["e"=1]
+"SLITRK1" -> "FLRT3" ["e"=1]
+"SLITRK3" -> "SLITRK5" ["e"=1]
+"SLITRK3" -> "ELFN1" ["e"=1]
+"SLITRK3" -> "FLRT3" ["e"=1]
+"SLITRK3" -> "LRRTM2" ["e"=1]
+"SLITRK5" -> "SLITRK3" ["e"=1]
+"SLITRK5" -> "LRRTM2" ["e"=1]
+"SLITRK5" -> "LRRTM3" ["e"=1]
+"SLITRK5" -> "LRRTM1" ["e"=1]
+"SLITRK6" -> "FLRT3" ["e"=1]
+"SLITRK6" -> "SLITRK5" ["e"=1]
+"SLITRK6" -> "SLITRK3" ["e"=1]
+"SLITRK6" -> "LRRTM2" ["e"=1]
+"TPBG" -> "AMIGO3" ["e"=1]
+"TPBG" -> "AMIGO2" ["e"=1]
+"TPBG" -> "LRTM2" ["e"=1]
+"TPBG" -> "TPBGL" ["e"=1]
+"TPBGL" -> "LINGO3" ["e"=1]
+"TPBGL" -> "AMIGO3" ["e"=1]
+"TPBGL" -> "LRFN3" ["e"=1]
+"TPBGL" -> "LRRC24" ["e"=1]
+"TRIL" -> "AMIGO3" ["e"=1]
+"TRIL" -> "LRFN4" ["e"=1]
+"TRIL" -> "LINGO3" ["e"=1]
+"TRIL" -> "LRFN1" ["e"=1]
+"VASN" -> "LINGO3" ["e"=1]
+"VASN" -> "AMIGO3" ["e"=1]
+"VASN" -> "RTN4R" ["e"=1]
+"VASN" -> "LRTM2" ["e"=1]
 }

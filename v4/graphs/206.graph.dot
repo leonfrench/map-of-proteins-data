@@ -19,84 +19,84 @@ digraph G {
 "TMCC1" ["l"="8.426,0.877"]
 "TMCC2" ["l"="8.408,0.824"]
 "TSPOAP1" ["l"="8.377,0.978"]
-"AK7" -> "AK9"
-"AK7" -> "IQCK"
-"AK7" -> "NPHP1"
-"AK7" -> "SHTN1"
-"AK9" -> "AK7"
-"AK9" -> "LRRIQ1"
-"AK9" -> "CC2D2A"
-"AK9" -> "IQCK"
-"AMOTL1" -> "CCDC149"
-"AMOTL1" -> "CCDC6"
-"AMOTL1" -> "CTTNBP2NL"
-"AMOTL1" -> "GOPC"
-"CC2D2A" -> "NPHP1"
-"CC2D2A" -> "AK9"
-"CC2D2A" -> "CFAP221"
-"CC2D2A" -> "IQCK"
-"CCDC149" -> "GOPC"
-"CCDC149" -> "SHTN1"
-"CCDC149" -> "CCDC6"
-"CCDC149" -> "CTTNBP2NL"
-"CCDC6" -> "SHTN1"
-"CCDC6" -> "CCDC149"
-"CCDC6" -> "AMOTL1"
-"CCDC6" -> "GOPC"
-"CFAP221" -> "IQCK"
-"CFAP221" -> "RPGRIP1L"
-"CFAP221" -> "RPGRIP1"
-"CFAP221" -> "CC2D2A"
-"CTTNBP2NL" -> "CCDC149"
-"CTTNBP2NL" -> "SHTN1"
-"CTTNBP2NL" -> "AMOTL1"
-"CTTNBP2NL" -> "CCDC6"
-"EFCC1" -> "CCDC149"
-"EFCC1" -> "GOPC"
-"EFCC1" -> "TSPOAP1"
-"EFCC1" -> "SHTN1"
-"GOPC" -> "CCDC149"
-"GOPC" -> "AMOTL1"
-"GOPC" -> "CCDC6"
-"GOPC" -> "SHTN1"
-"IQCK" -> "CFAP221"
-"IQCK" -> "AK7"
-"IQCK" -> "AK9"
-"IQCK" -> "CCDC149"
-"LRRIQ1" -> "AK9"
-"LRRIQ1" -> "RPGRIP1L"
-"LRRIQ1" -> "CC2D2A"
-"LRRIQ1" -> "NPHP1"
-"NPHP1" -> "CC2D2A"
-"NPHP1" -> "RPGRIP1L"
-"NPHP1" -> "CFAP221"
-"NPHP1" -> "AK7"
-"RPGRIP1" -> "RPGRIP1L"
-"RPGRIP1" -> "CFAP221"
-"RPGRIP1" -> "CC2D2A"
-"RPGRIP1" -> "TSPOAP1"
-"RPGRIP1L" -> "RPGRIP1"
-"RPGRIP1L" -> "CFAP221"
-"RPGRIP1L" -> "CCDC149"
-"RPGRIP1L" -> "GOPC"
-"SHTN1" -> "CCDC149"
-"SHTN1" -> "CCDC6"
-"SHTN1" -> "CTTNBP2NL"
-"SHTN1" -> "GOPC"
-"TAOK2" -> "EFCC1"
-"TAOK2" -> "CCDC149"
-"TAOK2" -> "TMCC1"
-"TAOK2" -> "CTTNBP2NL"
-"TMCC1" -> "TMCC2"
-"TMCC1" -> "AMOTL1"
-"TMCC1" -> "CCDC6"
-"TMCC1" -> "GOPC"
-"TMCC2" -> "TMCC1"
-"TMCC2" -> "CCDC6"
-"TMCC2" -> "CCDC149"
-"TMCC2" -> "AMOTL1"
-"TSPOAP1" -> "RPGRIP1L"
-"TSPOAP1" -> "RPGRIP1"
-"TSPOAP1" -> "CCDC149"
-"TSPOAP1" -> "EFCC1"
+"AK7" -> "AK9" ["e"=1]
+"AK7" -> "IQCK" ["e"=1]
+"AK7" -> "NPHP1" ["e"=1]
+"AK7" -> "SHTN1" ["e"=1]
+"AK9" -> "AK7" ["e"=1]
+"AK9" -> "LRRIQ1" ["e"=1]
+"AK9" -> "CC2D2A" ["e"=1]
+"AK9" -> "IQCK" ["e"=1]
+"AMOTL1" -> "CCDC149" ["e"=1]
+"AMOTL1" -> "CCDC6" ["e"=1]
+"AMOTL1" -> "CTTNBP2NL" ["e"=1]
+"AMOTL1" -> "GOPC" ["e"=1]
+"CC2D2A" -> "NPHP1" ["e"=1]
+"CC2D2A" -> "AK9" ["e"=1]
+"CC2D2A" -> "CFAP221" ["e"=1]
+"CC2D2A" -> "IQCK" ["e"=1]
+"CCDC149" -> "GOPC" ["e"=1]
+"CCDC149" -> "SHTN1" ["e"=1]
+"CCDC149" -> "CCDC6" ["e"=1]
+"CCDC149" -> "CTTNBP2NL" ["e"=1]
+"CCDC6" -> "SHTN1" ["e"=1]
+"CCDC6" -> "CCDC149" ["e"=1]
+"CCDC6" -> "AMOTL1" ["e"=1]
+"CCDC6" -> "GOPC" ["e"=1]
+"CFAP221" -> "IQCK" ["e"=1]
+"CFAP221" -> "RPGRIP1L" ["e"=1]
+"CFAP221" -> "RPGRIP1" ["e"=1]
+"CFAP221" -> "CC2D2A" ["e"=1]
+"CTTNBP2NL" -> "CCDC149" ["e"=1]
+"CTTNBP2NL" -> "SHTN1" ["e"=1]
+"CTTNBP2NL" -> "AMOTL1" ["e"=1]
+"CTTNBP2NL" -> "CCDC6" ["e"=1]
+"EFCC1" -> "CCDC149" ["e"=1]
+"EFCC1" -> "GOPC" ["e"=1]
+"EFCC1" -> "TSPOAP1" ["e"=1]
+"EFCC1" -> "SHTN1" ["e"=1]
+"GOPC" -> "CCDC149" ["e"=1]
+"GOPC" -> "AMOTL1" ["e"=1]
+"GOPC" -> "CCDC6" ["e"=1]
+"GOPC" -> "SHTN1" ["e"=1]
+"IQCK" -> "CFAP221" ["e"=1]
+"IQCK" -> "AK7" ["e"=1]
+"IQCK" -> "AK9" ["e"=1]
+"IQCK" -> "CCDC149" ["e"=1]
+"LRRIQ1" -> "AK9" ["e"=1]
+"LRRIQ1" -> "RPGRIP1L" ["e"=1]
+"LRRIQ1" -> "CC2D2A" ["e"=1]
+"LRRIQ1" -> "NPHP1" ["e"=1]
+"NPHP1" -> "CC2D2A" ["e"=1]
+"NPHP1" -> "RPGRIP1L" ["e"=1]
+"NPHP1" -> "CFAP221" ["e"=1]
+"NPHP1" -> "AK7" ["e"=1]
+"RPGRIP1" -> "RPGRIP1L" ["e"=1]
+"RPGRIP1" -> "CFAP221" ["e"=1]
+"RPGRIP1" -> "CC2D2A" ["e"=1]
+"RPGRIP1" -> "TSPOAP1" ["e"=1]
+"RPGRIP1L" -> "RPGRIP1" ["e"=1]
+"RPGRIP1L" -> "CFAP221" ["e"=1]
+"RPGRIP1L" -> "CCDC149" ["e"=1]
+"RPGRIP1L" -> "GOPC" ["e"=1]
+"SHTN1" -> "CCDC149" ["e"=1]
+"SHTN1" -> "CCDC6" ["e"=1]
+"SHTN1" -> "CTTNBP2NL" ["e"=1]
+"SHTN1" -> "GOPC" ["e"=1]
+"TAOK2" -> "EFCC1" ["e"=1]
+"TAOK2" -> "CCDC149" ["e"=1]
+"TAOK2" -> "TMCC1" ["e"=1]
+"TAOK2" -> "CTTNBP2NL" ["e"=1]
+"TMCC1" -> "TMCC2" ["e"=1]
+"TMCC1" -> "AMOTL1" ["e"=1]
+"TMCC1" -> "CCDC6" ["e"=1]
+"TMCC1" -> "GOPC" ["e"=1]
+"TMCC2" -> "TMCC1" ["e"=1]
+"TMCC2" -> "CCDC6" ["e"=1]
+"TMCC2" -> "CCDC149" ["e"=1]
+"TMCC2" -> "AMOTL1" ["e"=1]
+"TSPOAP1" -> "RPGRIP1L" ["e"=1]
+"TSPOAP1" -> "RPGRIP1" ["e"=1]
+"TSPOAP1" -> "CCDC149" ["e"=1]
+"TSPOAP1" -> "EFCC1" ["e"=1]
 }

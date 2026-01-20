@@ -32,136 +32,136 @@ digraph G {
 "TUBB4B" ["l"="15.352,2.750"]
 "TUBB6" ["l"="15.345,2.748"]
 "TUBB8" ["l"="15.338,2.747"]
-"ACTA1" -> "ACTC1"
-"ACTA1" -> "ACTG2"
-"ACTA1" -> "ACTA2"
-"ACTA1" -> "ACTG1"
-"ACTA2" -> "ACTG2"
-"ACTA2" -> "ACTC1"
-"ACTA2" -> "ACTA1"
-"ACTA2" -> "ACTG1"
-"ACTB" -> "ACTG1"
-"ACTB" -> "ACTA1"
-"ACTB" -> "ACTC1"
-"ACTB" -> "ACTA2"
-"ACTBL2" -> "TUBB1"
-"ACTBL2" -> "TUBAL3"
-"ACTBL2" -> "TUBB8"
-"ACTBL2" -> "ACTRT3"
-"ACTC1" -> "ACTA1"
-"ACTC1" -> "ACTG2"
-"ACTC1" -> "ACTA2"
-"ACTC1" -> "ACTG1"
-"ACTG1" -> "ACTB"
-"ACTG1" -> "ACTA1"
-"ACTG1" -> "ACTC1"
-"ACTG1" -> "ACTG2"
-"ACTG2" -> "ACTA2"
-"ACTG2" -> "ACTC1"
-"ACTG2" -> "ACTA1"
-"ACTG2" -> "ACTG1"
-"ACTL7A" -> "ACTL9"
-"ACTL7A" -> "ACTL8"
-"ACTL7A" -> "ACTL7B"
-"ACTL7A" -> "ACTRT3"
-"ACTL7B" -> "ACTRT2"
-"ACTL7B" -> "ACTL8"
-"ACTL7B" -> "ACTL9"
-"ACTL7B" -> "ACTL7A"
-"ACTL8" -> "ACTRT2"
-"ACTL8" -> "ACTL9"
-"ACTL8" -> "ACTL7B"
-"ACTL8" -> "ACTL7A"
-"ACTL9" -> "ACTL8"
-"ACTL9" -> "ACTL7A"
-"ACTL9" -> "ACTRT2"
-"ACTL9" -> "ACTL7B"
-"ACTRT2" -> "ACTL8"
-"ACTRT2" -> "ACTL7B"
-"ACTRT2" -> "ACTL9"
-"ACTRT2" -> "ACTL7A"
-"ACTRT3" -> "ACTL8"
-"ACTRT3" -> "ACTL7A"
-"ACTRT3" -> "ACTL9"
-"ACTRT3" -> "ACTRT2"
-"EEF1A2" -> "ACTA1"
-"EEF1A2" -> "TUBB4A"
-"EEF1A2" -> "ACTG1"
-"EEF1A2" -> "ACTC1"
-"TUBA1A" -> "TUBA1B"
-"TUBA1A" -> "TUBA3C"
-"TUBA1A" -> "TUBB2B"
-"TUBA1A" -> "TUBA3D"
-"TUBA1B" -> "TUBB"
-"TUBA1B" -> "TUBA1A"
-"TUBA1B" -> "TUBA3D"
-"TUBA1B" -> "TUBA1C"
-"TUBA1C" -> "TUBA3E"
-"TUBA1C" -> "TUBA3D"
-"TUBA1C" -> "TUBA1B"
-"TUBA1C" -> "TUBA8"
-"TUBA3C" -> "TUBA3D"
-"TUBA3C" -> "TUBA3E"
-"TUBA3C" -> "TUBA1A"
-"TUBA3C" -> "TUBA4A"
-"TUBA3D" -> "TUBA3C"
-"TUBA3D" -> "TUBA3E"
-"TUBA3D" -> "TUBA1B"
-"TUBA3D" -> "TUBA1C"
-"TUBA3E" -> "TUBA3D"
-"TUBA3E" -> "TUBA3C"
-"TUBA3E" -> "TUBA8"
-"TUBA3E" -> "TUBA1C"
-"TUBA4A" -> "TUBA8"
-"TUBA4A" -> "TUBA3E"
-"TUBA4A" -> "TUBA3C"
-"TUBA4A" -> "TUBA1C"
-"TUBA4B" -> "TUBA3E"
-"TUBA4B" -> "TUBB8"
-"TUBA4B" -> "TUBAL3"
-"TUBA4B" -> "TUBA8"
-"TUBA8" -> "TUBA3E"
-"TUBA8" -> "TUBA4A"
-"TUBA8" -> "TUBA1C"
-"TUBA8" -> "TUBB8"
-"TUBAL3" -> "TUBB8"
-"TUBAL3" -> "TUBA3E"
-"TUBAL3" -> "ACTBL2"
-"TUBAL3" -> "TUBB1"
-"TUBB" -> "TUBA1B"
-"TUBB" -> "TUBB2B"
-"TUBB" -> "TUBA1A"
-"TUBB" -> "TUBA1C"
-"TUBB1" -> "TUBB8"
-"TUBB1" -> "TUBA4A"
-"TUBB1" -> "ACTBL2"
-"TUBB1" -> "TUBB6"
-"TUBB2A" -> "TUBB3"
-"TUBB2A" -> "TUBB2B"
-"TUBB2A" -> "TUBB4B"
-"TUBB2A" -> "TUBB4A"
-"TUBB2B" -> "TUBB2A"
-"TUBB2B" -> "TUBB3"
-"TUBB2B" -> "TUBB"
-"TUBB2B" -> "TUBA1A"
-"TUBB3" -> "TUBB2A"
-"TUBB3" -> "TUBB2B"
-"TUBB3" -> "TUBB4A"
-"TUBB3" -> "TUBB4B"
-"TUBB4A" -> "TUBB3"
-"TUBB4A" -> "TUBB2B"
-"TUBB4A" -> "TUBB2A"
-"TUBB4A" -> "TUBB8"
-"TUBB4B" -> "TUBB2A"
-"TUBB4B" -> "TUBB3"
-"TUBB4B" -> "TUBB6"
-"TUBB4B" -> "TUBA1C"
-"TUBB6" -> "TUBB8"
-"TUBB6" -> "TUBB4B"
-"TUBB6" -> "TUBA1C"
-"TUBB6" -> "TUBB2B"
-"TUBB8" -> "TUBB1"
-"TUBB8" -> "TUBB6"
-"TUBB8" -> "TUBA8"
-"TUBB8" -> "TUBA3E"
+"ACTA1" -> "ACTC1" ["e"=1]
+"ACTA1" -> "ACTG2" ["e"=1]
+"ACTA1" -> "ACTA2" ["e"=1]
+"ACTA1" -> "ACTG1" ["e"=1]
+"ACTA2" -> "ACTG2" ["e"=1]
+"ACTA2" -> "ACTC1" ["e"=1]
+"ACTA2" -> "ACTA1" ["e"=1]
+"ACTA2" -> "ACTG1" ["e"=1]
+"ACTB" -> "ACTG1" ["e"=1]
+"ACTB" -> "ACTA1" ["e"=1]
+"ACTB" -> "ACTC1" ["e"=1]
+"ACTB" -> "ACTA2" ["e"=1]
+"ACTBL2" -> "TUBB1" ["e"=1]
+"ACTBL2" -> "TUBAL3" ["e"=1]
+"ACTBL2" -> "TUBB8" ["e"=1]
+"ACTBL2" -> "ACTRT3" ["e"=1]
+"ACTC1" -> "ACTA1" ["e"=1]
+"ACTC1" -> "ACTG2" ["e"=1]
+"ACTC1" -> "ACTA2" ["e"=1]
+"ACTC1" -> "ACTG1" ["e"=1]
+"ACTG1" -> "ACTB" ["e"=1]
+"ACTG1" -> "ACTA1" ["e"=1]
+"ACTG1" -> "ACTC1" ["e"=1]
+"ACTG1" -> "ACTG2" ["e"=1]
+"ACTG2" -> "ACTA2" ["e"=1]
+"ACTG2" -> "ACTC1" ["e"=1]
+"ACTG2" -> "ACTA1" ["e"=1]
+"ACTG2" -> "ACTG1" ["e"=1]
+"ACTL7A" -> "ACTL9" ["e"=1]
+"ACTL7A" -> "ACTL8" ["e"=1]
+"ACTL7A" -> "ACTL7B" ["e"=1]
+"ACTL7A" -> "ACTRT3" ["e"=1]
+"ACTL7B" -> "ACTRT2" ["e"=1]
+"ACTL7B" -> "ACTL8" ["e"=1]
+"ACTL7B" -> "ACTL9" ["e"=1]
+"ACTL7B" -> "ACTL7A" ["e"=1]
+"ACTL8" -> "ACTRT2" ["e"=1]
+"ACTL8" -> "ACTL9" ["e"=1]
+"ACTL8" -> "ACTL7B" ["e"=1]
+"ACTL8" -> "ACTL7A" ["e"=1]
+"ACTL9" -> "ACTL8" ["e"=1]
+"ACTL9" -> "ACTL7A" ["e"=1]
+"ACTL9" -> "ACTRT2" ["e"=1]
+"ACTL9" -> "ACTL7B" ["e"=1]
+"ACTRT2" -> "ACTL8" ["e"=1]
+"ACTRT2" -> "ACTL7B" ["e"=1]
+"ACTRT2" -> "ACTL9" ["e"=1]
+"ACTRT2" -> "ACTL7A" ["e"=1]
+"ACTRT3" -> "ACTL8" ["e"=1]
+"ACTRT3" -> "ACTL7A" ["e"=1]
+"ACTRT3" -> "ACTL9" ["e"=1]
+"ACTRT3" -> "ACTRT2" ["e"=1]
+"EEF1A2" -> "ACTA1" ["e"=1]
+"EEF1A2" -> "TUBB4A" ["e"=1]
+"EEF1A2" -> "ACTG1" ["e"=1]
+"EEF1A2" -> "ACTC1" ["e"=1]
+"TUBA1A" -> "TUBA1B" ["e"=1]
+"TUBA1A" -> "TUBA3C" ["e"=1]
+"TUBA1A" -> "TUBB2B" ["e"=1]
+"TUBA1A" -> "TUBA3D" ["e"=1]
+"TUBA1B" -> "TUBB" ["e"=1]
+"TUBA1B" -> "TUBA1A" ["e"=1]
+"TUBA1B" -> "TUBA3D" ["e"=1]
+"TUBA1B" -> "TUBA1C" ["e"=1]
+"TUBA1C" -> "TUBA3E" ["e"=1]
+"TUBA1C" -> "TUBA3D" ["e"=1]
+"TUBA1C" -> "TUBA1B" ["e"=1]
+"TUBA1C" -> "TUBA8" ["e"=1]
+"TUBA3C" -> "TUBA3D" ["e"=1]
+"TUBA3C" -> "TUBA3E" ["e"=1]
+"TUBA3C" -> "TUBA1A" ["e"=1]
+"TUBA3C" -> "TUBA4A" ["e"=1]
+"TUBA3D" -> "TUBA3C" ["e"=1]
+"TUBA3D" -> "TUBA3E" ["e"=1]
+"TUBA3D" -> "TUBA1B" ["e"=1]
+"TUBA3D" -> "TUBA1C" ["e"=1]
+"TUBA3E" -> "TUBA3D" ["e"=1]
+"TUBA3E" -> "TUBA3C" ["e"=1]
+"TUBA3E" -> "TUBA8" ["e"=1]
+"TUBA3E" -> "TUBA1C" ["e"=1]
+"TUBA4A" -> "TUBA8" ["e"=1]
+"TUBA4A" -> "TUBA3E" ["e"=1]
+"TUBA4A" -> "TUBA3C" ["e"=1]
+"TUBA4A" -> "TUBA1C" ["e"=1]
+"TUBA4B" -> "TUBA3E" ["e"=1]
+"TUBA4B" -> "TUBB8" ["e"=1]
+"TUBA4B" -> "TUBAL3" ["e"=1]
+"TUBA4B" -> "TUBA8" ["e"=1]
+"TUBA8" -> "TUBA3E" ["e"=1]
+"TUBA8" -> "TUBA4A" ["e"=1]
+"TUBA8" -> "TUBA1C" ["e"=1]
+"TUBA8" -> "TUBB8" ["e"=1]
+"TUBAL3" -> "TUBB8" ["e"=1]
+"TUBAL3" -> "TUBA3E" ["e"=1]
+"TUBAL3" -> "ACTBL2" ["e"=1]
+"TUBAL3" -> "TUBB1" ["e"=1]
+"TUBB" -> "TUBA1B" ["e"=1]
+"TUBB" -> "TUBB2B" ["e"=1]
+"TUBB" -> "TUBA1A" ["e"=1]
+"TUBB" -> "TUBA1C" ["e"=1]
+"TUBB1" -> "TUBB8" ["e"=1]
+"TUBB1" -> "TUBA4A" ["e"=1]
+"TUBB1" -> "ACTBL2" ["e"=1]
+"TUBB1" -> "TUBB6" ["e"=1]
+"TUBB2A" -> "TUBB3" ["e"=1]
+"TUBB2A" -> "TUBB2B" ["e"=1]
+"TUBB2A" -> "TUBB4B" ["e"=1]
+"TUBB2A" -> "TUBB4A" ["e"=1]
+"TUBB2B" -> "TUBB2A" ["e"=1]
+"TUBB2B" -> "TUBB3" ["e"=1]
+"TUBB2B" -> "TUBB" ["e"=1]
+"TUBB2B" -> "TUBA1A" ["e"=1]
+"TUBB3" -> "TUBB2A" ["e"=1]
+"TUBB3" -> "TUBB2B" ["e"=1]
+"TUBB3" -> "TUBB4A" ["e"=1]
+"TUBB3" -> "TUBB4B" ["e"=1]
+"TUBB4A" -> "TUBB3" ["e"=1]
+"TUBB4A" -> "TUBB2B" ["e"=1]
+"TUBB4A" -> "TUBB2A" ["e"=1]
+"TUBB4A" -> "TUBB8" ["e"=1]
+"TUBB4B" -> "TUBB2A" ["e"=1]
+"TUBB4B" -> "TUBB3" ["e"=1]
+"TUBB4B" -> "TUBB6" ["e"=1]
+"TUBB4B" -> "TUBA1C" ["e"=1]
+"TUBB6" -> "TUBB8" ["e"=1]
+"TUBB6" -> "TUBB4B" ["e"=1]
+"TUBB6" -> "TUBA1C" ["e"=1]
+"TUBB6" -> "TUBB2B" ["e"=1]
+"TUBB8" -> "TUBB1" ["e"=1]
+"TUBB8" -> "TUBB6" ["e"=1]
+"TUBB8" -> "TUBA8" ["e"=1]
+"TUBB8" -> "TUBA3E" ["e"=1]
 }

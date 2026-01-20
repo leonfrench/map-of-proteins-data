@@ -62,256 +62,256 @@ digraph G {
 "USP34" ["l"="9.530,-0.340"]
 "VWA8" ["l"="9.591,-0.188"]
 "ZSWIM8" ["l"="9.657,-0.064"]
-"ACACA" -> "DOCK3"
-"ACACA" -> "PI4KA"
-"ACACA" -> "DOCK7"
-"ACACA" -> "NBEA"
-"ANKRD17" -> "UBR5"
-"ANKRD17" -> "LRBA"
-"ANKRD17" -> "ARFGEF1"
-"ANKRD17" -> "TRIP12"
-"ARFGEF1" -> "ARFGEF2"
-"ARFGEF1" -> "TRIP12"
-"ARFGEF1" -> "GBF1"
-"ARFGEF1" -> "RALGAPA2"
-"ARFGEF2" -> "ARFGEF1"
-"ARFGEF2" -> "GBF1"
-"ARFGEF2" -> "UBR1"
-"ARFGEF2" -> "PI4KA"
-"ASCC3" -> "ARFGEF1"
-"ASCC3" -> "LRBA"
-"ASCC3" -> "VWA8"
-"ASCC3" -> "USP24"
-"CFAP46" -> "CFAP54"
-"CFAP46" -> "DNAH12"
-"CFAP46" -> "MYO7B"
-"CFAP46" -> "CPLANE1"
-"CFAP54" -> "CFAP46"
-"CFAP54" -> "DNAH12"
-"CFAP54" -> "CPLANE1"
-"CFAP54" -> "DOCK7"
-"CKAP5" -> "ASCC3"
-"CKAP5" -> "GBF1"
-"CKAP5" -> "ARFGEF1"
-"CKAP5" -> "CNOT1"
-"CNOT1" -> "USP24"
-"CNOT1" -> "GBF1"
-"CNOT1" -> "HECTD1"
-"CNOT1" -> "LRBA"
-"CPLANE1" -> "LRBA"
-"CPLANE1" -> "DMXL1"
-"CPLANE1" -> "DOP1A"
-"CPLANE1" -> "DMXL2"
-"DENND4A" -> "DENND4C"
-"DENND4A" -> "SBF2"
-"DENND4A" -> "PIKFYVE"
-"DENND4A" -> "MED13L"
-"DENND4C" -> "DENND4A"
-"DENND4C" -> "PIKFYVE"
-"DENND4C" -> "LRBA"
-"DENND4C" -> "SBF2"
-"DMXL1" -> "DMXL2"
-"DMXL1" -> "DOP1A"
-"DMXL1" -> "FRYL"
-"DMXL1" -> "LRBA"
-"DMXL2" -> "DMXL1"
-"DMXL2" -> "DOP1A"
-"DMXL2" -> "UNC79"
-"DMXL2" -> "USP34"
-"DNAH12" -> "CFAP54"
-"DNAH12" -> "CFAP46"
-"DNAH12" -> "CNOT1"
-"DNAH12" -> "DOCK8"
-"DOCK1" -> "DOCK5"
-"DOCK1" -> "DOCK2"
-"DOCK1" -> "DOCK4"
-"DOCK1" -> "DOCK3"
-"DOCK10" -> "DOCK9"
-"DOCK10" -> "DOCK5"
-"DOCK10" -> "DOCK8"
-"DOCK10" -> "DOCK7"
-"DOCK2" -> "DOCK1"
-"DOCK2" -> "DOCK5"
-"DOCK2" -> "DOCK8"
-"DOCK2" -> "DOCK4"
-"DOCK3" -> "DOCK4"
-"DOCK3" -> "DOCK9"
-"DOCK3" -> "DOCK5"
-"DOCK3" -> "DOCK1"
-"DOCK4" -> "DOCK3"
-"DOCK4" -> "DOCK5"
-"DOCK4" -> "DOCK1"
-"DOCK4" -> "DOCK2"
-"DOCK5" -> "DOCK1"
-"DOCK5" -> "DOCK4"
-"DOCK5" -> "DOCK9"
-"DOCK5" -> "DOCK2"
-"DOCK7" -> "RALGAPA1"
-"DOCK7" -> "FRYL"
-"DOCK7" -> "SBF2"
-"DOCK7" -> "USP24"
-"DOCK8" -> "DOCK2"
-"DOCK8" -> "DOCK9"
-"DOCK8" -> "DOCK10"
-"DOCK8" -> "DOCK7"
-"DOCK9" -> "DOCK10"
-"DOCK9" -> "DOCK5"
-"DOCK9" -> "DOCK8"
-"DOCK9" -> "DOCK3"
-"DOP1A" -> "LRBA"
-"DOP1A" -> "UNC79"
-"DOP1A" -> "USP24"
-"DOP1A" -> "FRYL"
-"FRYL" -> "RALGAPA1"
-"FRYL" -> "LRBA"
-"FRYL" -> "USP34"
-"FRYL" -> "DOCK7"
-"GBF1" -> "ARFGEF2"
-"GBF1" -> "ARFGEF1"
-"GBF1" -> "RALGAPA2"
-"GBF1" -> "TSC2"
-"HECTD1" -> "UBR5"
-"HECTD1" -> "TRIP12"
-"HECTD1" -> "LRBA"
-"HECTD1" -> "USP34"
-"IQGAP1" -> "IQGAP2"
-"IQGAP1" -> "IQGAP3"
-"IQGAP1" -> "DOCK5"
-"IQGAP1" -> "DOCK1"
-"IQGAP2" -> "IQGAP1"
-"IQGAP2" -> "DOCK1"
-"IQGAP2" -> "DOCK2"
-"IQGAP2" -> "DOCK5"
-"IQGAP3" -> "IQGAP1"
-"IQGAP3" -> "MYO9B"
-"IQGAP3" -> "MYO7B"
-"IQGAP3" -> "ARFGEF2"
-"KIDINS220" -> "TRPM7"
-"KIDINS220" -> "ACACA"
-"KIDINS220" -> "ANKRD17"
-"KIDINS220" -> "DOCK3"
-"LRBA" -> "NBEA"
-"LRBA" -> "USP24"
-"LRBA" -> "FRYL"
-"LRBA" -> "USP34"
-"MADD" -> "TSC2"
-"MADD" -> "RALGAPA2"
-"MADD" -> "GBF1"
-"MADD" -> "PIKFYVE"
-"MED12L" -> "USP34"
-"MED12L" -> "DOCK7"
-"MED12L" -> "USP24"
-"MED12L" -> "UNC79"
-"MED13" -> "MED13L"
-"MED13" -> "DENND4A"
-"MED13" -> "DENND4C"
-"MED13" -> "UBR5"
-"MED13L" -> "MED13"
-"MED13L" -> "DENND4A"
-"MED13L" -> "UBR5"
-"MED13L" -> "SBF2"
-"MYO7B" -> "MYO9B"
-"MYO7B" -> "DOCK8"
-"MYO7B" -> "IQGAP3"
-"MYO7B" -> "DOCK2"
-"MYO9B" -> "MYO7B"
-"MYO9B" -> "DOCK2"
-"MYO9B" -> "DOCK5"
-"MYO9B" -> "DOCK1"
-"NBEA" -> "LRBA"
-"NBEA" -> "USP34"
-"NBEA" -> "UBR5"
-"NBEA" -> "RALGAPA1"
-"PCNX2" -> "RALGAPA2"
-"PCNX2" -> "NBEA"
-"PCNX2" -> "UNC79"
-"PCNX2" -> "LRBA"
-"PI4KA" -> "UNC79"
-"PI4KA" -> "FRYL"
-"PI4KA" -> "USP34"
-"PI4KA" -> "ARFGEF2"
-"PIKFYVE" -> "DENND4C"
-"PIKFYVE" -> "DOCK7"
-"PIKFYVE" -> "DENND4A"
-"PIKFYVE" -> "USP24"
-"PRPF8" -> "CNOT1"
-"PRPF8" -> "PI4KA"
-"PRPF8" -> "NBEA"
-"PRPF8" -> "LRBA"
-"RALGAPA1" -> "FRYL"
-"RALGAPA1" -> "DOCK7"
-"RALGAPA1" -> "USP34"
-"RALGAPA1" -> "LRBA"
-"RALGAPA2" -> "RALGAPA1"
-"RALGAPA2" -> "ARFGEF1"
-"RALGAPA2" -> "GBF1"
-"RALGAPA2" -> "SBF2"
-"SBF2" -> "DOCK7"
-"SBF2" -> "DENND4A"
-"SBF2" -> "LRBA"
-"SBF2" -> "DENND4C"
-"TLN2" -> "TRIO"
-"TLN2" -> "ARFGEF2"
-"TLN2" -> "TTC28"
-"TLN2" -> "GBF1"
-"TRIO" -> "DOCK9"
-"TRIO" -> "DOCK3"
-"TRIO" -> "SBF2"
-"TRIO" -> "TLN2"
-"TRIP12" -> "HECTD1"
-"TRIP12" -> "ARFGEF1"
-"TRIP12" -> "UBR5"
-"TRIP12" -> "USP24"
-"TRPM7" -> "PIKFYVE"
-"TRPM7" -> "ARFGEF2"
-"TRPM7" -> "USP24"
-"TRPM7" -> "ARFGEF1"
-"TSC2" -> "MADD"
-"TSC2" -> "GBF1"
-"TSC2" -> "PIKFYVE"
-"TSC2" -> "RALGAPA2"
-"TTC28" -> "DOCK7"
-"TTC28" -> "PI4KA"
-"TTC28" -> "TLN2"
-"TTC28" -> "SBF2"
-"UBR1" -> "UBR2"
-"UBR1" -> "UBR3"
-"UBR1" -> "ARFGEF2"
-"UBR1" -> "ARFGEF1"
-"UBR2" -> "UBR1"
-"UBR2" -> "UBR3"
-"UBR2" -> "ARFGEF1"
-"UBR2" -> "ARFGEF2"
-"UBR3" -> "UBR2"
-"UBR3" -> "UBR1"
-"UBR3" -> "ARFGEF1"
-"UBR3" -> "ARFGEF2"
-"UBR5" -> "HECTD1"
-"UBR5" -> "USP34"
-"UBR5" -> "TRIP12"
-"UBR5" -> "LRBA"
-"UGGT2" -> "IQGAP2"
-"UGGT2" -> "DOCK5"
-"UGGT2" -> "UBR2"
-"UGGT2" -> "DOCK2"
-"UNC79" -> "DOP1A"
-"UNC79" -> "PI4KA"
-"UNC79" -> "USP34"
-"UNC79" -> "LRBA"
-"USP24" -> "LRBA"
-"USP24" -> "USP34"
-"USP24" -> "FRYL"
-"USP24" -> "CNOT1"
-"USP34" -> "FRYL"
-"USP34" -> "USP24"
-"USP34" -> "LRBA"
-"USP34" -> "RALGAPA1"
-"VWA8" -> "ASCC3"
-"VWA8" -> "LRBA"
-"VWA8" -> "ACACA"
-"VWA8" -> "SBF2"
-"ZSWIM8" -> "TSC2"
-"ZSWIM8" -> "PIKFYVE"
-"ZSWIM8" -> "MADD"
-"ZSWIM8" -> "MED13"
+"ACACA" -> "DOCK3" ["e"=1]
+"ACACA" -> "PI4KA" ["e"=1]
+"ACACA" -> "DOCK7" ["e"=1]
+"ACACA" -> "NBEA" ["e"=1]
+"ANKRD17" -> "UBR5" ["e"=1]
+"ANKRD17" -> "LRBA" ["e"=1]
+"ANKRD17" -> "ARFGEF1" ["e"=1]
+"ANKRD17" -> "TRIP12" ["e"=1]
+"ARFGEF1" -> "ARFGEF2" ["e"=1]
+"ARFGEF1" -> "TRIP12" ["e"=1]
+"ARFGEF1" -> "GBF1" ["e"=1]
+"ARFGEF1" -> "RALGAPA2" ["e"=1]
+"ARFGEF2" -> "ARFGEF1" ["e"=1]
+"ARFGEF2" -> "GBF1" ["e"=1]
+"ARFGEF2" -> "UBR1" ["e"=1]
+"ARFGEF2" -> "PI4KA" ["e"=1]
+"ASCC3" -> "ARFGEF1" ["e"=1]
+"ASCC3" -> "LRBA" ["e"=1]
+"ASCC3" -> "VWA8" ["e"=1]
+"ASCC3" -> "USP24" ["e"=1]
+"CFAP46" -> "CFAP54" ["e"=1]
+"CFAP46" -> "DNAH12" ["e"=1]
+"CFAP46" -> "MYO7B" ["e"=1]
+"CFAP46" -> "CPLANE1" ["e"=1]
+"CFAP54" -> "CFAP46" ["e"=1]
+"CFAP54" -> "DNAH12" ["e"=1]
+"CFAP54" -> "CPLANE1" ["e"=1]
+"CFAP54" -> "DOCK7" ["e"=1]
+"CKAP5" -> "ASCC3" ["e"=1]
+"CKAP5" -> "GBF1" ["e"=1]
+"CKAP5" -> "ARFGEF1" ["e"=1]
+"CKAP5" -> "CNOT1" ["e"=1]
+"CNOT1" -> "USP24" ["e"=1]
+"CNOT1" -> "GBF1" ["e"=1]
+"CNOT1" -> "HECTD1" ["e"=1]
+"CNOT1" -> "LRBA" ["e"=1]
+"CPLANE1" -> "LRBA" ["e"=1]
+"CPLANE1" -> "DMXL1" ["e"=1]
+"CPLANE1" -> "DOP1A" ["e"=1]
+"CPLANE1" -> "DMXL2" ["e"=1]
+"DENND4A" -> "DENND4C" ["e"=1]
+"DENND4A" -> "SBF2" ["e"=1]
+"DENND4A" -> "PIKFYVE" ["e"=1]
+"DENND4A" -> "MED13L" ["e"=1]
+"DENND4C" -> "DENND4A" ["e"=1]
+"DENND4C" -> "PIKFYVE" ["e"=1]
+"DENND4C" -> "LRBA" ["e"=1]
+"DENND4C" -> "SBF2" ["e"=1]
+"DMXL1" -> "DMXL2" ["e"=1]
+"DMXL1" -> "DOP1A" ["e"=1]
+"DMXL1" -> "FRYL" ["e"=1]
+"DMXL1" -> "LRBA" ["e"=1]
+"DMXL2" -> "DMXL1" ["e"=1]
+"DMXL2" -> "DOP1A" ["e"=1]
+"DMXL2" -> "UNC79" ["e"=1]
+"DMXL2" -> "USP34" ["e"=1]
+"DNAH12" -> "CFAP54" ["e"=1]
+"DNAH12" -> "CFAP46" ["e"=1]
+"DNAH12" -> "CNOT1" ["e"=1]
+"DNAH12" -> "DOCK8" ["e"=1]
+"DOCK1" -> "DOCK5" ["e"=1]
+"DOCK1" -> "DOCK2" ["e"=1]
+"DOCK1" -> "DOCK4" ["e"=1]
+"DOCK1" -> "DOCK3" ["e"=1]
+"DOCK10" -> "DOCK9" ["e"=1]
+"DOCK10" -> "DOCK5" ["e"=1]
+"DOCK10" -> "DOCK8" ["e"=1]
+"DOCK10" -> "DOCK7" ["e"=1]
+"DOCK2" -> "DOCK1" ["e"=1]
+"DOCK2" -> "DOCK5" ["e"=1]
+"DOCK2" -> "DOCK8" ["e"=1]
+"DOCK2" -> "DOCK4" ["e"=1]
+"DOCK3" -> "DOCK4" ["e"=1]
+"DOCK3" -> "DOCK9" ["e"=1]
+"DOCK3" -> "DOCK5" ["e"=1]
+"DOCK3" -> "DOCK1" ["e"=1]
+"DOCK4" -> "DOCK3" ["e"=1]
+"DOCK4" -> "DOCK5" ["e"=1]
+"DOCK4" -> "DOCK1" ["e"=1]
+"DOCK4" -> "DOCK2" ["e"=1]
+"DOCK5" -> "DOCK1" ["e"=1]
+"DOCK5" -> "DOCK4" ["e"=1]
+"DOCK5" -> "DOCK9" ["e"=1]
+"DOCK5" -> "DOCK2" ["e"=1]
+"DOCK7" -> "RALGAPA1" ["e"=1]
+"DOCK7" -> "FRYL" ["e"=1]
+"DOCK7" -> "SBF2" ["e"=1]
+"DOCK7" -> "USP24" ["e"=1]
+"DOCK8" -> "DOCK2" ["e"=1]
+"DOCK8" -> "DOCK9" ["e"=1]
+"DOCK8" -> "DOCK10" ["e"=1]
+"DOCK8" -> "DOCK7" ["e"=1]
+"DOCK9" -> "DOCK10" ["e"=1]
+"DOCK9" -> "DOCK5" ["e"=1]
+"DOCK9" -> "DOCK8" ["e"=1]
+"DOCK9" -> "DOCK3" ["e"=1]
+"DOP1A" -> "LRBA" ["e"=1]
+"DOP1A" -> "UNC79" ["e"=1]
+"DOP1A" -> "USP24" ["e"=1]
+"DOP1A" -> "FRYL" ["e"=1]
+"FRYL" -> "RALGAPA1" ["e"=1]
+"FRYL" -> "LRBA" ["e"=1]
+"FRYL" -> "USP34" ["e"=1]
+"FRYL" -> "DOCK7" ["e"=1]
+"GBF1" -> "ARFGEF2" ["e"=1]
+"GBF1" -> "ARFGEF1" ["e"=1]
+"GBF1" -> "RALGAPA2" ["e"=1]
+"GBF1" -> "TSC2" ["e"=1]
+"HECTD1" -> "UBR5" ["e"=1]
+"HECTD1" -> "TRIP12" ["e"=1]
+"HECTD1" -> "LRBA" ["e"=1]
+"HECTD1" -> "USP34" ["e"=1]
+"IQGAP1" -> "IQGAP2" ["e"=1]
+"IQGAP1" -> "IQGAP3" ["e"=1]
+"IQGAP1" -> "DOCK5" ["e"=1]
+"IQGAP1" -> "DOCK1" ["e"=1]
+"IQGAP2" -> "IQGAP1" ["e"=1]
+"IQGAP2" -> "DOCK1" ["e"=1]
+"IQGAP2" -> "DOCK2" ["e"=1]
+"IQGAP2" -> "DOCK5" ["e"=1]
+"IQGAP3" -> "IQGAP1" ["e"=1]
+"IQGAP3" -> "MYO9B" ["e"=1]
+"IQGAP3" -> "MYO7B" ["e"=1]
+"IQGAP3" -> "ARFGEF2" ["e"=1]
+"KIDINS220" -> "TRPM7" ["e"=1]
+"KIDINS220" -> "ACACA" ["e"=1]
+"KIDINS220" -> "ANKRD17" ["e"=1]
+"KIDINS220" -> "DOCK3" ["e"=1]
+"LRBA" -> "NBEA" ["e"=1]
+"LRBA" -> "USP24" ["e"=1]
+"LRBA" -> "FRYL" ["e"=1]
+"LRBA" -> "USP34" ["e"=1]
+"MADD" -> "TSC2" ["e"=1]
+"MADD" -> "RALGAPA2" ["e"=1]
+"MADD" -> "GBF1" ["e"=1]
+"MADD" -> "PIKFYVE" ["e"=1]
+"MED12L" -> "USP34" ["e"=1]
+"MED12L" -> "DOCK7" ["e"=1]
+"MED12L" -> "USP24" ["e"=1]
+"MED12L" -> "UNC79" ["e"=1]
+"MED13" -> "MED13L" ["e"=1]
+"MED13" -> "DENND4A" ["e"=1]
+"MED13" -> "DENND4C" ["e"=1]
+"MED13" -> "UBR5" ["e"=1]
+"MED13L" -> "MED13" ["e"=1]
+"MED13L" -> "DENND4A" ["e"=1]
+"MED13L" -> "UBR5" ["e"=1]
+"MED13L" -> "SBF2" ["e"=1]
+"MYO7B" -> "MYO9B" ["e"=1]
+"MYO7B" -> "DOCK8" ["e"=1]
+"MYO7B" -> "IQGAP3" ["e"=1]
+"MYO7B" -> "DOCK2" ["e"=1]
+"MYO9B" -> "MYO7B" ["e"=1]
+"MYO9B" -> "DOCK2" ["e"=1]
+"MYO9B" -> "DOCK5" ["e"=1]
+"MYO9B" -> "DOCK1" ["e"=1]
+"NBEA" -> "LRBA" ["e"=1]
+"NBEA" -> "USP34" ["e"=1]
+"NBEA" -> "UBR5" ["e"=1]
+"NBEA" -> "RALGAPA1" ["e"=1]
+"PCNX2" -> "RALGAPA2" ["e"=1]
+"PCNX2" -> "NBEA" ["e"=1]
+"PCNX2" -> "UNC79" ["e"=1]
+"PCNX2" -> "LRBA" ["e"=1]
+"PI4KA" -> "UNC79" ["e"=1]
+"PI4KA" -> "FRYL" ["e"=1]
+"PI4KA" -> "USP34" ["e"=1]
+"PI4KA" -> "ARFGEF2" ["e"=1]
+"PIKFYVE" -> "DENND4C" ["e"=1]
+"PIKFYVE" -> "DOCK7" ["e"=1]
+"PIKFYVE" -> "DENND4A" ["e"=1]
+"PIKFYVE" -> "USP24" ["e"=1]
+"PRPF8" -> "CNOT1" ["e"=1]
+"PRPF8" -> "PI4KA" ["e"=1]
+"PRPF8" -> "NBEA" ["e"=1]
+"PRPF8" -> "LRBA" ["e"=1]
+"RALGAPA1" -> "FRYL" ["e"=1]
+"RALGAPA1" -> "DOCK7" ["e"=1]
+"RALGAPA1" -> "USP34" ["e"=1]
+"RALGAPA1" -> "LRBA" ["e"=1]
+"RALGAPA2" -> "RALGAPA1" ["e"=1]
+"RALGAPA2" -> "ARFGEF1" ["e"=1]
+"RALGAPA2" -> "GBF1" ["e"=1]
+"RALGAPA2" -> "SBF2" ["e"=1]
+"SBF2" -> "DOCK7" ["e"=1]
+"SBF2" -> "DENND4A" ["e"=1]
+"SBF2" -> "LRBA" ["e"=1]
+"SBF2" -> "DENND4C" ["e"=1]
+"TLN2" -> "TRIO" ["e"=1]
+"TLN2" -> "ARFGEF2" ["e"=1]
+"TLN2" -> "TTC28" ["e"=1]
+"TLN2" -> "GBF1" ["e"=1]
+"TRIO" -> "DOCK9" ["e"=1]
+"TRIO" -> "DOCK3" ["e"=1]
+"TRIO" -> "SBF2" ["e"=1]
+"TRIO" -> "TLN2" ["e"=1]
+"TRIP12" -> "HECTD1" ["e"=1]
+"TRIP12" -> "ARFGEF1" ["e"=1]
+"TRIP12" -> "UBR5" ["e"=1]
+"TRIP12" -> "USP24" ["e"=1]
+"TRPM7" -> "PIKFYVE" ["e"=1]
+"TRPM7" -> "ARFGEF2" ["e"=1]
+"TRPM7" -> "USP24" ["e"=1]
+"TRPM7" -> "ARFGEF1" ["e"=1]
+"TSC2" -> "MADD" ["e"=1]
+"TSC2" -> "GBF1" ["e"=1]
+"TSC2" -> "PIKFYVE" ["e"=1]
+"TSC2" -> "RALGAPA2" ["e"=1]
+"TTC28" -> "DOCK7" ["e"=1]
+"TTC28" -> "PI4KA" ["e"=1]
+"TTC28" -> "TLN2" ["e"=1]
+"TTC28" -> "SBF2" ["e"=1]
+"UBR1" -> "UBR2" ["e"=1]
+"UBR1" -> "UBR3" ["e"=1]
+"UBR1" -> "ARFGEF2" ["e"=1]
+"UBR1" -> "ARFGEF1" ["e"=1]
+"UBR2" -> "UBR1" ["e"=1]
+"UBR2" -> "UBR3" ["e"=1]
+"UBR2" -> "ARFGEF1" ["e"=1]
+"UBR2" -> "ARFGEF2" ["e"=1]
+"UBR3" -> "UBR2" ["e"=1]
+"UBR3" -> "UBR1" ["e"=1]
+"UBR3" -> "ARFGEF1" ["e"=1]
+"UBR3" -> "ARFGEF2" ["e"=1]
+"UBR5" -> "HECTD1" ["e"=1]
+"UBR5" -> "USP34" ["e"=1]
+"UBR5" -> "TRIP12" ["e"=1]
+"UBR5" -> "LRBA" ["e"=1]
+"UGGT2" -> "IQGAP2" ["e"=1]
+"UGGT2" -> "DOCK5" ["e"=1]
+"UGGT2" -> "UBR2" ["e"=1]
+"UGGT2" -> "DOCK2" ["e"=1]
+"UNC79" -> "DOP1A" ["e"=1]
+"UNC79" -> "PI4KA" ["e"=1]
+"UNC79" -> "USP34" ["e"=1]
+"UNC79" -> "LRBA" ["e"=1]
+"USP24" -> "LRBA" ["e"=1]
+"USP24" -> "USP34" ["e"=1]
+"USP24" -> "FRYL" ["e"=1]
+"USP24" -> "CNOT1" ["e"=1]
+"USP34" -> "FRYL" ["e"=1]
+"USP34" -> "USP24" ["e"=1]
+"USP34" -> "LRBA" ["e"=1]
+"USP34" -> "RALGAPA1" ["e"=1]
+"VWA8" -> "ASCC3" ["e"=1]
+"VWA8" -> "LRBA" ["e"=1]
+"VWA8" -> "ACACA" ["e"=1]
+"VWA8" -> "SBF2" ["e"=1]
+"ZSWIM8" -> "TSC2" ["e"=1]
+"ZSWIM8" -> "PIKFYVE" ["e"=1]
+"ZSWIM8" -> "MADD" ["e"=1]
+"ZSWIM8" -> "MED13" ["e"=1]
 }

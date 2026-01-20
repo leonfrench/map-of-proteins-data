@@ -37,156 +37,156 @@ digraph G {
 "VDAC1" ["l"="13.097,2.327"]
 "VDAC2" ["l"="13.164,2.351"]
 "VDAC3" ["l"="13.122,2.328"]
-"ACOT13" -> "ISOC2"
-"ACOT13" -> "FUOM"
-"ACOT13" -> "CLPP"
-"ACOT13" -> "CLYBL"
-"AFG1L" -> "SIRT5"
-"AFG1L" -> "MTG2"
-"AFG1L" -> "NUBPL"
-"AFG1L" -> "NDUFAF6"
-"APRT" -> "PGLS"
-"APRT" -> "FUOM"
-"APRT" -> "MPST"
-"APRT" -> "SIRT4"
-"BPGM" -> "PGAM2"
-"BPGM" -> "MPST"
-"BPGM" -> "SIRT4"
-"BPGM" -> "GPX2"
-"CLPP" -> "MCAT"
-"CLPP" -> "NUBPL"
-"CLPP" -> "PMPCA"
-"CLPP" -> "SIRT3"
-"CLYBL" -> "NUBPL"
-"CLYBL" -> "AFG1L"
-"CLYBL" -> "SIRT5"
-"CLYBL" -> "RPE"
-"DDAH2" -> "PGLS"
-"DDAH2" -> "ETHE1"
-"DDAH2" -> "FUOM"
-"DDAH2" -> "PAFAH1B3"
-"DNAJA3" -> "MTG2"
-"DNAJA3" -> "NUBPL"
-"DNAJA3" -> "GTPBP10"
-"DNAJA3" -> "SIRT3"
-"ECI1" -> "MCAT"
-"ECI1" -> "CLPP"
-"ECI1" -> "PGLS"
-"ECI1" -> "NUBPL"
-"ETHE1" -> "PGLS"
-"ETHE1" -> "MPST"
-"ETHE1" -> "DDAH2"
-"ETHE1" -> "APRT"
-"FAM185A" -> "NUBPL"
-"FAM185A" -> "SIRT3"
-"FAM185A" -> "AFG1L"
-"FAM185A" -> "MTG2"
-"FUOM" -> "ISOC2"
-"FUOM" -> "APRT"
-"FUOM" -> "PGLS"
-"FUOM" -> "GAMT"
-"GAMT" -> "METTL26"
-"GAMT" -> "PEBP1"
-"GAMT" -> "MPST"
-"GAMT" -> "PGLS"
-"GPX2" -> "PEBP1"
-"GPX2" -> "MPST"
-"GPX2" -> "GAMT"
-"GPX2" -> "BPGM"
-"GTPBP10" -> "MTG2"
-"GTPBP10" -> "NUBPL"
-"GTPBP10" -> "AFG1L"
-"GTPBP10" -> "DNAJA3"
-"ISOC2" -> "FUOM"
-"ISOC2" -> "PAFAH1B3"
-"ISOC2" -> "CLPP"
-"ISOC2" -> "ACOT13"
-"MCAT" -> "CLPP"
-"MCAT" -> "SIRT5"
-"MCAT" -> "MTG2"
-"MCAT" -> "SIRT3"
-"METTL26" -> "GAMT"
-"METTL26" -> "PGLS"
-"METTL26" -> "MCAT"
-"METTL26" -> "APRT"
-"MPST" -> "TST"
-"MPST" -> "PGLS"
-"MPST" -> "PEBP1"
-"MPST" -> "ETHE1"
-"MTG2" -> "DNAJA3"
-"MTG2" -> "GTPBP10"
-"MTG2" -> "NUBPL"
-"MTG2" -> "SIRT3"
-"NDUFAF6" -> "AFG1L"
-"NDUFAF6" -> "PDSS1"
-"NDUFAF6" -> "NUBPL"
-"NDUFAF6" -> "MCAT"
-"NUBPL" -> "GTPBP10"
-"NUBPL" -> "MTG2"
-"NUBPL" -> "CLYBL"
-"NUBPL" -> "SIRT3"
-"PAFAH1B3" -> "ISOC2"
-"PAFAH1B3" -> "PGLS"
-"PAFAH1B3" -> "METTL26"
-"PAFAH1B3" -> "SIRT4"
-"PDSS1" -> "NDUFAF6"
-"PDSS1" -> "AFG1L"
-"PDSS1" -> "SIRT5"
-"PDSS1" -> "CLYBL"
-"PEBP1" -> "GPX2"
-"PEBP1" -> "GAMT"
-"PEBP1" -> "MPST"
-"PEBP1" -> "TST"
-"PGAM2" -> "BPGM"
-"PGAM2" -> "MPST"
-"PGAM2" -> "GAMT"
-"PGAM2" -> "TST"
-"PGLS" -> "MPST"
-"PGLS" -> "ETHE1"
-"PGLS" -> "APRT"
-"PGLS" -> "DDAH2"
-"PMPCA" -> "SAMM50"
-"PMPCA" -> "CLPP"
-"PMPCA" -> "MCAT"
-"PMPCA" -> "NUBPL"
-"PPA2" -> "AFG1L"
-"PPA2" -> "GPX2"
-"PPA2" -> "NUBPL"
-"PPA2" -> "PEBP1"
-"RPE" -> "CLYBL"
-"RPE" -> "SIRT5"
-"RPE" -> "AFG1L"
-"RPE" -> "NUBPL"
-"SAMM50" -> "PMPCA"
-"SAMM50" -> "CLPP"
-"SAMM50" -> "DNAJA3"
-"SAMM50" -> "MTG2"
-"SIRT3" -> "SIRT4"
-"SIRT3" -> "MTG2"
-"SIRT3" -> "NUBPL"
-"SIRT3" -> "SIRT5"
-"SIRT4" -> "SIRT5"
-"SIRT4" -> "SIRT3"
-"SIRT4" -> "MTG2"
-"SIRT4" -> "MPST"
-"SIRT5" -> "SIRT4"
-"SIRT5" -> "AFG1L"
-"SIRT5" -> "SIRT3"
-"SIRT5" -> "MTG2"
-"TST" -> "MPST"
-"TST" -> "PGLS"
-"TST" -> "PEBP1"
-"TST" -> "MCAT"
-"VDAC1" -> "VDAC2"
-"VDAC1" -> "VDAC3"
-"VDAC1" -> "SAMM50"
-"VDAC1" -> "FAM185A"
-"VDAC2" -> "VDAC1"
-"VDAC2" -> "VDAC3"
-"VDAC2" -> "SAMM50"
-"VDAC2" -> "FAM185A"
-"VDAC3" -> "VDAC2"
-"VDAC3" -> "VDAC1"
-"VDAC3" -> "SAMM50"
-"VDAC3" -> "FAM185A"
+"ACOT13" -> "ISOC2" ["e"=1]
+"ACOT13" -> "FUOM" ["e"=1]
+"ACOT13" -> "CLPP" ["e"=1]
+"ACOT13" -> "CLYBL" ["e"=1]
+"AFG1L" -> "SIRT5" ["e"=1]
+"AFG1L" -> "MTG2" ["e"=1]
+"AFG1L" -> "NUBPL" ["e"=1]
+"AFG1L" -> "NDUFAF6" ["e"=1]
+"APRT" -> "PGLS" ["e"=1]
+"APRT" -> "FUOM" ["e"=1]
+"APRT" -> "MPST" ["e"=1]
+"APRT" -> "SIRT4" ["e"=1]
+"BPGM" -> "PGAM2" ["e"=1]
+"BPGM" -> "MPST" ["e"=1]
+"BPGM" -> "SIRT4" ["e"=1]
+"BPGM" -> "GPX2" ["e"=1]
+"CLPP" -> "MCAT" ["e"=1]
+"CLPP" -> "NUBPL" ["e"=1]
+"CLPP" -> "PMPCA" ["e"=1]
+"CLPP" -> "SIRT3" ["e"=1]
+"CLYBL" -> "NUBPL" ["e"=1]
+"CLYBL" -> "AFG1L" ["e"=1]
+"CLYBL" -> "SIRT5" ["e"=1]
+"CLYBL" -> "RPE" ["e"=1]
+"DDAH2" -> "PGLS" ["e"=1]
+"DDAH2" -> "ETHE1" ["e"=1]
+"DDAH2" -> "FUOM" ["e"=1]
+"DDAH2" -> "PAFAH1B3" ["e"=1]
+"DNAJA3" -> "MTG2" ["e"=1]
+"DNAJA3" -> "NUBPL" ["e"=1]
+"DNAJA3" -> "GTPBP10" ["e"=1]
+"DNAJA3" -> "SIRT3" ["e"=1]
+"ECI1" -> "MCAT" ["e"=1]
+"ECI1" -> "CLPP" ["e"=1]
+"ECI1" -> "PGLS" ["e"=1]
+"ECI1" -> "NUBPL" ["e"=1]
+"ETHE1" -> "PGLS" ["e"=1]
+"ETHE1" -> "MPST" ["e"=1]
+"ETHE1" -> "DDAH2" ["e"=1]
+"ETHE1" -> "APRT" ["e"=1]
+"FAM185A" -> "NUBPL" ["e"=1]
+"FAM185A" -> "SIRT3" ["e"=1]
+"FAM185A" -> "AFG1L" ["e"=1]
+"FAM185A" -> "MTG2" ["e"=1]
+"FUOM" -> "ISOC2" ["e"=1]
+"FUOM" -> "APRT" ["e"=1]
+"FUOM" -> "PGLS" ["e"=1]
+"FUOM" -> "GAMT" ["e"=1]
+"GAMT" -> "METTL26" ["e"=1]
+"GAMT" -> "PEBP1" ["e"=1]
+"GAMT" -> "MPST" ["e"=1]
+"GAMT" -> "PGLS" ["e"=1]
+"GPX2" -> "PEBP1" ["e"=1]
+"GPX2" -> "MPST" ["e"=1]
+"GPX2" -> "GAMT" ["e"=1]
+"GPX2" -> "BPGM" ["e"=1]
+"GTPBP10" -> "MTG2" ["e"=1]
+"GTPBP10" -> "NUBPL" ["e"=1]
+"GTPBP10" -> "AFG1L" ["e"=1]
+"GTPBP10" -> "DNAJA3" ["e"=1]
+"ISOC2" -> "FUOM" ["e"=1]
+"ISOC2" -> "PAFAH1B3" ["e"=1]
+"ISOC2" -> "CLPP" ["e"=1]
+"ISOC2" -> "ACOT13" ["e"=1]
+"MCAT" -> "CLPP" ["e"=1]
+"MCAT" -> "SIRT5" ["e"=1]
+"MCAT" -> "MTG2" ["e"=1]
+"MCAT" -> "SIRT3" ["e"=1]
+"METTL26" -> "GAMT" ["e"=1]
+"METTL26" -> "PGLS" ["e"=1]
+"METTL26" -> "MCAT" ["e"=1]
+"METTL26" -> "APRT" ["e"=1]
+"MPST" -> "TST" ["e"=1]
+"MPST" -> "PGLS" ["e"=1]
+"MPST" -> "PEBP1" ["e"=1]
+"MPST" -> "ETHE1" ["e"=1]
+"MTG2" -> "DNAJA3" ["e"=1]
+"MTG2" -> "GTPBP10" ["e"=1]
+"MTG2" -> "NUBPL" ["e"=1]
+"MTG2" -> "SIRT3" ["e"=1]
+"NDUFAF6" -> "AFG1L" ["e"=1]
+"NDUFAF6" -> "PDSS1" ["e"=1]
+"NDUFAF6" -> "NUBPL" ["e"=1]
+"NDUFAF6" -> "MCAT" ["e"=1]
+"NUBPL" -> "GTPBP10" ["e"=1]
+"NUBPL" -> "MTG2" ["e"=1]
+"NUBPL" -> "CLYBL" ["e"=1]
+"NUBPL" -> "SIRT3" ["e"=1]
+"PAFAH1B3" -> "ISOC2" ["e"=1]
+"PAFAH1B3" -> "PGLS" ["e"=1]
+"PAFAH1B3" -> "METTL26" ["e"=1]
+"PAFAH1B3" -> "SIRT4" ["e"=1]
+"PDSS1" -> "NDUFAF6" ["e"=1]
+"PDSS1" -> "AFG1L" ["e"=1]
+"PDSS1" -> "SIRT5" ["e"=1]
+"PDSS1" -> "CLYBL" ["e"=1]
+"PEBP1" -> "GPX2" ["e"=1]
+"PEBP1" -> "GAMT" ["e"=1]
+"PEBP1" -> "MPST" ["e"=1]
+"PEBP1" -> "TST" ["e"=1]
+"PGAM2" -> "BPGM" ["e"=1]
+"PGAM2" -> "MPST" ["e"=1]
+"PGAM2" -> "GAMT" ["e"=1]
+"PGAM2" -> "TST" ["e"=1]
+"PGLS" -> "MPST" ["e"=1]
+"PGLS" -> "ETHE1" ["e"=1]
+"PGLS" -> "APRT" ["e"=1]
+"PGLS" -> "DDAH2" ["e"=1]
+"PMPCA" -> "SAMM50" ["e"=1]
+"PMPCA" -> "CLPP" ["e"=1]
+"PMPCA" -> "MCAT" ["e"=1]
+"PMPCA" -> "NUBPL" ["e"=1]
+"PPA2" -> "AFG1L" ["e"=1]
+"PPA2" -> "GPX2" ["e"=1]
+"PPA2" -> "NUBPL" ["e"=1]
+"PPA2" -> "PEBP1" ["e"=1]
+"RPE" -> "CLYBL" ["e"=1]
+"RPE" -> "SIRT5" ["e"=1]
+"RPE" -> "AFG1L" ["e"=1]
+"RPE" -> "NUBPL" ["e"=1]
+"SAMM50" -> "PMPCA" ["e"=1]
+"SAMM50" -> "CLPP" ["e"=1]
+"SAMM50" -> "DNAJA3" ["e"=1]
+"SAMM50" -> "MTG2" ["e"=1]
+"SIRT3" -> "SIRT4" ["e"=1]
+"SIRT3" -> "MTG2" ["e"=1]
+"SIRT3" -> "NUBPL" ["e"=1]
+"SIRT3" -> "SIRT5" ["e"=1]
+"SIRT4" -> "SIRT5" ["e"=1]
+"SIRT4" -> "SIRT3" ["e"=1]
+"SIRT4" -> "MTG2" ["e"=1]
+"SIRT4" -> "MPST" ["e"=1]
+"SIRT5" -> "SIRT4" ["e"=1]
+"SIRT5" -> "AFG1L" ["e"=1]
+"SIRT5" -> "SIRT3" ["e"=1]
+"SIRT5" -> "MTG2" ["e"=1]
+"TST" -> "MPST" ["e"=1]
+"TST" -> "PGLS" ["e"=1]
+"TST" -> "PEBP1" ["e"=1]
+"TST" -> "MCAT" ["e"=1]
+"VDAC1" -> "VDAC2" ["e"=1]
+"VDAC1" -> "VDAC3" ["e"=1]
+"VDAC1" -> "SAMM50" ["e"=1]
+"VDAC1" -> "FAM185A" ["e"=1]
+"VDAC2" -> "VDAC1" ["e"=1]
+"VDAC2" -> "VDAC3" ["e"=1]
+"VDAC2" -> "SAMM50" ["e"=1]
+"VDAC2" -> "FAM185A" ["e"=1]
+"VDAC3" -> "VDAC2" ["e"=1]
+"VDAC3" -> "VDAC1" ["e"=1]
+"VDAC3" -> "SAMM50" ["e"=1]
+"VDAC3" -> "FAM185A" ["e"=1]
 }

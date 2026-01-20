@@ -20,88 +20,88 @@ digraph G {
 "IGLV5-37" ["l"="9.733,13.882"]
 "VPREB1" ["l"="9.766,13.866"]
 "VPREB3" ["l"="9.702,13.923"]
-"IGKV1D-42" -> "IGKV2D-24"
-"IGKV1D-42" -> "IGKV2D-28"
-"IGKV1D-42" -> "IGKV2D-29"
-"IGKV1D-42" -> "IGKV2-24"
-"IGKV1D-43" -> "IGKV2D-28"
-"IGKV1D-43" -> "IGLV5-37"
-"IGKV1D-43" -> "IGKV2-28"
-"IGKV1D-43" -> "IGKV2-24"
-"IGKV2-24" -> "IGKV2D-29"
-"IGKV2-24" -> "IGKV2D-28"
-"IGKV2-24" -> "IGKV2D-30"
-"IGKV2-24" -> "IGKV2-28"
-"IGKV2-28" -> "IGKV2D-28"
-"IGKV2-28" -> "IGKV2D-30"
-"IGKV2-28" -> "IGKV2-24"
-"IGKV2-28" -> "IGKV2D-29"
-"IGKV2-40" -> "IGKV6D-41"
-"IGKV2-40" -> "IGKV2D-26"
-"IGKV2-40" -> "IGLV11-55"
-"IGKV2-40" -> "IGKV2D-29"
-"IGKV2D-24" -> "IGKV2-24"
-"IGKV2D-24" -> "IGKV1D-42"
-"IGKV2D-24" -> "IGKV2D-26"
-"IGKV2D-24" -> "IGKV2D-29"
-"IGKV2D-26" -> "IGKV2D-29"
-"IGKV2D-26" -> "IGKV2-28"
-"IGKV2D-26" -> "IGKV2D-28"
-"IGKV2D-26" -> "IGLV11-55"
-"IGKV2D-28" -> "IGKV2-28"
-"IGKV2D-28" -> "IGKV2D-29"
-"IGKV2D-28" -> "IGKV2-24"
-"IGKV2D-28" -> "IGKV2D-30"
-"IGKV2D-29" -> "IGKV2D-28"
-"IGKV2D-29" -> "IGKV2-24"
-"IGKV2D-29" -> "IGKV2-28"
-"IGKV2D-29" -> "IGKV2D-30"
-"IGKV2D-30" -> "IGKV2D-28"
-"IGKV2D-30" -> "IGKV2-28"
-"IGKV2D-30" -> "IGKV2-24"
-"IGKV2D-30" -> "IGKV2D-29"
-"IGKV3D-15" -> "IGKV2-24"
-"IGKV3D-15" -> "IGKV2D-28"
-"IGKV3D-15" -> "IGKV2D-30"
-"IGKV3D-15" -> "IGKV2-28"
-"IGKV4-1" -> "IGKV1D-43"
-"IGKV4-1" -> "IGKV2-24"
-"IGKV4-1" -> "IGKV2-28"
-"IGKV4-1" -> "IGKV2D-29"
-"IGKV5-2" -> "IGKV2D-28"
-"IGKV5-2" -> "IGKV6D-21"
-"IGKV5-2" -> "IGLV5-37"
-"IGKV5-2" -> "IGKV2-28"
-"IGKV6-21" -> "IGKV6D-21"
-"IGKV6-21" -> "IGLV5-37"
-"IGKV6-21" -> "IGKV1D-43"
-"IGKV6-21" -> "IGKV2D-28"
-"IGKV6D-21" -> "IGKV6-21"
-"IGKV6D-21" -> "IGLV5-37"
-"IGKV6D-21" -> "IGKV2D-28"
-"IGKV6D-21" -> "IGKV2-24"
-"IGKV6D-41" -> "IGKV2D-26"
-"IGKV6D-41" -> "IGKV2-40"
-"IGKV6D-41" -> "IGKV6D-21"
-"IGKV6D-41" -> "IGKV2-28"
-"IGLV11-55" -> "IGKV2D-26"
-"IGLV11-55" -> "IGLV3-32"
-"IGLV11-55" -> "IGKV2D-28"
-"IGLV11-55" -> "IGKV2D-24"
-"IGLV3-32" -> "IGLV11-55"
-"IGLV3-32" -> "IGKV2D-26"
-"IGLV3-32" -> "IGKV2D-24"
-"IGLV3-32" -> "IGKV2-40"
-"IGLV5-37" -> "IGKV1D-43"
-"IGLV5-37" -> "IGKV2D-28"
-"IGLV5-37" -> "IGKV6-21"
-"IGLV5-37" -> "IGKV6D-21"
-"VPREB1" -> "VPREB3"
-"VPREB1" -> "IGLV3-32"
-"VPREB1" -> "IGLV11-55"
-"VPREB1" -> "IGKV2-40"
-"VPREB3" -> "VPREB1"
-"VPREB3" -> "IGLV11-55"
-"VPREB3" -> "IGLV3-32"
-"VPREB3" -> "IGKV2D-28"
+"IGKV1D-42" -> "IGKV2D-24" ["e"=1]
+"IGKV1D-42" -> "IGKV2D-28" ["e"=1]
+"IGKV1D-42" -> "IGKV2D-29" ["e"=1]
+"IGKV1D-42" -> "IGKV2-24" ["e"=1]
+"IGKV1D-43" -> "IGKV2D-28" ["e"=1]
+"IGKV1D-43" -> "IGLV5-37" ["e"=1]
+"IGKV1D-43" -> "IGKV2-28" ["e"=1]
+"IGKV1D-43" -> "IGKV2-24" ["e"=1]
+"IGKV2-24" -> "IGKV2D-29" ["e"=1]
+"IGKV2-24" -> "IGKV2D-28" ["e"=1]
+"IGKV2-24" -> "IGKV2D-30" ["e"=1]
+"IGKV2-24" -> "IGKV2-28" ["e"=1]
+"IGKV2-28" -> "IGKV2D-28" ["e"=1]
+"IGKV2-28" -> "IGKV2D-30" ["e"=1]
+"IGKV2-28" -> "IGKV2-24" ["e"=1]
+"IGKV2-28" -> "IGKV2D-29" ["e"=1]
+"IGKV2-40" -> "IGKV6D-41" ["e"=1]
+"IGKV2-40" -> "IGKV2D-26" ["e"=1]
+"IGKV2-40" -> "IGLV11-55" ["e"=1]
+"IGKV2-40" -> "IGKV2D-29" ["e"=1]
+"IGKV2D-24" -> "IGKV2-24" ["e"=1]
+"IGKV2D-24" -> "IGKV1D-42" ["e"=1]
+"IGKV2D-24" -> "IGKV2D-26" ["e"=1]
+"IGKV2D-24" -> "IGKV2D-29" ["e"=1]
+"IGKV2D-26" -> "IGKV2D-29" ["e"=1]
+"IGKV2D-26" -> "IGKV2-28" ["e"=1]
+"IGKV2D-26" -> "IGKV2D-28" ["e"=1]
+"IGKV2D-26" -> "IGLV11-55" ["e"=1]
+"IGKV2D-28" -> "IGKV2-28" ["e"=1]
+"IGKV2D-28" -> "IGKV2D-29" ["e"=1]
+"IGKV2D-28" -> "IGKV2-24" ["e"=1]
+"IGKV2D-28" -> "IGKV2D-30" ["e"=1]
+"IGKV2D-29" -> "IGKV2D-28" ["e"=1]
+"IGKV2D-29" -> "IGKV2-24" ["e"=1]
+"IGKV2D-29" -> "IGKV2-28" ["e"=1]
+"IGKV2D-29" -> "IGKV2D-30" ["e"=1]
+"IGKV2D-30" -> "IGKV2D-28" ["e"=1]
+"IGKV2D-30" -> "IGKV2-28" ["e"=1]
+"IGKV2D-30" -> "IGKV2-24" ["e"=1]
+"IGKV2D-30" -> "IGKV2D-29" ["e"=1]
+"IGKV3D-15" -> "IGKV2-24" ["e"=1]
+"IGKV3D-15" -> "IGKV2D-28" ["e"=1]
+"IGKV3D-15" -> "IGKV2D-30" ["e"=1]
+"IGKV3D-15" -> "IGKV2-28" ["e"=1]
+"IGKV4-1" -> "IGKV1D-43" ["e"=1]
+"IGKV4-1" -> "IGKV2-24" ["e"=1]
+"IGKV4-1" -> "IGKV2-28" ["e"=1]
+"IGKV4-1" -> "IGKV2D-29" ["e"=1]
+"IGKV5-2" -> "IGKV2D-28" ["e"=1]
+"IGKV5-2" -> "IGKV6D-21" ["e"=1]
+"IGKV5-2" -> "IGLV5-37" ["e"=1]
+"IGKV5-2" -> "IGKV2-28" ["e"=1]
+"IGKV6-21" -> "IGKV6D-21" ["e"=1]
+"IGKV6-21" -> "IGLV5-37" ["e"=1]
+"IGKV6-21" -> "IGKV1D-43" ["e"=1]
+"IGKV6-21" -> "IGKV2D-28" ["e"=1]
+"IGKV6D-21" -> "IGKV6-21" ["e"=1]
+"IGKV6D-21" -> "IGLV5-37" ["e"=1]
+"IGKV6D-21" -> "IGKV2D-28" ["e"=1]
+"IGKV6D-21" -> "IGKV2-24" ["e"=1]
+"IGKV6D-41" -> "IGKV2D-26" ["e"=1]
+"IGKV6D-41" -> "IGKV2-40" ["e"=1]
+"IGKV6D-41" -> "IGKV6D-21" ["e"=1]
+"IGKV6D-41" -> "IGKV2-28" ["e"=1]
+"IGLV11-55" -> "IGKV2D-26" ["e"=1]
+"IGLV11-55" -> "IGLV3-32" ["e"=1]
+"IGLV11-55" -> "IGKV2D-28" ["e"=1]
+"IGLV11-55" -> "IGKV2D-24" ["e"=1]
+"IGLV3-32" -> "IGLV11-55" ["e"=1]
+"IGLV3-32" -> "IGKV2D-26" ["e"=1]
+"IGLV3-32" -> "IGKV2D-24" ["e"=1]
+"IGLV3-32" -> "IGKV2-40" ["e"=1]
+"IGLV5-37" -> "IGKV1D-43" ["e"=1]
+"IGLV5-37" -> "IGKV2D-28" ["e"=1]
+"IGLV5-37" -> "IGKV6-21" ["e"=1]
+"IGLV5-37" -> "IGKV6D-21" ["e"=1]
+"VPREB1" -> "VPREB3" ["e"=1]
+"VPREB1" -> "IGLV3-32" ["e"=1]
+"VPREB1" -> "IGLV11-55" ["e"=1]
+"VPREB1" -> "IGKV2-40" ["e"=1]
+"VPREB3" -> "VPREB1" ["e"=1]
+"VPREB3" -> "IGLV11-55" ["e"=1]
+"VPREB3" -> "IGLV3-32" ["e"=1]
+"VPREB3" -> "IGKV2D-28" ["e"=1]
 }

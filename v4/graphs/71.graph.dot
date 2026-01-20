@@ -15,68 +15,68 @@ digraph G {
 "LGALS9B" ["l"="15.666,0.179"]
 "LGALS9C" ["l"="15.670,0.194"]
 "LGALSL" ["l"="15.638,0.167"]
-"CLC" -> "LGALS13"
-"CLC" -> "LGALS16"
-"CLC" -> "LGALS14"
-"CLC" -> "LGALS7B"
-"GRIFIN" -> "LGALS7"
-"GRIFIN" -> "LGALS12"
-"GRIFIN" -> "LGALS7B"
-"GRIFIN" -> "LGALS13"
-"LGALS1" -> "LGALS7"
-"LGALS1" -> "CLC"
-"LGALS1" -> "LGALS2"
-"LGALS1" -> "LGALS7B"
-"LGALS12" -> "GRIFIN"
-"LGALS12" -> "LGALS8"
-"LGALS12" -> "LGALS9C"
-"LGALS12" -> "LGALS7"
-"LGALS13" -> "LGALS16"
-"LGALS13" -> "LGALS14"
-"LGALS13" -> "CLC"
-"LGALS13" -> "LGALSL"
-"LGALS14" -> "LGALS13"
-"LGALS14" -> "LGALS16"
-"LGALS14" -> "CLC"
-"LGALS14" -> "LGALSL"
-"LGALS16" -> "LGALS13"
-"LGALS16" -> "LGALS14"
-"LGALS16" -> "CLC"
-"LGALS16" -> "LGALSL"
-"LGALS2" -> "CLC"
-"LGALS2" -> "LGALS7B"
-"LGALS2" -> "LGALS1"
-"LGALS2" -> "LGALS7"
-"LGALS4" -> "LGALS9"
-"LGALS4" -> "LGALS9B"
-"LGALS4" -> "LGALS9C"
-"LGALS4" -> "CLC"
-"LGALS7" -> "LGALS7B"
-"LGALS7" -> "GRIFIN"
-"LGALS7" -> "CLC"
-"LGALS7" -> "LGALSL"
-"LGALS7B" -> "LGALS7"
-"LGALS7B" -> "CLC"
-"LGALS7B" -> "GRIFIN"
-"LGALS7B" -> "LGALSL"
-"LGALS8" -> "LGALS13"
-"LGALS8" -> "LGALSL"
-"LGALS8" -> "LGALS9C"
-"LGALS8" -> "LGALS12"
-"LGALS9" -> "LGALS9B"
-"LGALS9" -> "LGALS9C"
-"LGALS9" -> "LGALS4"
-"LGALS9" -> "LGALS8"
-"LGALS9B" -> "LGALS9C"
-"LGALS9B" -> "LGALS9"
-"LGALS9B" -> "LGALS4"
-"LGALS9B" -> "LGALS8"
-"LGALS9C" -> "LGALS9B"
-"LGALS9C" -> "LGALS9"
-"LGALS9C" -> "LGALS4"
-"LGALS9C" -> "LGALS8"
-"LGALSL" -> "LGALS14"
-"LGALSL" -> "LGALS13"
-"LGALSL" -> "LGALS8"
-"LGALSL" -> "LGALS16"
+"CLC" -> "LGALS13" ["e"=1]
+"CLC" -> "LGALS16" ["e"=1]
+"CLC" -> "LGALS14" ["e"=1]
+"CLC" -> "LGALS7B" ["e"=1]
+"GRIFIN" -> "LGALS7" ["e"=1]
+"GRIFIN" -> "LGALS12" ["e"=1]
+"GRIFIN" -> "LGALS7B" ["e"=1]
+"GRIFIN" -> "LGALS13" ["e"=1]
+"LGALS1" -> "LGALS7" ["e"=1]
+"LGALS1" -> "CLC" ["e"=1]
+"LGALS1" -> "LGALS2" ["e"=1]
+"LGALS1" -> "LGALS7B" ["e"=1]
+"LGALS12" -> "GRIFIN" ["e"=1]
+"LGALS12" -> "LGALS8" ["e"=1]
+"LGALS12" -> "LGALS9C" ["e"=1]
+"LGALS12" -> "LGALS7" ["e"=1]
+"LGALS13" -> "LGALS16" ["e"=1]
+"LGALS13" -> "LGALS14" ["e"=1]
+"LGALS13" -> "CLC" ["e"=1]
+"LGALS13" -> "LGALSL" ["e"=1]
+"LGALS14" -> "LGALS13" ["e"=1]
+"LGALS14" -> "LGALS16" ["e"=1]
+"LGALS14" -> "CLC" ["e"=1]
+"LGALS14" -> "LGALSL" ["e"=1]
+"LGALS16" -> "LGALS13" ["e"=1]
+"LGALS16" -> "LGALS14" ["e"=1]
+"LGALS16" -> "CLC" ["e"=1]
+"LGALS16" -> "LGALSL" ["e"=1]
+"LGALS2" -> "CLC" ["e"=1]
+"LGALS2" -> "LGALS7B" ["e"=1]
+"LGALS2" -> "LGALS1" ["e"=1]
+"LGALS2" -> "LGALS7" ["e"=1]
+"LGALS4" -> "LGALS9" ["e"=1]
+"LGALS4" -> "LGALS9B" ["e"=1]
+"LGALS4" -> "LGALS9C" ["e"=1]
+"LGALS4" -> "CLC" ["e"=1]
+"LGALS7" -> "LGALS7B" ["e"=1]
+"LGALS7" -> "GRIFIN" ["e"=1]
+"LGALS7" -> "CLC" ["e"=1]
+"LGALS7" -> "LGALSL" ["e"=1]
+"LGALS7B" -> "LGALS7" ["e"=1]
+"LGALS7B" -> "CLC" ["e"=1]
+"LGALS7B" -> "GRIFIN" ["e"=1]
+"LGALS7B" -> "LGALSL" ["e"=1]
+"LGALS8" -> "LGALS13" ["e"=1]
+"LGALS8" -> "LGALSL" ["e"=1]
+"LGALS8" -> "LGALS9C" ["e"=1]
+"LGALS8" -> "LGALS12" ["e"=1]
+"LGALS9" -> "LGALS9B" ["e"=1]
+"LGALS9" -> "LGALS9C" ["e"=1]
+"LGALS9" -> "LGALS4" ["e"=1]
+"LGALS9" -> "LGALS8" ["e"=1]
+"LGALS9B" -> "LGALS9C" ["e"=1]
+"LGALS9B" -> "LGALS9" ["e"=1]
+"LGALS9B" -> "LGALS4" ["e"=1]
+"LGALS9B" -> "LGALS8" ["e"=1]
+"LGALS9C" -> "LGALS9B" ["e"=1]
+"LGALS9C" -> "LGALS9" ["e"=1]
+"LGALS9C" -> "LGALS4" ["e"=1]
+"LGALS9C" -> "LGALS8" ["e"=1]
+"LGALSL" -> "LGALS14" ["e"=1]
+"LGALSL" -> "LGALS13" ["e"=1]
+"LGALSL" -> "LGALS8" ["e"=1]
+"LGALSL" -> "LGALS16" ["e"=1]
 }

@@ -47,196 +47,196 @@ digraph G {
 "SCGN" ["l"="5.364,-0.340"]
 "TESC" ["l"="5.368,-0.339"]
 "VSNL1" ["l"="5.358,-0.351"]
-"AIF1" -> "AIF1L"
-"AIF1" -> "CALML4"
-"AIF1" -> "CETN1"
-"AIF1" -> "GUCA1B"
-"AIF1L" -> "CALML4"
-"AIF1L" -> "CABP7"
-"AIF1L" -> "CETN1"
-"AIF1L" -> "EFHD1"
-"CABP1" -> "CABP5"
-"CABP1" -> "PPP3R1"
-"CABP1" -> "CABP2"
-"CABP1" -> "CABP4"
-"CABP2" -> "CABP5"
-"CABP2" -> "CABP4"
-"CABP2" -> "GUCA1B"
-"CABP2" -> "GUCA1A"
-"CABP4" -> "CABP2"
-"CABP4" -> "GUCA1B"
-"CABP4" -> "GUCA1A"
-"CABP4" -> "CHP2"
-"CABP5" -> "CABP2"
-"CABP5" -> "CABP4"
-"CABP5" -> "GUCA1B"
-"CABP5" -> "SCGN"
-"CABP7" -> "CALN1"
-"CABP7" -> "CETN1"
-"CABP7" -> "AIF1L"
-"CABP7" -> "PPP3R2"
-"CALB1" -> "CALB2"
-"CALB1" -> "SCGN"
-"CALB1" -> "GUCA1B"
-"CALB1" -> "PPP3R2"
-"CALB2" -> "CALB1"
-"CALB2" -> "SCGN"
-"CALB2" -> "VSNL1"
-"CALB2" -> "NCS1"
-"CALML3" -> "CALML5"
-"CALML3" -> "CETN1"
-"CALML3" -> "PPP3R2"
-"CALML3" -> "HPCAL4"
-"CALML4" -> "AIF1L"
-"CALML4" -> "CETN1"
-"CALML4" -> "EFCAB11"
-"CALML4" -> "CHP2"
-"CALML5" -> "CALML3"
-"CALML5" -> "CETN1"
-"CALML5" -> "PPP3R2"
-"CALML5" -> "OCM"
-"CALN1" -> "CABP7"
-"CALN1" -> "AIF1L"
-"CALN1" -> "CABP4"
-"CALN1" -> "CABP5"
-"CAPSL" -> "GUCA1B"
-"CAPSL" -> "RCVRN"
-"CAPSL" -> "CALML4"
-"CAPSL" -> "GUCA1C"
-"CETN1" -> "CETN3"
-"CETN1" -> "PPP3R2"
-"CETN1" -> "CABP7"
-"CETN1" -> "HPCAL4"
-"CETN3" -> "CETN1"
-"CETN3" -> "PPP3R2"
-"CETN3" -> "GUCA1B"
-"CETN3" -> "CABP7"
-"CHP1" -> "CHP2"
-"CHP1" -> "PPP3R1"
-"CHP1" -> "TESC"
-"CHP1" -> "PPP3R2"
-"CHP2" -> "CHP1"
-"CHP2" -> "PPP3R1"
-"CHP2" -> "CABP4"
-"CHP2" -> "CIB1"
-"CIB1" -> "CIB3"
-"CIB1" -> "CIB4"
-"CIB1" -> "CHP2"
-"CIB1" -> "GUCA1B"
-"CIB2" -> "CIB3"
-"CIB2" -> "RCVRN"
-"CIB2" -> "NCS1"
-"CIB2" -> "CIB4"
-"CIB3" -> "CIB4"
-"CIB3" -> "PPP3R2"
-"CIB3" -> "CIB2"
-"CIB3" -> "GUCA1B"
-"CIB4" -> "CIB3"
-"CIB4" -> "CIB1"
-"CIB4" -> "PPP3R2"
-"CIB4" -> "CIB2"
-"EFCAB11" -> "CALML4"
-"EFCAB11" -> "AIF1L"
-"EFCAB11" -> "GUCA1B"
-"EFCAB11" -> "CETN1"
-"EFCAB9" -> "GUCA1B"
-"EFCAB9" -> "HPCAL4"
-"EFCAB9" -> "PPP3R2"
-"EFCAB9" -> "CALML4"
-"EFHD1" -> "EFHD2"
-"EFHD1" -> "AIF1L"
-"EFHD1" -> "CIB1"
-"EFHD1" -> "NCS1"
-"EFHD2" -> "EFHD1"
-"EFHD2" -> "CALML4"
-"EFHD2" -> "NCS1"
-"EFHD2" -> "AIF1L"
-"GUCA1A" -> "GUCA1B"
-"GUCA1A" -> "RCVRN"
-"GUCA1A" -> "GUCA1C"
-"GUCA1A" -> "HPCA"
-"GUCA1B" -> "RCVRN"
-"GUCA1B" -> "GUCA1A"
-"GUCA1B" -> "PPP3R2"
-"GUCA1B" -> "HPCAL4"
-"GUCA1C" -> "GUCA1A"
-"GUCA1C" -> "GUCA1B"
-"GUCA1C" -> "RCVRN"
-"GUCA1C" -> "PPP3R2"
-"HPCA" -> "HPCAL4"
-"HPCA" -> "NCALD"
-"HPCA" -> "HPCAL1"
-"HPCA" -> "VSNL1"
-"HPCAL1" -> "NCALD"
-"HPCAL1" -> "HPCA"
-"HPCAL1" -> "HPCAL4"
-"HPCAL1" -> "VSNL1"
-"HPCAL4" -> "HPCA"
-"HPCAL4" -> "VSNL1"
-"HPCAL4" -> "GUCA1B"
-"HPCAL4" -> "NCS1"
-"KCNIP1" -> "KCNIP3"
-"KCNIP1" -> "KCNIP4"
-"KCNIP1" -> "KCNIP2"
-"KCNIP1" -> "VSNL1"
-"KCNIP2" -> "KCNIP3"
-"KCNIP2" -> "KCNIP4"
-"KCNIP2" -> "KCNIP1"
-"KCNIP2" -> "NCS1"
-"KCNIP3" -> "KCNIP1"
-"KCNIP3" -> "NCS1"
-"KCNIP3" -> "KCNIP4"
-"KCNIP3" -> "KCNIP2"
-"KCNIP4" -> "KCNIP3"
-"KCNIP4" -> "KCNIP1"
-"KCNIP4" -> "KCNIP2"
-"KCNIP4" -> "PPP2R3C"
-"NCALD" -> "HPCA"
-"NCALD" -> "VSNL1"
-"NCALD" -> "HPCAL1"
-"NCALD" -> "NCS1"
-"NCS1" -> "HPCAL4"
-"NCS1" -> "VSNL1"
-"NCS1" -> "PPP3R1"
-"NCS1" -> "GUCA1B"
-"OCM" -> "OCM2"
-"OCM" -> "PPP3R2"
-"OCM" -> "PVALEF"
-"OCM" -> "CETN1"
-"OCM2" -> "OCM"
-"OCM2" -> "PVALEF"
-"OCM2" -> "PPP3R2"
-"OCM2" -> "CIB1"
-"PPP2R3C" -> "KCNIP4"
-"PPP2R3C" -> "SCGN"
-"PPP2R3C" -> "KCNIP2"
-"PPP2R3C" -> "GUCA1B"
-"PPP3R1" -> "PPP3R2"
-"PPP3R1" -> "GUCA1B"
-"PPP3R1" -> "NCS1"
-"PPP3R1" -> "VSNL1"
-"PPP3R2" -> "GUCA1B"
-"PPP3R2" -> "PPP3R1"
-"PPP3R2" -> "CETN1"
-"PPP3R2" -> "VSNL1"
-"PVALEF" -> "OCM2"
-"PVALEF" -> "OCM"
-"PVALEF" -> "CALML4"
-"PVALEF" -> "CIB3"
-"RCVRN" -> "GUCA1B"
-"RCVRN" -> "GUCA1A"
-"RCVRN" -> "HPCA"
-"RCVRN" -> "VSNL1"
-"SCGN" -> "CALB1"
-"SCGN" -> "CALB2"
-"SCGN" -> "CABP5"
-"SCGN" -> "PPP3R2"
-"TESC" -> "KCNIP3"
-"TESC" -> "SCGN"
-"TESC" -> "CHP1"
-"TESC" -> "CIB1"
-"VSNL1" -> "HPCAL4"
-"VSNL1" -> "NCALD"
-"VSNL1" -> "NCS1"
-"VSNL1" -> "HPCA"
+"AIF1" -> "AIF1L" ["e"=1]
+"AIF1" -> "CALML4" ["e"=1]
+"AIF1" -> "CETN1" ["e"=1]
+"AIF1" -> "GUCA1B" ["e"=1]
+"AIF1L" -> "CALML4" ["e"=1]
+"AIF1L" -> "CABP7" ["e"=1]
+"AIF1L" -> "CETN1" ["e"=1]
+"AIF1L" -> "EFHD1" ["e"=1]
+"CABP1" -> "CABP5" ["e"=1]
+"CABP1" -> "PPP3R1" ["e"=1]
+"CABP1" -> "CABP2" ["e"=1]
+"CABP1" -> "CABP4" ["e"=1]
+"CABP2" -> "CABP5" ["e"=1]
+"CABP2" -> "CABP4" ["e"=1]
+"CABP2" -> "GUCA1B" ["e"=1]
+"CABP2" -> "GUCA1A" ["e"=1]
+"CABP4" -> "CABP2" ["e"=1]
+"CABP4" -> "GUCA1B" ["e"=1]
+"CABP4" -> "GUCA1A" ["e"=1]
+"CABP4" -> "CHP2" ["e"=1]
+"CABP5" -> "CABP2" ["e"=1]
+"CABP5" -> "CABP4" ["e"=1]
+"CABP5" -> "GUCA1B" ["e"=1]
+"CABP5" -> "SCGN" ["e"=1]
+"CABP7" -> "CALN1" ["e"=1]
+"CABP7" -> "CETN1" ["e"=1]
+"CABP7" -> "AIF1L" ["e"=1]
+"CABP7" -> "PPP3R2" ["e"=1]
+"CALB1" -> "CALB2" ["e"=1]
+"CALB1" -> "SCGN" ["e"=1]
+"CALB1" -> "GUCA1B" ["e"=1]
+"CALB1" -> "PPP3R2" ["e"=1]
+"CALB2" -> "CALB1" ["e"=1]
+"CALB2" -> "SCGN" ["e"=1]
+"CALB2" -> "VSNL1" ["e"=1]
+"CALB2" -> "NCS1" ["e"=1]
+"CALML3" -> "CALML5" ["e"=1]
+"CALML3" -> "CETN1" ["e"=1]
+"CALML3" -> "PPP3R2" ["e"=1]
+"CALML3" -> "HPCAL4" ["e"=1]
+"CALML4" -> "AIF1L" ["e"=1]
+"CALML4" -> "CETN1" ["e"=1]
+"CALML4" -> "EFCAB11" ["e"=1]
+"CALML4" -> "CHP2" ["e"=1]
+"CALML5" -> "CALML3" ["e"=1]
+"CALML5" -> "CETN1" ["e"=1]
+"CALML5" -> "PPP3R2" ["e"=1]
+"CALML5" -> "OCM" ["e"=1]
+"CALN1" -> "CABP7" ["e"=1]
+"CALN1" -> "AIF1L" ["e"=1]
+"CALN1" -> "CABP4" ["e"=1]
+"CALN1" -> "CABP5" ["e"=1]
+"CAPSL" -> "GUCA1B" ["e"=1]
+"CAPSL" -> "RCVRN" ["e"=1]
+"CAPSL" -> "CALML4" ["e"=1]
+"CAPSL" -> "GUCA1C" ["e"=1]
+"CETN1" -> "CETN3" ["e"=1]
+"CETN1" -> "PPP3R2" ["e"=1]
+"CETN1" -> "CABP7" ["e"=1]
+"CETN1" -> "HPCAL4" ["e"=1]
+"CETN3" -> "CETN1" ["e"=1]
+"CETN3" -> "PPP3R2" ["e"=1]
+"CETN3" -> "GUCA1B" ["e"=1]
+"CETN3" -> "CABP7" ["e"=1]
+"CHP1" -> "CHP2" ["e"=1]
+"CHP1" -> "PPP3R1" ["e"=1]
+"CHP1" -> "TESC" ["e"=1]
+"CHP1" -> "PPP3R2" ["e"=1]
+"CHP2" -> "CHP1" ["e"=1]
+"CHP2" -> "PPP3R1" ["e"=1]
+"CHP2" -> "CABP4" ["e"=1]
+"CHP2" -> "CIB1" ["e"=1]
+"CIB1" -> "CIB3" ["e"=1]
+"CIB1" -> "CIB4" ["e"=1]
+"CIB1" -> "CHP2" ["e"=1]
+"CIB1" -> "GUCA1B" ["e"=1]
+"CIB2" -> "CIB3" ["e"=1]
+"CIB2" -> "RCVRN" ["e"=1]
+"CIB2" -> "NCS1" ["e"=1]
+"CIB2" -> "CIB4" ["e"=1]
+"CIB3" -> "CIB4" ["e"=1]
+"CIB3" -> "PPP3R2" ["e"=1]
+"CIB3" -> "CIB2" ["e"=1]
+"CIB3" -> "GUCA1B" ["e"=1]
+"CIB4" -> "CIB3" ["e"=1]
+"CIB4" -> "CIB1" ["e"=1]
+"CIB4" -> "PPP3R2" ["e"=1]
+"CIB4" -> "CIB2" ["e"=1]
+"EFCAB11" -> "CALML4" ["e"=1]
+"EFCAB11" -> "AIF1L" ["e"=1]
+"EFCAB11" -> "GUCA1B" ["e"=1]
+"EFCAB11" -> "CETN1" ["e"=1]
+"EFCAB9" -> "GUCA1B" ["e"=1]
+"EFCAB9" -> "HPCAL4" ["e"=1]
+"EFCAB9" -> "PPP3R2" ["e"=1]
+"EFCAB9" -> "CALML4" ["e"=1]
+"EFHD1" -> "EFHD2" ["e"=1]
+"EFHD1" -> "AIF1L" ["e"=1]
+"EFHD1" -> "CIB1" ["e"=1]
+"EFHD1" -> "NCS1" ["e"=1]
+"EFHD2" -> "EFHD1" ["e"=1]
+"EFHD2" -> "CALML4" ["e"=1]
+"EFHD2" -> "NCS1" ["e"=1]
+"EFHD2" -> "AIF1L" ["e"=1]
+"GUCA1A" -> "GUCA1B" ["e"=1]
+"GUCA1A" -> "RCVRN" ["e"=1]
+"GUCA1A" -> "GUCA1C" ["e"=1]
+"GUCA1A" -> "HPCA" ["e"=1]
+"GUCA1B" -> "RCVRN" ["e"=1]
+"GUCA1B" -> "GUCA1A" ["e"=1]
+"GUCA1B" -> "PPP3R2" ["e"=1]
+"GUCA1B" -> "HPCAL4" ["e"=1]
+"GUCA1C" -> "GUCA1A" ["e"=1]
+"GUCA1C" -> "GUCA1B" ["e"=1]
+"GUCA1C" -> "RCVRN" ["e"=1]
+"GUCA1C" -> "PPP3R2" ["e"=1]
+"HPCA" -> "HPCAL4" ["e"=1]
+"HPCA" -> "NCALD" ["e"=1]
+"HPCA" -> "HPCAL1" ["e"=1]
+"HPCA" -> "VSNL1" ["e"=1]
+"HPCAL1" -> "NCALD" ["e"=1]
+"HPCAL1" -> "HPCA" ["e"=1]
+"HPCAL1" -> "HPCAL4" ["e"=1]
+"HPCAL1" -> "VSNL1" ["e"=1]
+"HPCAL4" -> "HPCA" ["e"=1]
+"HPCAL4" -> "VSNL1" ["e"=1]
+"HPCAL4" -> "GUCA1B" ["e"=1]
+"HPCAL4" -> "NCS1" ["e"=1]
+"KCNIP1" -> "KCNIP3" ["e"=1]
+"KCNIP1" -> "KCNIP4" ["e"=1]
+"KCNIP1" -> "KCNIP2" ["e"=1]
+"KCNIP1" -> "VSNL1" ["e"=1]
+"KCNIP2" -> "KCNIP3" ["e"=1]
+"KCNIP2" -> "KCNIP4" ["e"=1]
+"KCNIP2" -> "KCNIP1" ["e"=1]
+"KCNIP2" -> "NCS1" ["e"=1]
+"KCNIP3" -> "KCNIP1" ["e"=1]
+"KCNIP3" -> "NCS1" ["e"=1]
+"KCNIP3" -> "KCNIP4" ["e"=1]
+"KCNIP3" -> "KCNIP2" ["e"=1]
+"KCNIP4" -> "KCNIP3" ["e"=1]
+"KCNIP4" -> "KCNIP1" ["e"=1]
+"KCNIP4" -> "KCNIP2" ["e"=1]
+"KCNIP4" -> "PPP2R3C" ["e"=1]
+"NCALD" -> "HPCA" ["e"=1]
+"NCALD" -> "VSNL1" ["e"=1]
+"NCALD" -> "HPCAL1" ["e"=1]
+"NCALD" -> "NCS1" ["e"=1]
+"NCS1" -> "HPCAL4" ["e"=1]
+"NCS1" -> "VSNL1" ["e"=1]
+"NCS1" -> "PPP3R1" ["e"=1]
+"NCS1" -> "GUCA1B" ["e"=1]
+"OCM" -> "OCM2" ["e"=1]
+"OCM" -> "PPP3R2" ["e"=1]
+"OCM" -> "PVALEF" ["e"=1]
+"OCM" -> "CETN1" ["e"=1]
+"OCM2" -> "OCM" ["e"=1]
+"OCM2" -> "PVALEF" ["e"=1]
+"OCM2" -> "PPP3R2" ["e"=1]
+"OCM2" -> "CIB1" ["e"=1]
+"PPP2R3C" -> "KCNIP4" ["e"=1]
+"PPP2R3C" -> "SCGN" ["e"=1]
+"PPP2R3C" -> "KCNIP2" ["e"=1]
+"PPP2R3C" -> "GUCA1B" ["e"=1]
+"PPP3R1" -> "PPP3R2" ["e"=1]
+"PPP3R1" -> "GUCA1B" ["e"=1]
+"PPP3R1" -> "NCS1" ["e"=1]
+"PPP3R1" -> "VSNL1" ["e"=1]
+"PPP3R2" -> "GUCA1B" ["e"=1]
+"PPP3R2" -> "PPP3R1" ["e"=1]
+"PPP3R2" -> "CETN1" ["e"=1]
+"PPP3R2" -> "VSNL1" ["e"=1]
+"PVALEF" -> "OCM2" ["e"=1]
+"PVALEF" -> "OCM" ["e"=1]
+"PVALEF" -> "CALML4" ["e"=1]
+"PVALEF" -> "CIB3" ["e"=1]
+"RCVRN" -> "GUCA1B" ["e"=1]
+"RCVRN" -> "GUCA1A" ["e"=1]
+"RCVRN" -> "HPCA" ["e"=1]
+"RCVRN" -> "VSNL1" ["e"=1]
+"SCGN" -> "CALB1" ["e"=1]
+"SCGN" -> "CALB2" ["e"=1]
+"SCGN" -> "CABP5" ["e"=1]
+"SCGN" -> "PPP3R2" ["e"=1]
+"TESC" -> "KCNIP3" ["e"=1]
+"TESC" -> "SCGN" ["e"=1]
+"TESC" -> "CHP1" ["e"=1]
+"TESC" -> "CIB1" ["e"=1]
+"VSNL1" -> "HPCAL4" ["e"=1]
+"VSNL1" -> "NCALD" ["e"=1]
+"VSNL1" -> "NCS1" ["e"=1]
+"VSNL1" -> "HPCA" ["e"=1]
 }

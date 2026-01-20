@@ -19,84 +19,84 @@ digraph G {
 "PVALB" ["l"="5.284,-0.401"]
 "TNNC1" ["l"="5.247,-0.450"]
 "TNNC2" ["l"="5.275,-0.422"]
-"CALM1" -> "CALM3"
-"CALM1" -> "CALM2"
-"CALM1" -> "MYL12B"
-"CALM1" -> "MYL9"
-"CALM2" -> "CALM1"
-"CALM2" -> "CALM3"
-"CALM2" -> "MYL12B"
-"CALM2" -> "MYL6"
-"CALM3" -> "CALM1"
-"CALM3" -> "CALM2"
-"CALM3" -> "MYL9"
-"CALM3" -> "MYL12B"
-"CALML6" -> "TNNC2"
-"CALML6" -> "MYL9"
-"CALML6" -> "TNNC1"
-"CALML6" -> "MYL5"
-"MYL1" -> "MYL3"
-"MYL1" -> "MYL4"
-"MYL1" -> "MYL7"
-"MYL1" -> "MYL9"
-"MYL10" -> "MYL5"
-"MYL10" -> "MYLPF"
-"MYL10" -> "MYL9"
-"MYL10" -> "MYL2"
-"MYL12A" -> "MYL12B"
-"MYL12A" -> "MYL9"
-"MYL12A" -> "MYLPF"
-"MYL12A" -> "MYL2"
-"MYL12B" -> "MYL12A"
-"MYL12B" -> "MYL9"
-"MYL12B" -> "MYL2"
-"MYL12B" -> "MYLPF"
-"MYL2" -> "MYLPF"
-"MYL2" -> "MYL7"
-"MYL2" -> "MYL9"
-"MYL2" -> "TNNC1"
-"MYL3" -> "MYL4"
-"MYL3" -> "MYL1"
-"MYL3" -> "MYL6B"
-"MYL3" -> "MYL7"
-"MYL4" -> "MYL3"
-"MYL4" -> "MYL1"
-"MYL4" -> "MYL6B"
-"MYL4" -> "MYL9"
-"MYL5" -> "MYLPF"
-"MYL5" -> "MYL7"
-"MYL5" -> "MYL10"
-"MYL5" -> "MYL9"
-"MYL6" -> "MYL9"
-"MYL6" -> "MYL12B"
-"MYL6" -> "MYL4"
-"MYL6" -> "MYL2"
-"MYL6B" -> "MYL4"
-"MYL6B" -> "MYL3"
-"MYL6B" -> "MYL1"
-"MYL6B" -> "MYL9"
-"MYL7" -> "MYLPF"
-"MYL7" -> "MYL2"
-"MYL7" -> "MYL5"
-"MYL7" -> "MYL9"
-"MYL9" -> "MYL2"
-"MYL9" -> "MYL12B"
-"MYL9" -> "MYL7"
-"MYL9" -> "MYLPF"
-"MYLPF" -> "MYL7"
-"MYLPF" -> "MYL2"
-"MYLPF" -> "MYL5"
-"MYLPF" -> "MYL9"
-"PVALB" -> "MYL2"
-"PVALB" -> "MYLPF"
-"PVALB" -> "TNNC1"
-"PVALB" -> "MYL7"
-"TNNC1" -> "TNNC2"
-"TNNC1" -> "MYL2"
-"TNNC1" -> "MYL9"
-"TNNC1" -> "CALML6"
-"TNNC2" -> "TNNC1"
-"TNNC2" -> "CALML6"
-"TNNC2" -> "MYL2"
-"TNNC2" -> "MYLPF"
+"CALM1" -> "CALM3" ["e"=1]
+"CALM1" -> "CALM2" ["e"=1]
+"CALM1" -> "MYL12B" ["e"=1]
+"CALM1" -> "MYL9" ["e"=1]
+"CALM2" -> "CALM1" ["e"=1]
+"CALM2" -> "CALM3" ["e"=1]
+"CALM2" -> "MYL12B" ["e"=1]
+"CALM2" -> "MYL6" ["e"=1]
+"CALM3" -> "CALM1" ["e"=1]
+"CALM3" -> "CALM2" ["e"=1]
+"CALM3" -> "MYL9" ["e"=1]
+"CALM3" -> "MYL12B" ["e"=1]
+"CALML6" -> "TNNC2" ["e"=1]
+"CALML6" -> "MYL9" ["e"=1]
+"CALML6" -> "TNNC1" ["e"=1]
+"CALML6" -> "MYL5" ["e"=1]
+"MYL1" -> "MYL3" ["e"=1]
+"MYL1" -> "MYL4" ["e"=1]
+"MYL1" -> "MYL7" ["e"=1]
+"MYL1" -> "MYL9" ["e"=1]
+"MYL10" -> "MYL5" ["e"=1]
+"MYL10" -> "MYLPF" ["e"=1]
+"MYL10" -> "MYL9" ["e"=1]
+"MYL10" -> "MYL2" ["e"=1]
+"MYL12A" -> "MYL12B" ["e"=1]
+"MYL12A" -> "MYL9" ["e"=1]
+"MYL12A" -> "MYLPF" ["e"=1]
+"MYL12A" -> "MYL2" ["e"=1]
+"MYL12B" -> "MYL12A" ["e"=1]
+"MYL12B" -> "MYL9" ["e"=1]
+"MYL12B" -> "MYL2" ["e"=1]
+"MYL12B" -> "MYLPF" ["e"=1]
+"MYL2" -> "MYLPF" ["e"=1]
+"MYL2" -> "MYL7" ["e"=1]
+"MYL2" -> "MYL9" ["e"=1]
+"MYL2" -> "TNNC1" ["e"=1]
+"MYL3" -> "MYL4" ["e"=1]
+"MYL3" -> "MYL1" ["e"=1]
+"MYL3" -> "MYL6B" ["e"=1]
+"MYL3" -> "MYL7" ["e"=1]
+"MYL4" -> "MYL3" ["e"=1]
+"MYL4" -> "MYL1" ["e"=1]
+"MYL4" -> "MYL6B" ["e"=1]
+"MYL4" -> "MYL9" ["e"=1]
+"MYL5" -> "MYLPF" ["e"=1]
+"MYL5" -> "MYL7" ["e"=1]
+"MYL5" -> "MYL10" ["e"=1]
+"MYL5" -> "MYL9" ["e"=1]
+"MYL6" -> "MYL9" ["e"=1]
+"MYL6" -> "MYL12B" ["e"=1]
+"MYL6" -> "MYL4" ["e"=1]
+"MYL6" -> "MYL2" ["e"=1]
+"MYL6B" -> "MYL4" ["e"=1]
+"MYL6B" -> "MYL3" ["e"=1]
+"MYL6B" -> "MYL1" ["e"=1]
+"MYL6B" -> "MYL9" ["e"=1]
+"MYL7" -> "MYLPF" ["e"=1]
+"MYL7" -> "MYL2" ["e"=1]
+"MYL7" -> "MYL5" ["e"=1]
+"MYL7" -> "MYL9" ["e"=1]
+"MYL9" -> "MYL2" ["e"=1]
+"MYL9" -> "MYL12B" ["e"=1]
+"MYL9" -> "MYL7" ["e"=1]
+"MYL9" -> "MYLPF" ["e"=1]
+"MYLPF" -> "MYL7" ["e"=1]
+"MYLPF" -> "MYL2" ["e"=1]
+"MYLPF" -> "MYL5" ["e"=1]
+"MYLPF" -> "MYL9" ["e"=1]
+"PVALB" -> "MYL2" ["e"=1]
+"PVALB" -> "MYLPF" ["e"=1]
+"PVALB" -> "TNNC1" ["e"=1]
+"PVALB" -> "MYL7" ["e"=1]
+"TNNC1" -> "TNNC2" ["e"=1]
+"TNNC1" -> "MYL2" ["e"=1]
+"TNNC1" -> "MYL9" ["e"=1]
+"TNNC1" -> "CALML6" ["e"=1]
+"TNNC2" -> "TNNC1" ["e"=1]
+"TNNC2" -> "CALML6" ["e"=1]
+"TNNC2" -> "MYL2" ["e"=1]
+"TNNC2" -> "MYLPF" ["e"=1]
 }

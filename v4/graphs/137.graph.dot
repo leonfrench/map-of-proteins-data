@@ -42,176 +42,176 @@ digraph G {
 "TMPRSS6" ["l"="13.581,-2.344"]
 "TMPRSS7" ["l"="13.557,-2.380"]
 "TMPRSS9" ["l"="13.759,-2.732"]
-"C1R" -> "C1S"
-"C1R" -> "MASP2"
-"C1R" -> "MASP1"
-"C1R" -> "HABP2"
-"C1RL" -> "F7"
-"C1RL" -> "PROZ"
-"C1RL" -> "HABP2"
-"C1RL" -> "PRSS53"
-"C1S" -> "C1R"
-"C1S" -> "MASP2"
-"C1S" -> "MASP1"
-"C1S" -> "CFI"
-"C2" -> "CFB"
-"C2" -> "KLKB1"
-"C2" -> "C1R"
-"C2" -> "HABP2"
-"C6" -> "C8A"
-"C6" -> "C8B"
-"C6" -> "CFI"
-"C6" -> "HABP2"
-"C8A" -> "C8B"
-"C8A" -> "C6"
-"C8A" -> "F2"
-"C8A" -> "F7"
-"C8B" -> "C8A"
-"C8B" -> "C6"
-"C8B" -> "F7"
-"C8B" -> "PROZ"
-"CFB" -> "C2"
-"CFB" -> "C1S"
-"CFB" -> "C1R"
-"CFB" -> "HABP2"
-"CFI" -> "HABP2"
-"CFI" -> "PROC"
-"CFI" -> "C6"
-"CFI" -> "PROZ"
-"F10" -> "F7"
-"F10" -> "PROC"
-"F10" -> "F2"
-"F10" -> "PROZ"
-"F11" -> "KLKB1"
-"F11" -> "MASP2"
-"F11" -> "TMPRSS7"
-"F11" -> "HABP2"
-"F12" -> "HGFAC"
-"F12" -> "PROC"
-"F12" -> "F7"
-"F12" -> "PLG"
-"F2" -> "PROC"
-"F2" -> "F7"
-"F2" -> "HABP2"
-"F2" -> "F10"
-"F7" -> "HABP2"
-"F7" -> "PROC"
-"F7" -> "F2"
-"F7" -> "F10"
-"HABP2" -> "F7"
-"HABP2" -> "F2"
-"HABP2" -> "PLAT"
-"HABP2" -> "PLAU"
-"HGF" -> "PLG"
-"HGF" -> "PLAT"
-"HGF" -> "PLAU"
-"HGF" -> "KLKB1"
-"HGFAC" -> "F12"
-"HGFAC" -> "MST1"
-"HGFAC" -> "PROC"
-"HGFAC" -> "F7"
-"HP" -> "HPR"
-"HP" -> "C1RL"
-"HP" -> "HABP2"
-"HP" -> "C1R"
-"HPN" -> "TMPRSS5"
-"HPN" -> "TMPRSS3"
-"HPN" -> "TMPRSS6"
-"HPN" -> "F7"
-"HPR" -> "HP"
-"HPR" -> "PROZ"
-"HPR" -> "C1RL"
-"HPR" -> "CFI"
-"KLKB1" -> "F11"
-"KLKB1" -> "HABP2"
-"KLKB1" -> "PLG"
-"KLKB1" -> "MASP2"
-"MASP1" -> "MASP2"
-"MASP1" -> "F7"
-"MASP1" -> "F11"
-"MASP1" -> "C1R"
-"MASP2" -> "MASP1"
-"MASP2" -> "F11"
-"MASP2" -> "C1S"
-"MASP2" -> "KLKB1"
-"MST1" -> "PLG"
-"MST1" -> "HGFAC"
-"MST1" -> "F2"
-"MST1" -> "F12"
-"OVCH2" -> "KLKB1"
-"OVCH2" -> "TMPRSS15"
-"OVCH2" -> "F11"
-"OVCH2" -> "TMPRSS6"
-"PAMR1" -> "PLAT"
-"PAMR1" -> "F10"
-"PAMR1" -> "PROC"
-"PAMR1" -> "PROZ"
-"PLAT" -> "PLAU"
-"PLAT" -> "HABP2"
-"PLAT" -> "PAMR1"
-"PLAT" -> "HGF"
-"PLAU" -> "PLAT"
-"PLAU" -> "HABP2"
-"PLAU" -> "F7"
-"PLAU" -> "HGF"
-"PLG" -> "MST1"
-"PLG" -> "F2"
-"PLG" -> "KLKB1"
-"PLG" -> "HABP2"
-"PROC" -> "F7"
-"PROC" -> "PROZ"
-"PROC" -> "F2"
-"PROC" -> "F10"
-"PROZ" -> "PROC"
-"PROZ" -> "F7"
-"PROZ" -> "F10"
-"PROZ" -> "C1RL"
-"PRSS36" -> "PRSS53"
-"PRSS36" -> "PRSS56"
-"PRSS36" -> "TMPRSS5"
-"PRSS36" -> "C1RL"
-"PRSS53" -> "PRSS36"
-"PRSS53" -> "TMPRSS5"
-"PRSS53" -> "PRSS56"
-"PRSS53" -> "C1RL"
-"PRSS56" -> "PRSS36"
-"PRSS56" -> "PRSS53"
-"PRSS56" -> "TMPRSS5"
-"PRSS56" -> "F7"
-"ST14" -> "TMPRSS3"
-"ST14" -> "TMPRSS7"
-"ST14" -> "TMPRSS6"
-"ST14" -> "TMPRSS13"
-"TINAG" -> "HGF"
-"TINAG" -> "F11"
-"TINAG" -> "KLKB1"
-"TINAG" -> "PLG"
-"TMPRSS13" -> "TMPRSS3"
-"TMPRSS13" -> "TMPRSS5"
-"TMPRSS13" -> "TMPRSS6"
-"TMPRSS13" -> "TMPRSS7"
-"TMPRSS15" -> "OVCH2"
-"TMPRSS15" -> "TMPRSS7"
-"TMPRSS15" -> "TMPRSS3"
-"TMPRSS15" -> "F11"
-"TMPRSS3" -> "TMPRSS5"
-"TMPRSS3" -> "TMPRSS13"
-"TMPRSS3" -> "TMPRSS6"
-"TMPRSS3" -> "HPN"
-"TMPRSS5" -> "TMPRSS3"
-"TMPRSS5" -> "HPN"
-"TMPRSS5" -> "PRSS53"
-"TMPRSS5" -> "TMPRSS6"
-"TMPRSS6" -> "F7"
-"TMPRSS6" -> "TMPRSS7"
-"TMPRSS6" -> "TMPRSS3"
-"TMPRSS6" -> "TMPRSS5"
-"TMPRSS7" -> "TMPRSS6"
-"TMPRSS7" -> "TMPRSS3"
-"TMPRSS7" -> "TMPRSS13"
-"TMPRSS7" -> "F11"
-"TMPRSS9" -> "F7"
-"TMPRSS9" -> "TMPRSS6"
-"TMPRSS9" -> "MASP2"
-"TMPRSS9" -> "TMPRSS5"
+"C1R" -> "C1S" ["e"=1]
+"C1R" -> "MASP2" ["e"=1]
+"C1R" -> "MASP1" ["e"=1]
+"C1R" -> "HABP2" ["e"=1]
+"C1RL" -> "F7" ["e"=1]
+"C1RL" -> "PROZ" ["e"=1]
+"C1RL" -> "HABP2" ["e"=1]
+"C1RL" -> "PRSS53" ["e"=1]
+"C1S" -> "C1R" ["e"=1]
+"C1S" -> "MASP2" ["e"=1]
+"C1S" -> "MASP1" ["e"=1]
+"C1S" -> "CFI" ["e"=1]
+"C2" -> "CFB" ["e"=1]
+"C2" -> "KLKB1" ["e"=1]
+"C2" -> "C1R" ["e"=1]
+"C2" -> "HABP2" ["e"=1]
+"C6" -> "C8A" ["e"=1]
+"C6" -> "C8B" ["e"=1]
+"C6" -> "CFI" ["e"=1]
+"C6" -> "HABP2" ["e"=1]
+"C8A" -> "C8B" ["e"=1]
+"C8A" -> "C6" ["e"=1]
+"C8A" -> "F2" ["e"=1]
+"C8A" -> "F7" ["e"=1]
+"C8B" -> "C8A" ["e"=1]
+"C8B" -> "C6" ["e"=1]
+"C8B" -> "F7" ["e"=1]
+"C8B" -> "PROZ" ["e"=1]
+"CFB" -> "C2" ["e"=1]
+"CFB" -> "C1S" ["e"=1]
+"CFB" -> "C1R" ["e"=1]
+"CFB" -> "HABP2" ["e"=1]
+"CFI" -> "HABP2" ["e"=1]
+"CFI" -> "PROC" ["e"=1]
+"CFI" -> "C6" ["e"=1]
+"CFI" -> "PROZ" ["e"=1]
+"F10" -> "F7" ["e"=1]
+"F10" -> "PROC" ["e"=1]
+"F10" -> "F2" ["e"=1]
+"F10" -> "PROZ" ["e"=1]
+"F11" -> "KLKB1" ["e"=1]
+"F11" -> "MASP2" ["e"=1]
+"F11" -> "TMPRSS7" ["e"=1]
+"F11" -> "HABP2" ["e"=1]
+"F12" -> "HGFAC" ["e"=1]
+"F12" -> "PROC" ["e"=1]
+"F12" -> "F7" ["e"=1]
+"F12" -> "PLG" ["e"=1]
+"F2" -> "PROC" ["e"=1]
+"F2" -> "F7" ["e"=1]
+"F2" -> "HABP2" ["e"=1]
+"F2" -> "F10" ["e"=1]
+"F7" -> "HABP2" ["e"=1]
+"F7" -> "PROC" ["e"=1]
+"F7" -> "F2" ["e"=1]
+"F7" -> "F10" ["e"=1]
+"HABP2" -> "F7" ["e"=1]
+"HABP2" -> "F2" ["e"=1]
+"HABP2" -> "PLAT" ["e"=1]
+"HABP2" -> "PLAU" ["e"=1]
+"HGF" -> "PLG" ["e"=1]
+"HGF" -> "PLAT" ["e"=1]
+"HGF" -> "PLAU" ["e"=1]
+"HGF" -> "KLKB1" ["e"=1]
+"HGFAC" -> "F12" ["e"=1]
+"HGFAC" -> "MST1" ["e"=1]
+"HGFAC" -> "PROC" ["e"=1]
+"HGFAC" -> "F7" ["e"=1]
+"HP" -> "HPR" ["e"=1]
+"HP" -> "C1RL" ["e"=1]
+"HP" -> "HABP2" ["e"=1]
+"HP" -> "C1R" ["e"=1]
+"HPN" -> "TMPRSS5" ["e"=1]
+"HPN" -> "TMPRSS3" ["e"=1]
+"HPN" -> "TMPRSS6" ["e"=1]
+"HPN" -> "F7" ["e"=1]
+"HPR" -> "HP" ["e"=1]
+"HPR" -> "PROZ" ["e"=1]
+"HPR" -> "C1RL" ["e"=1]
+"HPR" -> "CFI" ["e"=1]
+"KLKB1" -> "F11" ["e"=1]
+"KLKB1" -> "HABP2" ["e"=1]
+"KLKB1" -> "PLG" ["e"=1]
+"KLKB1" -> "MASP2" ["e"=1]
+"MASP1" -> "MASP2" ["e"=1]
+"MASP1" -> "F7" ["e"=1]
+"MASP1" -> "F11" ["e"=1]
+"MASP1" -> "C1R" ["e"=1]
+"MASP2" -> "MASP1" ["e"=1]
+"MASP2" -> "F11" ["e"=1]
+"MASP2" -> "C1S" ["e"=1]
+"MASP2" -> "KLKB1" ["e"=1]
+"MST1" -> "PLG" ["e"=1]
+"MST1" -> "HGFAC" ["e"=1]
+"MST1" -> "F2" ["e"=1]
+"MST1" -> "F12" ["e"=1]
+"OVCH2" -> "KLKB1" ["e"=1]
+"OVCH2" -> "TMPRSS15" ["e"=1]
+"OVCH2" -> "F11" ["e"=1]
+"OVCH2" -> "TMPRSS6" ["e"=1]
+"PAMR1" -> "PLAT" ["e"=1]
+"PAMR1" -> "F10" ["e"=1]
+"PAMR1" -> "PROC" ["e"=1]
+"PAMR1" -> "PROZ" ["e"=1]
+"PLAT" -> "PLAU" ["e"=1]
+"PLAT" -> "HABP2" ["e"=1]
+"PLAT" -> "PAMR1" ["e"=1]
+"PLAT" -> "HGF" ["e"=1]
+"PLAU" -> "PLAT" ["e"=1]
+"PLAU" -> "HABP2" ["e"=1]
+"PLAU" -> "F7" ["e"=1]
+"PLAU" -> "HGF" ["e"=1]
+"PLG" -> "MST1" ["e"=1]
+"PLG" -> "F2" ["e"=1]
+"PLG" -> "KLKB1" ["e"=1]
+"PLG" -> "HABP2" ["e"=1]
+"PROC" -> "F7" ["e"=1]
+"PROC" -> "PROZ" ["e"=1]
+"PROC" -> "F2" ["e"=1]
+"PROC" -> "F10" ["e"=1]
+"PROZ" -> "PROC" ["e"=1]
+"PROZ" -> "F7" ["e"=1]
+"PROZ" -> "F10" ["e"=1]
+"PROZ" -> "C1RL" ["e"=1]
+"PRSS36" -> "PRSS53" ["e"=1]
+"PRSS36" -> "PRSS56" ["e"=1]
+"PRSS36" -> "TMPRSS5" ["e"=1]
+"PRSS36" -> "C1RL" ["e"=1]
+"PRSS53" -> "PRSS36" ["e"=1]
+"PRSS53" -> "TMPRSS5" ["e"=1]
+"PRSS53" -> "PRSS56" ["e"=1]
+"PRSS53" -> "C1RL" ["e"=1]
+"PRSS56" -> "PRSS36" ["e"=1]
+"PRSS56" -> "PRSS53" ["e"=1]
+"PRSS56" -> "TMPRSS5" ["e"=1]
+"PRSS56" -> "F7" ["e"=1]
+"ST14" -> "TMPRSS3" ["e"=1]
+"ST14" -> "TMPRSS7" ["e"=1]
+"ST14" -> "TMPRSS6" ["e"=1]
+"ST14" -> "TMPRSS13" ["e"=1]
+"TINAG" -> "HGF" ["e"=1]
+"TINAG" -> "F11" ["e"=1]
+"TINAG" -> "KLKB1" ["e"=1]
+"TINAG" -> "PLG" ["e"=1]
+"TMPRSS13" -> "TMPRSS3" ["e"=1]
+"TMPRSS13" -> "TMPRSS5" ["e"=1]
+"TMPRSS13" -> "TMPRSS6" ["e"=1]
+"TMPRSS13" -> "TMPRSS7" ["e"=1]
+"TMPRSS15" -> "OVCH2" ["e"=1]
+"TMPRSS15" -> "TMPRSS7" ["e"=1]
+"TMPRSS15" -> "TMPRSS3" ["e"=1]
+"TMPRSS15" -> "F11" ["e"=1]
+"TMPRSS3" -> "TMPRSS5" ["e"=1]
+"TMPRSS3" -> "TMPRSS13" ["e"=1]
+"TMPRSS3" -> "TMPRSS6" ["e"=1]
+"TMPRSS3" -> "HPN" ["e"=1]
+"TMPRSS5" -> "TMPRSS3" ["e"=1]
+"TMPRSS5" -> "HPN" ["e"=1]
+"TMPRSS5" -> "PRSS53" ["e"=1]
+"TMPRSS5" -> "TMPRSS6" ["e"=1]
+"TMPRSS6" -> "F7" ["e"=1]
+"TMPRSS6" -> "TMPRSS7" ["e"=1]
+"TMPRSS6" -> "TMPRSS3" ["e"=1]
+"TMPRSS6" -> "TMPRSS5" ["e"=1]
+"TMPRSS7" -> "TMPRSS6" ["e"=1]
+"TMPRSS7" -> "TMPRSS3" ["e"=1]
+"TMPRSS7" -> "TMPRSS13" ["e"=1]
+"TMPRSS7" -> "F11" ["e"=1]
+"TMPRSS9" -> "F7" ["e"=1]
+"TMPRSS9" -> "TMPRSS6" ["e"=1]
+"TMPRSS9" -> "MASP2" ["e"=1]
+"TMPRSS9" -> "TMPRSS5" ["e"=1]
 }

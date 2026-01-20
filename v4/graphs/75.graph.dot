@@ -14,64 +14,64 @@ digraph G {
 "PSG7" ["l"="9.658,8.044"]
 "PSG8" ["l"="9.657,8.052"]
 "PSG9" ["l"="9.656,8.054"]
-"CEACAM1" -> "CEACAM8"
-"CEACAM1" -> "PSG2"
-"CEACAM1" -> "CEACAM7"
-"CEACAM1" -> "CEACAM6"
-"CEACAM5" -> "CEACAM1"
-"CEACAM5" -> "CEACAM6"
-"CEACAM5" -> "PSG7"
-"CEACAM5" -> "PSG1"
-"CEACAM6" -> "CEACAM1"
-"CEACAM6" -> "CEACAM8"
-"CEACAM6" -> "CEACAM7"
-"CEACAM6" -> "PSG2"
-"CEACAM7" -> "CEACAM1"
-"CEACAM7" -> "CEACAM8"
-"CEACAM7" -> "CEACAM6"
-"CEACAM7" -> "PSG11"
-"CEACAM8" -> "CEACAM1"
-"CEACAM8" -> "PSG2"
-"CEACAM8" -> "PSG7"
-"CEACAM8" -> "PSG11"
-"PSG1" -> "PSG7"
-"PSG1" -> "PSG3"
-"PSG1" -> "PSG4"
-"PSG1" -> "PSG6"
-"PSG11" -> "PSG2"
-"PSG11" -> "PSG7"
-"PSG11" -> "PSG5"
-"PSG11" -> "PSG4"
-"PSG2" -> "PSG11"
-"PSG2" -> "PSG3"
-"PSG2" -> "PSG7"
-"PSG2" -> "PSG4"
-"PSG3" -> "PSG6"
-"PSG3" -> "PSG7"
-"PSG3" -> "PSG4"
-"PSG3" -> "PSG1"
-"PSG4" -> "PSG3"
-"PSG4" -> "PSG5"
-"PSG4" -> "PSG6"
-"PSG4" -> "PSG1"
-"PSG5" -> "PSG4"
-"PSG5" -> "PSG3"
-"PSG5" -> "PSG9"
-"PSG5" -> "PSG7"
-"PSG6" -> "PSG3"
-"PSG6" -> "PSG7"
-"PSG6" -> "PSG4"
-"PSG6" -> "PSG1"
-"PSG7" -> "PSG1"
-"PSG7" -> "PSG3"
-"PSG7" -> "PSG6"
-"PSG7" -> "PSG4"
-"PSG8" -> "PSG1"
-"PSG8" -> "PSG9"
-"PSG8" -> "PSG7"
-"PSG8" -> "PSG4"
-"PSG9" -> "PSG4"
-"PSG9" -> "PSG6"
-"PSG9" -> "PSG5"
-"PSG9" -> "PSG3"
+"CEACAM1" -> "CEACAM8" ["e"=1]
+"CEACAM1" -> "PSG2" ["e"=1]
+"CEACAM1" -> "CEACAM7" ["e"=1]
+"CEACAM1" -> "CEACAM6" ["e"=1]
+"CEACAM5" -> "CEACAM1" ["e"=1]
+"CEACAM5" -> "CEACAM6" ["e"=1]
+"CEACAM5" -> "PSG7" ["e"=1]
+"CEACAM5" -> "PSG1" ["e"=1]
+"CEACAM6" -> "CEACAM1" ["e"=1]
+"CEACAM6" -> "CEACAM8" ["e"=1]
+"CEACAM6" -> "CEACAM7" ["e"=1]
+"CEACAM6" -> "PSG2" ["e"=1]
+"CEACAM7" -> "CEACAM1" ["e"=1]
+"CEACAM7" -> "CEACAM8" ["e"=1]
+"CEACAM7" -> "CEACAM6" ["e"=1]
+"CEACAM7" -> "PSG11" ["e"=1]
+"CEACAM8" -> "CEACAM1" ["e"=1]
+"CEACAM8" -> "PSG2" ["e"=1]
+"CEACAM8" -> "PSG7" ["e"=1]
+"CEACAM8" -> "PSG11" ["e"=1]
+"PSG1" -> "PSG7" ["e"=1]
+"PSG1" -> "PSG3" ["e"=1]
+"PSG1" -> "PSG4" ["e"=1]
+"PSG1" -> "PSG6" ["e"=1]
+"PSG11" -> "PSG2" ["e"=1]
+"PSG11" -> "PSG7" ["e"=1]
+"PSG11" -> "PSG5" ["e"=1]
+"PSG11" -> "PSG4" ["e"=1]
+"PSG2" -> "PSG11" ["e"=1]
+"PSG2" -> "PSG3" ["e"=1]
+"PSG2" -> "PSG7" ["e"=1]
+"PSG2" -> "PSG4" ["e"=1]
+"PSG3" -> "PSG6" ["e"=1]
+"PSG3" -> "PSG7" ["e"=1]
+"PSG3" -> "PSG4" ["e"=1]
+"PSG3" -> "PSG1" ["e"=1]
+"PSG4" -> "PSG3" ["e"=1]
+"PSG4" -> "PSG5" ["e"=1]
+"PSG4" -> "PSG6" ["e"=1]
+"PSG4" -> "PSG1" ["e"=1]
+"PSG5" -> "PSG4" ["e"=1]
+"PSG5" -> "PSG3" ["e"=1]
+"PSG5" -> "PSG9" ["e"=1]
+"PSG5" -> "PSG7" ["e"=1]
+"PSG6" -> "PSG3" ["e"=1]
+"PSG6" -> "PSG7" ["e"=1]
+"PSG6" -> "PSG4" ["e"=1]
+"PSG6" -> "PSG1" ["e"=1]
+"PSG7" -> "PSG1" ["e"=1]
+"PSG7" -> "PSG3" ["e"=1]
+"PSG7" -> "PSG6" ["e"=1]
+"PSG7" -> "PSG4" ["e"=1]
+"PSG8" -> "PSG1" ["e"=1]
+"PSG8" -> "PSG9" ["e"=1]
+"PSG8" -> "PSG7" ["e"=1]
+"PSG8" -> "PSG4" ["e"=1]
+"PSG9" -> "PSG4" ["e"=1]
+"PSG9" -> "PSG6" ["e"=1]
+"PSG9" -> "PSG5" ["e"=1]
+"PSG9" -> "PSG3" ["e"=1]
 }

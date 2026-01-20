@@ -15,68 +15,68 @@ digraph G {
 "SUN3" ["l"="13.677,-0.440"]
 "TCN2" ["l"="13.656,-0.554"]
 "WSCD1" ["l"="13.814,-0.521"]
-"APCDD1L" -> "SHH"
-"APCDD1L" -> "WSCD1"
-"APCDD1L" -> "REN"
-"APCDD1L" -> "SUN3"
-"CHI3L1" -> "CHI3L2"
-"CHI3L1" -> "CHIA"
-"CHI3L1" -> "REN"
-"CHI3L1" -> "CTSE"
-"CHI3L2" -> "CHI3L1"
-"CHI3L2" -> "CHIA"
-"CHI3L2" -> "REN"
-"CHI3L2" -> "NAPSA"
-"CHIA" -> "CHI3L1"
-"CHIA" -> "CHI3L2"
-"CHIA" -> "CTSE"
-"CHIA" -> "PGC"
-"CTSD" -> "CTSE"
-"CTSD" -> "REN"
-"CTSD" -> "PGC"
-"CTSD" -> "PGA3"
-"CTSE" -> "PGC"
-"CTSE" -> "NAPSA"
-"CTSE" -> "REN"
-"CTSE" -> "CTSD"
-"NAPSA" -> "CTSE"
-"NAPSA" -> "REN"
-"NAPSA" -> "PGC"
-"NAPSA" -> "CTSD"
-"PGA3" -> "PGA4"
-"PGA3" -> "PGA5"
-"PGA3" -> "PGC"
-"PGA3" -> "CTSE"
-"PGA4" -> "PGA5"
-"PGA4" -> "PGA3"
-"PGA4" -> "PGC"
-"PGA4" -> "CTSE"
-"PGA5" -> "PGA4"
-"PGA5" -> "PGA3"
-"PGA5" -> "PGC"
-"PGA5" -> "CTSE"
-"PGC" -> "PGA3"
-"PGC" -> "PGA4"
-"PGC" -> "PGA5"
-"PGC" -> "CTSE"
-"REN" -> "NAPSA"
-"REN" -> "CTSE"
-"REN" -> "CTSD"
-"REN" -> "PGC"
-"SHH" -> "APCDD1L"
-"SHH" -> "WSCD1"
-"SHH" -> "REN"
-"SHH" -> "SUN3"
-"SUN3" -> "CHI3L1"
-"SUN3" -> "WSCD1"
-"SUN3" -> "CHI3L2"
-"SUN3" -> "APCDD1L"
-"TCN2" -> "WSCD1"
-"TCN2" -> "CTSD"
-"TCN2" -> "CHI3L2"
-"TCN2" -> "APCDD1L"
-"WSCD1" -> "APCDD1L"
-"WSCD1" -> "SHH"
-"WSCD1" -> "TCN2"
-"WSCD1" -> "SUN3"
+"APCDD1L" -> "SHH" ["e"=1]
+"APCDD1L" -> "WSCD1" ["e"=1]
+"APCDD1L" -> "REN" ["e"=1]
+"APCDD1L" -> "SUN3" ["e"=1]
+"CHI3L1" -> "CHI3L2" ["e"=1]
+"CHI3L1" -> "CHIA" ["e"=1]
+"CHI3L1" -> "REN" ["e"=1]
+"CHI3L1" -> "CTSE" ["e"=1]
+"CHI3L2" -> "CHI3L1" ["e"=1]
+"CHI3L2" -> "CHIA" ["e"=1]
+"CHI3L2" -> "REN" ["e"=1]
+"CHI3L2" -> "NAPSA" ["e"=1]
+"CHIA" -> "CHI3L1" ["e"=1]
+"CHIA" -> "CHI3L2" ["e"=1]
+"CHIA" -> "CTSE" ["e"=1]
+"CHIA" -> "PGC" ["e"=1]
+"CTSD" -> "CTSE" ["e"=1]
+"CTSD" -> "REN" ["e"=1]
+"CTSD" -> "PGC" ["e"=1]
+"CTSD" -> "PGA3" ["e"=1]
+"CTSE" -> "PGC" ["e"=1]
+"CTSE" -> "NAPSA" ["e"=1]
+"CTSE" -> "REN" ["e"=1]
+"CTSE" -> "CTSD" ["e"=1]
+"NAPSA" -> "CTSE" ["e"=1]
+"NAPSA" -> "REN" ["e"=1]
+"NAPSA" -> "PGC" ["e"=1]
+"NAPSA" -> "CTSD" ["e"=1]
+"PGA3" -> "PGA4" ["e"=1]
+"PGA3" -> "PGA5" ["e"=1]
+"PGA3" -> "PGC" ["e"=1]
+"PGA3" -> "CTSE" ["e"=1]
+"PGA4" -> "PGA5" ["e"=1]
+"PGA4" -> "PGA3" ["e"=1]
+"PGA4" -> "PGC" ["e"=1]
+"PGA4" -> "CTSE" ["e"=1]
+"PGA5" -> "PGA4" ["e"=1]
+"PGA5" -> "PGA3" ["e"=1]
+"PGA5" -> "PGC" ["e"=1]
+"PGA5" -> "CTSE" ["e"=1]
+"PGC" -> "PGA3" ["e"=1]
+"PGC" -> "PGA4" ["e"=1]
+"PGC" -> "PGA5" ["e"=1]
+"PGC" -> "CTSE" ["e"=1]
+"REN" -> "NAPSA" ["e"=1]
+"REN" -> "CTSE" ["e"=1]
+"REN" -> "CTSD" ["e"=1]
+"REN" -> "PGC" ["e"=1]
+"SHH" -> "APCDD1L" ["e"=1]
+"SHH" -> "WSCD1" ["e"=1]
+"SHH" -> "REN" ["e"=1]
+"SHH" -> "SUN3" ["e"=1]
+"SUN3" -> "CHI3L1" ["e"=1]
+"SUN3" -> "WSCD1" ["e"=1]
+"SUN3" -> "CHI3L2" ["e"=1]
+"SUN3" -> "APCDD1L" ["e"=1]
+"TCN2" -> "WSCD1" ["e"=1]
+"TCN2" -> "CTSD" ["e"=1]
+"TCN2" -> "CHI3L2" ["e"=1]
+"TCN2" -> "APCDD1L" ["e"=1]
+"WSCD1" -> "APCDD1L" ["e"=1]
+"WSCD1" -> "SHH" ["e"=1]
+"WSCD1" -> "TCN2" ["e"=1]
+"WSCD1" -> "SUN3" ["e"=1]
 }

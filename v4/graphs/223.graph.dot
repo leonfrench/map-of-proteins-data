@@ -25,108 +25,108 @@ digraph G {
 "TMEM119" ["l"="9.789,4.697"]
 "TMEM200C" ["l"="9.841,4.884"]
 "WBP2" ["l"="9.642,4.942"]
-"AJAP1" -> "TMEM119"
-"AJAP1" -> "TMEM200C"
-"AJAP1" -> "PRRT1B"
-"AJAP1" -> "FAM209A"
-"APELA" -> "SPTY2D1OS"
-"APELA" -> "HILPDA"
-"APELA" -> "LENEP"
-"APELA" -> "MYMX"
-"APOC4" -> "FAM209A"
-"APOC4" -> "TMCO2"
-"APOC4" -> "TEX50"
-"APOC4" -> "TMEM119"
-"BRI3" -> "LITAF"
-"BRI3" -> "PRRT1B"
-"BRI3" -> "CDIP1"
-"BRI3" -> "PLEKHB2"
-"C2orf74" -> "FAM209A"
-"C2orf74" -> "TMEM119"
-"C2orf74" -> "SPTY2D1OS"
-"C2orf74" -> "TEX50"
-"CDIP1" -> "LITAF"
-"CDIP1" -> "WBP2"
-"CDIP1" -> "PRRT1B"
-"CDIP1" -> "PLSCR4"
-"FAM209A" -> "TMCO2"
-"FAM209A" -> "TEX50"
-"FAM209A" -> "APOC4"
-"FAM209A" -> "APELA"
-"HILPDA" -> "LENEP"
-"HILPDA" -> "APELA"
-"HILPDA" -> "SPTY2D1OS"
-"HILPDA" -> "MYMX"
-"LENEP" -> "HILPDA"
-"LENEP" -> "SPTY2D1OS"
-"LENEP" -> "APELA"
-"LENEP" -> "FAM209A"
-"LITAF" -> "CDIP1"
-"LITAF" -> "BRI3"
-"LITAF" -> "PLSCR1"
-"LITAF" -> "PLSCR4"
-"MYMX" -> "APELA"
-"MYMX" -> "HILPDA"
-"MYMX" -> "LENEP"
-"MYMX" -> "SPTY2D1OS"
-"PLAC8" -> "LITAF"
-"PLAC8" -> "PLSCR3"
-"PLAC8" -> "PLSCR4"
-"PLAC8" -> "PLSCR1"
-"PLEKHB1" -> "PLEKHB2"
-"PLEKHB1" -> "PRRT1B"
-"PLEKHB1" -> "TMEM119"
-"PLEKHB1" -> "PLSCR3"
-"PLEKHB2" -> "PLEKHB1"
-"PLEKHB2" -> "WBP2"
-"PLEKHB2" -> "PRRT1B"
-"PLEKHB2" -> "BRI3"
-"PLSCR1" -> "PLSCR4"
-"PLSCR1" -> "PLSCR2"
-"PLSCR1" -> "PLSCR5"
-"PLSCR1" -> "LITAF"
-"PLSCR2" -> "PLSCR5"
-"PLSCR2" -> "PLSCR1"
-"PLSCR2" -> "PLSCR4"
-"PLSCR2" -> "PLSCR3"
-"PLSCR3" -> "PRRT1B"
-"PLSCR3" -> "PLSCR4"
-"PLSCR3" -> "PLSCR5"
-"PLSCR3" -> "PLSCR1"
-"PLSCR4" -> "PLSCR1"
-"PLSCR4" -> "PLSCR5"
-"PLSCR4" -> "PLSCR2"
-"PLSCR4" -> "PLSCR3"
-"PLSCR5" -> "PLSCR2"
-"PLSCR5" -> "PLSCR4"
-"PLSCR5" -> "PLSCR1"
-"PLSCR5" -> "PLSCR3"
-"PRRT1B" -> "BRI3"
-"PRRT1B" -> "PLSCR3"
-"PRRT1B" -> "PLSCR4"
-"PRRT1B" -> "TMEM119"
-"SPTY2D1OS" -> "APELA"
-"SPTY2D1OS" -> "HILPDA"
-"SPTY2D1OS" -> "LENEP"
-"SPTY2D1OS" -> "TEX50"
-"TEX50" -> "FAM209A"
-"TEX50" -> "TMCO2"
-"TEX50" -> "APOC4"
-"TEX50" -> "SPTY2D1OS"
-"TMCO2" -> "FAM209A"
-"TMCO2" -> "TEX50"
-"TMCO2" -> "APOC4"
-"TMCO2" -> "LENEP"
-"TMEM119" -> "AJAP1"
-"TMEM119" -> "APOC4"
-"TMEM119" -> "PRRT1B"
-"TMEM119" -> "FAM209A"
-"TMEM200C" -> "TMEM119"
-"TMEM200C" -> "AJAP1"
-"TMEM200C" -> "PRRT1B"
-"TMEM200C" -> "FAM209A"
-"WBP2" -> "CDIP1"
-"WBP2" -> "PLEKHB2"
-"WBP2" -> "LITAF"
-"WBP2" -> "PRRT1B"
+"AJAP1" -> "TMEM119" ["e"=1]
+"AJAP1" -> "TMEM200C" ["e"=1]
+"AJAP1" -> "PRRT1B" ["e"=1]
+"AJAP1" -> "FAM209A" ["e"=1]
+"APELA" -> "SPTY2D1OS" ["e"=1]
+"APELA" -> "HILPDA" ["e"=1]
+"APELA" -> "LENEP" ["e"=1]
+"APELA" -> "MYMX" ["e"=1]
+"APOC4" -> "FAM209A" ["e"=1]
+"APOC4" -> "TMCO2" ["e"=1]
+"APOC4" -> "TEX50" ["e"=1]
+"APOC4" -> "TMEM119" ["e"=1]
+"BRI3" -> "LITAF" ["e"=1]
+"BRI3" -> "PRRT1B" ["e"=1]
+"BRI3" -> "CDIP1" ["e"=1]
+"BRI3" -> "PLEKHB2" ["e"=1]
+"C2orf74" -> "FAM209A" ["e"=1]
+"C2orf74" -> "TMEM119" ["e"=1]
+"C2orf74" -> "SPTY2D1OS" ["e"=1]
+"C2orf74" -> "TEX50" ["e"=1]
+"CDIP1" -> "LITAF" ["e"=1]
+"CDIP1" -> "WBP2" ["e"=1]
+"CDIP1" -> "PRRT1B" ["e"=1]
+"CDIP1" -> "PLSCR4" ["e"=1]
+"FAM209A" -> "TMCO2" ["e"=1]
+"FAM209A" -> "TEX50" ["e"=1]
+"FAM209A" -> "APOC4" ["e"=1]
+"FAM209A" -> "APELA" ["e"=1]
+"HILPDA" -> "LENEP" ["e"=1]
+"HILPDA" -> "APELA" ["e"=1]
+"HILPDA" -> "SPTY2D1OS" ["e"=1]
+"HILPDA" -> "MYMX" ["e"=1]
+"LENEP" -> "HILPDA" ["e"=1]
+"LENEP" -> "SPTY2D1OS" ["e"=1]
+"LENEP" -> "APELA" ["e"=1]
+"LENEP" -> "FAM209A" ["e"=1]
+"LITAF" -> "CDIP1" ["e"=1]
+"LITAF" -> "BRI3" ["e"=1]
+"LITAF" -> "PLSCR1" ["e"=1]
+"LITAF" -> "PLSCR4" ["e"=1]
+"MYMX" -> "APELA" ["e"=1]
+"MYMX" -> "HILPDA" ["e"=1]
+"MYMX" -> "LENEP" ["e"=1]
+"MYMX" -> "SPTY2D1OS" ["e"=1]
+"PLAC8" -> "LITAF" ["e"=1]
+"PLAC8" -> "PLSCR3" ["e"=1]
+"PLAC8" -> "PLSCR4" ["e"=1]
+"PLAC8" -> "PLSCR1" ["e"=1]
+"PLEKHB1" -> "PLEKHB2" ["e"=1]
+"PLEKHB1" -> "PRRT1B" ["e"=1]
+"PLEKHB1" -> "TMEM119" ["e"=1]
+"PLEKHB1" -> "PLSCR3" ["e"=1]
+"PLEKHB2" -> "PLEKHB1" ["e"=1]
+"PLEKHB2" -> "WBP2" ["e"=1]
+"PLEKHB2" -> "PRRT1B" ["e"=1]
+"PLEKHB2" -> "BRI3" ["e"=1]
+"PLSCR1" -> "PLSCR4" ["e"=1]
+"PLSCR1" -> "PLSCR2" ["e"=1]
+"PLSCR1" -> "PLSCR5" ["e"=1]
+"PLSCR1" -> "LITAF" ["e"=1]
+"PLSCR2" -> "PLSCR5" ["e"=1]
+"PLSCR2" -> "PLSCR1" ["e"=1]
+"PLSCR2" -> "PLSCR4" ["e"=1]
+"PLSCR2" -> "PLSCR3" ["e"=1]
+"PLSCR3" -> "PRRT1B" ["e"=1]
+"PLSCR3" -> "PLSCR4" ["e"=1]
+"PLSCR3" -> "PLSCR5" ["e"=1]
+"PLSCR3" -> "PLSCR1" ["e"=1]
+"PLSCR4" -> "PLSCR1" ["e"=1]
+"PLSCR4" -> "PLSCR5" ["e"=1]
+"PLSCR4" -> "PLSCR2" ["e"=1]
+"PLSCR4" -> "PLSCR3" ["e"=1]
+"PLSCR5" -> "PLSCR2" ["e"=1]
+"PLSCR5" -> "PLSCR4" ["e"=1]
+"PLSCR5" -> "PLSCR1" ["e"=1]
+"PLSCR5" -> "PLSCR3" ["e"=1]
+"PRRT1B" -> "BRI3" ["e"=1]
+"PRRT1B" -> "PLSCR3" ["e"=1]
+"PRRT1B" -> "PLSCR4" ["e"=1]
+"PRRT1B" -> "TMEM119" ["e"=1]
+"SPTY2D1OS" -> "APELA" ["e"=1]
+"SPTY2D1OS" -> "HILPDA" ["e"=1]
+"SPTY2D1OS" -> "LENEP" ["e"=1]
+"SPTY2D1OS" -> "TEX50" ["e"=1]
+"TEX50" -> "FAM209A" ["e"=1]
+"TEX50" -> "TMCO2" ["e"=1]
+"TEX50" -> "APOC4" ["e"=1]
+"TEX50" -> "SPTY2D1OS" ["e"=1]
+"TMCO2" -> "FAM209A" ["e"=1]
+"TMCO2" -> "TEX50" ["e"=1]
+"TMCO2" -> "APOC4" ["e"=1]
+"TMCO2" -> "LENEP" ["e"=1]
+"TMEM119" -> "AJAP1" ["e"=1]
+"TMEM119" -> "APOC4" ["e"=1]
+"TMEM119" -> "PRRT1B" ["e"=1]
+"TMEM119" -> "FAM209A" ["e"=1]
+"TMEM200C" -> "TMEM119" ["e"=1]
+"TMEM200C" -> "AJAP1" ["e"=1]
+"TMEM200C" -> "PRRT1B" ["e"=1]
+"TMEM200C" -> "FAM209A" ["e"=1]
+"WBP2" -> "CDIP1" ["e"=1]
+"WBP2" -> "PLEKHB2" ["e"=1]
+"WBP2" -> "LITAF" ["e"=1]
+"WBP2" -> "PRRT1B" ["e"=1]
 }

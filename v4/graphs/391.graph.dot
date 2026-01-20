@@ -21,92 +21,92 @@ digraph G {
 "THNSL1" ["l"="11.641,1.814"]
 "TSEN54" ["l"="11.681,1.837"]
 "UBA2" ["l"="11.652,1.781"]
-"ABCF3" -> "METTL3"
-"ABCF3" -> "BLMH"
-"ABCF3" -> "PPME1"
-"ABCF3" -> "ATAD3A"
-"ALKBH8" -> "OGFOD1"
-"ALKBH8" -> "C5orf22"
-"ALKBH8" -> "FTO"
-"ALKBH8" -> "METTL22"
-"ATAD3A" -> "ABCF3"
-"ATAD3A" -> "TSEN54"
-"ATAD3A" -> "PRORP"
-"ATAD3A" -> "PSMC2"
-"BLMH" -> "OGFOD1"
-"BLMH" -> "ABCF3"
-"BLMH" -> "ALKBH8"
-"BLMH" -> "METTL3"
-"C5orf22" -> "METTL22"
-"C5orf22" -> "PRORP"
-"C5orf22" -> "ALKBH8"
-"C5orf22" -> "OGFOD1"
-"DDX39A" -> "MCM7"
-"DDX39A" -> "PSMC3"
-"DDX39A" -> "FEN1"
-"DDX39A" -> "PSMC2"
-"FEN1" -> "MCM7"
-"FEN1" -> "DDX39A"
-"FEN1" -> "ABCF3"
-"FEN1" -> "UBA2"
-"FTO" -> "OGFOD1"
-"FTO" -> "ALKBH8"
-"FTO" -> "C5orf22"
-"FTO" -> "METTL22"
-"IFI35" -> "ALKBH8"
-"IFI35" -> "OGFOD1"
-"IFI35" -> "PSMC2"
-"IFI35" -> "PRORP"
-"LRRC47" -> "C5orf22"
-"LRRC47" -> "ABCF3"
-"LRRC47" -> "UBA2"
-"LRRC47" -> "BLMH"
-"MCM7" -> "PSMC3"
-"MCM7" -> "FEN1"
-"MCM7" -> "DDX39A"
-"MCM7" -> "PSMC2"
-"METTL22" -> "PPME1"
-"METTL22" -> "C5orf22"
-"METTL22" -> "ALKBH8"
-"METTL22" -> "OGFOD1"
-"METTL3" -> "ABCF3"
-"METTL3" -> "BLMH"
-"METTL3" -> "ALKBH8"
-"METTL3" -> "TSEN54"
-"OGFOD1" -> "ALKBH8"
-"OGFOD1" -> "FTO"
-"OGFOD1" -> "C5orf22"
-"OGFOD1" -> "BLMH"
-"PPME1" -> "METTL22"
-"PPME1" -> "ALKBH8"
-"PPME1" -> "C5orf22"
-"PPME1" -> "ABCF3"
-"PRORP" -> "C5orf22"
-"PRORP" -> "ALKBH8"
-"PRORP" -> "METTL22"
-"PRORP" -> "OGFOD1"
-"PSMC2" -> "PSMC3"
-"PSMC2" -> "RUVBL2"
-"PSMC2" -> "MCM7"
-"PSMC2" -> "ABCF3"
-"PSMC3" -> "PSMC2"
-"PSMC3" -> "RUVBL2"
-"PSMC3" -> "MCM7"
-"PSMC3" -> "DDX39A"
-"RUVBL2" -> "PSMC3"
-"RUVBL2" -> "PSMC2"
-"RUVBL2" -> "DDX39A"
-"RUVBL2" -> "MCM7"
-"THNSL1" -> "C5orf22"
-"THNSL1" -> "ALKBH8"
-"THNSL1" -> "OGFOD1"
-"THNSL1" -> "FTO"
-"TSEN54" -> "C5orf22"
-"TSEN54" -> "METTL22"
-"TSEN54" -> "ALKBH8"
-"TSEN54" -> "ABCF3"
-"UBA2" -> "BLMH"
-"UBA2" -> "PSMC2"
-"UBA2" -> "C5orf22"
-"UBA2" -> "OGFOD1"
+"ABCF3" -> "METTL3" ["e"=1]
+"ABCF3" -> "BLMH" ["e"=1]
+"ABCF3" -> "PPME1" ["e"=1]
+"ABCF3" -> "ATAD3A" ["e"=1]
+"ALKBH8" -> "OGFOD1" ["e"=1]
+"ALKBH8" -> "C5orf22" ["e"=1]
+"ALKBH8" -> "FTO" ["e"=1]
+"ALKBH8" -> "METTL22" ["e"=1]
+"ATAD3A" -> "ABCF3" ["e"=1]
+"ATAD3A" -> "TSEN54" ["e"=1]
+"ATAD3A" -> "PRORP" ["e"=1]
+"ATAD3A" -> "PSMC2" ["e"=1]
+"BLMH" -> "OGFOD1" ["e"=1]
+"BLMH" -> "ABCF3" ["e"=1]
+"BLMH" -> "ALKBH8" ["e"=1]
+"BLMH" -> "METTL3" ["e"=1]
+"C5orf22" -> "METTL22" ["e"=1]
+"C5orf22" -> "PRORP" ["e"=1]
+"C5orf22" -> "ALKBH8" ["e"=1]
+"C5orf22" -> "OGFOD1" ["e"=1]
+"DDX39A" -> "MCM7" ["e"=1]
+"DDX39A" -> "PSMC3" ["e"=1]
+"DDX39A" -> "FEN1" ["e"=1]
+"DDX39A" -> "PSMC2" ["e"=1]
+"FEN1" -> "MCM7" ["e"=1]
+"FEN1" -> "DDX39A" ["e"=1]
+"FEN1" -> "ABCF3" ["e"=1]
+"FEN1" -> "UBA2" ["e"=1]
+"FTO" -> "OGFOD1" ["e"=1]
+"FTO" -> "ALKBH8" ["e"=1]
+"FTO" -> "C5orf22" ["e"=1]
+"FTO" -> "METTL22" ["e"=1]
+"IFI35" -> "ALKBH8" ["e"=1]
+"IFI35" -> "OGFOD1" ["e"=1]
+"IFI35" -> "PSMC2" ["e"=1]
+"IFI35" -> "PRORP" ["e"=1]
+"LRRC47" -> "C5orf22" ["e"=1]
+"LRRC47" -> "ABCF3" ["e"=1]
+"LRRC47" -> "UBA2" ["e"=1]
+"LRRC47" -> "BLMH" ["e"=1]
+"MCM7" -> "PSMC3" ["e"=1]
+"MCM7" -> "FEN1" ["e"=1]
+"MCM7" -> "DDX39A" ["e"=1]
+"MCM7" -> "PSMC2" ["e"=1]
+"METTL22" -> "PPME1" ["e"=1]
+"METTL22" -> "C5orf22" ["e"=1]
+"METTL22" -> "ALKBH8" ["e"=1]
+"METTL22" -> "OGFOD1" ["e"=1]
+"METTL3" -> "ABCF3" ["e"=1]
+"METTL3" -> "BLMH" ["e"=1]
+"METTL3" -> "ALKBH8" ["e"=1]
+"METTL3" -> "TSEN54" ["e"=1]
+"OGFOD1" -> "ALKBH8" ["e"=1]
+"OGFOD1" -> "FTO" ["e"=1]
+"OGFOD1" -> "C5orf22" ["e"=1]
+"OGFOD1" -> "BLMH" ["e"=1]
+"PPME1" -> "METTL22" ["e"=1]
+"PPME1" -> "ALKBH8" ["e"=1]
+"PPME1" -> "C5orf22" ["e"=1]
+"PPME1" -> "ABCF3" ["e"=1]
+"PRORP" -> "C5orf22" ["e"=1]
+"PRORP" -> "ALKBH8" ["e"=1]
+"PRORP" -> "METTL22" ["e"=1]
+"PRORP" -> "OGFOD1" ["e"=1]
+"PSMC2" -> "PSMC3" ["e"=1]
+"PSMC2" -> "RUVBL2" ["e"=1]
+"PSMC2" -> "MCM7" ["e"=1]
+"PSMC2" -> "ABCF3" ["e"=1]
+"PSMC3" -> "PSMC2" ["e"=1]
+"PSMC3" -> "RUVBL2" ["e"=1]
+"PSMC3" -> "MCM7" ["e"=1]
+"PSMC3" -> "DDX39A" ["e"=1]
+"RUVBL2" -> "PSMC3" ["e"=1]
+"RUVBL2" -> "PSMC2" ["e"=1]
+"RUVBL2" -> "DDX39A" ["e"=1]
+"RUVBL2" -> "MCM7" ["e"=1]
+"THNSL1" -> "C5orf22" ["e"=1]
+"THNSL1" -> "ALKBH8" ["e"=1]
+"THNSL1" -> "OGFOD1" ["e"=1]
+"THNSL1" -> "FTO" ["e"=1]
+"TSEN54" -> "C5orf22" ["e"=1]
+"TSEN54" -> "METTL22" ["e"=1]
+"TSEN54" -> "ALKBH8" ["e"=1]
+"TSEN54" -> "ABCF3" ["e"=1]
+"UBA2" -> "BLMH" ["e"=1]
+"UBA2" -> "PSMC2" ["e"=1]
+"UBA2" -> "C5orf22" ["e"=1]
+"UBA2" -> "OGFOD1" ["e"=1]
 }

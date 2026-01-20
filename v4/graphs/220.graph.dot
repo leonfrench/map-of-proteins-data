@@ -49,204 +49,204 @@ digraph G {
 "TEX51" ["l"="13.701,-0.985"]
 "TMEM95" ["l"="13.676,-0.986"]
 "VTN" ["l"="13.650,-1.102"]
-"AEBP1" -> "MMP24"
-"AEBP1" -> "MMP2"
-"AEBP1" -> "MMP17"
-"AEBP1" -> "MMP25"
-"AFM" -> "AFP"
-"AFM" -> "GC"
-"AFM" -> "ALB"
-"AFM" -> "ENDOU"
-"AFP" -> "ALB"
-"AFP" -> "AFM"
-"AFP" -> "GC"
-"AFP" -> "FETUB"
-"ALB" -> "AFP"
-"ALB" -> "AFM"
-"ALB" -> "GC"
-"ALB" -> "ENDOU"
-"APCDD1" -> "CCDC3"
-"APCDD1" -> "SPON2"
-"APCDD1" -> "MMP25"
-"APCDD1" -> "MMP28"
-"CCDC3" -> "APCDD1"
-"CCDC3" -> "LDLRAD2"
-"CCDC3" -> "MMP28"
-"CCDC3" -> "TMEM95"
-"CNMD" -> "FETUB"
-"CNMD" -> "IZUMO2"
-"CNMD" -> "TMEM95"
-"CNMD" -> "APCDD1"
-"CTSO" -> "MMP21"
-"CTSO" -> "MMP25"
-"CTSO" -> "LDLRAD2"
-"CTSO" -> "FETUB"
-"ENDOU" -> "FETUB"
-"ENDOU" -> "APCDD1"
-"ENDOU" -> "SPON2"
-"ENDOU" -> "MMP19"
-"FETUB" -> "CNMD"
-"FETUB" -> "ENDOU"
-"FETUB" -> "TMEM95"
-"FETUB" -> "APCDD1"
-"GC" -> "AFM"
-"GC" -> "AFP"
-"GC" -> "ALB"
-"GC" -> "FETUB"
-"HAPLN2" -> "HAPLN4"
-"HAPLN2" -> "SPON2"
-"HAPLN2" -> "MMP28"
-"HAPLN2" -> "MMP25"
-"HAPLN4" -> "HAPLN2"
-"HAPLN4" -> "MMP15"
-"HAPLN4" -> "MMP25"
-"HAPLN4" -> "MMP28"
-"HPX" -> "VTN"
-"HPX" -> "MMP13"
-"HPX" -> "MMP11"
-"HPX" -> "MMP25"
-"HTRA1" -> "HTRA4"
-"HTRA1" -> "CCDC3"
-"HTRA1" -> "SPON2"
-"HTRA1" -> "MMP21"
-"HTRA4" -> "HTRA1"
-"HTRA4" -> "CCDC3"
-"HTRA4" -> "MMP21"
-"HTRA4" -> "LDLRAD2"
-"IZUMO1" -> "TMEM95"
-"IZUMO1" -> "TEX51"
-"IZUMO1" -> "SPACA6"
-"IZUMO1" -> "IZUMO2"
-"IZUMO2" -> "TMEM95"
-"IZUMO2" -> "IZUMO1"
-"IZUMO2" -> "IZUMO3"
-"IZUMO2" -> "TEX51"
-"IZUMO3" -> "IZUMO2"
-"IZUMO3" -> "TMEM95"
-"IZUMO3" -> "IZUMO1"
-"IZUMO3" -> "TEX51"
-"IZUMO4" -> "TMEM95"
-"IZUMO4" -> "TEX51"
-"IZUMO4" -> "IZUMO2"
-"IZUMO4" -> "IZUMO1"
-"LDLRAD2" -> "MMP25"
-"LDLRAD2" -> "MMP21"
-"LDLRAD2" -> "TMEM95"
-"LDLRAD2" -> "CCDC3"
-"MMP1" -> "MMP10"
-"MMP1" -> "MMP12"
-"MMP1" -> "MMP3"
-"MMP1" -> "MMP13"
-"MMP10" -> "MMP1"
-"MMP10" -> "MMP13"
-"MMP10" -> "MMP12"
-"MMP10" -> "MMP3"
-"MMP11" -> "MMP17"
-"MMP11" -> "MMP15"
-"MMP11" -> "MMP25"
-"MMP11" -> "MMP28"
-"MMP12" -> "MMP3"
-"MMP12" -> "MMP10"
-"MMP12" -> "MMP1"
-"MMP12" -> "MMP20"
-"MMP13" -> "MMP10"
-"MMP13" -> "MMP3"
-"MMP13" -> "MMP20"
-"MMP13" -> "MMP12"
-"MMP14" -> "MMP24"
-"MMP14" -> "MMP15"
-"MMP14" -> "MMP13"
-"MMP14" -> "MMP2"
-"MMP15" -> "MMP24"
-"MMP15" -> "MMP14"
-"MMP15" -> "MMP25"
-"MMP15" -> "MMP11"
-"MMP16" -> "MMP24"
-"MMP16" -> "MMP21"
-"MMP16" -> "MMP15"
-"MMP16" -> "MMP14"
-"MMP17" -> "MMP11"
-"MMP17" -> "MMP24"
-"MMP17" -> "MMP25"
-"MMP17" -> "MMP15"
-"MMP19" -> "MMP25"
-"MMP19" -> "MMP13"
-"MMP19" -> "MMP21"
-"MMP19" -> "MMP28"
-"MMP2" -> "MMP14"
-"MMP2" -> "MMP9"
-"MMP2" -> "MMP13"
-"MMP2" -> "MMP24"
-"MMP20" -> "MMP12"
-"MMP20" -> "MMP13"
-"MMP20" -> "MMP10"
-"MMP20" -> "MMP27"
-"MMP21" -> "MMP25"
-"MMP21" -> "MMP28"
-"MMP21" -> "MMP19"
-"MMP21" -> "MMP11"
-"MMP23B" -> "MMP25"
-"MMP23B" -> "MMP28"
-"MMP23B" -> "MMP21"
-"MMP23B" -> "MMP11"
-"MMP24" -> "MMP15"
-"MMP24" -> "MMP14"
-"MMP24" -> "MMP17"
-"MMP24" -> "MMP25"
-"MMP25" -> "MMP28"
-"MMP25" -> "MMP15"
-"MMP25" -> "MMP21"
-"MMP25" -> "MMP19"
-"MMP26" -> "MMP7"
-"MMP26" -> "MMP20"
-"MMP26" -> "MMP13"
-"MMP26" -> "MMP21"
-"MMP27" -> "MMP20"
-"MMP27" -> "MMP13"
-"MMP27" -> "MMP12"
-"MMP27" -> "MMP10"
-"MMP28" -> "MMP25"
-"MMP28" -> "MMP21"
-"MMP28" -> "MMP11"
-"MMP28" -> "MMP19"
-"MMP3" -> "MMP12"
-"MMP3" -> "MMP10"
-"MMP3" -> "MMP1"
-"MMP3" -> "MMP13"
-"MMP7" -> "MMP3"
-"MMP7" -> "MMP8"
-"MMP7" -> "MMP26"
-"MMP7" -> "MMP20"
-"MMP8" -> "MMP20"
-"MMP8" -> "MMP13"
-"MMP8" -> "MMP27"
-"MMP8" -> "MMP12"
-"MMP9" -> "MMP2"
-"MMP9" -> "MMP14"
-"MMP9" -> "MMP13"
-"MMP9" -> "MMP25"
-"SOD3" -> "SPON2"
-"SOD3" -> "CCDC3"
-"SOD3" -> "LDLRAD2"
-"SOD3" -> "HAPLN4"
-"SPACA6" -> "TMEM95"
-"SPACA6" -> "IZUMO1"
-"SPACA6" -> "IZUMO2"
-"SPACA6" -> "IZUMO4"
-"SPON2" -> "SOD3"
-"SPON2" -> "APCDD1"
-"SPON2" -> "HAPLN2"
-"SPON2" -> "MMP25"
-"TEX51" -> "IZUMO4"
-"TEX51" -> "IZUMO1"
-"TEX51" -> "TMEM95"
-"TEX51" -> "IZUMO2"
-"TMEM95" -> "IZUMO4"
-"TMEM95" -> "IZUMO1"
-"TMEM95" -> "SPACA6"
-"TMEM95" -> "TEX51"
-"VTN" -> "HPX"
-"VTN" -> "MMP11"
-"VTN" -> "MMP24"
-"VTN" -> "MMP9"
+"AEBP1" -> "MMP24" ["e"=1]
+"AEBP1" -> "MMP2" ["e"=1]
+"AEBP1" -> "MMP17" ["e"=1]
+"AEBP1" -> "MMP25" ["e"=1]
+"AFM" -> "AFP" ["e"=1]
+"AFM" -> "GC" ["e"=1]
+"AFM" -> "ALB" ["e"=1]
+"AFM" -> "ENDOU" ["e"=1]
+"AFP" -> "ALB" ["e"=1]
+"AFP" -> "AFM" ["e"=1]
+"AFP" -> "GC" ["e"=1]
+"AFP" -> "FETUB" ["e"=1]
+"ALB" -> "AFP" ["e"=1]
+"ALB" -> "AFM" ["e"=1]
+"ALB" -> "GC" ["e"=1]
+"ALB" -> "ENDOU" ["e"=1]
+"APCDD1" -> "CCDC3" ["e"=1]
+"APCDD1" -> "SPON2" ["e"=1]
+"APCDD1" -> "MMP25" ["e"=1]
+"APCDD1" -> "MMP28" ["e"=1]
+"CCDC3" -> "APCDD1" ["e"=1]
+"CCDC3" -> "LDLRAD2" ["e"=1]
+"CCDC3" -> "MMP28" ["e"=1]
+"CCDC3" -> "TMEM95" ["e"=1]
+"CNMD" -> "FETUB" ["e"=1]
+"CNMD" -> "IZUMO2" ["e"=1]
+"CNMD" -> "TMEM95" ["e"=1]
+"CNMD" -> "APCDD1" ["e"=1]
+"CTSO" -> "MMP21" ["e"=1]
+"CTSO" -> "MMP25" ["e"=1]
+"CTSO" -> "LDLRAD2" ["e"=1]
+"CTSO" -> "FETUB" ["e"=1]
+"ENDOU" -> "FETUB" ["e"=1]
+"ENDOU" -> "APCDD1" ["e"=1]
+"ENDOU" -> "SPON2" ["e"=1]
+"ENDOU" -> "MMP19" ["e"=1]
+"FETUB" -> "CNMD" ["e"=1]
+"FETUB" -> "ENDOU" ["e"=1]
+"FETUB" -> "TMEM95" ["e"=1]
+"FETUB" -> "APCDD1" ["e"=1]
+"GC" -> "AFM" ["e"=1]
+"GC" -> "AFP" ["e"=1]
+"GC" -> "ALB" ["e"=1]
+"GC" -> "FETUB" ["e"=1]
+"HAPLN2" -> "HAPLN4" ["e"=1]
+"HAPLN2" -> "SPON2" ["e"=1]
+"HAPLN2" -> "MMP28" ["e"=1]
+"HAPLN2" -> "MMP25" ["e"=1]
+"HAPLN4" -> "HAPLN2" ["e"=1]
+"HAPLN4" -> "MMP15" ["e"=1]
+"HAPLN4" -> "MMP25" ["e"=1]
+"HAPLN4" -> "MMP28" ["e"=1]
+"HPX" -> "VTN" ["e"=1]
+"HPX" -> "MMP13" ["e"=1]
+"HPX" -> "MMP11" ["e"=1]
+"HPX" -> "MMP25" ["e"=1]
+"HTRA1" -> "HTRA4" ["e"=1]
+"HTRA1" -> "CCDC3" ["e"=1]
+"HTRA1" -> "SPON2" ["e"=1]
+"HTRA1" -> "MMP21" ["e"=1]
+"HTRA4" -> "HTRA1" ["e"=1]
+"HTRA4" -> "CCDC3" ["e"=1]
+"HTRA4" -> "MMP21" ["e"=1]
+"HTRA4" -> "LDLRAD2" ["e"=1]
+"IZUMO1" -> "TMEM95" ["e"=1]
+"IZUMO1" -> "TEX51" ["e"=1]
+"IZUMO1" -> "SPACA6" ["e"=1]
+"IZUMO1" -> "IZUMO2" ["e"=1]
+"IZUMO2" -> "TMEM95" ["e"=1]
+"IZUMO2" -> "IZUMO1" ["e"=1]
+"IZUMO2" -> "IZUMO3" ["e"=1]
+"IZUMO2" -> "TEX51" ["e"=1]
+"IZUMO3" -> "IZUMO2" ["e"=1]
+"IZUMO3" -> "TMEM95" ["e"=1]
+"IZUMO3" -> "IZUMO1" ["e"=1]
+"IZUMO3" -> "TEX51" ["e"=1]
+"IZUMO4" -> "TMEM95" ["e"=1]
+"IZUMO4" -> "TEX51" ["e"=1]
+"IZUMO4" -> "IZUMO2" ["e"=1]
+"IZUMO4" -> "IZUMO1" ["e"=1]
+"LDLRAD2" -> "MMP25" ["e"=1]
+"LDLRAD2" -> "MMP21" ["e"=1]
+"LDLRAD2" -> "TMEM95" ["e"=1]
+"LDLRAD2" -> "CCDC3" ["e"=1]
+"MMP1" -> "MMP10" ["e"=1]
+"MMP1" -> "MMP12" ["e"=1]
+"MMP1" -> "MMP3" ["e"=1]
+"MMP1" -> "MMP13" ["e"=1]
+"MMP10" -> "MMP1" ["e"=1]
+"MMP10" -> "MMP13" ["e"=1]
+"MMP10" -> "MMP12" ["e"=1]
+"MMP10" -> "MMP3" ["e"=1]
+"MMP11" -> "MMP17" ["e"=1]
+"MMP11" -> "MMP15" ["e"=1]
+"MMP11" -> "MMP25" ["e"=1]
+"MMP11" -> "MMP28" ["e"=1]
+"MMP12" -> "MMP3" ["e"=1]
+"MMP12" -> "MMP10" ["e"=1]
+"MMP12" -> "MMP1" ["e"=1]
+"MMP12" -> "MMP20" ["e"=1]
+"MMP13" -> "MMP10" ["e"=1]
+"MMP13" -> "MMP3" ["e"=1]
+"MMP13" -> "MMP20" ["e"=1]
+"MMP13" -> "MMP12" ["e"=1]
+"MMP14" -> "MMP24" ["e"=1]
+"MMP14" -> "MMP15" ["e"=1]
+"MMP14" -> "MMP13" ["e"=1]
+"MMP14" -> "MMP2" ["e"=1]
+"MMP15" -> "MMP24" ["e"=1]
+"MMP15" -> "MMP14" ["e"=1]
+"MMP15" -> "MMP25" ["e"=1]
+"MMP15" -> "MMP11" ["e"=1]
+"MMP16" -> "MMP24" ["e"=1]
+"MMP16" -> "MMP21" ["e"=1]
+"MMP16" -> "MMP15" ["e"=1]
+"MMP16" -> "MMP14" ["e"=1]
+"MMP17" -> "MMP11" ["e"=1]
+"MMP17" -> "MMP24" ["e"=1]
+"MMP17" -> "MMP25" ["e"=1]
+"MMP17" -> "MMP15" ["e"=1]
+"MMP19" -> "MMP25" ["e"=1]
+"MMP19" -> "MMP13" ["e"=1]
+"MMP19" -> "MMP21" ["e"=1]
+"MMP19" -> "MMP28" ["e"=1]
+"MMP2" -> "MMP14" ["e"=1]
+"MMP2" -> "MMP9" ["e"=1]
+"MMP2" -> "MMP13" ["e"=1]
+"MMP2" -> "MMP24" ["e"=1]
+"MMP20" -> "MMP12" ["e"=1]
+"MMP20" -> "MMP13" ["e"=1]
+"MMP20" -> "MMP10" ["e"=1]
+"MMP20" -> "MMP27" ["e"=1]
+"MMP21" -> "MMP25" ["e"=1]
+"MMP21" -> "MMP28" ["e"=1]
+"MMP21" -> "MMP19" ["e"=1]
+"MMP21" -> "MMP11" ["e"=1]
+"MMP23B" -> "MMP25" ["e"=1]
+"MMP23B" -> "MMP28" ["e"=1]
+"MMP23B" -> "MMP21" ["e"=1]
+"MMP23B" -> "MMP11" ["e"=1]
+"MMP24" -> "MMP15" ["e"=1]
+"MMP24" -> "MMP14" ["e"=1]
+"MMP24" -> "MMP17" ["e"=1]
+"MMP24" -> "MMP25" ["e"=1]
+"MMP25" -> "MMP28" ["e"=1]
+"MMP25" -> "MMP15" ["e"=1]
+"MMP25" -> "MMP21" ["e"=1]
+"MMP25" -> "MMP19" ["e"=1]
+"MMP26" -> "MMP7" ["e"=1]
+"MMP26" -> "MMP20" ["e"=1]
+"MMP26" -> "MMP13" ["e"=1]
+"MMP26" -> "MMP21" ["e"=1]
+"MMP27" -> "MMP20" ["e"=1]
+"MMP27" -> "MMP13" ["e"=1]
+"MMP27" -> "MMP12" ["e"=1]
+"MMP27" -> "MMP10" ["e"=1]
+"MMP28" -> "MMP25" ["e"=1]
+"MMP28" -> "MMP21" ["e"=1]
+"MMP28" -> "MMP11" ["e"=1]
+"MMP28" -> "MMP19" ["e"=1]
+"MMP3" -> "MMP12" ["e"=1]
+"MMP3" -> "MMP10" ["e"=1]
+"MMP3" -> "MMP1" ["e"=1]
+"MMP3" -> "MMP13" ["e"=1]
+"MMP7" -> "MMP3" ["e"=1]
+"MMP7" -> "MMP8" ["e"=1]
+"MMP7" -> "MMP26" ["e"=1]
+"MMP7" -> "MMP20" ["e"=1]
+"MMP8" -> "MMP20" ["e"=1]
+"MMP8" -> "MMP13" ["e"=1]
+"MMP8" -> "MMP27" ["e"=1]
+"MMP8" -> "MMP12" ["e"=1]
+"MMP9" -> "MMP2" ["e"=1]
+"MMP9" -> "MMP14" ["e"=1]
+"MMP9" -> "MMP13" ["e"=1]
+"MMP9" -> "MMP25" ["e"=1]
+"SOD3" -> "SPON2" ["e"=1]
+"SOD3" -> "CCDC3" ["e"=1]
+"SOD3" -> "LDLRAD2" ["e"=1]
+"SOD3" -> "HAPLN4" ["e"=1]
+"SPACA6" -> "TMEM95" ["e"=1]
+"SPACA6" -> "IZUMO1" ["e"=1]
+"SPACA6" -> "IZUMO2" ["e"=1]
+"SPACA6" -> "IZUMO4" ["e"=1]
+"SPON2" -> "SOD3" ["e"=1]
+"SPON2" -> "APCDD1" ["e"=1]
+"SPON2" -> "HAPLN2" ["e"=1]
+"SPON2" -> "MMP25" ["e"=1]
+"TEX51" -> "IZUMO4" ["e"=1]
+"TEX51" -> "IZUMO1" ["e"=1]
+"TEX51" -> "TMEM95" ["e"=1]
+"TEX51" -> "IZUMO2" ["e"=1]
+"TMEM95" -> "IZUMO4" ["e"=1]
+"TMEM95" -> "IZUMO1" ["e"=1]
+"TMEM95" -> "SPACA6" ["e"=1]
+"TMEM95" -> "TEX51" ["e"=1]
+"VTN" -> "HPX" ["e"=1]
+"VTN" -> "MMP11" ["e"=1]
+"VTN" -> "MMP24" ["e"=1]
+"VTN" -> "MMP9" ["e"=1]
 }

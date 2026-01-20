@@ -61,252 +61,252 @@ digraph G {
 "TMTC4" ["l"="10.240,-2.872"]
 "XPR1" ["l"="10.256,-2.946"]
 "ZDHHC13" ["l"="10.108,-2.773"]
-"ALG9" -> "DPY19L1"
-"ALG9" -> "DPY19L4"
-"ALG9" -> "PIGB"
-"ALG9" -> "POMT2"
-"CASD1" -> "DPY19L1"
-"CASD1" -> "DPY19L4"
-"CASD1" -> "HGSNAT"
-"CASD1" -> "TM9SF4"
-"CLPTM1" -> "TM9SF4"
-"CLPTM1" -> "CLPTM1L"
-"CLPTM1" -> "GPR108"
-"CLPTM1" -> "TMEM259"
-"CLPTM1L" -> "CLPTM1"
-"CLPTM1L" -> "TM9SF4"
-"CLPTM1L" -> "TMEM87A"
-"CLPTM1L" -> "GPR108"
-"DPY19L1" -> "DPY19L4"
-"DPY19L1" -> "DPY19L3"
-"DPY19L1" -> "DPY19L2"
-"DPY19L1" -> "ALG9"
-"DPY19L2" -> "DPY19L1"
-"DPY19L2" -> "DPY19L4"
-"DPY19L2" -> "DPY19L3"
-"DPY19L2" -> "ALG9"
-"DPY19L3" -> "DPY19L1"
-"DPY19L3" -> "DPY19L4"
-"DPY19L3" -> "DPY19L2"
-"DPY19L3" -> "PIGB"
-"DPY19L4" -> "DPY19L1"
-"DPY19L4" -> "DPY19L2"
-"DPY19L4" -> "DPY19L3"
-"DPY19L4" -> "ALG9"
-"ERMP1" -> "POMT2"
-"ERMP1" -> "ALG9"
-"ERMP1" -> "DPY19L4"
-"ERMP1" -> "DPY19L1"
-"FRRS1" -> "TMEM62"
-"FRRS1" -> "POMT2"
-"FRRS1" -> "HGSNAT"
-"FRRS1" -> "ERMP1"
-"GGCX" -> "ALG9"
-"GGCX" -> "POMT2"
-"GGCX" -> "LMF2"
-"GGCX" -> "TMEM260"
-"GPAA1" -> "PIGO"
-"GPAA1" -> "TMEM82"
-"GPAA1" -> "PIGQ"
-"GPAA1" -> "SPPL2B"
-"GPR107" -> "TM9SF4"
-"GPR107" -> "SIDT1"
-"GPR107" -> "TMEM181"
-"GPR107" -> "SIDT2"
-"GPR108" -> "TMEM87A"
-"GPR108" -> "SIDT1"
-"GPR108" -> "GPR107"
-"GPR108" -> "SIDT2"
-"HGSNAT" -> "TMEM181"
-"HGSNAT" -> "SPPL2B"
-"HGSNAT" -> "ALG9"
-"HGSNAT" -> "GPR107"
-"HHAT" -> "ALG9"
-"HHAT" -> "DPY19L4"
-"HHAT" -> "GGCX"
-"HHAT" -> "TMEM260"
-"HVCN1" -> "KCNK18"
-"HVCN1" -> "TMEM181"
-"HVCN1" -> "TAPT1"
-"HVCN1" -> "TMEM184C"
-"KCNK18" -> "KCNK6"
-"KCNK18" -> "GPR107"
-"KCNK18" -> "SLC44A1"
-"KCNK18" -> "TMEM87B"
-"KCNK6" -> "KCNK18"
-"KCNK6" -> "KCNK7"
-"KCNK6" -> "PIGZ"
-"KCNK6" -> "TMEM82"
-"KCNK7" -> "KCNK6"
-"KCNK7" -> "TMEM82"
-"KCNK7" -> "KCNK18"
-"KCNK7" -> "PIGZ"
-"LMF1" -> "POMT2"
-"LMF1" -> "LMF2"
-"LMF1" -> "SPPL2B"
-"LMF1" -> "GGCX"
-"LMF2" -> "GGCX"
-"LMF2" -> "LMF1"
-"LMF2" -> "SPPL2B"
-"LMF2" -> "TMEM82"
-"PIGB" -> "ALG9"
-"PIGB" -> "DPY19L1"
-"PIGB" -> "DPY19L2"
-"PIGB" -> "DPY19L3"
-"PIGG" -> "PIGN"
-"PIGG" -> "SPPL2B"
-"PIGG" -> "POMT2"
-"PIGG" -> "TMEM62"
-"PIGN" -> "PIGG"
-"PIGN" -> "TMEM62"
-"PIGN" -> "ALG9"
-"PIGN" -> "ERMP1"
-"PIGO" -> "PIGG"
-"PIGO" -> "GPAA1"
-"PIGO" -> "PIGN"
-"PIGO" -> "PIGZ"
-"PIGQ" -> "SPPL2B"
-"PIGQ" -> "STRA6"
-"PIGQ" -> "TMEM181"
-"PIGQ" -> "TMEM82"
-"PIGZ" -> "POMT2"
-"PIGZ" -> "TMEM260"
-"PIGZ" -> "ALG9"
-"PIGZ" -> "TMTC4"
-"POMT1" -> "POMT2"
-"POMT1" -> "ALG9"
-"POMT1" -> "DPY19L1"
-"POMT1" -> "PIGG"
-"POMT2" -> "POMT1"
-"POMT2" -> "ERMP1"
-"POMT2" -> "ALG9"
-"POMT2" -> "SPPL2B"
-"RNF145" -> "ALG9"
-"RNF145" -> "SLC30A6"
-"RNF145" -> "DPY19L1"
-"RNF145" -> "DPY19L4"
-"SEC22A" -> "TMEM62"
-"SEC22A" -> "TMEM82"
-"SEC22A" -> "SIDT1"
-"SEC22A" -> "POMT2"
-"SIDT1" -> "SIDT2"
-"SIDT1" -> "GPR107"
-"SIDT1" -> "TM9SF4"
-"SIDT1" -> "TMEM87A"
-"SIDT2" -> "SIDT1"
-"SIDT2" -> "GPR107"
-"SIDT2" -> "TM9SF4"
-"SIDT2" -> "SPPL2B"
-"SLC30A6" -> "RNF145"
-"SLC30A6" -> "DPY19L2"
-"SLC30A6" -> "TMTC3"
-"SLC30A6" -> "ALG9"
-"SLC44A1" -> "TMEM181"
-"SLC44A1" -> "POMT2"
-"SLC44A1" -> "SPPL2B"
-"SLC44A1" -> "TM9SF4"
-"SPPL2A" -> "TM9SF3"
-"SPPL2A" -> "SPPL2B"
-"SPPL2A" -> "TM9SF4"
-"SPPL2A" -> "TM9SF2"
-"SPPL2B" -> "TM9SF4"
-"SPPL2B" -> "POMT2"
-"SPPL2B" -> "PIGG"
-"SPPL2B" -> "HGSNAT"
-"STRA6" -> "PIGQ"
-"STRA6" -> "TMEM82"
-"STRA6" -> "SPPL2B"
-"STRA6" -> "LMF2"
-"STT3A" -> "STT3B"
-"STT3A" -> "POMT2"
-"STT3A" -> "ALG9"
-"STT3A" -> "DPY19L1"
-"STT3B" -> "STT3A"
-"STT3B" -> "POMT2"
-"STT3B" -> "ALG9"
-"STT3B" -> "DPY19L1"
-"TAPT1" -> "TMEM184C"
-"TAPT1" -> "TMEM87A"
-"TAPT1" -> "TMEM87B"
-"TAPT1" -> "DPY19L2"
-"TM9SF1" -> "TM9SF4"
-"TM9SF1" -> "TM9SF2"
-"TM9SF1" -> "TM9SF3"
-"TM9SF1" -> "SPPL2B"
-"TM9SF2" -> "TM9SF3"
-"TM9SF2" -> "TM9SF4"
-"TM9SF2" -> "TM9SF1"
-"TM9SF2" -> "TMEM87B"
-"TM9SF3" -> "TM9SF2"
-"TM9SF3" -> "TM9SF4"
-"TM9SF3" -> "SPPL2A"
-"TM9SF3" -> "SPPL2B"
-"TM9SF4" -> "TM9SF2"
-"TM9SF4" -> "SPPL2B"
-"TM9SF4" -> "GPR107"
-"TM9SF4" -> "TM9SF3"
-"TMEM145" -> "TMEM259"
-"TMEM145" -> "TMEM87A"
-"TMEM145" -> "SPPL2B"
-"TMEM145" -> "SIDT1"
-"TMEM181" -> "TMEM87B"
-"TMEM181" -> "SLC44A1"
-"TMEM181" -> "GPR107"
-"TMEM181" -> "HGSNAT"
-"TMEM184C" -> "TAPT1"
-"TMEM184C" -> "XPR1"
-"TMEM184C" -> "PIGB"
-"TMEM184C" -> "GGCX"
-"TMEM245" -> "POMT2"
-"TMEM245" -> "GGCX"
-"TMEM245" -> "ERMP1"
-"TMEM245" -> "SLC44A1"
-"TMEM259" -> "TMEM145"
-"TMEM259" -> "SPPL2B"
-"TMEM259" -> "TAPT1"
-"TMEM259" -> "TMEM87A"
-"TMEM260" -> "TMTC4"
-"TMEM260" -> "DPY19L1"
-"TMEM260" -> "TMTC3"
-"TMEM260" -> "DPY19L4"
-"TMEM62" -> "PIGN"
-"TMEM62" -> "PIGB"
-"TMEM62" -> "PIGG"
-"TMEM62" -> "POMT2"
-"TMEM82" -> "STRA6"
-"TMEM82" -> "SEC22A"
-"TMEM82" -> "SPPL2B"
-"TMEM82" -> "GPAA1"
-"TMEM87A" -> "TMEM87B"
-"TMEM87A" -> "GPR108"
-"TMEM87A" -> "GPR107"
-"TMEM87A" -> "SIDT1"
-"TMEM87B" -> "TMEM87A"
-"TMEM87B" -> "TMEM181"
-"TMEM87B" -> "GPR107"
-"TMEM87B" -> "SIDT1"
-"TMTC1" -> "TMTC2"
-"TMTC1" -> "TMTC4"
-"TMTC1" -> "TMTC3"
-"TMTC1" -> "DPY19L1"
-"TMTC2" -> "TMTC4"
-"TMTC2" -> "TMTC1"
-"TMTC2" -> "TMTC3"
-"TMTC2" -> "TMEM260"
-"TMTC3" -> "TMTC4"
-"TMTC3" -> "TMTC2"
-"TMTC3" -> "TMEM260"
-"TMTC3" -> "TMTC1"
-"TMTC4" -> "TMTC2"
-"TMTC4" -> "TMTC3"
-"TMTC4" -> "TMEM260"
-"TMTC4" -> "DPY19L1"
-"XPR1" -> "TMEM184C"
-"XPR1" -> "DPY19L1"
-"XPR1" -> "TM9SF4"
-"XPR1" -> "TMEM181"
-"ZDHHC13" -> "TMEM62"
-"ZDHHC13" -> "SEC22A"
-"ZDHHC13" -> "FRRS1"
-"ZDHHC13" -> "PIGN"
+"ALG9" -> "DPY19L1" ["e"=1]
+"ALG9" -> "DPY19L4" ["e"=1]
+"ALG9" -> "PIGB" ["e"=1]
+"ALG9" -> "POMT2" ["e"=1]
+"CASD1" -> "DPY19L1" ["e"=1]
+"CASD1" -> "DPY19L4" ["e"=1]
+"CASD1" -> "HGSNAT" ["e"=1]
+"CASD1" -> "TM9SF4" ["e"=1]
+"CLPTM1" -> "TM9SF4" ["e"=1]
+"CLPTM1" -> "CLPTM1L" ["e"=1]
+"CLPTM1" -> "GPR108" ["e"=1]
+"CLPTM1" -> "TMEM259" ["e"=1]
+"CLPTM1L" -> "CLPTM1" ["e"=1]
+"CLPTM1L" -> "TM9SF4" ["e"=1]
+"CLPTM1L" -> "TMEM87A" ["e"=1]
+"CLPTM1L" -> "GPR108" ["e"=1]
+"DPY19L1" -> "DPY19L4" ["e"=1]
+"DPY19L1" -> "DPY19L3" ["e"=1]
+"DPY19L1" -> "DPY19L2" ["e"=1]
+"DPY19L1" -> "ALG9" ["e"=1]
+"DPY19L2" -> "DPY19L1" ["e"=1]
+"DPY19L2" -> "DPY19L4" ["e"=1]
+"DPY19L2" -> "DPY19L3" ["e"=1]
+"DPY19L2" -> "ALG9" ["e"=1]
+"DPY19L3" -> "DPY19L1" ["e"=1]
+"DPY19L3" -> "DPY19L4" ["e"=1]
+"DPY19L3" -> "DPY19L2" ["e"=1]
+"DPY19L3" -> "PIGB" ["e"=1]
+"DPY19L4" -> "DPY19L1" ["e"=1]
+"DPY19L4" -> "DPY19L2" ["e"=1]
+"DPY19L4" -> "DPY19L3" ["e"=1]
+"DPY19L4" -> "ALG9" ["e"=1]
+"ERMP1" -> "POMT2" ["e"=1]
+"ERMP1" -> "ALG9" ["e"=1]
+"ERMP1" -> "DPY19L4" ["e"=1]
+"ERMP1" -> "DPY19L1" ["e"=1]
+"FRRS1" -> "TMEM62" ["e"=1]
+"FRRS1" -> "POMT2" ["e"=1]
+"FRRS1" -> "HGSNAT" ["e"=1]
+"FRRS1" -> "ERMP1" ["e"=1]
+"GGCX" -> "ALG9" ["e"=1]
+"GGCX" -> "POMT2" ["e"=1]
+"GGCX" -> "LMF2" ["e"=1]
+"GGCX" -> "TMEM260" ["e"=1]
+"GPAA1" -> "PIGO" ["e"=1]
+"GPAA1" -> "TMEM82" ["e"=1]
+"GPAA1" -> "PIGQ" ["e"=1]
+"GPAA1" -> "SPPL2B" ["e"=1]
+"GPR107" -> "TM9SF4" ["e"=1]
+"GPR107" -> "SIDT1" ["e"=1]
+"GPR107" -> "TMEM181" ["e"=1]
+"GPR107" -> "SIDT2" ["e"=1]
+"GPR108" -> "TMEM87A" ["e"=1]
+"GPR108" -> "SIDT1" ["e"=1]
+"GPR108" -> "GPR107" ["e"=1]
+"GPR108" -> "SIDT2" ["e"=1]
+"HGSNAT" -> "TMEM181" ["e"=1]
+"HGSNAT" -> "SPPL2B" ["e"=1]
+"HGSNAT" -> "ALG9" ["e"=1]
+"HGSNAT" -> "GPR107" ["e"=1]
+"HHAT" -> "ALG9" ["e"=1]
+"HHAT" -> "DPY19L4" ["e"=1]
+"HHAT" -> "GGCX" ["e"=1]
+"HHAT" -> "TMEM260" ["e"=1]
+"HVCN1" -> "KCNK18" ["e"=1]
+"HVCN1" -> "TMEM181" ["e"=1]
+"HVCN1" -> "TAPT1" ["e"=1]
+"HVCN1" -> "TMEM184C" ["e"=1]
+"KCNK18" -> "KCNK6" ["e"=1]
+"KCNK18" -> "GPR107" ["e"=1]
+"KCNK18" -> "SLC44A1" ["e"=1]
+"KCNK18" -> "TMEM87B" ["e"=1]
+"KCNK6" -> "KCNK18" ["e"=1]
+"KCNK6" -> "KCNK7" ["e"=1]
+"KCNK6" -> "PIGZ" ["e"=1]
+"KCNK6" -> "TMEM82" ["e"=1]
+"KCNK7" -> "KCNK6" ["e"=1]
+"KCNK7" -> "TMEM82" ["e"=1]
+"KCNK7" -> "KCNK18" ["e"=1]
+"KCNK7" -> "PIGZ" ["e"=1]
+"LMF1" -> "POMT2" ["e"=1]
+"LMF1" -> "LMF2" ["e"=1]
+"LMF1" -> "SPPL2B" ["e"=1]
+"LMF1" -> "GGCX" ["e"=1]
+"LMF2" -> "GGCX" ["e"=1]
+"LMF2" -> "LMF1" ["e"=1]
+"LMF2" -> "SPPL2B" ["e"=1]
+"LMF2" -> "TMEM82" ["e"=1]
+"PIGB" -> "ALG9" ["e"=1]
+"PIGB" -> "DPY19L1" ["e"=1]
+"PIGB" -> "DPY19L2" ["e"=1]
+"PIGB" -> "DPY19L3" ["e"=1]
+"PIGG" -> "PIGN" ["e"=1]
+"PIGG" -> "SPPL2B" ["e"=1]
+"PIGG" -> "POMT2" ["e"=1]
+"PIGG" -> "TMEM62" ["e"=1]
+"PIGN" -> "PIGG" ["e"=1]
+"PIGN" -> "TMEM62" ["e"=1]
+"PIGN" -> "ALG9" ["e"=1]
+"PIGN" -> "ERMP1" ["e"=1]
+"PIGO" -> "PIGG" ["e"=1]
+"PIGO" -> "GPAA1" ["e"=1]
+"PIGO" -> "PIGN" ["e"=1]
+"PIGO" -> "PIGZ" ["e"=1]
+"PIGQ" -> "SPPL2B" ["e"=1]
+"PIGQ" -> "STRA6" ["e"=1]
+"PIGQ" -> "TMEM181" ["e"=1]
+"PIGQ" -> "TMEM82" ["e"=1]
+"PIGZ" -> "POMT2" ["e"=1]
+"PIGZ" -> "TMEM260" ["e"=1]
+"PIGZ" -> "ALG9" ["e"=1]
+"PIGZ" -> "TMTC4" ["e"=1]
+"POMT1" -> "POMT2" ["e"=1]
+"POMT1" -> "ALG9" ["e"=1]
+"POMT1" -> "DPY19L1" ["e"=1]
+"POMT1" -> "PIGG" ["e"=1]
+"POMT2" -> "POMT1" ["e"=1]
+"POMT2" -> "ERMP1" ["e"=1]
+"POMT2" -> "ALG9" ["e"=1]
+"POMT2" -> "SPPL2B" ["e"=1]
+"RNF145" -> "ALG9" ["e"=1]
+"RNF145" -> "SLC30A6" ["e"=1]
+"RNF145" -> "DPY19L1" ["e"=1]
+"RNF145" -> "DPY19L4" ["e"=1]
+"SEC22A" -> "TMEM62" ["e"=1]
+"SEC22A" -> "TMEM82" ["e"=1]
+"SEC22A" -> "SIDT1" ["e"=1]
+"SEC22A" -> "POMT2" ["e"=1]
+"SIDT1" -> "SIDT2" ["e"=1]
+"SIDT1" -> "GPR107" ["e"=1]
+"SIDT1" -> "TM9SF4" ["e"=1]
+"SIDT1" -> "TMEM87A" ["e"=1]
+"SIDT2" -> "SIDT1" ["e"=1]
+"SIDT2" -> "GPR107" ["e"=1]
+"SIDT2" -> "TM9SF4" ["e"=1]
+"SIDT2" -> "SPPL2B" ["e"=1]
+"SLC30A6" -> "RNF145" ["e"=1]
+"SLC30A6" -> "DPY19L2" ["e"=1]
+"SLC30A6" -> "TMTC3" ["e"=1]
+"SLC30A6" -> "ALG9" ["e"=1]
+"SLC44A1" -> "TMEM181" ["e"=1]
+"SLC44A1" -> "POMT2" ["e"=1]
+"SLC44A1" -> "SPPL2B" ["e"=1]
+"SLC44A1" -> "TM9SF4" ["e"=1]
+"SPPL2A" -> "TM9SF3" ["e"=1]
+"SPPL2A" -> "SPPL2B" ["e"=1]
+"SPPL2A" -> "TM9SF4" ["e"=1]
+"SPPL2A" -> "TM9SF2" ["e"=1]
+"SPPL2B" -> "TM9SF4" ["e"=1]
+"SPPL2B" -> "POMT2" ["e"=1]
+"SPPL2B" -> "PIGG" ["e"=1]
+"SPPL2B" -> "HGSNAT" ["e"=1]
+"STRA6" -> "PIGQ" ["e"=1]
+"STRA6" -> "TMEM82" ["e"=1]
+"STRA6" -> "SPPL2B" ["e"=1]
+"STRA6" -> "LMF2" ["e"=1]
+"STT3A" -> "STT3B" ["e"=1]
+"STT3A" -> "POMT2" ["e"=1]
+"STT3A" -> "ALG9" ["e"=1]
+"STT3A" -> "DPY19L1" ["e"=1]
+"STT3B" -> "STT3A" ["e"=1]
+"STT3B" -> "POMT2" ["e"=1]
+"STT3B" -> "ALG9" ["e"=1]
+"STT3B" -> "DPY19L1" ["e"=1]
+"TAPT1" -> "TMEM184C" ["e"=1]
+"TAPT1" -> "TMEM87A" ["e"=1]
+"TAPT1" -> "TMEM87B" ["e"=1]
+"TAPT1" -> "DPY19L2" ["e"=1]
+"TM9SF1" -> "TM9SF4" ["e"=1]
+"TM9SF1" -> "TM9SF2" ["e"=1]
+"TM9SF1" -> "TM9SF3" ["e"=1]
+"TM9SF1" -> "SPPL2B" ["e"=1]
+"TM9SF2" -> "TM9SF3" ["e"=1]
+"TM9SF2" -> "TM9SF4" ["e"=1]
+"TM9SF2" -> "TM9SF1" ["e"=1]
+"TM9SF2" -> "TMEM87B" ["e"=1]
+"TM9SF3" -> "TM9SF2" ["e"=1]
+"TM9SF3" -> "TM9SF4" ["e"=1]
+"TM9SF3" -> "SPPL2A" ["e"=1]
+"TM9SF3" -> "SPPL2B" ["e"=1]
+"TM9SF4" -> "TM9SF2" ["e"=1]
+"TM9SF4" -> "SPPL2B" ["e"=1]
+"TM9SF4" -> "GPR107" ["e"=1]
+"TM9SF4" -> "TM9SF3" ["e"=1]
+"TMEM145" -> "TMEM259" ["e"=1]
+"TMEM145" -> "TMEM87A" ["e"=1]
+"TMEM145" -> "SPPL2B" ["e"=1]
+"TMEM145" -> "SIDT1" ["e"=1]
+"TMEM181" -> "TMEM87B" ["e"=1]
+"TMEM181" -> "SLC44A1" ["e"=1]
+"TMEM181" -> "GPR107" ["e"=1]
+"TMEM181" -> "HGSNAT" ["e"=1]
+"TMEM184C" -> "TAPT1" ["e"=1]
+"TMEM184C" -> "XPR1" ["e"=1]
+"TMEM184C" -> "PIGB" ["e"=1]
+"TMEM184C" -> "GGCX" ["e"=1]
+"TMEM245" -> "POMT2" ["e"=1]
+"TMEM245" -> "GGCX" ["e"=1]
+"TMEM245" -> "ERMP1" ["e"=1]
+"TMEM245" -> "SLC44A1" ["e"=1]
+"TMEM259" -> "TMEM145" ["e"=1]
+"TMEM259" -> "SPPL2B" ["e"=1]
+"TMEM259" -> "TAPT1" ["e"=1]
+"TMEM259" -> "TMEM87A" ["e"=1]
+"TMEM260" -> "TMTC4" ["e"=1]
+"TMEM260" -> "DPY19L1" ["e"=1]
+"TMEM260" -> "TMTC3" ["e"=1]
+"TMEM260" -> "DPY19L4" ["e"=1]
+"TMEM62" -> "PIGN" ["e"=1]
+"TMEM62" -> "PIGB" ["e"=1]
+"TMEM62" -> "PIGG" ["e"=1]
+"TMEM62" -> "POMT2" ["e"=1]
+"TMEM82" -> "STRA6" ["e"=1]
+"TMEM82" -> "SEC22A" ["e"=1]
+"TMEM82" -> "SPPL2B" ["e"=1]
+"TMEM82" -> "GPAA1" ["e"=1]
+"TMEM87A" -> "TMEM87B" ["e"=1]
+"TMEM87A" -> "GPR108" ["e"=1]
+"TMEM87A" -> "GPR107" ["e"=1]
+"TMEM87A" -> "SIDT1" ["e"=1]
+"TMEM87B" -> "TMEM87A" ["e"=1]
+"TMEM87B" -> "TMEM181" ["e"=1]
+"TMEM87B" -> "GPR107" ["e"=1]
+"TMEM87B" -> "SIDT1" ["e"=1]
+"TMTC1" -> "TMTC2" ["e"=1]
+"TMTC1" -> "TMTC4" ["e"=1]
+"TMTC1" -> "TMTC3" ["e"=1]
+"TMTC1" -> "DPY19L1" ["e"=1]
+"TMTC2" -> "TMTC4" ["e"=1]
+"TMTC2" -> "TMTC1" ["e"=1]
+"TMTC2" -> "TMTC3" ["e"=1]
+"TMTC2" -> "TMEM260" ["e"=1]
+"TMTC3" -> "TMTC4" ["e"=1]
+"TMTC3" -> "TMTC2" ["e"=1]
+"TMTC3" -> "TMEM260" ["e"=1]
+"TMTC3" -> "TMTC1" ["e"=1]
+"TMTC4" -> "TMTC2" ["e"=1]
+"TMTC4" -> "TMTC3" ["e"=1]
+"TMTC4" -> "TMEM260" ["e"=1]
+"TMTC4" -> "DPY19L1" ["e"=1]
+"XPR1" -> "TMEM184C" ["e"=1]
+"XPR1" -> "DPY19L1" ["e"=1]
+"XPR1" -> "TM9SF4" ["e"=1]
+"XPR1" -> "TMEM181" ["e"=1]
+"ZDHHC13" -> "TMEM62" ["e"=1]
+"ZDHHC13" -> "SEC22A" ["e"=1]
+"ZDHHC13" -> "FRRS1" ["e"=1]
+"ZDHHC13" -> "PIGN" ["e"=1]
 }

@@ -48,200 +48,200 @@ digraph G {
 "RHOQ" ["l"="7.579,-7.057"]
 "RIT1" ["l"="7.602,-7.035"]
 "RRAS" ["l"="7.627,-7.015"]
-"ARF4" -> "RAB1A"
-"ARF4" -> "ARL8B"
-"ARF4" -> "RAN"
-"ARF4" -> "RAB19"
-"ARF6" -> "RAP2B"
-"ARF6" -> "ARL5B"
-"ARF6" -> "ARL8B"
-"ARF6" -> "RAB22A"
-"ARL11" -> "RAB17"
-"ARL11" -> "RAB29"
-"ARL11" -> "RAB7B"
-"ARL11" -> "RHOJ"
-"ARL17B" -> "RAB6C"
-"ARL17B" -> "RAB19"
-"ARL17B" -> "RAB43"
-"ARL17B" -> "ARL5C"
-"ARL2" -> "ARL5A"
-"ARL2" -> "RAB43"
-"ARL2" -> "ARL8A"
-"ARL2" -> "RAB7B"
-"ARL5A" -> "ARL5B"
-"ARL5A" -> "RAB43"
-"ARL5A" -> "RAB19"
-"ARL5A" -> "ARL2"
-"ARL5B" -> "ARL5A"
-"ARL5B" -> "RAB33B"
-"ARL5B" -> "RAB29"
-"ARL5B" -> "RAB22A"
-"ARL5C" -> "RAB19"
-"ARL5C" -> "ARL5A"
-"ARL5C" -> "RAB43"
-"ARL5C" -> "ARL2"
-"ARL8A" -> "ARL8B"
-"ARL8A" -> "RAB14"
-"ARL8A" -> "ARL5A"
-"ARL8A" -> "ARL5B"
-"ARL8B" -> "ARL8A"
-"ARL8B" -> "RAP1A"
-"ARL8B" -> "RAB14"
-"ARL8B" -> "RAB22A"
-"HRAS" -> "KRAS"
-"HRAS" -> "RALA"
-"HRAS" -> "RAP2A"
-"HRAS" -> "RAB15"
-"KRAS" -> "RALA"
-"KRAS" -> "RAP1A"
-"KRAS" -> "RALB"
-"KRAS" -> "RAP2A"
-"RAB12" -> "RAB43"
-"RAB12" -> "RAB22A"
-"RAB12" -> "RAB15"
-"RAB12" -> "RAB18"
-"RAB14" -> "RAB22A"
-"RAB14" -> "RAB18"
-"RAB14" -> "RAB4A"
-"RAB14" -> "RAB43"
-"RAB15" -> "RAB43"
-"RAB15" -> "RAB19"
-"RAB15" -> "RAB39A"
-"RAB15" -> "RAP1A"
-"RAB17" -> "RAB29"
-"RAB17" -> "ARL11"
-"RAB17" -> "RAB43"
-"RAB17" -> "RAB37"
-"RAB18" -> "RAP1A"
-"RAB18" -> "RAB22A"
-"RAB18" -> "RAB14"
-"RAB18" -> "RAB43"
-"RAB19" -> "RAB43"
-"RAB19" -> "RAB39A"
-"RAB19" -> "RAB15"
-"RAB19" -> "RAB7B"
-"RAB1A" -> "RAB14"
-"RAB1A" -> "RAP1A"
-"RAB1A" -> "RAB18"
-"RAB1A" -> "KRAS"
-"RAB22A" -> "RAB18"
-"RAB22A" -> "RAB14"
-"RAB22A" -> "RAB33B"
-"RAB22A" -> "RAB43"
-"RAB25" -> "RHOD"
-"RAB25" -> "RAB43"
-"RAB25" -> "RAB19"
-"RAB25" -> "RAB4B"
-"RAB26" -> "RAB37"
-"RAB26" -> "RAB17"
-"RAB26" -> "RAB19"
-"RAB26" -> "ARL5A"
-"RAB27B" -> "RAB14"
-"RAB27B" -> "RAB31"
-"RAB27B" -> "RAB3D"
-"RAB27B" -> "RAB29"
-"RAB29" -> "RAB39A"
-"RAB29" -> "RAB43"
-"RAB29" -> "RAB7B"
-"RAB29" -> "RAB15"
-"RAB31" -> "RAB43"
-"RAB31" -> "RAB7B"
-"RAB31" -> "RAB22A"
-"RAB31" -> "RAB37"
-"RAB33B" -> "RAB39A"
-"RAB33B" -> "RAB43"
-"RAB33B" -> "RAB22A"
-"RAB33B" -> "RAP2A"
-"RAB37" -> "RAB43"
-"RAB37" -> "RAB31"
-"RAB37" -> "ARL5A"
-"RAB37" -> "RAB19"
-"RAB39A" -> "RAB43"
-"RAB39A" -> "RAB33B"
-"RAB39A" -> "RAB29"
-"RAB39A" -> "RAB19"
-"RAB3D" -> "RAB43"
-"RAB3D" -> "RAB19"
-"RAB3D" -> "RAB29"
-"RAB3D" -> "RAB4A"
-"RAB42" -> "RAB33B"
-"RAB42" -> "RAB39A"
-"RAB42" -> "RAB43"
-"RAB42" -> "RAB31"
-"RAB43" -> "RAB3D"
-"RAB43" -> "RAB19"
-"RAB43" -> "RAB39A"
-"RAB43" -> "RAB15"
-"RAB4A" -> "RAB43"
-"RAB4A" -> "RAB14"
-"RAB4A" -> "RAB4B"
-"RAB4A" -> "RAB3D"
-"RAB4B" -> "RAB43"
-"RAB4B" -> "RAB4A"
-"RAB4B" -> "RAB3D"
-"RAB4B" -> "RAB14"
-"RAB6C" -> "RAB14"
-"RAB6C" -> "ARL17B"
-"RAB6C" -> "RAB33B"
-"RAB6C" -> "RAB43"
-"RAB7B" -> "RAB31"
-"RAB7B" -> "RAB19"
-"RAB7B" -> "RAB29"
-"RAB7B" -> "RAB39A"
-"RALA" -> "RALB"
-"RALA" -> "KRAS"
-"RALA" -> "RAP1A"
-"RALA" -> "RAB15"
-"RALB" -> "RALA"
-"RALB" -> "KRAS"
-"RALB" -> "RAP1A"
-"RALB" -> "RHOF"
-"RAN" -> "RAP2A"
-"RAN" -> "RHEB"
-"RAN" -> "ARF6"
-"RAN" -> "RAB19"
-"RAP1A" -> "RAB18"
-"RAP1A" -> "KRAS"
-"RAP1A" -> "ARL8B"
-"RAP1A" -> "RAP2A"
-"RAP2A" -> "KRAS"
-"RAP2A" -> "RHOQ"
-"RAP2A" -> "RAP2B"
-"RAP2A" -> "RAB33B"
-"RAP2B" -> "RAP2A"
-"RAP2B" -> "RAP1A"
-"RAP2B" -> "ARF6"
-"RAP2B" -> "KRAS"
-"RHEB" -> "ARL5A"
-"RHEB" -> "RAB43"
-"RHEB" -> "RAB18"
-"RHEB" -> "RAP2A"
-"RHOB" -> "RAP2A"
-"RHOB" -> "RAP2B"
-"RHOB" -> "KRAS"
-"RHOB" -> "RHOQ"
-"RHOD" -> "RAB43"
-"RHOD" -> "RHOF"
-"RHOD" -> "RAB29"
-"RHOD" -> "RAB22A"
-"RHOF" -> "RAB43"
-"RHOF" -> "RAB29"
-"RHOF" -> "RAB15"
-"RHOF" -> "RHOD"
-"RHOJ" -> "RHOQ"
-"RHOJ" -> "RHOF"
-"RHOJ" -> "RAB7B"
-"RHOJ" -> "RAB42"
-"RHOQ" -> "RAP2A"
-"RHOQ" -> "RAB43"
-"RHOQ" -> "RHOJ"
-"RHOQ" -> "RAB14"
-"RIT1" -> "KRAS"
-"RIT1" -> "RAP1A"
-"RIT1" -> "RALB"
-"RIT1" -> "RAB33B"
-"RRAS" -> "RHOD"
-"RRAS" -> "HRAS"
-"RRAS" -> "RAB17"
-"RRAS" -> "RAB43"
+"ARF4" -> "RAB1A" ["e"=1]
+"ARF4" -> "ARL8B" ["e"=1]
+"ARF4" -> "RAN" ["e"=1]
+"ARF4" -> "RAB19" ["e"=1]
+"ARF6" -> "RAP2B" ["e"=1]
+"ARF6" -> "ARL5B" ["e"=1]
+"ARF6" -> "ARL8B" ["e"=1]
+"ARF6" -> "RAB22A" ["e"=1]
+"ARL11" -> "RAB17" ["e"=1]
+"ARL11" -> "RAB29" ["e"=1]
+"ARL11" -> "RAB7B" ["e"=1]
+"ARL11" -> "RHOJ" ["e"=1]
+"ARL17B" -> "RAB6C" ["e"=1]
+"ARL17B" -> "RAB19" ["e"=1]
+"ARL17B" -> "RAB43" ["e"=1]
+"ARL17B" -> "ARL5C" ["e"=1]
+"ARL2" -> "ARL5A" ["e"=1]
+"ARL2" -> "RAB43" ["e"=1]
+"ARL2" -> "ARL8A" ["e"=1]
+"ARL2" -> "RAB7B" ["e"=1]
+"ARL5A" -> "ARL5B" ["e"=1]
+"ARL5A" -> "RAB43" ["e"=1]
+"ARL5A" -> "RAB19" ["e"=1]
+"ARL5A" -> "ARL2" ["e"=1]
+"ARL5B" -> "ARL5A" ["e"=1]
+"ARL5B" -> "RAB33B" ["e"=1]
+"ARL5B" -> "RAB29" ["e"=1]
+"ARL5B" -> "RAB22A" ["e"=1]
+"ARL5C" -> "RAB19" ["e"=1]
+"ARL5C" -> "ARL5A" ["e"=1]
+"ARL5C" -> "RAB43" ["e"=1]
+"ARL5C" -> "ARL2" ["e"=1]
+"ARL8A" -> "ARL8B" ["e"=1]
+"ARL8A" -> "RAB14" ["e"=1]
+"ARL8A" -> "ARL5A" ["e"=1]
+"ARL8A" -> "ARL5B" ["e"=1]
+"ARL8B" -> "ARL8A" ["e"=1]
+"ARL8B" -> "RAP1A" ["e"=1]
+"ARL8B" -> "RAB14" ["e"=1]
+"ARL8B" -> "RAB22A" ["e"=1]
+"HRAS" -> "KRAS" ["e"=1]
+"HRAS" -> "RALA" ["e"=1]
+"HRAS" -> "RAP2A" ["e"=1]
+"HRAS" -> "RAB15" ["e"=1]
+"KRAS" -> "RALA" ["e"=1]
+"KRAS" -> "RAP1A" ["e"=1]
+"KRAS" -> "RALB" ["e"=1]
+"KRAS" -> "RAP2A" ["e"=1]
+"RAB12" -> "RAB43" ["e"=1]
+"RAB12" -> "RAB22A" ["e"=1]
+"RAB12" -> "RAB15" ["e"=1]
+"RAB12" -> "RAB18" ["e"=1]
+"RAB14" -> "RAB22A" ["e"=1]
+"RAB14" -> "RAB18" ["e"=1]
+"RAB14" -> "RAB4A" ["e"=1]
+"RAB14" -> "RAB43" ["e"=1]
+"RAB15" -> "RAB43" ["e"=1]
+"RAB15" -> "RAB19" ["e"=1]
+"RAB15" -> "RAB39A" ["e"=1]
+"RAB15" -> "RAP1A" ["e"=1]
+"RAB17" -> "RAB29" ["e"=1]
+"RAB17" -> "ARL11" ["e"=1]
+"RAB17" -> "RAB43" ["e"=1]
+"RAB17" -> "RAB37" ["e"=1]
+"RAB18" -> "RAP1A" ["e"=1]
+"RAB18" -> "RAB22A" ["e"=1]
+"RAB18" -> "RAB14" ["e"=1]
+"RAB18" -> "RAB43" ["e"=1]
+"RAB19" -> "RAB43" ["e"=1]
+"RAB19" -> "RAB39A" ["e"=1]
+"RAB19" -> "RAB15" ["e"=1]
+"RAB19" -> "RAB7B" ["e"=1]
+"RAB1A" -> "RAB14" ["e"=1]
+"RAB1A" -> "RAP1A" ["e"=1]
+"RAB1A" -> "RAB18" ["e"=1]
+"RAB1A" -> "KRAS" ["e"=1]
+"RAB22A" -> "RAB18" ["e"=1]
+"RAB22A" -> "RAB14" ["e"=1]
+"RAB22A" -> "RAB33B" ["e"=1]
+"RAB22A" -> "RAB43" ["e"=1]
+"RAB25" -> "RHOD" ["e"=1]
+"RAB25" -> "RAB43" ["e"=1]
+"RAB25" -> "RAB19" ["e"=1]
+"RAB25" -> "RAB4B" ["e"=1]
+"RAB26" -> "RAB37" ["e"=1]
+"RAB26" -> "RAB17" ["e"=1]
+"RAB26" -> "RAB19" ["e"=1]
+"RAB26" -> "ARL5A" ["e"=1]
+"RAB27B" -> "RAB14" ["e"=1]
+"RAB27B" -> "RAB31" ["e"=1]
+"RAB27B" -> "RAB3D" ["e"=1]
+"RAB27B" -> "RAB29" ["e"=1]
+"RAB29" -> "RAB39A" ["e"=1]
+"RAB29" -> "RAB43" ["e"=1]
+"RAB29" -> "RAB7B" ["e"=1]
+"RAB29" -> "RAB15" ["e"=1]
+"RAB31" -> "RAB43" ["e"=1]
+"RAB31" -> "RAB7B" ["e"=1]
+"RAB31" -> "RAB22A" ["e"=1]
+"RAB31" -> "RAB37" ["e"=1]
+"RAB33B" -> "RAB39A" ["e"=1]
+"RAB33B" -> "RAB43" ["e"=1]
+"RAB33B" -> "RAB22A" ["e"=1]
+"RAB33B" -> "RAP2A" ["e"=1]
+"RAB37" -> "RAB43" ["e"=1]
+"RAB37" -> "RAB31" ["e"=1]
+"RAB37" -> "ARL5A" ["e"=1]
+"RAB37" -> "RAB19" ["e"=1]
+"RAB39A" -> "RAB43" ["e"=1]
+"RAB39A" -> "RAB33B" ["e"=1]
+"RAB39A" -> "RAB29" ["e"=1]
+"RAB39A" -> "RAB19" ["e"=1]
+"RAB3D" -> "RAB43" ["e"=1]
+"RAB3D" -> "RAB19" ["e"=1]
+"RAB3D" -> "RAB29" ["e"=1]
+"RAB3D" -> "RAB4A" ["e"=1]
+"RAB42" -> "RAB33B" ["e"=1]
+"RAB42" -> "RAB39A" ["e"=1]
+"RAB42" -> "RAB43" ["e"=1]
+"RAB42" -> "RAB31" ["e"=1]
+"RAB43" -> "RAB3D" ["e"=1]
+"RAB43" -> "RAB19" ["e"=1]
+"RAB43" -> "RAB39A" ["e"=1]
+"RAB43" -> "RAB15" ["e"=1]
+"RAB4A" -> "RAB43" ["e"=1]
+"RAB4A" -> "RAB14" ["e"=1]
+"RAB4A" -> "RAB4B" ["e"=1]
+"RAB4A" -> "RAB3D" ["e"=1]
+"RAB4B" -> "RAB43" ["e"=1]
+"RAB4B" -> "RAB4A" ["e"=1]
+"RAB4B" -> "RAB3D" ["e"=1]
+"RAB4B" -> "RAB14" ["e"=1]
+"RAB6C" -> "RAB14" ["e"=1]
+"RAB6C" -> "ARL17B" ["e"=1]
+"RAB6C" -> "RAB33B" ["e"=1]
+"RAB6C" -> "RAB43" ["e"=1]
+"RAB7B" -> "RAB31" ["e"=1]
+"RAB7B" -> "RAB19" ["e"=1]
+"RAB7B" -> "RAB29" ["e"=1]
+"RAB7B" -> "RAB39A" ["e"=1]
+"RALA" -> "RALB" ["e"=1]
+"RALA" -> "KRAS" ["e"=1]
+"RALA" -> "RAP1A" ["e"=1]
+"RALA" -> "RAB15" ["e"=1]
+"RALB" -> "RALA" ["e"=1]
+"RALB" -> "KRAS" ["e"=1]
+"RALB" -> "RAP1A" ["e"=1]
+"RALB" -> "RHOF" ["e"=1]
+"RAN" -> "RAP2A" ["e"=1]
+"RAN" -> "RHEB" ["e"=1]
+"RAN" -> "ARF6" ["e"=1]
+"RAN" -> "RAB19" ["e"=1]
+"RAP1A" -> "RAB18" ["e"=1]
+"RAP1A" -> "KRAS" ["e"=1]
+"RAP1A" -> "ARL8B" ["e"=1]
+"RAP1A" -> "RAP2A" ["e"=1]
+"RAP2A" -> "KRAS" ["e"=1]
+"RAP2A" -> "RHOQ" ["e"=1]
+"RAP2A" -> "RAP2B" ["e"=1]
+"RAP2A" -> "RAB33B" ["e"=1]
+"RAP2B" -> "RAP2A" ["e"=1]
+"RAP2B" -> "RAP1A" ["e"=1]
+"RAP2B" -> "ARF6" ["e"=1]
+"RAP2B" -> "KRAS" ["e"=1]
+"RHEB" -> "ARL5A" ["e"=1]
+"RHEB" -> "RAB43" ["e"=1]
+"RHEB" -> "RAB18" ["e"=1]
+"RHEB" -> "RAP2A" ["e"=1]
+"RHOB" -> "RAP2A" ["e"=1]
+"RHOB" -> "RAP2B" ["e"=1]
+"RHOB" -> "KRAS" ["e"=1]
+"RHOB" -> "RHOQ" ["e"=1]
+"RHOD" -> "RAB43" ["e"=1]
+"RHOD" -> "RHOF" ["e"=1]
+"RHOD" -> "RAB29" ["e"=1]
+"RHOD" -> "RAB22A" ["e"=1]
+"RHOF" -> "RAB43" ["e"=1]
+"RHOF" -> "RAB29" ["e"=1]
+"RHOF" -> "RAB15" ["e"=1]
+"RHOF" -> "RHOD" ["e"=1]
+"RHOJ" -> "RHOQ" ["e"=1]
+"RHOJ" -> "RHOF" ["e"=1]
+"RHOJ" -> "RAB7B" ["e"=1]
+"RHOJ" -> "RAB42" ["e"=1]
+"RHOQ" -> "RAP2A" ["e"=1]
+"RHOQ" -> "RAB43" ["e"=1]
+"RHOQ" -> "RHOJ" ["e"=1]
+"RHOQ" -> "RAB14" ["e"=1]
+"RIT1" -> "KRAS" ["e"=1]
+"RIT1" -> "RAP1A" ["e"=1]
+"RIT1" -> "RALB" ["e"=1]
+"RIT1" -> "RAB33B" ["e"=1]
+"RRAS" -> "RHOD" ["e"=1]
+"RRAS" -> "HRAS" ["e"=1]
+"RRAS" -> "RAB17" ["e"=1]
+"RRAS" -> "RAB43" ["e"=1]
 }

@@ -84,344 +84,344 @@ digraph G {
 "TRIP11" ["l"="7.447,0.216"]
 "TSGA10" ["l"="7.394,0.314"]
 "UACA" ["l"="7.441,0.193"]
-"ANKRD24" -> "ANKRD35"
-"ANKRD24" -> "FYCO1"
-"ANKRD24" -> "NINL"
-"ANKRD24" -> "RAI14"
-"ANKRD35" -> "ANKRD24"
-"ANKRD35" -> "RAI14"
-"ANKRD35" -> "FYCO1"
-"ANKRD35" -> "NINL"
-"CALCOCO1" -> "GOLGA2"
-"CALCOCO1" -> "FYCO1"
-"CALCOCO1" -> "CNTROB"
-"CALCOCO1" -> "CCDC89"
-"CCDC102B" -> "MIPOL1"
-"CCDC102B" -> "CCDC186"
-"CCDC102B" -> "DEUP1"
-"CCDC102B" -> "ODF2L"
-"CCDC136" -> "FAM184B"
-"CCDC136" -> "PMFBP1"
-"CCDC136" -> "CEP128"
-"CCDC136" -> "NINL"
-"CCDC150" -> "PMFBP1"
-"CCDC150" -> "CEP112"
-"CCDC150" -> "CCDC18"
-"CCDC150" -> "CEP83"
-"CCDC152" -> "CEP55"
-"CCDC152" -> "CNTLN"
-"CCDC152" -> "MIPOL1"
-"CCDC152" -> "CEP63"
-"CCDC158" -> "CEP128"
-"CCDC158" -> "CCDC171"
-"CCDC158" -> "CEP135"
-"CCDC158" -> "CEP83"
-"CCDC171" -> "CEP128"
-"CCDC171" -> "CCDC150"
-"CCDC171" -> "CEP63"
-"CCDC171" -> "CEP83"
-"CCDC18" -> "CCDC150"
-"CCDC18" -> "PMFBP1"
-"CCDC18" -> "SCLT1"
-"CCDC18" -> "SYCP1"
-"CCDC186" -> "TMF1"
-"CCDC186" -> "CCDC102B"
-"CCDC186" -> "CEP63"
-"CCDC186" -> "RABEP1"
-"CCDC192" -> "LEKR1"
-"CCDC192" -> "CCDC102B"
-"CCDC192" -> "CCDC91"
-"CCDC192" -> "CEP63"
-"CCDC30" -> "DEUP1"
-"CCDC30" -> "CEP152"
-"CCDC30" -> "SDCCAG8"
-"CCDC30" -> "FAM184B"
-"CCDC57" -> "FAM184B"
-"CCDC57" -> "MAD1L1"
-"CCDC57" -> "NINL"
-"CCDC57" -> "CCHCR1"
-"CCDC88B" -> "FYCO1"
-"CCDC88B" -> "CCHCR1"
-"CCDC88B" -> "FAM184B"
-"CCDC88B" -> "CROCC"
-"CCDC88C" -> "CDK5RAP2"
-"CCDC88C" -> "NINL"
-"CCDC88C" -> "NIN"
-"CCDC88C" -> "GOLGA3"
-"CCDC89" -> "CCDC150"
-"CCDC89" -> "MAD1L1"
-"CCDC89" -> "FAM184B"
-"CCDC89" -> "ODF2L"
-"CCDC91" -> "RABEP1"
-"CCDC91" -> "CCDC192"
-"CCDC91" -> "GOLGA1"
-"CCDC91" -> "ODF2L"
-"CCHCR1" -> "CROCC2"
-"CCHCR1" -> "FAM184B"
-"CCHCR1" -> "MAD1L1"
-"CCHCR1" -> "CNTROB"
-"CDK5RAP2" -> "PDE4DIP"
-"CDK5RAP2" -> "PCNT"
-"CDK5RAP2" -> "CCDC88C"
-"CDK5RAP2" -> "CEP152"
-"CENPE" -> "CENPF"
-"CENPE" -> "KIF20B"
-"CENPE" -> "HMMR"
-"CENPE" -> "KIF15"
-"CENPF" -> "CENPE"
-"CENPF" -> "KIF20B"
-"CENPF" -> "HMMR"
-"CENPF" -> "GOLGB1"
-"CEP112" -> "CEP83"
-"CEP112" -> "CCDC150"
-"CEP112" -> "FAM184A"
-"CEP112" -> "CEP128"
-"CEP128" -> "CEP135"
-"CEP128" -> "CEP83"
-"CEP128" -> "CCDC171"
-"CEP128" -> "CCDC158"
-"CEP135" -> "CEP128"
-"CEP135" -> "CEP83"
-"CEP135" -> "CCDC171"
-"CEP135" -> "CCDC150"
-"CEP152" -> "CCDC171"
-"CEP152" -> "CCDC30"
-"CEP152" -> "CNTLN"
-"CEP152" -> "DEUP1"
-"CEP162" -> "TMF1"
-"CEP162" -> "LRRCC1"
-"CEP162" -> "CEP83"
-"CEP162" -> "CCDC186"
-"CEP290" -> "CNTRL"
-"CEP290" -> "CCDC171"
-"CEP290" -> "TPR"
-"CEP290" -> "TRIP11"
-"CEP55" -> "SPDL1"
-"CEP55" -> "HMMR"
-"CEP55" -> "DEUP1"
-"CEP55" -> "CCDC186"
-"CEP63" -> "DEUP1"
-"CEP63" -> "CCDC171"
-"CEP63" -> "SDCCAG8"
-"CEP63" -> "CEP135"
-"CEP70" -> "DEUP1"
-"CEP70" -> "CEP63"
-"CEP70" -> "CCDC171"
-"CEP70" -> "CNTLN"
-"CEP83" -> "SCLT1"
-"CEP83" -> "CEP112"
-"CEP83" -> "FAM184A"
-"CEP83" -> "CEP135"
-"CGN" -> "CGNL1"
-"CGN" -> "GOLGA3"
-"CGN" -> "CROCC"
-"CGN" -> "CROCC2"
-"CGNL1" -> "GOLGA3"
-"CGNL1" -> "CGN"
-"CGNL1" -> "CEP128"
-"CGNL1" -> "MAD1L1"
-"CNTLN" -> "CCDC171"
-"CNTLN" -> "DEUP1"
-"CNTLN" -> "CEP152"
-"CNTLN" -> "CEP135"
-"CNTRL" -> "CEP290"
-"CNTRL" -> "CCDC171"
-"CNTRL" -> "CEP135"
-"CNTRL" -> "TPR"
-"CNTROB" -> "CALCOCO1"
-"CNTROB" -> "CCHCR1"
-"CNTROB" -> "NINL"
-"CNTROB" -> "FBF1"
-"CROCC" -> "CROCC2"
-"CROCC" -> "CNTRL"
-"CROCC" -> "GOLGA3"
-"CROCC" -> "CEP128"
-"CROCC2" -> "CROCC"
-"CROCC2" -> "PMFBP1"
-"CROCC2" -> "CCHCR1"
-"CROCC2" -> "GOLGA3"
-"DEUP1" -> "CEP63"
-"DEUP1" -> "CCDC102B"
-"DEUP1" -> "CCDC30"
-"DEUP1" -> "SPDL1"
-"EEA1" -> "TRIP11"
-"EEA1" -> "GOLGA1"
-"EEA1" -> "CCDC186"
-"EEA1" -> "CCDC171"
-"FAM184A" -> "CEP83"
-"FAM184A" -> "CEP112"
-"FAM184A" -> "CCDC171"
-"FAM184A" -> "PMFBP1"
-"FAM184B" -> "PMFBP1"
-"FAM184B" -> "FAM184A"
-"FAM184B" -> "GOLGA2"
-"FAM184B" -> "GOLGA3"
-"FBF1" -> "GOLGA3"
-"FBF1" -> "CCHCR1"
-"FBF1" -> "MAD1L1"
-"FBF1" -> "GOLGA2"
-"FHAD1" -> "CCDC30"
-"FHAD1" -> "PMFBP1"
-"FHAD1" -> "CNTRL"
-"FHAD1" -> "CDK5RAP2"
-"FYCO1" -> "NUMA1"
-"FYCO1" -> "NINL"
-"FYCO1" -> "CALCOCO1"
-"FYCO1" -> "ANKRD24"
-"GCC2" -> "TRIP11"
-"GCC2" -> "GOLGB1"
-"GCC2" -> "GOLGA4"
-"GCC2" -> "EEA1"
-"GOLGA1" -> "RABEP1"
-"GOLGA1" -> "GOLGA2"
-"GOLGA1" -> "GOLGA3"
-"GOLGA1" -> "EEA1"
-"GOLGA2" -> "GOLGA3"
-"GOLGA2" -> "RABEP1"
-"GOLGA2" -> "GOLGA1"
-"GOLGA2" -> "FAM184B"
-"GOLGA3" -> "GOLGA2"
-"GOLGA3" -> "CGNL1"
-"GOLGA3" -> "RABEP1"
-"GOLGA3" -> "FAM184B"
-"GOLGA4" -> "TRIP11"
-"GOLGA4" -> "GOLGB1"
-"GOLGA4" -> "GCC2"
-"GOLGA4" -> "EEA1"
-"GOLGA5" -> "TMF1"
-"GOLGA5" -> "CCDC186"
-"GOLGA5" -> "GOLGA3"
-"GOLGA5" -> "GOLGA2"
-"GOLGB1" -> "TRIP11"
-"GOLGB1" -> "GOLGA4"
-"GOLGB1" -> "GCC2"
-"GOLGB1" -> "PCNT"
-"HMMR" -> "CEP55"
-"HMMR" -> "KIF15"
-"HMMR" -> "CENPE"
-"HMMR" -> "CCDC18"
-"KIF15" -> "HMMR"
-"KIF15" -> "KIF20B"
-"KIF15" -> "CEP55"
-"KIF15" -> "LRRCC1"
-"KIF20B" -> "CENPF"
-"KIF20B" -> "CENPE"
-"KIF20B" -> "KIF15"
-"KIF20B" -> "HMMR"
-"KTN1" -> "EEA1"
-"KTN1" -> "RABEP1"
-"KTN1" -> "GOLGA1"
-"KTN1" -> "SYCP1"
-"LEKR1" -> "CEP83"
-"LEKR1" -> "ODF2L"
-"LEKR1" -> "CEP152"
-"LEKR1" -> "CEP63"
-"LRRC45" -> "CCHCR1"
-"LRRC45" -> "CCDC89"
-"LRRC45" -> "CROCC2"
-"LRRC45" -> "ODF2L"
-"LRRCC1" -> "CCDC150"
-"LRRCC1" -> "CEP162"
-"LRRCC1" -> "CEP152"
-"LRRCC1" -> "CEP83"
-"MAD1L1" -> "RABEP1"
-"MAD1L1" -> "CCDC89"
-"MAD1L1" -> "GOLGA1"
-"MAD1L1" -> "CCDC57"
-"MIPOL1" -> "CCDC102B"
-"MIPOL1" -> "CCDC171"
-"MIPOL1" -> "SDCCAG8"
-"MIPOL1" -> "CEP63"
-"NIN" -> "PCNT"
-"NIN" -> "PDE4DIP"
-"NIN" -> "NINL"
-"NIN" -> "CEP152"
-"NINL" -> "NIN"
-"NINL" -> "PCNT"
-"NINL" -> "FAM184B"
-"NINL" -> "GOLGA3"
-"NUMA1" -> "FYCO1"
-"NUMA1" -> "CROCC"
-"NUMA1" -> "GOLGA4"
-"NUMA1" -> "CCDC88C"
-"ODF2" -> "CEP112"
-"ODF2" -> "CCDC150"
-"ODF2" -> "CEP135"
-"ODF2" -> "CEP83"
-"ODF2L" -> "CCDC150"
-"ODF2L" -> "SDCCAG8"
-"ODF2L" -> "CCDC171"
-"ODF2L" -> "CCDC102B"
-"PCNT" -> "CDK5RAP2"
-"PCNT" -> "PDE4DIP"
-"PCNT" -> "GOLGB1"
-"PCNT" -> "NIN"
-"PDE4DIP" -> "CDK5RAP2"
-"PDE4DIP" -> "PCNT"
-"PDE4DIP" -> "NIN"
-"PDE4DIP" -> "NINL"
-"PIBF1" -> "SCLT1"
-"PIBF1" -> "CEP83"
-"PIBF1" -> "CEP135"
-"PIBF1" -> "CCDC171"
-"PLVAP" -> "CALCOCO1"
-"PLVAP" -> "MAD1L1"
-"PLVAP" -> "CCDC89"
-"PLVAP" -> "FAM184B"
-"PMFBP1" -> "CCDC150"
-"PMFBP1" -> "CCDC18"
-"PMFBP1" -> "FAM184B"
-"PMFBP1" -> "CEP128"
-"RABEP1" -> "GOLGA1"
-"RABEP1" -> "GOLGA2"
-"RABEP1" -> "GOLGA3"
-"RABEP1" -> "CCDC186"
-"RAI14" -> "UACA"
-"RAI14" -> "GOLGA3"
-"RAI14" -> "FAM184B"
-"RAI14" -> "NINL"
-"RB1CC1" -> "TRIP11"
-"RB1CC1" -> "KIF20B"
-"RB1CC1" -> "FYCO1"
-"RB1CC1" -> "NIN"
-"RRBP1" -> "GOLGA2"
-"RRBP1" -> "TMF1"
-"RRBP1" -> "GOLGA3"
-"RRBP1" -> "RAI14"
-"SCLT1" -> "CEP83"
-"SCLT1" -> "PIBF1"
-"SCLT1" -> "CCDC150"
-"SCLT1" -> "CEP112"
-"SDCCAG8" -> "CCDC150"
-"SDCCAG8" -> "ODF2L"
-"SDCCAG8" -> "CEP128"
-"SDCCAG8" -> "CCDC171"
-"SPDL1" -> "CEP55"
-"SPDL1" -> "DEUP1"
-"SPDL1" -> "CEP135"
-"SPDL1" -> "CEP63"
-"SYCP1" -> "ODF2L"
-"SYCP1" -> "CCDC18"
-"SYCP1" -> "CCDC150"
-"SYCP1" -> "HMMR"
-"TMF1" -> "CCDC186"
-"TMF1" -> "GOLGA5"
-"TMF1" -> "CEP162"
-"TMF1" -> "GOLGA3"
-"TPR" -> "CEP290"
-"TPR" -> "CNTRL"
-"TPR" -> "TMF1"
-"TPR" -> "CDK5RAP2"
-"TRIP11" -> "GCC2"
-"TRIP11" -> "GOLGB1"
-"TRIP11" -> "GOLGA4"
-"TRIP11" -> "EEA1"
-"TSGA10" -> "CEP135"
-"TSGA10" -> "CCDC171"
-"TSGA10" -> "CEP83"
-"TSGA10" -> "SCLT1"
-"UACA" -> "RAI14"
-"UACA" -> "TRIP11"
-"UACA" -> "GOLGA4"
-"UACA" -> "GCC2"
+"ANKRD24" -> "ANKRD35" ["e"=1]
+"ANKRD24" -> "FYCO1" ["e"=1]
+"ANKRD24" -> "NINL" ["e"=1]
+"ANKRD24" -> "RAI14" ["e"=1]
+"ANKRD35" -> "ANKRD24" ["e"=1]
+"ANKRD35" -> "RAI14" ["e"=1]
+"ANKRD35" -> "FYCO1" ["e"=1]
+"ANKRD35" -> "NINL" ["e"=1]
+"CALCOCO1" -> "GOLGA2" ["e"=1]
+"CALCOCO1" -> "FYCO1" ["e"=1]
+"CALCOCO1" -> "CNTROB" ["e"=1]
+"CALCOCO1" -> "CCDC89" ["e"=1]
+"CCDC102B" -> "MIPOL1" ["e"=1]
+"CCDC102B" -> "CCDC186" ["e"=1]
+"CCDC102B" -> "DEUP1" ["e"=1]
+"CCDC102B" -> "ODF2L" ["e"=1]
+"CCDC136" -> "FAM184B" ["e"=1]
+"CCDC136" -> "PMFBP1" ["e"=1]
+"CCDC136" -> "CEP128" ["e"=1]
+"CCDC136" -> "NINL" ["e"=1]
+"CCDC150" -> "PMFBP1" ["e"=1]
+"CCDC150" -> "CEP112" ["e"=1]
+"CCDC150" -> "CCDC18" ["e"=1]
+"CCDC150" -> "CEP83" ["e"=1]
+"CCDC152" -> "CEP55" ["e"=1]
+"CCDC152" -> "CNTLN" ["e"=1]
+"CCDC152" -> "MIPOL1" ["e"=1]
+"CCDC152" -> "CEP63" ["e"=1]
+"CCDC158" -> "CEP128" ["e"=1]
+"CCDC158" -> "CCDC171" ["e"=1]
+"CCDC158" -> "CEP135" ["e"=1]
+"CCDC158" -> "CEP83" ["e"=1]
+"CCDC171" -> "CEP128" ["e"=1]
+"CCDC171" -> "CCDC150" ["e"=1]
+"CCDC171" -> "CEP63" ["e"=1]
+"CCDC171" -> "CEP83" ["e"=1]
+"CCDC18" -> "CCDC150" ["e"=1]
+"CCDC18" -> "PMFBP1" ["e"=1]
+"CCDC18" -> "SCLT1" ["e"=1]
+"CCDC18" -> "SYCP1" ["e"=1]
+"CCDC186" -> "TMF1" ["e"=1]
+"CCDC186" -> "CCDC102B" ["e"=1]
+"CCDC186" -> "CEP63" ["e"=1]
+"CCDC186" -> "RABEP1" ["e"=1]
+"CCDC192" -> "LEKR1" ["e"=1]
+"CCDC192" -> "CCDC102B" ["e"=1]
+"CCDC192" -> "CCDC91" ["e"=1]
+"CCDC192" -> "CEP63" ["e"=1]
+"CCDC30" -> "DEUP1" ["e"=1]
+"CCDC30" -> "CEP152" ["e"=1]
+"CCDC30" -> "SDCCAG8" ["e"=1]
+"CCDC30" -> "FAM184B" ["e"=1]
+"CCDC57" -> "FAM184B" ["e"=1]
+"CCDC57" -> "MAD1L1" ["e"=1]
+"CCDC57" -> "NINL" ["e"=1]
+"CCDC57" -> "CCHCR1" ["e"=1]
+"CCDC88B" -> "FYCO1" ["e"=1]
+"CCDC88B" -> "CCHCR1" ["e"=1]
+"CCDC88B" -> "FAM184B" ["e"=1]
+"CCDC88B" -> "CROCC" ["e"=1]
+"CCDC88C" -> "CDK5RAP2" ["e"=1]
+"CCDC88C" -> "NINL" ["e"=1]
+"CCDC88C" -> "NIN" ["e"=1]
+"CCDC88C" -> "GOLGA3" ["e"=1]
+"CCDC89" -> "CCDC150" ["e"=1]
+"CCDC89" -> "MAD1L1" ["e"=1]
+"CCDC89" -> "FAM184B" ["e"=1]
+"CCDC89" -> "ODF2L" ["e"=1]
+"CCDC91" -> "RABEP1" ["e"=1]
+"CCDC91" -> "CCDC192" ["e"=1]
+"CCDC91" -> "GOLGA1" ["e"=1]
+"CCDC91" -> "ODF2L" ["e"=1]
+"CCHCR1" -> "CROCC2" ["e"=1]
+"CCHCR1" -> "FAM184B" ["e"=1]
+"CCHCR1" -> "MAD1L1" ["e"=1]
+"CCHCR1" -> "CNTROB" ["e"=1]
+"CDK5RAP2" -> "PDE4DIP" ["e"=1]
+"CDK5RAP2" -> "PCNT" ["e"=1]
+"CDK5RAP2" -> "CCDC88C" ["e"=1]
+"CDK5RAP2" -> "CEP152" ["e"=1]
+"CENPE" -> "CENPF" ["e"=1]
+"CENPE" -> "KIF20B" ["e"=1]
+"CENPE" -> "HMMR" ["e"=1]
+"CENPE" -> "KIF15" ["e"=1]
+"CENPF" -> "CENPE" ["e"=1]
+"CENPF" -> "KIF20B" ["e"=1]
+"CENPF" -> "HMMR" ["e"=1]
+"CENPF" -> "GOLGB1" ["e"=1]
+"CEP112" -> "CEP83" ["e"=1]
+"CEP112" -> "CCDC150" ["e"=1]
+"CEP112" -> "FAM184A" ["e"=1]
+"CEP112" -> "CEP128" ["e"=1]
+"CEP128" -> "CEP135" ["e"=1]
+"CEP128" -> "CEP83" ["e"=1]
+"CEP128" -> "CCDC171" ["e"=1]
+"CEP128" -> "CCDC158" ["e"=1]
+"CEP135" -> "CEP128" ["e"=1]
+"CEP135" -> "CEP83" ["e"=1]
+"CEP135" -> "CCDC171" ["e"=1]
+"CEP135" -> "CCDC150" ["e"=1]
+"CEP152" -> "CCDC171" ["e"=1]
+"CEP152" -> "CCDC30" ["e"=1]
+"CEP152" -> "CNTLN" ["e"=1]
+"CEP152" -> "DEUP1" ["e"=1]
+"CEP162" -> "TMF1" ["e"=1]
+"CEP162" -> "LRRCC1" ["e"=1]
+"CEP162" -> "CEP83" ["e"=1]
+"CEP162" -> "CCDC186" ["e"=1]
+"CEP290" -> "CNTRL" ["e"=1]
+"CEP290" -> "CCDC171" ["e"=1]
+"CEP290" -> "TPR" ["e"=1]
+"CEP290" -> "TRIP11" ["e"=1]
+"CEP55" -> "SPDL1" ["e"=1]
+"CEP55" -> "HMMR" ["e"=1]
+"CEP55" -> "DEUP1" ["e"=1]
+"CEP55" -> "CCDC186" ["e"=1]
+"CEP63" -> "DEUP1" ["e"=1]
+"CEP63" -> "CCDC171" ["e"=1]
+"CEP63" -> "SDCCAG8" ["e"=1]
+"CEP63" -> "CEP135" ["e"=1]
+"CEP70" -> "DEUP1" ["e"=1]
+"CEP70" -> "CEP63" ["e"=1]
+"CEP70" -> "CCDC171" ["e"=1]
+"CEP70" -> "CNTLN" ["e"=1]
+"CEP83" -> "SCLT1" ["e"=1]
+"CEP83" -> "CEP112" ["e"=1]
+"CEP83" -> "FAM184A" ["e"=1]
+"CEP83" -> "CEP135" ["e"=1]
+"CGN" -> "CGNL1" ["e"=1]
+"CGN" -> "GOLGA3" ["e"=1]
+"CGN" -> "CROCC" ["e"=1]
+"CGN" -> "CROCC2" ["e"=1]
+"CGNL1" -> "GOLGA3" ["e"=1]
+"CGNL1" -> "CGN" ["e"=1]
+"CGNL1" -> "CEP128" ["e"=1]
+"CGNL1" -> "MAD1L1" ["e"=1]
+"CNTLN" -> "CCDC171" ["e"=1]
+"CNTLN" -> "DEUP1" ["e"=1]
+"CNTLN" -> "CEP152" ["e"=1]
+"CNTLN" -> "CEP135" ["e"=1]
+"CNTRL" -> "CEP290" ["e"=1]
+"CNTRL" -> "CCDC171" ["e"=1]
+"CNTRL" -> "CEP135" ["e"=1]
+"CNTRL" -> "TPR" ["e"=1]
+"CNTROB" -> "CALCOCO1" ["e"=1]
+"CNTROB" -> "CCHCR1" ["e"=1]
+"CNTROB" -> "NINL" ["e"=1]
+"CNTROB" -> "FBF1" ["e"=1]
+"CROCC" -> "CROCC2" ["e"=1]
+"CROCC" -> "CNTRL" ["e"=1]
+"CROCC" -> "GOLGA3" ["e"=1]
+"CROCC" -> "CEP128" ["e"=1]
+"CROCC2" -> "CROCC" ["e"=1]
+"CROCC2" -> "PMFBP1" ["e"=1]
+"CROCC2" -> "CCHCR1" ["e"=1]
+"CROCC2" -> "GOLGA3" ["e"=1]
+"DEUP1" -> "CEP63" ["e"=1]
+"DEUP1" -> "CCDC102B" ["e"=1]
+"DEUP1" -> "CCDC30" ["e"=1]
+"DEUP1" -> "SPDL1" ["e"=1]
+"EEA1" -> "TRIP11" ["e"=1]
+"EEA1" -> "GOLGA1" ["e"=1]
+"EEA1" -> "CCDC186" ["e"=1]
+"EEA1" -> "CCDC171" ["e"=1]
+"FAM184A" -> "CEP83" ["e"=1]
+"FAM184A" -> "CEP112" ["e"=1]
+"FAM184A" -> "CCDC171" ["e"=1]
+"FAM184A" -> "PMFBP1" ["e"=1]
+"FAM184B" -> "PMFBP1" ["e"=1]
+"FAM184B" -> "FAM184A" ["e"=1]
+"FAM184B" -> "GOLGA2" ["e"=1]
+"FAM184B" -> "GOLGA3" ["e"=1]
+"FBF1" -> "GOLGA3" ["e"=1]
+"FBF1" -> "CCHCR1" ["e"=1]
+"FBF1" -> "MAD1L1" ["e"=1]
+"FBF1" -> "GOLGA2" ["e"=1]
+"FHAD1" -> "CCDC30" ["e"=1]
+"FHAD1" -> "PMFBP1" ["e"=1]
+"FHAD1" -> "CNTRL" ["e"=1]
+"FHAD1" -> "CDK5RAP2" ["e"=1]
+"FYCO1" -> "NUMA1" ["e"=1]
+"FYCO1" -> "NINL" ["e"=1]
+"FYCO1" -> "CALCOCO1" ["e"=1]
+"FYCO1" -> "ANKRD24" ["e"=1]
+"GCC2" -> "TRIP11" ["e"=1]
+"GCC2" -> "GOLGB1" ["e"=1]
+"GCC2" -> "GOLGA4" ["e"=1]
+"GCC2" -> "EEA1" ["e"=1]
+"GOLGA1" -> "RABEP1" ["e"=1]
+"GOLGA1" -> "GOLGA2" ["e"=1]
+"GOLGA1" -> "GOLGA3" ["e"=1]
+"GOLGA1" -> "EEA1" ["e"=1]
+"GOLGA2" -> "GOLGA3" ["e"=1]
+"GOLGA2" -> "RABEP1" ["e"=1]
+"GOLGA2" -> "GOLGA1" ["e"=1]
+"GOLGA2" -> "FAM184B" ["e"=1]
+"GOLGA3" -> "GOLGA2" ["e"=1]
+"GOLGA3" -> "CGNL1" ["e"=1]
+"GOLGA3" -> "RABEP1" ["e"=1]
+"GOLGA3" -> "FAM184B" ["e"=1]
+"GOLGA4" -> "TRIP11" ["e"=1]
+"GOLGA4" -> "GOLGB1" ["e"=1]
+"GOLGA4" -> "GCC2" ["e"=1]
+"GOLGA4" -> "EEA1" ["e"=1]
+"GOLGA5" -> "TMF1" ["e"=1]
+"GOLGA5" -> "CCDC186" ["e"=1]
+"GOLGA5" -> "GOLGA3" ["e"=1]
+"GOLGA5" -> "GOLGA2" ["e"=1]
+"GOLGB1" -> "TRIP11" ["e"=1]
+"GOLGB1" -> "GOLGA4" ["e"=1]
+"GOLGB1" -> "GCC2" ["e"=1]
+"GOLGB1" -> "PCNT" ["e"=1]
+"HMMR" -> "CEP55" ["e"=1]
+"HMMR" -> "KIF15" ["e"=1]
+"HMMR" -> "CENPE" ["e"=1]
+"HMMR" -> "CCDC18" ["e"=1]
+"KIF15" -> "HMMR" ["e"=1]
+"KIF15" -> "KIF20B" ["e"=1]
+"KIF15" -> "CEP55" ["e"=1]
+"KIF15" -> "LRRCC1" ["e"=1]
+"KIF20B" -> "CENPF" ["e"=1]
+"KIF20B" -> "CENPE" ["e"=1]
+"KIF20B" -> "KIF15" ["e"=1]
+"KIF20B" -> "HMMR" ["e"=1]
+"KTN1" -> "EEA1" ["e"=1]
+"KTN1" -> "RABEP1" ["e"=1]
+"KTN1" -> "GOLGA1" ["e"=1]
+"KTN1" -> "SYCP1" ["e"=1]
+"LEKR1" -> "CEP83" ["e"=1]
+"LEKR1" -> "ODF2L" ["e"=1]
+"LEKR1" -> "CEP152" ["e"=1]
+"LEKR1" -> "CEP63" ["e"=1]
+"LRRC45" -> "CCHCR1" ["e"=1]
+"LRRC45" -> "CCDC89" ["e"=1]
+"LRRC45" -> "CROCC2" ["e"=1]
+"LRRC45" -> "ODF2L" ["e"=1]
+"LRRCC1" -> "CCDC150" ["e"=1]
+"LRRCC1" -> "CEP162" ["e"=1]
+"LRRCC1" -> "CEP152" ["e"=1]
+"LRRCC1" -> "CEP83" ["e"=1]
+"MAD1L1" -> "RABEP1" ["e"=1]
+"MAD1L1" -> "CCDC89" ["e"=1]
+"MAD1L1" -> "GOLGA1" ["e"=1]
+"MAD1L1" -> "CCDC57" ["e"=1]
+"MIPOL1" -> "CCDC102B" ["e"=1]
+"MIPOL1" -> "CCDC171" ["e"=1]
+"MIPOL1" -> "SDCCAG8" ["e"=1]
+"MIPOL1" -> "CEP63" ["e"=1]
+"NIN" -> "PCNT" ["e"=1]
+"NIN" -> "PDE4DIP" ["e"=1]
+"NIN" -> "NINL" ["e"=1]
+"NIN" -> "CEP152" ["e"=1]
+"NINL" -> "NIN" ["e"=1]
+"NINL" -> "PCNT" ["e"=1]
+"NINL" -> "FAM184B" ["e"=1]
+"NINL" -> "GOLGA3" ["e"=1]
+"NUMA1" -> "FYCO1" ["e"=1]
+"NUMA1" -> "CROCC" ["e"=1]
+"NUMA1" -> "GOLGA4" ["e"=1]
+"NUMA1" -> "CCDC88C" ["e"=1]
+"ODF2" -> "CEP112" ["e"=1]
+"ODF2" -> "CCDC150" ["e"=1]
+"ODF2" -> "CEP135" ["e"=1]
+"ODF2" -> "CEP83" ["e"=1]
+"ODF2L" -> "CCDC150" ["e"=1]
+"ODF2L" -> "SDCCAG8" ["e"=1]
+"ODF2L" -> "CCDC171" ["e"=1]
+"ODF2L" -> "CCDC102B" ["e"=1]
+"PCNT" -> "CDK5RAP2" ["e"=1]
+"PCNT" -> "PDE4DIP" ["e"=1]
+"PCNT" -> "GOLGB1" ["e"=1]
+"PCNT" -> "NIN" ["e"=1]
+"PDE4DIP" -> "CDK5RAP2" ["e"=1]
+"PDE4DIP" -> "PCNT" ["e"=1]
+"PDE4DIP" -> "NIN" ["e"=1]
+"PDE4DIP" -> "NINL" ["e"=1]
+"PIBF1" -> "SCLT1" ["e"=1]
+"PIBF1" -> "CEP83" ["e"=1]
+"PIBF1" -> "CEP135" ["e"=1]
+"PIBF1" -> "CCDC171" ["e"=1]
+"PLVAP" -> "CALCOCO1" ["e"=1]
+"PLVAP" -> "MAD1L1" ["e"=1]
+"PLVAP" -> "CCDC89" ["e"=1]
+"PLVAP" -> "FAM184B" ["e"=1]
+"PMFBP1" -> "CCDC150" ["e"=1]
+"PMFBP1" -> "CCDC18" ["e"=1]
+"PMFBP1" -> "FAM184B" ["e"=1]
+"PMFBP1" -> "CEP128" ["e"=1]
+"RABEP1" -> "GOLGA1" ["e"=1]
+"RABEP1" -> "GOLGA2" ["e"=1]
+"RABEP1" -> "GOLGA3" ["e"=1]
+"RABEP1" -> "CCDC186" ["e"=1]
+"RAI14" -> "UACA" ["e"=1]
+"RAI14" -> "GOLGA3" ["e"=1]
+"RAI14" -> "FAM184B" ["e"=1]
+"RAI14" -> "NINL" ["e"=1]
+"RB1CC1" -> "TRIP11" ["e"=1]
+"RB1CC1" -> "KIF20B" ["e"=1]
+"RB1CC1" -> "FYCO1" ["e"=1]
+"RB1CC1" -> "NIN" ["e"=1]
+"RRBP1" -> "GOLGA2" ["e"=1]
+"RRBP1" -> "TMF1" ["e"=1]
+"RRBP1" -> "GOLGA3" ["e"=1]
+"RRBP1" -> "RAI14" ["e"=1]
+"SCLT1" -> "CEP83" ["e"=1]
+"SCLT1" -> "PIBF1" ["e"=1]
+"SCLT1" -> "CCDC150" ["e"=1]
+"SCLT1" -> "CEP112" ["e"=1]
+"SDCCAG8" -> "CCDC150" ["e"=1]
+"SDCCAG8" -> "ODF2L" ["e"=1]
+"SDCCAG8" -> "CEP128" ["e"=1]
+"SDCCAG8" -> "CCDC171" ["e"=1]
+"SPDL1" -> "CEP55" ["e"=1]
+"SPDL1" -> "DEUP1" ["e"=1]
+"SPDL1" -> "CEP135" ["e"=1]
+"SPDL1" -> "CEP63" ["e"=1]
+"SYCP1" -> "ODF2L" ["e"=1]
+"SYCP1" -> "CCDC18" ["e"=1]
+"SYCP1" -> "CCDC150" ["e"=1]
+"SYCP1" -> "HMMR" ["e"=1]
+"TMF1" -> "CCDC186" ["e"=1]
+"TMF1" -> "GOLGA5" ["e"=1]
+"TMF1" -> "CEP162" ["e"=1]
+"TMF1" -> "GOLGA3" ["e"=1]
+"TPR" -> "CEP290" ["e"=1]
+"TPR" -> "CNTRL" ["e"=1]
+"TPR" -> "TMF1" ["e"=1]
+"TPR" -> "CDK5RAP2" ["e"=1]
+"TRIP11" -> "GCC2" ["e"=1]
+"TRIP11" -> "GOLGB1" ["e"=1]
+"TRIP11" -> "GOLGA4" ["e"=1]
+"TRIP11" -> "EEA1" ["e"=1]
+"TSGA10" -> "CEP135" ["e"=1]
+"TSGA10" -> "CCDC171" ["e"=1]
+"TSGA10" -> "CEP83" ["e"=1]
+"TSGA10" -> "SCLT1" ["e"=1]
+"UACA" -> "RAI14" ["e"=1]
+"UACA" -> "TRIP11" ["e"=1]
+"UACA" -> "GOLGA4" ["e"=1]
+"UACA" -> "GCC2" ["e"=1]
 }

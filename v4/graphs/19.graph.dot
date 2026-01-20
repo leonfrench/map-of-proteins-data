@@ -259,1044 +259,1044 @@ digraph G {
 "TRHR" ["l"="0.511,-2.367"]
 "UTS2R" ["l"="0.463,-2.499"]
 "XCR1" ["l"="0.131,-2.361"]
-"ACKR1" -> "C5AR2"
-"ACKR1" -> "GPR148"
-"ACKR1" -> "CCR10"
-"ACKR1" -> "GPBAR1"
-"ACKR2" -> "ACKR4"
-"ACKR2" -> "CCR6"
-"ACKR2" -> "CCRL2"
-"ACKR2" -> "CCR2"
-"ACKR3" -> "PROKR2"
-"ACKR3" -> "CXCR4"
-"ACKR3" -> "PROKR1"
-"ACKR3" -> "NPY4R"
-"ACKR4" -> "OXGR1"
-"ACKR4" -> "CCR9"
-"ACKR4" -> "ACKR2"
-"ACKR4" -> "CYSLTR2"
-"ADORA1" -> "ADORA2B"
-"ADORA1" -> "ADORA3"
-"ADORA1" -> "OPRL1"
-"ADORA1" -> "MC1R"
-"ADORA2A" -> "SSTR4"
-"ADORA2A" -> "SSTR3"
-"ADORA2A" -> "GALR2"
-"ADORA2A" -> "MTNR1B"
-"ADORA2B" -> "MTNR1B"
-"ADORA2B" -> "GHSR"
-"ADORA2B" -> "MTNR1A"
-"ADORA2B" -> "PROKR1"
-"ADORA3" -> "ADORA1"
-"ADORA3" -> "MC1R"
-"ADORA3" -> "LPAR3"
-"ADORA3" -> "ADORA2B"
-"ADRA1A" -> "ADRA1B"
-"ADRA1A" -> "DRD1"
-"ADRA1A" -> "HTR7"
-"ADRA1A" -> "HTR4"
-"ADRA1B" -> "ADRA1A"
-"ADRA1B" -> "ADRA1D"
-"ADRA1B" -> "HTR7"
-"ADRA1B" -> "DRD1"
-"ADRA1D" -> "HTR7"
-"ADRA1D" -> "ADRA1B"
-"ADRA1D" -> "SSTR1"
-"ADRA1D" -> "ADRA2A"
-"ADRA2A" -> "ADRA2C"
-"ADRA2A" -> "ADRA2B"
-"ADRA2A" -> "HTR1A"
-"ADRA2A" -> "CHRM1"
-"ADRA2B" -> "CHRM1"
-"ADRA2B" -> "ADRA2A"
-"ADRA2B" -> "CHRM4"
-"ADRA2B" -> "HTR1A"
-"ADRA2C" -> "ADRA2A"
-"ADRA2C" -> "HRH3"
-"ADRA2C" -> "ADRB1"
-"ADRA2C" -> "HTR1A"
-"ADRB1" -> "SSTR1"
-"ADRB1" -> "SSTR4"
-"ADRB1" -> "OXTR"
-"ADRB1" -> "HTR6"
-"ADRB2" -> "DRD1"
-"ADRB2" -> "GPR45"
-"ADRB2" -> "NPY4R"
-"ADRB2" -> "HTR1A"
-"ADRB3" -> "SSTR3"
-"ADRB3" -> "SSTR5"
-"ADRB3" -> "AVPR1B"
-"ADRB3" -> "HTR5A"
-"AGTR1" -> "F2RL1"
-"AGTR1" -> "P2RY12"
-"AGTR1" -> "GPR65"
-"AGTR1" -> "GPR183"
-"APLNR" -> "GPR182"
-"APLNR" -> "CXCR5"
-"APLNR" -> "ACKR2"
-"APLNR" -> "HCAR1"
-"AVPR1A" -> "OXTR"
-"AVPR1A" -> "PTGER4"
-"AVPR1A" -> "GHSR"
-"AVPR1A" -> "P2RY1"
-"AVPR1B" -> "NMUR1"
-"AVPR1B" -> "UTS2R"
-"AVPR1B" -> "MLNR"
-"AVPR1B" -> "NTSR2"
-"BDKRB1" -> "HCAR2"
-"BDKRB1" -> "NPY4R"
-"BDKRB1" -> "BDKRB2"
-"BDKRB1" -> "HCAR3"
-"BDKRB2" -> "CYSLTR2"
-"BDKRB2" -> "S1PR3"
-"BDKRB2" -> "S1PR2"
-"BDKRB2" -> "CXCR5"
-"C3AR1" -> "HCAR3"
-"C3AR1" -> "HRH4"
-"C3AR1" -> "PTAFR"
-"C3AR1" -> "HCAR2"
-"C5AR1" -> "FPR2"
-"C5AR1" -> "FPR1"
-"C5AR1" -> "CMKLR1"
-"C5AR1" -> "CCR9"
-"C5AR2" -> "MRGPRE"
-"C5AR2" -> "CXCR5"
-"C5AR2" -> "CNR2"
-"C5AR2" -> "C5AR1"
-"CCKAR" -> "HTR7"
-"CCKAR" -> "CCKBR"
-"CCKAR" -> "HTR4"
-"CCKAR" -> "HRH3"
-"CCKBR" -> "HTR6"
-"CCKBR" -> "CCKAR"
-"CCKBR" -> "ADRB3"
-"CCKBR" -> "HTR5A"
-"CCR1" -> "CCR5"
-"CCR1" -> "CCR2"
-"CCR1" -> "CX3CR1"
-"CCR1" -> "FPR3"
-"CCR10" -> "GPR25"
-"CCR10" -> "P2RY11"
-"CCR10" -> "LTB4R2"
-"CCR10" -> "MRGPRE"
-"CCR2" -> "CCR5"
-"CCR2" -> "CCR1"
-"CCR2" -> "CCR4"
-"CCR2" -> "CXCR6"
-"CCR3" -> "CCR4"
-"CCR3" -> "PROKR2"
-"CCR3" -> "CCR9"
-"CCR3" -> "PROKR1"
-"CCR4" -> "CCR2"
-"CCR4" -> "CCR9"
-"CCR4" -> "CCR5"
-"CCR4" -> "CCR8"
-"CCR5" -> "CCR2"
-"CCR5" -> "CCR1"
-"CCR5" -> "CCR4"
-"CCR5" -> "PTAFR"
-"CCR6" -> "CXCR6"
-"CCR6" -> "CCR8"
-"CCR6" -> "CCR2"
-"CCR6" -> "CCR5"
-"CCR7" -> "CCR8"
-"CCR7" -> "CXCR5"
-"CCR7" -> "CXCR6"
-"CCR7" -> "CCR6"
-"CCR8" -> "CXCR6"
-"CCR8" -> "CCR4"
-"CCR8" -> "CCR6"
-"CCR8" -> "CCR7"
-"CCR9" -> "CCR4"
-"CCR9" -> "CXCR6"
-"CCR9" -> "CCR6"
-"CCR9" -> "CCR3"
-"CCRL2" -> "CXCR6"
-"CCRL2" -> "CCR8"
-"CCRL2" -> "ACKR2"
-"CCRL2" -> "ACKR4"
-"CHRM1" -> "ADRA2B"
-"CHRM1" -> "CHRM4"
-"CHRM1" -> "HRH3"
-"CHRM1" -> "HTR1A"
-"CHRM2" -> "CHRM3"
-"CHRM2" -> "CHRM4"
-"CHRM2" -> "CHRM1"
-"CHRM2" -> "CHRM5"
-"CHRM3" -> "CHRM4"
-"CHRM3" -> "CHRM5"
-"CHRM3" -> "CHRM2"
-"CHRM3" -> "DRD2"
-"CHRM4" -> "CHRM5"
-"CHRM4" -> "CHRM1"
-"CHRM4" -> "ADRA2B"
-"CHRM4" -> "CHRM3"
-"CHRM5" -> "CHRM4"
-"CHRM5" -> "CHRM3"
-"CHRM5" -> "CHRM1"
-"CHRM5" -> "DRD3"
-"CMKLR1" -> "FPR3"
-"CMKLR1" -> "C5AR1"
-"CMKLR1" -> "CCR1"
-"CMKLR1" -> "CCR9"
-"CNR1" -> "LPAR3"
-"CNR1" -> "S1PR1"
-"CNR1" -> "S1PR3"
-"CNR1" -> "PROKR1"
-"CNR2" -> "S1PR2"
-"CNR2" -> "LPAR3"
-"CNR2" -> "UTS2R"
-"CNR2" -> "MRGPRE"
-"CX3CR1" -> "CCR1"
-"CX3CR1" -> "CCR5"
-"CX3CR1" -> "P2RY12"
-"CX3CR1" -> "CCR3"
-"CXCR1" -> "CXCR2"
-"CXCR1" -> "CCR2"
-"CXCR1" -> "FPR2"
-"CXCR1" -> "CCR1"
-"CXCR2" -> "CXCR1"
-"CXCR2" -> "CXCR6"
-"CXCR2" -> "CCR4"
-"CXCR2" -> "CCR2"
-"CXCR4" -> "ACKR3"
-"CXCR4" -> "CCR7"
-"CXCR4" -> "PROKR2"
-"CXCR4" -> "NPY4R2"
-"CXCR5" -> "GPR42"
-"CXCR5" -> "CCR7"
-"CXCR5" -> "HCAR3"
-"CXCR5" -> "BDKRB2"
-"CXCR6" -> "CCR6"
-"CXCR6" -> "CCR8"
-"CXCR6" -> "CCR2"
-"CXCR6" -> "CCR4"
-"CYSLTR2" -> "P2RY12"
-"CYSLTR2" -> "P2RY1"
-"CYSLTR2" -> "BDKRB2"
-"CYSLTR2" -> "OXGR1"
-"DRD1" -> "DRD5"
-"DRD1" -> "HRH2"
-"DRD1" -> "TRHR"
-"DRD1" -> "HTR6"
-"DRD2" -> "DRD3"
-"DRD2" -> "CHRM4"
-"DRD2" -> "HTR4"
-"DRD2" -> "HTR7"
-"DRD3" -> "DRD2"
-"DRD3" -> "HTR7"
-"DRD3" -> "HTR4"
-"DRD3" -> "CHRM5"
-"DRD4" -> "CCKBR"
-"DRD4" -> "ADRB3"
-"DRD4" -> "ADRA2C"
-"DRD4" -> "ADRB1"
-"DRD5" -> "DRD1"
-"DRD5" -> "HTR7"
-"DRD5" -> "NTSR1"
-"DRD5" -> "SSTR2"
-"EDNRA" -> "EDNRB"
-"EDNRA" -> "PROKR2"
-"EDNRA" -> "GPR83"
-"EDNRA" -> "PROKR1"
-"EDNRB" -> "EDNRA"
-"EDNRB" -> "PTGFR"
-"EDNRB" -> "NMBR"
-"EDNRB" -> "GPR83"
-"F2R" -> "F2RL2"
-"F2R" -> "P2RY1"
-"F2R" -> "F2RL1"
-"F2R" -> "PROKR2"
-"F2RL1" -> "F2R"
-"F2RL1" -> "AGTR1"
-"F2RL1" -> "GPR15"
-"F2RL1" -> "F2RL2"
-"F2RL2" -> "F2R"
-"F2RL2" -> "SUCNR1"
-"F2RL2" -> "F2RL1"
-"F2RL2" -> "OXGR1"
-"F2RL3" -> "UTS2R"
-"F2RL3" -> "MRGPRE"
-"F2RL3" -> "GPR78"
-"F2RL3" -> "CNR2"
-"FFAR1" -> "P2RY11"
-"FFAR1" -> "OXER1"
-"FFAR1" -> "GPBAR1"
-"FFAR1" -> "UTS2R"
-"FFAR2" -> "GPR42"
-"FFAR2" -> "GPR35"
-"FFAR2" -> "FFAR3"
-"FFAR2" -> "GPR4"
-"FFAR3" -> "GPR42"
-"FFAR3" -> "FFAR2"
-"FFAR3" -> "GPR35"
-"FFAR3" -> "PTGDR2"
-"FFAR4" -> "OPN3"
-"FFAR4" -> "PTGDR"
-"FFAR4" -> "NTSR2"
-"FFAR4" -> "GHSR"
-"FPR1" -> "FPR2"
-"FPR1" -> "FPR3"
-"FPR1" -> "C5AR1"
-"FPR1" -> "CXCR2"
-"FPR2" -> "FPR1"
-"FPR2" -> "FPR3"
-"FPR2" -> "C5AR1"
-"FPR2" -> "CXCR1"
-"FPR3" -> "FPR2"
-"FPR3" -> "CCR1"
-"FPR3" -> "CMKLR1"
-"FPR3" -> "FPR1"
-"GALR1" -> "NTSR1"
-"GALR1" -> "GHSR"
-"GALR1" -> "HRH2"
-"GALR1" -> "NMBR"
-"GALR2" -> "SSTR5"
-"GALR2" -> "GALR3"
-"GALR2" -> "SSTR4"
-"GALR2" -> "TACR2"
-"GALR3" -> "SSTR3"
-"GALR3" -> "GALR2"
-"GALR3" -> "KISS1R"
-"GALR3" -> "SSTR5"
-"GHSR" -> "NTSR1"
-"GHSR" -> "MTNR1B"
-"GHSR" -> "NMUR1"
-"GHSR" -> "SSTR1"
-"GNRHR" -> "PTGFR"
-"GNRHR" -> "EDNRA"
-"GNRHR" -> "HRH4"
-"GNRHR" -> "FFAR4"
-"GPBAR1" -> "FFAR1"
-"GPBAR1" -> "LTB4R2"
-"GPBAR1" -> "GPR62"
-"GPBAR1" -> "P2RY11"
-"GPER1" -> "GPR20"
-"GPER1" -> "PROKR1"
-"GPER1" -> "GHSR"
-"GPER1" -> "GPR35"
-"GPR12" -> "GPR3"
-"GPR12" -> "MC1R"
-"GPR12" -> "HTR4"
-"GPR12" -> "MC2R"
-"GPR132" -> "GPR35"
-"GPR132" -> "FFAR2"
-"GPR132" -> "PTGDR2"
-"GPR132" -> "GPR15"
-"GPR135" -> "OXTR"
-"GPR135" -> "NTSR2"
-"GPR135" -> "NTSR1"
-"GPR135" -> "MTNR1B"
-"GPR139" -> "GPR83"
-"GPR139" -> "GHSR"
-"GPR139" -> "TRHR"
-"GPR139" -> "MTNR1B"
-"GPR141" -> "PTGDR"
-"GPR141" -> "GPR55"
-"GPR141" -> "XCR1"
-"GPR141" -> "P2RY12"
-"GPR142" -> "MCHR1"
-"GPR142" -> "OXER1"
-"GPR142" -> "PROKR1"
-"GPR142" -> "GPR20"
-"GPR146" -> "P2RY11"
-"GPR146" -> "GPR31"
-"GPR146" -> "C5AR2"
-"GPR146" -> "PTGDR2"
-"GPR148" -> "GPR52"
-"GPR148" -> "GPR55"
-"GPR148" -> "MTNR1A"
-"GPR148" -> "OXER1"
-"GPR149" -> "CNR1"
-"GPR149" -> "PTGER4"
-"GPR149" -> "GPR161"
-"GPR149" -> "GPR176"
-"GPR15" -> "CCR9"
-"GPR15" -> "GPR65"
-"GPR15" -> "CCR4"
-"GPR15" -> "F2RL1"
-"GPR150" -> "GPR62"
-"GPR150" -> "ADRB3"
-"GPR150" -> "MLNR"
-"GPR150" -> "GPR88"
-"GPR151" -> "HCAR1"
-"GPR151" -> "GPR132"
-"GPR151" -> "PROKR2"
-"GPR151" -> "GPR176"
-"GPR152" -> "AVPR1B"
-"GPR152" -> "GPR151"
-"GPR152" -> "OXER1"
-"GPR152" -> "UTS2R"
-"GPR157" -> "FFAR4"
-"GPR157" -> "TBXA2R"
-"GPR157" -> "GPR78"
-"GPR157" -> "CNR2"
-"GPR160" -> "GPR148"
-"GPR160" -> "P2RY12"
-"GPR160" -> "OXGR1"
-"GPR160" -> "TAAR2"
-"GPR161" -> "GPR176"
-"GPR161" -> "DRD1"
-"GPR161" -> "GPR149"
-"GPR161" -> "PTGER4"
-"GPR162" -> "GPR61"
-"GPR162" -> "GPR85"
-"GPR162" -> "HTR6"
-"GPR162" -> "GPR161"
-"GPR17" -> "OXER1"
-"GPR17" -> "GPR20"
-"GPR17" -> "GPR182"
-"GPR17" -> "F2R"
-"GPR171" -> "P2RY12"
-"GPR171" -> "LPAR6"
-"GPR171" -> "GPR183"
-"GPR171" -> "OXGR1"
-"GPR176" -> "GPR61"
-"GPR176" -> "GPR161"
-"GPR176" -> "CNR1"
-"GPR176" -> "GPR151"
-"GPR18" -> "GPR87"
-"GPR18" -> "GPR183"
-"GPR18" -> "P2RY12"
-"GPR18" -> "AGTR1"
-"GPR182" -> "OXER1"
-"GPR182" -> "GPR17"
-"GPR182" -> "GPR20"
-"GPR182" -> "UTS2R"
-"GPR183" -> "GPR65"
-"GPR183" -> "LPAR6"
-"GPR183" -> "P2RY12"
-"GPR183" -> "GPR15"
-"GPR19" -> "TRHR"
-"GPR19" -> "F2RL1"
-"GPR19" -> "PROKR2"
-"GPR19" -> "PROKR1"
-"GPR20" -> "GPR17"
-"GPR20" -> "GPER1"
-"GPR20" -> "OXER1"
-"GPR20" -> "GPR4"
-"GPR21" -> "GPR52"
-"GPR21" -> "NPY4R"
-"GPR21" -> "TAAR8"
-"GPR21" -> "GPR45"
-"GPR22" -> "HTR2B"
-"GPR22" -> "GPR85"
-"GPR22" -> "NPY1R"
-"GPR22" -> "GPR52"
-"GPR25" -> "CCR10"
-"GPR25" -> "S1PR4"
-"GPR25" -> "RXFP4"
-"GPR25" -> "GPR20"
-"GPR26" -> "HTR5A"
-"GPR26" -> "NTSR1"
-"GPR26" -> "GALR1"
-"GPR26" -> "OPN3"
-"GPR27" -> "GPR88"
-"GPR27" -> "ADRB3"
-"GPR27" -> "GPR150"
-"GPR27" -> "GPR62"
-"GPR3" -> "MC1R"
-"GPR3" -> "GPR12"
-"GPR3" -> "MCHR1"
-"GPR3" -> "SSTR5"
-"GPR31" -> "GPR55"
-"GPR31" -> "GPR35"
-"GPR31" -> "XCR1"
-"GPR31" -> "HCAR1"
-"GPR32" -> "MAS1L"
-"GPR32" -> "HCAR1"
-"GPR32" -> "GPR33"
-"GPR32" -> "ACKR4"
-"GPR33" -> "OXGR1"
-"GPR33" -> "GPR32"
-"GPR33" -> "P2RY12"
-"GPR33" -> "CYSLTR2"
-"GPR35" -> "FFAR2"
-"GPR35" -> "GPR42"
-"GPR35" -> "FFAR3"
-"GPR35" -> "PTGIR"
-"GPR37" -> "GPR37L1"
-"GPR37" -> "EDNRB"
-"GPR37" -> "AVPR1A"
-"GPR37" -> "F2R"
-"GPR37L1" -> "GPR37"
-"GPR37L1" -> "GPR3"
-"GPR37L1" -> "CNR1"
-"GPR37L1" -> "S1PR1"
-"GPR39" -> "NMUR2"
-"GPR39" -> "TRHR"
-"GPR39" -> "NTSR1"
-"GPR39" -> "PTGER2"
-"GPR4" -> "PTGDR2"
-"GPR4" -> "GPR35"
-"GPR4" -> "FFAR2"
-"GPR4" -> "GPR68"
-"GPR42" -> "FFAR3"
-"GPR42" -> "FFAR2"
-"GPR42" -> "GPR35"
-"GPR42" -> "CXCR5"
-"GPR45" -> "HTR5A"
-"GPR45" -> "NPY4R"
-"GPR45" -> "GHSR"
-"GPR45" -> "MTNR1A"
-"GPR52" -> "HRH4"
-"GPR52" -> "GPR21"
-"GPR52" -> "TAAR8"
-"GPR52" -> "GPR148"
-"GPR55" -> "HCAR1"
-"GPR55" -> "SUCNR1"
-"GPR55" -> "GPR31"
-"GPR55" -> "XCR1"
-"GPR6" -> "GPR88"
-"GPR6" -> "MTNR1B"
-"GPR6" -> "SSTR4"
-"GPR6" -> "SSTR1"
-"GPR61" -> "HTR6"
-"GPR61" -> "HTR5A"
-"GPR61" -> "OPRL1"
-"GPR61" -> "MTNR1B"
-"GPR62" -> "GPR150"
-"GPR62" -> "GPR88"
-"GPR62" -> "LTB4R2"
-"GPR62" -> "ADRB3"
-"GPR63" -> "PROKR1"
-"GPR63" -> "EDNRA"
-"GPR63" -> "PROKR2"
-"GPR63" -> "GPR12"
-"GPR65" -> "GPR183"
-"GPR65" -> "CCR1"
-"GPR65" -> "PTAFR"
-"GPR65" -> "GPR15"
-"GPR68" -> "GPR4"
-"GPR68" -> "P2RY2"
-"GPR68" -> "HCAR1"
-"GPR68" -> "FFAR2"
-"GPR75" -> "GPR61"
-"GPR75" -> "GPR176"
-"GPR75" -> "PTGER4"
-"GPR75" -> "HRH4"
-"GPR78" -> "F2RL3"
-"GPR78" -> "FFAR4"
-"GPR78" -> "ADRB3"
-"GPR78" -> "CNR2"
-"GPR83" -> "PROKR2"
-"GPR83" -> "GHSR"
-"GPR83" -> "PROKR1"
-"GPR83" -> "NPFFR1"
-"GPR84" -> "ADRA2B"
-"GPR84" -> "HRH4"
-"GPR84" -> "CHRM4"
-"GPR84" -> "GPR52"
-"GPR85" -> "HRH4"
-"GPR85" -> "TAAR2"
-"GPR85" -> "PTGFR"
-"GPR85" -> "GPR22"
-"GPR87" -> "P2RY14"
-"GPR87" -> "GPR183"
-"GPR87" -> "P2RY12"
-"GPR87" -> "GPR18"
-"GPR88" -> "GPR6"
-"GPR88" -> "GPR62"
-"GPR88" -> "GPR27"
-"GPR88" -> "ADRB1"
-"HCAR1" -> "GPR55"
-"HCAR1" -> "HCAR2"
-"HCAR1" -> "P2RY1"
-"HCAR1" -> "GPR31"
-"HCAR2" -> "HCAR3"
-"HCAR2" -> "HCAR1"
-"HCAR2" -> "CXCR5"
-"HCAR2" -> "CCR7"
-"HCAR3" -> "HCAR2"
-"HCAR3" -> "CXCR5"
-"HCAR3" -> "GPR42"
-"HCAR3" -> "PTAFR"
-"HCRTR1" -> "NPFFR1"
-"HCRTR1" -> "NMUR1"
-"HCRTR1" -> "AVPR1B"
-"HCRTR1" -> "TACR2"
-"HCRTR2" -> "NMBR"
-"HCRTR2" -> "TACR1"
-"HCRTR2" -> "NPSR1"
-"HCRTR2" -> "HTR7"
-"HRH1" -> "CHRM1"
-"HRH1" -> "CHRM5"
-"HRH1" -> "CHRM4"
-"HRH1" -> "HTR1A"
-"HRH2" -> "GALR1"
-"HRH2" -> "DRD1"
-"HRH2" -> "OXTR"
-"HRH2" -> "SSTR2"
-"HRH3" -> "CHRM1"
-"HRH3" -> "ADRA2B"
-"HRH3" -> "ADRA2C"
-"HRH3" -> "ADRA2A"
-"HRH4" -> "GPR52"
-"HRH4" -> "TAAR2"
-"HRH4" -> "GPR12"
-"HRH4" -> "TAAR8"
-"HTR1A" -> "ADRA2A"
-"HTR1A" -> "HTR5A"
-"HTR1A" -> "ADRA2B"
-"HTR1A" -> "CHRM1"
-"HTR1B" -> "HTR1D"
-"HTR1B" -> "HTR5A"
-"HTR1B" -> "GPR45"
-"HTR1B" -> "HTR1A"
-"HTR1D" -> "HTR1B"
-"HTR1D" -> "HTR5A"
-"HTR1D" -> "HTR1E"
-"HTR1D" -> "HRH4"
-"HTR1E" -> "HTR1B"
-"HTR1E" -> "HTR1D"
-"HTR1E" -> "HTR1F"
-"HTR1E" -> "HTR5A"
-"HTR1F" -> "HTR1B"
-"HTR1F" -> "HTR1A"
-"HTR1F" -> "HTR1E"
-"HTR1F" -> "HRH4"
-"HTR2A" -> "PROKR2"
-"HTR2A" -> "SSTR2"
-"HTR2A" -> "TRHR"
-"HTR2A" -> "GPR83"
-"HTR2B" -> "CCKAR"
-"HTR2B" -> "GPR22"
-"HTR2B" -> "NPY2R"
-"HTR2B" -> "TRHR"
-"HTR4" -> "GPR12"
-"HTR4" -> "CCKAR"
-"HTR4" -> "DRD2"
-"HTR4" -> "HTR7"
-"HTR5A" -> "GHSR"
-"HTR5A" -> "HTR1B"
-"HTR5A" -> "PRLHR"
-"HTR5A" -> "NPBWR1"
-"HTR6" -> "GPR61"
-"HTR6" -> "CCKBR"
-"HTR6" -> "ADRB3"
-"HTR6" -> "MTNR1B"
-"HTR7" -> "NMBR"
-"HTR7" -> "NTSR1"
-"HTR7" -> "CCKAR"
-"HTR7" -> "ADRA1D"
-"KISS1R" -> "GALR3"
-"KISS1R" -> "ADRB3"
-"KISS1R" -> "GALR2"
-"KISS1R" -> "SSTR5"
-"LPAR1" -> "LPAR3"
-"LPAR1" -> "EDNRA"
-"LPAR1" -> "S1PR2"
-"LPAR1" -> "PROKR1"
-"LPAR2" -> "SSTR5"
-"LPAR2" -> "NMUR1"
-"LPAR2" -> "LPAR3"
-"LPAR2" -> "S1PR2"
-"LPAR3" -> "S1PR1"
-"LPAR3" -> "S1PR3"
-"LPAR3" -> "CNR1"
-"LPAR3" -> "S1PR2"
-"LPAR5" -> "GPR35"
-"LPAR5" -> "PTGDR2"
-"LPAR5" -> "P2RY11"
-"LPAR5" -> "GPR20"
-"LPAR6" -> "P2RY12"
-"LPAR6" -> "GPR183"
-"LPAR6" -> "GPR65"
-"LPAR6" -> "P2RY14"
-"LTB4R" -> "PTGDR2"
-"LTB4R" -> "P2RY11"
-"LTB4R" -> "LTB4R2"
-"LTB4R" -> "GPR35"
-"LTB4R2" -> "LTB4R"
-"LTB4R2" -> "P2RY11"
-"LTB4R2" -> "CCR10"
-"LTB4R2" -> "GPR62"
-"MAS1" -> "CYSLTR2"
-"MAS1" -> "TRHR"
-"MAS1" -> "MRGPRE"
-"MAS1" -> "TAAR9"
-"MAS1L" -> "MRGPRX4"
-"MAS1L" -> "MRGPRD"
-"MAS1L" -> "MRGPRX3"
-"MAS1L" -> "GPR32"
-"MC1R" -> "GPR3"
-"MC1R" -> "MC5R"
-"MC1R" -> "GPR12"
-"MC1R" -> "MRGPRE"
-"MC2R" -> "GPR12"
-"MC2R" -> "MC5R"
-"MC2R" -> "MC1R"
-"MC2R" -> "LPAR3"
-"MC3R" -> "MC4R"
-"MC3R" -> "MC5R"
-"MC3R" -> "GPR12"
-"MC3R" -> "MC2R"
-"MC4R" -> "MC5R"
-"MC4R" -> "GPR12"
-"MC4R" -> "MC3R"
-"MC4R" -> "HTR4"
-"MC5R" -> "MC1R"
-"MC5R" -> "MC4R"
-"MC5R" -> "MC2R"
-"MC5R" -> "MC3R"
-"MCHR1" -> "GPR3"
-"MCHR1" -> "SSTR3"
-"MCHR1" -> "GPR142"
-"MCHR1" -> "PROKR1"
-"MCHR2" -> "PROKR2"
-"MCHR2" -> "EDNRA"
-"MCHR2" -> "PROKR1"
-"MCHR2" -> "NPY4R"
-"MLNR" -> "NTSR2"
-"MLNR" -> "AVPR1B"
-"MLNR" -> "NTSR1"
-"MLNR" -> "OXTR"
-"MRGPRD" -> "MRGPRE"
-"MRGPRD" -> "MRGPRX4"
-"MRGPRD" -> "MAS1L"
-"MRGPRD" -> "MRGPRG"
-"MRGPRE" -> "C5AR2"
-"MRGPRE" -> "GPR55"
-"MRGPRE" -> "MRGPRD"
-"MRGPRE" -> "GPR42"
-"MRGPRF" -> "MRGPRE"
-"MRGPRF" -> "HCAR2"
-"MRGPRF" -> "MRGPRD"
-"MRGPRF" -> "MRGPRX2"
-"MRGPRG" -> "MRGPRE"
-"MRGPRG" -> "MRGPRD"
-"MRGPRG" -> "MRGPRX3"
-"MRGPRG" -> "MRGPRX1"
-"MRGPRX1" -> "MRGPRX3"
-"MRGPRX1" -> "MRGPRX4"
-"MRGPRX1" -> "MRGPRX2"
-"MRGPRX1" -> "MRGPRD"
-"MRGPRX2" -> "MRGPRX1"
-"MRGPRX2" -> "MRGPRX3"
-"MRGPRX2" -> "MRGPRX4"
-"MRGPRX2" -> "MRGPRD"
-"MRGPRX3" -> "MRGPRX1"
-"MRGPRX3" -> "MRGPRX4"
-"MRGPRX3" -> "MRGPRX2"
-"MRGPRX3" -> "MRGPRG"
-"MRGPRX4" -> "MRGPRX3"
-"MRGPRX4" -> "MRGPRX1"
-"MRGPRX4" -> "MRGPRX2"
-"MRGPRX4" -> "MAS1L"
-"MTNR1A" -> "MTNR1B"
-"MTNR1A" -> "GPR45"
-"MTNR1A" -> "SSTR4"
-"MTNR1A" -> "ADORA2B"
-"MTNR1B" -> "SSTR4"
-"MTNR1B" -> "GHSR"
-"MTNR1B" -> "MTNR1A"
-"MTNR1B" -> "NTSR1"
-"NMBR" -> "TACR3"
-"NMBR" -> "PROKR1"
-"NMBR" -> "HTR7"
-"NMBR" -> "TACR1"
-"NMUR1" -> "GHSR"
-"NMUR1" -> "PTGDR2"
-"NMUR1" -> "S1PR5"
-"NMUR1" -> "AVPR1B"
-"NMUR2" -> "GPR83"
-"NMUR2" -> "GPR39"
-"NMUR2" -> "GPR139"
-"NMUR2" -> "PROKR2"
-"NPBWR1" -> "NPBWR2"
-"NPBWR1" -> "SSTR5"
-"NPBWR1" -> "PRLHR"
-"NPBWR1" -> "SSTR1"
-"NPBWR2" -> "NPBWR1"
-"NPBWR2" -> "PROKR2"
-"NPBWR2" -> "NPY4R"
-"NPBWR2" -> "PROKR1"
-"NPFFR1" -> "GPR83"
-"NPFFR1" -> "SSTR4"
-"NPFFR1" -> "NMUR1"
-"NPFFR1" -> "HCRTR1"
-"NPFFR2" -> "HTR7"
-"NPFFR2" -> "NPSR1"
-"NPFFR2" -> "PROKR1"
-"NPFFR2" -> "OPRK1"
-"NPSR1" -> "PROKR2"
-"NPSR1" -> "HTR2A"
-"NPSR1" -> "GPR139"
-"NPSR1" -> "TRHR"
-"NPY1R" -> "NPY2R"
-"NPY1R" -> "SSTR1"
-"NPY1R" -> "SSTR4"
-"NPY1R" -> "TRHR"
-"NPY2R" -> "PROKR1"
-"NPY2R" -> "PROKR2"
-"NPY2R" -> "SSTR1"
-"NPY2R" -> "OXTR"
-"NPY4R" -> "NPY4R2"
-"NPY4R" -> "PROKR2"
-"NPY4R" -> "NPBWR2"
-"NPY4R" -> "GPR45"
-"NPY4R2" -> "NPY4R"
-"NPY4R2" -> "PROKR2"
-"NPY4R2" -> "GPER1"
-"NPY4R2" -> "PROKR1"
-"NPY5R" -> "HRH4"
-"NPY5R" -> "HTR1F"
-"NPY5R" -> "HTR2B"
-"NPY5R" -> "HTR1E"
-"NTSR1" -> "GHSR"
-"NTSR1" -> "GALR1"
-"NTSR1" -> "SSTR4"
-"NTSR1" -> "MTNR1B"
-"NTSR2" -> "GHSR"
-"NTSR2" -> "MLNR"
-"NTSR2" -> "NTSR1"
-"NTSR2" -> "AVPR1B"
-"OPN1SW" -> "RHO"
-"OPN1SW" -> "OPN5"
-"OPN1SW" -> "RRH"
-"OPN1SW" -> "MTNR1B"
-"OPN3" -> "FFAR4"
-"OPN3" -> "GHSR"
-"OPN3" -> "GPR26"
-"OPN3" -> "MTNR1B"
-"OPN4" -> "MTNR1B"
-"OPN4" -> "HCRTR1"
-"OPN4" -> "HTR6"
-"OPN4" -> "TACR2"
-"OPN5" -> "RRH"
-"OPN5" -> "OPN1SW"
-"OPN5" -> "RGR"
-"OPN5" -> "PTGFR"
-"OPRD1" -> "OPRK1"
-"OPRD1" -> "GPR83"
-"OPRD1" -> "MTNR1B"
-"OPRD1" -> "NTSR1"
-"OPRK1" -> "OPRD1"
-"OPRK1" -> "MTNR1B"
-"OPRK1" -> "NTSR1"
-"OPRK1" -> "HTR7"
-"OPRL1" -> "MTNR1B"
-"OPRL1" -> "NTSR1"
-"OPRL1" -> "S1PR2"
-"OPRL1" -> "GPR83"
-"OXER1" -> "GPR17"
-"OXER1" -> "GPR182"
-"OXER1" -> "GPR20"
-"OXER1" -> "P2RY11"
-"OXGR1" -> "ACKR4"
-"OXGR1" -> "P2RY12"
-"OXGR1" -> "CYSLTR2"
-"OXGR1" -> "GPR15"
-"OXTR" -> "SSTR4"
-"OXTR" -> "NTSR1"
-"OXTR" -> "AVPR1A"
-"OXTR" -> "S1PR3"
-"P2RY1" -> "CYSLTR2"
-"P2RY1" -> "F2R"
-"P2RY1" -> "HCAR1"
-"P2RY1" -> "AVPR1A"
-"P2RY11" -> "PTGDR2"
-"P2RY11" -> "LTB4R"
-"P2RY11" -> "OXER1"
-"P2RY11" -> "NMUR1"
-"P2RY12" -> "P2RY14"
-"P2RY12" -> "P2RY13"
-"P2RY12" -> "LPAR6"
-"P2RY12" -> "GPR183"
-"P2RY13" -> "P2RY12"
-"P2RY13" -> "GPR65"
-"P2RY13" -> "CYSLTR2"
-"P2RY13" -> "CCR1"
-"P2RY14" -> "P2RY12"
-"P2RY14" -> "CYSLTR2"
-"P2RY14" -> "GPR87"
-"P2RY14" -> "GPR183"
-"P2RY2" -> "NMUR1"
-"P2RY2" -> "GPR68"
-"P2RY2" -> "PTGDR2"
-"P2RY2" -> "OXER1"
-"P2RY6" -> "GPR35"
-"P2RY6" -> "P2RY11"
-"P2RY6" -> "GPR20"
-"P2RY6" -> "GPR4"
-"PRLHR" -> "SSTR4"
-"PRLHR" -> "NPBWR1"
-"PRLHR" -> "NMUR1"
-"PRLHR" -> "HTR5A"
-"PROKR1" -> "PROKR2"
-"PROKR1" -> "GHSR"
-"PROKR1" -> "GPR83"
-"PROKR1" -> "NPY2R"
-"PROKR2" -> "PROKR1"
-"PROKR2" -> "GPR83"
-"PROKR2" -> "NPY2R"
-"PROKR2" -> "NPY4R"
-"PTAFR" -> "CCR1"
-"PTAFR" -> "CCR5"
-"PTAFR" -> "GPR65"
-"PTAFR" -> "GPR55"
-"PTGDR" -> "PTGER2"
-"PTGDR" -> "PTGFR"
-"PTGDR" -> "GHSR"
-"PTGDR" -> "FFAR4"
-"PTGDR2" -> "GPR4"
-"PTGDR2" -> "NMUR1"
-"PTGDR2" -> "LTB4R"
-"PTGDR2" -> "P2RY11"
-"PTGER1" -> "S1PR5"
-"PTGER1" -> "TBXA2R"
-"PTGER1" -> "ADRB3"
-"PTGER1" -> "PTGIR"
-"PTGER2" -> "GHSR"
-"PTGER2" -> "PTGDR"
-"PTGER2" -> "PTGER4"
-"PTGER2" -> "OXTR"
-"PTGER3" -> "PTGFR"
-"PTGER3" -> "MTNR1B"
-"PTGER3" -> "NTSR1"
-"PTGER3" -> "S1PR3"
-"PTGER4" -> "AVPR1A"
-"PTGER4" -> "TRHR"
-"PTGER4" -> "GPR61"
-"PTGER4" -> "PTGER2"
-"PTGFR" -> "S1PR3"
-"PTGFR" -> "PTGER3"
-"PTGFR" -> "GNRHR"
-"PTGFR" -> "LPAR3"
-"PTGIR" -> "TBXA2R"
-"PTGIR" -> "GPR35"
-"PTGIR" -> "GPR42"
-"PTGIR" -> "S1PR5"
-"QRFPR" -> "NMBR"
-"QRFPR" -> "GALR1"
-"QRFPR" -> "HTR7"
-"QRFPR" -> "TACR3"
-"RGR" -> "OPN5"
-"RGR" -> "RRH"
-"RGR" -> "FFAR1"
-"RGR" -> "GPR37L1"
-"RHO" -> "OPN1SW"
-"RHO" -> "RRH"
-"RHO" -> "OPN5"
-"RHO" -> "RGR"
-"RRH" -> "OPN5"
-"RRH" -> "GPR12"
-"RRH" -> "NPY2R"
-"RRH" -> "OPN1SW"
-"RXFP3" -> "SSTR5"
-"RXFP3" -> "MLNR"
-"RXFP3" -> "PROKR2"
-"RXFP3" -> "SSTR4"
-"RXFP4" -> "GPR25"
-"RXFP4" -> "OXER1"
-"RXFP4" -> "GPR20"
-"RXFP4" -> "TACR2"
-"S1PR1" -> "S1PR3"
-"S1PR1" -> "LPAR3"
-"S1PR1" -> "CCR5"
-"S1PR1" -> "CNR1"
-"S1PR2" -> "S1PR3"
-"S1PR2" -> "SSTR4"
-"S1PR2" -> "BDKRB2"
-"S1PR2" -> "CNR2"
-"S1PR3" -> "S1PR2"
-"S1PR3" -> "S1PR1"
-"S1PR3" -> "LPAR3"
-"S1PR3" -> "BDKRB2"
-"S1PR4" -> "S1PR5"
-"S1PR4" -> "GPR25"
-"S1PR4" -> "MTNR1B"
-"S1PR4" -> "UTS2R"
-"S1PR5" -> "S1PR4"
-"S1PR5" -> "NMUR1"
-"S1PR5" -> "UTS2R"
-"S1PR5" -> "PTGIR"
-"SLC10A4" -> "GPR135"
-"SLC10A4" -> "OPN3"
-"SLC10A4" -> "TACR3"
-"SLC10A4" -> "NMBR"
-"SSTR1" -> "SSTR4"
-"SSTR1" -> "GHSR"
-"SSTR1" -> "SSTR5"
-"SSTR1" -> "NPY2R"
-"SSTR2" -> "HTR2A"
-"SSTR2" -> "AVPR1A"
-"SSTR2" -> "PROKR2"
-"SSTR2" -> "BDKRB2"
-"SSTR3" -> "SSTR5"
-"SSTR3" -> "ADRB3"
-"SSTR3" -> "GALR3"
-"SSTR3" -> "SSTR4"
-"SSTR4" -> "SSTR1"
-"SSTR4" -> "MTNR1B"
-"SSTR4" -> "OXTR"
-"SSTR4" -> "SSTR5"
-"SSTR5" -> "SSTR3"
-"SSTR5" -> "NPBWR1"
-"SSTR5" -> "SSTR4"
-"SSTR5" -> "SSTR1"
-"SUCNR1" -> "GPR55"
-"SUCNR1" -> "CCR1"
-"SUCNR1" -> "CYSLTR2"
-"SUCNR1" -> "GPR65"
-"TAAR1" -> "TAAR6"
-"TAAR1" -> "TAAR9"
-"TAAR1" -> "TAAR8"
-"TAAR1" -> "TAAR2"
-"TAAR2" -> "TAAR8"
-"TAAR2" -> "TAAR6"
-"TAAR2" -> "TAAR9"
-"TAAR2" -> "TAAR1"
-"TAAR5" -> "TAAR1"
-"TAAR5" -> "TAAR2"
-"TAAR5" -> "TAAR9"
-"TAAR5" -> "TAAR6"
-"TAAR6" -> "TAAR9"
-"TAAR6" -> "TAAR1"
-"TAAR6" -> "TAAR8"
-"TAAR6" -> "TAAR2"
-"TAAR8" -> "TAAR9"
-"TAAR8" -> "TAAR2"
-"TAAR8" -> "TAAR6"
-"TAAR8" -> "TAAR1"
-"TAAR9" -> "TAAR8"
-"TAAR9" -> "TAAR6"
-"TAAR9" -> "TAAR1"
-"TAAR9" -> "TAAR2"
-"TACR1" -> "NMBR"
-"TACR1" -> "TRHR"
-"TACR1" -> "GPR83"
-"TACR1" -> "PROKR1"
-"TACR2" -> "GHSR"
-"TACR2" -> "MTNR1B"
-"TACR2" -> "PROKR1"
-"TACR2" -> "PROKR2"
-"TACR3" -> "NMBR"
-"TACR3" -> "HTR7"
-"TACR3" -> "NTSR1"
-"TACR3" -> "QRFPR"
-"TBXA2R" -> "PTGIR"
-"TBXA2R" -> "GPR35"
-"TBXA2R" -> "MRGPRE"
-"TBXA2R" -> "S1PR5"
-"TMEM116" -> "GPR39"
-"TMEM116" -> "PTGFR"
-"TMEM116" -> "OPN5"
-"TMEM116" -> "NMUR2"
-"TMEM217" -> "HRH4"
-"TMEM217" -> "OXGR1"
-"TMEM217" -> "LPAR3"
-"TMEM217" -> "GPR52"
-"TRHR" -> "GHSR"
-"TRHR" -> "NMBR"
-"TRHR" -> "TACR1"
-"TRHR" -> "MTNR1B"
-"UTS2R" -> "SSTR4"
-"UTS2R" -> "SSTR5"
-"UTS2R" -> "MTNR1B"
-"UTS2R" -> "AVPR1B"
-"XCR1" -> "GPR55"
-"XCR1" -> "GPR31"
-"XCR1" -> "SUCNR1"
-"XCR1" -> "CCR5"
+"ACKR1" -> "C5AR2" ["e"=1]
+"ACKR1" -> "GPR148" ["e"=1]
+"ACKR1" -> "CCR10" ["e"=1]
+"ACKR1" -> "GPBAR1" ["e"=1]
+"ACKR2" -> "ACKR4" ["e"=1]
+"ACKR2" -> "CCR6" ["e"=1]
+"ACKR2" -> "CCRL2" ["e"=1]
+"ACKR2" -> "CCR2" ["e"=1]
+"ACKR3" -> "PROKR2" ["e"=1]
+"ACKR3" -> "CXCR4" ["e"=1]
+"ACKR3" -> "PROKR1" ["e"=1]
+"ACKR3" -> "NPY4R" ["e"=1]
+"ACKR4" -> "OXGR1" ["e"=1]
+"ACKR4" -> "CCR9" ["e"=1]
+"ACKR4" -> "ACKR2" ["e"=1]
+"ACKR4" -> "CYSLTR2" ["e"=1]
+"ADORA1" -> "ADORA2B" ["e"=1]
+"ADORA1" -> "ADORA3" ["e"=1]
+"ADORA1" -> "OPRL1" ["e"=1]
+"ADORA1" -> "MC1R" ["e"=1]
+"ADORA2A" -> "SSTR4" ["e"=1]
+"ADORA2A" -> "SSTR3" ["e"=1]
+"ADORA2A" -> "GALR2" ["e"=1]
+"ADORA2A" -> "MTNR1B" ["e"=1]
+"ADORA2B" -> "MTNR1B" ["e"=1]
+"ADORA2B" -> "GHSR" ["e"=1]
+"ADORA2B" -> "MTNR1A" ["e"=1]
+"ADORA2B" -> "PROKR1" ["e"=1]
+"ADORA3" -> "ADORA1" ["e"=1]
+"ADORA3" -> "MC1R" ["e"=1]
+"ADORA3" -> "LPAR3" ["e"=1]
+"ADORA3" -> "ADORA2B" ["e"=1]
+"ADRA1A" -> "ADRA1B" ["e"=1]
+"ADRA1A" -> "DRD1" ["e"=1]
+"ADRA1A" -> "HTR7" ["e"=1]
+"ADRA1A" -> "HTR4" ["e"=1]
+"ADRA1B" -> "ADRA1A" ["e"=1]
+"ADRA1B" -> "ADRA1D" ["e"=1]
+"ADRA1B" -> "HTR7" ["e"=1]
+"ADRA1B" -> "DRD1" ["e"=1]
+"ADRA1D" -> "HTR7" ["e"=1]
+"ADRA1D" -> "ADRA1B" ["e"=1]
+"ADRA1D" -> "SSTR1" ["e"=1]
+"ADRA1D" -> "ADRA2A" ["e"=1]
+"ADRA2A" -> "ADRA2C" ["e"=1]
+"ADRA2A" -> "ADRA2B" ["e"=1]
+"ADRA2A" -> "HTR1A" ["e"=1]
+"ADRA2A" -> "CHRM1" ["e"=1]
+"ADRA2B" -> "CHRM1" ["e"=1]
+"ADRA2B" -> "ADRA2A" ["e"=1]
+"ADRA2B" -> "CHRM4" ["e"=1]
+"ADRA2B" -> "HTR1A" ["e"=1]
+"ADRA2C" -> "ADRA2A" ["e"=1]
+"ADRA2C" -> "HRH3" ["e"=1]
+"ADRA2C" -> "ADRB1" ["e"=1]
+"ADRA2C" -> "HTR1A" ["e"=1]
+"ADRB1" -> "SSTR1" ["e"=1]
+"ADRB1" -> "SSTR4" ["e"=1]
+"ADRB1" -> "OXTR" ["e"=1]
+"ADRB1" -> "HTR6" ["e"=1]
+"ADRB2" -> "DRD1" ["e"=1]
+"ADRB2" -> "GPR45" ["e"=1]
+"ADRB2" -> "NPY4R" ["e"=1]
+"ADRB2" -> "HTR1A" ["e"=1]
+"ADRB3" -> "SSTR3" ["e"=1]
+"ADRB3" -> "SSTR5" ["e"=1]
+"ADRB3" -> "AVPR1B" ["e"=1]
+"ADRB3" -> "HTR5A" ["e"=1]
+"AGTR1" -> "F2RL1" ["e"=1]
+"AGTR1" -> "P2RY12" ["e"=1]
+"AGTR1" -> "GPR65" ["e"=1]
+"AGTR1" -> "GPR183" ["e"=1]
+"APLNR" -> "GPR182" ["e"=1]
+"APLNR" -> "CXCR5" ["e"=1]
+"APLNR" -> "ACKR2" ["e"=1]
+"APLNR" -> "HCAR1" ["e"=1]
+"AVPR1A" -> "OXTR" ["e"=1]
+"AVPR1A" -> "PTGER4" ["e"=1]
+"AVPR1A" -> "GHSR" ["e"=1]
+"AVPR1A" -> "P2RY1" ["e"=1]
+"AVPR1B" -> "NMUR1" ["e"=1]
+"AVPR1B" -> "UTS2R" ["e"=1]
+"AVPR1B" -> "MLNR" ["e"=1]
+"AVPR1B" -> "NTSR2" ["e"=1]
+"BDKRB1" -> "HCAR2" ["e"=1]
+"BDKRB1" -> "NPY4R" ["e"=1]
+"BDKRB1" -> "BDKRB2" ["e"=1]
+"BDKRB1" -> "HCAR3" ["e"=1]
+"BDKRB2" -> "CYSLTR2" ["e"=1]
+"BDKRB2" -> "S1PR3" ["e"=1]
+"BDKRB2" -> "S1PR2" ["e"=1]
+"BDKRB2" -> "CXCR5" ["e"=1]
+"C3AR1" -> "HCAR3" ["e"=1]
+"C3AR1" -> "HRH4" ["e"=1]
+"C3AR1" -> "PTAFR" ["e"=1]
+"C3AR1" -> "HCAR2" ["e"=1]
+"C5AR1" -> "FPR2" ["e"=1]
+"C5AR1" -> "FPR1" ["e"=1]
+"C5AR1" -> "CMKLR1" ["e"=1]
+"C5AR1" -> "CCR9" ["e"=1]
+"C5AR2" -> "MRGPRE" ["e"=1]
+"C5AR2" -> "CXCR5" ["e"=1]
+"C5AR2" -> "CNR2" ["e"=1]
+"C5AR2" -> "C5AR1" ["e"=1]
+"CCKAR" -> "HTR7" ["e"=1]
+"CCKAR" -> "CCKBR" ["e"=1]
+"CCKAR" -> "HTR4" ["e"=1]
+"CCKAR" -> "HRH3" ["e"=1]
+"CCKBR" -> "HTR6" ["e"=1]
+"CCKBR" -> "CCKAR" ["e"=1]
+"CCKBR" -> "ADRB3" ["e"=1]
+"CCKBR" -> "HTR5A" ["e"=1]
+"CCR1" -> "CCR5" ["e"=1]
+"CCR1" -> "CCR2" ["e"=1]
+"CCR1" -> "CX3CR1" ["e"=1]
+"CCR1" -> "FPR3" ["e"=1]
+"CCR10" -> "GPR25" ["e"=1]
+"CCR10" -> "P2RY11" ["e"=1]
+"CCR10" -> "LTB4R2" ["e"=1]
+"CCR10" -> "MRGPRE" ["e"=1]
+"CCR2" -> "CCR5" ["e"=1]
+"CCR2" -> "CCR1" ["e"=1]
+"CCR2" -> "CCR4" ["e"=1]
+"CCR2" -> "CXCR6" ["e"=1]
+"CCR3" -> "CCR4" ["e"=1]
+"CCR3" -> "PROKR2" ["e"=1]
+"CCR3" -> "CCR9" ["e"=1]
+"CCR3" -> "PROKR1" ["e"=1]
+"CCR4" -> "CCR2" ["e"=1]
+"CCR4" -> "CCR9" ["e"=1]
+"CCR4" -> "CCR5" ["e"=1]
+"CCR4" -> "CCR8" ["e"=1]
+"CCR5" -> "CCR2" ["e"=1]
+"CCR5" -> "CCR1" ["e"=1]
+"CCR5" -> "CCR4" ["e"=1]
+"CCR5" -> "PTAFR" ["e"=1]
+"CCR6" -> "CXCR6" ["e"=1]
+"CCR6" -> "CCR8" ["e"=1]
+"CCR6" -> "CCR2" ["e"=1]
+"CCR6" -> "CCR5" ["e"=1]
+"CCR7" -> "CCR8" ["e"=1]
+"CCR7" -> "CXCR5" ["e"=1]
+"CCR7" -> "CXCR6" ["e"=1]
+"CCR7" -> "CCR6" ["e"=1]
+"CCR8" -> "CXCR6" ["e"=1]
+"CCR8" -> "CCR4" ["e"=1]
+"CCR8" -> "CCR6" ["e"=1]
+"CCR8" -> "CCR7" ["e"=1]
+"CCR9" -> "CCR4" ["e"=1]
+"CCR9" -> "CXCR6" ["e"=1]
+"CCR9" -> "CCR6" ["e"=1]
+"CCR9" -> "CCR3" ["e"=1]
+"CCRL2" -> "CXCR6" ["e"=1]
+"CCRL2" -> "CCR8" ["e"=1]
+"CCRL2" -> "ACKR2" ["e"=1]
+"CCRL2" -> "ACKR4" ["e"=1]
+"CHRM1" -> "ADRA2B" ["e"=1]
+"CHRM1" -> "CHRM4" ["e"=1]
+"CHRM1" -> "HRH3" ["e"=1]
+"CHRM1" -> "HTR1A" ["e"=1]
+"CHRM2" -> "CHRM3" ["e"=1]
+"CHRM2" -> "CHRM4" ["e"=1]
+"CHRM2" -> "CHRM1" ["e"=1]
+"CHRM2" -> "CHRM5" ["e"=1]
+"CHRM3" -> "CHRM4" ["e"=1]
+"CHRM3" -> "CHRM5" ["e"=1]
+"CHRM3" -> "CHRM2" ["e"=1]
+"CHRM3" -> "DRD2" ["e"=1]
+"CHRM4" -> "CHRM5" ["e"=1]
+"CHRM4" -> "CHRM1" ["e"=1]
+"CHRM4" -> "ADRA2B" ["e"=1]
+"CHRM4" -> "CHRM3" ["e"=1]
+"CHRM5" -> "CHRM4" ["e"=1]
+"CHRM5" -> "CHRM3" ["e"=1]
+"CHRM5" -> "CHRM1" ["e"=1]
+"CHRM5" -> "DRD3" ["e"=1]
+"CMKLR1" -> "FPR3" ["e"=1]
+"CMKLR1" -> "C5AR1" ["e"=1]
+"CMKLR1" -> "CCR1" ["e"=1]
+"CMKLR1" -> "CCR9" ["e"=1]
+"CNR1" -> "LPAR3" ["e"=1]
+"CNR1" -> "S1PR1" ["e"=1]
+"CNR1" -> "S1PR3" ["e"=1]
+"CNR1" -> "PROKR1" ["e"=1]
+"CNR2" -> "S1PR2" ["e"=1]
+"CNR2" -> "LPAR3" ["e"=1]
+"CNR2" -> "UTS2R" ["e"=1]
+"CNR2" -> "MRGPRE" ["e"=1]
+"CX3CR1" -> "CCR1" ["e"=1]
+"CX3CR1" -> "CCR5" ["e"=1]
+"CX3CR1" -> "P2RY12" ["e"=1]
+"CX3CR1" -> "CCR3" ["e"=1]
+"CXCR1" -> "CXCR2" ["e"=1]
+"CXCR1" -> "CCR2" ["e"=1]
+"CXCR1" -> "FPR2" ["e"=1]
+"CXCR1" -> "CCR1" ["e"=1]
+"CXCR2" -> "CXCR1" ["e"=1]
+"CXCR2" -> "CXCR6" ["e"=1]
+"CXCR2" -> "CCR4" ["e"=1]
+"CXCR2" -> "CCR2" ["e"=1]
+"CXCR4" -> "ACKR3" ["e"=1]
+"CXCR4" -> "CCR7" ["e"=1]
+"CXCR4" -> "PROKR2" ["e"=1]
+"CXCR4" -> "NPY4R2" ["e"=1]
+"CXCR5" -> "GPR42" ["e"=1]
+"CXCR5" -> "CCR7" ["e"=1]
+"CXCR5" -> "HCAR3" ["e"=1]
+"CXCR5" -> "BDKRB2" ["e"=1]
+"CXCR6" -> "CCR6" ["e"=1]
+"CXCR6" -> "CCR8" ["e"=1]
+"CXCR6" -> "CCR2" ["e"=1]
+"CXCR6" -> "CCR4" ["e"=1]
+"CYSLTR2" -> "P2RY12" ["e"=1]
+"CYSLTR2" -> "P2RY1" ["e"=1]
+"CYSLTR2" -> "BDKRB2" ["e"=1]
+"CYSLTR2" -> "OXGR1" ["e"=1]
+"DRD1" -> "DRD5" ["e"=1]
+"DRD1" -> "HRH2" ["e"=1]
+"DRD1" -> "TRHR" ["e"=1]
+"DRD1" -> "HTR6" ["e"=1]
+"DRD2" -> "DRD3" ["e"=1]
+"DRD2" -> "CHRM4" ["e"=1]
+"DRD2" -> "HTR4" ["e"=1]
+"DRD2" -> "HTR7" ["e"=1]
+"DRD3" -> "DRD2" ["e"=1]
+"DRD3" -> "HTR7" ["e"=1]
+"DRD3" -> "HTR4" ["e"=1]
+"DRD3" -> "CHRM5" ["e"=1]
+"DRD4" -> "CCKBR" ["e"=1]
+"DRD4" -> "ADRB3" ["e"=1]
+"DRD4" -> "ADRA2C" ["e"=1]
+"DRD4" -> "ADRB1" ["e"=1]
+"DRD5" -> "DRD1" ["e"=1]
+"DRD5" -> "HTR7" ["e"=1]
+"DRD5" -> "NTSR1" ["e"=1]
+"DRD5" -> "SSTR2" ["e"=1]
+"EDNRA" -> "EDNRB" ["e"=1]
+"EDNRA" -> "PROKR2" ["e"=1]
+"EDNRA" -> "GPR83" ["e"=1]
+"EDNRA" -> "PROKR1" ["e"=1]
+"EDNRB" -> "EDNRA" ["e"=1]
+"EDNRB" -> "PTGFR" ["e"=1]
+"EDNRB" -> "NMBR" ["e"=1]
+"EDNRB" -> "GPR83" ["e"=1]
+"F2R" -> "F2RL2" ["e"=1]
+"F2R" -> "P2RY1" ["e"=1]
+"F2R" -> "F2RL1" ["e"=1]
+"F2R" -> "PROKR2" ["e"=1]
+"F2RL1" -> "F2R" ["e"=1]
+"F2RL1" -> "AGTR1" ["e"=1]
+"F2RL1" -> "GPR15" ["e"=1]
+"F2RL1" -> "F2RL2" ["e"=1]
+"F2RL2" -> "F2R" ["e"=1]
+"F2RL2" -> "SUCNR1" ["e"=1]
+"F2RL2" -> "F2RL1" ["e"=1]
+"F2RL2" -> "OXGR1" ["e"=1]
+"F2RL3" -> "UTS2R" ["e"=1]
+"F2RL3" -> "MRGPRE" ["e"=1]
+"F2RL3" -> "GPR78" ["e"=1]
+"F2RL3" -> "CNR2" ["e"=1]
+"FFAR1" -> "P2RY11" ["e"=1]
+"FFAR1" -> "OXER1" ["e"=1]
+"FFAR1" -> "GPBAR1" ["e"=1]
+"FFAR1" -> "UTS2R" ["e"=1]
+"FFAR2" -> "GPR42" ["e"=1]
+"FFAR2" -> "GPR35" ["e"=1]
+"FFAR2" -> "FFAR3" ["e"=1]
+"FFAR2" -> "GPR4" ["e"=1]
+"FFAR3" -> "GPR42" ["e"=1]
+"FFAR3" -> "FFAR2" ["e"=1]
+"FFAR3" -> "GPR35" ["e"=1]
+"FFAR3" -> "PTGDR2" ["e"=1]
+"FFAR4" -> "OPN3" ["e"=1]
+"FFAR4" -> "PTGDR" ["e"=1]
+"FFAR4" -> "NTSR2" ["e"=1]
+"FFAR4" -> "GHSR" ["e"=1]
+"FPR1" -> "FPR2" ["e"=1]
+"FPR1" -> "FPR3" ["e"=1]
+"FPR1" -> "C5AR1" ["e"=1]
+"FPR1" -> "CXCR2" ["e"=1]
+"FPR2" -> "FPR1" ["e"=1]
+"FPR2" -> "FPR3" ["e"=1]
+"FPR2" -> "C5AR1" ["e"=1]
+"FPR2" -> "CXCR1" ["e"=1]
+"FPR3" -> "FPR2" ["e"=1]
+"FPR3" -> "CCR1" ["e"=1]
+"FPR3" -> "CMKLR1" ["e"=1]
+"FPR3" -> "FPR1" ["e"=1]
+"GALR1" -> "NTSR1" ["e"=1]
+"GALR1" -> "GHSR" ["e"=1]
+"GALR1" -> "HRH2" ["e"=1]
+"GALR1" -> "NMBR" ["e"=1]
+"GALR2" -> "SSTR5" ["e"=1]
+"GALR2" -> "GALR3" ["e"=1]
+"GALR2" -> "SSTR4" ["e"=1]
+"GALR2" -> "TACR2" ["e"=1]
+"GALR3" -> "SSTR3" ["e"=1]
+"GALR3" -> "GALR2" ["e"=1]
+"GALR3" -> "KISS1R" ["e"=1]
+"GALR3" -> "SSTR5" ["e"=1]
+"GHSR" -> "NTSR1" ["e"=1]
+"GHSR" -> "MTNR1B" ["e"=1]
+"GHSR" -> "NMUR1" ["e"=1]
+"GHSR" -> "SSTR1" ["e"=1]
+"GNRHR" -> "PTGFR" ["e"=1]
+"GNRHR" -> "EDNRA" ["e"=1]
+"GNRHR" -> "HRH4" ["e"=1]
+"GNRHR" -> "FFAR4" ["e"=1]
+"GPBAR1" -> "FFAR1" ["e"=1]
+"GPBAR1" -> "LTB4R2" ["e"=1]
+"GPBAR1" -> "GPR62" ["e"=1]
+"GPBAR1" -> "P2RY11" ["e"=1]
+"GPER1" -> "GPR20" ["e"=1]
+"GPER1" -> "PROKR1" ["e"=1]
+"GPER1" -> "GHSR" ["e"=1]
+"GPER1" -> "GPR35" ["e"=1]
+"GPR12" -> "GPR3" ["e"=1]
+"GPR12" -> "MC1R" ["e"=1]
+"GPR12" -> "HTR4" ["e"=1]
+"GPR12" -> "MC2R" ["e"=1]
+"GPR132" -> "GPR35" ["e"=1]
+"GPR132" -> "FFAR2" ["e"=1]
+"GPR132" -> "PTGDR2" ["e"=1]
+"GPR132" -> "GPR15" ["e"=1]
+"GPR135" -> "OXTR" ["e"=1]
+"GPR135" -> "NTSR2" ["e"=1]
+"GPR135" -> "NTSR1" ["e"=1]
+"GPR135" -> "MTNR1B" ["e"=1]
+"GPR139" -> "GPR83" ["e"=1]
+"GPR139" -> "GHSR" ["e"=1]
+"GPR139" -> "TRHR" ["e"=1]
+"GPR139" -> "MTNR1B" ["e"=1]
+"GPR141" -> "PTGDR" ["e"=1]
+"GPR141" -> "GPR55" ["e"=1]
+"GPR141" -> "XCR1" ["e"=1]
+"GPR141" -> "P2RY12" ["e"=1]
+"GPR142" -> "MCHR1" ["e"=1]
+"GPR142" -> "OXER1" ["e"=1]
+"GPR142" -> "PROKR1" ["e"=1]
+"GPR142" -> "GPR20" ["e"=1]
+"GPR146" -> "P2RY11" ["e"=1]
+"GPR146" -> "GPR31" ["e"=1]
+"GPR146" -> "C5AR2" ["e"=1]
+"GPR146" -> "PTGDR2" ["e"=1]
+"GPR148" -> "GPR52" ["e"=1]
+"GPR148" -> "GPR55" ["e"=1]
+"GPR148" -> "MTNR1A" ["e"=1]
+"GPR148" -> "OXER1" ["e"=1]
+"GPR149" -> "CNR1" ["e"=1]
+"GPR149" -> "PTGER4" ["e"=1]
+"GPR149" -> "GPR161" ["e"=1]
+"GPR149" -> "GPR176" ["e"=1]
+"GPR15" -> "CCR9" ["e"=1]
+"GPR15" -> "GPR65" ["e"=1]
+"GPR15" -> "CCR4" ["e"=1]
+"GPR15" -> "F2RL1" ["e"=1]
+"GPR150" -> "GPR62" ["e"=1]
+"GPR150" -> "ADRB3" ["e"=1]
+"GPR150" -> "MLNR" ["e"=1]
+"GPR150" -> "GPR88" ["e"=1]
+"GPR151" -> "HCAR1" ["e"=1]
+"GPR151" -> "GPR132" ["e"=1]
+"GPR151" -> "PROKR2" ["e"=1]
+"GPR151" -> "GPR176" ["e"=1]
+"GPR152" -> "AVPR1B" ["e"=1]
+"GPR152" -> "GPR151" ["e"=1]
+"GPR152" -> "OXER1" ["e"=1]
+"GPR152" -> "UTS2R" ["e"=1]
+"GPR157" -> "FFAR4" ["e"=1]
+"GPR157" -> "TBXA2R" ["e"=1]
+"GPR157" -> "GPR78" ["e"=1]
+"GPR157" -> "CNR2" ["e"=1]
+"GPR160" -> "GPR148" ["e"=1]
+"GPR160" -> "P2RY12" ["e"=1]
+"GPR160" -> "OXGR1" ["e"=1]
+"GPR160" -> "TAAR2" ["e"=1]
+"GPR161" -> "GPR176" ["e"=1]
+"GPR161" -> "DRD1" ["e"=1]
+"GPR161" -> "GPR149" ["e"=1]
+"GPR161" -> "PTGER4" ["e"=1]
+"GPR162" -> "GPR61" ["e"=1]
+"GPR162" -> "GPR85" ["e"=1]
+"GPR162" -> "HTR6" ["e"=1]
+"GPR162" -> "GPR161" ["e"=1]
+"GPR17" -> "OXER1" ["e"=1]
+"GPR17" -> "GPR20" ["e"=1]
+"GPR17" -> "GPR182" ["e"=1]
+"GPR17" -> "F2R" ["e"=1]
+"GPR171" -> "P2RY12" ["e"=1]
+"GPR171" -> "LPAR6" ["e"=1]
+"GPR171" -> "GPR183" ["e"=1]
+"GPR171" -> "OXGR1" ["e"=1]
+"GPR176" -> "GPR61" ["e"=1]
+"GPR176" -> "GPR161" ["e"=1]
+"GPR176" -> "CNR1" ["e"=1]
+"GPR176" -> "GPR151" ["e"=1]
+"GPR18" -> "GPR87" ["e"=1]
+"GPR18" -> "GPR183" ["e"=1]
+"GPR18" -> "P2RY12" ["e"=1]
+"GPR18" -> "AGTR1" ["e"=1]
+"GPR182" -> "OXER1" ["e"=1]
+"GPR182" -> "GPR17" ["e"=1]
+"GPR182" -> "GPR20" ["e"=1]
+"GPR182" -> "UTS2R" ["e"=1]
+"GPR183" -> "GPR65" ["e"=1]
+"GPR183" -> "LPAR6" ["e"=1]
+"GPR183" -> "P2RY12" ["e"=1]
+"GPR183" -> "GPR15" ["e"=1]
+"GPR19" -> "TRHR" ["e"=1]
+"GPR19" -> "F2RL1" ["e"=1]
+"GPR19" -> "PROKR2" ["e"=1]
+"GPR19" -> "PROKR1" ["e"=1]
+"GPR20" -> "GPR17" ["e"=1]
+"GPR20" -> "GPER1" ["e"=1]
+"GPR20" -> "OXER1" ["e"=1]
+"GPR20" -> "GPR4" ["e"=1]
+"GPR21" -> "GPR52" ["e"=1]
+"GPR21" -> "NPY4R" ["e"=1]
+"GPR21" -> "TAAR8" ["e"=1]
+"GPR21" -> "GPR45" ["e"=1]
+"GPR22" -> "HTR2B" ["e"=1]
+"GPR22" -> "GPR85" ["e"=1]
+"GPR22" -> "NPY1R" ["e"=1]
+"GPR22" -> "GPR52" ["e"=1]
+"GPR25" -> "CCR10" ["e"=1]
+"GPR25" -> "S1PR4" ["e"=1]
+"GPR25" -> "RXFP4" ["e"=1]
+"GPR25" -> "GPR20" ["e"=1]
+"GPR26" -> "HTR5A" ["e"=1]
+"GPR26" -> "NTSR1" ["e"=1]
+"GPR26" -> "GALR1" ["e"=1]
+"GPR26" -> "OPN3" ["e"=1]
+"GPR27" -> "GPR88" ["e"=1]
+"GPR27" -> "ADRB3" ["e"=1]
+"GPR27" -> "GPR150" ["e"=1]
+"GPR27" -> "GPR62" ["e"=1]
+"GPR3" -> "MC1R" ["e"=1]
+"GPR3" -> "GPR12" ["e"=1]
+"GPR3" -> "MCHR1" ["e"=1]
+"GPR3" -> "SSTR5" ["e"=1]
+"GPR31" -> "GPR55" ["e"=1]
+"GPR31" -> "GPR35" ["e"=1]
+"GPR31" -> "XCR1" ["e"=1]
+"GPR31" -> "HCAR1" ["e"=1]
+"GPR32" -> "MAS1L" ["e"=1]
+"GPR32" -> "HCAR1" ["e"=1]
+"GPR32" -> "GPR33" ["e"=1]
+"GPR32" -> "ACKR4" ["e"=1]
+"GPR33" -> "OXGR1" ["e"=1]
+"GPR33" -> "GPR32" ["e"=1]
+"GPR33" -> "P2RY12" ["e"=1]
+"GPR33" -> "CYSLTR2" ["e"=1]
+"GPR35" -> "FFAR2" ["e"=1]
+"GPR35" -> "GPR42" ["e"=1]
+"GPR35" -> "FFAR3" ["e"=1]
+"GPR35" -> "PTGIR" ["e"=1]
+"GPR37" -> "GPR37L1" ["e"=1]
+"GPR37" -> "EDNRB" ["e"=1]
+"GPR37" -> "AVPR1A" ["e"=1]
+"GPR37" -> "F2R" ["e"=1]
+"GPR37L1" -> "GPR37" ["e"=1]
+"GPR37L1" -> "GPR3" ["e"=1]
+"GPR37L1" -> "CNR1" ["e"=1]
+"GPR37L1" -> "S1PR1" ["e"=1]
+"GPR39" -> "NMUR2" ["e"=1]
+"GPR39" -> "TRHR" ["e"=1]
+"GPR39" -> "NTSR1" ["e"=1]
+"GPR39" -> "PTGER2" ["e"=1]
+"GPR4" -> "PTGDR2" ["e"=1]
+"GPR4" -> "GPR35" ["e"=1]
+"GPR4" -> "FFAR2" ["e"=1]
+"GPR4" -> "GPR68" ["e"=1]
+"GPR42" -> "FFAR3" ["e"=1]
+"GPR42" -> "FFAR2" ["e"=1]
+"GPR42" -> "GPR35" ["e"=1]
+"GPR42" -> "CXCR5" ["e"=1]
+"GPR45" -> "HTR5A" ["e"=1]
+"GPR45" -> "NPY4R" ["e"=1]
+"GPR45" -> "GHSR" ["e"=1]
+"GPR45" -> "MTNR1A" ["e"=1]
+"GPR52" -> "HRH4" ["e"=1]
+"GPR52" -> "GPR21" ["e"=1]
+"GPR52" -> "TAAR8" ["e"=1]
+"GPR52" -> "GPR148" ["e"=1]
+"GPR55" -> "HCAR1" ["e"=1]
+"GPR55" -> "SUCNR1" ["e"=1]
+"GPR55" -> "GPR31" ["e"=1]
+"GPR55" -> "XCR1" ["e"=1]
+"GPR6" -> "GPR88" ["e"=1]
+"GPR6" -> "MTNR1B" ["e"=1]
+"GPR6" -> "SSTR4" ["e"=1]
+"GPR6" -> "SSTR1" ["e"=1]
+"GPR61" -> "HTR6" ["e"=1]
+"GPR61" -> "HTR5A" ["e"=1]
+"GPR61" -> "OPRL1" ["e"=1]
+"GPR61" -> "MTNR1B" ["e"=1]
+"GPR62" -> "GPR150" ["e"=1]
+"GPR62" -> "GPR88" ["e"=1]
+"GPR62" -> "LTB4R2" ["e"=1]
+"GPR62" -> "ADRB3" ["e"=1]
+"GPR63" -> "PROKR1" ["e"=1]
+"GPR63" -> "EDNRA" ["e"=1]
+"GPR63" -> "PROKR2" ["e"=1]
+"GPR63" -> "GPR12" ["e"=1]
+"GPR65" -> "GPR183" ["e"=1]
+"GPR65" -> "CCR1" ["e"=1]
+"GPR65" -> "PTAFR" ["e"=1]
+"GPR65" -> "GPR15" ["e"=1]
+"GPR68" -> "GPR4" ["e"=1]
+"GPR68" -> "P2RY2" ["e"=1]
+"GPR68" -> "HCAR1" ["e"=1]
+"GPR68" -> "FFAR2" ["e"=1]
+"GPR75" -> "GPR61" ["e"=1]
+"GPR75" -> "GPR176" ["e"=1]
+"GPR75" -> "PTGER4" ["e"=1]
+"GPR75" -> "HRH4" ["e"=1]
+"GPR78" -> "F2RL3" ["e"=1]
+"GPR78" -> "FFAR4" ["e"=1]
+"GPR78" -> "ADRB3" ["e"=1]
+"GPR78" -> "CNR2" ["e"=1]
+"GPR83" -> "PROKR2" ["e"=1]
+"GPR83" -> "GHSR" ["e"=1]
+"GPR83" -> "PROKR1" ["e"=1]
+"GPR83" -> "NPFFR1" ["e"=1]
+"GPR84" -> "ADRA2B" ["e"=1]
+"GPR84" -> "HRH4" ["e"=1]
+"GPR84" -> "CHRM4" ["e"=1]
+"GPR84" -> "GPR52" ["e"=1]
+"GPR85" -> "HRH4" ["e"=1]
+"GPR85" -> "TAAR2" ["e"=1]
+"GPR85" -> "PTGFR" ["e"=1]
+"GPR85" -> "GPR22" ["e"=1]
+"GPR87" -> "P2RY14" ["e"=1]
+"GPR87" -> "GPR183" ["e"=1]
+"GPR87" -> "P2RY12" ["e"=1]
+"GPR87" -> "GPR18" ["e"=1]
+"GPR88" -> "GPR6" ["e"=1]
+"GPR88" -> "GPR62" ["e"=1]
+"GPR88" -> "GPR27" ["e"=1]
+"GPR88" -> "ADRB1" ["e"=1]
+"HCAR1" -> "GPR55" ["e"=1]
+"HCAR1" -> "HCAR2" ["e"=1]
+"HCAR1" -> "P2RY1" ["e"=1]
+"HCAR1" -> "GPR31" ["e"=1]
+"HCAR2" -> "HCAR3" ["e"=1]
+"HCAR2" -> "HCAR1" ["e"=1]
+"HCAR2" -> "CXCR5" ["e"=1]
+"HCAR2" -> "CCR7" ["e"=1]
+"HCAR3" -> "HCAR2" ["e"=1]
+"HCAR3" -> "CXCR5" ["e"=1]
+"HCAR3" -> "GPR42" ["e"=1]
+"HCAR3" -> "PTAFR" ["e"=1]
+"HCRTR1" -> "NPFFR1" ["e"=1]
+"HCRTR1" -> "NMUR1" ["e"=1]
+"HCRTR1" -> "AVPR1B" ["e"=1]
+"HCRTR1" -> "TACR2" ["e"=1]
+"HCRTR2" -> "NMBR" ["e"=1]
+"HCRTR2" -> "TACR1" ["e"=1]
+"HCRTR2" -> "NPSR1" ["e"=1]
+"HCRTR2" -> "HTR7" ["e"=1]
+"HRH1" -> "CHRM1" ["e"=1]
+"HRH1" -> "CHRM5" ["e"=1]
+"HRH1" -> "CHRM4" ["e"=1]
+"HRH1" -> "HTR1A" ["e"=1]
+"HRH2" -> "GALR1" ["e"=1]
+"HRH2" -> "DRD1" ["e"=1]
+"HRH2" -> "OXTR" ["e"=1]
+"HRH2" -> "SSTR2" ["e"=1]
+"HRH3" -> "CHRM1" ["e"=1]
+"HRH3" -> "ADRA2B" ["e"=1]
+"HRH3" -> "ADRA2C" ["e"=1]
+"HRH3" -> "ADRA2A" ["e"=1]
+"HRH4" -> "GPR52" ["e"=1]
+"HRH4" -> "TAAR2" ["e"=1]
+"HRH4" -> "GPR12" ["e"=1]
+"HRH4" -> "TAAR8" ["e"=1]
+"HTR1A" -> "ADRA2A" ["e"=1]
+"HTR1A" -> "HTR5A" ["e"=1]
+"HTR1A" -> "ADRA2B" ["e"=1]
+"HTR1A" -> "CHRM1" ["e"=1]
+"HTR1B" -> "HTR1D" ["e"=1]
+"HTR1B" -> "HTR5A" ["e"=1]
+"HTR1B" -> "GPR45" ["e"=1]
+"HTR1B" -> "HTR1A" ["e"=1]
+"HTR1D" -> "HTR1B" ["e"=1]
+"HTR1D" -> "HTR5A" ["e"=1]
+"HTR1D" -> "HTR1E" ["e"=1]
+"HTR1D" -> "HRH4" ["e"=1]
+"HTR1E" -> "HTR1B" ["e"=1]
+"HTR1E" -> "HTR1D" ["e"=1]
+"HTR1E" -> "HTR1F" ["e"=1]
+"HTR1E" -> "HTR5A" ["e"=1]
+"HTR1F" -> "HTR1B" ["e"=1]
+"HTR1F" -> "HTR1A" ["e"=1]
+"HTR1F" -> "HTR1E" ["e"=1]
+"HTR1F" -> "HRH4" ["e"=1]
+"HTR2A" -> "PROKR2" ["e"=1]
+"HTR2A" -> "SSTR2" ["e"=1]
+"HTR2A" -> "TRHR" ["e"=1]
+"HTR2A" -> "GPR83" ["e"=1]
+"HTR2B" -> "CCKAR" ["e"=1]
+"HTR2B" -> "GPR22" ["e"=1]
+"HTR2B" -> "NPY2R" ["e"=1]
+"HTR2B" -> "TRHR" ["e"=1]
+"HTR4" -> "GPR12" ["e"=1]
+"HTR4" -> "CCKAR" ["e"=1]
+"HTR4" -> "DRD2" ["e"=1]
+"HTR4" -> "HTR7" ["e"=1]
+"HTR5A" -> "GHSR" ["e"=1]
+"HTR5A" -> "HTR1B" ["e"=1]
+"HTR5A" -> "PRLHR" ["e"=1]
+"HTR5A" -> "NPBWR1" ["e"=1]
+"HTR6" -> "GPR61" ["e"=1]
+"HTR6" -> "CCKBR" ["e"=1]
+"HTR6" -> "ADRB3" ["e"=1]
+"HTR6" -> "MTNR1B" ["e"=1]
+"HTR7" -> "NMBR" ["e"=1]
+"HTR7" -> "NTSR1" ["e"=1]
+"HTR7" -> "CCKAR" ["e"=1]
+"HTR7" -> "ADRA1D" ["e"=1]
+"KISS1R" -> "GALR3" ["e"=1]
+"KISS1R" -> "ADRB3" ["e"=1]
+"KISS1R" -> "GALR2" ["e"=1]
+"KISS1R" -> "SSTR5" ["e"=1]
+"LPAR1" -> "LPAR3" ["e"=1]
+"LPAR1" -> "EDNRA" ["e"=1]
+"LPAR1" -> "S1PR2" ["e"=1]
+"LPAR1" -> "PROKR1" ["e"=1]
+"LPAR2" -> "SSTR5" ["e"=1]
+"LPAR2" -> "NMUR1" ["e"=1]
+"LPAR2" -> "LPAR3" ["e"=1]
+"LPAR2" -> "S1PR2" ["e"=1]
+"LPAR3" -> "S1PR1" ["e"=1]
+"LPAR3" -> "S1PR3" ["e"=1]
+"LPAR3" -> "CNR1" ["e"=1]
+"LPAR3" -> "S1PR2" ["e"=1]
+"LPAR5" -> "GPR35" ["e"=1]
+"LPAR5" -> "PTGDR2" ["e"=1]
+"LPAR5" -> "P2RY11" ["e"=1]
+"LPAR5" -> "GPR20" ["e"=1]
+"LPAR6" -> "P2RY12" ["e"=1]
+"LPAR6" -> "GPR183" ["e"=1]
+"LPAR6" -> "GPR65" ["e"=1]
+"LPAR6" -> "P2RY14" ["e"=1]
+"LTB4R" -> "PTGDR2" ["e"=1]
+"LTB4R" -> "P2RY11" ["e"=1]
+"LTB4R" -> "LTB4R2" ["e"=1]
+"LTB4R" -> "GPR35" ["e"=1]
+"LTB4R2" -> "LTB4R" ["e"=1]
+"LTB4R2" -> "P2RY11" ["e"=1]
+"LTB4R2" -> "CCR10" ["e"=1]
+"LTB4R2" -> "GPR62" ["e"=1]
+"MAS1" -> "CYSLTR2" ["e"=1]
+"MAS1" -> "TRHR" ["e"=1]
+"MAS1" -> "MRGPRE" ["e"=1]
+"MAS1" -> "TAAR9" ["e"=1]
+"MAS1L" -> "MRGPRX4" ["e"=1]
+"MAS1L" -> "MRGPRD" ["e"=1]
+"MAS1L" -> "MRGPRX3" ["e"=1]
+"MAS1L" -> "GPR32" ["e"=1]
+"MC1R" -> "GPR3" ["e"=1]
+"MC1R" -> "MC5R" ["e"=1]
+"MC1R" -> "GPR12" ["e"=1]
+"MC1R" -> "MRGPRE" ["e"=1]
+"MC2R" -> "GPR12" ["e"=1]
+"MC2R" -> "MC5R" ["e"=1]
+"MC2R" -> "MC1R" ["e"=1]
+"MC2R" -> "LPAR3" ["e"=1]
+"MC3R" -> "MC4R" ["e"=1]
+"MC3R" -> "MC5R" ["e"=1]
+"MC3R" -> "GPR12" ["e"=1]
+"MC3R" -> "MC2R" ["e"=1]
+"MC4R" -> "MC5R" ["e"=1]
+"MC4R" -> "GPR12" ["e"=1]
+"MC4R" -> "MC3R" ["e"=1]
+"MC4R" -> "HTR4" ["e"=1]
+"MC5R" -> "MC1R" ["e"=1]
+"MC5R" -> "MC4R" ["e"=1]
+"MC5R" -> "MC2R" ["e"=1]
+"MC5R" -> "MC3R" ["e"=1]
+"MCHR1" -> "GPR3" ["e"=1]
+"MCHR1" -> "SSTR3" ["e"=1]
+"MCHR1" -> "GPR142" ["e"=1]
+"MCHR1" -> "PROKR1" ["e"=1]
+"MCHR2" -> "PROKR2" ["e"=1]
+"MCHR2" -> "EDNRA" ["e"=1]
+"MCHR2" -> "PROKR1" ["e"=1]
+"MCHR2" -> "NPY4R" ["e"=1]
+"MLNR" -> "NTSR2" ["e"=1]
+"MLNR" -> "AVPR1B" ["e"=1]
+"MLNR" -> "NTSR1" ["e"=1]
+"MLNR" -> "OXTR" ["e"=1]
+"MRGPRD" -> "MRGPRE" ["e"=1]
+"MRGPRD" -> "MRGPRX4" ["e"=1]
+"MRGPRD" -> "MAS1L" ["e"=1]
+"MRGPRD" -> "MRGPRG" ["e"=1]
+"MRGPRE" -> "C5AR2" ["e"=1]
+"MRGPRE" -> "GPR55" ["e"=1]
+"MRGPRE" -> "MRGPRD" ["e"=1]
+"MRGPRE" -> "GPR42" ["e"=1]
+"MRGPRF" -> "MRGPRE" ["e"=1]
+"MRGPRF" -> "HCAR2" ["e"=1]
+"MRGPRF" -> "MRGPRD" ["e"=1]
+"MRGPRF" -> "MRGPRX2" ["e"=1]
+"MRGPRG" -> "MRGPRE" ["e"=1]
+"MRGPRG" -> "MRGPRD" ["e"=1]
+"MRGPRG" -> "MRGPRX3" ["e"=1]
+"MRGPRG" -> "MRGPRX1" ["e"=1]
+"MRGPRX1" -> "MRGPRX3" ["e"=1]
+"MRGPRX1" -> "MRGPRX4" ["e"=1]
+"MRGPRX1" -> "MRGPRX2" ["e"=1]
+"MRGPRX1" -> "MRGPRD" ["e"=1]
+"MRGPRX2" -> "MRGPRX1" ["e"=1]
+"MRGPRX2" -> "MRGPRX3" ["e"=1]
+"MRGPRX2" -> "MRGPRX4" ["e"=1]
+"MRGPRX2" -> "MRGPRD" ["e"=1]
+"MRGPRX3" -> "MRGPRX1" ["e"=1]
+"MRGPRX3" -> "MRGPRX4" ["e"=1]
+"MRGPRX3" -> "MRGPRX2" ["e"=1]
+"MRGPRX3" -> "MRGPRG" ["e"=1]
+"MRGPRX4" -> "MRGPRX3" ["e"=1]
+"MRGPRX4" -> "MRGPRX1" ["e"=1]
+"MRGPRX4" -> "MRGPRX2" ["e"=1]
+"MRGPRX4" -> "MAS1L" ["e"=1]
+"MTNR1A" -> "MTNR1B" ["e"=1]
+"MTNR1A" -> "GPR45" ["e"=1]
+"MTNR1A" -> "SSTR4" ["e"=1]
+"MTNR1A" -> "ADORA2B" ["e"=1]
+"MTNR1B" -> "SSTR4" ["e"=1]
+"MTNR1B" -> "GHSR" ["e"=1]
+"MTNR1B" -> "MTNR1A" ["e"=1]
+"MTNR1B" -> "NTSR1" ["e"=1]
+"NMBR" -> "TACR3" ["e"=1]
+"NMBR" -> "PROKR1" ["e"=1]
+"NMBR" -> "HTR7" ["e"=1]
+"NMBR" -> "TACR1" ["e"=1]
+"NMUR1" -> "GHSR" ["e"=1]
+"NMUR1" -> "PTGDR2" ["e"=1]
+"NMUR1" -> "S1PR5" ["e"=1]
+"NMUR1" -> "AVPR1B" ["e"=1]
+"NMUR2" -> "GPR83" ["e"=1]
+"NMUR2" -> "GPR39" ["e"=1]
+"NMUR2" -> "GPR139" ["e"=1]
+"NMUR2" -> "PROKR2" ["e"=1]
+"NPBWR1" -> "NPBWR2" ["e"=1]
+"NPBWR1" -> "SSTR5" ["e"=1]
+"NPBWR1" -> "PRLHR" ["e"=1]
+"NPBWR1" -> "SSTR1" ["e"=1]
+"NPBWR2" -> "NPBWR1" ["e"=1]
+"NPBWR2" -> "PROKR2" ["e"=1]
+"NPBWR2" -> "NPY4R" ["e"=1]
+"NPBWR2" -> "PROKR1" ["e"=1]
+"NPFFR1" -> "GPR83" ["e"=1]
+"NPFFR1" -> "SSTR4" ["e"=1]
+"NPFFR1" -> "NMUR1" ["e"=1]
+"NPFFR1" -> "HCRTR1" ["e"=1]
+"NPFFR2" -> "HTR7" ["e"=1]
+"NPFFR2" -> "NPSR1" ["e"=1]
+"NPFFR2" -> "PROKR1" ["e"=1]
+"NPFFR2" -> "OPRK1" ["e"=1]
+"NPSR1" -> "PROKR2" ["e"=1]
+"NPSR1" -> "HTR2A" ["e"=1]
+"NPSR1" -> "GPR139" ["e"=1]
+"NPSR1" -> "TRHR" ["e"=1]
+"NPY1R" -> "NPY2R" ["e"=1]
+"NPY1R" -> "SSTR1" ["e"=1]
+"NPY1R" -> "SSTR4" ["e"=1]
+"NPY1R" -> "TRHR" ["e"=1]
+"NPY2R" -> "PROKR1" ["e"=1]
+"NPY2R" -> "PROKR2" ["e"=1]
+"NPY2R" -> "SSTR1" ["e"=1]
+"NPY2R" -> "OXTR" ["e"=1]
+"NPY4R" -> "NPY4R2" ["e"=1]
+"NPY4R" -> "PROKR2" ["e"=1]
+"NPY4R" -> "NPBWR2" ["e"=1]
+"NPY4R" -> "GPR45" ["e"=1]
+"NPY4R2" -> "NPY4R" ["e"=1]
+"NPY4R2" -> "PROKR2" ["e"=1]
+"NPY4R2" -> "GPER1" ["e"=1]
+"NPY4R2" -> "PROKR1" ["e"=1]
+"NPY5R" -> "HRH4" ["e"=1]
+"NPY5R" -> "HTR1F" ["e"=1]
+"NPY5R" -> "HTR2B" ["e"=1]
+"NPY5R" -> "HTR1E" ["e"=1]
+"NTSR1" -> "GHSR" ["e"=1]
+"NTSR1" -> "GALR1" ["e"=1]
+"NTSR1" -> "SSTR4" ["e"=1]
+"NTSR1" -> "MTNR1B" ["e"=1]
+"NTSR2" -> "GHSR" ["e"=1]
+"NTSR2" -> "MLNR" ["e"=1]
+"NTSR2" -> "NTSR1" ["e"=1]
+"NTSR2" -> "AVPR1B" ["e"=1]
+"OPN1SW" -> "RHO" ["e"=1]
+"OPN1SW" -> "OPN5" ["e"=1]
+"OPN1SW" -> "RRH" ["e"=1]
+"OPN1SW" -> "MTNR1B" ["e"=1]
+"OPN3" -> "FFAR4" ["e"=1]
+"OPN3" -> "GHSR" ["e"=1]
+"OPN3" -> "GPR26" ["e"=1]
+"OPN3" -> "MTNR1B" ["e"=1]
+"OPN4" -> "MTNR1B" ["e"=1]
+"OPN4" -> "HCRTR1" ["e"=1]
+"OPN4" -> "HTR6" ["e"=1]
+"OPN4" -> "TACR2" ["e"=1]
+"OPN5" -> "RRH" ["e"=1]
+"OPN5" -> "OPN1SW" ["e"=1]
+"OPN5" -> "RGR" ["e"=1]
+"OPN5" -> "PTGFR" ["e"=1]
+"OPRD1" -> "OPRK1" ["e"=1]
+"OPRD1" -> "GPR83" ["e"=1]
+"OPRD1" -> "MTNR1B" ["e"=1]
+"OPRD1" -> "NTSR1" ["e"=1]
+"OPRK1" -> "OPRD1" ["e"=1]
+"OPRK1" -> "MTNR1B" ["e"=1]
+"OPRK1" -> "NTSR1" ["e"=1]
+"OPRK1" -> "HTR7" ["e"=1]
+"OPRL1" -> "MTNR1B" ["e"=1]
+"OPRL1" -> "NTSR1" ["e"=1]
+"OPRL1" -> "S1PR2" ["e"=1]
+"OPRL1" -> "GPR83" ["e"=1]
+"OXER1" -> "GPR17" ["e"=1]
+"OXER1" -> "GPR182" ["e"=1]
+"OXER1" -> "GPR20" ["e"=1]
+"OXER1" -> "P2RY11" ["e"=1]
+"OXGR1" -> "ACKR4" ["e"=1]
+"OXGR1" -> "P2RY12" ["e"=1]
+"OXGR1" -> "CYSLTR2" ["e"=1]
+"OXGR1" -> "GPR15" ["e"=1]
+"OXTR" -> "SSTR4" ["e"=1]
+"OXTR" -> "NTSR1" ["e"=1]
+"OXTR" -> "AVPR1A" ["e"=1]
+"OXTR" -> "S1PR3" ["e"=1]
+"P2RY1" -> "CYSLTR2" ["e"=1]
+"P2RY1" -> "F2R" ["e"=1]
+"P2RY1" -> "HCAR1" ["e"=1]
+"P2RY1" -> "AVPR1A" ["e"=1]
+"P2RY11" -> "PTGDR2" ["e"=1]
+"P2RY11" -> "LTB4R" ["e"=1]
+"P2RY11" -> "OXER1" ["e"=1]
+"P2RY11" -> "NMUR1" ["e"=1]
+"P2RY12" -> "P2RY14" ["e"=1]
+"P2RY12" -> "P2RY13" ["e"=1]
+"P2RY12" -> "LPAR6" ["e"=1]
+"P2RY12" -> "GPR183" ["e"=1]
+"P2RY13" -> "P2RY12" ["e"=1]
+"P2RY13" -> "GPR65" ["e"=1]
+"P2RY13" -> "CYSLTR2" ["e"=1]
+"P2RY13" -> "CCR1" ["e"=1]
+"P2RY14" -> "P2RY12" ["e"=1]
+"P2RY14" -> "CYSLTR2" ["e"=1]
+"P2RY14" -> "GPR87" ["e"=1]
+"P2RY14" -> "GPR183" ["e"=1]
+"P2RY2" -> "NMUR1" ["e"=1]
+"P2RY2" -> "GPR68" ["e"=1]
+"P2RY2" -> "PTGDR2" ["e"=1]
+"P2RY2" -> "OXER1" ["e"=1]
+"P2RY6" -> "GPR35" ["e"=1]
+"P2RY6" -> "P2RY11" ["e"=1]
+"P2RY6" -> "GPR20" ["e"=1]
+"P2RY6" -> "GPR4" ["e"=1]
+"PRLHR" -> "SSTR4" ["e"=1]
+"PRLHR" -> "NPBWR1" ["e"=1]
+"PRLHR" -> "NMUR1" ["e"=1]
+"PRLHR" -> "HTR5A" ["e"=1]
+"PROKR1" -> "PROKR2" ["e"=1]
+"PROKR1" -> "GHSR" ["e"=1]
+"PROKR1" -> "GPR83" ["e"=1]
+"PROKR1" -> "NPY2R" ["e"=1]
+"PROKR2" -> "PROKR1" ["e"=1]
+"PROKR2" -> "GPR83" ["e"=1]
+"PROKR2" -> "NPY2R" ["e"=1]
+"PROKR2" -> "NPY4R" ["e"=1]
+"PTAFR" -> "CCR1" ["e"=1]
+"PTAFR" -> "CCR5" ["e"=1]
+"PTAFR" -> "GPR65" ["e"=1]
+"PTAFR" -> "GPR55" ["e"=1]
+"PTGDR" -> "PTGER2" ["e"=1]
+"PTGDR" -> "PTGFR" ["e"=1]
+"PTGDR" -> "GHSR" ["e"=1]
+"PTGDR" -> "FFAR4" ["e"=1]
+"PTGDR2" -> "GPR4" ["e"=1]
+"PTGDR2" -> "NMUR1" ["e"=1]
+"PTGDR2" -> "LTB4R" ["e"=1]
+"PTGDR2" -> "P2RY11" ["e"=1]
+"PTGER1" -> "S1PR5" ["e"=1]
+"PTGER1" -> "TBXA2R" ["e"=1]
+"PTGER1" -> "ADRB3" ["e"=1]
+"PTGER1" -> "PTGIR" ["e"=1]
+"PTGER2" -> "GHSR" ["e"=1]
+"PTGER2" -> "PTGDR" ["e"=1]
+"PTGER2" -> "PTGER4" ["e"=1]
+"PTGER2" -> "OXTR" ["e"=1]
+"PTGER3" -> "PTGFR" ["e"=1]
+"PTGER3" -> "MTNR1B" ["e"=1]
+"PTGER3" -> "NTSR1" ["e"=1]
+"PTGER3" -> "S1PR3" ["e"=1]
+"PTGER4" -> "AVPR1A" ["e"=1]
+"PTGER4" -> "TRHR" ["e"=1]
+"PTGER4" -> "GPR61" ["e"=1]
+"PTGER4" -> "PTGER2" ["e"=1]
+"PTGFR" -> "S1PR3" ["e"=1]
+"PTGFR" -> "PTGER3" ["e"=1]
+"PTGFR" -> "GNRHR" ["e"=1]
+"PTGFR" -> "LPAR3" ["e"=1]
+"PTGIR" -> "TBXA2R" ["e"=1]
+"PTGIR" -> "GPR35" ["e"=1]
+"PTGIR" -> "GPR42" ["e"=1]
+"PTGIR" -> "S1PR5" ["e"=1]
+"QRFPR" -> "NMBR" ["e"=1]
+"QRFPR" -> "GALR1" ["e"=1]
+"QRFPR" -> "HTR7" ["e"=1]
+"QRFPR" -> "TACR3" ["e"=1]
+"RGR" -> "OPN5" ["e"=1]
+"RGR" -> "RRH" ["e"=1]
+"RGR" -> "FFAR1" ["e"=1]
+"RGR" -> "GPR37L1" ["e"=1]
+"RHO" -> "OPN1SW" ["e"=1]
+"RHO" -> "RRH" ["e"=1]
+"RHO" -> "OPN5" ["e"=1]
+"RHO" -> "RGR" ["e"=1]
+"RRH" -> "OPN5" ["e"=1]
+"RRH" -> "GPR12" ["e"=1]
+"RRH" -> "NPY2R" ["e"=1]
+"RRH" -> "OPN1SW" ["e"=1]
+"RXFP3" -> "SSTR5" ["e"=1]
+"RXFP3" -> "MLNR" ["e"=1]
+"RXFP3" -> "PROKR2" ["e"=1]
+"RXFP3" -> "SSTR4" ["e"=1]
+"RXFP4" -> "GPR25" ["e"=1]
+"RXFP4" -> "OXER1" ["e"=1]
+"RXFP4" -> "GPR20" ["e"=1]
+"RXFP4" -> "TACR2" ["e"=1]
+"S1PR1" -> "S1PR3" ["e"=1]
+"S1PR1" -> "LPAR3" ["e"=1]
+"S1PR1" -> "CCR5" ["e"=1]
+"S1PR1" -> "CNR1" ["e"=1]
+"S1PR2" -> "S1PR3" ["e"=1]
+"S1PR2" -> "SSTR4" ["e"=1]
+"S1PR2" -> "BDKRB2" ["e"=1]
+"S1PR2" -> "CNR2" ["e"=1]
+"S1PR3" -> "S1PR2" ["e"=1]
+"S1PR3" -> "S1PR1" ["e"=1]
+"S1PR3" -> "LPAR3" ["e"=1]
+"S1PR3" -> "BDKRB2" ["e"=1]
+"S1PR4" -> "S1PR5" ["e"=1]
+"S1PR4" -> "GPR25" ["e"=1]
+"S1PR4" -> "MTNR1B" ["e"=1]
+"S1PR4" -> "UTS2R" ["e"=1]
+"S1PR5" -> "S1PR4" ["e"=1]
+"S1PR5" -> "NMUR1" ["e"=1]
+"S1PR5" -> "UTS2R" ["e"=1]
+"S1PR5" -> "PTGIR" ["e"=1]
+"SLC10A4" -> "GPR135" ["e"=1]
+"SLC10A4" -> "OPN3" ["e"=1]
+"SLC10A4" -> "TACR3" ["e"=1]
+"SLC10A4" -> "NMBR" ["e"=1]
+"SSTR1" -> "SSTR4" ["e"=1]
+"SSTR1" -> "GHSR" ["e"=1]
+"SSTR1" -> "SSTR5" ["e"=1]
+"SSTR1" -> "NPY2R" ["e"=1]
+"SSTR2" -> "HTR2A" ["e"=1]
+"SSTR2" -> "AVPR1A" ["e"=1]
+"SSTR2" -> "PROKR2" ["e"=1]
+"SSTR2" -> "BDKRB2" ["e"=1]
+"SSTR3" -> "SSTR5" ["e"=1]
+"SSTR3" -> "ADRB3" ["e"=1]
+"SSTR3" -> "GALR3" ["e"=1]
+"SSTR3" -> "SSTR4" ["e"=1]
+"SSTR4" -> "SSTR1" ["e"=1]
+"SSTR4" -> "MTNR1B" ["e"=1]
+"SSTR4" -> "OXTR" ["e"=1]
+"SSTR4" -> "SSTR5" ["e"=1]
+"SSTR5" -> "SSTR3" ["e"=1]
+"SSTR5" -> "NPBWR1" ["e"=1]
+"SSTR5" -> "SSTR4" ["e"=1]
+"SSTR5" -> "SSTR1" ["e"=1]
+"SUCNR1" -> "GPR55" ["e"=1]
+"SUCNR1" -> "CCR1" ["e"=1]
+"SUCNR1" -> "CYSLTR2" ["e"=1]
+"SUCNR1" -> "GPR65" ["e"=1]
+"TAAR1" -> "TAAR6" ["e"=1]
+"TAAR1" -> "TAAR9" ["e"=1]
+"TAAR1" -> "TAAR8" ["e"=1]
+"TAAR1" -> "TAAR2" ["e"=1]
+"TAAR2" -> "TAAR8" ["e"=1]
+"TAAR2" -> "TAAR6" ["e"=1]
+"TAAR2" -> "TAAR9" ["e"=1]
+"TAAR2" -> "TAAR1" ["e"=1]
+"TAAR5" -> "TAAR1" ["e"=1]
+"TAAR5" -> "TAAR2" ["e"=1]
+"TAAR5" -> "TAAR9" ["e"=1]
+"TAAR5" -> "TAAR6" ["e"=1]
+"TAAR6" -> "TAAR9" ["e"=1]
+"TAAR6" -> "TAAR1" ["e"=1]
+"TAAR6" -> "TAAR8" ["e"=1]
+"TAAR6" -> "TAAR2" ["e"=1]
+"TAAR8" -> "TAAR9" ["e"=1]
+"TAAR8" -> "TAAR2" ["e"=1]
+"TAAR8" -> "TAAR6" ["e"=1]
+"TAAR8" -> "TAAR1" ["e"=1]
+"TAAR9" -> "TAAR8" ["e"=1]
+"TAAR9" -> "TAAR6" ["e"=1]
+"TAAR9" -> "TAAR1" ["e"=1]
+"TAAR9" -> "TAAR2" ["e"=1]
+"TACR1" -> "NMBR" ["e"=1]
+"TACR1" -> "TRHR" ["e"=1]
+"TACR1" -> "GPR83" ["e"=1]
+"TACR1" -> "PROKR1" ["e"=1]
+"TACR2" -> "GHSR" ["e"=1]
+"TACR2" -> "MTNR1B" ["e"=1]
+"TACR2" -> "PROKR1" ["e"=1]
+"TACR2" -> "PROKR2" ["e"=1]
+"TACR3" -> "NMBR" ["e"=1]
+"TACR3" -> "HTR7" ["e"=1]
+"TACR3" -> "NTSR1" ["e"=1]
+"TACR3" -> "QRFPR" ["e"=1]
+"TBXA2R" -> "PTGIR" ["e"=1]
+"TBXA2R" -> "GPR35" ["e"=1]
+"TBXA2R" -> "MRGPRE" ["e"=1]
+"TBXA2R" -> "S1PR5" ["e"=1]
+"TMEM116" -> "GPR39" ["e"=1]
+"TMEM116" -> "PTGFR" ["e"=1]
+"TMEM116" -> "OPN5" ["e"=1]
+"TMEM116" -> "NMUR2" ["e"=1]
+"TMEM217" -> "HRH4" ["e"=1]
+"TMEM217" -> "OXGR1" ["e"=1]
+"TMEM217" -> "LPAR3" ["e"=1]
+"TMEM217" -> "GPR52" ["e"=1]
+"TRHR" -> "GHSR" ["e"=1]
+"TRHR" -> "NMBR" ["e"=1]
+"TRHR" -> "TACR1" ["e"=1]
+"TRHR" -> "MTNR1B" ["e"=1]
+"UTS2R" -> "SSTR4" ["e"=1]
+"UTS2R" -> "SSTR5" ["e"=1]
+"UTS2R" -> "MTNR1B" ["e"=1]
+"UTS2R" -> "AVPR1B" ["e"=1]
+"XCR1" -> "GPR55" ["e"=1]
+"XCR1" -> "GPR31" ["e"=1]
+"XCR1" -> "SUCNR1" ["e"=1]
+"XCR1" -> "CCR5" ["e"=1]
 }

@@ -18,80 +18,80 @@ digraph G {
 "KRTAP9-7" ["l"="4.014,-9.735"]
 "KRTAP9-8" ["l"="4.016,-9.739"]
 "KRTAP9-9" ["l"="4.007,-9.729"]
-"KRTAP4-1" -> "KRTAP9-8"
-"KRTAP4-1" -> "KRTAP9-3"
-"KRTAP4-1" -> "KRTAP9-9"
-"KRTAP4-1" -> "KRTAP9-2"
-"KRTAP4-11" -> "KRTAP4-9"
-"KRTAP4-11" -> "KRTAP4-8"
-"KRTAP4-11" -> "KRTAP4-12"
-"KRTAP4-11" -> "KRTAP4-4"
-"KRTAP4-12" -> "KRTAP4-11"
-"KRTAP4-12" -> "KRTAP4-9"
-"KRTAP4-12" -> "KRTAP4-4"
-"KRTAP4-12" -> "KRTAP4-8"
-"KRTAP4-2" -> "KRTAP4-7"
-"KRTAP4-2" -> "KRTAP4-6"
-"KRTAP4-2" -> "KRTAP4-8"
-"KRTAP4-2" -> "KRTAP4-5"
-"KRTAP4-3" -> "KRTAP4-11"
-"KRTAP4-3" -> "KRTAP4-8"
-"KRTAP4-3" -> "KRTAP4-9"
-"KRTAP4-3" -> "KRTAP4-6"
-"KRTAP4-4" -> "KRTAP4-9"
-"KRTAP4-4" -> "KRTAP4-11"
-"KRTAP4-4" -> "KRTAP4-12"
-"KRTAP4-4" -> "KRTAP4-8"
-"KRTAP4-5" -> "KRTAP4-2"
-"KRTAP4-5" -> "KRTAP4-7"
-"KRTAP4-5" -> "KRTAP4-6"
-"KRTAP4-5" -> "KRTAP4-9"
-"KRTAP4-6" -> "KRTAP4-2"
-"KRTAP4-6" -> "KRTAP4-12"
-"KRTAP4-6" -> "KRTAP4-3"
-"KRTAP4-6" -> "KRTAP4-5"
-"KRTAP4-7" -> "KRTAP4-9"
-"KRTAP4-7" -> "KRTAP4-2"
-"KRTAP4-7" -> "KRTAP4-11"
-"KRTAP4-7" -> "KRTAP4-8"
-"KRTAP4-8" -> "KRTAP4-11"
-"KRTAP4-8" -> "KRTAP4-9"
-"KRTAP4-8" -> "KRTAP4-3"
-"KRTAP4-8" -> "KRTAP4-7"
-"KRTAP4-9" -> "KRTAP4-7"
-"KRTAP4-9" -> "KRTAP4-11"
-"KRTAP4-9" -> "KRTAP4-8"
-"KRTAP4-9" -> "KRTAP4-12"
-"KRTAP9-1" -> "KRTAP9-7"
-"KRTAP9-1" -> "KRTAP9-6"
-"KRTAP9-1" -> "KRTAP9-9"
-"KRTAP9-1" -> "KRTAP9-2"
-"KRTAP9-2" -> "KRTAP9-6"
-"KRTAP9-2" -> "KRTAP9-3"
-"KRTAP9-2" -> "KRTAP9-4"
-"KRTAP9-2" -> "KRTAP9-7"
-"KRTAP9-3" -> "KRTAP9-4"
-"KRTAP9-3" -> "KRTAP9-9"
-"KRTAP9-3" -> "KRTAP9-8"
-"KRTAP9-3" -> "KRTAP9-2"
-"KRTAP9-4" -> "KRTAP9-3"
-"KRTAP9-4" -> "KRTAP9-9"
-"KRTAP9-4" -> "KRTAP9-2"
-"KRTAP9-4" -> "KRTAP9-8"
-"KRTAP9-6" -> "KRTAP9-7"
-"KRTAP9-6" -> "KRTAP9-2"
-"KRTAP9-6" -> "KRTAP9-8"
-"KRTAP9-6" -> "KRTAP9-1"
-"KRTAP9-7" -> "KRTAP9-6"
-"KRTAP9-7" -> "KRTAP9-1"
-"KRTAP9-7" -> "KRTAP9-2"
-"KRTAP9-7" -> "KRTAP9-4"
-"KRTAP9-8" -> "KRTAP9-9"
-"KRTAP9-8" -> "KRTAP9-3"
-"KRTAP9-8" -> "KRTAP9-4"
-"KRTAP9-8" -> "KRTAP9-2"
-"KRTAP9-9" -> "KRTAP9-8"
-"KRTAP9-9" -> "KRTAP9-3"
-"KRTAP9-9" -> "KRTAP9-4"
-"KRTAP9-9" -> "KRTAP9-2"
+"KRTAP4-1" -> "KRTAP9-8" ["e"=1]
+"KRTAP4-1" -> "KRTAP9-3" ["e"=1]
+"KRTAP4-1" -> "KRTAP9-9" ["e"=1]
+"KRTAP4-1" -> "KRTAP9-2" ["e"=1]
+"KRTAP4-11" -> "KRTAP4-9" ["e"=1]
+"KRTAP4-11" -> "KRTAP4-8" ["e"=1]
+"KRTAP4-11" -> "KRTAP4-12" ["e"=1]
+"KRTAP4-11" -> "KRTAP4-4" ["e"=1]
+"KRTAP4-12" -> "KRTAP4-11" ["e"=1]
+"KRTAP4-12" -> "KRTAP4-9" ["e"=1]
+"KRTAP4-12" -> "KRTAP4-4" ["e"=1]
+"KRTAP4-12" -> "KRTAP4-8" ["e"=1]
+"KRTAP4-2" -> "KRTAP4-7" ["e"=1]
+"KRTAP4-2" -> "KRTAP4-6" ["e"=1]
+"KRTAP4-2" -> "KRTAP4-8" ["e"=1]
+"KRTAP4-2" -> "KRTAP4-5" ["e"=1]
+"KRTAP4-3" -> "KRTAP4-11" ["e"=1]
+"KRTAP4-3" -> "KRTAP4-8" ["e"=1]
+"KRTAP4-3" -> "KRTAP4-9" ["e"=1]
+"KRTAP4-3" -> "KRTAP4-6" ["e"=1]
+"KRTAP4-4" -> "KRTAP4-9" ["e"=1]
+"KRTAP4-4" -> "KRTAP4-11" ["e"=1]
+"KRTAP4-4" -> "KRTAP4-12" ["e"=1]
+"KRTAP4-4" -> "KRTAP4-8" ["e"=1]
+"KRTAP4-5" -> "KRTAP4-2" ["e"=1]
+"KRTAP4-5" -> "KRTAP4-7" ["e"=1]
+"KRTAP4-5" -> "KRTAP4-6" ["e"=1]
+"KRTAP4-5" -> "KRTAP4-9" ["e"=1]
+"KRTAP4-6" -> "KRTAP4-2" ["e"=1]
+"KRTAP4-6" -> "KRTAP4-12" ["e"=1]
+"KRTAP4-6" -> "KRTAP4-3" ["e"=1]
+"KRTAP4-6" -> "KRTAP4-5" ["e"=1]
+"KRTAP4-7" -> "KRTAP4-9" ["e"=1]
+"KRTAP4-7" -> "KRTAP4-2" ["e"=1]
+"KRTAP4-7" -> "KRTAP4-11" ["e"=1]
+"KRTAP4-7" -> "KRTAP4-8" ["e"=1]
+"KRTAP4-8" -> "KRTAP4-11" ["e"=1]
+"KRTAP4-8" -> "KRTAP4-9" ["e"=1]
+"KRTAP4-8" -> "KRTAP4-3" ["e"=1]
+"KRTAP4-8" -> "KRTAP4-7" ["e"=1]
+"KRTAP4-9" -> "KRTAP4-7" ["e"=1]
+"KRTAP4-9" -> "KRTAP4-11" ["e"=1]
+"KRTAP4-9" -> "KRTAP4-8" ["e"=1]
+"KRTAP4-9" -> "KRTAP4-12" ["e"=1]
+"KRTAP9-1" -> "KRTAP9-7" ["e"=1]
+"KRTAP9-1" -> "KRTAP9-6" ["e"=1]
+"KRTAP9-1" -> "KRTAP9-9" ["e"=1]
+"KRTAP9-1" -> "KRTAP9-2" ["e"=1]
+"KRTAP9-2" -> "KRTAP9-6" ["e"=1]
+"KRTAP9-2" -> "KRTAP9-3" ["e"=1]
+"KRTAP9-2" -> "KRTAP9-4" ["e"=1]
+"KRTAP9-2" -> "KRTAP9-7" ["e"=1]
+"KRTAP9-3" -> "KRTAP9-4" ["e"=1]
+"KRTAP9-3" -> "KRTAP9-9" ["e"=1]
+"KRTAP9-3" -> "KRTAP9-8" ["e"=1]
+"KRTAP9-3" -> "KRTAP9-2" ["e"=1]
+"KRTAP9-4" -> "KRTAP9-3" ["e"=1]
+"KRTAP9-4" -> "KRTAP9-9" ["e"=1]
+"KRTAP9-4" -> "KRTAP9-2" ["e"=1]
+"KRTAP9-4" -> "KRTAP9-8" ["e"=1]
+"KRTAP9-6" -> "KRTAP9-7" ["e"=1]
+"KRTAP9-6" -> "KRTAP9-2" ["e"=1]
+"KRTAP9-6" -> "KRTAP9-8" ["e"=1]
+"KRTAP9-6" -> "KRTAP9-1" ["e"=1]
+"KRTAP9-7" -> "KRTAP9-6" ["e"=1]
+"KRTAP9-7" -> "KRTAP9-1" ["e"=1]
+"KRTAP9-7" -> "KRTAP9-2" ["e"=1]
+"KRTAP9-7" -> "KRTAP9-4" ["e"=1]
+"KRTAP9-8" -> "KRTAP9-9" ["e"=1]
+"KRTAP9-8" -> "KRTAP9-3" ["e"=1]
+"KRTAP9-8" -> "KRTAP9-4" ["e"=1]
+"KRTAP9-8" -> "KRTAP9-2" ["e"=1]
+"KRTAP9-9" -> "KRTAP9-8" ["e"=1]
+"KRTAP9-9" -> "KRTAP9-3" ["e"=1]
+"KRTAP9-9" -> "KRTAP9-4" ["e"=1]
+"KRTAP9-9" -> "KRTAP9-2" ["e"=1]
 }

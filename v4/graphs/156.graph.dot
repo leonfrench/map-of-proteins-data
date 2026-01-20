@@ -20,88 +20,88 @@ digraph G {
 "TRAM1L1" ["l"="9.642,-3.056"]
 "VKORC1L1" ["l"="9.634,-3.131"]
 "ZMPSTE24" ["l"="9.619,-2.966"]
-"AQP11" -> "TMEM234"
-"AQP11" -> "MPV17L"
-"AQP11" -> "VKORC1L1"
-"AQP11" -> "TMEM79"
-"CDS2" -> "SPPL3"
-"CDS2" -> "SURF4"
-"CDS2" -> "FAIM2"
-"CDS2" -> "TRAM1"
-"FAIM2" -> "CDS2"
-"FAIM2" -> "SPPL3"
-"FAIM2" -> "IFITM5"
-"FAIM2" -> "LMBR1L"
-"HM13" -> "CDS2"
-"HM13" -> "SPPL3"
-"HM13" -> "SURF4"
-"HM13" -> "SLC35B1"
-"IFITM5" -> "SERINC5"
-"IFITM5" -> "CDS2"
-"IFITM5" -> "FAIM2"
-"IFITM5" -> "TMEM234"
-"JKAMP" -> "PIGF"
-"JKAMP" -> "TRAM1"
-"JKAMP" -> "LMBR1L"
-"JKAMP" -> "TMEM234"
-"KDELR3" -> "SLC35B1"
-"KDELR3" -> "TRAM1"
-"KDELR3" -> "SURF4"
-"KDELR3" -> "TMEM234"
-"LMBR1L" -> "SPPL3"
-"LMBR1L" -> "TMEM234"
-"LMBR1L" -> "SERINC5"
-"LMBR1L" -> "TRAM1"
-"MGST1" -> "MPV17L"
-"MGST1" -> "ZMPSTE24"
-"MGST1" -> "SURF4"
-"MGST1" -> "IFITM5"
-"MPV17L" -> "VKORC1L1"
-"MPV17L" -> "AQP11"
-"MPV17L" -> "SURF4"
-"MPV17L" -> "MGST1"
-"PIGF" -> "JKAMP"
-"PIGF" -> "TMEM234"
-"PIGF" -> "AQP11"
-"PIGF" -> "LMBR1L"
-"SERINC5" -> "SPPL3"
-"SERINC5" -> "LMBR1L"
-"SERINC5" -> "CDS2"
-"SERINC5" -> "TRAM1"
-"SLC35B1" -> "KDELR3"
-"SLC35B1" -> "SURF4"
-"SLC35B1" -> "TMEM234"
-"SLC35B1" -> "SPPL3"
-"SPPL3" -> "CDS2"
-"SPPL3" -> "LMBR1L"
-"SPPL3" -> "SERINC5"
-"SPPL3" -> "TRAM1"
-"SURF4" -> "TRAM1"
-"SURF4" -> "SLC35B1"
-"SURF4" -> "CDS2"
-"SURF4" -> "KDELR3"
-"TMEM234" -> "LMBR1L"
-"TMEM234" -> "KDELR3"
-"TMEM234" -> "SLC35B1"
-"TMEM234" -> "SPPL3"
-"TMEM79" -> "AQP11"
-"TMEM79" -> "IFITM5"
-"TMEM79" -> "LMBR1L"
-"TMEM79" -> "SPPL3"
-"TRAM1" -> "SURF4"
-"TRAM1" -> "TRAM1L1"
-"TRAM1" -> "SPPL3"
-"TRAM1" -> "KDELR3"
-"TRAM1L1" -> "TRAM1"
-"TRAM1L1" -> "KDELR3"
-"TRAM1L1" -> "SPPL3"
-"TRAM1L1" -> "SURF4"
-"VKORC1L1" -> "MPV17L"
-"VKORC1L1" -> "SURF4"
-"VKORC1L1" -> "ZMPSTE24"
-"VKORC1L1" -> "KDELR3"
-"ZMPSTE24" -> "TRAM1"
-"ZMPSTE24" -> "KDELR3"
-"ZMPSTE24" -> "SERINC5"
-"ZMPSTE24" -> "TRAM1L1"
+"AQP11" -> "TMEM234" ["e"=1]
+"AQP11" -> "MPV17L" ["e"=1]
+"AQP11" -> "VKORC1L1" ["e"=1]
+"AQP11" -> "TMEM79" ["e"=1]
+"CDS2" -> "SPPL3" ["e"=1]
+"CDS2" -> "SURF4" ["e"=1]
+"CDS2" -> "FAIM2" ["e"=1]
+"CDS2" -> "TRAM1" ["e"=1]
+"FAIM2" -> "CDS2" ["e"=1]
+"FAIM2" -> "SPPL3" ["e"=1]
+"FAIM2" -> "IFITM5" ["e"=1]
+"FAIM2" -> "LMBR1L" ["e"=1]
+"HM13" -> "CDS2" ["e"=1]
+"HM13" -> "SPPL3" ["e"=1]
+"HM13" -> "SURF4" ["e"=1]
+"HM13" -> "SLC35B1" ["e"=1]
+"IFITM5" -> "SERINC5" ["e"=1]
+"IFITM5" -> "CDS2" ["e"=1]
+"IFITM5" -> "FAIM2" ["e"=1]
+"IFITM5" -> "TMEM234" ["e"=1]
+"JKAMP" -> "PIGF" ["e"=1]
+"JKAMP" -> "TRAM1" ["e"=1]
+"JKAMP" -> "LMBR1L" ["e"=1]
+"JKAMP" -> "TMEM234" ["e"=1]
+"KDELR3" -> "SLC35B1" ["e"=1]
+"KDELR3" -> "TRAM1" ["e"=1]
+"KDELR3" -> "SURF4" ["e"=1]
+"KDELR3" -> "TMEM234" ["e"=1]
+"LMBR1L" -> "SPPL3" ["e"=1]
+"LMBR1L" -> "TMEM234" ["e"=1]
+"LMBR1L" -> "SERINC5" ["e"=1]
+"LMBR1L" -> "TRAM1" ["e"=1]
+"MGST1" -> "MPV17L" ["e"=1]
+"MGST1" -> "ZMPSTE24" ["e"=1]
+"MGST1" -> "SURF4" ["e"=1]
+"MGST1" -> "IFITM5" ["e"=1]
+"MPV17L" -> "VKORC1L1" ["e"=1]
+"MPV17L" -> "AQP11" ["e"=1]
+"MPV17L" -> "SURF4" ["e"=1]
+"MPV17L" -> "MGST1" ["e"=1]
+"PIGF" -> "JKAMP" ["e"=1]
+"PIGF" -> "TMEM234" ["e"=1]
+"PIGF" -> "AQP11" ["e"=1]
+"PIGF" -> "LMBR1L" ["e"=1]
+"SERINC5" -> "SPPL3" ["e"=1]
+"SERINC5" -> "LMBR1L" ["e"=1]
+"SERINC5" -> "CDS2" ["e"=1]
+"SERINC5" -> "TRAM1" ["e"=1]
+"SLC35B1" -> "KDELR3" ["e"=1]
+"SLC35B1" -> "SURF4" ["e"=1]
+"SLC35B1" -> "TMEM234" ["e"=1]
+"SLC35B1" -> "SPPL3" ["e"=1]
+"SPPL3" -> "CDS2" ["e"=1]
+"SPPL3" -> "LMBR1L" ["e"=1]
+"SPPL3" -> "SERINC5" ["e"=1]
+"SPPL3" -> "TRAM1" ["e"=1]
+"SURF4" -> "TRAM1" ["e"=1]
+"SURF4" -> "SLC35B1" ["e"=1]
+"SURF4" -> "CDS2" ["e"=1]
+"SURF4" -> "KDELR3" ["e"=1]
+"TMEM234" -> "LMBR1L" ["e"=1]
+"TMEM234" -> "KDELR3" ["e"=1]
+"TMEM234" -> "SLC35B1" ["e"=1]
+"TMEM234" -> "SPPL3" ["e"=1]
+"TMEM79" -> "AQP11" ["e"=1]
+"TMEM79" -> "IFITM5" ["e"=1]
+"TMEM79" -> "LMBR1L" ["e"=1]
+"TMEM79" -> "SPPL3" ["e"=1]
+"TRAM1" -> "SURF4" ["e"=1]
+"TRAM1" -> "TRAM1L1" ["e"=1]
+"TRAM1" -> "SPPL3" ["e"=1]
+"TRAM1" -> "KDELR3" ["e"=1]
+"TRAM1L1" -> "TRAM1" ["e"=1]
+"TRAM1L1" -> "KDELR3" ["e"=1]
+"TRAM1L1" -> "SPPL3" ["e"=1]
+"TRAM1L1" -> "SURF4" ["e"=1]
+"VKORC1L1" -> "MPV17L" ["e"=1]
+"VKORC1L1" -> "SURF4" ["e"=1]
+"VKORC1L1" -> "ZMPSTE24" ["e"=1]
+"VKORC1L1" -> "KDELR3" ["e"=1]
+"ZMPSTE24" -> "TRAM1" ["e"=1]
+"ZMPSTE24" -> "KDELR3" ["e"=1]
+"ZMPSTE24" -> "SERINC5" ["e"=1]
+"ZMPSTE24" -> "TRAM1L1" ["e"=1]
 }

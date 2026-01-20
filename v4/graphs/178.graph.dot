@@ -18,80 +18,80 @@ digraph G {
 "TGM6" ["l"="12.458,0.280"]
 "TGM7" ["l"="12.449,0.297"]
 "ZNRF4" ["l"="12.397,0.195"]
-"DNAJC25" -> "LACTB"
-"DNAJC25" -> "ZNRF4"
-"DNAJC25" -> "RNF148"
-"DNAJC25" -> "FAM234B"
-"EPB42" -> "TGM6"
-"EPB42" -> "TGM4"
-"EPB42" -> "TGM5"
-"EPB42" -> "TGM7"
-"F13A1" -> "TGM3"
-"F13A1" -> "TGM4"
-"F13A1" -> "TGM1"
-"F13A1" -> "TGM5"
-"FAM234A" -> "FAM234B"
-"FAM234A" -> "GGT7"
-"FAM234A" -> "SLC3A2"
-"FAM234A" -> "KY"
-"FAM234B" -> "FAM234A"
-"FAM234B" -> "GGT7"
-"FAM234B" -> "KY"
-"FAM234B" -> "TGM2"
-"GGT7" -> "FAM234B"
-"GGT7" -> "FAM234A"
-"GGT7" -> "ZNRF4"
-"GGT7" -> "SLC3A2"
-"HSPA13" -> "FAM234B"
-"HSPA13" -> "DNAJC25"
-"HSPA13" -> "KY"
-"HSPA13" -> "RNF148"
-"KY" -> "TGM2"
-"KY" -> "TGM5"
-"KY" -> "F13A1"
-"KY" -> "TGM6"
-"LACTB" -> "DNAJC25"
-"LACTB" -> "ZNRF4"
-"LACTB" -> "KY"
-"LACTB" -> "FAM234B"
-"RNF148" -> "ZNRF4"
-"RNF148" -> "FAM234B"
-"RNF148" -> "DNAJC25"
-"RNF148" -> "GGT7"
-"SLC3A2" -> "FAM234B"
-"SLC3A2" -> "FAM234A"
-"SLC3A2" -> "GGT7"
-"SLC3A2" -> "ZNRF4"
-"TGM1" -> "TGM3"
-"TGM1" -> "TGM7"
-"TGM1" -> "F13A1"
-"TGM1" -> "TGM2"
-"TGM2" -> "TGM4"
-"TGM2" -> "TGM5"
-"TGM2" -> "TGM6"
-"TGM2" -> "TGM3"
-"TGM3" -> "TGM4"
-"TGM3" -> "TGM1"
-"TGM3" -> "TGM5"
-"TGM3" -> "TGM7"
-"TGM4" -> "TGM6"
-"TGM4" -> "TGM3"
-"TGM4" -> "TGM5"
-"TGM4" -> "TGM2"
-"TGM5" -> "TGM7"
-"TGM5" -> "TGM6"
-"TGM5" -> "TGM4"
-"TGM5" -> "TGM2"
-"TGM6" -> "TGM4"
-"TGM6" -> "TGM5"
-"TGM6" -> "TGM7"
-"TGM6" -> "TGM2"
-"TGM7" -> "TGM5"
-"TGM7" -> "TGM6"
-"TGM7" -> "TGM4"
-"TGM7" -> "TGM3"
-"ZNRF4" -> "RNF148"
-"ZNRF4" -> "DNAJC25"
-"ZNRF4" -> "FAM234B"
-"ZNRF4" -> "GGT7"
+"DNAJC25" -> "LACTB" ["e"=1]
+"DNAJC25" -> "ZNRF4" ["e"=1]
+"DNAJC25" -> "RNF148" ["e"=1]
+"DNAJC25" -> "FAM234B" ["e"=1]
+"EPB42" -> "TGM6" ["e"=1]
+"EPB42" -> "TGM4" ["e"=1]
+"EPB42" -> "TGM5" ["e"=1]
+"EPB42" -> "TGM7" ["e"=1]
+"F13A1" -> "TGM3" ["e"=1]
+"F13A1" -> "TGM4" ["e"=1]
+"F13A1" -> "TGM1" ["e"=1]
+"F13A1" -> "TGM5" ["e"=1]
+"FAM234A" -> "FAM234B" ["e"=1]
+"FAM234A" -> "GGT7" ["e"=1]
+"FAM234A" -> "SLC3A2" ["e"=1]
+"FAM234A" -> "KY" ["e"=1]
+"FAM234B" -> "FAM234A" ["e"=1]
+"FAM234B" -> "GGT7" ["e"=1]
+"FAM234B" -> "KY" ["e"=1]
+"FAM234B" -> "TGM2" ["e"=1]
+"GGT7" -> "FAM234B" ["e"=1]
+"GGT7" -> "FAM234A" ["e"=1]
+"GGT7" -> "ZNRF4" ["e"=1]
+"GGT7" -> "SLC3A2" ["e"=1]
+"HSPA13" -> "FAM234B" ["e"=1]
+"HSPA13" -> "DNAJC25" ["e"=1]
+"HSPA13" -> "KY" ["e"=1]
+"HSPA13" -> "RNF148" ["e"=1]
+"KY" -> "TGM2" ["e"=1]
+"KY" -> "TGM5" ["e"=1]
+"KY" -> "F13A1" ["e"=1]
+"KY" -> "TGM6" ["e"=1]
+"LACTB" -> "DNAJC25" ["e"=1]
+"LACTB" -> "ZNRF4" ["e"=1]
+"LACTB" -> "KY" ["e"=1]
+"LACTB" -> "FAM234B" ["e"=1]
+"RNF148" -> "ZNRF4" ["e"=1]
+"RNF148" -> "FAM234B" ["e"=1]
+"RNF148" -> "DNAJC25" ["e"=1]
+"RNF148" -> "GGT7" ["e"=1]
+"SLC3A2" -> "FAM234B" ["e"=1]
+"SLC3A2" -> "FAM234A" ["e"=1]
+"SLC3A2" -> "GGT7" ["e"=1]
+"SLC3A2" -> "ZNRF4" ["e"=1]
+"TGM1" -> "TGM3" ["e"=1]
+"TGM1" -> "TGM7" ["e"=1]
+"TGM1" -> "F13A1" ["e"=1]
+"TGM1" -> "TGM2" ["e"=1]
+"TGM2" -> "TGM4" ["e"=1]
+"TGM2" -> "TGM5" ["e"=1]
+"TGM2" -> "TGM6" ["e"=1]
+"TGM2" -> "TGM3" ["e"=1]
+"TGM3" -> "TGM4" ["e"=1]
+"TGM3" -> "TGM1" ["e"=1]
+"TGM3" -> "TGM5" ["e"=1]
+"TGM3" -> "TGM7" ["e"=1]
+"TGM4" -> "TGM6" ["e"=1]
+"TGM4" -> "TGM3" ["e"=1]
+"TGM4" -> "TGM5" ["e"=1]
+"TGM4" -> "TGM2" ["e"=1]
+"TGM5" -> "TGM7" ["e"=1]
+"TGM5" -> "TGM6" ["e"=1]
+"TGM5" -> "TGM4" ["e"=1]
+"TGM5" -> "TGM2" ["e"=1]
+"TGM6" -> "TGM4" ["e"=1]
+"TGM6" -> "TGM5" ["e"=1]
+"TGM6" -> "TGM7" ["e"=1]
+"TGM6" -> "TGM2" ["e"=1]
+"TGM7" -> "TGM5" ["e"=1]
+"TGM7" -> "TGM6" ["e"=1]
+"TGM7" -> "TGM4" ["e"=1]
+"TGM7" -> "TGM3" ["e"=1]
+"ZNRF4" -> "RNF148" ["e"=1]
+"ZNRF4" -> "DNAJC25" ["e"=1]
+"ZNRF4" -> "FAM234B" ["e"=1]
+"ZNRF4" -> "GGT7" ["e"=1]
 }

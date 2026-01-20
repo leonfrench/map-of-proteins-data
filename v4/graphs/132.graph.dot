@@ -24,104 +24,104 @@ digraph G {
 "KCNV1" ["l"="10.682,-2.464"]
 "KCNV2" ["l"="10.680,-2.448"]
 "XKR6" ["l"="10.667,-2.576"]
-"CATSPER2" -> "KCNG4"
-"CATSPER2" -> "KCNS1"
-"CATSPER2" -> "XKR6"
-"CATSPER2" -> "KCNA7"
-"KCNA1" -> "KCNA2"
-"KCNA1" -> "KCNS2"
-"KCNA1" -> "KCNS1"
-"KCNA1" -> "KCNA10"
-"KCNA10" -> "KCNA1"
-"KCNA10" -> "KCNA2"
-"KCNA10" -> "KCNS3"
-"KCNA10" -> "KCNA5"
-"KCNA2" -> "KCNA1"
-"KCNA2" -> "KCNS1"
-"KCNA2" -> "KCNA10"
-"KCNA2" -> "KCNS2"
-"KCNA3" -> "KCNA6"
-"KCNA3" -> "KCNA4"
-"KCNA3" -> "KCNA5"
-"KCNA3" -> "KCNA10"
-"KCNA4" -> "KCNA3"
-"KCNA4" -> "KCNA5"
-"KCNA4" -> "KCNS1"
-"KCNA4" -> "KCNA2"
-"KCNA5" -> "KCNS1"
-"KCNA5" -> "KCNA6"
-"KCNA5" -> "KCNA1"
-"KCNA5" -> "KCNG4"
-"KCNA6" -> "KCNA5"
-"KCNA6" -> "KCNA3"
-"KCNA6" -> "KCNA7"
-"KCNA6" -> "KCNA1"
-"KCNA7" -> "KCNS2"
-"KCNA7" -> "KCNS1"
-"KCNA7" -> "KCNA1"
-"KCNA7" -> "KCNG4"
-"KCNC1" -> "KCNC4"
-"KCNC1" -> "KCNS1"
-"KCNC1" -> "KCNS2"
-"KCNC1" -> "KCNA1"
-"KCNC4" -> "KCNC1"
-"KCNC4" -> "KCNS1"
-"KCNC4" -> "KCNS2"
-"KCNC4" -> "KCNA5"
-"KCNF1" -> "KCNS2"
-"KCNF1" -> "KCNA5"
-"KCNF1" -> "KCNG4"
-"KCNF1" -> "KCNG1"
-"KCNG1" -> "KCNG2"
-"KCNG1" -> "KCNF1"
-"KCNG1" -> "KCNC1"
-"KCNG1" -> "KCNG4"
-"KCNG2" -> "KCNG1"
-"KCNG2" -> "KCNG4"
-"KCNG2" -> "KCNS1"
-"KCNG2" -> "KCNA7"
-"KCNG3" -> "KCNS2"
-"KCNG3" -> "KCNV1"
-"KCNG3" -> "KCNS1"
-"KCNG3" -> "KCNA7"
-"KCNG4" -> "KCNS1"
-"KCNG4" -> "KCNS2"
-"KCNG4" -> "KCNG2"
-"KCNG4" -> "KCNA5"
-"KCNK10" -> "KCNK2"
-"KCNK10" -> "KCNA1"
-"KCNK10" -> "KCNA2"
-"KCNK10" -> "KCNN1"
-"KCNK2" -> "KCNK10"
-"KCNK2" -> "KCNS2"
-"KCNK2" -> "KCNA2"
-"KCNK2" -> "KCNS1"
-"KCNN1" -> "KCNK10"
-"KCNN1" -> "KCNA7"
-"KCNN1" -> "KCNK2"
-"KCNN1" -> "KCNC4"
-"KCNS1" -> "KCNS2"
-"KCNS1" -> "KCNC1"
-"KCNS1" -> "KCNA5"
-"KCNS1" -> "KCNV1"
-"KCNS2" -> "KCNV1"
-"KCNS2" -> "KCNS1"
-"KCNS2" -> "KCNA1"
-"KCNS2" -> "KCNA7"
-"KCNS3" -> "KCNA10"
-"KCNS3" -> "KCNF1"
-"KCNS3" -> "KCNG4"
-"KCNS3" -> "KCNS2"
-"KCNV1" -> "KCNS2"
-"KCNV1" -> "KCNS1"
-"KCNV1" -> "KCNG3"
-"KCNV1" -> "KCNA1"
-"KCNV2" -> "KCNS1"
-"KCNV2" -> "KCNG4"
-"KCNV2" -> "KCNG1"
-"KCNV2" -> "KCNG2"
-"XKR6" -> "KCNA7"
-"XKR6" -> "KCNS1"
-"XKR6" -> "KCNC1"
-"XKR6" -> "KCNG4"
+"CATSPER2" -> "KCNG4" ["e"=1]
+"CATSPER2" -> "KCNS1" ["e"=1]
+"CATSPER2" -> "XKR6" ["e"=1]
+"CATSPER2" -> "KCNA7" ["e"=1]
+"KCNA1" -> "KCNA2" ["e"=1]
+"KCNA1" -> "KCNS2" ["e"=1]
+"KCNA1" -> "KCNS1" ["e"=1]
+"KCNA1" -> "KCNA10" ["e"=1]
+"KCNA10" -> "KCNA1" ["e"=1]
+"KCNA10" -> "KCNA2" ["e"=1]
+"KCNA10" -> "KCNS3" ["e"=1]
+"KCNA10" -> "KCNA5" ["e"=1]
+"KCNA2" -> "KCNA1" ["e"=1]
+"KCNA2" -> "KCNS1" ["e"=1]
+"KCNA2" -> "KCNA10" ["e"=1]
+"KCNA2" -> "KCNS2" ["e"=1]
+"KCNA3" -> "KCNA6" ["e"=1]
+"KCNA3" -> "KCNA4" ["e"=1]
+"KCNA3" -> "KCNA5" ["e"=1]
+"KCNA3" -> "KCNA10" ["e"=1]
+"KCNA4" -> "KCNA3" ["e"=1]
+"KCNA4" -> "KCNA5" ["e"=1]
+"KCNA4" -> "KCNS1" ["e"=1]
+"KCNA4" -> "KCNA2" ["e"=1]
+"KCNA5" -> "KCNS1" ["e"=1]
+"KCNA5" -> "KCNA6" ["e"=1]
+"KCNA5" -> "KCNA1" ["e"=1]
+"KCNA5" -> "KCNG4" ["e"=1]
+"KCNA6" -> "KCNA5" ["e"=1]
+"KCNA6" -> "KCNA3" ["e"=1]
+"KCNA6" -> "KCNA7" ["e"=1]
+"KCNA6" -> "KCNA1" ["e"=1]
+"KCNA7" -> "KCNS2" ["e"=1]
+"KCNA7" -> "KCNS1" ["e"=1]
+"KCNA7" -> "KCNA1" ["e"=1]
+"KCNA7" -> "KCNG4" ["e"=1]
+"KCNC1" -> "KCNC4" ["e"=1]
+"KCNC1" -> "KCNS1" ["e"=1]
+"KCNC1" -> "KCNS2" ["e"=1]
+"KCNC1" -> "KCNA1" ["e"=1]
+"KCNC4" -> "KCNC1" ["e"=1]
+"KCNC4" -> "KCNS1" ["e"=1]
+"KCNC4" -> "KCNS2" ["e"=1]
+"KCNC4" -> "KCNA5" ["e"=1]
+"KCNF1" -> "KCNS2" ["e"=1]
+"KCNF1" -> "KCNA5" ["e"=1]
+"KCNF1" -> "KCNG4" ["e"=1]
+"KCNF1" -> "KCNG1" ["e"=1]
+"KCNG1" -> "KCNG2" ["e"=1]
+"KCNG1" -> "KCNF1" ["e"=1]
+"KCNG1" -> "KCNC1" ["e"=1]
+"KCNG1" -> "KCNG4" ["e"=1]
+"KCNG2" -> "KCNG1" ["e"=1]
+"KCNG2" -> "KCNG4" ["e"=1]
+"KCNG2" -> "KCNS1" ["e"=1]
+"KCNG2" -> "KCNA7" ["e"=1]
+"KCNG3" -> "KCNS2" ["e"=1]
+"KCNG3" -> "KCNV1" ["e"=1]
+"KCNG3" -> "KCNS1" ["e"=1]
+"KCNG3" -> "KCNA7" ["e"=1]
+"KCNG4" -> "KCNS1" ["e"=1]
+"KCNG4" -> "KCNS2" ["e"=1]
+"KCNG4" -> "KCNG2" ["e"=1]
+"KCNG4" -> "KCNA5" ["e"=1]
+"KCNK10" -> "KCNK2" ["e"=1]
+"KCNK10" -> "KCNA1" ["e"=1]
+"KCNK10" -> "KCNA2" ["e"=1]
+"KCNK10" -> "KCNN1" ["e"=1]
+"KCNK2" -> "KCNK10" ["e"=1]
+"KCNK2" -> "KCNS2" ["e"=1]
+"KCNK2" -> "KCNA2" ["e"=1]
+"KCNK2" -> "KCNS1" ["e"=1]
+"KCNN1" -> "KCNK10" ["e"=1]
+"KCNN1" -> "KCNA7" ["e"=1]
+"KCNN1" -> "KCNK2" ["e"=1]
+"KCNN1" -> "KCNC4" ["e"=1]
+"KCNS1" -> "KCNS2" ["e"=1]
+"KCNS1" -> "KCNC1" ["e"=1]
+"KCNS1" -> "KCNA5" ["e"=1]
+"KCNS1" -> "KCNV1" ["e"=1]
+"KCNS2" -> "KCNV1" ["e"=1]
+"KCNS2" -> "KCNS1" ["e"=1]
+"KCNS2" -> "KCNA1" ["e"=1]
+"KCNS2" -> "KCNA7" ["e"=1]
+"KCNS3" -> "KCNA10" ["e"=1]
+"KCNS3" -> "KCNF1" ["e"=1]
+"KCNS3" -> "KCNG4" ["e"=1]
+"KCNS3" -> "KCNS2" ["e"=1]
+"KCNV1" -> "KCNS2" ["e"=1]
+"KCNV1" -> "KCNS1" ["e"=1]
+"KCNV1" -> "KCNG3" ["e"=1]
+"KCNV1" -> "KCNA1" ["e"=1]
+"KCNV2" -> "KCNS1" ["e"=1]
+"KCNV2" -> "KCNG4" ["e"=1]
+"KCNV2" -> "KCNG1" ["e"=1]
+"KCNV2" -> "KCNG2" ["e"=1]
+"XKR6" -> "KCNA7" ["e"=1]
+"XKR6" -> "KCNS1" ["e"=1]
+"XKR6" -> "KCNC1" ["e"=1]
+"XKR6" -> "KCNG4" ["e"=1]
 }

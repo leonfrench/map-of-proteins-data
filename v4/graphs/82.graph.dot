@@ -13,60 +13,60 @@ digraph G {
 "OBSL1" ["l"="11.313,-1.367"]
 "SPEG" ["l"="11.220,-1.306"]
 "SPEGNB" ["l"="11.321,-1.272"]
-"IGFN1" -> "IGSF22"
-"IGFN1" -> "MYLK"
-"IGFN1" -> "MYBPHL"
-"IGFN1" -> "MYOM2"
-"IGSF22" -> "MYBPC2"
-"IGSF22" -> "MYBPC3"
-"IGSF22" -> "MYBPC1"
-"IGSF22" -> "SPEGNB"
-"MYBPC1" -> "MYBPC2"
-"MYBPC1" -> "MYOM1"
-"MYBPC1" -> "MYBPC3"
-"MYBPC1" -> "IGSF22"
-"MYBPC2" -> "IGSF22"
-"MYBPC2" -> "MYBPC3"
-"MYBPC2" -> "MYBPC1"
-"MYBPC2" -> "MYBPHL"
-"MYBPC3" -> "MYBPC2"
-"MYBPC3" -> "MYOM3"
-"MYBPC3" -> "MYOM1"
-"MYBPC3" -> "IGSF22"
-"MYBPH" -> "MYBPHL"
-"MYBPH" -> "MYBPC2"
-"MYBPH" -> "SPEGNB"
-"MYBPH" -> "IGSF22"
-"MYBPHL" -> "MYBPH"
-"MYBPHL" -> "MYBPC2"
-"MYBPHL" -> "IGSF22"
-"MYBPHL" -> "MYOM2"
-"MYLK" -> "MYOM1"
-"MYLK" -> "MYOM2"
-"MYLK" -> "SPEG"
-"MYLK" -> "IGSF22"
-"MYOM1" -> "MYOM2"
-"MYOM1" -> "MYOM3"
-"MYOM1" -> "MYBPC3"
-"MYOM1" -> "MYBPC1"
-"MYOM2" -> "MYOM3"
-"MYOM2" -> "MYOM1"
-"MYOM2" -> "MYBPC3"
-"MYOM2" -> "MYBPC1"
-"MYOM3" -> "MYOM2"
-"MYOM3" -> "MYOM1"
-"MYOM3" -> "MYBPC3"
-"MYOM3" -> "MYBPC1"
-"OBSL1" -> "SPEG"
-"OBSL1" -> "IGSF22"
-"OBSL1" -> "IGFN1"
-"OBSL1" -> "MYLK"
-"SPEG" -> "OBSL1"
-"SPEG" -> "MYLK"
-"SPEG" -> "MYBPHL"
-"SPEG" -> "MYOM3"
-"SPEGNB" -> "IGSF22"
-"SPEGNB" -> "MYBPC2"
-"SPEGNB" -> "MYBPHL"
-"SPEGNB" -> "MYBPC1"
+"IGFN1" -> "IGSF22" ["e"=1]
+"IGFN1" -> "MYLK" ["e"=1]
+"IGFN1" -> "MYBPHL" ["e"=1]
+"IGFN1" -> "MYOM2" ["e"=1]
+"IGSF22" -> "MYBPC2" ["e"=1]
+"IGSF22" -> "MYBPC3" ["e"=1]
+"IGSF22" -> "MYBPC1" ["e"=1]
+"IGSF22" -> "SPEGNB" ["e"=1]
+"MYBPC1" -> "MYBPC2" ["e"=1]
+"MYBPC1" -> "MYOM1" ["e"=1]
+"MYBPC1" -> "MYBPC3" ["e"=1]
+"MYBPC1" -> "IGSF22" ["e"=1]
+"MYBPC2" -> "IGSF22" ["e"=1]
+"MYBPC2" -> "MYBPC3" ["e"=1]
+"MYBPC2" -> "MYBPC1" ["e"=1]
+"MYBPC2" -> "MYBPHL" ["e"=1]
+"MYBPC3" -> "MYBPC2" ["e"=1]
+"MYBPC3" -> "MYOM3" ["e"=1]
+"MYBPC3" -> "MYOM1" ["e"=1]
+"MYBPC3" -> "IGSF22" ["e"=1]
+"MYBPH" -> "MYBPHL" ["e"=1]
+"MYBPH" -> "MYBPC2" ["e"=1]
+"MYBPH" -> "SPEGNB" ["e"=1]
+"MYBPH" -> "IGSF22" ["e"=1]
+"MYBPHL" -> "MYBPH" ["e"=1]
+"MYBPHL" -> "MYBPC2" ["e"=1]
+"MYBPHL" -> "IGSF22" ["e"=1]
+"MYBPHL" -> "MYOM2" ["e"=1]
+"MYLK" -> "MYOM1" ["e"=1]
+"MYLK" -> "MYOM2" ["e"=1]
+"MYLK" -> "SPEG" ["e"=1]
+"MYLK" -> "IGSF22" ["e"=1]
+"MYOM1" -> "MYOM2" ["e"=1]
+"MYOM1" -> "MYOM3" ["e"=1]
+"MYOM1" -> "MYBPC3" ["e"=1]
+"MYOM1" -> "MYBPC1" ["e"=1]
+"MYOM2" -> "MYOM3" ["e"=1]
+"MYOM2" -> "MYOM1" ["e"=1]
+"MYOM2" -> "MYBPC3" ["e"=1]
+"MYOM2" -> "MYBPC1" ["e"=1]
+"MYOM3" -> "MYOM2" ["e"=1]
+"MYOM3" -> "MYOM1" ["e"=1]
+"MYOM3" -> "MYBPC3" ["e"=1]
+"MYOM3" -> "MYBPC1" ["e"=1]
+"OBSL1" -> "SPEG" ["e"=1]
+"OBSL1" -> "IGSF22" ["e"=1]
+"OBSL1" -> "IGFN1" ["e"=1]
+"OBSL1" -> "MYLK" ["e"=1]
+"SPEG" -> "OBSL1" ["e"=1]
+"SPEG" -> "MYLK" ["e"=1]
+"SPEG" -> "MYBPHL" ["e"=1]
+"SPEG" -> "MYOM3" ["e"=1]
+"SPEGNB" -> "IGSF22" ["e"=1]
+"SPEGNB" -> "MYBPC2" ["e"=1]
+"SPEGNB" -> "MYBPHL" ["e"=1]
+"SPEGNB" -> "MYBPC1" ["e"=1]
 }

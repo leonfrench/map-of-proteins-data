@@ -22,96 +22,96 @@ digraph G {
 "TERT" ["l"="11.716,1.675"]
 "UCHL1" ["l"="11.602,1.720"]
 "VCP" ["l"="11.654,1.653"]
-"ASPRV1" -> "MEAK7"
-"ASPRV1" -> "LGSN"
-"ASPRV1" -> "SETD6"
-"ASPRV1" -> "CYB5R4"
-"ATG4D" -> "MEAK7"
-"ATG4D" -> "SETD6"
-"ATG4D" -> "CYB5R4"
-"ATG4D" -> "IP6K3"
-"BBS10" -> "LGSN"
-"BBS10" -> "ASPRV1"
-"BBS10" -> "SETD6"
-"BBS10" -> "EIF2B5"
-"CYB5R4" -> "HBS1L"
-"CYB5R4" -> "SETD6"
-"CYB5R4" -> "MEAK7"
-"CYB5R4" -> "ASPRV1"
-"EIF2B5" -> "SETD6"
-"EIF2B5" -> "PRMT5"
-"EIF2B5" -> "BBS10"
-"EIF2B5" -> "ATG4D"
-"HBS1L" -> "CYB5R4"
-"HBS1L" -> "PSMC1"
-"HBS1L" -> "MCM6"
-"HBS1L" -> "ASPRV1"
-"IP6K3" -> "MEAK7"
-"IP6K3" -> "ATG4D"
-"IP6K3" -> "ASPRV1"
-"IP6K3" -> "TERT"
-"LGSN" -> "MEAK7"
-"LGSN" -> "BBS10"
-"LGSN" -> "ASPRV1"
-"LGSN" -> "CYB5R4"
-"MCM2" -> "MCM5"
-"MCM2" -> "MCM6"
-"MCM2" -> "MCM3"
-"MCM2" -> "VCP"
-"MCM3" -> "MCM6"
-"MCM3" -> "MCM5"
-"MCM3" -> "MCM2"
-"MCM3" -> "VCP"
-"MCM5" -> "MCM6"
-"MCM5" -> "MCM3"
-"MCM5" -> "MCM2"
-"MCM5" -> "VCP"
-"MCM6" -> "MCM3"
-"MCM6" -> "MCM5"
-"MCM6" -> "MCM2"
-"MCM6" -> "PSMC6"
-"MEAK7" -> "SETD6"
-"MEAK7" -> "ATG4D"
-"MEAK7" -> "LGSN"
-"MEAK7" -> "ASPRV1"
-"PRMT5" -> "EIF2B5"
-"PRMT5" -> "SETD6"
-"PRMT5" -> "CYB5R4"
-"PRMT5" -> "ATG4D"
-"PSMC1" -> "PSMC6"
-"PSMC1" -> "PSMC4"
-"PSMC1" -> "PSMC5"
-"PSMC1" -> "VCP"
-"PSMC4" -> "PSMC5"
-"PSMC4" -> "PSMC1"
-"PSMC4" -> "PSMC6"
-"PSMC4" -> "VCP"
-"PSMC5" -> "PSMC4"
-"PSMC5" -> "PSMC1"
-"PSMC5" -> "PSMC6"
-"PSMC5" -> "VCP"
-"PSMC6" -> "PSMC1"
-"PSMC6" -> "PSMC4"
-"PSMC6" -> "PSMC5"
-"PSMC6" -> "VCP"
-"SETD3" -> "SETD6"
-"SETD3" -> "MEAK7"
-"SETD3" -> "CYB5R4"
-"SETD3" -> "UCHL1"
-"SETD6" -> "EIF2B5"
-"SETD6" -> "MEAK7"
-"SETD6" -> "ATG4D"
-"SETD6" -> "SETD3"
-"TERT" -> "SETD6"
-"TERT" -> "IP6K3"
-"TERT" -> "MEAK7"
-"TERT" -> "ATG4D"
-"UCHL1" -> "MEAK7"
-"UCHL1" -> "CYB5R4"
-"UCHL1" -> "ASPRV1"
-"UCHL1" -> "ATG4D"
-"VCP" -> "PSMC1"
-"VCP" -> "PSMC4"
-"VCP" -> "PSMC5"
-"VCP" -> "PSMC6"
+"ASPRV1" -> "MEAK7" ["e"=1]
+"ASPRV1" -> "LGSN" ["e"=1]
+"ASPRV1" -> "SETD6" ["e"=1]
+"ASPRV1" -> "CYB5R4" ["e"=1]
+"ATG4D" -> "MEAK7" ["e"=1]
+"ATG4D" -> "SETD6" ["e"=1]
+"ATG4D" -> "CYB5R4" ["e"=1]
+"ATG4D" -> "IP6K3" ["e"=1]
+"BBS10" -> "LGSN" ["e"=1]
+"BBS10" -> "ASPRV1" ["e"=1]
+"BBS10" -> "SETD6" ["e"=1]
+"BBS10" -> "EIF2B5" ["e"=1]
+"CYB5R4" -> "HBS1L" ["e"=1]
+"CYB5R4" -> "SETD6" ["e"=1]
+"CYB5R4" -> "MEAK7" ["e"=1]
+"CYB5R4" -> "ASPRV1" ["e"=1]
+"EIF2B5" -> "SETD6" ["e"=1]
+"EIF2B5" -> "PRMT5" ["e"=1]
+"EIF2B5" -> "BBS10" ["e"=1]
+"EIF2B5" -> "ATG4D" ["e"=1]
+"HBS1L" -> "CYB5R4" ["e"=1]
+"HBS1L" -> "PSMC1" ["e"=1]
+"HBS1L" -> "MCM6" ["e"=1]
+"HBS1L" -> "ASPRV1" ["e"=1]
+"IP6K3" -> "MEAK7" ["e"=1]
+"IP6K3" -> "ATG4D" ["e"=1]
+"IP6K3" -> "ASPRV1" ["e"=1]
+"IP6K3" -> "TERT" ["e"=1]
+"LGSN" -> "MEAK7" ["e"=1]
+"LGSN" -> "BBS10" ["e"=1]
+"LGSN" -> "ASPRV1" ["e"=1]
+"LGSN" -> "CYB5R4" ["e"=1]
+"MCM2" -> "MCM5" ["e"=1]
+"MCM2" -> "MCM6" ["e"=1]
+"MCM2" -> "MCM3" ["e"=1]
+"MCM2" -> "VCP" ["e"=1]
+"MCM3" -> "MCM6" ["e"=1]
+"MCM3" -> "MCM5" ["e"=1]
+"MCM3" -> "MCM2" ["e"=1]
+"MCM3" -> "VCP" ["e"=1]
+"MCM5" -> "MCM6" ["e"=1]
+"MCM5" -> "MCM3" ["e"=1]
+"MCM5" -> "MCM2" ["e"=1]
+"MCM5" -> "VCP" ["e"=1]
+"MCM6" -> "MCM3" ["e"=1]
+"MCM6" -> "MCM5" ["e"=1]
+"MCM6" -> "MCM2" ["e"=1]
+"MCM6" -> "PSMC6" ["e"=1]
+"MEAK7" -> "SETD6" ["e"=1]
+"MEAK7" -> "ATG4D" ["e"=1]
+"MEAK7" -> "LGSN" ["e"=1]
+"MEAK7" -> "ASPRV1" ["e"=1]
+"PRMT5" -> "EIF2B5" ["e"=1]
+"PRMT5" -> "SETD6" ["e"=1]
+"PRMT5" -> "CYB5R4" ["e"=1]
+"PRMT5" -> "ATG4D" ["e"=1]
+"PSMC1" -> "PSMC6" ["e"=1]
+"PSMC1" -> "PSMC4" ["e"=1]
+"PSMC1" -> "PSMC5" ["e"=1]
+"PSMC1" -> "VCP" ["e"=1]
+"PSMC4" -> "PSMC5" ["e"=1]
+"PSMC4" -> "PSMC1" ["e"=1]
+"PSMC4" -> "PSMC6" ["e"=1]
+"PSMC4" -> "VCP" ["e"=1]
+"PSMC5" -> "PSMC4" ["e"=1]
+"PSMC5" -> "PSMC1" ["e"=1]
+"PSMC5" -> "PSMC6" ["e"=1]
+"PSMC5" -> "VCP" ["e"=1]
+"PSMC6" -> "PSMC1" ["e"=1]
+"PSMC6" -> "PSMC4" ["e"=1]
+"PSMC6" -> "PSMC5" ["e"=1]
+"PSMC6" -> "VCP" ["e"=1]
+"SETD3" -> "SETD6" ["e"=1]
+"SETD3" -> "MEAK7" ["e"=1]
+"SETD3" -> "CYB5R4" ["e"=1]
+"SETD3" -> "UCHL1" ["e"=1]
+"SETD6" -> "EIF2B5" ["e"=1]
+"SETD6" -> "MEAK7" ["e"=1]
+"SETD6" -> "ATG4D" ["e"=1]
+"SETD6" -> "SETD3" ["e"=1]
+"TERT" -> "SETD6" ["e"=1]
+"TERT" -> "IP6K3" ["e"=1]
+"TERT" -> "MEAK7" ["e"=1]
+"TERT" -> "ATG4D" ["e"=1]
+"UCHL1" -> "MEAK7" ["e"=1]
+"UCHL1" -> "CYB5R4" ["e"=1]
+"UCHL1" -> "ASPRV1" ["e"=1]
+"UCHL1" -> "ATG4D" ["e"=1]
+"VCP" -> "PSMC1" ["e"=1]
+"VCP" -> "PSMC4" ["e"=1]
+"VCP" -> "PSMC5" ["e"=1]
+"VCP" -> "PSMC6" ["e"=1]
 }

@@ -19,84 +19,84 @@ digraph G {
 "TMEM97" ["l"="9.563,-3.229"]
 "TRAM2" ["l"="9.566,-3.157"]
 "VKORC1" ["l"="9.528,-3.161"]
-"ALOX5AP" -> "TMEM101"
-"ALOX5AP" -> "MGST3"
-"ALOX5AP" -> "MGST2"
-"ALOX5AP" -> "ERG28"
-"ATP6V0C" -> "DOLPP1"
-"ATP6V0C" -> "VKORC1"
-"ATP6V0C" -> "MGST3"
-"ATP6V0C" -> "PEMT"
-"CDIPT" -> "TMEM86A"
-"CDIPT" -> "DOLPP1"
-"CDIPT" -> "SLC50A1"
-"CDIPT" -> "MPDU1"
-"DOLPP1" -> "CDIPT"
-"DOLPP1" -> "TMEM86A"
-"DOLPP1" -> "PLPP6"
-"DOLPP1" -> "TRAM2"
-"ERG28" -> "SLC50A1"
-"ERG28" -> "TMEM97"
-"ERG28" -> "MPDU1"
-"ERG28" -> "TMEM86A"
-"ICMT" -> "TMEM254"
-"ICMT" -> "TMEM86A"
-"ICMT" -> "DOLPP1"
-"ICMT" -> "TRAM2"
-"LTC4S" -> "MGST2"
-"LTC4S" -> "TMEM101"
-"LTC4S" -> "SLC50A1"
-"LTC4S" -> "PEMT"
-"MGST2" -> "MGST3"
-"MGST2" -> "TMEM101"
-"MGST2" -> "ALOX5AP"
-"MGST2" -> "LTC4S"
-"MGST3" -> "MGST2"
-"MGST3" -> "ALOX5AP"
-"MGST3" -> "ERG28"
-"MGST3" -> "TMEM101"
-"MPDU1" -> "SLC50A1"
-"MPDU1" -> "TMEM101"
-"MPDU1" -> "CDIPT"
-"MPDU1" -> "ERG28"
-"PEMT" -> "SLC50A1"
-"PEMT" -> "ERG28"
-"PEMT" -> "CDIPT"
-"PEMT" -> "MPDU1"
-"PLPP6" -> "DOLPP1"
-"PLPP6" -> "ICMT"
-"PLPP6" -> "TMEM86A"
-"PLPP6" -> "TMEM254"
-"RHBDL2" -> "DOLPP1"
-"RHBDL2" -> "TMEM101"
-"RHBDL2" -> "TMEM86A"
-"RHBDL2" -> "PLPP6"
-"SLC50A1" -> "CDIPT"
-"SLC50A1" -> "ERG28"
-"SLC50A1" -> "MPDU1"
-"SLC50A1" -> "PEMT"
-"TMEM101" -> "TMEM86A"
-"TMEM101" -> "MPDU1"
-"TMEM101" -> "SLC50A1"
-"TMEM101" -> "CDIPT"
-"TMEM254" -> "TMEM97"
-"TMEM254" -> "ICMT"
-"TMEM254" -> "ERG28"
-"TMEM254" -> "DOLPP1"
-"TMEM86A" -> "TMEM101"
-"TMEM86A" -> "CDIPT"
-"TMEM86A" -> "SLC50A1"
-"TMEM86A" -> "ICMT"
-"TMEM97" -> "ERG28"
-"TMEM97" -> "TMEM254"
-"TMEM97" -> "SLC50A1"
-"TMEM97" -> "ICMT"
-"TRAM2" -> "DOLPP1"
-"TRAM2" -> "CDIPT"
-"TRAM2" -> "ICMT"
-"TRAM2" -> "MPDU1"
-"VKORC1" -> "CDIPT"
-"VKORC1" -> "PEMT"
-"VKORC1" -> "TMEM101"
-"VKORC1" -> "MPDU1"
+"ALOX5AP" -> "TMEM101" ["e"=1]
+"ALOX5AP" -> "MGST3" ["e"=1]
+"ALOX5AP" -> "MGST2" ["e"=1]
+"ALOX5AP" -> "ERG28" ["e"=1]
+"ATP6V0C" -> "DOLPP1" ["e"=1]
+"ATP6V0C" -> "VKORC1" ["e"=1]
+"ATP6V0C" -> "MGST3" ["e"=1]
+"ATP6V0C" -> "PEMT" ["e"=1]
+"CDIPT" -> "TMEM86A" ["e"=1]
+"CDIPT" -> "DOLPP1" ["e"=1]
+"CDIPT" -> "SLC50A1" ["e"=1]
+"CDIPT" -> "MPDU1" ["e"=1]
+"DOLPP1" -> "CDIPT" ["e"=1]
+"DOLPP1" -> "TMEM86A" ["e"=1]
+"DOLPP1" -> "PLPP6" ["e"=1]
+"DOLPP1" -> "TRAM2" ["e"=1]
+"ERG28" -> "SLC50A1" ["e"=1]
+"ERG28" -> "TMEM97" ["e"=1]
+"ERG28" -> "MPDU1" ["e"=1]
+"ERG28" -> "TMEM86A" ["e"=1]
+"ICMT" -> "TMEM254" ["e"=1]
+"ICMT" -> "TMEM86A" ["e"=1]
+"ICMT" -> "DOLPP1" ["e"=1]
+"ICMT" -> "TRAM2" ["e"=1]
+"LTC4S" -> "MGST2" ["e"=1]
+"LTC4S" -> "TMEM101" ["e"=1]
+"LTC4S" -> "SLC50A1" ["e"=1]
+"LTC4S" -> "PEMT" ["e"=1]
+"MGST2" -> "MGST3" ["e"=1]
+"MGST2" -> "TMEM101" ["e"=1]
+"MGST2" -> "ALOX5AP" ["e"=1]
+"MGST2" -> "LTC4S" ["e"=1]
+"MGST3" -> "MGST2" ["e"=1]
+"MGST3" -> "ALOX5AP" ["e"=1]
+"MGST3" -> "ERG28" ["e"=1]
+"MGST3" -> "TMEM101" ["e"=1]
+"MPDU1" -> "SLC50A1" ["e"=1]
+"MPDU1" -> "TMEM101" ["e"=1]
+"MPDU1" -> "CDIPT" ["e"=1]
+"MPDU1" -> "ERG28" ["e"=1]
+"PEMT" -> "SLC50A1" ["e"=1]
+"PEMT" -> "ERG28" ["e"=1]
+"PEMT" -> "CDIPT" ["e"=1]
+"PEMT" -> "MPDU1" ["e"=1]
+"PLPP6" -> "DOLPP1" ["e"=1]
+"PLPP6" -> "ICMT" ["e"=1]
+"PLPP6" -> "TMEM86A" ["e"=1]
+"PLPP6" -> "TMEM254" ["e"=1]
+"RHBDL2" -> "DOLPP1" ["e"=1]
+"RHBDL2" -> "TMEM101" ["e"=1]
+"RHBDL2" -> "TMEM86A" ["e"=1]
+"RHBDL2" -> "PLPP6" ["e"=1]
+"SLC50A1" -> "CDIPT" ["e"=1]
+"SLC50A1" -> "ERG28" ["e"=1]
+"SLC50A1" -> "MPDU1" ["e"=1]
+"SLC50A1" -> "PEMT" ["e"=1]
+"TMEM101" -> "TMEM86A" ["e"=1]
+"TMEM101" -> "MPDU1" ["e"=1]
+"TMEM101" -> "SLC50A1" ["e"=1]
+"TMEM101" -> "CDIPT" ["e"=1]
+"TMEM254" -> "TMEM97" ["e"=1]
+"TMEM254" -> "ICMT" ["e"=1]
+"TMEM254" -> "ERG28" ["e"=1]
+"TMEM254" -> "DOLPP1" ["e"=1]
+"TMEM86A" -> "TMEM101" ["e"=1]
+"TMEM86A" -> "CDIPT" ["e"=1]
+"TMEM86A" -> "SLC50A1" ["e"=1]
+"TMEM86A" -> "ICMT" ["e"=1]
+"TMEM97" -> "ERG28" ["e"=1]
+"TMEM97" -> "TMEM254" ["e"=1]
+"TMEM97" -> "SLC50A1" ["e"=1]
+"TMEM97" -> "ICMT" ["e"=1]
+"TRAM2" -> "DOLPP1" ["e"=1]
+"TRAM2" -> "CDIPT" ["e"=1]
+"TRAM2" -> "ICMT" ["e"=1]
+"TRAM2" -> "MPDU1" ["e"=1]
+"VKORC1" -> "CDIPT" ["e"=1]
+"VKORC1" -> "PEMT" ["e"=1]
+"VKORC1" -> "TMEM101" ["e"=1]
+"VKORC1" -> "MPDU1" ["e"=1]
 }

@@ -43,180 +43,180 @@ digraph G {
 "ZP3" ["l"="12.893,-0.954"]
 "ZP4" ["l"="12.915,-1.030"]
 "ZPLD1" ["l"="12.957,-0.967"]
-"ADAM10" -> "ADAM17"
-"ADAM10" -> "SEMA3A"
-"ADAM10" -> "SEMA3E"
-"ADAM10" -> "SEMA3C"
-"ADAM17" -> "ADAM10"
-"ADAM17" -> "ANTXR2"
-"ADAM17" -> "VWA2"
-"ADAM17" -> "SEMA4F"
-"ANTXR1" -> "ANTXR2"
-"ANTXR1" -> "SEMA3E"
-"ANTXR1" -> "VWA2"
-"ANTXR1" -> "SEMA3D"
-"ANTXR2" -> "ANTXR1"
-"ANTXR2" -> "VWA2"
-"ANTXR2" -> "ADAM17"
-"ANTXR2" -> "NPR3"
-"CACHD1" -> "SEMA4F"
-"CACHD1" -> "MBTPS1"
-"CACHD1" -> "ANTXR2"
-"CACHD1" -> "VWA2"
-"CLCA1" -> "CLCA4"
-"CLCA1" -> "CLCA2"
-"CLCA1" -> "ANTXR2"
-"CLCA1" -> "ADAM17"
-"CLCA2" -> "CLCA4"
-"CLCA2" -> "CLCA1"
-"CLCA2" -> "ANTXR2"
-"CLCA2" -> "ADAM17"
-"CLCA4" -> "CLCA2"
-"CLCA4" -> "CLCA1"
-"CLCA4" -> "ANTXR2"
-"CLCA4" -> "ADAM10"
-"CNTNAP1" -> "MBTPS1"
-"CNTNAP1" -> "SEMA3F"
-"CNTNAP1" -> "CACHD1"
-"CNTNAP1" -> "VWA2"
-"ENG" -> "TGFBR3"
-"ENG" -> "UMODL1"
-"ENG" -> "ZP2"
-"ENG" -> "ZP4"
-"IMPG1" -> "IMPG2"
-"IMPG1" -> "ANTXR2"
-"IMPG1" -> "UMODL1"
-"IMPG1" -> "VWA2"
-"IMPG2" -> "IMPG1"
-"IMPG2" -> "CACHD1"
-"IMPG2" -> "UMODL1"
-"IMPG2" -> "LRP11"
-"LRP10" -> "VWA2"
-"LRP10" -> "LRP11"
-"LRP10" -> "SEMA4F"
-"LRP10" -> "SUSD4"
-"LRP11" -> "SEMA4F"
-"LRP11" -> "LRP10"
-"LRP11" -> "VWA2"
-"LRP11" -> "ANTXR2"
-"MBTPS1" -> "PAM"
-"MBTPS1" -> "CACHD1"
-"MBTPS1" -> "ANTXR2"
-"MBTPS1" -> "ADAM10"
-"NPR3" -> "ANTXR2"
-"NPR3" -> "VWA2"
-"NPR3" -> "SEMA4F"
-"NPR3" -> "SEMA4G"
-"OOSP2" -> "TECTB"
-"OOSP2" -> "ZP2"
-"OOSP2" -> "ZPLD1"
-"OOSP2" -> "ZP3"
-"PAM" -> "MBTPS1"
-"PAM" -> "SEMA3C"
-"PAM" -> "SEMA3A"
-"PAM" -> "SEMA3D"
-"SEMA3A" -> "SEMA3E"
-"SEMA3A" -> "SEMA3C"
-"SEMA3A" -> "SEMA3D"
-"SEMA3A" -> "SEMA3G"
-"SEMA3B" -> "SEMA3F"
-"SEMA3B" -> "SEMA3G"
-"SEMA3B" -> "SEMA3C"
-"SEMA3B" -> "SEMA4G"
-"SEMA3C" -> "SEMA3E"
-"SEMA3C" -> "SEMA3D"
-"SEMA3C" -> "SEMA3A"
-"SEMA3C" -> "SEMA3G"
-"SEMA3D" -> "SEMA3E"
-"SEMA3D" -> "SEMA3C"
-"SEMA3D" -> "SEMA3A"
-"SEMA3D" -> "SEMA3G"
-"SEMA3E" -> "SEMA3D"
-"SEMA3E" -> "SEMA3C"
-"SEMA3E" -> "SEMA3A"
-"SEMA3E" -> "SEMA3G"
-"SEMA3F" -> "SEMA3G"
-"SEMA3F" -> "SEMA4C"
-"SEMA3F" -> "SEMA4G"
-"SEMA3F" -> "SEMA3B"
-"SEMA3G" -> "SEMA3F"
-"SEMA3G" -> "SEMA4G"
-"SEMA3G" -> "SEMA4C"
-"SEMA3G" -> "SEMA3B"
-"SEMA4A" -> "SEMA4B"
-"SEMA4A" -> "SEMA4C"
-"SEMA4A" -> "SEMA4F"
-"SEMA4A" -> "SEMA4G"
-"SEMA4B" -> "SEMA4A"
-"SEMA4B" -> "SEMA4F"
-"SEMA4B" -> "SEMA4C"
-"SEMA4B" -> "SEMA4G"
-"SEMA4C" -> "SEMA4G"
-"SEMA4C" -> "SEMA3F"
-"SEMA4C" -> "SEMA4F"
-"SEMA4C" -> "SEMA6C"
-"SEMA4D" -> "SEMA4G"
-"SEMA4D" -> "SEMA4F"
-"SEMA4D" -> "SEMA7A"
-"SEMA4D" -> "SEMA3F"
-"SEMA4F" -> "SEMA4C"
-"SEMA4F" -> "SEMA4B"
-"SEMA4F" -> "SEMA4G"
-"SEMA4F" -> "SEMA4A"
-"SEMA4G" -> "SEMA4C"
-"SEMA4G" -> "SEMA3F"
-"SEMA4G" -> "SEMA3G"
-"SEMA4G" -> "SEMA6C"
-"SEMA6B" -> "SEMA6C"
-"SEMA6B" -> "SEMA4C"
-"SEMA6B" -> "SEMA4G"
-"SEMA6B" -> "SEMA4F"
-"SEMA6C" -> "SEMA6B"
-"SEMA6C" -> "SEMA4G"
-"SEMA6C" -> "SEMA4C"
-"SEMA6C" -> "SEMA4F"
-"SEMA7A" -> "SEMA4B"
-"SEMA7A" -> "SEMA4G"
-"SEMA7A" -> "SEMA3G"
-"SEMA7A" -> "SEMA4A"
-"SUSD4" -> "LRP10"
-"SUSD4" -> "SEMA4F"
-"SUSD4" -> "LRP11"
-"SUSD4" -> "NPR3"
-"TECTB" -> "ZPLD1"
-"TECTB" -> "OOSP2"
-"TECTB" -> "ZP3"
-"TECTB" -> "ZP4"
-"TGFBR3" -> "ENG"
-"TGFBR3" -> "ZP2"
-"TGFBR3" -> "ZP1"
-"TGFBR3" -> "UMODL1"
-"UMODL1" -> "ZP1"
-"UMODL1" -> "ENG"
-"UMODL1" -> "ZP2"
-"UMODL1" -> "VWA2"
-"VWA2" -> "ANTXR2"
-"VWA2" -> "SEMA4F"
-"VWA2" -> "LRP10"
-"VWA2" -> "NPR3"
-"ZP1" -> "ZP4"
-"ZP1" -> "ZP3"
-"ZP1" -> "UMODL1"
-"ZP1" -> "TECTB"
-"ZP2" -> "ZP4"
-"ZP2" -> "ZP3"
-"ZP2" -> "TECTB"
-"ZP2" -> "OOSP2"
-"ZP3" -> "ZP4"
-"ZP3" -> "ZP2"
-"ZP3" -> "TECTB"
-"ZP3" -> "ZP1"
-"ZP4" -> "ZP2"
-"ZP4" -> "ZP3"
-"ZP4" -> "ZP1"
-"ZP4" -> "ZPLD1"
-"ZPLD1" -> "TECTB"
-"ZPLD1" -> "ZP4"
-"ZPLD1" -> "ZP3"
-"ZPLD1" -> "ZP1"
+"ADAM10" -> "ADAM17" ["e"=1]
+"ADAM10" -> "SEMA3A" ["e"=1]
+"ADAM10" -> "SEMA3E" ["e"=1]
+"ADAM10" -> "SEMA3C" ["e"=1]
+"ADAM17" -> "ADAM10" ["e"=1]
+"ADAM17" -> "ANTXR2" ["e"=1]
+"ADAM17" -> "VWA2" ["e"=1]
+"ADAM17" -> "SEMA4F" ["e"=1]
+"ANTXR1" -> "ANTXR2" ["e"=1]
+"ANTXR1" -> "SEMA3E" ["e"=1]
+"ANTXR1" -> "VWA2" ["e"=1]
+"ANTXR1" -> "SEMA3D" ["e"=1]
+"ANTXR2" -> "ANTXR1" ["e"=1]
+"ANTXR2" -> "VWA2" ["e"=1]
+"ANTXR2" -> "ADAM17" ["e"=1]
+"ANTXR2" -> "NPR3" ["e"=1]
+"CACHD1" -> "SEMA4F" ["e"=1]
+"CACHD1" -> "MBTPS1" ["e"=1]
+"CACHD1" -> "ANTXR2" ["e"=1]
+"CACHD1" -> "VWA2" ["e"=1]
+"CLCA1" -> "CLCA4" ["e"=1]
+"CLCA1" -> "CLCA2" ["e"=1]
+"CLCA1" -> "ANTXR2" ["e"=1]
+"CLCA1" -> "ADAM17" ["e"=1]
+"CLCA2" -> "CLCA4" ["e"=1]
+"CLCA2" -> "CLCA1" ["e"=1]
+"CLCA2" -> "ANTXR2" ["e"=1]
+"CLCA2" -> "ADAM17" ["e"=1]
+"CLCA4" -> "CLCA2" ["e"=1]
+"CLCA4" -> "CLCA1" ["e"=1]
+"CLCA4" -> "ANTXR2" ["e"=1]
+"CLCA4" -> "ADAM10" ["e"=1]
+"CNTNAP1" -> "MBTPS1" ["e"=1]
+"CNTNAP1" -> "SEMA3F" ["e"=1]
+"CNTNAP1" -> "CACHD1" ["e"=1]
+"CNTNAP1" -> "VWA2" ["e"=1]
+"ENG" -> "TGFBR3" ["e"=1]
+"ENG" -> "UMODL1" ["e"=1]
+"ENG" -> "ZP2" ["e"=1]
+"ENG" -> "ZP4" ["e"=1]
+"IMPG1" -> "IMPG2" ["e"=1]
+"IMPG1" -> "ANTXR2" ["e"=1]
+"IMPG1" -> "UMODL1" ["e"=1]
+"IMPG1" -> "VWA2" ["e"=1]
+"IMPG2" -> "IMPG1" ["e"=1]
+"IMPG2" -> "CACHD1" ["e"=1]
+"IMPG2" -> "UMODL1" ["e"=1]
+"IMPG2" -> "LRP11" ["e"=1]
+"LRP10" -> "VWA2" ["e"=1]
+"LRP10" -> "LRP11" ["e"=1]
+"LRP10" -> "SEMA4F" ["e"=1]
+"LRP10" -> "SUSD4" ["e"=1]
+"LRP11" -> "SEMA4F" ["e"=1]
+"LRP11" -> "LRP10" ["e"=1]
+"LRP11" -> "VWA2" ["e"=1]
+"LRP11" -> "ANTXR2" ["e"=1]
+"MBTPS1" -> "PAM" ["e"=1]
+"MBTPS1" -> "CACHD1" ["e"=1]
+"MBTPS1" -> "ANTXR2" ["e"=1]
+"MBTPS1" -> "ADAM10" ["e"=1]
+"NPR3" -> "ANTXR2" ["e"=1]
+"NPR3" -> "VWA2" ["e"=1]
+"NPR3" -> "SEMA4F" ["e"=1]
+"NPR3" -> "SEMA4G" ["e"=1]
+"OOSP2" -> "TECTB" ["e"=1]
+"OOSP2" -> "ZP2" ["e"=1]
+"OOSP2" -> "ZPLD1" ["e"=1]
+"OOSP2" -> "ZP3" ["e"=1]
+"PAM" -> "MBTPS1" ["e"=1]
+"PAM" -> "SEMA3C" ["e"=1]
+"PAM" -> "SEMA3A" ["e"=1]
+"PAM" -> "SEMA3D" ["e"=1]
+"SEMA3A" -> "SEMA3E" ["e"=1]
+"SEMA3A" -> "SEMA3C" ["e"=1]
+"SEMA3A" -> "SEMA3D" ["e"=1]
+"SEMA3A" -> "SEMA3G" ["e"=1]
+"SEMA3B" -> "SEMA3F" ["e"=1]
+"SEMA3B" -> "SEMA3G" ["e"=1]
+"SEMA3B" -> "SEMA3C" ["e"=1]
+"SEMA3B" -> "SEMA4G" ["e"=1]
+"SEMA3C" -> "SEMA3E" ["e"=1]
+"SEMA3C" -> "SEMA3D" ["e"=1]
+"SEMA3C" -> "SEMA3A" ["e"=1]
+"SEMA3C" -> "SEMA3G" ["e"=1]
+"SEMA3D" -> "SEMA3E" ["e"=1]
+"SEMA3D" -> "SEMA3C" ["e"=1]
+"SEMA3D" -> "SEMA3A" ["e"=1]
+"SEMA3D" -> "SEMA3G" ["e"=1]
+"SEMA3E" -> "SEMA3D" ["e"=1]
+"SEMA3E" -> "SEMA3C" ["e"=1]
+"SEMA3E" -> "SEMA3A" ["e"=1]
+"SEMA3E" -> "SEMA3G" ["e"=1]
+"SEMA3F" -> "SEMA3G" ["e"=1]
+"SEMA3F" -> "SEMA4C" ["e"=1]
+"SEMA3F" -> "SEMA4G" ["e"=1]
+"SEMA3F" -> "SEMA3B" ["e"=1]
+"SEMA3G" -> "SEMA3F" ["e"=1]
+"SEMA3G" -> "SEMA4G" ["e"=1]
+"SEMA3G" -> "SEMA4C" ["e"=1]
+"SEMA3G" -> "SEMA3B" ["e"=1]
+"SEMA4A" -> "SEMA4B" ["e"=1]
+"SEMA4A" -> "SEMA4C" ["e"=1]
+"SEMA4A" -> "SEMA4F" ["e"=1]
+"SEMA4A" -> "SEMA4G" ["e"=1]
+"SEMA4B" -> "SEMA4A" ["e"=1]
+"SEMA4B" -> "SEMA4F" ["e"=1]
+"SEMA4B" -> "SEMA4C" ["e"=1]
+"SEMA4B" -> "SEMA4G" ["e"=1]
+"SEMA4C" -> "SEMA4G" ["e"=1]
+"SEMA4C" -> "SEMA3F" ["e"=1]
+"SEMA4C" -> "SEMA4F" ["e"=1]
+"SEMA4C" -> "SEMA6C" ["e"=1]
+"SEMA4D" -> "SEMA4G" ["e"=1]
+"SEMA4D" -> "SEMA4F" ["e"=1]
+"SEMA4D" -> "SEMA7A" ["e"=1]
+"SEMA4D" -> "SEMA3F" ["e"=1]
+"SEMA4F" -> "SEMA4C" ["e"=1]
+"SEMA4F" -> "SEMA4B" ["e"=1]
+"SEMA4F" -> "SEMA4G" ["e"=1]
+"SEMA4F" -> "SEMA4A" ["e"=1]
+"SEMA4G" -> "SEMA4C" ["e"=1]
+"SEMA4G" -> "SEMA3F" ["e"=1]
+"SEMA4G" -> "SEMA3G" ["e"=1]
+"SEMA4G" -> "SEMA6C" ["e"=1]
+"SEMA6B" -> "SEMA6C" ["e"=1]
+"SEMA6B" -> "SEMA4C" ["e"=1]
+"SEMA6B" -> "SEMA4G" ["e"=1]
+"SEMA6B" -> "SEMA4F" ["e"=1]
+"SEMA6C" -> "SEMA6B" ["e"=1]
+"SEMA6C" -> "SEMA4G" ["e"=1]
+"SEMA6C" -> "SEMA4C" ["e"=1]
+"SEMA6C" -> "SEMA4F" ["e"=1]
+"SEMA7A" -> "SEMA4B" ["e"=1]
+"SEMA7A" -> "SEMA4G" ["e"=1]
+"SEMA7A" -> "SEMA3G" ["e"=1]
+"SEMA7A" -> "SEMA4A" ["e"=1]
+"SUSD4" -> "LRP10" ["e"=1]
+"SUSD4" -> "SEMA4F" ["e"=1]
+"SUSD4" -> "LRP11" ["e"=1]
+"SUSD4" -> "NPR3" ["e"=1]
+"TECTB" -> "ZPLD1" ["e"=1]
+"TECTB" -> "OOSP2" ["e"=1]
+"TECTB" -> "ZP3" ["e"=1]
+"TECTB" -> "ZP4" ["e"=1]
+"TGFBR3" -> "ENG" ["e"=1]
+"TGFBR3" -> "ZP2" ["e"=1]
+"TGFBR3" -> "ZP1" ["e"=1]
+"TGFBR3" -> "UMODL1" ["e"=1]
+"UMODL1" -> "ZP1" ["e"=1]
+"UMODL1" -> "ENG" ["e"=1]
+"UMODL1" -> "ZP2" ["e"=1]
+"UMODL1" -> "VWA2" ["e"=1]
+"VWA2" -> "ANTXR2" ["e"=1]
+"VWA2" -> "SEMA4F" ["e"=1]
+"VWA2" -> "LRP10" ["e"=1]
+"VWA2" -> "NPR3" ["e"=1]
+"ZP1" -> "ZP4" ["e"=1]
+"ZP1" -> "ZP3" ["e"=1]
+"ZP1" -> "UMODL1" ["e"=1]
+"ZP1" -> "TECTB" ["e"=1]
+"ZP2" -> "ZP4" ["e"=1]
+"ZP2" -> "ZP3" ["e"=1]
+"ZP2" -> "TECTB" ["e"=1]
+"ZP2" -> "OOSP2" ["e"=1]
+"ZP3" -> "ZP4" ["e"=1]
+"ZP3" -> "ZP2" ["e"=1]
+"ZP3" -> "TECTB" ["e"=1]
+"ZP3" -> "ZP1" ["e"=1]
+"ZP4" -> "ZP2" ["e"=1]
+"ZP4" -> "ZP3" ["e"=1]
+"ZP4" -> "ZP1" ["e"=1]
+"ZP4" -> "ZPLD1" ["e"=1]
+"ZPLD1" -> "TECTB" ["e"=1]
+"ZPLD1" -> "ZP4" ["e"=1]
+"ZPLD1" -> "ZP3" ["e"=1]
+"ZPLD1" -> "ZP1" ["e"=1]
 }

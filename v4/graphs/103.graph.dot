@@ -44,184 +44,184 @@ digraph G {
 "TLR6" ["l"="15.636,4.567"]
 "TLR9" ["l"="15.682,4.584"]
 "TSKU" ["l"="15.617,4.645"]
-"ASPN" -> "KERA"
-"ASPN" -> "OGN"
-"ASPN" -> "OMD"
-"ASPN" -> "DCN"
-"CD14" -> "LRG1"
-"CD14" -> "LRRC14B"
-"CD14" -> "FBXL8"
-"CD14" -> "TLR2"
-"CD180" -> "TLR3"
-"CD180" -> "LRRC32"
-"CD180" -> "GP5"
-"CD180" -> "NRROS"
-"CHAD" -> "GP5"
-"CHAD" -> "LRRC15"
-"CHAD" -> "PRELP"
-"CHAD" -> "KERA"
-"CHADL" -> "GP5"
-"CHADL" -> "IGFALS"
-"CHADL" -> "TLR9"
-"CHADL" -> "PODNL1"
-"CPN2" -> "GP5"
-"CPN2" -> "LRRC32"
-"CPN2" -> "LRRC15"
-"CPN2" -> "CHAD"
-"DCN" -> "LUM"
-"DCN" -> "ASPN"
-"DCN" -> "PRELP"
-"DCN" -> "KERA"
-"ECM2" -> "OMD"
-"ECM2" -> "ASPN"
-"ECM2" -> "OGN"
-"ECM2" -> "LRRC17"
-"EPYC" -> "OGN"
-"EPYC" -> "KERA"
-"EPYC" -> "OPTC"
-"EPYC" -> "ASPN"
-"FBXL8" -> "LRRC14B"
-"FBXL8" -> "CD14"
-"FBXL8" -> "MFHAS1"
-"FBXL8" -> "LINGO4"
-"FMOD" -> "PRELP"
-"FMOD" -> "KERA"
-"FMOD" -> "LUM"
-"FMOD" -> "CHAD"
-"GP5" -> "CPN2"
-"GP5" -> "LRRC32"
-"GP5" -> "LINGO4"
-"GP5" -> "LRRC15"
-"IGFALS" -> "CHADL"
-"IGFALS" -> "PODNL1"
-"IGFALS" -> "PODN"
-"IGFALS" -> "LRRC32"
-"KERA" -> "ASPN"
-"KERA" -> "OGN"
-"KERA" -> "DCN"
-"KERA" -> "OMD"
-"LINGO4" -> "GP5"
-"LINGO4" -> "LRRC32"
-"LINGO4" -> "NRROS"
-"LINGO4" -> "CHADL"
-"LRG1" -> "CPN2"
-"LRG1" -> "LRRC32"
-"LRG1" -> "TSKU"
-"LRG1" -> "CD14"
-"LRRC14B" -> "FBXL8"
-"LRRC14B" -> "TLR6"
-"LRRC14B" -> "CD14"
-"LRRC14B" -> "MFHAS1"
-"LRRC15" -> "GP5"
-"LRRC15" -> "CHAD"
-"LRRC15" -> "LRRC32"
-"LRRC15" -> "CPN2"
-"LRRC17" -> "OGN"
-"LRRC17" -> "ECM2"
-"LRRC17" -> "OMD"
-"LRRC17" -> "KERA"
-"LRRC19" -> "TLR6"
-"LRRC19" -> "TLR10"
-"LRRC19" -> "LRRC70"
-"LRRC19" -> "OMD"
-"LRRC32" -> "GP5"
-"LRRC32" -> "NRROS"
-"LRRC32" -> "CD180"
-"LRRC32" -> "LINGO4"
-"LRRC58" -> "GP5"
-"LRRC58" -> "LRRC15"
-"LRRC58" -> "TSKU"
-"LRRC58" -> "LRRC32"
-"LRRC70" -> "TLR1"
-"LRRC70" -> "TLR5"
-"LRRC70" -> "TLR10"
-"LRRC70" -> "TLR6"
-"LRRC8A" -> "LRRC8E"
-"LRRC8A" -> "LRRC8C"
-"LRRC8A" -> "LRRC8B"
-"LRRC8A" -> "LRRC8D"
-"LRRC8B" -> "LRRC8C"
-"LRRC8B" -> "LRRC8E"
-"LRRC8B" -> "LRRC8D"
-"LRRC8B" -> "LRRC8A"
-"LRRC8C" -> "LRRC8B"
-"LRRC8C" -> "LRRC8E"
-"LRRC8C" -> "LRRC8D"
-"LRRC8C" -> "LRRC8A"
-"LRRC8D" -> "LRRC8C"
-"LRRC8D" -> "LRRC8B"
-"LRRC8D" -> "LRRC8E"
-"LRRC8D" -> "LRRC8A"
-"LRRC8E" -> "LRRC8C"
-"LRRC8E" -> "LRRC8A"
-"LRRC8E" -> "LRRC8B"
-"LRRC8E" -> "LRRC8D"
-"LUM" -> "DCN"
-"LUM" -> "KERA"
-"LUM" -> "FMOD"
-"LUM" -> "PRELP"
-"MFHAS1" -> "LRRC8B"
-"MFHAS1" -> "LRRC8C"
-"MFHAS1" -> "LRRC8E"
-"MFHAS1" -> "LINGO4"
-"NRROS" -> "TLR9"
-"NRROS" -> "GP5"
-"NRROS" -> "LRRC32"
-"NRROS" -> "CD180"
-"OGN" -> "OMD"
-"OGN" -> "ASPN"
-"OGN" -> "KERA"
-"OGN" -> "EPYC"
-"OMD" -> "OGN"
-"OMD" -> "ASPN"
-"OMD" -> "ECM2"
-"OMD" -> "KERA"
-"OPTC" -> "EPYC"
-"OPTC" -> "KERA"
-"OPTC" -> "OGN"
-"OPTC" -> "DCN"
-"PODN" -> "PODNL1"
-"PODN" -> "PRELP"
-"PODN" -> "IGFALS"
-"PODN" -> "CHAD"
-"PODNL1" -> "PODN"
-"PODNL1" -> "IGFALS"
-"PODNL1" -> "CHADL"
-"PODNL1" -> "LRRC32"
-"PRELP" -> "DCN"
-"PRELP" -> "FMOD"
-"PRELP" -> "CHAD"
-"PRELP" -> "KERA"
-"TLR1" -> "TLR6"
-"TLR1" -> "TLR2"
-"TLR1" -> "TLR10"
-"TLR1" -> "TLR5"
-"TLR10" -> "TLR6"
-"TLR10" -> "TLR1"
-"TLR10" -> "TLR2"
-"TLR10" -> "TLR5"
-"TLR2" -> "TLR1"
-"TLR2" -> "TLR6"
-"TLR2" -> "TLR10"
-"TLR2" -> "TLR5"
-"TLR3" -> "TLR5"
-"TLR3" -> "TLR6"
-"TLR3" -> "CD180"
-"TLR3" -> "TLR1"
-"TLR5" -> "TLR1"
-"TLR5" -> "TLR3"
-"TLR5" -> "TLR6"
-"TLR5" -> "TLR2"
-"TLR6" -> "TLR10"
-"TLR6" -> "TLR1"
-"TLR6" -> "TLR2"
-"TLR6" -> "TLR3"
-"TLR9" -> "NRROS"
-"TLR9" -> "CHADL"
-"TLR9" -> "CD180"
-"TLR9" -> "LRRC32"
-"TSKU" -> "CHAD"
-"TSKU" -> "LRRC32"
-"TSKU" -> "PRELP"
-"TSKU" -> "LRRC15"
+"ASPN" -> "KERA" ["e"=1]
+"ASPN" -> "OGN" ["e"=1]
+"ASPN" -> "OMD" ["e"=1]
+"ASPN" -> "DCN" ["e"=1]
+"CD14" -> "LRG1" ["e"=1]
+"CD14" -> "LRRC14B" ["e"=1]
+"CD14" -> "FBXL8" ["e"=1]
+"CD14" -> "TLR2" ["e"=1]
+"CD180" -> "TLR3" ["e"=1]
+"CD180" -> "LRRC32" ["e"=1]
+"CD180" -> "GP5" ["e"=1]
+"CD180" -> "NRROS" ["e"=1]
+"CHAD" -> "GP5" ["e"=1]
+"CHAD" -> "LRRC15" ["e"=1]
+"CHAD" -> "PRELP" ["e"=1]
+"CHAD" -> "KERA" ["e"=1]
+"CHADL" -> "GP5" ["e"=1]
+"CHADL" -> "IGFALS" ["e"=1]
+"CHADL" -> "TLR9" ["e"=1]
+"CHADL" -> "PODNL1" ["e"=1]
+"CPN2" -> "GP5" ["e"=1]
+"CPN2" -> "LRRC32" ["e"=1]
+"CPN2" -> "LRRC15" ["e"=1]
+"CPN2" -> "CHAD" ["e"=1]
+"DCN" -> "LUM" ["e"=1]
+"DCN" -> "ASPN" ["e"=1]
+"DCN" -> "PRELP" ["e"=1]
+"DCN" -> "KERA" ["e"=1]
+"ECM2" -> "OMD" ["e"=1]
+"ECM2" -> "ASPN" ["e"=1]
+"ECM2" -> "OGN" ["e"=1]
+"ECM2" -> "LRRC17" ["e"=1]
+"EPYC" -> "OGN" ["e"=1]
+"EPYC" -> "KERA" ["e"=1]
+"EPYC" -> "OPTC" ["e"=1]
+"EPYC" -> "ASPN" ["e"=1]
+"FBXL8" -> "LRRC14B" ["e"=1]
+"FBXL8" -> "CD14" ["e"=1]
+"FBXL8" -> "MFHAS1" ["e"=1]
+"FBXL8" -> "LINGO4" ["e"=1]
+"FMOD" -> "PRELP" ["e"=1]
+"FMOD" -> "KERA" ["e"=1]
+"FMOD" -> "LUM" ["e"=1]
+"FMOD" -> "CHAD" ["e"=1]
+"GP5" -> "CPN2" ["e"=1]
+"GP5" -> "LRRC32" ["e"=1]
+"GP5" -> "LINGO4" ["e"=1]
+"GP5" -> "LRRC15" ["e"=1]
+"IGFALS" -> "CHADL" ["e"=1]
+"IGFALS" -> "PODNL1" ["e"=1]
+"IGFALS" -> "PODN" ["e"=1]
+"IGFALS" -> "LRRC32" ["e"=1]
+"KERA" -> "ASPN" ["e"=1]
+"KERA" -> "OGN" ["e"=1]
+"KERA" -> "DCN" ["e"=1]
+"KERA" -> "OMD" ["e"=1]
+"LINGO4" -> "GP5" ["e"=1]
+"LINGO4" -> "LRRC32" ["e"=1]
+"LINGO4" -> "NRROS" ["e"=1]
+"LINGO4" -> "CHADL" ["e"=1]
+"LRG1" -> "CPN2" ["e"=1]
+"LRG1" -> "LRRC32" ["e"=1]
+"LRG1" -> "TSKU" ["e"=1]
+"LRG1" -> "CD14" ["e"=1]
+"LRRC14B" -> "FBXL8" ["e"=1]
+"LRRC14B" -> "TLR6" ["e"=1]
+"LRRC14B" -> "CD14" ["e"=1]
+"LRRC14B" -> "MFHAS1" ["e"=1]
+"LRRC15" -> "GP5" ["e"=1]
+"LRRC15" -> "CHAD" ["e"=1]
+"LRRC15" -> "LRRC32" ["e"=1]
+"LRRC15" -> "CPN2" ["e"=1]
+"LRRC17" -> "OGN" ["e"=1]
+"LRRC17" -> "ECM2" ["e"=1]
+"LRRC17" -> "OMD" ["e"=1]
+"LRRC17" -> "KERA" ["e"=1]
+"LRRC19" -> "TLR6" ["e"=1]
+"LRRC19" -> "TLR10" ["e"=1]
+"LRRC19" -> "LRRC70" ["e"=1]
+"LRRC19" -> "OMD" ["e"=1]
+"LRRC32" -> "GP5" ["e"=1]
+"LRRC32" -> "NRROS" ["e"=1]
+"LRRC32" -> "CD180" ["e"=1]
+"LRRC32" -> "LINGO4" ["e"=1]
+"LRRC58" -> "GP5" ["e"=1]
+"LRRC58" -> "LRRC15" ["e"=1]
+"LRRC58" -> "TSKU" ["e"=1]
+"LRRC58" -> "LRRC32" ["e"=1]
+"LRRC70" -> "TLR1" ["e"=1]
+"LRRC70" -> "TLR5" ["e"=1]
+"LRRC70" -> "TLR10" ["e"=1]
+"LRRC70" -> "TLR6" ["e"=1]
+"LRRC8A" -> "LRRC8E" ["e"=1]
+"LRRC8A" -> "LRRC8C" ["e"=1]
+"LRRC8A" -> "LRRC8B" ["e"=1]
+"LRRC8A" -> "LRRC8D" ["e"=1]
+"LRRC8B" -> "LRRC8C" ["e"=1]
+"LRRC8B" -> "LRRC8E" ["e"=1]
+"LRRC8B" -> "LRRC8D" ["e"=1]
+"LRRC8B" -> "LRRC8A" ["e"=1]
+"LRRC8C" -> "LRRC8B" ["e"=1]
+"LRRC8C" -> "LRRC8E" ["e"=1]
+"LRRC8C" -> "LRRC8D" ["e"=1]
+"LRRC8C" -> "LRRC8A" ["e"=1]
+"LRRC8D" -> "LRRC8C" ["e"=1]
+"LRRC8D" -> "LRRC8B" ["e"=1]
+"LRRC8D" -> "LRRC8E" ["e"=1]
+"LRRC8D" -> "LRRC8A" ["e"=1]
+"LRRC8E" -> "LRRC8C" ["e"=1]
+"LRRC8E" -> "LRRC8A" ["e"=1]
+"LRRC8E" -> "LRRC8B" ["e"=1]
+"LRRC8E" -> "LRRC8D" ["e"=1]
+"LUM" -> "DCN" ["e"=1]
+"LUM" -> "KERA" ["e"=1]
+"LUM" -> "FMOD" ["e"=1]
+"LUM" -> "PRELP" ["e"=1]
+"MFHAS1" -> "LRRC8B" ["e"=1]
+"MFHAS1" -> "LRRC8C" ["e"=1]
+"MFHAS1" -> "LRRC8E" ["e"=1]
+"MFHAS1" -> "LINGO4" ["e"=1]
+"NRROS" -> "TLR9" ["e"=1]
+"NRROS" -> "GP5" ["e"=1]
+"NRROS" -> "LRRC32" ["e"=1]
+"NRROS" -> "CD180" ["e"=1]
+"OGN" -> "OMD" ["e"=1]
+"OGN" -> "ASPN" ["e"=1]
+"OGN" -> "KERA" ["e"=1]
+"OGN" -> "EPYC" ["e"=1]
+"OMD" -> "OGN" ["e"=1]
+"OMD" -> "ASPN" ["e"=1]
+"OMD" -> "ECM2" ["e"=1]
+"OMD" -> "KERA" ["e"=1]
+"OPTC" -> "EPYC" ["e"=1]
+"OPTC" -> "KERA" ["e"=1]
+"OPTC" -> "OGN" ["e"=1]
+"OPTC" -> "DCN" ["e"=1]
+"PODN" -> "PODNL1" ["e"=1]
+"PODN" -> "PRELP" ["e"=1]
+"PODN" -> "IGFALS" ["e"=1]
+"PODN" -> "CHAD" ["e"=1]
+"PODNL1" -> "PODN" ["e"=1]
+"PODNL1" -> "IGFALS" ["e"=1]
+"PODNL1" -> "CHADL" ["e"=1]
+"PODNL1" -> "LRRC32" ["e"=1]
+"PRELP" -> "DCN" ["e"=1]
+"PRELP" -> "FMOD" ["e"=1]
+"PRELP" -> "CHAD" ["e"=1]
+"PRELP" -> "KERA" ["e"=1]
+"TLR1" -> "TLR6" ["e"=1]
+"TLR1" -> "TLR2" ["e"=1]
+"TLR1" -> "TLR10" ["e"=1]
+"TLR1" -> "TLR5" ["e"=1]
+"TLR10" -> "TLR6" ["e"=1]
+"TLR10" -> "TLR1" ["e"=1]
+"TLR10" -> "TLR2" ["e"=1]
+"TLR10" -> "TLR5" ["e"=1]
+"TLR2" -> "TLR1" ["e"=1]
+"TLR2" -> "TLR6" ["e"=1]
+"TLR2" -> "TLR10" ["e"=1]
+"TLR2" -> "TLR5" ["e"=1]
+"TLR3" -> "TLR5" ["e"=1]
+"TLR3" -> "TLR6" ["e"=1]
+"TLR3" -> "CD180" ["e"=1]
+"TLR3" -> "TLR1" ["e"=1]
+"TLR5" -> "TLR1" ["e"=1]
+"TLR5" -> "TLR3" ["e"=1]
+"TLR5" -> "TLR6" ["e"=1]
+"TLR5" -> "TLR2" ["e"=1]
+"TLR6" -> "TLR10" ["e"=1]
+"TLR6" -> "TLR1" ["e"=1]
+"TLR6" -> "TLR2" ["e"=1]
+"TLR6" -> "TLR3" ["e"=1]
+"TLR9" -> "NRROS" ["e"=1]
+"TLR9" -> "CHADL" ["e"=1]
+"TLR9" -> "CD180" ["e"=1]
+"TLR9" -> "LRRC32" ["e"=1]
+"TSKU" -> "CHAD" ["e"=1]
+"TSKU" -> "LRRC32" ["e"=1]
+"TSKU" -> "PRELP" ["e"=1]
+"TSKU" -> "LRRC15" ["e"=1]
 }

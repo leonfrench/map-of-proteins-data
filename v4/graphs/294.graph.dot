@@ -39,164 +39,164 @@ digraph G {
 "TIMM50" ["l"="12.726,2.505"]
 "TK2" ["l"="12.661,2.410"]
 "YBEY" ["l"="12.613,2.690"]
-"ACYP2" -> "NUDT6"
-"ACYP2" -> "DMAC2L"
-"ACYP2" -> "HTD2"
-"ACYP2" -> "DMAC2"
-"ATPAF2" -> "MMAB"
-"ATPAF2" -> "TK2"
-"ATPAF2" -> "NUDT6"
-"ATPAF2" -> "NDUFAF5"
-"BOLA1" -> "HDDC3"
-"BOLA1" -> "MMAB"
-"BOLA1" -> "PDF"
-"BOLA1" -> "NUDT8"
-"C6orf136" -> "MCU"
-"C6orf136" -> "DMAC2"
-"C6orf136" -> "HTD2"
-"C6orf136" -> "DMAC2L"
-"CCDC51" -> "DMAC2"
-"CCDC51" -> "MMAA"
-"CCDC51" -> "MCU"
-"CCDC51" -> "TIMM50"
-"COMTD1" -> "NUDT8"
-"COMTD1" -> "PDF"
-"COMTD1" -> "DUSP23"
-"COMTD1" -> "TIMM50"
-"COQ3" -> "NUDT6"
-"COQ3" -> "MMAA"
-"COQ3" -> "NDUFAF5"
-"COQ3" -> "MRS2"
-"DIABLO" -> "HTD2"
-"DIABLO" -> "TIMM50"
-"DIABLO" -> "MMAA"
-"DIABLO" -> "MCU"
-"DMAC2" -> "DMAC2L"
-"DMAC2" -> "TIMM50"
-"DMAC2" -> "NDUFAF5"
-"DMAC2" -> "COQ3"
-"DMAC2L" -> "DMAC2"
-"DMAC2L" -> "HTD2"
-"DMAC2L" -> "NDUFAF5"
-"DMAC2L" -> "NUDT6"
-"DNPH1" -> "NME3"
-"DNPH1" -> "DUSP23"
-"DNPH1" -> "BOLA1"
-"DNPH1" -> "HDDC2"
-"DUSP23" -> "COMTD1"
-"DUSP23" -> "HDDC3"
-"DUSP23" -> "NUDT8"
-"DUSP23" -> "BOLA1"
-"HDDC2" -> "HDDC3"
-"HDDC2" -> "MMAB"
-"HDDC2" -> "NDUFAF5"
-"HDDC2" -> "PTS"
-"HDDC3" -> "BOLA1"
-"HDDC3" -> "HDDC2"
-"HDDC3" -> "DUSP23"
-"HDDC3" -> "MMAB"
-"HTD2" -> "MMAA"
-"HTD2" -> "DMAC2L"
-"HTD2" -> "PDF"
-"HTD2" -> "OXNAD1"
-"MCU" -> "MMAA"
-"MCU" -> "TIMM50"
-"MCU" -> "DMAC2L"
-"MCU" -> "HTD2"
-"MMAA" -> "MCU"
-"MMAA" -> "HTD2"
-"MMAA" -> "NDUFAF5"
-"MMAA" -> "COQ3"
-"MMAB" -> "TK2"
-"MMAB" -> "PDF"
-"MMAB" -> "NDUFAF5"
-"MMAB" -> "ATPAF2"
-"MRPL38" -> "TIMM50"
-"MRPL38" -> "PDF"
-"MRPL38" -> "C6orf136"
-"MRPL38" -> "DMAC2"
-"MRS2" -> "NDUFAF5"
-"MRS2" -> "NUDT6"
-"MRS2" -> "RMND1"
-"MRS2" -> "TK2"
-"MTX1" -> "TIMM50"
-"MTX1" -> "C6orf136"
-"MTX1" -> "MCU"
-"MTX1" -> "NDUFA10"
-"NDUFA10" -> "TK2"
-"NDUFA10" -> "TIMM50"
-"NDUFA10" -> "NDUFAF5"
-"NDUFA10" -> "MRS2"
-"NDUFAF1" -> "NUDT6"
-"NDUFAF1" -> "NUDT9"
-"NDUFAF1" -> "DMAC2"
-"NDUFAF1" -> "COQ3"
-"NDUFAF5" -> "TK2"
-"NDUFAF5" -> "MRS2"
-"NDUFAF5" -> "NUDT6"
-"NDUFAF5" -> "MMAA"
-"NME3" -> "DNPH1"
-"NME3" -> "NUDT8"
-"NME3" -> "DUSP23"
-"NME3" -> "BOLA1"
-"NTHL1" -> "NUDT8"
-"NTHL1" -> "COMTD1"
-"NTHL1" -> "DMAC2"
-"NTHL1" -> "HDDC3"
-"NUDT6" -> "COQ3"
-"NUDT6" -> "NDUFAF5"
-"NUDT6" -> "MRS2"
-"NUDT6" -> "DMAC2L"
-"NUDT8" -> "PDF"
-"NUDT8" -> "COMTD1"
-"NUDT8" -> "BOLA1"
-"NUDT8" -> "DUSP23"
-"NUDT9" -> "NUDT6"
-"NUDT9" -> "NDUFAF1"
-"NUDT9" -> "NDUFAF5"
-"NUDT9" -> "COQ3"
-"OMA1" -> "MMAA"
-"OMA1" -> "COQ3"
-"OMA1" -> "MCU"
-"OMA1" -> "HTD2"
-"OXNAD1" -> "HTD2"
-"OXNAD1" -> "MMAA"
-"OXNAD1" -> "COQ3"
-"OXNAD1" -> "NDUFAF5"
-"PDF" -> "NUDT8"
-"PDF" -> "MMAB"
-"PDF" -> "COMTD1"
-"PDF" -> "HTD2"
-"PPIL1" -> "DMAC2"
-"PPIL1" -> "PDF"
-"PPIL1" -> "HTD2"
-"PPIL1" -> "MMAB"
-"PTRH2" -> "MMAA"
-"PTRH2" -> "TIMM50"
-"PTRH2" -> "PDF"
-"PTRH2" -> "NUDT6"
-"PTS" -> "TK2"
-"PTS" -> "NDUFAF5"
-"PTS" -> "HTD2"
-"PTS" -> "HDDC2"
-"RMND1" -> "MRS2"
-"RMND1" -> "NUDT6"
-"RMND1" -> "ATPAF2"
-"RMND1" -> "COQ3"
-"STARD7" -> "NDUFAF5"
-"STARD7" -> "MMAB"
-"STARD7" -> "PDF"
-"STARD7" -> "NDUFA10"
-"TIMM50" -> "DMAC2"
-"TIMM50" -> "NDUFA10"
-"TIMM50" -> "TK2"
-"TIMM50" -> "MCU"
-"TK2" -> "NDUFAF5"
-"TK2" -> "NDUFA10"
-"TK2" -> "TIMM50"
-"TK2" -> "MMAB"
-"YBEY" -> "PTS"
-"YBEY" -> "DUSP23"
-"YBEY" -> "NUDT8"
-"YBEY" -> "HDDC3"
+"ACYP2" -> "NUDT6" ["e"=1]
+"ACYP2" -> "DMAC2L" ["e"=1]
+"ACYP2" -> "HTD2" ["e"=1]
+"ACYP2" -> "DMAC2" ["e"=1]
+"ATPAF2" -> "MMAB" ["e"=1]
+"ATPAF2" -> "TK2" ["e"=1]
+"ATPAF2" -> "NUDT6" ["e"=1]
+"ATPAF2" -> "NDUFAF5" ["e"=1]
+"BOLA1" -> "HDDC3" ["e"=1]
+"BOLA1" -> "MMAB" ["e"=1]
+"BOLA1" -> "PDF" ["e"=1]
+"BOLA1" -> "NUDT8" ["e"=1]
+"C6orf136" -> "MCU" ["e"=1]
+"C6orf136" -> "DMAC2" ["e"=1]
+"C6orf136" -> "HTD2" ["e"=1]
+"C6orf136" -> "DMAC2L" ["e"=1]
+"CCDC51" -> "DMAC2" ["e"=1]
+"CCDC51" -> "MMAA" ["e"=1]
+"CCDC51" -> "MCU" ["e"=1]
+"CCDC51" -> "TIMM50" ["e"=1]
+"COMTD1" -> "NUDT8" ["e"=1]
+"COMTD1" -> "PDF" ["e"=1]
+"COMTD1" -> "DUSP23" ["e"=1]
+"COMTD1" -> "TIMM50" ["e"=1]
+"COQ3" -> "NUDT6" ["e"=1]
+"COQ3" -> "MMAA" ["e"=1]
+"COQ3" -> "NDUFAF5" ["e"=1]
+"COQ3" -> "MRS2" ["e"=1]
+"DIABLO" -> "HTD2" ["e"=1]
+"DIABLO" -> "TIMM50" ["e"=1]
+"DIABLO" -> "MMAA" ["e"=1]
+"DIABLO" -> "MCU" ["e"=1]
+"DMAC2" -> "DMAC2L" ["e"=1]
+"DMAC2" -> "TIMM50" ["e"=1]
+"DMAC2" -> "NDUFAF5" ["e"=1]
+"DMAC2" -> "COQ3" ["e"=1]
+"DMAC2L" -> "DMAC2" ["e"=1]
+"DMAC2L" -> "HTD2" ["e"=1]
+"DMAC2L" -> "NDUFAF5" ["e"=1]
+"DMAC2L" -> "NUDT6" ["e"=1]
+"DNPH1" -> "NME3" ["e"=1]
+"DNPH1" -> "DUSP23" ["e"=1]
+"DNPH1" -> "BOLA1" ["e"=1]
+"DNPH1" -> "HDDC2" ["e"=1]
+"DUSP23" -> "COMTD1" ["e"=1]
+"DUSP23" -> "HDDC3" ["e"=1]
+"DUSP23" -> "NUDT8" ["e"=1]
+"DUSP23" -> "BOLA1" ["e"=1]
+"HDDC2" -> "HDDC3" ["e"=1]
+"HDDC2" -> "MMAB" ["e"=1]
+"HDDC2" -> "NDUFAF5" ["e"=1]
+"HDDC2" -> "PTS" ["e"=1]
+"HDDC3" -> "BOLA1" ["e"=1]
+"HDDC3" -> "HDDC2" ["e"=1]
+"HDDC3" -> "DUSP23" ["e"=1]
+"HDDC3" -> "MMAB" ["e"=1]
+"HTD2" -> "MMAA" ["e"=1]
+"HTD2" -> "DMAC2L" ["e"=1]
+"HTD2" -> "PDF" ["e"=1]
+"HTD2" -> "OXNAD1" ["e"=1]
+"MCU" -> "MMAA" ["e"=1]
+"MCU" -> "TIMM50" ["e"=1]
+"MCU" -> "DMAC2L" ["e"=1]
+"MCU" -> "HTD2" ["e"=1]
+"MMAA" -> "MCU" ["e"=1]
+"MMAA" -> "HTD2" ["e"=1]
+"MMAA" -> "NDUFAF5" ["e"=1]
+"MMAA" -> "COQ3" ["e"=1]
+"MMAB" -> "TK2" ["e"=1]
+"MMAB" -> "PDF" ["e"=1]
+"MMAB" -> "NDUFAF5" ["e"=1]
+"MMAB" -> "ATPAF2" ["e"=1]
+"MRPL38" -> "TIMM50" ["e"=1]
+"MRPL38" -> "PDF" ["e"=1]
+"MRPL38" -> "C6orf136" ["e"=1]
+"MRPL38" -> "DMAC2" ["e"=1]
+"MRS2" -> "NDUFAF5" ["e"=1]
+"MRS2" -> "NUDT6" ["e"=1]
+"MRS2" -> "RMND1" ["e"=1]
+"MRS2" -> "TK2" ["e"=1]
+"MTX1" -> "TIMM50" ["e"=1]
+"MTX1" -> "C6orf136" ["e"=1]
+"MTX1" -> "MCU" ["e"=1]
+"MTX1" -> "NDUFA10" ["e"=1]
+"NDUFA10" -> "TK2" ["e"=1]
+"NDUFA10" -> "TIMM50" ["e"=1]
+"NDUFA10" -> "NDUFAF5" ["e"=1]
+"NDUFA10" -> "MRS2" ["e"=1]
+"NDUFAF1" -> "NUDT6" ["e"=1]
+"NDUFAF1" -> "NUDT9" ["e"=1]
+"NDUFAF1" -> "DMAC2" ["e"=1]
+"NDUFAF1" -> "COQ3" ["e"=1]
+"NDUFAF5" -> "TK2" ["e"=1]
+"NDUFAF5" -> "MRS2" ["e"=1]
+"NDUFAF5" -> "NUDT6" ["e"=1]
+"NDUFAF5" -> "MMAA" ["e"=1]
+"NME3" -> "DNPH1" ["e"=1]
+"NME3" -> "NUDT8" ["e"=1]
+"NME3" -> "DUSP23" ["e"=1]
+"NME3" -> "BOLA1" ["e"=1]
+"NTHL1" -> "NUDT8" ["e"=1]
+"NTHL1" -> "COMTD1" ["e"=1]
+"NTHL1" -> "DMAC2" ["e"=1]
+"NTHL1" -> "HDDC3" ["e"=1]
+"NUDT6" -> "COQ3" ["e"=1]
+"NUDT6" -> "NDUFAF5" ["e"=1]
+"NUDT6" -> "MRS2" ["e"=1]
+"NUDT6" -> "DMAC2L" ["e"=1]
+"NUDT8" -> "PDF" ["e"=1]
+"NUDT8" -> "COMTD1" ["e"=1]
+"NUDT8" -> "BOLA1" ["e"=1]
+"NUDT8" -> "DUSP23" ["e"=1]
+"NUDT9" -> "NUDT6" ["e"=1]
+"NUDT9" -> "NDUFAF1" ["e"=1]
+"NUDT9" -> "NDUFAF5" ["e"=1]
+"NUDT9" -> "COQ3" ["e"=1]
+"OMA1" -> "MMAA" ["e"=1]
+"OMA1" -> "COQ3" ["e"=1]
+"OMA1" -> "MCU" ["e"=1]
+"OMA1" -> "HTD2" ["e"=1]
+"OXNAD1" -> "HTD2" ["e"=1]
+"OXNAD1" -> "MMAA" ["e"=1]
+"OXNAD1" -> "COQ3" ["e"=1]
+"OXNAD1" -> "NDUFAF5" ["e"=1]
+"PDF" -> "NUDT8" ["e"=1]
+"PDF" -> "MMAB" ["e"=1]
+"PDF" -> "COMTD1" ["e"=1]
+"PDF" -> "HTD2" ["e"=1]
+"PPIL1" -> "DMAC2" ["e"=1]
+"PPIL1" -> "PDF" ["e"=1]
+"PPIL1" -> "HTD2" ["e"=1]
+"PPIL1" -> "MMAB" ["e"=1]
+"PTRH2" -> "MMAA" ["e"=1]
+"PTRH2" -> "TIMM50" ["e"=1]
+"PTRH2" -> "PDF" ["e"=1]
+"PTRH2" -> "NUDT6" ["e"=1]
+"PTS" -> "TK2" ["e"=1]
+"PTS" -> "NDUFAF5" ["e"=1]
+"PTS" -> "HTD2" ["e"=1]
+"PTS" -> "HDDC2" ["e"=1]
+"RMND1" -> "MRS2" ["e"=1]
+"RMND1" -> "NUDT6" ["e"=1]
+"RMND1" -> "ATPAF2" ["e"=1]
+"RMND1" -> "COQ3" ["e"=1]
+"STARD7" -> "NDUFAF5" ["e"=1]
+"STARD7" -> "MMAB" ["e"=1]
+"STARD7" -> "PDF" ["e"=1]
+"STARD7" -> "NDUFA10" ["e"=1]
+"TIMM50" -> "DMAC2" ["e"=1]
+"TIMM50" -> "NDUFA10" ["e"=1]
+"TIMM50" -> "TK2" ["e"=1]
+"TIMM50" -> "MCU" ["e"=1]
+"TK2" -> "NDUFAF5" ["e"=1]
+"TK2" -> "NDUFA10" ["e"=1]
+"TK2" -> "TIMM50" ["e"=1]
+"TK2" -> "MMAB" ["e"=1]
+"YBEY" -> "PTS" ["e"=1]
+"YBEY" -> "DUSP23" ["e"=1]
+"YBEY" -> "NUDT8" ["e"=1]
+"YBEY" -> "HDDC3" ["e"=1]
 }

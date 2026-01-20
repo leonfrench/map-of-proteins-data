@@ -50,208 +50,208 @@ digraph G {
 "TEK" ["l"="13.689,6.766"]
 "TIE1" ["l"="13.708,6.756"]
 "TYRO3" ["l"="13.690,6.765"]
-"ALK" -> "RET"
-"ALK" -> "LTK"
-"ALK" -> "EPHB1"
-"ALK" -> "TYRO3"
-"AXL" -> "TYRO3"
-"AXL" -> "MERTK"
-"AXL" -> "FGFR1"
-"AXL" -> "PDGFRB"
-"CSF1R" -> "MERTK"
-"CSF1R" -> "FLT4"
-"CSF1R" -> "AXL"
-"CSF1R" -> "PDGFRB"
-"DDR1" -> "DDR2"
-"DDR1" -> "ERBB2"
-"DDR1" -> "INSRR"
-"DDR1" -> "EPHA8"
-"DDR2" -> "IGF1R"
-"DDR2" -> "PDGFRA"
-"DDR2" -> "INSR"
-"DDR2" -> "RET"
-"EGFR" -> "ERBB4"
-"EGFR" -> "IGF1R"
-"EGFR" -> "INSR"
-"EGFR" -> "EPHB2"
-"EPHA1" -> "EPHB4"
-"EPHA1" -> "EPHA2"
-"EPHA1" -> "EPHB3"
-"EPHA1" -> "EPHA10"
-"EPHA10" -> "EPHA8"
-"EPHA10" -> "INSRR"
-"EPHA10" -> "EPHB3"
-"EPHA10" -> "EPHA1"
-"EPHA2" -> "EPHB3"
-"EPHA2" -> "EPHB4"
-"EPHA2" -> "EPHA8"
-"EPHA2" -> "EPHA1"
-"EPHA3" -> "EPHA5"
-"EPHA3" -> "EPHA4"
-"EPHA3" -> "EPHA7"
-"EPHA3" -> "EPHB1"
-"EPHA4" -> "EPHA3"
-"EPHA4" -> "EPHA5"
-"EPHA4" -> "EPHB1"
-"EPHA4" -> "EPHA7"
-"EPHA5" -> "EPHA7"
-"EPHA5" -> "EPHA3"
-"EPHA5" -> "EPHA4"
-"EPHA5" -> "EPHB1"
-"EPHA7" -> "EPHA5"
-"EPHA7" -> "EPHA3"
-"EPHA7" -> "EPHA4"
-"EPHA7" -> "EPHB1"
-"EPHA8" -> "EPHB1"
-"EPHA8" -> "EPHA10"
-"EPHA8" -> "EPHB3"
-"EPHA8" -> "INSRR"
-"EPHB1" -> "EPHA8"
-"EPHB1" -> "EPHA4"
-"EPHB1" -> "EPHB2"
-"EPHB1" -> "EPHA7"
-"EPHB2" -> "EPHB1"
-"EPHB2" -> "EPHA4"
-"EPHB2" -> "EPHB3"
-"EPHB2" -> "INSR"
-"EPHB3" -> "EPHA2"
-"EPHB3" -> "EPHB4"
-"EPHB3" -> "EPHA8"
-"EPHB3" -> "EPHA10"
-"EPHB4" -> "EPHB3"
-"EPHB4" -> "EPHA2"
-"EPHB4" -> "EPHA8"
-"EPHB4" -> "TIE1"
-"EPHB6" -> "EPHA1"
-"EPHB6" -> "INSRR"
-"EPHB6" -> "EPHA10"
-"EPHB6" -> "EPHA8"
-"ERBB2" -> "ERBB3"
-"ERBB2" -> "INSRR"
-"ERBB2" -> "MST1R"
-"ERBB2" -> "EPHB4"
-"ERBB3" -> "ERBB2"
-"ERBB3" -> "INSRR"
-"ERBB3" -> "EGFR"
-"ERBB3" -> "NPR1"
-"ERBB4" -> "IGF1R"
-"ERBB4" -> "EGFR"
-"ERBB4" -> "DDR2"
-"ERBB4" -> "ROR1"
-"FGFR1" -> "FGFR2"
-"FGFR1" -> "AXL"
-"FGFR1" -> "PDGFRA"
-"FGFR1" -> "EPHB2"
-"FGFR2" -> "FGFR3"
-"FGFR2" -> "FGFR1"
-"FGFR2" -> "EPHB1"
-"FGFR2" -> "FGFR4"
-"FGFR3" -> "FGFR4"
-"FGFR3" -> "FGFR2"
-"FGFR3" -> "EPHB3"
-"FGFR3" -> "AXL"
-"FGFR4" -> "FGFR3"
-"FGFR4" -> "FGFR2"
-"FGFR4" -> "RET"
-"FGFR4" -> "EPHA1"
-"FLT1" -> "KDR"
-"FLT1" -> "KIT"
-"FLT1" -> "TEK"
-"FLT1" -> "FLT4"
-"FLT3" -> "KIT"
-"FLT3" -> "FLT1"
-"FLT3" -> "KDR"
-"FLT3" -> "FLT4"
-"FLT4" -> "KDR"
-"FLT4" -> "PDGFRB"
-"FLT4" -> "RET"
-"FLT4" -> "TIE1"
-"GUCY2C" -> "NPR1"
-"GUCY2C" -> "KIT"
-"GUCY2C" -> "IGF1R"
-"GUCY2C" -> "DDR2"
-"IGF1R" -> "INSR"
-"IGF1R" -> "ERBB4"
-"IGF1R" -> "DDR2"
-"IGF1R" -> "EPHA4"
-"INSR" -> "IGF1R"
-"INSR" -> "EPHB2"
-"INSR" -> "EGFR"
-"INSR" -> "NTRK2"
-"INSRR" -> "EPHA10"
-"INSRR" -> "RET"
-"INSRR" -> "EPHA8"
-"INSRR" -> "ERBB2"
-"KDR" -> "FLT1"
-"KDR" -> "PDGFRA"
-"KDR" -> "PDGFRB"
-"KDR" -> "FLT4"
-"KIT" -> "PDGFRA"
-"KIT" -> "KDR"
-"KIT" -> "FLT3"
-"KIT" -> "FLT1"
-"LTK" -> "MST1R"
-"LTK" -> "EPHB4"
-"LTK" -> "ALK"
-"LTK" -> "TYRO3"
-"MERTK" -> "AXL"
-"MERTK" -> "CSF1R"
-"MERTK" -> "KIT"
-"MERTK" -> "PDGFRB"
-"MET" -> "KIT"
-"MET" -> "INSR"
-"MET" -> "IGF1R"
-"MET" -> "FLT3"
-"MST1R" -> "LTK"
-"MST1R" -> "INSRR"
-"MST1R" -> "ERBB2"
-"MST1R" -> "RET"
-"MUSK" -> "ROR1"
-"MUSK" -> "RET"
-"MUSK" -> "PDGFRA"
-"MUSK" -> "DDR2"
-"NPR1" -> "GUCY2C"
-"NPR1" -> "EPHB4"
-"NPR1" -> "MST1R"
-"NPR1" -> "RET"
-"NTRK1" -> "INSRR"
-"NTRK1" -> "RET"
-"NTRK1" -> "EPHA8"
-"NTRK1" -> "FGFR4"
-"NTRK2" -> "IGF1R"
-"NTRK2" -> "INSR"
-"NTRK2" -> "PDGFRA"
-"NTRK2" -> "DDR2"
-"PDGFRA" -> "KIT"
-"PDGFRA" -> "PDGFRB"
-"PDGFRA" -> "KDR"
-"PDGFRA" -> "TEK"
-"PDGFRB" -> "PDGFRA"
-"PDGFRB" -> "KDR"
-"PDGFRB" -> "TYRO3"
-"PDGFRB" -> "FLT4"
-"RET" -> "INSRR"
-"RET" -> "FLT4"
-"RET" -> "TYRO3"
-"RET" -> "PDGFRB"
-"ROR1" -> "ROR2"
-"ROR1" -> "MUSK"
-"ROR1" -> "IGF1R"
-"ROR1" -> "DDR2"
-"ROR2" -> "ROR1"
-"ROR2" -> "DDR2"
-"ROR2" -> "MUSK"
-"ROR2" -> "EGFR"
-"TEK" -> "KDR"
-"TEK" -> "PDGFRA"
-"TEK" -> "TIE1"
-"TEK" -> "EPHB1"
-"TIE1" -> "EPHB4"
-"TIE1" -> "FLT4"
-"TIE1" -> "TEK"
-"TIE1" -> "EPHA1"
-"TYRO3" -> "AXL"
-"TYRO3" -> "PDGFRB"
-"TYRO3" -> "RET"
-"TYRO3" -> "EPHB2"
+"ALK" -> "RET" ["e"=1]
+"ALK" -> "LTK" ["e"=1]
+"ALK" -> "EPHB1" ["e"=1]
+"ALK" -> "TYRO3" ["e"=1]
+"AXL" -> "TYRO3" ["e"=1]
+"AXL" -> "MERTK" ["e"=1]
+"AXL" -> "FGFR1" ["e"=1]
+"AXL" -> "PDGFRB" ["e"=1]
+"CSF1R" -> "MERTK" ["e"=1]
+"CSF1R" -> "FLT4" ["e"=1]
+"CSF1R" -> "AXL" ["e"=1]
+"CSF1R" -> "PDGFRB" ["e"=1]
+"DDR1" -> "DDR2" ["e"=1]
+"DDR1" -> "ERBB2" ["e"=1]
+"DDR1" -> "INSRR" ["e"=1]
+"DDR1" -> "EPHA8" ["e"=1]
+"DDR2" -> "IGF1R" ["e"=1]
+"DDR2" -> "PDGFRA" ["e"=1]
+"DDR2" -> "INSR" ["e"=1]
+"DDR2" -> "RET" ["e"=1]
+"EGFR" -> "ERBB4" ["e"=1]
+"EGFR" -> "IGF1R" ["e"=1]
+"EGFR" -> "INSR" ["e"=1]
+"EGFR" -> "EPHB2" ["e"=1]
+"EPHA1" -> "EPHB4" ["e"=1]
+"EPHA1" -> "EPHA2" ["e"=1]
+"EPHA1" -> "EPHB3" ["e"=1]
+"EPHA1" -> "EPHA10" ["e"=1]
+"EPHA10" -> "EPHA8" ["e"=1]
+"EPHA10" -> "INSRR" ["e"=1]
+"EPHA10" -> "EPHB3" ["e"=1]
+"EPHA10" -> "EPHA1" ["e"=1]
+"EPHA2" -> "EPHB3" ["e"=1]
+"EPHA2" -> "EPHB4" ["e"=1]
+"EPHA2" -> "EPHA8" ["e"=1]
+"EPHA2" -> "EPHA1" ["e"=1]
+"EPHA3" -> "EPHA5" ["e"=1]
+"EPHA3" -> "EPHA4" ["e"=1]
+"EPHA3" -> "EPHA7" ["e"=1]
+"EPHA3" -> "EPHB1" ["e"=1]
+"EPHA4" -> "EPHA3" ["e"=1]
+"EPHA4" -> "EPHA5" ["e"=1]
+"EPHA4" -> "EPHB1" ["e"=1]
+"EPHA4" -> "EPHA7" ["e"=1]
+"EPHA5" -> "EPHA7" ["e"=1]
+"EPHA5" -> "EPHA3" ["e"=1]
+"EPHA5" -> "EPHA4" ["e"=1]
+"EPHA5" -> "EPHB1" ["e"=1]
+"EPHA7" -> "EPHA5" ["e"=1]
+"EPHA7" -> "EPHA3" ["e"=1]
+"EPHA7" -> "EPHA4" ["e"=1]
+"EPHA7" -> "EPHB1" ["e"=1]
+"EPHA8" -> "EPHB1" ["e"=1]
+"EPHA8" -> "EPHA10" ["e"=1]
+"EPHA8" -> "EPHB3" ["e"=1]
+"EPHA8" -> "INSRR" ["e"=1]
+"EPHB1" -> "EPHA8" ["e"=1]
+"EPHB1" -> "EPHA4" ["e"=1]
+"EPHB1" -> "EPHB2" ["e"=1]
+"EPHB1" -> "EPHA7" ["e"=1]
+"EPHB2" -> "EPHB1" ["e"=1]
+"EPHB2" -> "EPHA4" ["e"=1]
+"EPHB2" -> "EPHB3" ["e"=1]
+"EPHB2" -> "INSR" ["e"=1]
+"EPHB3" -> "EPHA2" ["e"=1]
+"EPHB3" -> "EPHB4" ["e"=1]
+"EPHB3" -> "EPHA8" ["e"=1]
+"EPHB3" -> "EPHA10" ["e"=1]
+"EPHB4" -> "EPHB3" ["e"=1]
+"EPHB4" -> "EPHA2" ["e"=1]
+"EPHB4" -> "EPHA8" ["e"=1]
+"EPHB4" -> "TIE1" ["e"=1]
+"EPHB6" -> "EPHA1" ["e"=1]
+"EPHB6" -> "INSRR" ["e"=1]
+"EPHB6" -> "EPHA10" ["e"=1]
+"EPHB6" -> "EPHA8" ["e"=1]
+"ERBB2" -> "ERBB3" ["e"=1]
+"ERBB2" -> "INSRR" ["e"=1]
+"ERBB2" -> "MST1R" ["e"=1]
+"ERBB2" -> "EPHB4" ["e"=1]
+"ERBB3" -> "ERBB2" ["e"=1]
+"ERBB3" -> "INSRR" ["e"=1]
+"ERBB3" -> "EGFR" ["e"=1]
+"ERBB3" -> "NPR1" ["e"=1]
+"ERBB4" -> "IGF1R" ["e"=1]
+"ERBB4" -> "EGFR" ["e"=1]
+"ERBB4" -> "DDR2" ["e"=1]
+"ERBB4" -> "ROR1" ["e"=1]
+"FGFR1" -> "FGFR2" ["e"=1]
+"FGFR1" -> "AXL" ["e"=1]
+"FGFR1" -> "PDGFRA" ["e"=1]
+"FGFR1" -> "EPHB2" ["e"=1]
+"FGFR2" -> "FGFR3" ["e"=1]
+"FGFR2" -> "FGFR1" ["e"=1]
+"FGFR2" -> "EPHB1" ["e"=1]
+"FGFR2" -> "FGFR4" ["e"=1]
+"FGFR3" -> "FGFR4" ["e"=1]
+"FGFR3" -> "FGFR2" ["e"=1]
+"FGFR3" -> "EPHB3" ["e"=1]
+"FGFR3" -> "AXL" ["e"=1]
+"FGFR4" -> "FGFR3" ["e"=1]
+"FGFR4" -> "FGFR2" ["e"=1]
+"FGFR4" -> "RET" ["e"=1]
+"FGFR4" -> "EPHA1" ["e"=1]
+"FLT1" -> "KDR" ["e"=1]
+"FLT1" -> "KIT" ["e"=1]
+"FLT1" -> "TEK" ["e"=1]
+"FLT1" -> "FLT4" ["e"=1]
+"FLT3" -> "KIT" ["e"=1]
+"FLT3" -> "FLT1" ["e"=1]
+"FLT3" -> "KDR" ["e"=1]
+"FLT3" -> "FLT4" ["e"=1]
+"FLT4" -> "KDR" ["e"=1]
+"FLT4" -> "PDGFRB" ["e"=1]
+"FLT4" -> "RET" ["e"=1]
+"FLT4" -> "TIE1" ["e"=1]
+"GUCY2C" -> "NPR1" ["e"=1]
+"GUCY2C" -> "KIT" ["e"=1]
+"GUCY2C" -> "IGF1R" ["e"=1]
+"GUCY2C" -> "DDR2" ["e"=1]
+"IGF1R" -> "INSR" ["e"=1]
+"IGF1R" -> "ERBB4" ["e"=1]
+"IGF1R" -> "DDR2" ["e"=1]
+"IGF1R" -> "EPHA4" ["e"=1]
+"INSR" -> "IGF1R" ["e"=1]
+"INSR" -> "EPHB2" ["e"=1]
+"INSR" -> "EGFR" ["e"=1]
+"INSR" -> "NTRK2" ["e"=1]
+"INSRR" -> "EPHA10" ["e"=1]
+"INSRR" -> "RET" ["e"=1]
+"INSRR" -> "EPHA8" ["e"=1]
+"INSRR" -> "ERBB2" ["e"=1]
+"KDR" -> "FLT1" ["e"=1]
+"KDR" -> "PDGFRA" ["e"=1]
+"KDR" -> "PDGFRB" ["e"=1]
+"KDR" -> "FLT4" ["e"=1]
+"KIT" -> "PDGFRA" ["e"=1]
+"KIT" -> "KDR" ["e"=1]
+"KIT" -> "FLT3" ["e"=1]
+"KIT" -> "FLT1" ["e"=1]
+"LTK" -> "MST1R" ["e"=1]
+"LTK" -> "EPHB4" ["e"=1]
+"LTK" -> "ALK" ["e"=1]
+"LTK" -> "TYRO3" ["e"=1]
+"MERTK" -> "AXL" ["e"=1]
+"MERTK" -> "CSF1R" ["e"=1]
+"MERTK" -> "KIT" ["e"=1]
+"MERTK" -> "PDGFRB" ["e"=1]
+"MET" -> "KIT" ["e"=1]
+"MET" -> "INSR" ["e"=1]
+"MET" -> "IGF1R" ["e"=1]
+"MET" -> "FLT3" ["e"=1]
+"MST1R" -> "LTK" ["e"=1]
+"MST1R" -> "INSRR" ["e"=1]
+"MST1R" -> "ERBB2" ["e"=1]
+"MST1R" -> "RET" ["e"=1]
+"MUSK" -> "ROR1" ["e"=1]
+"MUSK" -> "RET" ["e"=1]
+"MUSK" -> "PDGFRA" ["e"=1]
+"MUSK" -> "DDR2" ["e"=1]
+"NPR1" -> "GUCY2C" ["e"=1]
+"NPR1" -> "EPHB4" ["e"=1]
+"NPR1" -> "MST1R" ["e"=1]
+"NPR1" -> "RET" ["e"=1]
+"NTRK1" -> "INSRR" ["e"=1]
+"NTRK1" -> "RET" ["e"=1]
+"NTRK1" -> "EPHA8" ["e"=1]
+"NTRK1" -> "FGFR4" ["e"=1]
+"NTRK2" -> "IGF1R" ["e"=1]
+"NTRK2" -> "INSR" ["e"=1]
+"NTRK2" -> "PDGFRA" ["e"=1]
+"NTRK2" -> "DDR2" ["e"=1]
+"PDGFRA" -> "KIT" ["e"=1]
+"PDGFRA" -> "PDGFRB" ["e"=1]
+"PDGFRA" -> "KDR" ["e"=1]
+"PDGFRA" -> "TEK" ["e"=1]
+"PDGFRB" -> "PDGFRA" ["e"=1]
+"PDGFRB" -> "KDR" ["e"=1]
+"PDGFRB" -> "TYRO3" ["e"=1]
+"PDGFRB" -> "FLT4" ["e"=1]
+"RET" -> "INSRR" ["e"=1]
+"RET" -> "FLT4" ["e"=1]
+"RET" -> "TYRO3" ["e"=1]
+"RET" -> "PDGFRB" ["e"=1]
+"ROR1" -> "ROR2" ["e"=1]
+"ROR1" -> "MUSK" ["e"=1]
+"ROR1" -> "IGF1R" ["e"=1]
+"ROR1" -> "DDR2" ["e"=1]
+"ROR2" -> "ROR1" ["e"=1]
+"ROR2" -> "DDR2" ["e"=1]
+"ROR2" -> "MUSK" ["e"=1]
+"ROR2" -> "EGFR" ["e"=1]
+"TEK" -> "KDR" ["e"=1]
+"TEK" -> "PDGFRA" ["e"=1]
+"TEK" -> "TIE1" ["e"=1]
+"TEK" -> "EPHB1" ["e"=1]
+"TIE1" -> "EPHB4" ["e"=1]
+"TIE1" -> "FLT4" ["e"=1]
+"TIE1" -> "TEK" ["e"=1]
+"TIE1" -> "EPHA1" ["e"=1]
+"TYRO3" -> "AXL" ["e"=1]
+"TYRO3" -> "PDGFRB" ["e"=1]
+"TYRO3" -> "RET" ["e"=1]
+"TYRO3" -> "EPHB2" ["e"=1]
 }

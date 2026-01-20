@@ -21,92 +21,92 @@ digraph G {
 "SQSTM1" ["l"="10.307,2.539"]
 "STAMBP" ["l"="10.354,2.612"]
 "UBE2Z" ["l"="10.384,2.573"]
-"AGGF1" -> "RBM48"
-"AGGF1" -> "NRBF2"
-"AGGF1" -> "EGLN1"
-"AGGF1" -> "DDI2"
-"ALKBH5" -> "EGLN1"
-"ALKBH5" -> "UBE2Z"
-"ALKBH5" -> "NAA30"
-"ALKBH5" -> "RBM48"
-"BECN2" -> "NRBF2"
-"BECN2" -> "RNF217"
-"BECN2" -> "ALKBH5"
-"BECN2" -> "AGGF1"
-"CCNB1IP1" -> "RBM48"
-"CCNB1IP1" -> "SAMD10"
-"CCNB1IP1" -> "DTNBP1"
-"CCNB1IP1" -> "STAMBP"
-"DDI2" -> "SQSTM1"
-"DDI2" -> "RAD23A"
-"DDI2" -> "AGGF1"
-"DDI2" -> "RBM48"
-"DTNBP1" -> "BECN2"
-"DTNBP1" -> "STAMBP"
-"DTNBP1" -> "NRBF2"
-"DTNBP1" -> "DDI2"
-"EGLN1" -> "NAA30"
-"EGLN1" -> "ALKBH5"
-"EGLN1" -> "RNF217"
-"EGLN1" -> "UBE2Z"
-"HERPUD1" -> "HERPUD2"
-"HERPUD1" -> "SQSTM1"
-"HERPUD1" -> "RAD23A"
-"HERPUD1" -> "RNF185"
-"HERPUD2" -> "HERPUD1"
-"HERPUD2" -> "RAD23A"
-"HERPUD2" -> "RNF185"
-"HERPUD2" -> "SQSTM1"
-"LIN28B" -> "RBM48"
-"LIN28B" -> "EGLN1"
-"LIN28B" -> "AGGF1"
-"LIN28B" -> "DDI2"
-"NAA30" -> "EGLN1"
-"NAA30" -> "RNF217"
-"NAA30" -> "ALKBH5"
-"NAA30" -> "UBE2Z"
-"NAF1" -> "RBM48"
-"NAF1" -> "RNF217"
-"NAF1" -> "AGGF1"
-"NAF1" -> "NAA30"
-"NRBF2" -> "RBM48"
-"NRBF2" -> "STAMBP"
-"NRBF2" -> "AGGF1"
-"NRBF2" -> "BECN2"
-"PHF24" -> "SAMD10"
-"PHF24" -> "EGLN1"
-"PHF24" -> "NAA30"
-"PHF24" -> "RBM48"
-"RAD23A" -> "SQSTM1"
-"RAD23A" -> "DDI2"
-"RAD23A" -> "HERPUD1"
-"RAD23A" -> "HERPUD2"
-"RBM48" -> "AGGF1"
-"RBM48" -> "NRBF2"
-"RBM48" -> "STAMBP"
-"RBM48" -> "SAMD10"
-"RNF185" -> "DDI2"
-"RNF185" -> "SQSTM1"
-"RNF185" -> "RAD23A"
-"RNF185" -> "HERPUD2"
-"RNF217" -> "EGLN1"
-"RNF217" -> "NAA30"
-"RNF217" -> "DDI2"
-"RNF217" -> "BECN2"
-"SAMD10" -> "RBM48"
-"SAMD10" -> "PHF24"
-"SAMD10" -> "EGLN1"
-"SAMD10" -> "DDI2"
-"SQSTM1" -> "RAD23A"
-"SQSTM1" -> "HERPUD1"
-"SQSTM1" -> "DDI2"
-"SQSTM1" -> "RNF185"
-"STAMBP" -> "NRBF2"
-"STAMBP" -> "RBM48"
-"STAMBP" -> "AGGF1"
-"STAMBP" -> "DDI2"
-"UBE2Z" -> "EGLN1"
-"UBE2Z" -> "ALKBH5"
-"UBE2Z" -> "NAA30"
-"UBE2Z" -> "RNF217"
+"AGGF1" -> "RBM48" ["e"=1]
+"AGGF1" -> "NRBF2" ["e"=1]
+"AGGF1" -> "EGLN1" ["e"=1]
+"AGGF1" -> "DDI2" ["e"=1]
+"ALKBH5" -> "EGLN1" ["e"=1]
+"ALKBH5" -> "UBE2Z" ["e"=1]
+"ALKBH5" -> "NAA30" ["e"=1]
+"ALKBH5" -> "RBM48" ["e"=1]
+"BECN2" -> "NRBF2" ["e"=1]
+"BECN2" -> "RNF217" ["e"=1]
+"BECN2" -> "ALKBH5" ["e"=1]
+"BECN2" -> "AGGF1" ["e"=1]
+"CCNB1IP1" -> "RBM48" ["e"=1]
+"CCNB1IP1" -> "SAMD10" ["e"=1]
+"CCNB1IP1" -> "DTNBP1" ["e"=1]
+"CCNB1IP1" -> "STAMBP" ["e"=1]
+"DDI2" -> "SQSTM1" ["e"=1]
+"DDI2" -> "RAD23A" ["e"=1]
+"DDI2" -> "AGGF1" ["e"=1]
+"DDI2" -> "RBM48" ["e"=1]
+"DTNBP1" -> "BECN2" ["e"=1]
+"DTNBP1" -> "STAMBP" ["e"=1]
+"DTNBP1" -> "NRBF2" ["e"=1]
+"DTNBP1" -> "DDI2" ["e"=1]
+"EGLN1" -> "NAA30" ["e"=1]
+"EGLN1" -> "ALKBH5" ["e"=1]
+"EGLN1" -> "RNF217" ["e"=1]
+"EGLN1" -> "UBE2Z" ["e"=1]
+"HERPUD1" -> "HERPUD2" ["e"=1]
+"HERPUD1" -> "SQSTM1" ["e"=1]
+"HERPUD1" -> "RAD23A" ["e"=1]
+"HERPUD1" -> "RNF185" ["e"=1]
+"HERPUD2" -> "HERPUD1" ["e"=1]
+"HERPUD2" -> "RAD23A" ["e"=1]
+"HERPUD2" -> "RNF185" ["e"=1]
+"HERPUD2" -> "SQSTM1" ["e"=1]
+"LIN28B" -> "RBM48" ["e"=1]
+"LIN28B" -> "EGLN1" ["e"=1]
+"LIN28B" -> "AGGF1" ["e"=1]
+"LIN28B" -> "DDI2" ["e"=1]
+"NAA30" -> "EGLN1" ["e"=1]
+"NAA30" -> "RNF217" ["e"=1]
+"NAA30" -> "ALKBH5" ["e"=1]
+"NAA30" -> "UBE2Z" ["e"=1]
+"NAF1" -> "RBM48" ["e"=1]
+"NAF1" -> "RNF217" ["e"=1]
+"NAF1" -> "AGGF1" ["e"=1]
+"NAF1" -> "NAA30" ["e"=1]
+"NRBF2" -> "RBM48" ["e"=1]
+"NRBF2" -> "STAMBP" ["e"=1]
+"NRBF2" -> "AGGF1" ["e"=1]
+"NRBF2" -> "BECN2" ["e"=1]
+"PHF24" -> "SAMD10" ["e"=1]
+"PHF24" -> "EGLN1" ["e"=1]
+"PHF24" -> "NAA30" ["e"=1]
+"PHF24" -> "RBM48" ["e"=1]
+"RAD23A" -> "SQSTM1" ["e"=1]
+"RAD23A" -> "DDI2" ["e"=1]
+"RAD23A" -> "HERPUD1" ["e"=1]
+"RAD23A" -> "HERPUD2" ["e"=1]
+"RBM48" -> "AGGF1" ["e"=1]
+"RBM48" -> "NRBF2" ["e"=1]
+"RBM48" -> "STAMBP" ["e"=1]
+"RBM48" -> "SAMD10" ["e"=1]
+"RNF185" -> "DDI2" ["e"=1]
+"RNF185" -> "SQSTM1" ["e"=1]
+"RNF185" -> "RAD23A" ["e"=1]
+"RNF185" -> "HERPUD2" ["e"=1]
+"RNF217" -> "EGLN1" ["e"=1]
+"RNF217" -> "NAA30" ["e"=1]
+"RNF217" -> "DDI2" ["e"=1]
+"RNF217" -> "BECN2" ["e"=1]
+"SAMD10" -> "RBM48" ["e"=1]
+"SAMD10" -> "PHF24" ["e"=1]
+"SAMD10" -> "EGLN1" ["e"=1]
+"SAMD10" -> "DDI2" ["e"=1]
+"SQSTM1" -> "RAD23A" ["e"=1]
+"SQSTM1" -> "HERPUD1" ["e"=1]
+"SQSTM1" -> "DDI2" ["e"=1]
+"SQSTM1" -> "RNF185" ["e"=1]
+"STAMBP" -> "NRBF2" ["e"=1]
+"STAMBP" -> "RBM48" ["e"=1]
+"STAMBP" -> "AGGF1" ["e"=1]
+"STAMBP" -> "DDI2" ["e"=1]
+"UBE2Z" -> "EGLN1" ["e"=1]
+"UBE2Z" -> "ALKBH5" ["e"=1]
+"UBE2Z" -> "NAA30" ["e"=1]
+"UBE2Z" -> "RNF217" ["e"=1]
 }

@@ -19,84 +19,84 @@ digraph G {
 "RUNDC3A" ["l"="9.286,1.181"]
 "SH3BP5L" ["l"="9.368,1.154"]
 "TTLL7" ["l"="9.307,1.144"]
-"APBA2" -> "PSD2"
-"APBA2" -> "ARHGEF10"
-"APBA2" -> "IQSEC3"
-"APBA2" -> "FGD4"
-"ARAP2" -> "FGD4"
-"ARAP2" -> "ARHGEF10"
-"ARAP2" -> "PSD2"
-"ARAP2" -> "EPB41L4A"
-"ARHGAP22" -> "RIPOR3"
-"ARHGAP22" -> "PLEKHG5"
-"ARHGAP22" -> "BCAR3"
-"ARHGAP22" -> "PSD2"
-"ARHGEF10" -> "PLEKHG5"
-"ARHGEF10" -> "PSD2"
-"ARHGEF10" -> "ARHGEF17"
-"ARHGEF10" -> "FGD4"
-"ARHGEF17" -> "PSD2"
-"ARHGEF17" -> "ARHGEF10"
-"ARHGEF17" -> "FGD4"
-"ARHGEF17" -> "PLEKHG5"
-"B4GALNT4" -> "RPH3A"
-"B4GALNT4" -> "IQSEC3"
-"B4GALNT4" -> "RIPOR3"
-"B4GALNT4" -> "ARHGEF17"
-"BCAR3" -> "FGD4"
-"BCAR3" -> "RIPOR3"
-"BCAR3" -> "IQSEC3"
-"BCAR3" -> "PSD2"
-"EPB41L4A" -> "TTLL7"
-"EPB41L4A" -> "FGD4"
-"EPB41L4A" -> "ARAP2"
-"EPB41L4A" -> "SH3BP5L"
-"FGD4" -> "ARAP2"
-"FGD4" -> "PSD2"
-"FGD4" -> "BCAR3"
-"FGD4" -> "IQSEC3"
-"GPSM1" -> "SH3BP5L"
-"GPSM1" -> "PSD2"
-"GPSM1" -> "RIPOR3"
-"GPSM1" -> "RGS3"
-"IQSEC3" -> "PSD2"
-"IQSEC3" -> "FGD4"
-"IQSEC3" -> "SH3BP5L"
-"IQSEC3" -> "PLEKHG5"
-"OXR1" -> "FGD4"
-"OXR1" -> "ARAP2"
-"OXR1" -> "ARHGEF17"
-"OXR1" -> "IQSEC3"
-"PLEKHG5" -> "ARHGEF10"
-"PLEKHG5" -> "PSD2"
-"PLEKHG5" -> "RIPOR3"
-"PLEKHG5" -> "ARHGEF17"
-"PSD2" -> "IQSEC3"
-"PSD2" -> "ARHGEF17"
-"PSD2" -> "ARHGEF10"
-"PSD2" -> "PLEKHG5"
-"RGS3" -> "PSD2"
-"RGS3" -> "IQSEC3"
-"RGS3" -> "RIPOR3"
-"RGS3" -> "RPH3A"
-"RIPOR3" -> "ARHGAP22"
-"RIPOR3" -> "PLEKHG5"
-"RIPOR3" -> "BCAR3"
-"RIPOR3" -> "PSD2"
-"RPH3A" -> "IQSEC3"
-"RPH3A" -> "RGS3"
-"RPH3A" -> "FGD4"
-"RPH3A" -> "PSD2"
-"RUNDC3A" -> "TTLL7"
-"RUNDC3A" -> "SH3BP5L"
-"RUNDC3A" -> "PSD2"
-"RUNDC3A" -> "RIPOR3"
-"SH3BP5L" -> "PSD2"
-"SH3BP5L" -> "IQSEC3"
-"SH3BP5L" -> "GPSM1"
-"SH3BP5L" -> "FGD4"
-"TTLL7" -> "EPB41L4A"
-"TTLL7" -> "RUNDC3A"
-"TTLL7" -> "ARHGEF10"
-"TTLL7" -> "SH3BP5L"
+"APBA2" -> "PSD2" ["e"=1]
+"APBA2" -> "ARHGEF10" ["e"=1]
+"APBA2" -> "IQSEC3" ["e"=1]
+"APBA2" -> "FGD4" ["e"=1]
+"ARAP2" -> "FGD4" ["e"=1]
+"ARAP2" -> "ARHGEF10" ["e"=1]
+"ARAP2" -> "PSD2" ["e"=1]
+"ARAP2" -> "EPB41L4A" ["e"=1]
+"ARHGAP22" -> "RIPOR3" ["e"=1]
+"ARHGAP22" -> "PLEKHG5" ["e"=1]
+"ARHGAP22" -> "BCAR3" ["e"=1]
+"ARHGAP22" -> "PSD2" ["e"=1]
+"ARHGEF10" -> "PLEKHG5" ["e"=1]
+"ARHGEF10" -> "PSD2" ["e"=1]
+"ARHGEF10" -> "ARHGEF17" ["e"=1]
+"ARHGEF10" -> "FGD4" ["e"=1]
+"ARHGEF17" -> "PSD2" ["e"=1]
+"ARHGEF17" -> "ARHGEF10" ["e"=1]
+"ARHGEF17" -> "FGD4" ["e"=1]
+"ARHGEF17" -> "PLEKHG5" ["e"=1]
+"B4GALNT4" -> "RPH3A" ["e"=1]
+"B4GALNT4" -> "IQSEC3" ["e"=1]
+"B4GALNT4" -> "RIPOR3" ["e"=1]
+"B4GALNT4" -> "ARHGEF17" ["e"=1]
+"BCAR3" -> "FGD4" ["e"=1]
+"BCAR3" -> "RIPOR3" ["e"=1]
+"BCAR3" -> "IQSEC3" ["e"=1]
+"BCAR3" -> "PSD2" ["e"=1]
+"EPB41L4A" -> "TTLL7" ["e"=1]
+"EPB41L4A" -> "FGD4" ["e"=1]
+"EPB41L4A" -> "ARAP2" ["e"=1]
+"EPB41L4A" -> "SH3BP5L" ["e"=1]
+"FGD4" -> "ARAP2" ["e"=1]
+"FGD4" -> "PSD2" ["e"=1]
+"FGD4" -> "BCAR3" ["e"=1]
+"FGD4" -> "IQSEC3" ["e"=1]
+"GPSM1" -> "SH3BP5L" ["e"=1]
+"GPSM1" -> "PSD2" ["e"=1]
+"GPSM1" -> "RIPOR3" ["e"=1]
+"GPSM1" -> "RGS3" ["e"=1]
+"IQSEC3" -> "PSD2" ["e"=1]
+"IQSEC3" -> "FGD4" ["e"=1]
+"IQSEC3" -> "SH3BP5L" ["e"=1]
+"IQSEC3" -> "PLEKHG5" ["e"=1]
+"OXR1" -> "FGD4" ["e"=1]
+"OXR1" -> "ARAP2" ["e"=1]
+"OXR1" -> "ARHGEF17" ["e"=1]
+"OXR1" -> "IQSEC3" ["e"=1]
+"PLEKHG5" -> "ARHGEF10" ["e"=1]
+"PLEKHG5" -> "PSD2" ["e"=1]
+"PLEKHG5" -> "RIPOR3" ["e"=1]
+"PLEKHG5" -> "ARHGEF17" ["e"=1]
+"PSD2" -> "IQSEC3" ["e"=1]
+"PSD2" -> "ARHGEF17" ["e"=1]
+"PSD2" -> "ARHGEF10" ["e"=1]
+"PSD2" -> "PLEKHG5" ["e"=1]
+"RGS3" -> "PSD2" ["e"=1]
+"RGS3" -> "IQSEC3" ["e"=1]
+"RGS3" -> "RIPOR3" ["e"=1]
+"RGS3" -> "RPH3A" ["e"=1]
+"RIPOR3" -> "ARHGAP22" ["e"=1]
+"RIPOR3" -> "PLEKHG5" ["e"=1]
+"RIPOR3" -> "BCAR3" ["e"=1]
+"RIPOR3" -> "PSD2" ["e"=1]
+"RPH3A" -> "IQSEC3" ["e"=1]
+"RPH3A" -> "RGS3" ["e"=1]
+"RPH3A" -> "FGD4" ["e"=1]
+"RPH3A" -> "PSD2" ["e"=1]
+"RUNDC3A" -> "TTLL7" ["e"=1]
+"RUNDC3A" -> "SH3BP5L" ["e"=1]
+"RUNDC3A" -> "PSD2" ["e"=1]
+"RUNDC3A" -> "RIPOR3" ["e"=1]
+"SH3BP5L" -> "PSD2" ["e"=1]
+"SH3BP5L" -> "IQSEC3" ["e"=1]
+"SH3BP5L" -> "GPSM1" ["e"=1]
+"SH3BP5L" -> "FGD4" ["e"=1]
+"TTLL7" -> "EPB41L4A" ["e"=1]
+"TTLL7" -> "RUNDC3A" ["e"=1]
+"TTLL7" -> "ARHGEF10" ["e"=1]
+"TTLL7" -> "SH3BP5L" ["e"=1]
 }

@@ -27,116 +27,116 @@ digraph G {
 "TMSB10" ["l"="11.880,3.827"]
 "TRIQK" ["l"="11.831,4.010"]
 "ZNF706" ["l"="11.889,3.809"]
-"ATP5F1E" -> "SERF2"
-"ATP5F1E" -> "SRP14"
-"ATP5F1E" -> "GNG5"
-"ATP5F1E" -> "GNG10"
-"C19orf53" -> "SERF2"
-"C19orf53" -> "SRP14"
-"C19orf53" -> "TMA7"
-"C19orf53" -> "SERP1"
-"EDF1" -> "SERF2"
-"EDF1" -> "C19orf53"
-"EDF1" -> "SRP14"
-"EDF1" -> "SERP1"
-"GNG10" -> "GNG5"
-"GNG10" -> "GNG14"
-"GNG10" -> "GNG3"
-"GNG10" -> "GNG12"
-"GNG11" -> "GNGT2"
-"GNG11" -> "GNG12"
-"GNG11" -> "GNGT1"
-"GNG11" -> "GNG13"
-"GNG12" -> "GNG2"
-"GNG12" -> "GNG4"
-"GNG12" -> "GNG7"
-"GNG12" -> "GNG10"
-"GNG13" -> "GNG14"
-"GNG13" -> "GNGT2"
-"GNG13" -> "GNG3"
-"GNG13" -> "GNGT1"
-"GNG14" -> "GNG3"
-"GNG14" -> "GNG10"
-"GNG14" -> "GNG13"
-"GNG14" -> "GNG7"
-"GNG2" -> "GNG4"
-"GNG2" -> "GNG12"
-"GNG2" -> "GNG3"
-"GNG2" -> "GNG8"
-"GNG3" -> "GNG8"
-"GNG3" -> "GNG14"
-"GNG3" -> "GNG2"
-"GNG3" -> "GNG10"
-"GNG4" -> "GNG2"
-"GNG4" -> "GNG12"
-"GNG4" -> "GNG7"
-"GNG4" -> "GNG3"
-"GNG5" -> "GNG10"
-"GNG5" -> "GNG12"
-"GNG5" -> "GNG14"
-"GNG5" -> "GNG3"
-"GNG7" -> "GNG4"
-"GNG7" -> "GNG12"
-"GNG7" -> "GNG2"
-"GNG7" -> "GNG3"
-"GNG8" -> "GNG3"
-"GNG8" -> "GNG2"
-"GNG8" -> "GNG4"
-"GNG8" -> "GNG10"
-"GNGT1" -> "GNGT2"
-"GNGT1" -> "GNG13"
-"GNGT1" -> "GNG11"
-"GNGT1" -> "GNG14"
-"GNGT2" -> "GNG11"
-"GNGT2" -> "GNG13"
-"GNGT2" -> "GNGT1"
-"GNGT2" -> "GNG14"
-"NACA2" -> "GNG14"
-"NACA2" -> "GNG10"
-"NACA2" -> "GNG12"
-"NACA2" -> "SRP14"
-"RBIS" -> "C19orf53"
-"RBIS" -> "TRIQK"
-"RBIS" -> "TMA7"
-"RBIS" -> "ZNF706"
-"RPL39L" -> "C19orf53"
-"RPL39L" -> "SERF2"
-"RPL39L" -> "SRP14"
-"RPL39L" -> "SERP1"
-"SEC61B" -> "SERP1"
-"SEC61B" -> "C19orf53"
-"SEC61B" -> "GNG5"
-"SEC61B" -> "SERP2"
-"SERF2" -> "TMA7"
-"SERF2" -> "C19orf53"
-"SERF2" -> "SERP1"
-"SERF2" -> "ATP5F1E"
-"SERP1" -> "SEC61B"
-"SERP1" -> "SERP2"
-"SERP1" -> "SERF2"
-"SERP1" -> "C19orf53"
-"SERP2" -> "SERP1"
-"SERP2" -> "TRIQK"
-"SERP2" -> "C19orf53"
-"SERP2" -> "TMA7"
-"SRP14" -> "C19orf53"
-"SRP14" -> "ATP5F1E"
-"SRP14" -> "SERF2"
-"SRP14" -> "RPL39L"
-"TMA7" -> "SERF2"
-"TMA7" -> "C19orf53"
-"TMA7" -> "SERP1"
-"TMA7" -> "SERP2"
-"TMSB10" -> "SERF2"
-"TMSB10" -> "GNGT2"
-"TMSB10" -> "SERP2"
-"TMSB10" -> "TMA7"
-"TRIQK" -> "SERP2"
-"TRIQK" -> "SERP1"
-"TRIQK" -> "RBIS"
-"TRIQK" -> "ZNF706"
-"ZNF706" -> "SERP1"
-"ZNF706" -> "C19orf53"
-"ZNF706" -> "TMA7"
-"ZNF706" -> "RPL39L"
+"ATP5F1E" -> "SERF2" ["e"=1]
+"ATP5F1E" -> "SRP14" ["e"=1]
+"ATP5F1E" -> "GNG5" ["e"=1]
+"ATP5F1E" -> "GNG10" ["e"=1]
+"C19orf53" -> "SERF2" ["e"=1]
+"C19orf53" -> "SRP14" ["e"=1]
+"C19orf53" -> "TMA7" ["e"=1]
+"C19orf53" -> "SERP1" ["e"=1]
+"EDF1" -> "SERF2" ["e"=1]
+"EDF1" -> "C19orf53" ["e"=1]
+"EDF1" -> "SRP14" ["e"=1]
+"EDF1" -> "SERP1" ["e"=1]
+"GNG10" -> "GNG5" ["e"=1]
+"GNG10" -> "GNG14" ["e"=1]
+"GNG10" -> "GNG3" ["e"=1]
+"GNG10" -> "GNG12" ["e"=1]
+"GNG11" -> "GNGT2" ["e"=1]
+"GNG11" -> "GNG12" ["e"=1]
+"GNG11" -> "GNGT1" ["e"=1]
+"GNG11" -> "GNG13" ["e"=1]
+"GNG12" -> "GNG2" ["e"=1]
+"GNG12" -> "GNG4" ["e"=1]
+"GNG12" -> "GNG7" ["e"=1]
+"GNG12" -> "GNG10" ["e"=1]
+"GNG13" -> "GNG14" ["e"=1]
+"GNG13" -> "GNGT2" ["e"=1]
+"GNG13" -> "GNG3" ["e"=1]
+"GNG13" -> "GNGT1" ["e"=1]
+"GNG14" -> "GNG3" ["e"=1]
+"GNG14" -> "GNG10" ["e"=1]
+"GNG14" -> "GNG13" ["e"=1]
+"GNG14" -> "GNG7" ["e"=1]
+"GNG2" -> "GNG4" ["e"=1]
+"GNG2" -> "GNG12" ["e"=1]
+"GNG2" -> "GNG3" ["e"=1]
+"GNG2" -> "GNG8" ["e"=1]
+"GNG3" -> "GNG8" ["e"=1]
+"GNG3" -> "GNG14" ["e"=1]
+"GNG3" -> "GNG2" ["e"=1]
+"GNG3" -> "GNG10" ["e"=1]
+"GNG4" -> "GNG2" ["e"=1]
+"GNG4" -> "GNG12" ["e"=1]
+"GNG4" -> "GNG7" ["e"=1]
+"GNG4" -> "GNG3" ["e"=1]
+"GNG5" -> "GNG10" ["e"=1]
+"GNG5" -> "GNG12" ["e"=1]
+"GNG5" -> "GNG14" ["e"=1]
+"GNG5" -> "GNG3" ["e"=1]
+"GNG7" -> "GNG4" ["e"=1]
+"GNG7" -> "GNG12" ["e"=1]
+"GNG7" -> "GNG2" ["e"=1]
+"GNG7" -> "GNG3" ["e"=1]
+"GNG8" -> "GNG3" ["e"=1]
+"GNG8" -> "GNG2" ["e"=1]
+"GNG8" -> "GNG4" ["e"=1]
+"GNG8" -> "GNG10" ["e"=1]
+"GNGT1" -> "GNGT2" ["e"=1]
+"GNGT1" -> "GNG13" ["e"=1]
+"GNGT1" -> "GNG11" ["e"=1]
+"GNGT1" -> "GNG14" ["e"=1]
+"GNGT2" -> "GNG11" ["e"=1]
+"GNGT2" -> "GNG13" ["e"=1]
+"GNGT2" -> "GNGT1" ["e"=1]
+"GNGT2" -> "GNG14" ["e"=1]
+"NACA2" -> "GNG14" ["e"=1]
+"NACA2" -> "GNG10" ["e"=1]
+"NACA2" -> "GNG12" ["e"=1]
+"NACA2" -> "SRP14" ["e"=1]
+"RBIS" -> "C19orf53" ["e"=1]
+"RBIS" -> "TRIQK" ["e"=1]
+"RBIS" -> "TMA7" ["e"=1]
+"RBIS" -> "ZNF706" ["e"=1]
+"RPL39L" -> "C19orf53" ["e"=1]
+"RPL39L" -> "SERF2" ["e"=1]
+"RPL39L" -> "SRP14" ["e"=1]
+"RPL39L" -> "SERP1" ["e"=1]
+"SEC61B" -> "SERP1" ["e"=1]
+"SEC61B" -> "C19orf53" ["e"=1]
+"SEC61B" -> "GNG5" ["e"=1]
+"SEC61B" -> "SERP2" ["e"=1]
+"SERF2" -> "TMA7" ["e"=1]
+"SERF2" -> "C19orf53" ["e"=1]
+"SERF2" -> "SERP1" ["e"=1]
+"SERF2" -> "ATP5F1E" ["e"=1]
+"SERP1" -> "SEC61B" ["e"=1]
+"SERP1" -> "SERP2" ["e"=1]
+"SERP1" -> "SERF2" ["e"=1]
+"SERP1" -> "C19orf53" ["e"=1]
+"SERP2" -> "SERP1" ["e"=1]
+"SERP2" -> "TRIQK" ["e"=1]
+"SERP2" -> "C19orf53" ["e"=1]
+"SERP2" -> "TMA7" ["e"=1]
+"SRP14" -> "C19orf53" ["e"=1]
+"SRP14" -> "ATP5F1E" ["e"=1]
+"SRP14" -> "SERF2" ["e"=1]
+"SRP14" -> "RPL39L" ["e"=1]
+"TMA7" -> "SERF2" ["e"=1]
+"TMA7" -> "C19orf53" ["e"=1]
+"TMA7" -> "SERP1" ["e"=1]
+"TMA7" -> "SERP2" ["e"=1]
+"TMSB10" -> "SERF2" ["e"=1]
+"TMSB10" -> "GNGT2" ["e"=1]
+"TMSB10" -> "SERP2" ["e"=1]
+"TMSB10" -> "TMA7" ["e"=1]
+"TRIQK" -> "SERP2" ["e"=1]
+"TRIQK" -> "SERP1" ["e"=1]
+"TRIQK" -> "RBIS" ["e"=1]
+"TRIQK" -> "ZNF706" ["e"=1]
+"ZNF706" -> "SERP1" ["e"=1]
+"ZNF706" -> "C19orf53" ["e"=1]
+"ZNF706" -> "TMA7" ["e"=1]
+"ZNF706" -> "RPL39L" ["e"=1]
 }

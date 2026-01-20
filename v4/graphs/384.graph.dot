@@ -61,252 +61,252 @@ digraph G {
 "XRCC2" ["l"="11.954,2.150"]
 "XRCC3" ["l"="12.007,2.024"]
 "YAE1" ["l"="11.748,2.133"]
-"AASDHPPT" -> "TRUB1"
-"AASDHPPT" -> "SPRYD7"
-"AASDHPPT" -> "METTL2A"
-"AASDHPPT" -> "METTL2B"
-"AMD1" -> "ERI1"
-"AMD1" -> "RWDD2B"
-"AMD1" -> "AASDHPPT"
-"AMD1" -> "RWDD2A"
-"AP5S1" -> "NUDT18"
-"AP5S1" -> "NICN1"
-"AP5S1" -> "RWDD2A"
-"AP5S1" -> "RWDD2B"
-"BCDIN3D" -> "METTL2A"
-"BCDIN3D" -> "METTL6"
-"BCDIN3D" -> "RWDD2B"
-"BCDIN3D" -> "METTL2B"
-"BMT2" -> "METTL2A"
-"BMT2" -> "YAE1"
-"BMT2" -> "METTL2B"
-"BMT2" -> "METTL6"
-"C19orf54" -> "NUDT17"
-"C19orf54" -> "NUDT18"
-"C19orf54" -> "SENP8"
-"C19orf54" -> "TRMT12"
-"C6orf62" -> "AMD1"
-"C6orf62" -> "ERI1"
-"C6orf62" -> "NICN1"
-"C6orf62" -> "XRCC2"
-"CIAPIN1" -> "DRG2"
-"CIAPIN1" -> "METTL2B"
-"CIAPIN1" -> "TRMT12"
-"CIAPIN1" -> "METTL2A"
-"CLP1" -> "GPN2"
-"CLP1" -> "DDX28"
-"CLP1" -> "PUS3"
-"CLP1" -> "TRMT12"
-"CPLANE2" -> "GPN2"
-"CPLANE2" -> "GLYATL3"
-"CPLANE2" -> "NICN1"
-"CPLANE2" -> "STK19"
-"DDX28" -> "TRMT12"
-"DDX28" -> "DDX56"
-"DDX28" -> "RIOX1"
-"DDX28" -> "NUDT17"
-"DDX56" -> "DRG2"
-"DDX56" -> "DDX28"
-"DDX56" -> "GPN2"
-"DDX56" -> "FAAP24"
-"DRG2" -> "DDX56"
-"DRG2" -> "GPN2"
-"DRG2" -> "GET3"
-"DRG2" -> "RAD51C"
-"ERI1" -> "METTL2A"
-"ERI1" -> "METTL2B"
-"ERI1" -> "RAD51C"
-"ERI1" -> "METTL6"
-"EXO5" -> "TRMT12"
-"EXO5" -> "NUDT17"
-"EXO5" -> "MGME1"
-"EXO5" -> "RWDD2B"
-"FAAP24" -> "XRCC3"
-"FAAP24" -> "RAD51C"
-"FAAP24" -> "XRCC2"
-"FAAP24" -> "RWDD2B"
-"FBXO44" -> "FBXO6"
-"FBXO44" -> "GLYATL3"
-"FBXO44" -> "ERI1"
-"FBXO44" -> "NICN1"
-"FBXO6" -> "FBXO44"
-"FBXO6" -> "NEURL2"
-"FBXO6" -> "NICN1"
-"FBXO6" -> "METTL2A"
-"GET3" -> "DRG2"
-"GET3" -> "GPN2"
-"GET3" -> "ERI1"
-"GET3" -> "RAD51C"
-"GLYATL3" -> "NUDT17"
-"GLYATL3" -> "RWDD2B"
-"GLYATL3" -> "MKRN2OS"
-"GLYATL3" -> "NICN1"
-"GPN2" -> "DRG2"
-"GPN2" -> "GET3"
-"GPN2" -> "CLP1"
-"GPN2" -> "SENP8"
-"HPDL" -> "DDX28"
-"HPDL" -> "RIOX1"
-"HPDL" -> "TRMT12"
-"HPDL" -> "BCDIN3D"
-"METTL2A" -> "METTL2B"
-"METTL2A" -> "METTL8"
-"METTL2A" -> "METTL6"
-"METTL2A" -> "BCDIN3D"
-"METTL2B" -> "METTL2A"
-"METTL2B" -> "METTL8"
-"METTL2B" -> "METTL6"
-"METTL2B" -> "ERI1"
-"METTL6" -> "METTL2A"
-"METTL6" -> "METTL2B"
-"METTL6" -> "METTL8"
-"METTL6" -> "BCDIN3D"
-"METTL8" -> "METTL2A"
-"METTL8" -> "METTL2B"
-"METTL8" -> "METTL6"
-"METTL8" -> "THUMPD2"
-"MGME1" -> "TRMT5"
-"MGME1" -> "EXO5"
-"MGME1" -> "ERI1"
-"MGME1" -> "XRCC2"
-"MKRN2OS" -> "SENP8"
-"MKRN2OS" -> "GLYATL3"
-"MKRN2OS" -> "NUDT18"
-"MKRN2OS" -> "NUDT17"
-"NEURL2" -> "SPRYD7"
-"NEURL2" -> "NUDT17"
-"NEURL2" -> "NUDT18"
-"NEURL2" -> "TRPT1"
-"NICN1" -> "NUDT18"
-"NICN1" -> "NUDT17"
-"NICN1" -> "RWDD2B"
-"NICN1" -> "RWDD2A"
-"NUDT17" -> "NUDT18"
-"NUDT17" -> "TRMT12"
-"NUDT17" -> "C19orf54"
-"NUDT17" -> "EXO5"
-"NUDT18" -> "NUDT17"
-"NUDT18" -> "NICN1"
-"NUDT18" -> "TRMT12"
-"NUDT18" -> "AP5S1"
-"NUDT22" -> "NUDT17"
-"NUDT22" -> "TRPT1"
-"NUDT22" -> "C19orf54"
-"NUDT22" -> "NUDT18"
-"PRKAG1" -> "GLYATL3"
-"PRKAG1" -> "NUDT18"
-"PRKAG1" -> "DRG2"
-"PRKAG1" -> "CIAPIN1"
-"PRMT1" -> "PRMT8"
-"PRMT1" -> "DRG2"
-"PRMT1" -> "GLYATL3"
-"PRMT1" -> "GET3"
-"PRMT8" -> "PRMT1"
-"PRMT8" -> "METTL6"
-"PRMT8" -> "GLYATL3"
-"PRMT8" -> "METTL2A"
-"PUS3" -> "TRMT5"
-"PUS3" -> "TRMT12"
-"PUS3" -> "RWDD2B"
-"PUS3" -> "METTL2A"
-"RAD51C" -> "XRCC2"
-"RAD51C" -> "XRCC3"
-"RAD51C" -> "FAAP24"
-"RAD51C" -> "ERI1"
-"RIOX1" -> "DDX28"
-"RIOX1" -> "TRMT5"
-"RIOX1" -> "TRMT12"
-"RIOX1" -> "HPDL"
-"RNASEH2A" -> "RAD51C"
-"RNASEH2A" -> "TK1"
-"RNASEH2A" -> "EXO5"
-"RNASEH2A" -> "DRG2"
-"RWDD2A" -> "RWDD2B"
-"RWDD2A" -> "SENP8"
-"RWDD2A" -> "NUDT18"
-"RWDD2A" -> "NICN1"
-"RWDD2B" -> "RWDD2A"
-"RWDD2B" -> "SENP8"
-"RWDD2B" -> "TRMT5"
-"RWDD2B" -> "TRMT12"
-"SENP8" -> "RWDD2B"
-"SENP8" -> "MKRN2OS"
-"SENP8" -> "RWDD2A"
-"SENP8" -> "BCDIN3D"
-"SNAP47" -> "NUDT18"
-"SNAP47" -> "RWDD2B"
-"SNAP47" -> "NUDT17"
-"SNAP47" -> "MKRN2OS"
-"SNUPN" -> "METTL2B"
-"SNUPN" -> "METTL2A"
-"SNUPN" -> "METTL6"
-"SNUPN" -> "MGME1"
-"SPRYD7" -> "NICN1"
-"SPRYD7" -> "NEURL2"
-"SPRYD7" -> "AASDHPPT"
-"SPRYD7" -> "MKRN2OS"
-"STK19" -> "GLYATL3"
-"STK19" -> "METTL6"
-"STK19" -> "NUDT17"
-"STK19" -> "METTL2A"
-"STN1" -> "RAD51C"
-"STN1" -> "TIGAR"
-"STN1" -> "SNAP47"
-"STN1" -> "XRCC2"
-"THTPA" -> "TRMT12"
-"THTPA" -> "NUDT18"
-"THTPA" -> "EXO5"
-"THTPA" -> "RWDD2B"
-"THUMPD2" -> "METTL2B"
-"THUMPD2" -> "METTL2A"
-"THUMPD2" -> "METTL8"
-"THUMPD2" -> "RAD51C"
-"TIGAR" -> "METTL2A"
-"TIGAR" -> "METTL2B"
-"TIGAR" -> "RAD51C"
-"TIGAR" -> "XRCC2"
-"TK1" -> "RAD51C"
-"TK1" -> "RNASEH2A"
-"TK1" -> "ERI1"
-"TK1" -> "FAAP24"
-"TRMT11" -> "METTL2A"
-"TRMT11" -> "METTL2B"
-"TRMT11" -> "METTL6"
-"TRMT11" -> "GLYATL3"
-"TRMT12" -> "NUDT17"
-"TRMT12" -> "EXO5"
-"TRMT12" -> "RWDD2B"
-"TRMT12" -> "NUDT18"
-"TRMT44" -> "METTL2A"
-"TRMT44" -> "TRMT12"
-"TRMT44" -> "ERI1"
-"TRMT44" -> "METTL2B"
-"TRMT5" -> "RWDD2B"
-"TRMT5" -> "PUS3"
-"TRMT5" -> "TRMT12"
-"TRMT5" -> "METTL2A"
-"TRPT1" -> "NUDT17"
-"TRPT1" -> "NUDT22"
-"TRPT1" -> "C19orf54"
-"TRPT1" -> "NUDT18"
-"TRUB1" -> "TRMT5"
-"TRUB1" -> "ERI1"
-"TRUB1" -> "AASDHPPT"
-"TRUB1" -> "METTL2A"
-"TYMS" -> "ERI1"
-"TYMS" -> "RAD51C"
-"TYMS" -> "TK1"
-"TYMS" -> "RNASEH2A"
-"XRCC2" -> "RAD51C"
-"XRCC2" -> "XRCC3"
-"XRCC2" -> "FAAP24"
-"XRCC2" -> "BCDIN3D"
-"XRCC3" -> "RAD51C"
-"XRCC3" -> "XRCC2"
-"XRCC3" -> "FAAP24"
-"XRCC3" -> "NUDT17"
-"YAE1" -> "BMT2"
-"YAE1" -> "METTL2A"
-"YAE1" -> "METTL2B"
-"YAE1" -> "ERI1"
+"AASDHPPT" -> "TRUB1" ["e"=1]
+"AASDHPPT" -> "SPRYD7" ["e"=1]
+"AASDHPPT" -> "METTL2A" ["e"=1]
+"AASDHPPT" -> "METTL2B" ["e"=1]
+"AMD1" -> "ERI1" ["e"=1]
+"AMD1" -> "RWDD2B" ["e"=1]
+"AMD1" -> "AASDHPPT" ["e"=1]
+"AMD1" -> "RWDD2A" ["e"=1]
+"AP5S1" -> "NUDT18" ["e"=1]
+"AP5S1" -> "NICN1" ["e"=1]
+"AP5S1" -> "RWDD2A" ["e"=1]
+"AP5S1" -> "RWDD2B" ["e"=1]
+"BCDIN3D" -> "METTL2A" ["e"=1]
+"BCDIN3D" -> "METTL6" ["e"=1]
+"BCDIN3D" -> "RWDD2B" ["e"=1]
+"BCDIN3D" -> "METTL2B" ["e"=1]
+"BMT2" -> "METTL2A" ["e"=1]
+"BMT2" -> "YAE1" ["e"=1]
+"BMT2" -> "METTL2B" ["e"=1]
+"BMT2" -> "METTL6" ["e"=1]
+"C19orf54" -> "NUDT17" ["e"=1]
+"C19orf54" -> "NUDT18" ["e"=1]
+"C19orf54" -> "SENP8" ["e"=1]
+"C19orf54" -> "TRMT12" ["e"=1]
+"C6orf62" -> "AMD1" ["e"=1]
+"C6orf62" -> "ERI1" ["e"=1]
+"C6orf62" -> "NICN1" ["e"=1]
+"C6orf62" -> "XRCC2" ["e"=1]
+"CIAPIN1" -> "DRG2" ["e"=1]
+"CIAPIN1" -> "METTL2B" ["e"=1]
+"CIAPIN1" -> "TRMT12" ["e"=1]
+"CIAPIN1" -> "METTL2A" ["e"=1]
+"CLP1" -> "GPN2" ["e"=1]
+"CLP1" -> "DDX28" ["e"=1]
+"CLP1" -> "PUS3" ["e"=1]
+"CLP1" -> "TRMT12" ["e"=1]
+"CPLANE2" -> "GPN2" ["e"=1]
+"CPLANE2" -> "GLYATL3" ["e"=1]
+"CPLANE2" -> "NICN1" ["e"=1]
+"CPLANE2" -> "STK19" ["e"=1]
+"DDX28" -> "TRMT12" ["e"=1]
+"DDX28" -> "DDX56" ["e"=1]
+"DDX28" -> "RIOX1" ["e"=1]
+"DDX28" -> "NUDT17" ["e"=1]
+"DDX56" -> "DRG2" ["e"=1]
+"DDX56" -> "DDX28" ["e"=1]
+"DDX56" -> "GPN2" ["e"=1]
+"DDX56" -> "FAAP24" ["e"=1]
+"DRG2" -> "DDX56" ["e"=1]
+"DRG2" -> "GPN2" ["e"=1]
+"DRG2" -> "GET3" ["e"=1]
+"DRG2" -> "RAD51C" ["e"=1]
+"ERI1" -> "METTL2A" ["e"=1]
+"ERI1" -> "METTL2B" ["e"=1]
+"ERI1" -> "RAD51C" ["e"=1]
+"ERI1" -> "METTL6" ["e"=1]
+"EXO5" -> "TRMT12" ["e"=1]
+"EXO5" -> "NUDT17" ["e"=1]
+"EXO5" -> "MGME1" ["e"=1]
+"EXO5" -> "RWDD2B" ["e"=1]
+"FAAP24" -> "XRCC3" ["e"=1]
+"FAAP24" -> "RAD51C" ["e"=1]
+"FAAP24" -> "XRCC2" ["e"=1]
+"FAAP24" -> "RWDD2B" ["e"=1]
+"FBXO44" -> "FBXO6" ["e"=1]
+"FBXO44" -> "GLYATL3" ["e"=1]
+"FBXO44" -> "ERI1" ["e"=1]
+"FBXO44" -> "NICN1" ["e"=1]
+"FBXO6" -> "FBXO44" ["e"=1]
+"FBXO6" -> "NEURL2" ["e"=1]
+"FBXO6" -> "NICN1" ["e"=1]
+"FBXO6" -> "METTL2A" ["e"=1]
+"GET3" -> "DRG2" ["e"=1]
+"GET3" -> "GPN2" ["e"=1]
+"GET3" -> "ERI1" ["e"=1]
+"GET3" -> "RAD51C" ["e"=1]
+"GLYATL3" -> "NUDT17" ["e"=1]
+"GLYATL3" -> "RWDD2B" ["e"=1]
+"GLYATL3" -> "MKRN2OS" ["e"=1]
+"GLYATL3" -> "NICN1" ["e"=1]
+"GPN2" -> "DRG2" ["e"=1]
+"GPN2" -> "GET3" ["e"=1]
+"GPN2" -> "CLP1" ["e"=1]
+"GPN2" -> "SENP8" ["e"=1]
+"HPDL" -> "DDX28" ["e"=1]
+"HPDL" -> "RIOX1" ["e"=1]
+"HPDL" -> "TRMT12" ["e"=1]
+"HPDL" -> "BCDIN3D" ["e"=1]
+"METTL2A" -> "METTL2B" ["e"=1]
+"METTL2A" -> "METTL8" ["e"=1]
+"METTL2A" -> "METTL6" ["e"=1]
+"METTL2A" -> "BCDIN3D" ["e"=1]
+"METTL2B" -> "METTL2A" ["e"=1]
+"METTL2B" -> "METTL8" ["e"=1]
+"METTL2B" -> "METTL6" ["e"=1]
+"METTL2B" -> "ERI1" ["e"=1]
+"METTL6" -> "METTL2A" ["e"=1]
+"METTL6" -> "METTL2B" ["e"=1]
+"METTL6" -> "METTL8" ["e"=1]
+"METTL6" -> "BCDIN3D" ["e"=1]
+"METTL8" -> "METTL2A" ["e"=1]
+"METTL8" -> "METTL2B" ["e"=1]
+"METTL8" -> "METTL6" ["e"=1]
+"METTL8" -> "THUMPD2" ["e"=1]
+"MGME1" -> "TRMT5" ["e"=1]
+"MGME1" -> "EXO5" ["e"=1]
+"MGME1" -> "ERI1" ["e"=1]
+"MGME1" -> "XRCC2" ["e"=1]
+"MKRN2OS" -> "SENP8" ["e"=1]
+"MKRN2OS" -> "GLYATL3" ["e"=1]
+"MKRN2OS" -> "NUDT18" ["e"=1]
+"MKRN2OS" -> "NUDT17" ["e"=1]
+"NEURL2" -> "SPRYD7" ["e"=1]
+"NEURL2" -> "NUDT17" ["e"=1]
+"NEURL2" -> "NUDT18" ["e"=1]
+"NEURL2" -> "TRPT1" ["e"=1]
+"NICN1" -> "NUDT18" ["e"=1]
+"NICN1" -> "NUDT17" ["e"=1]
+"NICN1" -> "RWDD2B" ["e"=1]
+"NICN1" -> "RWDD2A" ["e"=1]
+"NUDT17" -> "NUDT18" ["e"=1]
+"NUDT17" -> "TRMT12" ["e"=1]
+"NUDT17" -> "C19orf54" ["e"=1]
+"NUDT17" -> "EXO5" ["e"=1]
+"NUDT18" -> "NUDT17" ["e"=1]
+"NUDT18" -> "NICN1" ["e"=1]
+"NUDT18" -> "TRMT12" ["e"=1]
+"NUDT18" -> "AP5S1" ["e"=1]
+"NUDT22" -> "NUDT17" ["e"=1]
+"NUDT22" -> "TRPT1" ["e"=1]
+"NUDT22" -> "C19orf54" ["e"=1]
+"NUDT22" -> "NUDT18" ["e"=1]
+"PRKAG1" -> "GLYATL3" ["e"=1]
+"PRKAG1" -> "NUDT18" ["e"=1]
+"PRKAG1" -> "DRG2" ["e"=1]
+"PRKAG1" -> "CIAPIN1" ["e"=1]
+"PRMT1" -> "PRMT8" ["e"=1]
+"PRMT1" -> "DRG2" ["e"=1]
+"PRMT1" -> "GLYATL3" ["e"=1]
+"PRMT1" -> "GET3" ["e"=1]
+"PRMT8" -> "PRMT1" ["e"=1]
+"PRMT8" -> "METTL6" ["e"=1]
+"PRMT8" -> "GLYATL3" ["e"=1]
+"PRMT8" -> "METTL2A" ["e"=1]
+"PUS3" -> "TRMT5" ["e"=1]
+"PUS3" -> "TRMT12" ["e"=1]
+"PUS3" -> "RWDD2B" ["e"=1]
+"PUS3" -> "METTL2A" ["e"=1]
+"RAD51C" -> "XRCC2" ["e"=1]
+"RAD51C" -> "XRCC3" ["e"=1]
+"RAD51C" -> "FAAP24" ["e"=1]
+"RAD51C" -> "ERI1" ["e"=1]
+"RIOX1" -> "DDX28" ["e"=1]
+"RIOX1" -> "TRMT5" ["e"=1]
+"RIOX1" -> "TRMT12" ["e"=1]
+"RIOX1" -> "HPDL" ["e"=1]
+"RNASEH2A" -> "RAD51C" ["e"=1]
+"RNASEH2A" -> "TK1" ["e"=1]
+"RNASEH2A" -> "EXO5" ["e"=1]
+"RNASEH2A" -> "DRG2" ["e"=1]
+"RWDD2A" -> "RWDD2B" ["e"=1]
+"RWDD2A" -> "SENP8" ["e"=1]
+"RWDD2A" -> "NUDT18" ["e"=1]
+"RWDD2A" -> "NICN1" ["e"=1]
+"RWDD2B" -> "RWDD2A" ["e"=1]
+"RWDD2B" -> "SENP8" ["e"=1]
+"RWDD2B" -> "TRMT5" ["e"=1]
+"RWDD2B" -> "TRMT12" ["e"=1]
+"SENP8" -> "RWDD2B" ["e"=1]
+"SENP8" -> "MKRN2OS" ["e"=1]
+"SENP8" -> "RWDD2A" ["e"=1]
+"SENP8" -> "BCDIN3D" ["e"=1]
+"SNAP47" -> "NUDT18" ["e"=1]
+"SNAP47" -> "RWDD2B" ["e"=1]
+"SNAP47" -> "NUDT17" ["e"=1]
+"SNAP47" -> "MKRN2OS" ["e"=1]
+"SNUPN" -> "METTL2B" ["e"=1]
+"SNUPN" -> "METTL2A" ["e"=1]
+"SNUPN" -> "METTL6" ["e"=1]
+"SNUPN" -> "MGME1" ["e"=1]
+"SPRYD7" -> "NICN1" ["e"=1]
+"SPRYD7" -> "NEURL2" ["e"=1]
+"SPRYD7" -> "AASDHPPT" ["e"=1]
+"SPRYD7" -> "MKRN2OS" ["e"=1]
+"STK19" -> "GLYATL3" ["e"=1]
+"STK19" -> "METTL6" ["e"=1]
+"STK19" -> "NUDT17" ["e"=1]
+"STK19" -> "METTL2A" ["e"=1]
+"STN1" -> "RAD51C" ["e"=1]
+"STN1" -> "TIGAR" ["e"=1]
+"STN1" -> "SNAP47" ["e"=1]
+"STN1" -> "XRCC2" ["e"=1]
+"THTPA" -> "TRMT12" ["e"=1]
+"THTPA" -> "NUDT18" ["e"=1]
+"THTPA" -> "EXO5" ["e"=1]
+"THTPA" -> "RWDD2B" ["e"=1]
+"THUMPD2" -> "METTL2B" ["e"=1]
+"THUMPD2" -> "METTL2A" ["e"=1]
+"THUMPD2" -> "METTL8" ["e"=1]
+"THUMPD2" -> "RAD51C" ["e"=1]
+"TIGAR" -> "METTL2A" ["e"=1]
+"TIGAR" -> "METTL2B" ["e"=1]
+"TIGAR" -> "RAD51C" ["e"=1]
+"TIGAR" -> "XRCC2" ["e"=1]
+"TK1" -> "RAD51C" ["e"=1]
+"TK1" -> "RNASEH2A" ["e"=1]
+"TK1" -> "ERI1" ["e"=1]
+"TK1" -> "FAAP24" ["e"=1]
+"TRMT11" -> "METTL2A" ["e"=1]
+"TRMT11" -> "METTL2B" ["e"=1]
+"TRMT11" -> "METTL6" ["e"=1]
+"TRMT11" -> "GLYATL3" ["e"=1]
+"TRMT12" -> "NUDT17" ["e"=1]
+"TRMT12" -> "EXO5" ["e"=1]
+"TRMT12" -> "RWDD2B" ["e"=1]
+"TRMT12" -> "NUDT18" ["e"=1]
+"TRMT44" -> "METTL2A" ["e"=1]
+"TRMT44" -> "TRMT12" ["e"=1]
+"TRMT44" -> "ERI1" ["e"=1]
+"TRMT44" -> "METTL2B" ["e"=1]
+"TRMT5" -> "RWDD2B" ["e"=1]
+"TRMT5" -> "PUS3" ["e"=1]
+"TRMT5" -> "TRMT12" ["e"=1]
+"TRMT5" -> "METTL2A" ["e"=1]
+"TRPT1" -> "NUDT17" ["e"=1]
+"TRPT1" -> "NUDT22" ["e"=1]
+"TRPT1" -> "C19orf54" ["e"=1]
+"TRPT1" -> "NUDT18" ["e"=1]
+"TRUB1" -> "TRMT5" ["e"=1]
+"TRUB1" -> "ERI1" ["e"=1]
+"TRUB1" -> "AASDHPPT" ["e"=1]
+"TRUB1" -> "METTL2A" ["e"=1]
+"TYMS" -> "ERI1" ["e"=1]
+"TYMS" -> "RAD51C" ["e"=1]
+"TYMS" -> "TK1" ["e"=1]
+"TYMS" -> "RNASEH2A" ["e"=1]
+"XRCC2" -> "RAD51C" ["e"=1]
+"XRCC2" -> "XRCC3" ["e"=1]
+"XRCC2" -> "FAAP24" ["e"=1]
+"XRCC2" -> "BCDIN3D" ["e"=1]
+"XRCC3" -> "RAD51C" ["e"=1]
+"XRCC3" -> "XRCC2" ["e"=1]
+"XRCC3" -> "FAAP24" ["e"=1]
+"XRCC3" -> "NUDT17" ["e"=1]
+"YAE1" -> "BMT2" ["e"=1]
+"YAE1" -> "METTL2A" ["e"=1]
+"YAE1" -> "METTL2B" ["e"=1]
+"YAE1" -> "ERI1" ["e"=1]
 }

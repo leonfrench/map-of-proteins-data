@@ -14,64 +14,64 @@ digraph G {
 "PADI4" ["l"="12.530,0.558"]
 "PADI6" ["l"="12.417,0.594"]
 "TMEM249" ["l"="12.491,0.599"]
-"CPT1A" -> "CPT1B"
-"CPT1A" -> "CROT"
-"CPT1A" -> "CPT1C"
-"CPT1A" -> "CPT2"
-"CPT1B" -> "CPT1C"
-"CPT1B" -> "CPT1A"
-"CPT1B" -> "CROT"
-"CPT1B" -> "CPT2"
-"CPT1C" -> "CPT1B"
-"CPT1C" -> "CPT1A"
-"CPT1C" -> "GDPD5"
-"CPT1C" -> "CROT"
-"CPT2" -> "CROT"
-"CPT2" -> "CPT1A"
-"CPT2" -> "CPT1B"
-"CPT2" -> "CPT1C"
-"CROT" -> "CPT1A"
-"CROT" -> "CPT1B"
-"CROT" -> "CPT2"
-"CROT" -> "CPT1C"
-"FAM187B" -> "TMEM249"
-"FAM187B" -> "FBXO24"
-"FAM187B" -> "PADI6"
-"FAM187B" -> "PADI3"
-"FBXO24" -> "TMEM249"
-"FBXO24" -> "FAM187B"
-"FBXO24" -> "PADI3"
-"FBXO24" -> "PADI6"
-"GDPD5" -> "CPT1C"
-"GDPD5" -> "CPT1B"
-"GDPD5" -> "CPT1A"
-"GDPD5" -> "PADI1"
-"LPCAT1" -> "PADI1"
-"LPCAT1" -> "CPT1A"
-"LPCAT1" -> "PADI3"
-"LPCAT1" -> "PADI2"
-"PADI1" -> "PADI3"
-"PADI1" -> "PADI6"
-"PADI1" -> "PADI4"
-"PADI1" -> "PADI2"
-"PADI2" -> "PADI1"
-"PADI2" -> "PADI4"
-"PADI2" -> "PADI3"
-"PADI2" -> "PADI6"
-"PADI3" -> "PADI1"
-"PADI3" -> "PADI4"
-"PADI3" -> "PADI6"
-"PADI3" -> "PADI2"
-"PADI4" -> "PADI6"
-"PADI4" -> "PADI1"
-"PADI4" -> "PADI3"
-"PADI4" -> "PADI2"
-"PADI6" -> "PADI4"
-"PADI6" -> "PADI1"
-"PADI6" -> "PADI3"
-"PADI6" -> "PADI2"
-"TMEM249" -> "FBXO24"
-"TMEM249" -> "FAM187B"
-"TMEM249" -> "CPT1C"
-"TMEM249" -> "PADI3"
+"CPT1A" -> "CPT1B" ["e"=1]
+"CPT1A" -> "CROT" ["e"=1]
+"CPT1A" -> "CPT1C" ["e"=1]
+"CPT1A" -> "CPT2" ["e"=1]
+"CPT1B" -> "CPT1C" ["e"=1]
+"CPT1B" -> "CPT1A" ["e"=1]
+"CPT1B" -> "CROT" ["e"=1]
+"CPT1B" -> "CPT2" ["e"=1]
+"CPT1C" -> "CPT1B" ["e"=1]
+"CPT1C" -> "CPT1A" ["e"=1]
+"CPT1C" -> "GDPD5" ["e"=1]
+"CPT1C" -> "CROT" ["e"=1]
+"CPT2" -> "CROT" ["e"=1]
+"CPT2" -> "CPT1A" ["e"=1]
+"CPT2" -> "CPT1B" ["e"=1]
+"CPT2" -> "CPT1C" ["e"=1]
+"CROT" -> "CPT1A" ["e"=1]
+"CROT" -> "CPT1B" ["e"=1]
+"CROT" -> "CPT2" ["e"=1]
+"CROT" -> "CPT1C" ["e"=1]
+"FAM187B" -> "TMEM249" ["e"=1]
+"FAM187B" -> "FBXO24" ["e"=1]
+"FAM187B" -> "PADI6" ["e"=1]
+"FAM187B" -> "PADI3" ["e"=1]
+"FBXO24" -> "TMEM249" ["e"=1]
+"FBXO24" -> "FAM187B" ["e"=1]
+"FBXO24" -> "PADI3" ["e"=1]
+"FBXO24" -> "PADI6" ["e"=1]
+"GDPD5" -> "CPT1C" ["e"=1]
+"GDPD5" -> "CPT1B" ["e"=1]
+"GDPD5" -> "CPT1A" ["e"=1]
+"GDPD5" -> "PADI1" ["e"=1]
+"LPCAT1" -> "PADI1" ["e"=1]
+"LPCAT1" -> "CPT1A" ["e"=1]
+"LPCAT1" -> "PADI3" ["e"=1]
+"LPCAT1" -> "PADI2" ["e"=1]
+"PADI1" -> "PADI3" ["e"=1]
+"PADI1" -> "PADI6" ["e"=1]
+"PADI1" -> "PADI4" ["e"=1]
+"PADI1" -> "PADI2" ["e"=1]
+"PADI2" -> "PADI1" ["e"=1]
+"PADI2" -> "PADI4" ["e"=1]
+"PADI2" -> "PADI3" ["e"=1]
+"PADI2" -> "PADI6" ["e"=1]
+"PADI3" -> "PADI1" ["e"=1]
+"PADI3" -> "PADI4" ["e"=1]
+"PADI3" -> "PADI6" ["e"=1]
+"PADI3" -> "PADI2" ["e"=1]
+"PADI4" -> "PADI6" ["e"=1]
+"PADI4" -> "PADI1" ["e"=1]
+"PADI4" -> "PADI3" ["e"=1]
+"PADI4" -> "PADI2" ["e"=1]
+"PADI6" -> "PADI4" ["e"=1]
+"PADI6" -> "PADI1" ["e"=1]
+"PADI6" -> "PADI3" ["e"=1]
+"PADI6" -> "PADI2" ["e"=1]
+"TMEM249" -> "FBXO24" ["e"=1]
+"TMEM249" -> "FAM187B" ["e"=1]
+"TMEM249" -> "CPT1C" ["e"=1]
+"TMEM249" -> "PADI3" ["e"=1]
 }

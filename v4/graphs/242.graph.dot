@@ -25,108 +25,108 @@ digraph G {
 "UNC13A" ["l"="9.277,0.063"]
 "UNC13C" ["l"="9.428,-0.038"]
 "XRN1" ["l"="9.449,0.301"]
-"AHCTF1" -> "RGPD6"
-"AHCTF1" -> "TMEM131"
-"AHCTF1" -> "RGPD5"
-"AHCTF1" -> "RANBP2"
-"ANKHD1" -> "RGPD6"
-"ANKHD1" -> "RGPD1"
-"ANKHD1" -> "RICTOR"
-"ANKHD1" -> "RGPD5"
-"DICER1" -> "RANBP2"
-"DICER1" -> "RGPD6"
-"DICER1" -> "XRN1"
-"DICER1" -> "RICTOR"
-"KIF13A" -> "KIF13B"
-"KIF13A" -> "PREX2"
-"KIF13A" -> "KIF1B"
-"KIF13A" -> "UNC13A"
-"KIF13B" -> "KIF13A"
-"KIF13B" -> "PREX2"
-"KIF13B" -> "KIF1B"
-"KIF13B" -> "PREX1"
-"KIF1B" -> "UNC13A"
-"KIF1B" -> "KIF13A"
-"KIF1B" -> "KIF13B"
-"KIF1B" -> "PREX2"
-"MYO3A" -> "MYO3B"
-"MYO3A" -> "PREX2"
-"MYO3A" -> "RGPD6"
-"MYO3A" -> "TMEM131L"
-"MYO3B" -> "MYO3A"
-"MYO3B" -> "RGPD6"
-"MYO3B" -> "PREX2"
-"MYO3B" -> "RGPD2"
-"NRAP" -> "UNC13A"
-"NRAP" -> "PREX2"
-"NRAP" -> "UNC13C"
-"NRAP" -> "KIF13A"
-"PREX1" -> "PREX2"
-"PREX1" -> "KIF13B"
-"PREX1" -> "UNC13A"
-"PREX1" -> "RGPD6"
-"PREX2" -> "KIF13A"
-"PREX2" -> "KIF13B"
-"PREX2" -> "PREX1"
-"PREX2" -> "UNC13C"
-"RANBP2" -> "RGPD6"
-"RANBP2" -> "RGPD5"
-"RANBP2" -> "RGPD1"
-"RANBP2" -> "RGPD8"
-"RGPD1" -> "RGPD2"
-"RGPD1" -> "RGPD6"
-"RGPD1" -> "RGPD3"
-"RGPD1" -> "RGPD5"
-"RGPD2" -> "RGPD1"
-"RGPD2" -> "RGPD3"
-"RGPD2" -> "RGPD5"
-"RGPD2" -> "RGPD8"
-"RGPD3" -> "RGPD4"
-"RGPD3" -> "RGPD2"
-"RGPD3" -> "RGPD5"
-"RGPD3" -> "RGPD1"
-"RGPD4" -> "RGPD3"
-"RGPD4" -> "RGPD1"
-"RGPD4" -> "RGPD6"
-"RGPD4" -> "RGPD2"
-"RGPD5" -> "RGPD8"
-"RGPD5" -> "RGPD6"
-"RGPD5" -> "RGPD2"
-"RGPD5" -> "RGPD3"
-"RGPD6" -> "RGPD5"
-"RGPD6" -> "RGPD8"
-"RGPD6" -> "RGPD1"
-"RGPD6" -> "RGPD3"
-"RGPD8" -> "RGPD5"
-"RGPD8" -> "RGPD6"
-"RGPD8" -> "RGPD2"
-"RGPD8" -> "RGPD1"
-"RICTOR" -> "RGPD6"
-"RICTOR" -> "TOGARAM1"
-"RICTOR" -> "RGPD5"
-"RICTOR" -> "RGPD8"
-"TMEM131" -> "TMEM131L"
-"TMEM131" -> "AHCTF1"
-"TMEM131" -> "RGPD6"
-"TMEM131" -> "RGPD8"
-"TMEM131L" -> "TMEM131"
-"TMEM131L" -> "RGPD5"
-"TMEM131L" -> "RGPD1"
-"TMEM131L" -> "RGPD6"
-"TOGARAM1" -> "RGPD6"
-"TOGARAM1" -> "RICTOR"
-"TOGARAM1" -> "RGPD8"
-"TOGARAM1" -> "RGPD5"
-"UNC13A" -> "KIF1B"
-"UNC13A" -> "UNC13C"
-"UNC13A" -> "PREX1"
-"UNC13A" -> "KIF13B"
-"UNC13C" -> "UNC13A"
-"UNC13C" -> "PREX2"
-"UNC13C" -> "KIF13A"
-"UNC13C" -> "PREX1"
-"XRN1" -> "RGPD6"
-"XRN1" -> "RGPD5"
-"XRN1" -> "RGPD2"
-"XRN1" -> "DICER1"
+"AHCTF1" -> "RGPD6" ["e"=1]
+"AHCTF1" -> "TMEM131" ["e"=1]
+"AHCTF1" -> "RGPD5" ["e"=1]
+"AHCTF1" -> "RANBP2" ["e"=1]
+"ANKHD1" -> "RGPD6" ["e"=1]
+"ANKHD1" -> "RGPD1" ["e"=1]
+"ANKHD1" -> "RICTOR" ["e"=1]
+"ANKHD1" -> "RGPD5" ["e"=1]
+"DICER1" -> "RANBP2" ["e"=1]
+"DICER1" -> "RGPD6" ["e"=1]
+"DICER1" -> "XRN1" ["e"=1]
+"DICER1" -> "RICTOR" ["e"=1]
+"KIF13A" -> "KIF13B" ["e"=1]
+"KIF13A" -> "PREX2" ["e"=1]
+"KIF13A" -> "KIF1B" ["e"=1]
+"KIF13A" -> "UNC13A" ["e"=1]
+"KIF13B" -> "KIF13A" ["e"=1]
+"KIF13B" -> "PREX2" ["e"=1]
+"KIF13B" -> "KIF1B" ["e"=1]
+"KIF13B" -> "PREX1" ["e"=1]
+"KIF1B" -> "UNC13A" ["e"=1]
+"KIF1B" -> "KIF13A" ["e"=1]
+"KIF1B" -> "KIF13B" ["e"=1]
+"KIF1B" -> "PREX2" ["e"=1]
+"MYO3A" -> "MYO3B" ["e"=1]
+"MYO3A" -> "PREX2" ["e"=1]
+"MYO3A" -> "RGPD6" ["e"=1]
+"MYO3A" -> "TMEM131L" ["e"=1]
+"MYO3B" -> "MYO3A" ["e"=1]
+"MYO3B" -> "RGPD6" ["e"=1]
+"MYO3B" -> "PREX2" ["e"=1]
+"MYO3B" -> "RGPD2" ["e"=1]
+"NRAP" -> "UNC13A" ["e"=1]
+"NRAP" -> "PREX2" ["e"=1]
+"NRAP" -> "UNC13C" ["e"=1]
+"NRAP" -> "KIF13A" ["e"=1]
+"PREX1" -> "PREX2" ["e"=1]
+"PREX1" -> "KIF13B" ["e"=1]
+"PREX1" -> "UNC13A" ["e"=1]
+"PREX1" -> "RGPD6" ["e"=1]
+"PREX2" -> "KIF13A" ["e"=1]
+"PREX2" -> "KIF13B" ["e"=1]
+"PREX2" -> "PREX1" ["e"=1]
+"PREX2" -> "UNC13C" ["e"=1]
+"RANBP2" -> "RGPD6" ["e"=1]
+"RANBP2" -> "RGPD5" ["e"=1]
+"RANBP2" -> "RGPD1" ["e"=1]
+"RANBP2" -> "RGPD8" ["e"=1]
+"RGPD1" -> "RGPD2" ["e"=1]
+"RGPD1" -> "RGPD6" ["e"=1]
+"RGPD1" -> "RGPD3" ["e"=1]
+"RGPD1" -> "RGPD5" ["e"=1]
+"RGPD2" -> "RGPD1" ["e"=1]
+"RGPD2" -> "RGPD3" ["e"=1]
+"RGPD2" -> "RGPD5" ["e"=1]
+"RGPD2" -> "RGPD8" ["e"=1]
+"RGPD3" -> "RGPD4" ["e"=1]
+"RGPD3" -> "RGPD2" ["e"=1]
+"RGPD3" -> "RGPD5" ["e"=1]
+"RGPD3" -> "RGPD1" ["e"=1]
+"RGPD4" -> "RGPD3" ["e"=1]
+"RGPD4" -> "RGPD1" ["e"=1]
+"RGPD4" -> "RGPD6" ["e"=1]
+"RGPD4" -> "RGPD2" ["e"=1]
+"RGPD5" -> "RGPD8" ["e"=1]
+"RGPD5" -> "RGPD6" ["e"=1]
+"RGPD5" -> "RGPD2" ["e"=1]
+"RGPD5" -> "RGPD3" ["e"=1]
+"RGPD6" -> "RGPD5" ["e"=1]
+"RGPD6" -> "RGPD8" ["e"=1]
+"RGPD6" -> "RGPD1" ["e"=1]
+"RGPD6" -> "RGPD3" ["e"=1]
+"RGPD8" -> "RGPD5" ["e"=1]
+"RGPD8" -> "RGPD6" ["e"=1]
+"RGPD8" -> "RGPD2" ["e"=1]
+"RGPD8" -> "RGPD1" ["e"=1]
+"RICTOR" -> "RGPD6" ["e"=1]
+"RICTOR" -> "TOGARAM1" ["e"=1]
+"RICTOR" -> "RGPD5" ["e"=1]
+"RICTOR" -> "RGPD8" ["e"=1]
+"TMEM131" -> "TMEM131L" ["e"=1]
+"TMEM131" -> "AHCTF1" ["e"=1]
+"TMEM131" -> "RGPD6" ["e"=1]
+"TMEM131" -> "RGPD8" ["e"=1]
+"TMEM131L" -> "TMEM131" ["e"=1]
+"TMEM131L" -> "RGPD5" ["e"=1]
+"TMEM131L" -> "RGPD1" ["e"=1]
+"TMEM131L" -> "RGPD6" ["e"=1]
+"TOGARAM1" -> "RGPD6" ["e"=1]
+"TOGARAM1" -> "RICTOR" ["e"=1]
+"TOGARAM1" -> "RGPD8" ["e"=1]
+"TOGARAM1" -> "RGPD5" ["e"=1]
+"UNC13A" -> "KIF1B" ["e"=1]
+"UNC13A" -> "UNC13C" ["e"=1]
+"UNC13A" -> "PREX1" ["e"=1]
+"UNC13A" -> "KIF13B" ["e"=1]
+"UNC13C" -> "UNC13A" ["e"=1]
+"UNC13C" -> "PREX2" ["e"=1]
+"UNC13C" -> "KIF13A" ["e"=1]
+"UNC13C" -> "PREX1" ["e"=1]
+"XRN1" -> "RGPD6" ["e"=1]
+"XRN1" -> "RGPD5" ["e"=1]
+"XRN1" -> "RGPD2" ["e"=1]
+"XRN1" -> "DICER1" ["e"=1]
 }

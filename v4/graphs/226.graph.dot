@@ -20,88 +20,88 @@ digraph G {
 "TMEM190" ["l"="14.101,-1.652"]
 "TWSG1" ["l"="14.130,-1.637"]
 "WFDC1" ["l"="14.015,-1.789"]
-"BAMBI" -> "TDGF1"
-"BAMBI" -> "GFRA3"
-"BAMBI" -> "DKK2"
-"BAMBI" -> "CFC1"
-"CCN6" -> "DKK2"
-"CCN6" -> "WFDC1"
-"CCN6" -> "TDGF1"
-"CCN6" -> "IGFBP1"
-"CFC1" -> "CFC1B"
-"CFC1" -> "TDGF1"
-"CFC1" -> "WFDC1"
-"CFC1" -> "IGFBP1"
-"CFC1B" -> "CFC1"
-"CFC1B" -> "TDGF1"
-"CFC1B" -> "GFRA3"
-"CFC1B" -> "WFDC1"
-"DKK1" -> "DKK2"
-"DKK1" -> "IGFBP3"
-"DKK1" -> "IGFBP5"
-"DKK1" -> "IGFBP1"
-"DKK2" -> "DKK1"
-"DKK2" -> "TDGF1"
-"DKK2" -> "IGFBP3"
-"DKK2" -> "TAFA4"
-"GFRA3" -> "TDGF1"
-"GFRA3" -> "DKK2"
-"GFRA3" -> "CFC1B"
-"GFRA3" -> "CFC1"
-"IGFBP1" -> "IGFBP3"
-"IGFBP1" -> "IGFBP4"
-"IGFBP1" -> "DKK1"
-"IGFBP1" -> "WFDC1"
-"IGFBP2" -> "IGFBP4"
-"IGFBP2" -> "IGFBP3"
-"IGFBP2" -> "IGFBP1"
-"IGFBP2" -> "WFDC1"
-"IGFBP3" -> "IGFBP5"
-"IGFBP3" -> "IGFBP1"
-"IGFBP3" -> "IGFBP4"
-"IGFBP3" -> "DKK1"
-"IGFBP4" -> "IGFBP3"
-"IGFBP4" -> "IGFBP5"
-"IGFBP4" -> "IGFBP1"
-"IGFBP4" -> "IGFBP2"
-"IGFBP5" -> "IGFBP3"
-"IGFBP5" -> "IGFBP4"
-"IGFBP5" -> "DKK1"
-"IGFBP5" -> "DKK2"
-"IGFBP6" -> "WFDC1"
-"IGFBP6" -> "DKK1"
-"IGFBP6" -> "IGFBP3"
-"IGFBP6" -> "IGFBP5"
-"MFAP2" -> "GFRA3"
-"MFAP2" -> "DKK1"
-"MFAP2" -> "DKK2"
-"MFAP2" -> "IGFBP3"
-"STC2" -> "TDGF1"
-"STC2" -> "DKK2"
-"STC2" -> "CFC1"
-"STC2" -> "WFDC1"
-"SYCN" -> "TDGF1"
-"SYCN" -> "GFRA3"
-"SYCN" -> "WFDC1"
-"SYCN" -> "CFC1"
-"TAFA4" -> "DKK2"
-"TAFA4" -> "TDGF1"
-"TAFA4" -> "WFDC1"
-"TAFA4" -> "CFC1"
-"TDGF1" -> "GFRA3"
-"TDGF1" -> "DKK2"
-"TDGF1" -> "CFC1"
-"TDGF1" -> "CFC1B"
-"TMEM190" -> "CFC1"
-"TMEM190" -> "CFC1B"
-"TMEM190" -> "TDGF1"
-"TMEM190" -> "WFDC1"
-"TWSG1" -> "TDGF1"
-"TWSG1" -> "CFC1B"
-"TWSG1" -> "GFRA3"
-"TWSG1" -> "CFC1"
-"WFDC1" -> "IGFBP4"
-"WFDC1" -> "IGFBP6"
-"WFDC1" -> "IGFBP1"
-"WFDC1" -> "CCN6"
+"BAMBI" -> "TDGF1" ["e"=1]
+"BAMBI" -> "GFRA3" ["e"=1]
+"BAMBI" -> "DKK2" ["e"=1]
+"BAMBI" -> "CFC1" ["e"=1]
+"CCN6" -> "DKK2" ["e"=1]
+"CCN6" -> "WFDC1" ["e"=1]
+"CCN6" -> "TDGF1" ["e"=1]
+"CCN6" -> "IGFBP1" ["e"=1]
+"CFC1" -> "CFC1B" ["e"=1]
+"CFC1" -> "TDGF1" ["e"=1]
+"CFC1" -> "WFDC1" ["e"=1]
+"CFC1" -> "IGFBP1" ["e"=1]
+"CFC1B" -> "CFC1" ["e"=1]
+"CFC1B" -> "TDGF1" ["e"=1]
+"CFC1B" -> "GFRA3" ["e"=1]
+"CFC1B" -> "WFDC1" ["e"=1]
+"DKK1" -> "DKK2" ["e"=1]
+"DKK1" -> "IGFBP3" ["e"=1]
+"DKK1" -> "IGFBP5" ["e"=1]
+"DKK1" -> "IGFBP1" ["e"=1]
+"DKK2" -> "DKK1" ["e"=1]
+"DKK2" -> "TDGF1" ["e"=1]
+"DKK2" -> "IGFBP3" ["e"=1]
+"DKK2" -> "TAFA4" ["e"=1]
+"GFRA3" -> "TDGF1" ["e"=1]
+"GFRA3" -> "DKK2" ["e"=1]
+"GFRA3" -> "CFC1B" ["e"=1]
+"GFRA3" -> "CFC1" ["e"=1]
+"IGFBP1" -> "IGFBP3" ["e"=1]
+"IGFBP1" -> "IGFBP4" ["e"=1]
+"IGFBP1" -> "DKK1" ["e"=1]
+"IGFBP1" -> "WFDC1" ["e"=1]
+"IGFBP2" -> "IGFBP4" ["e"=1]
+"IGFBP2" -> "IGFBP3" ["e"=1]
+"IGFBP2" -> "IGFBP1" ["e"=1]
+"IGFBP2" -> "WFDC1" ["e"=1]
+"IGFBP3" -> "IGFBP5" ["e"=1]
+"IGFBP3" -> "IGFBP1" ["e"=1]
+"IGFBP3" -> "IGFBP4" ["e"=1]
+"IGFBP3" -> "DKK1" ["e"=1]
+"IGFBP4" -> "IGFBP3" ["e"=1]
+"IGFBP4" -> "IGFBP5" ["e"=1]
+"IGFBP4" -> "IGFBP1" ["e"=1]
+"IGFBP4" -> "IGFBP2" ["e"=1]
+"IGFBP5" -> "IGFBP3" ["e"=1]
+"IGFBP5" -> "IGFBP4" ["e"=1]
+"IGFBP5" -> "DKK1" ["e"=1]
+"IGFBP5" -> "DKK2" ["e"=1]
+"IGFBP6" -> "WFDC1" ["e"=1]
+"IGFBP6" -> "DKK1" ["e"=1]
+"IGFBP6" -> "IGFBP3" ["e"=1]
+"IGFBP6" -> "IGFBP5" ["e"=1]
+"MFAP2" -> "GFRA3" ["e"=1]
+"MFAP2" -> "DKK1" ["e"=1]
+"MFAP2" -> "DKK2" ["e"=1]
+"MFAP2" -> "IGFBP3" ["e"=1]
+"STC2" -> "TDGF1" ["e"=1]
+"STC2" -> "DKK2" ["e"=1]
+"STC2" -> "CFC1" ["e"=1]
+"STC2" -> "WFDC1" ["e"=1]
+"SYCN" -> "TDGF1" ["e"=1]
+"SYCN" -> "GFRA3" ["e"=1]
+"SYCN" -> "WFDC1" ["e"=1]
+"SYCN" -> "CFC1" ["e"=1]
+"TAFA4" -> "DKK2" ["e"=1]
+"TAFA4" -> "TDGF1" ["e"=1]
+"TAFA4" -> "WFDC1" ["e"=1]
+"TAFA4" -> "CFC1" ["e"=1]
+"TDGF1" -> "GFRA3" ["e"=1]
+"TDGF1" -> "DKK2" ["e"=1]
+"TDGF1" -> "CFC1" ["e"=1]
+"TDGF1" -> "CFC1B" ["e"=1]
+"TMEM190" -> "CFC1" ["e"=1]
+"TMEM190" -> "CFC1B" ["e"=1]
+"TMEM190" -> "TDGF1" ["e"=1]
+"TMEM190" -> "WFDC1" ["e"=1]
+"TWSG1" -> "TDGF1" ["e"=1]
+"TWSG1" -> "CFC1B" ["e"=1]
+"TWSG1" -> "GFRA3" ["e"=1]
+"TWSG1" -> "CFC1" ["e"=1]
+"WFDC1" -> "IGFBP4" ["e"=1]
+"WFDC1" -> "IGFBP6" ["e"=1]
+"WFDC1" -> "IGFBP1" ["e"=1]
+"WFDC1" -> "CCN6" ["e"=1]
 }

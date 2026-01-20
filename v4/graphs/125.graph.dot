@@ -15,68 +15,68 @@ digraph G {
 "GSTT2" ["l"="14.375,1.678"]
 "GSTT4" ["l"="14.380,1.695"]
 "HPGDS" ["l"="14.565,1.617"]
-"GSTA1" -> "GSTA2"
-"GSTA1" -> "GSTA3"
-"GSTA1" -> "GSTA5"
-"GSTA1" -> "GSTA4"
-"GSTA2" -> "GSTA1"
-"GSTA2" -> "GSTA3"
-"GSTA2" -> "GSTA4"
-"GSTA2" -> "GSTA5"
-"GSTA3" -> "GSTA5"
-"GSTA3" -> "GSTA2"
-"GSTA3" -> "GSTA1"
-"GSTA3" -> "GSTA4"
-"GSTA4" -> "GSTA2"
-"GSTA4" -> "GSTA5"
-"GSTA4" -> "GSTA1"
-"GSTA4" -> "GSTM3"
-"GSTA5" -> "GSTA3"
-"GSTA5" -> "GSTA2"
-"GSTA5" -> "GSTA1"
-"GSTA5" -> "GSTA4"
-"GSTM1" -> "GSTM4"
-"GSTM1" -> "GSTM5"
-"GSTM1" -> "GSTM2"
-"GSTM1" -> "GSTM3"
-"GSTM2" -> "GSTM5"
-"GSTM2" -> "GSTM1"
-"GSTM2" -> "GSTM4"
-"GSTM2" -> "GSTM3"
-"GSTM3" -> "GSTM5"
-"GSTM3" -> "GSTM2"
-"GSTM3" -> "GSTM4"
-"GSTM3" -> "GSTM1"
-"GSTM4" -> "GSTM1"
-"GSTM4" -> "GSTM5"
-"GSTM4" -> "GSTM2"
-"GSTM4" -> "GSTM3"
-"GSTM5" -> "GSTM1"
-"GSTM5" -> "GSTM2"
-"GSTM5" -> "GSTM4"
-"GSTM5" -> "GSTM3"
-"GSTO1" -> "GSTM3"
-"GSTO1" -> "GSTO2"
-"GSTO1" -> "GSTA5"
-"GSTO1" -> "GSTA3"
-"GSTO2" -> "GSTT4"
-"GSTO2" -> "GSTT2"
-"GSTO2" -> "GSTM3"
-"GSTO2" -> "GSTO1"
-"GSTP1" -> "GSTM3"
-"GSTP1" -> "GSTM5"
-"GSTP1" -> "GSTM2"
-"GSTP1" -> "GSTM4"
-"GSTT2" -> "GSTT4"
-"GSTT2" -> "GSTO2"
-"GSTT2" -> "GSTA4"
-"GSTT2" -> "GSTM5"
-"GSTT4" -> "GSTT2"
-"GSTT4" -> "GSTO2"
-"GSTT4" -> "GSTA4"
-"GSTT4" -> "GSTM5"
-"HPGDS" -> "GSTM3"
-"HPGDS" -> "GSTM5"
-"HPGDS" -> "GSTM2"
-"HPGDS" -> "GSTA4"
+"GSTA1" -> "GSTA2" ["e"=1]
+"GSTA1" -> "GSTA3" ["e"=1]
+"GSTA1" -> "GSTA5" ["e"=1]
+"GSTA1" -> "GSTA4" ["e"=1]
+"GSTA2" -> "GSTA1" ["e"=1]
+"GSTA2" -> "GSTA3" ["e"=1]
+"GSTA2" -> "GSTA4" ["e"=1]
+"GSTA2" -> "GSTA5" ["e"=1]
+"GSTA3" -> "GSTA5" ["e"=1]
+"GSTA3" -> "GSTA2" ["e"=1]
+"GSTA3" -> "GSTA1" ["e"=1]
+"GSTA3" -> "GSTA4" ["e"=1]
+"GSTA4" -> "GSTA2" ["e"=1]
+"GSTA4" -> "GSTA5" ["e"=1]
+"GSTA4" -> "GSTA1" ["e"=1]
+"GSTA4" -> "GSTM3" ["e"=1]
+"GSTA5" -> "GSTA3" ["e"=1]
+"GSTA5" -> "GSTA2" ["e"=1]
+"GSTA5" -> "GSTA1" ["e"=1]
+"GSTA5" -> "GSTA4" ["e"=1]
+"GSTM1" -> "GSTM4" ["e"=1]
+"GSTM1" -> "GSTM5" ["e"=1]
+"GSTM1" -> "GSTM2" ["e"=1]
+"GSTM1" -> "GSTM3" ["e"=1]
+"GSTM2" -> "GSTM5" ["e"=1]
+"GSTM2" -> "GSTM1" ["e"=1]
+"GSTM2" -> "GSTM4" ["e"=1]
+"GSTM2" -> "GSTM3" ["e"=1]
+"GSTM3" -> "GSTM5" ["e"=1]
+"GSTM3" -> "GSTM2" ["e"=1]
+"GSTM3" -> "GSTM4" ["e"=1]
+"GSTM3" -> "GSTM1" ["e"=1]
+"GSTM4" -> "GSTM1" ["e"=1]
+"GSTM4" -> "GSTM5" ["e"=1]
+"GSTM4" -> "GSTM2" ["e"=1]
+"GSTM4" -> "GSTM3" ["e"=1]
+"GSTM5" -> "GSTM1" ["e"=1]
+"GSTM5" -> "GSTM2" ["e"=1]
+"GSTM5" -> "GSTM4" ["e"=1]
+"GSTM5" -> "GSTM3" ["e"=1]
+"GSTO1" -> "GSTM3" ["e"=1]
+"GSTO1" -> "GSTO2" ["e"=1]
+"GSTO1" -> "GSTA5" ["e"=1]
+"GSTO1" -> "GSTA3" ["e"=1]
+"GSTO2" -> "GSTT4" ["e"=1]
+"GSTO2" -> "GSTT2" ["e"=1]
+"GSTO2" -> "GSTM3" ["e"=1]
+"GSTO2" -> "GSTO1" ["e"=1]
+"GSTP1" -> "GSTM3" ["e"=1]
+"GSTP1" -> "GSTM5" ["e"=1]
+"GSTP1" -> "GSTM2" ["e"=1]
+"GSTP1" -> "GSTM4" ["e"=1]
+"GSTT2" -> "GSTT4" ["e"=1]
+"GSTT2" -> "GSTO2" ["e"=1]
+"GSTT2" -> "GSTA4" ["e"=1]
+"GSTT2" -> "GSTM5" ["e"=1]
+"GSTT4" -> "GSTT2" ["e"=1]
+"GSTT4" -> "GSTO2" ["e"=1]
+"GSTT4" -> "GSTA4" ["e"=1]
+"GSTT4" -> "GSTM5" ["e"=1]
+"HPGDS" -> "GSTM3" ["e"=1]
+"HPGDS" -> "GSTM5" ["e"=1]
+"HPGDS" -> "GSTM2" ["e"=1]
+"HPGDS" -> "GSTA4" ["e"=1]
 }

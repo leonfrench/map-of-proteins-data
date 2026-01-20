@@ -20,88 +20,88 @@ digraph G {
 "RETSAT" ["l"="13.338,0.937"]
 "SDR42E1" ["l"="13.452,0.865"]
 "SQLE" ["l"="13.532,0.751"]
-"AADAC" -> "AADACL2"
-"AADAC" -> "CES5A"
-"AADAC" -> "PCYOX1L"
-"AADAC" -> "RETSAT"
-"AADACL2" -> "AADAC"
-"AADACL2" -> "CES5A"
-"AADACL2" -> "RETSAT"
-"AADACL2" -> "CES3"
-"ABHD14A" -> "PCYOX1L"
-"ABHD14A" -> "AADACL2"
-"ABHD14A" -> "ENTPD2"
-"ABHD14A" -> "RETSAT"
-"CES1" -> "CES2"
-"CES1" -> "CES5A"
-"CES1" -> "CES3"
-"CES1" -> "CES4A"
-"CES2" -> "CES3"
-"CES2" -> "CES5A"
-"CES2" -> "CES1"
-"CES2" -> "RETSAT"
-"CES3" -> "CES2"
-"CES3" -> "CES5A"
-"CES3" -> "CES4A"
-"CES3" -> "RETSAT"
-"CES4A" -> "CES3"
-"CES4A" -> "CES5A"
-"CES4A" -> "CES2"
-"CES4A" -> "CES1"
-"CES5A" -> "CES3"
-"CES5A" -> "CES4A"
-"CES5A" -> "CES2"
-"CES5A" -> "CES1"
-"ENTPD2" -> "ENTPD8"
-"ENTPD2" -> "ENTPD3"
-"ENTPD2" -> "ENTPD5"
-"ENTPD2" -> "ENTPD7"
-"ENTPD3" -> "ENTPD4"
-"ENTPD3" -> "ENTPD5"
-"ENTPD3" -> "ENTPD2"
-"ENTPD3" -> "ENTPD7"
-"ENTPD4" -> "ENTPD7"
-"ENTPD4" -> "ENTPD3"
-"ENTPD4" -> "ENTPD5"
-"ENTPD4" -> "ENTPD6"
-"ENTPD5" -> "ENTPD3"
-"ENTPD5" -> "ENTPD6"
-"ENTPD5" -> "ENTPD7"
-"ENTPD5" -> "PCYOX1L"
-"ENTPD6" -> "ENTPD5"
-"ENTPD6" -> "ENTPD3"
-"ENTPD6" -> "ENTPD4"
-"ENTPD6" -> "ENTPD2"
-"ENTPD7" -> "ENTPD4"
-"ENTPD7" -> "SDR42E1"
-"ENTPD7" -> "ENTPD3"
-"ENTPD7" -> "ENTPD5"
-"ENTPD8" -> "ENTPD2"
-"ENTPD8" -> "ENTPD3"
-"ENTPD8" -> "ENTPD5"
-"ENTPD8" -> "ENTPD4"
-"FMO5" -> "RETSAT"
-"FMO5" -> "CES3"
-"FMO5" -> "CES2"
-"FMO5" -> "AADACL2"
-"MTTP" -> "RETSAT"
-"MTTP" -> "AADACL2"
-"MTTP" -> "CES5A"
-"MTTP" -> "PCYOX1L"
-"PCYOX1L" -> "RETSAT"
-"PCYOX1L" -> "ENTPD5"
-"PCYOX1L" -> "ENTPD2"
-"PCYOX1L" -> "ENTPD7"
-"RETSAT" -> "PCYOX1L"
-"RETSAT" -> "CES3"
-"RETSAT" -> "CES2"
-"RETSAT" -> "ENTPD5"
-"SDR42E1" -> "ENTPD7"
-"SDR42E1" -> "ENTPD5"
-"SDR42E1" -> "PCYOX1L"
-"SDR42E1" -> "ENTPD4"
-"SQLE" -> "ENTPD7"
-"SQLE" -> "PCYOX1L"
-"SQLE" -> "ENTPD3"
-"SQLE" -> "RETSAT"
+"AADAC" -> "AADACL2" ["e"=1]
+"AADAC" -> "CES5A" ["e"=1]
+"AADAC" -> "PCYOX1L" ["e"=1]
+"AADAC" -> "RETSAT" ["e"=1]
+"AADACL2" -> "AADAC" ["e"=1]
+"AADACL2" -> "CES5A" ["e"=1]
+"AADACL2" -> "RETSAT" ["e"=1]
+"AADACL2" -> "CES3" ["e"=1]
+"ABHD14A" -> "PCYOX1L" ["e"=1]
+"ABHD14A" -> "AADACL2" ["e"=1]
+"ABHD14A" -> "ENTPD2" ["e"=1]
+"ABHD14A" -> "RETSAT" ["e"=1]
+"CES1" -> "CES2" ["e"=1]
+"CES1" -> "CES5A" ["e"=1]
+"CES1" -> "CES3" ["e"=1]
+"CES1" -> "CES4A" ["e"=1]
+"CES2" -> "CES3" ["e"=1]
+"CES2" -> "CES5A" ["e"=1]
+"CES2" -> "CES1" ["e"=1]
+"CES2" -> "RETSAT" ["e"=1]
+"CES3" -> "CES2" ["e"=1]
+"CES3" -> "CES5A" ["e"=1]
+"CES3" -> "CES4A" ["e"=1]
+"CES3" -> "RETSAT" ["e"=1]
+"CES4A" -> "CES3" ["e"=1]
+"CES4A" -> "CES5A" ["e"=1]
+"CES4A" -> "CES2" ["e"=1]
+"CES4A" -> "CES1" ["e"=1]
+"CES5A" -> "CES3" ["e"=1]
+"CES5A" -> "CES4A" ["e"=1]
+"CES5A" -> "CES2" ["e"=1]
+"CES5A" -> "CES1" ["e"=1]
+"ENTPD2" -> "ENTPD8" ["e"=1]
+"ENTPD2" -> "ENTPD3" ["e"=1]
+"ENTPD2" -> "ENTPD5" ["e"=1]
+"ENTPD2" -> "ENTPD7" ["e"=1]
+"ENTPD3" -> "ENTPD4" ["e"=1]
+"ENTPD3" -> "ENTPD5" ["e"=1]
+"ENTPD3" -> "ENTPD2" ["e"=1]
+"ENTPD3" -> "ENTPD7" ["e"=1]
+"ENTPD4" -> "ENTPD7" ["e"=1]
+"ENTPD4" -> "ENTPD3" ["e"=1]
+"ENTPD4" -> "ENTPD5" ["e"=1]
+"ENTPD4" -> "ENTPD6" ["e"=1]
+"ENTPD5" -> "ENTPD3" ["e"=1]
+"ENTPD5" -> "ENTPD6" ["e"=1]
+"ENTPD5" -> "ENTPD7" ["e"=1]
+"ENTPD5" -> "PCYOX1L" ["e"=1]
+"ENTPD6" -> "ENTPD5" ["e"=1]
+"ENTPD6" -> "ENTPD3" ["e"=1]
+"ENTPD6" -> "ENTPD4" ["e"=1]
+"ENTPD6" -> "ENTPD2" ["e"=1]
+"ENTPD7" -> "ENTPD4" ["e"=1]
+"ENTPD7" -> "SDR42E1" ["e"=1]
+"ENTPD7" -> "ENTPD3" ["e"=1]
+"ENTPD7" -> "ENTPD5" ["e"=1]
+"ENTPD8" -> "ENTPD2" ["e"=1]
+"ENTPD8" -> "ENTPD3" ["e"=1]
+"ENTPD8" -> "ENTPD5" ["e"=1]
+"ENTPD8" -> "ENTPD4" ["e"=1]
+"FMO5" -> "RETSAT" ["e"=1]
+"FMO5" -> "CES3" ["e"=1]
+"FMO5" -> "CES2" ["e"=1]
+"FMO5" -> "AADACL2" ["e"=1]
+"MTTP" -> "RETSAT" ["e"=1]
+"MTTP" -> "AADACL2" ["e"=1]
+"MTTP" -> "CES5A" ["e"=1]
+"MTTP" -> "PCYOX1L" ["e"=1]
+"PCYOX1L" -> "RETSAT" ["e"=1]
+"PCYOX1L" -> "ENTPD5" ["e"=1]
+"PCYOX1L" -> "ENTPD2" ["e"=1]
+"PCYOX1L" -> "ENTPD7" ["e"=1]
+"RETSAT" -> "PCYOX1L" ["e"=1]
+"RETSAT" -> "CES3" ["e"=1]
+"RETSAT" -> "CES2" ["e"=1]
+"RETSAT" -> "ENTPD5" ["e"=1]
+"SDR42E1" -> "ENTPD7" ["e"=1]
+"SDR42E1" -> "ENTPD5" ["e"=1]
+"SDR42E1" -> "PCYOX1L" ["e"=1]
+"SDR42E1" -> "ENTPD4" ["e"=1]
+"SQLE" -> "ENTPD7" ["e"=1]
+"SQLE" -> "PCYOX1L" ["e"=1]
+"SQLE" -> "ENTPD3" ["e"=1]
+"SQLE" -> "RETSAT" ["e"=1]
 }

@@ -16,72 +16,72 @@ digraph G {
 "PPP4R3B" ["l"="10.602,0.381"]
 "RANGAP1" ["l"="10.473,0.435"]
 "ZW10" ["l"="10.500,0.381"]
-"AQR" -> "EXOC5"
-"AQR" -> "PPP4R3B"
-"AQR" -> "ORC3"
-"AQR" -> "EXOC3"
-"COG1" -> "ZW10"
-"COG1" -> "COG2"
-"COG1" -> "EXOC7"
-"COG1" -> "COG4"
-"COG2" -> "ZW10"
-"COG2" -> "COG1"
-"COG2" -> "EXOC3"
-"COG2" -> "EXOC5"
-"COG4" -> "EXOC3"
-"COG4" -> "ZW10"
-"COG4" -> "EXOC7"
-"COG4" -> "EXOC5"
-"ERMARD" -> "COG1"
-"ERMARD" -> "ORC3"
-"ERMARD" -> "GLMN"
-"ERMARD" -> "ZW10"
-"EXOC3" -> "COG4"
-"EXOC3" -> "EXOC7"
-"EXOC3" -> "ZW10"
-"EXOC3" -> "COG2"
-"EXOC4" -> "ZW10"
-"EXOC4" -> "EXOC3"
-"EXOC4" -> "COG4"
-"EXOC4" -> "COG2"
-"EXOC5" -> "EXOC7"
-"EXOC5" -> "COG2"
-"EXOC5" -> "COG4"
-"EXOC5" -> "EXOC3"
-"EXOC7" -> "EXOC3"
-"EXOC7" -> "COG4"
-"EXOC7" -> "EXOC5"
-"EXOC7" -> "COG2"
-"GLMN" -> "ORC3"
-"GLMN" -> "ERMARD"
-"GLMN" -> "ZW10"
-"GLMN" -> "COG2"
-"INSC" -> "COG4"
-"INSC" -> "EXOC3"
-"INSC" -> "ERMARD"
-"INSC" -> "ZW10"
-"IPO4" -> "RANGAP1"
-"IPO4" -> "COG1"
-"IPO4" -> "PPP4R3B"
-"IPO4" -> "EXOC3"
-"ORC3" -> "ZW10"
-"ORC3" -> "GLMN"
-"ORC3" -> "ERMARD"
-"ORC3" -> "AQR"
-"PPP2R5B" -> "PPP4R3B"
-"PPP2R5B" -> "EXOC7"
-"PPP2R5B" -> "COG4"
-"PPP2R5B" -> "EXOC5"
-"PPP4R3B" -> "EXOC5"
-"PPP4R3B" -> "AQR"
-"PPP4R3B" -> "EXOC7"
-"PPP4R3B" -> "EXOC3"
-"RANGAP1" -> "IPO4"
-"RANGAP1" -> "PPP4R3B"
-"RANGAP1" -> "COG4"
-"RANGAP1" -> "INSC"
-"ZW10" -> "COG2"
-"ZW10" -> "COG4"
-"ZW10" -> "COG1"
-"ZW10" -> "EXOC3"
+"AQR" -> "EXOC5" ["e"=1]
+"AQR" -> "PPP4R3B" ["e"=1]
+"AQR" -> "ORC3" ["e"=1]
+"AQR" -> "EXOC3" ["e"=1]
+"COG1" -> "ZW10" ["e"=1]
+"COG1" -> "COG2" ["e"=1]
+"COG1" -> "EXOC7" ["e"=1]
+"COG1" -> "COG4" ["e"=1]
+"COG2" -> "ZW10" ["e"=1]
+"COG2" -> "COG1" ["e"=1]
+"COG2" -> "EXOC3" ["e"=1]
+"COG2" -> "EXOC5" ["e"=1]
+"COG4" -> "EXOC3" ["e"=1]
+"COG4" -> "ZW10" ["e"=1]
+"COG4" -> "EXOC7" ["e"=1]
+"COG4" -> "EXOC5" ["e"=1]
+"ERMARD" -> "COG1" ["e"=1]
+"ERMARD" -> "ORC3" ["e"=1]
+"ERMARD" -> "GLMN" ["e"=1]
+"ERMARD" -> "ZW10" ["e"=1]
+"EXOC3" -> "COG4" ["e"=1]
+"EXOC3" -> "EXOC7" ["e"=1]
+"EXOC3" -> "ZW10" ["e"=1]
+"EXOC3" -> "COG2" ["e"=1]
+"EXOC4" -> "ZW10" ["e"=1]
+"EXOC4" -> "EXOC3" ["e"=1]
+"EXOC4" -> "COG4" ["e"=1]
+"EXOC4" -> "COG2" ["e"=1]
+"EXOC5" -> "EXOC7" ["e"=1]
+"EXOC5" -> "COG2" ["e"=1]
+"EXOC5" -> "COG4" ["e"=1]
+"EXOC5" -> "EXOC3" ["e"=1]
+"EXOC7" -> "EXOC3" ["e"=1]
+"EXOC7" -> "COG4" ["e"=1]
+"EXOC7" -> "EXOC5" ["e"=1]
+"EXOC7" -> "COG2" ["e"=1]
+"GLMN" -> "ORC3" ["e"=1]
+"GLMN" -> "ERMARD" ["e"=1]
+"GLMN" -> "ZW10" ["e"=1]
+"GLMN" -> "COG2" ["e"=1]
+"INSC" -> "COG4" ["e"=1]
+"INSC" -> "EXOC3" ["e"=1]
+"INSC" -> "ERMARD" ["e"=1]
+"INSC" -> "ZW10" ["e"=1]
+"IPO4" -> "RANGAP1" ["e"=1]
+"IPO4" -> "COG1" ["e"=1]
+"IPO4" -> "PPP4R3B" ["e"=1]
+"IPO4" -> "EXOC3" ["e"=1]
+"ORC3" -> "ZW10" ["e"=1]
+"ORC3" -> "GLMN" ["e"=1]
+"ORC3" -> "ERMARD" ["e"=1]
+"ORC3" -> "AQR" ["e"=1]
+"PPP2R5B" -> "PPP4R3B" ["e"=1]
+"PPP2R5B" -> "EXOC7" ["e"=1]
+"PPP2R5B" -> "COG4" ["e"=1]
+"PPP2R5B" -> "EXOC5" ["e"=1]
+"PPP4R3B" -> "EXOC5" ["e"=1]
+"PPP4R3B" -> "AQR" ["e"=1]
+"PPP4R3B" -> "EXOC7" ["e"=1]
+"PPP4R3B" -> "EXOC3" ["e"=1]
+"RANGAP1" -> "IPO4" ["e"=1]
+"RANGAP1" -> "PPP4R3B" ["e"=1]
+"RANGAP1" -> "COG4" ["e"=1]
+"RANGAP1" -> "INSC" ["e"=1]
+"ZW10" -> "COG2" ["e"=1]
+"ZW10" -> "COG4" ["e"=1]
+"ZW10" -> "COG1" ["e"=1]
+"ZW10" -> "EXOC3" ["e"=1]
 }

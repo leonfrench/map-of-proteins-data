@@ -14,64 +14,64 @@ digraph G {
 "RGS12" ["l"="9.134,1.195"]
 "RIPOR2" ["l"="9.045,1.224"]
 "TSC1" ["l"="9.061,1.156"]
-"ANKS1B" -> "APBB2"
-"ANKS1B" -> "GIT2"
-"ANKS1B" -> "MYRIP"
-"ANKS1B" -> "MLPH"
-"APBB2" -> "ANKS1B"
-"APBB2" -> "GIT2"
-"APBB2" -> "RGS12"
-"APBB2" -> "MYRIP"
-"ARHGAP33" -> "CARMIL2"
-"ARHGAP33" -> "CARMIL3"
-"ARHGAP33" -> "RALGDS"
-"ARHGAP33" -> "ARVCF"
-"ARVCF" -> "GIT2"
-"ARVCF" -> "GRIP2"
-"ARVCF" -> "APBB2"
-"ARVCF" -> "CARMIL2"
-"CARMIL2" -> "CARMIL3"
-"CARMIL2" -> "ARHGAP33"
-"CARMIL2" -> "GIT2"
-"CARMIL2" -> "RALGDS"
-"CARMIL3" -> "CARMIL2"
-"CARMIL3" -> "ARHGAP33"
-"CARMIL3" -> "ARVCF"
-"CARMIL3" -> "RALGDS"
-"CC2D2B" -> "RIPOR2"
-"CC2D2B" -> "APBB2"
-"CC2D2B" -> "GRIP2"
-"CC2D2B" -> "MLPH"
-"GIT2" -> "MYRIP"
-"GIT2" -> "MLPH"
-"GIT2" -> "RIPOR2"
-"GIT2" -> "TSC1"
-"GRIP2" -> "MYRIP"
-"GRIP2" -> "GIT2"
-"GRIP2" -> "MLPH"
-"GRIP2" -> "RGS12"
-"MLPH" -> "MYRIP"
-"MLPH" -> "GIT2"
-"MLPH" -> "RIPOR2"
-"MLPH" -> "RGS12"
-"MYRIP" -> "MLPH"
-"MYRIP" -> "GIT2"
-"MYRIP" -> "RIPOR2"
-"MYRIP" -> "GRIP2"
-"RALGDS" -> "RIPOR2"
-"RALGDS" -> "GIT2"
-"RALGDS" -> "CARMIL2"
-"RALGDS" -> "TSC1"
-"RGS12" -> "RIPOR2"
-"RGS12" -> "MLPH"
-"RGS12" -> "APBB2"
-"RGS12" -> "GIT2"
-"RIPOR2" -> "MYRIP"
-"RIPOR2" -> "MLPH"
-"RIPOR2" -> "GIT2"
-"RIPOR2" -> "RGS12"
-"TSC1" -> "GIT2"
-"TSC1" -> "MLPH"
-"TSC1" -> "RIPOR2"
-"TSC1" -> "RALGDS"
+"ANKS1B" -> "APBB2" ["e"=1]
+"ANKS1B" -> "GIT2" ["e"=1]
+"ANKS1B" -> "MYRIP" ["e"=1]
+"ANKS1B" -> "MLPH" ["e"=1]
+"APBB2" -> "ANKS1B" ["e"=1]
+"APBB2" -> "GIT2" ["e"=1]
+"APBB2" -> "RGS12" ["e"=1]
+"APBB2" -> "MYRIP" ["e"=1]
+"ARHGAP33" -> "CARMIL2" ["e"=1]
+"ARHGAP33" -> "CARMIL3" ["e"=1]
+"ARHGAP33" -> "RALGDS" ["e"=1]
+"ARHGAP33" -> "ARVCF" ["e"=1]
+"ARVCF" -> "GIT2" ["e"=1]
+"ARVCF" -> "GRIP2" ["e"=1]
+"ARVCF" -> "APBB2" ["e"=1]
+"ARVCF" -> "CARMIL2" ["e"=1]
+"CARMIL2" -> "CARMIL3" ["e"=1]
+"CARMIL2" -> "ARHGAP33" ["e"=1]
+"CARMIL2" -> "GIT2" ["e"=1]
+"CARMIL2" -> "RALGDS" ["e"=1]
+"CARMIL3" -> "CARMIL2" ["e"=1]
+"CARMIL3" -> "ARHGAP33" ["e"=1]
+"CARMIL3" -> "ARVCF" ["e"=1]
+"CARMIL3" -> "RALGDS" ["e"=1]
+"CC2D2B" -> "RIPOR2" ["e"=1]
+"CC2D2B" -> "APBB2" ["e"=1]
+"CC2D2B" -> "GRIP2" ["e"=1]
+"CC2D2B" -> "MLPH" ["e"=1]
+"GIT2" -> "MYRIP" ["e"=1]
+"GIT2" -> "MLPH" ["e"=1]
+"GIT2" -> "RIPOR2" ["e"=1]
+"GIT2" -> "TSC1" ["e"=1]
+"GRIP2" -> "MYRIP" ["e"=1]
+"GRIP2" -> "GIT2" ["e"=1]
+"GRIP2" -> "MLPH" ["e"=1]
+"GRIP2" -> "RGS12" ["e"=1]
+"MLPH" -> "MYRIP" ["e"=1]
+"MLPH" -> "GIT2" ["e"=1]
+"MLPH" -> "RIPOR2" ["e"=1]
+"MLPH" -> "RGS12" ["e"=1]
+"MYRIP" -> "MLPH" ["e"=1]
+"MYRIP" -> "GIT2" ["e"=1]
+"MYRIP" -> "RIPOR2" ["e"=1]
+"MYRIP" -> "GRIP2" ["e"=1]
+"RALGDS" -> "RIPOR2" ["e"=1]
+"RALGDS" -> "GIT2" ["e"=1]
+"RALGDS" -> "CARMIL2" ["e"=1]
+"RALGDS" -> "TSC1" ["e"=1]
+"RGS12" -> "RIPOR2" ["e"=1]
+"RGS12" -> "MLPH" ["e"=1]
+"RGS12" -> "APBB2" ["e"=1]
+"RGS12" -> "GIT2" ["e"=1]
+"RIPOR2" -> "MYRIP" ["e"=1]
+"RIPOR2" -> "MLPH" ["e"=1]
+"RIPOR2" -> "GIT2" ["e"=1]
+"RIPOR2" -> "RGS12" ["e"=1]
+"TSC1" -> "GIT2" ["e"=1]
+"TSC1" -> "MLPH" ["e"=1]
+"TSC1" -> "RIPOR2" ["e"=1]
+"TSC1" -> "RALGDS" ["e"=1]
 }

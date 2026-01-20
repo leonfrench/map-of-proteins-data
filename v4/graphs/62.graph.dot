@@ -11,52 +11,52 @@ digraph G {
 "PRSS1" ["l"="14.124,-3.553"]
 "PRSS2" ["l"="14.131,-3.564"]
 "PRSS3" ["l"="14.116,-3.541"]
-"CELA2A" -> "CELA2B"
-"CELA2A" -> "CELA3B"
-"CELA2A" -> "CTRL"
-"CELA2A" -> "CELA3A"
-"CELA2B" -> "CELA2A"
-"CELA2B" -> "CELA3B"
-"CELA2B" -> "CELA3A"
-"CELA2B" -> "CTRL"
-"CELA3A" -> "CELA3B"
-"CELA3A" -> "CTRC"
-"CELA3A" -> "CELA2B"
-"CELA3A" -> "CELA2A"
-"CELA3B" -> "CELA3A"
-"CELA3B" -> "CELA2A"
-"CELA3B" -> "CELA2B"
-"CELA3B" -> "CTRC"
-"CTRB1" -> "CTRB2"
-"CTRB1" -> "PRSS1"
-"CTRB1" -> "PRSS2"
-"CTRB1" -> "CELA3A"
-"CTRB2" -> "CTRB1"
-"CTRB2" -> "PRSS2"
-"CTRB2" -> "PRSS1"
-"CTRB2" -> "CELA3A"
-"CTRC" -> "CELA3A"
-"CTRC" -> "CELA3B"
-"CTRC" -> "CTRL"
-"CTRC" -> "CELA2A"
-"CTRL" -> "CELA2A"
-"CTRL" -> "CELA2B"
-"CTRL" -> "CTRC"
-"CTRL" -> "CELA3B"
-"KLK1" -> "CTRL"
-"KLK1" -> "CELA2B"
-"KLK1" -> "CTRC"
-"KLK1" -> "CELA3B"
-"PRSS1" -> "PRSS2"
-"PRSS1" -> "CELA3A"
-"PRSS1" -> "CELA3B"
-"PRSS1" -> "CTRB1"
-"PRSS2" -> "PRSS1"
-"PRSS2" -> "CTRB1"
-"PRSS2" -> "CTRB2"
-"PRSS2" -> "CELA3A"
-"PRSS3" -> "PRSS2"
-"PRSS3" -> "PRSS1"
-"PRSS3" -> "CTRL"
-"PRSS3" -> "CELA3B"
+"CELA2A" -> "CELA2B" ["e"=1]
+"CELA2A" -> "CELA3B" ["e"=1]
+"CELA2A" -> "CTRL" ["e"=1]
+"CELA2A" -> "CELA3A" ["e"=1]
+"CELA2B" -> "CELA2A" ["e"=1]
+"CELA2B" -> "CELA3B" ["e"=1]
+"CELA2B" -> "CELA3A" ["e"=1]
+"CELA2B" -> "CTRL" ["e"=1]
+"CELA3A" -> "CELA3B" ["e"=1]
+"CELA3A" -> "CTRC" ["e"=1]
+"CELA3A" -> "CELA2B" ["e"=1]
+"CELA3A" -> "CELA2A" ["e"=1]
+"CELA3B" -> "CELA3A" ["e"=1]
+"CELA3B" -> "CELA2A" ["e"=1]
+"CELA3B" -> "CELA2B" ["e"=1]
+"CELA3B" -> "CTRC" ["e"=1]
+"CTRB1" -> "CTRB2" ["e"=1]
+"CTRB1" -> "PRSS1" ["e"=1]
+"CTRB1" -> "PRSS2" ["e"=1]
+"CTRB1" -> "CELA3A" ["e"=1]
+"CTRB2" -> "CTRB1" ["e"=1]
+"CTRB2" -> "PRSS2" ["e"=1]
+"CTRB2" -> "PRSS1" ["e"=1]
+"CTRB2" -> "CELA3A" ["e"=1]
+"CTRC" -> "CELA3A" ["e"=1]
+"CTRC" -> "CELA3B" ["e"=1]
+"CTRC" -> "CTRL" ["e"=1]
+"CTRC" -> "CELA2A" ["e"=1]
+"CTRL" -> "CELA2A" ["e"=1]
+"CTRL" -> "CELA2B" ["e"=1]
+"CTRL" -> "CTRC" ["e"=1]
+"CTRL" -> "CELA3B" ["e"=1]
+"KLK1" -> "CTRL" ["e"=1]
+"KLK1" -> "CELA2B" ["e"=1]
+"KLK1" -> "CTRC" ["e"=1]
+"KLK1" -> "CELA3B" ["e"=1]
+"PRSS1" -> "PRSS2" ["e"=1]
+"PRSS1" -> "CELA3A" ["e"=1]
+"PRSS1" -> "CELA3B" ["e"=1]
+"PRSS1" -> "CTRB1" ["e"=1]
+"PRSS2" -> "PRSS1" ["e"=1]
+"PRSS2" -> "CTRB1" ["e"=1]
+"PRSS2" -> "CTRB2" ["e"=1]
+"PRSS2" -> "CELA3A" ["e"=1]
+"PRSS3" -> "PRSS2" ["e"=1]
+"PRSS3" -> "PRSS1" ["e"=1]
+"PRSS3" -> "CTRL" ["e"=1]
+"PRSS3" -> "CELA3B" ["e"=1]
 }

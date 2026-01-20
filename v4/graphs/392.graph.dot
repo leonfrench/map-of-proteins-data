@@ -34,144 +34,144 @@ digraph G {
 "THYN1" ["l"="12.449,2.559"]
 "TRUB2" ["l"="12.481,2.500"]
 "YDJC" ["l"="12.370,2.340"]
-"ALKBH2" -> "PTRH1"
-"ALKBH2" -> "MRM3"
-"ALKBH2" -> "MRM2"
-"ALKBH2" -> "RPUSD1"
-"ANTKMT" -> "YDJC"
-"ANTKMT" -> "PTRH1"
-"ANTKMT" -> "PUSL1"
-"ANTKMT" -> "RPUSD1"
-"DCTPP1" -> "PTRH1"
-"DCTPP1" -> "MRM2"
-"DCTPP1" -> "GLOD4"
-"DCTPP1" -> "MRM3"
-"DGUOK" -> "REXO2"
-"DGUOK" -> "MCUB"
-"DGUOK" -> "EXOG"
-"DGUOK" -> "ETFBKMT"
-"DHFR2" -> "ETFBKMT"
-"DHFR2" -> "NUDT5"
-"DHFR2" -> "MRM2"
-"DHFR2" -> "PTRH1"
-"DPM1" -> "GLOD4"
-"DPM1" -> "TFB2M"
-"DPM1" -> "PTRH1"
-"DPM1" -> "DHFR2"
-"ETFBKMT" -> "MRM2"
-"ETFBKMT" -> "PTRH1"
-"ETFBKMT" -> "DHFR2"
-"ETFBKMT" -> "TFB2M"
-"EXOG" -> "ETFBKMT"
-"EXOG" -> "DGUOK"
-"EXOG" -> "REXO2"
-"EXOG" -> "TFB2M"
-"GLOD4" -> "PPIE"
-"GLOD4" -> "NUDT5"
-"GLOD4" -> "ITPA"
-"GLOD4" -> "TFB2M"
-"IMMP1L" -> "IMMP2L"
-"IMMP1L" -> "DPM1"
-"IMMP1L" -> "TFB2M"
-"IMMP1L" -> "NUDT5"
-"IMMP2L" -> "IMMP1L"
-"IMMP2L" -> "MGMT"
-"IMMP2L" -> "ETFBKMT"
-"IMMP2L" -> "GLOD4"
-"ITPA" -> "TRUB2"
-"ITPA" -> "GLOD4"
-"ITPA" -> "PTRH1"
-"ITPA" -> "DHFR2"
-"MCUB" -> "DGUOK"
-"MCUB" -> "REXO2"
-"MCUB" -> "EXOG"
-"MCUB" -> "RPUSD4"
-"METTL17" -> "RPUSD4"
-"METTL17" -> "TFB2M"
-"METTL17" -> "MRM3"
-"METTL17" -> "RPUSD3"
-"MGMT" -> "NUDT2"
-"MGMT" -> "NUDT5"
-"MGMT" -> "PUSL1"
-"MGMT" -> "NUDT14"
-"MRM2" -> "PTRH1"
-"MRM2" -> "ETFBKMT"
-"MRM2" -> "TRUB2"
-"MRM2" -> "RPUSD4"
-"MRM3" -> "TFB2M"
-"MRM3" -> "RPUSD4"
-"MRM3" -> "MRM2"
-"MRM3" -> "ETFBKMT"
-"MRPL37" -> "MRPS30"
-"MRPL37" -> "METTL17"
-"MRPL37" -> "RPUSD4"
-"MRPL37" -> "MRM3"
-"MRPS30" -> "TFB2M"
-"MRPS30" -> "MRPL37"
-"MRPS30" -> "RPUSD4"
-"MRPS30" -> "MRM3"
-"NT5C" -> "YDJC"
-"NT5C" -> "NUDT14"
-"NT5C" -> "PTRH1"
-"NT5C" -> "ETFBKMT"
-"NUDT14" -> "NT5C"
-"NUDT14" -> "NUDT5"
-"NUDT14" -> "YDJC"
-"NUDT14" -> "NUDT7"
-"NUDT2" -> "NUDT5"
-"NUDT2" -> "MGMT"
-"NUDT2" -> "NUDT7"
-"NUDT2" -> "NUDT14"
-"NUDT5" -> "NUDT2"
-"NUDT5" -> "GLOD4"
-"NUDT5" -> "NUDT7"
-"NUDT5" -> "NUDT14"
-"NUDT7" -> "NUDT5"
-"NUDT7" -> "NUDT14"
-"NUDT7" -> "NUDT2"
-"NUDT7" -> "DHFR2"
-"PPIE" -> "GLOD4"
-"PPIE" -> "TRUB2"
-"PPIE" -> "RPUSD4"
-"PPIE" -> "MRM2"
-"PTRH1" -> "MRM2"
-"PTRH1" -> "YDJC"
-"PTRH1" -> "ALKBH2"
-"PTRH1" -> "PUSL1"
-"PUSL1" -> "RPUSD1"
-"PUSL1" -> "YDJC"
-"PUSL1" -> "PTRH1"
-"PUSL1" -> "MRM2"
-"REXO2" -> "DGUOK"
-"REXO2" -> "ETFBKMT"
-"REXO2" -> "PTRH1"
-"REXO2" -> "MCUB"
-"RPUSD1" -> "PUSL1"
-"RPUSD1" -> "YDJC"
-"RPUSD1" -> "PTRH1"
-"RPUSD1" -> "TRUB2"
-"RPUSD3" -> "RPUSD4"
-"RPUSD3" -> "TRUB2"
-"RPUSD3" -> "MRM2"
-"RPUSD3" -> "PTRH1"
-"RPUSD4" -> "RPUSD3"
-"RPUSD4" -> "TRUB2"
-"RPUSD4" -> "MRM3"
-"RPUSD4" -> "MRM2"
-"TFB2M" -> "MRM3"
-"TFB2M" -> "METTL17"
-"TFB2M" -> "MRPS30"
-"TFB2M" -> "ETFBKMT"
-"THYN1" -> "MRM2"
-"THYN1" -> "NUDT2"
-"THYN1" -> "DCTPP1"
-"THYN1" -> "REXO2"
-"TRUB2" -> "RPUSD4"
-"TRUB2" -> "RPUSD3"
-"TRUB2" -> "MRM2"
-"TRUB2" -> "RPUSD1"
-"YDJC" -> "PUSL1"
-"YDJC" -> "PTRH1"
-"YDJC" -> "RPUSD1"
-"YDJC" -> "ANTKMT"
+"ALKBH2" -> "PTRH1" ["e"=1]
+"ALKBH2" -> "MRM3" ["e"=1]
+"ALKBH2" -> "MRM2" ["e"=1]
+"ALKBH2" -> "RPUSD1" ["e"=1]
+"ANTKMT" -> "YDJC" ["e"=1]
+"ANTKMT" -> "PTRH1" ["e"=1]
+"ANTKMT" -> "PUSL1" ["e"=1]
+"ANTKMT" -> "RPUSD1" ["e"=1]
+"DCTPP1" -> "PTRH1" ["e"=1]
+"DCTPP1" -> "MRM2" ["e"=1]
+"DCTPP1" -> "GLOD4" ["e"=1]
+"DCTPP1" -> "MRM3" ["e"=1]
+"DGUOK" -> "REXO2" ["e"=1]
+"DGUOK" -> "MCUB" ["e"=1]
+"DGUOK" -> "EXOG" ["e"=1]
+"DGUOK" -> "ETFBKMT" ["e"=1]
+"DHFR2" -> "ETFBKMT" ["e"=1]
+"DHFR2" -> "NUDT5" ["e"=1]
+"DHFR2" -> "MRM2" ["e"=1]
+"DHFR2" -> "PTRH1" ["e"=1]
+"DPM1" -> "GLOD4" ["e"=1]
+"DPM1" -> "TFB2M" ["e"=1]
+"DPM1" -> "PTRH1" ["e"=1]
+"DPM1" -> "DHFR2" ["e"=1]
+"ETFBKMT" -> "MRM2" ["e"=1]
+"ETFBKMT" -> "PTRH1" ["e"=1]
+"ETFBKMT" -> "DHFR2" ["e"=1]
+"ETFBKMT" -> "TFB2M" ["e"=1]
+"EXOG" -> "ETFBKMT" ["e"=1]
+"EXOG" -> "DGUOK" ["e"=1]
+"EXOG" -> "REXO2" ["e"=1]
+"EXOG" -> "TFB2M" ["e"=1]
+"GLOD4" -> "PPIE" ["e"=1]
+"GLOD4" -> "NUDT5" ["e"=1]
+"GLOD4" -> "ITPA" ["e"=1]
+"GLOD4" -> "TFB2M" ["e"=1]
+"IMMP1L" -> "IMMP2L" ["e"=1]
+"IMMP1L" -> "DPM1" ["e"=1]
+"IMMP1L" -> "TFB2M" ["e"=1]
+"IMMP1L" -> "NUDT5" ["e"=1]
+"IMMP2L" -> "IMMP1L" ["e"=1]
+"IMMP2L" -> "MGMT" ["e"=1]
+"IMMP2L" -> "ETFBKMT" ["e"=1]
+"IMMP2L" -> "GLOD4" ["e"=1]
+"ITPA" -> "TRUB2" ["e"=1]
+"ITPA" -> "GLOD4" ["e"=1]
+"ITPA" -> "PTRH1" ["e"=1]
+"ITPA" -> "DHFR2" ["e"=1]
+"MCUB" -> "DGUOK" ["e"=1]
+"MCUB" -> "REXO2" ["e"=1]
+"MCUB" -> "EXOG" ["e"=1]
+"MCUB" -> "RPUSD4" ["e"=1]
+"METTL17" -> "RPUSD4" ["e"=1]
+"METTL17" -> "TFB2M" ["e"=1]
+"METTL17" -> "MRM3" ["e"=1]
+"METTL17" -> "RPUSD3" ["e"=1]
+"MGMT" -> "NUDT2" ["e"=1]
+"MGMT" -> "NUDT5" ["e"=1]
+"MGMT" -> "PUSL1" ["e"=1]
+"MGMT" -> "NUDT14" ["e"=1]
+"MRM2" -> "PTRH1" ["e"=1]
+"MRM2" -> "ETFBKMT" ["e"=1]
+"MRM2" -> "TRUB2" ["e"=1]
+"MRM2" -> "RPUSD4" ["e"=1]
+"MRM3" -> "TFB2M" ["e"=1]
+"MRM3" -> "RPUSD4" ["e"=1]
+"MRM3" -> "MRM2" ["e"=1]
+"MRM3" -> "ETFBKMT" ["e"=1]
+"MRPL37" -> "MRPS30" ["e"=1]
+"MRPL37" -> "METTL17" ["e"=1]
+"MRPL37" -> "RPUSD4" ["e"=1]
+"MRPL37" -> "MRM3" ["e"=1]
+"MRPS30" -> "TFB2M" ["e"=1]
+"MRPS30" -> "MRPL37" ["e"=1]
+"MRPS30" -> "RPUSD4" ["e"=1]
+"MRPS30" -> "MRM3" ["e"=1]
+"NT5C" -> "YDJC" ["e"=1]
+"NT5C" -> "NUDT14" ["e"=1]
+"NT5C" -> "PTRH1" ["e"=1]
+"NT5C" -> "ETFBKMT" ["e"=1]
+"NUDT14" -> "NT5C" ["e"=1]
+"NUDT14" -> "NUDT5" ["e"=1]
+"NUDT14" -> "YDJC" ["e"=1]
+"NUDT14" -> "NUDT7" ["e"=1]
+"NUDT2" -> "NUDT5" ["e"=1]
+"NUDT2" -> "MGMT" ["e"=1]
+"NUDT2" -> "NUDT7" ["e"=1]
+"NUDT2" -> "NUDT14" ["e"=1]
+"NUDT5" -> "NUDT2" ["e"=1]
+"NUDT5" -> "GLOD4" ["e"=1]
+"NUDT5" -> "NUDT7" ["e"=1]
+"NUDT5" -> "NUDT14" ["e"=1]
+"NUDT7" -> "NUDT5" ["e"=1]
+"NUDT7" -> "NUDT14" ["e"=1]
+"NUDT7" -> "NUDT2" ["e"=1]
+"NUDT7" -> "DHFR2" ["e"=1]
+"PPIE" -> "GLOD4" ["e"=1]
+"PPIE" -> "TRUB2" ["e"=1]
+"PPIE" -> "RPUSD4" ["e"=1]
+"PPIE" -> "MRM2" ["e"=1]
+"PTRH1" -> "MRM2" ["e"=1]
+"PTRH1" -> "YDJC" ["e"=1]
+"PTRH1" -> "ALKBH2" ["e"=1]
+"PTRH1" -> "PUSL1" ["e"=1]
+"PUSL1" -> "RPUSD1" ["e"=1]
+"PUSL1" -> "YDJC" ["e"=1]
+"PUSL1" -> "PTRH1" ["e"=1]
+"PUSL1" -> "MRM2" ["e"=1]
+"REXO2" -> "DGUOK" ["e"=1]
+"REXO2" -> "ETFBKMT" ["e"=1]
+"REXO2" -> "PTRH1" ["e"=1]
+"REXO2" -> "MCUB" ["e"=1]
+"RPUSD1" -> "PUSL1" ["e"=1]
+"RPUSD1" -> "YDJC" ["e"=1]
+"RPUSD1" -> "PTRH1" ["e"=1]
+"RPUSD1" -> "TRUB2" ["e"=1]
+"RPUSD3" -> "RPUSD4" ["e"=1]
+"RPUSD3" -> "TRUB2" ["e"=1]
+"RPUSD3" -> "MRM2" ["e"=1]
+"RPUSD3" -> "PTRH1" ["e"=1]
+"RPUSD4" -> "RPUSD3" ["e"=1]
+"RPUSD4" -> "TRUB2" ["e"=1]
+"RPUSD4" -> "MRM3" ["e"=1]
+"RPUSD4" -> "MRM2" ["e"=1]
+"TFB2M" -> "MRM3" ["e"=1]
+"TFB2M" -> "METTL17" ["e"=1]
+"TFB2M" -> "MRPS30" ["e"=1]
+"TFB2M" -> "ETFBKMT" ["e"=1]
+"THYN1" -> "MRM2" ["e"=1]
+"THYN1" -> "NUDT2" ["e"=1]
+"THYN1" -> "DCTPP1" ["e"=1]
+"THYN1" -> "REXO2" ["e"=1]
+"TRUB2" -> "RPUSD4" ["e"=1]
+"TRUB2" -> "RPUSD3" ["e"=1]
+"TRUB2" -> "MRM2" ["e"=1]
+"TRUB2" -> "RPUSD1" ["e"=1]
+"YDJC" -> "PUSL1" ["e"=1]
+"YDJC" -> "PTRH1" ["e"=1]
+"YDJC" -> "RPUSD1" ["e"=1]
+"YDJC" -> "ANTKMT" ["e"=1]
 }

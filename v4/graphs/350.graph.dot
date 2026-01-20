@@ -20,88 +20,88 @@ digraph G {
 "TADA2B" ["l"="9.707,2.104"]
 "UHRF1" ["l"="9.615,2.096"]
 "UHRF2" ["l"="9.618,2.080"]
-"ADAD2" -> "DGCR8"
-"ADAD2" -> "FAM124A"
-"ADAD2" -> "MTA3"
-"ADAD2" -> "DMWD"
-"ARHGAP19" -> "FAM124A"
-"ARHGAP19" -> "DGCR8"
-"ARHGAP19" -> "DNMT3B"
-"ARHGAP19" -> "NUP35"
-"CTDP1" -> "EXD1"
-"CTDP1" -> "MORC2"
-"CTDP1" -> "DMWD"
-"CTDP1" -> "FAM124A"
-"DGCR8" -> "L3MBTL2"
-"DGCR8" -> "DNMT3B"
-"DGCR8" -> "ARHGAP19"
-"DGCR8" -> "MORC2"
-"DMWD" -> "FAM124A"
-"DMWD" -> "CTDP1"
-"DMWD" -> "DGCR8"
-"DMWD" -> "TADA2B"
-"DNMT3A" -> "L3MBTL2"
-"DNMT3A" -> "DNMT3B"
-"DNMT3A" -> "DGCR8"
-"DNMT3A" -> "PARP1"
-"DNMT3B" -> "L3MBTL2"
-"DNMT3B" -> "DNMT3A"
-"DNMT3B" -> "UHRF2"
-"DNMT3B" -> "UHRF1"
-"EXD1" -> "FAM124A"
-"EXD1" -> "CTDP1"
-"EXD1" -> "POLI"
-"EXD1" -> "MORC2"
-"FAM124A" -> "KCTD18"
-"FAM124A" -> "MORC2"
-"FAM124A" -> "EXD1"
-"FAM124A" -> "DMWD"
-"GGNBP2" -> "TADA2B"
-"GGNBP2" -> "SPRED1"
-"GGNBP2" -> "CTDP1"
-"GGNBP2" -> "MORC2"
-"KCTD18" -> "FAM124A"
-"KCTD18" -> "MORC2"
-"KCTD18" -> "POLI"
-"KCTD18" -> "EXD1"
-"L3MBTL2" -> "DNMT3A"
-"L3MBTL2" -> "DNMT3B"
-"L3MBTL2" -> "DGCR8"
-"L3MBTL2" -> "MORC2"
-"MORC2" -> "FAM124A"
-"MORC2" -> "CTDP1"
-"MORC2" -> "L3MBTL2"
-"MORC2" -> "KCTD18"
-"MTA3" -> "FAM124A"
-"MTA3" -> "MORC2"
-"MTA3" -> "L3MBTL2"
-"MTA3" -> "TADA2B"
-"NUP35" -> "ARHGAP19"
-"NUP35" -> "POLI"
-"NUP35" -> "FAM124A"
-"NUP35" -> "KCTD18"
-"PARP1" -> "L3MBTL2"
-"PARP1" -> "MORC2"
-"PARP1" -> "DNMT3A"
-"PARP1" -> "UHRF1"
-"POLI" -> "EXD1"
-"POLI" -> "MORC2"
-"POLI" -> "KCTD18"
-"POLI" -> "ARHGAP19"
-"SPRED1" -> "FAM124A"
-"SPRED1" -> "UHRF2"
-"SPRED1" -> "POLI"
-"SPRED1" -> "MTA3"
-"TADA2B" -> "FAM124A"
-"TADA2B" -> "MORC2"
-"TADA2B" -> "MTA3"
-"TADA2B" -> "DGCR8"
-"UHRF1" -> "UHRF2"
-"UHRF1" -> "DNMT3B"
-"UHRF1" -> "L3MBTL2"
-"UHRF1" -> "PARP1"
-"UHRF2" -> "UHRF1"
-"UHRF2" -> "DNMT3B"
-"UHRF2" -> "L3MBTL2"
-"UHRF2" -> "MTA3"
+"ADAD2" -> "DGCR8" ["e"=1]
+"ADAD2" -> "FAM124A" ["e"=1]
+"ADAD2" -> "MTA3" ["e"=1]
+"ADAD2" -> "DMWD" ["e"=1]
+"ARHGAP19" -> "FAM124A" ["e"=1]
+"ARHGAP19" -> "DGCR8" ["e"=1]
+"ARHGAP19" -> "DNMT3B" ["e"=1]
+"ARHGAP19" -> "NUP35" ["e"=1]
+"CTDP1" -> "EXD1" ["e"=1]
+"CTDP1" -> "MORC2" ["e"=1]
+"CTDP1" -> "DMWD" ["e"=1]
+"CTDP1" -> "FAM124A" ["e"=1]
+"DGCR8" -> "L3MBTL2" ["e"=1]
+"DGCR8" -> "DNMT3B" ["e"=1]
+"DGCR8" -> "ARHGAP19" ["e"=1]
+"DGCR8" -> "MORC2" ["e"=1]
+"DMWD" -> "FAM124A" ["e"=1]
+"DMWD" -> "CTDP1" ["e"=1]
+"DMWD" -> "DGCR8" ["e"=1]
+"DMWD" -> "TADA2B" ["e"=1]
+"DNMT3A" -> "L3MBTL2" ["e"=1]
+"DNMT3A" -> "DNMT3B" ["e"=1]
+"DNMT3A" -> "DGCR8" ["e"=1]
+"DNMT3A" -> "PARP1" ["e"=1]
+"DNMT3B" -> "L3MBTL2" ["e"=1]
+"DNMT3B" -> "DNMT3A" ["e"=1]
+"DNMT3B" -> "UHRF2" ["e"=1]
+"DNMT3B" -> "UHRF1" ["e"=1]
+"EXD1" -> "FAM124A" ["e"=1]
+"EXD1" -> "CTDP1" ["e"=1]
+"EXD1" -> "POLI" ["e"=1]
+"EXD1" -> "MORC2" ["e"=1]
+"FAM124A" -> "KCTD18" ["e"=1]
+"FAM124A" -> "MORC2" ["e"=1]
+"FAM124A" -> "EXD1" ["e"=1]
+"FAM124A" -> "DMWD" ["e"=1]
+"GGNBP2" -> "TADA2B" ["e"=1]
+"GGNBP2" -> "SPRED1" ["e"=1]
+"GGNBP2" -> "CTDP1" ["e"=1]
+"GGNBP2" -> "MORC2" ["e"=1]
+"KCTD18" -> "FAM124A" ["e"=1]
+"KCTD18" -> "MORC2" ["e"=1]
+"KCTD18" -> "POLI" ["e"=1]
+"KCTD18" -> "EXD1" ["e"=1]
+"L3MBTL2" -> "DNMT3A" ["e"=1]
+"L3MBTL2" -> "DNMT3B" ["e"=1]
+"L3MBTL2" -> "DGCR8" ["e"=1]
+"L3MBTL2" -> "MORC2" ["e"=1]
+"MORC2" -> "FAM124A" ["e"=1]
+"MORC2" -> "CTDP1" ["e"=1]
+"MORC2" -> "L3MBTL2" ["e"=1]
+"MORC2" -> "KCTD18" ["e"=1]
+"MTA3" -> "FAM124A" ["e"=1]
+"MTA3" -> "MORC2" ["e"=1]
+"MTA3" -> "L3MBTL2" ["e"=1]
+"MTA3" -> "TADA2B" ["e"=1]
+"NUP35" -> "ARHGAP19" ["e"=1]
+"NUP35" -> "POLI" ["e"=1]
+"NUP35" -> "FAM124A" ["e"=1]
+"NUP35" -> "KCTD18" ["e"=1]
+"PARP1" -> "L3MBTL2" ["e"=1]
+"PARP1" -> "MORC2" ["e"=1]
+"PARP1" -> "DNMT3A" ["e"=1]
+"PARP1" -> "UHRF1" ["e"=1]
+"POLI" -> "EXD1" ["e"=1]
+"POLI" -> "MORC2" ["e"=1]
+"POLI" -> "KCTD18" ["e"=1]
+"POLI" -> "ARHGAP19" ["e"=1]
+"SPRED1" -> "FAM124A" ["e"=1]
+"SPRED1" -> "UHRF2" ["e"=1]
+"SPRED1" -> "POLI" ["e"=1]
+"SPRED1" -> "MTA3" ["e"=1]
+"TADA2B" -> "FAM124A" ["e"=1]
+"TADA2B" -> "MORC2" ["e"=1]
+"TADA2B" -> "MTA3" ["e"=1]
+"TADA2B" -> "DGCR8" ["e"=1]
+"UHRF1" -> "UHRF2" ["e"=1]
+"UHRF1" -> "DNMT3B" ["e"=1]
+"UHRF1" -> "L3MBTL2" ["e"=1]
+"UHRF1" -> "PARP1" ["e"=1]
+"UHRF2" -> "UHRF1" ["e"=1]
+"UHRF2" -> "DNMT3B" ["e"=1]
+"UHRF2" -> "L3MBTL2" ["e"=1]
+"UHRF2" -> "MTA3" ["e"=1]
 }

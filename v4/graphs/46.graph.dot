@@ -43,180 +43,180 @@ digraph G {
 "PPBP" ["l"="16.278,-4.017"]
 "XCL1" ["l"="16.344,-4.096"]
 "XCL2" ["l"="16.344,-4.097"]
-"CCL1" -> "CCL20"
-"CCL1" -> "CCL8"
-"CCL1" -> "CCL17"
-"CCL1" -> "CCL7"
-"CCL11" -> "CCL13"
-"CCL11" -> "CCL8"
-"CCL11" -> "CCL7"
-"CCL11" -> "CCL2"
-"CCL13" -> "CCL8"
-"CCL13" -> "CCL11"
-"CCL13" -> "CCL7"
-"CCL13" -> "CCL2"
-"CCL14" -> "CCL5"
-"CCL14" -> "CCL23"
-"CCL14" -> "CCL13"
-"CCL14" -> "CCL16"
-"CCL15" -> "CCL23"
-"CCL15" -> "CCL1"
-"CCL15" -> "CCL14"
-"CCL15" -> "CCL16"
-"CCL16" -> "PF4V1"
-"CCL16" -> "CXCL13"
-"CCL16" -> "CCL1"
-"CCL16" -> "CCL14"
-"CCL17" -> "CCL22"
-"CCL17" -> "CCL13"
-"CCL17" -> "CCL7"
-"CCL17" -> "CCL8"
-"CCL18" -> "CCL13"
-"CCL18" -> "CCL22"
-"CCL18" -> "CCL8"
-"CCL18" -> "CCL17"
-"CCL19" -> "CCL22"
-"CCL19" -> "CCL21"
-"CCL19" -> "CCL8"
-"CCL19" -> "CCL13"
-"CCL2" -> "CCL8"
-"CCL2" -> "CCL7"
-"CCL2" -> "CCL13"
-"CCL2" -> "CCL11"
-"CCL20" -> "CCL7"
-"CCL20" -> "CCL1"
-"CCL20" -> "CXCL3"
-"CCL20" -> "CXCL8"
-"CCL21" -> "CCL19"
-"CCL21" -> "CCL28"
-"CCL21" -> "CCL24"
-"CCL21" -> "CXCL9"
-"CCL22" -> "CCL17"
-"CCL22" -> "CCL19"
-"CCL22" -> "CCL24"
-"CCL22" -> "CCL18"
-"CCL23" -> "CCL15"
-"CCL23" -> "CCL14"
-"CCL23" -> "CCL2"
-"CCL23" -> "CCL1"
-"CCL24" -> "CXCL12"
-"CCL24" -> "CCL8"
-"CCL24" -> "CCL13"
-"CCL24" -> "CCL22"
-"CCL25" -> "CCL21"
-"CCL25" -> "CCL26"
-"CCL25" -> "CCL1"
-"CCL25" -> "CCL24"
-"CCL26" -> "CCL7"
-"CCL26" -> "CCL11"
-"CCL26" -> "CCL8"
-"CCL26" -> "CCL13"
-"CCL27" -> "PF4"
-"CCL27" -> "CCL19"
-"CCL27" -> "CCL22"
-"CCL27" -> "CXCL6"
-"CCL28" -> "CCL21"
-"CCL28" -> "CXCL11"
-"CCL28" -> "CCL16"
-"CCL28" -> "PPBP"
-"CCL3" -> "CCL3L1"
-"CCL3" -> "CCL4L2"
-"CCL3" -> "CCL4"
-"CCL3" -> "CCL5"
-"CCL3L1" -> "CCL3"
-"CCL3L1" -> "CCL4L2"
-"CCL3L1" -> "CCL4"
-"CCL3L1" -> "CCL5"
-"CCL4" -> "CCL4L2"
-"CCL4" -> "CCL3"
-"CCL4" -> "CCL3L1"
-"CCL4" -> "CCL5"
-"CCL4L2" -> "CCL4"
-"CCL4L2" -> "CCL3L1"
-"CCL4L2" -> "CCL3"
-"CCL4L2" -> "CCL5"
-"CCL5" -> "CCL14"
-"CCL5" -> "CCL3L1"
-"CCL5" -> "CCL3"
-"CCL5" -> "CCL1"
-"CCL7" -> "CCL2"
-"CCL7" -> "CCL13"
-"CCL7" -> "CCL8"
-"CCL7" -> "CCL11"
-"CCL8" -> "CCL2"
-"CCL8" -> "CCL13"
-"CCL8" -> "CCL7"
-"CCL8" -> "CCL11"
-"CXCL1" -> "CXCL2"
-"CXCL1" -> "CXCL3"
-"CXCL1" -> "CXCL6"
-"CXCL1" -> "CXCL8"
-"CXCL10" -> "CXCL11"
-"CXCL10" -> "CXCL9"
-"CXCL10" -> "CCL8"
-"CXCL10" -> "CXCL1"
-"CXCL11" -> "CXCL10"
-"CXCL11" -> "CXCL9"
-"CXCL11" -> "CXCL5"
-"CXCL11" -> "CCL8"
-"CXCL12" -> "CCL24"
-"CXCL12" -> "CXCL14"
-"CXCL12" -> "CCL13"
-"CXCL12" -> "CXCL13"
-"CXCL13" -> "CCL1"
-"CXCL13" -> "CXCL6"
-"CXCL13" -> "CCL8"
-"CXCL13" -> "CCL16"
-"CXCL14" -> "CXCL12"
-"CXCL14" -> "CXCL1"
-"CXCL14" -> "CXCL13"
-"CXCL14" -> "CCL13"
-"CXCL2" -> "CXCL3"
-"CXCL2" -> "CXCL1"
-"CXCL2" -> "CXCL8"
-"CXCL2" -> "CXCL5"
-"CXCL3" -> "CXCL2"
-"CXCL3" -> "CXCL1"
-"CXCL3" -> "CXCL5"
-"CXCL3" -> "CXCL8"
-"CXCL5" -> "CXCL3"
-"CXCL5" -> "CXCL6"
-"CXCL5" -> "CXCL2"
-"CXCL5" -> "CXCL1"
-"CXCL6" -> "CXCL1"
-"CXCL6" -> "CXCL5"
-"CXCL6" -> "CXCL2"
-"CXCL6" -> "CXCL3"
-"CXCL8" -> "CXCL2"
-"CXCL8" -> "CXCL1"
-"CXCL8" -> "CXCL3"
-"CXCL8" -> "CCL7"
-"CXCL9" -> "CXCL11"
-"CXCL9" -> "CXCL10"
-"CXCL9" -> "CXCL12"
-"CXCL9" -> "CCL21"
-"GNLY" -> "PPBP"
-"GNLY" -> "CCL21"
-"GNLY" -> "PF4"
-"GNLY" -> "PF4V1"
-"PF4" -> "PPBP"
-"PF4" -> "PF4V1"
-"PF4" -> "CXCL6"
-"PF4" -> "CXCL5"
-"PF4V1" -> "PF4"
-"PF4V1" -> "PPBP"
-"PF4V1" -> "CXCL6"
-"PF4V1" -> "CCL16"
-"PPBP" -> "PF4"
-"PPBP" -> "PF4V1"
-"PPBP" -> "CXCL5"
-"PPBP" -> "CXCL3"
-"XCL1" -> "XCL2"
-"XCL1" -> "CCL1"
-"XCL1" -> "CCL20"
-"XCL1" -> "CXCL13"
-"XCL2" -> "XCL1"
-"XCL2" -> "CCL8"
-"XCL2" -> "CCL7"
-"XCL2" -> "CCL2"
+"CCL1" -> "CCL20" ["e"=1]
+"CCL1" -> "CCL8" ["e"=1]
+"CCL1" -> "CCL17" ["e"=1]
+"CCL1" -> "CCL7" ["e"=1]
+"CCL11" -> "CCL13" ["e"=1]
+"CCL11" -> "CCL8" ["e"=1]
+"CCL11" -> "CCL7" ["e"=1]
+"CCL11" -> "CCL2" ["e"=1]
+"CCL13" -> "CCL8" ["e"=1]
+"CCL13" -> "CCL11" ["e"=1]
+"CCL13" -> "CCL7" ["e"=1]
+"CCL13" -> "CCL2" ["e"=1]
+"CCL14" -> "CCL5" ["e"=1]
+"CCL14" -> "CCL23" ["e"=1]
+"CCL14" -> "CCL13" ["e"=1]
+"CCL14" -> "CCL16" ["e"=1]
+"CCL15" -> "CCL23" ["e"=1]
+"CCL15" -> "CCL1" ["e"=1]
+"CCL15" -> "CCL14" ["e"=1]
+"CCL15" -> "CCL16" ["e"=1]
+"CCL16" -> "PF4V1" ["e"=1]
+"CCL16" -> "CXCL13" ["e"=1]
+"CCL16" -> "CCL1" ["e"=1]
+"CCL16" -> "CCL14" ["e"=1]
+"CCL17" -> "CCL22" ["e"=1]
+"CCL17" -> "CCL13" ["e"=1]
+"CCL17" -> "CCL7" ["e"=1]
+"CCL17" -> "CCL8" ["e"=1]
+"CCL18" -> "CCL13" ["e"=1]
+"CCL18" -> "CCL22" ["e"=1]
+"CCL18" -> "CCL8" ["e"=1]
+"CCL18" -> "CCL17" ["e"=1]
+"CCL19" -> "CCL22" ["e"=1]
+"CCL19" -> "CCL21" ["e"=1]
+"CCL19" -> "CCL8" ["e"=1]
+"CCL19" -> "CCL13" ["e"=1]
+"CCL2" -> "CCL8" ["e"=1]
+"CCL2" -> "CCL7" ["e"=1]
+"CCL2" -> "CCL13" ["e"=1]
+"CCL2" -> "CCL11" ["e"=1]
+"CCL20" -> "CCL7" ["e"=1]
+"CCL20" -> "CCL1" ["e"=1]
+"CCL20" -> "CXCL3" ["e"=1]
+"CCL20" -> "CXCL8" ["e"=1]
+"CCL21" -> "CCL19" ["e"=1]
+"CCL21" -> "CCL28" ["e"=1]
+"CCL21" -> "CCL24" ["e"=1]
+"CCL21" -> "CXCL9" ["e"=1]
+"CCL22" -> "CCL17" ["e"=1]
+"CCL22" -> "CCL19" ["e"=1]
+"CCL22" -> "CCL24" ["e"=1]
+"CCL22" -> "CCL18" ["e"=1]
+"CCL23" -> "CCL15" ["e"=1]
+"CCL23" -> "CCL14" ["e"=1]
+"CCL23" -> "CCL2" ["e"=1]
+"CCL23" -> "CCL1" ["e"=1]
+"CCL24" -> "CXCL12" ["e"=1]
+"CCL24" -> "CCL8" ["e"=1]
+"CCL24" -> "CCL13" ["e"=1]
+"CCL24" -> "CCL22" ["e"=1]
+"CCL25" -> "CCL21" ["e"=1]
+"CCL25" -> "CCL26" ["e"=1]
+"CCL25" -> "CCL1" ["e"=1]
+"CCL25" -> "CCL24" ["e"=1]
+"CCL26" -> "CCL7" ["e"=1]
+"CCL26" -> "CCL11" ["e"=1]
+"CCL26" -> "CCL8" ["e"=1]
+"CCL26" -> "CCL13" ["e"=1]
+"CCL27" -> "PF4" ["e"=1]
+"CCL27" -> "CCL19" ["e"=1]
+"CCL27" -> "CCL22" ["e"=1]
+"CCL27" -> "CXCL6" ["e"=1]
+"CCL28" -> "CCL21" ["e"=1]
+"CCL28" -> "CXCL11" ["e"=1]
+"CCL28" -> "CCL16" ["e"=1]
+"CCL28" -> "PPBP" ["e"=1]
+"CCL3" -> "CCL3L1" ["e"=1]
+"CCL3" -> "CCL4L2" ["e"=1]
+"CCL3" -> "CCL4" ["e"=1]
+"CCL3" -> "CCL5" ["e"=1]
+"CCL3L1" -> "CCL3" ["e"=1]
+"CCL3L1" -> "CCL4L2" ["e"=1]
+"CCL3L1" -> "CCL4" ["e"=1]
+"CCL3L1" -> "CCL5" ["e"=1]
+"CCL4" -> "CCL4L2" ["e"=1]
+"CCL4" -> "CCL3" ["e"=1]
+"CCL4" -> "CCL3L1" ["e"=1]
+"CCL4" -> "CCL5" ["e"=1]
+"CCL4L2" -> "CCL4" ["e"=1]
+"CCL4L2" -> "CCL3L1" ["e"=1]
+"CCL4L2" -> "CCL3" ["e"=1]
+"CCL4L2" -> "CCL5" ["e"=1]
+"CCL5" -> "CCL14" ["e"=1]
+"CCL5" -> "CCL3L1" ["e"=1]
+"CCL5" -> "CCL3" ["e"=1]
+"CCL5" -> "CCL1" ["e"=1]
+"CCL7" -> "CCL2" ["e"=1]
+"CCL7" -> "CCL13" ["e"=1]
+"CCL7" -> "CCL8" ["e"=1]
+"CCL7" -> "CCL11" ["e"=1]
+"CCL8" -> "CCL2" ["e"=1]
+"CCL8" -> "CCL13" ["e"=1]
+"CCL8" -> "CCL7" ["e"=1]
+"CCL8" -> "CCL11" ["e"=1]
+"CXCL1" -> "CXCL2" ["e"=1]
+"CXCL1" -> "CXCL3" ["e"=1]
+"CXCL1" -> "CXCL6" ["e"=1]
+"CXCL1" -> "CXCL8" ["e"=1]
+"CXCL10" -> "CXCL11" ["e"=1]
+"CXCL10" -> "CXCL9" ["e"=1]
+"CXCL10" -> "CCL8" ["e"=1]
+"CXCL10" -> "CXCL1" ["e"=1]
+"CXCL11" -> "CXCL10" ["e"=1]
+"CXCL11" -> "CXCL9" ["e"=1]
+"CXCL11" -> "CXCL5" ["e"=1]
+"CXCL11" -> "CCL8" ["e"=1]
+"CXCL12" -> "CCL24" ["e"=1]
+"CXCL12" -> "CXCL14" ["e"=1]
+"CXCL12" -> "CCL13" ["e"=1]
+"CXCL12" -> "CXCL13" ["e"=1]
+"CXCL13" -> "CCL1" ["e"=1]
+"CXCL13" -> "CXCL6" ["e"=1]
+"CXCL13" -> "CCL8" ["e"=1]
+"CXCL13" -> "CCL16" ["e"=1]
+"CXCL14" -> "CXCL12" ["e"=1]
+"CXCL14" -> "CXCL1" ["e"=1]
+"CXCL14" -> "CXCL13" ["e"=1]
+"CXCL14" -> "CCL13" ["e"=1]
+"CXCL2" -> "CXCL3" ["e"=1]
+"CXCL2" -> "CXCL1" ["e"=1]
+"CXCL2" -> "CXCL8" ["e"=1]
+"CXCL2" -> "CXCL5" ["e"=1]
+"CXCL3" -> "CXCL2" ["e"=1]
+"CXCL3" -> "CXCL1" ["e"=1]
+"CXCL3" -> "CXCL5" ["e"=1]
+"CXCL3" -> "CXCL8" ["e"=1]
+"CXCL5" -> "CXCL3" ["e"=1]
+"CXCL5" -> "CXCL6" ["e"=1]
+"CXCL5" -> "CXCL2" ["e"=1]
+"CXCL5" -> "CXCL1" ["e"=1]
+"CXCL6" -> "CXCL1" ["e"=1]
+"CXCL6" -> "CXCL5" ["e"=1]
+"CXCL6" -> "CXCL2" ["e"=1]
+"CXCL6" -> "CXCL3" ["e"=1]
+"CXCL8" -> "CXCL2" ["e"=1]
+"CXCL8" -> "CXCL1" ["e"=1]
+"CXCL8" -> "CXCL3" ["e"=1]
+"CXCL8" -> "CCL7" ["e"=1]
+"CXCL9" -> "CXCL11" ["e"=1]
+"CXCL9" -> "CXCL10" ["e"=1]
+"CXCL9" -> "CXCL12" ["e"=1]
+"CXCL9" -> "CCL21" ["e"=1]
+"GNLY" -> "PPBP" ["e"=1]
+"GNLY" -> "CCL21" ["e"=1]
+"GNLY" -> "PF4" ["e"=1]
+"GNLY" -> "PF4V1" ["e"=1]
+"PF4" -> "PPBP" ["e"=1]
+"PF4" -> "PF4V1" ["e"=1]
+"PF4" -> "CXCL6" ["e"=1]
+"PF4" -> "CXCL5" ["e"=1]
+"PF4V1" -> "PF4" ["e"=1]
+"PF4V1" -> "PPBP" ["e"=1]
+"PF4V1" -> "CXCL6" ["e"=1]
+"PF4V1" -> "CCL16" ["e"=1]
+"PPBP" -> "PF4" ["e"=1]
+"PPBP" -> "PF4V1" ["e"=1]
+"PPBP" -> "CXCL5" ["e"=1]
+"PPBP" -> "CXCL3" ["e"=1]
+"XCL1" -> "XCL2" ["e"=1]
+"XCL1" -> "CCL1" ["e"=1]
+"XCL1" -> "CCL20" ["e"=1]
+"XCL1" -> "CXCL13" ["e"=1]
+"XCL2" -> "XCL1" ["e"=1]
+"XCL2" -> "CCL8" ["e"=1]
+"XCL2" -> "CCL7" ["e"=1]
+"XCL2" -> "CCL2" ["e"=1]
 }

@@ -20,88 +20,88 @@ digraph G {
 "PLA2G5" ["l"="14.203,-1.504"]
 "RETNLB" ["l"="14.238,-1.553"]
 "RTBDN" ["l"="14.208,-1.580"]
-"FOLR1" -> "FOLR2"
-"FOLR1" -> "IZUMO1R"
-"FOLR1" -> "FOLR3"
-"FOLR1" -> "PLA2G2D"
-"FOLR2" -> "FOLR1"
-"FOLR2" -> "FOLR3"
-"FOLR2" -> "IZUMO1R"
-"FOLR2" -> "PLA2G2D"
-"FOLR3" -> "FOLR2"
-"FOLR3" -> "FOLR1"
-"FOLR3" -> "IZUMO1R"
-"FOLR3" -> "PLA2G2D"
-"IZUMO1R" -> "FOLR1"
-"IZUMO1R" -> "FOLR3"
-"IZUMO1R" -> "FOLR2"
-"IZUMO1R" -> "RTBDN"
-"LALBA" -> "LYZ"
-"LALBA" -> "PLA2G2C"
-"LALBA" -> "LYZL2"
-"LALBA" -> "LYZL4"
-"LY6G5B" -> "PLA2G2F"
-"LY6G5B" -> "PLA2G2C"
-"LY6G5B" -> "PLA2G2D"
-"LY6G5B" -> "LYZL6"
-"LYZ" -> "PLA2G2A"
-"LYZ" -> "LALBA"
-"LYZ" -> "LYZL2"
-"LYZ" -> "PLA2G1B"
-"LYZL1" -> "LYZL2"
-"LYZL1" -> "LYZL6"
-"LYZL1" -> "LYZL4"
-"LYZL1" -> "PLA2G2D"
-"LYZL2" -> "LYZL4"
-"LYZL2" -> "LYZL1"
-"LYZL2" -> "LYZL6"
-"LYZL2" -> "PLA2G2F"
-"LYZL4" -> "LYZL2"
-"LYZL4" -> "LYZL1"
-"LYZL4" -> "LYZL6"
-"LYZL4" -> "PLA2G2C"
-"LYZL6" -> "LYZL1"
-"LYZL6" -> "LYZL4"
-"LYZL6" -> "LYZL2"
-"LYZL6" -> "PLA2G2F"
-"PDGFC" -> "LY6G5B"
-"PDGFC" -> "PLA2G2C"
-"PDGFC" -> "RTBDN"
-"PDGFC" -> "IZUMO1R"
-"PLA2G1B" -> "PLA2G2A"
-"PLA2G1B" -> "PLA2G2D"
-"PLA2G1B" -> "PLA2G5"
-"PLA2G1B" -> "PLA2G2F"
-"PLA2G2A" -> "PLA2G2E"
-"PLA2G2A" -> "PLA2G5"
-"PLA2G2A" -> "PLA2G2C"
-"PLA2G2A" -> "PLA2G1B"
-"PLA2G2C" -> "PLA2G2F"
-"PLA2G2C" -> "PLA2G2D"
-"PLA2G2C" -> "PLA2G2E"
-"PLA2G2C" -> "PLA2G5"
-"PLA2G2D" -> "PLA2G2F"
-"PLA2G2D" -> "PLA2G2C"
-"PLA2G2D" -> "PLA2G5"
-"PLA2G2D" -> "PLA2G2E"
-"PLA2G2E" -> "PLA2G5"
-"PLA2G2E" -> "PLA2G2C"
-"PLA2G2E" -> "PLA2G2D"
-"PLA2G2E" -> "PLA2G2F"
-"PLA2G2F" -> "PLA2G2D"
-"PLA2G2F" -> "PLA2G2C"
-"PLA2G2F" -> "PLA2G5"
-"PLA2G2F" -> "PLA2G2E"
-"PLA2G5" -> "PLA2G2E"
-"PLA2G5" -> "PLA2G2D"
-"PLA2G5" -> "PLA2G2C"
-"PLA2G5" -> "PLA2G2F"
-"RETNLB" -> "LYZ"
-"RETNLB" -> "PLA2G2C"
-"RETNLB" -> "LALBA"
-"RETNLB" -> "PLA2G2A"
-"RTBDN" -> "IZUMO1R"
-"RTBDN" -> "FOLR2"
-"RTBDN" -> "LY6G5B"
-"RTBDN" -> "FOLR1"
+"FOLR1" -> "FOLR2" ["e"=1]
+"FOLR1" -> "IZUMO1R" ["e"=1]
+"FOLR1" -> "FOLR3" ["e"=1]
+"FOLR1" -> "PLA2G2D" ["e"=1]
+"FOLR2" -> "FOLR1" ["e"=1]
+"FOLR2" -> "FOLR3" ["e"=1]
+"FOLR2" -> "IZUMO1R" ["e"=1]
+"FOLR2" -> "PLA2G2D" ["e"=1]
+"FOLR3" -> "FOLR2" ["e"=1]
+"FOLR3" -> "FOLR1" ["e"=1]
+"FOLR3" -> "IZUMO1R" ["e"=1]
+"FOLR3" -> "PLA2G2D" ["e"=1]
+"IZUMO1R" -> "FOLR1" ["e"=1]
+"IZUMO1R" -> "FOLR3" ["e"=1]
+"IZUMO1R" -> "FOLR2" ["e"=1]
+"IZUMO1R" -> "RTBDN" ["e"=1]
+"LALBA" -> "LYZ" ["e"=1]
+"LALBA" -> "PLA2G2C" ["e"=1]
+"LALBA" -> "LYZL2" ["e"=1]
+"LALBA" -> "LYZL4" ["e"=1]
+"LY6G5B" -> "PLA2G2F" ["e"=1]
+"LY6G5B" -> "PLA2G2C" ["e"=1]
+"LY6G5B" -> "PLA2G2D" ["e"=1]
+"LY6G5B" -> "LYZL6" ["e"=1]
+"LYZ" -> "PLA2G2A" ["e"=1]
+"LYZ" -> "LALBA" ["e"=1]
+"LYZ" -> "LYZL2" ["e"=1]
+"LYZ" -> "PLA2G1B" ["e"=1]
+"LYZL1" -> "LYZL2" ["e"=1]
+"LYZL1" -> "LYZL6" ["e"=1]
+"LYZL1" -> "LYZL4" ["e"=1]
+"LYZL1" -> "PLA2G2D" ["e"=1]
+"LYZL2" -> "LYZL4" ["e"=1]
+"LYZL2" -> "LYZL1" ["e"=1]
+"LYZL2" -> "LYZL6" ["e"=1]
+"LYZL2" -> "PLA2G2F" ["e"=1]
+"LYZL4" -> "LYZL2" ["e"=1]
+"LYZL4" -> "LYZL1" ["e"=1]
+"LYZL4" -> "LYZL6" ["e"=1]
+"LYZL4" -> "PLA2G2C" ["e"=1]
+"LYZL6" -> "LYZL1" ["e"=1]
+"LYZL6" -> "LYZL4" ["e"=1]
+"LYZL6" -> "LYZL2" ["e"=1]
+"LYZL6" -> "PLA2G2F" ["e"=1]
+"PDGFC" -> "LY6G5B" ["e"=1]
+"PDGFC" -> "PLA2G2C" ["e"=1]
+"PDGFC" -> "RTBDN" ["e"=1]
+"PDGFC" -> "IZUMO1R" ["e"=1]
+"PLA2G1B" -> "PLA2G2A" ["e"=1]
+"PLA2G1B" -> "PLA2G2D" ["e"=1]
+"PLA2G1B" -> "PLA2G5" ["e"=1]
+"PLA2G1B" -> "PLA2G2F" ["e"=1]
+"PLA2G2A" -> "PLA2G2E" ["e"=1]
+"PLA2G2A" -> "PLA2G5" ["e"=1]
+"PLA2G2A" -> "PLA2G2C" ["e"=1]
+"PLA2G2A" -> "PLA2G1B" ["e"=1]
+"PLA2G2C" -> "PLA2G2F" ["e"=1]
+"PLA2G2C" -> "PLA2G2D" ["e"=1]
+"PLA2G2C" -> "PLA2G2E" ["e"=1]
+"PLA2G2C" -> "PLA2G5" ["e"=1]
+"PLA2G2D" -> "PLA2G2F" ["e"=1]
+"PLA2G2D" -> "PLA2G2C" ["e"=1]
+"PLA2G2D" -> "PLA2G5" ["e"=1]
+"PLA2G2D" -> "PLA2G2E" ["e"=1]
+"PLA2G2E" -> "PLA2G5" ["e"=1]
+"PLA2G2E" -> "PLA2G2C" ["e"=1]
+"PLA2G2E" -> "PLA2G2D" ["e"=1]
+"PLA2G2E" -> "PLA2G2F" ["e"=1]
+"PLA2G2F" -> "PLA2G2D" ["e"=1]
+"PLA2G2F" -> "PLA2G2C" ["e"=1]
+"PLA2G2F" -> "PLA2G5" ["e"=1]
+"PLA2G2F" -> "PLA2G2E" ["e"=1]
+"PLA2G5" -> "PLA2G2E" ["e"=1]
+"PLA2G5" -> "PLA2G2D" ["e"=1]
+"PLA2G5" -> "PLA2G2C" ["e"=1]
+"PLA2G5" -> "PLA2G2F" ["e"=1]
+"RETNLB" -> "LYZ" ["e"=1]
+"RETNLB" -> "PLA2G2C" ["e"=1]
+"RETNLB" -> "LALBA" ["e"=1]
+"RETNLB" -> "PLA2G2A" ["e"=1]
+"RTBDN" -> "IZUMO1R" ["e"=1]
+"RTBDN" -> "FOLR2" ["e"=1]
+"RTBDN" -> "LY6G5B" ["e"=1]
+"RTBDN" -> "FOLR1" ["e"=1]
 }

@@ -17,76 +17,76 @@ digraph G {
 "RTN4IP1" ["l"="12.746,2.046"]
 "TATDN3" ["l"="12.670,1.956"]
 "UCKL1" ["l"="12.651,2.043"]
-"BBOX1" -> "LACTB2"
-"BBOX1" -> "NIT1"
-"BBOX1" -> "HDHD3"
-"BBOX1" -> "TATDN3"
-"COASY" -> "UCKL1"
-"COASY" -> "HDHD2"
-"COASY" -> "NUBP2"
-"COASY" -> "PPCDC"
-"CRPPA" -> "GLT1D1"
-"CRPPA" -> "METTL15"
-"CRPPA" -> "TATDN3"
-"CRPPA" -> "PPCDC"
-"GLT1D1" -> "LHPP"
-"GLT1D1" -> "TATDN3"
-"GLT1D1" -> "CRPPA"
-"GLT1D1" -> "PPCDC"
-"HDHD2" -> "LHPP"
-"HDHD2" -> "TATDN3"
-"HDHD2" -> "GLT1D1"
-"HDHD2" -> "COASY"
-"HDHD3" -> "NIT1"
-"HDHD3" -> "HDHD2"
-"HDHD3" -> "LHPP"
-"HDHD3" -> "TATDN3"
-"LACTB2" -> "TATDN3"
-"LACTB2" -> "LHPP"
-"LACTB2" -> "HDHD2"
-"LACTB2" -> "NUBP1"
-"LHPP" -> "HDHD2"
-"LHPP" -> "GLT1D1"
-"LHPP" -> "TATDN3"
-"LHPP" -> "NUBP2"
-"METTL15" -> "CRPPA"
-"METTL15" -> "RTN4IP1"
-"METTL15" -> "TATDN3"
-"METTL15" -> "HDHD2"
-"NIT1" -> "HDHD3"
-"NIT1" -> "TATDN3"
-"NIT1" -> "COASY"
-"NIT1" -> "METTL15"
-"NUBP1" -> "NUBP2"
-"NUBP1" -> "TATDN3"
-"NUBP1" -> "GLT1D1"
-"NUBP1" -> "RTN4IP1"
-"NUBP2" -> "PPCDC"
-"NUBP2" -> "NUBP1"
-"NUBP2" -> "GLT1D1"
-"NUBP2" -> "LHPP"
-"PHYHD1" -> "LHPP"
-"PHYHD1" -> "NUBP2"
-"PHYHD1" -> "PPCDC"
-"PHYHD1" -> "TATDN3"
-"PPCDC" -> "NUBP2"
-"PPCDC" -> "GLT1D1"
-"PPCDC" -> "PRPSAP2"
-"PPCDC" -> "LHPP"
-"PRPSAP2" -> "GLT1D1"
-"PRPSAP2" -> "PPCDC"
-"PRPSAP2" -> "UCKL1"
-"PRPSAP2" -> "HDHD2"
-"RTN4IP1" -> "METTL15"
-"RTN4IP1" -> "GLT1D1"
-"RTN4IP1" -> "TATDN3"
-"RTN4IP1" -> "NUBP1"
-"TATDN3" -> "HDHD2"
-"TATDN3" -> "GLT1D1"
-"TATDN3" -> "LHPP"
-"TATDN3" -> "CRPPA"
-"UCKL1" -> "COASY"
-"UCKL1" -> "PRPSAP2"
-"UCKL1" -> "NUBP2"
-"UCKL1" -> "PPCDC"
+"BBOX1" -> "LACTB2" ["e"=1]
+"BBOX1" -> "NIT1" ["e"=1]
+"BBOX1" -> "HDHD3" ["e"=1]
+"BBOX1" -> "TATDN3" ["e"=1]
+"COASY" -> "UCKL1" ["e"=1]
+"COASY" -> "HDHD2" ["e"=1]
+"COASY" -> "NUBP2" ["e"=1]
+"COASY" -> "PPCDC" ["e"=1]
+"CRPPA" -> "GLT1D1" ["e"=1]
+"CRPPA" -> "METTL15" ["e"=1]
+"CRPPA" -> "TATDN3" ["e"=1]
+"CRPPA" -> "PPCDC" ["e"=1]
+"GLT1D1" -> "LHPP" ["e"=1]
+"GLT1D1" -> "TATDN3" ["e"=1]
+"GLT1D1" -> "CRPPA" ["e"=1]
+"GLT1D1" -> "PPCDC" ["e"=1]
+"HDHD2" -> "LHPP" ["e"=1]
+"HDHD2" -> "TATDN3" ["e"=1]
+"HDHD2" -> "GLT1D1" ["e"=1]
+"HDHD2" -> "COASY" ["e"=1]
+"HDHD3" -> "NIT1" ["e"=1]
+"HDHD3" -> "HDHD2" ["e"=1]
+"HDHD3" -> "LHPP" ["e"=1]
+"HDHD3" -> "TATDN3" ["e"=1]
+"LACTB2" -> "TATDN3" ["e"=1]
+"LACTB2" -> "LHPP" ["e"=1]
+"LACTB2" -> "HDHD2" ["e"=1]
+"LACTB2" -> "NUBP1" ["e"=1]
+"LHPP" -> "HDHD2" ["e"=1]
+"LHPP" -> "GLT1D1" ["e"=1]
+"LHPP" -> "TATDN3" ["e"=1]
+"LHPP" -> "NUBP2" ["e"=1]
+"METTL15" -> "CRPPA" ["e"=1]
+"METTL15" -> "RTN4IP1" ["e"=1]
+"METTL15" -> "TATDN3" ["e"=1]
+"METTL15" -> "HDHD2" ["e"=1]
+"NIT1" -> "HDHD3" ["e"=1]
+"NIT1" -> "TATDN3" ["e"=1]
+"NIT1" -> "COASY" ["e"=1]
+"NIT1" -> "METTL15" ["e"=1]
+"NUBP1" -> "NUBP2" ["e"=1]
+"NUBP1" -> "TATDN3" ["e"=1]
+"NUBP1" -> "GLT1D1" ["e"=1]
+"NUBP1" -> "RTN4IP1" ["e"=1]
+"NUBP2" -> "PPCDC" ["e"=1]
+"NUBP2" -> "NUBP1" ["e"=1]
+"NUBP2" -> "GLT1D1" ["e"=1]
+"NUBP2" -> "LHPP" ["e"=1]
+"PHYHD1" -> "LHPP" ["e"=1]
+"PHYHD1" -> "NUBP2" ["e"=1]
+"PHYHD1" -> "PPCDC" ["e"=1]
+"PHYHD1" -> "TATDN3" ["e"=1]
+"PPCDC" -> "NUBP2" ["e"=1]
+"PPCDC" -> "GLT1D1" ["e"=1]
+"PPCDC" -> "PRPSAP2" ["e"=1]
+"PPCDC" -> "LHPP" ["e"=1]
+"PRPSAP2" -> "GLT1D1" ["e"=1]
+"PRPSAP2" -> "PPCDC" ["e"=1]
+"PRPSAP2" -> "UCKL1" ["e"=1]
+"PRPSAP2" -> "HDHD2" ["e"=1]
+"RTN4IP1" -> "METTL15" ["e"=1]
+"RTN4IP1" -> "GLT1D1" ["e"=1]
+"RTN4IP1" -> "TATDN3" ["e"=1]
+"RTN4IP1" -> "NUBP1" ["e"=1]
+"TATDN3" -> "HDHD2" ["e"=1]
+"TATDN3" -> "GLT1D1" ["e"=1]
+"TATDN3" -> "LHPP" ["e"=1]
+"TATDN3" -> "CRPPA" ["e"=1]
+"UCKL1" -> "COASY" ["e"=1]
+"UCKL1" -> "PRPSAP2" ["e"=1]
+"UCKL1" -> "NUBP2" ["e"=1]
+"UCKL1" -> "PPCDC" ["e"=1]
 }

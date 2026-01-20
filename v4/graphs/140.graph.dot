@@ -47,196 +47,196 @@ digraph G {
 "UBAC2" ["l"="9.979,-2.335"]
 "VANGL1" ["l"="9.981,-2.208"]
 "ZDHHC23" ["l"="10.016,-2.254"]
-"AMFR" -> "UBAC2"
-"AMFR" -> "RNF170"
-"AMFR" -> "GJD4"
-"AMFR" -> "VANGL1"
-"CALHM1" -> "CALHM3"
-"CALHM1" -> "CALHM2"
-"CALHM1" -> "CALHM4"
-"CALHM1" -> "GJA5"
-"CALHM2" -> "CALHM3"
-"CALHM2" -> "CALHM1"
-"CALHM2" -> "CALHM5"
-"CALHM2" -> "CALHM4"
-"CALHM3" -> "CALHM1"
-"CALHM3" -> "CALHM2"
-"CALHM3" -> "CALHM4"
-"CALHM3" -> "CALHM5"
-"CALHM4" -> "CALHM5"
-"CALHM4" -> "CALHM3"
-"CALHM4" -> "CALHM1"
-"CALHM4" -> "CALHM2"
-"CALHM5" -> "CALHM4"
-"CALHM5" -> "CALHM3"
-"CALHM5" -> "CALHM2"
-"CALHM5" -> "CALHM1"
-"CALHM6" -> "CALHM3"
-"CALHM6" -> "CALHM1"
-"CALHM6" -> "CALHM5"
-"CALHM6" -> "CALHM4"
-"DCSTAMP" -> "CALHM3"
-"DCSTAMP" -> "ZDHHC23"
-"DCSTAMP" -> "GJB7"
-"DCSTAMP" -> "CALHM1"
-"FAM8A1" -> "RNF170"
-"FAM8A1" -> "ORAI1"
-"FAM8A1" -> "ORAI3"
-"FAM8A1" -> "AMFR"
-"GJA1" -> "GJA5"
-"GJA1" -> "GJA4"
-"GJA1" -> "GJC1"
-"GJA1" -> "CALHM1"
-"GJA10" -> "GJA5"
-"GJA10" -> "CALHM3"
-"GJA10" -> "GJA1"
-"GJA10" -> "GJD4"
-"GJA4" -> "GJA5"
-"GJA4" -> "GJB5"
-"GJA4" -> "GJD3"
-"GJA4" -> "GJA1"
-"GJA5" -> "GJA1"
-"GJA5" -> "GJA4"
-"GJA5" -> "CALHM3"
-"GJA5" -> "CALHM1"
-"GJA8" -> "GJA4"
-"GJA8" -> "GJD4"
-"GJA8" -> "GJA5"
-"GJA8" -> "GJA10"
-"GJB2" -> "GJB6"
-"GJB2" -> "GJB5"
-"GJB2" -> "GJB7"
-"GJB2" -> "GJB3"
-"GJB3" -> "GJB5"
-"GJB3" -> "GJB4"
-"GJB3" -> "GJB6"
-"GJB3" -> "GJB2"
-"GJB4" -> "GJB5"
-"GJB4" -> "GJB3"
-"GJB4" -> "GJB6"
-"GJB4" -> "GJD3"
-"GJB5" -> "GJB3"
-"GJB5" -> "GJB4"
-"GJB5" -> "GJB6"
-"GJB5" -> "GJB2"
-"GJB6" -> "GJB5"
-"GJB6" -> "GJB2"
-"GJB6" -> "GJB4"
-"GJB6" -> "GJB3"
-"GJB7" -> "GJB2"
-"GJB7" -> "GJB6"
-"GJB7" -> "CALHM3"
-"GJB7" -> "GJD3"
-"GJC1" -> "GJD2"
-"GJC1" -> "GJA5"
-"GJC1" -> "GJA1"
-"GJC1" -> "PANX1"
-"GJC3" -> "GJD3"
-"GJC3" -> "GJD4"
-"GJC3" -> "CALHM3"
-"GJC3" -> "GJB7"
-"GJD2" -> "GJC1"
-"GJD2" -> "GJA5"
-"GJD2" -> "ZDHHC23"
-"GJD2" -> "GJD4"
-"GJD3" -> "GJD4"
-"GJD3" -> "CALHM3"
-"GJD3" -> "GJC3"
-"GJD3" -> "CALHM1"
-"GJD4" -> "CALHM3"
-"GJD4" -> "GJD3"
-"GJD4" -> "CALHM1"
-"GJD4" -> "GJC3"
-"MARVELD2" -> "OCLN"
-"MARVELD2" -> "CALHM1"
-"MARVELD2" -> "CALHM3"
-"MARVELD2" -> "VANGL1"
-"MPV17" -> "MPV17L2"
-"MPV17" -> "PEX11G"
-"MPV17" -> "PEX11A"
-"MPV17" -> "PEX11B"
-"MPV17L2" -> "PEX11G"
-"MPV17L2" -> "PEX11A"
-"MPV17L2" -> "PEX11B"
-"MPV17L2" -> "MPV17"
-"OCLN" -> "MARVELD2"
-"OCLN" -> "TTYH2"
-"OCLN" -> "CALHM1"
-"OCLN" -> "CALHM4"
-"ORAI1" -> "ORAI3"
-"ORAI1" -> "ORAI2"
-"ORAI1" -> "CALHM1"
-"ORAI1" -> "FAM8A1"
-"ORAI2" -> "VANGL1"
-"ORAI2" -> "ORAI1"
-"ORAI2" -> "STUM"
-"ORAI2" -> "ORAI3"
-"ORAI3" -> "CALHM1"
-"ORAI3" -> "ORAI1"
-"ORAI3" -> "TMEM199"
-"ORAI3" -> "TMEM88"
-"PANX1" -> "CALHM3"
-"PANX1" -> "CALHM1"
-"PANX1" -> "CALHM5"
-"PANX1" -> "GJC1"
-"PEX11A" -> "PEX11B"
-"PEX11A" -> "PEX11G"
-"PEX11A" -> "MPV17L2"
-"PEX11A" -> "MPV17"
-"PEX11B" -> "PEX11A"
-"PEX11B" -> "PEX11G"
-"PEX11B" -> "TMEM199"
-"PEX11B" -> "MPV17L2"
-"PEX11G" -> "PEX11A"
-"PEX11G" -> "PEX11B"
-"PEX11G" -> "MPV17L2"
-"PEX11G" -> "MPV17"
-"PROM2" -> "TTYH1"
-"PROM2" -> "TTYH3"
-"PROM2" -> "TTYH2"
-"PROM2" -> "CALHM1"
-"RHBDD1" -> "UBAC2"
-"RHBDD1" -> "AMFR"
-"RHBDD1" -> "ZDHHC23"
-"RHBDD1" -> "RNF170"
-"RNF170" -> "AMFR"
-"RNF170" -> "VANGL1"
-"RNF170" -> "ZDHHC23"
-"RNF170" -> "FAM8A1"
-"STUM" -> "ORAI2"
-"STUM" -> "VANGL1"
-"STUM" -> "ORAI1"
-"STUM" -> "GJD2"
-"TMEM199" -> "PEX11B"
-"TMEM199" -> "ORAI3"
-"TMEM199" -> "CALHM1"
-"TMEM199" -> "MPV17L2"
-"TMEM88" -> "ORAI3"
-"TMEM88" -> "CALHM1"
-"TMEM88" -> "GJD3"
-"TMEM88" -> "CALHM3"
-"TTYH1" -> "TTYH2"
-"TTYH1" -> "TTYH3"
-"TTYH1" -> "CALHM1"
-"TTYH1" -> "PROM2"
-"TTYH2" -> "TTYH3"
-"TTYH2" -> "TTYH1"
-"TTYH2" -> "CALHM3"
-"TTYH2" -> "CALHM1"
-"TTYH3" -> "TTYH2"
-"TTYH3" -> "TTYH1"
-"TTYH3" -> "CALHM1"
-"TTYH3" -> "PROM2"
-"UBAC2" -> "AMFR"
-"UBAC2" -> "RHBDD1"
-"UBAC2" -> "RNF170"
-"UBAC2" -> "VANGL1"
-"VANGL1" -> "CALHM5"
-"VANGL1" -> "CALHM3"
-"VANGL1" -> "CALHM1"
-"VANGL1" -> "ZDHHC23"
-"ZDHHC23" -> "DCSTAMP"
-"ZDHHC23" -> "GJD2"
-"ZDHHC23" -> "VANGL1"
-"ZDHHC23" -> "RNF170"
+"AMFR" -> "UBAC2" ["e"=1]
+"AMFR" -> "RNF170" ["e"=1]
+"AMFR" -> "GJD4" ["e"=1]
+"AMFR" -> "VANGL1" ["e"=1]
+"CALHM1" -> "CALHM3" ["e"=1]
+"CALHM1" -> "CALHM2" ["e"=1]
+"CALHM1" -> "CALHM4" ["e"=1]
+"CALHM1" -> "GJA5" ["e"=1]
+"CALHM2" -> "CALHM3" ["e"=1]
+"CALHM2" -> "CALHM1" ["e"=1]
+"CALHM2" -> "CALHM5" ["e"=1]
+"CALHM2" -> "CALHM4" ["e"=1]
+"CALHM3" -> "CALHM1" ["e"=1]
+"CALHM3" -> "CALHM2" ["e"=1]
+"CALHM3" -> "CALHM4" ["e"=1]
+"CALHM3" -> "CALHM5" ["e"=1]
+"CALHM4" -> "CALHM5" ["e"=1]
+"CALHM4" -> "CALHM3" ["e"=1]
+"CALHM4" -> "CALHM1" ["e"=1]
+"CALHM4" -> "CALHM2" ["e"=1]
+"CALHM5" -> "CALHM4" ["e"=1]
+"CALHM5" -> "CALHM3" ["e"=1]
+"CALHM5" -> "CALHM2" ["e"=1]
+"CALHM5" -> "CALHM1" ["e"=1]
+"CALHM6" -> "CALHM3" ["e"=1]
+"CALHM6" -> "CALHM1" ["e"=1]
+"CALHM6" -> "CALHM5" ["e"=1]
+"CALHM6" -> "CALHM4" ["e"=1]
+"DCSTAMP" -> "CALHM3" ["e"=1]
+"DCSTAMP" -> "ZDHHC23" ["e"=1]
+"DCSTAMP" -> "GJB7" ["e"=1]
+"DCSTAMP" -> "CALHM1" ["e"=1]
+"FAM8A1" -> "RNF170" ["e"=1]
+"FAM8A1" -> "ORAI1" ["e"=1]
+"FAM8A1" -> "ORAI3" ["e"=1]
+"FAM8A1" -> "AMFR" ["e"=1]
+"GJA1" -> "GJA5" ["e"=1]
+"GJA1" -> "GJA4" ["e"=1]
+"GJA1" -> "GJC1" ["e"=1]
+"GJA1" -> "CALHM1" ["e"=1]
+"GJA10" -> "GJA5" ["e"=1]
+"GJA10" -> "CALHM3" ["e"=1]
+"GJA10" -> "GJA1" ["e"=1]
+"GJA10" -> "GJD4" ["e"=1]
+"GJA4" -> "GJA5" ["e"=1]
+"GJA4" -> "GJB5" ["e"=1]
+"GJA4" -> "GJD3" ["e"=1]
+"GJA4" -> "GJA1" ["e"=1]
+"GJA5" -> "GJA1" ["e"=1]
+"GJA5" -> "GJA4" ["e"=1]
+"GJA5" -> "CALHM3" ["e"=1]
+"GJA5" -> "CALHM1" ["e"=1]
+"GJA8" -> "GJA4" ["e"=1]
+"GJA8" -> "GJD4" ["e"=1]
+"GJA8" -> "GJA5" ["e"=1]
+"GJA8" -> "GJA10" ["e"=1]
+"GJB2" -> "GJB6" ["e"=1]
+"GJB2" -> "GJB5" ["e"=1]
+"GJB2" -> "GJB7" ["e"=1]
+"GJB2" -> "GJB3" ["e"=1]
+"GJB3" -> "GJB5" ["e"=1]
+"GJB3" -> "GJB4" ["e"=1]
+"GJB3" -> "GJB6" ["e"=1]
+"GJB3" -> "GJB2" ["e"=1]
+"GJB4" -> "GJB5" ["e"=1]
+"GJB4" -> "GJB3" ["e"=1]
+"GJB4" -> "GJB6" ["e"=1]
+"GJB4" -> "GJD3" ["e"=1]
+"GJB5" -> "GJB3" ["e"=1]
+"GJB5" -> "GJB4" ["e"=1]
+"GJB5" -> "GJB6" ["e"=1]
+"GJB5" -> "GJB2" ["e"=1]
+"GJB6" -> "GJB5" ["e"=1]
+"GJB6" -> "GJB2" ["e"=1]
+"GJB6" -> "GJB4" ["e"=1]
+"GJB6" -> "GJB3" ["e"=1]
+"GJB7" -> "GJB2" ["e"=1]
+"GJB7" -> "GJB6" ["e"=1]
+"GJB7" -> "CALHM3" ["e"=1]
+"GJB7" -> "GJD3" ["e"=1]
+"GJC1" -> "GJD2" ["e"=1]
+"GJC1" -> "GJA5" ["e"=1]
+"GJC1" -> "GJA1" ["e"=1]
+"GJC1" -> "PANX1" ["e"=1]
+"GJC3" -> "GJD3" ["e"=1]
+"GJC3" -> "GJD4" ["e"=1]
+"GJC3" -> "CALHM3" ["e"=1]
+"GJC3" -> "GJB7" ["e"=1]
+"GJD2" -> "GJC1" ["e"=1]
+"GJD2" -> "GJA5" ["e"=1]
+"GJD2" -> "ZDHHC23" ["e"=1]
+"GJD2" -> "GJD4" ["e"=1]
+"GJD3" -> "GJD4" ["e"=1]
+"GJD3" -> "CALHM3" ["e"=1]
+"GJD3" -> "GJC3" ["e"=1]
+"GJD3" -> "CALHM1" ["e"=1]
+"GJD4" -> "CALHM3" ["e"=1]
+"GJD4" -> "GJD3" ["e"=1]
+"GJD4" -> "CALHM1" ["e"=1]
+"GJD4" -> "GJC3" ["e"=1]
+"MARVELD2" -> "OCLN" ["e"=1]
+"MARVELD2" -> "CALHM1" ["e"=1]
+"MARVELD2" -> "CALHM3" ["e"=1]
+"MARVELD2" -> "VANGL1" ["e"=1]
+"MPV17" -> "MPV17L2" ["e"=1]
+"MPV17" -> "PEX11G" ["e"=1]
+"MPV17" -> "PEX11A" ["e"=1]
+"MPV17" -> "PEX11B" ["e"=1]
+"MPV17L2" -> "PEX11G" ["e"=1]
+"MPV17L2" -> "PEX11A" ["e"=1]
+"MPV17L2" -> "PEX11B" ["e"=1]
+"MPV17L2" -> "MPV17" ["e"=1]
+"OCLN" -> "MARVELD2" ["e"=1]
+"OCLN" -> "TTYH2" ["e"=1]
+"OCLN" -> "CALHM1" ["e"=1]
+"OCLN" -> "CALHM4" ["e"=1]
+"ORAI1" -> "ORAI3" ["e"=1]
+"ORAI1" -> "ORAI2" ["e"=1]
+"ORAI1" -> "CALHM1" ["e"=1]
+"ORAI1" -> "FAM8A1" ["e"=1]
+"ORAI2" -> "VANGL1" ["e"=1]
+"ORAI2" -> "ORAI1" ["e"=1]
+"ORAI2" -> "STUM" ["e"=1]
+"ORAI2" -> "ORAI3" ["e"=1]
+"ORAI3" -> "CALHM1" ["e"=1]
+"ORAI3" -> "ORAI1" ["e"=1]
+"ORAI3" -> "TMEM199" ["e"=1]
+"ORAI3" -> "TMEM88" ["e"=1]
+"PANX1" -> "CALHM3" ["e"=1]
+"PANX1" -> "CALHM1" ["e"=1]
+"PANX1" -> "CALHM5" ["e"=1]
+"PANX1" -> "GJC1" ["e"=1]
+"PEX11A" -> "PEX11B" ["e"=1]
+"PEX11A" -> "PEX11G" ["e"=1]
+"PEX11A" -> "MPV17L2" ["e"=1]
+"PEX11A" -> "MPV17" ["e"=1]
+"PEX11B" -> "PEX11A" ["e"=1]
+"PEX11B" -> "PEX11G" ["e"=1]
+"PEX11B" -> "TMEM199" ["e"=1]
+"PEX11B" -> "MPV17L2" ["e"=1]
+"PEX11G" -> "PEX11A" ["e"=1]
+"PEX11G" -> "PEX11B" ["e"=1]
+"PEX11G" -> "MPV17L2" ["e"=1]
+"PEX11G" -> "MPV17" ["e"=1]
+"PROM2" -> "TTYH1" ["e"=1]
+"PROM2" -> "TTYH3" ["e"=1]
+"PROM2" -> "TTYH2" ["e"=1]
+"PROM2" -> "CALHM1" ["e"=1]
+"RHBDD1" -> "UBAC2" ["e"=1]
+"RHBDD1" -> "AMFR" ["e"=1]
+"RHBDD1" -> "ZDHHC23" ["e"=1]
+"RHBDD1" -> "RNF170" ["e"=1]
+"RNF170" -> "AMFR" ["e"=1]
+"RNF170" -> "VANGL1" ["e"=1]
+"RNF170" -> "ZDHHC23" ["e"=1]
+"RNF170" -> "FAM8A1" ["e"=1]
+"STUM" -> "ORAI2" ["e"=1]
+"STUM" -> "VANGL1" ["e"=1]
+"STUM" -> "ORAI1" ["e"=1]
+"STUM" -> "GJD2" ["e"=1]
+"TMEM199" -> "PEX11B" ["e"=1]
+"TMEM199" -> "ORAI3" ["e"=1]
+"TMEM199" -> "CALHM1" ["e"=1]
+"TMEM199" -> "MPV17L2" ["e"=1]
+"TMEM88" -> "ORAI3" ["e"=1]
+"TMEM88" -> "CALHM1" ["e"=1]
+"TMEM88" -> "GJD3" ["e"=1]
+"TMEM88" -> "CALHM3" ["e"=1]
+"TTYH1" -> "TTYH2" ["e"=1]
+"TTYH1" -> "TTYH3" ["e"=1]
+"TTYH1" -> "CALHM1" ["e"=1]
+"TTYH1" -> "PROM2" ["e"=1]
+"TTYH2" -> "TTYH3" ["e"=1]
+"TTYH2" -> "TTYH1" ["e"=1]
+"TTYH2" -> "CALHM3" ["e"=1]
+"TTYH2" -> "CALHM1" ["e"=1]
+"TTYH3" -> "TTYH2" ["e"=1]
+"TTYH3" -> "TTYH1" ["e"=1]
+"TTYH3" -> "CALHM1" ["e"=1]
+"TTYH3" -> "PROM2" ["e"=1]
+"UBAC2" -> "AMFR" ["e"=1]
+"UBAC2" -> "RHBDD1" ["e"=1]
+"UBAC2" -> "RNF170" ["e"=1]
+"UBAC2" -> "VANGL1" ["e"=1]
+"VANGL1" -> "CALHM5" ["e"=1]
+"VANGL1" -> "CALHM3" ["e"=1]
+"VANGL1" -> "CALHM1" ["e"=1]
+"VANGL1" -> "ZDHHC23" ["e"=1]
+"ZDHHC23" -> "DCSTAMP" ["e"=1]
+"ZDHHC23" -> "GJD2" ["e"=1]
+"ZDHHC23" -> "VANGL1" ["e"=1]
+"ZDHHC23" -> "RNF170" ["e"=1]
 }

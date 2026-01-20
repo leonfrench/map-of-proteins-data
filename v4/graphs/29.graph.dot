@@ -47,196 +47,196 @@ digraph G {
 "TRDV1" ["l"="11.909,14.499"]
 "TRDV3" ["l"="11.892,14.513"]
 "TRGV10" ["l"="11.837,14.552"]
-"TRAV1-1" -> "TRAV1-2"
-"TRAV1-1" -> "TRAV9-2"
-"TRAV1-1" -> "TRAV12-2"
-"TRAV1-1" -> "TRAV21"
-"TRAV1-2" -> "TRAV1-1"
-"TRAV1-2" -> "TRAV9-2"
-"TRAV1-2" -> "TRAV8-2"
-"TRAV1-2" -> "TRAV8-4"
-"TRAV10" -> "TRAV17"
-"TRAV10" -> "TRAV13-1"
-"TRAV10" -> "TRAV4"
-"TRAV10" -> "TRAV29DV5"
-"TRAV12-1" -> "TRAV12-3"
-"TRAV12-1" -> "TRAV12-2"
-"TRAV12-1" -> "TRAV13-2"
-"TRAV12-1" -> "TRAV16"
-"TRAV12-2" -> "TRAV12-1"
-"TRAV12-2" -> "TRAV12-3"
-"TRAV12-2" -> "TRAV21"
-"TRAV12-2" -> "TRAV14DV4"
-"TRAV12-3" -> "TRAV12-1"
-"TRAV12-3" -> "TRAV12-2"
-"TRAV12-3" -> "TRAV16"
-"TRAV12-3" -> "TRAV22"
-"TRAV13-1" -> "TRAV12-2"
-"TRAV13-1" -> "TRAV21"
-"TRAV13-1" -> "TRAV13-2"
-"TRAV13-1" -> "TRAV29DV5"
-"TRAV13-2" -> "TRAV12-1"
-"TRAV13-2" -> "TRAV13-1"
-"TRAV13-2" -> "TRAV12-2"
-"TRAV13-2" -> "TRAV22"
-"TRAV14DV4" -> "TRAV38-1"
-"TRAV14DV4" -> "TRAV12-2"
-"TRAV14DV4" -> "TRAV29DV5"
-"TRAV14DV4" -> "TRAV9-2"
-"TRAV16" -> "TRAV22"
-"TRAV16" -> "TRAV8-2"
-"TRAV16" -> "TRAV8-6"
-"TRAV16" -> "TRAV12-2"
-"TRAV17" -> "TRAV41"
-"TRAV17" -> "TRAV29DV5"
-"TRAV17" -> "TRAV10"
-"TRAV17" -> "TRAV30"
-"TRAV19" -> "TRAV12-2"
-"TRAV19" -> "TRAV14DV4"
-"TRAV19" -> "TRAV38-1"
-"TRAV19" -> "TRAV29DV5"
-"TRAV2" -> "TRAV22"
-"TRAV2" -> "TRAV12-3"
-"TRAV2" -> "TRAV16"
-"TRAV2" -> "TRAV1-2"
-"TRAV20" -> "TRAV21"
-"TRAV20" -> "TRAV12-2"
-"TRAV20" -> "TRAV13-1"
-"TRAV20" -> "TRAV16"
-"TRAV21" -> "TRAV12-2"
-"TRAV21" -> "TRAV13-1"
-"TRAV21" -> "TRAV20"
-"TRAV21" -> "TRAV29DV5"
-"TRAV22" -> "TRAV16"
-"TRAV22" -> "TRAV12-2"
-"TRAV22" -> "TRAV12-3"
-"TRAV22" -> "TRAV21"
-"TRAV23DV6" -> "TRAV29DV5"
-"TRAV23DV6" -> "TRAV8-4"
-"TRAV23DV6" -> "TRAV25"
-"TRAV23DV6" -> "TRAV12-2"
-"TRAV24" -> "TRAV30"
-"TRAV24" -> "TRAV41"
-"TRAV24" -> "TRAV36DV7"
-"TRAV24" -> "TRAV22"
-"TRAV25" -> "TRAV10"
-"TRAV25" -> "TRAV23DV6"
-"TRAV25" -> "TRAV13-1"
-"TRAV25" -> "TRAV27"
-"TRAV26-1" -> "TRAV4"
-"TRAV26-1" -> "TRAV26-2"
-"TRAV26-1" -> "TRAV10"
-"TRAV26-1" -> "TRAV17"
-"TRAV26-2" -> "TRAV26-1"
-"TRAV26-2" -> "TRAV4"
-"TRAV26-2" -> "TRAV39"
-"TRAV26-2" -> "TRAV40"
-"TRAV27" -> "TRAV5"
-"TRAV27" -> "TRAV21"
-"TRAV27" -> "TRAV12-1"
-"TRAV27" -> "TRAV12-2"
-"TRAV29DV5" -> "TRAV17"
-"TRAV29DV5" -> "TRAV12-2"
-"TRAV29DV5" -> "TRAV14DV4"
-"TRAV29DV5" -> "TRAV13-1"
-"TRAV3" -> "TRAV12-2"
-"TRAV3" -> "TRAV14DV4"
-"TRAV3" -> "TRAV12-1"
-"TRAV3" -> "TRAV16"
-"TRAV30" -> "TRAV41"
-"TRAV30" -> "TRAV36DV7"
-"TRAV30" -> "TRAV17"
-"TRAV30" -> "TRAV24"
-"TRAV34" -> "TRAV30"
-"TRAV34" -> "TRAV41"
-"TRAV34" -> "TRAV39"
-"TRAV34" -> "TRAV6"
-"TRAV36DV7" -> "TRAV41"
-"TRAV36DV7" -> "TRAV30"
-"TRAV36DV7" -> "TRAV17"
-"TRAV36DV7" -> "TRAV12-2"
-"TRAV38-1" -> "TRAV38-2DV8"
-"TRAV38-1" -> "TRAV14DV4"
-"TRAV38-1" -> "TRAV29DV5"
-"TRAV38-1" -> "TRAV12-2"
-"TRAV38-2DV8" -> "TRAV38-1"
-"TRAV38-2DV8" -> "TRAV8-6"
-"TRAV38-2DV8" -> "TRAV12-2"
-"TRAV38-2DV8" -> "TRAV14DV4"
-"TRAV39" -> "TRAV17"
-"TRAV39" -> "TRAV41"
-"TRAV39" -> "TRAV16"
-"TRAV39" -> "TRAV36DV7"
-"TRAV4" -> "TRAV26-1"
-"TRAV4" -> "TRAV14DV4"
-"TRAV4" -> "TRAV10"
-"TRAV4" -> "TRAV29DV5"
-"TRAV40" -> "TRAV16"
-"TRAV40" -> "TRAV10"
-"TRAV40" -> "TRAV22"
-"TRAV40" -> "TRAV24"
-"TRAV41" -> "TRAV17"
-"TRAV41" -> "TRAV30"
-"TRAV41" -> "TRAV36DV7"
-"TRAV41" -> "TRAV39"
-"TRAV5" -> "TRAV27"
-"TRAV5" -> "TRAV13-1"
-"TRAV5" -> "TRAV12-2"
-"TRAV5" -> "TRAV12-1"
-"TRAV6" -> "TRAV5"
-"TRAV6" -> "TRAV36DV7"
-"TRAV6" -> "TRAV16"
-"TRAV6" -> "TRAV41"
-"TRAV7" -> "TRAV22"
-"TRAV7" -> "TRBV17"
-"TRAV7" -> "TRAV24"
-"TRAV7" -> "TRAV40"
-"TRAV8-1" -> "TRAV8-6"
-"TRAV8-1" -> "TRAV16"
-"TRAV8-1" -> "TRAV8-4"
-"TRAV8-1" -> "TRAV8-3"
-"TRAV8-2" -> "TRAV8-6"
-"TRAV8-2" -> "TRAV16"
-"TRAV8-2" -> "TRAV8-4"
-"TRAV8-2" -> "TRAV1-2"
-"TRAV8-3" -> "TRAV16"
-"TRAV8-3" -> "TRAV8-1"
-"TRAV8-3" -> "TRAV8-4"
-"TRAV8-3" -> "TRAV8-6"
-"TRAV8-4" -> "TRAV8-6"
-"TRAV8-4" -> "TRAV8-2"
-"TRAV8-4" -> "TRAV9-2"
-"TRAV8-4" -> "TRAV1-2"
-"TRAV8-6" -> "TRAV8-2"
-"TRAV8-6" -> "TRAV8-4"
-"TRAV8-6" -> "TRAV8-1"
-"TRAV8-6" -> "TRAV16"
-"TRAV9-1" -> "TRAV16"
-"TRAV9-1" -> "TRAV1-2"
-"TRAV9-1" -> "TRAV8-3"
-"TRAV9-1" -> "TRAV24"
-"TRAV9-2" -> "TRAV12-2"
-"TRAV9-2" -> "TRAV1-2"
-"TRAV9-2" -> "TRAV14DV4"
-"TRAV9-2" -> "TRAV8-4"
-"TRBV17" -> "TRBV5-3"
-"TRBV17" -> "TRAV22"
-"TRBV17" -> "TRAV16"
-"TRBV17" -> "TRAV7"
-"TRBV5-3" -> "TRAV2"
-"TRBV5-3" -> "TRAV21"
-"TRBV5-3" -> "TRAV24"
-"TRBV5-3" -> "TRAV8-3"
-"TRDV1" -> "TRAV16"
-"TRDV1" -> "TRAV1-2"
-"TRDV1" -> "TRAV8-1"
-"TRDV1" -> "TRAV38-1"
-"TRDV3" -> "TRAV16"
-"TRDV3" -> "TRAV12-2"
-"TRDV3" -> "TRAV19"
-"TRDV3" -> "TRAV9-2"
-"TRGV10" -> "TRAV17"
-"TRGV10" -> "TRAV16"
-"TRGV10" -> "TRAV8-4"
-"TRGV10" -> "TRAV14DV4"
+"TRAV1-1" -> "TRAV1-2" ["e"=1]
+"TRAV1-1" -> "TRAV9-2" ["e"=1]
+"TRAV1-1" -> "TRAV12-2" ["e"=1]
+"TRAV1-1" -> "TRAV21" ["e"=1]
+"TRAV1-2" -> "TRAV1-1" ["e"=1]
+"TRAV1-2" -> "TRAV9-2" ["e"=1]
+"TRAV1-2" -> "TRAV8-2" ["e"=1]
+"TRAV1-2" -> "TRAV8-4" ["e"=1]
+"TRAV10" -> "TRAV17" ["e"=1]
+"TRAV10" -> "TRAV13-1" ["e"=1]
+"TRAV10" -> "TRAV4" ["e"=1]
+"TRAV10" -> "TRAV29DV5" ["e"=1]
+"TRAV12-1" -> "TRAV12-3" ["e"=1]
+"TRAV12-1" -> "TRAV12-2" ["e"=1]
+"TRAV12-1" -> "TRAV13-2" ["e"=1]
+"TRAV12-1" -> "TRAV16" ["e"=1]
+"TRAV12-2" -> "TRAV12-1" ["e"=1]
+"TRAV12-2" -> "TRAV12-3" ["e"=1]
+"TRAV12-2" -> "TRAV21" ["e"=1]
+"TRAV12-2" -> "TRAV14DV4" ["e"=1]
+"TRAV12-3" -> "TRAV12-1" ["e"=1]
+"TRAV12-3" -> "TRAV12-2" ["e"=1]
+"TRAV12-3" -> "TRAV16" ["e"=1]
+"TRAV12-3" -> "TRAV22" ["e"=1]
+"TRAV13-1" -> "TRAV12-2" ["e"=1]
+"TRAV13-1" -> "TRAV21" ["e"=1]
+"TRAV13-1" -> "TRAV13-2" ["e"=1]
+"TRAV13-1" -> "TRAV29DV5" ["e"=1]
+"TRAV13-2" -> "TRAV12-1" ["e"=1]
+"TRAV13-2" -> "TRAV13-1" ["e"=1]
+"TRAV13-2" -> "TRAV12-2" ["e"=1]
+"TRAV13-2" -> "TRAV22" ["e"=1]
+"TRAV14DV4" -> "TRAV38-1" ["e"=1]
+"TRAV14DV4" -> "TRAV12-2" ["e"=1]
+"TRAV14DV4" -> "TRAV29DV5" ["e"=1]
+"TRAV14DV4" -> "TRAV9-2" ["e"=1]
+"TRAV16" -> "TRAV22" ["e"=1]
+"TRAV16" -> "TRAV8-2" ["e"=1]
+"TRAV16" -> "TRAV8-6" ["e"=1]
+"TRAV16" -> "TRAV12-2" ["e"=1]
+"TRAV17" -> "TRAV41" ["e"=1]
+"TRAV17" -> "TRAV29DV5" ["e"=1]
+"TRAV17" -> "TRAV10" ["e"=1]
+"TRAV17" -> "TRAV30" ["e"=1]
+"TRAV19" -> "TRAV12-2" ["e"=1]
+"TRAV19" -> "TRAV14DV4" ["e"=1]
+"TRAV19" -> "TRAV38-1" ["e"=1]
+"TRAV19" -> "TRAV29DV5" ["e"=1]
+"TRAV2" -> "TRAV22" ["e"=1]
+"TRAV2" -> "TRAV12-3" ["e"=1]
+"TRAV2" -> "TRAV16" ["e"=1]
+"TRAV2" -> "TRAV1-2" ["e"=1]
+"TRAV20" -> "TRAV21" ["e"=1]
+"TRAV20" -> "TRAV12-2" ["e"=1]
+"TRAV20" -> "TRAV13-1" ["e"=1]
+"TRAV20" -> "TRAV16" ["e"=1]
+"TRAV21" -> "TRAV12-2" ["e"=1]
+"TRAV21" -> "TRAV13-1" ["e"=1]
+"TRAV21" -> "TRAV20" ["e"=1]
+"TRAV21" -> "TRAV29DV5" ["e"=1]
+"TRAV22" -> "TRAV16" ["e"=1]
+"TRAV22" -> "TRAV12-2" ["e"=1]
+"TRAV22" -> "TRAV12-3" ["e"=1]
+"TRAV22" -> "TRAV21" ["e"=1]
+"TRAV23DV6" -> "TRAV29DV5" ["e"=1]
+"TRAV23DV6" -> "TRAV8-4" ["e"=1]
+"TRAV23DV6" -> "TRAV25" ["e"=1]
+"TRAV23DV6" -> "TRAV12-2" ["e"=1]
+"TRAV24" -> "TRAV30" ["e"=1]
+"TRAV24" -> "TRAV41" ["e"=1]
+"TRAV24" -> "TRAV36DV7" ["e"=1]
+"TRAV24" -> "TRAV22" ["e"=1]
+"TRAV25" -> "TRAV10" ["e"=1]
+"TRAV25" -> "TRAV23DV6" ["e"=1]
+"TRAV25" -> "TRAV13-1" ["e"=1]
+"TRAV25" -> "TRAV27" ["e"=1]
+"TRAV26-1" -> "TRAV4" ["e"=1]
+"TRAV26-1" -> "TRAV26-2" ["e"=1]
+"TRAV26-1" -> "TRAV10" ["e"=1]
+"TRAV26-1" -> "TRAV17" ["e"=1]
+"TRAV26-2" -> "TRAV26-1" ["e"=1]
+"TRAV26-2" -> "TRAV4" ["e"=1]
+"TRAV26-2" -> "TRAV39" ["e"=1]
+"TRAV26-2" -> "TRAV40" ["e"=1]
+"TRAV27" -> "TRAV5" ["e"=1]
+"TRAV27" -> "TRAV21" ["e"=1]
+"TRAV27" -> "TRAV12-1" ["e"=1]
+"TRAV27" -> "TRAV12-2" ["e"=1]
+"TRAV29DV5" -> "TRAV17" ["e"=1]
+"TRAV29DV5" -> "TRAV12-2" ["e"=1]
+"TRAV29DV5" -> "TRAV14DV4" ["e"=1]
+"TRAV29DV5" -> "TRAV13-1" ["e"=1]
+"TRAV3" -> "TRAV12-2" ["e"=1]
+"TRAV3" -> "TRAV14DV4" ["e"=1]
+"TRAV3" -> "TRAV12-1" ["e"=1]
+"TRAV3" -> "TRAV16" ["e"=1]
+"TRAV30" -> "TRAV41" ["e"=1]
+"TRAV30" -> "TRAV36DV7" ["e"=1]
+"TRAV30" -> "TRAV17" ["e"=1]
+"TRAV30" -> "TRAV24" ["e"=1]
+"TRAV34" -> "TRAV30" ["e"=1]
+"TRAV34" -> "TRAV41" ["e"=1]
+"TRAV34" -> "TRAV39" ["e"=1]
+"TRAV34" -> "TRAV6" ["e"=1]
+"TRAV36DV7" -> "TRAV41" ["e"=1]
+"TRAV36DV7" -> "TRAV30" ["e"=1]
+"TRAV36DV7" -> "TRAV17" ["e"=1]
+"TRAV36DV7" -> "TRAV12-2" ["e"=1]
+"TRAV38-1" -> "TRAV38-2DV8" ["e"=1]
+"TRAV38-1" -> "TRAV14DV4" ["e"=1]
+"TRAV38-1" -> "TRAV29DV5" ["e"=1]
+"TRAV38-1" -> "TRAV12-2" ["e"=1]
+"TRAV38-2DV8" -> "TRAV38-1" ["e"=1]
+"TRAV38-2DV8" -> "TRAV8-6" ["e"=1]
+"TRAV38-2DV8" -> "TRAV12-2" ["e"=1]
+"TRAV38-2DV8" -> "TRAV14DV4" ["e"=1]
+"TRAV39" -> "TRAV17" ["e"=1]
+"TRAV39" -> "TRAV41" ["e"=1]
+"TRAV39" -> "TRAV16" ["e"=1]
+"TRAV39" -> "TRAV36DV7" ["e"=1]
+"TRAV4" -> "TRAV26-1" ["e"=1]
+"TRAV4" -> "TRAV14DV4" ["e"=1]
+"TRAV4" -> "TRAV10" ["e"=1]
+"TRAV4" -> "TRAV29DV5" ["e"=1]
+"TRAV40" -> "TRAV16" ["e"=1]
+"TRAV40" -> "TRAV10" ["e"=1]
+"TRAV40" -> "TRAV22" ["e"=1]
+"TRAV40" -> "TRAV24" ["e"=1]
+"TRAV41" -> "TRAV17" ["e"=1]
+"TRAV41" -> "TRAV30" ["e"=1]
+"TRAV41" -> "TRAV36DV7" ["e"=1]
+"TRAV41" -> "TRAV39" ["e"=1]
+"TRAV5" -> "TRAV27" ["e"=1]
+"TRAV5" -> "TRAV13-1" ["e"=1]
+"TRAV5" -> "TRAV12-2" ["e"=1]
+"TRAV5" -> "TRAV12-1" ["e"=1]
+"TRAV6" -> "TRAV5" ["e"=1]
+"TRAV6" -> "TRAV36DV7" ["e"=1]
+"TRAV6" -> "TRAV16" ["e"=1]
+"TRAV6" -> "TRAV41" ["e"=1]
+"TRAV7" -> "TRAV22" ["e"=1]
+"TRAV7" -> "TRBV17" ["e"=1]
+"TRAV7" -> "TRAV24" ["e"=1]
+"TRAV7" -> "TRAV40" ["e"=1]
+"TRAV8-1" -> "TRAV8-6" ["e"=1]
+"TRAV8-1" -> "TRAV16" ["e"=1]
+"TRAV8-1" -> "TRAV8-4" ["e"=1]
+"TRAV8-1" -> "TRAV8-3" ["e"=1]
+"TRAV8-2" -> "TRAV8-6" ["e"=1]
+"TRAV8-2" -> "TRAV16" ["e"=1]
+"TRAV8-2" -> "TRAV8-4" ["e"=1]
+"TRAV8-2" -> "TRAV1-2" ["e"=1]
+"TRAV8-3" -> "TRAV16" ["e"=1]
+"TRAV8-3" -> "TRAV8-1" ["e"=1]
+"TRAV8-3" -> "TRAV8-4" ["e"=1]
+"TRAV8-3" -> "TRAV8-6" ["e"=1]
+"TRAV8-4" -> "TRAV8-6" ["e"=1]
+"TRAV8-4" -> "TRAV8-2" ["e"=1]
+"TRAV8-4" -> "TRAV9-2" ["e"=1]
+"TRAV8-4" -> "TRAV1-2" ["e"=1]
+"TRAV8-6" -> "TRAV8-2" ["e"=1]
+"TRAV8-6" -> "TRAV8-4" ["e"=1]
+"TRAV8-6" -> "TRAV8-1" ["e"=1]
+"TRAV8-6" -> "TRAV16" ["e"=1]
+"TRAV9-1" -> "TRAV16" ["e"=1]
+"TRAV9-1" -> "TRAV1-2" ["e"=1]
+"TRAV9-1" -> "TRAV8-3" ["e"=1]
+"TRAV9-1" -> "TRAV24" ["e"=1]
+"TRAV9-2" -> "TRAV12-2" ["e"=1]
+"TRAV9-2" -> "TRAV1-2" ["e"=1]
+"TRAV9-2" -> "TRAV14DV4" ["e"=1]
+"TRAV9-2" -> "TRAV8-4" ["e"=1]
+"TRBV17" -> "TRBV5-3" ["e"=1]
+"TRBV17" -> "TRAV22" ["e"=1]
+"TRBV17" -> "TRAV16" ["e"=1]
+"TRBV17" -> "TRAV7" ["e"=1]
+"TRBV5-3" -> "TRAV2" ["e"=1]
+"TRBV5-3" -> "TRAV21" ["e"=1]
+"TRBV5-3" -> "TRAV24" ["e"=1]
+"TRBV5-3" -> "TRAV8-3" ["e"=1]
+"TRDV1" -> "TRAV16" ["e"=1]
+"TRDV1" -> "TRAV1-2" ["e"=1]
+"TRDV1" -> "TRAV8-1" ["e"=1]
+"TRDV1" -> "TRAV38-1" ["e"=1]
+"TRDV3" -> "TRAV16" ["e"=1]
+"TRDV3" -> "TRAV12-2" ["e"=1]
+"TRDV3" -> "TRAV19" ["e"=1]
+"TRDV3" -> "TRAV9-2" ["e"=1]
+"TRGV10" -> "TRAV17" ["e"=1]
+"TRGV10" -> "TRAV16" ["e"=1]
+"TRGV10" -> "TRAV8-4" ["e"=1]
+"TRGV10" -> "TRAV14DV4" ["e"=1]
 }

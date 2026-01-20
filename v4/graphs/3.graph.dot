@@ -22,96 +22,96 @@ digraph G {
 "OR7G1" ["l"="-3.710,0.749"]
 "OR7G2" ["l"="-3.727,0.730"]
 "OR7G3" ["l"="-3.744,0.721"]
-"OR1D2" -> "OR7D4"
-"OR1D2" -> "OR1I1"
-"OR1D2" -> "OR7A17"
-"OR1D2" -> "OR7D2"
-"OR1D5" -> "OR1G1"
-"OR1D5" -> "OR1D2"
-"OR1D5" -> "OR1N1"
-"OR1D5" -> "OR7C2"
-"OR1E1" -> "OR7A10"
-"OR1E1" -> "OR1J4"
-"OR1E1" -> "OR7G2"
-"OR1E1" -> "OR7D4"
-"OR1E2" -> "OR1J4"
-"OR1E2" -> "OR1E1"
-"OR1E2" -> "OR1N2"
-"OR1E2" -> "OR7G2"
-"OR1G1" -> "OR1N1"
-"OR1G1" -> "OR1D5"
-"OR1G1" -> "OR7A5"
-"OR1G1" -> "OR1D2"
-"OR1I1" -> "OR1D2"
-"OR1I1" -> "OR7D4"
-"OR1I1" -> "OR7A17"
-"OR1I1" -> "OR7C1"
-"OR1J2" -> "OR1J4"
-"OR1J2" -> "OR7A10"
-"OR1J2" -> "OR7D2"
-"OR1J2" -> "OR1N2"
-"OR1J4" -> "OR1E1"
-"OR1J4" -> "OR1S1"
-"OR1J4" -> "OR1E2"
-"OR1J4" -> "OR1J2"
-"OR1N1" -> "OR1G1"
-"OR1N1" -> "OR7G2"
-"OR1N1" -> "OR7A5"
-"OR1N1" -> "OR7C1"
-"OR1N2" -> "OR7A10"
-"OR1N2" -> "OR1E2"
-"OR1N2" -> "OR1N1"
-"OR1N2" -> "OR1J2"
-"OR1S1" -> "OR1J4"
-"OR1S1" -> "OR7G1"
-"OR1S1" -> "OR7D2"
-"OR1S1" -> "OR1E1"
-"OR1S2" -> "OR7A10"
-"OR1S2" -> "OR1G1"
-"OR1S2" -> "OR1E2"
-"OR1S2" -> "OR1J4"
-"OR7A10" -> "OR7A5"
-"OR7A10" -> "OR7G2"
-"OR7A10" -> "OR1E1"
-"OR7A10" -> "OR7A17"
-"OR7A17" -> "OR7D4"
-"OR7A17" -> "OR7D2"
-"OR7A17" -> "OR1D2"
-"OR7A17" -> "OR7C1"
-"OR7A5" -> "OR7A10"
-"OR7A5" -> "OR7C1"
-"OR7A5" -> "OR7D4"
-"OR7A5" -> "OR7G2"
-"OR7C1" -> "OR7D2"
-"OR7C1" -> "OR7A5"
-"OR7C1" -> "OR7A17"
-"OR7C1" -> "OR7G2"
-"OR7C2" -> "OR1J4"
-"OR7C2" -> "OR7A17"
-"OR7C2" -> "OR7A10"
-"OR7C2" -> "OR7C1"
-"OR7D2" -> "OR7C1"
-"OR7D2" -> "OR7A17"
-"OR7D2" -> "OR7D4"
-"OR7D2" -> "OR1D2"
-"OR7D4" -> "OR1D2"
-"OR7D4" -> "OR7A17"
-"OR7D4" -> "OR7G2"
-"OR7D4" -> "OR7D2"
-"OR7E24" -> "OR7A5"
-"OR7E24" -> "OR7G2"
-"OR7E24" -> "OR7D4"
-"OR7E24" -> "OR1J4"
-"OR7G1" -> "OR1S1"
-"OR7G1" -> "OR1N1"
-"OR7G1" -> "OR7A10"
-"OR7G1" -> "OR7A5"
-"OR7G2" -> "OR7D4"
-"OR7G2" -> "OR7A17"
-"OR7G2" -> "OR7A5"
-"OR7G2" -> "OR7C1"
-"OR7G3" -> "OR7A10"
-"OR7G3" -> "OR1J4"
-"OR7G3" -> "OR7A5"
-"OR7G3" -> "OR1E1"
+"OR1D2" -> "OR7D4" ["e"=1]
+"OR1D2" -> "OR1I1" ["e"=1]
+"OR1D2" -> "OR7A17" ["e"=1]
+"OR1D2" -> "OR7D2" ["e"=1]
+"OR1D5" -> "OR1G1" ["e"=1]
+"OR1D5" -> "OR1D2" ["e"=1]
+"OR1D5" -> "OR1N1" ["e"=1]
+"OR1D5" -> "OR7C2" ["e"=1]
+"OR1E1" -> "OR7A10" ["e"=1]
+"OR1E1" -> "OR1J4" ["e"=1]
+"OR1E1" -> "OR7G2" ["e"=1]
+"OR1E1" -> "OR7D4" ["e"=1]
+"OR1E2" -> "OR1J4" ["e"=1]
+"OR1E2" -> "OR1E1" ["e"=1]
+"OR1E2" -> "OR1N2" ["e"=1]
+"OR1E2" -> "OR7G2" ["e"=1]
+"OR1G1" -> "OR1N1" ["e"=1]
+"OR1G1" -> "OR1D5" ["e"=1]
+"OR1G1" -> "OR7A5" ["e"=1]
+"OR1G1" -> "OR1D2" ["e"=1]
+"OR1I1" -> "OR1D2" ["e"=1]
+"OR1I1" -> "OR7D4" ["e"=1]
+"OR1I1" -> "OR7A17" ["e"=1]
+"OR1I1" -> "OR7C1" ["e"=1]
+"OR1J2" -> "OR1J4" ["e"=1]
+"OR1J2" -> "OR7A10" ["e"=1]
+"OR1J2" -> "OR7D2" ["e"=1]
+"OR1J2" -> "OR1N2" ["e"=1]
+"OR1J4" -> "OR1E1" ["e"=1]
+"OR1J4" -> "OR1S1" ["e"=1]
+"OR1J4" -> "OR1E2" ["e"=1]
+"OR1J4" -> "OR1J2" ["e"=1]
+"OR1N1" -> "OR1G1" ["e"=1]
+"OR1N1" -> "OR7G2" ["e"=1]
+"OR1N1" -> "OR7A5" ["e"=1]
+"OR1N1" -> "OR7C1" ["e"=1]
+"OR1N2" -> "OR7A10" ["e"=1]
+"OR1N2" -> "OR1E2" ["e"=1]
+"OR1N2" -> "OR1N1" ["e"=1]
+"OR1N2" -> "OR1J2" ["e"=1]
+"OR1S1" -> "OR1J4" ["e"=1]
+"OR1S1" -> "OR7G1" ["e"=1]
+"OR1S1" -> "OR7D2" ["e"=1]
+"OR1S1" -> "OR1E1" ["e"=1]
+"OR1S2" -> "OR7A10" ["e"=1]
+"OR1S2" -> "OR1G1" ["e"=1]
+"OR1S2" -> "OR1E2" ["e"=1]
+"OR1S2" -> "OR1J4" ["e"=1]
+"OR7A10" -> "OR7A5" ["e"=1]
+"OR7A10" -> "OR7G2" ["e"=1]
+"OR7A10" -> "OR1E1" ["e"=1]
+"OR7A10" -> "OR7A17" ["e"=1]
+"OR7A17" -> "OR7D4" ["e"=1]
+"OR7A17" -> "OR7D2" ["e"=1]
+"OR7A17" -> "OR1D2" ["e"=1]
+"OR7A17" -> "OR7C1" ["e"=1]
+"OR7A5" -> "OR7A10" ["e"=1]
+"OR7A5" -> "OR7C1" ["e"=1]
+"OR7A5" -> "OR7D4" ["e"=1]
+"OR7A5" -> "OR7G2" ["e"=1]
+"OR7C1" -> "OR7D2" ["e"=1]
+"OR7C1" -> "OR7A5" ["e"=1]
+"OR7C1" -> "OR7A17" ["e"=1]
+"OR7C1" -> "OR7G2" ["e"=1]
+"OR7C2" -> "OR1J4" ["e"=1]
+"OR7C2" -> "OR7A17" ["e"=1]
+"OR7C2" -> "OR7A10" ["e"=1]
+"OR7C2" -> "OR7C1" ["e"=1]
+"OR7D2" -> "OR7C1" ["e"=1]
+"OR7D2" -> "OR7A17" ["e"=1]
+"OR7D2" -> "OR7D4" ["e"=1]
+"OR7D2" -> "OR1D2" ["e"=1]
+"OR7D4" -> "OR1D2" ["e"=1]
+"OR7D4" -> "OR7A17" ["e"=1]
+"OR7D4" -> "OR7G2" ["e"=1]
+"OR7D4" -> "OR7D2" ["e"=1]
+"OR7E24" -> "OR7A5" ["e"=1]
+"OR7E24" -> "OR7G2" ["e"=1]
+"OR7E24" -> "OR7D4" ["e"=1]
+"OR7E24" -> "OR1J4" ["e"=1]
+"OR7G1" -> "OR1S1" ["e"=1]
+"OR7G1" -> "OR1N1" ["e"=1]
+"OR7G1" -> "OR7A10" ["e"=1]
+"OR7G1" -> "OR7A5" ["e"=1]
+"OR7G2" -> "OR7D4" ["e"=1]
+"OR7G2" -> "OR7A17" ["e"=1]
+"OR7G2" -> "OR7A5" ["e"=1]
+"OR7G2" -> "OR7C1" ["e"=1]
+"OR7G3" -> "OR7A10" ["e"=1]
+"OR7G3" -> "OR1J4" ["e"=1]
+"OR7G3" -> "OR7A5" ["e"=1]
+"OR7G3" -> "OR1E1" ["e"=1]
 }

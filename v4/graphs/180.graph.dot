@@ -34,144 +34,144 @@ digraph G {
 "SPATA17" ["l"="8.035,1.126"]
 "SPATA7" ["l"="8.299,1.171"]
 "SSX2IP" ["l"="8.139,0.953"]
-"AZI2" -> "CCDC14"
-"AZI2" -> "SSX2IP"
-"AZI2" -> "HAP1"
-"AZI2" -> "LCA5L"
-"CABCOCO1" -> "SPA17"
-"CABCOCO1" -> "DYDC2"
-"CABCOCO1" -> "LRRC27"
-"CABCOCO1" -> "CFAP206"
-"CCDC112" -> "CCDC191"
-"CCDC112" -> "CCDC34"
-"CCDC112" -> "EPSTI1"
-"CCDC112" -> "LRRIQ3"
-"CCDC14" -> "AZI2"
-"CCDC14" -> "SPATA7"
-"CCDC14" -> "SSX2IP"
-"CCDC14" -> "LCA5L"
-"CCDC181" -> "FAM161A"
-"CCDC181" -> "CCDC191"
-"CCDC181" -> "MAP9"
-"CCDC181" -> "CCDC34"
-"CCDC191" -> "CCDC112"
-"CCDC191" -> "LRRC27"
-"CCDC191" -> "KIAA2012"
-"CCDC191" -> "CCDC181"
-"CCDC34" -> "FAM161A"
-"CCDC34" -> "CCDC112"
-"CCDC34" -> "FAM161B"
-"CCDC34" -> "EPSTI1"
-"CEP95" -> "IQUB"
-"CEP95" -> "LRRIQ3"
-"CEP95" -> "CCDC14"
-"CEP95" -> "SPATA7"
-"CFAP206" -> "IQUB"
-"CFAP206" -> "SPA17"
-"CFAP206" -> "SPATA17"
-"CFAP206" -> "NEK5"
-"DNAI1" -> "DNAI2"
-"DNAI1" -> "IQUB"
-"DNAI1" -> "RSPH4A"
-"DNAI1" -> "SPATA17"
-"DNAI2" -> "DNAI1"
-"DNAI2" -> "RSPH4A"
-"DNAI2" -> "IQUB"
-"DNAI2" -> "DYDC2"
-"DYDC1" -> "DYDC2"
-"DYDC1" -> "CCDC34"
-"DYDC1" -> "CCDC191"
-"DYDC1" -> "EPSTI1"
-"DYDC2" -> "SPA17"
-"DYDC2" -> "SPATA17"
-"DYDC2" -> "NEK5"
-"DYDC2" -> "IQUB"
-"EFHC1" -> "SPATA17"
-"EFHC1" -> "IQUB"
-"EFHC1" -> "RSPH3"
-"EFHC1" -> "NEK5"
-"EPSTI1" -> "FAM161B"
-"EPSTI1" -> "CCDC112"
-"EPSTI1" -> "CCDC191"
-"EPSTI1" -> "CCDC34"
-"FAM161A" -> "FAM161B"
-"FAM161A" -> "CCDC181"
-"FAM161A" -> "MAP9"
-"FAM161A" -> "CCDC34"
-"FAM161B" -> "FAM161A"
-"FAM161B" -> "LRRC27"
-"FAM161B" -> "EPSTI1"
-"FAM161B" -> "RSPH3"
-"HAP1" -> "AZI2"
-"HAP1" -> "SSX2IP"
-"HAP1" -> "CCDC14"
-"HAP1" -> "RSPH3"
-"IQUB" -> "SPATA17"
-"IQUB" -> "CFAP206"
-"IQUB" -> "LRRIQ3"
-"IQUB" -> "DYDC2"
-"KIAA2012" -> "LRRC27"
-"KIAA2012" -> "CCDC191"
-"KIAA2012" -> "SPATA17"
-"KIAA2012" -> "NEK5"
-"LCA5L" -> "CCDC14"
-"LCA5L" -> "SPATA7"
-"LCA5L" -> "NEK5"
-"LCA5L" -> "SSX2IP"
-"LRRC27" -> "NEK5"
-"LRRC27" -> "LRRIQ3"
-"LRRC27" -> "SPATA17"
-"LRRC27" -> "RSPH3"
-"LRRIQ3" -> "SPATA17"
-"LRRIQ3" -> "LRRC27"
-"LRRIQ3" -> "IQUB"
-"LRRIQ3" -> "NEK5"
-"LUZP1" -> "SSX2IP"
-"LUZP1" -> "CCDC14"
-"LUZP1" -> "AZI2"
-"LUZP1" -> "LCA5L"
-"MAP7" -> "MAP7D1"
-"MAP7" -> "RSPH3"
-"MAP7" -> "FAM161B"
-"MAP7" -> "FAM161A"
-"MAP7D1" -> "MAP7"
-"MAP7D1" -> "KIAA2012"
-"MAP7D1" -> "FAM161B"
-"MAP7D1" -> "CCDC34"
-"MAP9" -> "FAM161A"
-"MAP9" -> "FAM161B"
-"MAP9" -> "CCDC181"
-"MAP9" -> "SPA17"
-"NEK11" -> "NEK5"
-"NEK11" -> "LRRC27"
-"NEK11" -> "RSPH3"
-"NEK11" -> "DYDC2"
-"NEK5" -> "LRRC27"
-"NEK5" -> "NEK11"
-"NEK5" -> "SPATA17"
-"NEK5" -> "DYDC2"
-"RSPH3" -> "LRRC27"
-"RSPH3" -> "FAM161B"
-"RSPH3" -> "SPATA17"
-"RSPH3" -> "NEK5"
-"RSPH4A" -> "SPA17"
-"RSPH4A" -> "FAM161A"
-"RSPH4A" -> "RSPH3"
-"RSPH4A" -> "DNAI2"
-"SPA17" -> "DYDC2"
-"SPA17" -> "CFAP206"
-"SPA17" -> "CABCOCO1"
-"SPA17" -> "SPATA17"
-"SPATA17" -> "LRRIQ3"
-"SPATA17" -> "LRRC27"
-"SPATA17" -> "IQUB"
-"SPATA17" -> "DYDC2"
-"SPATA7" -> "CCDC14"
-"SPATA7" -> "LCA5L"
-"SPATA7" -> "SSX2IP"
-"SPATA7" -> "LRRC27"
-"SSX2IP" -> "AZI2"
-"SSX2IP" -> "CCDC14"
-"SSX2IP" -> "LCA5L"
-"SSX2IP" -> "HAP1"
+"AZI2" -> "CCDC14" ["e"=1]
+"AZI2" -> "SSX2IP" ["e"=1]
+"AZI2" -> "HAP1" ["e"=1]
+"AZI2" -> "LCA5L" ["e"=1]
+"CABCOCO1" -> "SPA17" ["e"=1]
+"CABCOCO1" -> "DYDC2" ["e"=1]
+"CABCOCO1" -> "LRRC27" ["e"=1]
+"CABCOCO1" -> "CFAP206" ["e"=1]
+"CCDC112" -> "CCDC191" ["e"=1]
+"CCDC112" -> "CCDC34" ["e"=1]
+"CCDC112" -> "EPSTI1" ["e"=1]
+"CCDC112" -> "LRRIQ3" ["e"=1]
+"CCDC14" -> "AZI2" ["e"=1]
+"CCDC14" -> "SPATA7" ["e"=1]
+"CCDC14" -> "SSX2IP" ["e"=1]
+"CCDC14" -> "LCA5L" ["e"=1]
+"CCDC181" -> "FAM161A" ["e"=1]
+"CCDC181" -> "CCDC191" ["e"=1]
+"CCDC181" -> "MAP9" ["e"=1]
+"CCDC181" -> "CCDC34" ["e"=1]
+"CCDC191" -> "CCDC112" ["e"=1]
+"CCDC191" -> "LRRC27" ["e"=1]
+"CCDC191" -> "KIAA2012" ["e"=1]
+"CCDC191" -> "CCDC181" ["e"=1]
+"CCDC34" -> "FAM161A" ["e"=1]
+"CCDC34" -> "CCDC112" ["e"=1]
+"CCDC34" -> "FAM161B" ["e"=1]
+"CCDC34" -> "EPSTI1" ["e"=1]
+"CEP95" -> "IQUB" ["e"=1]
+"CEP95" -> "LRRIQ3" ["e"=1]
+"CEP95" -> "CCDC14" ["e"=1]
+"CEP95" -> "SPATA7" ["e"=1]
+"CFAP206" -> "IQUB" ["e"=1]
+"CFAP206" -> "SPA17" ["e"=1]
+"CFAP206" -> "SPATA17" ["e"=1]
+"CFAP206" -> "NEK5" ["e"=1]
+"DNAI1" -> "DNAI2" ["e"=1]
+"DNAI1" -> "IQUB" ["e"=1]
+"DNAI1" -> "RSPH4A" ["e"=1]
+"DNAI1" -> "SPATA17" ["e"=1]
+"DNAI2" -> "DNAI1" ["e"=1]
+"DNAI2" -> "RSPH4A" ["e"=1]
+"DNAI2" -> "IQUB" ["e"=1]
+"DNAI2" -> "DYDC2" ["e"=1]
+"DYDC1" -> "DYDC2" ["e"=1]
+"DYDC1" -> "CCDC34" ["e"=1]
+"DYDC1" -> "CCDC191" ["e"=1]
+"DYDC1" -> "EPSTI1" ["e"=1]
+"DYDC2" -> "SPA17" ["e"=1]
+"DYDC2" -> "SPATA17" ["e"=1]
+"DYDC2" -> "NEK5" ["e"=1]
+"DYDC2" -> "IQUB" ["e"=1]
+"EFHC1" -> "SPATA17" ["e"=1]
+"EFHC1" -> "IQUB" ["e"=1]
+"EFHC1" -> "RSPH3" ["e"=1]
+"EFHC1" -> "NEK5" ["e"=1]
+"EPSTI1" -> "FAM161B" ["e"=1]
+"EPSTI1" -> "CCDC112" ["e"=1]
+"EPSTI1" -> "CCDC191" ["e"=1]
+"EPSTI1" -> "CCDC34" ["e"=1]
+"FAM161A" -> "FAM161B" ["e"=1]
+"FAM161A" -> "CCDC181" ["e"=1]
+"FAM161A" -> "MAP9" ["e"=1]
+"FAM161A" -> "CCDC34" ["e"=1]
+"FAM161B" -> "FAM161A" ["e"=1]
+"FAM161B" -> "LRRC27" ["e"=1]
+"FAM161B" -> "EPSTI1" ["e"=1]
+"FAM161B" -> "RSPH3" ["e"=1]
+"HAP1" -> "AZI2" ["e"=1]
+"HAP1" -> "SSX2IP" ["e"=1]
+"HAP1" -> "CCDC14" ["e"=1]
+"HAP1" -> "RSPH3" ["e"=1]
+"IQUB" -> "SPATA17" ["e"=1]
+"IQUB" -> "CFAP206" ["e"=1]
+"IQUB" -> "LRRIQ3" ["e"=1]
+"IQUB" -> "DYDC2" ["e"=1]
+"KIAA2012" -> "LRRC27" ["e"=1]
+"KIAA2012" -> "CCDC191" ["e"=1]
+"KIAA2012" -> "SPATA17" ["e"=1]
+"KIAA2012" -> "NEK5" ["e"=1]
+"LCA5L" -> "CCDC14" ["e"=1]
+"LCA5L" -> "SPATA7" ["e"=1]
+"LCA5L" -> "NEK5" ["e"=1]
+"LCA5L" -> "SSX2IP" ["e"=1]
+"LRRC27" -> "NEK5" ["e"=1]
+"LRRC27" -> "LRRIQ3" ["e"=1]
+"LRRC27" -> "SPATA17" ["e"=1]
+"LRRC27" -> "RSPH3" ["e"=1]
+"LRRIQ3" -> "SPATA17" ["e"=1]
+"LRRIQ3" -> "LRRC27" ["e"=1]
+"LRRIQ3" -> "IQUB" ["e"=1]
+"LRRIQ3" -> "NEK5" ["e"=1]
+"LUZP1" -> "SSX2IP" ["e"=1]
+"LUZP1" -> "CCDC14" ["e"=1]
+"LUZP1" -> "AZI2" ["e"=1]
+"LUZP1" -> "LCA5L" ["e"=1]
+"MAP7" -> "MAP7D1" ["e"=1]
+"MAP7" -> "RSPH3" ["e"=1]
+"MAP7" -> "FAM161B" ["e"=1]
+"MAP7" -> "FAM161A" ["e"=1]
+"MAP7D1" -> "MAP7" ["e"=1]
+"MAP7D1" -> "KIAA2012" ["e"=1]
+"MAP7D1" -> "FAM161B" ["e"=1]
+"MAP7D1" -> "CCDC34" ["e"=1]
+"MAP9" -> "FAM161A" ["e"=1]
+"MAP9" -> "FAM161B" ["e"=1]
+"MAP9" -> "CCDC181" ["e"=1]
+"MAP9" -> "SPA17" ["e"=1]
+"NEK11" -> "NEK5" ["e"=1]
+"NEK11" -> "LRRC27" ["e"=1]
+"NEK11" -> "RSPH3" ["e"=1]
+"NEK11" -> "DYDC2" ["e"=1]
+"NEK5" -> "LRRC27" ["e"=1]
+"NEK5" -> "NEK11" ["e"=1]
+"NEK5" -> "SPATA17" ["e"=1]
+"NEK5" -> "DYDC2" ["e"=1]
+"RSPH3" -> "LRRC27" ["e"=1]
+"RSPH3" -> "FAM161B" ["e"=1]
+"RSPH3" -> "SPATA17" ["e"=1]
+"RSPH3" -> "NEK5" ["e"=1]
+"RSPH4A" -> "SPA17" ["e"=1]
+"RSPH4A" -> "FAM161A" ["e"=1]
+"RSPH4A" -> "RSPH3" ["e"=1]
+"RSPH4A" -> "DNAI2" ["e"=1]
+"SPA17" -> "DYDC2" ["e"=1]
+"SPA17" -> "CFAP206" ["e"=1]
+"SPA17" -> "CABCOCO1" ["e"=1]
+"SPA17" -> "SPATA17" ["e"=1]
+"SPATA17" -> "LRRIQ3" ["e"=1]
+"SPATA17" -> "LRRC27" ["e"=1]
+"SPATA17" -> "IQUB" ["e"=1]
+"SPATA17" -> "DYDC2" ["e"=1]
+"SPATA7" -> "CCDC14" ["e"=1]
+"SPATA7" -> "LCA5L" ["e"=1]
+"SPATA7" -> "SSX2IP" ["e"=1]
+"SPATA7" -> "LRRC27" ["e"=1]
+"SSX2IP" -> "AZI2" ["e"=1]
+"SSX2IP" -> "CCDC14" ["e"=1]
+"SSX2IP" -> "LCA5L" ["e"=1]
+"SSX2IP" -> "HAP1" ["e"=1]
 }

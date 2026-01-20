@@ -17,76 +17,76 @@ digraph G {
 "PAEP" ["l"="7.634,-1.899"]
 "PTGDS" ["l"="7.632,-1.904"]
 "RBP4" ["l"="7.622,-1.908"]
-"AMBP" -> "RBP4"
-"AMBP" -> "PTGDS"
-"AMBP" -> "PAEP"
-"AMBP" -> "LCN2"
-"APOD" -> "PAEP"
-"APOD" -> "RBP4"
-"APOD" -> "LCN9"
-"APOD" -> "LCN15"
-"APOM" -> "C8G"
-"APOM" -> "LCN9"
-"APOM" -> "PAEP"
-"APOM" -> "LCN15"
-"C8G" -> "LCN12"
-"C8G" -> "LCN15"
-"C8G" -> "LCN6"
-"C8G" -> "PAEP"
-"LCN1" -> "OBP2A"
-"LCN1" -> "PAEP"
-"LCN1" -> "OBP2B"
-"LCN1" -> "ORM1"
-"LCN12" -> "LCN15"
-"LCN12" -> "C8G"
-"LCN12" -> "LCN6"
-"LCN12" -> "LCN8"
-"LCN15" -> "LCN12"
-"LCN15" -> "LCN8"
-"LCN15" -> "LCN6"
-"LCN15" -> "PTGDS"
-"LCN2" -> "PAEP"
-"LCN2" -> "LCN1"
-"LCN2" -> "LCN15"
-"LCN2" -> "ORM1"
-"LCN6" -> "LCN8"
-"LCN6" -> "LCN15"
-"LCN6" -> "LCN12"
-"LCN6" -> "PTGDS"
-"LCN8" -> "LCN6"
-"LCN8" -> "LCN15"
-"LCN8" -> "LCN12"
-"LCN8" -> "PTGDS"
-"LCN9" -> "PAEP"
-"LCN9" -> "LCN15"
-"LCN9" -> "RBP4"
-"LCN9" -> "LCN6"
-"OBP2A" -> "OBP2B"
-"OBP2A" -> "LCN1"
-"OBP2A" -> "LCN6"
-"OBP2A" -> "PAEP"
-"OBP2B" -> "OBP2A"
-"OBP2B" -> "LCN1"
-"OBP2B" -> "LCN9"
-"OBP2B" -> "LCN2"
-"ORM1" -> "ORM2"
-"ORM1" -> "LCN1"
-"ORM1" -> "LCN2"
-"ORM1" -> "PAEP"
-"ORM2" -> "ORM1"
-"ORM2" -> "LCN2"
-"ORM2" -> "LCN1"
-"ORM2" -> "OBP2A"
-"PAEP" -> "LCN9"
-"PAEP" -> "LCN1"
-"PAEP" -> "APOD"
-"PAEP" -> "LCN15"
-"PTGDS" -> "LCN15"
-"PTGDS" -> "LCN6"
-"PTGDS" -> "LCN8"
-"PTGDS" -> "LCN2"
-"RBP4" -> "PAEP"
-"RBP4" -> "LCN9"
-"RBP4" -> "APOD"
-"RBP4" -> "LCN1"
+"AMBP" -> "RBP4" ["e"=1]
+"AMBP" -> "PTGDS" ["e"=1]
+"AMBP" -> "PAEP" ["e"=1]
+"AMBP" -> "LCN2" ["e"=1]
+"APOD" -> "PAEP" ["e"=1]
+"APOD" -> "RBP4" ["e"=1]
+"APOD" -> "LCN9" ["e"=1]
+"APOD" -> "LCN15" ["e"=1]
+"APOM" -> "C8G" ["e"=1]
+"APOM" -> "LCN9" ["e"=1]
+"APOM" -> "PAEP" ["e"=1]
+"APOM" -> "LCN15" ["e"=1]
+"C8G" -> "LCN12" ["e"=1]
+"C8G" -> "LCN15" ["e"=1]
+"C8G" -> "LCN6" ["e"=1]
+"C8G" -> "PAEP" ["e"=1]
+"LCN1" -> "OBP2A" ["e"=1]
+"LCN1" -> "PAEP" ["e"=1]
+"LCN1" -> "OBP2B" ["e"=1]
+"LCN1" -> "ORM1" ["e"=1]
+"LCN12" -> "LCN15" ["e"=1]
+"LCN12" -> "C8G" ["e"=1]
+"LCN12" -> "LCN6" ["e"=1]
+"LCN12" -> "LCN8" ["e"=1]
+"LCN15" -> "LCN12" ["e"=1]
+"LCN15" -> "LCN8" ["e"=1]
+"LCN15" -> "LCN6" ["e"=1]
+"LCN15" -> "PTGDS" ["e"=1]
+"LCN2" -> "PAEP" ["e"=1]
+"LCN2" -> "LCN1" ["e"=1]
+"LCN2" -> "LCN15" ["e"=1]
+"LCN2" -> "ORM1" ["e"=1]
+"LCN6" -> "LCN8" ["e"=1]
+"LCN6" -> "LCN15" ["e"=1]
+"LCN6" -> "LCN12" ["e"=1]
+"LCN6" -> "PTGDS" ["e"=1]
+"LCN8" -> "LCN6" ["e"=1]
+"LCN8" -> "LCN15" ["e"=1]
+"LCN8" -> "LCN12" ["e"=1]
+"LCN8" -> "PTGDS" ["e"=1]
+"LCN9" -> "PAEP" ["e"=1]
+"LCN9" -> "LCN15" ["e"=1]
+"LCN9" -> "RBP4" ["e"=1]
+"LCN9" -> "LCN6" ["e"=1]
+"OBP2A" -> "OBP2B" ["e"=1]
+"OBP2A" -> "LCN1" ["e"=1]
+"OBP2A" -> "LCN6" ["e"=1]
+"OBP2A" -> "PAEP" ["e"=1]
+"OBP2B" -> "OBP2A" ["e"=1]
+"OBP2B" -> "LCN1" ["e"=1]
+"OBP2B" -> "LCN9" ["e"=1]
+"OBP2B" -> "LCN2" ["e"=1]
+"ORM1" -> "ORM2" ["e"=1]
+"ORM1" -> "LCN1" ["e"=1]
+"ORM1" -> "LCN2" ["e"=1]
+"ORM1" -> "PAEP" ["e"=1]
+"ORM2" -> "ORM1" ["e"=1]
+"ORM2" -> "LCN2" ["e"=1]
+"ORM2" -> "LCN1" ["e"=1]
+"ORM2" -> "OBP2A" ["e"=1]
+"PAEP" -> "LCN9" ["e"=1]
+"PAEP" -> "LCN1" ["e"=1]
+"PAEP" -> "APOD" ["e"=1]
+"PAEP" -> "LCN15" ["e"=1]
+"PTGDS" -> "LCN15" ["e"=1]
+"PTGDS" -> "LCN6" ["e"=1]
+"PTGDS" -> "LCN8" ["e"=1]
+"PTGDS" -> "LCN2" ["e"=1]
+"RBP4" -> "PAEP" ["e"=1]
+"RBP4" -> "LCN9" ["e"=1]
+"RBP4" -> "APOD" ["e"=1]
+"RBP4" -> "LCN1" ["e"=1]
 }

@@ -27,116 +27,116 @@ digraph G {
 "TSPAN9" ["l"="8.254,-2.811"]
 "UPK1A" ["l"="8.395,-2.914"]
 "UPK1B" ["l"="8.300,-2.846"]
-"CD151" -> "TSPAN11"
-"CD151" -> "TSPAN4"
-"CD151" -> "TSPAN2"
-"CD151" -> "TSPAN15"
-"CD37" -> "CD82"
-"CD37" -> "TSPAN11"
-"CD37" -> "TSPAN14"
-"CD37" -> "CD53"
-"CD53" -> "CD82"
-"CD53" -> "CD37"
-"CD53" -> "TSPAN14"
-"CD53" -> "TSPAN16"
-"CD63" -> "TSPAN1"
-"CD63" -> "CD9"
-"CD63" -> "TSPAN8"
-"CD63" -> "CD151"
-"CD81" -> "CD9"
-"CD81" -> "TSPAN33"
-"CD81" -> "TSPAN2"
-"CD81" -> "TSPAN5"
-"CD82" -> "TSPAN14"
-"CD82" -> "TSPAN11"
-"CD82" -> "TSPAN17"
-"CD82" -> "CD53"
-"CD9" -> "CD81"
-"CD9" -> "CD63"
-"CD9" -> "TSPAN8"
-"CD9" -> "CD151"
-"TSPAN1" -> "CD63"
-"TSPAN1" -> "TSPAN8"
-"TSPAN1" -> "TSPAN3"
-"TSPAN1" -> "TSPAN16"
-"TSPAN11" -> "TSPAN33"
-"TSPAN11" -> "CD82"
-"TSPAN11" -> "TSPAN15"
-"TSPAN11" -> "TSPAN31"
-"TSPAN12" -> "TSPAN33"
-"TSPAN12" -> "TSPAN11"
-"TSPAN12" -> "TSPAN3"
-"TSPAN12" -> "UPK1B"
-"TSPAN13" -> "TSPAN31"
-"TSPAN13" -> "TSPAN14"
-"TSPAN13" -> "TSPAN5"
-"TSPAN13" -> "TSPAN2"
-"TSPAN14" -> "TSPAN17"
-"TSPAN14" -> "CD82"
-"TSPAN14" -> "TSPAN5"
-"TSPAN14" -> "TSPAN33"
-"TSPAN15" -> "TSPAN11"
-"TSPAN15" -> "TSPAN33"
-"TSPAN15" -> "TSPAN14"
-"TSPAN15" -> "CD82"
-"TSPAN16" -> "TSPAN11"
-"TSPAN16" -> "UPK1B"
-"TSPAN16" -> "TSPAN14"
-"TSPAN16" -> "TSPAN2"
-"TSPAN17" -> "TSPAN5"
-"TSPAN17" -> "TSPAN14"
-"TSPAN17" -> "CD82"
-"TSPAN17" -> "TSPAN33"
-"TSPAN18" -> "TSPAN2"
-"TSPAN18" -> "TSPAN9"
-"TSPAN18" -> "TSPAN14"
-"TSPAN18" -> "TSPAN33"
-"TSPAN19" -> "UPK1B"
-"TSPAN19" -> "TSPAN16"
-"TSPAN19" -> "TSPAN12"
-"TSPAN19" -> "CD53"
-"TSPAN2" -> "TSPAN18"
-"TSPAN2" -> "TSPAN31"
-"TSPAN2" -> "TSPAN5"
-"TSPAN2" -> "TSPAN11"
-"TSPAN3" -> "TSPAN11"
-"TSPAN3" -> "TSPAN14"
-"TSPAN3" -> "TSPAN5"
-"TSPAN3" -> "TSPAN15"
-"TSPAN31" -> "TSPAN13"
-"TSPAN31" -> "TSPAN11"
-"TSPAN31" -> "TSPAN2"
-"TSPAN31" -> "CD82"
-"TSPAN32" -> "TSPAN11"
-"TSPAN32" -> "CD37"
-"TSPAN32" -> "TSPAN2"
-"TSPAN32" -> "TSPAN18"
-"TSPAN33" -> "TSPAN11"
-"TSPAN33" -> "TSPAN14"
-"TSPAN33" -> "TSPAN15"
-"TSPAN33" -> "TSPAN17"
-"TSPAN4" -> "CD151"
-"TSPAN4" -> "TSPAN11"
-"TSPAN4" -> "TSPAN33"
-"TSPAN4" -> "CD82"
-"TSPAN5" -> "TSPAN17"
-"TSPAN5" -> "TSPAN14"
-"TSPAN5" -> "TSPAN2"
-"TSPAN5" -> "CD82"
-"TSPAN8" -> "TSPAN2"
-"TSPAN8" -> "TSPAN1"
-"TSPAN8" -> "CD63"
-"TSPAN8" -> "CD9"
-"TSPAN9" -> "TSPAN14"
-"TSPAN9" -> "TSPAN18"
-"TSPAN9" -> "TSPAN11"
-"TSPAN9" -> "TSPAN17"
-"UPK1A" -> "UPK1B"
-"UPK1A" -> "TSPAN5"
-"UPK1A" -> "TSPAN33"
-"UPK1A" -> "TSPAN17"
-"UPK1B" -> "UPK1A"
-"UPK1B" -> "TSPAN19"
-"UPK1B" -> "TSPAN16"
-"UPK1B" -> "TSPAN5"
+"CD151" -> "TSPAN11" ["e"=1]
+"CD151" -> "TSPAN4" ["e"=1]
+"CD151" -> "TSPAN2" ["e"=1]
+"CD151" -> "TSPAN15" ["e"=1]
+"CD37" -> "CD82" ["e"=1]
+"CD37" -> "TSPAN11" ["e"=1]
+"CD37" -> "TSPAN14" ["e"=1]
+"CD37" -> "CD53" ["e"=1]
+"CD53" -> "CD82" ["e"=1]
+"CD53" -> "CD37" ["e"=1]
+"CD53" -> "TSPAN14" ["e"=1]
+"CD53" -> "TSPAN16" ["e"=1]
+"CD63" -> "TSPAN1" ["e"=1]
+"CD63" -> "CD9" ["e"=1]
+"CD63" -> "TSPAN8" ["e"=1]
+"CD63" -> "CD151" ["e"=1]
+"CD81" -> "CD9" ["e"=1]
+"CD81" -> "TSPAN33" ["e"=1]
+"CD81" -> "TSPAN2" ["e"=1]
+"CD81" -> "TSPAN5" ["e"=1]
+"CD82" -> "TSPAN14" ["e"=1]
+"CD82" -> "TSPAN11" ["e"=1]
+"CD82" -> "TSPAN17" ["e"=1]
+"CD82" -> "CD53" ["e"=1]
+"CD9" -> "CD81" ["e"=1]
+"CD9" -> "CD63" ["e"=1]
+"CD9" -> "TSPAN8" ["e"=1]
+"CD9" -> "CD151" ["e"=1]
+"TSPAN1" -> "CD63" ["e"=1]
+"TSPAN1" -> "TSPAN8" ["e"=1]
+"TSPAN1" -> "TSPAN3" ["e"=1]
+"TSPAN1" -> "TSPAN16" ["e"=1]
+"TSPAN11" -> "TSPAN33" ["e"=1]
+"TSPAN11" -> "CD82" ["e"=1]
+"TSPAN11" -> "TSPAN15" ["e"=1]
+"TSPAN11" -> "TSPAN31" ["e"=1]
+"TSPAN12" -> "TSPAN33" ["e"=1]
+"TSPAN12" -> "TSPAN11" ["e"=1]
+"TSPAN12" -> "TSPAN3" ["e"=1]
+"TSPAN12" -> "UPK1B" ["e"=1]
+"TSPAN13" -> "TSPAN31" ["e"=1]
+"TSPAN13" -> "TSPAN14" ["e"=1]
+"TSPAN13" -> "TSPAN5" ["e"=1]
+"TSPAN13" -> "TSPAN2" ["e"=1]
+"TSPAN14" -> "TSPAN17" ["e"=1]
+"TSPAN14" -> "CD82" ["e"=1]
+"TSPAN14" -> "TSPAN5" ["e"=1]
+"TSPAN14" -> "TSPAN33" ["e"=1]
+"TSPAN15" -> "TSPAN11" ["e"=1]
+"TSPAN15" -> "TSPAN33" ["e"=1]
+"TSPAN15" -> "TSPAN14" ["e"=1]
+"TSPAN15" -> "CD82" ["e"=1]
+"TSPAN16" -> "TSPAN11" ["e"=1]
+"TSPAN16" -> "UPK1B" ["e"=1]
+"TSPAN16" -> "TSPAN14" ["e"=1]
+"TSPAN16" -> "TSPAN2" ["e"=1]
+"TSPAN17" -> "TSPAN5" ["e"=1]
+"TSPAN17" -> "TSPAN14" ["e"=1]
+"TSPAN17" -> "CD82" ["e"=1]
+"TSPAN17" -> "TSPAN33" ["e"=1]
+"TSPAN18" -> "TSPAN2" ["e"=1]
+"TSPAN18" -> "TSPAN9" ["e"=1]
+"TSPAN18" -> "TSPAN14" ["e"=1]
+"TSPAN18" -> "TSPAN33" ["e"=1]
+"TSPAN19" -> "UPK1B" ["e"=1]
+"TSPAN19" -> "TSPAN16" ["e"=1]
+"TSPAN19" -> "TSPAN12" ["e"=1]
+"TSPAN19" -> "CD53" ["e"=1]
+"TSPAN2" -> "TSPAN18" ["e"=1]
+"TSPAN2" -> "TSPAN31" ["e"=1]
+"TSPAN2" -> "TSPAN5" ["e"=1]
+"TSPAN2" -> "TSPAN11" ["e"=1]
+"TSPAN3" -> "TSPAN11" ["e"=1]
+"TSPAN3" -> "TSPAN14" ["e"=1]
+"TSPAN3" -> "TSPAN5" ["e"=1]
+"TSPAN3" -> "TSPAN15" ["e"=1]
+"TSPAN31" -> "TSPAN13" ["e"=1]
+"TSPAN31" -> "TSPAN11" ["e"=1]
+"TSPAN31" -> "TSPAN2" ["e"=1]
+"TSPAN31" -> "CD82" ["e"=1]
+"TSPAN32" -> "TSPAN11" ["e"=1]
+"TSPAN32" -> "CD37" ["e"=1]
+"TSPAN32" -> "TSPAN2" ["e"=1]
+"TSPAN32" -> "TSPAN18" ["e"=1]
+"TSPAN33" -> "TSPAN11" ["e"=1]
+"TSPAN33" -> "TSPAN14" ["e"=1]
+"TSPAN33" -> "TSPAN15" ["e"=1]
+"TSPAN33" -> "TSPAN17" ["e"=1]
+"TSPAN4" -> "CD151" ["e"=1]
+"TSPAN4" -> "TSPAN11" ["e"=1]
+"TSPAN4" -> "TSPAN33" ["e"=1]
+"TSPAN4" -> "CD82" ["e"=1]
+"TSPAN5" -> "TSPAN17" ["e"=1]
+"TSPAN5" -> "TSPAN14" ["e"=1]
+"TSPAN5" -> "TSPAN2" ["e"=1]
+"TSPAN5" -> "CD82" ["e"=1]
+"TSPAN8" -> "TSPAN2" ["e"=1]
+"TSPAN8" -> "TSPAN1" ["e"=1]
+"TSPAN8" -> "CD63" ["e"=1]
+"TSPAN8" -> "CD9" ["e"=1]
+"TSPAN9" -> "TSPAN14" ["e"=1]
+"TSPAN9" -> "TSPAN18" ["e"=1]
+"TSPAN9" -> "TSPAN11" ["e"=1]
+"TSPAN9" -> "TSPAN17" ["e"=1]
+"UPK1A" -> "UPK1B" ["e"=1]
+"UPK1A" -> "TSPAN5" ["e"=1]
+"UPK1A" -> "TSPAN33" ["e"=1]
+"UPK1A" -> "TSPAN17" ["e"=1]
+"UPK1B" -> "UPK1A" ["e"=1]
+"UPK1B" -> "TSPAN19" ["e"=1]
+"UPK1B" -> "TSPAN16" ["e"=1]
+"UPK1B" -> "TSPAN5" ["e"=1]
 }

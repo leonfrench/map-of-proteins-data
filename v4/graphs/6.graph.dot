@@ -17,76 +17,76 @@ digraph G {
 "PCDHGC3" ["l"="18.398,6.419"]
 "PCDHGC4" ["l"="18.407,6.428"]
 "PCDHGC5" ["l"="18.420,6.443"]
-"PCDHA1" -> "PCDHA3"
-"PCDHA1" -> "PCDHA2"
-"PCDHA1" -> "PCDHA5"
-"PCDHA1" -> "PCDHA7"
-"PCDHA10" -> "PCDHA13"
-"PCDHA10" -> "PCDHA12"
-"PCDHA10" -> "PCDHA4"
-"PCDHA10" -> "PCDHA5"
-"PCDHA11" -> "PCDHA5"
-"PCDHA11" -> "PCDHA12"
-"PCDHA11" -> "PCDHA13"
-"PCDHA11" -> "PCDHA7"
-"PCDHA12" -> "PCDHA13"
-"PCDHA12" -> "PCDHA5"
-"PCDHA12" -> "PCDHA11"
-"PCDHA12" -> "PCDHA10"
-"PCDHA13" -> "PCDHA12"
-"PCDHA13" -> "PCDHA5"
-"PCDHA13" -> "PCDHA11"
-"PCDHA13" -> "PCDHA10"
-"PCDHA2" -> "PCDHA1"
-"PCDHA2" -> "PCDHA7"
-"PCDHA2" -> "PCDHA3"
-"PCDHA2" -> "PCDHA8"
-"PCDHA3" -> "PCDHA1"
-"PCDHA3" -> "PCDHA5"
-"PCDHA3" -> "PCDHA2"
-"PCDHA3" -> "PCDHA7"
-"PCDHA4" -> "PCDHA10"
-"PCDHA4" -> "PCDHA3"
-"PCDHA4" -> "PCDHA1"
-"PCDHA4" -> "PCDHA7"
-"PCDHA5" -> "PCDHA1"
-"PCDHA5" -> "PCDHA3"
-"PCDHA5" -> "PCDHA11"
-"PCDHA5" -> "PCDHA13"
-"PCDHA6" -> "PCDHA10"
-"PCDHA6" -> "PCDHA13"
-"PCDHA6" -> "PCDHA12"
-"PCDHA6" -> "PCDHA5"
-"PCDHA7" -> "PCDHA8"
-"PCDHA7" -> "PCDHA2"
-"PCDHA7" -> "PCDHA1"
-"PCDHA7" -> "PCDHA3"
-"PCDHA8" -> "PCDHA7"
-"PCDHA8" -> "PCDHA1"
-"PCDHA8" -> "PCDHA3"
-"PCDHA8" -> "PCDHA2"
-"PCDHA9" -> "PCDHA10"
-"PCDHA9" -> "PCDHA13"
-"PCDHA9" -> "PCDHA5"
-"PCDHA9" -> "PCDHA12"
-"PCDHAC1" -> "PCDHAC2"
-"PCDHAC1" -> "PCDHA13"
-"PCDHAC1" -> "PCDHA10"
-"PCDHAC1" -> "PCDHA4"
-"PCDHAC2" -> "PCDHAC1"
-"PCDHAC2" -> "PCDHA4"
-"PCDHAC2" -> "PCDHA13"
-"PCDHAC2" -> "PCDHA7"
-"PCDHGC3" -> "PCDHAC2"
-"PCDHGC3" -> "PCDHA6"
-"PCDHGC3" -> "PCDHAC1"
-"PCDHGC3" -> "PCDHA4"
-"PCDHGC4" -> "PCDHAC1"
-"PCDHGC4" -> "PCDHGC5"
-"PCDHGC4" -> "PCDHAC2"
-"PCDHGC4" -> "PCDHA5"
-"PCDHGC5" -> "PCDHGC4"
-"PCDHGC5" -> "PCDHAC1"
-"PCDHGC5" -> "PCDHA13"
-"PCDHGC5" -> "PCDHAC2"
+"PCDHA1" -> "PCDHA3" ["e"=1]
+"PCDHA1" -> "PCDHA2" ["e"=1]
+"PCDHA1" -> "PCDHA5" ["e"=1]
+"PCDHA1" -> "PCDHA7" ["e"=1]
+"PCDHA10" -> "PCDHA13" ["e"=1]
+"PCDHA10" -> "PCDHA12" ["e"=1]
+"PCDHA10" -> "PCDHA4" ["e"=1]
+"PCDHA10" -> "PCDHA5" ["e"=1]
+"PCDHA11" -> "PCDHA5" ["e"=1]
+"PCDHA11" -> "PCDHA12" ["e"=1]
+"PCDHA11" -> "PCDHA13" ["e"=1]
+"PCDHA11" -> "PCDHA7" ["e"=1]
+"PCDHA12" -> "PCDHA13" ["e"=1]
+"PCDHA12" -> "PCDHA5" ["e"=1]
+"PCDHA12" -> "PCDHA11" ["e"=1]
+"PCDHA12" -> "PCDHA10" ["e"=1]
+"PCDHA13" -> "PCDHA12" ["e"=1]
+"PCDHA13" -> "PCDHA5" ["e"=1]
+"PCDHA13" -> "PCDHA11" ["e"=1]
+"PCDHA13" -> "PCDHA10" ["e"=1]
+"PCDHA2" -> "PCDHA1" ["e"=1]
+"PCDHA2" -> "PCDHA7" ["e"=1]
+"PCDHA2" -> "PCDHA3" ["e"=1]
+"PCDHA2" -> "PCDHA8" ["e"=1]
+"PCDHA3" -> "PCDHA1" ["e"=1]
+"PCDHA3" -> "PCDHA5" ["e"=1]
+"PCDHA3" -> "PCDHA2" ["e"=1]
+"PCDHA3" -> "PCDHA7" ["e"=1]
+"PCDHA4" -> "PCDHA10" ["e"=1]
+"PCDHA4" -> "PCDHA3" ["e"=1]
+"PCDHA4" -> "PCDHA1" ["e"=1]
+"PCDHA4" -> "PCDHA7" ["e"=1]
+"PCDHA5" -> "PCDHA1" ["e"=1]
+"PCDHA5" -> "PCDHA3" ["e"=1]
+"PCDHA5" -> "PCDHA11" ["e"=1]
+"PCDHA5" -> "PCDHA13" ["e"=1]
+"PCDHA6" -> "PCDHA10" ["e"=1]
+"PCDHA6" -> "PCDHA13" ["e"=1]
+"PCDHA6" -> "PCDHA12" ["e"=1]
+"PCDHA6" -> "PCDHA5" ["e"=1]
+"PCDHA7" -> "PCDHA8" ["e"=1]
+"PCDHA7" -> "PCDHA2" ["e"=1]
+"PCDHA7" -> "PCDHA1" ["e"=1]
+"PCDHA7" -> "PCDHA3" ["e"=1]
+"PCDHA8" -> "PCDHA7" ["e"=1]
+"PCDHA8" -> "PCDHA1" ["e"=1]
+"PCDHA8" -> "PCDHA3" ["e"=1]
+"PCDHA8" -> "PCDHA2" ["e"=1]
+"PCDHA9" -> "PCDHA10" ["e"=1]
+"PCDHA9" -> "PCDHA13" ["e"=1]
+"PCDHA9" -> "PCDHA5" ["e"=1]
+"PCDHA9" -> "PCDHA12" ["e"=1]
+"PCDHAC1" -> "PCDHAC2" ["e"=1]
+"PCDHAC1" -> "PCDHA13" ["e"=1]
+"PCDHAC1" -> "PCDHA10" ["e"=1]
+"PCDHAC1" -> "PCDHA4" ["e"=1]
+"PCDHAC2" -> "PCDHAC1" ["e"=1]
+"PCDHAC2" -> "PCDHA4" ["e"=1]
+"PCDHAC2" -> "PCDHA13" ["e"=1]
+"PCDHAC2" -> "PCDHA7" ["e"=1]
+"PCDHGC3" -> "PCDHAC2" ["e"=1]
+"PCDHGC3" -> "PCDHA6" ["e"=1]
+"PCDHGC3" -> "PCDHAC1" ["e"=1]
+"PCDHGC3" -> "PCDHA4" ["e"=1]
+"PCDHGC4" -> "PCDHAC1" ["e"=1]
+"PCDHGC4" -> "PCDHGC5" ["e"=1]
+"PCDHGC4" -> "PCDHAC2" ["e"=1]
+"PCDHGC4" -> "PCDHA5" ["e"=1]
+"PCDHGC5" -> "PCDHGC4" ["e"=1]
+"PCDHGC5" -> "PCDHAC1" ["e"=1]
+"PCDHGC5" -> "PCDHA13" ["e"=1]
+"PCDHGC5" -> "PCDHAC2" ["e"=1]
 }

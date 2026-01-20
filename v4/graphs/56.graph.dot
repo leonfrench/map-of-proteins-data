@@ -23,100 +23,100 @@ digraph G {
 "HTR3D" ["l"="17.889,-4.812"]
 "HTR3E" ["l"="17.888,-4.813"]
 "ZACN" ["l"="17.889,-4.812"]
-"CHRFAM7A" -> "CHRNA7"
-"CHRFAM7A" -> "CHRNA9"
-"CHRFAM7A" -> "CHRNG"
-"CHRFAM7A" -> "CHRNE"
-"CHRNA1" -> "CHRNA6"
-"CHRNA1" -> "CHRNB3"
-"CHRNA1" -> "CHRND"
-"CHRNA1" -> "CHRNA9"
-"CHRNA10" -> "CHRNG"
-"CHRNA10" -> "CHRNB1"
-"CHRNA10" -> "CHRND"
-"CHRNA10" -> "CHRNA9"
-"CHRNA2" -> "CHRNA6"
-"CHRNA2" -> "CHRNA9"
-"CHRNA2" -> "CHRNA3"
-"CHRNA2" -> "CHRNA4"
-"CHRNA3" -> "CHRNB4"
-"CHRNA3" -> "CHRNA6"
-"CHRNA3" -> "CHRNA9"
-"CHRNA3" -> "CHRNA2"
-"CHRNA4" -> "CHRNB2"
-"CHRNA4" -> "CHRNA2"
-"CHRNA4" -> "CHRNB4"
-"CHRNA4" -> "CHRNA3"
-"CHRNA5" -> "CHRNA9"
-"CHRNA5" -> "CHRNE"
-"CHRNA5" -> "CHRNA2"
-"CHRNA5" -> "CHRNA3"
-"CHRNA6" -> "CHRNB3"
-"CHRNA6" -> "CHRNA3"
-"CHRNA6" -> "CHRNA2"
-"CHRNA6" -> "CHRNA9"
-"CHRNA7" -> "CHRFAM7A"
-"CHRNA7" -> "CHRND"
-"CHRNA7" -> "CHRNA9"
-"CHRNA7" -> "CHRNG"
-"CHRNA9" -> "CHRNB3"
-"CHRNA9" -> "CHRNA3"
-"CHRNA9" -> "CHRNA6"
-"CHRNA9" -> "CHRNA2"
-"CHRNB1" -> "CHRND"
-"CHRNB1" -> "CHRNA10"
-"CHRNB1" -> "CHRNB4"
-"CHRNB1" -> "CHRNE"
-"CHRNB2" -> "CHRNA4"
-"CHRNB2" -> "CHRNB4"
-"CHRNB2" -> "CHRNA2"
-"CHRNB2" -> "CHRND"
-"CHRNB3" -> "CHRNA6"
-"CHRNB3" -> "CHRNA9"
-"CHRNB3" -> "CHRNA3"
-"CHRNB3" -> "CHRNB4"
-"CHRNB4" -> "CHRNA3"
-"CHRNB4" -> "CHRNA9"
-"CHRNB4" -> "CHRNB2"
-"CHRNB4" -> "CHRNA2"
-"CHRND" -> "CHRNE"
-"CHRND" -> "CHRNG"
-"CHRND" -> "CHRNB1"
-"CHRND" -> "CHRNA7"
-"CHRNE" -> "CHRND"
-"CHRNE" -> "CHRNG"
-"CHRNE" -> "CHRFAM7A"
-"CHRNE" -> "CHRNA5"
-"CHRNG" -> "CHRND"
-"CHRNG" -> "HTR3A"
-"CHRNG" -> "CHRNE"
-"CHRNG" -> "CHRNA10"
-"GABRP" -> "CHRNG"
-"GABRP" -> "HTR3A"
-"GABRP" -> "CHRND"
-"GABRP" -> "CHRNE"
-"HTR3A" -> "CHRNG"
-"HTR3A" -> "HTR3C"
-"HTR3A" -> "ZACN"
-"HTR3A" -> "HTR3B"
-"HTR3B" -> "ZACN"
-"HTR3B" -> "CHRNG"
-"HTR3B" -> "HTR3A"
-"HTR3B" -> "HTR3C"
-"HTR3C" -> "ZACN"
-"HTR3C" -> "HTR3E"
-"HTR3C" -> "HTR3A"
-"HTR3C" -> "HTR3B"
-"HTR3D" -> "ZACN"
-"HTR3D" -> "CHRNG"
-"HTR3D" -> "HTR3E"
-"HTR3D" -> "HTR3C"
-"HTR3E" -> "HTR3C"
-"HTR3E" -> "HTR3A"
-"HTR3E" -> "ZACN"
-"HTR3E" -> "CHRNE"
-"ZACN" -> "HTR3C"
-"ZACN" -> "CHRNG"
-"ZACN" -> "HTR3B"
-"ZACN" -> "HTR3A"
+"CHRFAM7A" -> "CHRNA7" ["e"=1]
+"CHRFAM7A" -> "CHRNA9" ["e"=1]
+"CHRFAM7A" -> "CHRNG" ["e"=1]
+"CHRFAM7A" -> "CHRNE" ["e"=1]
+"CHRNA1" -> "CHRNA6" ["e"=1]
+"CHRNA1" -> "CHRNB3" ["e"=1]
+"CHRNA1" -> "CHRND" ["e"=1]
+"CHRNA1" -> "CHRNA9" ["e"=1]
+"CHRNA10" -> "CHRNG" ["e"=1]
+"CHRNA10" -> "CHRNB1" ["e"=1]
+"CHRNA10" -> "CHRND" ["e"=1]
+"CHRNA10" -> "CHRNA9" ["e"=1]
+"CHRNA2" -> "CHRNA6" ["e"=1]
+"CHRNA2" -> "CHRNA9" ["e"=1]
+"CHRNA2" -> "CHRNA3" ["e"=1]
+"CHRNA2" -> "CHRNA4" ["e"=1]
+"CHRNA3" -> "CHRNB4" ["e"=1]
+"CHRNA3" -> "CHRNA6" ["e"=1]
+"CHRNA3" -> "CHRNA9" ["e"=1]
+"CHRNA3" -> "CHRNA2" ["e"=1]
+"CHRNA4" -> "CHRNB2" ["e"=1]
+"CHRNA4" -> "CHRNA2" ["e"=1]
+"CHRNA4" -> "CHRNB4" ["e"=1]
+"CHRNA4" -> "CHRNA3" ["e"=1]
+"CHRNA5" -> "CHRNA9" ["e"=1]
+"CHRNA5" -> "CHRNE" ["e"=1]
+"CHRNA5" -> "CHRNA2" ["e"=1]
+"CHRNA5" -> "CHRNA3" ["e"=1]
+"CHRNA6" -> "CHRNB3" ["e"=1]
+"CHRNA6" -> "CHRNA3" ["e"=1]
+"CHRNA6" -> "CHRNA2" ["e"=1]
+"CHRNA6" -> "CHRNA9" ["e"=1]
+"CHRNA7" -> "CHRFAM7A" ["e"=1]
+"CHRNA7" -> "CHRND" ["e"=1]
+"CHRNA7" -> "CHRNA9" ["e"=1]
+"CHRNA7" -> "CHRNG" ["e"=1]
+"CHRNA9" -> "CHRNB3" ["e"=1]
+"CHRNA9" -> "CHRNA3" ["e"=1]
+"CHRNA9" -> "CHRNA6" ["e"=1]
+"CHRNA9" -> "CHRNA2" ["e"=1]
+"CHRNB1" -> "CHRND" ["e"=1]
+"CHRNB1" -> "CHRNA10" ["e"=1]
+"CHRNB1" -> "CHRNB4" ["e"=1]
+"CHRNB1" -> "CHRNE" ["e"=1]
+"CHRNB2" -> "CHRNA4" ["e"=1]
+"CHRNB2" -> "CHRNB4" ["e"=1]
+"CHRNB2" -> "CHRNA2" ["e"=1]
+"CHRNB2" -> "CHRND" ["e"=1]
+"CHRNB3" -> "CHRNA6" ["e"=1]
+"CHRNB3" -> "CHRNA9" ["e"=1]
+"CHRNB3" -> "CHRNA3" ["e"=1]
+"CHRNB3" -> "CHRNB4" ["e"=1]
+"CHRNB4" -> "CHRNA3" ["e"=1]
+"CHRNB4" -> "CHRNA9" ["e"=1]
+"CHRNB4" -> "CHRNB2" ["e"=1]
+"CHRNB4" -> "CHRNA2" ["e"=1]
+"CHRND" -> "CHRNE" ["e"=1]
+"CHRND" -> "CHRNG" ["e"=1]
+"CHRND" -> "CHRNB1" ["e"=1]
+"CHRND" -> "CHRNA7" ["e"=1]
+"CHRNE" -> "CHRND" ["e"=1]
+"CHRNE" -> "CHRNG" ["e"=1]
+"CHRNE" -> "CHRFAM7A" ["e"=1]
+"CHRNE" -> "CHRNA5" ["e"=1]
+"CHRNG" -> "CHRND" ["e"=1]
+"CHRNG" -> "HTR3A" ["e"=1]
+"CHRNG" -> "CHRNE" ["e"=1]
+"CHRNG" -> "CHRNA10" ["e"=1]
+"GABRP" -> "CHRNG" ["e"=1]
+"GABRP" -> "HTR3A" ["e"=1]
+"GABRP" -> "CHRND" ["e"=1]
+"GABRP" -> "CHRNE" ["e"=1]
+"HTR3A" -> "CHRNG" ["e"=1]
+"HTR3A" -> "HTR3C" ["e"=1]
+"HTR3A" -> "ZACN" ["e"=1]
+"HTR3A" -> "HTR3B" ["e"=1]
+"HTR3B" -> "ZACN" ["e"=1]
+"HTR3B" -> "CHRNG" ["e"=1]
+"HTR3B" -> "HTR3A" ["e"=1]
+"HTR3B" -> "HTR3C" ["e"=1]
+"HTR3C" -> "ZACN" ["e"=1]
+"HTR3C" -> "HTR3E" ["e"=1]
+"HTR3C" -> "HTR3A" ["e"=1]
+"HTR3C" -> "HTR3B" ["e"=1]
+"HTR3D" -> "ZACN" ["e"=1]
+"HTR3D" -> "CHRNG" ["e"=1]
+"HTR3D" -> "HTR3E" ["e"=1]
+"HTR3D" -> "HTR3C" ["e"=1]
+"HTR3E" -> "HTR3C" ["e"=1]
+"HTR3E" -> "HTR3A" ["e"=1]
+"HTR3E" -> "ZACN" ["e"=1]
+"HTR3E" -> "CHRNE" ["e"=1]
+"ZACN" -> "HTR3C" ["e"=1]
+"ZACN" -> "CHRNG" ["e"=1]
+"ZACN" -> "HTR3B" ["e"=1]
+"ZACN" -> "HTR3A" ["e"=1]
 }

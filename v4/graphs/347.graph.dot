@@ -32,136 +32,136 @@ digraph G {
 "UTP11" ["l"="11.242,3.415"]
 "UTP3" ["l"="11.160,3.257"]
 "ZCCHC9" ["l"="11.144,3.251"]
-"AIMP1" -> "C1orf131"
-"AIMP1" -> "ZCCHC9"
-"AIMP1" -> "NOL7"
-"AIMP1" -> "UTP11"
-"BLOC1S1" -> "MED11"
-"BLOC1S1" -> "BLOC1S2"
-"BLOC1S1" -> "SNAPIN"
-"BLOC1S1" -> "DCTN3"
-"BLOC1S2" -> "SNAPIN"
-"BLOC1S2" -> "MED10"
-"BLOC1S2" -> "MED11"
-"BLOC1S2" -> "LZIC"
-"C1orf131" -> "CCDC137"
-"C1orf131" -> "CCDC59"
-"C1orf131" -> "NOL12"
-"C1orf131" -> "ZCCHC9"
-"C7orf50" -> "C8orf33"
-"C7orf50" -> "CCDC137"
-"C7orf50" -> "PYM1"
-"C7orf50" -> "NOL12"
-"C8orf33" -> "CCDC137"
-"C8orf33" -> "TMA16"
-"C8orf33" -> "PYM1"
-"C8orf33" -> "UTP11"
-"CCDC137" -> "NOL12"
-"CCDC137" -> "UTP11"
-"CCDC137" -> "C1orf131"
-"CCDC137" -> "C8orf33"
-"CCDC59" -> "C1orf131"
-"CCDC59" -> "NOL7"
-"CCDC59" -> "UTP11"
-"CCDC59" -> "CCDC137"
-"DCTN3" -> "SNAPIN"
-"DCTN3" -> "MED11"
-"DCTN3" -> "BLOC1S2"
-"DCTN3" -> "MED10"
-"DRAP1" -> "NPM2"
-"DRAP1" -> "SUB1"
-"DRAP1" -> "MAK16"
-"DRAP1" -> "EIF2S2"
-"EIF2S2" -> "MAK16"
-"EIF2S2" -> "NOL7"
-"EIF2S2" -> "TMA16"
-"EIF2S2" -> "SUB1"
-"IFT20" -> "MED10"
-"IFT20" -> "MED11"
-"IFT20" -> "LZIC"
-"IFT20" -> "BLOC1S2"
-"KRI1" -> "LTV1"
-"KRI1" -> "MPHOSPH10"
-"KRI1" -> "MAK16"
-"KRI1" -> "UTP3"
-"LARP7" -> "TMA16"
-"LARP7" -> "AIMP1"
-"LARP7" -> "C1orf131"
-"LARP7" -> "CCDC137"
-"LTV1" -> "MPHOSPH10"
-"LTV1" -> "KRI1"
-"LTV1" -> "UTP3"
-"LTV1" -> "MAK16"
-"LZIC" -> "SNAPIN"
-"LZIC" -> "TMA16"
-"LZIC" -> "BLOC1S2"
-"LZIC" -> "MED11"
-"MAK16" -> "UTP3"
-"MAK16" -> "EIF2S2"
-"MAK16" -> "KRI1"
-"MAK16" -> "TMA16"
-"MED10" -> "MED11"
-"MED10" -> "IFT20"
-"MED10" -> "BLOC1S2"
-"MED10" -> "SNAPIN"
-"MED11" -> "SNAPIN"
-"MED11" -> "MED10"
-"MED11" -> "BLOC1S1"
-"MED11" -> "BLOC1S2"
-"MPHOSPH10" -> "UTP3"
-"MPHOSPH10" -> "LTV1"
-"MPHOSPH10" -> "KRI1"
-"MPHOSPH10" -> "MAK16"
-"NOL12" -> "CCDC137"
-"NOL12" -> "UTP11"
-"NOL12" -> "C1orf131"
-"NOL12" -> "TMA16"
-"NOL7" -> "CCDC137"
-"NOL7" -> "C1orf131"
-"NOL7" -> "CCDC59"
-"NOL7" -> "UTP11"
-"NPM2" -> "DRAP1"
-"NPM2" -> "C7orf50"
-"NPM2" -> "SUB1"
-"NPM2" -> "PYM1"
-"PDCL3" -> "UTP11"
-"PDCL3" -> "LTV1"
-"PDCL3" -> "LZIC"
-"PDCL3" -> "MAK16"
-"PYM1" -> "CCDC137"
-"PYM1" -> "C8orf33"
-"PYM1" -> "NOL12"
-"PYM1" -> "C7orf50"
-"RRP36" -> "CCDC137"
-"RRP36" -> "NOL12"
-"RRP36" -> "NOL7"
-"RRP36" -> "CCDC59"
-"SNAPIN" -> "MED11"
-"SNAPIN" -> "BLOC1S2"
-"SNAPIN" -> "LZIC"
-"SNAPIN" -> "DCTN3"
-"SUB1" -> "EIF2S2"
-"SUB1" -> "C7orf50"
-"SUB1" -> "TMA16"
-"SUB1" -> "NPM2"
-"TINCR" -> "LZIC"
-"TINCR" -> "TMA16"
-"TINCR" -> "PYM1"
-"TINCR" -> "SNAPIN"
-"TMA16" -> "UTP11"
-"TMA16" -> "CCDC137"
-"TMA16" -> "C8orf33"
-"TMA16" -> "NOL12"
-"UTP11" -> "TMA16"
-"UTP11" -> "CCDC137"
-"UTP11" -> "NOL12"
-"UTP11" -> "C1orf131"
-"UTP3" -> "MPHOSPH10"
-"UTP3" -> "MAK16"
-"UTP3" -> "KRI1"
-"UTP3" -> "LTV1"
-"ZCCHC9" -> "C1orf131"
-"ZCCHC9" -> "TMA16"
-"ZCCHC9" -> "CCDC137"
-"ZCCHC9" -> "CCDC59"
+"AIMP1" -> "C1orf131" ["e"=1]
+"AIMP1" -> "ZCCHC9" ["e"=1]
+"AIMP1" -> "NOL7" ["e"=1]
+"AIMP1" -> "UTP11" ["e"=1]
+"BLOC1S1" -> "MED11" ["e"=1]
+"BLOC1S1" -> "BLOC1S2" ["e"=1]
+"BLOC1S1" -> "SNAPIN" ["e"=1]
+"BLOC1S1" -> "DCTN3" ["e"=1]
+"BLOC1S2" -> "SNAPIN" ["e"=1]
+"BLOC1S2" -> "MED10" ["e"=1]
+"BLOC1S2" -> "MED11" ["e"=1]
+"BLOC1S2" -> "LZIC" ["e"=1]
+"C1orf131" -> "CCDC137" ["e"=1]
+"C1orf131" -> "CCDC59" ["e"=1]
+"C1orf131" -> "NOL12" ["e"=1]
+"C1orf131" -> "ZCCHC9" ["e"=1]
+"C7orf50" -> "C8orf33" ["e"=1]
+"C7orf50" -> "CCDC137" ["e"=1]
+"C7orf50" -> "PYM1" ["e"=1]
+"C7orf50" -> "NOL12" ["e"=1]
+"C8orf33" -> "CCDC137" ["e"=1]
+"C8orf33" -> "TMA16" ["e"=1]
+"C8orf33" -> "PYM1" ["e"=1]
+"C8orf33" -> "UTP11" ["e"=1]
+"CCDC137" -> "NOL12" ["e"=1]
+"CCDC137" -> "UTP11" ["e"=1]
+"CCDC137" -> "C1orf131" ["e"=1]
+"CCDC137" -> "C8orf33" ["e"=1]
+"CCDC59" -> "C1orf131" ["e"=1]
+"CCDC59" -> "NOL7" ["e"=1]
+"CCDC59" -> "UTP11" ["e"=1]
+"CCDC59" -> "CCDC137" ["e"=1]
+"DCTN3" -> "SNAPIN" ["e"=1]
+"DCTN3" -> "MED11" ["e"=1]
+"DCTN3" -> "BLOC1S2" ["e"=1]
+"DCTN3" -> "MED10" ["e"=1]
+"DRAP1" -> "NPM2" ["e"=1]
+"DRAP1" -> "SUB1" ["e"=1]
+"DRAP1" -> "MAK16" ["e"=1]
+"DRAP1" -> "EIF2S2" ["e"=1]
+"EIF2S2" -> "MAK16" ["e"=1]
+"EIF2S2" -> "NOL7" ["e"=1]
+"EIF2S2" -> "TMA16" ["e"=1]
+"EIF2S2" -> "SUB1" ["e"=1]
+"IFT20" -> "MED10" ["e"=1]
+"IFT20" -> "MED11" ["e"=1]
+"IFT20" -> "LZIC" ["e"=1]
+"IFT20" -> "BLOC1S2" ["e"=1]
+"KRI1" -> "LTV1" ["e"=1]
+"KRI1" -> "MPHOSPH10" ["e"=1]
+"KRI1" -> "MAK16" ["e"=1]
+"KRI1" -> "UTP3" ["e"=1]
+"LARP7" -> "TMA16" ["e"=1]
+"LARP7" -> "AIMP1" ["e"=1]
+"LARP7" -> "C1orf131" ["e"=1]
+"LARP7" -> "CCDC137" ["e"=1]
+"LTV1" -> "MPHOSPH10" ["e"=1]
+"LTV1" -> "KRI1" ["e"=1]
+"LTV1" -> "UTP3" ["e"=1]
+"LTV1" -> "MAK16" ["e"=1]
+"LZIC" -> "SNAPIN" ["e"=1]
+"LZIC" -> "TMA16" ["e"=1]
+"LZIC" -> "BLOC1S2" ["e"=1]
+"LZIC" -> "MED11" ["e"=1]
+"MAK16" -> "UTP3" ["e"=1]
+"MAK16" -> "EIF2S2" ["e"=1]
+"MAK16" -> "KRI1" ["e"=1]
+"MAK16" -> "TMA16" ["e"=1]
+"MED10" -> "MED11" ["e"=1]
+"MED10" -> "IFT20" ["e"=1]
+"MED10" -> "BLOC1S2" ["e"=1]
+"MED10" -> "SNAPIN" ["e"=1]
+"MED11" -> "SNAPIN" ["e"=1]
+"MED11" -> "MED10" ["e"=1]
+"MED11" -> "BLOC1S1" ["e"=1]
+"MED11" -> "BLOC1S2" ["e"=1]
+"MPHOSPH10" -> "UTP3" ["e"=1]
+"MPHOSPH10" -> "LTV1" ["e"=1]
+"MPHOSPH10" -> "KRI1" ["e"=1]
+"MPHOSPH10" -> "MAK16" ["e"=1]
+"NOL12" -> "CCDC137" ["e"=1]
+"NOL12" -> "UTP11" ["e"=1]
+"NOL12" -> "C1orf131" ["e"=1]
+"NOL12" -> "TMA16" ["e"=1]
+"NOL7" -> "CCDC137" ["e"=1]
+"NOL7" -> "C1orf131" ["e"=1]
+"NOL7" -> "CCDC59" ["e"=1]
+"NOL7" -> "UTP11" ["e"=1]
+"NPM2" -> "DRAP1" ["e"=1]
+"NPM2" -> "C7orf50" ["e"=1]
+"NPM2" -> "SUB1" ["e"=1]
+"NPM2" -> "PYM1" ["e"=1]
+"PDCL3" -> "UTP11" ["e"=1]
+"PDCL3" -> "LTV1" ["e"=1]
+"PDCL3" -> "LZIC" ["e"=1]
+"PDCL3" -> "MAK16" ["e"=1]
+"PYM1" -> "CCDC137" ["e"=1]
+"PYM1" -> "C8orf33" ["e"=1]
+"PYM1" -> "NOL12" ["e"=1]
+"PYM1" -> "C7orf50" ["e"=1]
+"RRP36" -> "CCDC137" ["e"=1]
+"RRP36" -> "NOL12" ["e"=1]
+"RRP36" -> "NOL7" ["e"=1]
+"RRP36" -> "CCDC59" ["e"=1]
+"SNAPIN" -> "MED11" ["e"=1]
+"SNAPIN" -> "BLOC1S2" ["e"=1]
+"SNAPIN" -> "LZIC" ["e"=1]
+"SNAPIN" -> "DCTN3" ["e"=1]
+"SUB1" -> "EIF2S2" ["e"=1]
+"SUB1" -> "C7orf50" ["e"=1]
+"SUB1" -> "TMA16" ["e"=1]
+"SUB1" -> "NPM2" ["e"=1]
+"TINCR" -> "LZIC" ["e"=1]
+"TINCR" -> "TMA16" ["e"=1]
+"TINCR" -> "PYM1" ["e"=1]
+"TINCR" -> "SNAPIN" ["e"=1]
+"TMA16" -> "UTP11" ["e"=1]
+"TMA16" -> "CCDC137" ["e"=1]
+"TMA16" -> "C8orf33" ["e"=1]
+"TMA16" -> "NOL12" ["e"=1]
+"UTP11" -> "TMA16" ["e"=1]
+"UTP11" -> "CCDC137" ["e"=1]
+"UTP11" -> "NOL12" ["e"=1]
+"UTP11" -> "C1orf131" ["e"=1]
+"UTP3" -> "MPHOSPH10" ["e"=1]
+"UTP3" -> "MAK16" ["e"=1]
+"UTP3" -> "KRI1" ["e"=1]
+"UTP3" -> "LTV1" ["e"=1]
+"ZCCHC9" -> "C1orf131" ["e"=1]
+"ZCCHC9" -> "TMA16" ["e"=1]
+"ZCCHC9" -> "CCDC137" ["e"=1]
+"ZCCHC9" -> "CCDC59" ["e"=1]
 }

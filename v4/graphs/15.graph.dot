@@ -22,96 +22,96 @@ digraph G {
 "TRDD1" ["l"="4.240,-12.660"]
 "TRDJ1" ["l"="4.235,-12.664"]
 "TRGJ1" ["l"="4.237,-12.663"]
-"IGHD1-1" -> "TRAJ42"
-"IGHD1-1" -> "IGKJ1"
-"IGHD1-1" -> "TRDJ1"
-"IGHD1-1" -> "TRAJ31"
-"IGHJ1" -> "TRBJ1-6"
-"IGHJ1" -> "TRAJ3"
-"IGHJ1" -> "TRBJ2-7"
-"IGHJ1" -> "TRGJ1"
-"IGKJ1" -> "TRAJ31"
-"IGKJ1" -> "TRAJ3"
-"IGKJ1" -> "TRAJ42"
-"IGKJ1" -> "TRDJ1"
-"TRAJ3" -> "TRGJ1"
-"TRAJ3" -> "TRAJ42"
-"TRAJ3" -> "TRBJ2-7"
-"TRAJ3" -> "IGKJ1"
-"TRAJ31" -> "TRAJ42"
-"TRAJ31" -> "IGKJ1"
-"TRAJ31" -> "TRDJ1"
-"TRAJ31" -> "TRBJ1-1"
-"TRAJ42" -> "TRAJ31"
-"TRAJ42" -> "TRDJ1"
-"TRAJ42" -> "TRAJ3"
-"TRAJ42" -> "IGKJ1"
-"TRBD1" -> "TRBJ2-2"
-"TRBD1" -> "TRBJ1-4"
-"TRBD1" -> "TRBJ1-2"
-"TRBD1" -> "TRBJ1-3"
-"TRBJ1-1" -> "TRDJ1"
-"TRBJ1-1" -> "TRBJ2-7"
-"TRBJ1-1" -> "TRBJ1-6"
-"TRBJ1-1" -> "TRGJ1"
-"TRBJ1-2" -> "TRBJ2-3"
-"TRBJ1-2" -> "TRBJ2-6"
-"TRBJ1-2" -> "TRBJ1-3"
-"TRBJ1-2" -> "TRBJ2-2"
-"TRBJ1-3" -> "TRBJ1-2"
-"TRBJ1-3" -> "TRBJ2-6"
-"TRBJ1-3" -> "TRBJ1-4"
-"TRBJ1-3" -> "TRBJ2-5"
-"TRBJ1-4" -> "TRBJ2-2"
-"TRBJ1-4" -> "TRBJ1-3"
-"TRBJ1-4" -> "TRBJ2-5"
-"TRBJ1-4" -> "TRBJ1-2"
-"TRBJ1-5" -> "TRBJ1-6"
-"TRBJ1-5" -> "TRBJ1-1"
-"TRBJ1-5" -> "TRBJ2-7"
-"TRBJ1-5" -> "TRBJ2-3"
-"TRBJ1-6" -> "TRBJ1-1"
-"TRBJ1-6" -> "TRDJ1"
-"TRBJ1-6" -> "TRBJ1-5"
-"TRBJ1-6" -> "TRBJ2-7"
-"TRBJ2-1" -> "TRBJ2-5"
-"TRBJ2-1" -> "TRBJ2-6"
-"TRBJ2-1" -> "TRBJ2-3"
-"TRBJ2-1" -> "TRBJ1-4"
-"TRBJ2-2" -> "TRBJ1-4"
-"TRBJ2-2" -> "TRBJ1-2"
-"TRBJ2-2" -> "TRBJ2-5"
-"TRBJ2-2" -> "TRBJ2-6"
-"TRBJ2-3" -> "TRBJ2-7"
-"TRBJ2-3" -> "TRBJ1-2"
-"TRBJ2-3" -> "TRBJ2-6"
-"TRBJ2-3" -> "TRBJ2-4"
-"TRBJ2-4" -> "TRBJ2-3"
-"TRBJ2-4" -> "TRBJ2-6"
-"TRBJ2-4" -> "TRBJ1-1"
-"TRBJ2-4" -> "TRBJ2-7"
-"TRBJ2-5" -> "TRBJ2-1"
-"TRBJ2-5" -> "TRBJ2-2"
-"TRBJ2-5" -> "TRBJ2-6"
-"TRBJ2-5" -> "TRBJ1-4"
-"TRBJ2-6" -> "TRBJ1-2"
-"TRBJ2-6" -> "TRBJ2-3"
-"TRBJ2-6" -> "TRBJ1-3"
-"TRBJ2-6" -> "TRBJ2-4"
-"TRBJ2-7" -> "TRBJ2-3"
-"TRBJ2-7" -> "TRBJ1-1"
-"TRBJ2-7" -> "TRGJ1"
-"TRBJ2-7" -> "TRAJ3"
-"TRDD1" -> "IGHD1-1"
-"TRDD1" -> "TRAJ3"
-"TRDD1" -> "TRBJ1-6"
-"TRDD1" -> "TRBJ1-1"
-"TRDJ1" -> "TRBJ1-1"
-"TRDJ1" -> "TRBJ1-6"
-"TRDJ1" -> "TRAJ31"
-"TRDJ1" -> "TRAJ42"
-"TRGJ1" -> "TRAJ3"
-"TRGJ1" -> "TRBJ2-7"
-"TRGJ1" -> "TRBJ1-1"
-"TRGJ1" -> "TRDJ1"
+"IGHD1-1" -> "TRAJ42" ["e"=1]
+"IGHD1-1" -> "IGKJ1" ["e"=1]
+"IGHD1-1" -> "TRDJ1" ["e"=1]
+"IGHD1-1" -> "TRAJ31" ["e"=1]
+"IGHJ1" -> "TRBJ1-6" ["e"=1]
+"IGHJ1" -> "TRAJ3" ["e"=1]
+"IGHJ1" -> "TRBJ2-7" ["e"=1]
+"IGHJ1" -> "TRGJ1" ["e"=1]
+"IGKJ1" -> "TRAJ31" ["e"=1]
+"IGKJ1" -> "TRAJ3" ["e"=1]
+"IGKJ1" -> "TRAJ42" ["e"=1]
+"IGKJ1" -> "TRDJ1" ["e"=1]
+"TRAJ3" -> "TRGJ1" ["e"=1]
+"TRAJ3" -> "TRAJ42" ["e"=1]
+"TRAJ3" -> "TRBJ2-7" ["e"=1]
+"TRAJ3" -> "IGKJ1" ["e"=1]
+"TRAJ31" -> "TRAJ42" ["e"=1]
+"TRAJ31" -> "IGKJ1" ["e"=1]
+"TRAJ31" -> "TRDJ1" ["e"=1]
+"TRAJ31" -> "TRBJ1-1" ["e"=1]
+"TRAJ42" -> "TRAJ31" ["e"=1]
+"TRAJ42" -> "TRDJ1" ["e"=1]
+"TRAJ42" -> "TRAJ3" ["e"=1]
+"TRAJ42" -> "IGKJ1" ["e"=1]
+"TRBD1" -> "TRBJ2-2" ["e"=1]
+"TRBD1" -> "TRBJ1-4" ["e"=1]
+"TRBD1" -> "TRBJ1-2" ["e"=1]
+"TRBD1" -> "TRBJ1-3" ["e"=1]
+"TRBJ1-1" -> "TRDJ1" ["e"=1]
+"TRBJ1-1" -> "TRBJ2-7" ["e"=1]
+"TRBJ1-1" -> "TRBJ1-6" ["e"=1]
+"TRBJ1-1" -> "TRGJ1" ["e"=1]
+"TRBJ1-2" -> "TRBJ2-3" ["e"=1]
+"TRBJ1-2" -> "TRBJ2-6" ["e"=1]
+"TRBJ1-2" -> "TRBJ1-3" ["e"=1]
+"TRBJ1-2" -> "TRBJ2-2" ["e"=1]
+"TRBJ1-3" -> "TRBJ1-2" ["e"=1]
+"TRBJ1-3" -> "TRBJ2-6" ["e"=1]
+"TRBJ1-3" -> "TRBJ1-4" ["e"=1]
+"TRBJ1-3" -> "TRBJ2-5" ["e"=1]
+"TRBJ1-4" -> "TRBJ2-2" ["e"=1]
+"TRBJ1-4" -> "TRBJ1-3" ["e"=1]
+"TRBJ1-4" -> "TRBJ2-5" ["e"=1]
+"TRBJ1-4" -> "TRBJ1-2" ["e"=1]
+"TRBJ1-5" -> "TRBJ1-6" ["e"=1]
+"TRBJ1-5" -> "TRBJ1-1" ["e"=1]
+"TRBJ1-5" -> "TRBJ2-7" ["e"=1]
+"TRBJ1-5" -> "TRBJ2-3" ["e"=1]
+"TRBJ1-6" -> "TRBJ1-1" ["e"=1]
+"TRBJ1-6" -> "TRDJ1" ["e"=1]
+"TRBJ1-6" -> "TRBJ1-5" ["e"=1]
+"TRBJ1-6" -> "TRBJ2-7" ["e"=1]
+"TRBJ2-1" -> "TRBJ2-5" ["e"=1]
+"TRBJ2-1" -> "TRBJ2-6" ["e"=1]
+"TRBJ2-1" -> "TRBJ2-3" ["e"=1]
+"TRBJ2-1" -> "TRBJ1-4" ["e"=1]
+"TRBJ2-2" -> "TRBJ1-4" ["e"=1]
+"TRBJ2-2" -> "TRBJ1-2" ["e"=1]
+"TRBJ2-2" -> "TRBJ2-5" ["e"=1]
+"TRBJ2-2" -> "TRBJ2-6" ["e"=1]
+"TRBJ2-3" -> "TRBJ2-7" ["e"=1]
+"TRBJ2-3" -> "TRBJ1-2" ["e"=1]
+"TRBJ2-3" -> "TRBJ2-6" ["e"=1]
+"TRBJ2-3" -> "TRBJ2-4" ["e"=1]
+"TRBJ2-4" -> "TRBJ2-3" ["e"=1]
+"TRBJ2-4" -> "TRBJ2-6" ["e"=1]
+"TRBJ2-4" -> "TRBJ1-1" ["e"=1]
+"TRBJ2-4" -> "TRBJ2-7" ["e"=1]
+"TRBJ2-5" -> "TRBJ2-1" ["e"=1]
+"TRBJ2-5" -> "TRBJ2-2" ["e"=1]
+"TRBJ2-5" -> "TRBJ2-6" ["e"=1]
+"TRBJ2-5" -> "TRBJ1-4" ["e"=1]
+"TRBJ2-6" -> "TRBJ1-2" ["e"=1]
+"TRBJ2-6" -> "TRBJ2-3" ["e"=1]
+"TRBJ2-6" -> "TRBJ1-3" ["e"=1]
+"TRBJ2-6" -> "TRBJ2-4" ["e"=1]
+"TRBJ2-7" -> "TRBJ2-3" ["e"=1]
+"TRBJ2-7" -> "TRBJ1-1" ["e"=1]
+"TRBJ2-7" -> "TRGJ1" ["e"=1]
+"TRBJ2-7" -> "TRAJ3" ["e"=1]
+"TRDD1" -> "IGHD1-1" ["e"=1]
+"TRDD1" -> "TRAJ3" ["e"=1]
+"TRDD1" -> "TRBJ1-6" ["e"=1]
+"TRDD1" -> "TRBJ1-1" ["e"=1]
+"TRDJ1" -> "TRBJ1-1" ["e"=1]
+"TRDJ1" -> "TRBJ1-6" ["e"=1]
+"TRDJ1" -> "TRAJ31" ["e"=1]
+"TRDJ1" -> "TRAJ42" ["e"=1]
+"TRGJ1" -> "TRAJ3" ["e"=1]
+"TRGJ1" -> "TRBJ2-7" ["e"=1]
+"TRGJ1" -> "TRBJ1-1" ["e"=1]
+"TRGJ1" -> "TRDJ1" ["e"=1]
 }

@@ -21,92 +21,92 @@ digraph G {
 "UGT3A1" ["l"="20.304,-3.230"]
 "UGT3A2" ["l"="20.306,-3.231"]
 "UGT8" ["l"="20.312,-3.236"]
-"UGT1A1" -> "UGT1A4"
-"UGT1A1" -> "UGT1A10"
-"UGT1A1" -> "UGT1A9"
-"UGT1A1" -> "UGT1A8"
-"UGT1A10" -> "UGT1A9"
-"UGT1A10" -> "UGT1A8"
-"UGT1A10" -> "UGT1A6"
-"UGT1A10" -> "UGT1A7"
-"UGT1A3" -> "UGT1A7"
-"UGT1A3" -> "UGT1A9"
-"UGT1A3" -> "UGT1A5"
-"UGT1A3" -> "UGT1A4"
-"UGT1A4" -> "UGT1A7"
-"UGT1A4" -> "UGT1A9"
-"UGT1A4" -> "UGT1A1"
-"UGT1A4" -> "UGT1A8"
-"UGT1A5" -> "UGT1A8"
-"UGT1A5" -> "UGT1A3"
-"UGT1A5" -> "UGT1A6"
-"UGT1A5" -> "UGT1A7"
-"UGT1A6" -> "UGT1A10"
-"UGT1A6" -> "UGT2A1"
-"UGT1A6" -> "UGT1A5"
-"UGT1A6" -> "UGT1A8"
-"UGT1A7" -> "UGT1A8"
-"UGT1A7" -> "UGT1A9"
-"UGT1A7" -> "UGT1A4"
-"UGT1A7" -> "UGT1A3"
-"UGT1A8" -> "UGT1A7"
-"UGT1A8" -> "UGT1A10"
-"UGT1A8" -> "UGT1A9"
-"UGT1A8" -> "UGT1A4"
-"UGT1A9" -> "UGT1A10"
-"UGT1A9" -> "UGT1A7"
-"UGT1A9" -> "UGT1A8"
-"UGT1A9" -> "UGT1A4"
-"UGT2A1" -> "UGT1A6"
-"UGT2A1" -> "UGT2B15"
-"UGT2A1" -> "UGT2B17"
-"UGT2A1" -> "UGT2A2"
-"UGT2A2" -> "UGT1A10"
-"UGT2A2" -> "UGT1A6"
-"UGT2A2" -> "UGT1A1"
-"UGT2A2" -> "UGT2B10"
-"UGT2A3" -> "UGT2B17"
-"UGT2A3" -> "UGT2B15"
-"UGT2A3" -> "UGT2A2"
-"UGT2A3" -> "UGT2A1"
-"UGT2B10" -> "UGT2B4"
-"UGT2B10" -> "UGT2B15"
-"UGT2B10" -> "UGT2B11"
-"UGT2B10" -> "UGT2A2"
-"UGT2B11" -> "UGT2B15"
-"UGT2B11" -> "UGT2B10"
-"UGT2B11" -> "UGT2B28"
-"UGT2B11" -> "UGT2B4"
-"UGT2B15" -> "UGT2B11"
-"UGT2B15" -> "UGT2B17"
-"UGT2B15" -> "UGT2B10"
-"UGT2B15" -> "UGT2B4"
-"UGT2B17" -> "UGT2B15"
-"UGT2B17" -> "UGT2B7"
-"UGT2B17" -> "UGT2A1"
-"UGT2B17" -> "UGT2A3"
-"UGT2B28" -> "UGT2B11"
-"UGT2B28" -> "UGT2B15"
-"UGT2B28" -> "UGT1A7"
-"UGT2B28" -> "UGT1A9"
-"UGT2B4" -> "UGT2B10"
-"UGT2B4" -> "UGT2B15"
-"UGT2B4" -> "UGT2B11"
-"UGT2B4" -> "UGT2A2"
-"UGT2B7" -> "UGT2B17"
-"UGT2B7" -> "UGT2B15"
-"UGT2B7" -> "UGT2B10"
-"UGT2B7" -> "UGT1A1"
-"UGT3A1" -> "UGT3A2"
-"UGT3A1" -> "UGT2A3"
-"UGT3A1" -> "UGT2A2"
-"UGT3A1" -> "UGT1A3"
-"UGT3A2" -> "UGT3A1"
-"UGT3A2" -> "UGT1A1"
-"UGT3A2" -> "UGT1A4"
-"UGT3A2" -> "UGT1A8"
-"UGT8" -> "UGT2B17"
-"UGT8" -> "UGT1A8"
-"UGT8" -> "UGT1A10"
-"UGT8" -> "UGT2A3"
+"UGT1A1" -> "UGT1A4" ["e"=1]
+"UGT1A1" -> "UGT1A10" ["e"=1]
+"UGT1A1" -> "UGT1A9" ["e"=1]
+"UGT1A1" -> "UGT1A8" ["e"=1]
+"UGT1A10" -> "UGT1A9" ["e"=1]
+"UGT1A10" -> "UGT1A8" ["e"=1]
+"UGT1A10" -> "UGT1A6" ["e"=1]
+"UGT1A10" -> "UGT1A7" ["e"=1]
+"UGT1A3" -> "UGT1A7" ["e"=1]
+"UGT1A3" -> "UGT1A9" ["e"=1]
+"UGT1A3" -> "UGT1A5" ["e"=1]
+"UGT1A3" -> "UGT1A4" ["e"=1]
+"UGT1A4" -> "UGT1A7" ["e"=1]
+"UGT1A4" -> "UGT1A9" ["e"=1]
+"UGT1A4" -> "UGT1A1" ["e"=1]
+"UGT1A4" -> "UGT1A8" ["e"=1]
+"UGT1A5" -> "UGT1A8" ["e"=1]
+"UGT1A5" -> "UGT1A3" ["e"=1]
+"UGT1A5" -> "UGT1A6" ["e"=1]
+"UGT1A5" -> "UGT1A7" ["e"=1]
+"UGT1A6" -> "UGT1A10" ["e"=1]
+"UGT1A6" -> "UGT2A1" ["e"=1]
+"UGT1A6" -> "UGT1A5" ["e"=1]
+"UGT1A6" -> "UGT1A8" ["e"=1]
+"UGT1A7" -> "UGT1A8" ["e"=1]
+"UGT1A7" -> "UGT1A9" ["e"=1]
+"UGT1A7" -> "UGT1A4" ["e"=1]
+"UGT1A7" -> "UGT1A3" ["e"=1]
+"UGT1A8" -> "UGT1A7" ["e"=1]
+"UGT1A8" -> "UGT1A10" ["e"=1]
+"UGT1A8" -> "UGT1A9" ["e"=1]
+"UGT1A8" -> "UGT1A4" ["e"=1]
+"UGT1A9" -> "UGT1A10" ["e"=1]
+"UGT1A9" -> "UGT1A7" ["e"=1]
+"UGT1A9" -> "UGT1A8" ["e"=1]
+"UGT1A9" -> "UGT1A4" ["e"=1]
+"UGT2A1" -> "UGT1A6" ["e"=1]
+"UGT2A1" -> "UGT2B15" ["e"=1]
+"UGT2A1" -> "UGT2B17" ["e"=1]
+"UGT2A1" -> "UGT2A2" ["e"=1]
+"UGT2A2" -> "UGT1A10" ["e"=1]
+"UGT2A2" -> "UGT1A6" ["e"=1]
+"UGT2A2" -> "UGT1A1" ["e"=1]
+"UGT2A2" -> "UGT2B10" ["e"=1]
+"UGT2A3" -> "UGT2B17" ["e"=1]
+"UGT2A3" -> "UGT2B15" ["e"=1]
+"UGT2A3" -> "UGT2A2" ["e"=1]
+"UGT2A3" -> "UGT2A1" ["e"=1]
+"UGT2B10" -> "UGT2B4" ["e"=1]
+"UGT2B10" -> "UGT2B15" ["e"=1]
+"UGT2B10" -> "UGT2B11" ["e"=1]
+"UGT2B10" -> "UGT2A2" ["e"=1]
+"UGT2B11" -> "UGT2B15" ["e"=1]
+"UGT2B11" -> "UGT2B10" ["e"=1]
+"UGT2B11" -> "UGT2B28" ["e"=1]
+"UGT2B11" -> "UGT2B4" ["e"=1]
+"UGT2B15" -> "UGT2B11" ["e"=1]
+"UGT2B15" -> "UGT2B17" ["e"=1]
+"UGT2B15" -> "UGT2B10" ["e"=1]
+"UGT2B15" -> "UGT2B4" ["e"=1]
+"UGT2B17" -> "UGT2B15" ["e"=1]
+"UGT2B17" -> "UGT2B7" ["e"=1]
+"UGT2B17" -> "UGT2A1" ["e"=1]
+"UGT2B17" -> "UGT2A3" ["e"=1]
+"UGT2B28" -> "UGT2B11" ["e"=1]
+"UGT2B28" -> "UGT2B15" ["e"=1]
+"UGT2B28" -> "UGT1A7" ["e"=1]
+"UGT2B28" -> "UGT1A9" ["e"=1]
+"UGT2B4" -> "UGT2B10" ["e"=1]
+"UGT2B4" -> "UGT2B15" ["e"=1]
+"UGT2B4" -> "UGT2B11" ["e"=1]
+"UGT2B4" -> "UGT2A2" ["e"=1]
+"UGT2B7" -> "UGT2B17" ["e"=1]
+"UGT2B7" -> "UGT2B15" ["e"=1]
+"UGT2B7" -> "UGT2B10" ["e"=1]
+"UGT2B7" -> "UGT1A1" ["e"=1]
+"UGT3A1" -> "UGT3A2" ["e"=1]
+"UGT3A1" -> "UGT2A3" ["e"=1]
+"UGT3A1" -> "UGT2A2" ["e"=1]
+"UGT3A1" -> "UGT1A3" ["e"=1]
+"UGT3A2" -> "UGT3A1" ["e"=1]
+"UGT3A2" -> "UGT1A1" ["e"=1]
+"UGT3A2" -> "UGT1A4" ["e"=1]
+"UGT3A2" -> "UGT1A8" ["e"=1]
+"UGT8" -> "UGT2B17" ["e"=1]
+"UGT8" -> "UGT1A8" ["e"=1]
+"UGT8" -> "UGT1A10" ["e"=1]
+"UGT8" -> "UGT2A3" ["e"=1]
 }

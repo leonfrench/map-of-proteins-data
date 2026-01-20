@@ -25,108 +25,108 @@ digraph G {
 "TMEM255B" ["l"="8.592,-2.794"]
 "TMEM44" ["l"="8.833,-2.684"]
 "TSPAN10" ["l"="8.731,-2.715"]
-"APOLD1" -> "MLC1"
-"APOLD1" -> "TMEM253"
-"APOLD1" -> "MS4A2"
-"APOLD1" -> "TSPAN10"
-"CMTM2" -> "MS4A10"
-"CMTM2" -> "MLC1"
-"CMTM2" -> "MS4A6E"
-"CMTM2" -> "TSPAN10"
-"MLC1" -> "TMEM253"
-"MLC1" -> "MS4A2"
-"MLC1" -> "MS4A3"
-"MLC1" -> "APOLD1"
-"MS4A1" -> "MS4A2"
-"MS4A1" -> "MS4A10"
-"MS4A1" -> "MS4A7"
-"MS4A1" -> "MS4A6A"
-"MS4A10" -> "TMEM253"
-"MS4A10" -> "MS4A2"
-"MS4A10" -> "MLC1"
-"MS4A10" -> "MS4A4E"
-"MS4A12" -> "MS4A15"
-"MS4A12" -> "MS4A8"
-"MS4A12" -> "MS4A4A"
-"MS4A12" -> "MS4A10"
-"MS4A13" -> "MS4A5"
-"MS4A13" -> "MS4A4E"
-"MS4A13" -> "MS4A3"
-"MS4A13" -> "MS4A2"
-"MS4A15" -> "MS4A8"
-"MS4A15" -> "MS4A12"
-"MS4A15" -> "MS4A2"
-"MS4A15" -> "MS4A7"
-"MS4A18" -> "MS4A5"
-"MS4A18" -> "MS4A15"
-"MS4A18" -> "MLC1"
-"MS4A18" -> "MS4A12"
-"MS4A2" -> "MS4A3"
-"MS4A2" -> "MS4A4A"
-"MS4A2" -> "MS4A4E"
-"MS4A2" -> "MS4A7"
-"MS4A3" -> "MS4A2"
-"MS4A3" -> "MS4A4A"
-"MS4A3" -> "MS4A6E"
-"MS4A3" -> "MS4A6A"
-"MS4A4A" -> "MS4A6A"
-"MS4A4A" -> "MS4A7"
-"MS4A4A" -> "MS4A3"
-"MS4A4A" -> "MS4A2"
-"MS4A4E" -> "MS4A4A"
-"MS4A4E" -> "MS4A2"
-"MS4A4E" -> "MS4A6E"
-"MS4A4E" -> "MS4A5"
-"MS4A5" -> "MS4A13"
-"MS4A5" -> "MS4A4E"
-"MS4A5" -> "MS4A3"
-"MS4A5" -> "MS4A18"
-"MS4A6A" -> "MS4A7"
-"MS4A6A" -> "MS4A4A"
-"MS4A6A" -> "MS4A2"
-"MS4A6A" -> "MS4A3"
-"MS4A6E" -> "MS4A7"
-"MS4A6E" -> "MS4A4A"
-"MS4A6E" -> "MS4A3"
-"MS4A6E" -> "MS4A4E"
-"MS4A7" -> "MS4A6A"
-"MS4A7" -> "MS4A4A"
-"MS4A7" -> "MS4A2"
-"MS4A7" -> "MS4A6E"
-"MS4A8" -> "MS4A15"
-"MS4A8" -> "MS4A4A"
-"MS4A8" -> "MS4A12"
-"MS4A8" -> "MS4A3"
-"PRPH2" -> "ROM1"
-"PRPH2" -> "TSPAN10"
-"PRPH2" -> "APOLD1"
-"PRPH2" -> "TMEM253"
-"ROM1" -> "TSPAN10"
-"ROM1" -> "PRPH2"
-"ROM1" -> "TMEM253"
-"ROM1" -> "APOLD1"
-"TMEM176A" -> "TMEM176B"
-"TMEM176A" -> "MS4A2"
-"TMEM176A" -> "TMEM253"
-"TMEM176A" -> "MS4A4A"
-"TMEM176B" -> "TMEM176A"
-"TMEM176B" -> "MS4A2"
-"TMEM176B" -> "MS4A4A"
-"TMEM176B" -> "MS4A7"
-"TMEM253" -> "TSPAN10"
-"TMEM253" -> "MS4A10"
-"TMEM253" -> "MLC1"
-"TMEM253" -> "TMEM176A"
-"TMEM255B" -> "MLC1"
-"TMEM255B" -> "MS4A4E"
-"TMEM255B" -> "MS4A2"
-"TMEM255B" -> "MS4A15"
-"TMEM44" -> "TMEM253"
-"TMEM44" -> "MLC1"
-"TMEM44" -> "MS4A10"
-"TMEM44" -> "TSPAN10"
-"TSPAN10" -> "TMEM253"
-"TSPAN10" -> "ROM1"
-"TSPAN10" -> "MLC1"
-"TSPAN10" -> "PRPH2"
+"APOLD1" -> "MLC1" ["e"=1]
+"APOLD1" -> "TMEM253" ["e"=1]
+"APOLD1" -> "MS4A2" ["e"=1]
+"APOLD1" -> "TSPAN10" ["e"=1]
+"CMTM2" -> "MS4A10" ["e"=1]
+"CMTM2" -> "MLC1" ["e"=1]
+"CMTM2" -> "MS4A6E" ["e"=1]
+"CMTM2" -> "TSPAN10" ["e"=1]
+"MLC1" -> "TMEM253" ["e"=1]
+"MLC1" -> "MS4A2" ["e"=1]
+"MLC1" -> "MS4A3" ["e"=1]
+"MLC1" -> "APOLD1" ["e"=1]
+"MS4A1" -> "MS4A2" ["e"=1]
+"MS4A1" -> "MS4A10" ["e"=1]
+"MS4A1" -> "MS4A7" ["e"=1]
+"MS4A1" -> "MS4A6A" ["e"=1]
+"MS4A10" -> "TMEM253" ["e"=1]
+"MS4A10" -> "MS4A2" ["e"=1]
+"MS4A10" -> "MLC1" ["e"=1]
+"MS4A10" -> "MS4A4E" ["e"=1]
+"MS4A12" -> "MS4A15" ["e"=1]
+"MS4A12" -> "MS4A8" ["e"=1]
+"MS4A12" -> "MS4A4A" ["e"=1]
+"MS4A12" -> "MS4A10" ["e"=1]
+"MS4A13" -> "MS4A5" ["e"=1]
+"MS4A13" -> "MS4A4E" ["e"=1]
+"MS4A13" -> "MS4A3" ["e"=1]
+"MS4A13" -> "MS4A2" ["e"=1]
+"MS4A15" -> "MS4A8" ["e"=1]
+"MS4A15" -> "MS4A12" ["e"=1]
+"MS4A15" -> "MS4A2" ["e"=1]
+"MS4A15" -> "MS4A7" ["e"=1]
+"MS4A18" -> "MS4A5" ["e"=1]
+"MS4A18" -> "MS4A15" ["e"=1]
+"MS4A18" -> "MLC1" ["e"=1]
+"MS4A18" -> "MS4A12" ["e"=1]
+"MS4A2" -> "MS4A3" ["e"=1]
+"MS4A2" -> "MS4A4A" ["e"=1]
+"MS4A2" -> "MS4A4E" ["e"=1]
+"MS4A2" -> "MS4A7" ["e"=1]
+"MS4A3" -> "MS4A2" ["e"=1]
+"MS4A3" -> "MS4A4A" ["e"=1]
+"MS4A3" -> "MS4A6E" ["e"=1]
+"MS4A3" -> "MS4A6A" ["e"=1]
+"MS4A4A" -> "MS4A6A" ["e"=1]
+"MS4A4A" -> "MS4A7" ["e"=1]
+"MS4A4A" -> "MS4A3" ["e"=1]
+"MS4A4A" -> "MS4A2" ["e"=1]
+"MS4A4E" -> "MS4A4A" ["e"=1]
+"MS4A4E" -> "MS4A2" ["e"=1]
+"MS4A4E" -> "MS4A6E" ["e"=1]
+"MS4A4E" -> "MS4A5" ["e"=1]
+"MS4A5" -> "MS4A13" ["e"=1]
+"MS4A5" -> "MS4A4E" ["e"=1]
+"MS4A5" -> "MS4A3" ["e"=1]
+"MS4A5" -> "MS4A18" ["e"=1]
+"MS4A6A" -> "MS4A7" ["e"=1]
+"MS4A6A" -> "MS4A4A" ["e"=1]
+"MS4A6A" -> "MS4A2" ["e"=1]
+"MS4A6A" -> "MS4A3" ["e"=1]
+"MS4A6E" -> "MS4A7" ["e"=1]
+"MS4A6E" -> "MS4A4A" ["e"=1]
+"MS4A6E" -> "MS4A3" ["e"=1]
+"MS4A6E" -> "MS4A4E" ["e"=1]
+"MS4A7" -> "MS4A6A" ["e"=1]
+"MS4A7" -> "MS4A4A" ["e"=1]
+"MS4A7" -> "MS4A2" ["e"=1]
+"MS4A7" -> "MS4A6E" ["e"=1]
+"MS4A8" -> "MS4A15" ["e"=1]
+"MS4A8" -> "MS4A4A" ["e"=1]
+"MS4A8" -> "MS4A12" ["e"=1]
+"MS4A8" -> "MS4A3" ["e"=1]
+"PRPH2" -> "ROM1" ["e"=1]
+"PRPH2" -> "TSPAN10" ["e"=1]
+"PRPH2" -> "APOLD1" ["e"=1]
+"PRPH2" -> "TMEM253" ["e"=1]
+"ROM1" -> "TSPAN10" ["e"=1]
+"ROM1" -> "PRPH2" ["e"=1]
+"ROM1" -> "TMEM253" ["e"=1]
+"ROM1" -> "APOLD1" ["e"=1]
+"TMEM176A" -> "TMEM176B" ["e"=1]
+"TMEM176A" -> "MS4A2" ["e"=1]
+"TMEM176A" -> "TMEM253" ["e"=1]
+"TMEM176A" -> "MS4A4A" ["e"=1]
+"TMEM176B" -> "TMEM176A" ["e"=1]
+"TMEM176B" -> "MS4A2" ["e"=1]
+"TMEM176B" -> "MS4A4A" ["e"=1]
+"TMEM176B" -> "MS4A7" ["e"=1]
+"TMEM253" -> "TSPAN10" ["e"=1]
+"TMEM253" -> "MS4A10" ["e"=1]
+"TMEM253" -> "MLC1" ["e"=1]
+"TMEM253" -> "TMEM176A" ["e"=1]
+"TMEM255B" -> "MLC1" ["e"=1]
+"TMEM255B" -> "MS4A4E" ["e"=1]
+"TMEM255B" -> "MS4A2" ["e"=1]
+"TMEM255B" -> "MS4A15" ["e"=1]
+"TMEM44" -> "TMEM253" ["e"=1]
+"TMEM44" -> "MLC1" ["e"=1]
+"TMEM44" -> "MS4A10" ["e"=1]
+"TMEM44" -> "TSPAN10" ["e"=1]
+"TSPAN10" -> "TMEM253" ["e"=1]
+"TSPAN10" -> "ROM1" ["e"=1]
+"TSPAN10" -> "MLC1" ["e"=1]
+"TSPAN10" -> "PRPH2" ["e"=1]
 }

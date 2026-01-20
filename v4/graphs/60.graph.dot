@@ -12,56 +12,56 @@ digraph G {
 "CETP" ["l"="7.211,-2.052"]
 "LBP" ["l"="7.211,-2.051"]
 "PLTP" ["l"="7.209,-2.053"]
-"BPI" -> "CETP"
-"BPI" -> "LBP"
-"BPI" -> "BPIFB6"
-"BPI" -> "BPIFB3"
-"BPIFA1" -> "BPIFB3"
-"BPIFA1" -> "BPIFB1"
-"BPIFA1" -> "BPIFA2"
-"BPIFA1" -> "BPIFB4"
-"BPIFA2" -> "BPIFA1"
-"BPIFA2" -> "BPIFB3"
-"BPIFA2" -> "BPIFB1"
-"BPIFA2" -> "BPIFB2"
-"BPIFA3" -> "BPIFB6"
-"BPIFA3" -> "BPIFB3"
-"BPIFA3" -> "LBP"
-"BPIFA3" -> "BPI"
-"BPIFB1" -> "BPIFB3"
-"BPIFB1" -> "BPIFB2"
-"BPIFB1" -> "BPIFA1"
-"BPIFB1" -> "BPIFB6"
-"BPIFB2" -> "BPIFB3"
-"BPIFB2" -> "BPIFB1"
-"BPIFB2" -> "BPIFB6"
-"BPIFB2" -> "LBP"
-"BPIFB3" -> "BPIFB6"
-"BPIFB3" -> "BPIFB2"
-"BPIFB3" -> "BPIFB1"
-"BPIFB3" -> "BPIFB4"
-"BPIFB4" -> "BPIFB3"
-"BPIFB4" -> "BPIFB6"
-"BPIFB4" -> "BPIFA1"
-"BPIFB4" -> "BPI"
-"BPIFB6" -> "BPIFB3"
-"BPIFB6" -> "LBP"
-"BPIFB6" -> "BPIFA3"
-"BPIFB6" -> "BPIFC"
-"BPIFC" -> "LBP"
-"BPIFC" -> "BPIFB6"
-"BPIFC" -> "BPIFB3"
-"BPIFC" -> "CETP"
-"CETP" -> "BPI"
-"CETP" -> "PLTP"
-"CETP" -> "BPIFB6"
-"CETP" -> "LBP"
-"LBP" -> "BPIFB6"
-"LBP" -> "BPI"
-"LBP" -> "PLTP"
-"LBP" -> "BPIFC"
-"PLTP" -> "LBP"
-"PLTP" -> "CETP"
-"PLTP" -> "BPIFB3"
-"PLTP" -> "BPIFB6"
+"BPI" -> "CETP" ["e"=1]
+"BPI" -> "LBP" ["e"=1]
+"BPI" -> "BPIFB6" ["e"=1]
+"BPI" -> "BPIFB3" ["e"=1]
+"BPIFA1" -> "BPIFB3" ["e"=1]
+"BPIFA1" -> "BPIFB1" ["e"=1]
+"BPIFA1" -> "BPIFA2" ["e"=1]
+"BPIFA1" -> "BPIFB4" ["e"=1]
+"BPIFA2" -> "BPIFA1" ["e"=1]
+"BPIFA2" -> "BPIFB3" ["e"=1]
+"BPIFA2" -> "BPIFB1" ["e"=1]
+"BPIFA2" -> "BPIFB2" ["e"=1]
+"BPIFA3" -> "BPIFB6" ["e"=1]
+"BPIFA3" -> "BPIFB3" ["e"=1]
+"BPIFA3" -> "LBP" ["e"=1]
+"BPIFA3" -> "BPI" ["e"=1]
+"BPIFB1" -> "BPIFB3" ["e"=1]
+"BPIFB1" -> "BPIFB2" ["e"=1]
+"BPIFB1" -> "BPIFA1" ["e"=1]
+"BPIFB1" -> "BPIFB6" ["e"=1]
+"BPIFB2" -> "BPIFB3" ["e"=1]
+"BPIFB2" -> "BPIFB1" ["e"=1]
+"BPIFB2" -> "BPIFB6" ["e"=1]
+"BPIFB2" -> "LBP" ["e"=1]
+"BPIFB3" -> "BPIFB6" ["e"=1]
+"BPIFB3" -> "BPIFB2" ["e"=1]
+"BPIFB3" -> "BPIFB1" ["e"=1]
+"BPIFB3" -> "BPIFB4" ["e"=1]
+"BPIFB4" -> "BPIFB3" ["e"=1]
+"BPIFB4" -> "BPIFB6" ["e"=1]
+"BPIFB4" -> "BPIFA1" ["e"=1]
+"BPIFB4" -> "BPI" ["e"=1]
+"BPIFB6" -> "BPIFB3" ["e"=1]
+"BPIFB6" -> "LBP" ["e"=1]
+"BPIFB6" -> "BPIFA3" ["e"=1]
+"BPIFB6" -> "BPIFC" ["e"=1]
+"BPIFC" -> "LBP" ["e"=1]
+"BPIFC" -> "BPIFB6" ["e"=1]
+"BPIFC" -> "BPIFB3" ["e"=1]
+"BPIFC" -> "CETP" ["e"=1]
+"CETP" -> "BPI" ["e"=1]
+"CETP" -> "PLTP" ["e"=1]
+"CETP" -> "BPIFB6" ["e"=1]
+"CETP" -> "LBP" ["e"=1]
+"LBP" -> "BPIFB6" ["e"=1]
+"LBP" -> "BPI" ["e"=1]
+"LBP" -> "PLTP" ["e"=1]
+"LBP" -> "BPIFC" ["e"=1]
+"PLTP" -> "LBP" ["e"=1]
+"PLTP" -> "CETP" ["e"=1]
+"PLTP" -> "BPIFB3" ["e"=1]
+"PLTP" -> "BPIFB6" ["e"=1]
 }

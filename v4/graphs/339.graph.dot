@@ -31,132 +31,132 @@ digraph G {
 "TTC16" ["l"="9.667,1.445"]
 "USP2" ["l"="9.535,1.438"]
 "USP21" ["l"="9.583,1.525"]
-"ANKIB1" -> "RNF157"
-"ANKIB1" -> "SHC4"
-"ANKIB1" -> "CEP104"
-"ANKIB1" -> "ATAD2B"
-"APBB1" -> "APBB3"
-"APBB1" -> "USP21"
-"APBB1" -> "SHC4"
-"APBB1" -> "SHC2"
-"APBB3" -> "TEPSIN"
-"APBB3" -> "SHC4"
-"APBB3" -> "APBB1"
-"APBB3" -> "SH2B3"
-"ARNTL" -> "FBXO42"
-"ARNTL" -> "RNF157"
-"ARNTL" -> "ATAD2B"
-"ARNTL" -> "SHC4"
-"ATAD2B" -> "TOP2B"
-"ATAD2B" -> "FBXO42"
-"ATAD2B" -> "SHC4"
-"ATAD2B" -> "ANKIB1"
-"BANK1" -> "RTKN2"
-"BANK1" -> "STAP1"
-"BANK1" -> "TERB1"
-"BANK1" -> "STAP2"
-"CEP104" -> "PLEKHM1"
-"CEP104" -> "ANKIB1"
-"CEP104" -> "RTKN2"
-"CEP104" -> "STAC"
-"FBXO42" -> "RNF157"
-"FBXO42" -> "ATAD2B"
-"FBXO42" -> "ARNTL"
-"FBXO42" -> "ANKIB1"
-"GRAMD2B" -> "SHC4"
-"GRAMD2B" -> "RNF157"
-"GRAMD2B" -> "STAC2"
-"GRAMD2B" -> "STAC"
-"INPP5J" -> "USP21"
-"INPP5J" -> "SH2B3"
-"INPP5J" -> "TEPSIN"
-"INPP5J" -> "USP2"
-"MINDY4" -> "PLEKHM1"
-"MINDY4" -> "SHC4"
-"MINDY4" -> "GRAMD2B"
-"MINDY4" -> "SH2B3"
-"PLEKHM1" -> "MINDY4"
-"PLEKHM1" -> "SH2B3"
-"PLEKHM1" -> "CEP104"
-"PLEKHM1" -> "RASSF5"
-"PPP1R37" -> "RNF157"
-"PPP1R37" -> "STAC2"
-"PPP1R37" -> "CEP104"
-"PPP1R37" -> "TEPSIN"
-"RASSF5" -> "SH2B3"
-"RASSF5" -> "STAC2"
-"RASSF5" -> "STAC"
-"RASSF5" -> "STAP1"
-"RNF157" -> "FBXO42"
-"RNF157" -> "ANKIB1"
-"RNF157" -> "STAC2"
-"RNF157" -> "PPP1R37"
-"RTKN2" -> "BANK1"
-"RTKN2" -> "STAP1"
-"RTKN2" -> "CEP104"
-"RTKN2" -> "SHC4"
-"SCYL2" -> "ATAD2B"
-"SCYL2" -> "CEP104"
-"SCYL2" -> "ANKIB1"
-"SCYL2" -> "TEPSIN"
-"SH2B3" -> "RASSF5"
-"SH2B3" -> "STAC2"
-"SH2B3" -> "SHC4"
-"SH2B3" -> "USP21"
-"SH2D3A" -> "SH2B3"
-"SH2D3A" -> "TEPSIN"
-"SH2D3A" -> "SHC4"
-"SH2D3A" -> "PLEKHM1"
-"SHC2" -> "SHC4"
-"SHC2" -> "SH2B3"
-"SHC2" -> "TEPSIN"
-"SHC2" -> "STAC"
-"SHC4" -> "STAC"
-"SHC4" -> "GRAMD2B"
-"SHC4" -> "SHC2"
-"SHC4" -> "SH2B3"
-"STAC" -> "STAC2"
-"STAC" -> "SHC4"
-"STAC" -> "RASSF5"
-"STAC" -> "STAP1"
-"STAC2" -> "STAC"
-"STAC2" -> "SH2B3"
-"STAC2" -> "RNF157"
-"STAC2" -> "RASSF5"
-"STAP1" -> "STAP2"
-"STAP1" -> "SHC4"
-"STAP1" -> "STAC"
-"STAP1" -> "RASSF5"
-"STAP2" -> "STAP1"
-"STAP2" -> "SHC4"
-"STAP2" -> "SH2B3"
-"STAP2" -> "STAC"
-"TEPSIN" -> "APBB3"
-"TEPSIN" -> "SH2B3"
-"TEPSIN" -> "SHC4"
-"TEPSIN" -> "SHC2"
-"TERB1" -> "RTKN2"
-"TERB1" -> "TEPSIN"
-"TERB1" -> "CEP104"
-"TERB1" -> "ATAD2B"
-"TOP2B" -> "ATAD2B"
-"TOP2B" -> "SCYL2"
-"TOP2B" -> "CEP104"
-"TOP2B" -> "ANKIB1"
-"TSNARE1" -> "GRAMD2B"
-"TSNARE1" -> "USP21"
-"TSNARE1" -> "SH2B3"
-"TSNARE1" -> "SHC4"
-"TTC16" -> "PPP1R37"
-"TTC16" -> "INPP5J"
-"TTC16" -> "RNF157"
-"TTC16" -> "USP21"
-"USP2" -> "USP21"
-"USP2" -> "SH2B3"
-"USP2" -> "SHC4"
-"USP2" -> "STAC2"
-"USP21" -> "USP2"
-"USP21" -> "SH2B3"
-"USP21" -> "SHC4"
-"USP21" -> "INPP5J"
+"ANKIB1" -> "RNF157" ["e"=1]
+"ANKIB1" -> "SHC4" ["e"=1]
+"ANKIB1" -> "CEP104" ["e"=1]
+"ANKIB1" -> "ATAD2B" ["e"=1]
+"APBB1" -> "APBB3" ["e"=1]
+"APBB1" -> "USP21" ["e"=1]
+"APBB1" -> "SHC4" ["e"=1]
+"APBB1" -> "SHC2" ["e"=1]
+"APBB3" -> "TEPSIN" ["e"=1]
+"APBB3" -> "SHC4" ["e"=1]
+"APBB3" -> "APBB1" ["e"=1]
+"APBB3" -> "SH2B3" ["e"=1]
+"ARNTL" -> "FBXO42" ["e"=1]
+"ARNTL" -> "RNF157" ["e"=1]
+"ARNTL" -> "ATAD2B" ["e"=1]
+"ARNTL" -> "SHC4" ["e"=1]
+"ATAD2B" -> "TOP2B" ["e"=1]
+"ATAD2B" -> "FBXO42" ["e"=1]
+"ATAD2B" -> "SHC4" ["e"=1]
+"ATAD2B" -> "ANKIB1" ["e"=1]
+"BANK1" -> "RTKN2" ["e"=1]
+"BANK1" -> "STAP1" ["e"=1]
+"BANK1" -> "TERB1" ["e"=1]
+"BANK1" -> "STAP2" ["e"=1]
+"CEP104" -> "PLEKHM1" ["e"=1]
+"CEP104" -> "ANKIB1" ["e"=1]
+"CEP104" -> "RTKN2" ["e"=1]
+"CEP104" -> "STAC" ["e"=1]
+"FBXO42" -> "RNF157" ["e"=1]
+"FBXO42" -> "ATAD2B" ["e"=1]
+"FBXO42" -> "ARNTL" ["e"=1]
+"FBXO42" -> "ANKIB1" ["e"=1]
+"GRAMD2B" -> "SHC4" ["e"=1]
+"GRAMD2B" -> "RNF157" ["e"=1]
+"GRAMD2B" -> "STAC2" ["e"=1]
+"GRAMD2B" -> "STAC" ["e"=1]
+"INPP5J" -> "USP21" ["e"=1]
+"INPP5J" -> "SH2B3" ["e"=1]
+"INPP5J" -> "TEPSIN" ["e"=1]
+"INPP5J" -> "USP2" ["e"=1]
+"MINDY4" -> "PLEKHM1" ["e"=1]
+"MINDY4" -> "SHC4" ["e"=1]
+"MINDY4" -> "GRAMD2B" ["e"=1]
+"MINDY4" -> "SH2B3" ["e"=1]
+"PLEKHM1" -> "MINDY4" ["e"=1]
+"PLEKHM1" -> "SH2B3" ["e"=1]
+"PLEKHM1" -> "CEP104" ["e"=1]
+"PLEKHM1" -> "RASSF5" ["e"=1]
+"PPP1R37" -> "RNF157" ["e"=1]
+"PPP1R37" -> "STAC2" ["e"=1]
+"PPP1R37" -> "CEP104" ["e"=1]
+"PPP1R37" -> "TEPSIN" ["e"=1]
+"RASSF5" -> "SH2B3" ["e"=1]
+"RASSF5" -> "STAC2" ["e"=1]
+"RASSF5" -> "STAC" ["e"=1]
+"RASSF5" -> "STAP1" ["e"=1]
+"RNF157" -> "FBXO42" ["e"=1]
+"RNF157" -> "ANKIB1" ["e"=1]
+"RNF157" -> "STAC2" ["e"=1]
+"RNF157" -> "PPP1R37" ["e"=1]
+"RTKN2" -> "BANK1" ["e"=1]
+"RTKN2" -> "STAP1" ["e"=1]
+"RTKN2" -> "CEP104" ["e"=1]
+"RTKN2" -> "SHC4" ["e"=1]
+"SCYL2" -> "ATAD2B" ["e"=1]
+"SCYL2" -> "CEP104" ["e"=1]
+"SCYL2" -> "ANKIB1" ["e"=1]
+"SCYL2" -> "TEPSIN" ["e"=1]
+"SH2B3" -> "RASSF5" ["e"=1]
+"SH2B3" -> "STAC2" ["e"=1]
+"SH2B3" -> "SHC4" ["e"=1]
+"SH2B3" -> "USP21" ["e"=1]
+"SH2D3A" -> "SH2B3" ["e"=1]
+"SH2D3A" -> "TEPSIN" ["e"=1]
+"SH2D3A" -> "SHC4" ["e"=1]
+"SH2D3A" -> "PLEKHM1" ["e"=1]
+"SHC2" -> "SHC4" ["e"=1]
+"SHC2" -> "SH2B3" ["e"=1]
+"SHC2" -> "TEPSIN" ["e"=1]
+"SHC2" -> "STAC" ["e"=1]
+"SHC4" -> "STAC" ["e"=1]
+"SHC4" -> "GRAMD2B" ["e"=1]
+"SHC4" -> "SHC2" ["e"=1]
+"SHC4" -> "SH2B3" ["e"=1]
+"STAC" -> "STAC2" ["e"=1]
+"STAC" -> "SHC4" ["e"=1]
+"STAC" -> "RASSF5" ["e"=1]
+"STAC" -> "STAP1" ["e"=1]
+"STAC2" -> "STAC" ["e"=1]
+"STAC2" -> "SH2B3" ["e"=1]
+"STAC2" -> "RNF157" ["e"=1]
+"STAC2" -> "RASSF5" ["e"=1]
+"STAP1" -> "STAP2" ["e"=1]
+"STAP1" -> "SHC4" ["e"=1]
+"STAP1" -> "STAC" ["e"=1]
+"STAP1" -> "RASSF5" ["e"=1]
+"STAP2" -> "STAP1" ["e"=1]
+"STAP2" -> "SHC4" ["e"=1]
+"STAP2" -> "SH2B3" ["e"=1]
+"STAP2" -> "STAC" ["e"=1]
+"TEPSIN" -> "APBB3" ["e"=1]
+"TEPSIN" -> "SH2B3" ["e"=1]
+"TEPSIN" -> "SHC4" ["e"=1]
+"TEPSIN" -> "SHC2" ["e"=1]
+"TERB1" -> "RTKN2" ["e"=1]
+"TERB1" -> "TEPSIN" ["e"=1]
+"TERB1" -> "CEP104" ["e"=1]
+"TERB1" -> "ATAD2B" ["e"=1]
+"TOP2B" -> "ATAD2B" ["e"=1]
+"TOP2B" -> "SCYL2" ["e"=1]
+"TOP2B" -> "CEP104" ["e"=1]
+"TOP2B" -> "ANKIB1" ["e"=1]
+"TSNARE1" -> "GRAMD2B" ["e"=1]
+"TSNARE1" -> "USP21" ["e"=1]
+"TSNARE1" -> "SH2B3" ["e"=1]
+"TSNARE1" -> "SHC4" ["e"=1]
+"TTC16" -> "PPP1R37" ["e"=1]
+"TTC16" -> "INPP5J" ["e"=1]
+"TTC16" -> "RNF157" ["e"=1]
+"TTC16" -> "USP21" ["e"=1]
+"USP2" -> "USP21" ["e"=1]
+"USP2" -> "SH2B3" ["e"=1]
+"USP2" -> "SHC4" ["e"=1]
+"USP2" -> "STAC2" ["e"=1]
+"USP21" -> "USP2" ["e"=1]
+"USP21" -> "SH2B3" ["e"=1]
+"USP21" -> "SHC4" ["e"=1]
+"USP21" -> "INPP5J" ["e"=1]
 }

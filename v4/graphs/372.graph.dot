@@ -61,252 +61,252 @@ digraph G {
 "ZCRB1" ["l"="10.885,3.302"]
 "ZMAT2" ["l"="10.860,3.377"]
 "ZNRD2" ["l"="10.767,3.274"]
-"ACBD3" -> "PRKRIP1"
-"ACBD3" -> "DNAJC21"
-"ACBD3" -> "CCDC43"
-"ACBD3" -> "XPA"
-"BORCS8" -> "C19orf25"
-"BORCS8" -> "ZNRD2"
-"BORCS8" -> "GFER"
-"BORCS8" -> "SRA1"
-"C19orf25" -> "BORCS8"
-"C19orf25" -> "SVBP"
-"C19orf25" -> "SRA1"
-"C19orf25" -> "DNAJC17"
-"C9orf78" -> "ZMAT2"
-"C9orf78" -> "CCDC174"
-"C9orf78" -> "CWC15"
-"C9orf78" -> "SLU7"
-"CCDC12" -> "PDAP1"
-"CCDC12" -> "SPAG7"
-"CCDC12" -> "CWC15"
-"CCDC12" -> "CCDC124"
-"CCDC124" -> "SPAG7"
-"CCDC124" -> "PDAP1"
-"CCDC124" -> "DNAJC17"
-"CCDC124" -> "CCDC12"
-"CCDC174" -> "LENG1"
-"CCDC174" -> "DNAJC17"
-"CCDC174" -> "SPAG7"
-"CCDC174" -> "SYF2"
-"CCDC25" -> "ZMAT2"
-"CCDC25" -> "DNAJC8"
-"CCDC25" -> "GPATCH11"
-"CCDC25" -> "RWDD1"
-"CCDC43" -> "SMNDC1"
-"CCDC43" -> "XPA"
-"CCDC43" -> "DNAJC8"
-"CCDC43" -> "CCDC25"
-"CDC26" -> "KIAA1143"
-"CDC26" -> "PDAP1"
-"CDC26" -> "MPHOSPH6"
-"CDC26" -> "ZCRB1"
-"CDC5L" -> "SNW1"
-"CDC5L" -> "SLU7"
-"CDC5L" -> "SMNDC1"
-"CDC5L" -> "CCDC174"
-"CHCHD3" -> "DNAJC17"
-"CHCHD3" -> "CCDC124"
-"CHCHD3" -> "SPAG7"
-"CHCHD3" -> "CWC15"
-"CLNS1A" -> "POLE3"
-"CLNS1A" -> "PPM1G"
-"CLNS1A" -> "NAP1L4"
-"CLNS1A" -> "EIF5"
-"CLTA" -> "CLTB"
-"CLTA" -> "CHCHD3"
-"CLTA" -> "DDRGK1"
-"CLTA" -> "XPA"
-"CLTB" -> "CLTA"
-"CLTB" -> "CCDC124"
-"CLTB" -> "CHCHD3"
-"CLTB" -> "SRA1"
-"CWC15" -> "SYF2"
-"CWC15" -> "C9orf78"
-"CWC15" -> "CCDC174"
-"CWC15" -> "PDAP1"
-"CWC27" -> "ZCRB1"
-"CWC27" -> "ZC3H15"
-"CWC27" -> "SLU7"
-"CWC27" -> "DNAJC8"
-"DDRGK1" -> "UBXN1"
-"DDRGK1" -> "DNAJC17"
-"DDRGK1" -> "SELENOS"
-"DDRGK1" -> "PRKRIP1"
-"DNAJC17" -> "CCDC174"
-"DNAJC17" -> "SPAG7"
-"DNAJC17" -> "PRKRIP1"
-"DNAJC17" -> "YJU2"
-"DNAJC2" -> "DNAJC21"
-"DNAJC2" -> "DNAJC8"
-"DNAJC2" -> "SMNDC1"
-"DNAJC2" -> "ZC3H15"
-"DNAJC21" -> "DNAJC2"
-"DNAJC21" -> "RWDD1"
-"DNAJC21" -> "EIF5"
-"DNAJC21" -> "ZC3H15"
-"DNAJC8" -> "ZMAT2"
-"DNAJC8" -> "CCDC25"
-"DNAJC8" -> "CCDC43"
-"DNAJC8" -> "SYF2"
-"EAPP" -> "SLU7"
-"EAPP" -> "XPA"
-"EAPP" -> "C9orf78"
-"EAPP" -> "SYF2"
-"EBAG9" -> "CCDC43"
-"EBAG9" -> "SMNDC1"
-"EBAG9" -> "GPATCH11"
-"EBAG9" -> "WBP4"
-"EIF3J" -> "ZC3H15"
-"EIF3J" -> "PDAP1"
-"EIF3J" -> "RWDD1"
-"EIF3J" -> "DNAJC8"
-"EIF5" -> "TAF7"
-"EIF5" -> "PPM1G"
-"EIF5" -> "POLE3"
-"EIF5" -> "DNAJC21"
-"FRA10AC1" -> "WBP4"
-"FRA10AC1" -> "GPATCH11"
-"FRA10AC1" -> "XPA"
-"FRA10AC1" -> "ZMAT2"
-"FRG1" -> "ZMAT2"
-"FRG1" -> "GPATCH11"
-"FRG1" -> "ZC3H15"
-"FRG1" -> "DNAJC8"
-"GFER" -> "SRA1"
-"GFER" -> "ZNRD2"
-"GFER" -> "CCDC43"
-"GFER" -> "C19orf25"
-"GPATCH11" -> "CCDC174"
-"GPATCH11" -> "ZMAT2"
-"GPATCH11" -> "CCDC25"
-"GPATCH11" -> "DNAJC17"
-"HYPK" -> "PDAP1"
-"HYPK" -> "CCDC43"
-"HYPK" -> "CCDC124"
-"HYPK" -> "DNAJC17"
-"IK" -> "SNW1"
-"IK" -> "SLU7"
-"IK" -> "C9orf78"
-"IK" -> "MFAP1"
-"KIAA1143" -> "WBP4"
-"KIAA1143" -> "GPATCH11"
-"KIAA1143" -> "PDAP1"
-"KIAA1143" -> "ZMAT2"
-"LENG1" -> "CCDC174"
-"LENG1" -> "DNAJC17"
-"LENG1" -> "SPAG7"
-"LENG1" -> "C9orf78"
-"MFAP1" -> "SLU7"
-"MFAP1" -> "C9orf78"
-"MFAP1" -> "CWC15"
-"MFAP1" -> "CCDC174"
-"MPHOSPH6" -> "KIAA1143"
-"MPHOSPH6" -> "CCDC43"
-"MPHOSPH6" -> "CCDC174"
-"MPHOSPH6" -> "ZC3H15"
-"NAP1L4" -> "EIF5"
-"NAP1L4" -> "CLNS1A"
-"NAP1L4" -> "PPM1G"
-"NAP1L4" -> "ZC3H15"
-"PDAP1" -> "EIF3J"
-"PDAP1" -> "ZMAT2"
-"PDAP1" -> "PRKRIP1"
-"PDAP1" -> "KIAA1143"
-"PGP" -> "C19orf25"
-"PGP" -> "PRKRIP1"
-"PGP" -> "DNAJC21"
-"PGP" -> "CCDC43"
-"POLE3" -> "PPM1G"
-"POLE3" -> "EIF5"
-"POLE3" -> "ZCRB1"
-"POLE3" -> "CLNS1A"
-"PPM1G" -> "POLE3"
-"PPM1G" -> "EIF5"
-"PPM1G" -> "CLNS1A"
-"PPM1G" -> "NAP1L4"
-"PRKRIP1" -> "DNAJC17"
-"PRKRIP1" -> "CCDC174"
-"PRKRIP1" -> "PDAP1"
-"PRKRIP1" -> "SPAG7"
-"RPP21" -> "ZNRD2"
-"RPP21" -> "GFER"
-"RPP21" -> "BORCS8"
-"RPP21" -> "ZCRB1"
-"RWDD1" -> "EIF3J"
-"RWDD1" -> "CCDC25"
-"RWDD1" -> "ZC3H15"
-"RWDD1" -> "CCDC43"
-"SELENOS" -> "DDRGK1"
-"SELENOS" -> "DNAJC17"
-"SELENOS" -> "PRKRIP1"
-"SELENOS" -> "CCDC174"
-"SEM1" -> "CLNS1A"
-"SEM1" -> "HYPK"
-"SEM1" -> "RWDD1"
-"SEM1" -> "EAPP"
-"SLU7" -> "ZMAT2"
-"SLU7" -> "SYF2"
-"SLU7" -> "C9orf78"
-"SLU7" -> "SMNDC1"
-"SMNDC1" -> "CCDC43"
-"SMNDC1" -> "CCDC174"
-"SMNDC1" -> "GPATCH11"
-"SMNDC1" -> "DNAJC8"
-"SNW1" -> "CDC5L"
-"SNW1" -> "SLU7"
-"SNW1" -> "IK"
-"SNW1" -> "CWC15"
-"SPAG7" -> "DNAJC17"
-"SPAG7" -> "CCDC174"
-"SPAG7" -> "LENG1"
-"SPAG7" -> "CCDC124"
-"SRA1" -> "GFER"
-"SRA1" -> "ZNRD2"
-"SRA1" -> "C19orf25"
-"SRA1" -> "CCDC124"
-"SVBP" -> "PDAP1"
-"SVBP" -> "C19orf25"
-"SVBP" -> "CCDC124"
-"SVBP" -> "DNAJC17"
-"SYF2" -> "CCDC174"
-"SYF2" -> "CWC15"
-"SYF2" -> "ZMAT2"
-"SYF2" -> "SLU7"
-"TAF7" -> "EIF5"
-"TAF7" -> "SLU7"
-"TAF7" -> "MFAP1"
-"TAF7" -> "EAPP"
-"UBXN1" -> "DDRGK1"
-"UBXN1" -> "LENG1"
-"UBXN1" -> "SPAG7"
-"UBXN1" -> "DNAJC17"
-"WBP4" -> "CCDC174"
-"WBP4" -> "FRA10AC1"
-"WBP4" -> "KIAA1143"
-"WBP4" -> "ZC3H15"
-"XPA" -> "CCDC43"
-"XPA" -> "CCDC174"
-"XPA" -> "DNAJC8"
-"XPA" -> "DNAJC17"
-"YJU2" -> "DNAJC17"
-"YJU2" -> "SPAG7"
-"YJU2" -> "ZMAT2"
-"YJU2" -> "SMNDC1"
-"ZC3H15" -> "EIF3J"
-"ZC3H15" -> "RWDD1"
-"ZC3H15" -> "WBP4"
-"ZC3H15" -> "SMNDC1"
-"ZCRB1" -> "CCDC25"
-"ZCRB1" -> "ZMAT2"
-"ZCRB1" -> "KIAA1143"
-"ZCRB1" -> "CCDC43"
-"ZMAT2" -> "CCDC25"
-"ZMAT2" -> "SLU7"
-"ZMAT2" -> "C9orf78"
-"ZMAT2" -> "SYF2"
-"ZNRD2" -> "SRA1"
-"ZNRD2" -> "RPP21"
-"ZNRD2" -> "GFER"
-"ZNRD2" -> "CCDC124"
+"ACBD3" -> "PRKRIP1" ["e"=1]
+"ACBD3" -> "DNAJC21" ["e"=1]
+"ACBD3" -> "CCDC43" ["e"=1]
+"ACBD3" -> "XPA" ["e"=1]
+"BORCS8" -> "C19orf25" ["e"=1]
+"BORCS8" -> "ZNRD2" ["e"=1]
+"BORCS8" -> "GFER" ["e"=1]
+"BORCS8" -> "SRA1" ["e"=1]
+"C19orf25" -> "BORCS8" ["e"=1]
+"C19orf25" -> "SVBP" ["e"=1]
+"C19orf25" -> "SRA1" ["e"=1]
+"C19orf25" -> "DNAJC17" ["e"=1]
+"C9orf78" -> "ZMAT2" ["e"=1]
+"C9orf78" -> "CCDC174" ["e"=1]
+"C9orf78" -> "CWC15" ["e"=1]
+"C9orf78" -> "SLU7" ["e"=1]
+"CCDC12" -> "PDAP1" ["e"=1]
+"CCDC12" -> "SPAG7" ["e"=1]
+"CCDC12" -> "CWC15" ["e"=1]
+"CCDC12" -> "CCDC124" ["e"=1]
+"CCDC124" -> "SPAG7" ["e"=1]
+"CCDC124" -> "PDAP1" ["e"=1]
+"CCDC124" -> "DNAJC17" ["e"=1]
+"CCDC124" -> "CCDC12" ["e"=1]
+"CCDC174" -> "LENG1" ["e"=1]
+"CCDC174" -> "DNAJC17" ["e"=1]
+"CCDC174" -> "SPAG7" ["e"=1]
+"CCDC174" -> "SYF2" ["e"=1]
+"CCDC25" -> "ZMAT2" ["e"=1]
+"CCDC25" -> "DNAJC8" ["e"=1]
+"CCDC25" -> "GPATCH11" ["e"=1]
+"CCDC25" -> "RWDD1" ["e"=1]
+"CCDC43" -> "SMNDC1" ["e"=1]
+"CCDC43" -> "XPA" ["e"=1]
+"CCDC43" -> "DNAJC8" ["e"=1]
+"CCDC43" -> "CCDC25" ["e"=1]
+"CDC26" -> "KIAA1143" ["e"=1]
+"CDC26" -> "PDAP1" ["e"=1]
+"CDC26" -> "MPHOSPH6" ["e"=1]
+"CDC26" -> "ZCRB1" ["e"=1]
+"CDC5L" -> "SNW1" ["e"=1]
+"CDC5L" -> "SLU7" ["e"=1]
+"CDC5L" -> "SMNDC1" ["e"=1]
+"CDC5L" -> "CCDC174" ["e"=1]
+"CHCHD3" -> "DNAJC17" ["e"=1]
+"CHCHD3" -> "CCDC124" ["e"=1]
+"CHCHD3" -> "SPAG7" ["e"=1]
+"CHCHD3" -> "CWC15" ["e"=1]
+"CLNS1A" -> "POLE3" ["e"=1]
+"CLNS1A" -> "PPM1G" ["e"=1]
+"CLNS1A" -> "NAP1L4" ["e"=1]
+"CLNS1A" -> "EIF5" ["e"=1]
+"CLTA" -> "CLTB" ["e"=1]
+"CLTA" -> "CHCHD3" ["e"=1]
+"CLTA" -> "DDRGK1" ["e"=1]
+"CLTA" -> "XPA" ["e"=1]
+"CLTB" -> "CLTA" ["e"=1]
+"CLTB" -> "CCDC124" ["e"=1]
+"CLTB" -> "CHCHD3" ["e"=1]
+"CLTB" -> "SRA1" ["e"=1]
+"CWC15" -> "SYF2" ["e"=1]
+"CWC15" -> "C9orf78" ["e"=1]
+"CWC15" -> "CCDC174" ["e"=1]
+"CWC15" -> "PDAP1" ["e"=1]
+"CWC27" -> "ZCRB1" ["e"=1]
+"CWC27" -> "ZC3H15" ["e"=1]
+"CWC27" -> "SLU7" ["e"=1]
+"CWC27" -> "DNAJC8" ["e"=1]
+"DDRGK1" -> "UBXN1" ["e"=1]
+"DDRGK1" -> "DNAJC17" ["e"=1]
+"DDRGK1" -> "SELENOS" ["e"=1]
+"DDRGK1" -> "PRKRIP1" ["e"=1]
+"DNAJC17" -> "CCDC174" ["e"=1]
+"DNAJC17" -> "SPAG7" ["e"=1]
+"DNAJC17" -> "PRKRIP1" ["e"=1]
+"DNAJC17" -> "YJU2" ["e"=1]
+"DNAJC2" -> "DNAJC21" ["e"=1]
+"DNAJC2" -> "DNAJC8" ["e"=1]
+"DNAJC2" -> "SMNDC1" ["e"=1]
+"DNAJC2" -> "ZC3H15" ["e"=1]
+"DNAJC21" -> "DNAJC2" ["e"=1]
+"DNAJC21" -> "RWDD1" ["e"=1]
+"DNAJC21" -> "EIF5" ["e"=1]
+"DNAJC21" -> "ZC3H15" ["e"=1]
+"DNAJC8" -> "ZMAT2" ["e"=1]
+"DNAJC8" -> "CCDC25" ["e"=1]
+"DNAJC8" -> "CCDC43" ["e"=1]
+"DNAJC8" -> "SYF2" ["e"=1]
+"EAPP" -> "SLU7" ["e"=1]
+"EAPP" -> "XPA" ["e"=1]
+"EAPP" -> "C9orf78" ["e"=1]
+"EAPP" -> "SYF2" ["e"=1]
+"EBAG9" -> "CCDC43" ["e"=1]
+"EBAG9" -> "SMNDC1" ["e"=1]
+"EBAG9" -> "GPATCH11" ["e"=1]
+"EBAG9" -> "WBP4" ["e"=1]
+"EIF3J" -> "ZC3H15" ["e"=1]
+"EIF3J" -> "PDAP1" ["e"=1]
+"EIF3J" -> "RWDD1" ["e"=1]
+"EIF3J" -> "DNAJC8" ["e"=1]
+"EIF5" -> "TAF7" ["e"=1]
+"EIF5" -> "PPM1G" ["e"=1]
+"EIF5" -> "POLE3" ["e"=1]
+"EIF5" -> "DNAJC21" ["e"=1]
+"FRA10AC1" -> "WBP4" ["e"=1]
+"FRA10AC1" -> "GPATCH11" ["e"=1]
+"FRA10AC1" -> "XPA" ["e"=1]
+"FRA10AC1" -> "ZMAT2" ["e"=1]
+"FRG1" -> "ZMAT2" ["e"=1]
+"FRG1" -> "GPATCH11" ["e"=1]
+"FRG1" -> "ZC3H15" ["e"=1]
+"FRG1" -> "DNAJC8" ["e"=1]
+"GFER" -> "SRA1" ["e"=1]
+"GFER" -> "ZNRD2" ["e"=1]
+"GFER" -> "CCDC43" ["e"=1]
+"GFER" -> "C19orf25" ["e"=1]
+"GPATCH11" -> "CCDC174" ["e"=1]
+"GPATCH11" -> "ZMAT2" ["e"=1]
+"GPATCH11" -> "CCDC25" ["e"=1]
+"GPATCH11" -> "DNAJC17" ["e"=1]
+"HYPK" -> "PDAP1" ["e"=1]
+"HYPK" -> "CCDC43" ["e"=1]
+"HYPK" -> "CCDC124" ["e"=1]
+"HYPK" -> "DNAJC17" ["e"=1]
+"IK" -> "SNW1" ["e"=1]
+"IK" -> "SLU7" ["e"=1]
+"IK" -> "C9orf78" ["e"=1]
+"IK" -> "MFAP1" ["e"=1]
+"KIAA1143" -> "WBP4" ["e"=1]
+"KIAA1143" -> "GPATCH11" ["e"=1]
+"KIAA1143" -> "PDAP1" ["e"=1]
+"KIAA1143" -> "ZMAT2" ["e"=1]
+"LENG1" -> "CCDC174" ["e"=1]
+"LENG1" -> "DNAJC17" ["e"=1]
+"LENG1" -> "SPAG7" ["e"=1]
+"LENG1" -> "C9orf78" ["e"=1]
+"MFAP1" -> "SLU7" ["e"=1]
+"MFAP1" -> "C9orf78" ["e"=1]
+"MFAP1" -> "CWC15" ["e"=1]
+"MFAP1" -> "CCDC174" ["e"=1]
+"MPHOSPH6" -> "KIAA1143" ["e"=1]
+"MPHOSPH6" -> "CCDC43" ["e"=1]
+"MPHOSPH6" -> "CCDC174" ["e"=1]
+"MPHOSPH6" -> "ZC3H15" ["e"=1]
+"NAP1L4" -> "EIF5" ["e"=1]
+"NAP1L4" -> "CLNS1A" ["e"=1]
+"NAP1L4" -> "PPM1G" ["e"=1]
+"NAP1L4" -> "ZC3H15" ["e"=1]
+"PDAP1" -> "EIF3J" ["e"=1]
+"PDAP1" -> "ZMAT2" ["e"=1]
+"PDAP1" -> "PRKRIP1" ["e"=1]
+"PDAP1" -> "KIAA1143" ["e"=1]
+"PGP" -> "C19orf25" ["e"=1]
+"PGP" -> "PRKRIP1" ["e"=1]
+"PGP" -> "DNAJC21" ["e"=1]
+"PGP" -> "CCDC43" ["e"=1]
+"POLE3" -> "PPM1G" ["e"=1]
+"POLE3" -> "EIF5" ["e"=1]
+"POLE3" -> "ZCRB1" ["e"=1]
+"POLE3" -> "CLNS1A" ["e"=1]
+"PPM1G" -> "POLE3" ["e"=1]
+"PPM1G" -> "EIF5" ["e"=1]
+"PPM1G" -> "CLNS1A" ["e"=1]
+"PPM1G" -> "NAP1L4" ["e"=1]
+"PRKRIP1" -> "DNAJC17" ["e"=1]
+"PRKRIP1" -> "CCDC174" ["e"=1]
+"PRKRIP1" -> "PDAP1" ["e"=1]
+"PRKRIP1" -> "SPAG7" ["e"=1]
+"RPP21" -> "ZNRD2" ["e"=1]
+"RPP21" -> "GFER" ["e"=1]
+"RPP21" -> "BORCS8" ["e"=1]
+"RPP21" -> "ZCRB1" ["e"=1]
+"RWDD1" -> "EIF3J" ["e"=1]
+"RWDD1" -> "CCDC25" ["e"=1]
+"RWDD1" -> "ZC3H15" ["e"=1]
+"RWDD1" -> "CCDC43" ["e"=1]
+"SELENOS" -> "DDRGK1" ["e"=1]
+"SELENOS" -> "DNAJC17" ["e"=1]
+"SELENOS" -> "PRKRIP1" ["e"=1]
+"SELENOS" -> "CCDC174" ["e"=1]
+"SEM1" -> "CLNS1A" ["e"=1]
+"SEM1" -> "HYPK" ["e"=1]
+"SEM1" -> "RWDD1" ["e"=1]
+"SEM1" -> "EAPP" ["e"=1]
+"SLU7" -> "ZMAT2" ["e"=1]
+"SLU7" -> "SYF2" ["e"=1]
+"SLU7" -> "C9orf78" ["e"=1]
+"SLU7" -> "SMNDC1" ["e"=1]
+"SMNDC1" -> "CCDC43" ["e"=1]
+"SMNDC1" -> "CCDC174" ["e"=1]
+"SMNDC1" -> "GPATCH11" ["e"=1]
+"SMNDC1" -> "DNAJC8" ["e"=1]
+"SNW1" -> "CDC5L" ["e"=1]
+"SNW1" -> "SLU7" ["e"=1]
+"SNW1" -> "IK" ["e"=1]
+"SNW1" -> "CWC15" ["e"=1]
+"SPAG7" -> "DNAJC17" ["e"=1]
+"SPAG7" -> "CCDC174" ["e"=1]
+"SPAG7" -> "LENG1" ["e"=1]
+"SPAG7" -> "CCDC124" ["e"=1]
+"SRA1" -> "GFER" ["e"=1]
+"SRA1" -> "ZNRD2" ["e"=1]
+"SRA1" -> "C19orf25" ["e"=1]
+"SRA1" -> "CCDC124" ["e"=1]
+"SVBP" -> "PDAP1" ["e"=1]
+"SVBP" -> "C19orf25" ["e"=1]
+"SVBP" -> "CCDC124" ["e"=1]
+"SVBP" -> "DNAJC17" ["e"=1]
+"SYF2" -> "CCDC174" ["e"=1]
+"SYF2" -> "CWC15" ["e"=1]
+"SYF2" -> "ZMAT2" ["e"=1]
+"SYF2" -> "SLU7" ["e"=1]
+"TAF7" -> "EIF5" ["e"=1]
+"TAF7" -> "SLU7" ["e"=1]
+"TAF7" -> "MFAP1" ["e"=1]
+"TAF7" -> "EAPP" ["e"=1]
+"UBXN1" -> "DDRGK1" ["e"=1]
+"UBXN1" -> "LENG1" ["e"=1]
+"UBXN1" -> "SPAG7" ["e"=1]
+"UBXN1" -> "DNAJC17" ["e"=1]
+"WBP4" -> "CCDC174" ["e"=1]
+"WBP4" -> "FRA10AC1" ["e"=1]
+"WBP4" -> "KIAA1143" ["e"=1]
+"WBP4" -> "ZC3H15" ["e"=1]
+"XPA" -> "CCDC43" ["e"=1]
+"XPA" -> "CCDC174" ["e"=1]
+"XPA" -> "DNAJC8" ["e"=1]
+"XPA" -> "DNAJC17" ["e"=1]
+"YJU2" -> "DNAJC17" ["e"=1]
+"YJU2" -> "SPAG7" ["e"=1]
+"YJU2" -> "ZMAT2" ["e"=1]
+"YJU2" -> "SMNDC1" ["e"=1]
+"ZC3H15" -> "EIF3J" ["e"=1]
+"ZC3H15" -> "RWDD1" ["e"=1]
+"ZC3H15" -> "WBP4" ["e"=1]
+"ZC3H15" -> "SMNDC1" ["e"=1]
+"ZCRB1" -> "CCDC25" ["e"=1]
+"ZCRB1" -> "ZMAT2" ["e"=1]
+"ZCRB1" -> "KIAA1143" ["e"=1]
+"ZCRB1" -> "CCDC43" ["e"=1]
+"ZMAT2" -> "CCDC25" ["e"=1]
+"ZMAT2" -> "SLU7" ["e"=1]
+"ZMAT2" -> "C9orf78" ["e"=1]
+"ZMAT2" -> "SYF2" ["e"=1]
+"ZNRD2" -> "SRA1" ["e"=1]
+"ZNRD2" -> "RPP21" ["e"=1]
+"ZNRD2" -> "GFER" ["e"=1]
+"ZNRD2" -> "CCDC124" ["e"=1]
 }

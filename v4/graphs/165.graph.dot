@@ -13,60 +13,60 @@ digraph G {
 "LMX1A" ["l"="6.518,4.032"]
 "LMX1B" ["l"="6.531,4.029"]
 "ZIC2" ["l"="6.597,3.952"]
-"GATA2" -> "ZIC2"
-"GATA2" -> "LHX9"
-"GATA2" -> "LHX6"
-"GATA2" -> "LHX1"
-"ISL1" -> "LMX1A"
-"ISL1" -> "ISL2"
-"ISL1" -> "LHX4"
-"ISL1" -> "LHX9"
-"ISL2" -> "ISL1"
-"ISL2" -> "LMX1A"
-"ISL2" -> "LHX4"
-"ISL2" -> "LMX1B"
-"LHX1" -> "LHX5"
-"LHX1" -> "LHX3"
-"LHX1" -> "LHX4"
-"LHX1" -> "LMX1A"
-"LHX2" -> "LHX9"
-"LHX2" -> "LHX6"
-"LHX2" -> "ISL1"
-"LHX2" -> "LHX5"
-"LHX3" -> "LHX4"
-"LHX3" -> "LHX5"
-"LHX3" -> "LHX1"
-"LHX3" -> "LMX1B"
-"LHX4" -> "LHX3"
-"LHX4" -> "LMX1B"
-"LHX4" -> "LMX1A"
-"LHX4" -> "LHX5"
-"LHX5" -> "LHX1"
-"LHX5" -> "LHX3"
-"LHX5" -> "LHX4"
-"LHX5" -> "LMX1A"
-"LHX6" -> "LHX8"
-"LHX6" -> "LHX9"
-"LHX6" -> "LMX1A"
-"LHX6" -> "ISL1"
-"LHX8" -> "LHX6"
-"LHX8" -> "LHX9"
-"LHX8" -> "LMX1A"
-"LHX8" -> "ISL1"
-"LHX9" -> "LHX2"
-"LHX9" -> "LHX8"
-"LHX9" -> "ISL1"
-"LHX9" -> "LHX6"
-"LMX1A" -> "LMX1B"
-"LMX1A" -> "LHX4"
-"LMX1A" -> "ISL1"
-"LMX1A" -> "LHX5"
-"LMX1B" -> "LMX1A"
-"LMX1B" -> "LHX4"
-"LMX1B" -> "LHX3"
-"LMX1B" -> "ISL1"
-"ZIC2" -> "GATA2"
-"ZIC2" -> "LHX2"
-"ZIC2" -> "LHX9"
-"ZIC2" -> "LHX6"
+"GATA2" -> "ZIC2" ["e"=1]
+"GATA2" -> "LHX9" ["e"=1]
+"GATA2" -> "LHX6" ["e"=1]
+"GATA2" -> "LHX1" ["e"=1]
+"ISL1" -> "LMX1A" ["e"=1]
+"ISL1" -> "ISL2" ["e"=1]
+"ISL1" -> "LHX4" ["e"=1]
+"ISL1" -> "LHX9" ["e"=1]
+"ISL2" -> "ISL1" ["e"=1]
+"ISL2" -> "LMX1A" ["e"=1]
+"ISL2" -> "LHX4" ["e"=1]
+"ISL2" -> "LMX1B" ["e"=1]
+"LHX1" -> "LHX5" ["e"=1]
+"LHX1" -> "LHX3" ["e"=1]
+"LHX1" -> "LHX4" ["e"=1]
+"LHX1" -> "LMX1A" ["e"=1]
+"LHX2" -> "LHX9" ["e"=1]
+"LHX2" -> "LHX6" ["e"=1]
+"LHX2" -> "ISL1" ["e"=1]
+"LHX2" -> "LHX5" ["e"=1]
+"LHX3" -> "LHX4" ["e"=1]
+"LHX3" -> "LHX5" ["e"=1]
+"LHX3" -> "LHX1" ["e"=1]
+"LHX3" -> "LMX1B" ["e"=1]
+"LHX4" -> "LHX3" ["e"=1]
+"LHX4" -> "LMX1B" ["e"=1]
+"LHX4" -> "LMX1A" ["e"=1]
+"LHX4" -> "LHX5" ["e"=1]
+"LHX5" -> "LHX1" ["e"=1]
+"LHX5" -> "LHX3" ["e"=1]
+"LHX5" -> "LHX4" ["e"=1]
+"LHX5" -> "LMX1A" ["e"=1]
+"LHX6" -> "LHX8" ["e"=1]
+"LHX6" -> "LHX9" ["e"=1]
+"LHX6" -> "LMX1A" ["e"=1]
+"LHX6" -> "ISL1" ["e"=1]
+"LHX8" -> "LHX6" ["e"=1]
+"LHX8" -> "LHX9" ["e"=1]
+"LHX8" -> "LMX1A" ["e"=1]
+"LHX8" -> "ISL1" ["e"=1]
+"LHX9" -> "LHX2" ["e"=1]
+"LHX9" -> "LHX8" ["e"=1]
+"LHX9" -> "ISL1" ["e"=1]
+"LHX9" -> "LHX6" ["e"=1]
+"LMX1A" -> "LMX1B" ["e"=1]
+"LMX1A" -> "LHX4" ["e"=1]
+"LMX1A" -> "ISL1" ["e"=1]
+"LMX1A" -> "LHX5" ["e"=1]
+"LMX1B" -> "LMX1A" ["e"=1]
+"LMX1B" -> "LHX4" ["e"=1]
+"LMX1B" -> "LHX3" ["e"=1]
+"LMX1B" -> "ISL1" ["e"=1]
+"ZIC2" -> "GATA2" ["e"=1]
+"ZIC2" -> "LHX2" ["e"=1]
+"ZIC2" -> "LHX9" ["e"=1]
+"ZIC2" -> "LHX6" ["e"=1]
 }

@@ -20,88 +20,88 @@ digraph G {
 "ZIC1" ["l"="6.439,3.788"]
 "ZIC4" ["l"="6.343,3.706"]
 "ZIC5" ["l"="6.495,3.852"]
-"EGR1" -> "EGR2"
-"EGR1" -> "EGR3"
-"EGR1" -> "WT1"
-"EGR1" -> "NR4A2"
-"EGR2" -> "EGR1"
-"EGR2" -> "EGR3"
-"EGR2" -> "SP7"
-"EGR2" -> "NR4A3"
-"EGR3" -> "EGR2"
-"EGR3" -> "EGR1"
-"EGR3" -> "NR4A2"
-"EGR3" -> "SP6"
-"EGR4" -> "KLF4"
-"EGR4" -> "SP5"
-"EGR4" -> "EGR3"
-"EGR4" -> "EGR2"
-"FEZF1" -> "FEZF2"
-"FEZF1" -> "ZIC4"
-"FEZF1" -> "OSR1"
-"FEZF1" -> "ZIC1"
-"FEZF2" -> "FEZF1"
-"FEZF2" -> "ZIC5"
-"FEZF2" -> "OSR1"
-"FEZF2" -> "SP5"
-"INSM1" -> "SP6"
-"INSM1" -> "ZIC5"
-"INSM1" -> "FEZF2"
-"INSM1" -> "SP5"
-"KLF2" -> "KLF4"
-"KLF2" -> "SP5"
-"KLF2" -> "KLF5"
-"KLF2" -> "INSM1"
-"KLF4" -> "KLF5"
-"KLF4" -> "WT1"
-"KLF4" -> "EGR4"
-"KLF4" -> "EGR1"
-"KLF5" -> "KLF4"
-"KLF5" -> "NR4A3"
-"KLF5" -> "NR4A2"
-"KLF5" -> "WT1"
-"NR4A1" -> "NR4A2"
-"NR4A1" -> "NR4A3"
-"NR4A1" -> "EGR1"
-"NR4A1" -> "EGR3"
-"NR4A2" -> "NR4A3"
-"NR4A2" -> "NR4A1"
-"NR4A2" -> "EGR3"
-"NR4A2" -> "EGR1"
-"NR4A3" -> "NR4A2"
-"NR4A3" -> "NR4A1"
-"NR4A3" -> "EGR3"
-"NR4A3" -> "EGR2"
-"OSR1" -> "FEZF1"
-"OSR1" -> "ZIC4"
-"OSR1" -> "ZIC1"
-"OSR1" -> "FEZF2"
-"SP5" -> "SP6"
-"SP5" -> "ZIC5"
-"SP5" -> "EGR4"
-"SP5" -> "WT1"
-"SP6" -> "SP7"
-"SP6" -> "SP5"
-"SP6" -> "ZIC5"
-"SP6" -> "EGR3"
-"SP7" -> "SP6"
-"SP7" -> "EGR2"
-"SP7" -> "EGR3"
-"SP7" -> "WT1"
-"WT1" -> "EGR1"
-"WT1" -> "SP7"
-"WT1" -> "SP6"
-"WT1" -> "ZIC1"
-"ZIC1" -> "ZIC4"
-"ZIC1" -> "ZIC5"
-"ZIC1" -> "OSR1"
-"ZIC1" -> "FEZF1"
-"ZIC4" -> "ZIC1"
-"ZIC4" -> "FEZF1"
-"ZIC4" -> "ZIC5"
-"ZIC4" -> "OSR1"
-"ZIC5" -> "SP6"
-"ZIC5" -> "ZIC1"
-"ZIC5" -> "ZIC4"
-"ZIC5" -> "SP5"
+"EGR1" -> "EGR2" ["e"=1]
+"EGR1" -> "EGR3" ["e"=1]
+"EGR1" -> "WT1" ["e"=1]
+"EGR1" -> "NR4A2" ["e"=1]
+"EGR2" -> "EGR1" ["e"=1]
+"EGR2" -> "EGR3" ["e"=1]
+"EGR2" -> "SP7" ["e"=1]
+"EGR2" -> "NR4A3" ["e"=1]
+"EGR3" -> "EGR2" ["e"=1]
+"EGR3" -> "EGR1" ["e"=1]
+"EGR3" -> "NR4A2" ["e"=1]
+"EGR3" -> "SP6" ["e"=1]
+"EGR4" -> "KLF4" ["e"=1]
+"EGR4" -> "SP5" ["e"=1]
+"EGR4" -> "EGR3" ["e"=1]
+"EGR4" -> "EGR2" ["e"=1]
+"FEZF1" -> "FEZF2" ["e"=1]
+"FEZF1" -> "ZIC4" ["e"=1]
+"FEZF1" -> "OSR1" ["e"=1]
+"FEZF1" -> "ZIC1" ["e"=1]
+"FEZF2" -> "FEZF1" ["e"=1]
+"FEZF2" -> "ZIC5" ["e"=1]
+"FEZF2" -> "OSR1" ["e"=1]
+"FEZF2" -> "SP5" ["e"=1]
+"INSM1" -> "SP6" ["e"=1]
+"INSM1" -> "ZIC5" ["e"=1]
+"INSM1" -> "FEZF2" ["e"=1]
+"INSM1" -> "SP5" ["e"=1]
+"KLF2" -> "KLF4" ["e"=1]
+"KLF2" -> "SP5" ["e"=1]
+"KLF2" -> "KLF5" ["e"=1]
+"KLF2" -> "INSM1" ["e"=1]
+"KLF4" -> "KLF5" ["e"=1]
+"KLF4" -> "WT1" ["e"=1]
+"KLF4" -> "EGR4" ["e"=1]
+"KLF4" -> "EGR1" ["e"=1]
+"KLF5" -> "KLF4" ["e"=1]
+"KLF5" -> "NR4A3" ["e"=1]
+"KLF5" -> "NR4A2" ["e"=1]
+"KLF5" -> "WT1" ["e"=1]
+"NR4A1" -> "NR4A2" ["e"=1]
+"NR4A1" -> "NR4A3" ["e"=1]
+"NR4A1" -> "EGR1" ["e"=1]
+"NR4A1" -> "EGR3" ["e"=1]
+"NR4A2" -> "NR4A3" ["e"=1]
+"NR4A2" -> "NR4A1" ["e"=1]
+"NR4A2" -> "EGR3" ["e"=1]
+"NR4A2" -> "EGR1" ["e"=1]
+"NR4A3" -> "NR4A2" ["e"=1]
+"NR4A3" -> "NR4A1" ["e"=1]
+"NR4A3" -> "EGR3" ["e"=1]
+"NR4A3" -> "EGR2" ["e"=1]
+"OSR1" -> "FEZF1" ["e"=1]
+"OSR1" -> "ZIC4" ["e"=1]
+"OSR1" -> "ZIC1" ["e"=1]
+"OSR1" -> "FEZF2" ["e"=1]
+"SP5" -> "SP6" ["e"=1]
+"SP5" -> "ZIC5" ["e"=1]
+"SP5" -> "EGR4" ["e"=1]
+"SP5" -> "WT1" ["e"=1]
+"SP6" -> "SP7" ["e"=1]
+"SP6" -> "SP5" ["e"=1]
+"SP6" -> "ZIC5" ["e"=1]
+"SP6" -> "EGR3" ["e"=1]
+"SP7" -> "SP6" ["e"=1]
+"SP7" -> "EGR2" ["e"=1]
+"SP7" -> "EGR3" ["e"=1]
+"SP7" -> "WT1" ["e"=1]
+"WT1" -> "EGR1" ["e"=1]
+"WT1" -> "SP7" ["e"=1]
+"WT1" -> "SP6" ["e"=1]
+"WT1" -> "ZIC1" ["e"=1]
+"ZIC1" -> "ZIC4" ["e"=1]
+"ZIC1" -> "ZIC5" ["e"=1]
+"ZIC1" -> "OSR1" ["e"=1]
+"ZIC1" -> "FEZF1" ["e"=1]
+"ZIC4" -> "ZIC1" ["e"=1]
+"ZIC4" -> "FEZF1" ["e"=1]
+"ZIC4" -> "ZIC5" ["e"=1]
+"ZIC4" -> "OSR1" ["e"=1]
+"ZIC5" -> "SP6" ["e"=1]
+"ZIC5" -> "ZIC1" ["e"=1]
+"ZIC5" -> "ZIC4" ["e"=1]
+"ZIC5" -> "SP5" ["e"=1]
 }

@@ -14,64 +14,64 @@ digraph G {
 "SPI1" ["l"="7.484,3.805"]
 "SPIB" ["l"="7.503,3.820"]
 "SPIC" ["l"="7.504,3.844"]
-"EHF" -> "ELF5"
-"EHF" -> "ETS2"
-"EHF" -> "SPDEF"
-"EHF" -> "ELF3"
-"ELF3" -> "SPDEF"
-"ELF3" -> "ETS2"
-"ELF3" -> "EHF"
-"ELF3" -> "ELF5"
-"ELF5" -> "EHF"
-"ELF5" -> "SPDEF"
-"ELF5" -> "ETS1"
-"ELF5" -> "ETS2"
-"ETS1" -> "ETV6"
-"ETS1" -> "ETS2"
-"ETS1" -> "ETV5"
-"ETS1" -> "EHF"
-"ETS2" -> "EHF"
-"ETS2" -> "SPDEF"
-"ETS2" -> "SPIB"
-"ETS2" -> "ELF3"
-"ETV5" -> "ETV6"
-"ETV5" -> "ETS1"
-"ETV5" -> "FOXN4"
-"ETV5" -> "SPDEF"
-"ETV6" -> "ETV5"
-"ETV6" -> "ETS1"
-"ETV6" -> "ETV7"
-"ETV6" -> "EHF"
-"ETV7" -> "SPDEF"
-"ETV7" -> "ETS2"
-"ETV7" -> "EHF"
-"ETV7" -> "ETV6"
-"FOXN4" -> "ETV5"
-"FOXN4" -> "ETV7"
-"FOXN4" -> "SPDEF"
-"FOXN4" -> "ETS1"
-"MEF2B" -> "PRR35"
-"MEF2B" -> "FOXN4"
-"MEF2B" -> "ETV5"
-"MEF2B" -> "ETS1"
-"PRR35" -> "FOXN4"
-"PRR35" -> "ETV7"
-"PRR35" -> "ETV5"
-"PRR35" -> "SPDEF"
-"SPDEF" -> "ELF5"
-"SPDEF" -> "ETS2"
-"SPDEF" -> "ETV7"
-"SPDEF" -> "ELF3"
-"SPI1" -> "SPIB"
-"SPI1" -> "SPDEF"
-"SPI1" -> "EHF"
-"SPI1" -> "ETS2"
-"SPIB" -> "SPI1"
-"SPIB" -> "ETS2"
-"SPIB" -> "SPDEF"
-"SPIB" -> "ELF3"
-"SPIC" -> "ELF5"
-"SPIC" -> "EHF"
-"SPIC" -> "ETV7"
-"SPIC" -> "SPIB"
+"EHF" -> "ELF5" ["e"=1]
+"EHF" -> "ETS2" ["e"=1]
+"EHF" -> "SPDEF" ["e"=1]
+"EHF" -> "ELF3" ["e"=1]
+"ELF3" -> "SPDEF" ["e"=1]
+"ELF3" -> "ETS2" ["e"=1]
+"ELF3" -> "EHF" ["e"=1]
+"ELF3" -> "ELF5" ["e"=1]
+"ELF5" -> "EHF" ["e"=1]
+"ELF5" -> "SPDEF" ["e"=1]
+"ELF5" -> "ETS1" ["e"=1]
+"ELF5" -> "ETS2" ["e"=1]
+"ETS1" -> "ETV6" ["e"=1]
+"ETS1" -> "ETS2" ["e"=1]
+"ETS1" -> "ETV5" ["e"=1]
+"ETS1" -> "EHF" ["e"=1]
+"ETS2" -> "EHF" ["e"=1]
+"ETS2" -> "SPDEF" ["e"=1]
+"ETS2" -> "SPIB" ["e"=1]
+"ETS2" -> "ELF3" ["e"=1]
+"ETV5" -> "ETV6" ["e"=1]
+"ETV5" -> "ETS1" ["e"=1]
+"ETV5" -> "FOXN4" ["e"=1]
+"ETV5" -> "SPDEF" ["e"=1]
+"ETV6" -> "ETV5" ["e"=1]
+"ETV6" -> "ETS1" ["e"=1]
+"ETV6" -> "ETV7" ["e"=1]
+"ETV6" -> "EHF" ["e"=1]
+"ETV7" -> "SPDEF" ["e"=1]
+"ETV7" -> "ETS2" ["e"=1]
+"ETV7" -> "EHF" ["e"=1]
+"ETV7" -> "ETV6" ["e"=1]
+"FOXN4" -> "ETV5" ["e"=1]
+"FOXN4" -> "ETV7" ["e"=1]
+"FOXN4" -> "SPDEF" ["e"=1]
+"FOXN4" -> "ETS1" ["e"=1]
+"MEF2B" -> "PRR35" ["e"=1]
+"MEF2B" -> "FOXN4" ["e"=1]
+"MEF2B" -> "ETV5" ["e"=1]
+"MEF2B" -> "ETS1" ["e"=1]
+"PRR35" -> "FOXN4" ["e"=1]
+"PRR35" -> "ETV7" ["e"=1]
+"PRR35" -> "ETV5" ["e"=1]
+"PRR35" -> "SPDEF" ["e"=1]
+"SPDEF" -> "ELF5" ["e"=1]
+"SPDEF" -> "ETS2" ["e"=1]
+"SPDEF" -> "ETV7" ["e"=1]
+"SPDEF" -> "ELF3" ["e"=1]
+"SPI1" -> "SPIB" ["e"=1]
+"SPI1" -> "SPDEF" ["e"=1]
+"SPI1" -> "EHF" ["e"=1]
+"SPI1" -> "ETS2" ["e"=1]
+"SPIB" -> "SPI1" ["e"=1]
+"SPIB" -> "ETS2" ["e"=1]
+"SPIB" -> "SPDEF" ["e"=1]
+"SPIB" -> "ELF3" ["e"=1]
+"SPIC" -> "ELF5" ["e"=1]
+"SPIC" -> "EHF" ["e"=1]
+"SPIC" -> "ETV7" ["e"=1]
+"SPIC" -> "SPIB" ["e"=1]
 }

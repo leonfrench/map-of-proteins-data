@@ -31,132 +31,132 @@ digraph G {
 "TMEM229B" ["l"="9.475,-3.385"]
 "TMEM86B" ["l"="9.460,-3.292"]
 "TSPO2" ["l"="9.480,-3.312"]
-"ACER1" -> "ACER2"
-"ACER1" -> "ACER3"
-"ACER1" -> "PGAP3"
-"ACER1" -> "PAQR5"
-"ACER2" -> "ACER3"
-"ACER2" -> "ACER1"
-"ACER2" -> "PGAP3"
-"ACER2" -> "TLCD3A"
-"ACER3" -> "ACER2"
-"ACER3" -> "PAQR3"
-"ACER3" -> "ACER1"
-"ACER3" -> "PGAP3"
-"ADTRP" -> "AIG1"
-"ADTRP" -> "TLCD3A"
-"ADTRP" -> "PAQR5"
-"ADTRP" -> "CLN8"
-"AIG1" -> "ADTRP"
-"AIG1" -> "TLCD1"
-"AIG1" -> "TLCD5"
-"AIG1" -> "PAQR5"
-"CLN8" -> "TLCD5"
-"CLN8" -> "TLCD3A"
-"CLN8" -> "TLCD2"
-"CLN8" -> "PAQR5"
-"ELOVL1" -> "ELOVL7"
-"ELOVL1" -> "ELOVL2"
-"ELOVL1" -> "ELOVL5"
-"ELOVL1" -> "ELOVL6"
-"ELOVL2" -> "ELOVL5"
-"ELOVL2" -> "ELOVL7"
-"ELOVL2" -> "ELOVL6"
-"ELOVL2" -> "ELOVL1"
-"ELOVL3" -> "TLCD3A"
-"ELOVL3" -> "ELOVL6"
-"ELOVL3" -> "ELOVL1"
-"ELOVL3" -> "PAQR5"
-"ELOVL5" -> "ELOVL2"
-"ELOVL5" -> "ELOVL6"
-"ELOVL5" -> "ELOVL7"
-"ELOVL5" -> "ELOVL1"
-"ELOVL6" -> "ELOVL5"
-"ELOVL6" -> "ELOVL2"
-"ELOVL6" -> "ELOVL7"
-"ELOVL6" -> "ELOVL1"
-"ELOVL7" -> "ELOVL2"
-"ELOVL7" -> "ELOVL1"
-"ELOVL7" -> "ELOVL5"
-"ELOVL7" -> "ELOVL6"
-"FITM1" -> "FITM2"
-"FITM1" -> "PGAP3"
-"FITM1" -> "TLCD3B"
-"FITM1" -> "PAQR7"
-"FITM2" -> "TLCD5"
-"FITM2" -> "FITM1"
-"FITM2" -> "PAQR5"
-"FITM2" -> "PGAP3"
-"G6PC3" -> "TMEM86B"
-"G6PC3" -> "PGAP3"
-"G6PC3" -> "TLCD3A"
-"G6PC3" -> "FITM1"
-"MMD" -> "ACER2"
-"MMD" -> "MMD2"
-"MMD" -> "PAQR3"
-"MMD" -> "ACER1"
-"MMD2" -> "MMD"
-"MMD2" -> "ACER2"
-"MMD2" -> "TMEM86B"
-"MMD2" -> "PAQR5"
-"MYMK" -> "PAQR5"
-"MYMK" -> "TLCD3A"
-"MYMK" -> "ACER2"
-"MYMK" -> "PGAP3"
-"PAQR3" -> "ACER3"
-"PAQR3" -> "PAQR8"
-"PAQR3" -> "MMD"
-"PAQR3" -> "PGAP3"
-"PAQR4" -> "PAQR8"
-"PAQR4" -> "PGAP3"
-"PAQR4" -> "PAQR7"
-"PAQR4" -> "ACER2"
-"PAQR5" -> "PGAP3"
-"PAQR5" -> "PAQR7"
-"PAQR5" -> "ACER2"
-"PAQR5" -> "PAQR8"
-"PAQR7" -> "PGAP3"
-"PAQR7" -> "PAQR8"
-"PAQR7" -> "PAQR5"
-"PAQR7" -> "TLCD5"
-"PAQR8" -> "PGAP3"
-"PAQR8" -> "PAQR7"
-"PAQR8" -> "PAQR5"
-"PAQR8" -> "PAQR4"
-"PGAP3" -> "ACER2"
-"PGAP3" -> "PAQR7"
-"PGAP3" -> "PAQR8"
-"PGAP3" -> "PAQR5"
-"TLCD1" -> "TLCD3A"
-"TLCD1" -> "TLCD2"
-"TLCD1" -> "PGAP3"
-"TLCD1" -> "ACER2"
-"TLCD2" -> "CLN8"
-"TLCD2" -> "TLCD1"
-"TLCD2" -> "TLCD3A"
-"TLCD2" -> "FITM2"
-"TLCD3A" -> "TLCD1"
-"TLCD3A" -> "CLN8"
-"TLCD3A" -> "ACER2"
-"TLCD3A" -> "PGAP3"
-"TLCD3B" -> "PGAP3"
-"TLCD3B" -> "TLCD3A"
-"TLCD3B" -> "ELOVL6"
-"TLCD3B" -> "FITM1"
-"TLCD5" -> "FITM2"
-"TLCD5" -> "CLN8"
-"TLCD5" -> "PAQR7"
-"TLCD5" -> "PAQR5"
-"TMEM229B" -> "CLN8"
-"TMEM229B" -> "FITM2"
-"TMEM229B" -> "PAQR5"
-"TMEM229B" -> "ACER2"
-"TMEM86B" -> "G6PC3"
-"TMEM86B" -> "PGAP3"
-"TMEM86B" -> "PAQR7"
-"TMEM86B" -> "TLCD1"
-"TSPO2" -> "TMEM86B"
-"TSPO2" -> "AIG1"
-"TSPO2" -> "ACER1"
-"TSPO2" -> "PAQR7"
+"ACER1" -> "ACER2" ["e"=1]
+"ACER1" -> "ACER3" ["e"=1]
+"ACER1" -> "PGAP3" ["e"=1]
+"ACER1" -> "PAQR5" ["e"=1]
+"ACER2" -> "ACER3" ["e"=1]
+"ACER2" -> "ACER1" ["e"=1]
+"ACER2" -> "PGAP3" ["e"=1]
+"ACER2" -> "TLCD3A" ["e"=1]
+"ACER3" -> "ACER2" ["e"=1]
+"ACER3" -> "PAQR3" ["e"=1]
+"ACER3" -> "ACER1" ["e"=1]
+"ACER3" -> "PGAP3" ["e"=1]
+"ADTRP" -> "AIG1" ["e"=1]
+"ADTRP" -> "TLCD3A" ["e"=1]
+"ADTRP" -> "PAQR5" ["e"=1]
+"ADTRP" -> "CLN8" ["e"=1]
+"AIG1" -> "ADTRP" ["e"=1]
+"AIG1" -> "TLCD1" ["e"=1]
+"AIG1" -> "TLCD5" ["e"=1]
+"AIG1" -> "PAQR5" ["e"=1]
+"CLN8" -> "TLCD5" ["e"=1]
+"CLN8" -> "TLCD3A" ["e"=1]
+"CLN8" -> "TLCD2" ["e"=1]
+"CLN8" -> "PAQR5" ["e"=1]
+"ELOVL1" -> "ELOVL7" ["e"=1]
+"ELOVL1" -> "ELOVL2" ["e"=1]
+"ELOVL1" -> "ELOVL5" ["e"=1]
+"ELOVL1" -> "ELOVL6" ["e"=1]
+"ELOVL2" -> "ELOVL5" ["e"=1]
+"ELOVL2" -> "ELOVL7" ["e"=1]
+"ELOVL2" -> "ELOVL6" ["e"=1]
+"ELOVL2" -> "ELOVL1" ["e"=1]
+"ELOVL3" -> "TLCD3A" ["e"=1]
+"ELOVL3" -> "ELOVL6" ["e"=1]
+"ELOVL3" -> "ELOVL1" ["e"=1]
+"ELOVL3" -> "PAQR5" ["e"=1]
+"ELOVL5" -> "ELOVL2" ["e"=1]
+"ELOVL5" -> "ELOVL6" ["e"=1]
+"ELOVL5" -> "ELOVL7" ["e"=1]
+"ELOVL5" -> "ELOVL1" ["e"=1]
+"ELOVL6" -> "ELOVL5" ["e"=1]
+"ELOVL6" -> "ELOVL2" ["e"=1]
+"ELOVL6" -> "ELOVL7" ["e"=1]
+"ELOVL6" -> "ELOVL1" ["e"=1]
+"ELOVL7" -> "ELOVL2" ["e"=1]
+"ELOVL7" -> "ELOVL1" ["e"=1]
+"ELOVL7" -> "ELOVL5" ["e"=1]
+"ELOVL7" -> "ELOVL6" ["e"=1]
+"FITM1" -> "FITM2" ["e"=1]
+"FITM1" -> "PGAP3" ["e"=1]
+"FITM1" -> "TLCD3B" ["e"=1]
+"FITM1" -> "PAQR7" ["e"=1]
+"FITM2" -> "TLCD5" ["e"=1]
+"FITM2" -> "FITM1" ["e"=1]
+"FITM2" -> "PAQR5" ["e"=1]
+"FITM2" -> "PGAP3" ["e"=1]
+"G6PC3" -> "TMEM86B" ["e"=1]
+"G6PC3" -> "PGAP3" ["e"=1]
+"G6PC3" -> "TLCD3A" ["e"=1]
+"G6PC3" -> "FITM1" ["e"=1]
+"MMD" -> "ACER2" ["e"=1]
+"MMD" -> "MMD2" ["e"=1]
+"MMD" -> "PAQR3" ["e"=1]
+"MMD" -> "ACER1" ["e"=1]
+"MMD2" -> "MMD" ["e"=1]
+"MMD2" -> "ACER2" ["e"=1]
+"MMD2" -> "TMEM86B" ["e"=1]
+"MMD2" -> "PAQR5" ["e"=1]
+"MYMK" -> "PAQR5" ["e"=1]
+"MYMK" -> "TLCD3A" ["e"=1]
+"MYMK" -> "ACER2" ["e"=1]
+"MYMK" -> "PGAP3" ["e"=1]
+"PAQR3" -> "ACER3" ["e"=1]
+"PAQR3" -> "PAQR8" ["e"=1]
+"PAQR3" -> "MMD" ["e"=1]
+"PAQR3" -> "PGAP3" ["e"=1]
+"PAQR4" -> "PAQR8" ["e"=1]
+"PAQR4" -> "PGAP3" ["e"=1]
+"PAQR4" -> "PAQR7" ["e"=1]
+"PAQR4" -> "ACER2" ["e"=1]
+"PAQR5" -> "PGAP3" ["e"=1]
+"PAQR5" -> "PAQR7" ["e"=1]
+"PAQR5" -> "ACER2" ["e"=1]
+"PAQR5" -> "PAQR8" ["e"=1]
+"PAQR7" -> "PGAP3" ["e"=1]
+"PAQR7" -> "PAQR8" ["e"=1]
+"PAQR7" -> "PAQR5" ["e"=1]
+"PAQR7" -> "TLCD5" ["e"=1]
+"PAQR8" -> "PGAP3" ["e"=1]
+"PAQR8" -> "PAQR7" ["e"=1]
+"PAQR8" -> "PAQR5" ["e"=1]
+"PAQR8" -> "PAQR4" ["e"=1]
+"PGAP3" -> "ACER2" ["e"=1]
+"PGAP3" -> "PAQR7" ["e"=1]
+"PGAP3" -> "PAQR8" ["e"=1]
+"PGAP3" -> "PAQR5" ["e"=1]
+"TLCD1" -> "TLCD3A" ["e"=1]
+"TLCD1" -> "TLCD2" ["e"=1]
+"TLCD1" -> "PGAP3" ["e"=1]
+"TLCD1" -> "ACER2" ["e"=1]
+"TLCD2" -> "CLN8" ["e"=1]
+"TLCD2" -> "TLCD1" ["e"=1]
+"TLCD2" -> "TLCD3A" ["e"=1]
+"TLCD2" -> "FITM2" ["e"=1]
+"TLCD3A" -> "TLCD1" ["e"=1]
+"TLCD3A" -> "CLN8" ["e"=1]
+"TLCD3A" -> "ACER2" ["e"=1]
+"TLCD3A" -> "PGAP3" ["e"=1]
+"TLCD3B" -> "PGAP3" ["e"=1]
+"TLCD3B" -> "TLCD3A" ["e"=1]
+"TLCD3B" -> "ELOVL6" ["e"=1]
+"TLCD3B" -> "FITM1" ["e"=1]
+"TLCD5" -> "FITM2" ["e"=1]
+"TLCD5" -> "CLN8" ["e"=1]
+"TLCD5" -> "PAQR7" ["e"=1]
+"TLCD5" -> "PAQR5" ["e"=1]
+"TMEM229B" -> "CLN8" ["e"=1]
+"TMEM229B" -> "FITM2" ["e"=1]
+"TMEM229B" -> "PAQR5" ["e"=1]
+"TMEM229B" -> "ACER2" ["e"=1]
+"TMEM86B" -> "G6PC3" ["e"=1]
+"TMEM86B" -> "PGAP3" ["e"=1]
+"TMEM86B" -> "PAQR7" ["e"=1]
+"TMEM86B" -> "TLCD1" ["e"=1]
+"TSPO2" -> "TMEM86B" ["e"=1]
+"TSPO2" -> "AIG1" ["e"=1]
+"TSPO2" -> "ACER1" ["e"=1]
+"TSPO2" -> "PAQR7" ["e"=1]
 }

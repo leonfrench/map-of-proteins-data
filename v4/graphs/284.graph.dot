@@ -25,108 +25,108 @@ digraph G {
 "SYNM" ["l"="8.685,3.033"]
 "TOGARAM2" ["l"="8.773,3.255"]
 "ZC3H11B" ["l"="8.833,3.021"]
-"BTBD18" -> "MAP10"
-"BTBD18" -> "C2orf81"
-"BTBD18" -> "C1orf127"
-"BTBD18" -> "PROX2"
-"C1orf127" -> "C2orf81"
-"C1orf127" -> "BTBD18"
-"C1orf127" -> "CCDC9B"
-"C1orf127" -> "MAP10"
-"C2orf81" -> "C1orf127"
-"C2orf81" -> "PROB1"
-"C2orf81" -> "BTBD18"
-"C2orf81" -> "DDN"
-"CCDC9B" -> "DDN"
-"CCDC9B" -> "ELOA2"
-"CCDC9B" -> "PROB1"
-"CCDC9B" -> "CEP295NL"
-"CEP295NL" -> "ELOA2"
-"CEP295NL" -> "CCDC9B"
-"CEP295NL" -> "DDN"
-"CEP295NL" -> "PROX2"
-"CREBRF" -> "HOMEZ"
-"CREBRF" -> "PROX2"
-"CREBRF" -> "MAP10"
-"CREBRF" -> "CCDC9B"
-"DDN" -> "CCDC9B"
-"DDN" -> "PROB1"
-"DDN" -> "C2orf81"
-"DDN" -> "MAP10"
-"EHBP1L1" -> "DDN"
-"EHBP1L1" -> "NES"
-"EHBP1L1" -> "PROB1"
-"EHBP1L1" -> "CCDC9B"
-"ELOA2" -> "CEP295NL"
-"ELOA2" -> "PROX2"
-"ELOA2" -> "CCDC9B"
-"ELOA2" -> "DDN"
-"ERICH3" -> "MAP10"
-"ERICH3" -> "NES"
-"ERICH3" -> "CCDC9B"
-"ERICH3" -> "SLC38A10"
-"GOLIM4" -> "GOLM1"
-"GOLIM4" -> "SLC38A10"
-"GOLIM4" -> "ERICH3"
-"GOLIM4" -> "C1orf127"
-"GOLM1" -> "GOLIM4"
-"GOLM1" -> "SLC38A10"
-"GOLM1" -> "C1orf127"
-"GOLM1" -> "ERICH3"
-"HOMEZ" -> "PROX2"
-"HOMEZ" -> "BTBD18"
-"HOMEZ" -> "MAP10"
-"HOMEZ" -> "MIDN"
-"LAD1" -> "CCDC9B"
-"LAD1" -> "DDN"
-"LAD1" -> "PROB1"
-"LAD1" -> "ELOA2"
-"MAP10" -> "BTBD18"
-"MAP10" -> "DDN"
-"MAP10" -> "C2orf81"
-"MAP10" -> "PROB1"
-"MIDN" -> "CCDC9B"
-"MIDN" -> "HOMEZ"
-"MIDN" -> "DDN"
-"MIDN" -> "PROX2"
-"NES" -> "SYNM"
-"NES" -> "ERICH3"
-"NES" -> "MAP10"
-"NES" -> "CCDC9B"
-"PRAM1" -> "PROB1"
-"PRAM1" -> "LAD1"
-"PRAM1" -> "ELOA2"
-"PRAM1" -> "DDN"
-"PROB1" -> "DDN"
-"PROB1" -> "C2orf81"
-"PROB1" -> "CCDC9B"
-"PROB1" -> "MAP10"
-"PROX2" -> "ELOA2"
-"PROX2" -> "CCDC9B"
-"PROX2" -> "HOMEZ"
-"PROX2" -> "DDN"
-"PRRT3" -> "DDN"
-"PRRT3" -> "PROB1"
-"PRRT3" -> "MAP10"
-"PRRT3" -> "C2orf81"
-"SLC38A10" -> "C1orf127"
-"SLC38A10" -> "GOLM1"
-"SLC38A10" -> "ERICH3"
-"SLC38A10" -> "GOLIM4"
-"SPATA21" -> "TOGARAM2"
-"SPATA21" -> "C2orf81"
-"SPATA21" -> "PROX2"
-"SPATA21" -> "PROB1"
-"SYNM" -> "NES"
-"SYNM" -> "MAP10"
-"SYNM" -> "CCDC9B"
-"SYNM" -> "ERICH3"
-"TOGARAM2" -> "SPATA21"
-"TOGARAM2" -> "CCDC9B"
-"TOGARAM2" -> "C2orf81"
-"TOGARAM2" -> "PROX2"
-"ZC3H11B" -> "CCDC9B"
-"ZC3H11B" -> "DDN"
-"ZC3H11B" -> "PROB1"
-"ZC3H11B" -> "MAP10"
+"BTBD18" -> "MAP10" ["e"=1]
+"BTBD18" -> "C2orf81" ["e"=1]
+"BTBD18" -> "C1orf127" ["e"=1]
+"BTBD18" -> "PROX2" ["e"=1]
+"C1orf127" -> "C2orf81" ["e"=1]
+"C1orf127" -> "BTBD18" ["e"=1]
+"C1orf127" -> "CCDC9B" ["e"=1]
+"C1orf127" -> "MAP10" ["e"=1]
+"C2orf81" -> "C1orf127" ["e"=1]
+"C2orf81" -> "PROB1" ["e"=1]
+"C2orf81" -> "BTBD18" ["e"=1]
+"C2orf81" -> "DDN" ["e"=1]
+"CCDC9B" -> "DDN" ["e"=1]
+"CCDC9B" -> "ELOA2" ["e"=1]
+"CCDC9B" -> "PROB1" ["e"=1]
+"CCDC9B" -> "CEP295NL" ["e"=1]
+"CEP295NL" -> "ELOA2" ["e"=1]
+"CEP295NL" -> "CCDC9B" ["e"=1]
+"CEP295NL" -> "DDN" ["e"=1]
+"CEP295NL" -> "PROX2" ["e"=1]
+"CREBRF" -> "HOMEZ" ["e"=1]
+"CREBRF" -> "PROX2" ["e"=1]
+"CREBRF" -> "MAP10" ["e"=1]
+"CREBRF" -> "CCDC9B" ["e"=1]
+"DDN" -> "CCDC9B" ["e"=1]
+"DDN" -> "PROB1" ["e"=1]
+"DDN" -> "C2orf81" ["e"=1]
+"DDN" -> "MAP10" ["e"=1]
+"EHBP1L1" -> "DDN" ["e"=1]
+"EHBP1L1" -> "NES" ["e"=1]
+"EHBP1L1" -> "PROB1" ["e"=1]
+"EHBP1L1" -> "CCDC9B" ["e"=1]
+"ELOA2" -> "CEP295NL" ["e"=1]
+"ELOA2" -> "PROX2" ["e"=1]
+"ELOA2" -> "CCDC9B" ["e"=1]
+"ELOA2" -> "DDN" ["e"=1]
+"ERICH3" -> "MAP10" ["e"=1]
+"ERICH3" -> "NES" ["e"=1]
+"ERICH3" -> "CCDC9B" ["e"=1]
+"ERICH3" -> "SLC38A10" ["e"=1]
+"GOLIM4" -> "GOLM1" ["e"=1]
+"GOLIM4" -> "SLC38A10" ["e"=1]
+"GOLIM4" -> "ERICH3" ["e"=1]
+"GOLIM4" -> "C1orf127" ["e"=1]
+"GOLM1" -> "GOLIM4" ["e"=1]
+"GOLM1" -> "SLC38A10" ["e"=1]
+"GOLM1" -> "C1orf127" ["e"=1]
+"GOLM1" -> "ERICH3" ["e"=1]
+"HOMEZ" -> "PROX2" ["e"=1]
+"HOMEZ" -> "BTBD18" ["e"=1]
+"HOMEZ" -> "MAP10" ["e"=1]
+"HOMEZ" -> "MIDN" ["e"=1]
+"LAD1" -> "CCDC9B" ["e"=1]
+"LAD1" -> "DDN" ["e"=1]
+"LAD1" -> "PROB1" ["e"=1]
+"LAD1" -> "ELOA2" ["e"=1]
+"MAP10" -> "BTBD18" ["e"=1]
+"MAP10" -> "DDN" ["e"=1]
+"MAP10" -> "C2orf81" ["e"=1]
+"MAP10" -> "PROB1" ["e"=1]
+"MIDN" -> "CCDC9B" ["e"=1]
+"MIDN" -> "HOMEZ" ["e"=1]
+"MIDN" -> "DDN" ["e"=1]
+"MIDN" -> "PROX2" ["e"=1]
+"NES" -> "SYNM" ["e"=1]
+"NES" -> "ERICH3" ["e"=1]
+"NES" -> "MAP10" ["e"=1]
+"NES" -> "CCDC9B" ["e"=1]
+"PRAM1" -> "PROB1" ["e"=1]
+"PRAM1" -> "LAD1" ["e"=1]
+"PRAM1" -> "ELOA2" ["e"=1]
+"PRAM1" -> "DDN" ["e"=1]
+"PROB1" -> "DDN" ["e"=1]
+"PROB1" -> "C2orf81" ["e"=1]
+"PROB1" -> "CCDC9B" ["e"=1]
+"PROB1" -> "MAP10" ["e"=1]
+"PROX2" -> "ELOA2" ["e"=1]
+"PROX2" -> "CCDC9B" ["e"=1]
+"PROX2" -> "HOMEZ" ["e"=1]
+"PROX2" -> "DDN" ["e"=1]
+"PRRT3" -> "DDN" ["e"=1]
+"PRRT3" -> "PROB1" ["e"=1]
+"PRRT3" -> "MAP10" ["e"=1]
+"PRRT3" -> "C2orf81" ["e"=1]
+"SLC38A10" -> "C1orf127" ["e"=1]
+"SLC38A10" -> "GOLM1" ["e"=1]
+"SLC38A10" -> "ERICH3" ["e"=1]
+"SLC38A10" -> "GOLIM4" ["e"=1]
+"SPATA21" -> "TOGARAM2" ["e"=1]
+"SPATA21" -> "C2orf81" ["e"=1]
+"SPATA21" -> "PROX2" ["e"=1]
+"SPATA21" -> "PROB1" ["e"=1]
+"SYNM" -> "NES" ["e"=1]
+"SYNM" -> "MAP10" ["e"=1]
+"SYNM" -> "CCDC9B" ["e"=1]
+"SYNM" -> "ERICH3" ["e"=1]
+"TOGARAM2" -> "SPATA21" ["e"=1]
+"TOGARAM2" -> "CCDC9B" ["e"=1]
+"TOGARAM2" -> "C2orf81" ["e"=1]
+"TOGARAM2" -> "PROX2" ["e"=1]
+"ZC3H11B" -> "CCDC9B" ["e"=1]
+"ZC3H11B" -> "DDN" ["e"=1]
+"ZC3H11B" -> "PROB1" ["e"=1]
+"ZC3H11B" -> "MAP10" ["e"=1]
 }

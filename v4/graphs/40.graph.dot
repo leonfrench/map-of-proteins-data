@@ -12,56 +12,56 @@ digraph G {
 "STYK1" ["l"="13.597,6.870"]
 "TGFBR1" ["l"="13.575,6.881"]
 "TGFBR2" ["l"="13.573,6.885"]
-"ACVR1" -> "ACVR1C"
-"ACVR1" -> "BMPR1A"
-"ACVR1" -> "ACVR1B"
-"ACVR1" -> "ACVRL1"
-"ACVR1B" -> "ACVR1C"
-"ACVR1B" -> "TGFBR1"
-"ACVR1B" -> "ACVRL1"
-"ACVR1B" -> "ACVR2A"
-"ACVR1C" -> "TGFBR1"
-"ACVR1C" -> "ACVR1"
-"ACVR1C" -> "ACVR1B"
-"ACVR1C" -> "BMPR1A"
-"ACVR2A" -> "ACVR2B"
-"ACVR2A" -> "ACVR1B"
-"ACVR2A" -> "BMPR1A"
-"ACVR2A" -> "BMPR1B"
-"ACVR2B" -> "ACVR2A"
-"ACVR2B" -> "ACVR1C"
-"ACVR2B" -> "ACVR1B"
-"ACVR2B" -> "TGFBR1"
-"ACVRL1" -> "ACVR1B"
-"ACVRL1" -> "ACVR1"
-"ACVRL1" -> "ACVR1C"
-"ACVRL1" -> "TGFBR1"
-"BMPR1A" -> "BMPR1B"
-"BMPR1A" -> "TGFBR1"
-"BMPR1A" -> "ACVR1C"
-"BMPR1A" -> "ACVR2A"
-"BMPR1B" -> "BMPR1A"
-"BMPR1B" -> "ACVR2A"
-"BMPR1B" -> "ACVR1"
-"BMPR1B" -> "ACVR1C"
-"ERN1" -> "BMPR1A"
-"ERN1" -> "TGFBR2"
-"ERN1" -> "TGFBR1"
-"ERN1" -> "BMPR1B"
-"RYK" -> "ACVR1C"
-"RYK" -> "TGFBR1"
-"RYK" -> "ACVR1"
-"RYK" -> "BMPR1A"
-"STYK1" -> "BMPR1B"
-"STYK1" -> "ACVR2A"
-"STYK1" -> "ACVR1B"
-"STYK1" -> "TGFBR2"
-"TGFBR1" -> "ACVR1C"
-"TGFBR1" -> "ACVR1B"
-"TGFBR1" -> "BMPR1A"
-"TGFBR1" -> "ACVR1"
-"TGFBR2" -> "BMPR1A"
-"TGFBR2" -> "ACVR1C"
-"TGFBR2" -> "TGFBR1"
-"TGFBR2" -> "ACVRL1"
+"ACVR1" -> "ACVR1C" ["e"=1]
+"ACVR1" -> "BMPR1A" ["e"=1]
+"ACVR1" -> "ACVR1B" ["e"=1]
+"ACVR1" -> "ACVRL1" ["e"=1]
+"ACVR1B" -> "ACVR1C" ["e"=1]
+"ACVR1B" -> "TGFBR1" ["e"=1]
+"ACVR1B" -> "ACVRL1" ["e"=1]
+"ACVR1B" -> "ACVR2A" ["e"=1]
+"ACVR1C" -> "TGFBR1" ["e"=1]
+"ACVR1C" -> "ACVR1" ["e"=1]
+"ACVR1C" -> "ACVR1B" ["e"=1]
+"ACVR1C" -> "BMPR1A" ["e"=1]
+"ACVR2A" -> "ACVR2B" ["e"=1]
+"ACVR2A" -> "ACVR1B" ["e"=1]
+"ACVR2A" -> "BMPR1A" ["e"=1]
+"ACVR2A" -> "BMPR1B" ["e"=1]
+"ACVR2B" -> "ACVR2A" ["e"=1]
+"ACVR2B" -> "ACVR1C" ["e"=1]
+"ACVR2B" -> "ACVR1B" ["e"=1]
+"ACVR2B" -> "TGFBR1" ["e"=1]
+"ACVRL1" -> "ACVR1B" ["e"=1]
+"ACVRL1" -> "ACVR1" ["e"=1]
+"ACVRL1" -> "ACVR1C" ["e"=1]
+"ACVRL1" -> "TGFBR1" ["e"=1]
+"BMPR1A" -> "BMPR1B" ["e"=1]
+"BMPR1A" -> "TGFBR1" ["e"=1]
+"BMPR1A" -> "ACVR1C" ["e"=1]
+"BMPR1A" -> "ACVR2A" ["e"=1]
+"BMPR1B" -> "BMPR1A" ["e"=1]
+"BMPR1B" -> "ACVR2A" ["e"=1]
+"BMPR1B" -> "ACVR1" ["e"=1]
+"BMPR1B" -> "ACVR1C" ["e"=1]
+"ERN1" -> "BMPR1A" ["e"=1]
+"ERN1" -> "TGFBR2" ["e"=1]
+"ERN1" -> "TGFBR1" ["e"=1]
+"ERN1" -> "BMPR1B" ["e"=1]
+"RYK" -> "ACVR1C" ["e"=1]
+"RYK" -> "TGFBR1" ["e"=1]
+"RYK" -> "ACVR1" ["e"=1]
+"RYK" -> "BMPR1A" ["e"=1]
+"STYK1" -> "BMPR1B" ["e"=1]
+"STYK1" -> "ACVR2A" ["e"=1]
+"STYK1" -> "ACVR1B" ["e"=1]
+"STYK1" -> "TGFBR2" ["e"=1]
+"TGFBR1" -> "ACVR1C" ["e"=1]
+"TGFBR1" -> "ACVR1B" ["e"=1]
+"TGFBR1" -> "BMPR1A" ["e"=1]
+"TGFBR1" -> "ACVR1" ["e"=1]
+"TGFBR2" -> "BMPR1A" ["e"=1]
+"TGFBR2" -> "ACVR1C" ["e"=1]
+"TGFBR2" -> "TGFBR1" ["e"=1]
+"TGFBR2" -> "ACVRL1" ["e"=1]
 }

@@ -31,132 +31,132 @@ digraph G {
 "TPRA1" ["l"="9.491,-2.889"]
 "TSPO" ["l"="9.448,-2.978"]
 "UNC50" ["l"="9.427,-2.855"]
-"APH1A" -> "KDELR1"
-"APH1A" -> "TPRA1"
-"APH1A" -> "SLC66A1"
-"APH1A" -> "KDELR2"
-"ATP6V0B" -> "SCAMP5"
-"ATP6V0B" -> "TMBIM6"
-"ATP6V0B" -> "APH1A"
-"ATP6V0B" -> "SERINC2"
-"DERL1" -> "DERL2"
-"DERL1" -> "DERL3"
-"DERL1" -> "TMEM33"
-"DERL1" -> "KDELR2"
-"DERL2" -> "DERL1"
-"DERL2" -> "DERL3"
-"DERL2" -> "KDELR2"
-"DERL2" -> "APH1A"
-"DERL3" -> "DERL2"
-"DERL3" -> "DERL1"
-"DERL3" -> "KDELR2"
-"DERL3" -> "TMEM17"
-"EI24" -> "TMEM33"
-"EI24" -> "LMBR1"
-"EI24" -> "UNC50"
-"EI24" -> "TMEM17"
-"GPR89A" -> "GPR89B"
-"GPR89A" -> "LMBR1"
-"GPR89A" -> "LMBRD1"
-"GPR89A" -> "SERINC3"
-"GPR89B" -> "GPR89A"
-"GPR89B" -> "LMBR1"
-"GPR89B" -> "LMBRD1"
-"GPR89B" -> "SERINC3"
-"GPRC5A" -> "GPRC5D"
-"GPRC5A" -> "TPRA1"
-"GPRC5A" -> "TMEM185B"
-"GPRC5A" -> "SERINC3"
-"GPRC5D" -> "GPRC5A"
-"GPRC5D" -> "TPRA1"
-"GPRC5D" -> "TMEM17"
-"GPRC5D" -> "TMEM185B"
-"KDELR1" -> "KDELR2"
-"KDELR1" -> "APH1A"
-"KDELR1" -> "TMBIM6"
-"KDELR1" -> "DERL2"
-"KDELR2" -> "KDELR1"
-"KDELR2" -> "DERL2"
-"KDELR2" -> "DERL1"
-"KDELR2" -> "APH1A"
-"LMBR1" -> "LMBRD1"
-"LMBR1" -> "GPR89B"
-"LMBR1" -> "GPR89A"
-"LMBR1" -> "SERINC3"
-"LMBRD1" -> "LMBR1"
-"LMBRD1" -> "SERINC3"
-"LMBRD1" -> "GPR89B"
-"LMBRD1" -> "SERINC1"
-"RHBDD2" -> "SCAMP5"
-"RHBDD2" -> "TPRA1"
-"RHBDD2" -> "SCAMP4"
-"RHBDD2" -> "SERINC3"
-"SCAMP4" -> "SCAMP5"
-"SCAMP4" -> "TPRA1"
-"SCAMP4" -> "APH1A"
-"SCAMP4" -> "LMBRD1"
-"SCAMP5" -> "SCAMP4"
-"SCAMP5" -> "TPRA1"
-"SCAMP5" -> "TMBIM6"
-"SCAMP5" -> "ATP6V0B"
-"SERINC1" -> "SERINC3"
-"SERINC1" -> "SERINC2"
-"SERINC1" -> "LMBRD1"
-"SERINC1" -> "LMBR1"
-"SERINC2" -> "SERINC3"
-"SERINC2" -> "SERINC1"
-"SERINC2" -> "APH1A"
-"SERINC2" -> "TPRA1"
-"SERINC3" -> "SERINC1"
-"SERINC3" -> "SERINC2"
-"SERINC3" -> "LMBRD1"
-"SERINC3" -> "LMBR1"
-"SLC66A1" -> "TPRA1"
-"SLC66A1" -> "APH1A"
-"SLC66A1" -> "KDELR2"
-"SLC66A1" -> "TMEM17"
-"TMBIM6" -> "KDELR1"
-"TMBIM6" -> "KDELR2"
-"TMBIM6" -> "DERL1"
-"TMBIM6" -> "SERINC3"
-"TMEM147" -> "APH1A"
-"TMEM147" -> "KDELR2"
-"TMEM147" -> "KDELR1"
-"TMEM147" -> "EI24"
-"TMEM17" -> "TMEM185B"
-"TMEM17" -> "EI24"
-"TMEM17" -> "TMEM60"
-"TMEM17" -> "GPR89B"
-"TMEM185B" -> "TMEM60"
-"TMEM185B" -> "TMEM17"
-"TMEM185B" -> "APH1A"
-"TMEM185B" -> "SERINC1"
-"TMEM244" -> "GPR89B"
-"TMEM244" -> "GPR89A"
-"TMEM244" -> "LMBR1"
-"TMEM244" -> "UNC50"
-"TMEM33" -> "EI24"
-"TMEM33" -> "DERL1"
-"TMEM33" -> "SERINC3"
-"TMEM33" -> "GPR89B"
-"TMEM35B" -> "DERL3"
-"TMEM35B" -> "DERL2"
-"TMEM35B" -> "APH1A"
-"TMEM35B" -> "SLC66A1"
-"TMEM60" -> "TMEM185B"
-"TMEM60" -> "TMEM17"
-"TMEM60" -> "APH1A"
-"TMEM60" -> "UNC50"
-"TPRA1" -> "SLC66A1"
-"TPRA1" -> "APH1A"
-"TPRA1" -> "SCAMP4"
-"TPRA1" -> "GPR89B"
-"TSPO" -> "SLC66A1"
-"TSPO" -> "APH1A"
-"TSPO" -> "TMEM147"
-"TSPO" -> "TPRA1"
-"UNC50" -> "DERL2"
-"UNC50" -> "EI24"
-"UNC50" -> "TMEM17"
-"UNC50" -> "TMEM244"
+"APH1A" -> "KDELR1" ["e"=1]
+"APH1A" -> "TPRA1" ["e"=1]
+"APH1A" -> "SLC66A1" ["e"=1]
+"APH1A" -> "KDELR2" ["e"=1]
+"ATP6V0B" -> "SCAMP5" ["e"=1]
+"ATP6V0B" -> "TMBIM6" ["e"=1]
+"ATP6V0B" -> "APH1A" ["e"=1]
+"ATP6V0B" -> "SERINC2" ["e"=1]
+"DERL1" -> "DERL2" ["e"=1]
+"DERL1" -> "DERL3" ["e"=1]
+"DERL1" -> "TMEM33" ["e"=1]
+"DERL1" -> "KDELR2" ["e"=1]
+"DERL2" -> "DERL1" ["e"=1]
+"DERL2" -> "DERL3" ["e"=1]
+"DERL2" -> "KDELR2" ["e"=1]
+"DERL2" -> "APH1A" ["e"=1]
+"DERL3" -> "DERL2" ["e"=1]
+"DERL3" -> "DERL1" ["e"=1]
+"DERL3" -> "KDELR2" ["e"=1]
+"DERL3" -> "TMEM17" ["e"=1]
+"EI24" -> "TMEM33" ["e"=1]
+"EI24" -> "LMBR1" ["e"=1]
+"EI24" -> "UNC50" ["e"=1]
+"EI24" -> "TMEM17" ["e"=1]
+"GPR89A" -> "GPR89B" ["e"=1]
+"GPR89A" -> "LMBR1" ["e"=1]
+"GPR89A" -> "LMBRD1" ["e"=1]
+"GPR89A" -> "SERINC3" ["e"=1]
+"GPR89B" -> "GPR89A" ["e"=1]
+"GPR89B" -> "LMBR1" ["e"=1]
+"GPR89B" -> "LMBRD1" ["e"=1]
+"GPR89B" -> "SERINC3" ["e"=1]
+"GPRC5A" -> "GPRC5D" ["e"=1]
+"GPRC5A" -> "TPRA1" ["e"=1]
+"GPRC5A" -> "TMEM185B" ["e"=1]
+"GPRC5A" -> "SERINC3" ["e"=1]
+"GPRC5D" -> "GPRC5A" ["e"=1]
+"GPRC5D" -> "TPRA1" ["e"=1]
+"GPRC5D" -> "TMEM17" ["e"=1]
+"GPRC5D" -> "TMEM185B" ["e"=1]
+"KDELR1" -> "KDELR2" ["e"=1]
+"KDELR1" -> "APH1A" ["e"=1]
+"KDELR1" -> "TMBIM6" ["e"=1]
+"KDELR1" -> "DERL2" ["e"=1]
+"KDELR2" -> "KDELR1" ["e"=1]
+"KDELR2" -> "DERL2" ["e"=1]
+"KDELR2" -> "DERL1" ["e"=1]
+"KDELR2" -> "APH1A" ["e"=1]
+"LMBR1" -> "LMBRD1" ["e"=1]
+"LMBR1" -> "GPR89B" ["e"=1]
+"LMBR1" -> "GPR89A" ["e"=1]
+"LMBR1" -> "SERINC3" ["e"=1]
+"LMBRD1" -> "LMBR1" ["e"=1]
+"LMBRD1" -> "SERINC3" ["e"=1]
+"LMBRD1" -> "GPR89B" ["e"=1]
+"LMBRD1" -> "SERINC1" ["e"=1]
+"RHBDD2" -> "SCAMP5" ["e"=1]
+"RHBDD2" -> "TPRA1" ["e"=1]
+"RHBDD2" -> "SCAMP4" ["e"=1]
+"RHBDD2" -> "SERINC3" ["e"=1]
+"SCAMP4" -> "SCAMP5" ["e"=1]
+"SCAMP4" -> "TPRA1" ["e"=1]
+"SCAMP4" -> "APH1A" ["e"=1]
+"SCAMP4" -> "LMBRD1" ["e"=1]
+"SCAMP5" -> "SCAMP4" ["e"=1]
+"SCAMP5" -> "TPRA1" ["e"=1]
+"SCAMP5" -> "TMBIM6" ["e"=1]
+"SCAMP5" -> "ATP6V0B" ["e"=1]
+"SERINC1" -> "SERINC3" ["e"=1]
+"SERINC1" -> "SERINC2" ["e"=1]
+"SERINC1" -> "LMBRD1" ["e"=1]
+"SERINC1" -> "LMBR1" ["e"=1]
+"SERINC2" -> "SERINC3" ["e"=1]
+"SERINC2" -> "SERINC1" ["e"=1]
+"SERINC2" -> "APH1A" ["e"=1]
+"SERINC2" -> "TPRA1" ["e"=1]
+"SERINC3" -> "SERINC1" ["e"=1]
+"SERINC3" -> "SERINC2" ["e"=1]
+"SERINC3" -> "LMBRD1" ["e"=1]
+"SERINC3" -> "LMBR1" ["e"=1]
+"SLC66A1" -> "TPRA1" ["e"=1]
+"SLC66A1" -> "APH1A" ["e"=1]
+"SLC66A1" -> "KDELR2" ["e"=1]
+"SLC66A1" -> "TMEM17" ["e"=1]
+"TMBIM6" -> "KDELR1" ["e"=1]
+"TMBIM6" -> "KDELR2" ["e"=1]
+"TMBIM6" -> "DERL1" ["e"=1]
+"TMBIM6" -> "SERINC3" ["e"=1]
+"TMEM147" -> "APH1A" ["e"=1]
+"TMEM147" -> "KDELR2" ["e"=1]
+"TMEM147" -> "KDELR1" ["e"=1]
+"TMEM147" -> "EI24" ["e"=1]
+"TMEM17" -> "TMEM185B" ["e"=1]
+"TMEM17" -> "EI24" ["e"=1]
+"TMEM17" -> "TMEM60" ["e"=1]
+"TMEM17" -> "GPR89B" ["e"=1]
+"TMEM185B" -> "TMEM60" ["e"=1]
+"TMEM185B" -> "TMEM17" ["e"=1]
+"TMEM185B" -> "APH1A" ["e"=1]
+"TMEM185B" -> "SERINC1" ["e"=1]
+"TMEM244" -> "GPR89B" ["e"=1]
+"TMEM244" -> "GPR89A" ["e"=1]
+"TMEM244" -> "LMBR1" ["e"=1]
+"TMEM244" -> "UNC50" ["e"=1]
+"TMEM33" -> "EI24" ["e"=1]
+"TMEM33" -> "DERL1" ["e"=1]
+"TMEM33" -> "SERINC3" ["e"=1]
+"TMEM33" -> "GPR89B" ["e"=1]
+"TMEM35B" -> "DERL3" ["e"=1]
+"TMEM35B" -> "DERL2" ["e"=1]
+"TMEM35B" -> "APH1A" ["e"=1]
+"TMEM35B" -> "SLC66A1" ["e"=1]
+"TMEM60" -> "TMEM185B" ["e"=1]
+"TMEM60" -> "TMEM17" ["e"=1]
+"TMEM60" -> "APH1A" ["e"=1]
+"TMEM60" -> "UNC50" ["e"=1]
+"TPRA1" -> "SLC66A1" ["e"=1]
+"TPRA1" -> "APH1A" ["e"=1]
+"TPRA1" -> "SCAMP4" ["e"=1]
+"TPRA1" -> "GPR89B" ["e"=1]
+"TSPO" -> "SLC66A1" ["e"=1]
+"TSPO" -> "APH1A" ["e"=1]
+"TSPO" -> "TMEM147" ["e"=1]
+"TSPO" -> "TPRA1" ["e"=1]
+"UNC50" -> "DERL2" ["e"=1]
+"UNC50" -> "EI24" ["e"=1]
+"UNC50" -> "TMEM17" ["e"=1]
+"UNC50" -> "TMEM244" ["e"=1]
 }

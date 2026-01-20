@@ -24,104 +24,104 @@ digraph G {
 "POTEI" ["l"="6.647,-0.293"]
 "POTEJ" ["l"="6.657,-0.287"]
 "POTEM" ["l"="6.652,-0.284"]
-"ANKRD18A" -> "ANKRD18B"
-"ANKRD18A" -> "ANKRD62"
-"ANKRD18A" -> "ANKRD20A1"
-"ANKRD18A" -> "ANKRD26"
-"ANKRD18B" -> "ANKRD18A"
-"ANKRD18B" -> "ANKRD62"
-"ANKRD18B" -> "ANKRD20A1"
-"ANKRD18B" -> "ANKRD26"
-"ANKRD20A1" -> "ANKRD62"
-"ANKRD20A1" -> "ANKRD18B"
-"ANKRD20A1" -> "ANKRD18A"
-"ANKRD20A1" -> "POTED"
-"ANKRD26" -> "ANKRD18B"
-"ANKRD26" -> "CCDC144A"
-"ANKRD26" -> "ANKRD18A"
-"ANKRD26" -> "ANKRD62"
-"ANKRD30A" -> "ANKRD30B"
-"ANKRD30A" -> "ANKRD36B"
-"ANKRD30A" -> "ANKRD36"
-"ANKRD30A" -> "ANKRD36C"
-"ANKRD30B" -> "ANKRD30A"
-"ANKRD30B" -> "ANKRD36"
-"ANKRD30B" -> "ANKRD36B"
-"ANKRD30B" -> "ANKRD36C"
-"ANKRD30BL" -> "POTEB"
-"ANKRD30BL" -> "ANKRD7"
-"ANKRD30BL" -> "POTEC"
-"ANKRD30BL" -> "POTED"
-"ANKRD36" -> "ANKRD36C"
-"ANKRD36" -> "ANKRD36B"
-"ANKRD36" -> "ANKRD30A"
-"ANKRD36" -> "ANKRD30B"
-"ANKRD36B" -> "ANKRD36"
-"ANKRD36B" -> "ANKRD36C"
-"ANKRD36B" -> "ANKRD30A"
-"ANKRD36B" -> "ANKRD30B"
-"ANKRD36C" -> "ANKRD36"
-"ANKRD36C" -> "ANKRD36B"
-"ANKRD36C" -> "ANKRD30A"
-"ANKRD36C" -> "ANKRD30B"
-"ANKRD62" -> "ANKRD20A1"
-"ANKRD62" -> "ANKRD18B"
-"ANKRD62" -> "ANKRD18A"
-"ANKRD62" -> "POTEB2"
-"ANKRD7" -> "POTEB2"
-"ANKRD7" -> "ANKRD30BL"
-"ANKRD7" -> "POTEB"
-"ANKRD7" -> "POTED"
-"CCDC144A" -> "ANKRD26"
-"CCDC144A" -> "ANKRD18B"
-"CCDC144A" -> "ANKRD18A"
-"CCDC144A" -> "ANKRD62"
-"POTEB" -> "POTEB2"
-"POTEB" -> "POTED"
-"POTEB" -> "POTEG"
-"POTEB" -> "POTEC"
-"POTEB2" -> "POTEB"
-"POTEB2" -> "POTED"
-"POTEB2" -> "POTEC"
-"POTEB2" -> "POTEG"
-"POTEB3" -> "POTEM"
-"POTEB3" -> "POTEC"
-"POTEB3" -> "POTEG"
-"POTEB3" -> "POTED"
-"POTEC" -> "POTED"
-"POTEC" -> "POTEM"
-"POTEC" -> "POTEB3"
-"POTEC" -> "POTEH"
-"POTED" -> "POTEC"
-"POTED" -> "POTEG"
-"POTED" -> "POTEB3"
-"POTED" -> "POTEM"
-"POTEE" -> "POTEI"
-"POTEE" -> "POTEJ"
-"POTEE" -> "POTEF"
-"POTEE" -> "POTEG"
-"POTEF" -> "POTEE"
-"POTEF" -> "POTEJ"
-"POTEF" -> "POTEI"
-"POTEF" -> "POTEM"
-"POTEG" -> "POTEH"
-"POTEG" -> "POTEM"
-"POTEG" -> "POTED"
-"POTEG" -> "POTEB3"
-"POTEH" -> "POTEG"
-"POTEH" -> "POTEC"
-"POTEH" -> "POTEM"
-"POTEH" -> "POTED"
-"POTEI" -> "POTEE"
-"POTEI" -> "POTEJ"
-"POTEI" -> "POTEF"
-"POTEI" -> "POTEM"
-"POTEJ" -> "POTEI"
-"POTEJ" -> "POTEE"
-"POTEJ" -> "POTEF"
-"POTEJ" -> "POTEM"
-"POTEM" -> "POTEB3"
-"POTEM" -> "POTEG"
-"POTEM" -> "POTEC"
-"POTEM" -> "POTEH"
+"ANKRD18A" -> "ANKRD18B" ["e"=1]
+"ANKRD18A" -> "ANKRD62" ["e"=1]
+"ANKRD18A" -> "ANKRD20A1" ["e"=1]
+"ANKRD18A" -> "ANKRD26" ["e"=1]
+"ANKRD18B" -> "ANKRD18A" ["e"=1]
+"ANKRD18B" -> "ANKRD62" ["e"=1]
+"ANKRD18B" -> "ANKRD20A1" ["e"=1]
+"ANKRD18B" -> "ANKRD26" ["e"=1]
+"ANKRD20A1" -> "ANKRD62" ["e"=1]
+"ANKRD20A1" -> "ANKRD18B" ["e"=1]
+"ANKRD20A1" -> "ANKRD18A" ["e"=1]
+"ANKRD20A1" -> "POTED" ["e"=1]
+"ANKRD26" -> "ANKRD18B" ["e"=1]
+"ANKRD26" -> "CCDC144A" ["e"=1]
+"ANKRD26" -> "ANKRD18A" ["e"=1]
+"ANKRD26" -> "ANKRD62" ["e"=1]
+"ANKRD30A" -> "ANKRD30B" ["e"=1]
+"ANKRD30A" -> "ANKRD36B" ["e"=1]
+"ANKRD30A" -> "ANKRD36" ["e"=1]
+"ANKRD30A" -> "ANKRD36C" ["e"=1]
+"ANKRD30B" -> "ANKRD30A" ["e"=1]
+"ANKRD30B" -> "ANKRD36" ["e"=1]
+"ANKRD30B" -> "ANKRD36B" ["e"=1]
+"ANKRD30B" -> "ANKRD36C" ["e"=1]
+"ANKRD30BL" -> "POTEB" ["e"=1]
+"ANKRD30BL" -> "ANKRD7" ["e"=1]
+"ANKRD30BL" -> "POTEC" ["e"=1]
+"ANKRD30BL" -> "POTED" ["e"=1]
+"ANKRD36" -> "ANKRD36C" ["e"=1]
+"ANKRD36" -> "ANKRD36B" ["e"=1]
+"ANKRD36" -> "ANKRD30A" ["e"=1]
+"ANKRD36" -> "ANKRD30B" ["e"=1]
+"ANKRD36B" -> "ANKRD36" ["e"=1]
+"ANKRD36B" -> "ANKRD36C" ["e"=1]
+"ANKRD36B" -> "ANKRD30A" ["e"=1]
+"ANKRD36B" -> "ANKRD30B" ["e"=1]
+"ANKRD36C" -> "ANKRD36" ["e"=1]
+"ANKRD36C" -> "ANKRD36B" ["e"=1]
+"ANKRD36C" -> "ANKRD30A" ["e"=1]
+"ANKRD36C" -> "ANKRD30B" ["e"=1]
+"ANKRD62" -> "ANKRD20A1" ["e"=1]
+"ANKRD62" -> "ANKRD18B" ["e"=1]
+"ANKRD62" -> "ANKRD18A" ["e"=1]
+"ANKRD62" -> "POTEB2" ["e"=1]
+"ANKRD7" -> "POTEB2" ["e"=1]
+"ANKRD7" -> "ANKRD30BL" ["e"=1]
+"ANKRD7" -> "POTEB" ["e"=1]
+"ANKRD7" -> "POTED" ["e"=1]
+"CCDC144A" -> "ANKRD26" ["e"=1]
+"CCDC144A" -> "ANKRD18B" ["e"=1]
+"CCDC144A" -> "ANKRD18A" ["e"=1]
+"CCDC144A" -> "ANKRD62" ["e"=1]
+"POTEB" -> "POTEB2" ["e"=1]
+"POTEB" -> "POTED" ["e"=1]
+"POTEB" -> "POTEG" ["e"=1]
+"POTEB" -> "POTEC" ["e"=1]
+"POTEB2" -> "POTEB" ["e"=1]
+"POTEB2" -> "POTED" ["e"=1]
+"POTEB2" -> "POTEC" ["e"=1]
+"POTEB2" -> "POTEG" ["e"=1]
+"POTEB3" -> "POTEM" ["e"=1]
+"POTEB3" -> "POTEC" ["e"=1]
+"POTEB3" -> "POTEG" ["e"=1]
+"POTEB3" -> "POTED" ["e"=1]
+"POTEC" -> "POTED" ["e"=1]
+"POTEC" -> "POTEM" ["e"=1]
+"POTEC" -> "POTEB3" ["e"=1]
+"POTEC" -> "POTEH" ["e"=1]
+"POTED" -> "POTEC" ["e"=1]
+"POTED" -> "POTEG" ["e"=1]
+"POTED" -> "POTEB3" ["e"=1]
+"POTED" -> "POTEM" ["e"=1]
+"POTEE" -> "POTEI" ["e"=1]
+"POTEE" -> "POTEJ" ["e"=1]
+"POTEE" -> "POTEF" ["e"=1]
+"POTEE" -> "POTEG" ["e"=1]
+"POTEF" -> "POTEE" ["e"=1]
+"POTEF" -> "POTEJ" ["e"=1]
+"POTEF" -> "POTEI" ["e"=1]
+"POTEF" -> "POTEM" ["e"=1]
+"POTEG" -> "POTEH" ["e"=1]
+"POTEG" -> "POTEM" ["e"=1]
+"POTEG" -> "POTED" ["e"=1]
+"POTEG" -> "POTEB3" ["e"=1]
+"POTEH" -> "POTEG" ["e"=1]
+"POTEH" -> "POTEC" ["e"=1]
+"POTEH" -> "POTEM" ["e"=1]
+"POTEH" -> "POTED" ["e"=1]
+"POTEI" -> "POTEE" ["e"=1]
+"POTEI" -> "POTEJ" ["e"=1]
+"POTEI" -> "POTEF" ["e"=1]
+"POTEI" -> "POTEM" ["e"=1]
+"POTEJ" -> "POTEI" ["e"=1]
+"POTEJ" -> "POTEE" ["e"=1]
+"POTEJ" -> "POTEF" ["e"=1]
+"POTEJ" -> "POTEM" ["e"=1]
+"POTEM" -> "POTEB3" ["e"=1]
+"POTEM" -> "POTEG" ["e"=1]
+"POTEM" -> "POTEC" ["e"=1]
+"POTEM" -> "POTEH" ["e"=1]
 }

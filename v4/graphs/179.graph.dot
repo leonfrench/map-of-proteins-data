@@ -29,124 +29,124 @@ digraph G {
 "TMEM40" ["l"="10.206,4.062"]
 "TMUB1" ["l"="10.271,3.926"]
 "TMUB2" ["l"="10.328,4.012"]
-"ADIRF" -> "FAM25C"
-"ADIRF" -> "FAM25A"
-"ADIRF" -> "FAM25G"
-"ADIRF" -> "SNCG"
-"CLEC2L" -> "KLRG2"
-"CLEC2L" -> "TMEM134"
-"CLEC2L" -> "SAYSD1"
-"CLEC2L" -> "TMEM40"
-"FAM241B" -> "TMUB2"
-"FAM241B" -> "SAYSD1"
-"FAM241B" -> "TMUB1"
-"FAM241B" -> "TMEM134"
-"FAM25A" -> "FAM25G"
-"FAM25A" -> "FAM25C"
-"FAM25A" -> "ADIRF"
-"FAM25A" -> "SNCG"
-"FAM25C" -> "FAM25G"
-"FAM25C" -> "FAM25A"
-"FAM25C" -> "ADIRF"
-"FAM25C" -> "SNCA"
-"FAM25G" -> "FAM25C"
-"FAM25G" -> "FAM25A"
-"FAM25G" -> "ADIRF"
-"FAM25G" -> "SNCA"
-"HMGA1" -> "HMGA2"
-"HMGA1" -> "HMGN4"
-"HMGA1" -> "HMGN2"
-"HMGA1" -> "HMGN1"
-"HMGA2" -> "HMGA1"
-"HMGA2" -> "HMGN4"
-"HMGA2" -> "HMGN2"
-"HMGA2" -> "HMGN1"
-"HMGN1" -> "HMGN2"
-"HMGN1" -> "HMGN3"
-"HMGN1" -> "HMGN4"
-"HMGN1" -> "HMGA1"
-"HMGN2" -> "HMGN1"
-"HMGN2" -> "HMGN3"
-"HMGN2" -> "HMGN4"
-"HMGN2" -> "HMGA1"
-"HMGN3" -> "HMGN1"
-"HMGN3" -> "HMGN2"
-"HMGN3" -> "HMGN4"
-"HMGN3" -> "HMGA1"
-"HMGN4" -> "HMGA1"
-"HMGN4" -> "HMGA2"
-"HMGN4" -> "HMGN2"
-"HMGN4" -> "HMGN1"
-"KLRG2" -> "SAYSD1"
-"KLRG2" -> "CLEC2L"
-"KLRG2" -> "TMEM134"
-"KLRG2" -> "TMEM40"
-"PCP4" -> "PCP4L1"
-"PCP4" -> "FAM25C"
-"PCP4" -> "SNCB"
-"PCP4" -> "ADIRF"
-"PCP4L1" -> "PCP4"
-"PCP4L1" -> "SNCB"
-"PCP4L1" -> "HMGN4"
-"PCP4L1" -> "SAYSD1"
-"PLIN1" -> "PLIN5"
-"PLIN1" -> "PLIN3"
-"PLIN1" -> "PLIN2"
-"PLIN1" -> "SAYSD1"
-"PLIN2" -> "PLIN3"
-"PLIN2" -> "PLIN1"
-"PLIN2" -> "PLIN5"
-"PLIN2" -> "SMCO3"
-"PLIN3" -> "PLIN5"
-"PLIN3" -> "PLIN1"
-"PLIN3" -> "PLIN2"
-"PLIN3" -> "TMEM263"
-"PLIN5" -> "PLIN1"
-"PLIN5" -> "PLIN3"
-"PLIN5" -> "PLIN2"
-"PLIN5" -> "TMUB2"
-"SAYSD1" -> "TMEM134"
-"SAYSD1" -> "TMUB2"
-"SAYSD1" -> "FAM241B"
-"SAYSD1" -> "TMUB1"
-"SMCO3" -> "FAM25C"
-"SMCO3" -> "FAM25G"
-"SMCO3" -> "SAYSD1"
-"SMCO3" -> "PLIN1"
-"SMKR1" -> "HMGN4"
-"SMKR1" -> "SAYSD1"
-"SMKR1" -> "PCP4L1"
-"SMKR1" -> "HMGA2"
-"SNCA" -> "SNCB"
-"SNCA" -> "SNCG"
-"SNCA" -> "FAM25C"
-"SNCA" -> "FAM25G"
-"SNCB" -> "SNCA"
-"SNCB" -> "SNCG"
-"SNCB" -> "FAM25C"
-"SNCB" -> "PCP4L1"
-"SNCG" -> "SNCB"
-"SNCG" -> "SNCA"
-"SNCG" -> "ADIRF"
-"SNCG" -> "FAM25C"
-"TMEM134" -> "SAYSD1"
-"TMEM134" -> "TMUB1"
-"TMEM134" -> "TMUB2"
-"TMEM134" -> "TMEM40"
-"TMEM263" -> "SNCA"
-"TMEM263" -> "PLIN3"
-"TMEM263" -> "SNCB"
-"TMEM263" -> "SAYSD1"
-"TMEM40" -> "TMEM134"
-"TMEM40" -> "SAYSD1"
-"TMEM40" -> "TMUB2"
-"TMEM40" -> "TMUB1"
-"TMUB1" -> "TMUB2"
-"TMUB1" -> "TMEM134"
-"TMUB1" -> "SAYSD1"
-"TMUB1" -> "FAM241B"
-"TMUB2" -> "TMUB1"
-"TMUB2" -> "TMEM134"
-"TMUB2" -> "SAYSD1"
-"TMUB2" -> "FAM241B"
+"ADIRF" -> "FAM25C" ["e"=1]
+"ADIRF" -> "FAM25A" ["e"=1]
+"ADIRF" -> "FAM25G" ["e"=1]
+"ADIRF" -> "SNCG" ["e"=1]
+"CLEC2L" -> "KLRG2" ["e"=1]
+"CLEC2L" -> "TMEM134" ["e"=1]
+"CLEC2L" -> "SAYSD1" ["e"=1]
+"CLEC2L" -> "TMEM40" ["e"=1]
+"FAM241B" -> "TMUB2" ["e"=1]
+"FAM241B" -> "SAYSD1" ["e"=1]
+"FAM241B" -> "TMUB1" ["e"=1]
+"FAM241B" -> "TMEM134" ["e"=1]
+"FAM25A" -> "FAM25G" ["e"=1]
+"FAM25A" -> "FAM25C" ["e"=1]
+"FAM25A" -> "ADIRF" ["e"=1]
+"FAM25A" -> "SNCG" ["e"=1]
+"FAM25C" -> "FAM25G" ["e"=1]
+"FAM25C" -> "FAM25A" ["e"=1]
+"FAM25C" -> "ADIRF" ["e"=1]
+"FAM25C" -> "SNCA" ["e"=1]
+"FAM25G" -> "FAM25C" ["e"=1]
+"FAM25G" -> "FAM25A" ["e"=1]
+"FAM25G" -> "ADIRF" ["e"=1]
+"FAM25G" -> "SNCA" ["e"=1]
+"HMGA1" -> "HMGA2" ["e"=1]
+"HMGA1" -> "HMGN4" ["e"=1]
+"HMGA1" -> "HMGN2" ["e"=1]
+"HMGA1" -> "HMGN1" ["e"=1]
+"HMGA2" -> "HMGA1" ["e"=1]
+"HMGA2" -> "HMGN4" ["e"=1]
+"HMGA2" -> "HMGN2" ["e"=1]
+"HMGA2" -> "HMGN1" ["e"=1]
+"HMGN1" -> "HMGN2" ["e"=1]
+"HMGN1" -> "HMGN3" ["e"=1]
+"HMGN1" -> "HMGN4" ["e"=1]
+"HMGN1" -> "HMGA1" ["e"=1]
+"HMGN2" -> "HMGN1" ["e"=1]
+"HMGN2" -> "HMGN3" ["e"=1]
+"HMGN2" -> "HMGN4" ["e"=1]
+"HMGN2" -> "HMGA1" ["e"=1]
+"HMGN3" -> "HMGN1" ["e"=1]
+"HMGN3" -> "HMGN2" ["e"=1]
+"HMGN3" -> "HMGN4" ["e"=1]
+"HMGN3" -> "HMGA1" ["e"=1]
+"HMGN4" -> "HMGA1" ["e"=1]
+"HMGN4" -> "HMGA2" ["e"=1]
+"HMGN4" -> "HMGN2" ["e"=1]
+"HMGN4" -> "HMGN1" ["e"=1]
+"KLRG2" -> "SAYSD1" ["e"=1]
+"KLRG2" -> "CLEC2L" ["e"=1]
+"KLRG2" -> "TMEM134" ["e"=1]
+"KLRG2" -> "TMEM40" ["e"=1]
+"PCP4" -> "PCP4L1" ["e"=1]
+"PCP4" -> "FAM25C" ["e"=1]
+"PCP4" -> "SNCB" ["e"=1]
+"PCP4" -> "ADIRF" ["e"=1]
+"PCP4L1" -> "PCP4" ["e"=1]
+"PCP4L1" -> "SNCB" ["e"=1]
+"PCP4L1" -> "HMGN4" ["e"=1]
+"PCP4L1" -> "SAYSD1" ["e"=1]
+"PLIN1" -> "PLIN5" ["e"=1]
+"PLIN1" -> "PLIN3" ["e"=1]
+"PLIN1" -> "PLIN2" ["e"=1]
+"PLIN1" -> "SAYSD1" ["e"=1]
+"PLIN2" -> "PLIN3" ["e"=1]
+"PLIN2" -> "PLIN1" ["e"=1]
+"PLIN2" -> "PLIN5" ["e"=1]
+"PLIN2" -> "SMCO3" ["e"=1]
+"PLIN3" -> "PLIN5" ["e"=1]
+"PLIN3" -> "PLIN1" ["e"=1]
+"PLIN3" -> "PLIN2" ["e"=1]
+"PLIN3" -> "TMEM263" ["e"=1]
+"PLIN5" -> "PLIN1" ["e"=1]
+"PLIN5" -> "PLIN3" ["e"=1]
+"PLIN5" -> "PLIN2" ["e"=1]
+"PLIN5" -> "TMUB2" ["e"=1]
+"SAYSD1" -> "TMEM134" ["e"=1]
+"SAYSD1" -> "TMUB2" ["e"=1]
+"SAYSD1" -> "FAM241B" ["e"=1]
+"SAYSD1" -> "TMUB1" ["e"=1]
+"SMCO3" -> "FAM25C" ["e"=1]
+"SMCO3" -> "FAM25G" ["e"=1]
+"SMCO3" -> "SAYSD1" ["e"=1]
+"SMCO3" -> "PLIN1" ["e"=1]
+"SMKR1" -> "HMGN4" ["e"=1]
+"SMKR1" -> "SAYSD1" ["e"=1]
+"SMKR1" -> "PCP4L1" ["e"=1]
+"SMKR1" -> "HMGA2" ["e"=1]
+"SNCA" -> "SNCB" ["e"=1]
+"SNCA" -> "SNCG" ["e"=1]
+"SNCA" -> "FAM25C" ["e"=1]
+"SNCA" -> "FAM25G" ["e"=1]
+"SNCB" -> "SNCA" ["e"=1]
+"SNCB" -> "SNCG" ["e"=1]
+"SNCB" -> "FAM25C" ["e"=1]
+"SNCB" -> "PCP4L1" ["e"=1]
+"SNCG" -> "SNCB" ["e"=1]
+"SNCG" -> "SNCA" ["e"=1]
+"SNCG" -> "ADIRF" ["e"=1]
+"SNCG" -> "FAM25C" ["e"=1]
+"TMEM134" -> "SAYSD1" ["e"=1]
+"TMEM134" -> "TMUB1" ["e"=1]
+"TMEM134" -> "TMUB2" ["e"=1]
+"TMEM134" -> "TMEM40" ["e"=1]
+"TMEM263" -> "SNCA" ["e"=1]
+"TMEM263" -> "PLIN3" ["e"=1]
+"TMEM263" -> "SNCB" ["e"=1]
+"TMEM263" -> "SAYSD1" ["e"=1]
+"TMEM40" -> "TMEM134" ["e"=1]
+"TMEM40" -> "SAYSD1" ["e"=1]
+"TMEM40" -> "TMUB2" ["e"=1]
+"TMEM40" -> "TMUB1" ["e"=1]
+"TMUB1" -> "TMUB2" ["e"=1]
+"TMUB1" -> "TMEM134" ["e"=1]
+"TMUB1" -> "SAYSD1" ["e"=1]
+"TMUB1" -> "FAM241B" ["e"=1]
+"TMUB2" -> "TMUB1" ["e"=1]
+"TMUB2" -> "TMEM134" ["e"=1]
+"TMUB2" -> "SAYSD1" ["e"=1]
+"TMUB2" -> "FAM241B" ["e"=1]
 }

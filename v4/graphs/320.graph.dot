@@ -43,180 +43,180 @@ digraph G {
 "XRCC1" ["l"="9.683,2.426"]
 "ZFAND3" ["l"="9.836,2.393"]
 "ZMYND15" ["l"="9.690,2.361"]
-"AEBP2" -> "ZFAND3"
-"AEBP2" -> "DPF3"
-"AEBP2" -> "MTF2"
-"AEBP2" -> "BMI1"
-"BMI1" -> "PIAS4"
-"BMI1" -> "AEBP2"
-"BMI1" -> "ZFAND3"
-"BMI1" -> "DPF3"
-"CCNA1" -> "CCNA2"
-"CCNA1" -> "RAB3IP"
-"CCNA1" -> "TOR1AIP1"
-"CCNA1" -> "PPM1D"
-"CCNA2" -> "CCNA1"
-"CCNA2" -> "TOR1AIP1"
-"CCNA2" -> "ELL2"
-"CCNA2" -> "PPM1D"
-"CDCA7" -> "CDCA7L"
-"CDCA7" -> "MTF2"
-"CDCA7" -> "PHF19"
-"CDCA7" -> "DPF3"
-"CDCA7L" -> "CDCA7"
-"CDCA7L" -> "EZH2"
-"CDCA7L" -> "DPF3"
-"CDCA7L" -> "PHF19"
-"CEP44" -> "SOCS4"
-"CEP44" -> "BMI1"
-"CEP44" -> "MDM4"
-"CEP44" -> "RAB3IP"
-"DCLRE1B" -> "PPM1D"
-"DCLRE1B" -> "TMEM201"
-"DCLRE1B" -> "ELL2"
-"DCLRE1B" -> "PIAS4"
-"DPF3" -> "EZH1"
-"DPF3" -> "PHF19"
-"DPF3" -> "PIAS4"
-"DPF3" -> "EZH2"
-"ELL2" -> "TMEM201"
-"ELL2" -> "RAB3IP"
-"ELL2" -> "RBSN"
-"ELL2" -> "PIAS4"
-"EZH1" -> "DPF3"
-"EZH1" -> "MTF2"
-"EZH1" -> "TADA2A"
-"EZH1" -> "EZH2"
-"EZH2" -> "EZH1"
-"EZH2" -> "CDCA7L"
-"EZH2" -> "DPF3"
-"EZH2" -> "MTF2"
-"JMJD6" -> "PPM1D"
-"JMJD6" -> "MTF2"
-"JMJD6" -> "PHF19"
-"JMJD6" -> "EZH1"
-"KIF2B" -> "EZH1"
-"KIF2B" -> "PIAS4"
-"KIF2B" -> "PPM1D"
-"KIF2B" -> "RBSN"
-"MDM2" -> "MDM4"
-"MDM2" -> "RNF4"
-"MDM2" -> "ZFAND3"
-"MDM2" -> "RBSN"
-"MDM4" -> "MDM2"
-"MDM4" -> "MTF2"
-"MDM4" -> "RBSN"
-"MDM4" -> "EZH1"
-"MFF" -> "RAB3IP"
-"MFF" -> "ZFAND3"
-"MFF" -> "ELL2"
-"MFF" -> "RNF4"
-"MTF2" -> "PHF19"
-"MTF2" -> "EZH1"
-"MTF2" -> "TADA2A"
-"MTF2" -> "MDM4"
-"NFATC2IP" -> "PPM1D"
-"NFATC2IP" -> "TMEM201"
-"NFATC2IP" -> "PHF19"
-"NFATC2IP" -> "DPF3"
-"OGFR" -> "PARP10"
-"OGFR" -> "SH2B2"
-"OGFR" -> "ZMYND15"
-"OGFR" -> "RBSN"
-"PARP10" -> "ZMYND15"
-"PARP10" -> "SH2B2"
-"PARP10" -> "OGFR"
-"PARP10" -> "NFATC2IP"
-"PHF19" -> "MTF2"
-"PHF19" -> "DPF3"
-"PHF19" -> "XRCC1"
-"PHF19" -> "TMEM201"
-"PIAS4" -> "SMARCB1"
-"PIAS4" -> "DPF3"
-"PIAS4" -> "EZH1"
-"PIAS4" -> "BMI1"
-"PPM1D" -> "JMJD6"
-"PPM1D" -> "RAB3IP"
-"PPM1D" -> "SOCS4"
-"PPM1D" -> "DCLRE1B"
-"RAB3IP" -> "RBSN"
-"RAB3IP" -> "SOCS5"
-"RAB3IP" -> "PPM1D"
-"RAB3IP" -> "SOCS4"
-"RBSN" -> "ZFAND3"
-"RBSN" -> "UNKL"
-"RBSN" -> "RAB3IP"
-"RBSN" -> "EZH1"
-"RNF220" -> "DPF3"
-"RNF220" -> "RNF34"
-"RNF220" -> "PIAS4"
-"RNF220" -> "ZFAND3"
-"RNF34" -> "RNF220"
-"RNF34" -> "RNF4"
-"RNF34" -> "ZFAND3"
-"RNF34" -> "MDM2"
-"RNF4" -> "MDM2"
-"RNF4" -> "ZFAND3"
-"RNF4" -> "MDM4"
-"RNF4" -> "RBSN"
-"RNF6" -> "SOCS5"
-"RNF6" -> "MDM2"
-"RNF6" -> "SAV1"
-"RNF6" -> "SOCS4"
-"RNPC3" -> "EZH1"
-"RNPC3" -> "RAB3IP"
-"RNPC3" -> "TADA2A"
-"RNPC3" -> "ELL2"
-"SAV1" -> "SOCS5"
-"SAV1" -> "RAB3IP"
-"SAV1" -> "TOR1AIP1"
-"SAV1" -> "SPRED2"
-"SH2B2" -> "PPM1D"
-"SH2B2" -> "NFATC2IP"
-"SH2B2" -> "ZMYND15"
-"SH2B2" -> "PARP10"
-"SMARCB1" -> "PIAS4"
-"SMARCB1" -> "TADA2A"
-"SMARCB1" -> "EZH1"
-"SMARCB1" -> "DPF3"
-"SOCS4" -> "SOCS5"
-"SOCS4" -> "RAB3IP"
-"SOCS4" -> "PPM1D"
-"SOCS4" -> "MDM4"
-"SOCS5" -> "SOCS4"
-"SOCS5" -> "SAV1"
-"SOCS5" -> "RAB3IP"
-"SOCS5" -> "TOR1AIP1"
-"SPRED2" -> "SOCS5"
-"SPRED2" -> "SAV1"
-"SPRED2" -> "ELL2"
-"SPRED2" -> "ZFAND3"
-"TADA2A" -> "MTF2"
-"TADA2A" -> "EZH1"
-"TADA2A" -> "PHF19"
-"TADA2A" -> "SMARCB1"
-"TMEM201" -> "UNKL"
-"TMEM201" -> "PHF19"
-"TMEM201" -> "ELL2"
-"TMEM201" -> "RAB3IP"
-"TOR1AIP1" -> "SOCS5"
-"TOR1AIP1" -> "PPM1D"
-"TOR1AIP1" -> "SOCS4"
-"TOR1AIP1" -> "SAV1"
-"UNKL" -> "RBSN"
-"UNKL" -> "TMEM201"
-"UNKL" -> "ZFAND3"
-"UNKL" -> "EZH1"
-"XRCC1" -> "PHF19"
-"XRCC1" -> "PIAS4"
-"XRCC1" -> "RNF220"
-"XRCC1" -> "DPF3"
-"ZFAND3" -> "RBSN"
-"ZFAND3" -> "RNF4"
-"ZFAND3" -> "DPF3"
-"ZFAND3" -> "AEBP2"
-"ZMYND15" -> "PARP10"
-"ZMYND15" -> "NFATC2IP"
-"ZMYND15" -> "AEBP2"
-"ZMYND15" -> "EZH1"
+"AEBP2" -> "ZFAND3" ["e"=1]
+"AEBP2" -> "DPF3" ["e"=1]
+"AEBP2" -> "MTF2" ["e"=1]
+"AEBP2" -> "BMI1" ["e"=1]
+"BMI1" -> "PIAS4" ["e"=1]
+"BMI1" -> "AEBP2" ["e"=1]
+"BMI1" -> "ZFAND3" ["e"=1]
+"BMI1" -> "DPF3" ["e"=1]
+"CCNA1" -> "CCNA2" ["e"=1]
+"CCNA1" -> "RAB3IP" ["e"=1]
+"CCNA1" -> "TOR1AIP1" ["e"=1]
+"CCNA1" -> "PPM1D" ["e"=1]
+"CCNA2" -> "CCNA1" ["e"=1]
+"CCNA2" -> "TOR1AIP1" ["e"=1]
+"CCNA2" -> "ELL2" ["e"=1]
+"CCNA2" -> "PPM1D" ["e"=1]
+"CDCA7" -> "CDCA7L" ["e"=1]
+"CDCA7" -> "MTF2" ["e"=1]
+"CDCA7" -> "PHF19" ["e"=1]
+"CDCA7" -> "DPF3" ["e"=1]
+"CDCA7L" -> "CDCA7" ["e"=1]
+"CDCA7L" -> "EZH2" ["e"=1]
+"CDCA7L" -> "DPF3" ["e"=1]
+"CDCA7L" -> "PHF19" ["e"=1]
+"CEP44" -> "SOCS4" ["e"=1]
+"CEP44" -> "BMI1" ["e"=1]
+"CEP44" -> "MDM4" ["e"=1]
+"CEP44" -> "RAB3IP" ["e"=1]
+"DCLRE1B" -> "PPM1D" ["e"=1]
+"DCLRE1B" -> "TMEM201" ["e"=1]
+"DCLRE1B" -> "ELL2" ["e"=1]
+"DCLRE1B" -> "PIAS4" ["e"=1]
+"DPF3" -> "EZH1" ["e"=1]
+"DPF3" -> "PHF19" ["e"=1]
+"DPF3" -> "PIAS4" ["e"=1]
+"DPF3" -> "EZH2" ["e"=1]
+"ELL2" -> "TMEM201" ["e"=1]
+"ELL2" -> "RAB3IP" ["e"=1]
+"ELL2" -> "RBSN" ["e"=1]
+"ELL2" -> "PIAS4" ["e"=1]
+"EZH1" -> "DPF3" ["e"=1]
+"EZH1" -> "MTF2" ["e"=1]
+"EZH1" -> "TADA2A" ["e"=1]
+"EZH1" -> "EZH2" ["e"=1]
+"EZH2" -> "EZH1" ["e"=1]
+"EZH2" -> "CDCA7L" ["e"=1]
+"EZH2" -> "DPF3" ["e"=1]
+"EZH2" -> "MTF2" ["e"=1]
+"JMJD6" -> "PPM1D" ["e"=1]
+"JMJD6" -> "MTF2" ["e"=1]
+"JMJD6" -> "PHF19" ["e"=1]
+"JMJD6" -> "EZH1" ["e"=1]
+"KIF2B" -> "EZH1" ["e"=1]
+"KIF2B" -> "PIAS4" ["e"=1]
+"KIF2B" -> "PPM1D" ["e"=1]
+"KIF2B" -> "RBSN" ["e"=1]
+"MDM2" -> "MDM4" ["e"=1]
+"MDM2" -> "RNF4" ["e"=1]
+"MDM2" -> "ZFAND3" ["e"=1]
+"MDM2" -> "RBSN" ["e"=1]
+"MDM4" -> "MDM2" ["e"=1]
+"MDM4" -> "MTF2" ["e"=1]
+"MDM4" -> "RBSN" ["e"=1]
+"MDM4" -> "EZH1" ["e"=1]
+"MFF" -> "RAB3IP" ["e"=1]
+"MFF" -> "ZFAND3" ["e"=1]
+"MFF" -> "ELL2" ["e"=1]
+"MFF" -> "RNF4" ["e"=1]
+"MTF2" -> "PHF19" ["e"=1]
+"MTF2" -> "EZH1" ["e"=1]
+"MTF2" -> "TADA2A" ["e"=1]
+"MTF2" -> "MDM4" ["e"=1]
+"NFATC2IP" -> "PPM1D" ["e"=1]
+"NFATC2IP" -> "TMEM201" ["e"=1]
+"NFATC2IP" -> "PHF19" ["e"=1]
+"NFATC2IP" -> "DPF3" ["e"=1]
+"OGFR" -> "PARP10" ["e"=1]
+"OGFR" -> "SH2B2" ["e"=1]
+"OGFR" -> "ZMYND15" ["e"=1]
+"OGFR" -> "RBSN" ["e"=1]
+"PARP10" -> "ZMYND15" ["e"=1]
+"PARP10" -> "SH2B2" ["e"=1]
+"PARP10" -> "OGFR" ["e"=1]
+"PARP10" -> "NFATC2IP" ["e"=1]
+"PHF19" -> "MTF2" ["e"=1]
+"PHF19" -> "DPF3" ["e"=1]
+"PHF19" -> "XRCC1" ["e"=1]
+"PHF19" -> "TMEM201" ["e"=1]
+"PIAS4" -> "SMARCB1" ["e"=1]
+"PIAS4" -> "DPF3" ["e"=1]
+"PIAS4" -> "EZH1" ["e"=1]
+"PIAS4" -> "BMI1" ["e"=1]
+"PPM1D" -> "JMJD6" ["e"=1]
+"PPM1D" -> "RAB3IP" ["e"=1]
+"PPM1D" -> "SOCS4" ["e"=1]
+"PPM1D" -> "DCLRE1B" ["e"=1]
+"RAB3IP" -> "RBSN" ["e"=1]
+"RAB3IP" -> "SOCS5" ["e"=1]
+"RAB3IP" -> "PPM1D" ["e"=1]
+"RAB3IP" -> "SOCS4" ["e"=1]
+"RBSN" -> "ZFAND3" ["e"=1]
+"RBSN" -> "UNKL" ["e"=1]
+"RBSN" -> "RAB3IP" ["e"=1]
+"RBSN" -> "EZH1" ["e"=1]
+"RNF220" -> "DPF3" ["e"=1]
+"RNF220" -> "RNF34" ["e"=1]
+"RNF220" -> "PIAS4" ["e"=1]
+"RNF220" -> "ZFAND3" ["e"=1]
+"RNF34" -> "RNF220" ["e"=1]
+"RNF34" -> "RNF4" ["e"=1]
+"RNF34" -> "ZFAND3" ["e"=1]
+"RNF34" -> "MDM2" ["e"=1]
+"RNF4" -> "MDM2" ["e"=1]
+"RNF4" -> "ZFAND3" ["e"=1]
+"RNF4" -> "MDM4" ["e"=1]
+"RNF4" -> "RBSN" ["e"=1]
+"RNF6" -> "SOCS5" ["e"=1]
+"RNF6" -> "MDM2" ["e"=1]
+"RNF6" -> "SAV1" ["e"=1]
+"RNF6" -> "SOCS4" ["e"=1]
+"RNPC3" -> "EZH1" ["e"=1]
+"RNPC3" -> "RAB3IP" ["e"=1]
+"RNPC3" -> "TADA2A" ["e"=1]
+"RNPC3" -> "ELL2" ["e"=1]
+"SAV1" -> "SOCS5" ["e"=1]
+"SAV1" -> "RAB3IP" ["e"=1]
+"SAV1" -> "TOR1AIP1" ["e"=1]
+"SAV1" -> "SPRED2" ["e"=1]
+"SH2B2" -> "PPM1D" ["e"=1]
+"SH2B2" -> "NFATC2IP" ["e"=1]
+"SH2B2" -> "ZMYND15" ["e"=1]
+"SH2B2" -> "PARP10" ["e"=1]
+"SMARCB1" -> "PIAS4" ["e"=1]
+"SMARCB1" -> "TADA2A" ["e"=1]
+"SMARCB1" -> "EZH1" ["e"=1]
+"SMARCB1" -> "DPF3" ["e"=1]
+"SOCS4" -> "SOCS5" ["e"=1]
+"SOCS4" -> "RAB3IP" ["e"=1]
+"SOCS4" -> "PPM1D" ["e"=1]
+"SOCS4" -> "MDM4" ["e"=1]
+"SOCS5" -> "SOCS4" ["e"=1]
+"SOCS5" -> "SAV1" ["e"=1]
+"SOCS5" -> "RAB3IP" ["e"=1]
+"SOCS5" -> "TOR1AIP1" ["e"=1]
+"SPRED2" -> "SOCS5" ["e"=1]
+"SPRED2" -> "SAV1" ["e"=1]
+"SPRED2" -> "ELL2" ["e"=1]
+"SPRED2" -> "ZFAND3" ["e"=1]
+"TADA2A" -> "MTF2" ["e"=1]
+"TADA2A" -> "EZH1" ["e"=1]
+"TADA2A" -> "PHF19" ["e"=1]
+"TADA2A" -> "SMARCB1" ["e"=1]
+"TMEM201" -> "UNKL" ["e"=1]
+"TMEM201" -> "PHF19" ["e"=1]
+"TMEM201" -> "ELL2" ["e"=1]
+"TMEM201" -> "RAB3IP" ["e"=1]
+"TOR1AIP1" -> "SOCS5" ["e"=1]
+"TOR1AIP1" -> "PPM1D" ["e"=1]
+"TOR1AIP1" -> "SOCS4" ["e"=1]
+"TOR1AIP1" -> "SAV1" ["e"=1]
+"UNKL" -> "RBSN" ["e"=1]
+"UNKL" -> "TMEM201" ["e"=1]
+"UNKL" -> "ZFAND3" ["e"=1]
+"UNKL" -> "EZH1" ["e"=1]
+"XRCC1" -> "PHF19" ["e"=1]
+"XRCC1" -> "PIAS4" ["e"=1]
+"XRCC1" -> "RNF220" ["e"=1]
+"XRCC1" -> "DPF3" ["e"=1]
+"ZFAND3" -> "RBSN" ["e"=1]
+"ZFAND3" -> "RNF4" ["e"=1]
+"ZFAND3" -> "DPF3" ["e"=1]
+"ZFAND3" -> "AEBP2" ["e"=1]
+"ZMYND15" -> "PARP10" ["e"=1]
+"ZMYND15" -> "NFATC2IP" ["e"=1]
+"ZMYND15" -> "AEBP2" ["e"=1]
+"ZMYND15" -> "EZH1" ["e"=1]
 }

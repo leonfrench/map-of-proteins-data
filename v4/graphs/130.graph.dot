@@ -17,76 +17,76 @@ digraph G {
 "SYVN1" ["l"="10.347,-2.397"]
 "XKR7" ["l"="10.265,-2.286"]
 "ZDHHC17" ["l"="10.201,-2.445"]
-"BEST3" -> "KCNK4"
-"BEST3" -> "NEMP1"
-"BEST3" -> "PLPPR4"
-"BEST3" -> "DCST2"
-"CATSPER3" -> "KCNK1"
-"CATSPER3" -> "KCNK4"
-"CATSPER3" -> "DCST2"
-"CATSPER3" -> "KCNK17"
-"DCST1" -> "DCST2"
-"DCST1" -> "OCSTAMP"
-"DCST1" -> "CATSPER3"
-"DCST1" -> "NEMP1"
-"DCST2" -> "DCST1"
-"DCST2" -> "OCSTAMP"
-"DCST2" -> "NEMP1"
-"DCST2" -> "CATSPER3"
-"KCNK1" -> "KCNK17"
-"KCNK1" -> "KCNK15"
-"KCNK1" -> "KCNK13"
-"KCNK1" -> "KCNK4"
-"KCNK13" -> "KCNK1"
-"KCNK13" -> "KCNK17"
-"KCNK13" -> "KCNK15"
-"KCNK13" -> "KCNK4"
-"KCNK15" -> "KCNK4"
-"KCNK15" -> "KCNK17"
-"KCNK15" -> "KCNK1"
-"KCNK15" -> "KCNK13"
-"KCNK16" -> "KCNK17"
-"KCNK16" -> "KCNK4"
-"KCNK16" -> "KCNK1"
-"KCNK16" -> "KCNK15"
-"KCNK17" -> "KCNK16"
-"KCNK17" -> "KCNK1"
-"KCNK17" -> "KCNK15"
-"KCNK17" -> "KCNK4"
-"KCNK4" -> "KCNK15"
-"KCNK4" -> "KCNK17"
-"KCNK4" -> "KCNK1"
-"KCNK4" -> "KCNK16"
-"KCNN4" -> "KCNK1"
-"KCNN4" -> "DCST2"
-"KCNN4" -> "CATSPER3"
-"KCNN4" -> "XKR7"
-"NEMP1" -> "DCST2"
-"NEMP1" -> "XKR7"
-"NEMP1" -> "BEST3"
-"NEMP1" -> "SYVN1"
-"OCSTAMP" -> "DCST2"
-"OCSTAMP" -> "DCST1"
-"OCSTAMP" -> "KCNK4"
-"OCSTAMP" -> "KCNK17"
-"PLPPR4" -> "BEST3"
-"PLPPR4" -> "KCNK4"
-"PLPPR4" -> "KCNK1"
-"PLPPR4" -> "KCNK13"
-"PROM1" -> "DCST1"
-"PROM1" -> "DCST2"
-"PROM1" -> "CATSPER3"
-"PROM1" -> "KCNK1"
-"SYVN1" -> "NEMP1"
-"SYVN1" -> "KCNK4"
-"SYVN1" -> "DCST2"
-"SYVN1" -> "KCNK15"
-"XKR7" -> "KCNK4"
-"XKR7" -> "KCNK15"
-"XKR7" -> "KCNK1"
-"XKR7" -> "NEMP1"
-"ZDHHC17" -> "NEMP1"
-"ZDHHC17" -> "OCSTAMP"
-"ZDHHC17" -> "DCST2"
-"ZDHHC17" -> "SYVN1"
+"BEST3" -> "KCNK4" ["e"=1]
+"BEST3" -> "NEMP1" ["e"=1]
+"BEST3" -> "PLPPR4" ["e"=1]
+"BEST3" -> "DCST2" ["e"=1]
+"CATSPER3" -> "KCNK1" ["e"=1]
+"CATSPER3" -> "KCNK4" ["e"=1]
+"CATSPER3" -> "DCST2" ["e"=1]
+"CATSPER3" -> "KCNK17" ["e"=1]
+"DCST1" -> "DCST2" ["e"=1]
+"DCST1" -> "OCSTAMP" ["e"=1]
+"DCST1" -> "CATSPER3" ["e"=1]
+"DCST1" -> "NEMP1" ["e"=1]
+"DCST2" -> "DCST1" ["e"=1]
+"DCST2" -> "OCSTAMP" ["e"=1]
+"DCST2" -> "NEMP1" ["e"=1]
+"DCST2" -> "CATSPER3" ["e"=1]
+"KCNK1" -> "KCNK17" ["e"=1]
+"KCNK1" -> "KCNK15" ["e"=1]
+"KCNK1" -> "KCNK13" ["e"=1]
+"KCNK1" -> "KCNK4" ["e"=1]
+"KCNK13" -> "KCNK1" ["e"=1]
+"KCNK13" -> "KCNK17" ["e"=1]
+"KCNK13" -> "KCNK15" ["e"=1]
+"KCNK13" -> "KCNK4" ["e"=1]
+"KCNK15" -> "KCNK4" ["e"=1]
+"KCNK15" -> "KCNK17" ["e"=1]
+"KCNK15" -> "KCNK1" ["e"=1]
+"KCNK15" -> "KCNK13" ["e"=1]
+"KCNK16" -> "KCNK17" ["e"=1]
+"KCNK16" -> "KCNK4" ["e"=1]
+"KCNK16" -> "KCNK1" ["e"=1]
+"KCNK16" -> "KCNK15" ["e"=1]
+"KCNK17" -> "KCNK16" ["e"=1]
+"KCNK17" -> "KCNK1" ["e"=1]
+"KCNK17" -> "KCNK15" ["e"=1]
+"KCNK17" -> "KCNK4" ["e"=1]
+"KCNK4" -> "KCNK15" ["e"=1]
+"KCNK4" -> "KCNK17" ["e"=1]
+"KCNK4" -> "KCNK1" ["e"=1]
+"KCNK4" -> "KCNK16" ["e"=1]
+"KCNN4" -> "KCNK1" ["e"=1]
+"KCNN4" -> "DCST2" ["e"=1]
+"KCNN4" -> "CATSPER3" ["e"=1]
+"KCNN4" -> "XKR7" ["e"=1]
+"NEMP1" -> "DCST2" ["e"=1]
+"NEMP1" -> "XKR7" ["e"=1]
+"NEMP1" -> "BEST3" ["e"=1]
+"NEMP1" -> "SYVN1" ["e"=1]
+"OCSTAMP" -> "DCST2" ["e"=1]
+"OCSTAMP" -> "DCST1" ["e"=1]
+"OCSTAMP" -> "KCNK4" ["e"=1]
+"OCSTAMP" -> "KCNK17" ["e"=1]
+"PLPPR4" -> "BEST3" ["e"=1]
+"PLPPR4" -> "KCNK4" ["e"=1]
+"PLPPR4" -> "KCNK1" ["e"=1]
+"PLPPR4" -> "KCNK13" ["e"=1]
+"PROM1" -> "DCST1" ["e"=1]
+"PROM1" -> "DCST2" ["e"=1]
+"PROM1" -> "CATSPER3" ["e"=1]
+"PROM1" -> "KCNK1" ["e"=1]
+"SYVN1" -> "NEMP1" ["e"=1]
+"SYVN1" -> "KCNK4" ["e"=1]
+"SYVN1" -> "DCST2" ["e"=1]
+"SYVN1" -> "KCNK15" ["e"=1]
+"XKR7" -> "KCNK4" ["e"=1]
+"XKR7" -> "KCNK15" ["e"=1]
+"XKR7" -> "KCNK1" ["e"=1]
+"XKR7" -> "NEMP1" ["e"=1]
+"ZDHHC17" -> "NEMP1" ["e"=1]
+"ZDHHC17" -> "OCSTAMP" ["e"=1]
+"ZDHHC17" -> "DCST2" ["e"=1]
+"ZDHHC17" -> "SYVN1" ["e"=1]
 }
