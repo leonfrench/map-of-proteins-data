@@ -1,0 +1,52 @@
+digraph G {
+"C22orf42" ["l"="5.184709,19.132145"]
+"C4orf51" ["l"="5.445292,18.473814"]
+"CGREF1" ["l"="6.666875,18.752428"]
+"CHGB" ["l"="5.443894,19.205246"]
+"DMP1" ["l"="4.801240,18.931187"]
+"DRICH1" ["l"="5.193995,19.057877"]
+"FAM153A" ["l"="5.402567,18.873976"]
+"HRC" ["l"="5.307423,18.946306"]
+"SLC24A1" ["l"="4.845126,19.283428"]
+"SPARCL1" ["l"="5.154476,19.525978"]
+"C22orf42" -> "FAM153A"
+"C22orf42" -> "DRICH1"
+"C22orf42" -> "CGREF1"
+"C22orf42" -> "C4orf51"
+"C4orf51" -> "C22orf42"
+"C4orf51" -> "FAM153A"
+"C4orf51" -> "SLC24A1"
+"C4orf51" -> "CGREF1"
+"CGREF1" -> "C22orf42"
+"CGREF1" -> "FAM153A"
+"CGREF1" -> "CHGB"
+"CGREF1" -> "SLC24A1"
+"CHGB" -> "DMP1"
+"CHGB" -> "HRC"
+"CHGB" -> "SPARCL1"
+"CHGB" -> "CGREF1"
+"DMP1" -> "CHGB"
+"DMP1" -> "HRC"
+"DMP1" -> "SPARCL1"
+"DMP1" -> "CGREF1"
+"DRICH1" -> "C22orf42"
+"DRICH1" -> "FAM153A"
+"DRICH1" -> "C4orf51"
+"DRICH1" -> "CGREF1"
+"FAM153A" -> "C22orf42"
+"FAM153A" -> "CGREF1"
+"FAM153A" -> "DRICH1"
+"FAM153A" -> "C4orf51"
+"HRC" -> "SPARCL1"
+"HRC" -> "CHGB"
+"HRC" -> "DMP1"
+"HRC" -> "CGREF1"
+"SLC24A1" -> "CGREF1"
+"SLC24A1" -> "SPARCL1"
+"SLC24A1" -> "DMP1"
+"SLC24A1" -> "C22orf42"
+"SPARCL1" -> "HRC"
+"SPARCL1" -> "DMP1"
+"SPARCL1" -> "CHGB"
+"SPARCL1" -> "CGREF1"
+}

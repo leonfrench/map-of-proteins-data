@@ -1,0 +1,302 @@
+digraph G {
+"C20orf204" ["l"="35.359756,28.262682"]
+"CLCF1" ["l"="35.413166,28.248596"]
+"CNTF" ["l"="35.609917,28.154156"]
+"CSF2" ["l"="36.095085,28.737652"]
+"CSF3" ["l"="35.380173,28.304590"]
+"CSH1" ["l"="36.772076,29.175238"]
+"CSH2" ["l"="36.997932,29.192463"]
+"CSHL1" ["l"="36.809486,29.082539"]
+"CYTL1" ["l"="35.902119,28.478107"]
+"EPO" ["l"="35.423599,28.259211"]
+"FAM180A" ["l"="35.455811,28.163893"]
+"FLT3LG" ["l"="34.956104,28.183113"]
+"GH1" ["l"="37.202873,29.311819"]
+"GH2" ["l"="36.991253,29.235392"]
+"IFNA1" ["l"="36.347309,28.991337"]
+"IFNA10" ["l"="36.771732,29.121866"]
+"IFNA13" ["l"="36.863503,29.148489"]
+"IFNA14" ["l"="36.952435,29.145056"]
+"IFNA16" ["l"="36.753426,29.134871"]
+"IFNA17" ["l"="36.291306,28.944044"]
+"IFNA2" ["l"="36.604591,28.969103"]
+"IFNA21" ["l"="36.858265,29.203894"]
+"IFNA4" ["l"="36.663872,29.101812"]
+"IFNA5" ["l"="37.134705,29.222944"]
+"IFNA6" ["l"="36.449524,29.019075"]
+"IFNA7" ["l"="37.028160,29.236881"]
+"IFNA8" ["l"="36.740444,29.150625"]
+"IFNB1" ["l"="36.920143,29.208931"]
+"IFNE" ["l"="36.791992,29.163813"]
+"IFNG" ["l"="35.557846,28.576750"]
+"IFNK" ["l"="36.688221,29.098776"]
+"IFNL1" ["l"="34.776791,27.817650"]
+"IFNL2" ["l"="35.569065,28.392174"]
+"IFNL3" ["l"="35.310173,28.285168"]
+"IFNL4" ["l"="35.336712,27.614664"]
+"IFNW1" ["l"="36.801121,29.119097"]
+"IL10" ["l"="36.274429,28.899776"]
+"IL11" ["l"="34.872883,27.897842"]
+"IL12A" ["l"="36.374889,29.019377"]
+"IL13" ["l"="36.184242,28.799049"]
+"IL19" ["l"="36.392658,29.008907"]
+"IL2" ["l"="36.201458,28.929047"]
+"IL20" ["l"="36.235596,28.809578"]
+"IL21" ["l"="35.500408,28.704536"]
+"IL22" ["l"="36.189098,28.822702"]
+"IL23A" ["l"="35.116322,28.156046"]
+"IL24" ["l"="35.819214,28.623293"]
+"IL26" ["l"="36.505779,29.041504"]
+"IL27" ["l"="35.171127,28.008913"]
+"IL3" ["l"="35.988201,28.726938"]
+"IL31" ["l"="36.523151,29.007318"]
+"IL4" ["l"="36.360909,28.963537"]
+"IL5" ["l"="36.591824,28.992201"]
+"IL6" ["l"="35.794033,28.577427"]
+"IL7" ["l"="36.641766,29.070816"]
+"IL9" ["l"="36.186012,28.903288"]
+"LEP" ["l"="36.188114,28.849360"]
+"LIF" ["l"="36.812336,28.956264"]
+"OSM" ["l"="36.272213,28.821489"]
+"PRL" ["l"="37.232906,29.347548"]
+"C20orf204" -> "IFNL4"
+"C20orf204" -> "IL11"
+"C20orf204" -> "EPO"
+"C20orf204" -> "IL3"
+"CLCF1" -> "EPO"
+"CLCF1" -> "IFNL1"
+"CLCF1" -> "OSM"
+"CLCF1" -> "IL23A"
+"CNTF" -> "IFNA5"
+"CNTF" -> "IFNA1"
+"CNTF" -> "EPO"
+"CNTF" -> "IFNA10"
+"CSF2" -> "IL3"
+"CSF2" -> "IL20"
+"CSF2" -> "IL13"
+"CSF2" -> "IL9"
+"CSF3" -> "EPO"
+"CSF3" -> "IL23A"
+"CSF3" -> "IFNL1"
+"CSF3" -> "IL6"
+"CSH1" -> "CSH2"
+"CSH1" -> "GH2"
+"CSH1" -> "GH1"
+"CSH1" -> "CSHL1"
+"CSH2" -> "CSH1"
+"CSH2" -> "GH2"
+"CSH2" -> "GH1"
+"CSH2" -> "CSHL1"
+"CSHL1" -> "IFNA1"
+"CSHL1" -> "IFNL2"
+"CSHL1" -> "IFNA21"
+"CSHL1" -> "IFNA16"
+"CYTL1" -> "CSF2"
+"CYTL1" -> "IFNL1"
+"CYTL1" -> "IFNL4"
+"CYTL1" -> "IFNL2"
+"EPO" -> "IFNL2"
+"EPO" -> "IL24"
+"EPO" -> "IFNL1"
+"EPO" -> "CLCF1"
+"FAM180A" -> "IFNA6"
+"FAM180A" -> "IFNA1"
+"FAM180A" -> "IFNA2"
+"FAM180A" -> "EPO"
+"FLT3LG" -> "IL27"
+"FLT3LG" -> "IL23A"
+"FLT3LG" -> "EPO"
+"FLT3LG" -> "IL3"
+"GH1" -> "GH2"
+"GH1" -> "CSH1"
+"GH1" -> "CSH2"
+"GH1" -> "CSHL1"
+"GH2" -> "CSH1"
+"GH2" -> "CSH2"
+"GH2" -> "GH1"
+"GH2" -> "CSHL1"
+"IFNA1" -> "IFNA4"
+"IFNA1" -> "IFNA10"
+"IFNA1" -> "IFNA21"
+"IFNA1" -> "IFNA6"
+"IFNA10" -> "IFNA1"
+"IFNA10" -> "IFNA4"
+"IFNA10" -> "IFNA6"
+"IFNA10" -> "IFNA8"
+"IFNA13" -> "IFNA6"
+"IFNA13" -> "IFNA1"
+"IFNA13" -> "IFNA7"
+"IFNA13" -> "IFNA16"
+"IFNA14" -> "IFNA5"
+"IFNA14" -> "IFNA1"
+"IFNA14" -> "IFNA17"
+"IFNA14" -> "IFNA4"
+"IFNA16" -> "IFNA8"
+"IFNA16" -> "IFNA13"
+"IFNA16" -> "IFNA7"
+"IFNA16" -> "IFNA1"
+"IFNA17" -> "IFNA6"
+"IFNA17" -> "IFNA4"
+"IFNA17" -> "IFNA14"
+"IFNA17" -> "IFNA1"
+"IFNA2" -> "IFNA6"
+"IFNA2" -> "IFNA21"
+"IFNA2" -> "IFNA4"
+"IFNA2" -> "IFNA8"
+"IFNA21" -> "IFNA6"
+"IFNA21" -> "IFNA1"
+"IFNA21" -> "IFNA7"
+"IFNA21" -> "IFNA2"
+"IFNA4" -> "IFNA1"
+"IFNA4" -> "IFNA6"
+"IFNA4" -> "IFNA8"
+"IFNA4" -> "IFNA10"
+"IFNA5" -> "IFNA14"
+"IFNA5" -> "IFNA1"
+"IFNA5" -> "IFNA6"
+"IFNA5" -> "IFNA21"
+"IFNA6" -> "IFNA13"
+"IFNA6" -> "IFNA4"
+"IFNA6" -> "IFNA21"
+"IFNA6" -> "IFNA8"
+"IFNA7" -> "IFNA8"
+"IFNA7" -> "IFNA21"
+"IFNA7" -> "IFNA13"
+"IFNA7" -> "IFNA4"
+"IFNA8" -> "IFNA6"
+"IFNA8" -> "IFNA4"
+"IFNA8" -> "IFNA7"
+"IFNA8" -> "IFNA16"
+"IFNB1" -> "IFNA7"
+"IFNB1" -> "IFNA6"
+"IFNB1" -> "IFNA21"
+"IFNB1" -> "IFNA16"
+"IFNE" -> "IFNA21"
+"IFNE" -> "IFNA6"
+"IFNE" -> "IFNA1"
+"IFNE" -> "IFNW1"
+"IFNG" -> "IL2"
+"IFNG" -> "IL21"
+"IFNG" -> "IL9"
+"IFNG" -> "IL5"
+"IFNK" -> "IFNA1"
+"IFNK" -> "IFNA6"
+"IFNK" -> "IFNA10"
+"IFNK" -> "IFNE"
+"IFNL1" -> "IFNL3"
+"IFNL1" -> "IFNL2"
+"IFNL1" -> "IFNL4"
+"IFNL1" -> "IL27"
+"IFNL2" -> "IFNL3"
+"IFNL2" -> "IFNL1"
+"IFNL2" -> "EPO"
+"IFNL2" -> "CSHL1"
+"IFNL3" -> "IFNL1"
+"IFNL3" -> "IFNL2"
+"IFNL3" -> "IL23A"
+"IFNL3" -> "IFNL4"
+"IFNL4" -> "IFNL1"
+"IFNL4" -> "IL11"
+"IFNL4" -> "EPO"
+"IFNL4" -> "IFNL3"
+"IFNW1" -> "IFNA6"
+"IFNW1" -> "IFNA1"
+"IFNW1" -> "IFNE"
+"IFNW1" -> "IFNA16"
+"IL10" -> "IL20"
+"IL10" -> "IFNA1"
+"IL10" -> "IFNA16"
+"IL10" -> "OSM"
+"IL11" -> "IFNL4"
+"IL11" -> "IL27"
+"IL11" -> "IFNL1"
+"IL11" -> "EPO"
+"IL12A" -> "IL10"
+"IL12A" -> "IL19"
+"IL12A" -> "IFNA1"
+"IL12A" -> "IL20"
+"IL13" -> "IL3"
+"IL13" -> "IL22"
+"IL13" -> "CSF2"
+"IL13" -> "IL20"
+"IL19" -> "IL20"
+"IL19" -> "IL4"
+"IL19" -> "IL31"
+"IL19" -> "IL9"
+"IL2" -> "IL5"
+"IL2" -> "IL22"
+"IL2" -> "IL4"
+"IL2" -> "IL26"
+"IL20" -> "IL10"
+"IL20" -> "IL22"
+"IL20" -> "IL24"
+"IL20" -> "IL4"
+"IL21" -> "IL5"
+"IL21" -> "IL20"
+"IL21" -> "IL24"
+"IL21" -> "IL31"
+"IL22" -> "IL20"
+"IL22" -> "IL9"
+"IL22" -> "IL13"
+"IL22" -> "IL4"
+"IL23A" -> "IL27"
+"IL23A" -> "CSF3"
+"IL23A" -> "IFNL1"
+"IL23A" -> "EPO"
+"IL24" -> "IL20"
+"IL24" -> "IL10"
+"IL24" -> "EPO"
+"IL24" -> "IL31"
+"IL26" -> "IFNA6"
+"IL26" -> "IL19"
+"IL26" -> "IL5"
+"IL26" -> "IL9"
+"IL27" -> "IFNL1"
+"IL27" -> "IL23A"
+"IL27" -> "IL11"
+"IL27" -> "CLCF1"
+"IL3" -> "IL13"
+"IL3" -> "CSF2"
+"IL3" -> "IL5"
+"IL3" -> "IL22"
+"IL31" -> "IL5"
+"IL31" -> "IL19"
+"IL31" -> "IFNA1"
+"IL31" -> "IFNA6"
+"IL4" -> "IL20"
+"IL4" -> "IL19"
+"IL4" -> "IL22"
+"IL4" -> "IL9"
+"IL5" -> "IL31"
+"IL5" -> "IL20"
+"IL5" -> "IFNA8"
+"IL5" -> "IL3"
+"IL6" -> "CSF3"
+"IL6" -> "IL20"
+"IL6" -> "LIF"
+"IL6" -> "IL10"
+"IL7" -> "IFNA16"
+"IL7" -> "IL5"
+"IL7" -> "IFNK"
+"IL7" -> "IL26"
+"IL9" -> "IL22"
+"IL9" -> "IL4"
+"IL9" -> "IL19"
+"IL9" -> "IL5"
+"LEP" -> "EPO"
+"LEP" -> "IFNA21"
+"LEP" -> "IFNA1"
+"LEP" -> "IFNE"
+"LIF" -> "IL20"
+"LIF" -> "IL5"
+"LIF" -> "IL13"
+"LIF" -> "IL10"
+"OSM" -> "IL10"
+"OSM" -> "IL20"
+"OSM" -> "CLCF1"
+"OSM" -> "IFNW1"
+"PRL" -> "IFNA10"
+"PRL" -> "IL31"
+"PRL" -> "IFNA1"
+"PRL" -> "GH2"
+}

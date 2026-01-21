@@ -1,0 +1,62 @@
+digraph G {
+"GNG11" ["l"="41.828396,17.549732"]
+"GNG12" ["l"="42.182316,17.570946"]
+"GNG13" ["l"="41.648117,17.763096"]
+"GNG14" ["l"="42.484989,17.378899"]
+"GNG2" ["l"="42.242306,17.712475"]
+"GNG3" ["l"="42.298950,17.652166"]
+"GNG4" ["l"="41.908436,17.717636"]
+"GNG7" ["l"="42.242214,17.697624"]
+"GNG8" ["l"="42.282024,17.730482"]
+"GNGT1" ["l"="41.900734,17.733961"]
+"GNGT2" ["l"="41.764538,17.908119"]
+"SERP2" ["l"="40.385273,17.634422"]
+"GNG11" -> "GNGT2"
+"GNG11" -> "GNG12"
+"GNG11" -> "GNGT1"
+"GNG11" -> "GNG13"
+"GNG12" -> "GNG2"
+"GNG12" -> "GNG4"
+"GNG12" -> "GNG7"
+"GNG12" -> "GNG11"
+"GNG13" -> "GNG14"
+"GNG13" -> "GNGT2"
+"GNG13" -> "GNG3"
+"GNG13" -> "GNGT1"
+"GNG14" -> "GNG3"
+"GNG14" -> "GNG13"
+"GNG14" -> "GNG7"
+"GNG14" -> "GNG4"
+"GNG2" -> "GNG4"
+"GNG2" -> "GNG12"
+"GNG2" -> "GNG3"
+"GNG2" -> "GNG8"
+"GNG3" -> "GNG8"
+"GNG3" -> "GNG14"
+"GNG3" -> "GNG2"
+"GNG3" -> "GNG4"
+"GNG4" -> "GNG2"
+"GNG4" -> "GNG12"
+"GNG4" -> "GNG7"
+"GNG4" -> "GNG3"
+"GNG7" -> "GNG4"
+"GNG7" -> "GNG12"
+"GNG7" -> "GNG2"
+"GNG7" -> "GNG3"
+"GNG8" -> "GNG3"
+"GNG8" -> "GNG2"
+"GNG8" -> "GNG4"
+"GNG8" -> "GNG14"
+"GNGT1" -> "GNGT2"
+"GNGT1" -> "GNG13"
+"GNGT1" -> "GNG11"
+"GNGT1" -> "GNG14"
+"GNGT2" -> "GNG11"
+"GNGT2" -> "GNG13"
+"GNGT2" -> "GNGT1"
+"GNGT2" -> "GNG14"
+"SERP2" -> "GNG4"
+"SERP2" -> "GNG3"
+"SERP2" -> "GNG2"
+"SERP2" -> "GNGT2"
+}

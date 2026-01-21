@@ -1,0 +1,87 @@
+digraph G {
+"ABHD12" ["l"="54.504623,2.405709"]
+"ACCS" ["l"="57.321251,2.159235"]
+"AGPS" ["l"="55.835075,2.632397"]
+"ASNS" ["l"="55.546803,2.370822"]
+"ASPA" ["l"="56.484982,2.015125"]
+"CIDEB" ["l"="56.066570,2.756268"]
+"DDO" ["l"="56.680969,3.840440"]
+"GALK2" ["l"="56.395073,3.875067"]
+"GPD2" ["l"="55.605728,2.741694"]
+"KIF25" ["l"="56.808777,2.349324"]
+"OSGIN1" ["l"="55.995670,3.076329"]
+"PAOX" ["l"="56.000023,3.341075"]
+"PTGR2" ["l"="54.956478,3.464866"]
+"SCRN2" ["l"="56.345146,3.629844"]
+"SPTLC1" ["l"="56.150902,2.434664"]
+"UEVLD" ["l"="55.482803,2.510809"]
+"VAT1L" ["l"="56.648048,3.877864"]
+"ABHD12" -> "AGPS"
+"ABHD12" -> "SPTLC1"
+"ABHD12" -> "ACCS"
+"ABHD12" -> "PAOX"
+"ACCS" -> "SPTLC1"
+"ACCS" -> "PAOX"
+"ACCS" -> "OSGIN1"
+"ACCS" -> "CIDEB"
+"AGPS" -> "GALK2"
+"AGPS" -> "GPD2"
+"AGPS" -> "PTGR2"
+"AGPS" -> "SPTLC1"
+"ASNS" -> "GALK2"
+"ASNS" -> "DDO"
+"ASNS" -> "GPD2"
+"ASNS" -> "AGPS"
+"ASPA" -> "AGPS"
+"ASPA" -> "DDO"
+"ASPA" -> "GALK2"
+"ASPA" -> "PAOX"
+"CIDEB" -> "DDO"
+"CIDEB" -> "GALK2"
+"CIDEB" -> "ACCS"
+"CIDEB" -> "KIF25"
+"DDO" -> "GALK2"
+"DDO" -> "PAOX"
+"DDO" -> "ASNS"
+"DDO" -> "OSGIN1"
+"GALK2" -> "DDO"
+"GALK2" -> "AGPS"
+"GALK2" -> "SPTLC1"
+"GALK2" -> "PTGR2"
+"GPD2" -> "AGPS"
+"GPD2" -> "GALK2"
+"GPD2" -> "DDO"
+"GPD2" -> "ASNS"
+"KIF25" -> "GALK2"
+"KIF25" -> "PAOX"
+"KIF25" -> "DDO"
+"KIF25" -> "CIDEB"
+"OSGIN1" -> "PAOX"
+"OSGIN1" -> "DDO"
+"OSGIN1" -> "ACCS"
+"OSGIN1" -> "ASPA"
+"PAOX" -> "DDO"
+"PAOX" -> "OSGIN1"
+"PAOX" -> "GALK2"
+"PAOX" -> "KIF25"
+"PTGR2" -> "GALK2"
+"PTGR2" -> "AGPS"
+"PTGR2" -> "VAT1L"
+"PTGR2" -> "DDO"
+"SCRN2" -> "PAOX"
+"SCRN2" -> "KIF25"
+"SCRN2" -> "DDO"
+"SCRN2" -> "CIDEB"
+"SPTLC1" -> "GALK2"
+"SPTLC1" -> "AGPS"
+"SPTLC1" -> "ACCS"
+"SPTLC1" -> "UEVLD"
+"UEVLD" -> "DDO"
+"UEVLD" -> "PTGR2"
+"UEVLD" -> "SPTLC1"
+"UEVLD" -> "GALK2"
+"VAT1L" -> "PTGR2"
+"VAT1L" -> "GALK2"
+"VAT1L" -> "SPTLC1"
+"VAT1L" -> "DDO"
+}

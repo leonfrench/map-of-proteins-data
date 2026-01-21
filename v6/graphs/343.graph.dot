@@ -1,0 +1,97 @@
+digraph G {
+"AARD" ["l"="21.341415,13.866418"]
+"BLOC1S4" ["l"="22.083553,13.147701"]
+"C2orf72" ["l"="21.915623,13.109354"]
+"C8orf82" ["l"="21.482147,13.325877"]
+"C9orf40" ["l"="20.993931,13.031861"]
+"CTF1" ["l"="21.855459,13.375580"]
+"EVPLL" ["l"="21.056850,13.050266"]
+"IFT43" ["l"="22.948378,12.581156"]
+"MSANTD4" ["l"="23.108963,12.475753"]
+"PPM1N" ["l"="22.126554,12.601288"]
+"PPP1R14A" ["l"="21.598227,13.733383"]
+"PPP1R2B" ["l"="21.393585,13.822373"]
+"RGS9BP" ["l"="21.635319,13.514310"]
+"TERF2IP" ["l"="22.097443,12.985605"]
+"TLNRD1" ["l"="21.964190,13.057930"]
+"TPGS1" ["l"="21.197083,12.920652"]
+"TSSC4" ["l"="21.319216,13.476438"]
+"TTC9B" ["l"="22.517332,12.740162"]
+"VMAC" ["l"="21.357916,13.119946"]
+"AARD" -> "CTF1"
+"AARD" -> "VMAC"
+"AARD" -> "C9orf40"
+"AARD" -> "PPM1N"
+"BLOC1S4" -> "AARD"
+"BLOC1S4" -> "TPGS1"
+"BLOC1S4" -> "CTF1"
+"BLOC1S4" -> "C9orf40"
+"C2orf72" -> "AARD"
+"C2orf72" -> "CTF1"
+"C2orf72" -> "C8orf82"
+"C2orf72" -> "C9orf40"
+"C8orf82" -> "AARD"
+"C8orf82" -> "CTF1"
+"C8orf82" -> "C2orf72"
+"C8orf82" -> "VMAC"
+"C9orf40" -> "AARD"
+"C9orf40" -> "C2orf72"
+"C9orf40" -> "C8orf82"
+"C9orf40" -> "BLOC1S4"
+"CTF1" -> "AARD"
+"CTF1" -> "VMAC"
+"CTF1" -> "PPM1N"
+"CTF1" -> "C8orf82"
+"EVPLL" -> "VMAC"
+"EVPLL" -> "AARD"
+"EVPLL" -> "RGS9BP"
+"EVPLL" -> "TERF2IP"
+"IFT43" -> "PPP1R2B"
+"IFT43" -> "TSSC4"
+"IFT43" -> "VMAC"
+"IFT43" -> "AARD"
+"MSANTD4" -> "PPP1R2B"
+"MSANTD4" -> "VMAC"
+"MSANTD4" -> "AARD"
+"MSANTD4" -> "TERF2IP"
+"PPM1N" -> "AARD"
+"PPM1N" -> "CTF1"
+"PPM1N" -> "C2orf72"
+"PPM1N" -> "VMAC"
+"PPP1R14A" -> "AARD"
+"PPP1R14A" -> "VMAC"
+"PPP1R14A" -> "C8orf82"
+"PPP1R14A" -> "PPP1R2B"
+"PPP1R2B" -> "TERF2IP"
+"PPP1R2B" -> "AARD"
+"PPP1R2B" -> "C9orf40"
+"PPP1R2B" -> "VMAC"
+"RGS9BP" -> "CTF1"
+"RGS9BP" -> "VMAC"
+"RGS9BP" -> "C2orf72"
+"RGS9BP" -> "TLNRD1"
+"TERF2IP" -> "PPP1R2B"
+"TERF2IP" -> "AARD"
+"TERF2IP" -> "C2orf72"
+"TERF2IP" -> "TPGS1"
+"TLNRD1" -> "RGS9BP"
+"TLNRD1" -> "CTF1"
+"TLNRD1" -> "AARD"
+"TLNRD1" -> "VMAC"
+"TPGS1" -> "BLOC1S4"
+"TPGS1" -> "CTF1"
+"TPGS1" -> "C2orf72"
+"TPGS1" -> "VMAC"
+"TSSC4" -> "VMAC"
+"TSSC4" -> "BLOC1S4"
+"TSSC4" -> "PPP1R2B"
+"TSSC4" -> "IFT43"
+"TTC9B" -> "AARD"
+"TTC9B" -> "VMAC"
+"TTC9B" -> "C8orf82"
+"TTC9B" -> "PPM1N"
+"VMAC" -> "AARD"
+"VMAC" -> "CTF1"
+"VMAC" -> "EVPLL"
+"VMAC" -> "C8orf82"
+}

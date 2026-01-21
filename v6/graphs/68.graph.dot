@@ -1,0 +1,102 @@
+digraph G {
+"BLK" ["l"="62.997086,36.088409"]
+"CSK" ["l"="62.752102,36.160042"]
+"FES" ["l"="61.735931,35.876274"]
+"FGR" ["l"="62.891693,36.198143"]
+"FYN" ["l"="63.056194,36.026222"]
+"HCK" ["l"="63.045204,36.147861"]
+"ITK" ["l"="62.829601,36.127640"]
+"JAK3" ["l"="62.908298,35.427162"]
+"LCK" ["l"="62.321178,36.431313"]
+"LYN" ["l"="63.428963,36.199825"]
+"MATK" ["l"="62.839523,36.088135"]
+"PTK6" ["l"="62.589901,36.082047"]
+"SRC" ["l"="62.883686,36.119965"]
+"SRMS" ["l"="61.904007,35.927574"]
+"SYK" ["l"="62.655933,36.122803"]
+"TEC" ["l"="63.127754,35.969376"]
+"TXK" ["l"="62.931183,36.048122"]
+"TYK2" ["l"="63.429928,34.922829"]
+"YES1" ["l"="63.349609,36.002865"]
+"ZAP70" ["l"="62.680943,36.175175"]
+"BLK" -> "HCK"
+"BLK" -> "PTK6"
+"BLK" -> "SRC"
+"BLK" -> "LYN"
+"CSK" -> "MATK"
+"CSK" -> "ZAP70"
+"CSK" -> "LYN"
+"CSK" -> "SRMS"
+"FES" -> "SRMS"
+"FES" -> "JAK3"
+"FES" -> "TYK2"
+"FES" -> "PTK6"
+"FGR" -> "HCK"
+"FGR" -> "SRC"
+"FGR" -> "BLK"
+"FGR" -> "LCK"
+"FYN" -> "YES1"
+"FYN" -> "LYN"
+"FYN" -> "SRMS"
+"FYN" -> "SRC"
+"HCK" -> "FGR"
+"HCK" -> "BLK"
+"HCK" -> "LYN"
+"HCK" -> "SRC"
+"ITK" -> "TXK"
+"ITK" -> "TEC"
+"ITK" -> "ZAP70"
+"ITK" -> "PTK6"
+"JAK3" -> "SRMS"
+"JAK3" -> "PTK6"
+"JAK3" -> "TYK2"
+"JAK3" -> "ITK"
+"LCK" -> "ZAP70"
+"LCK" -> "BLK"
+"LCK" -> "FGR"
+"LCK" -> "ITK"
+"LYN" -> "SRC"
+"LYN" -> "HCK"
+"LYN" -> "BLK"
+"LYN" -> "SYK"
+"MATK" -> "CSK"
+"MATK" -> "ZAP70"
+"MATK" -> "SRMS"
+"MATK" -> "BLK"
+"PTK6" -> "SRMS"
+"PTK6" -> "BLK"
+"PTK6" -> "SRC"
+"PTK6" -> "TXK"
+"SRC" -> "FGR"
+"SRC" -> "YES1"
+"SRC" -> "LYN"
+"SRC" -> "SRMS"
+"SRMS" -> "PTK6"
+"SRMS" -> "SRC"
+"SRMS" -> "BLK"
+"SRMS" -> "FYN"
+"SYK" -> "LYN"
+"SYK" -> "TEC"
+"SYK" -> "TXK"
+"SYK" -> "BLK"
+"TEC" -> "TXK"
+"TEC" -> "ITK"
+"TEC" -> "SYK"
+"TEC" -> "LYN"
+"TXK" -> "TEC"
+"TXK" -> "ITK"
+"TXK" -> "PTK6"
+"TXK" -> "BLK"
+"TYK2" -> "JAK3"
+"TYK2" -> "SRMS"
+"TYK2" -> "FES"
+"TYK2" -> "SRC"
+"YES1" -> "SRC"
+"YES1" -> "LYN"
+"YES1" -> "FYN"
+"YES1" -> "SRMS"
+"ZAP70" -> "ITK"
+"ZAP70" -> "CSK"
+"ZAP70" -> "LCK"
+"ZAP70" -> "MATK"
+}

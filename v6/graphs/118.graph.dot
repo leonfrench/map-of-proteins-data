@@ -1,0 +1,227 @@
+digraph G {
+"C1R" ["l"="68.478188,-19.114489"]
+"C1RL" ["l"="68.676483,-19.843735"]
+"C1S" ["l"="68.077950,-18.995874"]
+"C2" ["l"="68.018753,-18.875074"]
+"C6" ["l"="67.614868,-17.246628"]
+"C8A" ["l"="68.695580,-17.342850"]
+"C8B" ["l"="68.726982,-17.650240"]
+"CFB" ["l"="68.467186,-19.084951"]
+"CFI" ["l"="68.801384,-19.247377"]
+"F10" ["l"="68.721672,-19.175236"]
+"F11" ["l"="67.997475,-19.079428"]
+"F12" ["l"="68.347977,-19.181730"]
+"F2" ["l"="68.813362,-19.358999"]
+"F7" ["l"="68.677116,-19.489902"]
+"HABP2" ["l"="68.992149,-19.684938"]
+"HGF" ["l"="67.755875,-18.227230"]
+"HGFAC" ["l"="68.367531,-19.045057"]
+"HP" ["l"="69.103416,-19.634668"]
+"HPN" ["l"="68.931145,-20.235977"]
+"HPR" ["l"="69.436615,-20.044975"]
+"KLKB1" ["l"="67.760712,-18.773033"]
+"MASP1" ["l"="67.790657,-18.673067"]
+"MASP2" ["l"="68.104126,-18.587166"]
+"MST1" ["l"="67.990471,-18.921711"]
+"OVCH2" ["l"="67.303207,-19.236515"]
+"PAMR1" ["l"="67.870789,-18.497517"]
+"PLAT" ["l"="68.426292,-19.264338"]
+"PLAU" ["l"="68.507072,-19.331259"]
+"PLG" ["l"="68.191010,-19.073805"]
+"PROC" ["l"="68.624802,-19.245714"]
+"PROZ" ["l"="68.676407,-19.228786"]
+"PRSS36" ["l"="66.601654,-18.885445"]
+"PRSS53" ["l"="67.817978,-19.629965"]
+"PRSS56" ["l"="67.896553,-19.228291"]
+"ST14" ["l"="68.190353,-19.731440"]
+"TINAG" ["l"="67.865044,-18.048792"]
+"TMPRSS13" ["l"="68.731224,-20.337765"]
+"TMPRSS15" ["l"="66.213043,-18.816162"]
+"TMPRSS2" ["l"="69.343628,-20.831133"]
+"TMPRSS3" ["l"="68.704041,-20.209938"]
+"TMPRSS4" ["l"="69.506180,-20.873087"]
+"TMPRSS5" ["l"="68.388657,-19.812014"]
+"TMPRSS6" ["l"="66.801178,-18.540043"]
+"TMPRSS7" ["l"="66.481010,-18.745604"]
+"TMPRSS9" ["l"="69.148239,-20.720161"]
+"C1R" -> "C1S"
+"C1R" -> "MASP2"
+"C1R" -> "MASP1"
+"C1R" -> "HABP2"
+"C1RL" -> "F7"
+"C1RL" -> "PROZ"
+"C1RL" -> "TMPRSS4"
+"C1RL" -> "HABP2"
+"C1S" -> "C1R"
+"C1S" -> "MASP2"
+"C1S" -> "MASP1"
+"C1S" -> "CFI"
+"C2" -> "CFB"
+"C2" -> "KLKB1"
+"C2" -> "C1R"
+"C2" -> "HABP2"
+"C6" -> "C8A"
+"C6" -> "C8B"
+"C6" -> "CFI"
+"C6" -> "HABP2"
+"C8A" -> "C8B"
+"C8A" -> "C6"
+"C8A" -> "F2"
+"C8A" -> "F7"
+"C8B" -> "C8A"
+"C8B" -> "C6"
+"C8B" -> "F7"
+"C8B" -> "PROZ"
+"CFB" -> "C2"
+"CFB" -> "C1S"
+"CFB" -> "C1R"
+"CFB" -> "HABP2"
+"CFI" -> "HABP2"
+"CFI" -> "PROC"
+"CFI" -> "C6"
+"CFI" -> "PROZ"
+"F10" -> "F7"
+"F10" -> "PROC"
+"F10" -> "F2"
+"F10" -> "PROZ"
+"F11" -> "KLKB1"
+"F11" -> "MASP2"
+"F11" -> "TMPRSS7"
+"F11" -> "HABP2"
+"F12" -> "HGFAC"
+"F12" -> "PROC"
+"F12" -> "F7"
+"F12" -> "PLG"
+"F2" -> "PROC"
+"F2" -> "F7"
+"F2" -> "HABP2"
+"F2" -> "F10"
+"F7" -> "HABP2"
+"F7" -> "PROC"
+"F7" -> "F2"
+"F7" -> "F10"
+"HABP2" -> "F7"
+"HABP2" -> "F2"
+"HABP2" -> "PLAT"
+"HABP2" -> "PLAU"
+"HGF" -> "PLG"
+"HGF" -> "PLAT"
+"HGF" -> "PLAU"
+"HGF" -> "KLKB1"
+"HGFAC" -> "F12"
+"HGFAC" -> "MST1"
+"HGFAC" -> "PROC"
+"HGFAC" -> "F7"
+"HP" -> "HPR"
+"HP" -> "C1RL"
+"HP" -> "HABP2"
+"HP" -> "C1R"
+"HPN" -> "TMPRSS5"
+"HPN" -> "TMPRSS3"
+"HPN" -> "TMPRSS4"
+"HPN" -> "TMPRSS6"
+"HPR" -> "HP"
+"HPR" -> "PROZ"
+"HPR" -> "C1RL"
+"HPR" -> "CFI"
+"KLKB1" -> "F11"
+"KLKB1" -> "HABP2"
+"KLKB1" -> "PLG"
+"KLKB1" -> "MASP2"
+"MASP1" -> "MASP2"
+"MASP1" -> "F7"
+"MASP1" -> "F11"
+"MASP1" -> "C1R"
+"MASP2" -> "MASP1"
+"MASP2" -> "F11"
+"MASP2" -> "C1S"
+"MASP2" -> "KLKB1"
+"MST1" -> "PLG"
+"MST1" -> "HGFAC"
+"MST1" -> "F2"
+"MST1" -> "F12"
+"OVCH2" -> "KLKB1"
+"OVCH2" -> "TMPRSS15"
+"OVCH2" -> "F11"
+"OVCH2" -> "TMPRSS6"
+"PAMR1" -> "PLAT"
+"PAMR1" -> "F10"
+"PAMR1" -> "PROC"
+"PAMR1" -> "PROZ"
+"PLAT" -> "PLAU"
+"PLAT" -> "HABP2"
+"PLAT" -> "PAMR1"
+"PLAT" -> "HGF"
+"PLAU" -> "PLAT"
+"PLAU" -> "HABP2"
+"PLAU" -> "F7"
+"PLAU" -> "HGF"
+"PLG" -> "MST1"
+"PLG" -> "F2"
+"PLG" -> "KLKB1"
+"PLG" -> "HABP2"
+"PROC" -> "F7"
+"PROC" -> "PROZ"
+"PROC" -> "F2"
+"PROC" -> "F10"
+"PROZ" -> "PROC"
+"PROZ" -> "F7"
+"PROZ" -> "F10"
+"PROZ" -> "C1RL"
+"PRSS36" -> "PRSS53"
+"PRSS36" -> "PRSS56"
+"PRSS36" -> "TMPRSS5"
+"PRSS36" -> "C1RL"
+"PRSS53" -> "PRSS36"
+"PRSS53" -> "TMPRSS5"
+"PRSS53" -> "PRSS56"
+"PRSS53" -> "C1RL"
+"PRSS56" -> "PRSS36"
+"PRSS56" -> "PRSS53"
+"PRSS56" -> "TMPRSS5"
+"PRSS56" -> "F7"
+"ST14" -> "TMPRSS2"
+"ST14" -> "TMPRSS4"
+"ST14" -> "TMPRSS3"
+"ST14" -> "TMPRSS7"
+"TINAG" -> "HGF"
+"TINAG" -> "F11"
+"TINAG" -> "KLKB1"
+"TINAG" -> "PLG"
+"TMPRSS13" -> "TMPRSS3"
+"TMPRSS13" -> "TMPRSS5"
+"TMPRSS13" -> "TMPRSS6"
+"TMPRSS13" -> "TMPRSS7"
+"TMPRSS15" -> "OVCH2"
+"TMPRSS15" -> "TMPRSS7"
+"TMPRSS15" -> "TMPRSS3"
+"TMPRSS15" -> "F11"
+"TMPRSS2" -> "TMPRSS4"
+"TMPRSS2" -> "TMPRSS3"
+"TMPRSS2" -> "TMPRSS13"
+"TMPRSS2" -> "ST14"
+"TMPRSS3" -> "TMPRSS5"
+"TMPRSS3" -> "TMPRSS13"
+"TMPRSS3" -> "TMPRSS6"
+"TMPRSS3" -> "HPN"
+"TMPRSS4" -> "TMPRSS2"
+"TMPRSS4" -> "TMPRSS3"
+"TMPRSS4" -> "TMPRSS5"
+"TMPRSS4" -> "HPN"
+"TMPRSS5" -> "TMPRSS3"
+"TMPRSS5" -> "HPN"
+"TMPRSS5" -> "PRSS53"
+"TMPRSS5" -> "TMPRSS6"
+"TMPRSS6" -> "F7"
+"TMPRSS6" -> "TMPRSS7"
+"TMPRSS6" -> "TMPRSS3"
+"TMPRSS6" -> "TMPRSS5"
+"TMPRSS7" -> "TMPRSS6"
+"TMPRSS7" -> "TMPRSS3"
+"TMPRSS7" -> "TMPRSS13"
+"TMPRSS7" -> "F11"
+"TMPRSS9" -> "F7"
+"TMPRSS9" -> "TMPRSS6"
+"TMPRSS9" -> "MASP2"
+"TMPRSS9" -> "TMPRSS5"
+}
