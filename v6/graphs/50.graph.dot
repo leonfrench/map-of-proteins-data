@@ -1,82 +1,82 @@
 digraph G {
-"AQP1" ["l"="-29.209347,-17.915613"]
-"AQP10" ["l"="-28.884384,-18.101446"]
-"AQP2" ["l"="-28.752050,-18.108694"]
-"AQP3" ["l"="-28.607597,-17.708982"]
-"AQP4" ["l"="-28.874907,-18.368504"]
-"AQP5" ["l"="-28.803448,-18.428167"]
-"AQP6" ["l"="-28.710218,-18.131565"]
-"AQP7" ["l"="-28.693972,-18.166237"]
-"AQP8" ["l"="-28.695265,-18.163174"]
-"AQP9" ["l"="-28.669140,-18.146982"]
-"MIP" ["l"="-28.755413,-18.489958"]
-"RHAG" ["l"="-28.333979,-18.216867"]
-"RHBG" ["l"="-28.161276,-18.212370"]
-"RHCE" ["l"="-28.229578,-18.230572"]
-"RHCG" ["l"="-28.144352,-18.241747"]
-"RHD" ["l"="-28.108349,-18.268845"]
-"AQP1" -> "AQP4"
-"AQP1" -> "MIP"
-"AQP1" -> "AQP6"
-"AQP1" -> "AQP5"
-"AQP10" -> "MIP"
-"AQP10" -> "AQP7"
-"AQP10" -> "AQP6"
-"AQP10" -> "AQP9"
-"AQP2" -> "MIP"
-"AQP2" -> "AQP6"
-"AQP2" -> "AQP5"
-"AQP2" -> "AQP10"
-"AQP3" -> "AQP5"
-"AQP3" -> "MIP"
-"AQP3" -> "AQP9"
-"AQP3" -> "AQP10"
-"AQP4" -> "AQP1"
-"AQP4" -> "AQP6"
-"AQP4" -> "MIP"
-"AQP4" -> "AQP9"
-"AQP5" -> "AQP6"
-"AQP5" -> "MIP"
-"AQP5" -> "AQP2"
-"AQP5" -> "AQP3"
-"AQP6" -> "MIP"
-"AQP6" -> "AQP5"
-"AQP6" -> "AQP2"
-"AQP6" -> "AQP4"
-"AQP7" -> "AQP10"
-"AQP7" -> "MIP"
-"AQP7" -> "AQP6"
-"AQP7" -> "AQP9"
-"AQP8" -> "AQP5"
-"AQP8" -> "AQP6"
-"AQP8" -> "AQP2"
-"AQP8" -> "AQP1"
-"AQP9" -> "AQP10"
-"AQP9" -> "AQP4"
-"AQP9" -> "MIP"
-"AQP9" -> "AQP3"
-"MIP" -> "AQP6"
-"MIP" -> "AQP2"
-"MIP" -> "AQP10"
-"MIP" -> "AQP5"
-"RHAG" -> "RHD"
-"RHAG" -> "RHCE"
-"RHAG" -> "RHCG"
-"RHAG" -> "RHBG"
-"RHBG" -> "RHCG"
-"RHBG" -> "RHD"
-"RHBG" -> "AQP6"
-"RHBG" -> "RHCE"
-"RHCE" -> "RHD"
-"RHCE" -> "RHAG"
-"RHCE" -> "RHCG"
-"RHCE" -> "RHBG"
-"RHCG" -> "RHBG"
-"RHCG" -> "RHAG"
-"RHCG" -> "AQP6"
-"RHCG" -> "RHCE"
-"RHD" -> "RHCE"
-"RHD" -> "RHAG"
-"RHD" -> "RHBG"
-"RHD" -> "RHCG"
+"AQP1" -> "AQP4";
+"AQP1" -> "MIP";
+"AQP1" -> "AQP6";
+"AQP1" -> "AQP5";
+"AQP10" -> "MIP";
+"AQP10" -> "AQP7";
+"AQP10" -> "AQP6";
+"AQP10" -> "AQP9";
+"AQP2" -> "MIP";
+"AQP2" -> "AQP6";
+"AQP2" -> "AQP5";
+"AQP2" -> "AQP10";
+"AQP3" -> "AQP5";
+"AQP3" -> "MIP";
+"AQP3" -> "AQP9";
+"AQP3" -> "AQP10";
+"AQP4" -> "AQP1";
+"AQP4" -> "AQP6";
+"AQP4" -> "MIP";
+"AQP4" -> "AQP9";
+"AQP5" -> "AQP6";
+"AQP5" -> "MIP";
+"AQP5" -> "AQP2";
+"AQP5" -> "AQP3";
+"AQP6" -> "MIP";
+"AQP6" -> "AQP5";
+"AQP6" -> "AQP2";
+"AQP6" -> "AQP4";
+"AQP7" -> "AQP10";
+"AQP7" -> "MIP";
+"AQP7" -> "AQP6";
+"AQP7" -> "AQP9";
+"AQP8" -> "AQP5";
+"AQP8" -> "AQP6";
+"AQP8" -> "AQP2";
+"AQP8" -> "AQP1";
+"AQP9" -> "AQP10";
+"AQP9" -> "AQP4";
+"AQP9" -> "MIP";
+"AQP9" -> "AQP3";
+"MIP" -> "AQP6";
+"MIP" -> "AQP2";
+"MIP" -> "AQP10";
+"MIP" -> "AQP5";
+"RHAG" -> "RHD";
+"RHAG" -> "RHCE";
+"RHAG" -> "RHCG";
+"RHAG" -> "RHBG";
+"RHBG" -> "RHCG";
+"RHBG" -> "RHD";
+"RHBG" -> "AQP6";
+"RHBG" -> "RHCE";
+"RHCE" -> "RHD";
+"RHCE" -> "RHAG";
+"RHCE" -> "RHCG";
+"RHCE" -> "RHBG";
+"RHCG" -> "RHBG";
+"RHCG" -> "RHAG";
+"RHCG" -> "AQP6";
+"RHCG" -> "RHCE";
+"RHD" -> "RHCE";
+"RHD" -> "RHAG";
+"RHD" -> "RHBG";
+"RHD" -> "RHCG";
+"AQP1" ["l"="-29.209347,-17.915613"];
+"AQP10" ["l"="-28.884384,-18.101446"];
+"AQP2" ["l"="-28.752050,-18.108694"];
+"AQP3" ["l"="-28.607597,-17.708982"];
+"AQP4" ["l"="-28.874907,-18.368504"];
+"AQP5" ["l"="-28.803448,-18.428167"];
+"AQP6" ["l"="-28.710218,-18.131565"];
+"AQP7" ["l"="-28.693972,-18.166237"];
+"AQP8" ["l"="-28.695265,-18.163174"];
+"AQP9" ["l"="-28.669140,-18.146982"];
+"MIP" ["l"="-28.755413,-18.489958"];
+"RHAG" ["l"="-28.333979,-18.216867"];
+"RHBG" ["l"="-28.161276,-18.212370"];
+"RHCE" ["l"="-28.229578,-18.230572"];
+"RHCG" ["l"="-28.144352,-18.241747"];
+"RHD" ["l"="-28.108349,-18.268845"];
 }

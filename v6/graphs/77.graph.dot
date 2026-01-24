@@ -1,52 +1,52 @@
 digraph G {
-"CCT2" ["l"="75.286026,8.862017"]
-"CCT3" ["l"="75.853134,9.273460"]
-"CCT4" ["l"="75.433434,8.904276"]
-"CCT5" ["l"="75.690880,8.782187"]
-"CCT6A" ["l"="75.309059,8.933541"]
-"CCT6B" ["l"="75.271370,8.892059"]
-"CCT7" ["l"="75.610069,8.945567"]
-"CCT8" ["l"="76.098801,9.100800"]
-"HSPD1" ["l"="75.846802,8.942361"]
-"TCP1" ["l"="75.469467,9.282673"]
-"CCT2" -> "CCT6A"
-"CCT2" -> "CCT5"
-"CCT2" -> "CCT7"
-"CCT2" -> "CCT4"
-"CCT3" -> "CCT4"
-"CCT3" -> "CCT7"
-"CCT3" -> "CCT2"
-"CCT3" -> "CCT5"
-"CCT4" -> "TCP1"
-"CCT4" -> "CCT5"
-"CCT4" -> "CCT3"
-"CCT4" -> "CCT2"
-"CCT5" -> "CCT6A"
-"CCT5" -> "CCT8"
-"CCT5" -> "CCT7"
-"CCT5" -> "CCT4"
-"CCT6A" -> "CCT5"
-"CCT6A" -> "CCT2"
-"CCT6A" -> "CCT4"
-"CCT6A" -> "TCP1"
-"CCT6B" -> "CCT6A"
-"CCT6B" -> "CCT2"
-"CCT6B" -> "CCT5"
-"CCT6B" -> "TCP1"
-"CCT7" -> "CCT5"
-"CCT7" -> "CCT3"
-"CCT7" -> "CCT2"
-"CCT7" -> "CCT4"
-"CCT8" -> "CCT5"
-"CCT8" -> "CCT4"
-"CCT8" -> "CCT2"
-"CCT8" -> "TCP1"
-"HSPD1" -> "CCT2"
-"HSPD1" -> "TCP1"
-"HSPD1" -> "CCT6A"
-"HSPD1" -> "CCT5"
-"TCP1" -> "CCT4"
-"TCP1" -> "CCT5"
-"TCP1" -> "CCT2"
-"TCP1" -> "CCT8"
+"CCT2" -> "CCT6A";
+"CCT2" -> "CCT5";
+"CCT2" -> "CCT7";
+"CCT2" -> "CCT4";
+"CCT3" -> "CCT4";
+"CCT3" -> "CCT7";
+"CCT3" -> "CCT2";
+"CCT3" -> "CCT5";
+"CCT4" -> "TCP1";
+"CCT4" -> "CCT5";
+"CCT4" -> "CCT3";
+"CCT4" -> "CCT2";
+"CCT5" -> "CCT6A";
+"CCT5" -> "CCT8";
+"CCT5" -> "CCT7";
+"CCT5" -> "CCT4";
+"CCT6A" -> "CCT5";
+"CCT6A" -> "CCT2";
+"CCT6A" -> "CCT4";
+"CCT6A" -> "TCP1";
+"CCT6B" -> "CCT6A";
+"CCT6B" -> "CCT2";
+"CCT6B" -> "CCT5";
+"CCT6B" -> "TCP1";
+"CCT7" -> "CCT5";
+"CCT7" -> "CCT3";
+"CCT7" -> "CCT2";
+"CCT7" -> "CCT4";
+"CCT8" -> "CCT5";
+"CCT8" -> "CCT4";
+"CCT8" -> "CCT2";
+"CCT8" -> "TCP1";
+"HSPD1" -> "CCT2";
+"HSPD1" -> "TCP1";
+"HSPD1" -> "CCT6A";
+"HSPD1" -> "CCT5";
+"TCP1" -> "CCT4";
+"TCP1" -> "CCT5";
+"TCP1" -> "CCT2";
+"TCP1" -> "CCT8";
+"CCT2" ["l"="75.286026,8.862017"];
+"CCT3" ["l"="75.853134,9.273460"];
+"CCT4" ["l"="75.433434,8.904276"];
+"CCT5" ["l"="75.690880,8.782187"];
+"CCT6A" ["l"="75.309059,8.933541"];
+"CCT6B" ["l"="75.271370,8.892059"];
+"CCT7" ["l"="75.610069,8.945567"];
+"CCT8" ["l"="76.098801,9.100800"];
+"HSPD1" ["l"="75.846802,8.942361"];
+"TCP1" ["l"="75.469467,9.282673"];
 }

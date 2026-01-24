@@ -1,47 +1,47 @@
 digraph G {
-"CSN1S1" ["l"="5.612353,23.477060"]
-"CSN2" ["l"="5.102979,23.292206"]
-"CSN3" ["l"="4.915209,23.369543"]
-"FDCSP" ["l"="4.629787,23.333624"]
-"HTN1" ["l"="5.482767,23.616531"]
-"HTN3" ["l"="5.694551,23.624840"]
-"MUC7" ["l"="5.041866,23.918175"]
-"OPRPN" ["l"="4.586838,23.366810"]
-"STATH" ["l"="5.053039,23.447477"]
-"CSN1S1" -> "CSN2"
-"CSN1S1" -> "HTN1"
-"CSN1S1" -> "HTN3"
-"CSN1S1" -> "FDCSP"
-"CSN2" -> "CSN1S1"
-"CSN2" -> "CSN3"
-"CSN2" -> "FDCSP"
-"CSN2" -> "STATH"
-"CSN3" -> "CSN2"
-"CSN3" -> "OPRPN"
-"CSN3" -> "MUC7"
-"CSN3" -> "FDCSP"
-"FDCSP" -> "STATH"
-"FDCSP" -> "HTN1"
-"FDCSP" -> "OPRPN"
-"FDCSP" -> "CSN2"
-"HTN1" -> "HTN3"
-"HTN1" -> "STATH"
-"HTN1" -> "FDCSP"
-"HTN1" -> "CSN1S1"
-"HTN3" -> "HTN1"
-"HTN3" -> "STATH"
-"HTN3" -> "FDCSP"
-"HTN3" -> "CSN1S1"
-"MUC7" -> "OPRPN"
-"MUC7" -> "CSN3"
-"MUC7" -> "FDCSP"
-"MUC7" -> "CSN2"
-"OPRPN" -> "MUC7"
-"OPRPN" -> "CSN3"
-"OPRPN" -> "FDCSP"
-"OPRPN" -> "STATH"
-"STATH" -> "HTN1"
-"STATH" -> "HTN3"
-"STATH" -> "FDCSP"
-"STATH" -> "CSN2"
+"CSN1S1" -> "CSN2";
+"CSN1S1" -> "HTN1";
+"CSN1S1" -> "HTN3";
+"CSN1S1" -> "FDCSP";
+"CSN2" -> "CSN1S1";
+"CSN2" -> "CSN3";
+"CSN2" -> "FDCSP";
+"CSN2" -> "STATH";
+"CSN3" -> "CSN2";
+"CSN3" -> "OPRPN";
+"CSN3" -> "MUC7";
+"CSN3" -> "FDCSP";
+"FDCSP" -> "STATH";
+"FDCSP" -> "HTN1";
+"FDCSP" -> "OPRPN";
+"FDCSP" -> "CSN2";
+"HTN1" -> "HTN3";
+"HTN1" -> "STATH";
+"HTN1" -> "FDCSP";
+"HTN1" -> "CSN1S1";
+"HTN3" -> "HTN1";
+"HTN3" -> "STATH";
+"HTN3" -> "FDCSP";
+"HTN3" -> "CSN1S1";
+"MUC7" -> "OPRPN";
+"MUC7" -> "CSN3";
+"MUC7" -> "FDCSP";
+"MUC7" -> "CSN2";
+"OPRPN" -> "MUC7";
+"OPRPN" -> "CSN3";
+"OPRPN" -> "FDCSP";
+"OPRPN" -> "STATH";
+"STATH" -> "HTN1";
+"STATH" -> "HTN3";
+"STATH" -> "FDCSP";
+"STATH" -> "CSN2";
+"CSN1S1" ["l"="5.612353,23.477060"];
+"CSN2" ["l"="5.102979,23.292206"];
+"CSN3" ["l"="4.915209,23.369543"];
+"FDCSP" ["l"="4.629787,23.333624"];
+"HTN1" ["l"="5.482767,23.616531"];
+"HTN3" ["l"="5.694551,23.624840"];
+"MUC7" ["l"="5.041866,23.918175"];
+"OPRPN" ["l"="4.586838,23.366810"];
+"STATH" ["l"="5.053039,23.447477"];
 }

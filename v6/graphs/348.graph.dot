@@ -1,97 +1,97 @@
 digraph G {
-"ACOT1" ["l"="58.204056,1.970667"]
-"ACOT11" ["l"="57.468697,3.442727"]
-"ACOT2" ["l"="58.724575,1.960905"]
-"ACOT4" ["l"="58.352135,2.174466"]
-"ASPG" ["l"="58.372551,3.022184"]
-"AZIN1" ["l"="57.637894,3.147377"]
-"CYB5R2" ["l"="58.218948,3.632706"]
-"CYB5R3" ["l"="58.021111,2.713042"]
-"DAO" ["l"="58.466366,3.675790"]
-"ESD" ["l"="57.907791,3.519136"]
-"IDO1" ["l"="57.163174,3.137691"]
-"IDO2" ["l"="57.837353,3.907145"]
-"PGM3" ["l"="58.269772,3.017655"]
-"PYROXD2" ["l"="58.472012,2.920313"]
-"SIGMAR1" ["l"="58.992966,1.926357"]
-"SPHK1" ["l"="57.918133,1.896336"]
-"SPR" ["l"="58.052731,3.758348"]
-"UAP1" ["l"="58.227890,3.338947"]
-"UXS1" ["l"="58.388409,3.186162"]
-"ACOT1" -> "ACOT2"
-"ACOT1" -> "ACOT4"
-"ACOT1" -> "SPR"
-"ACOT1" -> "DAO"
-"ACOT11" -> "PYROXD2"
-"ACOT11" -> "DAO"
-"ACOT11" -> "ASPG"
-"ACOT11" -> "IDO2"
-"ACOT2" -> "ACOT1"
-"ACOT2" -> "ACOT4"
-"ACOT2" -> "SPR"
-"ACOT2" -> "PYROXD2"
-"ACOT4" -> "ACOT1"
-"ACOT4" -> "ACOT2"
-"ACOT4" -> "SPR"
-"ACOT4" -> "DAO"
-"ASPG" -> "PYROXD2"
-"ASPG" -> "SPHK1"
-"ASPG" -> "DAO"
-"ASPG" -> "IDO2"
-"AZIN1" -> "UAP1"
-"AZIN1" -> "PGM3"
-"AZIN1" -> "IDO2"
-"AZIN1" -> "IDO1"
-"CYB5R2" -> "CYB5R3"
-"CYB5R2" -> "DAO"
-"CYB5R2" -> "PYROXD2"
-"CYB5R2" -> "SPHK1"
-"CYB5R3" -> "CYB5R2"
-"CYB5R3" -> "SIGMAR1"
-"CYB5R3" -> "DAO"
-"CYB5R3" -> "PYROXD2"
-"DAO" -> "PYROXD2"
-"DAO" -> "ASPG"
-"DAO" -> "SPHK1"
-"DAO" -> "ACOT1"
-"ESD" -> "DAO"
-"ESD" -> "CYB5R3"
-"ESD" -> "ACOT1"
-"ESD" -> "ACOT2"
-"IDO1" -> "IDO2"
-"IDO1" -> "UAP1"
-"IDO1" -> "AZIN1"
-"IDO1" -> "ACOT11"
-"IDO2" -> "IDO1"
-"IDO2" -> "ASPG"
-"IDO2" -> "PYROXD2"
-"IDO2" -> "AZIN1"
-"PGM3" -> "UAP1"
-"PGM3" -> "AZIN1"
-"PGM3" -> "DAO"
-"PGM3" -> "PYROXD2"
-"PYROXD2" -> "DAO"
-"PYROXD2" -> "ASPG"
-"PYROXD2" -> "ACOT11"
-"PYROXD2" -> "SPHK1"
-"SIGMAR1" -> "SPR"
-"SIGMAR1" -> "CYB5R3"
-"SIGMAR1" -> "SPHK1"
-"SIGMAR1" -> "DAO"
-"SPHK1" -> "ASPG"
-"SPHK1" -> "DAO"
-"SPHK1" -> "SPR"
-"SPHK1" -> "PYROXD2"
-"SPR" -> "ACOT2"
-"SPR" -> "ACOT1"
-"SPR" -> "SPHK1"
-"SPR" -> "SIGMAR1"
-"UAP1" -> "PGM3"
-"UAP1" -> "AZIN1"
-"UAP1" -> "IDO1"
-"UAP1" -> "DAO"
-"UXS1" -> "DAO"
-"UXS1" -> "CYB5R3"
-"UXS1" -> "PGM3"
-"UXS1" -> "UAP1"
+"ACOT1" -> "ACOT2";
+"ACOT1" -> "ACOT4";
+"ACOT1" -> "SPR";
+"ACOT1" -> "DAO";
+"ACOT11" -> "PYROXD2";
+"ACOT11" -> "DAO";
+"ACOT11" -> "ASPG";
+"ACOT11" -> "IDO2";
+"ACOT2" -> "ACOT1";
+"ACOT2" -> "ACOT4";
+"ACOT2" -> "SPR";
+"ACOT2" -> "PYROXD2";
+"ACOT4" -> "ACOT1";
+"ACOT4" -> "ACOT2";
+"ACOT4" -> "SPR";
+"ACOT4" -> "DAO";
+"ASPG" -> "PYROXD2";
+"ASPG" -> "SPHK1";
+"ASPG" -> "DAO";
+"ASPG" -> "IDO2";
+"AZIN1" -> "UAP1";
+"AZIN1" -> "PGM3";
+"AZIN1" -> "IDO2";
+"AZIN1" -> "IDO1";
+"CYB5R2" -> "CYB5R3";
+"CYB5R2" -> "DAO";
+"CYB5R2" -> "PYROXD2";
+"CYB5R2" -> "SPHK1";
+"CYB5R3" -> "CYB5R2";
+"CYB5R3" -> "SIGMAR1";
+"CYB5R3" -> "DAO";
+"CYB5R3" -> "PYROXD2";
+"DAO" -> "PYROXD2";
+"DAO" -> "ASPG";
+"DAO" -> "SPHK1";
+"DAO" -> "ACOT1";
+"ESD" -> "DAO";
+"ESD" -> "CYB5R3";
+"ESD" -> "ACOT1";
+"ESD" -> "ACOT2";
+"IDO1" -> "IDO2";
+"IDO1" -> "UAP1";
+"IDO1" -> "AZIN1";
+"IDO1" -> "ACOT11";
+"IDO2" -> "IDO1";
+"IDO2" -> "ASPG";
+"IDO2" -> "PYROXD2";
+"IDO2" -> "AZIN1";
+"PGM3" -> "UAP1";
+"PGM3" -> "AZIN1";
+"PGM3" -> "DAO";
+"PGM3" -> "PYROXD2";
+"PYROXD2" -> "DAO";
+"PYROXD2" -> "ASPG";
+"PYROXD2" -> "ACOT11";
+"PYROXD2" -> "SPHK1";
+"SIGMAR1" -> "SPR";
+"SIGMAR1" -> "CYB5R3";
+"SIGMAR1" -> "SPHK1";
+"SIGMAR1" -> "DAO";
+"SPHK1" -> "ASPG";
+"SPHK1" -> "DAO";
+"SPHK1" -> "SPR";
+"SPHK1" -> "PYROXD2";
+"SPR" -> "ACOT2";
+"SPR" -> "ACOT1";
+"SPR" -> "SPHK1";
+"SPR" -> "SIGMAR1";
+"UAP1" -> "PGM3";
+"UAP1" -> "AZIN1";
+"UAP1" -> "IDO1";
+"UAP1" -> "DAO";
+"UXS1" -> "DAO";
+"UXS1" -> "CYB5R3";
+"UXS1" -> "PGM3";
+"UXS1" -> "UAP1";
+"ACOT1" ["l"="58.204056,1.970667"];
+"ACOT11" ["l"="57.468697,3.442727"];
+"ACOT2" ["l"="58.724575,1.960905"];
+"ACOT4" ["l"="58.352135,2.174466"];
+"ASPG" ["l"="58.372551,3.022184"];
+"AZIN1" ["l"="57.637894,3.147377"];
+"CYB5R2" ["l"="58.218948,3.632706"];
+"CYB5R3" ["l"="58.021111,2.713042"];
+"DAO" ["l"="58.466366,3.675790"];
+"ESD" ["l"="57.907791,3.519136"];
+"IDO1" ["l"="57.163174,3.137691"];
+"IDO2" ["l"="57.837353,3.907145"];
+"PGM3" ["l"="58.269772,3.017655"];
+"PYROXD2" ["l"="58.472012,2.920313"];
+"SIGMAR1" ["l"="58.992966,1.926357"];
+"SPHK1" ["l"="57.918133,1.896336"];
+"SPR" ["l"="58.052731,3.758348"];
+"UAP1" ["l"="58.227890,3.338947"];
+"UXS1" ["l"="58.388409,3.186162"];
 }

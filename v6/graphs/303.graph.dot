@@ -1,72 +1,72 @@
 digraph G {
-"BBS2" ["l"="31.129810,-2.290118"]
-"BBS7" ["l"="30.882168,-1.604689"]
-"BRAT1" ["l"="30.368032,-2.611688"]
-"BZW2" ["l"="30.777168,-1.487259"]
-"CTC1" ["l"="30.730131,-1.530710"]
-"CUL4A" ["l"="30.412544,-1.803308"]
-"DNAAF5" ["l"="31.339359,-2.108717"]
-"GET4" ["l"="31.241629,-2.949222"]
-"HERC3" ["l"="30.101830,-2.029776"]
-"HERC5" ["l"="30.993734,-1.886112"]
-"HERC6" ["l"="30.987654,-2.047768"]
-"ORC4" ["l"="30.381645,-1.831826"]
-"RMC1" ["l"="30.682974,-2.799720"]
-"RPAP1" ["l"="30.389137,-2.752767"]
-"BBS2" -> "BBS7"
-"BBS2" -> "HERC3"
-"BBS2" -> "RMC1"
-"BBS2" -> "HERC6"
-"BBS7" -> "BBS2"
-"BBS7" -> "HERC3"
-"BBS7" -> "RMC1"
-"BBS7" -> "ORC4"
-"BRAT1" -> "RPAP1"
-"BRAT1" -> "DNAAF5"
-"BRAT1" -> "CTC1"
-"BRAT1" -> "GET4"
-"BZW2" -> "CUL4A"
-"BZW2" -> "DNAAF5"
-"BZW2" -> "BRAT1"
-"BZW2" -> "ORC4"
-"CTC1" -> "RPAP1"
-"CTC1" -> "BRAT1"
-"CTC1" -> "ORC4"
-"CTC1" -> "HERC6"
-"CUL4A" -> "ORC4"
-"CUL4A" -> "GET4"
-"CUL4A" -> "BZW2"
-"CUL4A" -> "HERC6"
-"DNAAF5" -> "BRAT1"
-"DNAAF5" -> "RPAP1"
-"DNAAF5" -> "CUL4A"
-"DNAAF5" -> "GET4"
-"GET4" -> "CUL4A"
-"GET4" -> "ORC4"
-"GET4" -> "DNAAF5"
-"GET4" -> "RMC1"
-"HERC3" -> "HERC6"
-"HERC3" -> "HERC5"
-"HERC3" -> "BBS2"
-"HERC3" -> "BBS7"
-"HERC5" -> "HERC6"
-"HERC5" -> "HERC3"
-"HERC5" -> "BBS7"
-"HERC5" -> "BBS2"
-"HERC6" -> "HERC5"
-"HERC6" -> "HERC3"
-"HERC6" -> "CUL4A"
-"HERC6" -> "BBS2"
-"ORC4" -> "CUL4A"
-"ORC4" -> "BBS7"
-"ORC4" -> "GET4"
-"ORC4" -> "BBS2"
-"RMC1" -> "BBS7"
-"RMC1" -> "BBS2"
-"RMC1" -> "HERC3"
-"RMC1" -> "HERC6"
-"RPAP1" -> "CTC1"
-"RPAP1" -> "BRAT1"
-"RPAP1" -> "DNAAF5"
-"RPAP1" -> "RMC1"
+"BBS2" -> "BBS7";
+"BBS2" -> "HERC3";
+"BBS2" -> "RMC1";
+"BBS2" -> "HERC6";
+"BBS7" -> "BBS2";
+"BBS7" -> "HERC3";
+"BBS7" -> "RMC1";
+"BBS7" -> "ORC4";
+"BRAT1" -> "RPAP1";
+"BRAT1" -> "DNAAF5";
+"BRAT1" -> "CTC1";
+"BRAT1" -> "GET4";
+"BZW2" -> "CUL4A";
+"BZW2" -> "DNAAF5";
+"BZW2" -> "BRAT1";
+"BZW2" -> "ORC4";
+"CTC1" -> "RPAP1";
+"CTC1" -> "BRAT1";
+"CTC1" -> "ORC4";
+"CTC1" -> "HERC6";
+"CUL4A" -> "ORC4";
+"CUL4A" -> "GET4";
+"CUL4A" -> "BZW2";
+"CUL4A" -> "HERC6";
+"DNAAF5" -> "BRAT1";
+"DNAAF5" -> "RPAP1";
+"DNAAF5" -> "CUL4A";
+"DNAAF5" -> "GET4";
+"GET4" -> "CUL4A";
+"GET4" -> "ORC4";
+"GET4" -> "DNAAF5";
+"GET4" -> "RMC1";
+"HERC3" -> "HERC6";
+"HERC3" -> "HERC5";
+"HERC3" -> "BBS2";
+"HERC3" -> "BBS7";
+"HERC5" -> "HERC6";
+"HERC5" -> "HERC3";
+"HERC5" -> "BBS7";
+"HERC5" -> "BBS2";
+"HERC6" -> "HERC5";
+"HERC6" -> "HERC3";
+"HERC6" -> "CUL4A";
+"HERC6" -> "BBS2";
+"ORC4" -> "CUL4A";
+"ORC4" -> "BBS7";
+"ORC4" -> "GET4";
+"ORC4" -> "BBS2";
+"RMC1" -> "BBS7";
+"RMC1" -> "BBS2";
+"RMC1" -> "HERC3";
+"RMC1" -> "HERC6";
+"RPAP1" -> "CTC1";
+"RPAP1" -> "BRAT1";
+"RPAP1" -> "DNAAF5";
+"RPAP1" -> "RMC1";
+"BBS2" ["l"="31.129810,-2.290118"];
+"BBS7" ["l"="30.882168,-1.604689"];
+"BRAT1" ["l"="30.368032,-2.611688"];
+"BZW2" ["l"="30.777168,-1.487259"];
+"CTC1" ["l"="30.730131,-1.530710"];
+"CUL4A" ["l"="30.412544,-1.803308"];
+"DNAAF5" ["l"="31.339359,-2.108717"];
+"GET4" ["l"="31.241629,-2.949222"];
+"HERC3" ["l"="30.101830,-2.029776"];
+"HERC5" ["l"="30.993734,-1.886112"];
+"HERC6" ["l"="30.987654,-2.047768"];
+"ORC4" ["l"="30.381645,-1.831826"];
+"RMC1" ["l"="30.682974,-2.799720"];
+"RPAP1" ["l"="30.389137,-2.752767"];
 }

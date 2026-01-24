@@ -1,82 +1,82 @@
 digraph G {
-"GNA11" ["l"="-10.962050,-40.763935"]
-"GNA12" ["l"="-11.167326,-41.065506"]
-"GNA13" ["l"="-11.134315,-40.873734"]
-"GNA14" ["l"="-11.240657,-40.867386"]
-"GNA15" ["l"="-11.233570,-40.898510"]
-"GNAI1" ["l"="-10.869188,-41.040932"]
-"GNAI2" ["l"="-11.272779,-40.823521"]
-"GNAI3" ["l"="-11.238384,-40.835938"]
-"GNAL" ["l"="-10.861828,-40.757275"]
-"GNAO1" ["l"="-11.218774,-40.755909"]
-"GNAQ" ["l"="-11.189750,-40.697723"]
-"GNAS" ["l"="-11.210394,-40.648594"]
-"GNAT1" ["l"="-11.320299,-40.787411"]
-"GNAT2" ["l"="-11.296177,-40.812653"]
-"GNAT3" ["l"="-11.162827,-40.458317"]
-"GNAZ" ["l"="-11.276585,-40.843422"]
-"GNA11" -> "GNAQ"
-"GNA11" -> "GNAZ"
-"GNA11" -> "GNA13"
-"GNA11" -> "GNAI1"
-"GNA12" -> "GNA13"
-"GNA12" -> "GNA15"
-"GNA12" -> "GNAL"
-"GNA12" -> "GNA11"
-"GNA13" -> "GNA12"
-"GNA13" -> "GNA11"
-"GNA13" -> "GNAQ"
-"GNA13" -> "GNA15"
-"GNA14" -> "GNA11"
-"GNA14" -> "GNAQ"
-"GNA14" -> "GNAI1"
-"GNA14" -> "GNA12"
-"GNA15" -> "GNA12"
-"GNA15" -> "GNA13"
-"GNA15" -> "GNAZ"
-"GNA15" -> "GNA11"
-"GNAI1" -> "GNAI3"
-"GNAI1" -> "GNAQ"
-"GNAI1" -> "GNA11"
-"GNAI1" -> "GNAO1"
-"GNAI2" -> "GNAI3"
-"GNAI2" -> "GNAI1"
-"GNAI2" -> "GNA11"
-"GNAI2" -> "GNAO1"
-"GNAI3" -> "GNAI1"
-"GNAI3" -> "GNAI2"
-"GNAI3" -> "GNAQ"
-"GNAI3" -> "GNAO1"
-"GNAL" -> "GNAQ"
-"GNAL" -> "GNA12"
-"GNAL" -> "GNA11"
-"GNAL" -> "GNA14"
-"GNAO1" -> "GNAI1"
-"GNAO1" -> "GNAQ"
-"GNAO1" -> "GNAI3"
-"GNAO1" -> "GNAZ"
-"GNAQ" -> "GNA11"
-"GNAQ" -> "GNAI1"
-"GNAQ" -> "GNAL"
-"GNAQ" -> "GNAI3"
-"GNAS" -> "GNAO1"
-"GNAS" -> "GNAI2"
-"GNAS" -> "GNAQ"
-"GNAS" -> "GNAL"
-"GNAT1" -> "GNAT2"
-"GNAT1" -> "GNA11"
-"GNAT1" -> "GNAI1"
-"GNAT1" -> "GNAZ"
-"GNAT2" -> "GNAT3"
-"GNAT2" -> "GNAT1"
-"GNAT2" -> "GNAI3"
-"GNAT2" -> "GNAI1"
-"GNAT3" -> "GNAT2"
-"GNAT3" -> "GNAI1"
-"GNAT3" -> "GNAI3"
-"GNAT3" -> "GNA14"
-"GNAZ" -> "GNA11"
-"GNAZ" -> "GNAO1"
-"GNAZ" -> "GNAI1"
-"GNAZ" -> "GNA15"
+"GNA11" -> "GNAQ";
+"GNA11" -> "GNAZ";
+"GNA11" -> "GNA13";
+"GNA11" -> "GNAI1";
+"GNA12" -> "GNA13";
+"GNA12" -> "GNA15";
+"GNA12" -> "GNAL";
+"GNA12" -> "GNA11";
+"GNA13" -> "GNA12";
+"GNA13" -> "GNA11";
+"GNA13" -> "GNAQ";
+"GNA13" -> "GNA15";
+"GNA14" -> "GNA11";
+"GNA14" -> "GNAQ";
+"GNA14" -> "GNAI1";
+"GNA14" -> "GNA12";
+"GNA15" -> "GNA12";
+"GNA15" -> "GNA13";
+"GNA15" -> "GNAZ";
+"GNA15" -> "GNA11";
+"GNAI1" -> "GNAI3";
+"GNAI1" -> "GNAQ";
+"GNAI1" -> "GNA11";
+"GNAI1" -> "GNAO1";
+"GNAI2" -> "GNAI3";
+"GNAI2" -> "GNAI1";
+"GNAI2" -> "GNA11";
+"GNAI2" -> "GNAO1";
+"GNAI3" -> "GNAI1";
+"GNAI3" -> "GNAI2";
+"GNAI3" -> "GNAQ";
+"GNAI3" -> "GNAO1";
+"GNAL" -> "GNAQ";
+"GNAL" -> "GNA12";
+"GNAL" -> "GNA11";
+"GNAL" -> "GNA14";
+"GNAO1" -> "GNAI1";
+"GNAO1" -> "GNAQ";
+"GNAO1" -> "GNAI3";
+"GNAO1" -> "GNAZ";
+"GNAQ" -> "GNA11";
+"GNAQ" -> "GNAI1";
+"GNAQ" -> "GNAL";
+"GNAQ" -> "GNAI3";
+"GNAS" -> "GNAO1";
+"GNAS" -> "GNAI2";
+"GNAS" -> "GNAQ";
+"GNAS" -> "GNAL";
+"GNAT1" -> "GNAT2";
+"GNAT1" -> "GNA11";
+"GNAT1" -> "GNAI1";
+"GNAT1" -> "GNAZ";
+"GNAT2" -> "GNAT3";
+"GNAT2" -> "GNAT1";
+"GNAT2" -> "GNAI3";
+"GNAT2" -> "GNAI1";
+"GNAT3" -> "GNAT2";
+"GNAT3" -> "GNAI1";
+"GNAT3" -> "GNAI3";
+"GNAT3" -> "GNA14";
+"GNAZ" -> "GNA11";
+"GNAZ" -> "GNAO1";
+"GNAZ" -> "GNAI1";
+"GNAZ" -> "GNA15";
+"GNA11" ["l"="-10.962050,-40.763935"];
+"GNA12" ["l"="-11.167326,-41.065506"];
+"GNA13" ["l"="-11.134315,-40.873734"];
+"GNA14" ["l"="-11.240657,-40.867386"];
+"GNA15" ["l"="-11.233570,-40.898510"];
+"GNAI1" ["l"="-10.869188,-41.040932"];
+"GNAI2" ["l"="-11.272779,-40.823521"];
+"GNAI3" ["l"="-11.238384,-40.835938"];
+"GNAL" ["l"="-10.861828,-40.757275"];
+"GNAO1" ["l"="-11.218774,-40.755909"];
+"GNAQ" ["l"="-11.189750,-40.697723"];
+"GNAS" ["l"="-11.210394,-40.648594"];
+"GNAT1" ["l"="-11.320299,-40.787411"];
+"GNAT2" ["l"="-11.296177,-40.812653"];
+"GNAT3" ["l"="-11.162827,-40.458317"];
+"GNAZ" ["l"="-11.276585,-40.843422"];
 }

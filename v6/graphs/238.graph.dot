@@ -1,77 +1,77 @@
 digraph G {
-"ATOH7" ["l"="-6.278279,18.153196"]
-"BHLHA9" ["l"="-7.161462,18.143833"]
-"CDC42EP5" ["l"="-7.448853,17.382721"]
-"HES2" ["l"="-6.609103,18.016672"]
-"HES3" ["l"="-6.914183,17.907660"]
-"HES6" ["l"="-6.404778,18.012325"]
-"HES7" ["l"="-7.272651,18.045509"]
-"MAFF" ["l"="-6.816308,17.659142"]
-"MAFG" ["l"="-5.152646,17.187191"]
-"MAFK" ["l"="-6.471537,17.748259"]
-"MESP1" ["l"="-7.122355,18.190081"]
-"MESP2" ["l"="-7.320296,18.115610"]
-"NRL" ["l"="-5.808253,17.415283"]
-"TPRX1" ["l"="-5.256444,17.690161"]
-"UTF1" ["l"="-7.259055,18.062229"]
-"ATOH7" -> "BHLHA9"
-"ATOH7" -> "HES2"
-"ATOH7" -> "MESP2"
-"ATOH7" -> "HES6"
-"BHLHA9" -> "MESP1"
-"BHLHA9" -> "HES7"
-"BHLHA9" -> "MESP2"
-"BHLHA9" -> "HES3"
-"CDC42EP5" -> "HES7"
-"CDC42EP5" -> "ATOH7"
-"CDC42EP5" -> "HES2"
-"CDC42EP5" -> "BHLHA9"
-"HES2" -> "HES7"
-"HES2" -> "BHLHA9"
-"HES2" -> "MESP2"
-"HES2" -> "ATOH7"
-"HES3" -> "HES7"
-"HES3" -> "BHLHA9"
-"HES3" -> "HES2"
-"HES3" -> "HES6"
-"HES6" -> "BHLHA9"
-"HES6" -> "HES2"
-"HES6" -> "ATOH7"
-"HES6" -> "MESP1"
-"HES7" -> "HES3"
-"HES7" -> "HES2"
-"HES7" -> "BHLHA9"
-"HES7" -> "UTF1"
-"MAFF" -> "MAFK"
-"MAFF" -> "MAFG"
-"MAFF" -> "BHLHA9"
-"MAFF" -> "NRL"
-"MAFG" -> "MAFK"
-"MAFG" -> "MAFF"
-"MAFG" -> "BHLHA9"
-"MAFG" -> "HES2"
-"MAFK" -> "MAFG"
-"MAFK" -> "MAFF"
-"MAFK" -> "NRL"
-"MAFK" -> "HES2"
-"MESP1" -> "BHLHA9"
-"MESP1" -> "MESP2"
-"MESP1" -> "HES6"
-"MESP1" -> "HES7"
-"MESP2" -> "BHLHA9"
-"MESP2" -> "MESP1"
-"MESP2" -> "HES2"
-"MESP2" -> "ATOH7"
-"NRL" -> "HES2"
-"NRL" -> "MAFK"
-"NRL" -> "MESP2"
-"NRL" -> "ATOH7"
-"TPRX1" -> "MESP2"
-"TPRX1" -> "HES2"
-"TPRX1" -> "HES7"
-"TPRX1" -> "HES3"
-"UTF1" -> "HES7"
-"UTF1" -> "BHLHA9"
-"UTF1" -> "MESP2"
-"UTF1" -> "HES2"
+"ATOH7" -> "BHLHA9";
+"ATOH7" -> "HES2";
+"ATOH7" -> "MESP2";
+"ATOH7" -> "HES6";
+"BHLHA9" -> "MESP1";
+"BHLHA9" -> "HES7";
+"BHLHA9" -> "MESP2";
+"BHLHA9" -> "HES3";
+"CDC42EP5" -> "HES7";
+"CDC42EP5" -> "ATOH7";
+"CDC42EP5" -> "HES2";
+"CDC42EP5" -> "BHLHA9";
+"HES2" -> "HES7";
+"HES2" -> "BHLHA9";
+"HES2" -> "MESP2";
+"HES2" -> "ATOH7";
+"HES3" -> "HES7";
+"HES3" -> "BHLHA9";
+"HES3" -> "HES2";
+"HES3" -> "HES6";
+"HES6" -> "BHLHA9";
+"HES6" -> "HES2";
+"HES6" -> "ATOH7";
+"HES6" -> "MESP1";
+"HES7" -> "HES3";
+"HES7" -> "HES2";
+"HES7" -> "BHLHA9";
+"HES7" -> "UTF1";
+"MAFF" -> "MAFK";
+"MAFF" -> "MAFG";
+"MAFF" -> "BHLHA9";
+"MAFF" -> "NRL";
+"MAFG" -> "MAFK";
+"MAFG" -> "MAFF";
+"MAFG" -> "BHLHA9";
+"MAFG" -> "HES2";
+"MAFK" -> "MAFG";
+"MAFK" -> "MAFF";
+"MAFK" -> "NRL";
+"MAFK" -> "HES2";
+"MESP1" -> "BHLHA9";
+"MESP1" -> "MESP2";
+"MESP1" -> "HES6";
+"MESP1" -> "HES7";
+"MESP2" -> "BHLHA9";
+"MESP2" -> "MESP1";
+"MESP2" -> "HES2";
+"MESP2" -> "ATOH7";
+"NRL" -> "HES2";
+"NRL" -> "MAFK";
+"NRL" -> "MESP2";
+"NRL" -> "ATOH7";
+"TPRX1" -> "MESP2";
+"TPRX1" -> "HES2";
+"TPRX1" -> "HES7";
+"TPRX1" -> "HES3";
+"UTF1" -> "HES7";
+"UTF1" -> "BHLHA9";
+"UTF1" -> "MESP2";
+"UTF1" -> "HES2";
+"ATOH7" ["l"="-6.278279,18.153196"];
+"BHLHA9" ["l"="-7.161462,18.143833"];
+"CDC42EP5" ["l"="-7.448853,17.382721"];
+"HES2" ["l"="-6.609103,18.016672"];
+"HES3" ["l"="-6.914183,17.907660"];
+"HES6" ["l"="-6.404778,18.012325"];
+"HES7" ["l"="-7.272651,18.045509"];
+"MAFF" ["l"="-6.816308,17.659142"];
+"MAFG" ["l"="-5.152646,17.187191"];
+"MAFK" ["l"="-6.471537,17.748259"];
+"MESP1" ["l"="-7.122355,18.190081"];
+"MESP2" ["l"="-7.320296,18.115610"];
+"NRL" ["l"="-5.808253,17.415283"];
+"TPRX1" ["l"="-5.256444,17.690161"];
+"UTF1" ["l"="-7.259055,18.062229"];
 }

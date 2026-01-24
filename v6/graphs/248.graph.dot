@@ -1,52 +1,52 @@
 digraph G {
-"CCDC88A" ["l"="-8.382050,-4.025239"]
-"RAD50" ["l"="-8.417612,-4.476971"]
-"ROCK1" ["l"="-7.301833,-4.348462"]
-"SMC1B" ["l"="-8.006457,-4.541331"]
-"SMC2" ["l"="-7.734841,-4.678506"]
-"SMC3" ["l"="-7.372852,-4.577452"]
-"SMC4" ["l"="-7.767884,-4.791114"]
-"SMC5" ["l"="-7.958052,-4.675438"]
-"SMC6" ["l"="-8.027003,-4.533324"]
-"TAX1BP1" ["l"="-9.053455,-3.729228"]
-"CCDC88A" -> "ROCK1"
-"CCDC88A" -> "RAD50"
-"CCDC88A" -> "TAX1BP1"
-"CCDC88A" -> "SMC3"
-"RAD50" -> "SMC6"
-"RAD50" -> "SMC5"
-"RAD50" -> "SMC3"
-"RAD50" -> "SMC1B"
-"ROCK1" -> "SMC4"
-"ROCK1" -> "SMC3"
-"ROCK1" -> "CCDC88A"
-"ROCK1" -> "TAX1BP1"
-"SMC1B" -> "SMC4"
-"SMC1B" -> "SMC3"
-"SMC1B" -> "SMC5"
-"SMC1B" -> "RAD50"
-"SMC2" -> "SMC4"
-"SMC2" -> "SMC3"
-"SMC2" -> "SMC5"
-"SMC2" -> "SMC6"
-"SMC3" -> "SMC2"
-"SMC3" -> "SMC4"
-"SMC3" -> "SMC5"
-"SMC3" -> "SMC1B"
-"SMC4" -> "SMC2"
-"SMC4" -> "SMC3"
-"SMC4" -> "SMC1B"
-"SMC4" -> "SMC5"
-"SMC5" -> "SMC6"
-"SMC5" -> "SMC3"
-"SMC5" -> "SMC2"
-"SMC5" -> "RAD50"
-"SMC6" -> "SMC5"
-"SMC6" -> "RAD50"
-"SMC6" -> "SMC2"
-"SMC6" -> "SMC3"
-"TAX1BP1" -> "ROCK1"
-"TAX1BP1" -> "RAD50"
-"TAX1BP1" -> "SMC4"
-"TAX1BP1" -> "SMC6"
+"CCDC88A" -> "ROCK1";
+"CCDC88A" -> "RAD50";
+"CCDC88A" -> "TAX1BP1";
+"CCDC88A" -> "SMC3";
+"RAD50" -> "SMC6";
+"RAD50" -> "SMC5";
+"RAD50" -> "SMC3";
+"RAD50" -> "SMC1B";
+"ROCK1" -> "SMC4";
+"ROCK1" -> "SMC3";
+"ROCK1" -> "CCDC88A";
+"ROCK1" -> "TAX1BP1";
+"SMC1B" -> "SMC4";
+"SMC1B" -> "SMC3";
+"SMC1B" -> "SMC5";
+"SMC1B" -> "RAD50";
+"SMC2" -> "SMC4";
+"SMC2" -> "SMC3";
+"SMC2" -> "SMC5";
+"SMC2" -> "SMC6";
+"SMC3" -> "SMC2";
+"SMC3" -> "SMC4";
+"SMC3" -> "SMC5";
+"SMC3" -> "SMC1B";
+"SMC4" -> "SMC2";
+"SMC4" -> "SMC3";
+"SMC4" -> "SMC1B";
+"SMC4" -> "SMC5";
+"SMC5" -> "SMC6";
+"SMC5" -> "SMC3";
+"SMC5" -> "SMC2";
+"SMC5" -> "RAD50";
+"SMC6" -> "SMC5";
+"SMC6" -> "RAD50";
+"SMC6" -> "SMC2";
+"SMC6" -> "SMC3";
+"TAX1BP1" -> "ROCK1";
+"TAX1BP1" -> "RAD50";
+"TAX1BP1" -> "SMC4";
+"TAX1BP1" -> "SMC6";
+"CCDC88A" ["l"="-8.382050,-4.025239"];
+"RAD50" ["l"="-8.417612,-4.476971"];
+"ROCK1" ["l"="-7.301833,-4.348462"];
+"SMC1B" ["l"="-8.006457,-4.541331"];
+"SMC2" ["l"="-7.734841,-4.678506"];
+"SMC3" ["l"="-7.372852,-4.577452"];
+"SMC4" ["l"="-7.767884,-4.791114"];
+"SMC5" ["l"="-7.958052,-4.675438"];
+"SMC6" ["l"="-8.027003,-4.533324"];
+"TAX1BP1" ["l"="-9.053455,-3.729228"];
 }

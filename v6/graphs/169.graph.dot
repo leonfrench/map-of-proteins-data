@@ -1,57 +1,57 @@
 digraph G {
-"APOL1" ["l"="45.734875,-3.614984"]
-"APOL2" ["l"="46.156097,-3.676734"]
-"APOL3" ["l"="46.137535,-3.705877"]
-"APOL4" ["l"="46.018280,-3.929736"]
-"APOL6" ["l"="46.311733,-3.815297"]
-"AUP1" ["l"="46.527534,-3.131500"]
-"ERN2" ["l"="47.347855,-4.641066"]
-"LPCAT4" ["l"="46.796848,-3.172359"]
-"PGAP1" ["l"="47.030525,-4.983618"]
-"SARAF" ["l"="46.692513,-4.270358"]
-"UNC5CL" ["l"="46.461143,-3.864796"]
-"APOL1" -> "APOL4"
-"APOL1" -> "APOL2"
-"APOL1" -> "APOL3"
-"APOL1" -> "APOL6"
-"APOL2" -> "APOL3"
-"APOL2" -> "APOL4"
-"APOL2" -> "APOL1"
-"APOL2" -> "APOL6"
-"APOL3" -> "APOL2"
-"APOL3" -> "APOL4"
-"APOL3" -> "APOL1"
-"APOL3" -> "APOL6"
-"APOL4" -> "APOL2"
-"APOL4" -> "APOL1"
-"APOL4" -> "APOL3"
-"APOL4" -> "APOL6"
-"APOL6" -> "APOL2"
-"APOL6" -> "APOL1"
-"APOL6" -> "APOL3"
-"APOL6" -> "APOL4"
-"AUP1" -> "LPCAT4"
-"AUP1" -> "UNC5CL"
-"AUP1" -> "ERN2"
-"AUP1" -> "PGAP1"
-"ERN2" -> "UNC5CL"
-"ERN2" -> "LPCAT4"
-"ERN2" -> "AUP1"
-"ERN2" -> "PGAP1"
-"LPCAT4" -> "AUP1"
-"LPCAT4" -> "UNC5CL"
-"LPCAT4" -> "ERN2"
-"LPCAT4" -> "PGAP1"
-"PGAP1" -> "UNC5CL"
-"PGAP1" -> "LPCAT4"
-"PGAP1" -> "SARAF"
-"PGAP1" -> "AUP1"
-"SARAF" -> "PGAP1"
-"SARAF" -> "ERN2"
-"SARAF" -> "LPCAT4"
-"SARAF" -> "AUP1"
-"UNC5CL" -> "ERN2"
-"UNC5CL" -> "LPCAT4"
-"UNC5CL" -> "AUP1"
-"UNC5CL" -> "PGAP1"
+"APOL1" -> "APOL4";
+"APOL1" -> "APOL2";
+"APOL1" -> "APOL3";
+"APOL1" -> "APOL6";
+"APOL2" -> "APOL3";
+"APOL2" -> "APOL4";
+"APOL2" -> "APOL1";
+"APOL2" -> "APOL6";
+"APOL3" -> "APOL2";
+"APOL3" -> "APOL4";
+"APOL3" -> "APOL1";
+"APOL3" -> "APOL6";
+"APOL4" -> "APOL2";
+"APOL4" -> "APOL1";
+"APOL4" -> "APOL3";
+"APOL4" -> "APOL6";
+"APOL6" -> "APOL2";
+"APOL6" -> "APOL1";
+"APOL6" -> "APOL3";
+"APOL6" -> "APOL4";
+"AUP1" -> "LPCAT4";
+"AUP1" -> "UNC5CL";
+"AUP1" -> "ERN2";
+"AUP1" -> "PGAP1";
+"ERN2" -> "UNC5CL";
+"ERN2" -> "LPCAT4";
+"ERN2" -> "AUP1";
+"ERN2" -> "PGAP1";
+"LPCAT4" -> "AUP1";
+"LPCAT4" -> "UNC5CL";
+"LPCAT4" -> "ERN2";
+"LPCAT4" -> "PGAP1";
+"PGAP1" -> "UNC5CL";
+"PGAP1" -> "LPCAT4";
+"PGAP1" -> "SARAF";
+"PGAP1" -> "AUP1";
+"SARAF" -> "PGAP1";
+"SARAF" -> "ERN2";
+"SARAF" -> "LPCAT4";
+"SARAF" -> "AUP1";
+"UNC5CL" -> "ERN2";
+"UNC5CL" -> "LPCAT4";
+"UNC5CL" -> "AUP1";
+"UNC5CL" -> "PGAP1";
+"APOL1" ["l"="45.734875,-3.614984"];
+"APOL2" ["l"="46.156097,-3.676734"];
+"APOL3" ["l"="46.137535,-3.705877"];
+"APOL4" ["l"="46.018280,-3.929736"];
+"APOL6" ["l"="46.311733,-3.815297"];
+"AUP1" ["l"="46.527534,-3.131500"];
+"ERN2" ["l"="47.347855,-4.641066"];
+"LPCAT4" ["l"="46.796848,-3.172359"];
+"PGAP1" ["l"="47.030525,-4.983618"];
+"SARAF" ["l"="46.692513,-4.270358"];
+"UNC5CL" ["l"="46.461143,-3.864796"];
 }

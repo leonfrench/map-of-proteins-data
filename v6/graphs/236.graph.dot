@@ -1,97 +1,97 @@
 digraph G {
-"EDEM3" ["l"="52.415504,-5.029484"]
-"EPB42" ["l"="51.911499,-3.659171"]
-"F13A1" ["l"="52.496693,-3.982534"]
-"GGT7" ["l"="51.943539,-3.653288"]
-"HSPA13" ["l"="52.089600,-3.467847"]
-"IL17RE" ["l"="50.127014,-5.744891"]
-"ITM2C" ["l"="50.952728,-5.904263"]
-"RNF148" ["l"="51.565914,-4.949711"]
-"SFTPC" ["l"="50.242764,-5.861060"]
-"SLC3A2" ["l"="52.840099,-3.776086"]
-"SUCO" ["l"="50.840210,-5.527316"]
-"TGM1" ["l"="51.985352,-3.821354"]
-"TGM2" ["l"="51.611317,-3.678627"]
-"TGM3" ["l"="52.171318,-3.932169"]
-"TGM4" ["l"="52.034843,-3.888599"]
-"TGM5" ["l"="52.490322,-3.545670"]
-"TGM6" ["l"="51.991989,-3.807523"]
-"TGM7" ["l"="51.866188,-3.710841"]
-"ZNRF4" ["l"="51.182484,-4.285497"]
-"EDEM3" -> "SUCO"
-"EDEM3" -> "HSPA13"
-"EDEM3" -> "ZNRF4"
-"EDEM3" -> "GGT7"
-"EPB42" -> "TGM6"
-"EPB42" -> "TGM4"
-"EPB42" -> "TGM5"
-"EPB42" -> "TGM7"
-"F13A1" -> "TGM3"
-"F13A1" -> "TGM4"
-"F13A1" -> "TGM1"
-"F13A1" -> "TGM5"
-"GGT7" -> "ZNRF4"
-"GGT7" -> "SLC3A2"
-"GGT7" -> "RNF148"
-"GGT7" -> "EDEM3"
-"HSPA13" -> "EDEM3"
-"HSPA13" -> "SUCO"
-"HSPA13" -> "RNF148"
-"HSPA13" -> "ZNRF4"
-"IL17RE" -> "ZNRF4"
-"IL17RE" -> "RNF148"
-"IL17RE" -> "GGT7"
-"IL17RE" -> "ITM2C"
-"ITM2C" -> "SFTPC"
-"ITM2C" -> "ZNRF4"
-"ITM2C" -> "RNF148"
-"ITM2C" -> "SLC3A2"
-"RNF148" -> "ZNRF4"
-"RNF148" -> "GGT7"
-"RNF148" -> "TGM6"
-"RNF148" -> "ITM2C"
-"SFTPC" -> "ITM2C"
-"SFTPC" -> "F13A1"
-"SFTPC" -> "TGM4"
-"SFTPC" -> "TGM3"
-"SLC3A2" -> "GGT7"
-"SLC3A2" -> "ITM2C"
-"SLC3A2" -> "ZNRF4"
-"SLC3A2" -> "SFTPC"
-"SUCO" -> "EDEM3"
-"SUCO" -> "HSPA13"
-"SUCO" -> "RNF148"
-"SUCO" -> "ZNRF4"
-"TGM1" -> "TGM3"
-"TGM1" -> "TGM7"
-"TGM1" -> "F13A1"
-"TGM1" -> "TGM2"
-"TGM2" -> "TGM4"
-"TGM2" -> "TGM5"
-"TGM2" -> "TGM6"
-"TGM2" -> "TGM3"
-"TGM3" -> "TGM4"
-"TGM3" -> "TGM1"
-"TGM3" -> "TGM5"
-"TGM3" -> "TGM7"
-"TGM4" -> "TGM6"
-"TGM4" -> "TGM3"
-"TGM4" -> "TGM5"
-"TGM4" -> "TGM2"
-"TGM5" -> "TGM7"
-"TGM5" -> "TGM6"
-"TGM5" -> "TGM4"
-"TGM5" -> "TGM2"
-"TGM6" -> "TGM4"
-"TGM6" -> "TGM5"
-"TGM6" -> "TGM7"
-"TGM6" -> "TGM2"
-"TGM7" -> "TGM5"
-"TGM7" -> "TGM6"
-"TGM7" -> "TGM4"
-"TGM7" -> "TGM3"
-"ZNRF4" -> "RNF148"
-"ZNRF4" -> "GGT7"
-"ZNRF4" -> "EDEM3"
-"ZNRF4" -> "IL17RE"
+"EDEM3" -> "SUCO";
+"EDEM3" -> "HSPA13";
+"EDEM3" -> "ZNRF4";
+"EDEM3" -> "GGT7";
+"EPB42" -> "TGM6";
+"EPB42" -> "TGM4";
+"EPB42" -> "TGM5";
+"EPB42" -> "TGM7";
+"F13A1" -> "TGM3";
+"F13A1" -> "TGM4";
+"F13A1" -> "TGM1";
+"F13A1" -> "TGM5";
+"GGT7" -> "ZNRF4";
+"GGT7" -> "SLC3A2";
+"GGT7" -> "RNF148";
+"GGT7" -> "EDEM3";
+"HSPA13" -> "EDEM3";
+"HSPA13" -> "SUCO";
+"HSPA13" -> "RNF148";
+"HSPA13" -> "ZNRF4";
+"IL17RE" -> "ZNRF4";
+"IL17RE" -> "RNF148";
+"IL17RE" -> "GGT7";
+"IL17RE" -> "ITM2C";
+"ITM2C" -> "SFTPC";
+"ITM2C" -> "ZNRF4";
+"ITM2C" -> "RNF148";
+"ITM2C" -> "SLC3A2";
+"RNF148" -> "ZNRF4";
+"RNF148" -> "GGT7";
+"RNF148" -> "TGM6";
+"RNF148" -> "ITM2C";
+"SFTPC" -> "ITM2C";
+"SFTPC" -> "F13A1";
+"SFTPC" -> "TGM4";
+"SFTPC" -> "TGM3";
+"SLC3A2" -> "GGT7";
+"SLC3A2" -> "ITM2C";
+"SLC3A2" -> "ZNRF4";
+"SLC3A2" -> "SFTPC";
+"SUCO" -> "EDEM3";
+"SUCO" -> "HSPA13";
+"SUCO" -> "RNF148";
+"SUCO" -> "ZNRF4";
+"TGM1" -> "TGM3";
+"TGM1" -> "TGM7";
+"TGM1" -> "F13A1";
+"TGM1" -> "TGM2";
+"TGM2" -> "TGM4";
+"TGM2" -> "TGM5";
+"TGM2" -> "TGM6";
+"TGM2" -> "TGM3";
+"TGM3" -> "TGM4";
+"TGM3" -> "TGM1";
+"TGM3" -> "TGM5";
+"TGM3" -> "TGM7";
+"TGM4" -> "TGM6";
+"TGM4" -> "TGM3";
+"TGM4" -> "TGM5";
+"TGM4" -> "TGM2";
+"TGM5" -> "TGM7";
+"TGM5" -> "TGM6";
+"TGM5" -> "TGM4";
+"TGM5" -> "TGM2";
+"TGM6" -> "TGM4";
+"TGM6" -> "TGM5";
+"TGM6" -> "TGM7";
+"TGM6" -> "TGM2";
+"TGM7" -> "TGM5";
+"TGM7" -> "TGM6";
+"TGM7" -> "TGM4";
+"TGM7" -> "TGM3";
+"ZNRF4" -> "RNF148";
+"ZNRF4" -> "GGT7";
+"ZNRF4" -> "EDEM3";
+"ZNRF4" -> "IL17RE";
+"EDEM3" ["l"="52.415504,-5.029484"];
+"EPB42" ["l"="51.911499,-3.659171"];
+"F13A1" ["l"="52.496693,-3.982534"];
+"GGT7" ["l"="51.943539,-3.653288"];
+"HSPA13" ["l"="52.089600,-3.467847"];
+"IL17RE" ["l"="50.127014,-5.744891"];
+"ITM2C" ["l"="50.952728,-5.904263"];
+"RNF148" ["l"="51.565914,-4.949711"];
+"SFTPC" ["l"="50.242764,-5.861060"];
+"SLC3A2" ["l"="52.840099,-3.776086"];
+"SUCO" ["l"="50.840210,-5.527316"];
+"TGM1" ["l"="51.985352,-3.821354"];
+"TGM2" ["l"="51.611317,-3.678627"];
+"TGM3" ["l"="52.171318,-3.932169"];
+"TGM4" ["l"="52.034843,-3.888599"];
+"TGM5" ["l"="52.490322,-3.545670"];
+"TGM6" ["l"="51.991989,-3.807523"];
+"TGM7" ["l"="51.866188,-3.710841"];
+"ZNRF4" ["l"="51.182484,-4.285497"];
 }

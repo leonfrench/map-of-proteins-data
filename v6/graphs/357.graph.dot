@@ -1,112 +1,112 @@
 digraph G {
-"ACO1" ["l"="66.841713,4.289129"]
-"ALDH1L1" ["l"="67.486320,4.576385"]
-"ALDH1L2" ["l"="68.017601,4.028286"]
-"ALDH3A1" ["l"="68.005890,4.125559"]
-"ALDH3A2" ["l"="67.177803,4.143165"]
-"ALDOB" ["l"="67.520416,4.153563"]
-"BDH2" ["l"="67.991867,4.470067"]
-"DDC" ["l"="67.159927,4.291308"]
-"EHHADH" ["l"="67.345879,4.835795"]
-"ETFDH" ["l"="67.869843,4.361215"]
-"GLDC" ["l"="67.294296,4.495368"]
-"HK1" ["l"="66.837509,4.546435"]
-"HK2" ["l"="66.488480,4.533920"]
-"HMGCR" ["l"="68.170380,4.001842"]
-"MAT1A" ["l"="68.309875,3.594943"]
-"ME1" ["l"="68.060280,3.861676"]
-"ME2" ["l"="67.077698,4.220526"]
-"MTR" ["l"="67.260086,4.851619"]
-"OGDHL" ["l"="68.165512,4.389472"]
-"PC" ["l"="66.844193,4.397290"]
-"PCK1" ["l"="68.050133,3.527029"]
-"PFKL" ["l"="66.941216,4.496157"]
-"ACO1" -> "GLDC"
-"ACO1" -> "MTR"
-"ACO1" -> "ME1"
-"ACO1" -> "ALDH1L2"
-"ALDH1L1" -> "ALDH1L2"
-"ALDH1L1" -> "PC"
-"ALDH1L1" -> "GLDC"
-"ALDH1L1" -> "ACO1"
-"ALDH1L2" -> "ACO1"
-"ALDH1L2" -> "MTR"
-"ALDH1L2" -> "ALDH1L1"
-"ALDH1L2" -> "GLDC"
-"ALDH3A1" -> "ALDH3A2"
-"ALDH3A1" -> "MAT1A"
-"ALDH3A1" -> "ALDH1L1"
-"ALDH3A1" -> "ALDH1L2"
-"ALDH3A2" -> "ALDH3A1"
-"ALDH3A2" -> "EHHADH"
-"ALDH3A2" -> "BDH2"
-"ALDH3A2" -> "ALDH1L2"
-"ALDOB" -> "MAT1A"
-"ALDOB" -> "ACO1"
-"ALDOB" -> "PCK1"
-"ALDOB" -> "GLDC"
-"BDH2" -> "EHHADH"
-"BDH2" -> "ALDH3A2"
-"BDH2" -> "MAT1A"
-"BDH2" -> "ACO1"
-"DDC" -> "GLDC"
-"DDC" -> "ME1"
-"DDC" -> "ACO1"
-"DDC" -> "ALDOB"
-"EHHADH" -> "BDH2"
-"EHHADH" -> "ALDH3A2"
-"EHHADH" -> "ACO1"
-"EHHADH" -> "ME2"
-"ETFDH" -> "ACO1"
-"ETFDH" -> "GLDC"
-"ETFDH" -> "MAT1A"
-"ETFDH" -> "PCK1"
-"GLDC" -> "ACO1"
-"GLDC" -> "MTR"
-"GLDC" -> "ME1"
-"GLDC" -> "ALDH1L2"
-"HK1" -> "HK2"
-"HK1" -> "PFKL"
-"HK1" -> "MTR"
-"HK1" -> "ME2"
-"HK2" -> "HK1"
-"HK2" -> "PFKL"
-"HK2" -> "ACO1"
-"HK2" -> "MTR"
-"HMGCR" -> "ALDH1L2"
-"HMGCR" -> "ME1"
-"HMGCR" -> "ACO1"
-"HMGCR" -> "MTR"
-"MAT1A" -> "ALDOB"
-"MAT1A" -> "ETFDH"
-"MAT1A" -> "ALDH3A2"
-"MAT1A" -> "ME2"
-"ME1" -> "ACO1"
-"ME1" -> "ME2"
-"ME1" -> "MTR"
-"ME1" -> "GLDC"
-"ME2" -> "ME1"
-"ME2" -> "MTR"
-"ME2" -> "ACO1"
-"ME2" -> "GLDC"
-"MTR" -> "ACO1"
-"MTR" -> "ME1"
-"MTR" -> "GLDC"
-"MTR" -> "ALDH1L2"
-"OGDHL" -> "PC"
-"OGDHL" -> "GLDC"
-"OGDHL" -> "ACO1"
-"OGDHL" -> "MTR"
-"PC" -> "OGDHL"
-"PC" -> "ACO1"
-"PC" -> "GLDC"
-"PC" -> "ME1"
-"PCK1" -> "ACO1"
-"PCK1" -> "ALDOB"
-"PCK1" -> "ETFDH"
-"PCK1" -> "GLDC"
-"PFKL" -> "ACO1"
-"PFKL" -> "GLDC"
-"PFKL" -> "HK2"
-"PFKL" -> "MTR"
+"ACO1" -> "GLDC";
+"ACO1" -> "MTR";
+"ACO1" -> "ME1";
+"ACO1" -> "ALDH1L2";
+"ALDH1L1" -> "ALDH1L2";
+"ALDH1L1" -> "PC";
+"ALDH1L1" -> "GLDC";
+"ALDH1L1" -> "ACO1";
+"ALDH1L2" -> "ACO1";
+"ALDH1L2" -> "MTR";
+"ALDH1L2" -> "ALDH1L1";
+"ALDH1L2" -> "GLDC";
+"ALDH3A1" -> "ALDH3A2";
+"ALDH3A1" -> "MAT1A";
+"ALDH3A1" -> "ALDH1L1";
+"ALDH3A1" -> "ALDH1L2";
+"ALDH3A2" -> "ALDH3A1";
+"ALDH3A2" -> "EHHADH";
+"ALDH3A2" -> "BDH2";
+"ALDH3A2" -> "ALDH1L2";
+"ALDOB" -> "MAT1A";
+"ALDOB" -> "ACO1";
+"ALDOB" -> "PCK1";
+"ALDOB" -> "GLDC";
+"BDH2" -> "EHHADH";
+"BDH2" -> "ALDH3A2";
+"BDH2" -> "MAT1A";
+"BDH2" -> "ACO1";
+"DDC" -> "GLDC";
+"DDC" -> "ME1";
+"DDC" -> "ACO1";
+"DDC" -> "ALDOB";
+"EHHADH" -> "BDH2";
+"EHHADH" -> "ALDH3A2";
+"EHHADH" -> "ACO1";
+"EHHADH" -> "ME2";
+"ETFDH" -> "ACO1";
+"ETFDH" -> "GLDC";
+"ETFDH" -> "MAT1A";
+"ETFDH" -> "PCK1";
+"GLDC" -> "ACO1";
+"GLDC" -> "MTR";
+"GLDC" -> "ME1";
+"GLDC" -> "ALDH1L2";
+"HK1" -> "HK2";
+"HK1" -> "PFKL";
+"HK1" -> "MTR";
+"HK1" -> "ME2";
+"HK2" -> "HK1";
+"HK2" -> "PFKL";
+"HK2" -> "ACO1";
+"HK2" -> "MTR";
+"HMGCR" -> "ALDH1L2";
+"HMGCR" -> "ME1";
+"HMGCR" -> "ACO1";
+"HMGCR" -> "MTR";
+"MAT1A" -> "ALDOB";
+"MAT1A" -> "ETFDH";
+"MAT1A" -> "ALDH3A2";
+"MAT1A" -> "ME2";
+"ME1" -> "ACO1";
+"ME1" -> "ME2";
+"ME1" -> "MTR";
+"ME1" -> "GLDC";
+"ME2" -> "ME1";
+"ME2" -> "MTR";
+"ME2" -> "ACO1";
+"ME2" -> "GLDC";
+"MTR" -> "ACO1";
+"MTR" -> "ME1";
+"MTR" -> "GLDC";
+"MTR" -> "ALDH1L2";
+"OGDHL" -> "PC";
+"OGDHL" -> "GLDC";
+"OGDHL" -> "ACO1";
+"OGDHL" -> "MTR";
+"PC" -> "OGDHL";
+"PC" -> "ACO1";
+"PC" -> "GLDC";
+"PC" -> "ME1";
+"PCK1" -> "ACO1";
+"PCK1" -> "ALDOB";
+"PCK1" -> "ETFDH";
+"PCK1" -> "GLDC";
+"PFKL" -> "ACO1";
+"PFKL" -> "GLDC";
+"PFKL" -> "HK2";
+"PFKL" -> "MTR";
+"ACO1" ["l"="66.841713,4.289129"];
+"ALDH1L1" ["l"="67.486320,4.576385"];
+"ALDH1L2" ["l"="68.017601,4.028286"];
+"ALDH3A1" ["l"="68.005890,4.125559"];
+"ALDH3A2" ["l"="67.177803,4.143165"];
+"ALDOB" ["l"="67.520416,4.153563"];
+"BDH2" ["l"="67.991867,4.470067"];
+"DDC" ["l"="67.159927,4.291308"];
+"EHHADH" ["l"="67.345879,4.835795"];
+"ETFDH" ["l"="67.869843,4.361215"];
+"GLDC" ["l"="67.294296,4.495368"];
+"HK1" ["l"="66.837509,4.546435"];
+"HK2" ["l"="66.488480,4.533920"];
+"HMGCR" ["l"="68.170380,4.001842"];
+"MAT1A" ["l"="68.309875,3.594943"];
+"ME1" ["l"="68.060280,3.861676"];
+"ME2" ["l"="67.077698,4.220526"];
+"MTR" ["l"="67.260086,4.851619"];
+"OGDHL" ["l"="68.165512,4.389472"];
+"PC" ["l"="66.844193,4.397290"];
+"PCK1" ["l"="68.050133,3.527029"];
+"PFKL" ["l"="66.941216,4.496157"];
 }

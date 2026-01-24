@@ -1,142 +1,142 @@
 digraph G {
-"ARV1" ["l"="52.151978,6.816089"]
-"DCAKD" ["l"="51.672909,6.359049"]
-"DGUOK" ["l"="53.330822,7.581872"]
-"DHFR" ["l"="52.252876,6.643055"]
-"DPH5" ["l"="52.461010,5.961844"]
-"ERAL1" ["l"="52.855915,7.329069"]
-"FAIM" ["l"="52.432453,6.935432"]
-"GLOD4" ["l"="52.352638,7.421226"]
-"HMCES" ["l"="51.557590,6.269082"]
-"HYKK" ["l"="52.100918,5.883165"]
-"IAH1" ["l"="52.649338,6.756666"]
-"IDNK" ["l"="52.662159,7.218641"]
-"MCUB" ["l"="53.228210,8.168403"]
-"METTL23" ["l"="52.604542,6.117879"]
-"MGMT" ["l"="52.831909,7.421602"]
-"MTHFS" ["l"="51.608837,6.750446"]
-"NAT9" ["l"="51.873444,6.718926"]
-"NMNAT1" ["l"="52.108898,6.609243"]
-"NMNAT3" ["l"="52.160816,6.286952"]
-"NT5C" ["l"="53.498505,8.063881"]
-"NTPCR" ["l"="52.553585,6.139533"]
-"PLPBP" ["l"="52.753292,7.252014"]
-"PM20D2" ["l"="52.551777,6.412471"]
-"PMVK" ["l"="52.804947,7.178000"]
-"RPEL1" ["l"="53.077984,6.933877"]
-"TFB1M" ["l"="52.582596,7.113107"]
-"TFB2M" ["l"="52.754333,8.008296"]
-"TRMT61B" ["l"="51.961636,7.170056"]
-"ARV1" -> "TFB2M"
-"ARV1" -> "GLOD4"
-"ARV1" -> "NMNAT1"
-"ARV1" -> "PLPBP"
-"DCAKD" -> "NMNAT3"
-"DCAKD" -> "NMNAT1"
-"DCAKD" -> "TFB1M"
-"DCAKD" -> "DPH5"
-"DGUOK" -> "ERAL1"
-"DGUOK" -> "NMNAT1"
-"DGUOK" -> "TFB1M"
-"DGUOK" -> "TRMT61B"
-"DHFR" -> "NMNAT1"
-"DHFR" -> "NMNAT3"
-"DHFR" -> "MTHFS"
-"DHFR" -> "NTPCR"
-"DPH5" -> "NMNAT1"
-"DPH5" -> "PLPBP"
-"DPH5" -> "NTPCR"
-"DPH5" -> "TFB1M"
-"ERAL1" -> "TFB1M"
-"ERAL1" -> "TRMT61B"
-"ERAL1" -> "TFB2M"
-"ERAL1" -> "DGUOK"
-"FAIM" -> "GLOD4"
-"FAIM" -> "DPH5"
-"FAIM" -> "NAT9"
-"FAIM" -> "HMCES"
-"GLOD4" -> "PLPBP"
-"GLOD4" -> "DPH5"
-"GLOD4" -> "IAH1"
-"GLOD4" -> "RPEL1"
-"HMCES" -> "NMNAT1"
-"HMCES" -> "TFB1M"
-"HMCES" -> "DHFR"
-"HMCES" -> "MGMT"
-"HYKK" -> "PLPBP"
-"HYKK" -> "IAH1"
-"HYKK" -> "TFB1M"
-"HYKK" -> "TRMT61B"
-"IAH1" -> "PLPBP"
-"IAH1" -> "NMNAT1"
-"IAH1" -> "MTHFS"
-"IAH1" -> "TFB1M"
-"IDNK" -> "IAH1"
-"IDNK" -> "DPH5"
-"IDNK" -> "MGMT"
-"IDNK" -> "METTL23"
-"MCUB" -> "DGUOK"
-"MCUB" -> "ERAL1"
-"MCUB" -> "TFB1M"
-"MCUB" -> "TRMT61B"
-"METTL23" -> "IDNK"
-"METTL23" -> "IAH1"
-"METTL23" -> "DPH5"
-"METTL23" -> "NAT9"
-"MGMT" -> "IDNK"
-"MGMT" -> "HMCES"
-"MGMT" -> "IAH1"
-"MGMT" -> "DPH5"
-"MTHFS" -> "IAH1"
-"MTHFS" -> "PLPBP"
-"MTHFS" -> "TFB1M"
-"MTHFS" -> "DHFR"
-"NAT9" -> "NT5C"
-"NAT9" -> "PMVK"
-"NAT9" -> "IDNK"
-"NAT9" -> "DPH5"
-"NMNAT1" -> "NMNAT3"
-"NMNAT1" -> "DPH5"
-"NMNAT1" -> "NTPCR"
-"NMNAT1" -> "DHFR"
-"NMNAT3" -> "NMNAT1"
-"NMNAT3" -> "TFB1M"
-"NMNAT3" -> "DCAKD"
-"NMNAT3" -> "DPH5"
-"NT5C" -> "NAT9"
-"NT5C" -> "PMVK"
-"NT5C" -> "PLPBP"
-"NT5C" -> "MTHFS"
-"NTPCR" -> "NMNAT1"
-"NTPCR" -> "DPH5"
-"NTPCR" -> "PLPBP"
-"NTPCR" -> "NMNAT3"
-"PLPBP" -> "IAH1"
-"PLPBP" -> "GLOD4"
-"PLPBP" -> "HYKK"
-"PLPBP" -> "NMNAT1"
-"PM20D2" -> "IAH1"
-"PM20D2" -> "PLPBP"
-"PM20D2" -> "HYKK"
-"PM20D2" -> "MTHFS"
-"PMVK" -> "NMNAT1"
-"PMVK" -> "NT5C"
-"PMVK" -> "PLPBP"
-"PMVK" -> "NAT9"
-"RPEL1" -> "PLPBP"
-"RPEL1" -> "GLOD4"
-"RPEL1" -> "HYKK"
-"RPEL1" -> "IAH1"
-"TFB1M" -> "TFB2M"
-"TFB1M" -> "ERAL1"
-"TFB1M" -> "NMNAT1"
-"TFB1M" -> "IAH1"
-"TFB2M" -> "TFB1M"
-"TFB2M" -> "TRMT61B"
-"TFB2M" -> "ERAL1"
-"TFB2M" -> "HYKK"
-"TRMT61B" -> "TFB2M"
-"TRMT61B" -> "ERAL1"
-"TRMT61B" -> "TFB1M"
-"TRMT61B" -> "HYKK"
+"ARV1" -> "TFB2M";
+"ARV1" -> "GLOD4";
+"ARV1" -> "NMNAT1";
+"ARV1" -> "PLPBP";
+"DCAKD" -> "NMNAT3";
+"DCAKD" -> "NMNAT1";
+"DCAKD" -> "TFB1M";
+"DCAKD" -> "DPH5";
+"DGUOK" -> "ERAL1";
+"DGUOK" -> "NMNAT1";
+"DGUOK" -> "TFB1M";
+"DGUOK" -> "TRMT61B";
+"DHFR" -> "NMNAT1";
+"DHFR" -> "NMNAT3";
+"DHFR" -> "MTHFS";
+"DHFR" -> "NTPCR";
+"DPH5" -> "NMNAT1";
+"DPH5" -> "PLPBP";
+"DPH5" -> "NTPCR";
+"DPH5" -> "TFB1M";
+"ERAL1" -> "TFB1M";
+"ERAL1" -> "TRMT61B";
+"ERAL1" -> "TFB2M";
+"ERAL1" -> "DGUOK";
+"FAIM" -> "GLOD4";
+"FAIM" -> "DPH5";
+"FAIM" -> "NAT9";
+"FAIM" -> "HMCES";
+"GLOD4" -> "PLPBP";
+"GLOD4" -> "DPH5";
+"GLOD4" -> "IAH1";
+"GLOD4" -> "RPEL1";
+"HMCES" -> "NMNAT1";
+"HMCES" -> "TFB1M";
+"HMCES" -> "DHFR";
+"HMCES" -> "MGMT";
+"HYKK" -> "PLPBP";
+"HYKK" -> "IAH1";
+"HYKK" -> "TFB1M";
+"HYKK" -> "TRMT61B";
+"IAH1" -> "PLPBP";
+"IAH1" -> "NMNAT1";
+"IAH1" -> "MTHFS";
+"IAH1" -> "TFB1M";
+"IDNK" -> "IAH1";
+"IDNK" -> "DPH5";
+"IDNK" -> "MGMT";
+"IDNK" -> "METTL23";
+"MCUB" -> "DGUOK";
+"MCUB" -> "ERAL1";
+"MCUB" -> "TFB1M";
+"MCUB" -> "TRMT61B";
+"METTL23" -> "IDNK";
+"METTL23" -> "IAH1";
+"METTL23" -> "DPH5";
+"METTL23" -> "NAT9";
+"MGMT" -> "IDNK";
+"MGMT" -> "HMCES";
+"MGMT" -> "IAH1";
+"MGMT" -> "DPH5";
+"MTHFS" -> "IAH1";
+"MTHFS" -> "PLPBP";
+"MTHFS" -> "TFB1M";
+"MTHFS" -> "DHFR";
+"NAT9" -> "NT5C";
+"NAT9" -> "PMVK";
+"NAT9" -> "IDNK";
+"NAT9" -> "DPH5";
+"NMNAT1" -> "NMNAT3";
+"NMNAT1" -> "DPH5";
+"NMNAT1" -> "NTPCR";
+"NMNAT1" -> "DHFR";
+"NMNAT3" -> "NMNAT1";
+"NMNAT3" -> "TFB1M";
+"NMNAT3" -> "DCAKD";
+"NMNAT3" -> "DPH5";
+"NT5C" -> "NAT9";
+"NT5C" -> "PMVK";
+"NT5C" -> "PLPBP";
+"NT5C" -> "MTHFS";
+"NTPCR" -> "NMNAT1";
+"NTPCR" -> "DPH5";
+"NTPCR" -> "PLPBP";
+"NTPCR" -> "NMNAT3";
+"PLPBP" -> "IAH1";
+"PLPBP" -> "GLOD4";
+"PLPBP" -> "HYKK";
+"PLPBP" -> "NMNAT1";
+"PM20D2" -> "IAH1";
+"PM20D2" -> "PLPBP";
+"PM20D2" -> "HYKK";
+"PM20D2" -> "MTHFS";
+"PMVK" -> "NMNAT1";
+"PMVK" -> "NT5C";
+"PMVK" -> "PLPBP";
+"PMVK" -> "NAT9";
+"RPEL1" -> "PLPBP";
+"RPEL1" -> "GLOD4";
+"RPEL1" -> "HYKK";
+"RPEL1" -> "IAH1";
+"TFB1M" -> "TFB2M";
+"TFB1M" -> "ERAL1";
+"TFB1M" -> "NMNAT1";
+"TFB1M" -> "IAH1";
+"TFB2M" -> "TFB1M";
+"TFB2M" -> "TRMT61B";
+"TFB2M" -> "ERAL1";
+"TFB2M" -> "HYKK";
+"TRMT61B" -> "TFB2M";
+"TRMT61B" -> "ERAL1";
+"TRMT61B" -> "TFB1M";
+"TRMT61B" -> "HYKK";
+"ARV1" ["l"="52.151978,6.816089"];
+"DCAKD" ["l"="51.672909,6.359049"];
+"DGUOK" ["l"="53.330822,7.581872"];
+"DHFR" ["l"="52.252876,6.643055"];
+"DPH5" ["l"="52.461010,5.961844"];
+"ERAL1" ["l"="52.855915,7.329069"];
+"FAIM" ["l"="52.432453,6.935432"];
+"GLOD4" ["l"="52.352638,7.421226"];
+"HMCES" ["l"="51.557590,6.269082"];
+"HYKK" ["l"="52.100918,5.883165"];
+"IAH1" ["l"="52.649338,6.756666"];
+"IDNK" ["l"="52.662159,7.218641"];
+"MCUB" ["l"="53.228210,8.168403"];
+"METTL23" ["l"="52.604542,6.117879"];
+"MGMT" ["l"="52.831909,7.421602"];
+"MTHFS" ["l"="51.608837,6.750446"];
+"NAT9" ["l"="51.873444,6.718926"];
+"NMNAT1" ["l"="52.108898,6.609243"];
+"NMNAT3" ["l"="52.160816,6.286952"];
+"NT5C" ["l"="53.498505,8.063881"];
+"NTPCR" ["l"="52.553585,6.139533"];
+"PLPBP" ["l"="52.753292,7.252014"];
+"PM20D2" ["l"="52.551777,6.412471"];
+"PMVK" ["l"="52.804947,7.178000"];
+"RPEL1" ["l"="53.077984,6.933877"];
+"TFB1M" ["l"="52.582596,7.113107"];
+"TFB2M" ["l"="52.754333,8.008296"];
+"TRMT61B" ["l"="51.961636,7.170056"];
 }

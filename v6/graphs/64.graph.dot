@@ -1,262 +1,262 @@
 digraph G {
-"ALK" ["l"="68.119965,32.524193"]
-"AXL" ["l"="68.428459,32.607407"]
-"BMPR1B" ["l"="67.493919,33.012085"]
-"CSF1R" ["l"="68.618683,32.590073"]
-"DDR1" ["l"="68.653610,32.541672"]
-"DDR2" ["l"="68.466919,32.387718"]
-"EGFR" ["l"="68.291023,32.504208"]
-"EPHA1" ["l"="68.892921,32.883553"]
-"EPHA10" ["l"="68.625458,32.488163"]
-"EPHA2" ["l"="69.045120,32.677589"]
-"EPHA3" ["l"="68.274284,32.608910"]
-"EPHA4" ["l"="68.327263,32.597313"]
-"EPHA5" ["l"="68.408630,32.570538"]
-"EPHA7" ["l"="68.255104,32.439240"]
-"EPHA8" ["l"="68.626320,32.508644"]
-"EPHB1" ["l"="68.992096,32.494873"]
-"EPHB2" ["l"="68.798325,32.373413"]
-"EPHB3" ["l"="69.037430,32.417023"]
-"EPHB4" ["l"="68.296982,32.645844"]
-"EPHB6" ["l"="68.381287,32.491722"]
-"ERBB2" ["l"="68.603271,32.526554"]
-"ERBB3" ["l"="68.417572,32.552055"]
-"ERBB4" ["l"="68.482681,32.384823"]
-"FGFR1" ["l"="68.764877,32.473877"]
-"FGFR2" ["l"="68.786598,32.485603"]
-"FGFR3" ["l"="68.712944,32.509865"]
-"FGFR4" ["l"="68.544647,32.144150"]
-"FLT1" ["l"="68.000374,32.551750"]
-"FLT3" ["l"="68.046951,32.470016"]
-"FLT4" ["l"="68.432358,32.498466"]
-"GUCY2C" ["l"="68.276932,31.542770"]
-"IGF1R" ["l"="68.801712,32.239147"]
-"INSR" ["l"="68.549797,32.359535"]
-"INSRR" ["l"="68.574242,32.432919"]
-"KDR" ["l"="67.969864,32.677158"]
-"KIT" ["l"="67.974457,32.467892"]
-"LTK" ["l"="68.449982,32.556126"]
-"MERTK" ["l"="67.910126,32.806145"]
-"MET" ["l"="68.224937,32.292583"]
-"MST1R" ["l"="68.387283,32.555931"]
-"MUSK" ["l"="67.913910,32.672318"]
-"NPR1" ["l"="68.569878,32.147301"]
-"NTRK1" ["l"="68.268456,32.639664"]
-"NTRK2" ["l"="68.495255,32.482559"]
-"PDGFRA" ["l"="68.350128,32.560230"]
-"PDGFRB" ["l"="68.427971,32.534645"]
-"RET" ["l"="68.396614,32.496326"]
-"ROR1" ["l"="68.458122,32.415459"]
-"ROR2" ["l"="68.611626,32.897293"]
-"TEK" ["l"="68.180145,32.892105"]
-"TIE1" ["l"="68.474548,32.560398"]
-"TYRO3" ["l"="68.142227,32.980625"]
-"ALK" -> "RET"
-"ALK" -> "LTK"
-"ALK" -> "EPHB1"
-"ALK" -> "TYRO3"
-"AXL" -> "TYRO3"
-"AXL" -> "MERTK"
-"AXL" -> "FGFR1"
-"AXL" -> "PDGFRB"
-"BMPR1B" -> "EPHA3"
-"BMPR1B" -> "EPHA4"
-"BMPR1B" -> "MUSK"
-"BMPR1B" -> "EPHA5"
-"CSF1R" -> "MERTK"
-"CSF1R" -> "FLT4"
-"CSF1R" -> "AXL"
-"CSF1R" -> "PDGFRB"
-"DDR1" -> "DDR2"
-"DDR1" -> "ERBB2"
-"DDR1" -> "INSRR"
-"DDR1" -> "EPHA8"
-"DDR2" -> "IGF1R"
-"DDR2" -> "PDGFRA"
-"DDR2" -> "INSR"
-"DDR2" -> "RET"
-"EGFR" -> "ERBB4"
-"EGFR" -> "IGF1R"
-"EGFR" -> "INSR"
-"EGFR" -> "EPHB2"
-"EPHA1" -> "EPHB4"
-"EPHA1" -> "EPHA2"
-"EPHA1" -> "EPHB3"
-"EPHA1" -> "EPHA10"
-"EPHA10" -> "EPHA8"
-"EPHA10" -> "INSRR"
-"EPHA10" -> "EPHB3"
-"EPHA10" -> "EPHA1"
-"EPHA2" -> "EPHB3"
-"EPHA2" -> "EPHB4"
-"EPHA2" -> "EPHA8"
-"EPHA2" -> "EPHA1"
-"EPHA3" -> "EPHA5"
-"EPHA3" -> "EPHA4"
-"EPHA3" -> "EPHA7"
-"EPHA3" -> "BMPR1B"
-"EPHA4" -> "EPHA3"
-"EPHA4" -> "EPHA5"
-"EPHA4" -> "EPHB1"
-"EPHA4" -> "EPHA7"
-"EPHA5" -> "EPHA7"
-"EPHA5" -> "EPHA3"
-"EPHA5" -> "EPHA4"
-"EPHA5" -> "BMPR1B"
-"EPHA7" -> "EPHA5"
-"EPHA7" -> "EPHA3"
-"EPHA7" -> "EPHA4"
-"EPHA7" -> "EPHB1"
-"EPHA8" -> "EPHB1"
-"EPHA8" -> "EPHA10"
-"EPHA8" -> "EPHB3"
-"EPHA8" -> "INSRR"
-"EPHB1" -> "EPHA8"
-"EPHB1" -> "EPHA4"
-"EPHB1" -> "EPHB2"
-"EPHB1" -> "EPHA7"
-"EPHB2" -> "EPHB1"
-"EPHB2" -> "EPHA4"
-"EPHB2" -> "EPHB3"
-"EPHB2" -> "INSR"
-"EPHB3" -> "EPHA2"
-"EPHB3" -> "EPHB4"
-"EPHB3" -> "EPHA8"
-"EPHB3" -> "EPHA10"
-"EPHB4" -> "EPHB3"
-"EPHB4" -> "EPHA2"
-"EPHB4" -> "EPHA8"
-"EPHB4" -> "TIE1"
-"EPHB6" -> "EPHA1"
-"EPHB6" -> "INSRR"
-"EPHB6" -> "EPHA10"
-"EPHB6" -> "EPHA8"
-"ERBB2" -> "ERBB3"
-"ERBB2" -> "INSRR"
-"ERBB2" -> "MST1R"
-"ERBB2" -> "EPHB4"
-"ERBB3" -> "ERBB2"
-"ERBB3" -> "INSRR"
-"ERBB3" -> "EGFR"
-"ERBB3" -> "NPR1"
-"ERBB4" -> "IGF1R"
-"ERBB4" -> "EGFR"
-"ERBB4" -> "DDR2"
-"ERBB4" -> "ROR1"
-"FGFR1" -> "FGFR2"
-"FGFR1" -> "AXL"
-"FGFR1" -> "PDGFRA"
-"FGFR1" -> "EPHB2"
-"FGFR2" -> "FGFR3"
-"FGFR2" -> "FGFR1"
-"FGFR2" -> "EPHB1"
-"FGFR2" -> "FGFR4"
-"FGFR3" -> "FGFR4"
-"FGFR3" -> "FGFR2"
-"FGFR3" -> "EPHB3"
-"FGFR3" -> "AXL"
-"FGFR4" -> "FGFR3"
-"FGFR4" -> "FGFR2"
-"FGFR4" -> "RET"
-"FGFR4" -> "EPHA1"
-"FLT1" -> "KDR"
-"FLT1" -> "KIT"
-"FLT1" -> "TEK"
-"FLT1" -> "FLT4"
-"FLT3" -> "KIT"
-"FLT3" -> "FLT1"
-"FLT3" -> "KDR"
-"FLT3" -> "FLT4"
-"FLT4" -> "KDR"
-"FLT4" -> "PDGFRB"
-"FLT4" -> "RET"
-"FLT4" -> "TIE1"
-"GUCY2C" -> "NPR1"
-"GUCY2C" -> "KIT"
-"GUCY2C" -> "IGF1R"
-"GUCY2C" -> "DDR2"
-"IGF1R" -> "INSR"
-"IGF1R" -> "ERBB4"
-"IGF1R" -> "DDR2"
-"IGF1R" -> "EPHA4"
-"INSR" -> "IGF1R"
-"INSR" -> "EPHB2"
-"INSR" -> "EGFR"
-"INSR" -> "NTRK2"
-"INSRR" -> "EPHA10"
-"INSRR" -> "RET"
-"INSRR" -> "EPHA8"
-"INSRR" -> "ERBB2"
-"KDR" -> "FLT1"
-"KDR" -> "PDGFRA"
-"KDR" -> "PDGFRB"
-"KDR" -> "FLT4"
-"KIT" -> "PDGFRA"
-"KIT" -> "KDR"
-"KIT" -> "FLT3"
-"KIT" -> "FLT1"
-"LTK" -> "MST1R"
-"LTK" -> "EPHB4"
-"LTK" -> "ALK"
-"LTK" -> "TYRO3"
-"MERTK" -> "AXL"
-"MERTK" -> "CSF1R"
-"MERTK" -> "KIT"
-"MERTK" -> "PDGFRB"
-"MET" -> "KIT"
-"MET" -> "INSR"
-"MET" -> "IGF1R"
-"MET" -> "FLT3"
-"MST1R" -> "LTK"
-"MST1R" -> "INSRR"
-"MST1R" -> "ERBB2"
-"MST1R" -> "RET"
-"MUSK" -> "BMPR1B"
-"MUSK" -> "ROR1"
-"MUSK" -> "RET"
-"MUSK" -> "PDGFRA"
-"NPR1" -> "GUCY2C"
-"NPR1" -> "EPHB4"
-"NPR1" -> "MST1R"
-"NPR1" -> "RET"
-"NTRK1" -> "INSRR"
-"NTRK1" -> "RET"
-"NTRK1" -> "EPHA8"
-"NTRK1" -> "FGFR4"
-"NTRK2" -> "IGF1R"
-"NTRK2" -> "INSR"
-"NTRK2" -> "PDGFRA"
-"NTRK2" -> "DDR2"
-"PDGFRA" -> "KIT"
-"PDGFRA" -> "PDGFRB"
-"PDGFRA" -> "KDR"
-"PDGFRA" -> "TEK"
-"PDGFRB" -> "PDGFRA"
-"PDGFRB" -> "KDR"
-"PDGFRB" -> "TYRO3"
-"PDGFRB" -> "FLT4"
-"RET" -> "INSRR"
-"RET" -> "FLT4"
-"RET" -> "TYRO3"
-"RET" -> "PDGFRB"
-"ROR1" -> "ROR2"
-"ROR1" -> "MUSK"
-"ROR1" -> "IGF1R"
-"ROR1" -> "DDR2"
-"ROR2" -> "ROR1"
-"ROR2" -> "DDR2"
-"ROR2" -> "MUSK"
-"ROR2" -> "EGFR"
-"TEK" -> "KDR"
-"TEK" -> "PDGFRA"
-"TEK" -> "TIE1"
-"TEK" -> "EPHB1"
-"TIE1" -> "EPHB4"
-"TIE1" -> "FLT4"
-"TIE1" -> "TEK"
-"TIE1" -> "EPHA1"
-"TYRO3" -> "AXL"
-"TYRO3" -> "PDGFRB"
-"TYRO3" -> "RET"
-"TYRO3" -> "EPHB2"
+"ALK" -> "RET";
+"ALK" -> "LTK";
+"ALK" -> "EPHB1";
+"ALK" -> "TYRO3";
+"AXL" -> "TYRO3";
+"AXL" -> "MERTK";
+"AXL" -> "FGFR1";
+"AXL" -> "PDGFRB";
+"BMPR1B" -> "EPHA3";
+"BMPR1B" -> "EPHA4";
+"BMPR1B" -> "MUSK";
+"BMPR1B" -> "EPHA5";
+"CSF1R" -> "MERTK";
+"CSF1R" -> "FLT4";
+"CSF1R" -> "AXL";
+"CSF1R" -> "PDGFRB";
+"DDR1" -> "DDR2";
+"DDR1" -> "ERBB2";
+"DDR1" -> "INSRR";
+"DDR1" -> "EPHA8";
+"DDR2" -> "IGF1R";
+"DDR2" -> "PDGFRA";
+"DDR2" -> "INSR";
+"DDR2" -> "RET";
+"EGFR" -> "ERBB4";
+"EGFR" -> "IGF1R";
+"EGFR" -> "INSR";
+"EGFR" -> "EPHB2";
+"EPHA1" -> "EPHB4";
+"EPHA1" -> "EPHA2";
+"EPHA1" -> "EPHB3";
+"EPHA1" -> "EPHA10";
+"EPHA10" -> "EPHA8";
+"EPHA10" -> "INSRR";
+"EPHA10" -> "EPHB3";
+"EPHA10" -> "EPHA1";
+"EPHA2" -> "EPHB3";
+"EPHA2" -> "EPHB4";
+"EPHA2" -> "EPHA8";
+"EPHA2" -> "EPHA1";
+"EPHA3" -> "EPHA5";
+"EPHA3" -> "EPHA4";
+"EPHA3" -> "EPHA7";
+"EPHA3" -> "BMPR1B";
+"EPHA4" -> "EPHA3";
+"EPHA4" -> "EPHA5";
+"EPHA4" -> "EPHB1";
+"EPHA4" -> "EPHA7";
+"EPHA5" -> "EPHA7";
+"EPHA5" -> "EPHA3";
+"EPHA5" -> "EPHA4";
+"EPHA5" -> "BMPR1B";
+"EPHA7" -> "EPHA5";
+"EPHA7" -> "EPHA3";
+"EPHA7" -> "EPHA4";
+"EPHA7" -> "EPHB1";
+"EPHA8" -> "EPHB1";
+"EPHA8" -> "EPHA10";
+"EPHA8" -> "EPHB3";
+"EPHA8" -> "INSRR";
+"EPHB1" -> "EPHA8";
+"EPHB1" -> "EPHA4";
+"EPHB1" -> "EPHB2";
+"EPHB1" -> "EPHA7";
+"EPHB2" -> "EPHB1";
+"EPHB2" -> "EPHA4";
+"EPHB2" -> "EPHB3";
+"EPHB2" -> "INSR";
+"EPHB3" -> "EPHA2";
+"EPHB3" -> "EPHB4";
+"EPHB3" -> "EPHA8";
+"EPHB3" -> "EPHA10";
+"EPHB4" -> "EPHB3";
+"EPHB4" -> "EPHA2";
+"EPHB4" -> "EPHA8";
+"EPHB4" -> "TIE1";
+"EPHB6" -> "EPHA1";
+"EPHB6" -> "INSRR";
+"EPHB6" -> "EPHA10";
+"EPHB6" -> "EPHA8";
+"ERBB2" -> "ERBB3";
+"ERBB2" -> "INSRR";
+"ERBB2" -> "MST1R";
+"ERBB2" -> "EPHB4";
+"ERBB3" -> "ERBB2";
+"ERBB3" -> "INSRR";
+"ERBB3" -> "EGFR";
+"ERBB3" -> "NPR1";
+"ERBB4" -> "IGF1R";
+"ERBB4" -> "EGFR";
+"ERBB4" -> "DDR2";
+"ERBB4" -> "ROR1";
+"FGFR1" -> "FGFR2";
+"FGFR1" -> "AXL";
+"FGFR1" -> "PDGFRA";
+"FGFR1" -> "EPHB2";
+"FGFR2" -> "FGFR3";
+"FGFR2" -> "FGFR1";
+"FGFR2" -> "EPHB1";
+"FGFR2" -> "FGFR4";
+"FGFR3" -> "FGFR4";
+"FGFR3" -> "FGFR2";
+"FGFR3" -> "EPHB3";
+"FGFR3" -> "AXL";
+"FGFR4" -> "FGFR3";
+"FGFR4" -> "FGFR2";
+"FGFR4" -> "RET";
+"FGFR4" -> "EPHA1";
+"FLT1" -> "KDR";
+"FLT1" -> "KIT";
+"FLT1" -> "TEK";
+"FLT1" -> "FLT4";
+"FLT3" -> "KIT";
+"FLT3" -> "FLT1";
+"FLT3" -> "KDR";
+"FLT3" -> "FLT4";
+"FLT4" -> "KDR";
+"FLT4" -> "PDGFRB";
+"FLT4" -> "RET";
+"FLT4" -> "TIE1";
+"GUCY2C" -> "NPR1";
+"GUCY2C" -> "KIT";
+"GUCY2C" -> "IGF1R";
+"GUCY2C" -> "DDR2";
+"IGF1R" -> "INSR";
+"IGF1R" -> "ERBB4";
+"IGF1R" -> "DDR2";
+"IGF1R" -> "EPHA4";
+"INSR" -> "IGF1R";
+"INSR" -> "EPHB2";
+"INSR" -> "EGFR";
+"INSR" -> "NTRK2";
+"INSRR" -> "EPHA10";
+"INSRR" -> "RET";
+"INSRR" -> "EPHA8";
+"INSRR" -> "ERBB2";
+"KDR" -> "FLT1";
+"KDR" -> "PDGFRA";
+"KDR" -> "PDGFRB";
+"KDR" -> "FLT4";
+"KIT" -> "PDGFRA";
+"KIT" -> "KDR";
+"KIT" -> "FLT3";
+"KIT" -> "FLT1";
+"LTK" -> "MST1R";
+"LTK" -> "EPHB4";
+"LTK" -> "ALK";
+"LTK" -> "TYRO3";
+"MERTK" -> "AXL";
+"MERTK" -> "CSF1R";
+"MERTK" -> "KIT";
+"MERTK" -> "PDGFRB";
+"MET" -> "KIT";
+"MET" -> "INSR";
+"MET" -> "IGF1R";
+"MET" -> "FLT3";
+"MST1R" -> "LTK";
+"MST1R" -> "INSRR";
+"MST1R" -> "ERBB2";
+"MST1R" -> "RET";
+"MUSK" -> "BMPR1B";
+"MUSK" -> "ROR1";
+"MUSK" -> "RET";
+"MUSK" -> "PDGFRA";
+"NPR1" -> "GUCY2C";
+"NPR1" -> "EPHB4";
+"NPR1" -> "MST1R";
+"NPR1" -> "RET";
+"NTRK1" -> "INSRR";
+"NTRK1" -> "RET";
+"NTRK1" -> "EPHA8";
+"NTRK1" -> "FGFR4";
+"NTRK2" -> "IGF1R";
+"NTRK2" -> "INSR";
+"NTRK2" -> "PDGFRA";
+"NTRK2" -> "DDR2";
+"PDGFRA" -> "KIT";
+"PDGFRA" -> "PDGFRB";
+"PDGFRA" -> "KDR";
+"PDGFRA" -> "TEK";
+"PDGFRB" -> "PDGFRA";
+"PDGFRB" -> "KDR";
+"PDGFRB" -> "TYRO3";
+"PDGFRB" -> "FLT4";
+"RET" -> "INSRR";
+"RET" -> "FLT4";
+"RET" -> "TYRO3";
+"RET" -> "PDGFRB";
+"ROR1" -> "ROR2";
+"ROR1" -> "MUSK";
+"ROR1" -> "IGF1R";
+"ROR1" -> "DDR2";
+"ROR2" -> "ROR1";
+"ROR2" -> "DDR2";
+"ROR2" -> "MUSK";
+"ROR2" -> "EGFR";
+"TEK" -> "KDR";
+"TEK" -> "PDGFRA";
+"TEK" -> "TIE1";
+"TEK" -> "EPHB1";
+"TIE1" -> "EPHB4";
+"TIE1" -> "FLT4";
+"TIE1" -> "TEK";
+"TIE1" -> "EPHA1";
+"TYRO3" -> "AXL";
+"TYRO3" -> "PDGFRB";
+"TYRO3" -> "RET";
+"TYRO3" -> "EPHB2";
+"ALK" ["l"="68.119965,32.524193"];
+"AXL" ["l"="68.428459,32.607407"];
+"BMPR1B" ["l"="67.493919,33.012085"];
+"CSF1R" ["l"="68.618683,32.590073"];
+"DDR1" ["l"="68.653610,32.541672"];
+"DDR2" ["l"="68.466919,32.387718"];
+"EGFR" ["l"="68.291023,32.504208"];
+"EPHA1" ["l"="68.892921,32.883553"];
+"EPHA10" ["l"="68.625458,32.488163"];
+"EPHA2" ["l"="69.045120,32.677589"];
+"EPHA3" ["l"="68.274284,32.608910"];
+"EPHA4" ["l"="68.327263,32.597313"];
+"EPHA5" ["l"="68.408630,32.570538"];
+"EPHA7" ["l"="68.255104,32.439240"];
+"EPHA8" ["l"="68.626320,32.508644"];
+"EPHB1" ["l"="68.992096,32.494873"];
+"EPHB2" ["l"="68.798325,32.373413"];
+"EPHB3" ["l"="69.037430,32.417023"];
+"EPHB4" ["l"="68.296982,32.645844"];
+"EPHB6" ["l"="68.381287,32.491722"];
+"ERBB2" ["l"="68.603271,32.526554"];
+"ERBB3" ["l"="68.417572,32.552055"];
+"ERBB4" ["l"="68.482681,32.384823"];
+"FGFR1" ["l"="68.764877,32.473877"];
+"FGFR2" ["l"="68.786598,32.485603"];
+"FGFR3" ["l"="68.712944,32.509865"];
+"FGFR4" ["l"="68.544647,32.144150"];
+"FLT1" ["l"="68.000374,32.551750"];
+"FLT3" ["l"="68.046951,32.470016"];
+"FLT4" ["l"="68.432358,32.498466"];
+"GUCY2C" ["l"="68.276932,31.542770"];
+"IGF1R" ["l"="68.801712,32.239147"];
+"INSR" ["l"="68.549797,32.359535"];
+"INSRR" ["l"="68.574242,32.432919"];
+"KDR" ["l"="67.969864,32.677158"];
+"KIT" ["l"="67.974457,32.467892"];
+"LTK" ["l"="68.449982,32.556126"];
+"MERTK" ["l"="67.910126,32.806145"];
+"MET" ["l"="68.224937,32.292583"];
+"MST1R" ["l"="68.387283,32.555931"];
+"MUSK" ["l"="67.913910,32.672318"];
+"NPR1" ["l"="68.569878,32.147301"];
+"NTRK1" ["l"="68.268456,32.639664"];
+"NTRK2" ["l"="68.495255,32.482559"];
+"PDGFRA" ["l"="68.350128,32.560230"];
+"PDGFRB" ["l"="68.427971,32.534645"];
+"RET" ["l"="68.396614,32.496326"];
+"ROR1" ["l"="68.458122,32.415459"];
+"ROR2" ["l"="68.611626,32.897293"];
+"TEK" ["l"="68.180145,32.892105"];
+"TIE1" ["l"="68.474548,32.560398"];
+"TYRO3" ["l"="68.142227,32.980625"];
 }

@@ -1,102 +1,102 @@
 digraph G {
-"DMRT2" ["l"="-13.090880,17.349688"]
-"DMRTB1" ["l"="-13.087957,17.771481"]
-"EHF" ["l"="-13.092925,15.708457"]
-"ELF3" ["l"="-13.130936,16.032711"]
-"ELF5" ["l"="-13.501957,16.049103"]
-"ERFL" ["l"="-12.264348,16.694241"]
-"ETS1" ["l"="-13.569323,15.254881"]
-"ETS2" ["l"="-13.582282,16.082802"]
-"ETV1" ["l"="-14.205360,15.149735"]
-"ETV5" ["l"="-13.924953,14.893793"]
-"ETV6" ["l"="-13.755642,15.116877"]
-"ETV7" ["l"="-13.307970,16.056507"]
-"FOXN4" ["l"="-12.287651,15.974182"]
-"FOXO6" ["l"="-13.438083,17.684456"]
-"MEF2B" ["l"="-12.164647,16.003872"]
-"PRR35" ["l"="-13.448107,16.597422"]
-"SPDEF" ["l"="-13.330411,15.948315"]
-"SPI1" ["l"="-13.617524,15.988955"]
-"SPIB" ["l"="-13.369529,16.069817"]
-"SPIC" ["l"="-13.360144,16.207293"]
-"DMRT2" -> "FOXO6"
-"DMRT2" -> "PRR35"
-"DMRT2" -> "ERFL"
-"DMRT2" -> "SPDEF"
-"DMRTB1" -> "PRR35"
-"DMRTB1" -> "FOXO6"
-"DMRTB1" -> "FOXN4"
-"DMRTB1" -> "ERFL"
-"EHF" -> "ELF5"
-"EHF" -> "ETS2"
-"EHF" -> "SPDEF"
-"EHF" -> "ELF3"
-"ELF3" -> "SPDEF"
-"ELF3" -> "ETS2"
-"ELF3" -> "EHF"
-"ELF3" -> "ELF5"
-"ELF5" -> "EHF"
-"ELF5" -> "SPDEF"
-"ELF5" -> "ETS1"
-"ELF5" -> "ETS2"
-"ERFL" -> "FOXO6"
-"ERFL" -> "PRR35"
-"ERFL" -> "FOXN4"
-"ERFL" -> "ETS1"
-"ETS1" -> "ETV6"
-"ETS1" -> "ETS2"
-"ETS1" -> "ETV5"
-"ETS1" -> "ETV1"
-"ETS2" -> "EHF"
-"ETS2" -> "SPDEF"
-"ETS2" -> "SPIB"
-"ETS2" -> "ELF3"
-"ETV1" -> "ETV5"
-"ETV1" -> "ETS1"
-"ETV1" -> "ETV6"
-"ETV1" -> "ELF5"
-"ETV5" -> "ETV1"
-"ETV5" -> "ETV6"
-"ETV5" -> "ETS1"
-"ETV5" -> "FOXN4"
-"ETV6" -> "ETV5"
-"ETV6" -> "ETS1"
-"ETV6" -> "ETV1"
-"ETV6" -> "ETV7"
-"ETV7" -> "SPDEF"
-"ETV7" -> "ETS2"
-"ETV7" -> "EHF"
-"ETV7" -> "ETV6"
-"FOXN4" -> "ETV5"
-"FOXN4" -> "ETV7"
-"FOXN4" -> "ERFL"
-"FOXN4" -> "FOXO6"
-"FOXO6" -> "PRR35"
-"FOXO6" -> "ERFL"
-"FOXO6" -> "FOXN4"
-"FOXO6" -> "DMRTB1"
-"MEF2B" -> "ERFL"
-"MEF2B" -> "DMRTB1"
-"MEF2B" -> "FOXO6"
-"MEF2B" -> "PRR35"
-"PRR35" -> "FOXO6"
-"PRR35" -> "ERFL"
-"PRR35" -> "DMRTB1"
-"PRR35" -> "FOXN4"
-"SPDEF" -> "ELF5"
-"SPDEF" -> "ETS2"
-"SPDEF" -> "ETV7"
-"SPDEF" -> "ELF3"
-"SPI1" -> "SPIB"
-"SPI1" -> "SPDEF"
-"SPI1" -> "EHF"
-"SPI1" -> "ETS2"
-"SPIB" -> "SPI1"
-"SPIB" -> "ETS2"
-"SPIB" -> "SPDEF"
-"SPIB" -> "ELF3"
-"SPIC" -> "ELF5"
-"SPIC" -> "EHF"
-"SPIC" -> "ETV7"
-"SPIC" -> "SPIB"
+"DMRT2" -> "FOXO6";
+"DMRT2" -> "PRR35";
+"DMRT2" -> "ERFL";
+"DMRT2" -> "SPDEF";
+"DMRTB1" -> "PRR35";
+"DMRTB1" -> "FOXO6";
+"DMRTB1" -> "FOXN4";
+"DMRTB1" -> "ERFL";
+"EHF" -> "ELF5";
+"EHF" -> "ETS2";
+"EHF" -> "SPDEF";
+"EHF" -> "ELF3";
+"ELF3" -> "SPDEF";
+"ELF3" -> "ETS2";
+"ELF3" -> "EHF";
+"ELF3" -> "ELF5";
+"ELF5" -> "EHF";
+"ELF5" -> "SPDEF";
+"ELF5" -> "ETS1";
+"ELF5" -> "ETS2";
+"ERFL" -> "FOXO6";
+"ERFL" -> "PRR35";
+"ERFL" -> "FOXN4";
+"ERFL" -> "ETS1";
+"ETS1" -> "ETV6";
+"ETS1" -> "ETS2";
+"ETS1" -> "ETV5";
+"ETS1" -> "ETV1";
+"ETS2" -> "EHF";
+"ETS2" -> "SPDEF";
+"ETS2" -> "SPIB";
+"ETS2" -> "ELF3";
+"ETV1" -> "ETV5";
+"ETV1" -> "ETS1";
+"ETV1" -> "ETV6";
+"ETV1" -> "ELF5";
+"ETV5" -> "ETV1";
+"ETV5" -> "ETV6";
+"ETV5" -> "ETS1";
+"ETV5" -> "FOXN4";
+"ETV6" -> "ETV5";
+"ETV6" -> "ETS1";
+"ETV6" -> "ETV1";
+"ETV6" -> "ETV7";
+"ETV7" -> "SPDEF";
+"ETV7" -> "ETS2";
+"ETV7" -> "EHF";
+"ETV7" -> "ETV6";
+"FOXN4" -> "ETV5";
+"FOXN4" -> "ETV7";
+"FOXN4" -> "ERFL";
+"FOXN4" -> "FOXO6";
+"FOXO6" -> "PRR35";
+"FOXO6" -> "ERFL";
+"FOXO6" -> "FOXN4";
+"FOXO6" -> "DMRTB1";
+"MEF2B" -> "ERFL";
+"MEF2B" -> "DMRTB1";
+"MEF2B" -> "FOXO6";
+"MEF2B" -> "PRR35";
+"PRR35" -> "FOXO6";
+"PRR35" -> "ERFL";
+"PRR35" -> "DMRTB1";
+"PRR35" -> "FOXN4";
+"SPDEF" -> "ELF5";
+"SPDEF" -> "ETS2";
+"SPDEF" -> "ETV7";
+"SPDEF" -> "ELF3";
+"SPI1" -> "SPIB";
+"SPI1" -> "SPDEF";
+"SPI1" -> "EHF";
+"SPI1" -> "ETS2";
+"SPIB" -> "SPI1";
+"SPIB" -> "ETS2";
+"SPIB" -> "SPDEF";
+"SPIB" -> "ELF3";
+"SPIC" -> "ELF5";
+"SPIC" -> "EHF";
+"SPIC" -> "ETV7";
+"SPIC" -> "SPIB";
+"DMRT2" ["l"="-13.090880,17.349688"];
+"DMRTB1" ["l"="-13.087957,17.771481"];
+"EHF" ["l"="-13.092925,15.708457"];
+"ELF3" ["l"="-13.130936,16.032711"];
+"ELF5" ["l"="-13.501957,16.049103"];
+"ERFL" ["l"="-12.264348,16.694241"];
+"ETS1" ["l"="-13.569323,15.254881"];
+"ETS2" ["l"="-13.582282,16.082802"];
+"ETV1" ["l"="-14.205360,15.149735"];
+"ETV5" ["l"="-13.924953,14.893793"];
+"ETV6" ["l"="-13.755642,15.116877"];
+"ETV7" ["l"="-13.307970,16.056507"];
+"FOXN4" ["l"="-12.287651,15.974182"];
+"FOXO6" ["l"="-13.438083,17.684456"];
+"MEF2B" ["l"="-12.164647,16.003872"];
+"PRR35" ["l"="-13.448107,16.597422"];
+"SPDEF" ["l"="-13.330411,15.948315"];
+"SPI1" ["l"="-13.617524,15.988955"];
+"SPIB" ["l"="-13.369529,16.069817"];
+"SPIC" ["l"="-13.360144,16.207293"];
 }

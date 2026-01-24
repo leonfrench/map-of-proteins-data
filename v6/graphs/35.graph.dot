@@ -1,87 +1,87 @@
 digraph G {
-"B2M" ["l"="8.447072,53.506035"]
-"IGHA1" ["l"="8.316668,53.487904"]
-"IGHA2" ["l"="8.317368,53.455223"]
-"IGHD" ["l"="8.557782,53.678856"]
-"IGHE" ["l"="8.336226,53.399422"]
-"IGHG1" ["l"="8.347859,53.306469"]
-"IGHG2" ["l"="8.834301,54.062393"]
-"IGHG3" ["l"="8.837430,53.464199"]
-"IGHG4" ["l"="8.330134,53.849178"]
-"IGHM" ["l"="8.919692,53.745544"]
-"IGKC" ["l"="8.710805,53.371365"]
-"IGLC1" ["l"="8.234598,54.032219"]
-"IGLC2" ["l"="8.363056,53.311504"]
-"IGLC3" ["l"="8.140113,53.556458"]
-"IGLC7" ["l"="8.373152,54.015388"]
-"IGLL1" ["l"="8.579574,53.795200"]
-"IGLL5" ["l"="8.594453,53.833172"]
-"B2M" -> "IGHG2"
-"B2M" -> "IGKC"
-"B2M" -> "IGHG1"
-"B2M" -> "IGHG4"
-"IGHA1" -> "IGHA2"
-"IGHA1" -> "IGHG1"
-"IGHA1" -> "IGHG2"
-"IGHA1" -> "IGHG3"
-"IGHA2" -> "IGHA1"
-"IGHA2" -> "IGHG1"
-"IGHA2" -> "IGHG2"
-"IGHA2" -> "IGHG4"
-"IGHD" -> "IGHM"
-"IGHD" -> "IGHG4"
-"IGHD" -> "IGHA2"
-"IGHD" -> "IGHG1"
-"IGHE" -> "IGHM"
-"IGHE" -> "IGHA2"
-"IGHE" -> "IGHD"
-"IGHE" -> "IGHA1"
-"IGHG1" -> "IGHG2"
-"IGHG1" -> "IGHG4"
-"IGHG1" -> "IGHG3"
-"IGHG1" -> "IGHA1"
-"IGHG2" -> "IGHG1"
-"IGHG2" -> "IGHG4"
-"IGHG2" -> "IGHG3"
-"IGHG2" -> "IGHA1"
-"IGHG3" -> "IGHG4"
-"IGHG3" -> "IGHG1"
-"IGHG3" -> "IGHG2"
-"IGHG3" -> "IGHA1"
-"IGHG4" -> "IGHG2"
-"IGHG4" -> "IGHG1"
-"IGHG4" -> "IGHG3"
-"IGHG4" -> "IGHA1"
-"IGHM" -> "IGHG4"
-"IGHM" -> "IGHG1"
-"IGHM" -> "IGHE"
-"IGHM" -> "IGKC"
-"IGKC" -> "IGLC2"
-"IGKC" -> "IGLC3"
-"IGKC" -> "IGLC1"
-"IGKC" -> "IGLC7"
-"IGLC1" -> "IGLC3"
-"IGLC1" -> "IGLC2"
-"IGLC1" -> "IGKC"
-"IGLC1" -> "IGLC7"
-"IGLC2" -> "IGLC3"
-"IGLC2" -> "IGLC1"
-"IGLC2" -> "IGKC"
-"IGLC2" -> "IGLC7"
-"IGLC3" -> "IGLC2"
-"IGLC3" -> "IGLC1"
-"IGLC3" -> "IGLC7"
-"IGLC3" -> "IGKC"
-"IGLC7" -> "IGLC3"
-"IGLC7" -> "IGLC2"
-"IGLC7" -> "IGLC1"
-"IGLC7" -> "IGKC"
-"IGLL1" -> "IGLL5"
-"IGLL1" -> "IGLC1"
-"IGLL1" -> "IGLC3"
-"IGLL1" -> "IGLC7"
-"IGLL5" -> "IGLL1"
-"IGLL5" -> "IGLC7"
-"IGLL5" -> "IGLC1"
-"IGLL5" -> "IGLC3"
+"B2M" -> "IGHG2";
+"B2M" -> "IGKC";
+"B2M" -> "IGHG1";
+"B2M" -> "IGHG4";
+"IGHA1" -> "IGHA2";
+"IGHA1" -> "IGHG1";
+"IGHA1" -> "IGHG2";
+"IGHA1" -> "IGHG3";
+"IGHA2" -> "IGHA1";
+"IGHA2" -> "IGHG1";
+"IGHA2" -> "IGHG2";
+"IGHA2" -> "IGHG4";
+"IGHD" -> "IGHM";
+"IGHD" -> "IGHG4";
+"IGHD" -> "IGHA2";
+"IGHD" -> "IGHG1";
+"IGHE" -> "IGHM";
+"IGHE" -> "IGHA2";
+"IGHE" -> "IGHD";
+"IGHE" -> "IGHA1";
+"IGHG1" -> "IGHG2";
+"IGHG1" -> "IGHG4";
+"IGHG1" -> "IGHG3";
+"IGHG1" -> "IGHA1";
+"IGHG2" -> "IGHG1";
+"IGHG2" -> "IGHG4";
+"IGHG2" -> "IGHG3";
+"IGHG2" -> "IGHA1";
+"IGHG3" -> "IGHG4";
+"IGHG3" -> "IGHG1";
+"IGHG3" -> "IGHG2";
+"IGHG3" -> "IGHA1";
+"IGHG4" -> "IGHG2";
+"IGHG4" -> "IGHG1";
+"IGHG4" -> "IGHG3";
+"IGHG4" -> "IGHA1";
+"IGHM" -> "IGHG4";
+"IGHM" -> "IGHG1";
+"IGHM" -> "IGHE";
+"IGHM" -> "IGKC";
+"IGKC" -> "IGLC2";
+"IGKC" -> "IGLC3";
+"IGKC" -> "IGLC1";
+"IGKC" -> "IGLC7";
+"IGLC1" -> "IGLC3";
+"IGLC1" -> "IGLC2";
+"IGLC1" -> "IGKC";
+"IGLC1" -> "IGLC7";
+"IGLC2" -> "IGLC3";
+"IGLC2" -> "IGLC1";
+"IGLC2" -> "IGKC";
+"IGLC2" -> "IGLC7";
+"IGLC3" -> "IGLC2";
+"IGLC3" -> "IGLC1";
+"IGLC3" -> "IGLC7";
+"IGLC3" -> "IGKC";
+"IGLC7" -> "IGLC3";
+"IGLC7" -> "IGLC2";
+"IGLC7" -> "IGLC1";
+"IGLC7" -> "IGKC";
+"IGLL1" -> "IGLL5";
+"IGLL1" -> "IGLC1";
+"IGLL1" -> "IGLC3";
+"IGLL1" -> "IGLC7";
+"IGLL5" -> "IGLL1";
+"IGLL5" -> "IGLC7";
+"IGLL5" -> "IGLC1";
+"IGLL5" -> "IGLC3";
+"B2M" ["l"="8.447072,53.506035"];
+"IGHA1" ["l"="8.316668,53.487904"];
+"IGHA2" ["l"="8.317368,53.455223"];
+"IGHD" ["l"="8.557782,53.678856"];
+"IGHE" ["l"="8.336226,53.399422"];
+"IGHG1" ["l"="8.347859,53.306469"];
+"IGHG2" ["l"="8.834301,54.062393"];
+"IGHG3" ["l"="8.837430,53.464199"];
+"IGHG4" ["l"="8.330134,53.849178"];
+"IGHM" ["l"="8.919692,53.745544"];
+"IGKC" ["l"="8.710805,53.371365"];
+"IGLC1" ["l"="8.234598,54.032219"];
+"IGLC2" ["l"="8.363056,53.311504"];
+"IGLC3" ["l"="8.140113,53.556458"];
+"IGLC7" ["l"="8.373152,54.015388"];
+"IGLL1" ["l"="8.579574,53.795200"];
+"IGLL5" ["l"="8.594453,53.833172"];
 }

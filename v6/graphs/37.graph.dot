@@ -1,97 +1,97 @@
 digraph G {
-"WNT1" ["l"="98.261917,-37.337151"]
-"WNT10A" ["l"="98.568611,-37.476322"]
-"WNT10B" ["l"="98.571938,-37.461994"]
-"WNT11" ["l"="98.645477,-37.236706"]
-"WNT16" ["l"="98.897484,-37.617214"]
-"WNT2" ["l"="98.922920,-37.179260"]
-"WNT2B" ["l"="98.731026,-37.767670"]
-"WNT3" ["l"="98.818604,-37.806126"]
-"WNT3A" ["l"="98.682846,-37.903980"]
-"WNT4" ["l"="98.925835,-37.381561"]
-"WNT5A" ["l"="98.801750,-37.194675"]
-"WNT5B" ["l"="98.357864,-37.481796"]
-"WNT6" ["l"="98.216637,-37.315884"]
-"WNT7A" ["l"="98.961014,-37.297291"]
-"WNT7B" ["l"="98.502678,-37.744625"]
-"WNT8A" ["l"="98.470543,-37.370335"]
-"WNT8B" ["l"="98.366737,-37.885078"]
-"WNT9A" ["l"="98.618469,-37.816833"]
-"WNT9B" ["l"="98.586761,-37.470673"]
-"WNT1" -> "WNT6"
-"WNT1" -> "WNT10B"
-"WNT1" -> "WNT8B"
-"WNT1" -> "WNT9B"
-"WNT10A" -> "WNT10B"
-"WNT10A" -> "WNT9A"
-"WNT10A" -> "WNT3A"
-"WNT10A" -> "WNT9B"
-"WNT10B" -> "WNT9A"
-"WNT10B" -> "WNT10A"
-"WNT10B" -> "WNT1"
-"WNT10B" -> "WNT9B"
-"WNT11" -> "WNT7B"
-"WNT11" -> "WNT7A"
-"WNT11" -> "WNT9B"
-"WNT11" -> "WNT4"
-"WNT16" -> "WNT9A"
-"WNT16" -> "WNT2"
-"WNT16" -> "WNT7A"
-"WNT16" -> "WNT7B"
-"WNT2" -> "WNT16"
-"WNT2" -> "WNT9A"
-"WNT2" -> "WNT7A"
-"WNT2" -> "WNT7B"
-"WNT2B" -> "WNT7A"
-"WNT2B" -> "WNT9A"
-"WNT2B" -> "WNT7B"
-"WNT2B" -> "WNT2"
-"WNT3" -> "WNT3A"
-"WNT3" -> "WNT7B"
-"WNT3" -> "WNT7A"
-"WNT3" -> "WNT9B"
-"WNT3A" -> "WNT3"
-"WNT3A" -> "WNT7B"
-"WNT3A" -> "WNT8B"
-"WNT3A" -> "WNT9B"
-"WNT4" -> "WNT9B"
-"WNT4" -> "WNT7A"
-"WNT4" -> "WNT7B"
-"WNT4" -> "WNT5A"
-"WNT5A" -> "WNT7A"
-"WNT5A" -> "WNT7B"
-"WNT5A" -> "WNT3A"
-"WNT5A" -> "WNT4"
-"WNT5B" -> "WNT7A"
-"WNT5B" -> "WNT3"
-"WNT5B" -> "WNT5A"
-"WNT5B" -> "WNT16"
-"WNT6" -> "WNT1"
-"WNT6" -> "WNT10A"
-"WNT6" -> "WNT9B"
-"WNT6" -> "WNT10B"
-"WNT7A" -> "WNT7B"
-"WNT7A" -> "WNT5A"
-"WNT7A" -> "WNT4"
-"WNT7A" -> "WNT3"
-"WNT7B" -> "WNT7A"
-"WNT7B" -> "WNT3A"
-"WNT7B" -> "WNT3"
-"WNT7B" -> "WNT5A"
-"WNT8A" -> "WNT8B"
-"WNT8A" -> "WNT3A"
-"WNT8A" -> "WNT7B"
-"WNT8A" -> "WNT9B"
-"WNT8B" -> "WNT8A"
-"WNT8B" -> "WNT3A"
-"WNT8B" -> "WNT7B"
-"WNT8B" -> "WNT1"
-"WNT9A" -> "WNT10B"
-"WNT9A" -> "WNT10A"
-"WNT9A" -> "WNT9B"
-"WNT9A" -> "WNT16"
-"WNT9B" -> "WNT4"
-"WNT9B" -> "WNT3A"
-"WNT9B" -> "WNT9A"
-"WNT9B" -> "WNT7A"
+"WNT1" -> "WNT6";
+"WNT1" -> "WNT10B";
+"WNT1" -> "WNT8B";
+"WNT1" -> "WNT9B";
+"WNT10A" -> "WNT10B";
+"WNT10A" -> "WNT9A";
+"WNT10A" -> "WNT3A";
+"WNT10A" -> "WNT9B";
+"WNT10B" -> "WNT9A";
+"WNT10B" -> "WNT10A";
+"WNT10B" -> "WNT1";
+"WNT10B" -> "WNT9B";
+"WNT11" -> "WNT7B";
+"WNT11" -> "WNT7A";
+"WNT11" -> "WNT9B";
+"WNT11" -> "WNT4";
+"WNT16" -> "WNT9A";
+"WNT16" -> "WNT2";
+"WNT16" -> "WNT7A";
+"WNT16" -> "WNT7B";
+"WNT2" -> "WNT16";
+"WNT2" -> "WNT9A";
+"WNT2" -> "WNT7A";
+"WNT2" -> "WNT7B";
+"WNT2B" -> "WNT7A";
+"WNT2B" -> "WNT9A";
+"WNT2B" -> "WNT7B";
+"WNT2B" -> "WNT2";
+"WNT3" -> "WNT3A";
+"WNT3" -> "WNT7B";
+"WNT3" -> "WNT7A";
+"WNT3" -> "WNT9B";
+"WNT3A" -> "WNT3";
+"WNT3A" -> "WNT7B";
+"WNT3A" -> "WNT8B";
+"WNT3A" -> "WNT9B";
+"WNT4" -> "WNT9B";
+"WNT4" -> "WNT7A";
+"WNT4" -> "WNT7B";
+"WNT4" -> "WNT5A";
+"WNT5A" -> "WNT7A";
+"WNT5A" -> "WNT7B";
+"WNT5A" -> "WNT3A";
+"WNT5A" -> "WNT4";
+"WNT5B" -> "WNT7A";
+"WNT5B" -> "WNT3";
+"WNT5B" -> "WNT5A";
+"WNT5B" -> "WNT16";
+"WNT6" -> "WNT1";
+"WNT6" -> "WNT10A";
+"WNT6" -> "WNT9B";
+"WNT6" -> "WNT10B";
+"WNT7A" -> "WNT7B";
+"WNT7A" -> "WNT5A";
+"WNT7A" -> "WNT4";
+"WNT7A" -> "WNT3";
+"WNT7B" -> "WNT7A";
+"WNT7B" -> "WNT3A";
+"WNT7B" -> "WNT3";
+"WNT7B" -> "WNT5A";
+"WNT8A" -> "WNT8B";
+"WNT8A" -> "WNT3A";
+"WNT8A" -> "WNT7B";
+"WNT8A" -> "WNT9B";
+"WNT8B" -> "WNT8A";
+"WNT8B" -> "WNT3A";
+"WNT8B" -> "WNT7B";
+"WNT8B" -> "WNT1";
+"WNT9A" -> "WNT10B";
+"WNT9A" -> "WNT10A";
+"WNT9A" -> "WNT9B";
+"WNT9A" -> "WNT16";
+"WNT9B" -> "WNT4";
+"WNT9B" -> "WNT3A";
+"WNT9B" -> "WNT9A";
+"WNT9B" -> "WNT7A";
+"WNT1" ["l"="98.261917,-37.337151"];
+"WNT10A" ["l"="98.568611,-37.476322"];
+"WNT10B" ["l"="98.571938,-37.461994"];
+"WNT11" ["l"="98.645477,-37.236706"];
+"WNT16" ["l"="98.897484,-37.617214"];
+"WNT2" ["l"="98.922920,-37.179260"];
+"WNT2B" ["l"="98.731026,-37.767670"];
+"WNT3" ["l"="98.818604,-37.806126"];
+"WNT3A" ["l"="98.682846,-37.903980"];
+"WNT4" ["l"="98.925835,-37.381561"];
+"WNT5A" ["l"="98.801750,-37.194675"];
+"WNT5B" ["l"="98.357864,-37.481796"];
+"WNT6" ["l"="98.216637,-37.315884"];
+"WNT7A" ["l"="98.961014,-37.297291"];
+"WNT7B" ["l"="98.502678,-37.744625"];
+"WNT8A" ["l"="98.470543,-37.370335"];
+"WNT8B" ["l"="98.366737,-37.885078"];
+"WNT9A" ["l"="98.618469,-37.816833"];
+"WNT9B" ["l"="98.586761,-37.470673"];
 }

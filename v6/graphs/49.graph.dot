@@ -1,182 +1,182 @@
 digraph G {
-"AMBP" ["l"="-10.641311,-16.274086"]
-"APOD" ["l"="-11.989835,-16.197727"]
-"APOM" ["l"="-11.670698,-16.048239"]
-"C8G" ["l"="-11.580202,-16.002966"]
-"CAMP" ["l"="-11.595485,-15.515628"]
-"CST1" ["l"="-11.600902,-15.608819"]
-"CST11" ["l"="-10.840687,-15.861633"]
-"CST2" ["l"="-11.247147,-15.620309"]
-"CST3" ["l"="-11.237947,-15.941513"]
-"CST4" ["l"="-11.174251,-15.616132"]
-"CST5" ["l"="-11.430240,-15.454885"]
-"CST6" ["l"="-11.407488,-15.950567"]
-"CST7" ["l"="-10.989559,-15.636601"]
-"CST8" ["l"="-10.920475,-15.897446"]
-"CST9L" ["l"="-10.547915,-15.515597"]
-"CSTL1" ["l"="-10.968187,-15.286304"]
-"GKN1" ["l"="-11.132792,-15.754528"]
-"GKN2" ["l"="-11.061610,-15.772809"]
-"LCN1" ["l"="-11.934294,-16.404549"]
-"LCN10" ["l"="-10.744510,-16.033401"]
-"LCN12" ["l"="-11.527473,-15.983412"]
-"LCN15" ["l"="-11.668165,-16.028646"]
-"LCN2" ["l"="-11.680341,-16.117615"]
-"LCN6" ["l"="-12.238395,-16.216635"]
-"LCN8" ["l"="-11.532736,-15.945259"]
-"LCN9" ["l"="-11.655093,-16.052643"]
-"LCNL1" ["l"="-10.726971,-15.582096"]
-"OBP2A" ["l"="-11.820064,-16.100872"]
-"OBP2B" ["l"="-11.848382,-16.055265"]
-"ORM1" ["l"="-11.813102,-16.135553"]
-"ORM2" ["l"="-11.815137,-16.158857"]
-"PAEP" ["l"="-11.636596,-16.040865"]
-"PIP" ["l"="-10.852485,-15.355153"]
-"PTGDS" ["l"="-11.879703,-16.217785"]
-"RARRES2" ["l"="-9.678934,-16.034678"]
-"RBP4" ["l"="-11.802909,-16.095467"]
-"AMBP" -> "RBP4"
-"AMBP" -> "PTGDS"
-"AMBP" -> "PAEP"
-"AMBP" -> "LCN2"
-"APOD" -> "PAEP"
-"APOD" -> "RBP4"
-"APOD" -> "LCN9"
-"APOD" -> "CST4"
-"APOM" -> "C8G"
-"APOM" -> "LCN9"
-"APOM" -> "PAEP"
-"APOM" -> "LCN15"
-"C8G" -> "LCN12"
-"C8G" -> "LCN15"
-"C8G" -> "LCN10"
-"C8G" -> "LCN6"
-"CAMP" -> "CST1"
-"CAMP" -> "CST4"
-"CAMP" -> "CST6"
-"CAMP" -> "CST2"
-"CST1" -> "CST4"
-"CST1" -> "CST2"
-"CST1" -> "CST5"
-"CST1" -> "CST6"
-"CST11" -> "CST8"
-"CST11" -> "CST9L"
-"CST11" -> "CST2"
-"CST11" -> "CST4"
-"CST2" -> "CST4"
-"CST2" -> "CST5"
-"CST2" -> "CST1"
-"CST2" -> "CST11"
-"CST3" -> "CST6"
-"CST3" -> "CST4"
-"CST3" -> "CST1"
-"CST3" -> "CST5"
-"CST4" -> "CST1"
-"CST4" -> "CST2"
-"CST4" -> "CST5"
-"CST4" -> "CST6"
-"CST5" -> "CST2"
-"CST5" -> "CST4"
-"CST5" -> "CST1"
-"CST5" -> "CST6"
-"CST6" -> "CST4"
-"CST6" -> "CST5"
-"CST6" -> "CST1"
-"CST6" -> "CST2"
-"CST7" -> "CST6"
-"CST7" -> "CST11"
-"CST7" -> "CST5"
-"CST7" -> "CSTL1"
-"CST8" -> "CST11"
-"CST8" -> "CST4"
-"CST8" -> "CSTL1"
-"CST8" -> "CST2"
-"CST9L" -> "CST11"
-"CST9L" -> "CSTL1"
-"CST9L" -> "CST8"
-"CST9L" -> "LCN10"
-"CSTL1" -> "CST8"
-"CSTL1" -> "CST11"
-"CSTL1" -> "CST9L"
-"CSTL1" -> "CST7"
-"GKN1" -> "GKN2"
-"GKN1" -> "PAEP"
-"GKN1" -> "CAMP"
-"GKN1" -> "LCN1"
-"GKN2" -> "GKN1"
-"GKN2" -> "PAEP"
-"GKN2" -> "CAMP"
-"GKN2" -> "LCN2"
-"LCN1" -> "OBP2A"
-"LCN1" -> "PAEP"
-"LCN1" -> "OBP2B"
-"LCN1" -> "ORM1"
-"LCN10" -> "LCN6"
-"LCN10" -> "LCN8"
-"LCN10" -> "LCN9"
-"LCN10" -> "LCN12"
-"LCN12" -> "LCN15"
-"LCN12" -> "C8G"
-"LCN12" -> "LCN6"
-"LCN12" -> "LCN10"
-"LCN15" -> "LCN12"
-"LCN15" -> "LCN8"
-"LCN15" -> "LCN6"
-"LCN15" -> "PTGDS"
-"LCN2" -> "PAEP"
-"LCN2" -> "LCN1"
-"LCN2" -> "LCN15"
-"LCN2" -> "ORM1"
-"LCN6" -> "LCN10"
-"LCN6" -> "LCN8"
-"LCN6" -> "LCN15"
-"LCN6" -> "LCN12"
-"LCN8" -> "LCN10"
-"LCN8" -> "LCN6"
-"LCN8" -> "LCN15"
-"LCN8" -> "LCN12"
-"LCN9" -> "LCN10"
-"LCN9" -> "PAEP"
-"LCN9" -> "LCN15"
-"LCN9" -> "RBP4"
-"LCNL1" -> "LCN10"
-"LCNL1" -> "LCN12"
-"LCNL1" -> "LCN15"
-"LCNL1" -> "LCN9"
-"OBP2A" -> "OBP2B"
-"OBP2A" -> "LCN1"
-"OBP2A" -> "LCN6"
-"OBP2A" -> "PAEP"
-"OBP2B" -> "OBP2A"
-"OBP2B" -> "LCN1"
-"OBP2B" -> "LCN9"
-"OBP2B" -> "LCN2"
-"ORM1" -> "ORM2"
-"ORM1" -> "LCN1"
-"ORM1" -> "LCN2"
-"ORM1" -> "PAEP"
-"ORM2" -> "ORM1"
-"ORM2" -> "LCN2"
-"ORM2" -> "LCN1"
-"ORM2" -> "OBP2A"
-"PAEP" -> "LCN9"
-"PAEP" -> "LCN1"
-"PAEP" -> "APOD"
-"PAEP" -> "LCN15"
-"PIP" -> "PAEP"
-"PIP" -> "CST4"
-"PIP" -> "CST6"
-"PIP" -> "CAMP"
-"PTGDS" -> "LCN15"
-"PTGDS" -> "LCN6"
-"PTGDS" -> "LCN8"
-"PTGDS" -> "LCN2"
-"RARRES2" -> "CST4"
-"RARRES2" -> "CST6"
-"RARRES2" -> "CST1"
-"RARRES2" -> "CST3"
-"RBP4" -> "PAEP"
-"RBP4" -> "LCN9"
-"RBP4" -> "APOD"
-"RBP4" -> "LCN1"
+"AMBP" -> "RBP4";
+"AMBP" -> "PTGDS";
+"AMBP" -> "PAEP";
+"AMBP" -> "LCN2";
+"APOD" -> "PAEP";
+"APOD" -> "RBP4";
+"APOD" -> "LCN9";
+"APOD" -> "CST4";
+"APOM" -> "C8G";
+"APOM" -> "LCN9";
+"APOM" -> "PAEP";
+"APOM" -> "LCN15";
+"C8G" -> "LCN12";
+"C8G" -> "LCN15";
+"C8G" -> "LCN10";
+"C8G" -> "LCN6";
+"CAMP" -> "CST1";
+"CAMP" -> "CST4";
+"CAMP" -> "CST6";
+"CAMP" -> "CST2";
+"CST1" -> "CST4";
+"CST1" -> "CST2";
+"CST1" -> "CST5";
+"CST1" -> "CST6";
+"CST11" -> "CST8";
+"CST11" -> "CST9L";
+"CST11" -> "CST2";
+"CST11" -> "CST4";
+"CST2" -> "CST4";
+"CST2" -> "CST5";
+"CST2" -> "CST1";
+"CST2" -> "CST11";
+"CST3" -> "CST6";
+"CST3" -> "CST4";
+"CST3" -> "CST1";
+"CST3" -> "CST5";
+"CST4" -> "CST1";
+"CST4" -> "CST2";
+"CST4" -> "CST5";
+"CST4" -> "CST6";
+"CST5" -> "CST2";
+"CST5" -> "CST4";
+"CST5" -> "CST1";
+"CST5" -> "CST6";
+"CST6" -> "CST4";
+"CST6" -> "CST5";
+"CST6" -> "CST1";
+"CST6" -> "CST2";
+"CST7" -> "CST6";
+"CST7" -> "CST11";
+"CST7" -> "CST5";
+"CST7" -> "CSTL1";
+"CST8" -> "CST11";
+"CST8" -> "CST4";
+"CST8" -> "CSTL1";
+"CST8" -> "CST2";
+"CST9L" -> "CST11";
+"CST9L" -> "CSTL1";
+"CST9L" -> "CST8";
+"CST9L" -> "LCN10";
+"CSTL1" -> "CST8";
+"CSTL1" -> "CST11";
+"CSTL1" -> "CST9L";
+"CSTL1" -> "CST7";
+"GKN1" -> "GKN2";
+"GKN1" -> "PAEP";
+"GKN1" -> "CAMP";
+"GKN1" -> "LCN1";
+"GKN2" -> "GKN1";
+"GKN2" -> "PAEP";
+"GKN2" -> "CAMP";
+"GKN2" -> "LCN2";
+"LCN1" -> "OBP2A";
+"LCN1" -> "PAEP";
+"LCN1" -> "OBP2B";
+"LCN1" -> "ORM1";
+"LCN10" -> "LCN6";
+"LCN10" -> "LCN8";
+"LCN10" -> "LCN9";
+"LCN10" -> "LCN12";
+"LCN12" -> "LCN15";
+"LCN12" -> "C8G";
+"LCN12" -> "LCN6";
+"LCN12" -> "LCN10";
+"LCN15" -> "LCN12";
+"LCN15" -> "LCN8";
+"LCN15" -> "LCN6";
+"LCN15" -> "PTGDS";
+"LCN2" -> "PAEP";
+"LCN2" -> "LCN1";
+"LCN2" -> "LCN15";
+"LCN2" -> "ORM1";
+"LCN6" -> "LCN10";
+"LCN6" -> "LCN8";
+"LCN6" -> "LCN15";
+"LCN6" -> "LCN12";
+"LCN8" -> "LCN10";
+"LCN8" -> "LCN6";
+"LCN8" -> "LCN15";
+"LCN8" -> "LCN12";
+"LCN9" -> "LCN10";
+"LCN9" -> "PAEP";
+"LCN9" -> "LCN15";
+"LCN9" -> "RBP4";
+"LCNL1" -> "LCN10";
+"LCNL1" -> "LCN12";
+"LCNL1" -> "LCN15";
+"LCNL1" -> "LCN9";
+"OBP2A" -> "OBP2B";
+"OBP2A" -> "LCN1";
+"OBP2A" -> "LCN6";
+"OBP2A" -> "PAEP";
+"OBP2B" -> "OBP2A";
+"OBP2B" -> "LCN1";
+"OBP2B" -> "LCN9";
+"OBP2B" -> "LCN2";
+"ORM1" -> "ORM2";
+"ORM1" -> "LCN1";
+"ORM1" -> "LCN2";
+"ORM1" -> "PAEP";
+"ORM2" -> "ORM1";
+"ORM2" -> "LCN2";
+"ORM2" -> "LCN1";
+"ORM2" -> "OBP2A";
+"PAEP" -> "LCN9";
+"PAEP" -> "LCN1";
+"PAEP" -> "APOD";
+"PAEP" -> "LCN15";
+"PIP" -> "PAEP";
+"PIP" -> "CST4";
+"PIP" -> "CST6";
+"PIP" -> "CAMP";
+"PTGDS" -> "LCN15";
+"PTGDS" -> "LCN6";
+"PTGDS" -> "LCN8";
+"PTGDS" -> "LCN2";
+"RARRES2" -> "CST4";
+"RARRES2" -> "CST6";
+"RARRES2" -> "CST1";
+"RARRES2" -> "CST3";
+"RBP4" -> "PAEP";
+"RBP4" -> "LCN9";
+"RBP4" -> "APOD";
+"RBP4" -> "LCN1";
+"AMBP" ["l"="-10.641311,-16.274086"];
+"APOD" ["l"="-11.989835,-16.197727"];
+"APOM" ["l"="-11.670698,-16.048239"];
+"C8G" ["l"="-11.580202,-16.002966"];
+"CAMP" ["l"="-11.595485,-15.515628"];
+"CST1" ["l"="-11.600902,-15.608819"];
+"CST11" ["l"="-10.840687,-15.861633"];
+"CST2" ["l"="-11.247147,-15.620309"];
+"CST3" ["l"="-11.237947,-15.941513"];
+"CST4" ["l"="-11.174251,-15.616132"];
+"CST5" ["l"="-11.430240,-15.454885"];
+"CST6" ["l"="-11.407488,-15.950567"];
+"CST7" ["l"="-10.989559,-15.636601"];
+"CST8" ["l"="-10.920475,-15.897446"];
+"CST9L" ["l"="-10.547915,-15.515597"];
+"CSTL1" ["l"="-10.968187,-15.286304"];
+"GKN1" ["l"="-11.132792,-15.754528"];
+"GKN2" ["l"="-11.061610,-15.772809"];
+"LCN1" ["l"="-11.934294,-16.404549"];
+"LCN10" ["l"="-10.744510,-16.033401"];
+"LCN12" ["l"="-11.527473,-15.983412"];
+"LCN15" ["l"="-11.668165,-16.028646"];
+"LCN2" ["l"="-11.680341,-16.117615"];
+"LCN6" ["l"="-12.238395,-16.216635"];
+"LCN8" ["l"="-11.532736,-15.945259"];
+"LCN9" ["l"="-11.655093,-16.052643"];
+"LCNL1" ["l"="-10.726971,-15.582096"];
+"OBP2A" ["l"="-11.820064,-16.100872"];
+"OBP2B" ["l"="-11.848382,-16.055265"];
+"ORM1" ["l"="-11.813102,-16.135553"];
+"ORM2" ["l"="-11.815137,-16.158857"];
+"PAEP" ["l"="-11.636596,-16.040865"];
+"PIP" ["l"="-10.852485,-15.355153"];
+"PTGDS" ["l"="-11.879703,-16.217785"];
+"RARRES2" ["l"="-9.678934,-16.034678"];
+"RBP4" ["l"="-11.802909,-16.095467"];
 }

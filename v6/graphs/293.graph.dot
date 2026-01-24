@@ -1,112 +1,112 @@
 digraph G {
-"ACOT7" ["l"="64.087585,6.385412"]
-"DBT" ["l"="64.071274,7.108081"]
-"DERA" ["l"="64.248688,5.613028"]
-"DLAT" ["l"="64.270149,6.733840"]
-"DLST" ["l"="64.122993,6.971807"]
-"DPYSL3" ["l"="63.559277,5.970033"]
-"DPYSL5" ["l"="64.624413,6.329856"]
-"ECHDC3" ["l"="64.433746,6.712060"]
-"GMPR2" ["l"="64.909073,6.067772"]
-"IMMT" ["l"="63.510178,7.677090"]
-"IMPDH1" ["l"="64.179466,5.895051"]
-"LDHA" ["l"="65.642952,6.376045"]
-"LDHB" ["l"="66.249275,6.975594"]
-"MACROD1" ["l"="64.142532,7.178280"]
-"NFS1" ["l"="65.922462,6.200907"]
-"PDHX" ["l"="63.478008,6.725636"]
-"PGAM1" ["l"="64.033813,7.873142"]
-"PMPCB" ["l"="64.587502,8.986226"]
-"STOML2" ["l"="64.053688,7.270480"]
-"TKTL2" ["l"="65.494621,5.727905"]
-"TPI1" ["l"="66.120857,8.718994"]
-"TRAP1" ["l"="65.148415,5.739006"]
-"ACOT7" -> "NFS1"
-"ACOT7" -> "ECHDC3"
-"ACOT7" -> "STOML2"
-"ACOT7" -> "MACROD1"
-"DBT" -> "DLAT"
-"DBT" -> "PDHX"
-"DBT" -> "DLST"
-"DBT" -> "NFS1"
-"DERA" -> "TPI1"
-"DERA" -> "GMPR2"
-"DERA" -> "IMPDH1"
-"DERA" -> "NFS1"
-"DLAT" -> "PDHX"
-"DLAT" -> "DBT"
-"DLAT" -> "DLST"
-"DLAT" -> "NFS1"
-"DLST" -> "DLAT"
-"DLST" -> "PDHX"
-"DLST" -> "DBT"
-"DLST" -> "NFS1"
-"DPYSL3" -> "DPYSL5"
-"DPYSL3" -> "IMPDH1"
-"DPYSL3" -> "NFS1"
-"DPYSL3" -> "TKTL2"
-"DPYSL5" -> "DPYSL3"
-"DPYSL5" -> "IMPDH1"
-"DPYSL5" -> "NFS1"
-"DPYSL5" -> "TKTL2"
-"ECHDC3" -> "MACROD1"
-"ECHDC3" -> "NFS1"
-"ECHDC3" -> "ACOT7"
-"ECHDC3" -> "DLST"
-"GMPR2" -> "IMPDH1"
-"GMPR2" -> "NFS1"
-"GMPR2" -> "TKTL2"
-"GMPR2" -> "LDHA"
-"IMMT" -> "DLST"
-"IMMT" -> "PMPCB"
-"IMMT" -> "DLAT"
-"IMMT" -> "DBT"
-"IMPDH1" -> "GMPR2"
-"IMPDH1" -> "DPYSL5"
-"IMPDH1" -> "TPI1"
-"IMPDH1" -> "DPYSL3"
-"LDHA" -> "LDHB"
-"LDHA" -> "TPI1"
-"LDHA" -> "PGAM1"
-"LDHA" -> "GMPR2"
-"LDHB" -> "LDHA"
-"LDHB" -> "TPI1"
-"LDHB" -> "GMPR2"
-"LDHB" -> "NFS1"
-"MACROD1" -> "ECHDC3"
-"MACROD1" -> "NFS1"
-"MACROD1" -> "ACOT7"
-"MACROD1" -> "DERA"
-"NFS1" -> "PMPCB"
-"NFS1" -> "GMPR2"
-"NFS1" -> "ECHDC3"
-"NFS1" -> "DLST"
-"PDHX" -> "DLAT"
-"PDHX" -> "DLST"
-"PDHX" -> "DBT"
-"PDHX" -> "NFS1"
-"PGAM1" -> "TPI1"
-"PGAM1" -> "LDHA"
-"PGAM1" -> "DPYSL5"
-"PGAM1" -> "ACOT7"
-"PMPCB" -> "NFS1"
-"PMPCB" -> "DLST"
-"PMPCB" -> "DBT"
-"PMPCB" -> "STOML2"
-"STOML2" -> "PMPCB"
-"STOML2" -> "ACOT7"
-"STOML2" -> "DLST"
-"STOML2" -> "ECHDC3"
-"TKTL2" -> "GMPR2"
-"TKTL2" -> "DPYSL5"
-"TKTL2" -> "NFS1"
-"TKTL2" -> "IMPDH1"
-"TPI1" -> "PGAM1"
-"TPI1" -> "LDHA"
-"TPI1" -> "GMPR2"
-"TPI1" -> "DERA"
-"TRAP1" -> "NFS1"
-"TRAP1" -> "MACROD1"
-"TRAP1" -> "PMPCB"
-"TRAP1" -> "ACOT7"
+"ACOT7" -> "NFS1";
+"ACOT7" -> "ECHDC3";
+"ACOT7" -> "STOML2";
+"ACOT7" -> "MACROD1";
+"DBT" -> "DLAT";
+"DBT" -> "PDHX";
+"DBT" -> "DLST";
+"DBT" -> "NFS1";
+"DERA" -> "TPI1";
+"DERA" -> "GMPR2";
+"DERA" -> "IMPDH1";
+"DERA" -> "NFS1";
+"DLAT" -> "PDHX";
+"DLAT" -> "DBT";
+"DLAT" -> "DLST";
+"DLAT" -> "NFS1";
+"DLST" -> "DLAT";
+"DLST" -> "PDHX";
+"DLST" -> "DBT";
+"DLST" -> "NFS1";
+"DPYSL3" -> "DPYSL5";
+"DPYSL3" -> "IMPDH1";
+"DPYSL3" -> "NFS1";
+"DPYSL3" -> "TKTL2";
+"DPYSL5" -> "DPYSL3";
+"DPYSL5" -> "IMPDH1";
+"DPYSL5" -> "NFS1";
+"DPYSL5" -> "TKTL2";
+"ECHDC3" -> "MACROD1";
+"ECHDC3" -> "NFS1";
+"ECHDC3" -> "ACOT7";
+"ECHDC3" -> "DLST";
+"GMPR2" -> "IMPDH1";
+"GMPR2" -> "NFS1";
+"GMPR2" -> "TKTL2";
+"GMPR2" -> "LDHA";
+"IMMT" -> "DLST";
+"IMMT" -> "PMPCB";
+"IMMT" -> "DLAT";
+"IMMT" -> "DBT";
+"IMPDH1" -> "GMPR2";
+"IMPDH1" -> "DPYSL5";
+"IMPDH1" -> "TPI1";
+"IMPDH1" -> "DPYSL3";
+"LDHA" -> "LDHB";
+"LDHA" -> "TPI1";
+"LDHA" -> "PGAM1";
+"LDHA" -> "GMPR2";
+"LDHB" -> "LDHA";
+"LDHB" -> "TPI1";
+"LDHB" -> "GMPR2";
+"LDHB" -> "NFS1";
+"MACROD1" -> "ECHDC3";
+"MACROD1" -> "NFS1";
+"MACROD1" -> "ACOT7";
+"MACROD1" -> "DERA";
+"NFS1" -> "PMPCB";
+"NFS1" -> "GMPR2";
+"NFS1" -> "ECHDC3";
+"NFS1" -> "DLST";
+"PDHX" -> "DLAT";
+"PDHX" -> "DLST";
+"PDHX" -> "DBT";
+"PDHX" -> "NFS1";
+"PGAM1" -> "TPI1";
+"PGAM1" -> "LDHA";
+"PGAM1" -> "DPYSL5";
+"PGAM1" -> "ACOT7";
+"PMPCB" -> "NFS1";
+"PMPCB" -> "DLST";
+"PMPCB" -> "DBT";
+"PMPCB" -> "STOML2";
+"STOML2" -> "PMPCB";
+"STOML2" -> "ACOT7";
+"STOML2" -> "DLST";
+"STOML2" -> "ECHDC3";
+"TKTL2" -> "GMPR2";
+"TKTL2" -> "DPYSL5";
+"TKTL2" -> "NFS1";
+"TKTL2" -> "IMPDH1";
+"TPI1" -> "PGAM1";
+"TPI1" -> "LDHA";
+"TPI1" -> "GMPR2";
+"TPI1" -> "DERA";
+"TRAP1" -> "NFS1";
+"TRAP1" -> "MACROD1";
+"TRAP1" -> "PMPCB";
+"TRAP1" -> "ACOT7";
+"ACOT7" ["l"="64.087585,6.385412"];
+"DBT" ["l"="64.071274,7.108081"];
+"DERA" ["l"="64.248688,5.613028"];
+"DLAT" ["l"="64.270149,6.733840"];
+"DLST" ["l"="64.122993,6.971807"];
+"DPYSL3" ["l"="63.559277,5.970033"];
+"DPYSL5" ["l"="64.624413,6.329856"];
+"ECHDC3" ["l"="64.433746,6.712060"];
+"GMPR2" ["l"="64.909073,6.067772"];
+"IMMT" ["l"="63.510178,7.677090"];
+"IMPDH1" ["l"="64.179466,5.895051"];
+"LDHA" ["l"="65.642952,6.376045"];
+"LDHB" ["l"="66.249275,6.975594"];
+"MACROD1" ["l"="64.142532,7.178280"];
+"NFS1" ["l"="65.922462,6.200907"];
+"PDHX" ["l"="63.478008,6.725636"];
+"PGAM1" ["l"="64.033813,7.873142"];
+"PMPCB" ["l"="64.587502,8.986226"];
+"STOML2" ["l"="64.053688,7.270480"];
+"TKTL2" ["l"="65.494621,5.727905"];
+"TPI1" ["l"="66.120857,8.718994"];
+"TRAP1" ["l"="65.148415,5.739006"];
 }

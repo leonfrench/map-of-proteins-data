@@ -1,82 +1,82 @@
 digraph G {
-"KIF1B" ["l"="5.026578,-4.109284"]
-"MYO10" ["l"="5.652071,-5.900654"]
-"MYO1A" ["l"="6.802198,-6.439208"]
-"MYO1B" ["l"="6.375966,-6.151512"]
-"MYO1C" ["l"="6.613412,-6.346053"]
-"MYO1D" ["l"="6.684748,-6.380943"]
-"MYO1E" ["l"="6.372866,-6.062378"]
-"MYO1F" ["l"="6.817645,-6.268309"]
-"MYO1G" ["l"="6.901696,-6.315414"]
-"MYO1H" ["l"="6.711130,-6.102571"]
-"MYO3A" ["l"="7.126401,-4.815776"]
-"MYO3B" ["l"="7.791202,-4.351025"]
-"MYO5A" ["l"="3.237411,-5.653030"]
-"MYO5B" ["l"="4.760962,-6.121918"]
-"MYO5C" ["l"="3.314023,-5.973565"]
-"MYO6" ["l"="2.719278,-5.553662"]
-"KIF1B" -> "MYO5A"
-"KIF1B" -> "MYO5B"
-"KIF1B" -> "MYO10"
-"KIF1B" -> "MYO6"
-"MYO10" -> "MYO5B"
-"MYO10" -> "MYO1E"
-"MYO10" -> "MYO5C"
-"MYO10" -> "MYO5A"
-"MYO1A" -> "MYO1H"
-"MYO1A" -> "MYO1C"
-"MYO1A" -> "MYO1B"
-"MYO1A" -> "MYO1D"
-"MYO1B" -> "MYO1H"
-"MYO1B" -> "MYO1E"
-"MYO1B" -> "MYO1A"
-"MYO1B" -> "MYO1C"
-"MYO1C" -> "MYO1A"
-"MYO1C" -> "MYO1H"
-"MYO1C" -> "MYO1E"
-"MYO1C" -> "MYO1B"
-"MYO1D" -> "MYO1H"
-"MYO1D" -> "MYO1E"
-"MYO1D" -> "MYO1A"
-"MYO1D" -> "MYO1B"
-"MYO1E" -> "MYO1H"
-"MYO1E" -> "MYO1B"
-"MYO1E" -> "MYO1D"
-"MYO1E" -> "MYO1F"
-"MYO1F" -> "MYO1G"
-"MYO1F" -> "MYO1H"
-"MYO1F" -> "MYO1E"
-"MYO1F" -> "MYO1A"
-"MYO1G" -> "MYO1F"
-"MYO1G" -> "MYO1A"
-"MYO1G" -> "MYO1H"
-"MYO1G" -> "MYO1C"
-"MYO1H" -> "MYO1E"
-"MYO1H" -> "MYO1B"
-"MYO1H" -> "MYO1F"
-"MYO1H" -> "MYO1D"
-"MYO3A" -> "MYO3B"
-"MYO3A" -> "MYO1E"
-"MYO3A" -> "MYO1H"
-"MYO3A" -> "MYO1B"
-"MYO3B" -> "MYO3A"
-"MYO3B" -> "MYO1H"
-"MYO3B" -> "MYO1E"
-"MYO3B" -> "MYO1B"
-"MYO5A" -> "MYO5B"
-"MYO5A" -> "MYO5C"
-"MYO5A" -> "MYO6"
-"MYO5A" -> "MYO10"
-"MYO5B" -> "MYO5C"
-"MYO5B" -> "MYO5A"
-"MYO5B" -> "MYO10"
-"MYO5B" -> "MYO1E"
-"MYO5C" -> "MYO5B"
-"MYO5C" -> "MYO5A"
-"MYO5C" -> "MYO10"
-"MYO5C" -> "MYO6"
-"MYO6" -> "MYO5A"
-"MYO6" -> "MYO5C"
-"MYO6" -> "MYO1H"
-"MYO6" -> "MYO10"
+"KIF1B" -> "MYO5A";
+"KIF1B" -> "MYO5B";
+"KIF1B" -> "MYO10";
+"KIF1B" -> "MYO6";
+"MYO10" -> "MYO5B";
+"MYO10" -> "MYO1E";
+"MYO10" -> "MYO5C";
+"MYO10" -> "MYO5A";
+"MYO1A" -> "MYO1H";
+"MYO1A" -> "MYO1C";
+"MYO1A" -> "MYO1B";
+"MYO1A" -> "MYO1D";
+"MYO1B" -> "MYO1H";
+"MYO1B" -> "MYO1E";
+"MYO1B" -> "MYO1A";
+"MYO1B" -> "MYO1C";
+"MYO1C" -> "MYO1A";
+"MYO1C" -> "MYO1H";
+"MYO1C" -> "MYO1E";
+"MYO1C" -> "MYO1B";
+"MYO1D" -> "MYO1H";
+"MYO1D" -> "MYO1E";
+"MYO1D" -> "MYO1A";
+"MYO1D" -> "MYO1B";
+"MYO1E" -> "MYO1H";
+"MYO1E" -> "MYO1B";
+"MYO1E" -> "MYO1D";
+"MYO1E" -> "MYO1F";
+"MYO1F" -> "MYO1G";
+"MYO1F" -> "MYO1H";
+"MYO1F" -> "MYO1E";
+"MYO1F" -> "MYO1A";
+"MYO1G" -> "MYO1F";
+"MYO1G" -> "MYO1A";
+"MYO1G" -> "MYO1H";
+"MYO1G" -> "MYO1C";
+"MYO1H" -> "MYO1E";
+"MYO1H" -> "MYO1B";
+"MYO1H" -> "MYO1F";
+"MYO1H" -> "MYO1D";
+"MYO3A" -> "MYO3B";
+"MYO3A" -> "MYO1E";
+"MYO3A" -> "MYO1H";
+"MYO3A" -> "MYO1B";
+"MYO3B" -> "MYO3A";
+"MYO3B" -> "MYO1H";
+"MYO3B" -> "MYO1E";
+"MYO3B" -> "MYO1B";
+"MYO5A" -> "MYO5B";
+"MYO5A" -> "MYO5C";
+"MYO5A" -> "MYO6";
+"MYO5A" -> "MYO10";
+"MYO5B" -> "MYO5C";
+"MYO5B" -> "MYO5A";
+"MYO5B" -> "MYO10";
+"MYO5B" -> "MYO1E";
+"MYO5C" -> "MYO5B";
+"MYO5C" -> "MYO5A";
+"MYO5C" -> "MYO10";
+"MYO5C" -> "MYO6";
+"MYO6" -> "MYO5A";
+"MYO6" -> "MYO5C";
+"MYO6" -> "MYO1H";
+"MYO6" -> "MYO10";
+"KIF1B" ["l"="5.026578,-4.109284"];
+"MYO10" ["l"="5.652071,-5.900654"];
+"MYO1A" ["l"="6.802198,-6.439208"];
+"MYO1B" ["l"="6.375966,-6.151512"];
+"MYO1C" ["l"="6.613412,-6.346053"];
+"MYO1D" ["l"="6.684748,-6.380943"];
+"MYO1E" ["l"="6.372866,-6.062378"];
+"MYO1F" ["l"="6.817645,-6.268309"];
+"MYO1G" ["l"="6.901696,-6.315414"];
+"MYO1H" ["l"="6.711130,-6.102571"];
+"MYO3A" ["l"="7.126401,-4.815776"];
+"MYO3B" ["l"="7.791202,-4.351025"];
+"MYO5A" ["l"="3.237411,-5.653030"];
+"MYO5B" ["l"="4.760962,-6.121918"];
+"MYO5C" ["l"="3.314023,-5.973565"];
+"MYO6" ["l"="2.719278,-5.553662"];
 }

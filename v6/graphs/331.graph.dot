@@ -1,112 +1,112 @@
 digraph G {
-"C10orf120" ["l"="7.853132,16.103777"]
-"C16orf78" ["l"="7.171315,16.522720"]
-"C19orf85" ["l"="7.285020,16.617521"]
-"C1orf141" ["l"="7.409712,16.558187"]
-"C4orf17" ["l"="7.024502,16.825649"]
-"C8orf48" ["l"="8.495733,16.099131"]
-"C8orf89" ["l"="8.398754,16.223743"]
-"CDRT4" ["l"="8.194245,17.536760"]
-"CFAP97D1" ["l"="8.106725,18.164000"]
-"CFAP97D2" ["l"="6.823963,17.612673"]
-"CYLC2" ["l"="7.258124,16.309700"]
-"FAM228A" ["l"="7.396719,16.677679"]
-"JPT2" ["l"="8.477570,17.458134"]
-"KRTAP25-1" ["l"="7.877298,16.747604"]
-"MGARP" ["l"="8.349487,17.055420"]
-"PRR23D2" ["l"="8.609240,17.534357"]
-"SPATS1" ["l"="7.652831,16.797329"]
-"STMND1" ["l"="7.824746,16.608984"]
-"TBATA" ["l"="8.014904,16.087540"]
-"TEX33" ["l"="8.377214,17.269753"]
-"TEX52" ["l"="7.777536,16.548161"]
-"TSGA13" ["l"="6.947745,17.171144"]
-"C10orf120" -> "C8orf48"
-"C10orf120" -> "TSGA13"
-"C10orf120" -> "SPATS1"
-"C10orf120" -> "CDRT4"
-"C16orf78" -> "C10orf120"
-"C16orf78" -> "CDRT4"
-"C16orf78" -> "SPATS1"
-"C16orf78" -> "TSGA13"
-"C19orf85" -> "PRR23D2"
-"C19orf85" -> "SPATS1"
-"C19orf85" -> "TEX52"
-"C19orf85" -> "KRTAP25-1"
-"C1orf141" -> "TSGA13"
-"C1orf141" -> "C8orf89"
-"C1orf141" -> "SPATS1"
-"C1orf141" -> "CDRT4"
-"C4orf17" -> "TSGA13"
-"C4orf17" -> "CDRT4"
-"C4orf17" -> "SPATS1"
-"C4orf17" -> "C8orf89"
-"C8orf48" -> "C10orf120"
-"C8orf48" -> "SPATS1"
-"C8orf48" -> "C8orf89"
-"C8orf48" -> "C16orf78"
-"C8orf89" -> "SPATS1"
-"C8orf89" -> "C10orf120"
-"C8orf89" -> "C1orf141"
-"C8orf89" -> "C4orf17"
-"CDRT4" -> "TSGA13"
-"CDRT4" -> "SPATS1"
-"CDRT4" -> "C4orf17"
-"CDRT4" -> "C10orf120"
-"CFAP97D1" -> "CFAP97D2"
-"CFAP97D1" -> "CDRT4"
-"CFAP97D1" -> "TSGA13"
-"CFAP97D1" -> "C4orf17"
-"CFAP97D2" -> "CFAP97D1"
-"CFAP97D2" -> "CDRT4"
-"CFAP97D2" -> "TSGA13"
-"CFAP97D2" -> "C16orf78"
-"CYLC2" -> "C8orf89"
-"CYLC2" -> "C4orf17"
-"CYLC2" -> "C16orf78"
-"CYLC2" -> "SPATS1"
-"FAM228A" -> "CDRT4"
-"FAM228A" -> "SPATS1"
-"FAM228A" -> "C10orf120"
-"FAM228A" -> "C8orf89"
-"JPT2" -> "STMND1"
-"JPT2" -> "SPATS1"
-"JPT2" -> "CDRT4"
-"JPT2" -> "C4orf17"
-"KRTAP25-1" -> "PRR23D2"
-"KRTAP25-1" -> "SPATS1"
-"KRTAP25-1" -> "CFAP97D1"
-"KRTAP25-1" -> "CDRT4"
-"MGARP" -> "CYLC2"
-"MGARP" -> "C8orf89"
-"MGARP" -> "C4orf17"
-"MGARP" -> "FAM228A"
-"PRR23D2" -> "KRTAP25-1"
-"PRR23D2" -> "CDRT4"
-"PRR23D2" -> "SPATS1"
-"PRR23D2" -> "C19orf85"
-"SPATS1" -> "CDRT4"
-"SPATS1" -> "TSGA13"
-"SPATS1" -> "TEX33"
-"SPATS1" -> "C10orf120"
-"STMND1" -> "CDRT4"
-"STMND1" -> "SPATS1"
-"STMND1" -> "JPT2"
-"STMND1" -> "C4orf17"
-"TBATA" -> "TEX52"
-"TBATA" -> "C4orf17"
-"TBATA" -> "C10orf120"
-"TBATA" -> "FAM228A"
-"TEX33" -> "SPATS1"
-"TEX33" -> "C10orf120"
-"TEX33" -> "CDRT4"
-"TEX33" -> "C8orf48"
-"TEX52" -> "SPATS1"
-"TEX52" -> "TBATA"
-"TEX52" -> "TSGA13"
-"TEX52" -> "C10orf120"
-"TSGA13" -> "CDRT4"
-"TSGA13" -> "C4orf17"
-"TSGA13" -> "SPATS1"
-"TSGA13" -> "C10orf120"
+"C10orf120" -> "C8orf48";
+"C10orf120" -> "TSGA13";
+"C10orf120" -> "SPATS1";
+"C10orf120" -> "CDRT4";
+"C16orf78" -> "C10orf120";
+"C16orf78" -> "CDRT4";
+"C16orf78" -> "SPATS1";
+"C16orf78" -> "TSGA13";
+"C19orf85" -> "PRR23D2";
+"C19orf85" -> "SPATS1";
+"C19orf85" -> "TEX52";
+"C19orf85" -> "KRTAP25-1";
+"C1orf141" -> "TSGA13";
+"C1orf141" -> "C8orf89";
+"C1orf141" -> "SPATS1";
+"C1orf141" -> "CDRT4";
+"C4orf17" -> "TSGA13";
+"C4orf17" -> "CDRT4";
+"C4orf17" -> "SPATS1";
+"C4orf17" -> "C8orf89";
+"C8orf48" -> "C10orf120";
+"C8orf48" -> "SPATS1";
+"C8orf48" -> "C8orf89";
+"C8orf48" -> "C16orf78";
+"C8orf89" -> "SPATS1";
+"C8orf89" -> "C10orf120";
+"C8orf89" -> "C1orf141";
+"C8orf89" -> "C4orf17";
+"CDRT4" -> "TSGA13";
+"CDRT4" -> "SPATS1";
+"CDRT4" -> "C4orf17";
+"CDRT4" -> "C10orf120";
+"CFAP97D1" -> "CFAP97D2";
+"CFAP97D1" -> "CDRT4";
+"CFAP97D1" -> "TSGA13";
+"CFAP97D1" -> "C4orf17";
+"CFAP97D2" -> "CFAP97D1";
+"CFAP97D2" -> "CDRT4";
+"CFAP97D2" -> "TSGA13";
+"CFAP97D2" -> "C16orf78";
+"CYLC2" -> "C8orf89";
+"CYLC2" -> "C4orf17";
+"CYLC2" -> "C16orf78";
+"CYLC2" -> "SPATS1";
+"FAM228A" -> "CDRT4";
+"FAM228A" -> "SPATS1";
+"FAM228A" -> "C10orf120";
+"FAM228A" -> "C8orf89";
+"JPT2" -> "STMND1";
+"JPT2" -> "SPATS1";
+"JPT2" -> "CDRT4";
+"JPT2" -> "C4orf17";
+"KRTAP25-1" -> "PRR23D2";
+"KRTAP25-1" -> "SPATS1";
+"KRTAP25-1" -> "CFAP97D1";
+"KRTAP25-1" -> "CDRT4";
+"MGARP" -> "CYLC2";
+"MGARP" -> "C8orf89";
+"MGARP" -> "C4orf17";
+"MGARP" -> "FAM228A";
+"PRR23D2" -> "KRTAP25-1";
+"PRR23D2" -> "CDRT4";
+"PRR23D2" -> "SPATS1";
+"PRR23D2" -> "C19orf85";
+"SPATS1" -> "CDRT4";
+"SPATS1" -> "TSGA13";
+"SPATS1" -> "TEX33";
+"SPATS1" -> "C10orf120";
+"STMND1" -> "CDRT4";
+"STMND1" -> "SPATS1";
+"STMND1" -> "JPT2";
+"STMND1" -> "C4orf17";
+"TBATA" -> "TEX52";
+"TBATA" -> "C4orf17";
+"TBATA" -> "C10orf120";
+"TBATA" -> "FAM228A";
+"TEX33" -> "SPATS1";
+"TEX33" -> "C10orf120";
+"TEX33" -> "CDRT4";
+"TEX33" -> "C8orf48";
+"TEX52" -> "SPATS1";
+"TEX52" -> "TBATA";
+"TEX52" -> "TSGA13";
+"TEX52" -> "C10orf120";
+"TSGA13" -> "CDRT4";
+"TSGA13" -> "C4orf17";
+"TSGA13" -> "SPATS1";
+"TSGA13" -> "C10orf120";
+"C10orf120" ["l"="7.853132,16.103777"];
+"C16orf78" ["l"="7.171315,16.522720"];
+"C19orf85" ["l"="7.285020,16.617521"];
+"C1orf141" ["l"="7.409712,16.558187"];
+"C4orf17" ["l"="7.024502,16.825649"];
+"C8orf48" ["l"="8.495733,16.099131"];
+"C8orf89" ["l"="8.398754,16.223743"];
+"CDRT4" ["l"="8.194245,17.536760"];
+"CFAP97D1" ["l"="8.106725,18.164000"];
+"CFAP97D2" ["l"="6.823963,17.612673"];
+"CYLC2" ["l"="7.258124,16.309700"];
+"FAM228A" ["l"="7.396719,16.677679"];
+"JPT2" ["l"="8.477570,17.458134"];
+"KRTAP25-1" ["l"="7.877298,16.747604"];
+"MGARP" ["l"="8.349487,17.055420"];
+"PRR23D2" ["l"="8.609240,17.534357"];
+"SPATS1" ["l"="7.652831,16.797329"];
+"STMND1" ["l"="7.824746,16.608984"];
+"TBATA" ["l"="8.014904,16.087540"];
+"TEX33" ["l"="8.377214,17.269753"];
+"TEX52" ["l"="7.777536,16.548161"];
+"TSGA13" ["l"="6.947745,17.171144"];
 }

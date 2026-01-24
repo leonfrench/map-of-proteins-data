@@ -1,137 +1,137 @@
 digraph G {
-"ABI3BP" ["l"="63.411381,-13.251132"]
-"AMN" ["l"="62.380630,-11.830831"]
-"CD248" ["l"="63.523567,-13.094438"]
-"CDHR5" ["l"="64.058357,-12.410565"]
-"EFNB3" ["l"="64.864304,-10.549190"]
-"FURIN" ["l"="63.327301,-10.420699"]
-"GPC1" ["l"="63.539597,-11.909982"]
-"GPC5" ["l"="63.279102,-12.300696"]
-"GPC6" ["l"="64.108841,-12.593287"]
-"HHIPL1" ["l"="62.720184,-10.114098"]
-"HJV" ["l"="63.661556,-10.863925"]
-"HTRA3" ["l"="65.177887,-10.833639"]
-"MEP1A" ["l"="62.520359,-12.037496"]
-"NAGPA" ["l"="63.773598,-11.583027"]
-"NCAN" ["l"="63.426247,-12.283593"]
-"PCOLCE" ["l"="65.175117,-12.774748"]
-"PCSK1" ["l"="63.846478,-10.163292"]
-"PCSK2" ["l"="63.586922,-10.469232"]
-"PCSK4" ["l"="64.243706,-10.595697"]
-"PCSK7" ["l"="63.271534,-10.785271"]
-"PDGFRL" ["l"="63.221012,-12.644746"]
-"RGMA" ["l"="63.752983,-10.827595"]
-"RGMB" ["l"="63.371029,-11.493984"]
-"TSPEAR" ["l"="62.954201,-12.912395"]
-"VIT" ["l"="64.348251,-12.987344"]
-"VSTM2A" ["l"="64.383858,-10.945922"]
-"VSTM2B" ["l"="63.097256,-11.647527"]
-"ABI3BP" -> "VIT"
-"ABI3BP" -> "PDGFRL"
-"ABI3BP" -> "CD248"
-"ABI3BP" -> "NCAN"
-"AMN" -> "NAGPA"
-"AMN" -> "GPC1"
-"AMN" -> "CDHR5"
-"AMN" -> "HHIPL1"
-"CD248" -> "NCAN"
-"CD248" -> "PCOLCE"
-"CD248" -> "RGMB"
-"CD248" -> "RGMA"
-"CDHR5" -> "MEP1A"
-"CDHR5" -> "AMN"
-"CDHR5" -> "RGMB"
-"CDHR5" -> "HHIPL1"
-"EFNB3" -> "RGMB"
-"EFNB3" -> "GPC1"
-"EFNB3" -> "RGMA"
-"EFNB3" -> "HHIPL1"
-"FURIN" -> "PCSK4"
-"FURIN" -> "PCSK7"
-"FURIN" -> "PCSK2"
-"FURIN" -> "PCSK1"
-"GPC1" -> "RGMB"
-"GPC1" -> "GPC6"
-"GPC1" -> "GPC5"
-"GPC1" -> "RGMA"
-"GPC5" -> "GPC6"
-"GPC5" -> "RGMB"
-"GPC5" -> "GPC1"
-"GPC5" -> "RGMA"
-"GPC6" -> "GPC5"
-"GPC6" -> "RGMB"
-"GPC6" -> "GPC1"
-"GPC6" -> "RGMA"
-"HHIPL1" -> "RGMB"
-"HHIPL1" -> "RGMA"
-"HHIPL1" -> "TSPEAR"
-"HHIPL1" -> "NAGPA"
-"HJV" -> "RGMB"
-"HJV" -> "RGMA"
-"HJV" -> "GPC1"
-"HJV" -> "GPC6"
-"HTRA3" -> "RGMB"
-"HTRA3" -> "RGMA"
-"HTRA3" -> "HHIPL1"
-"HTRA3" -> "HJV"
-"MEP1A" -> "CDHR5"
-"MEP1A" -> "HHIPL1"
-"MEP1A" -> "RGMB"
-"MEP1A" -> "TSPEAR"
-"NAGPA" -> "RGMB"
-"NAGPA" -> "HHIPL1"
-"NAGPA" -> "RGMA"
-"NAGPA" -> "FURIN"
-"NCAN" -> "CD248"
-"NCAN" -> "EFNB3"
-"NCAN" -> "HHIPL1"
-"NCAN" -> "TSPEAR"
-"PCOLCE" -> "PDGFRL"
-"PCOLCE" -> "VIT"
-"PCOLCE" -> "HHIPL1"
-"PCOLCE" -> "RGMB"
-"PCSK1" -> "PCSK2"
-"PCSK1" -> "FURIN"
-"PCSK1" -> "PCSK7"
-"PCSK1" -> "RGMB"
-"PCSK2" -> "PCSK1"
-"PCSK2" -> "PCSK7"
-"PCSK2" -> "FURIN"
-"PCSK2" -> "PCSK4"
-"PCSK4" -> "FURIN"
-"PCSK4" -> "PCSK7"
-"PCSK4" -> "PCSK2"
-"PCSK4" -> "PCSK1"
-"PCSK7" -> "PCSK4"
-"PCSK7" -> "FURIN"
-"PCSK7" -> "PCSK2"
-"PCSK7" -> "PCSK1"
-"PDGFRL" -> "PCOLCE"
-"PDGFRL" -> "VIT"
-"PDGFRL" -> "TSPEAR"
-"PDGFRL" -> "HTRA3"
-"RGMA" -> "RGMB"
-"RGMA" -> "HJV"
-"RGMA" -> "GPC1"
-"RGMA" -> "HHIPL1"
-"RGMB" -> "RGMA"
-"RGMB" -> "GPC1"
-"RGMB" -> "HJV"
-"RGMB" -> "HHIPL1"
-"TSPEAR" -> "HHIPL1"
-"TSPEAR" -> "RGMB"
-"TSPEAR" -> "PCSK1"
-"TSPEAR" -> "RGMA"
-"VIT" -> "ABI3BP"
-"VIT" -> "PCOLCE"
-"VIT" -> "RGMB"
-"VIT" -> "PDGFRL"
-"VSTM2A" -> "VSTM2B"
-"VSTM2A" -> "RGMB"
-"VSTM2A" -> "GPC6"
-"VSTM2A" -> "RGMA"
-"VSTM2B" -> "VSTM2A"
-"VSTM2B" -> "RGMB"
-"VSTM2B" -> "HJV"
-"VSTM2B" -> "RGMA"
+"ABI3BP" -> "VIT";
+"ABI3BP" -> "PDGFRL";
+"ABI3BP" -> "CD248";
+"ABI3BP" -> "NCAN";
+"AMN" -> "NAGPA";
+"AMN" -> "GPC1";
+"AMN" -> "CDHR5";
+"AMN" -> "HHIPL1";
+"CD248" -> "NCAN";
+"CD248" -> "PCOLCE";
+"CD248" -> "RGMB";
+"CD248" -> "RGMA";
+"CDHR5" -> "MEP1A";
+"CDHR5" -> "AMN";
+"CDHR5" -> "RGMB";
+"CDHR5" -> "HHIPL1";
+"EFNB3" -> "RGMB";
+"EFNB3" -> "GPC1";
+"EFNB3" -> "RGMA";
+"EFNB3" -> "HHIPL1";
+"FURIN" -> "PCSK4";
+"FURIN" -> "PCSK7";
+"FURIN" -> "PCSK2";
+"FURIN" -> "PCSK1";
+"GPC1" -> "RGMB";
+"GPC1" -> "GPC6";
+"GPC1" -> "GPC5";
+"GPC1" -> "RGMA";
+"GPC5" -> "GPC6";
+"GPC5" -> "RGMB";
+"GPC5" -> "GPC1";
+"GPC5" -> "RGMA";
+"GPC6" -> "GPC5";
+"GPC6" -> "RGMB";
+"GPC6" -> "GPC1";
+"GPC6" -> "RGMA";
+"HHIPL1" -> "RGMB";
+"HHIPL1" -> "RGMA";
+"HHIPL1" -> "TSPEAR";
+"HHIPL1" -> "NAGPA";
+"HJV" -> "RGMB";
+"HJV" -> "RGMA";
+"HJV" -> "GPC1";
+"HJV" -> "GPC6";
+"HTRA3" -> "RGMB";
+"HTRA3" -> "RGMA";
+"HTRA3" -> "HHIPL1";
+"HTRA3" -> "HJV";
+"MEP1A" -> "CDHR5";
+"MEP1A" -> "HHIPL1";
+"MEP1A" -> "RGMB";
+"MEP1A" -> "TSPEAR";
+"NAGPA" -> "RGMB";
+"NAGPA" -> "HHIPL1";
+"NAGPA" -> "RGMA";
+"NAGPA" -> "FURIN";
+"NCAN" -> "CD248";
+"NCAN" -> "EFNB3";
+"NCAN" -> "HHIPL1";
+"NCAN" -> "TSPEAR";
+"PCOLCE" -> "PDGFRL";
+"PCOLCE" -> "VIT";
+"PCOLCE" -> "HHIPL1";
+"PCOLCE" -> "RGMB";
+"PCSK1" -> "PCSK2";
+"PCSK1" -> "FURIN";
+"PCSK1" -> "PCSK7";
+"PCSK1" -> "RGMB";
+"PCSK2" -> "PCSK1";
+"PCSK2" -> "PCSK7";
+"PCSK2" -> "FURIN";
+"PCSK2" -> "PCSK4";
+"PCSK4" -> "FURIN";
+"PCSK4" -> "PCSK7";
+"PCSK4" -> "PCSK2";
+"PCSK4" -> "PCSK1";
+"PCSK7" -> "PCSK4";
+"PCSK7" -> "FURIN";
+"PCSK7" -> "PCSK2";
+"PCSK7" -> "PCSK1";
+"PDGFRL" -> "PCOLCE";
+"PDGFRL" -> "VIT";
+"PDGFRL" -> "TSPEAR";
+"PDGFRL" -> "HTRA3";
+"RGMA" -> "RGMB";
+"RGMA" -> "HJV";
+"RGMA" -> "GPC1";
+"RGMA" -> "HHIPL1";
+"RGMB" -> "RGMA";
+"RGMB" -> "GPC1";
+"RGMB" -> "HJV";
+"RGMB" -> "HHIPL1";
+"TSPEAR" -> "HHIPL1";
+"TSPEAR" -> "RGMB";
+"TSPEAR" -> "PCSK1";
+"TSPEAR" -> "RGMA";
+"VIT" -> "ABI3BP";
+"VIT" -> "PCOLCE";
+"VIT" -> "RGMB";
+"VIT" -> "PDGFRL";
+"VSTM2A" -> "VSTM2B";
+"VSTM2A" -> "RGMB";
+"VSTM2A" -> "GPC6";
+"VSTM2A" -> "RGMA";
+"VSTM2B" -> "VSTM2A";
+"VSTM2B" -> "RGMB";
+"VSTM2B" -> "HJV";
+"VSTM2B" -> "RGMA";
+"ABI3BP" ["l"="63.411381,-13.251132"];
+"AMN" ["l"="62.380630,-11.830831"];
+"CD248" ["l"="63.523567,-13.094438"];
+"CDHR5" ["l"="64.058357,-12.410565"];
+"EFNB3" ["l"="64.864304,-10.549190"];
+"FURIN" ["l"="63.327301,-10.420699"];
+"GPC1" ["l"="63.539597,-11.909982"];
+"GPC5" ["l"="63.279102,-12.300696"];
+"GPC6" ["l"="64.108841,-12.593287"];
+"HHIPL1" ["l"="62.720184,-10.114098"];
+"HJV" ["l"="63.661556,-10.863925"];
+"HTRA3" ["l"="65.177887,-10.833639"];
+"MEP1A" ["l"="62.520359,-12.037496"];
+"NAGPA" ["l"="63.773598,-11.583027"];
+"NCAN" ["l"="63.426247,-12.283593"];
+"PCOLCE" ["l"="65.175117,-12.774748"];
+"PCSK1" ["l"="63.846478,-10.163292"];
+"PCSK2" ["l"="63.586922,-10.469232"];
+"PCSK4" ["l"="64.243706,-10.595697"];
+"PCSK7" ["l"="63.271534,-10.785271"];
+"PDGFRL" ["l"="63.221012,-12.644746"];
+"RGMA" ["l"="63.752983,-10.827595"];
+"RGMB" ["l"="63.371029,-11.493984"];
+"TSPEAR" ["l"="62.954201,-12.912395"];
+"VIT" ["l"="64.348251,-12.987344"];
+"VSTM2A" ["l"="64.383858,-10.945922"];
+"VSTM2B" ["l"="63.097256,-11.647527"];
 }

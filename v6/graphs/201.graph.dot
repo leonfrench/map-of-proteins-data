@@ -1,147 +1,147 @@
 digraph G {
-"APCDD1L" ["l"="67.220787,-9.064794"]
-"BTBD17" ["l"="68.744919,-6.525591"]
-"CHI3L1" ["l"="67.211243,-7.716516"]
-"CHI3L2" ["l"="67.266617,-7.546770"]
-"CHIA" ["l"="66.508530,-7.859561"]
-"CRTAP" ["l"="68.011177,-6.696987"]
-"CTSD" ["l"="66.710983,-8.153767"]
-"CTSE" ["l"="67.012901,-8.453043"]
-"DHH" ["l"="69.482079,-7.362918"]
-"DNASE1" ["l"="68.244209,-7.174394"]
-"DNASE1L2" ["l"="68.485153,-6.898663"]
-"DNASE2B" ["l"="67.918304,-6.362973"]
-"IHH" ["l"="69.416718,-7.617984"]
-"NAPSA" ["l"="67.739067,-8.270814"]
-"P3H1" ["l"="67.968018,-6.777326"]
-"P3H2" ["l"="68.254143,-6.927281"]
-"P3H3" ["l"="67.775406,-6.791982"]
-"P3H4" ["l"="68.515266,-6.878620"]
-"P4HA3" ["l"="67.314682,-6.853294"]
-"P4HTM" ["l"="67.296112,-6.860286"]
-"PGA3" ["l"="66.759354,-8.121793"]
-"PGA4" ["l"="66.719452,-8.040711"]
-"PGA5" ["l"="67.007339,-8.374541"]
-"PGC" ["l"="67.088959,-8.260282"]
-"PRF1" ["l"="69.472229,-6.291265"]
-"REN" ["l"="67.714378,-8.130203"]
-"SHH" ["l"="69.322845,-7.661778"]
-"SUN3" ["l"="68.069366,-7.851054"]
-"TCN2" ["l"="67.790527,-8.489493"]
-"APCDD1L" -> "P4HA3"
-"APCDD1L" -> "IHH"
-"APCDD1L" -> "SHH"
-"APCDD1L" -> "P3H3"
-"BTBD17" -> "IHH"
-"BTBD17" -> "SHH"
-"BTBD17" -> "DHH"
-"BTBD17" -> "PRF1"
-"CHI3L1" -> "CHI3L2"
-"CHI3L1" -> "CHIA"
-"CHI3L1" -> "REN"
-"CHI3L1" -> "DNASE1L2"
-"CHI3L2" -> "CHI3L1"
-"CHI3L2" -> "CHIA"
-"CHI3L2" -> "REN"
-"CHI3L2" -> "NAPSA"
-"CHIA" -> "CHI3L1"
-"CHIA" -> "CHI3L2"
-"CHIA" -> "CTSE"
-"CHIA" -> "PGC"
-"CRTAP" -> "P3H4"
-"CRTAP" -> "P3H2"
-"CRTAP" -> "P3H1"
-"CRTAP" -> "P4HA3"
-"CTSD" -> "CTSE"
-"CTSD" -> "REN"
-"CTSD" -> "PGC"
-"CTSD" -> "PGA3"
-"CTSE" -> "PGC"
-"CTSE" -> "NAPSA"
-"CTSE" -> "REN"
-"CTSE" -> "CTSD"
-"DHH" -> "IHH"
-"DHH" -> "SHH"
-"DHH" -> "DNASE1L2"
-"DHH" -> "BTBD17"
-"DNASE1" -> "DNASE1L2"
-"DNASE1" -> "IHH"
-"DNASE1" -> "CTSE"
-"DNASE1" -> "SHH"
-"DNASE1L2" -> "DNASE1"
-"DNASE1L2" -> "IHH"
-"DNASE1L2" -> "DHH"
-"DNASE1L2" -> "SHH"
-"DNASE2B" -> "APCDD1L"
-"DNASE2B" -> "P4HA3"
-"DNASE2B" -> "P3H2"
-"DNASE2B" -> "DNASE1L2"
-"IHH" -> "SHH"
-"IHH" -> "DHH"
-"IHH" -> "DNASE1L2"
-"IHH" -> "BTBD17"
-"NAPSA" -> "CTSE"
-"NAPSA" -> "REN"
-"NAPSA" -> "PGC"
-"NAPSA" -> "CTSD"
-"P3H1" -> "P3H2"
-"P3H1" -> "P3H4"
-"P3H1" -> "P4HA3"
-"P3H1" -> "P3H3"
-"P3H2" -> "P3H1"
-"P3H2" -> "CRTAP"
-"P3H2" -> "P4HA3"
-"P3H2" -> "P3H3"
-"P3H3" -> "P3H4"
-"P3H3" -> "P3H1"
-"P3H3" -> "P3H2"
-"P3H3" -> "P4HA3"
-"P3H4" -> "P3H3"
-"P3H4" -> "P3H1"
-"P3H4" -> "CRTAP"
-"P3H4" -> "P4HA3"
-"P4HA3" -> "P3H1"
-"P4HA3" -> "P3H2"
-"P4HA3" -> "P3H4"
-"P4HA3" -> "P3H3"
-"P4HTM" -> "P3H1"
-"P4HTM" -> "P3H3"
-"P4HTM" -> "IHH"
-"P4HTM" -> "P3H2"
-"PGA3" -> "PGA4"
-"PGA3" -> "PGA5"
-"PGA3" -> "PGC"
-"PGA3" -> "CTSE"
-"PGA4" -> "PGA5"
-"PGA4" -> "PGA3"
-"PGA4" -> "PGC"
-"PGA4" -> "CTSE"
-"PGA5" -> "PGA4"
-"PGA5" -> "PGA3"
-"PGA5" -> "PGC"
-"PGA5" -> "CTSE"
-"PGC" -> "PGA3"
-"PGC" -> "PGA4"
-"PGC" -> "PGA5"
-"PGC" -> "CTSE"
-"PRF1" -> "DNASE1L2"
-"PRF1" -> "BTBD17"
-"PRF1" -> "TCN2"
-"PRF1" -> "APCDD1L"
-"REN" -> "NAPSA"
-"REN" -> "CTSE"
-"REN" -> "CTSD"
-"REN" -> "PGC"
-"SHH" -> "IHH"
-"SHH" -> "DHH"
-"SHH" -> "DNASE1L2"
-"SHH" -> "BTBD17"
-"SUN3" -> "DNASE1L2"
-"SUN3" -> "P4HA3"
-"SUN3" -> "CHI3L1"
-"SUN3" -> "IHH"
-"TCN2" -> "PRF1"
-"TCN2" -> "CRTAP"
-"TCN2" -> "DNASE1L2"
-"TCN2" -> "CTSD"
+"APCDD1L" -> "P4HA3";
+"APCDD1L" -> "IHH";
+"APCDD1L" -> "SHH";
+"APCDD1L" -> "P3H3";
+"BTBD17" -> "IHH";
+"BTBD17" -> "SHH";
+"BTBD17" -> "DHH";
+"BTBD17" -> "PRF1";
+"CHI3L1" -> "CHI3L2";
+"CHI3L1" -> "CHIA";
+"CHI3L1" -> "REN";
+"CHI3L1" -> "DNASE1L2";
+"CHI3L2" -> "CHI3L1";
+"CHI3L2" -> "CHIA";
+"CHI3L2" -> "REN";
+"CHI3L2" -> "NAPSA";
+"CHIA" -> "CHI3L1";
+"CHIA" -> "CHI3L2";
+"CHIA" -> "CTSE";
+"CHIA" -> "PGC";
+"CRTAP" -> "P3H4";
+"CRTAP" -> "P3H2";
+"CRTAP" -> "P3H1";
+"CRTAP" -> "P4HA3";
+"CTSD" -> "CTSE";
+"CTSD" -> "REN";
+"CTSD" -> "PGC";
+"CTSD" -> "PGA3";
+"CTSE" -> "PGC";
+"CTSE" -> "NAPSA";
+"CTSE" -> "REN";
+"CTSE" -> "CTSD";
+"DHH" -> "IHH";
+"DHH" -> "SHH";
+"DHH" -> "DNASE1L2";
+"DHH" -> "BTBD17";
+"DNASE1" -> "DNASE1L2";
+"DNASE1" -> "IHH";
+"DNASE1" -> "CTSE";
+"DNASE1" -> "SHH";
+"DNASE1L2" -> "DNASE1";
+"DNASE1L2" -> "IHH";
+"DNASE1L2" -> "DHH";
+"DNASE1L2" -> "SHH";
+"DNASE2B" -> "APCDD1L";
+"DNASE2B" -> "P4HA3";
+"DNASE2B" -> "P3H2";
+"DNASE2B" -> "DNASE1L2";
+"IHH" -> "SHH";
+"IHH" -> "DHH";
+"IHH" -> "DNASE1L2";
+"IHH" -> "BTBD17";
+"NAPSA" -> "CTSE";
+"NAPSA" -> "REN";
+"NAPSA" -> "PGC";
+"NAPSA" -> "CTSD";
+"P3H1" -> "P3H2";
+"P3H1" -> "P3H4";
+"P3H1" -> "P4HA3";
+"P3H1" -> "P3H3";
+"P3H2" -> "P3H1";
+"P3H2" -> "CRTAP";
+"P3H2" -> "P4HA3";
+"P3H2" -> "P3H3";
+"P3H3" -> "P3H4";
+"P3H3" -> "P3H1";
+"P3H3" -> "P3H2";
+"P3H3" -> "P4HA3";
+"P3H4" -> "P3H3";
+"P3H4" -> "P3H1";
+"P3H4" -> "CRTAP";
+"P3H4" -> "P4HA3";
+"P4HA3" -> "P3H1";
+"P4HA3" -> "P3H2";
+"P4HA3" -> "P3H4";
+"P4HA3" -> "P3H3";
+"P4HTM" -> "P3H1";
+"P4HTM" -> "P3H3";
+"P4HTM" -> "IHH";
+"P4HTM" -> "P3H2";
+"PGA3" -> "PGA4";
+"PGA3" -> "PGA5";
+"PGA3" -> "PGC";
+"PGA3" -> "CTSE";
+"PGA4" -> "PGA5";
+"PGA4" -> "PGA3";
+"PGA4" -> "PGC";
+"PGA4" -> "CTSE";
+"PGA5" -> "PGA4";
+"PGA5" -> "PGA3";
+"PGA5" -> "PGC";
+"PGA5" -> "CTSE";
+"PGC" -> "PGA3";
+"PGC" -> "PGA4";
+"PGC" -> "PGA5";
+"PGC" -> "CTSE";
+"PRF1" -> "DNASE1L2";
+"PRF1" -> "BTBD17";
+"PRF1" -> "TCN2";
+"PRF1" -> "APCDD1L";
+"REN" -> "NAPSA";
+"REN" -> "CTSE";
+"REN" -> "CTSD";
+"REN" -> "PGC";
+"SHH" -> "IHH";
+"SHH" -> "DHH";
+"SHH" -> "DNASE1L2";
+"SHH" -> "BTBD17";
+"SUN3" -> "DNASE1L2";
+"SUN3" -> "P4HA3";
+"SUN3" -> "CHI3L1";
+"SUN3" -> "IHH";
+"TCN2" -> "PRF1";
+"TCN2" -> "CRTAP";
+"TCN2" -> "DNASE1L2";
+"TCN2" -> "CTSD";
+"APCDD1L" ["l"="67.220787,-9.064794"];
+"BTBD17" ["l"="68.744919,-6.525591"];
+"CHI3L1" ["l"="67.211243,-7.716516"];
+"CHI3L2" ["l"="67.266617,-7.546770"];
+"CHIA" ["l"="66.508530,-7.859561"];
+"CRTAP" ["l"="68.011177,-6.696987"];
+"CTSD" ["l"="66.710983,-8.153767"];
+"CTSE" ["l"="67.012901,-8.453043"];
+"DHH" ["l"="69.482079,-7.362918"];
+"DNASE1" ["l"="68.244209,-7.174394"];
+"DNASE1L2" ["l"="68.485153,-6.898663"];
+"DNASE2B" ["l"="67.918304,-6.362973"];
+"IHH" ["l"="69.416718,-7.617984"];
+"NAPSA" ["l"="67.739067,-8.270814"];
+"P3H1" ["l"="67.968018,-6.777326"];
+"P3H2" ["l"="68.254143,-6.927281"];
+"P3H3" ["l"="67.775406,-6.791982"];
+"P3H4" ["l"="68.515266,-6.878620"];
+"P4HA3" ["l"="67.314682,-6.853294"];
+"P4HTM" ["l"="67.296112,-6.860286"];
+"PGA3" ["l"="66.759354,-8.121793"];
+"PGA4" ["l"="66.719452,-8.040711"];
+"PGA5" ["l"="67.007339,-8.374541"];
+"PGC" ["l"="67.088959,-8.260282"];
+"PRF1" ["l"="69.472229,-6.291265"];
+"REN" ["l"="67.714378,-8.130203"];
+"SHH" ["l"="69.322845,-7.661778"];
+"SUN3" ["l"="68.069366,-7.851054"];
+"TCN2" ["l"="67.790527,-8.489493"];
 }

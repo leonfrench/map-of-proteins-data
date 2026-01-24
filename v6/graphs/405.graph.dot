@@ -1,67 +1,67 @@
 digraph G {
-"ANLN" ["l"="5.387833,7.431203"]
-"BACH2" ["l"="4.320979,7.550910"]
-"CENPC" ["l"="5.401697,7.126860"]
-"CEP68" ["l"="4.994973,7.457622"]
-"DDIAS" ["l"="5.571910,7.579809"]
-"FBXL19" ["l"="5.282215,7.469036"]
-"HR" ["l"="4.738875,7.754716"]
-"MASTL" ["l"="4.682484,7.927602"]
-"MCPH1" ["l"="4.758977,7.279281"]
-"PRR11" ["l"="5.329702,7.480508"]
-"SMTN" ["l"="4.951998,8.003787"]
-"WASHC2C" ["l"="4.932488,7.852118"]
-"XKR5" ["l"="4.672750,7.966158"]
-"ANLN" -> "CENPC"
-"ANLN" -> "MCPH1"
-"ANLN" -> "PRR11"
-"ANLN" -> "HR"
-"BACH2" -> "MCPH1"
-"BACH2" -> "CEP68"
-"BACH2" -> "XKR5"
-"BACH2" -> "DDIAS"
-"CENPC" -> "MCPH1"
-"CENPC" -> "ANLN"
-"CENPC" -> "DDIAS"
-"CENPC" -> "MASTL"
-"CEP68" -> "HR"
-"CEP68" -> "BACH2"
-"CEP68" -> "XKR5"
-"CEP68" -> "MCPH1"
-"DDIAS" -> "MASTL"
-"DDIAS" -> "MCPH1"
-"DDIAS" -> "CENPC"
-"DDIAS" -> "BACH2"
-"FBXL19" -> "HR"
-"FBXL19" -> "CEP68"
-"FBXL19" -> "MCPH1"
-"FBXL19" -> "BACH2"
-"HR" -> "CEP68"
-"HR" -> "FBXL19"
-"HR" -> "XKR5"
-"HR" -> "ANLN"
-"MASTL" -> "MCPH1"
-"MASTL" -> "DDIAS"
-"MASTL" -> "CENPC"
-"MASTL" -> "ANLN"
-"MCPH1" -> "CENPC"
-"MCPH1" -> "BACH2"
-"MCPH1" -> "MASTL"
-"MCPH1" -> "ANLN"
-"PRR11" -> "ANLN"
-"PRR11" -> "MCPH1"
-"PRR11" -> "CEP68"
-"PRR11" -> "WASHC2C"
-"SMTN" -> "ANLN"
-"SMTN" -> "CEP68"
-"SMTN" -> "MCPH1"
-"SMTN" -> "HR"
-"WASHC2C" -> "ANLN"
-"WASHC2C" -> "MCPH1"
-"WASHC2C" -> "CENPC"
-"WASHC2C" -> "CEP68"
-"XKR5" -> "CEP68"
-"XKR5" -> "HR"
-"XKR5" -> "BACH2"
-"XKR5" -> "DDIAS"
+"ANLN" -> "CENPC";
+"ANLN" -> "MCPH1";
+"ANLN" -> "PRR11";
+"ANLN" -> "HR";
+"BACH2" -> "MCPH1";
+"BACH2" -> "CEP68";
+"BACH2" -> "XKR5";
+"BACH2" -> "DDIAS";
+"CENPC" -> "MCPH1";
+"CENPC" -> "ANLN";
+"CENPC" -> "DDIAS";
+"CENPC" -> "MASTL";
+"CEP68" -> "HR";
+"CEP68" -> "BACH2";
+"CEP68" -> "XKR5";
+"CEP68" -> "MCPH1";
+"DDIAS" -> "MASTL";
+"DDIAS" -> "MCPH1";
+"DDIAS" -> "CENPC";
+"DDIAS" -> "BACH2";
+"FBXL19" -> "HR";
+"FBXL19" -> "CEP68";
+"FBXL19" -> "MCPH1";
+"FBXL19" -> "BACH2";
+"HR" -> "CEP68";
+"HR" -> "FBXL19";
+"HR" -> "XKR5";
+"HR" -> "ANLN";
+"MASTL" -> "MCPH1";
+"MASTL" -> "DDIAS";
+"MASTL" -> "CENPC";
+"MASTL" -> "ANLN";
+"MCPH1" -> "CENPC";
+"MCPH1" -> "BACH2";
+"MCPH1" -> "MASTL";
+"MCPH1" -> "ANLN";
+"PRR11" -> "ANLN";
+"PRR11" -> "MCPH1";
+"PRR11" -> "CEP68";
+"PRR11" -> "WASHC2C";
+"SMTN" -> "ANLN";
+"SMTN" -> "CEP68";
+"SMTN" -> "MCPH1";
+"SMTN" -> "HR";
+"WASHC2C" -> "ANLN";
+"WASHC2C" -> "MCPH1";
+"WASHC2C" -> "CENPC";
+"WASHC2C" -> "CEP68";
+"XKR5" -> "CEP68";
+"XKR5" -> "HR";
+"XKR5" -> "BACH2";
+"XKR5" -> "DDIAS";
+"ANLN" ["l"="5.387833,7.431203"];
+"BACH2" ["l"="4.320979,7.550910"];
+"CENPC" ["l"="5.401697,7.126860"];
+"CEP68" ["l"="4.994973,7.457622"];
+"DDIAS" ["l"="5.571910,7.579809"];
+"FBXL19" ["l"="5.282215,7.469036"];
+"HR" ["l"="4.738875,7.754716"];
+"MASTL" ["l"="4.682484,7.927602"];
+"MCPH1" ["l"="4.758977,7.279281"];
+"PRR11" ["l"="5.329702,7.480508"];
+"SMTN" ["l"="4.951998,8.003787"];
+"WASHC2C" ["l"="4.932488,7.852118"];
+"XKR5" ["l"="4.672750,7.966158"];
 }

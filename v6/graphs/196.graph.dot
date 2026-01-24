@@ -1,102 +1,102 @@
 digraph G {
-"AAMDC" ["l"="54.651390,10.339142"]
-"C15orf40" ["l"="54.549187,11.301006"]
-"C15orf61" ["l"="51.044312,11.546254"]
-"CIAO2A" ["l"="53.852123,11.599031"]
-"CISD3" ["l"="54.440113,12.079611"]
-"COA8" ["l"="56.314335,12.585701"]
-"DDT" ["l"="51.461468,11.970948"]
-"DNAJC30" ["l"="56.067955,11.487921"]
-"DNLZ" ["l"="52.280338,11.231470"]
-"GATC" ["l"="52.891781,10.702112"]
-"GLRX5" ["l"="53.896358,11.116902"]
-"GPX4" ["l"="54.645241,11.289611"]
-"HINT1" ["l"="52.789185,13.012607"]
-"MRPS34" ["l"="53.444771,12.477636"]
-"NGRN" ["l"="54.510632,11.909085"]
-"NME4" ["l"="54.181522,10.749768"]
-"NOP16" ["l"="54.518452,13.789392"]
-"PTRHD1" ["l"="53.657204,11.620800"]
-"SOD1" ["l"="53.651768,12.814848"]
-"TSTD1" ["l"="53.376488,10.749509"]
-"AAMDC" -> "TSTD1"
-"AAMDC" -> "DDT"
-"AAMDC" -> "PTRHD1"
-"AAMDC" -> "SOD1"
-"C15orf40" -> "GATC"
-"C15orf40" -> "CIAO2A"
-"C15orf40" -> "PTRHD1"
-"C15orf40" -> "CISD3"
-"C15orf61" -> "DNLZ"
-"C15orf61" -> "CISD3"
-"C15orf61" -> "COA8"
-"C15orf61" -> "MRPS34"
-"CIAO2A" -> "PTRHD1"
-"CIAO2A" -> "GATC"
-"CIAO2A" -> "C15orf40"
-"CIAO2A" -> "CISD3"
-"CISD3" -> "DNLZ"
-"CISD3" -> "GATC"
-"CISD3" -> "C15orf40"
-"CISD3" -> "C15orf61"
-"COA8" -> "DNAJC30"
-"COA8" -> "PTRHD1"
-"COA8" -> "C15orf61"
-"COA8" -> "DNLZ"
-"DDT" -> "TSTD1"
-"DDT" -> "PTRHD1"
-"DDT" -> "HINT1"
-"DDT" -> "CIAO2A"
-"DNAJC30" -> "COA8"
-"DNAJC30" -> "NGRN"
-"DNAJC30" -> "GATC"
-"DNAJC30" -> "DNLZ"
-"DNLZ" -> "CISD3"
-"DNLZ" -> "GLRX5"
-"DNLZ" -> "GATC"
-"DNLZ" -> "NGRN"
-"GATC" -> "C15orf40"
-"GATC" -> "CIAO2A"
-"GATC" -> "DNLZ"
-"GATC" -> "PTRHD1"
-"GLRX5" -> "DNLZ"
-"GLRX5" -> "GATC"
-"GLRX5" -> "PTRHD1"
-"GLRX5" -> "CISD3"
-"GPX4" -> "SOD1"
-"GPX4" -> "NME4"
-"GPX4" -> "TSTD1"
-"GPX4" -> "HINT1"
-"HINT1" -> "SOD1"
-"HINT1" -> "GPX4"
-"HINT1" -> "DDT"
-"HINT1" -> "TSTD1"
-"MRPS34" -> "C15orf61"
-"MRPS34" -> "DNLZ"
-"MRPS34" -> "GATC"
-"MRPS34" -> "PTRHD1"
-"NGRN" -> "DNLZ"
-"NGRN" -> "GATC"
-"NGRN" -> "DNAJC30"
-"NGRN" -> "COA8"
-"NME4" -> "PTRHD1"
-"NME4" -> "DNLZ"
-"NME4" -> "GATC"
-"NME4" -> "CIAO2A"
-"NOP16" -> "PTRHD1"
-"NOP16" -> "GATC"
-"NOP16" -> "NGRN"
-"NOP16" -> "MRPS34"
-"PTRHD1" -> "CIAO2A"
-"PTRHD1" -> "NME4"
-"PTRHD1" -> "GATC"
-"PTRHD1" -> "TSTD1"
-"SOD1" -> "HINT1"
-"SOD1" -> "GPX4"
-"SOD1" -> "GATC"
-"SOD1" -> "DDT"
-"TSTD1" -> "PTRHD1"
-"TSTD1" -> "DDT"
-"TSTD1" -> "NME4"
-"TSTD1" -> "GPX4"
+"AAMDC" -> "TSTD1";
+"AAMDC" -> "DDT";
+"AAMDC" -> "PTRHD1";
+"AAMDC" -> "SOD1";
+"C15orf40" -> "GATC";
+"C15orf40" -> "CIAO2A";
+"C15orf40" -> "PTRHD1";
+"C15orf40" -> "CISD3";
+"C15orf61" -> "DNLZ";
+"C15orf61" -> "CISD3";
+"C15orf61" -> "COA8";
+"C15orf61" -> "MRPS34";
+"CIAO2A" -> "PTRHD1";
+"CIAO2A" -> "GATC";
+"CIAO2A" -> "C15orf40";
+"CIAO2A" -> "CISD3";
+"CISD3" -> "DNLZ";
+"CISD3" -> "GATC";
+"CISD3" -> "C15orf40";
+"CISD3" -> "C15orf61";
+"COA8" -> "DNAJC30";
+"COA8" -> "PTRHD1";
+"COA8" -> "C15orf61";
+"COA8" -> "DNLZ";
+"DDT" -> "TSTD1";
+"DDT" -> "PTRHD1";
+"DDT" -> "HINT1";
+"DDT" -> "CIAO2A";
+"DNAJC30" -> "COA8";
+"DNAJC30" -> "NGRN";
+"DNAJC30" -> "GATC";
+"DNAJC30" -> "DNLZ";
+"DNLZ" -> "CISD3";
+"DNLZ" -> "GLRX5";
+"DNLZ" -> "GATC";
+"DNLZ" -> "NGRN";
+"GATC" -> "C15orf40";
+"GATC" -> "CIAO2A";
+"GATC" -> "DNLZ";
+"GATC" -> "PTRHD1";
+"GLRX5" -> "DNLZ";
+"GLRX5" -> "GATC";
+"GLRX5" -> "PTRHD1";
+"GLRX5" -> "CISD3";
+"GPX4" -> "SOD1";
+"GPX4" -> "NME4";
+"GPX4" -> "TSTD1";
+"GPX4" -> "HINT1";
+"HINT1" -> "SOD1";
+"HINT1" -> "GPX4";
+"HINT1" -> "DDT";
+"HINT1" -> "TSTD1";
+"MRPS34" -> "C15orf61";
+"MRPS34" -> "DNLZ";
+"MRPS34" -> "GATC";
+"MRPS34" -> "PTRHD1";
+"NGRN" -> "DNLZ";
+"NGRN" -> "GATC";
+"NGRN" -> "DNAJC30";
+"NGRN" -> "COA8";
+"NME4" -> "PTRHD1";
+"NME4" -> "DNLZ";
+"NME4" -> "GATC";
+"NME4" -> "CIAO2A";
+"NOP16" -> "PTRHD1";
+"NOP16" -> "GATC";
+"NOP16" -> "NGRN";
+"NOP16" -> "MRPS34";
+"PTRHD1" -> "CIAO2A";
+"PTRHD1" -> "NME4";
+"PTRHD1" -> "GATC";
+"PTRHD1" -> "TSTD1";
+"SOD1" -> "HINT1";
+"SOD1" -> "GPX4";
+"SOD1" -> "GATC";
+"SOD1" -> "DDT";
+"TSTD1" -> "PTRHD1";
+"TSTD1" -> "DDT";
+"TSTD1" -> "NME4";
+"TSTD1" -> "GPX4";
+"AAMDC" ["l"="54.651390,10.339142"];
+"C15orf40" ["l"="54.549187,11.301006"];
+"C15orf61" ["l"="51.044312,11.546254"];
+"CIAO2A" ["l"="53.852123,11.599031"];
+"CISD3" ["l"="54.440113,12.079611"];
+"COA8" ["l"="56.314335,12.585701"];
+"DDT" ["l"="51.461468,11.970948"];
+"DNAJC30" ["l"="56.067955,11.487921"];
+"DNLZ" ["l"="52.280338,11.231470"];
+"GATC" ["l"="52.891781,10.702112"];
+"GLRX5" ["l"="53.896358,11.116902"];
+"GPX4" ["l"="54.645241,11.289611"];
+"HINT1" ["l"="52.789185,13.012607"];
+"MRPS34" ["l"="53.444771,12.477636"];
+"NGRN" ["l"="54.510632,11.909085"];
+"NME4" ["l"="54.181522,10.749768"];
+"NOP16" ["l"="54.518452,13.789392"];
+"PTRHD1" ["l"="53.657204,11.620800"];
+"SOD1" ["l"="53.651768,12.814848"];
+"TSTD1" ["l"="53.376488,10.749509"];
 }
