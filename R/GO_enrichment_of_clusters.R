@@ -1,3 +1,5 @@
+library(future)
+library(future.apply)
 library(tmod)
 library(dplyr)
 library(tidyr)
@@ -13,8 +15,8 @@ conflicted::conflict_prefer("select", "dplyr")
 conflicted::conflict_prefer("filter", "dplyr")
 conflicted::conflict_prefer("rename", "dplyr")
 
-target_cluster_path <- here("v3")
-cluster_mapping <- read_csv(here(target_cluster_path, "gene_cluster_xy.csv")) 
+target_cluster_path <- here("v6")
+cluster_mapping <- read_csv(here(target_cluster_path, "HBSCAN_clusters.csv"))
 
 go_table <- as.data.frame(org.Hs.egGO2ALLEGS) #gene mapping to the direct GO term and that term's children
 go_table %<>% as_tibble()
@@ -52,29 +54,56 @@ GO_tmod_obj
 
 background_genes <- cluster_mapping$gene_symbol
 
-all_HG_results <- tibble()
-for( target_cluster in unique(cluster_mapping$cluster_id)) {
-  if(target_cluster %in% all_HG_results$cluster_id) { #for restarting
-    next
-  }
-  print(target_cluster)
-  genes_in_cluster <- cluster_mapping %>% filter(cluster_id == target_cluster, gene_symbol %in% go_table$gene_symbol) %>% pull(gene_symbol)
+# ---- parallel HG test per cluster ----
+background_genes <- cluster_mapping$gene_symbol
+go_genes <- unique(go_table$gene_symbol)
+
+# Pre-split once so we don't scan cluster_mapping over and over
+cluster_genes_map <- split(cluster_mapping$gene_symbol, cluster_mapping$hdbscan_filled_cluster)
+cluster_genes_map <- lapply(cluster_genes_map, function(gs) gs[gs %in% go_genes])
+
+clusters <- names(cluster_genes_map)
+
+# Optional restart: if an output already exists, skip finished clusters
+out_path <- here(target_cluster_path, "gene_cluster_xy.GO_enrich.csv")
+
+# Use most cores minus 1 (tweak if you want)
+workers <- max(1, future::availableCores() - 2)
+future::plan(future::multisession, workers = workers)
+
+res_list <- future.apply::future_lapply(clusters, function(target_cluster) {
+  genes_in_cluster <- cluster_genes_map[[target_cluster]]
   
-  result <- tmodHGtest(fg = genes_in_cluster, bg = background_genes, mset = GO_tmod_obj, qval = 1.01, filter = FALSE) %>% tibble()
+  result <- tmod::tmodHGtest(
+    fg = genes_in_cluster,
+    bg = background_genes,
+    mset = GO_tmod_obj,
+    qval = 1.01,
+    filter = FALSE
+  )
+  result <- tibble::as_tibble(result)
+  
   if (nrow(result) == 0) {
-    single_row <- tibble(cluster_id = target_cluster, GO_hit = "No significant GO enrichment")
-  } else {
-    result %<>% filter(adj.P.Val < 0.1)
-    if (nrow(result) == 0) {
-      single_row <- tibble(cluster_id = target_cluster, GO_hit = "No significant GO enrichment")
-    } else {
-      single_row <- tibble(cluster_id = target_cluster, GO_hit = result[1, "ID"]$ID)
-    }}
-  all_HG_results %<>% bind_rows(single_row)
-}
+    return(tibble::tibble(hdbscan_filled_cluster = target_cluster, GO_hit = "No significant GO enrichment"))
+  }
+  
+  result <- dplyr::filter(result, adj.P.Val < 0.1)
+  if (nrow(result) == 0) {
+    return(tibble::tibble(hdbscan_filled_cluster = target_cluster, GO_hit = "No significant GO enrichment"))
+  }
+  
+  tibble::tibble(hdbscan_filled_cluster = target_cluster, GO_hit = result$ID[1])
+})
+#should just be a matrix multiplication
+future::plan(future::sequential)
+
+all_HG_results <- dplyr::bind_rows(res_list)
+
+all_HG_results <- all_HG_results %>% dplyr::mutate(hdbscan_filled_cluster = as.integer(hdbscan_filled_cluster))
+
 all_HG_results %>% pull(GO_hit) %>% n_distinct()
 all_HG_results %>% group_by(GO_hit) %>% count() %>% arrange(-n) %>% filter(n>1)
-all_HG_results %<>% inner_join(cluster_mapping %>% group_by(cluster_id) %>% summarize(gene_symbols = paste(gene_symbol, sep = " ", collapse = " ")))
+all_HG_results %<>% inner_join(cluster_mapping %>% group_by(hdbscan_filled_cluster) %>% summarize(gene_symbols = paste(gene_symbol, sep = " ", collapse = " ")))
 all_HG_results %<>% mutate(annotated_label = "")
 
 all_HG_results %<>% arrange(GO_hit)
