@@ -111,12 +111,12 @@ all_HG_results %>% write_csv(here(target_cluster_path, "gene_cluster_xy.GO_enric
 here(target_cluster_path, "gene_cluster_xy.GO_enrich.csv")
 
 
-#ChatGPT prompt:
+#ChatGPT prompt that was used on deep research with 1/3 of the clusters each time (ID, GO group and genes as input):
 # You are a master namer of protein clusters. Your task is to create a unique, specific, and memorable name for a set of human protein coding genes based on their common function or subcellular localization.
 # 
 # The name should be:
-#   
-#   1. Concise (1-3 words maximum)
+# 
+# 1. Concise (1-3 words maximum)
 # 2. Distinctive and specific to these particular proteins/genes
 # 3. Capture the unique essence of this specific set
 # 4. AVOID generic terms
@@ -127,7 +127,7 @@ here(target_cluster_path, "gene_cluster_xy.GO_enrich.csv")
 # Each name must be HIGHLY DISTINCT from all other protein cluster names. Imagine this name appearing on a map - it should be instantly recognizable.
 # 
 # Don't write code, inspect it manually. Double-check your work.
-# Do this for all of the clusters in the below table. This table gives the most enriched Gene Ontology group and the names of the genes for reference. The Gene Ontology group name can guide your name but don't copy it completely. For output just give the cluster ID and the name. 
+# Do this for all of the clusters in the below table. This table gives the most enriched Gene Ontology group and the names of the genes for reference. The Gene Ontology group name can guide your name but don't copy it completely. For output just give the cluster ID and the name.
 
 
 
