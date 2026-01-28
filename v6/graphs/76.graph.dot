@@ -1,77 +1,108 @@
 digraph G {
-"CEACAM1" -> "CEACAM8";
-"CEACAM1" -> "PSG2";
-"CEACAM1" -> "CEACAM7";
-"CEACAM1" -> "CEACAM6";
-"CEACAM5" -> "CEACAM1";
-"CEACAM5" -> "CEACAM6";
-"CEACAM5" -> "PSG7";
-"CEACAM5" -> "PSG1";
-"CEACAM6" -> "CEACAM1";
-"CEACAM6" -> "CEACAM8";
-"CEACAM6" -> "CEACAM7";
-"CEACAM6" -> "PSG2";
-"CEACAM7" -> "CEACAM1";
-"CEACAM7" -> "CEACAM8";
-"CEACAM7" -> "CEACAM6";
-"CEACAM7" -> "PSG11";
-"CEACAM8" -> "CEACAM1";
-"CEACAM8" -> "PSG2";
-"CEACAM8" -> "PSG7";
-"CEACAM8" -> "PSG11";
-"PSG1" -> "PSG7";
-"PSG1" -> "PSG3";
-"PSG1" -> "PSG4";
-"PSG1" -> "PSG6";
-"PSG11" -> "PSG2";
-"PSG11" -> "PSG7";
-"PSG11" -> "PSG5";
-"PSG11" -> "PSG4";
-"PSG2" -> "PSG11";
-"PSG2" -> "PSG3";
-"PSG2" -> "PSG7";
-"PSG2" -> "PSG4";
-"PSG3" -> "PSG6";
-"PSG3" -> "PSG7";
-"PSG3" -> "PSG4";
-"PSG3" -> "PSG1";
-"PSG4" -> "PSG3";
-"PSG4" -> "PSG5";
-"PSG4" -> "PSG6";
-"PSG4" -> "PSG1";
-"PSG5" -> "PSG4";
-"PSG5" -> "PSG3";
-"PSG5" -> "PSG9";
-"PSG5" -> "PSG7";
-"PSG6" -> "PSG3";
-"PSG6" -> "PSG7";
-"PSG6" -> "PSG4";
-"PSG6" -> "PSG1";
-"PSG7" -> "PSG1";
-"PSG7" -> "PSG3";
-"PSG7" -> "PSG6";
-"PSG7" -> "PSG4";
-"PSG8" -> "PSG1";
-"PSG8" -> "PSG9";
-"PSG8" -> "PSG7";
-"PSG8" -> "PSG4";
-"PSG9" -> "PSG4";
-"PSG9" -> "PSG6";
-"PSG9" -> "PSG5";
-"PSG9" -> "PSG3";
-"CEACAM1" ["l"="14.866312,39.486942"];
-"CEACAM5" ["l"="14.947343,39.670048"];
-"CEACAM6" ["l"="14.925947,39.597027"];
-"CEACAM7" ["l"="14.905225,39.544651"];
-"CEACAM8" ["l"="15.068474,39.698170"];
-"PSG1" ["l"="15.000212,39.803787"];
-"PSG11" ["l"="14.973579,39.692837"];
-"PSG2" ["l"="15.114299,39.726959"];
-"PSG3" ["l"="15.258896,39.926796"];
-"PSG4" ["l"="15.346870,40.066608"];
-"PSG5" ["l"="14.833390,39.544250"];
-"PSG6" ["l"="14.984433,40.163139"];
-"PSG7" ["l"="15.051029,39.793427"];
-"PSG8" ["l"="15.355266,39.887623"];
-"PSG9" ["l"="15.028717,39.845001"];
+"CEACAM1" ["l"="14.866,39.487"]
+"CEACAM21" ["l"="12.926,36.819"]
+"CEACAM5" ["l"="14.947,39.670"]
+"CEACAM6" ["l"="14.926,39.597"]
+"CEACAM7" ["l"="14.905,39.545"]
+"CEACAM8" ["l"="15.068,39.698"]
+"PSG1" ["l"="15.000,39.804"]
+"PSG11" ["l"="14.974,39.693"]
+"PSG2" ["l"="15.114,39.727"]
+"PSG3" ["l"="15.259,39.927"]
+"PSG4" ["l"="15.347,40.067"]
+"PSG5" ["l"="14.833,39.544"]
+"PSG6" ["l"="14.984,40.163"]
+"PSG7" ["l"="15.051,39.793"]
+"PSG8" ["l"="15.355,39.888"]
+"PSG9" ["l"="15.029,39.845"]
+"CEACAM1" -> "CEACAM8"
+"CEACAM1" -> "PSG2"
+"CEACAM1" -> "CEACAM7"
+"CEACAM1" -> "CEACAM6"
+"CEACAM1" -> "PSG7"
+"CEACAM1" -> "PSG4"
+"CEACAM5" -> "CEACAM1"
+"CEACAM5" -> "CEACAM6"
+"CEACAM5" -> "PSG7"
+"CEACAM5" -> "PSG1"
+"CEACAM5" -> "PSG3"
+"CEACAM5" -> "CEACAM8"
+"CEACAM6" -> "CEACAM1"
+"CEACAM6" -> "CEACAM8"
+"CEACAM6" -> "CEACAM7"
+"CEACAM6" -> "PSG2"
+"CEACAM6" -> "PSG11"
+"CEACAM6" -> "PSG7"
+"CEACAM7" -> "CEACAM1"
+"CEACAM7" -> "CEACAM8"
+"CEACAM7" -> "CEACAM6"
+"CEACAM7" -> "CEACAM21" ["e"=1]
+"CEACAM7" -> "PSG11"
+"CEACAM7" -> "PSG2"
+"CEACAM8" -> "CEACAM1"
+"CEACAM8" -> "PSG2"
+"CEACAM8" -> "PSG7"
+"CEACAM8" -> "PSG11"
+"CEACAM8" -> "CEACAM6"
+"CEACAM8" -> "CEACAM7"
+"PSG1" -> "PSG7"
+"PSG1" -> "PSG3"
+"PSG1" -> "PSG4"
+"PSG1" -> "PSG6"
+"PSG1" -> "PSG8"
+"PSG1" -> "PSG9"
+"PSG11" -> "PSG2"
+"PSG11" -> "PSG7"
+"PSG11" -> "PSG5"
+"PSG11" -> "PSG4"
+"PSG11" -> "PSG3"
+"PSG11" -> "PSG6"
+"PSG2" -> "PSG11"
+"PSG2" -> "PSG3"
+"PSG2" -> "PSG7"
+"PSG2" -> "PSG4"
+"PSG2" -> "PSG1"
+"PSG2" -> "PSG6"
+"PSG3" -> "PSG6"
+"PSG3" -> "PSG7"
+"PSG3" -> "PSG4"
+"PSG3" -> "PSG1"
+"PSG3" -> "PSG5"
+"PSG3" -> "PSG2"
+"PSG4" -> "PSG3"
+"PSG4" -> "PSG5"
+"PSG4" -> "PSG6"
+"PSG4" -> "PSG1"
+"PSG4" -> "PSG7"
+"PSG4" -> "PSG9"
+"PSG5" -> "PSG4"
+"PSG5" -> "PSG3"
+"PSG5" -> "PSG9"
+"PSG5" -> "PSG7"
+"PSG5" -> "PSG11"
+"PSG5" -> "PSG6"
+"PSG6" -> "PSG3"
+"PSG6" -> "PSG7"
+"PSG6" -> "PSG4"
+"PSG6" -> "PSG1"
+"PSG6" -> "PSG9"
+"PSG6" -> "PSG5"
+"PSG7" -> "PSG1"
+"PSG7" -> "PSG3"
+"PSG7" -> "PSG6"
+"PSG7" -> "PSG4"
+"PSG7" -> "PSG2"
+"PSG7" -> "PSG9"
+"PSG8" -> "PSG1"
+"PSG8" -> "PSG9"
+"PSG8" -> "PSG7"
+"PSG8" -> "PSG4"
+"PSG8" -> "PSG6"
+"PSG8" -> "PSG3"
+"PSG9" -> "PSG4"
+"PSG9" -> "PSG6"
+"PSG9" -> "PSG5"
+"PSG9" -> "PSG3"
+"PSG9" -> "PSG1"
+"PSG9" -> "PSG7"
 }

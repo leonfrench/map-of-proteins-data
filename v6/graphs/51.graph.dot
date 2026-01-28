@@ -1,102 +1,148 @@
 digraph G {
-"NAIP" -> "NLRP1";
-"NAIP" -> "NLRP8";
-"NAIP" -> "NLRP11";
-"NAIP" -> "NLRP13";
-"NLRC3" -> "NLRP2";
-"NLRC3" -> "NOD2";
-"NLRC3" -> "NOD1";
-"NLRC3" -> "NLRP12";
-"NLRC4" -> "NLRP8";
-"NLRC4" -> "NLRP14";
-"NLRC4" -> "NLRP9";
-"NLRC4" -> "NLRP12";
-"NLRC5" -> "NOD2";
-"NLRC5" -> "NLRC3";
-"NLRC5" -> "NOD1";
-"NLRC5" -> "NLRP1";
-"NLRP1" -> "NLRP8";
-"NLRP1" -> "NOD2";
-"NLRP1" -> "NLRP12";
-"NLRP1" -> "NLRP13";
-"NLRP11" -> "NLRP8";
-"NLRP11" -> "NLRP14";
-"NLRP11" -> "NLRP9";
-"NLRP11" -> "NLRP13";
-"NLRP12" -> "NLRP3";
-"NLRP12" -> "NLRP8";
-"NLRP12" -> "NLRP14";
-"NLRP12" -> "NLRP7";
-"NLRP13" -> "NLRP5";
-"NLRP13" -> "NLRP14";
-"NLRP13" -> "NLRP4";
-"NLRP13" -> "NLRP8";
-"NLRP14" -> "NLRP13";
-"NLRP14" -> "NLRP8";
-"NLRP14" -> "NLRP4";
-"NLRP14" -> "NLRP9";
-"NLRP2" -> "NLRP9";
-"NLRP2" -> "NLRP5";
-"NLRP2" -> "NLRP4";
-"NLRP2" -> "NLRP13";
-"NLRP3" -> "NLRP12";
-"NLRP3" -> "NLRP4";
-"NLRP3" -> "NLRP14";
-"NLRP3" -> "NLRP8";
-"NLRP4" -> "NLRP13";
-"NLRP4" -> "NLRP8";
-"NLRP4" -> "NLRP9";
-"NLRP4" -> "NLRP14";
-"NLRP5" -> "NLRP13";
-"NLRP5" -> "NLRP7";
-"NLRP5" -> "NLRP2";
-"NLRP5" -> "NLRP9";
-"NLRP6" -> "NLRP2";
-"NLRP6" -> "NLRP12";
-"NLRP6" -> "NOD2";
-"NLRP6" -> "NOD1";
-"NLRP7" -> "NLRP5";
-"NLRP7" -> "NLRP13";
-"NLRP7" -> "NLRP9";
-"NLRP7" -> "NLRP2";
-"NLRP8" -> "NLRP11";
-"NLRP8" -> "NLRP14";
-"NLRP8" -> "NLRP13";
-"NLRP8" -> "NLRP4";
-"NLRP9" -> "NLRP2";
-"NLRP9" -> "NLRP4";
-"NLRP9" -> "NLRP13";
-"NLRP9" -> "NLRP14";
-"NLRX1" -> "NOD2";
-"NLRX1" -> "NOD1";
-"NLRX1" -> "NLRC3";
-"NLRX1" -> "NLRP6";
-"NOD1" -> "NOD2";
-"NOD1" -> "NLRP2";
-"NOD1" -> "NLRX1";
-"NOD1" -> "NLRP12";
-"NOD2" -> "NOD1";
-"NOD2" -> "NLRP2";
-"NOD2" -> "NLRP12";
-"NOD2" -> "NLRP8";
-"NAIP" ["l"="-33.031849,-18.316557"];
-"NLRC3" ["l"="-33.342491,-18.393620"];
-"NLRC4" ["l"="-33.390015,-18.734455"];
-"NLRC5" ["l"="-33.045704,-18.188499"];
-"NLRP1" ["l"="-32.569176,-18.143139"];
-"NLRP11" ["l"="-33.309219,-18.666067"];
-"NLRP12" ["l"="-33.318779,-18.371714"];
-"NLRP13" ["l"="-32.788128,-18.362989"];
-"NLRP14" ["l"="-33.064190,-18.283447"];
-"NLRP2" ["l"="-33.352020,-18.700798"];
-"NLRP3" ["l"="-33.707657,-18.406769"];
-"NLRP4" ["l"="-33.281258,-18.355076"];
-"NLRP5" ["l"="-32.987694,-18.737143"];
-"NLRP6" ["l"="-33.296394,-18.370825"];
-"NLRP7" ["l"="-33.033318,-18.261278"];
-"NLRP8" ["l"="-33.283966,-17.990810"];
-"NLRP9" ["l"="-33.288548,-18.385046"];
-"NLRX1" ["l"="-33.013817,-18.310320"];
-"NOD1" ["l"="-33.512939,-18.513462"];
-"NOD2" ["l"="-33.251011,-17.955805"];
+"CDAN1" ["l"="26.723,-1.213"]
+"FCSK" ["l"="45.206,-0.236"]
+"NAIP" ["l"="-33.032,-18.317"]
+"NKPD1" ["l"="40.281,-1.674"]
+"NLRC3" ["l"="-33.342,-18.394"]
+"NLRC4" ["l"="-33.390,-18.734"]
+"NLRC5" ["l"="-33.046,-18.188"]
+"NLRP1" ["l"="-32.569,-18.143"]
+"NLRP10" ["l"="37.280,-2.394"]
+"NLRP11" ["l"="-33.309,-18.666"]
+"NLRP12" ["l"="-33.319,-18.372"]
+"NLRP13" ["l"="-32.788,-18.363"]
+"NLRP14" ["l"="-33.064,-18.283"]
+"NLRP2" ["l"="-33.352,-18.701"]
+"NLRP3" ["l"="-33.708,-18.407"]
+"NLRP4" ["l"="-33.281,-18.355"]
+"NLRP5" ["l"="-32.988,-18.737"]
+"NLRP6" ["l"="-33.296,-18.371"]
+"NLRP7" ["l"="-33.033,-18.261"]
+"NLRP8" ["l"="-33.284,-17.991"]
+"NLRP9" ["l"="-33.289,-18.385"]
+"NLRX1" ["l"="-33.014,-18.310"]
+"NOD1" ["l"="-33.513,-18.513"]
+"NOD2" ["l"="-33.251,-17.956"]
+"TEP1" ["l"="18.219,-8.030"]
+"URGCP" ["l"="36.574,-2.108"]
+"NAIP" -> "NLRP1"
+"NAIP" -> "NLRP8"
+"NAIP" -> "NLRP11"
+"NAIP" -> "NLRP10" ["e"=1]
+"NAIP" -> "NLRP13"
+"NAIP" -> "NLRC4"
+"NLRC3" -> "NLRP2"
+"NLRC3" -> "NOD2"
+"NLRC3" -> "NOD1"
+"NLRC3" -> "NLRP12"
+"NLRC3" -> "NLRP14"
+"NLRC3" -> "NLRP8"
+"NLRC4" -> "NLRP8"
+"NLRC4" -> "NLRP14"
+"NLRC4" -> "NLRP9"
+"NLRC4" -> "NLRP12"
+"NLRC4" -> "NLRP13"
+"NLRC4" -> "NLRP11"
+"NLRC5" -> "NOD2"
+"NLRC5" -> "NLRC3"
+"NLRC5" -> "NOD1"
+"NLRC5" -> "TEP1" ["e"=1]
+"NLRC5" -> "NLRP1"
+"NLRC5" -> "NLRP8"
+"NLRP1" -> "NLRP10" ["e"=1]
+"NLRP1" -> "NLRP8"
+"NLRP1" -> "URGCP" ["e"=1]
+"NLRP1" -> "NOD2"
+"NLRP1" -> "NLRP12"
+"NLRP1" -> "NLRP13"
+"NLRP11" -> "NLRP8"
+"NLRP11" -> "NLRP14"
+"NLRP11" -> "NLRP9"
+"NLRP11" -> "NLRP13"
+"NLRP11" -> "NLRP4"
+"NLRP11" -> "NLRP2"
+"NLRP12" -> "NLRP3"
+"NLRP12" -> "NLRP8"
+"NLRP12" -> "NLRP14"
+"NLRP12" -> "NLRP7"
+"NLRP12" -> "NLRP13"
+"NLRP12" -> "NOD2"
+"NLRP13" -> "NLRP5"
+"NLRP13" -> "NLRP14"
+"NLRP13" -> "NLRP4"
+"NLRP13" -> "NLRP8"
+"NLRP13" -> "NLRP7"
+"NLRP13" -> "NLRP9"
+"NLRP14" -> "NLRP13"
+"NLRP14" -> "NLRP8"
+"NLRP14" -> "NLRP4"
+"NLRP14" -> "NLRP9"
+"NLRP14" -> "NLRP11"
+"NLRP14" -> "NLRP5"
+"NLRP2" -> "NLRP9"
+"NLRP2" -> "NLRP5"
+"NLRP2" -> "NLRP4"
+"NLRP2" -> "NLRP13"
+"NLRP2" -> "NLRP7"
+"NLRP2" -> "NOD1"
+"NLRP3" -> "NLRP12"
+"NLRP3" -> "NLRP4"
+"NLRP3" -> "NLRP14"
+"NLRP3" -> "NLRP8"
+"NLRP3" -> "NLRP2"
+"NLRP3" -> "NOD2"
+"NLRP4" -> "NLRP13"
+"NLRP4" -> "NLRP8"
+"NLRP4" -> "NLRP9"
+"NLRP4" -> "NLRP14"
+"NLRP4" -> "NLRP2"
+"NLRP4" -> "NLRP5"
+"NLRP5" -> "NLRP13"
+"NLRP5" -> "NLRP7"
+"NLRP5" -> "NLRP2"
+"NLRP5" -> "NLRP9"
+"NLRP5" -> "NLRP14"
+"NLRP5" -> "NLRP8"
+"NLRP6" -> "NLRP2"
+"NLRP6" -> "NLRP10" ["e"=1]
+"NLRP6" -> "NLRP12"
+"NLRP6" -> "NOD2"
+"NLRP6" -> "NOD1"
+"NLRP6" -> "NLRP4"
+"NLRP7" -> "NLRP5"
+"NLRP7" -> "NLRP13"
+"NLRP7" -> "NLRP9"
+"NLRP7" -> "NLRP2"
+"NLRP7" -> "NLRP12"
+"NLRP7" -> "NLRP8"
+"NLRP8" -> "NLRP11"
+"NLRP8" -> "NLRP14"
+"NLRP8" -> "NLRP13"
+"NLRP8" -> "NLRP4"
+"NLRP8" -> "NLRP9"
+"NLRP8" -> "NLRP5"
+"NLRP9" -> "NLRP2"
+"NLRP9" -> "NLRP4"
+"NLRP9" -> "NLRP13"
+"NLRP9" -> "NLRP14"
+"NLRP9" -> "NLRP5"
+"NLRP9" -> "NLRP8"
+"NLRX1" -> "NOD2"
+"NLRX1" -> "NOD1"
+"NLRX1" -> "FCSK" ["e"=1]
+"NLRX1" -> "NLRC3"
+"NLRX1" -> "NKPD1" ["e"=1]
+"NLRX1" -> "CDAN1" ["e"=1]
+"NOD1" -> "NOD2"
+"NOD1" -> "NLRP2"
+"NOD1" -> "NLRX1"
+"NOD1" -> "NLRP12"
+"NOD1" -> "NLRC3"
+"NOD1" -> "NLRP13"
+"NOD2" -> "NOD1"
+"NOD2" -> "NLRP2"
+"NOD2" -> "NLRP12"
+"NOD2" -> "NLRP8"
+"NOD2" -> "NLRX1"
+"NOD2" -> "NLRC3"
 }

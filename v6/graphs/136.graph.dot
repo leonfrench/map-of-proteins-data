@@ -1,82 +1,131 @@
 digraph G {
-"KIF1B" -> "MYO5A";
-"KIF1B" -> "MYO5B";
-"KIF1B" -> "MYO10";
-"KIF1B" -> "MYO6";
-"MYO10" -> "MYO5B";
-"MYO10" -> "MYO1E";
-"MYO10" -> "MYO5C";
-"MYO10" -> "MYO5A";
-"MYO1A" -> "MYO1H";
-"MYO1A" -> "MYO1C";
-"MYO1A" -> "MYO1B";
-"MYO1A" -> "MYO1D";
-"MYO1B" -> "MYO1H";
-"MYO1B" -> "MYO1E";
-"MYO1B" -> "MYO1A";
-"MYO1B" -> "MYO1C";
-"MYO1C" -> "MYO1A";
-"MYO1C" -> "MYO1H";
-"MYO1C" -> "MYO1E";
-"MYO1C" -> "MYO1B";
-"MYO1D" -> "MYO1H";
-"MYO1D" -> "MYO1E";
-"MYO1D" -> "MYO1A";
-"MYO1D" -> "MYO1B";
-"MYO1E" -> "MYO1H";
-"MYO1E" -> "MYO1B";
-"MYO1E" -> "MYO1D";
-"MYO1E" -> "MYO1F";
-"MYO1F" -> "MYO1G";
-"MYO1F" -> "MYO1H";
-"MYO1F" -> "MYO1E";
-"MYO1F" -> "MYO1A";
-"MYO1G" -> "MYO1F";
-"MYO1G" -> "MYO1A";
-"MYO1G" -> "MYO1H";
-"MYO1G" -> "MYO1C";
-"MYO1H" -> "MYO1E";
-"MYO1H" -> "MYO1B";
-"MYO1H" -> "MYO1F";
-"MYO1H" -> "MYO1D";
-"MYO3A" -> "MYO3B";
-"MYO3A" -> "MYO1E";
-"MYO3A" -> "MYO1H";
-"MYO3A" -> "MYO1B";
-"MYO3B" -> "MYO3A";
-"MYO3B" -> "MYO1H";
-"MYO3B" -> "MYO1E";
-"MYO3B" -> "MYO1B";
-"MYO5A" -> "MYO5B";
-"MYO5A" -> "MYO5C";
-"MYO5A" -> "MYO6";
-"MYO5A" -> "MYO10";
-"MYO5B" -> "MYO5C";
-"MYO5B" -> "MYO5A";
-"MYO5B" -> "MYO10";
-"MYO5B" -> "MYO1E";
-"MYO5C" -> "MYO5B";
-"MYO5C" -> "MYO5A";
-"MYO5C" -> "MYO10";
-"MYO5C" -> "MYO6";
-"MYO6" -> "MYO5A";
-"MYO6" -> "MYO5C";
-"MYO6" -> "MYO1H";
-"MYO6" -> "MYO10";
-"KIF1B" ["l"="5.026578,-4.109284"];
-"MYO10" ["l"="5.652071,-5.900654"];
-"MYO1A" ["l"="6.802198,-6.439208"];
-"MYO1B" ["l"="6.375966,-6.151512"];
-"MYO1C" ["l"="6.613412,-6.346053"];
-"MYO1D" ["l"="6.684748,-6.380943"];
-"MYO1E" ["l"="6.372866,-6.062378"];
-"MYO1F" ["l"="6.817645,-6.268309"];
-"MYO1G" ["l"="6.901696,-6.315414"];
-"MYO1H" ["l"="6.711130,-6.102571"];
-"MYO3A" ["l"="7.126401,-4.815776"];
-"MYO3B" ["l"="7.791202,-4.351025"];
-"MYO5A" ["l"="3.237411,-5.653030"];
-"MYO5B" ["l"="4.760962,-6.121918"];
-"MYO5C" ["l"="3.314023,-5.973565"];
-"MYO6" ["l"="2.719278,-5.553662"];
+"ARFGEF1" ["l"="14.233,-6.676"]
+"ARFGEF2" ["l"="14.987,-6.703"]
+"CDC42BPA" ["l"="-4.871,-4.012"]
+"DOCK3" ["l"="11.471,-6.565"]
+"IQGAP1" ["l"="11.320,-6.505"]
+"KIF13A" ["l"="8.325,-4.077"]
+"KIF13B" ["l"="8.486,-4.870"]
+"KIF16B" ["l"="-2.743,-3.902"]
+"KIF1A" ["l"="3.666,-3.796"]
+"KIF1B" ["l"="5.027,-4.109"]
+"KIF24" ["l"="1.942,4.934"]
+"MYH15" ["l"="3.767,-11.090"]
+"MYO10" ["l"="5.652,-5.901"]
+"MYO16" ["l"="9.246,-3.258"]
+"MYO1A" ["l"="6.802,-6.439"]
+"MYO1B" ["l"="6.376,-6.152"]
+"MYO1C" ["l"="6.613,-6.346"]
+"MYO1D" ["l"="6.685,-6.381"]
+"MYO1E" ["l"="6.373,-6.062"]
+"MYO1F" ["l"="6.818,-6.268"]
+"MYO1G" ["l"="6.902,-6.315"]
+"MYO1H" ["l"="6.711,-6.103"]
+"MYO3A" ["l"="7.126,-4.816"]
+"MYO3B" ["l"="7.791,-4.351"]
+"MYO5A" ["l"="3.237,-5.653"]
+"MYO5B" ["l"="4.761,-6.122"]
+"MYO5C" ["l"="3.314,-5.974"]
+"MYO6" ["l"="2.719,-5.554"]
+"MYO9B" ["l"="11.645,-7.031"]
+"NEK10" ["l"="12.770,-2.400"]
+"PLEKHH2" ["l"="8.647,-0.876"]
+"RASGRP1" ["l"="12.896,0.661"]
+"UNC13A" ["l"="10.036,-5.024"]
+"KIF1B" -> "KIF1A" ["e"=1]
+"KIF1B" -> "UNC13A" ["e"=1]
+"KIF1B" -> "DOCK3" ["e"=1]
+"KIF1B" -> "KIF13A" ["e"=1]
+"KIF1B" -> "CDC42BPA" ["e"=1]
+"KIF1B" -> "KIF13B" ["e"=1]
+"MYO10" -> "MYO5B"
+"MYO10" -> "MYO1E"
+"MYO10" -> "MYO5C"
+"MYO10" -> "MYO5A"
+"MYO10" -> "KIF13B" ["e"=1]
+"MYO10" -> "PLEKHH2" ["e"=1]
+"MYO1A" -> "MYO1H"
+"MYO1A" -> "MYO1C"
+"MYO1A" -> "MYO1B"
+"MYO1A" -> "MYO1D"
+"MYO1A" -> "MYO1G"
+"MYO1A" -> "MYO1F"
+"MYO1B" -> "MYO1H"
+"MYO1B" -> "MYO1E"
+"MYO1B" -> "MYO1A"
+"MYO1B" -> "MYO1C"
+"MYO1B" -> "MYO1D"
+"MYO1B" -> "MYO5B"
+"MYO1C" -> "MYO1A"
+"MYO1C" -> "MYO1H"
+"MYO1C" -> "MYO1E"
+"MYO1C" -> "MYO1B"
+"MYO1C" -> "MYO1F"
+"MYO1C" -> "MYO1D"
+"MYO1D" -> "MYO1H"
+"MYO1D" -> "MYO1E"
+"MYO1D" -> "MYO1A"
+"MYO1D" -> "MYO1B"
+"MYO1D" -> "MYO1C"
+"MYO1D" -> "MYO1G"
+"MYO1E" -> "MYO1H"
+"MYO1E" -> "MYO1B"
+"MYO1E" -> "MYO1D"
+"MYO1E" -> "MYO1F"
+"MYO1E" -> "MYO1C"
+"MYO1E" -> "MYO3A"
+"MYO1F" -> "MYO1G"
+"MYO1F" -> "MYO1H"
+"MYO1F" -> "MYO1E"
+"MYO1F" -> "MYO1A"
+"MYO1F" -> "MYO1C"
+"MYO1F" -> "MYO1D"
+"MYO1G" -> "MYO1F"
+"MYO1G" -> "MYO1A"
+"MYO1G" -> "MYO1H"
+"MYO1G" -> "MYO1C"
+"MYO1G" -> "MYO1D"
+"MYO1G" -> "MYO1B"
+"MYO1H" -> "MYO1E"
+"MYO1H" -> "MYO1B"
+"MYO1H" -> "MYO1F"
+"MYO1H" -> "MYO1D"
+"MYO1H" -> "MYO1A"
+"MYO1H" -> "MYO3B"
+"MYO3A" -> "MYO3B"
+"MYO3A" -> "MYO1E"
+"MYO3A" -> "MYO1H"
+"MYO3A" -> "MYO16" ["e"=1]
+"MYO3A" -> "RASGRP1" ["e"=1]
+"MYO3A" -> "MYO1B"
+"MYO3B" -> "MYO3A"
+"MYO3B" -> "MYO1H"
+"MYO3B" -> "MYO1E"
+"MYO3B" -> "NEK10" ["e"=1]
+"MYO3B" -> "MYO16" ["e"=1]
+"MYO3B" -> "KIF24" ["e"=1]
+"MYO5A" -> "MYO5B"
+"MYO5A" -> "MYO5C"
+"MYO5A" -> "ARFGEF1" ["e"=1]
+"MYO5A" -> "CDC42BPA" ["e"=1]
+"MYO5A" -> "ARFGEF2" ["e"=1]
+"MYO5A" -> "IQGAP1" ["e"=1]
+"MYO5B" -> "MYO5C"
+"MYO5B" -> "MYO5A"
+"MYO5B" -> "MYO10"
+"MYO5B" -> "MYO9B" ["e"=1]
+"MYO5B" -> "MYO1E"
+"MYO5B" -> "MYO1B"
+"MYO5C" -> "MYO5B"
+"MYO5C" -> "MYO5A"
+"MYO5C" -> "MYO10"
+"MYO5C" -> "MYO6"
+"MYO5C" -> "MYO1H"
+"MYO5C" -> "MYH15" ["e"=1]
+"MYO6" -> "MYO5A"
+"MYO6" -> "KIF16B" ["e"=1]
+"MYO6" -> "MYO5C"
+"MYO6" -> "MYO1H"
+"MYO6" -> "MYO10"
+"MYO6" -> "MYO5B"
 }

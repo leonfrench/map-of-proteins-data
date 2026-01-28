@@ -1,302 +1,427 @@
 digraph G {
-"C20orf204" -> "IFNL4";
-"C20orf204" -> "IL11";
-"C20orf204" -> "EPO";
-"C20orf204" -> "IL3";
-"CLCF1" -> "EPO";
-"CLCF1" -> "IFNL1";
-"CLCF1" -> "OSM";
-"CLCF1" -> "IL23A";
-"CNTF" -> "IFNA5";
-"CNTF" -> "IFNA1";
-"CNTF" -> "EPO";
-"CNTF" -> "IFNA10";
-"CSF2" -> "IL3";
-"CSF2" -> "IL20";
-"CSF2" -> "IL13";
-"CSF2" -> "IL9";
-"CSF3" -> "EPO";
-"CSF3" -> "IL23A";
-"CSF3" -> "IFNL1";
-"CSF3" -> "IL6";
-"CSH1" -> "CSH2";
-"CSH1" -> "GH2";
-"CSH1" -> "GH1";
-"CSH1" -> "CSHL1";
-"CSH2" -> "CSH1";
-"CSH2" -> "GH2";
-"CSH2" -> "GH1";
-"CSH2" -> "CSHL1";
-"CSHL1" -> "IFNA1";
-"CSHL1" -> "IFNL2";
-"CSHL1" -> "IFNA21";
-"CSHL1" -> "IFNA16";
-"CYTL1" -> "CSF2";
-"CYTL1" -> "IFNL1";
-"CYTL1" -> "IFNL4";
-"CYTL1" -> "IFNL2";
-"EPO" -> "IFNL2";
-"EPO" -> "IL24";
-"EPO" -> "IFNL1";
-"EPO" -> "CLCF1";
-"FAM180A" -> "IFNA6";
-"FAM180A" -> "IFNA1";
-"FAM180A" -> "IFNA2";
-"FAM180A" -> "EPO";
-"FLT3LG" -> "IL27";
-"FLT3LG" -> "IL23A";
-"FLT3LG" -> "EPO";
-"FLT3LG" -> "IL3";
-"GH1" -> "GH2";
-"GH1" -> "CSH1";
-"GH1" -> "CSH2";
-"GH1" -> "CSHL1";
-"GH2" -> "CSH1";
-"GH2" -> "CSH2";
-"GH2" -> "GH1";
-"GH2" -> "CSHL1";
-"IFNA1" -> "IFNA4";
-"IFNA1" -> "IFNA10";
-"IFNA1" -> "IFNA21";
-"IFNA1" -> "IFNA6";
-"IFNA10" -> "IFNA1";
-"IFNA10" -> "IFNA4";
-"IFNA10" -> "IFNA6";
-"IFNA10" -> "IFNA8";
-"IFNA13" -> "IFNA6";
-"IFNA13" -> "IFNA1";
-"IFNA13" -> "IFNA7";
-"IFNA13" -> "IFNA16";
-"IFNA14" -> "IFNA5";
-"IFNA14" -> "IFNA1";
-"IFNA14" -> "IFNA17";
-"IFNA14" -> "IFNA4";
-"IFNA16" -> "IFNA8";
-"IFNA16" -> "IFNA13";
-"IFNA16" -> "IFNA7";
-"IFNA16" -> "IFNA1";
-"IFNA17" -> "IFNA6";
-"IFNA17" -> "IFNA4";
-"IFNA17" -> "IFNA14";
-"IFNA17" -> "IFNA1";
-"IFNA2" -> "IFNA6";
-"IFNA2" -> "IFNA21";
-"IFNA2" -> "IFNA4";
-"IFNA2" -> "IFNA8";
-"IFNA21" -> "IFNA6";
-"IFNA21" -> "IFNA1";
-"IFNA21" -> "IFNA7";
-"IFNA21" -> "IFNA2";
-"IFNA4" -> "IFNA1";
-"IFNA4" -> "IFNA6";
-"IFNA4" -> "IFNA8";
-"IFNA4" -> "IFNA10";
-"IFNA5" -> "IFNA14";
-"IFNA5" -> "IFNA1";
-"IFNA5" -> "IFNA6";
-"IFNA5" -> "IFNA21";
-"IFNA6" -> "IFNA13";
-"IFNA6" -> "IFNA4";
-"IFNA6" -> "IFNA21";
-"IFNA6" -> "IFNA8";
-"IFNA7" -> "IFNA8";
-"IFNA7" -> "IFNA21";
-"IFNA7" -> "IFNA13";
-"IFNA7" -> "IFNA4";
-"IFNA8" -> "IFNA6";
-"IFNA8" -> "IFNA4";
-"IFNA8" -> "IFNA7";
-"IFNA8" -> "IFNA16";
-"IFNB1" -> "IFNA7";
-"IFNB1" -> "IFNA6";
-"IFNB1" -> "IFNA21";
-"IFNB1" -> "IFNA16";
-"IFNE" -> "IFNA21";
-"IFNE" -> "IFNA6";
-"IFNE" -> "IFNA1";
-"IFNE" -> "IFNW1";
-"IFNG" -> "IL2";
-"IFNG" -> "IL21";
-"IFNG" -> "IL9";
-"IFNG" -> "IL5";
-"IFNK" -> "IFNA1";
-"IFNK" -> "IFNA6";
-"IFNK" -> "IFNA10";
-"IFNK" -> "IFNE";
-"IFNL1" -> "IFNL3";
-"IFNL1" -> "IFNL2";
-"IFNL1" -> "IFNL4";
-"IFNL1" -> "IL27";
-"IFNL2" -> "IFNL3";
-"IFNL2" -> "IFNL1";
-"IFNL2" -> "EPO";
-"IFNL2" -> "CSHL1";
-"IFNL3" -> "IFNL1";
-"IFNL3" -> "IFNL2";
-"IFNL3" -> "IL23A";
-"IFNL3" -> "IFNL4";
-"IFNL4" -> "IFNL1";
-"IFNL4" -> "IL11";
-"IFNL4" -> "EPO";
-"IFNL4" -> "IFNL3";
-"IFNW1" -> "IFNA6";
-"IFNW1" -> "IFNA1";
-"IFNW1" -> "IFNE";
-"IFNW1" -> "IFNA16";
-"IL10" -> "IL20";
-"IL10" -> "IFNA1";
-"IL10" -> "IFNA16";
-"IL10" -> "OSM";
-"IL11" -> "IFNL4";
-"IL11" -> "IL27";
-"IL11" -> "IFNL1";
-"IL11" -> "EPO";
-"IL12A" -> "IL10";
-"IL12A" -> "IL19";
-"IL12A" -> "IFNA1";
-"IL12A" -> "IL20";
-"IL13" -> "IL3";
-"IL13" -> "IL22";
-"IL13" -> "CSF2";
-"IL13" -> "IL20";
-"IL19" -> "IL20";
-"IL19" -> "IL4";
-"IL19" -> "IL31";
-"IL19" -> "IL9";
-"IL2" -> "IL5";
-"IL2" -> "IL22";
-"IL2" -> "IL4";
-"IL2" -> "IL26";
-"IL20" -> "IL10";
-"IL20" -> "IL22";
-"IL20" -> "IL24";
-"IL20" -> "IL4";
-"IL21" -> "IL5";
-"IL21" -> "IL20";
-"IL21" -> "IL24";
-"IL21" -> "IL31";
-"IL22" -> "IL20";
-"IL22" -> "IL9";
-"IL22" -> "IL13";
-"IL22" -> "IL4";
-"IL23A" -> "IL27";
-"IL23A" -> "CSF3";
-"IL23A" -> "IFNL1";
-"IL23A" -> "EPO";
-"IL24" -> "IL20";
-"IL24" -> "IL10";
-"IL24" -> "EPO";
-"IL24" -> "IL31";
-"IL26" -> "IFNA6";
-"IL26" -> "IL19";
-"IL26" -> "IL5";
-"IL26" -> "IL9";
-"IL27" -> "IFNL1";
-"IL27" -> "IL23A";
-"IL27" -> "IL11";
-"IL27" -> "CLCF1";
-"IL3" -> "IL13";
-"IL3" -> "CSF2";
-"IL3" -> "IL5";
-"IL3" -> "IL22";
-"IL31" -> "IL5";
-"IL31" -> "IL19";
-"IL31" -> "IFNA1";
-"IL31" -> "IFNA6";
-"IL4" -> "IL20";
-"IL4" -> "IL19";
-"IL4" -> "IL22";
-"IL4" -> "IL9";
-"IL5" -> "IL31";
-"IL5" -> "IL20";
-"IL5" -> "IFNA8";
-"IL5" -> "IL3";
-"IL6" -> "CSF3";
-"IL6" -> "IL20";
-"IL6" -> "LIF";
-"IL6" -> "IL10";
-"IL7" -> "IFNA16";
-"IL7" -> "IL5";
-"IL7" -> "IFNK";
-"IL7" -> "IL26";
-"IL9" -> "IL22";
-"IL9" -> "IL4";
-"IL9" -> "IL19";
-"IL9" -> "IL5";
-"LEP" -> "EPO";
-"LEP" -> "IFNA21";
-"LEP" -> "IFNA1";
-"LEP" -> "IFNE";
-"LIF" -> "IL20";
-"LIF" -> "IL5";
-"LIF" -> "IL13";
-"LIF" -> "IL10";
-"OSM" -> "IL10";
-"OSM" -> "IL20";
-"OSM" -> "CLCF1";
-"OSM" -> "IFNW1";
-"PRL" -> "IFNA10";
-"PRL" -> "IL31";
-"PRL" -> "IFNA1";
-"PRL" -> "GH2";
-"C20orf204" ["l"="35.359756,28.262682"];
-"CLCF1" ["l"="35.413166,28.248596"];
-"CNTF" ["l"="35.609917,28.154156"];
-"CSF2" ["l"="36.095085,28.737652"];
-"CSF3" ["l"="35.380173,28.304590"];
-"CSH1" ["l"="36.772076,29.175238"];
-"CSH2" ["l"="36.997932,29.192463"];
-"CSHL1" ["l"="36.809486,29.082539"];
-"CYTL1" ["l"="35.902119,28.478107"];
-"EPO" ["l"="35.423599,28.259211"];
-"FAM180A" ["l"="35.455811,28.163893"];
-"FLT3LG" ["l"="34.956104,28.183113"];
-"GH1" ["l"="37.202873,29.311819"];
-"GH2" ["l"="36.991253,29.235392"];
-"IFNA1" ["l"="36.347309,28.991337"];
-"IFNA10" ["l"="36.771732,29.121866"];
-"IFNA13" ["l"="36.863503,29.148489"];
-"IFNA14" ["l"="36.952435,29.145056"];
-"IFNA16" ["l"="36.753426,29.134871"];
-"IFNA17" ["l"="36.291306,28.944044"];
-"IFNA2" ["l"="36.604591,28.969103"];
-"IFNA21" ["l"="36.858265,29.203894"];
-"IFNA4" ["l"="36.663872,29.101812"];
-"IFNA5" ["l"="37.134705,29.222944"];
-"IFNA6" ["l"="36.449524,29.019075"];
-"IFNA7" ["l"="37.028160,29.236881"];
-"IFNA8" ["l"="36.740444,29.150625"];
-"IFNB1" ["l"="36.920143,29.208931"];
-"IFNE" ["l"="36.791992,29.163813"];
-"IFNG" ["l"="35.557846,28.576750"];
-"IFNK" ["l"="36.688221,29.098776"];
-"IFNL1" ["l"="34.776791,27.817650"];
-"IFNL2" ["l"="35.569065,28.392174"];
-"IFNL3" ["l"="35.310173,28.285168"];
-"IFNL4" ["l"="35.336712,27.614664"];
-"IFNW1" ["l"="36.801121,29.119097"];
-"IL10" ["l"="36.274429,28.899776"];
-"IL11" ["l"="34.872883,27.897842"];
-"IL12A" ["l"="36.374889,29.019377"];
-"IL13" ["l"="36.184242,28.799049"];
-"IL19" ["l"="36.392658,29.008907"];
-"IL2" ["l"="36.201458,28.929047"];
-"IL20" ["l"="36.235596,28.809578"];
-"IL21" ["l"="35.500408,28.704536"];
-"IL22" ["l"="36.189098,28.822702"];
-"IL23A" ["l"="35.116322,28.156046"];
-"IL24" ["l"="35.819214,28.623293"];
-"IL26" ["l"="36.505779,29.041504"];
-"IL27" ["l"="35.171127,28.008913"];
-"IL3" ["l"="35.988201,28.726938"];
-"IL31" ["l"="36.523151,29.007318"];
-"IL4" ["l"="36.360909,28.963537"];
-"IL5" ["l"="36.591824,28.992201"];
-"IL6" ["l"="35.794033,28.577427"];
-"IL7" ["l"="36.641766,29.070816"];
-"IL9" ["l"="36.186012,28.903288"];
-"LEP" ["l"="36.188114,28.849360"];
-"LIF" ["l"="36.812336,28.956264"];
-"OSM" ["l"="36.272213,28.821489"];
-"PRL" ["l"="37.232906,29.347548"];
+"ACP4" ["l"="64.545,-5.562"]
+"ADM2" ["l"="89.381,-15.892"]
+"C20orf204" ["l"="35.360,28.263"]
+"CLCF1" ["l"="35.413,28.249"]
+"CNTF" ["l"="35.610,28.154"]
+"CSF2" ["l"="36.095,28.738"]
+"CSF3" ["l"="35.380,28.305"]
+"CSH1" ["l"="36.772,29.175"]
+"CSH2" ["l"="36.998,29.192"]
+"CSHL1" ["l"="36.809,29.083"]
+"CYTL1" ["l"="35.902,28.478"]
+"EPO" ["l"="35.424,28.259"]
+"FAM180A" ["l"="35.456,28.164"]
+"FAM237B" ["l"="33.997,26.179"]
+"FGFBP3" ["l"="76.637,-12.935"]
+"FLT3LG" ["l"="34.956,28.183"]
+"GH1" ["l"="37.203,29.312"]
+"GH2" ["l"="36.991,29.235"]
+"IFNA1" ["l"="36.347,28.991"]
+"IFNA10" ["l"="36.772,29.122"]
+"IFNA13" ["l"="36.864,29.148"]
+"IFNA14" ["l"="36.952,29.145"]
+"IFNA16" ["l"="36.753,29.135"]
+"IFNA17" ["l"="36.291,28.944"]
+"IFNA2" ["l"="36.605,28.969"]
+"IFNA21" ["l"="36.858,29.204"]
+"IFNA4" ["l"="36.664,29.102"]
+"IFNA5" ["l"="37.135,29.223"]
+"IFNA6" ["l"="36.450,29.019"]
+"IFNA7" ["l"="37.028,29.237"]
+"IFNA8" ["l"="36.740,29.151"]
+"IFNB1" ["l"="36.920,29.209"]
+"IFNE" ["l"="36.792,29.164"]
+"IFNG" ["l"="35.558,28.577"]
+"IFNK" ["l"="36.688,29.099"]
+"IFNL1" ["l"="34.777,27.818"]
+"IFNL2" ["l"="35.569,28.392"]
+"IFNL3" ["l"="35.310,28.285"]
+"IFNL4" ["l"="35.337,27.615"]
+"IFNW1" ["l"="36.801,29.119"]
+"IGFLR1" ["l"="20.272,27.076"]
+"IL10" ["l"="36.274,28.900"]
+"IL11" ["l"="34.873,27.898"]
+"IL12A" ["l"="36.375,29.019"]
+"IL13" ["l"="36.184,28.799"]
+"IL19" ["l"="36.393,29.009"]
+"IL2" ["l"="36.201,28.929"]
+"IL20" ["l"="36.236,28.810"]
+"IL21" ["l"="35.500,28.705"]
+"IL22" ["l"="36.189,28.823"]
+"IL23A" ["l"="35.116,28.156"]
+"IL24" ["l"="35.819,28.623"]
+"IL26" ["l"="36.506,29.042"]
+"IL27" ["l"="35.171,28.009"]
+"IL3" ["l"="35.988,28.727"]
+"IL31" ["l"="36.523,29.007"]
+"IL4" ["l"="36.361,28.964"]
+"IL5" ["l"="36.592,28.992"]
+"IL6" ["l"="35.794,28.577"]
+"IL7" ["l"="36.642,29.071"]
+"IL9" ["l"="36.186,28.903"]
+"LEP" ["l"="36.188,28.849"]
+"LIF" ["l"="36.812,28.956"]
+"OSM" ["l"="36.272,28.821"]
+"PRL" ["l"="37.233,29.348"]
+"C20orf204" -> "IFNL4"
+"C20orf204" -> "FGFBP3" ["e"=1]
+"C20orf204" -> "IL11"
+"C20orf204" -> "EPO"
+"C20orf204" -> "ADM2" ["e"=1]
+"C20orf204" -> "IL3"
+"CLCF1" -> "EPO"
+"CLCF1" -> "IFNL1"
+"CLCF1" -> "OSM"
+"CLCF1" -> "IL23A"
+"CLCF1" -> "IL11"
+"CLCF1" -> "IL27"
+"CNTF" -> "IFNA5"
+"CNTF" -> "IFNA1"
+"CNTF" -> "EPO"
+"CNTF" -> "FAM237B" ["e"=1]
+"CNTF" -> "IFNA10"
+"CNTF" -> "IFNE"
+"CSF2" -> "IL3"
+"CSF2" -> "IL20"
+"CSF2" -> "IL13"
+"CSF2" -> "IL9"
+"CSF2" -> "IL5"
+"CSF2" -> "IFNL2"
+"CSF3" -> "EPO"
+"CSF3" -> "IL23A"
+"CSF3" -> "IFNL1"
+"CSF3" -> "IL6"
+"CSF3" -> "CLCF1"
+"CSF3" -> "IFNL2"
+"CSH1" -> "CSH2"
+"CSH1" -> "GH2"
+"CSH1" -> "GH1"
+"CSH1" -> "CSHL1"
+"CSH1" -> "PRL"
+"CSH1" -> "IFNL2"
+"CSH2" -> "CSH1"
+"CSH2" -> "GH2"
+"CSH2" -> "GH1"
+"CSH2" -> "CSHL1"
+"CSH2" -> "PRL"
+"CSH2" -> "IFNL2"
+"CSHL1" -> "IFNA1"
+"CSHL1" -> "IFNL2"
+"CSHL1" -> "IFNA21"
+"CSHL1" -> "IFNA16"
+"CSHL1" -> "IL12A"
+"CSHL1" -> "GH2"
+"CYTL1" -> "CSF2"
+"CYTL1" -> "IFNL1"
+"CYTL1" -> "IFNL4"
+"CYTL1" -> "IFNL2"
+"CYTL1" -> "IL5"
+"CYTL1" -> "EPO"
+"EPO" -> "IFNL2"
+"EPO" -> "IL24"
+"EPO" -> "IFNL1"
+"EPO" -> "CLCF1"
+"EPO" -> "CSF3"
+"EPO" -> "LEP"
+"FAM180A" -> "IFNA6"
+"FAM180A" -> "IFNA1"
+"FAM180A" -> "FAM237B" ["e"=1]
+"FAM180A" -> "IFNA2"
+"FAM180A" -> "EPO"
+"FAM180A" -> "LEP"
+"FLT3LG" -> "IL27"
+"FLT3LG" -> "IL23A"
+"FLT3LG" -> "ACP4" ["e"=1]
+"FLT3LG" -> "EPO"
+"FLT3LG" -> "IL3"
+"FLT3LG" -> "IGFLR1" ["e"=1]
+"GH1" -> "GH2"
+"GH1" -> "CSH1"
+"GH1" -> "CSH2"
+"GH1" -> "CSHL1"
+"GH1" -> "PRL"
+"GH1" -> "IFNL2"
+"GH2" -> "CSH1"
+"GH2" -> "CSH2"
+"GH2" -> "GH1"
+"GH2" -> "CSHL1"
+"GH2" -> "PRL"
+"GH2" -> "IFNA1"
+"IFNA1" -> "IFNA4"
+"IFNA1" -> "IFNA10"
+"IFNA1" -> "IFNA21"
+"IFNA1" -> "IFNA6"
+"IFNA1" -> "IFNA13"
+"IFNA1" -> "IFNA5"
+"IFNA10" -> "IFNA1"
+"IFNA10" -> "IFNA4"
+"IFNA10" -> "IFNA6"
+"IFNA10" -> "IFNA8"
+"IFNA10" -> "IFNA7"
+"IFNA10" -> "IFNA16"
+"IFNA13" -> "IFNA6"
+"IFNA13" -> "IFNA1"
+"IFNA13" -> "IFNA7"
+"IFNA13" -> "IFNA16"
+"IFNA13" -> "IFNA4"
+"IFNA13" -> "IFNA8"
+"IFNA14" -> "IFNA5"
+"IFNA14" -> "IFNA1"
+"IFNA14" -> "IFNA17"
+"IFNA14" -> "IFNA4"
+"IFNA14" -> "IFNA21"
+"IFNA14" -> "IFNA13"
+"IFNA16" -> "IFNA8"
+"IFNA16" -> "IFNA13"
+"IFNA16" -> "IFNA7"
+"IFNA16" -> "IFNA1"
+"IFNA16" -> "IFNA6"
+"IFNA16" -> "IFNA21"
+"IFNA17" -> "IFNA6"
+"IFNA17" -> "IFNA4"
+"IFNA17" -> "IFNA14"
+"IFNA17" -> "IFNA1"
+"IFNA17" -> "IFNA21"
+"IFNA17" -> "IFNA5"
+"IFNA2" -> "IFNA6"
+"IFNA2" -> "IFNA21"
+"IFNA2" -> "IFNA4"
+"IFNA2" -> "IFNA8"
+"IFNA2" -> "IFNA7"
+"IFNA2" -> "IFNA17"
+"IFNA21" -> "IFNA6"
+"IFNA21" -> "IFNA1"
+"IFNA21" -> "IFNA7"
+"IFNA21" -> "IFNA2"
+"IFNA21" -> "IFNA8"
+"IFNA21" -> "IFNA5"
+"IFNA4" -> "IFNA1"
+"IFNA4" -> "IFNA6"
+"IFNA4" -> "IFNA8"
+"IFNA4" -> "IFNA10"
+"IFNA4" -> "IFNA17"
+"IFNA4" -> "IFNA7"
+"IFNA5" -> "IFNA14"
+"IFNA5" -> "IFNA1"
+"IFNA5" -> "IFNA6"
+"IFNA5" -> "IFNA21"
+"IFNA5" -> "IFNA17"
+"IFNA5" -> "IFNA10"
+"IFNA6" -> "IFNA13"
+"IFNA6" -> "IFNA4"
+"IFNA6" -> "IFNA21"
+"IFNA6" -> "IFNA8"
+"IFNA6" -> "IFNA1"
+"IFNA6" -> "IFNA2"
+"IFNA7" -> "IFNA8"
+"IFNA7" -> "IFNA21"
+"IFNA7" -> "IFNA13"
+"IFNA7" -> "IFNA4"
+"IFNA7" -> "IFNA16"
+"IFNA7" -> "IFNA6"
+"IFNA8" -> "IFNA6"
+"IFNA8" -> "IFNA4"
+"IFNA8" -> "IFNA7"
+"IFNA8" -> "IFNA16"
+"IFNA8" -> "IFNA21"
+"IFNA8" -> "IFNA10"
+"IFNB1" -> "IFNA7"
+"IFNB1" -> "IFNA6"
+"IFNB1" -> "IFNA21"
+"IFNB1" -> "IFNA16"
+"IFNB1" -> "IFNA1"
+"IFNB1" -> "IFNE"
+"IFNE" -> "IFNA21"
+"IFNE" -> "IFNA6"
+"IFNE" -> "IFNA1"
+"IFNE" -> "IFNW1"
+"IFNE" -> "IFNA13"
+"IFNE" -> "IFNA5"
+"IFNG" -> "IL2"
+"IFNG" -> "IL21"
+"IFNG" -> "IL9"
+"IFNG" -> "IL5"
+"IFNG" -> "IL22"
+"IFNG" -> "CSF2"
+"IFNK" -> "IFNA1"
+"IFNK" -> "IFNA6"
+"IFNK" -> "IFNA10"
+"IFNK" -> "IFNE"
+"IFNK" -> "IFNA16"
+"IFNK" -> "IFNA5"
+"IFNL1" -> "IFNL3"
+"IFNL1" -> "IFNL2"
+"IFNL1" -> "IFNL4"
+"IFNL1" -> "IL27"
+"IFNL1" -> "EPO"
+"IFNL1" -> "IL11"
+"IFNL2" -> "IFNL3"
+"IFNL2" -> "IFNL1"
+"IFNL2" -> "EPO"
+"IFNL2" -> "CSHL1"
+"IFNL2" -> "IL24"
+"IFNL2" -> "IL11"
+"IFNL3" -> "IFNL1"
+"IFNL3" -> "IFNL2"
+"IFNL3" -> "IL23A"
+"IFNL3" -> "IFNL4"
+"IFNL3" -> "EPO"
+"IFNL3" -> "CSF3"
+"IFNL4" -> "IFNL1"
+"IFNL4" -> "IL11"
+"IFNL4" -> "EPO"
+"IFNL4" -> "IFNL3"
+"IFNL4" -> "C20orf204"
+"IFNL4" -> "IL27"
+"IFNW1" -> "IFNA6"
+"IFNW1" -> "IFNA1"
+"IFNW1" -> "IFNE"
+"IFNW1" -> "IFNA16"
+"IFNW1" -> "IFNA5"
+"IFNW1" -> "IFNA21"
+"IL10" -> "IL20"
+"IL10" -> "IFNA1"
+"IL10" -> "IFNA16"
+"IL10" -> "OSM"
+"IL10" -> "IFNA13"
+"IL10" -> "IFNA21"
+"IL11" -> "IFNL4"
+"IL11" -> "IL27"
+"IL11" -> "IFNL1"
+"IL11" -> "EPO"
+"IL11" -> "IL23A"
+"IL11" -> "CLCF1"
+"IL12A" -> "IL10"
+"IL12A" -> "IL19"
+"IL12A" -> "IFNA1"
+"IL12A" -> "IL20"
+"IL12A" -> "IL13"
+"IL12A" -> "IL24"
+"IL13" -> "IL3"
+"IL13" -> "IL22"
+"IL13" -> "CSF2"
+"IL13" -> "IL20"
+"IL13" -> "IL4"
+"IL13" -> "IL12A"
+"IL19" -> "IL20"
+"IL19" -> "IL4"
+"IL19" -> "IL31"
+"IL19" -> "IL9"
+"IL19" -> "IL12A"
+"IL19" -> "IL26"
+"IL2" -> "IL5"
+"IL2" -> "IL22"
+"IL2" -> "IL4"
+"IL2" -> "IL26"
+"IL2" -> "IL21"
+"IL2" -> "IL10"
+"IL20" -> "IL10"
+"IL20" -> "IL22"
+"IL20" -> "IL24"
+"IL20" -> "IL4"
+"IL20" -> "IL5"
+"IL20" -> "IL19"
+"IL21" -> "IL5"
+"IL21" -> "IL20"
+"IL21" -> "IL24"
+"IL21" -> "IL31"
+"IL21" -> "IL4"
+"IL21" -> "IL9"
+"IL22" -> "IL20"
+"IL22" -> "IL9"
+"IL22" -> "IL13"
+"IL22" -> "IL4"
+"IL22" -> "IL10"
+"IL22" -> "IL5"
+"IL23A" -> "IL27"
+"IL23A" -> "CSF3"
+"IL23A" -> "IFNL1"
+"IL23A" -> "EPO"
+"IL23A" -> "IL11"
+"IL23A" -> "IFNL3"
+"IL24" -> "IL20"
+"IL24" -> "IL10"
+"IL24" -> "EPO"
+"IL24" -> "IL31"
+"IL24" -> "IL21"
+"IL24" -> "LEP"
+"IL26" -> "IFNA6"
+"IL26" -> "IL19"
+"IL26" -> "IL5"
+"IL26" -> "IL9"
+"IL26" -> "IFNA8"
+"IL26" -> "IFNE"
+"IL27" -> "IFNL1"
+"IL27" -> "IL23A"
+"IL27" -> "IL11"
+"IL27" -> "CLCF1"
+"IL27" -> "IFNL4"
+"IL27" -> "CSF3"
+"IL3" -> "IL13"
+"IL3" -> "CSF2"
+"IL3" -> "IL5"
+"IL3" -> "IL22"
+"IL3" -> "IL20"
+"IL3" -> "IL4"
+"IL31" -> "IL5"
+"IL31" -> "IL19"
+"IL31" -> "IFNA1"
+"IL31" -> "IFNA6"
+"IL31" -> "IL24"
+"IL31" -> "IFNA8"
+"IL4" -> "IL20"
+"IL4" -> "IL19"
+"IL4" -> "IL22"
+"IL4" -> "IL9"
+"IL4" -> "IL5"
+"IL4" -> "IL21"
+"IL5" -> "IL31"
+"IL5" -> "IL20"
+"IL5" -> "IFNA8"
+"IL5" -> "IL3"
+"IL5" -> "IL22"
+"IL5" -> "IL4"
+"IL6" -> "CSF3"
+"IL6" -> "IL20"
+"IL6" -> "LIF"
+"IL6" -> "IL10"
+"IL6" -> "IL19"
+"IL6" -> "IL12A"
+"IL7" -> "IFNA16"
+"IL7" -> "IL5"
+"IL7" -> "IFNK"
+"IL7" -> "IL26"
+"IL7" -> "IFNA10"
+"IL7" -> "IFNA7"
+"IL9" -> "IL22"
+"IL9" -> "IL4"
+"IL9" -> "IL19"
+"IL9" -> "IL5"
+"IL9" -> "IL26"
+"IL9" -> "IL20"
+"LEP" -> "EPO"
+"LEP" -> "IFNA21"
+"LEP" -> "IFNA1"
+"LEP" -> "IFNE"
+"LEP" -> "IL24"
+"LEP" -> "IL20"
+"LIF" -> "IL20"
+"LIF" -> "IL5"
+"LIF" -> "IL13"
+"LIF" -> "IL10"
+"LIF" -> "OSM"
+"LIF" -> "IFNA2"
+"OSM" -> "IL10"
+"OSM" -> "IL20"
+"OSM" -> "CLCF1"
+"OSM" -> "IFNW1"
+"OSM" -> "IFNA2"
+"OSM" -> "IFNA6"
+"PRL" -> "IFNA10"
+"PRL" -> "IL31"
+"PRL" -> "IFNA1"
+"PRL" -> "GH2"
+"PRL" -> "IFNA4"
+"PRL" -> "IFNA17"
 }

@@ -1,47 +1,76 @@
 digraph G {
-"ACTL10" -> "ACTRT3";
-"ACTL10" -> "ACTL9";
-"ACTL10" -> "ACTL8";
-"ACTL10" -> "ACTL7A";
-"ACTL7A" -> "ACTL9";
-"ACTL7A" -> "ACTL8";
-"ACTL7A" -> "ACTL7B";
-"ACTL7A" -> "ACTRT3";
-"ACTL7B" -> "ACTRT2";
-"ACTL7B" -> "ACTL8";
-"ACTL7B" -> "ACTL9";
-"ACTL7B" -> "ACTL7A";
-"ACTL8" -> "ACTRT2";
-"ACTL8" -> "ACTL9";
-"ACTL8" -> "ACTL7B";
-"ACTL8" -> "ACTL7A";
-"ACTL9" -> "ACTL8";
-"ACTL9" -> "ACTL7A";
-"ACTL9" -> "ACTRT2";
-"ACTL9" -> "ACTL7B";
-"ACTRT2" -> "ACTL8";
-"ACTRT2" -> "ACTL7B";
-"ACTRT2" -> "ACTL9";
-"ACTRT2" -> "ACTL7A";
-"ACTRT3" -> "ACTL10";
-"ACTRT3" -> "ACTL8";
-"ACTRT3" -> "ACTL7A";
-"ACTRT3" -> "ACTL9";
-"EEF1A1" -> "GAPDH";
-"EEF1A1" -> "ACTRT3";
-"EEF1A1" -> "ACTRT2";
-"EEF1A1" -> "ACTL10";
-"GAPDH" -> "EEF1A1";
-"GAPDH" -> "ACTRT3";
-"GAPDH" -> "ACTL10";
-"GAPDH" -> "ACTRT2";
-"ACTL10" ["l"="83.390701,8.680664"];
-"ACTL7A" ["l"="84.336685,8.856801"];
-"ACTL7B" ["l"="84.702103,8.928885"];
-"ACTL8" ["l"="84.743378,8.607779"];
-"ACTL9" ["l"="84.239334,9.119854"];
-"ACTRT2" ["l"="84.595596,8.878535"];
-"ACTRT3" ["l"="84.352989,8.909941"];
-"EEF1A1" ["l"="81.861679,9.240399"];
-"GAPDH" ["l"="81.755196,9.241084"];
+"ACTB" ["l"="88.673,9.945"]
+"ACTBL2" ["l"="88.447,9.770"]
+"ACTG1" ["l"="87.836,9.831"]
+"ACTL10" ["l"="83.391,8.681"]
+"ACTL7A" ["l"="84.337,8.857"]
+"ACTL7B" ["l"="84.702,8.929"]
+"ACTL8" ["l"="84.743,8.608"]
+"ACTL9" ["l"="84.239,9.120"]
+"ACTR8" ["l"="44.371,3.334"]
+"ACTRT2" ["l"="84.596,8.879"]
+"ACTRT3" ["l"="84.353,8.910"]
+"EEF1A1" ["l"="81.862,9.240"]
+"EEF2" ["l"="79.418,9.027"]
+"ENO1" ["l"="69.129,7.508"]
+"GAPDH" ["l"="81.755,9.241"]
+"GFOD2" ["l"="54.658,4.358"]
+"PPIA" ["l"="67.120,11.123"]
+"RPS14" ["l"="122.037,8.628"]
+"RPS3" ["l"="122.229,8.797"]
+"TPI1" ["l"="66.121,8.719"]
+"ACTL10" -> "ACTRT3"
+"ACTL10" -> "ACTR8" ["e"=1]
+"ACTL10" -> "ACTL9"
+"ACTL10" -> "ACTL8"
+"ACTL10" -> "GFOD2" ["e"=1]
+"ACTL10" -> "ACTL7A"
+"ACTL7A" -> "ACTL9"
+"ACTL7A" -> "ACTL8"
+"ACTL7A" -> "ACTL7B"
+"ACTL7A" -> "ACTRT3"
+"ACTL7A" -> "ACTRT2"
+"ACTL7A" -> "ACTL10"
+"ACTL7B" -> "ACTRT2"
+"ACTL7B" -> "ACTL8"
+"ACTL7B" -> "ACTL9"
+"ACTL7B" -> "ACTL7A"
+"ACTL7B" -> "ACTRT3"
+"ACTL7B" -> "ACTR8" ["e"=1]
+"ACTL8" -> "ACTRT2"
+"ACTL8" -> "ACTL9"
+"ACTL8" -> "ACTL7B"
+"ACTL8" -> "ACTL7A"
+"ACTL8" -> "ACTRT3"
+"ACTL8" -> "ACTL10"
+"ACTL9" -> "ACTL8"
+"ACTL9" -> "ACTL7A"
+"ACTL9" -> "ACTRT2"
+"ACTL9" -> "ACTL7B"
+"ACTL9" -> "ACTL10"
+"ACTL9" -> "ACTR8" ["e"=1]
+"ACTRT2" -> "ACTL8"
+"ACTRT2" -> "ACTL7B"
+"ACTRT2" -> "ACTL9"
+"ACTRT2" -> "ACTL7A"
+"ACTRT2" -> "ACTRT3"
+"ACTRT2" -> "ACTBL2" ["e"=1]
+"ACTRT3" -> "ACTL10"
+"ACTRT3" -> "ACTL8"
+"ACTRT3" -> "ACTL7A"
+"ACTRT3" -> "ACTL9"
+"ACTRT3" -> "ACTRT2"
+"ACTRT3" -> "ACTBL2" ["e"=1]
+"EEF1A1" -> "EEF2" ["e"=1]
+"EEF1A1" -> "GAPDH"
+"EEF1A1" -> "PPIA" ["e"=1]
+"EEF1A1" -> "RPS3" ["e"=1]
+"EEF1A1" -> "ACTG1" ["e"=1]
+"EEF1A1" -> "RPS14" ["e"=1]
+"GAPDH" -> "EEF1A1"
+"GAPDH" -> "ACTG1" ["e"=1]
+"GAPDH" -> "PPIA" ["e"=1]
+"GAPDH" -> "ACTB" ["e"=1]
+"GAPDH" -> "ENO1" ["e"=1]
+"GAPDH" -> "TPI1" ["e"=1]
 }

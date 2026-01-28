@@ -1,77 +1,116 @@
 digraph G {
-"FSHR" -> "LHCGR";
-"FSHR" -> "TSHR";
-"FSHR" -> "LGR4";
-"FSHR" -> "RXFP2";
-"LGI1" -> "RXFP1";
-"LGI1" -> "RXFP2";
-"LGI1" -> "TSHR";
-"LGI1" -> "LHCGR";
-"LGR4" -> "LGR5";
-"LGR4" -> "LHCGR";
-"LGR4" -> "LGR6";
-"LGR4" -> "RXFP1";
-"LGR5" -> "LGR4";
-"LGR5" -> "LGR6";
-"LGR5" -> "RXFP2";
-"LGR5" -> "RXFP1";
-"LGR6" -> "LGR5";
-"LGR6" -> "LGR4";
-"LGR6" -> "LRIG1";
-"LGR6" -> "RXFP1";
-"LHCGR" -> "FSHR";
-"LHCGR" -> "TSHR";
-"LHCGR" -> "LGR4";
-"LHCGR" -> "RXFP2";
-"LRIG1" -> "LRIG3";
-"LRIG1" -> "LRIG2";
-"LRIG1" -> "LGR4";
-"LRIG1" -> "LGR6";
-"LRIG2" -> "LRIG1";
-"LRIG2" -> "LGR4";
-"LRIG2" -> "LRIG3";
-"LRIG2" -> "RXFP1";
-"LRIG3" -> "LRIG1";
-"LRIG3" -> "LGR4";
-"LRIG3" -> "LRIG2";
-"LRIG3" -> "LGR6";
-"RXFP1" -> "RXFP2";
-"RXFP1" -> "LGR5";
-"RXFP1" -> "LGR4";
-"RXFP1" -> "LHCGR";
-"RXFP2" -> "RXFP1";
-"RXFP2" -> "LGR5";
-"RXFP2" -> "LHCGR";
-"RXFP2" -> "TSHR";
-"SLIT1" -> "SLIT3";
-"SLIT1" -> "SLIT2";
-"SLIT1" -> "TSHR";
-"SLIT1" -> "LGR4";
-"SLIT2" -> "SLIT3";
-"SLIT2" -> "SLIT1";
-"SLIT2" -> "LGR4";
-"SLIT2" -> "LRIG3";
-"SLIT3" -> "SLIT1";
-"SLIT3" -> "SLIT2";
-"SLIT3" -> "LGR4";
-"SLIT3" -> "LGR6";
-"TSHR" -> "LHCGR";
-"TSHR" -> "FSHR";
-"TSHR" -> "LGR4";
-"TSHR" -> "RXFP2";
-"FSHR" ["l"="56.268456,-20.225220"];
-"LGI1" ["l"="56.634975,-19.271362"];
-"LGR4" ["l"="55.734428,-20.152351"];
-"LGR5" ["l"="55.833912,-20.106373"];
-"LGR6" ["l"="55.976505,-20.124557"];
-"LHCGR" ["l"="56.104557,-20.323284"];
-"LRIG1" ["l"="55.337902,-20.073837"];
-"LRIG2" ["l"="56.025772,-19.779171"];
-"LRIG3" ["l"="55.547634,-20.030260"];
-"RXFP1" ["l"="55.862988,-19.921192"];
-"RXFP2" ["l"="55.865479,-20.024387"];
-"SLIT1" ["l"="55.928596,-19.743235"];
-"SLIT2" ["l"="55.928291,-19.847797"];
-"SLIT3" ["l"="56.438591,-19.785425"];
-"TSHR" ["l"="55.878273,-19.836655"];
+"ADAMTS2" ["l"="60.751,-15.538"]
+"ADGRA3" ["l"="46.719,-18.050"]
+"ATRNL1" ["l"="56.684,-14.965"]
+"FSHR" ["l"="56.268,-20.225"]
+"LGI1" ["l"="56.635,-19.271"]
+"LGI2" ["l"="57.084,-18.718"]
+"LGI3" ["l"="57.337,-18.854"]
+"LGI4" ["l"="57.639,-18.818"]
+"LGR4" ["l"="55.734,-20.152"]
+"LGR5" ["l"="55.834,-20.106"]
+"LGR6" ["l"="55.977,-20.125"]
+"LHCGR" ["l"="56.105,-20.323"]
+"LRIG1" ["l"="55.338,-20.074"]
+"LRIG2" ["l"="56.026,-19.779"]
+"LRIG3" ["l"="55.548,-20.030"]
+"LRIT2" ["l"="94.319,19.514"]
+"LRP6" ["l"="53.993,-14.351"]
+"PXDN" ["l"="58.353,-14.530"]
+"RXFP1" ["l"="55.863,-19.921"]
+"RXFP2" ["l"="55.865,-20.024"]
+"SLIT1" ["l"="55.929,-19.743"]
+"SLIT2" ["l"="55.928,-19.848"]
+"SLIT3" ["l"="56.439,-19.785"]
+"TSHR" ["l"="55.878,-19.837"]
+"FSHR" -> "LHCGR"
+"FSHR" -> "TSHR"
+"FSHR" -> "LGR4"
+"FSHR" -> "RXFP2"
+"FSHR" -> "LGR5"
+"FSHR" -> "RXFP1"
+"LGI1" -> "LGI2" ["e"=1]
+"LGI1" -> "LGI3" ["e"=1]
+"LGI1" -> "LGI4" ["e"=1]
+"LGI1" -> "RXFP1"
+"LGI1" -> "RXFP2"
+"LGI1" -> "TSHR"
+"LGR4" -> "LGR5"
+"LGR4" -> "LHCGR"
+"LGR4" -> "LGR6"
+"LGR4" -> "RXFP1"
+"LGR4" -> "LRIG1"
+"LGR4" -> "LRIG2"
+"LGR5" -> "LGR4"
+"LGR5" -> "LGR6"
+"LGR5" -> "RXFP2"
+"LGR5" -> "RXFP1"
+"LGR5" -> "LHCGR"
+"LGR5" -> "TSHR"
+"LGR6" -> "LGR5"
+"LGR6" -> "LGR4"
+"LGR6" -> "LRIG1"
+"LGR6" -> "RXFP1"
+"LGR6" -> "LRIG3"
+"LGR6" -> "RXFP2"
+"LHCGR" -> "FSHR"
+"LHCGR" -> "TSHR"
+"LHCGR" -> "LGR4"
+"LHCGR" -> "RXFP2"
+"LHCGR" -> "RXFP1"
+"LHCGR" -> "LGR5"
+"LRIG1" -> "LRIG3"
+"LRIG1" -> "LRIG2"
+"LRIG1" -> "LGR4"
+"LRIG1" -> "LGR6"
+"LRIG1" -> "SLIT1"
+"LRIG1" -> "LGR5"
+"LRIG2" -> "LRIG1"
+"LRIG2" -> "LGR4"
+"LRIG2" -> "LRIG3"
+"LRIG2" -> "ADGRA3" ["e"=1]
+"LRIG2" -> "LRIT2" ["e"=1]
+"LRIG2" -> "LRP6" ["e"=1]
+"LRIG3" -> "LRIG1"
+"LRIG3" -> "LGR4"
+"LRIG3" -> "LRIG2"
+"LRIG3" -> "LGR6"
+"LRIG3" -> "RXFP1"
+"LRIG3" -> "LGR5"
+"RXFP1" -> "RXFP2"
+"RXFP1" -> "LGR5"
+"RXFP1" -> "LGR4"
+"RXFP1" -> "LHCGR"
+"RXFP1" -> "TSHR"
+"RXFP1" -> "LRIG2"
+"RXFP2" -> "RXFP1"
+"RXFP2" -> "LGR5"
+"RXFP2" -> "LHCGR"
+"RXFP2" -> "TSHR"
+"RXFP2" -> "LGR4"
+"RXFP2" -> "FSHR"
+"SLIT1" -> "SLIT3"
+"SLIT1" -> "SLIT2"
+"SLIT1" -> "TSHR"
+"SLIT1" -> "LGR4"
+"SLIT1" -> "LRIG2"
+"SLIT1" -> "RXFP1"
+"SLIT2" -> "SLIT3"
+"SLIT2" -> "SLIT1"
+"SLIT2" -> "LGR4"
+"SLIT2" -> "LRIG3"
+"SLIT2" -> "ATRNL1" ["e"=1]
+"SLIT2" -> "LGR5"
+"SLIT3" -> "SLIT1"
+"SLIT3" -> "SLIT2"
+"SLIT3" -> "PXDN" ["e"=1]
+"SLIT3" -> "LGR4"
+"SLIT3" -> "ADAMTS2" ["e"=1]
+"SLIT3" -> "LGR6"
+"TSHR" -> "LHCGR"
+"TSHR" -> "FSHR"
+"TSHR" -> "LGR4"
+"TSHR" -> "RXFP2"
+"TSHR" -> "RXFP1"
+"TSHR" -> "LGR5"
 }

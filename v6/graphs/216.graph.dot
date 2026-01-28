@@ -1,72 +1,140 @@
 digraph G {
-"C16orf89" -> "WSCD1";
-"C16orf89" -> "CTSF";
-"C16orf89" -> "CTSH";
-"C16orf89" -> "CTSK";
-"CBLIF" -> "TCN1";
-"CBLIF" -> "C16orf89";
-"CBLIF" -> "CTSH";
-"CBLIF" -> "CTSK";
-"CTSB" -> "CTSS";
-"CTSB" -> "CTSH";
-"CTSB" -> "CTSK";
-"CTSB" -> "CTSC";
-"CTSC" -> "CTSB";
-"CTSC" -> "CTSH";
-"CTSC" -> "CTSK";
-"CTSC" -> "CTSL";
-"CTSF" -> "CTSH";
-"CTSF" -> "CTSK";
-"CTSF" -> "C16orf89";
-"CTSF" -> "CTSC";
-"CTSH" -> "CTSS";
-"CTSH" -> "CTSB";
-"CTSH" -> "CTSK";
-"CTSH" -> "CTSC";
-"CTSK" -> "CTSL";
-"CTSK" -> "CTSS";
-"CTSK" -> "CTSB";
-"CTSK" -> "CTSH";
-"CTSL" -> "CTSS";
-"CTSL" -> "CTSK";
-"CTSL" -> "CTSB";
-"CTSL" -> "CTSC";
-"CTSS" -> "CTSL";
-"CTSS" -> "CTSH";
-"CTSS" -> "CTSK";
-"CTSS" -> "CTSB";
-"CTSZ" -> "CTSB";
-"CTSZ" -> "CTSH";
-"CTSZ" -> "CTSC";
-"CTSZ" -> "CTSS";
-"LOXL1" -> "WSCD1";
-"LOXL1" -> "NDNF";
-"LOXL1" -> "C16orf89";
-"LOXL1" -> "CTSK";
-"NDNF" -> "WSCD1";
-"NDNF" -> "CTSF";
-"NDNF" -> "C16orf89";
-"NDNF" -> "CTSC";
-"TCN1" -> "CBLIF";
-"TCN1" -> "CTSS";
-"TCN1" -> "CTSF";
-"TCN1" -> "CTSK";
-"WSCD1" -> "C16orf89";
-"WSCD1" -> "CTSC";
-"WSCD1" -> "CTSB";
-"WSCD1" -> "NDNF";
-"C16orf89" ["l"="69.809425,-10.340304"];
-"CBLIF" ["l"="68.941246,-9.864989"];
-"CTSB" ["l"="69.330925,-9.704960"];
-"CTSC" ["l"="69.434425,-9.413774"];
-"CTSF" ["l"="69.409454,-10.402842"];
-"CTSH" ["l"="69.149361,-9.597908"];
-"CTSK" ["l"="70.333862,-9.694769"];
-"CTSL" ["l"="69.801720,-9.923211"];
-"CTSS" ["l"="69.542480,-9.796762"];
-"CTSZ" ["l"="69.051285,-9.355740"];
-"LOXL1" ["l"="69.415771,-9.798526"];
-"NDNF" ["l"="69.743690,-8.841889"];
-"TCN1" ["l"="69.152657,-9.654964"];
-"WSCD1" ["l"="69.878754,-8.304276"];
+"ADAMTS15" ["l"="61.214,-15.280"]
+"ASPHD2" ["l"="44.577,3.292"]
+"C16orf89" ["l"="69.809,-10.340"]
+"CBLIF" ["l"="68.941,-9.865"]
+"CLCA4" ["l"="57.271,-11.094"]
+"CLEC20A" ["l"="92.739,17.968"]
+"CLUL1" ["l"="70.970,-11.533"]
+"CRISP3" ["l"="72.448,-12.484"]
+"CTSB" ["l"="69.331,-9.705"]
+"CTSC" ["l"="69.434,-9.414"]
+"CTSF" ["l"="69.409,-10.403"]
+"CTSH" ["l"="69.149,-9.598"]
+"CTSK" ["l"="70.334,-9.695"]
+"CTSL" ["l"="69.802,-9.923"]
+"CTSO" ["l"="67.723,-10.444"]
+"CTSS" ["l"="69.542,-9.797"]
+"CTSV" ["l"="71.381,-10.278"]
+"CTSW" ["l"="70.468,-11.982"]
+"CTSZ" ["l"="69.051,-9.356"]
+"FAM180B" ["l"="29.279,24.021"]
+"FUCA1" ["l"="64.933,-5.805"]
+"FUT10" ["l"="72.807,-5.171"]
+"GDF10" ["l"="77.335,-10.852"]
+"HEXA" ["l"="63.959,-5.451"]
+"HHIPL1" ["l"="62.720,-10.114"]
+"HS3ST3B1" ["l"="75.881,-4.818"]
+"IFNAR1" ["l"="22.059,31.620"]
+"ISM1" ["l"="68.305,-13.125"]
+"ITGA4" ["l"="53.838,-12.053"]
+"ITGA8" ["l"="53.920,-12.218"]
+"LOX" ["l"="70.536,-10.055"]
+"LOXL1" ["l"="69.416,-9.799"]
+"LYG2" ["l"="71.566,-11.189"]
+"MEP1B" ["l"="61.723,-9.812"]
+"MFAP4" ["l"="73.130,-11.731"]
+"MOXD1" ["l"="65.199,-7.114"]
+"NDNF" ["l"="69.744,-8.842"]
+"NFATC1" ["l"="-12.682,13.456"]
+"NOTUM" ["l"="66.201,-7.137"]
+"PGLYRP1" ["l"="72.082,-11.747"]
+"PKDCC" ["l"="70.751,-6.869"]
+"PLA2G12B" ["l"="72.044,-12.138"]
+"SPON1" ["l"="61.914,-15.641"]
+"SUMF1" ["l"="61.079,-3.420"]
+"TCN1" ["l"="69.153,-9.655"]
+"TCN2" ["l"="67.791,-8.489"]
+"TINAGL1" ["l"="68.254,-14.362"]
+"TMEM59L" ["l"="54.901,-8.738"]
+"TMPRSS11A" ["l"="69.949,-21.561"]
+"TOR3A" ["l"="61.146,-2.938"]
+"TSPEAR" ["l"="62.954,-12.912"]
+"VNN1" ["l"="65.553,-5.801"]
+"WSCD1" ["l"="69.879,-8.304"]
+"WSCD2" ["l"="72.335,-6.282"]
+"C16orf89" -> "PLA2G12B" ["e"=1]
+"C16orf89" -> "TCN2" ["e"=1]
+"C16orf89" -> "FAM180B" ["e"=1]
+"C16orf89" -> "CLUL1" ["e"=1]
+"C16orf89" -> "NOTUM" ["e"=1]
+"C16orf89" -> "TOR3A" ["e"=1]
+"CBLIF" -> "TCN1"
+"CBLIF" -> "TCN2" ["e"=1]
+"CBLIF" -> "PGLYRP1" ["e"=1]
+"CBLIF" -> "MEP1B" ["e"=1]
+"CBLIF" -> "CLEC20A" ["e"=1]
+"CBLIF" -> "LYG2" ["e"=1]
+"CTSB" -> "CTSS"
+"CTSB" -> "CTSV" ["e"=1]
+"CTSB" -> "CTSH"
+"CTSB" -> "CTSK"
+"CTSB" -> "CTSC"
+"CTSB" -> "CTSO" ["e"=1]
+"CTSC" -> "HEXA" ["e"=1]
+"CTSC" -> "CTSB"
+"CTSC" -> "CTSH"
+"CTSC" -> "CTSV" ["e"=1]
+"CTSC" -> "CTSO" ["e"=1]
+"CTSC" -> "CTSK"
+"CTSF" -> "CTSW" ["e"=1]
+"CTSF" -> "CTSO" ["e"=1]
+"CTSF" -> "CTSH"
+"CTSF" -> "CTSK"
+"CTSF" -> "TMEM59L" ["e"=1]
+"CTSF" -> "PLA2G12B" ["e"=1]
+"CTSH" -> "CTSS"
+"CTSH" -> "CTSV" ["e"=1]
+"CTSH" -> "CTSB"
+"CTSH" -> "CTSO" ["e"=1]
+"CTSH" -> "CTSK"
+"CTSH" -> "CTSC"
+"CTSK" -> "CTSV" ["e"=1]
+"CTSK" -> "CTSL"
+"CTSK" -> "CTSS"
+"CTSK" -> "CTSB"
+"CTSK" -> "CTSH"
+"CTSK" -> "MFAP4" ["e"=1]
+"CTSL" -> "CTSS"
+"CTSL" -> "CTSK"
+"CTSL" -> "CTSV" ["e"=1]
+"CTSL" -> "CTSB"
+"CTSL" -> "CTSC"
+"CTSL" -> "CTSH"
+"CTSS" -> "CTSL"
+"CTSS" -> "CTSV" ["e"=1]
+"CTSS" -> "CTSH"
+"CTSS" -> "CTSK"
+"CTSS" -> "CTSB"
+"CTSS" -> "CRISP3" ["e"=1]
+"CTSZ" -> "FUCA1" ["e"=1]
+"CTSZ" -> "CTSB"
+"CTSZ" -> "CTSH"
+"CTSZ" -> "TINAGL1" ["e"=1]
+"CTSZ" -> "CTSC"
+"CTSZ" -> "SUMF1" ["e"=1]
+"LOXL1" -> "LOX" ["e"=1]
+"LOXL1" -> "ISM1" ["e"=1]
+"LOXL1" -> "NOTUM" ["e"=1]
+"LOXL1" -> "PKDCC" ["e"=1]
+"LOXL1" -> "GDF10" ["e"=1]
+"LOXL1" -> "NFATC1" ["e"=1]
+"NDNF" -> "ITGA8" ["e"=1]
+"NDNF" -> "SPON1" ["e"=1]
+"NDNF" -> "MOXD1" ["e"=1]
+"NDNF" -> "ITGA4" ["e"=1]
+"NDNF" -> "IFNAR1" ["e"=1]
+"NDNF" -> "TSPEAR" ["e"=1]
+"TCN1" -> "CBLIF"
+"TCN1" -> "TCN2" ["e"=1]
+"TCN1" -> "CLCA4" ["e"=1]
+"TCN1" -> "TMPRSS11A" ["e"=1]
+"TCN1" -> "CRISP3" ["e"=1]
+"TCN1" -> "VNN1" ["e"=1]
+"WSCD1" -> "WSCD2" ["e"=1]
+"WSCD1" -> "HHIPL1" ["e"=1]
+"WSCD1" -> "ADAMTS15" ["e"=1]
+"WSCD1" -> "FUT10" ["e"=1]
+"WSCD1" -> "HS3ST3B1" ["e"=1]
+"WSCD1" -> "ASPHD2" ["e"=1]
 }

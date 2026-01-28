@@ -1,62 +1,112 @@
 digraph G {
-"CAPNS1" -> "SRI";
-"CAPNS1" -> "GCA";
-"CAPNS1" -> "CAPNS2";
-"CAPNS1" -> "PDCD6";
-"CAPNS2" -> "SRI";
-"CAPNS2" -> "GCA";
-"CAPNS2" -> "DCUN1D4";
-"CAPNS2" -> "DCUN1D2";
-"CAPS" -> "SNTN";
-"CAPS" -> "CAPNS2";
-"CAPS" -> "SRI";
-"CAPS" -> "DCUN1D4";
-"DCUN1D1" -> "DCUN1D2";
-"DCUN1D1" -> "DCUN1D4";
-"DCUN1D1" -> "GCA";
-"DCUN1D1" -> "SRI";
-"DCUN1D2" -> "DCUN1D1";
-"DCUN1D2" -> "DCUN1D4";
-"DCUN1D2" -> "GCA";
-"DCUN1D2" -> "SRI";
-"DCUN1D4" -> "DCUN1D2";
-"DCUN1D4" -> "DCUN1D1";
-"DCUN1D4" -> "GCA";
-"DCUN1D4" -> "MICU3";
-"GCA" -> "SRI";
-"GCA" -> "PDCD6";
-"GCA" -> "DCUN1D4";
-"GCA" -> "DCUN1D2";
-"MICU2" -> "MICU3";
-"MICU2" -> "DCUN1D4";
-"MICU2" -> "DCUN1D2";
-"MICU2" -> "DCUN1D1";
-"MICU3" -> "MICU2";
-"MICU3" -> "DCUN1D4";
-"MICU3" -> "DCUN1D2";
-"MICU3" -> "CAPNS2";
-"PDCD6" -> "GCA";
-"PDCD6" -> "SRI";
-"PDCD6" -> "CAPNS2";
-"PDCD6" -> "DCUN1D2";
-"SNTN" -> "CAPS";
-"SNTN" -> "CAPNS2";
-"SNTN" -> "DCUN1D4";
-"SNTN" -> "DCUN1D2";
-"SRI" -> "GCA";
-"SRI" -> "PDCD6";
-"SRI" -> "DCUN1D2";
-"SRI" -> "CAPNS2";
-"CAPNS1" ["l"="-38.430565,-6.244446"];
-"CAPNS2" ["l"="-39.014732,-6.457800"];
-"CAPS" ["l"="-38.916176,-6.578130"];
-"DCUN1D1" ["l"="-39.268227,-6.619962"];
-"DCUN1D2" ["l"="-38.824432,-6.389589"];
-"DCUN1D4" ["l"="-39.184208,-6.598012"];
-"GCA" ["l"="-38.725056,-6.337120"];
-"MICU2" ["l"="-38.953251,-6.595444"];
-"MICU3" ["l"="-38.227139,-6.428145"];
-"PDCD6" ["l"="-39.147396,-6.498867"];
-"SNTN" ["l"="-39.353298,-6.635502"];
-"SRI" ["l"="-38.773987,-6.354787"];
+"AFG1L" ["l"="55.582,7.830"]
+"C22orf23" ["l"="10.000,16.300"]
+"C2orf50" ["l"="17.460,15.650"]
+"CALML4" ["l"="-40.689,-7.070"]
+"CAPNS1" ["l"="-38.431,-6.244"]
+"CAPNS2" ["l"="-39.015,-6.458"]
+"CAPS" ["l"="-38.916,-6.578"]
+"CCDC103" ["l"="28.355,10.870"]
+"CIDEB" ["l"="56.067,2.756"]
+"DCUN1D1" ["l"="-39.268,-6.620"]
+"DCUN1D2" ["l"="-38.824,-6.390"]
+"DCUN1D3" ["l"="21.414,8.286"]
+"DCUN1D4" ["l"="-39.184,-6.598"]
+"EFCAB11" ["l"="-40.475,-7.019"]
+"EFHD2" ["l"="-40.160,-6.900"]
+"ELMOD1" ["l"="34.373,1.974"]
+"GCA" ["l"="-38.725,-6.337"]
+"GID8" ["l"="31.171,10.879"]
+"GLS" ["l"="53.644,3.538"]
+"LDLRAD2" ["l"="67.035,-11.495"]
+"MBD2" ["l"="22.367,10.322"]
+"MICU1" ["l"="-39.893,-6.860"]
+"MICU2" ["l"="-38.953,-6.595"]
+"MICU3" ["l"="-38.227,-6.428"]
+"NCS1" ["l"="-41.567,-7.313"]
+"PDCD6" ["l"="-39.147,-6.499"]
+"PPP2R3C" ["l"="-40.254,-6.934"]
+"PPP3R1" ["l"="-41.049,-7.088"]
+"RMND5A" ["l"="30.127,8.737"]
+"ROPN1L" ["l"="33.399,9.431"]
+"S100A7A" ["l"="18.890,-58.942"]
+"SCO1" ["l"="58.733,11.080"]
+"SLC25A12" ["l"="37.088,-39.291"]
+"SNTN" ["l"="-39.353,-6.636"]
+"SRI" ["l"="-38.774,-6.355"]
+"STK19" ["l"="46.566,7.102"]
+"TENT5A" ["l"="17.918,10.433"]
+"TRAPPC6B" ["l"="39.042,9.439"]
+"CAPNS1" -> "SRI"
+"CAPNS1" -> "EFHD2" ["e"=1]
+"CAPNS1" -> "GCA"
+"CAPNS1" -> "CAPNS2"
+"CAPNS1" -> "MBD2" ["e"=1]
+"CAPNS1" -> "PDCD6"
+"CAPNS2" -> "TENT5A" ["e"=1]
+"CAPNS2" -> "SRI"
+"CAPNS2" -> "GCA"
+"CAPNS2" -> "DCUN1D3" ["e"=1]
+"CAPNS2" -> "DCUN1D4"
+"CAPNS2" -> "DCUN1D2"
+"CAPS" -> "CALML4" ["e"=1]
+"CAPS" -> "SNTN"
+"CAPS" -> "CIDEB" ["e"=1]
+"CAPS" -> "STK19" ["e"=1]
+"CAPS" -> "CCDC103" ["e"=1]
+"CAPS" -> "LDLRAD2" ["e"=1]
+"DCUN1D1" -> "DCUN1D2"
+"DCUN1D1" -> "DCUN1D4"
+"DCUN1D1" -> "DCUN1D3" ["e"=1]
+"DCUN1D1" -> "PPP3R1" ["e"=1]
+"DCUN1D1" -> "TRAPPC6B" ["e"=1]
+"DCUN1D1" -> "GID8" ["e"=1]
+"DCUN1D2" -> "DCUN1D1"
+"DCUN1D2" -> "DCUN1D4"
+"DCUN1D2" -> "DCUN1D3" ["e"=1]
+"DCUN1D2" -> "GCA"
+"DCUN1D2" -> "SRI"
+"DCUN1D2" -> "RMND5A" ["e"=1]
+"DCUN1D4" -> "DCUN1D2"
+"DCUN1D4" -> "DCUN1D1"
+"DCUN1D4" -> "GCA"
+"DCUN1D4" -> "MICU3"
+"DCUN1D4" -> "ELMOD1" ["e"=1]
+"DCUN1D4" -> "DCUN1D3" ["e"=1]
+"GCA" -> "SRI"
+"GCA" -> "PDCD6"
+"GCA" -> "DCUN1D4"
+"GCA" -> "DCUN1D2"
+"GCA" -> "CAPNS2"
+"GCA" -> "DCUN1D1"
+"MICU2" -> "MICU3"
+"MICU2" -> "MICU1" ["e"=1]
+"MICU2" -> "PPP2R3C" ["e"=1]
+"MICU2" -> "SLC25A12" ["e"=1]
+"MICU2" -> "DCUN1D4"
+"MICU2" -> "AFG1L" ["e"=1]
+"MICU3" -> "MICU2"
+"MICU3" -> "MICU1" ["e"=1]
+"MICU3" -> "DCUN1D4"
+"MICU3" -> "AFG1L" ["e"=1]
+"MICU3" -> "GLS" ["e"=1]
+"MICU3" -> "SCO1" ["e"=1]
+"PDCD6" -> "GCA"
+"PDCD6" -> "SRI"
+"PDCD6" -> "CAPNS2"
+"PDCD6" -> "EFCAB11" ["e"=1]
+"PDCD6" -> "DCUN1D2"
+"PDCD6" -> "NCS1" ["e"=1]
+"SNTN" -> "CAPS"
+"SNTN" -> "ROPN1L" ["e"=1]
+"SNTN" -> "CALML4" ["e"=1]
+"SNTN" -> "S100A7A" ["e"=1]
+"SNTN" -> "C2orf50" ["e"=1]
+"SNTN" -> "C22orf23" ["e"=1]
+"SRI" -> "GCA"
+"SRI" -> "PDCD6"
+"SRI" -> "DCUN1D2"
+"SRI" -> "CAPNS2"
+"SRI" -> "DCUN1D4"
+"SRI" -> "CAPS"
 }

@@ -1,142 +1,259 @@
 digraph G {
-"ADCY10" -> "UHRF1BP1";
-"ADCY10" -> "PDS5B";
-"ADCY10" -> "VIRMA";
-"ADCY10" -> "UHRF1BP1L";
-"CLEC16A" -> "RALGAPB";
-"CLEC16A" -> "NISCH";
-"CLEC16A" -> "UHRF1BP1";
-"CLEC16A" -> "VIRMA";
-"DCAF1" -> "VIRMA";
-"DCAF1" -> "RALGAPB";
-"DCAF1" -> "UHRF1BP1";
-"DCAF1" -> "NISCH";
-"DOC2A" -> "DOC2B";
-"DOC2A" -> "SYT5";
-"DOC2A" -> "SYT13";
-"DOC2A" -> "SYT12";
-"DOC2B" -> "SYT12";
-"DOC2B" -> "DOC2A";
-"DOC2B" -> "SYT6";
-"DOC2B" -> "SYT7";
-"NISCH" -> "UHRF1BP1";
-"NISCH" -> "CLEC16A";
-"NISCH" -> "RALGAPB";
-"NISCH" -> "VIRMA";
-"PDS5B" -> "VIRMA";
-"PDS5B" -> "RALGAPB";
-"PDS5B" -> "ADCY10";
-"PDS5B" -> "CLEC16A";
-"PPP4R1" -> "RALGAPB";
-"PPP4R1" -> "UHRF1BP1L";
-"PPP4R1" -> "CLEC16A";
-"PPP4R1" -> "VIRMA";
-"RALGAPB" -> "UHRF1BP1";
-"RALGAPB" -> "UHRF1BP1L";
-"RALGAPB" -> "VIRMA";
-"RALGAPB" -> "CLEC16A";
-"SYT1" -> "SYT2";
-"SYT1" -> "SYT5";
-"SYT1" -> "SYT4";
-"SYT1" -> "SYT6";
-"SYT10" -> "SYT9";
-"SYT10" -> "SYT6";
-"SYT10" -> "SYT4";
-"SYT10" -> "SYT5";
-"SYT11" -> "SYT4";
-"SYT11" -> "SYT13";
-"SYT11" -> "SYT5";
-"SYT11" -> "SYT7";
-"SYT12" -> "SYT15";
-"SYT12" -> "SYT7";
-"SYT12" -> "DOC2B";
-"SYT12" -> "SYT13";
-"SYT13" -> "SYT4";
-"SYT13" -> "SYT15";
-"SYT13" -> "SYT12";
-"SYT13" -> "SYT11";
-"SYT15" -> "SYT12";
-"SYT15" -> "SYT13";
-"SYT15" -> "SYT6";
-"SYT15" -> "SYT5";
-"SYT17" -> "SYT12";
-"SYT17" -> "SYT6";
-"SYT17" -> "SYT9";
-"SYT17" -> "SYT13";
-"SYT2" -> "SYT1";
-"SYT2" -> "SYT4";
-"SYT2" -> "SYT7";
-"SYT2" -> "SYT6";
-"SYT3" -> "SYT5";
-"SYT3" -> "SYT9";
-"SYT3" -> "SYT10";
-"SYT3" -> "SYT11";
-"SYT4" -> "SYT11";
-"SYT4" -> "SYT13";
-"SYT4" -> "SYT9";
-"SYT4" -> "SYT5";
-"SYT5" -> "DOC2A";
-"SYT5" -> "SYT11";
-"SYT5" -> "SYT4";
-"SYT5" -> "SYT13";
-"SYT6" -> "SYT9";
-"SYT6" -> "SYT10";
-"SYT6" -> "SYT7";
-"SYT6" -> "SYT12";
-"SYT7" -> "SYT6";
-"SYT7" -> "SYT12";
-"SYT7" -> "SYT11";
-"SYT7" -> "DOC2B";
-"SYT8" -> "SYT15";
-"SYT8" -> "SYT5";
-"SYT8" -> "SYT3";
-"SYT8" -> "SYT13";
-"SYT9" -> "SYT10";
-"SYT9" -> "SYT6";
-"SYT9" -> "SYT4";
-"SYT9" -> "SYT12";
-"TC2N" -> "SYT15";
-"TC2N" -> "SYT13";
-"TC2N" -> "SYT12";
-"TC2N" -> "SYT17";
-"UHRF1BP1" -> "UHRF1BP1L";
-"UHRF1BP1" -> "RALGAPB";
-"UHRF1BP1" -> "NISCH";
-"UHRF1BP1" -> "CLEC16A";
-"UHRF1BP1L" -> "UHRF1BP1";
-"UHRF1BP1L" -> "RALGAPB";
-"UHRF1BP1L" -> "VIRMA";
-"UHRF1BP1L" -> "NISCH";
-"VIRMA" -> "RALGAPB";
-"VIRMA" -> "UHRF1BP1L";
-"VIRMA" -> "NISCH";
-"VIRMA" -> "DCAF1";
-"ADCY10" ["l"="17.548731,-3.929433"];
-"CLEC16A" ["l"="16.156223,-3.039955"];
-"DCAF1" ["l"="16.958168,-5.030951"];
-"DOC2A" ["l"="17.204241,-4.025668"];
-"DOC2B" ["l"="16.734612,-4.204722"];
-"NISCH" ["l"="17.506350,-3.795564"];
-"PDS5B" ["l"="19.480001,-4.256440"];
-"PPP4R1" ["l"="16.342344,-4.536199"];
-"RALGAPB" ["l"="15.453300,-4.633957"];
-"SYT1" ["l"="16.477999,-4.519217"];
-"SYT10" ["l"="16.352409,-4.179121"];
-"SYT11" ["l"="16.536274,-4.682878"];
-"SYT12" ["l"="16.279634,-4.070271"];
-"SYT13" ["l"="16.228205,-3.780623"];
-"SYT15" ["l"="17.155331,-4.120941"];
-"SYT17" ["l"="16.711658,-4.289699"];
-"SYT2" ["l"="16.456028,-4.266754"];
-"SYT3" ["l"="16.290874,-4.731795"];
-"SYT4" ["l"="16.479738,-4.640882"];
-"SYT5" ["l"="16.902502,-4.244814"];
-"SYT6" ["l"="16.394579,-4.381156"];
-"SYT7" ["l"="16.073109,-4.512515"];
-"SYT8" ["l"="16.945353,-4.272933"];
-"SYT9" ["l"="15.937111,-4.270190"];
-"TC2N" ["l"="17.080366,-3.727482"];
-"UHRF1BP1" ["l"="16.248829,-5.199575"];
-"UHRF1BP1L" ["l"="15.599903,-4.809466"];
-"VIRMA" ["l"="17.498646,-5.524455"];
+"ADCY10" ["l"="17.549,-3.929"]
+"ANKAR" ["l"="19.501,-4.118"]
+"ANKFN1" ["l"="13.687,-1.877"]
+"AQR" ["l"="25.894,-3.123"]
+"ARMC9" ["l"="22.057,-2.519"]
+"ARMH3" ["l"="24.323,-3.768"]
+"ATAD2B" ["l"="14.770,3.404"]
+"BTAF1" ["l"="15.923,-6.860"]
+"C2CD2L" ["l"="16.703,-2.062"]
+"C2CD4C" ["l"="11.237,9.869"]
+"CLEC16A" ["l"="16.156,-3.040"]
+"CPNE5" ["l"="27.182,-7.824"]
+"DCAF1" ["l"="16.958,-5.031"]
+"DENND4C" ["l"="12.811,-6.119"]
+"DOC2A" ["l"="17.204,-4.026"]
+"DOC2B" ["l"="16.735,-4.205"]
+"DUOXA1" ["l"="15.518,-21.437"]
+"EFR3A" ["l"="21.371,-3.153"]
+"ERCC6" ["l"="15.849,4.594"]
+"FBXO47" ["l"="33.799,7.035"]
+"FNIP2" ["l"="6.606,2.250"]
+"FPGT" ["l"="46.833,3.317"]
+"GAPVD1" ["l"="14.356,-5.360"]
+"GBF1" ["l"="15.478,-5.961"]
+"HEATR6" ["l"="25.564,-3.847"]
+"INTS2" ["l"="22.368,-5.497"]
+"KIAA0100" ["l"="17.730,-8.752"]
+"MCTP2" ["l"="16.552,-2.879"]
+"MTMR3" ["l"="6.736,2.605"]
+"NET1" ["l"="12.668,1.105"]
+"NISCH" ["l"="17.506,-3.796"]
+"NRIP2" ["l"="15.262,16.058"]
+"NUP188" ["l"="22.676,-6.201"]
+"OVCH1" ["l"="64.518,-17.947"]
+"PDS5A" ["l"="20.015,-4.647"]
+"PDS5B" ["l"="19.480,-4.256"]
+"PHIP" ["l"="2.864,4.131"]
+"PIK3R4" ["l"="24.735,-5.040"]
+"PIKFYVE" ["l"="14.289,-6.222"]
+"PLCD3" ["l"="24.762,-1.183"]
+"PPP4R1" ["l"="16.342,-4.536"]
+"PTCD1" ["l"="21.145,3.549"]
+"RAB3GAP1" ["l"="21.349,1.514"]
+"RALGAPA2" ["l"="14.412,-5.611"]
+"RALGAPB" ["l"="15.453,-4.634"]
+"RASA2" ["l"="18.823,-1.714"]
+"RB1" ["l"="16.533,4.635"]
+"RIC1" ["l"="27.173,-5.446"]
+"RNF157" ["l"="11.999,3.141"]
+"RPS6KC1" ["l"="4.529,2.853"]
+"SGSM1" ["l"="13.608,-1.364"]
+"SGSM2" ["l"="16.336,-0.450"]
+"STAG1" ["l"="19.831,-4.273"]
+"STK11IP" ["l"="23.004,-1.377"]
+"SYT1" ["l"="16.478,-4.519"]
+"SYT10" ["l"="16.352,-4.179"]
+"SYT11" ["l"="16.536,-4.683"]
+"SYT12" ["l"="16.280,-4.070"]
+"SYT13" ["l"="16.228,-3.781"]
+"SYT14" ["l"="16.413,-0.982"]
+"SYT15" ["l"="17.155,-4.121"]
+"SYT17" ["l"="16.712,-4.290"]
+"SYT2" ["l"="16.456,-4.267"]
+"SYT3" ["l"="16.291,-4.732"]
+"SYT4" ["l"="16.480,-4.641"]
+"SYT5" ["l"="16.903,-4.245"]
+"SYT6" ["l"="16.395,-4.381"]
+"SYT7" ["l"="16.073,-4.513"]
+"SYT8" ["l"="16.945,-4.273"]
+"SYT9" ["l"="15.937,-4.270"]
+"SYTL1" ["l"="17.413,-2.665"]
+"TASOR" ["l"="3.116,3.988"]
+"TBC1D9B" ["l"="16.479,-2.856"]
+"TC2N" ["l"="17.080,-3.727"]
+"TDRD1" ["l"="29.788,2.857"]
+"TMEM52" ["l"="17.350,24.808"]
+"TRANK1" ["l"="17.892,-7.688"]
+"TRAPPC8" ["l"="27.046,-5.605"]
+"TSC2" ["l"="14.987,-5.771"]
+"UHRF1BP1" ["l"="16.249,-5.200"]
+"UHRF1BP1L" ["l"="15.600,-4.809"]
+"USP10" ["l"="6.149,5.529"]
+"USP35" ["l"="21.499,2.303"]
+"VIRMA" ["l"="17.499,-5.524"]
+"VWA2" ["l"="56.117,-11.209"]
+"WDR47" ["l"="46.760,20.789"]
+"WDR81" ["l"="17.494,-7.518"]
+"XPO4" ["l"="24.656,-6.030"]
+"YTHDC2" ["l"="24.605,-0.638"]
+"ADCY10" -> "ANKAR" ["e"=1]
+"ADCY10" -> "ANKFN1" ["e"=1]
+"ADCY10" -> "FPGT" ["e"=1]
+"ADCY10" -> "TRANK1" ["e"=1]
+"ADCY10" -> "OVCH1" ["e"=1]
+"ADCY10" -> "FBXO47" ["e"=1]
+"CLEC16A" -> "RNF157" ["e"=1]
+"CLEC16A" -> "ARMH3" ["e"=1]
+"CLEC16A" -> "GBF1" ["e"=1]
+"CLEC16A" -> "RALGAPA2" ["e"=1]
+"CLEC16A" -> "SGSM1" ["e"=1]
+"CLEC16A" -> "ARMC9" ["e"=1]
+"DCAF1" -> "VIRMA"
+"DCAF1" -> "PIK3R4" ["e"=1]
+"DCAF1" -> "RALGAPB"
+"DCAF1" -> "WDR47" ["e"=1]
+"DCAF1" -> "PTCD1" ["e"=1]
+"DCAF1" -> "ERCC6" ["e"=1]
+"DOC2A" -> "DOC2B"
+"DOC2A" -> "SYT5"
+"DOC2A" -> "SYT13"
+"DOC2A" -> "C2CD4C" ["e"=1]
+"DOC2A" -> "PLCD3" ["e"=1]
+"DOC2A" -> "SYT12"
+"DOC2B" -> "SYT12"
+"DOC2B" -> "DOC2A"
+"DOC2B" -> "SYT6"
+"DOC2B" -> "SYT7"
+"DOC2B" -> "SYT13"
+"DOC2B" -> "CPNE5" ["e"=1]
+"NISCH" -> "STK11IP" ["e"=1]
+"NISCH" -> "UHRF1BP1"
+"NISCH" -> "WDR81" ["e"=1]
+"NISCH" -> "USP35" ["e"=1]
+"NISCH" -> "HEATR6" ["e"=1]
+"NISCH" -> "SGSM2" ["e"=1]
+"PDS5B" -> "PDS5A" ["e"=1]
+"PDS5B" -> "STAG1" ["e"=1]
+"PDS5B" -> "EFR3A" ["e"=1]
+"PDS5B" -> "RB1" ["e"=1]
+"PDS5B" -> "AQR" ["e"=1]
+"PDS5B" -> "PHIP" ["e"=1]
+"PPP4R1" -> "RPS6KC1" ["e"=1]
+"PPP4R1" -> "GBF1" ["e"=1]
+"PPP4R1" -> "MTMR3" ["e"=1]
+"PPP4R1" -> "USP10" ["e"=1]
+"PPP4R1" -> "XPO4" ["e"=1]
+"PPP4R1" -> "HEATR6" ["e"=1]
+"RALGAPB" -> "RALGAPA2" ["e"=1]
+"RALGAPB" -> "PIKFYVE" ["e"=1]
+"RALGAPB" -> "RAB3GAP1" ["e"=1]
+"RALGAPB" -> "INTS2" ["e"=1]
+"RALGAPB" -> "TSC2" ["e"=1]
+"RALGAPB" -> "GAPVD1" ["e"=1]
+"SYT1" -> "SYT2"
+"SYT1" -> "SYT5"
+"SYT1" -> "SYT4"
+"SYT1" -> "SYT6"
+"SYT1" -> "SYT10"
+"SYT1" -> "SYT7"
+"SYT10" -> "SYT9"
+"SYT10" -> "SYT6"
+"SYT10" -> "SYT4"
+"SYT10" -> "MCTP2" ["e"=1]
+"SYT10" -> "SYT5"
+"SYT10" -> "SYT14" ["e"=1]
+"SYT11" -> "SYT4"
+"SYT11" -> "SYT13"
+"SYT11" -> "SYT5"
+"SYT11" -> "SYT7"
+"SYT11" -> "SYT9"
+"SYT11" -> "SYT12"
+"SYT12" -> "SYT15"
+"SYT12" -> "SYT7"
+"SYT12" -> "DOC2B"
+"SYT12" -> "SYT13"
+"SYT12" -> "SYT6"
+"SYT12" -> "SYT9"
+"SYT13" -> "SYT4"
+"SYT13" -> "SYT15"
+"SYT13" -> "SYT12"
+"SYT13" -> "SYT11"
+"SYT13" -> "SYT5"
+"SYT13" -> "C2CD2L" ["e"=1]
+"SYT15" -> "SYT12"
+"SYT15" -> "SYT13"
+"SYT15" -> "NRIP2" ["e"=1]
+"SYT15" -> "SYT6"
+"SYT15" -> "SYT5"
+"SYT15" -> "VWA2" ["e"=1]
+"SYT17" -> "SYT12"
+"SYT17" -> "SYT6"
+"SYT17" -> "SYT9"
+"SYT17" -> "SYT13"
+"SYT17" -> "SYT7"
+"SYT17" -> "DOC2B"
+"SYT2" -> "SYT1"
+"SYT2" -> "SYT4"
+"SYT2" -> "SYT7"
+"SYT2" -> "SYT6"
+"SYT2" -> "SYT11"
+"SYT2" -> "SYT13"
+"SYT3" -> "SYT5"
+"SYT3" -> "SYT9"
+"SYT3" -> "SYT10"
+"SYT3" -> "SYT11"
+"SYT3" -> "DOC2A"
+"SYT3" -> "SYT13"
+"SYT4" -> "SYT11"
+"SYT4" -> "SYT13"
+"SYT4" -> "SYT9"
+"SYT4" -> "SYT5"
+"SYT4" -> "SYT7"
+"SYT4" -> "SYT2"
+"SYT5" -> "DOC2A"
+"SYT5" -> "SYT11"
+"SYT5" -> "SYT4"
+"SYT5" -> "SYT13"
+"SYT5" -> "SYT3"
+"SYT5" -> "SYT15"
+"SYT6" -> "SYT9"
+"SYT6" -> "SYT10"
+"SYT6" -> "SYT7"
+"SYT6" -> "SYT12"
+"SYT6" -> "DOC2B"
+"SYT6" -> "SYT13"
+"SYT7" -> "SYT6"
+"SYT7" -> "SYT12"
+"SYT7" -> "SYT11"
+"SYT7" -> "DOC2B"
+"SYT7" -> "SYT9"
+"SYT7" -> "SYT4"
+"SYT8" -> "SYT15"
+"SYT8" -> "SYT5"
+"SYT8" -> "SYTL1" ["e"=1]
+"SYT8" -> "DUOXA1" ["e"=1]
+"SYT8" -> "TMEM52" ["e"=1]
+"SYT8" -> "SYT3"
+"SYT9" -> "SYT10"
+"SYT9" -> "SYT6"
+"SYT9" -> "SYT4"
+"SYT9" -> "SYT12"
+"SYT9" -> "SYT7"
+"SYT9" -> "SYT11"
+"TC2N" -> "SYT15"
+"TC2N" -> "SYT13"
+"TC2N" -> "RASA2" ["e"=1]
+"TC2N" -> "NET1" ["e"=1]
+"TC2N" -> "SYT14" ["e"=1]
+"TC2N" -> "TDRD1" ["e"=1]
+"UHRF1BP1" -> "KIAA0100" ["e"=1]
+"UHRF1BP1" -> "UHRF1BP1L"
+"UHRF1BP1" -> "TBC1D9B" ["e"=1]
+"UHRF1BP1" -> "WDR81" ["e"=1]
+"UHRF1BP1" -> "RALGAPB"
+"UHRF1BP1" -> "FNIP2" ["e"=1]
+"UHRF1BP1L" -> "UHRF1BP1"
+"UHRF1BP1L" -> "DENND4C" ["e"=1]
+"UHRF1BP1L" -> "TRAPPC8" ["e"=1]
+"UHRF1BP1L" -> "TASOR" ["e"=1]
+"UHRF1BP1L" -> "RALGAPB"
+"UHRF1BP1L" -> "RIC1" ["e"=1]
+"VIRMA" -> "BTAF1" ["e"=1]
+"VIRMA" -> "YTHDC2" ["e"=1]
+"VIRMA" -> "ATAD2B" ["e"=1]
+"VIRMA" -> "NUP188" ["e"=1]
+"VIRMA" -> "GBF1" ["e"=1]
+"VIRMA" -> "HEATR6" ["e"=1]
 }

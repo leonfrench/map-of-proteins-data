@@ -1,157 +1,267 @@
 digraph G {
-"ASCL1" -> "BHLHE23";
-"ASCL1" -> "OLIG1";
-"ASCL1" -> "NEUROG2";
-"ASCL1" -> "ATOH1";
-"ASCL4" -> "ASCL5";
-"ASCL4" -> "MYOD1";
-"ASCL4" -> "MYOG";
-"ASCL4" -> "MYF6";
-"ASCL5" -> "ASCL4";
-"ASCL5" -> "LYL1";
-"ASCL5" -> "FOXE3";
-"ASCL5" -> "OLIG1";
-"ATOH1" -> "MYOD1";
-"ATOH1" -> "PTF1A";
-"ATOH1" -> "OLIG1";
-"ATOH1" -> "ASCL4";
-"BHLHE23" -> "NEUROG1";
-"BHLHE23" -> "NEUROG3";
-"BHLHE23" -> "SCX";
-"BHLHE23" -> "OLIG1";
-"CEBPE" -> "MYOG";
-"CEBPE" -> "MYOD1";
-"CEBPE" -> "ASCL4";
-"CEBPE" -> "MSGN1";
-"CITED4" -> "FOXE3";
-"CITED4" -> "ASCL5";
-"CITED4" -> "OLIG1";
-"CITED4" -> "BHLHE23";
-"FERD3L" -> "NHLH2";
-"FERD3L" -> "NHLH1";
-"FERD3L" -> "MSGN1";
-"FERD3L" -> "MSC";
-"FOXE3" -> "ASCL5";
-"FOXE3" -> "LYL1";
-"FOXE3" -> "CITED4";
-"FOXE3" -> "OLIG1";
-"HAND1" -> "ASCL4";
-"HAND1" -> "SCX";
-"HAND1" -> "BHLHE23";
-"HAND1" -> "ASCL5";
-"HEYL" -> "ASCL5";
-"HEYL" -> "MKX";
-"HEYL" -> "ASCL4";
-"HEYL" -> "MYOG";
-"JUNB" -> "MSGN1";
-"JUNB" -> "PTF1A";
-"JUNB" -> "CEBPE";
-"JUNB" -> "OLIG1";
-"LYL1" -> "OLIG1";
-"LYL1" -> "ASCL5";
-"LYL1" -> "SCX";
-"LYL1" -> "ASCL4";
-"MKX" -> "MSC";
-"MKX" -> "MYOD1";
-"MKX" -> "ASCL5";
-"MKX" -> "HEYL";
-"MSC" -> "NHLH1";
-"MSC" -> "NHLH2";
-"MSC" -> "TWIST1";
-"MSC" -> "TCF21";
-"MSGN1" -> "NHLH1";
-"MSGN1" -> "MSC";
-"MSGN1" -> "NHLH2";
-"MSGN1" -> "PTF1A";
-"MYF5" -> "MYF6";
-"MYF5" -> "MYOG";
-"MYF5" -> "MYOD1";
-"MYF5" -> "NEUROG1";
-"MYF6" -> "MYOG";
-"MYF6" -> "MYF5";
-"MYF6" -> "ASCL4";
-"MYF6" -> "MYOD1";
-"MYOD1" -> "MYOG";
-"MYOD1" -> "MYF5";
-"MYOD1" -> "ASCL4";
-"MYOD1" -> "PTF1A";
-"MYOG" -> "MYF6";
-"MYOG" -> "MYF5";
-"MYOG" -> "MYOD1";
-"MYOG" -> "ASCL4";
-"NEUROG1" -> "NEUROG3";
-"NEUROG1" -> "NEUROG2";
-"NEUROG1" -> "BHLHE23";
-"NEUROG1" -> "MYOD1";
-"NEUROG2" -> "NEUROG1";
-"NEUROG2" -> "OLIG1";
-"NEUROG2" -> "BHLHE23";
-"NEUROG2" -> "NEUROG3";
-"NEUROG3" -> "NEUROG1";
-"NEUROG3" -> "BHLHE23";
-"NEUROG3" -> "NEUROG2";
-"NEUROG3" -> "ASCL4";
-"NHLH1" -> "NHLH2";
-"NHLH1" -> "MSC";
-"NHLH1" -> "BHLHE23";
-"NHLH1" -> "TCF21";
-"NHLH2" -> "NHLH1";
-"NHLH2" -> "MSC";
-"NHLH2" -> "TWIST2";
-"NHLH2" -> "TCF21";
-"OLIG1" -> "LYL1";
-"OLIG1" -> "BHLHE23";
-"OLIG1" -> "NEUROG2";
-"OLIG1" -> "ASCL4";
-"PTF1A" -> "MYOD1";
-"PTF1A" -> "ATOH1";
-"PTF1A" -> "ASCL4";
-"PTF1A" -> "NEUROG1";
-"SCX" -> "BHLHE23";
-"SCX" -> "LYL1";
-"SCX" -> "NEUROG1";
-"SCX" -> "HAND1";
-"TCF21" -> "MSC";
-"TCF21" -> "NHLH1";
-"TCF21" -> "NHLH2";
-"TCF21" -> "TWIST2";
-"TWIST1" -> "MSC";
-"TWIST1" -> "NHLH1";
-"TWIST1" -> "SCX";
-"TWIST1" -> "ASCL1";
-"TWIST2" -> "NHLH2";
-"TWIST2" -> "MSC";
-"TWIST2" -> "TCF21";
-"TWIST2" -> "NHLH1";
-"ASCL1" ["l"="-10.062846,18.695631"];
-"ASCL4" ["l"="-8.911145,18.297695"];
-"ASCL5" ["l"="-9.298970,18.075548"];
-"ATOH1" ["l"="-10.455276,18.509733"];
-"BHLHE23" ["l"="-9.490768,18.813749"];
-"CEBPE" ["l"="-8.835007,17.622126"];
-"CITED4" ["l"="-9.162286,17.546406"];
-"FERD3L" ["l"="-10.029057,18.882999"];
-"FOXE3" ["l"="-9.248582,17.719646"];
-"HAND1" ["l"="-11.156430,19.146835"];
-"HEYL" ["l"="-8.892256,17.789717"];
-"JUNB" ["l"="-9.333125,17.392942"];
-"LYL1" ["l"="-8.640851,18.269781"];
-"MKX" ["l"="-9.278932,17.796370"];
-"MSC" ["l"="-10.074753,18.858810"];
-"MSGN1" ["l"="-9.973185,18.858667"];
-"MYF5" ["l"="-9.704293,18.481068"];
-"MYF6" ["l"="-9.550753,18.366663"];
-"MYOD1" ["l"="-9.885369,18.478300"];
-"MYOG" ["l"="-9.318483,18.147295"];
-"NEUROG1" ["l"="-9.480057,18.800152"];
-"NEUROG2" ["l"="-10.393121,18.698795"];
-"NEUROG3" ["l"="-9.797579,18.996706"];
-"NHLH1" ["l"="-9.877151,18.988813"];
-"NHLH2" ["l"="-9.854325,18.961657"];
-"OLIG1" ["l"="-9.407930,18.415873"];
-"PTF1A" ["l"="-9.905241,18.530088"];
-"SCX" ["l"="-9.136834,18.801210"];
-"TCF21" ["l"="-9.675505,19.028898"];
-"TWIST1" ["l"="-10.890602,18.704155"];
-"TWIST2" ["l"="-9.747196,19.014912"];
+"ASCL1" ["l"="-10.063,18.696"]
+"ASCL2" ["l"="-8.292,18.593"]
+"ASCL4" ["l"="-8.911,18.298"]
+"ASCL5" ["l"="-9.299,18.076"]
+"ATOH1" ["l"="-10.455,18.510"]
+"ATOH7" ["l"="-6.278,18.153"]
+"BARHL1" ["l"="-22.073,20.832"]
+"BHLHA15" ["l"="-8.164,18.702"]
+"BHLHA9" ["l"="-7.161,18.144"]
+"BHLHE22" ["l"="-15.586,18.851"]
+"BHLHE23" ["l"="-9.491,18.814"]
+"C20orf202" ["l"="14.786,15.981"]
+"CDC42EP5" ["l"="-7.449,17.383"]
+"CEBPA" ["l"="-12.481,17.744"]
+"CEBPB" ["l"="-10.247,17.566"]
+"CEBPD" ["l"="-10.169,17.755"]
+"CEBPE" ["l"="-8.835,17.622"]
+"CITED4" ["l"="-9.162,17.546"]
+"EN2" ["l"="-19.515,19.681"]
+"ETV3" ["l"="-7.945,14.654"]
+"FAM89B" ["l"="16.633,14.253"]
+"FERD3L" ["l"="-10.029,18.883"]
+"FIGLA" ["l"="6.003,16.784"]
+"FOS" ["l"="-7.816,16.569"]
+"FOSB" ["l"="-7.527,16.347"]
+"FOXD4L1" ["l"="-12.343,17.136"]
+"FOXE1" ["l"="-17.452,17.822"]
+"FOXE3" ["l"="-9.249,17.720"]
+"FOXL1" ["l"="-15.743,18.257"]
+"FOXO6" ["l"="-13.438,17.684"]
+"FOXQ1" ["l"="-11.164,17.766"]
+"FOXS1" ["l"="-10.240,17.207"]
+"HAND1" ["l"="-11.156,19.147"]
+"HAND2" ["l"="-19.837,19.514"]
+"HEY1" ["l"="-11.640,17.718"]
+"HEYL" ["l"="-8.892,17.790"]
+"HOXC12" ["l"="-23.969,20.621"]
+"HOXD13" ["l"="-21.797,19.265"]
+"JUN" ["l"="-9.764,17.313"]
+"JUNB" ["l"="-9.333,17.393"]
+"JUND" ["l"="-9.830,17.559"]
+"LBX2" ["l"="-21.788,21.221"]
+"LYL1" ["l"="-8.641,18.270"]
+"MESP2" ["l"="-7.320,18.116"]
+"MKX" ["l"="-9.279,17.796"]
+"MSC" ["l"="-10.075,18.859"]
+"MSGN1" ["l"="-9.973,18.859"]
+"MYCL" ["l"="-5.216,15.959"]
+"MYF5" ["l"="-9.704,18.481"]
+"MYF6" ["l"="-9.551,18.367"]
+"MYOD1" ["l"="-9.885,18.478"]
+"MYOG" ["l"="-9.318,18.147"]
+"NAB1" ["l"="3.568,11.429"]
+"NANOS1" ["l"="9.715,13.253"]
+"NEUROD1" ["l"="-11.619,18.644"]
+"NEUROD4" ["l"="-11.093,18.499"]
+"NEUROG1" ["l"="-9.480,18.800"]
+"NEUROG2" ["l"="-10.393,18.699"]
+"NEUROG3" ["l"="-9.798,18.997"]
+"NFE2" ["l"="-8.096,16.807"]
+"NHLH1" ["l"="-9.877,18.989"]
+"NHLH2" ["l"="-9.854,18.962"]
+"OLIG1" ["l"="-9.408,18.416"]
+"OLIG2" ["l"="-13.809,18.303"]
+"OLIG3" ["l"="-10.863,18.037"]
+"PRRX1" ["l"="-19.222,18.561"]
+"PTF1A" ["l"="-9.905,18.530"]
+"SCX" ["l"="-9.137,18.801"]
+"SERTAD4" ["l"="-7.469,16.335"]
+"SOX18" ["l"="-10.721,17.483"]
+"SOX8" ["l"="-16.131,16.925"]
+"TAL1" ["l"="-10.981,17.990"]
+"TCF15" ["l"="-7.569,18.647"]
+"TCF21" ["l"="-9.676,19.029"]
+"TCF23" ["l"="-7.973,18.186"]
+"TCF24" ["l"="-8.335,18.639"]
+"TWIST1" ["l"="-10.891,18.704"]
+"TWIST2" ["l"="-9.747,19.015"]
+"YRDC" ["l"="25.694,12.681"]
+"ASCL1" -> "BHLHE23"
+"ASCL1" -> "OLIG1"
+"ASCL1" -> "NEUROG2"
+"ASCL1" -> "ATOH1"
+"ASCL1" -> "TAL1" ["e"=1]
+"ASCL1" -> "OLIG2" ["e"=1]
+"ASCL4" -> "ATOH7" ["e"=1]
+"ASCL4" -> "ASCL5"
+"ASCL4" -> "MYOD1"
+"ASCL4" -> "MYOG"
+"ASCL4" -> "MESP2" ["e"=1]
+"ASCL4" -> "MYF6"
+"ASCL5" -> "ASCL4"
+"ASCL5" -> "LYL1"
+"ASCL5" -> "TCF24" ["e"=1]
+"ASCL5" -> "FOXE3"
+"ASCL5" -> "BHLHA9" ["e"=1]
+"ASCL5" -> "MESP2" ["e"=1]
+"ATOH1" -> "OLIG3" ["e"=1]
+"ATOH1" -> "MYOD1"
+"ATOH1" -> "PTF1A"
+"ATOH1" -> "OLIG1"
+"ATOH1" -> "SERTAD4" ["e"=1]
+"ATOH1" -> "ASCL4"
+"BHLHE23" -> "NEUROG1"
+"BHLHE23" -> "NEUROG3"
+"BHLHE23" -> "SCX"
+"BHLHE23" -> "OLIG1"
+"BHLHE23" -> "ASCL2" ["e"=1]
+"BHLHE23" -> "NEUROG2"
+"CEBPE" -> "NFE2" ["e"=1]
+"CEBPE" -> "MYOG"
+"CEBPE" -> "MYOD1"
+"CEBPE" -> "ASCL4"
+"CEBPE" -> "MSGN1"
+"CEBPE" -> "MYCL" ["e"=1]
+"CITED4" -> "CDC42EP5" ["e"=1]
+"CITED4" -> "FOXE3"
+"CITED4" -> "SOX18" ["e"=1]
+"CITED4" -> "YRDC" ["e"=1]
+"CITED4" -> "FAM89B" ["e"=1]
+"CITED4" -> "CEBPA" ["e"=1]
+"FERD3L" -> "NHLH2"
+"FERD3L" -> "NHLH1"
+"FERD3L" -> "MSGN1"
+"FERD3L" -> "NEUROD4" ["e"=1]
+"FERD3L" -> "MSC"
+"FERD3L" -> "NEUROD1" ["e"=1]
+"FOXE3" -> "FOXQ1" ["e"=1]
+"FOXE3" -> "SOX18" ["e"=1]
+"FOXE3" -> "FOXD4L1" ["e"=1]
+"FOXE3" -> "ASCL5"
+"FOXE3" -> "FOXE1" ["e"=1]
+"FOXE3" -> "FOXO6" ["e"=1]
+"HAND1" -> "HAND2" ["e"=1]
+"HAND1" -> "ATOH7" ["e"=1]
+"HAND1" -> "TCF24" ["e"=1]
+"HAND1" -> "ASCL4"
+"HAND1" -> "BHLHA15" ["e"=1]
+"HAND1" -> "HOXD13" ["e"=1]
+"HEYL" -> "HEY1" ["e"=1]
+"HEYL" -> "ETV3" ["e"=1]
+"HEYL" -> "FOXL1" ["e"=1]
+"HEYL" -> "TCF23" ["e"=1]
+"HEYL" -> "FOXS1" ["e"=1]
+"HEYL" -> "C20orf202" ["e"=1]
+"JUNB" -> "JUN" ["e"=1]
+"JUNB" -> "FOSB" ["e"=1]
+"JUNB" -> "JUND" ["e"=1]
+"JUNB" -> "FOS" ["e"=1]
+"JUNB" -> "CEBPB" ["e"=1]
+"JUNB" -> "CEBPD" ["e"=1]
+"LYL1" -> "OLIG1"
+"LYL1" -> "BHLHA9" ["e"=1]
+"LYL1" -> "ASCL5"
+"LYL1" -> "TAL1" ["e"=1]
+"LYL1" -> "ASCL2" ["e"=1]
+"LYL1" -> "SCX"
+"MKX" -> "PRRX1" ["e"=1]
+"MKX" -> "TCF24" ["e"=1]
+"MKX" -> "NAB1" ["e"=1]
+"MKX" -> "SERTAD4" ["e"=1]
+"MKX" -> "FOXL1" ["e"=1]
+"MKX" -> "C20orf202" ["e"=1]
+"MSC" -> "NHLH1"
+"MSC" -> "NHLH2"
+"MSC" -> "TAL1" ["e"=1]
+"MSC" -> "TWIST1"
+"MSC" -> "BHLHA15" ["e"=1]
+"MSC" -> "TCF21"
+"MSGN1" -> "NHLH1"
+"MSGN1" -> "MESP2" ["e"=1]
+"MSGN1" -> "MSC"
+"MSGN1" -> "HOXC12" ["e"=1]
+"MSGN1" -> "NHLH2"
+"MSGN1" -> "PTF1A"
+"MYF5" -> "MYF6"
+"MYF5" -> "MYOG"
+"MYF5" -> "MYOD1"
+"MYF5" -> "NEUROG1"
+"MYF5" -> "NEUROG3"
+"MYF5" -> "ASCL4"
+"MYF6" -> "MYOG"
+"MYF6" -> "MYF5"
+"MYF6" -> "ASCL4"
+"MYF6" -> "MYOD1"
+"MYF6" -> "NEUROG1"
+"MYF6" -> "NHLH2"
+"MYOD1" -> "MYOG"
+"MYOD1" -> "MYF5"
+"MYOD1" -> "ASCL4"
+"MYOD1" -> "PTF1A"
+"MYOD1" -> "NEUROG1"
+"MYOD1" -> "MYF6"
+"MYOG" -> "MYF6"
+"MYOG" -> "MYF5"
+"MYOG" -> "MYOD1"
+"MYOG" -> "ASCL4"
+"MYOG" -> "CEBPE"
+"MYOG" -> "FIGLA" ["e"=1]
+"NEUROG1" -> "NEUROG3"
+"NEUROG1" -> "NEUROG2"
+"NEUROG1" -> "BHLHE23"
+"NEUROG1" -> "MYOD1"
+"NEUROG1" -> "MYF5"
+"NEUROG1" -> "ASCL4"
+"NEUROG2" -> "NEUROG1"
+"NEUROG2" -> "OLIG1"
+"NEUROG2" -> "BHLHE23"
+"NEUROG2" -> "NEUROG3"
+"NEUROG2" -> "ASCL1"
+"NEUROG2" -> "ATOH1"
+"NEUROG3" -> "NEUROG1"
+"NEUROG3" -> "BHLHE23"
+"NEUROG3" -> "LBX2" ["e"=1]
+"NEUROG3" -> "NEUROG2"
+"NEUROG3" -> "ASCL4"
+"NEUROG3" -> "BARHL1" ["e"=1]
+"NHLH1" -> "NHLH2"
+"NHLH1" -> "MSC"
+"NHLH1" -> "TCF24" ["e"=1]
+"NHLH1" -> "BHLHE23"
+"NHLH1" -> "TCF21"
+"NHLH1" -> "NEUROG3"
+"NHLH2" -> "NHLH1"
+"NHLH2" -> "MSC"
+"NHLH2" -> "TCF24" ["e"=1]
+"NHLH2" -> "TWIST2"
+"NHLH2" -> "BARHL1" ["e"=1]
+"NHLH2" -> "NEUROD1" ["e"=1]
+"OLIG1" -> "LYL1"
+"OLIG1" -> "SOX8" ["e"=1]
+"OLIG1" -> "OLIG2" ["e"=1]
+"OLIG1" -> "BHLHE23"
+"OLIG1" -> "NEUROG2"
+"OLIG1" -> "BHLHA9" ["e"=1]
+"PTF1A" -> "MYOD1"
+"PTF1A" -> "ATOH1"
+"PTF1A" -> "NANOS1" ["e"=1]
+"PTF1A" -> "ASCL4"
+"PTF1A" -> "MYCL" ["e"=1]
+"PTF1A" -> "NEUROG1"
+"SCX" -> "BHLHE23"
+"SCX" -> "TCF15" ["e"=1]
+"SCX" -> "ASCL2" ["e"=1]
+"SCX" -> "LYL1"
+"SCX" -> "NEUROG1"
+"SCX" -> "ATOH7" ["e"=1]
+"TCF21" -> "MSC"
+"TCF21" -> "NHLH1"
+"TCF21" -> "NHLH2"
+"TCF21" -> "TWIST2"
+"TCF21" -> "MSGN1"
+"TCF21" -> "NEUROD4" ["e"=1]
+"TWIST1" -> "MSC"
+"TWIST1" -> "EN2" ["e"=1]
+"TWIST1" -> "NHLH1"
+"TWIST1" -> "BHLHE22" ["e"=1]
+"TWIST1" -> "SCX"
+"TWIST1" -> "TCF24" ["e"=1]
+"TWIST2" -> "NHLH2"
+"TWIST2" -> "MSC"
+"TWIST2" -> "TCF21"
+"TWIST2" -> "BHLHA15" ["e"=1]
+"TWIST2" -> "NHLH1"
+"TWIST2" -> "ATOH7" ["e"=1]
 }

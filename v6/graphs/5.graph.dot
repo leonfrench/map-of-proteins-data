@@ -1,82 +1,114 @@
 digraph G {
-"CRABP1" -> "CRABP2";
-"CRABP1" -> "RBP1";
-"CRABP1" -> "FABP3";
-"CRABP1" -> "RBP7";
-"CRABP2" -> "CRABP1";
-"CRABP2" -> "RBP1";
-"CRABP2" -> "FABP3";
-"CRABP2" -> "PMP2";
-"FABP1" -> "FABP4";
-"FABP1" -> "FABP3";
-"FABP1" -> "FABP6";
-"FABP1" -> "FABP7";
-"FABP12" -> "FABP9";
-"FABP12" -> "PMP2";
-"FABP12" -> "FABP3";
-"FABP12" -> "FABP7";
-"FABP2" -> "RBP2";
-"FABP2" -> "FABP1";
-"FABP2" -> "FABP4";
-"FABP2" -> "PMP2";
-"FABP3" -> "FABP9";
-"FABP3" -> "PMP2";
-"FABP3" -> "FABP4";
-"FABP3" -> "CRABP1";
-"FABP4" -> "FABP5";
-"FABP4" -> "FABP7";
-"FABP4" -> "FABP1";
-"FABP4" -> "FABP3";
-"FABP5" -> "FABP4";
-"FABP5" -> "FABP7";
-"FABP5" -> "FABP1";
-"FABP5" -> "CRABP1";
-"FABP6" -> "FABP1";
-"FABP6" -> "RBP2";
-"FABP6" -> "FABP4";
-"FABP6" -> "RBP7";
-"FABP7" -> "FABP4";
-"FABP7" -> "FABP5";
-"FABP7" -> "FABP1";
-"FABP7" -> "CRABP1";
-"FABP9" -> "FABP12";
-"FABP9" -> "PMP2";
-"FABP9" -> "FABP3";
-"FABP9" -> "CRABP2";
-"PMP2" -> "FABP9";
-"PMP2" -> "FABP3";
-"PMP2" -> "FABP12";
-"PMP2" -> "CRABP2";
-"RBP1" -> "CRABP2";
-"RBP1" -> "CRABP1";
-"RBP1" -> "RBP5";
-"RBP1" -> "RBP7";
-"RBP2" -> "FABP2";
-"RBP2" -> "FABP6";
-"RBP2" -> "FABP4";
-"RBP2" -> "FABP3";
-"RBP5" -> "RBP7";
-"RBP5" -> "RBP1";
-"RBP5" -> "CRABP1";
-"RBP5" -> "RBP2";
-"RBP7" -> "CRABP1";
-"RBP7" -> "RBP5";
-"RBP7" -> "RBP2";
-"RBP7" -> "FABP4";
-"CRABP1" ["l"="-132.383499,-41.656841"];
-"CRABP2" ["l"="-132.050049,-41.094898"];
-"FABP1" ["l"="-131.964691,-41.053673"];
-"FABP12" ["l"="-132.173981,-41.453533"];
-"FABP2" ["l"="-132.157028,-41.508976"];
-"FABP3" ["l"="-132.530258,-40.939075"];
-"FABP4" ["l"="-132.774231,-41.451813"];
-"FABP5" ["l"="-132.443039,-41.626614"];
-"FABP6" ["l"="-132.761856,-41.167973"];
-"FABP7" ["l"="-132.661285,-41.346779"];
-"FABP9" ["l"="-132.590179,-41.130348"];
-"PMP2" ["l"="-132.614639,-41.568871"];
-"RBP1" ["l"="-132.740005,-41.322876"];
-"RBP2" ["l"="-132.121902,-41.389996"];
-"RBP5" ["l"="-132.631790,-41.194134"];
-"RBP7" ["l"="-132.179276,-40.905304"];
+"CRABP1" ["l"="-132.383,-41.657"]
+"CRABP2" ["l"="-132.050,-41.095"]
+"FABP1" ["l"="-131.965,-41.054"]
+"FABP12" ["l"="-132.174,-41.454"]
+"FABP2" ["l"="-132.157,-41.509"]
+"FABP3" ["l"="-132.530,-40.939"]
+"FABP4" ["l"="-132.774,-41.452"]
+"FABP5" ["l"="-132.443,-41.627"]
+"FABP6" ["l"="-132.762,-41.168"]
+"FABP7" ["l"="-132.661,-41.347"]
+"FABP9" ["l"="-132.590,-41.130"]
+"PMP2" ["l"="-132.615,-41.569"]
+"RBP1" ["l"="-132.740,-41.323"]
+"RBP2" ["l"="-132.122,-41.390"]
+"RBP5" ["l"="-132.632,-41.194"]
+"RBP7" ["l"="-132.179,-40.905"]
+"CRABP1" -> "CRABP2"
+"CRABP1" -> "RBP1"
+"CRABP1" -> "FABP3"
+"CRABP1" -> "RBP7"
+"CRABP1" -> "PMP2"
+"CRABP1" -> "FABP7"
+"CRABP2" -> "CRABP1"
+"CRABP2" -> "RBP1"
+"CRABP2" -> "FABP3"
+"CRABP2" -> "PMP2"
+"CRABP2" -> "FABP9"
+"CRABP2" -> "FABP4"
+"FABP1" -> "FABP4"
+"FABP1" -> "FABP3"
+"FABP1" -> "FABP6"
+"FABP1" -> "FABP7"
+"FABP1" -> "RBP2"
+"FABP1" -> "FABP2"
+"FABP12" -> "FABP9"
+"FABP12" -> "PMP2"
+"FABP12" -> "FABP3"
+"FABP12" -> "FABP7"
+"FABP12" -> "FABP2"
+"FABP12" -> "FABP4"
+"FABP2" -> "RBP2"
+"FABP2" -> "FABP1"
+"FABP2" -> "FABP4"
+"FABP2" -> "PMP2"
+"FABP2" -> "FABP9"
+"FABP2" -> "FABP7"
+"FABP3" -> "FABP9"
+"FABP3" -> "PMP2"
+"FABP3" -> "FABP4"
+"FABP3" -> "CRABP1"
+"FABP3" -> "FABP1"
+"FABP3" -> "CRABP2"
+"FABP4" -> "FABP5"
+"FABP4" -> "FABP7"
+"FABP4" -> "FABP1"
+"FABP4" -> "FABP3"
+"FABP4" -> "RBP2"
+"FABP4" -> "FABP2"
+"FABP5" -> "FABP4"
+"FABP5" -> "FABP7"
+"FABP5" -> "FABP1"
+"FABP5" -> "CRABP1"
+"FABP5" -> "FABP9"
+"FABP5" -> "CRABP2"
+"FABP6" -> "FABP1"
+"FABP6" -> "RBP2"
+"FABP6" -> "FABP4"
+"FABP6" -> "RBP7"
+"FABP6" -> "FABP2"
+"FABP6" -> "FABP7"
+"FABP7" -> "FABP4"
+"FABP7" -> "FABP5"
+"FABP7" -> "FABP1"
+"FABP7" -> "CRABP1"
+"FABP7" -> "FABP3"
+"FABP7" -> "PMP2"
+"FABP9" -> "FABP12"
+"FABP9" -> "PMP2"
+"FABP9" -> "FABP3"
+"FABP9" -> "CRABP2"
+"FABP9" -> "CRABP1"
+"FABP9" -> "FABP4"
+"PMP2" -> "FABP9"
+"PMP2" -> "FABP3"
+"PMP2" -> "FABP12"
+"PMP2" -> "CRABP2"
+"PMP2" -> "CRABP1"
+"PMP2" -> "FABP2"
+"RBP1" -> "CRABP2"
+"RBP1" -> "CRABP1"
+"RBP1" -> "RBP5"
+"RBP1" -> "RBP7"
+"RBP1" -> "RBP2"
+"RBP1" -> "FABP3"
+"RBP2" -> "FABP2"
+"RBP2" -> "FABP6"
+"RBP2" -> "FABP4"
+"RBP2" -> "FABP3"
+"RBP2" -> "FABP1"
+"RBP2" -> "RBP7"
+"RBP5" -> "RBP7"
+"RBP5" -> "RBP1"
+"RBP5" -> "CRABP1"
+"RBP5" -> "RBP2"
+"RBP5" -> "FABP2"
+"RBP5" -> "FABP3"
+"RBP7" -> "CRABP1"
+"RBP7" -> "RBP5"
+"RBP7" -> "RBP2"
+"RBP7" -> "FABP4"
+"RBP7" -> "PMP2"
+"RBP7" -> "FABP9"
 }

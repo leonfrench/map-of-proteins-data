@@ -1,97 +1,144 @@
 digraph G {
-"PSMA1" -> "PSMA2";
-"PSMA1" -> "PSMA3";
-"PSMA1" -> "PSMA4";
-"PSMA1" -> "PSMA6";
-"PSMA2" -> "PSMA4";
-"PSMA2" -> "PSMA5";
-"PSMA2" -> "PSMA1";
-"PSMA2" -> "PSMB2";
-"PSMA3" -> "PSMA2";
-"PSMA3" -> "PSMA4";
-"PSMA3" -> "PSMA1";
-"PSMA3" -> "PSMA5";
-"PSMA4" -> "PSMA2";
-"PSMA4" -> "PSMB2";
-"PSMA4" -> "PSMA5";
-"PSMA4" -> "PSMB7";
-"PSMA5" -> "PSMB2";
-"PSMA5" -> "PSMA4";
-"PSMA5" -> "PSMA2";
-"PSMA5" -> "PSMB7";
-"PSMA6" -> "PSMA2";
-"PSMA6" -> "PSMA1";
-"PSMA6" -> "PSMA5";
-"PSMA6" -> "PSMA7";
-"PSMA7" -> "PSMA8";
-"PSMA7" -> "PSMA4";
-"PSMA7" -> "PSMA2";
-"PSMA7" -> "PSMA5";
-"PSMA8" -> "PSMA4";
-"PSMA8" -> "PSMA7";
-"PSMA8" -> "PSMA2";
-"PSMA8" -> "PSMA5";
-"PSMB1" -> "PSMB7";
-"PSMB1" -> "PSMB2";
-"PSMB1" -> "PSMB6";
-"PSMB1" -> "PSMB3";
-"PSMB10" -> "PSMB9";
-"PSMB10" -> "PSMB7";
-"PSMB10" -> "PSMB6";
-"PSMB10" -> "PSMB4";
-"PSMB11" -> "PSMB5";
-"PSMB11" -> "PSMA5";
-"PSMB11" -> "PSMB6";
-"PSMB11" -> "PSMA4";
-"PSMB2" -> "PSMA5";
-"PSMB2" -> "PSMA4";
-"PSMB2" -> "PSMB1";
-"PSMB2" -> "PSMA2";
-"PSMB3" -> "PSMB1";
-"PSMB3" -> "PSMB2";
-"PSMB3" -> "PSMB7";
-"PSMB3" -> "PSMB6";
-"PSMB4" -> "PSMB7";
-"PSMB4" -> "PSMB2";
-"PSMB4" -> "PSMB1";
-"PSMB4" -> "PSMB5";
-"PSMB5" -> "PSMB6";
-"PSMB5" -> "PSMB7";
-"PSMB5" -> "PSMB1";
-"PSMB5" -> "PSMB4";
-"PSMB6" -> "PSMB5";
-"PSMB6" -> "PSMB7";
-"PSMB6" -> "PSMB1";
-"PSMB6" -> "PSMB9";
-"PSMB7" -> "PSMB1";
-"PSMB7" -> "PSMB4";
-"PSMB7" -> "PSMB6";
-"PSMB7" -> "PSMB5";
-"PSMB8" -> "PSMB9";
-"PSMB8" -> "PSMB5";
-"PSMB8" -> "PSMB6";
-"PSMB8" -> "PSMB1";
-"PSMB9" -> "PSMB8";
-"PSMB9" -> "PSMB10";
-"PSMB9" -> "PSMB6";
-"PSMB9" -> "PSMB7";
-"PSMA1" ["l"="75.428497,11.643998"];
-"PSMA2" ["l"="75.390945,11.688885"];
-"PSMA3" ["l"="75.530968,11.657425"];
-"PSMA4" ["l"="75.557465,11.691491"];
-"PSMA5" ["l"="75.247421,11.648922"];
-"PSMA6" ["l"="75.020882,11.556946"];
-"PSMA7" ["l"="75.245071,11.540540"];
-"PSMA8" ["l"="74.888229,11.343317"];
-"PSMB1" ["l"="76.018234,11.768983"];
-"PSMB10" ["l"="76.446709,11.988061"];
-"PSMB11" ["l"="74.231560,11.607093"];
-"PSMB2" ["l"="75.599075,11.756961"];
-"PSMB3" ["l"="76.104500,11.811109"];
-"PSMB4" ["l"="75.901321,11.839256"];
-"PSMB5" ["l"="75.769928,11.904536"];
-"PSMB6" ["l"="75.996078,11.859453"];
-"PSMB7" ["l"="75.820702,11.777275"];
-"PSMB8" ["l"="76.277115,11.884783"];
-"PSMB9" ["l"="76.305740,11.886757"];
+"CHAC1" ["l"="50.111,7.755"]
+"DNAL4" ["l"="44.421,12.883"]
+"ETF1" ["l"="41.037,7.027"]
+"GDI2" ["l"="59.822,6.459"]
+"LDHAL6B" ["l"="61.842,6.152"]
+"LDLRAD2" ["l"="67.035,-11.495"]
+"OXCT2" ["l"="66.822,6.040"]
+"PDHA2" ["l"="68.923,7.194"]
+"PSMA1" ["l"="75.428,11.644"]
+"PSMA2" ["l"="75.391,11.689"]
+"PSMA3" ["l"="75.531,11.657"]
+"PSMA4" ["l"="75.557,11.691"]
+"PSMA5" ["l"="75.247,11.649"]
+"PSMA6" ["l"="75.021,11.557"]
+"PSMA7" ["l"="75.245,11.541"]
+"PSMA8" ["l"="74.888,11.343"]
+"PSMB1" ["l"="76.018,11.769"]
+"PSMB10" ["l"="76.447,11.988"]
+"PSMB11" ["l"="74.232,11.607"]
+"PSMB2" ["l"="75.599,11.757"]
+"PSMB3" ["l"="76.104,11.811"]
+"PSMB4" ["l"="75.901,11.839"]
+"PSMB5" ["l"="75.770,11.905"]
+"PSMB6" ["l"="75.996,11.859"]
+"PSMB7" ["l"="75.821,11.777"]
+"PSMB8" ["l"="76.277,11.885"]
+"PSMB9" ["l"="76.306,11.887"]
+"SH3BP5L" ["l"="11.235,1.102"]
+"PSMA1" -> "PSMA2"
+"PSMA1" -> "PSMA3"
+"PSMA1" -> "PSMA4"
+"PSMA1" -> "PSMA6"
+"PSMA1" -> "PSMA5"
+"PSMA1" -> "PSMB7"
+"PSMA2" -> "PSMA4"
+"PSMA2" -> "PSMA5"
+"PSMA2" -> "PSMA1"
+"PSMA2" -> "PSMB2"
+"PSMA2" -> "PSMB7"
+"PSMA2" -> "PSMA3"
+"PSMA3" -> "PSMA2"
+"PSMA3" -> "PSMA4"
+"PSMA3" -> "PSMA1"
+"PSMA3" -> "PSMA5"
+"PSMA3" -> "PSMB7"
+"PSMA3" -> "PSMB2"
+"PSMA4" -> "PSMA2"
+"PSMA4" -> "PSMB2"
+"PSMA4" -> "PSMA5"
+"PSMA4" -> "PSMB7"
+"PSMA4" -> "PSMA8"
+"PSMA4" -> "PSMA3"
+"PSMA5" -> "PSMB2"
+"PSMA5" -> "PSMA4"
+"PSMA5" -> "PSMA2"
+"PSMA5" -> "PSMB7"
+"PSMA5" -> "PSMA3"
+"PSMA5" -> "PSMB1"
+"PSMA6" -> "PSMA2"
+"PSMA6" -> "PSMA1"
+"PSMA6" -> "PSMA5"
+"PSMA6" -> "PSMA7"
+"PSMA6" -> "GDI2" ["e"=1]
+"PSMA6" -> "PSMB2"
+"PSMA7" -> "PSMA8"
+"PSMA7" -> "PSMA4"
+"PSMA7" -> "PSMA2"
+"PSMA7" -> "PSMA5"
+"PSMA7" -> "PSMB7"
+"PSMA7" -> "PSMA6"
+"PSMA8" -> "PSMA4"
+"PSMA8" -> "PSMA7"
+"PSMA8" -> "PSMA2"
+"PSMA8" -> "PDHA2" ["e"=1]
+"PSMA8" -> "LDHAL6B" ["e"=1]
+"PSMA8" -> "ETF1" ["e"=1]
+"PSMB1" -> "PSMB7"
+"PSMB1" -> "PSMB2"
+"PSMB1" -> "PSMB6"
+"PSMB1" -> "PSMB3"
+"PSMB1" -> "PSMB5"
+"PSMB1" -> "PSMB4"
+"PSMB10" -> "PSMB9"
+"PSMB10" -> "PSMB7"
+"PSMB10" -> "PSMB6"
+"PSMB10" -> "PSMB4"
+"PSMB10" -> "PSMB8"
+"PSMB10" -> "OXCT2" ["e"=1]
+"PSMB11" -> "CHAC1" ["e"=1]
+"PSMB11" -> "PSMB5"
+"PSMB11" -> "SH3BP5L" ["e"=1]
+"PSMB11" -> "PSMA5"
+"PSMB11" -> "DNAL4" ["e"=1]
+"PSMB11" -> "LDLRAD2" ["e"=1]
+"PSMB2" -> "PSMA5"
+"PSMB2" -> "PSMA4"
+"PSMB2" -> "PSMB1"
+"PSMB2" -> "PSMA2"
+"PSMB2" -> "PSMB4"
+"PSMB2" -> "PSMB7"
+"PSMB3" -> "PSMB1"
+"PSMB3" -> "PSMB2"
+"PSMB3" -> "PSMB7"
+"PSMB3" -> "PSMB6"
+"PSMB3" -> "PSMA4"
+"PSMB3" -> "PSMB4"
+"PSMB4" -> "PSMB7"
+"PSMB4" -> "PSMB2"
+"PSMB4" -> "PSMB1"
+"PSMB4" -> "PSMB5"
+"PSMB4" -> "PSMB6"
+"PSMB4" -> "PSMB3"
+"PSMB5" -> "PSMB6"
+"PSMB5" -> "PSMB7"
+"PSMB5" -> "PSMB1"
+"PSMB5" -> "PSMB4"
+"PSMB5" -> "PSMB2"
+"PSMB5" -> "PSMB11"
+"PSMB6" -> "PSMB5"
+"PSMB6" -> "PSMB7"
+"PSMB6" -> "PSMB1"
+"PSMB6" -> "PSMB9"
+"PSMB6" -> "PSMB3"
+"PSMB6" -> "PSMB4"
+"PSMB7" -> "PSMB1"
+"PSMB7" -> "PSMB4"
+"PSMB7" -> "PSMB6"
+"PSMB7" -> "PSMB5"
+"PSMB7" -> "PSMA2"
+"PSMB7" -> "PSMA4"
+"PSMB8" -> "PSMB9"
+"PSMB8" -> "PSMB5"
+"PSMB8" -> "PSMB6"
+"PSMB8" -> "PSMB1"
+"PSMB8" -> "PSMB10"
+"PSMB8" -> "PSMB7"
+"PSMB9" -> "PSMB8"
+"PSMB9" -> "PSMB10"
+"PSMB9" -> "PSMB6"
+"PSMB9" -> "PSMB7"
+"PSMB9" -> "PSMB4"
+"PSMB9" -> "PSMB1"
 }

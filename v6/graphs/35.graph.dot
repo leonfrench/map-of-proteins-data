@@ -1,87 +1,124 @@
 digraph G {
-"B2M" -> "IGHG2";
-"B2M" -> "IGKC";
-"B2M" -> "IGHG1";
-"B2M" -> "IGHG4";
-"IGHA1" -> "IGHA2";
-"IGHA1" -> "IGHG1";
-"IGHA1" -> "IGHG2";
-"IGHA1" -> "IGHG3";
-"IGHA2" -> "IGHA1";
-"IGHA2" -> "IGHG1";
-"IGHA2" -> "IGHG2";
-"IGHA2" -> "IGHG4";
-"IGHD" -> "IGHM";
-"IGHD" -> "IGHG4";
-"IGHD" -> "IGHA2";
-"IGHD" -> "IGHG1";
-"IGHE" -> "IGHM";
-"IGHE" -> "IGHA2";
-"IGHE" -> "IGHD";
-"IGHE" -> "IGHA1";
-"IGHG1" -> "IGHG2";
-"IGHG1" -> "IGHG4";
-"IGHG1" -> "IGHG3";
-"IGHG1" -> "IGHA1";
-"IGHG2" -> "IGHG1";
-"IGHG2" -> "IGHG4";
-"IGHG2" -> "IGHG3";
-"IGHG2" -> "IGHA1";
-"IGHG3" -> "IGHG4";
-"IGHG3" -> "IGHG1";
-"IGHG3" -> "IGHG2";
-"IGHG3" -> "IGHA1";
-"IGHG4" -> "IGHG2";
-"IGHG4" -> "IGHG1";
-"IGHG4" -> "IGHG3";
-"IGHG4" -> "IGHA1";
-"IGHM" -> "IGHG4";
-"IGHM" -> "IGHG1";
-"IGHM" -> "IGHE";
-"IGHM" -> "IGKC";
-"IGKC" -> "IGLC2";
-"IGKC" -> "IGLC3";
-"IGKC" -> "IGLC1";
-"IGKC" -> "IGLC7";
-"IGLC1" -> "IGLC3";
-"IGLC1" -> "IGLC2";
-"IGLC1" -> "IGKC";
-"IGLC1" -> "IGLC7";
-"IGLC2" -> "IGLC3";
-"IGLC2" -> "IGLC1";
-"IGLC2" -> "IGKC";
-"IGLC2" -> "IGLC7";
-"IGLC3" -> "IGLC2";
-"IGLC3" -> "IGLC1";
-"IGLC3" -> "IGLC7";
-"IGLC3" -> "IGKC";
-"IGLC7" -> "IGLC3";
-"IGLC7" -> "IGLC2";
-"IGLC7" -> "IGLC1";
-"IGLC7" -> "IGKC";
-"IGLL1" -> "IGLL5";
-"IGLL1" -> "IGLC1";
-"IGLL1" -> "IGLC3";
-"IGLL1" -> "IGLC7";
-"IGLL5" -> "IGLL1";
-"IGLL5" -> "IGLC7";
-"IGLL5" -> "IGLC1";
-"IGLL5" -> "IGLC3";
-"B2M" ["l"="8.447072,53.506035"];
-"IGHA1" ["l"="8.316668,53.487904"];
-"IGHA2" ["l"="8.317368,53.455223"];
-"IGHD" ["l"="8.557782,53.678856"];
-"IGHE" ["l"="8.336226,53.399422"];
-"IGHG1" ["l"="8.347859,53.306469"];
-"IGHG2" ["l"="8.834301,54.062393"];
-"IGHG3" ["l"="8.837430,53.464199"];
-"IGHG4" ["l"="8.330134,53.849178"];
-"IGHM" ["l"="8.919692,53.745544"];
-"IGKC" ["l"="8.710805,53.371365"];
-"IGLC1" ["l"="8.234598,54.032219"];
-"IGLC2" ["l"="8.363056,53.311504"];
-"IGLC3" ["l"="8.140113,53.556458"];
-"IGLC7" ["l"="8.373152,54.015388"];
-"IGLL1" ["l"="8.579574,53.795200"];
-"IGLL5" ["l"="8.594453,53.833172"];
+"B2M" ["l"="8.447,53.506"]
+"ICOSLG" ["l"="16.032,32.084"]
+"IGHA1" ["l"="8.317,53.488"]
+"IGHA2" ["l"="8.317,53.455"]
+"IGHD" ["l"="8.558,53.679"]
+"IGHE" ["l"="8.336,53.399"]
+"IGHG1" ["l"="8.348,53.306"]
+"IGHG2" ["l"="8.834,54.062"]
+"IGHG3" ["l"="8.837,53.464"]
+"IGHG4" ["l"="8.330,53.849"]
+"IGHM" ["l"="8.920,53.746"]
+"IGKC" ["l"="8.711,53.371"]
+"IGLC1" ["l"="8.235,54.032"]
+"IGLC2" ["l"="8.363,53.312"]
+"IGLC3" ["l"="8.140,53.556"]
+"IGLC7" ["l"="8.373,54.015"]
+"IGLL1" ["l"="8.580,53.795"]
+"IGLL5" ["l"="8.594,53.833"]
+"NPC2" ["l"="63.065,-7.297"]
+"TRBC2" ["l"="14.412,33.277"]
+"B2M" -> "IGHG2"
+"B2M" -> "IGKC"
+"B2M" -> "IGHG1"
+"B2M" -> "ICOSLG" ["e"=1]
+"B2M" -> "TRBC2" ["e"=1]
+"B2M" -> "NPC2" ["e"=1]
+"IGHA1" -> "IGHA2"
+"IGHA1" -> "IGHG1"
+"IGHA1" -> "IGHG2"
+"IGHA1" -> "IGHG3"
+"IGHA1" -> "IGHG4"
+"IGHA1" -> "IGKC"
+"IGHA2" -> "IGHA1"
+"IGHA2" -> "IGHG1"
+"IGHA2" -> "IGHG2"
+"IGHA2" -> "IGHG4"
+"IGHA2" -> "IGHG3"
+"IGHA2" -> "IGLC2"
+"IGHD" -> "IGHM"
+"IGHD" -> "IGHG4"
+"IGHD" -> "IGHA2"
+"IGHD" -> "IGHG1"
+"IGHD" -> "IGHE"
+"IGHD" -> "IGHA1"
+"IGHE" -> "IGHM"
+"IGHE" -> "IGHA2"
+"IGHE" -> "IGHD"
+"IGHE" -> "IGHA1"
+"IGHE" -> "IGHG1"
+"IGHE" -> "IGHG4"
+"IGHG1" -> "IGHG2"
+"IGHG1" -> "IGHG4"
+"IGHG1" -> "IGHG3"
+"IGHG1" -> "IGHA1"
+"IGHG1" -> "IGHA2"
+"IGHG1" -> "IGKC"
+"IGHG2" -> "IGHG1"
+"IGHG2" -> "IGHG4"
+"IGHG2" -> "IGHG3"
+"IGHG2" -> "IGHA1"
+"IGHG2" -> "IGHA2"
+"IGHG2" -> "IGLC3"
+"IGHG3" -> "IGHG4"
+"IGHG3" -> "IGHG1"
+"IGHG3" -> "IGHG2"
+"IGHG3" -> "IGHA1"
+"IGHG3" -> "IGHA2"
+"IGHG3" -> "IGHM"
+"IGHG4" -> "IGHG2"
+"IGHG4" -> "IGHG1"
+"IGHG4" -> "IGHG3"
+"IGHG4" -> "IGHA1"
+"IGHG4" -> "IGHA2"
+"IGHG4" -> "IGHM"
+"IGHM" -> "IGHG4"
+"IGHM" -> "IGHG1"
+"IGHM" -> "IGHE"
+"IGHM" -> "IGKC"
+"IGHM" -> "IGHA1"
+"IGHM" -> "IGHD"
+"IGKC" -> "IGLC2"
+"IGKC" -> "IGLC3"
+"IGKC" -> "IGLC1"
+"IGKC" -> "IGLC7"
+"IGKC" -> "IGHG1"
+"IGKC" -> "IGHG2"
+"IGLC1" -> "IGLC3"
+"IGLC1" -> "IGLC2"
+"IGLC1" -> "IGKC"
+"IGLC1" -> "IGLC7"
+"IGLC1" -> "IGHG1"
+"IGLC1" -> "IGHG2"
+"IGLC2" -> "IGLC3"
+"IGLC2" -> "IGLC1"
+"IGLC2" -> "IGKC"
+"IGLC2" -> "IGLC7"
+"IGLC2" -> "IGHG1"
+"IGLC2" -> "IGHG2"
+"IGLC3" -> "IGLC2"
+"IGLC3" -> "IGLC1"
+"IGLC3" -> "IGLC7"
+"IGLC3" -> "IGKC"
+"IGLC3" -> "IGHG1"
+"IGLC3" -> "IGHG2"
+"IGLC7" -> "IGLC3"
+"IGLC7" -> "IGLC2"
+"IGLC7" -> "IGLC1"
+"IGLC7" -> "IGKC"
+"IGLC7" -> "IGHG2"
+"IGLC7" -> "IGHG4"
+"IGLL1" -> "IGLL5"
+"IGLL1" -> "IGLC1"
+"IGLL1" -> "IGLC3"
+"IGLL1" -> "IGLC7"
+"IGLL1" -> "IGLC2"
+"IGLL1" -> "IGHA2"
+"IGLL5" -> "IGLL1"
+"IGLL5" -> "IGLC7"
+"IGLL5" -> "IGLC1"
+"IGLL5" -> "IGLC3"
+"IGLL5" -> "IGLC2"
+"IGLL5" -> "IGHG1"
 }

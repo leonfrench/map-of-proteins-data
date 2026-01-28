@@ -1,102 +1,157 @@
 digraph G {
-"CNGA1" -> "CNGB3";
-"CNGA1" -> "KCNJ1";
-"CNGA1" -> "CNGA3";
-"CNGA1" -> "KCNJ14";
-"CNGA3" -> "CNGA4";
-"CNGA3" -> "CNGB3";
-"CNGA3" -> "KCNJ18";
-"CNGA3" -> "KCNJ5";
-"CNGA4" -> "CNGA3";
-"CNGA4" -> "KCNJ11";
-"CNGA4" -> "KCNJ18";
-"CNGA4" -> "KCNJ9";
-"CNGB3" -> "CNGA3";
-"CNGB3" -> "CNGA1";
-"CNGB3" -> "CNGA4";
-"CNGB3" -> "KCNJ1";
-"HCN4" -> "KCNJ14";
-"HCN4" -> "KCNJ9";
-"HCN4" -> "KCNJ3";
-"HCN4" -> "KCNJ12";
-"KCNJ1" -> "KCNJ16";
-"KCNJ1" -> "KCNJ15";
-"KCNJ1" -> "KCNJ5";
-"KCNJ1" -> "KCNJ10";
-"KCNJ10" -> "KCNJ11";
-"KCNJ10" -> "KCNJ12";
-"KCNJ10" -> "KCNJ5";
-"KCNJ10" -> "KCNJ13";
-"KCNJ11" -> "KCNJ18";
-"KCNJ11" -> "KCNJ12";
-"KCNJ11" -> "KCNJ10";
-"KCNJ11" -> "KCNJ9";
-"KCNJ12" -> "KCNJ18";
-"KCNJ12" -> "KCNJ9";
-"KCNJ12" -> "KCNJ2";
-"KCNJ12" -> "KCNJ11";
-"KCNJ13" -> "KCNJ10";
-"KCNJ13" -> "KCNJ16";
-"KCNJ13" -> "KCNJ15";
-"KCNJ13" -> "KCNJ1";
-"KCNJ14" -> "KCNJ9";
-"KCNJ14" -> "KCNJ12";
-"KCNJ14" -> "KCNJ18";
-"KCNJ14" -> "KCNJ4";
-"KCNJ15" -> "KCNJ5";
-"KCNJ15" -> "KCNJ16";
-"KCNJ15" -> "KCNJ1";
-"KCNJ15" -> "KCNJ10";
-"KCNJ16" -> "KCNJ1";
-"KCNJ16" -> "KCNJ15";
-"KCNJ16" -> "KCNJ13";
-"KCNJ16" -> "KCNJ4";
-"KCNJ18" -> "KCNJ12";
-"KCNJ18" -> "KCNJ11";
-"KCNJ18" -> "KCNJ4";
-"KCNJ18" -> "KCNJ2";
-"KCNJ2" -> "KCNJ12";
-"KCNJ2" -> "KCNJ18";
-"KCNJ2" -> "KCNJ10";
-"KCNJ2" -> "KCNJ5";
-"KCNJ3" -> "KCNJ5";
-"KCNJ3" -> "KCNJ12";
-"KCNJ3" -> "KCNJ18";
-"KCNJ3" -> "KCNJ11";
-"KCNJ4" -> "KCNJ18";
-"KCNJ4" -> "KCNJ9";
-"KCNJ4" -> "KCNJ12";
-"KCNJ4" -> "KCNJ14";
-"KCNJ5" -> "KCNJ10";
-"KCNJ5" -> "KCNJ12";
-"KCNJ5" -> "KCNJ15";
-"KCNJ5" -> "KCNJ18";
-"KCNJ8" -> "KCNJ11";
-"KCNJ8" -> "KCNJ10";
-"KCNJ8" -> "KCNJ18";
-"KCNJ8" -> "KCNJ1";
-"KCNJ9" -> "KCNJ12";
-"KCNJ9" -> "KCNJ14";
-"KCNJ9" -> "KCNJ4";
-"KCNJ9" -> "KCNJ11";
-"CNGA1" ["l"="29.971003,-16.899006"];
-"CNGA3" ["l"="29.471497,-17.616070"];
-"CNGA4" ["l"="29.584198,-17.322832"];
-"CNGB3" ["l"="29.920998,-17.736792"];
-"HCN4" ["l"="28.684404,-17.489626"];
-"KCNJ1" ["l"="30.167454,-17.255095"];
-"KCNJ10" ["l"="29.649544,-16.871628"];
-"KCNJ11" ["l"="29.868063,-17.101143"];
-"KCNJ12" ["l"="28.887568,-17.367165"];
-"KCNJ13" ["l"="30.320427,-17.047380"];
-"KCNJ14" ["l"="29.079994,-17.128223"];
-"KCNJ15" ["l"="30.361673,-17.209797"];
-"KCNJ16" ["l"="30.281368,-17.115564"];
-"KCNJ18" ["l"="29.728571,-17.044060"];
-"KCNJ2" ["l"="30.060833,-16.698988"];
-"KCNJ3" ["l"="30.221298,-17.691122"];
-"KCNJ4" ["l"="29.717701,-16.777391"];
-"KCNJ5" ["l"="29.067648,-17.672737"];
-"KCNJ8" ["l"="30.121180,-17.163935"];
-"KCNJ9" ["l"="29.105980,-17.175863"];
+"BVES" ["l"="27.891,-17.827"]
+"CATSPER4" ["l"="27.290,-19.962"]
+"CNGA1" ["l"="29.971,-16.899"]
+"CNGA3" ["l"="29.471,-17.616"]
+"CNGA4" ["l"="29.584,-17.323"]
+"CNGB3" ["l"="29.921,-17.737"]
+"HCN1" ["l"="31.084,-18.269"]
+"HCN2" ["l"="28.740,-17.928"]
+"HCN3" ["l"="27.438,-17.592"]
+"HCN4" ["l"="28.684,-17.490"]
+"KCNB1" ["l"="30.194,-18.282"]
+"KCNC3" ["l"="29.385,-18.634"]
+"KCND3" ["l"="31.547,-18.413"]
+"KCNH1" ["l"="30.460,-18.301"]
+"KCNH5" ["l"="30.967,-18.389"]
+"KCNJ1" ["l"="30.167,-17.255"]
+"KCNJ10" ["l"="29.650,-16.872"]
+"KCNJ11" ["l"="29.868,-17.101"]
+"KCNJ12" ["l"="28.888,-17.367"]
+"KCNJ13" ["l"="30.320,-17.047"]
+"KCNJ14" ["l"="29.080,-17.128"]
+"KCNJ15" ["l"="30.362,-17.210"]
+"KCNJ16" ["l"="30.281,-17.116"]
+"KCNJ18" ["l"="29.729,-17.044"]
+"KCNJ2" ["l"="30.061,-16.699"]
+"KCNJ3" ["l"="30.221,-17.691"]
+"KCNJ4" ["l"="29.718,-16.777"]
+"KCNJ5" ["l"="29.068,-17.673"]
+"KCNJ8" ["l"="30.121,-17.164"]
+"KCNJ9" ["l"="29.106,-17.176"]
+"KCNQ1" ["l"="29.541,-18.170"]
+"KCNQ4" ["l"="29.176,-18.429"]
+"PANX2" ["l"="24.856,-16.727"]
+"PDE6A" ["l"="27.681,-1.248"]
+"PDE6C" ["l"="26.658,-2.140"]
+"CNGA1" -> "CNGB3"
+"CNGA1" -> "KCNJ1"
+"CNGA1" -> "PDE6A" ["e"=1]
+"CNGA1" -> "CNGA3"
+"CNGA1" -> "KCNJ14"
+"CNGA1" -> "CNGA4"
+"CNGA3" -> "CNGA4"
+"CNGA3" -> "CNGB3"
+"CNGA3" -> "KCNH1" ["e"=1]
+"CNGA3" -> "CATSPER4" ["e"=1]
+"CNGA3" -> "KCNJ18"
+"CNGA3" -> "KCNJ5"
+"CNGA4" -> "CNGA3"
+"CNGA4" -> "CATSPER4" ["e"=1]
+"CNGA4" -> "KCNJ11"
+"CNGA4" -> "BVES" ["e"=1]
+"CNGA4" -> "KCNJ18"
+"CNGA4" -> "KCNJ9"
+"CNGB3" -> "KCNH5" ["e"=1]
+"CNGB3" -> "CNGA3"
+"CNGB3" -> "HCN1" ["e"=1]
+"CNGB3" -> "CNGA1"
+"CNGB3" -> "PDE6C" ["e"=1]
+"CNGB3" -> "BVES" ["e"=1]
+"HCN4" -> "HCN3" ["e"=1]
+"HCN4" -> "HCN2" ["e"=1]
+"HCN4" -> "KCNC3" ["e"=1]
+"HCN4" -> "KCNQ4" ["e"=1]
+"HCN4" -> "PANX2" ["e"=1]
+"HCN4" -> "KCNQ1" ["e"=1]
+"KCNJ1" -> "KCNJ16"
+"KCNJ1" -> "KCNJ15"
+"KCNJ1" -> "KCNJ5"
+"KCNJ1" -> "KCNJ10"
+"KCNJ1" -> "KCNJ11"
+"KCNJ1" -> "KCNJ8"
+"KCNJ10" -> "KCNJ11"
+"KCNJ10" -> "KCNJ12"
+"KCNJ10" -> "KCNJ5"
+"KCNJ10" -> "KCNJ13"
+"KCNJ10" -> "KCNJ2"
+"KCNJ10" -> "KCNJ15"
+"KCNJ11" -> "KCNJ18"
+"KCNJ11" -> "KCNJ12"
+"KCNJ11" -> "KCNJ10"
+"KCNJ11" -> "KCNJ9"
+"KCNJ11" -> "KCNJ8"
+"KCNJ11" -> "KCNJ4"
+"KCNJ12" -> "KCNJ18"
+"KCNJ12" -> "KCNJ9"
+"KCNJ12" -> "KCNJ2"
+"KCNJ12" -> "KCNJ11"
+"KCNJ12" -> "KCNJ4"
+"KCNJ12" -> "KCNJ14"
+"KCNJ13" -> "KCNJ10"
+"KCNJ13" -> "KCNJ16"
+"KCNJ13" -> "KCNJ15"
+"KCNJ13" -> "KCNJ1"
+"KCNJ13" -> "KCNJ11"
+"KCNJ13" -> "KCNJ2"
+"KCNJ14" -> "KCNJ9"
+"KCNJ14" -> "KCNJ12"
+"KCNJ14" -> "KCNJ18"
+"KCNJ14" -> "KCNJ4"
+"KCNJ14" -> "KCNJ10"
+"KCNJ14" -> "KCNJ11"
+"KCNJ15" -> "KCNJ5"
+"KCNJ15" -> "KCNJ16"
+"KCNJ15" -> "KCNJ1"
+"KCNJ15" -> "KCNJ10"
+"KCNJ15" -> "KCNJ13"
+"KCNJ15" -> "KCNJ2"
+"KCNJ16" -> "KCNJ1"
+"KCNJ16" -> "KCNJ15"
+"KCNJ16" -> "KCNJ13"
+"KCNJ16" -> "KCNJ4"
+"KCNJ16" -> "KCNJ11"
+"KCNJ16" -> "KCNJ2"
+"KCNJ18" -> "KCNJ12"
+"KCNJ18" -> "KCNJ11"
+"KCNJ18" -> "KCNJ4"
+"KCNJ18" -> "KCNJ2"
+"KCNJ18" -> "KCNJ9"
+"KCNJ18" -> "KCNJ14"
+"KCNJ2" -> "KCNJ12"
+"KCNJ2" -> "KCNJ18"
+"KCNJ2" -> "KCNJ10"
+"KCNJ2" -> "KCNJ5"
+"KCNJ2" -> "KCNJ14"
+"KCNJ2" -> "KCNJ9"
+"KCNJ3" -> "HCN1" ["e"=1]
+"KCNJ3" -> "KCNJ5"
+"KCNJ3" -> "KCNB1" ["e"=1]
+"KCNJ3" -> "KCNJ12"
+"KCNJ3" -> "KCNH5" ["e"=1]
+"KCNJ3" -> "KCND3" ["e"=1]
+"KCNJ4" -> "KCNJ18"
+"KCNJ4" -> "KCNJ9"
+"KCNJ4" -> "KCNJ12"
+"KCNJ4" -> "KCNJ14"
+"KCNJ4" -> "KCNJ11"
+"KCNJ4" -> "KCNJ5"
+"KCNJ5" -> "KCNJ10"
+"KCNJ5" -> "KCNJ12"
+"KCNJ5" -> "KCNJ15"
+"KCNJ5" -> "KCNJ18"
+"KCNJ5" -> "KCNJ1"
+"KCNJ5" -> "KCNJ9"
+"KCNJ8" -> "KCNJ11"
+"KCNJ8" -> "KCNJ10"
+"KCNJ8" -> "KCNJ18"
+"KCNJ8" -> "KCNJ1"
+"KCNJ8" -> "KCNJ13"
+"KCNJ8" -> "KCNJ16"
+"KCNJ9" -> "KCNJ12"
+"KCNJ9" -> "KCNJ14"
+"KCNJ9" -> "KCNJ4"
+"KCNJ9" -> "KCNJ11"
+"KCNJ9" -> "KCNJ18"
+"KCNJ9" -> "KCNJ5"
 }

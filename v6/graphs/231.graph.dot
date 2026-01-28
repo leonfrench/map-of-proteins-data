@@ -1,47 +1,77 @@
 digraph G {
-"IL1R1" -> "IL1RAP";
-"IL1R1" -> "IL1RL2";
-"IL1R1" -> "IL1RL1";
-"IL1R1" -> "LIFR";
-"IL1RAP" -> "IL1R1";
-"IL1RAP" -> "IL1RL2";
-"IL1RAP" -> "IL1RL1";
-"IL1RAP" -> "LIFR";
-"IL1RL1" -> "IL1RAP";
-"IL1RL1" -> "IL1RL2";
-"IL1RL1" -> "IL1R1";
-"IL1RL1" -> "IL6ST";
-"IL1RL2" -> "IL1RAP";
-"IL1RL2" -> "IL1R1";
-"IL1RL2" -> "IL1RL1";
-"IL1RL2" -> "OSMR";
-"IL6ST" -> "LIFR";
-"IL6ST" -> "OSMR";
-"IL6ST" -> "LEPR";
-"IL6ST" -> "IL1R1";
-"LEPR" -> "LIFR";
-"LEPR" -> "IL6ST";
-"LEPR" -> "OSMR";
-"LEPR" -> "IL1R1";
-"LIFR" -> "IL6ST";
-"LIFR" -> "OSMR";
-"LIFR" -> "LEPR";
-"LIFR" -> "IL1RAP";
-"OSMR" -> "IL6ST";
-"OSMR" -> "LIFR";
-"OSMR" -> "IL1R1";
-"OSMR" -> "LEPR";
-"SIGIRR" -> "IL1RL2";
-"SIGIRR" -> "IL1RAP";
-"SIGIRR" -> "IL1RL1";
-"SIGIRR" -> "IL1R1";
-"IL1R1" ["l"="22.882622,31.692272"];
-"IL1RAP" ["l"="22.680752,31.689953"];
-"IL1RL1" ["l"="22.597260,31.461241"];
-"IL1RL2" ["l"="22.712542,31.626450"];
-"IL6ST" ["l"="22.526230,31.993244"];
-"LEPR" ["l"="22.767910,31.684443"];
-"LIFR" ["l"="23.014557,31.859783"];
-"OSMR" ["l"="22.718517,31.708220"];
-"SIGIRR" ["l"="23.105864,31.270527"];
+"EPHB6" ["l"="68.381,32.492"]
+"EPOR" ["l"="21.526,30.864"]
+"F3" ["l"="21.011,31.143"]
+"IFNAR1" ["l"="22.059,31.620"]
+"IL12RB2" ["l"="21.990,31.491"]
+"IL18R1" ["l"="21.911,31.662"]
+"IL18RAP" ["l"="21.901,31.545"]
+"IL1R1" ["l"="22.883,31.692"]
+"IL1RAP" ["l"="22.681,31.690"]
+"IL1RL1" ["l"="22.597,31.461"]
+"IL1RL2" ["l"="22.713,31.626"]
+"IL20RB" ["l"="21.559,31.627"]
+"IL23R" ["l"="21.987,31.394"]
+"IL31RA" ["l"="22.123,31.487"]
+"IL6ST" ["l"="22.526,31.993"]
+"KCNJ14" ["l"="29.080,-17.128"]
+"LEPR" ["l"="22.768,31.684"]
+"LIFR" ["l"="23.015,31.860"]
+"OSMR" ["l"="22.719,31.708"]
+"SIGIRR" ["l"="23.106,31.271"]
+"TMEM25" ["l"="20.139,30.328"]
+"IL1R1" -> "IL1RAP"
+"IL1R1" -> "IL18R1" ["e"=1]
+"IL1R1" -> "IL1RL2"
+"IL1R1" -> "IL18RAP" ["e"=1]
+"IL1R1" -> "IL1RL1"
+"IL1R1" -> "LIFR"
+"IL1RAP" -> "IL1R1"
+"IL1RAP" -> "IL1RL2"
+"IL1RAP" -> "IL18R1" ["e"=1]
+"IL1RAP" -> "IL1RL1"
+"IL1RAP" -> "IL18RAP" ["e"=1]
+"IL1RAP" -> "LIFR"
+"IL1RL1" -> "IL18R1" ["e"=1]
+"IL1RL1" -> "IL1RAP"
+"IL1RL1" -> "IL1RL2"
+"IL1RL1" -> "IL1R1"
+"IL1RL1" -> "IL18RAP" ["e"=1]
+"IL1RL1" -> "F3" ["e"=1]
+"IL1RL2" -> "IL1RAP"
+"IL1RL2" -> "IL1R1"
+"IL1RL2" -> "IL18R1" ["e"=1]
+"IL1RL2" -> "IL18RAP" ["e"=1]
+"IL1RL2" -> "IL1RL1"
+"IL1RL2" -> "IL20RB" ["e"=1]
+"IL6ST" -> "LIFR"
+"IL6ST" -> "OSMR"
+"IL6ST" -> "IL31RA" ["e"=1]
+"IL6ST" -> "LEPR"
+"IL6ST" -> "IL12RB2" ["e"=1]
+"IL6ST" -> "IL1R1"
+"LEPR" -> "IL31RA" ["e"=1]
+"LEPR" -> "LIFR"
+"LEPR" -> "IL6ST"
+"LEPR" -> "IFNAR1" ["e"=1]
+"LEPR" -> "IL12RB2" ["e"=1]
+"LEPR" -> "OSMR"
+"LIFR" -> "IL6ST"
+"LIFR" -> "IL31RA" ["e"=1]
+"LIFR" -> "OSMR"
+"LIFR" -> "LEPR"
+"LIFR" -> "IFNAR1" ["e"=1]
+"LIFR" -> "IL1RAP"
+"OSMR" -> "IL12RB2" ["e"=1]
+"OSMR" -> "IL6ST"
+"OSMR" -> "IL31RA" ["e"=1]
+"OSMR" -> "LIFR"
+"OSMR" -> "IL23R" ["e"=1]
+"OSMR" -> "IL18RAP" ["e"=1]
+"SIGIRR" -> "EPHB6" ["e"=1]
+"SIGIRR" -> "IL18RAP" ["e"=1]
+"SIGIRR" -> "KCNJ14" ["e"=1]
+"SIGIRR" -> "IL1RL2"
+"SIGIRR" -> "EPOR" ["e"=1]
+"SIGIRR" -> "TMEM25" ["e"=1]
 }

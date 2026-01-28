@@ -1,82 +1,124 @@
 digraph G {
-"ACSM1" -> "ACSM4";
-"ACSM1" -> "ACSM3";
-"ACSM1" -> "ACSM5";
-"ACSM1" -> "ACSM2A";
-"ACSM2A" -> "ACSM2B";
-"ACSM2A" -> "ACSM5";
-"ACSM2A" -> "ACSM1";
-"ACSM2A" -> "ACSM4";
-"ACSM2B" -> "ACSM2A";
-"ACSM2B" -> "ACSM5";
-"ACSM2B" -> "ACSM1";
-"ACSM2B" -> "ACSM4";
-"ACSM3" -> "ACSM1";
-"ACSM3" -> "ACSM4";
-"ACSM3" -> "ACSM5";
-"ACSM3" -> "ACSM6";
-"ACSM4" -> "ACSM1";
-"ACSM4" -> "ACSM3";
-"ACSM4" -> "ACSM5";
-"ACSM4" -> "ACSM2A";
-"ACSM5" -> "ACSM1";
-"ACSM5" -> "ACSM2A";
-"ACSM5" -> "ACSM2B";
-"ACSM5" -> "ACSM4";
-"ACSM6" -> "ACSM1";
-"ACSM6" -> "ACSM4";
-"ACSM6" -> "ACSM3";
-"ACSM6" -> "ACSM5";
-"ADH1A" -> "ADH6";
-"ADH1A" -> "ADH4";
-"ADH1A" -> "ADH1C";
-"ADH1A" -> "ADH7";
-"ADH1B" -> "ADH6";
-"ADH1B" -> "ADH4";
-"ADH1B" -> "ADH5";
-"ADH1B" -> "ADH7";
-"ADH1C" -> "ADH4";
-"ADH1C" -> "ADH1A";
-"ADH1C" -> "ADH7";
-"ADH1C" -> "ADH6";
-"ADH4" -> "ADH6";
-"ADH4" -> "ADH7";
-"ADH4" -> "ADH1B";
-"ADH4" -> "ADH1A";
-"ADH5" -> "ADH1B";
-"ADH5" -> "ADH6";
-"ADH5" -> "ADH7";
-"ADH5" -> "ADH1A";
-"ADH6" -> "ADH4";
-"ADH6" -> "ADH1A";
-"ADH6" -> "ADH1B";
-"ADH6" -> "ADH7";
-"ADH7" -> "ADH4";
-"ADH7" -> "ADH6";
-"ADH7" -> "ADH1A";
-"ADH7" -> "ADH1C";
-"GSTZ1" -> "ACSM1";
-"GSTZ1" -> "ACSM5";
-"GSTZ1" -> "ACSM4";
-"GSTZ1" -> "ADH5";
-"PTGR1" -> "ADH6";
-"PTGR1" -> "ADH5";
-"PTGR1" -> "ADH1B";
-"PTGR1" -> "ADH1A";
-"ACSM1" ["l"="70.735413,3.175266"];
-"ACSM2A" ["l"="70.708794,3.365723"];
-"ACSM2B" ["l"="70.709496,3.418509"];
-"ACSM3" ["l"="70.836136,3.166024"];
-"ACSM4" ["l"="70.531944,3.197922"];
-"ACSM5" ["l"="69.978157,3.408271"];
-"ACSM6" ["l"="71.037483,3.048882"];
-"ADH1A" ["l"="72.066017,3.980441"];
-"ADH1B" ["l"="72.047180,4.050582"];
-"ADH1C" ["l"="72.378365,3.982314"];
-"ADH4" ["l"="72.199745,4.048053"];
-"ADH5" ["l"="72.714607,3.980663"];
-"ADH6" ["l"="71.064552,3.992015"];
-"ADH7" ["l"="72.596588,4.101427"];
-"GSTZ1" ["l"="72.140663,4.603107"];
-"PTGR1" ["l"="71.068451,4.180461"];
+"ACSF2" ["l"="67.254,3.611"]
+"ACSM1" ["l"="70.735,3.175"]
+"ACSM2A" ["l"="70.709,3.366"]
+"ACSM2B" ["l"="70.709,3.419"]
+"ACSM3" ["l"="70.836,3.166"]
+"ACSM4" ["l"="70.532,3.198"]
+"ACSM5" ["l"="69.978,3.408"]
+"ACSM6" ["l"="71.037,3.049"]
+"ADH1A" ["l"="72.066,3.980"]
+"ADH1B" ["l"="72.047,4.051"]
+"ADH1C" ["l"="72.378,3.982"]
+"ADH4" ["l"="72.200,4.048"]
+"ADH5" ["l"="72.715,3.981"]
+"ADH6" ["l"="71.065,3.992"]
+"ADH7" ["l"="72.597,4.101"]
+"ALDH1A2" ["l"="68.384,5.023"]
+"CRYL1" ["l"="63.622,4.432"]
+"CRYZ" ["l"="70.028,4.263"]
+"DHDH" ["l"="63.241,4.610"]
+"FAHD2A" ["l"="59.823,5.596"]
+"GSTK1" ["l"="68.824,4.789"]
+"GSTO2" ["l"="75.938,4.022"]
+"GSTT2B" ["l"="74.896,4.397"]
+"GSTZ1" ["l"="72.141,4.603"]
+"PTGR1" ["l"="71.068,4.180"]
+"SORD" ["l"="65.157,4.910"]
+"ACSM1" -> "ACSM4"
+"ACSM1" -> "ACSM3"
+"ACSM1" -> "ACSM5"
+"ACSM1" -> "ACSM2A"
+"ACSM1" -> "ACSM2B"
+"ACSM1" -> "ACSM6"
+"ACSM2A" -> "ACSM2B"
+"ACSM2A" -> "ACSM5"
+"ACSM2A" -> "ACSM1"
+"ACSM2A" -> "ACSM4"
+"ACSM2A" -> "ACSF2" ["e"=1]
+"ACSM2A" -> "ACSM3"
+"ACSM2B" -> "ACSM2A"
+"ACSM2B" -> "ACSM5"
+"ACSM2B" -> "ACSM1"
+"ACSM2B" -> "ACSM4"
+"ACSM2B" -> "ACSM3"
+"ACSM2B" -> "ACSF2" ["e"=1]
+"ACSM3" -> "ACSM1"
+"ACSM3" -> "ACSM4"
+"ACSM3" -> "ACSM5"
+"ACSM3" -> "ACSM6"
+"ACSM3" -> "ACSM2A"
+"ACSM3" -> "ACSM2B"
+"ACSM4" -> "ACSM1"
+"ACSM4" -> "ACSM3"
+"ACSM4" -> "ACSM5"
+"ACSM4" -> "ACSM2A"
+"ACSM4" -> "ACSM2B"
+"ACSM4" -> "ACSM6"
+"ACSM5" -> "ACSM1"
+"ACSM5" -> "ACSM2A"
+"ACSM5" -> "ACSM2B"
+"ACSM5" -> "ACSM4"
+"ACSM5" -> "ACSM3"
+"ACSM5" -> "ACSF2" ["e"=1]
+"ACSM6" -> "ACSM1"
+"ACSM6" -> "ACSM4"
+"ACSM6" -> "ACSM3"
+"ACSM6" -> "ACSM5"
+"ACSM6" -> "ACSM2B"
+"ACSM6" -> "ACSM2A"
+"ADH1A" -> "ADH6"
+"ADH1A" -> "ADH4"
+"ADH1A" -> "ADH1C"
+"ADH1A" -> "ADH7"
+"ADH1A" -> "ADH1B"
+"ADH1A" -> "ADH5"
+"ADH1B" -> "ADH6"
+"ADH1B" -> "ADH4"
+"ADH1B" -> "ADH5"
+"ADH1B" -> "ADH7"
+"ADH1B" -> "ADH1A"
+"ADH1B" -> "ADH1C"
+"ADH1C" -> "ADH4"
+"ADH1C" -> "ADH1A"
+"ADH1C" -> "ADH7"
+"ADH1C" -> "ADH6"
+"ADH1C" -> "ADH1B"
+"ADH1C" -> "ADH5"
+"ADH4" -> "ADH6"
+"ADH4" -> "ADH7"
+"ADH4" -> "ADH1B"
+"ADH4" -> "ADH1A"
+"ADH4" -> "ADH1C"
+"ADH4" -> "ADH5"
+"ADH5" -> "ADH1B"
+"ADH5" -> "ADH6"
+"ADH5" -> "ADH7"
+"ADH5" -> "ADH1A"
+"ADH5" -> "ALDH1A2" ["e"=1]
+"ADH5" -> "ADH4"
+"ADH6" -> "ADH4"
+"ADH6" -> "ADH1A"
+"ADH6" -> "ADH1B"
+"ADH6" -> "ADH7"
+"ADH6" -> "ADH5"
+"ADH6" -> "ADH1C"
+"ADH7" -> "ADH4"
+"ADH7" -> "ADH6"
+"ADH7" -> "ADH1A"
+"ADH7" -> "ADH1C"
+"ADH7" -> "ADH1B"
+"ADH7" -> "ADH5"
+"GSTZ1" -> "GSTT2B" ["e"=1]
+"GSTZ1" -> "GSTK1" ["e"=1]
+"GSTZ1" -> "DHDH" ["e"=1]
+"GSTZ1" -> "GSTO2" ["e"=1]
+"GSTZ1" -> "CRYL1" ["e"=1]
+"GSTZ1" -> "FAHD2A" ["e"=1]
+"PTGR1" -> "ADH6"
+"PTGR1" -> "SORD" ["e"=1]
+"PTGR1" -> "CRYZ" ["e"=1]
+"PTGR1" -> "ADH5"
+"PTGR1" -> "ADH1B"
+"PTGR1" -> "ADH1A"
 }

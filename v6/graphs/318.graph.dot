@@ -1,52 +1,96 @@
 digraph G {
-"CNOT9" -> "KPNA6";
-"CNOT9" -> "PPP2R1B";
-"CNOT9" -> "KPNA3";
-"CNOT9" -> "KPNA5";
-"COPG2" -> "CNOT9";
-"COPG2" -> "TRAPPC11";
-"COPG2" -> "PPP2R1B";
-"COPG2" -> "KPNA6";
-"KPNA2" -> "KPNA7";
-"KPNA2" -> "KPNA3";
-"KPNA2" -> "KPNA5";
-"KPNA2" -> "KPNA6";
-"KPNA3" -> "KPNA5";
-"KPNA3" -> "KPNA6";
-"KPNA3" -> "PPP2R1B";
-"KPNA3" -> "CNOT9";
-"KPNA5" -> "KPNA3";
-"KPNA5" -> "KPNA6";
-"KPNA5" -> "CNOT9";
-"KPNA5" -> "PPP2R1B";
-"KPNA6" -> "KPNA3";
-"KPNA6" -> "KPNA5";
-"KPNA6" -> "CNOT9";
-"KPNA6" -> "PPP2R1B";
-"KPNA7" -> "KPNA2";
-"KPNA7" -> "KPNA3";
-"KPNA7" -> "KPNA6";
-"KPNA7" -> "KPNA5";
-"PPP2R1B" -> "KPNA3";
-"PPP2R1B" -> "CNOT9";
-"PPP2R1B" -> "KPNA6";
-"PPP2R1B" -> "COPG2";
-"RIC1" -> "TRAPPC11";
-"RIC1" -> "COPG2";
-"RIC1" -> "KPNA5";
-"RIC1" -> "KPNA3";
-"TRAPPC11" -> "RIC1";
-"TRAPPC11" -> "COPG2";
-"TRAPPC11" -> "KPNA6";
-"TRAPPC11" -> "PPP2R1B";
-"CNOT9" ["l"="27.571474,-4.982347"];
-"COPG2" ["l"="27.383307,-4.765538"];
-"KPNA2" ["l"="27.452599,-5.058535"];
-"KPNA3" ["l"="27.342020,-4.851917"];
-"KPNA5" ["l"="27.526875,-4.960987"];
-"KPNA6" ["l"="27.349829,-4.729309"];
-"KPNA7" ["l"="27.504597,-5.133963"];
-"PPP2R1B" ["l"="27.326653,-4.731540"];
-"RIC1" ["l"="27.173126,-5.446126"];
-"TRAPPC11" ["l"="27.485035,-5.341823"];
+"AP1G1" ["l"="26.408,-4.626"]
+"AP2B1" ["l"="26.675,-4.397"]
+"AP4E1" ["l"="24.532,-4.505"]
+"CNOT9" ["l"="27.571,-4.982"]
+"COPB1" ["l"="28.465,-4.697"]
+"COPG1" ["l"="28.894,-4.634"]
+"COPG2" ["l"="27.383,-4.766"]
+"CTNNB1" ["l"="26.708,-5.192"]
+"EDRF1" ["l"="29.553,-4.494"]
+"INTS4" ["l"="26.764,-4.350"]
+"INTS8" ["l"="28.741,-4.915"]
+"KATNAL1" ["l"="36.238,3.386"]
+"KPNA1" ["l"="26.728,-5.175"]
+"KPNA2" ["l"="27.453,-5.059"]
+"KPNA3" ["l"="27.342,-4.852"]
+"KPNA4" ["l"="26.935,-5.041"]
+"KPNA5" ["l"="27.527,-4.961"]
+"KPNA6" ["l"="27.350,-4.729"]
+"KPNA7" ["l"="27.505,-5.134"]
+"NCBP1" ["l"="28.624,-1.647"]
+"PPP2R1B" ["l"="27.327,-4.732"]
+"PSMD5" ["l"="28.958,-2.692"]
+"RAB3GAP2" ["l"="26.816,-5.428"]
+"RIC1" ["l"="27.173,-5.446"]
+"SPAG6" ["l"="26.237,-4.944"]
+"TAF2" ["l"="26.147,-5.095"]
+"TRAPPC10" ["l"="26.813,-4.460"]
+"TRAPPC11" ["l"="27.485,-5.342"]
+"TRAPPC8" ["l"="27.046,-5.605"]
+"VPS39" ["l"="29.113,-4.543"]
+"VPS8" ["l"="28.309,-5.657"]
+"WDPCP" ["l"="27.497,-3.972"]
+"WDR11" ["l"="29.381,-5.964"]
+"XPO7" ["l"="23.797,-5.773"]
+"CNOT9" -> "KPNA6"
+"CNOT9" -> "PPP2R1B"
+"CNOT9" -> "KPNA1" ["e"=1]
+"CNOT9" -> "KPNA3"
+"CNOT9" -> "NCBP1" ["e"=1]
+"CNOT9" -> "XPO7" ["e"=1]
+"COPG2" -> "COPG1" ["e"=1]
+"COPG2" -> "AP1G1" ["e"=1]
+"COPG2" -> "AP2B1" ["e"=1]
+"COPG2" -> "PSMD5" ["e"=1]
+"COPG2" -> "INTS4" ["e"=1]
+"COPG2" -> "COPB1" ["e"=1]
+"KPNA2" -> "KPNA7"
+"KPNA2" -> "KPNA3"
+"KPNA2" -> "KPNA4" ["e"=1]
+"KPNA2" -> "KPNA1" ["e"=1]
+"KPNA2" -> "CTNNB1" ["e"=1]
+"KPNA2" -> "SPAG6" ["e"=1]
+"KPNA3" -> "KPNA4" ["e"=1]
+"KPNA3" -> "KPNA1" ["e"=1]
+"KPNA3" -> "KPNA5"
+"KPNA3" -> "KPNA6"
+"KPNA3" -> "PPP2R1B"
+"KPNA3" -> "AP1G1" ["e"=1]
+"KPNA5" -> "KPNA1" ["e"=1]
+"KPNA5" -> "KPNA3"
+"KPNA5" -> "KPNA4" ["e"=1]
+"KPNA5" -> "KPNA6"
+"KPNA5" -> "KATNAL1" ["e"=1]
+"KPNA5" -> "AP1G1" ["e"=1]
+"KPNA6" -> "KPNA1" ["e"=1]
+"KPNA6" -> "KPNA3"
+"KPNA6" -> "KPNA5"
+"KPNA6" -> "CNOT9"
+"KPNA6" -> "KPNA4" ["e"=1]
+"KPNA6" -> "AP2B1" ["e"=1]
+"KPNA7" -> "KPNA1" ["e"=1]
+"KPNA7" -> "KPNA2"
+"KPNA7" -> "KPNA3"
+"KPNA7" -> "KPNA4" ["e"=1]
+"KPNA7" -> "SPAG6" ["e"=1]
+"KPNA7" -> "KPNA6"
+"PPP2R1B" -> "KPNA3"
+"PPP2R1B" -> "KPNA1" ["e"=1]
+"PPP2R1B" -> "CNOT9"
+"PPP2R1B" -> "PSMD5" ["e"=1]
+"PPP2R1B" -> "AP1G1" ["e"=1]
+"PPP2R1B" -> "KPNA4" ["e"=1]
+"RIC1" -> "VPS8" ["e"=1]
+"RIC1" -> "TRAPPC8" ["e"=1]
+"RIC1" -> "WDPCP" ["e"=1]
+"RIC1" -> "WDR11" ["e"=1]
+"RIC1" -> "RAB3GAP2" ["e"=1]
+"RIC1" -> "TAF2" ["e"=1]
+"TRAPPC11" -> "TRAPPC10" ["e"=1]
+"TRAPPC11" -> "TRAPPC8" ["e"=1]
+"TRAPPC11" -> "INTS8" ["e"=1]
+"TRAPPC11" -> "EDRF1" ["e"=1]
+"TRAPPC11" -> "AP4E1" ["e"=1]
+"TRAPPC11" -> "VPS39" ["e"=1]
 }

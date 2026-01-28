@@ -1,97 +1,172 @@
 digraph G {
-"AHCTF1" -> "RGPD6";
-"AHCTF1" -> "TMEM131";
-"AHCTF1" -> "RGPD5";
-"AHCTF1" -> "RANBP2";
-"KIF13A" -> "KIF13B";
-"KIF13A" -> "PREX2";
-"KIF13A" -> "UNC13A";
-"KIF13A" -> "XRN1";
-"KIF13B" -> "KIF13A";
-"KIF13B" -> "PREX2";
-"KIF13B" -> "UNC13A";
-"KIF13B" -> "RGPD6";
-"NRAP" -> "UNC13A";
-"NRAP" -> "PREX2";
-"NRAP" -> "KIF13A";
-"NRAP" -> "KIF13B";
-"PREX2" -> "KIF13A";
-"PREX2" -> "KIF13B";
-"PREX2" -> "UNC13A";
-"PREX2" -> "RGPD6";
-"RANBP2" -> "RGPD6";
-"RANBP2" -> "RGPD5";
-"RANBP2" -> "RGPD1";
-"RANBP2" -> "RGPD8";
-"RGPD1" -> "RGPD2";
-"RGPD1" -> "RGPD6";
-"RGPD1" -> "RGPD3";
-"RGPD1" -> "RGPD5";
-"RGPD2" -> "RGPD1";
-"RGPD2" -> "RGPD3";
-"RGPD2" -> "RGPD5";
-"RGPD2" -> "RGPD8";
-"RGPD3" -> "RGPD4";
-"RGPD3" -> "RGPD2";
-"RGPD3" -> "RGPD5";
-"RGPD3" -> "RGPD1";
-"RGPD4" -> "RGPD3";
-"RGPD4" -> "RGPD1";
-"RGPD4" -> "RGPD6";
-"RGPD4" -> "RGPD2";
-"RGPD5" -> "RGPD8";
-"RGPD5" -> "RGPD6";
-"RGPD5" -> "RGPD2";
-"RGPD5" -> "RGPD3";
-"RGPD6" -> "RGPD5";
-"RGPD6" -> "RGPD8";
-"RGPD6" -> "RGPD1";
-"RGPD6" -> "RGPD3";
-"RGPD8" -> "RGPD5";
-"RGPD8" -> "RGPD6";
-"RGPD8" -> "RGPD2";
-"RGPD8" -> "RGPD1";
-"RICTOR" -> "RGPD6";
-"RICTOR" -> "TOGARAM1";
-"RICTOR" -> "RGPD5";
-"RICTOR" -> "RGPD8";
-"TMEM131" -> "TMEM131L";
-"TMEM131" -> "AHCTF1";
-"TMEM131" -> "RGPD6";
-"TMEM131" -> "RGPD8";
-"TMEM131L" -> "TMEM131";
-"TMEM131L" -> "RGPD5";
-"TMEM131L" -> "RGPD1";
-"TMEM131L" -> "RGPD6";
-"TOGARAM1" -> "RGPD6";
-"TOGARAM1" -> "RICTOR";
-"TOGARAM1" -> "RGPD8";
-"TOGARAM1" -> "RGPD5";
-"UNC13A" -> "KIF13B";
-"UNC13A" -> "KIF13A";
-"UNC13A" -> "PREX2";
-"UNC13A" -> "RGPD6";
-"XRN1" -> "RGPD6";
-"XRN1" -> "RGPD5";
-"XRN1" -> "RGPD2";
-"XRN1" -> "RGPD8";
-"AHCTF1" ["l"="11.988354,-5.245857"];
-"KIF13A" ["l"="8.325084,-4.076733"];
-"KIF13B" ["l"="8.486394,-4.870118"];
-"NRAP" ["l"="9.590143,-4.702744"];
-"PREX2" ["l"="12.013416,-4.345815"];
-"RANBP2" ["l"="9.455874,-4.760848"];
-"RGPD1" ["l"="9.733751,-4.893779"];
-"RGPD2" ["l"="9.655609,-4.984992"];
-"RGPD3" ["l"="9.752363,-5.074209"];
-"RGPD4" ["l"="10.067530,-5.107901"];
-"RGPD5" ["l"="9.612634,-4.950565"];
-"RGPD6" ["l"="10.275970,-4.498516"];
-"RGPD8" ["l"="9.853404,-4.894800"];
-"RICTOR" ["l"="11.705254,-4.710342"];
-"TMEM131" ["l"="9.879522,-5.203592"];
-"TMEM131L" ["l"="8.529659,-4.289320"];
-"TOGARAM1" ["l"="11.253959,-4.803680"];
-"UNC13A" ["l"="10.036109,-5.023956"];
-"XRN1" ["l"="12.294643,-3.690780"];
+"AHCTF1" ["l"="11.988,-5.246"]
+"ARFGEF2" ["l"="14.987,-6.703"]
+"ARHGEF12" ["l"="6.823,-2.159"]
+"ATAD2B" ["l"="14.770,3.404"]
+"C3orf84" ["l"="3.473,18.524"]
+"CHD6" ["l"="-5.973,4.944"]
+"CNN1" ["l"="25.208,3.829"]
+"COG5" ["l"="24.915,-2.953"]
+"CPLANE1" ["l"="14.523,-7.432"]
+"CSRP3" ["l"="15.367,9.274"]
+"CYFIP2" ["l"="20.293,-3.285"]
+"DENND4A" ["l"="12.659,-5.706"]
+"DENND4C" ["l"="12.811,-6.119"]
+"DENND5B" ["l"="16.232,-2.261"]
+"DOCK1" ["l"="10.939,-6.472"]
+"DOCK3" ["l"="11.471,-6.565"]
+"DOCK5" ["l"="10.868,-6.074"]
+"FNIP1" ["l"="6.431,2.493"]
+"FRYL" ["l"="13.949,-7.360"]
+"INPP4B" ["l"="15.627,-1.734"]
+"KDM5B" ["l"="4.564,4.971"]
+"KIF13A" ["l"="8.325,-4.077"]
+"KIF13B" ["l"="8.486,-4.870"]
+"KIF1A" ["l"="3.666,-3.796"]
+"KIF1B" ["l"="5.027,-4.109"]
+"LRCH3" ["l"="16.865,2.247"]
+"MGA" ["l"="-8.856,5.441"]
+"MTMR4" ["l"="7.576,2.580"]
+"MYOZ2" ["l"="7.626,14.176"]
+"NEBL" ["l"="9.979,-3.381"]
+"NRAP" ["l"="9.590,-4.703"]
+"PREX2" ["l"="12.013,-4.346"]
+"RANBP2" ["l"="9.456,-4.761"]
+"RAPGEF6" ["l"="7.977,-2.115"]
+"RELCH" ["l"="24.398,-2.944"]
+"RGPD1" ["l"="9.734,-4.894"]
+"RGPD2" ["l"="9.656,-4.985"]
+"RGPD3" ["l"="9.752,-5.074"]
+"RGPD4" ["l"="10.068,-5.108"]
+"RGPD5" ["l"="9.613,-4.951"]
+"RGPD6" ["l"="10.276,-4.499"]
+"RGPD8" ["l"="9.853,-4.895"]
+"RICTOR" ["l"="11.705,-4.710"]
+"SHPRH" ["l"="5.335,4.039"]
+"SPTBN1" ["l"="8.439,-9.951"]
+"TEX14" ["l"="3.584,3.699"]
+"TICRR" ["l"="3.365,7.831"]
+"TMEM131" ["l"="9.880,-5.204"]
+"TMEM131L" ["l"="8.530,-4.289"]
+"TOGARAM1" ["l"="11.254,-4.804"]
+"TULP4" ["l"="-4.272,4.575"]
+"UBR2" ["l"="14.327,-6.606"]
+"UNC13A" ["l"="10.036,-5.024"]
+"USP32" ["l"="13.991,-2.524"]
+"XRN1" ["l"="12.295,-3.691"]
+"YTHDC2" ["l"="24.605,-0.638"]
+"AHCTF1" -> "CPLANE1" ["e"=1]
+"AHCTF1" -> "ATAD2B" ["e"=1]
+"AHCTF1" -> "DENND4C" ["e"=1]
+"AHCTF1" -> "RGPD6"
+"AHCTF1" -> "TMEM131"
+"AHCTF1" -> "TICRR" ["e"=1]
+"KIF13A" -> "KIF13B"
+"KIF13A" -> "PREX2"
+"KIF13A" -> "ARHGEF12" ["e"=1]
+"KIF13A" -> "KIF1B" ["e"=1]
+"KIF13A" -> "USP32" ["e"=1]
+"KIF13A" -> "KDM5B" ["e"=1]
+"KIF13B" -> "KIF13A"
+"KIF13B" -> "DOCK5" ["e"=1]
+"KIF13B" -> "PREX2"
+"KIF13B" -> "USP32" ["e"=1]
+"KIF13B" -> "ARHGEF12" ["e"=1]
+"KIF13B" -> "DOCK1" ["e"=1]
+"NRAP" -> "NEBL" ["e"=1]
+"NRAP" -> "CSRP3" ["e"=1]
+"NRAP" -> "MYOZ2" ["e"=1]
+"NRAP" -> "CNN1" ["e"=1]
+"NRAP" -> "SPTBN1" ["e"=1]
+"NRAP" -> "C3orf84" ["e"=1]
+"PREX2" -> "INPP4B" ["e"=1]
+"PREX2" -> "DOCK5" ["e"=1]
+"PREX2" -> "KIF13A"
+"PREX2" -> "USP32" ["e"=1]
+"PREX2" -> "KIF13B"
+"PREX2" -> "DOCK1" ["e"=1]
+"RANBP2" -> "RGPD6"
+"RANBP2" -> "RGPD5"
+"RANBP2" -> "RGPD1"
+"RANBP2" -> "RGPD8"
+"RANBP2" -> "RGPD2"
+"RANBP2" -> "MGA" ["e"=1]
+"RGPD1" -> "RGPD2"
+"RGPD1" -> "RGPD6"
+"RGPD1" -> "RGPD3"
+"RGPD1" -> "RGPD5"
+"RGPD1" -> "RGPD4"
+"RGPD1" -> "RGPD8"
+"RGPD2" -> "RGPD1"
+"RGPD2" -> "RGPD3"
+"RGPD2" -> "RGPD5"
+"RGPD2" -> "RGPD8"
+"RGPD2" -> "RGPD6"
+"RGPD2" -> "RGPD4"
+"RGPD3" -> "RGPD4"
+"RGPD3" -> "RGPD2"
+"RGPD3" -> "RGPD5"
+"RGPD3" -> "RGPD1"
+"RGPD3" -> "RGPD6"
+"RGPD3" -> "RGPD8"
+"RGPD4" -> "RGPD3"
+"RGPD4" -> "RGPD1"
+"RGPD4" -> "RGPD6"
+"RGPD4" -> "RGPD2"
+"RGPD4" -> "RGPD8"
+"RGPD4" -> "RGPD5"
+"RGPD5" -> "RGPD8"
+"RGPD5" -> "RGPD6"
+"RGPD5" -> "RGPD2"
+"RGPD5" -> "RGPD3"
+"RGPD5" -> "RGPD1"
+"RGPD5" -> "RGPD4"
+"RGPD6" -> "RGPD5"
+"RGPD6" -> "RGPD8"
+"RGPD6" -> "RGPD1"
+"RGPD6" -> "RGPD3"
+"RGPD6" -> "RGPD4"
+"RGPD6" -> "RGPD2"
+"RGPD8" -> "RGPD5"
+"RGPD8" -> "RGPD6"
+"RGPD8" -> "RGPD2"
+"RGPD8" -> "RGPD1"
+"RGPD8" -> "RGPD3"
+"RGPD8" -> "RGPD4"
+"RICTOR" -> "DENND4A" ["e"=1]
+"RICTOR" -> "RAPGEF6" ["e"=1]
+"RICTOR" -> "USP32" ["e"=1]
+"RICTOR" -> "FNIP1" ["e"=1]
+"RICTOR" -> "DENND4C" ["e"=1]
+"RICTOR" -> "FRYL" ["e"=1]
+"TMEM131" -> "TMEM131L"
+"TMEM131" -> "DENND4C" ["e"=1]
+"TMEM131" -> "AHCTF1"
+"TMEM131" -> "RGPD6"
+"TMEM131" -> "TULP4" ["e"=1]
+"TMEM131" -> "DENND4A" ["e"=1]
+"TMEM131L" -> "TMEM131"
+"TMEM131L" -> "ATAD2B" ["e"=1]
+"TMEM131L" -> "DENND4A" ["e"=1]
+"TMEM131L" -> "DENND4C" ["e"=1]
+"TMEM131L" -> "TEX14" ["e"=1]
+"TMEM131L" -> "MTMR4" ["e"=1]
+"TOGARAM1" -> "RGPD6"
+"TOGARAM1" -> "RELCH" ["e"=1]
+"TOGARAM1" -> "RICTOR"
+"TOGARAM1" -> "RGPD8"
+"TOGARAM1" -> "LRCH3" ["e"=1]
+"TOGARAM1" -> "COG5" ["e"=1]
+"UNC13A" -> "KIF1A" ["e"=1]
+"UNC13A" -> "KIF1B" ["e"=1]
+"UNC13A" -> "ARFGEF2" ["e"=1]
+"UNC13A" -> "DOCK3" ["e"=1]
+"UNC13A" -> "DENND5B" ["e"=1]
+"UNC13A" -> "CYFIP2" ["e"=1]
+"XRN1" -> "USP32" ["e"=1]
+"XRN1" -> "UBR2" ["e"=1]
+"XRN1" -> "SHPRH" ["e"=1]
+"XRN1" -> "CHD6" ["e"=1]
+"XRN1" -> "RGPD6"
+"XRN1" -> "YTHDC2" ["e"=1]
 }

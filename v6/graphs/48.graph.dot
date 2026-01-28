@@ -1,67 +1,98 @@
 digraph G {
-"BPI" -> "CETP";
-"BPI" -> "LBP";
-"BPI" -> "BPIFB6";
-"BPI" -> "BPIFB3";
-"BPIFA1" -> "BPIFB3";
-"BPIFA1" -> "BPIFB1";
-"BPIFA1" -> "BPIFA2";
-"BPIFA1" -> "BPIFB4";
-"BPIFA2" -> "BPIFA1";
-"BPIFA2" -> "BPIFB3";
-"BPIFA2" -> "BPIFB1";
-"BPIFA2" -> "BPIFB2";
-"BPIFA3" -> "BPIFB6";
-"BPIFA3" -> "BPIFB3";
-"BPIFA3" -> "LBP";
-"BPIFA3" -> "BPI";
-"BPIFB1" -> "BPIFB3";
-"BPIFB1" -> "BPIFB2";
-"BPIFB1" -> "BPIFA1";
-"BPIFB1" -> "BPIFB6";
-"BPIFB2" -> "BPIFB3";
-"BPIFB2" -> "BPIFB1";
-"BPIFB2" -> "BPIFB6";
-"BPIFB2" -> "LBP";
-"BPIFB3" -> "BPIFB6";
-"BPIFB3" -> "BPIFB2";
-"BPIFB3" -> "BPIFB1";
-"BPIFB3" -> "BPIFB4";
-"BPIFB4" -> "BPIFB3";
-"BPIFB4" -> "BPIFB6";
-"BPIFB4" -> "BPIFA1";
-"BPIFB4" -> "BPI";
-"BPIFB6" -> "BPIFB3";
-"BPIFB6" -> "LBP";
-"BPIFB6" -> "BPIFA3";
-"BPIFB6" -> "BPIFC";
-"BPIFC" -> "LBP";
-"BPIFC" -> "BPIFB6";
-"BPIFC" -> "BPIFB3";
-"BPIFC" -> "CETP";
-"CETP" -> "BPI";
-"CETP" -> "PLTP";
-"CETP" -> "BPIFB6";
-"CETP" -> "LBP";
-"LBP" -> "BPIFB6";
-"LBP" -> "BPI";
-"LBP" -> "PLTP";
-"LBP" -> "BPIFC";
-"PLTP" -> "LBP";
-"PLTP" -> "CETP";
-"PLTP" -> "BPIFB3";
-"PLTP" -> "BPIFB6";
-"BPI" ["l"="-17.181442,-16.891401"];
-"BPIFA1" ["l"="-17.019014,-16.853020"];
-"BPIFA2" ["l"="-17.142776,-16.870770"];
-"BPIFA3" ["l"="-15.500496,-16.464178"];
-"BPIFB1" ["l"="-17.191608,-16.439112"];
-"BPIFB2" ["l"="-17.153799,-16.886171"];
-"BPIFB3" ["l"="-17.036528,-16.434052"];
-"BPIFB4" ["l"="-16.803326,-16.794085"];
-"BPIFB6" ["l"="-17.202099,-16.879580"];
-"BPIFC" ["l"="-17.452461,-16.728573"];
-"CETP" ["l"="-17.486326,-17.247766"];
-"LBP" ["l"="-17.343245,-17.271402"];
-"PLTP" ["l"="-17.246284,-16.908501"];
+"BPI" ["l"="-17.181,-16.891"]
+"BPIFA1" ["l"="-17.019,-16.853"]
+"BPIFA2" ["l"="-17.143,-16.871"]
+"BPIFA3" ["l"="-15.500,-16.464"]
+"BPIFB1" ["l"="-17.192,-16.439"]
+"BPIFB2" ["l"="-17.154,-16.886"]
+"BPIFB3" ["l"="-17.037,-16.434"]
+"BPIFB4" ["l"="-16.803,-16.794"]
+"BPIFB6" ["l"="-17.202,-16.880"]
+"BPIFC" ["l"="-17.452,-16.729"]
+"CETP" ["l"="-17.486,-17.248"]
+"GLYATL3" ["l"="44.892,7.272"]
+"IFNA21" ["l"="36.858,29.204"]
+"IFNL1" ["l"="34.777,27.818"]
+"LBP" ["l"="-17.343,-17.271"]
+"PLTP" ["l"="-17.246,-16.909"]
+"RGMB" ["l"="63.371,-11.494"]
+"ZG16B" ["l"="73.346,-12.792"]
+"BPI" -> "CETP"
+"BPI" -> "LBP"
+"BPI" -> "BPIFB6"
+"BPI" -> "BPIFB3"
+"BPI" -> "PLTP"
+"BPI" -> "BPIFB1"
+"BPIFA1" -> "BPIFB3"
+"BPIFA1" -> "BPIFB1"
+"BPIFA1" -> "BPIFA2"
+"BPIFA1" -> "BPIFB4"
+"BPIFA1" -> "BPIFB2"
+"BPIFA1" -> "BPIFA3"
+"BPIFA2" -> "BPIFA1"
+"BPIFA2" -> "BPIFB3"
+"BPIFA2" -> "BPIFB1"
+"BPIFA2" -> "BPIFB2"
+"BPIFA2" -> "BPIFB6"
+"BPIFA2" -> "ZG16B" ["e"=1]
+"BPIFA3" -> "BPIFB6"
+"BPIFA3" -> "BPIFB3"
+"BPIFA3" -> "RGMB" ["e"=1]
+"BPIFA3" -> "IFNL1" ["e"=1]
+"BPIFA3" -> "IFNA21" ["e"=1]
+"BPIFA3" -> "GLYATL3" ["e"=1]
+"BPIFB1" -> "BPIFB3"
+"BPIFB1" -> "BPIFB2"
+"BPIFB1" -> "BPIFA1"
+"BPIFB1" -> "BPIFB6"
+"BPIFB1" -> "BPI"
+"BPIFB1" -> "LBP"
+"BPIFB2" -> "BPIFB3"
+"BPIFB2" -> "BPIFB1"
+"BPIFB2" -> "BPIFB6"
+"BPIFB2" -> "LBP"
+"BPIFB2" -> "PLTP"
+"BPIFB2" -> "BPIFC"
+"BPIFB3" -> "BPIFB6"
+"BPIFB3" -> "BPIFB2"
+"BPIFB3" -> "BPIFB1"
+"BPIFB3" -> "BPIFB4"
+"BPIFB3" -> "LBP"
+"BPIFB3" -> "BPI"
+"BPIFB4" -> "BPIFB3"
+"BPIFB4" -> "BPIFB6"
+"BPIFB4" -> "BPIFA1"
+"BPIFB4" -> "BPI"
+"BPIFB4" -> "BPIFA3"
+"BPIFB4" -> "BPIFB2"
+"BPIFB6" -> "BPIFB3"
+"BPIFB6" -> "LBP"
+"BPIFB6" -> "BPIFA3"
+"BPIFB6" -> "BPIFC"
+"BPIFB6" -> "CETP"
+"BPIFB6" -> "BPI"
+"BPIFC" -> "LBP"
+"BPIFC" -> "BPIFB6"
+"BPIFC" -> "BPIFB3"
+"BPIFC" -> "CETP"
+"BPIFC" -> "BPIFB2"
+"BPIFC" -> "BPI"
+"CETP" -> "BPI"
+"CETP" -> "PLTP"
+"CETP" -> "BPIFB6"
+"CETP" -> "LBP"
+"CETP" -> "BPIFB3"
+"CETP" -> "BPIFC"
+"LBP" -> "BPIFB6"
+"LBP" -> "BPI"
+"LBP" -> "PLTP"
+"LBP" -> "BPIFC"
+"LBP" -> "BPIFB3"
+"LBP" -> "CETP"
+"PLTP" -> "LBP"
+"PLTP" -> "CETP"
+"PLTP" -> "BPIFB3"
+"PLTP" -> "BPIFB6"
+"PLTP" -> "BPI"
+"PLTP" -> "BPIFB2"
 }

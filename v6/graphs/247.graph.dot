@@ -1,67 +1,109 @@
 digraph G {
-"C22orf39" -> "TRIAP1";
-"C22orf39" -> "TIMM10B";
-"C22orf39" -> "CHCHD4";
-"C22orf39" -> "TIMM8B";
-"CHCHD4" -> "TRIAP1";
-"CHCHD4" -> "C22orf39";
-"CHCHD4" -> "TIMM10B";
-"CHCHD4" -> "TIMM13";
-"SFN" -> "YWHAH";
-"SFN" -> "YWHAG";
-"SFN" -> "YWHAB";
-"SFN" -> "YWHAZ";
-"TIMM10B" -> "TRIAP1";
-"TIMM10B" -> "C22orf39";
-"TIMM10B" -> "TIMM13";
-"TIMM10B" -> "TIMM8B";
-"TIMM13" -> "TIMM8B";
-"TIMM13" -> "TRIAP1";
-"TIMM13" -> "TIMM10B";
-"TIMM13" -> "C22orf39";
-"TIMM8B" -> "TIMM13";
-"TIMM8B" -> "TRIAP1";
-"TIMM8B" -> "TIMM10B";
-"TIMM8B" -> "C22orf39";
-"TRIAP1" -> "C22orf39";
-"TRIAP1" -> "TIMM13";
-"TRIAP1" -> "TIMM8B";
-"TRIAP1" -> "TIMM10B";
-"YWHAB" -> "YWHAZ";
-"YWHAB" -> "YWHAH";
-"YWHAB" -> "YWHAG";
-"YWHAB" -> "YWHAQ";
-"YWHAE" -> "YWHAQ";
-"YWHAE" -> "YWHAZ";
-"YWHAE" -> "YWHAG";
-"YWHAE" -> "YWHAB";
-"YWHAG" -> "YWHAZ";
-"YWHAG" -> "YWHAB";
-"YWHAG" -> "YWHAH";
-"YWHAG" -> "YWHAE";
-"YWHAH" -> "YWHAB";
-"YWHAH" -> "YWHAQ";
-"YWHAH" -> "YWHAZ";
-"YWHAH" -> "YWHAG";
-"YWHAQ" -> "YWHAH";
-"YWHAQ" -> "YWHAE";
-"YWHAQ" -> "YWHAZ";
-"YWHAQ" -> "YWHAB";
-"YWHAZ" -> "YWHAB";
-"YWHAZ" -> "YWHAG";
-"YWHAZ" -> "YWHAH";
-"YWHAZ" -> "YWHAQ";
-"C22orf39" ["l"="50.814293,15.641346"];
-"CHCHD4" ["l"="50.711021,15.667648"];
-"SFN" ["l"="50.245045,15.436150"];
-"TIMM10B" ["l"="51.325947,15.813075"];
-"TIMM13" ["l"="51.740059,15.669748"];
-"TIMM8B" ["l"="51.719559,15.771169"];
-"TRIAP1" ["l"="51.324867,15.722323"];
-"YWHAB" ["l"="50.130867,15.435386"];
-"YWHAE" ["l"="50.895664,15.646814"];
-"YWHAG" ["l"="50.183456,15.565744"];
-"YWHAH" ["l"="51.015221,15.868655"];
-"YWHAQ" ["l"="51.063229,15.843143"];
-"YWHAZ" ["l"="50.477993,15.593087"];
+"ATXN7L3B" ["l"="41.246,10.886"]
+"C22orf39" ["l"="50.814,15.641"]
+"CHCHD4" ["l"="50.711,15.668"]
+"CHCHD7" ["l"="53.415,16.032"]
+"COA4" ["l"="52.470,15.877"]
+"COA5" ["l"="52.460,15.837"]
+"COA6" ["l"="52.977,15.742"]
+"COX19" ["l"="52.506,15.833"]
+"FAM136A" ["l"="52.338,15.937"]
+"GFER" ["l"="28.850,13.979"]
+"RAB11A" ["l"="-12.628,-45.139"]
+"SFN" ["l"="50.245,15.436"]
+"SKP1" ["l"="47.933,14.668"]
+"SMYD5" ["l"="36.490,5.193"]
+"SS18L2" ["l"="37.509,13.904"]
+"TIMM10" ["l"="52.154,16.040"]
+"TIMM10B" ["l"="51.326,15.813"]
+"TIMM13" ["l"="51.740,15.670"]
+"TIMM8B" ["l"="51.720,15.771"]
+"TIMM9" ["l"="52.258,16.097"]
+"TPT1" ["l"="51.116,14.695"]
+"TRIAP1" ["l"="51.325,15.722"]
+"YWHAB" ["l"="50.131,15.435"]
+"YWHAE" ["l"="50.896,15.647"]
+"YWHAG" ["l"="50.183,15.566"]
+"YWHAH" ["l"="51.015,15.869"]
+"YWHAQ" ["l"="51.063,15.843"]
+"YWHAZ" ["l"="50.478,15.593"]
+"ZPR1" ["l"="38.238,9.234"]
+"C22orf39" -> "GFER" ["e"=1]
+"C22orf39" -> "COA5" ["e"=1]
+"C22orf39" -> "COA6" ["e"=1]
+"C22orf39" -> "COX19" ["e"=1]
+"C22orf39" -> "TRIAP1"
+"C22orf39" -> "ATXN7L3B" ["e"=1]
+"CHCHD4" -> "TRIAP1"
+"CHCHD4" -> "C22orf39"
+"CHCHD4" -> "COA5" ["e"=1]
+"CHCHD4" -> "SMYD5" ["e"=1]
+"CHCHD4" -> "FAM136A" ["e"=1]
+"CHCHD4" -> "ZPR1" ["e"=1]
+"SFN" -> "YWHAH"
+"SFN" -> "YWHAG"
+"SFN" -> "YWHAB"
+"SFN" -> "YWHAZ"
+"SFN" -> "YWHAQ"
+"SFN" -> "TPT1" ["e"=1]
+"TIMM10B" -> "FAM136A" ["e"=1]
+"TIMM10B" -> "SS18L2" ["e"=1]
+"TIMM10B" -> "TRIAP1"
+"TIMM10B" -> "TIMM10" ["e"=1]
+"TIMM10B" -> "TIMM9" ["e"=1]
+"TIMM10B" -> "C22orf39"
+"TIMM13" -> "TIMM8B"
+"TIMM13" -> "FAM136A" ["e"=1]
+"TIMM13" -> "TIMM10" ["e"=1]
+"TIMM13" -> "TRIAP1"
+"TIMM13" -> "TIMM10B"
+"TIMM13" -> "COA5" ["e"=1]
+"TIMM8B" -> "TIMM10" ["e"=1]
+"TIMM8B" -> "TIMM13"
+"TIMM8B" -> "FAM136A" ["e"=1]
+"TIMM8B" -> "COA4" ["e"=1]
+"TIMM8B" -> "TIMM9" ["e"=1]
+"TIMM8B" -> "TRIAP1"
+"TRIAP1" -> "COA5" ["e"=1]
+"TRIAP1" -> "COA4" ["e"=1]
+"TRIAP1" -> "TIMM9" ["e"=1]
+"TRIAP1" -> "COX19" ["e"=1]
+"TRIAP1" -> "FAM136A" ["e"=1]
+"TRIAP1" -> "CHCHD7" ["e"=1]
+"YWHAB" -> "YWHAZ"
+"YWHAB" -> "YWHAH"
+"YWHAB" -> "YWHAG"
+"YWHAB" -> "YWHAQ"
+"YWHAB" -> "YWHAE"
+"YWHAB" -> "SFN"
+"YWHAE" -> "YWHAQ"
+"YWHAE" -> "YWHAZ"
+"YWHAE" -> "YWHAG"
+"YWHAE" -> "YWHAB"
+"YWHAE" -> "YWHAH"
+"YWHAE" -> "SKP1" ["e"=1]
+"YWHAG" -> "YWHAZ"
+"YWHAG" -> "YWHAB"
+"YWHAG" -> "YWHAH"
+"YWHAG" -> "YWHAE"
+"YWHAG" -> "YWHAQ"
+"YWHAG" -> "SFN"
+"YWHAH" -> "YWHAB"
+"YWHAH" -> "YWHAQ"
+"YWHAH" -> "YWHAZ"
+"YWHAH" -> "YWHAG"
+"YWHAH" -> "YWHAE"
+"YWHAH" -> "SFN"
+"YWHAQ" -> "YWHAH"
+"YWHAQ" -> "YWHAE"
+"YWHAQ" -> "YWHAZ"
+"YWHAQ" -> "YWHAB"
+"YWHAQ" -> "YWHAG"
+"YWHAQ" -> "SFN"
+"YWHAZ" -> "YWHAB"
+"YWHAZ" -> "YWHAG"
+"YWHAZ" -> "YWHAH"
+"YWHAZ" -> "YWHAQ"
+"YWHAZ" -> "YWHAE"
+"YWHAZ" -> "RAB11A" ["e"=1]
 }

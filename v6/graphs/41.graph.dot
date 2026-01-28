@@ -1,57 +1,82 @@
 digraph G {
-"HBA1" -> "HBA2";
-"HBA1" -> "HBG1";
-"HBA1" -> "HBG2";
-"HBA1" -> "HBB";
-"HBA2" -> "HBA1";
-"HBA2" -> "HBG1";
-"HBA2" -> "HBG2";
-"HBA2" -> "HBB";
-"HBB" -> "HBG1";
-"HBB" -> "HBD";
-"HBB" -> "HBG2";
-"HBB" -> "HBA2";
-"HBD" -> "HBB";
-"HBD" -> "HBG1";
-"HBD" -> "HBG2";
-"HBD" -> "HBZ";
-"HBE1" -> "HBZ";
-"HBE1" -> "HBG1";
-"HBE1" -> "HBG2";
-"HBE1" -> "HBA1";
-"HBG1" -> "HBG2";
-"HBG1" -> "HBB";
-"HBG1" -> "HBA2";
-"HBG1" -> "HBA1";
-"HBG2" -> "HBG1";
-"HBG2" -> "HBB";
-"HBG2" -> "HBA1";
-"HBG2" -> "HBA2";
-"HBM" -> "HBZ";
-"HBM" -> "HBQ1";
-"HBM" -> "HBA2";
-"HBM" -> "HBA1";
-"HBQ1" -> "HBM";
-"HBQ1" -> "HBZ";
-"HBQ1" -> "HBA1";
-"HBQ1" -> "HBG1";
-"HBZ" -> "HBE1";
-"HBZ" -> "HBG1";
-"HBZ" -> "HBM";
-"HBZ" -> "HBA2";
-"MB" -> "HBD";
-"MB" -> "HBG1";
-"MB" -> "HBZ";
-"MB" -> "HBB";
-"HBA1" ["l"="-47.831535,-11.268384"];
-"HBA2" ["l"="-47.703800,-11.209381"];
-"HBB" ["l"="-47.709751,-10.480618"];
-"HBD" ["l"="-47.651127,-10.744708"];
-"HBE1" ["l"="-47.787560,-10.788403"];
-"HBG1" ["l"="-47.417038,-11.055531"];
-"HBG2" ["l"="-48.025761,-11.060295"];
-"HBM" ["l"="-47.713966,-10.773767"];
-"HBQ1" ["l"="-48.163235,-10.703006"];
-"HBZ" ["l"="-47.749279,-11.048163"];
-"MB" ["l"="-47.073231,-10.455152"];
+"CYGB" ["l"="30.703,8.664"]
+"HBA1" ["l"="-47.832,-11.268"]
+"HBA2" ["l"="-47.704,-11.209"]
+"HBB" ["l"="-47.710,-10.481"]
+"HBD" ["l"="-47.651,-10.745"]
+"HBE1" ["l"="-47.788,-10.788"]
+"HBG1" ["l"="-47.417,-11.056"]
+"HBG2" ["l"="-48.026,-11.060"]
+"HBM" ["l"="-47.714,-10.774"]
+"HBQ1" ["l"="-48.163,-10.703"]
+"HBZ" ["l"="-47.749,-11.048"]
+"MB" ["l"="-47.073,-10.455"]
+"MYL2" ["l"="-42.842,-7.781"]
+"NGB" ["l"="29.272,11.616"]
+"HBA1" -> "HBA2"
+"HBA1" -> "HBG1"
+"HBA1" -> "HBG2"
+"HBA1" -> "HBB"
+"HBA1" -> "HBZ"
+"HBA1" -> "HBE1"
+"HBA2" -> "HBA1"
+"HBA2" -> "HBG1"
+"HBA2" -> "HBG2"
+"HBA2" -> "HBB"
+"HBA2" -> "HBZ"
+"HBA2" -> "HBE1"
+"HBB" -> "HBG1"
+"HBB" -> "HBD"
+"HBB" -> "HBG2"
+"HBB" -> "HBA2"
+"HBB" -> "HBA1"
+"HBB" -> "HBZ"
+"HBD" -> "HBB"
+"HBD" -> "HBG1"
+"HBD" -> "HBG2"
+"HBD" -> "HBZ"
+"HBD" -> "HBE1"
+"HBD" -> "HBA2"
+"HBE1" -> "HBZ"
+"HBE1" -> "HBG1"
+"HBE1" -> "HBG2"
+"HBE1" -> "HBA1"
+"HBE1" -> "HBD"
+"HBE1" -> "HBA2"
+"HBG1" -> "HBG2"
+"HBG1" -> "HBB"
+"HBG1" -> "HBA2"
+"HBG1" -> "HBA1"
+"HBG1" -> "HBZ"
+"HBG1" -> "HBE1"
+"HBG2" -> "HBG1"
+"HBG2" -> "HBB"
+"HBG2" -> "HBA1"
+"HBG2" -> "HBA2"
+"HBG2" -> "HBE1"
+"HBG2" -> "HBD"
+"HBM" -> "HBZ"
+"HBM" -> "HBQ1"
+"HBM" -> "HBA2"
+"HBM" -> "HBA1"
+"HBM" -> "HBG1"
+"HBM" -> "HBB"
+"HBQ1" -> "HBM"
+"HBQ1" -> "HBZ"
+"HBQ1" -> "NGB" ["e"=1]
+"HBQ1" -> "HBA1"
+"HBQ1" -> "HBG1"
+"HBQ1" -> "HBA2"
+"HBZ" -> "HBE1"
+"HBZ" -> "HBG1"
+"HBZ" -> "HBM"
+"HBZ" -> "HBA2"
+"HBZ" -> "HBA1"
+"HBZ" -> "HBD"
+"MB" -> "HBD"
+"MB" -> "CYGB" ["e"=1]
+"MB" -> "MYL2" ["e"=1]
+"MB" -> "HBG1"
+"MB" -> "HBZ"
+"MB" -> "HBB"
 }

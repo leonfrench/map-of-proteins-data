@@ -1,62 +1,86 @@
 digraph G {
-"MT1A" -> "MT1M";
-"MT1A" -> "MT1F";
-"MT1A" -> "MT2A";
-"MT1A" -> "MT1G";
-"MT1B" -> "MT1F";
-"MT1B" -> "MT1M";
-"MT1B" -> "MT1H";
-"MT1B" -> "MT1A";
-"MT1E" -> "MT1F";
-"MT1E" -> "MT1M";
-"MT1E" -> "MT1G";
-"MT1E" -> "MT1H";
-"MT1F" -> "MT1H";
-"MT1F" -> "MT1G";
-"MT1F" -> "MT1M";
-"MT1F" -> "MT1A";
-"MT1G" -> "MT1H";
-"MT1G" -> "MT1F";
-"MT1G" -> "MT2A";
-"MT1G" -> "MT1M";
-"MT1H" -> "MT1G";
-"MT1H" -> "MT1F";
-"MT1H" -> "MT1M";
-"MT1H" -> "MT2A";
-"MT1HL1" -> "MT1B";
-"MT1HL1" -> "MT1F";
-"MT1HL1" -> "MT1H";
-"MT1HL1" -> "MT1E";
-"MT1M" -> "MT1F";
-"MT1M" -> "MT1A";
-"MT1M" -> "MT1G";
-"MT1M" -> "MT2A";
-"MT1X" -> "MT2A";
-"MT1X" -> "MT1M";
-"MT1X" -> "MT1G";
-"MT1X" -> "MT1A";
-"MT2A" -> "MT1G";
-"MT2A" -> "MT1X";
-"MT2A" -> "MT1M";
-"MT2A" -> "MT1H";
-"MT3" -> "MT1F";
-"MT3" -> "MT1M";
-"MT3" -> "MT1A";
-"MT3" -> "MT1H";
-"MT4" -> "MT1B";
-"MT4" -> "MT1HL1";
-"MT4" -> "MT1A";
-"MT4" -> "MT1F";
-"MT1A" ["l"="-22.263933,-75.487442"];
-"MT1B" ["l"="-21.897146,-75.059456"];
-"MT1E" ["l"="-21.890814,-74.973610"];
-"MT1F" ["l"="-22.328440,-75.392670"];
-"MT1G" ["l"="-22.050112,-74.923203"];
-"MT1H" ["l"="-22.320173,-75.005363"];
-"MT1HL1" ["l"="-22.202391,-74.786514"];
-"MT1M" ["l"="-22.218082,-74.809677"];
-"MT1X" ["l"="-22.457308,-74.893196"];
-"MT2A" ["l"="-22.348036,-75.370087"];
-"MT3" ["l"="-21.950937,-75.450607"];
-"MT4" ["l"="-22.228708,-74.762558"];
+"MT1A" ["l"="-22.264,-75.487"]
+"MT1B" ["l"="-21.897,-75.059"]
+"MT1E" ["l"="-21.891,-74.974"]
+"MT1F" ["l"="-22.328,-75.393"]
+"MT1G" ["l"="-22.050,-74.923"]
+"MT1H" ["l"="-22.320,-75.005"]
+"MT1HL1" ["l"="-22.202,-74.787"]
+"MT1M" ["l"="-22.218,-74.810"]
+"MT1X" ["l"="-22.457,-74.893"]
+"MT2A" ["l"="-22.348,-75.370"]
+"MT3" ["l"="-21.951,-75.451"]
+"MT4" ["l"="-22.229,-74.763"]
+"MT1A" -> "MT1M"
+"MT1A" -> "MT1F"
+"MT1A" -> "MT2A"
+"MT1A" -> "MT1G"
+"MT1A" -> "MT1X"
+"MT1A" -> "MT1H"
+"MT1B" -> "MT1F"
+"MT1B" -> "MT1M"
+"MT1B" -> "MT1H"
+"MT1B" -> "MT1A"
+"MT1B" -> "MT1G"
+"MT1B" -> "MT1HL1"
+"MT1E" -> "MT1F"
+"MT1E" -> "MT1M"
+"MT1E" -> "MT1G"
+"MT1E" -> "MT1H"
+"MT1E" -> "MT2A"
+"MT1E" -> "MT1A"
+"MT1F" -> "MT1H"
+"MT1F" -> "MT1G"
+"MT1F" -> "MT1M"
+"MT1F" -> "MT1A"
+"MT1F" -> "MT2A"
+"MT1F" -> "MT1B"
+"MT1G" -> "MT1H"
+"MT1G" -> "MT1F"
+"MT1G" -> "MT2A"
+"MT1G" -> "MT1M"
+"MT1G" -> "MT1X"
+"MT1G" -> "MT1A"
+"MT1H" -> "MT1G"
+"MT1H" -> "MT1F"
+"MT1H" -> "MT1M"
+"MT1H" -> "MT2A"
+"MT1H" -> "MT1B"
+"MT1H" -> "MT1A"
+"MT1HL1" -> "MT1B"
+"MT1HL1" -> "MT1F"
+"MT1HL1" -> "MT1H"
+"MT1HL1" -> "MT1E"
+"MT1HL1" -> "MT1G"
+"MT1HL1" -> "MT1A"
+"MT1M" -> "MT1F"
+"MT1M" -> "MT1A"
+"MT1M" -> "MT1G"
+"MT1M" -> "MT2A"
+"MT1M" -> "MT1H"
+"MT1M" -> "MT1X"
+"MT1X" -> "MT2A"
+"MT1X" -> "MT1M"
+"MT1X" -> "MT1G"
+"MT1X" -> "MT1A"
+"MT1X" -> "MT1H"
+"MT1X" -> "MT1F"
+"MT2A" -> "MT1G"
+"MT2A" -> "MT1X"
+"MT2A" -> "MT1M"
+"MT2A" -> "MT1H"
+"MT2A" -> "MT1F"
+"MT2A" -> "MT1A"
+"MT3" -> "MT1F"
+"MT3" -> "MT1M"
+"MT3" -> "MT1A"
+"MT3" -> "MT1H"
+"MT3" -> "MT1B"
+"MT3" -> "MT1G"
+"MT4" -> "MT1B"
+"MT4" -> "MT1HL1"
+"MT4" -> "MT1A"
+"MT4" -> "MT1F"
+"MT4" -> "MT1E"
+"MT4" -> "MT1M"
 }

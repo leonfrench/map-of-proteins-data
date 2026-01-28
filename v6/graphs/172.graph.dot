@@ -1,172 +1,263 @@
 digraph G {
-"BET1" -> "BET1L";
-"BET1" -> "VAMP4";
-"BET1" -> "VTI1B";
-"BET1" -> "GOSR1";
-"BET1L" -> "VTI1B";
-"BET1L" -> "BET1";
-"BET1L" -> "SNAP29";
-"BET1L" -> "GOSR1";
-"BNIP1" -> "GOSR1";
-"BNIP1" -> "USE1";
-"BNIP1" -> "STX10";
-"BNIP1" -> "GOSR2";
-"CCDC167" -> "VTI1B";
-"CCDC167" -> "VAMP5";
-"CCDC167" -> "BET1L";
-"CCDC167" -> "BNIP1";
-"CHMP4C" -> "CHMP6";
-"CHMP4C" -> "STX12";
-"CHMP4C" -> "VTI1B";
-"CHMP4C" -> "SNAP29";
-"CHMP6" -> "CHMP4C";
-"CHMP6" -> "STX12";
-"CHMP6" -> "GOSR2";
-"CHMP6" -> "STX10";
-"GOSR1" -> "BNIP1";
-"GOSR1" -> "VTI1B";
-"GOSR1" -> "STX6";
-"GOSR1" -> "VTI1A";
-"GOSR2" -> "GOSR1";
-"GOSR2" -> "BNIP1";
-"GOSR2" -> "VTI1B";
-"GOSR2" -> "VTI1A";
-"SNAP23" -> "SNAP25";
-"SNAP23" -> "STX12";
-"SNAP23" -> "SNAP29";
-"SNAP23" -> "VTI1B";
-"SNAP25" -> "SNAP23";
-"SNAP25" -> "VTI1A";
-"SNAP25" -> "STX3";
-"SNAP25" -> "STX8";
-"SNAP29" -> "VTI1B";
-"SNAP29" -> "BET1L";
-"SNAP29" -> "GOSR1";
-"SNAP29" -> "BNIP1";
-"STX10" -> "STX6";
-"STX10" -> "BNIP1";
-"STX10" -> "USE1";
-"STX10" -> "GOSR1";
-"STX11" -> "STX16";
-"STX11" -> "STX12";
-"STX11" -> "STX19";
-"STX11" -> "STX4";
-"STX12" -> "STX6";
-"STX12" -> "STX16";
-"STX12" -> "STX5";
-"STX12" -> "STX3";
-"STX16" -> "STX12";
-"STX16" -> "STX6";
-"STX16" -> "VTI1B";
-"STX16" -> "STX3";
-"STX18" -> "GOSR1";
-"STX18" -> "SNAP29";
-"STX18" -> "STX6";
-"STX18" -> "STX10";
-"STX19" -> "STX11";
-"STX19" -> "STX12";
-"STX19" -> "STX2";
-"STX19" -> "STX4";
-"STX1A" -> "STX1B";
-"STX1A" -> "STX3";
-"STX1A" -> "STX2";
-"STX1A" -> "STX12";
-"STX1B" -> "STX1A";
-"STX1B" -> "STX3";
-"STX1B" -> "STX2";
-"STX1B" -> "VAMP1";
-"STX2" -> "STX3";
-"STX2" -> "STX1A";
-"STX2" -> "STX12";
-"STX2" -> "STX4";
-"STX3" -> "STX2";
-"STX3" -> "STX1A";
-"STX3" -> "STX1B";
-"STX3" -> "STX12";
-"STX4" -> "STX12";
-"STX4" -> "STX2";
-"STX4" -> "STX5";
-"STX4" -> "STX10";
-"STX5" -> "STX12";
-"STX5" -> "STX6";
-"STX5" -> "STX4";
-"STX5" -> "STX10";
-"STX6" -> "GOSR1";
-"STX6" -> "STX10";
-"STX6" -> "STX12";
-"STX6" -> "BNIP1";
-"STX8" -> "STX10";
-"STX8" -> "VTI1A";
-"STX8" -> "BNIP1";
-"STX8" -> "SNAP25";
-"USE1" -> "BNIP1";
-"USE1" -> "STX10";
-"USE1" -> "GOSR1";
-"USE1" -> "STX6";
-"VAMP1" -> "VAMP2";
-"VAMP1" -> "VAMP4";
-"VAMP1" -> "VAMP3";
-"VAMP1" -> "STX1B";
-"VAMP2" -> "VAMP1";
-"VAMP2" -> "VAMP3";
-"VAMP2" -> "VAMP4";
-"VAMP2" -> "BET1L";
-"VAMP3" -> "VAMP1";
-"VAMP3" -> "VAMP2";
-"VAMP3" -> "VAMP4";
-"VAMP3" -> "VAMP8";
-"VAMP4" -> "VAMP1";
-"VAMP4" -> "BET1";
-"VAMP4" -> "VTI1B";
-"VAMP4" -> "VAMP3";
-"VAMP5" -> "VAMP8";
-"VAMP5" -> "VAMP3";
-"VAMP5" -> "STX4";
-"VAMP5" -> "VAMP1";
-"VAMP8" -> "VAMP5";
-"VAMP8" -> "VAMP3";
-"VAMP8" -> "VAMP1";
-"VAMP8" -> "BET1L";
-"VTI1A" -> "VTI1B";
-"VTI1A" -> "GOSR1";
-"VTI1A" -> "BNIP1";
-"VTI1A" -> "STX8";
-"VTI1B" -> "GOSR1";
-"VTI1B" -> "VTI1A";
-"VTI1B" -> "BET1L";
-"VTI1B" -> "SNAP29";
-"BET1" ["l"="35.363804,18.200876"];
-"BET1L" ["l"="36.332718,18.034483"];
-"BNIP1" ["l"="36.142719,17.778154"];
-"CCDC167" ["l"="36.671062,17.695030"];
-"CHMP4C" ["l"="37.099194,17.639498"];
-"CHMP6" ["l"="36.520672,17.239122"];
-"GOSR1" ["l"="36.536476,18.052677"];
-"GOSR2" ["l"="36.735249,18.001179"];
-"SNAP23" ["l"="36.604118,18.182159"];
-"SNAP25" ["l"="36.607510,18.461214"];
-"SNAP29" ["l"="36.443916,17.808304"];
-"STX10" ["l"="35.832737,17.907455"];
-"STX11" ["l"="36.872814,17.904421"];
-"STX12" ["l"="37.121750,17.924980"];
-"STX16" ["l"="36.799511,18.039989"];
-"STX18" ["l"="36.374310,17.957020"];
-"STX19" ["l"="36.391376,17.811642"];
-"STX1A" ["l"="36.846497,18.291889"];
-"STX1B" ["l"="36.753254,18.475521"];
-"STX2" ["l"="36.662395,18.107979"];
-"STX3" ["l"="36.812889,18.345390"];
-"STX4" ["l"="36.304688,18.075644"];
-"STX5" ["l"="36.154457,18.160694"];
-"STX6" ["l"="36.587814,18.015928"];
-"STX8" ["l"="36.585979,18.287573"];
-"USE1" ["l"="36.007500,18.032402"];
-"VAMP1" ["l"="35.709244,18.597076"];
-"VAMP2" ["l"="35.733646,18.648504"];
-"VAMP3" ["l"="36.550049,18.456940"];
-"VAMP4" ["l"="36.280907,18.303757"];
-"VAMP5" ["l"="36.338310,18.643793"];
-"VAMP8" ["l"="36.291050,18.692760"];
-"VTI1A" ["l"="36.611320,18.344351"];
-"VTI1B" ["l"="36.382988,18.107841"];
+"BET1" ["l"="35.364,18.201"]
+"BET1L" ["l"="36.333,18.034"]
+"BNIP1" ["l"="36.143,17.778"]
+"C3orf18" ["l"="18.501,23.810"]
+"C3orf49" ["l"="12.286,16.055"]
+"CABP7" ["l"="-41.660,-7.119"]
+"CCDC115" ["l"="35.867,11.622"]
+"CCDC121" ["l"="-11.477,-1.116"]
+"CCDC167" ["l"="36.671,17.695"]
+"CCDC93" ["l"="-7.840,-1.396"]
+"CHMP1A" ["l"="37.575,16.979"]
+"CHMP1B" ["l"="37.440,17.091"]
+"CHMP2B" ["l"="37.971,17.287"]
+"CHMP3" ["l"="38.112,16.936"]
+"CHMP4B" ["l"="38.228,17.342"]
+"CHMP4C" ["l"="37.099,17.639"]
+"CHMP5" ["l"="38.766,16.788"]
+"CHMP6" ["l"="36.521,17.239"]
+"GET1" ["l"="13.288,-17.954"]
+"GOSR1" ["l"="36.536,18.053"]
+"GOSR2" ["l"="36.735,18.001"]
+"PFDN1" ["l"="37.520,15.966"]
+"RGS9BP" ["l"="21.635,13.514"]
+"SERP2" ["l"="40.385,17.634"]
+"SMCO4" ["l"="27.317,21.646"]
+"SNAP23" ["l"="36.604,18.182"]
+"SNAP25" ["l"="36.608,18.461"]
+"SNAP29" ["l"="36.444,17.808"]
+"SNX20" ["l"="21.957,10.121"]
+"SSNA1" ["l"="37.424,15.970"]
+"STX10" ["l"="35.833,17.907"]
+"STX11" ["l"="36.873,17.904"]
+"STX12" ["l"="37.122,17.925"]
+"STX16" ["l"="36.800,18.040"]
+"STX17" ["l"="38.396,16.729"]
+"STX18" ["l"="36.374,17.957"]
+"STX19" ["l"="36.391,17.812"]
+"STX1A" ["l"="36.846,18.292"]
+"STX1B" ["l"="36.753,18.476"]
+"STX2" ["l"="36.662,18.108"]
+"STX3" ["l"="36.813,18.345"]
+"STX4" ["l"="36.305,18.076"]
+"STX5" ["l"="36.154,18.161"]
+"STX6" ["l"="36.588,18.016"]
+"STX8" ["l"="36.586,18.288"]
+"TAF12" ["l"="29.512,10.536"]
+"TMEM199" ["l"="17.342,-16.108"]
+"USE1" ["l"="36.007,18.032"]
+"VAMP1" ["l"="35.709,18.597"]
+"VAMP2" ["l"="35.734,18.649"]
+"VAMP3" ["l"="36.550,18.457"]
+"VAMP4" ["l"="36.281,18.304"]
+"VAMP5" ["l"="36.338,18.644"]
+"VAMP8" ["l"="36.291,18.693"]
+"VTI1A" ["l"="36.611,18.344"]
+"VTI1B" ["l"="36.383,18.108"]
+"YKT6" ["l"="39.391,14.957"]
+"BET1" -> "BET1L"
+"BET1" -> "VAMP4"
+"BET1" -> "VTI1B"
+"BET1" -> "GOSR1"
+"BET1" -> "BNIP1"
+"BET1" -> "VAMP3"
+"BET1L" -> "VTI1B"
+"BET1L" -> "BET1"
+"BET1L" -> "SNAP29"
+"BET1L" -> "GOSR1"
+"BET1L" -> "VAMP4"
+"BET1L" -> "VAMP3"
+"BNIP1" -> "GOSR1"
+"BNIP1" -> "USE1"
+"BNIP1" -> "STX10"
+"BNIP1" -> "GOSR2"
+"BNIP1" -> "PFDN1" ["e"=1]
+"BNIP1" -> "VTI1A"
+"CCDC167" -> "SSNA1" ["e"=1]
+"CCDC167" -> "SERP2" ["e"=1]
+"CCDC167" -> "VTI1B"
+"CCDC167" -> "VAMP5"
+"CCDC167" -> "GET1" ["e"=1]
+"CCDC167" -> "SMCO4" ["e"=1]
+"CHMP4C" -> "CHMP2B" ["e"=1]
+"CHMP4C" -> "CHMP6"
+"CHMP4C" -> "CHMP4B" ["e"=1]
+"CHMP4C" -> "CHMP3" ["e"=1]
+"CHMP4C" -> "CHMP5" ["e"=1]
+"CHMP4C" -> "STX12"
+"CHMP6" -> "CHMP1A" ["e"=1]
+"CHMP6" -> "CHMP4C"
+"CHMP6" -> "CHMP1B" ["e"=1]
+"CHMP6" -> "CHMP5" ["e"=1]
+"CHMP6" -> "CHMP4B" ["e"=1]
+"CHMP6" -> "CHMP3" ["e"=1]
+"GOSR1" -> "BNIP1"
+"GOSR1" -> "VTI1B"
+"GOSR1" -> "STX6"
+"GOSR1" -> "VTI1A"
+"GOSR1" -> "GOSR2"
+"GOSR1" -> "STX12"
+"GOSR2" -> "GOSR1"
+"GOSR2" -> "BNIP1"
+"GOSR2" -> "PFDN1" ["e"=1]
+"GOSR2" -> "VTI1B"
+"GOSR2" -> "VTI1A"
+"GOSR2" -> "STX6"
+"SNAP23" -> "SNAP25"
+"SNAP23" -> "STX12"
+"SNAP23" -> "SNAP29"
+"SNAP23" -> "VTI1B"
+"SNAP23" -> "BET1"
+"SNAP23" -> "STX16"
+"SNAP25" -> "SNAP23"
+"SNAP25" -> "VTI1A"
+"SNAP25" -> "STX3"
+"SNAP25" -> "STX8"
+"SNAP25" -> "STX1B"
+"SNAP25" -> "VTI1B"
+"SNAP29" -> "VTI1B"
+"SNAP29" -> "BET1L"
+"SNAP29" -> "GOSR1"
+"SNAP29" -> "BNIP1"
+"SNAP29" -> "STX10"
+"SNAP29" -> "STX18"
+"STX10" -> "STX6"
+"STX10" -> "BNIP1"
+"STX10" -> "USE1"
+"STX10" -> "GOSR1"
+"STX10" -> "CCDC115" ["e"=1]
+"STX10" -> "TAF12" ["e"=1]
+"STX11" -> "CHMP1B" ["e"=1]
+"STX11" -> "STX16"
+"STX11" -> "STX12"
+"STX11" -> "STX19"
+"STX11" -> "STX4"
+"STX11" -> "SNX20" ["e"=1]
+"STX12" -> "STX6"
+"STX12" -> "STX16"
+"STX12" -> "STX5"
+"STX12" -> "STX3"
+"STX12" -> "STX4"
+"STX12" -> "CHMP6"
+"STX16" -> "STX12"
+"STX16" -> "STX6"
+"STX16" -> "VTI1B"
+"STX16" -> "STX3"
+"STX16" -> "GOSR1"
+"STX16" -> "STX11"
+"STX18" -> "GOSR1"
+"STX18" -> "CCDC93" ["e"=1]
+"STX18" -> "SNAP29"
+"STX18" -> "STX6"
+"STX18" -> "STX10"
+"STX18" -> "BNIP1"
+"STX19" -> "STX11"
+"STX19" -> "C3orf49" ["e"=1]
+"STX19" -> "STX12"
+"STX19" -> "STX17" ["e"=1]
+"STX19" -> "RGS9BP" ["e"=1]
+"STX19" -> "CCDC121" ["e"=1]
+"STX1A" -> "STX1B"
+"STX1A" -> "STX3"
+"STX1A" -> "STX2"
+"STX1A" -> "STX12"
+"STX1A" -> "STX5"
+"STX1A" -> "STX4"
+"STX1B" -> "STX1A"
+"STX1B" -> "STX3"
+"STX1B" -> "STX2"
+"STX1B" -> "VAMP1"
+"STX1B" -> "SNAP25"
+"STX1B" -> "CHMP1B" ["e"=1]
+"STX2" -> "STX3"
+"STX2" -> "STX1A"
+"STX2" -> "STX12"
+"STX2" -> "STX4"
+"STX2" -> "STX6"
+"STX2" -> "STX1B"
+"STX3" -> "STX2"
+"STX3" -> "STX1A"
+"STX3" -> "STX1B"
+"STX3" -> "STX12"
+"STX3" -> "SNAP25"
+"STX3" -> "STX6"
+"STX4" -> "STX12"
+"STX4" -> "STX2"
+"STX4" -> "STX5"
+"STX4" -> "STX10"
+"STX4" -> "STX6"
+"STX4" -> "STX1A"
+"STX5" -> "STX12"
+"STX5" -> "STX6"
+"STX5" -> "STX4"
+"STX5" -> "STX10"
+"STX5" -> "STX3"
+"STX5" -> "CHMP1A" ["e"=1]
+"STX6" -> "GOSR1"
+"STX6" -> "STX10"
+"STX6" -> "STX12"
+"STX6" -> "BNIP1"
+"STX6" -> "STX16"
+"STX6" -> "STX2"
+"STX8" -> "STX10"
+"STX8" -> "VTI1A"
+"STX8" -> "BNIP1"
+"STX8" -> "SNAP25"
+"STX8" -> "GOSR1"
+"STX8" -> "STX18"
+"USE1" -> "BNIP1"
+"USE1" -> "STX10"
+"USE1" -> "GOSR1"
+"USE1" -> "TMEM199" ["e"=1]
+"USE1" -> "STX6"
+"USE1" -> "STX8"
+"VAMP1" -> "VAMP2"
+"VAMP1" -> "VAMP4"
+"VAMP1" -> "VAMP3"
+"VAMP1" -> "STX1B"
+"VAMP1" -> "CABP7" ["e"=1]
+"VAMP1" -> "C3orf18" ["e"=1]
+"VAMP2" -> "VAMP1"
+"VAMP2" -> "VAMP3"
+"VAMP2" -> "VAMP4"
+"VAMP2" -> "BET1L"
+"VAMP2" -> "SNAP25"
+"VAMP2" -> "STX1B"
+"VAMP3" -> "VAMP1"
+"VAMP3" -> "VAMP2"
+"VAMP3" -> "VAMP4"
+"VAMP3" -> "VAMP8"
+"VAMP3" -> "VAMP5"
+"VAMP3" -> "STX12"
+"VAMP4" -> "VAMP1"
+"VAMP4" -> "BET1"
+"VAMP4" -> "VTI1B"
+"VAMP4" -> "VAMP3"
+"VAMP4" -> "BET1L"
+"VAMP4" -> "GOSR1"
+"VAMP5" -> "VAMP8"
+"VAMP5" -> "VAMP3"
+"VAMP5" -> "STX4"
+"VAMP5" -> "VAMP1"
+"VAMP5" -> "VAMP4"
+"VAMP5" -> "SSNA1" ["e"=1]
+"VAMP8" -> "VAMP5"
+"VAMP8" -> "VAMP3"
+"VAMP8" -> "VAMP1"
+"VAMP8" -> "BET1L"
+"VAMP8" -> "VAMP2"
+"VAMP8" -> "VAMP4"
+"VTI1A" -> "VTI1B"
+"VTI1A" -> "GOSR1"
+"VTI1A" -> "BNIP1"
+"VTI1A" -> "STX8"
+"VTI1A" -> "GOSR2"
+"VTI1A" -> "SNAP25"
+"VTI1B" -> "GOSR1"
+"VTI1B" -> "VTI1A"
+"VTI1B" -> "BET1L"
+"VTI1B" -> "SNAP29"
+"VTI1B" -> "VAMP4"
+"VTI1B" -> "YKT6" ["e"=1]
 }

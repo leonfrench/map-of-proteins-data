@@ -1,187 +1,263 @@
 digraph G {
-"AZGP1" -> "HFE";
-"AZGP1" -> "MICA";
-"AZGP1" -> "RAET1L";
-"AZGP1" -> "MR1";
-"CD1A" -> "CD1B";
-"CD1A" -> "CD1E";
-"CD1A" -> "CD1C";
-"CD1A" -> "CD1D";
-"CD1B" -> "CD1E";
-"CD1B" -> "CD1A";
-"CD1B" -> "CD1C";
-"CD1B" -> "CD1D";
-"CD1C" -> "CD1A";
-"CD1C" -> "CD1D";
-"CD1C" -> "CD1E";
-"CD1C" -> "CD1B";
-"CD1D" -> "CD1C";
-"CD1D" -> "CD1A";
-"CD1D" -> "HFE";
-"CD1D" -> "ULBP3";
-"CD1E" -> "CD1B";
-"CD1E" -> "CD1A";
-"CD1E" -> "CD1C";
-"CD1E" -> "CD1D";
-"FCGRT" -> "HLA-DMB";
-"FCGRT" -> "HFE";
-"FCGRT" -> "CD1D";
-"FCGRT" -> "PROCR";
-"HFE" -> "MR1";
-"HFE" -> "ULBP3";
-"HFE" -> "MICA";
-"HFE" -> "MICB";
-"HLA-A" -> "HLA-B";
-"HLA-A" -> "HLA-C";
-"HLA-A" -> "HLA-E";
-"HLA-A" -> "HLA-F";
-"HLA-B" -> "HLA-A";
-"HLA-B" -> "HLA-C";
-"HLA-B" -> "HLA-E";
-"HLA-B" -> "HLA-F";
-"HLA-C" -> "HLA-A";
-"HLA-C" -> "HLA-B";
-"HLA-C" -> "HLA-E";
-"HLA-C" -> "HLA-G";
-"HLA-DMA" -> "HLA-DPA1";
-"HLA-DMA" -> "HLA-DQA2";
-"HLA-DMA" -> "HLA-DRA";
-"HLA-DMA" -> "HLA-DMB";
-"HLA-DMB" -> "HLA-DMA";
-"HLA-DMB" -> "HLA-DQA2";
-"HLA-DMB" -> "HLA-DOA";
-"HLA-DMB" -> "HLA-DQB1";
-"HLA-DOA" -> "HLA-DPA1";
-"HLA-DOA" -> "HLA-DQA1";
-"HLA-DOA" -> "HLA-DOB";
-"HLA-DOA" -> "HLA-DQA2";
-"HLA-DOB" -> "HLA-DQB2";
-"HLA-DOB" -> "HLA-DOA";
-"HLA-DOB" -> "HLA-DPB1";
-"HLA-DOB" -> "HLA-DQB1";
-"HLA-DPA1" -> "HLA-DRA";
-"HLA-DPA1" -> "HLA-DQA2";
-"HLA-DPA1" -> "HLA-DQA1";
-"HLA-DPA1" -> "HLA-DMA";
-"HLA-DPB1" -> "HLA-DQB1";
-"HLA-DPB1" -> "HLA-DRB1";
-"HLA-DPB1" -> "HLA-DRB5";
-"HLA-DPB1" -> "HLA-DPA1";
-"HLA-DQA1" -> "HLA-DQA2";
-"HLA-DQA1" -> "HLA-DPA1";
-"HLA-DQA1" -> "HLA-DRA";
-"HLA-DQA1" -> "HLA-DQB1";
-"HLA-DQA2" -> "HLA-DQA1";
-"HLA-DQA2" -> "HLA-DPA1";
-"HLA-DQA2" -> "HLA-DRA";
-"HLA-DQA2" -> "HLA-DOA";
-"HLA-DQB1" -> "HLA-DPB1";
-"HLA-DQB1" -> "HLA-DRB1";
-"HLA-DQB1" -> "HLA-DRB5";
-"HLA-DQB1" -> "HLA-DQA1";
-"HLA-DQB2" -> "HLA-DRB5";
-"HLA-DQB2" -> "HLA-DQB1";
-"HLA-DQB2" -> "HLA-DOB";
-"HLA-DQB2" -> "HLA-DRB1";
-"HLA-DRA" -> "HLA-DPA1";
-"HLA-DRA" -> "HLA-DQA1";
-"HLA-DRA" -> "HLA-DQA2";
-"HLA-DRA" -> "HLA-DMA";
-"HLA-DRB1" -> "HLA-DRB5";
-"HLA-DRB1" -> "HLA-DQB1";
-"HLA-DRB1" -> "HLA-DPB1";
-"HLA-DRB1" -> "HLA-DQB2";
-"HLA-DRB5" -> "HLA-DRB1";
-"HLA-DRB5" -> "HLA-DQB1";
-"HLA-DRB5" -> "HLA-DPB1";
-"HLA-DRB5" -> "HLA-DQB2";
-"HLA-E" -> "HLA-A";
-"HLA-E" -> "HLA-B";
-"HLA-E" -> "HLA-C";
-"HLA-E" -> "HLA-F";
-"HLA-F" -> "HLA-B";
-"HLA-F" -> "HLA-A";
-"HLA-F" -> "HLA-C";
-"HLA-F" -> "HLA-E";
-"HLA-G" -> "HLA-A";
-"HLA-G" -> "HLA-C";
-"HLA-G" -> "HLA-B";
-"HLA-G" -> "HLA-F";
-"MICA" -> "MICB";
-"MICA" -> "HFE";
-"MICA" -> "ULBP3";
-"MICA" -> "RAET1G";
-"MICB" -> "MICA";
-"MICB" -> "ULBP3";
-"MICB" -> "HFE";
-"MICB" -> "RAET1L";
-"MR1" -> "HFE";
-"MR1" -> "ULBP3";
-"MR1" -> "HLA-DOA";
-"MR1" -> "ULBP1";
-"PROCR" -> "ULBP2";
-"PROCR" -> "HFE";
-"PROCR" -> "ULBP3";
-"PROCR" -> "MICA";
-"RAET1E" -> "ULBP3";
-"RAET1E" -> "RAET1L";
-"RAET1E" -> "ULBP1";
-"RAET1E" -> "RAET1G";
-"RAET1G" -> "RAET1L";
-"RAET1G" -> "ULBP2";
-"RAET1G" -> "ULBP3";
-"RAET1G" -> "ULBP1";
-"RAET1L" -> "ULBP2";
-"RAET1L" -> "ULBP3";
-"RAET1L" -> "ULBP1";
-"RAET1L" -> "RAET1G";
-"ULBP1" -> "ULBP3";
-"ULBP1" -> "RAET1L";
-"ULBP1" -> "ULBP2";
-"ULBP1" -> "RAET1E";
-"ULBP2" -> "ULBP3";
-"ULBP2" -> "RAET1L";
-"ULBP2" -> "ULBP1";
-"ULBP2" -> "RAET1G";
-"ULBP3" -> "ULBP2";
-"ULBP3" -> "ULBP1";
-"ULBP3" -> "RAET1L";
-"ULBP3" -> "RAET1E";
-"AZGP1" ["l"="-2.473655,49.137783"];
-"CD1A" ["l"="-2.330498,48.594894"];
-"CD1B" ["l"="-2.399657,48.695461"];
-"CD1C" ["l"="-2.659648,48.355141"];
-"CD1D" ["l"="-2.160341,49.063408"];
-"CD1E" ["l"="-2.293603,48.586426"];
-"FCGRT" ["l"="-2.574751,48.829086"];
-"HFE" ["l"="-2.403205,48.733471"];
-"HLA-A" ["l"="-3.141466,49.592339"];
-"HLA-B" ["l"="-3.329643,48.956635"];
-"HLA-C" ["l"="-3.293845,49.199032"];
-"HLA-DMA" ["l"="-3.274895,49.411510"];
-"HLA-DMB" ["l"="-3.511909,49.310822"];
-"HLA-DOA" ["l"="-3.086222,49.129971"];
-"HLA-DOB" ["l"="-3.455300,49.265327"];
-"HLA-DPA1" ["l"="-3.355878,49.438484"];
-"HLA-DPB1" ["l"="-3.544439,49.092213"];
-"HLA-DQA1" ["l"="-3.116423,48.984234"];
-"HLA-DQA2" ["l"="-2.874362,49.456879"];
-"HLA-DQB1" ["l"="-3.155257,49.613846"];
-"HLA-DQB2" ["l"="-2.949672,49.079609"];
-"HLA-DRA" ["l"="-2.914533,49.310104"];
-"HLA-DRB1" ["l"="-3.290692,49.223030"];
-"HLA-DRB5" ["l"="-3.378754,49.262218"];
-"HLA-E" ["l"="-3.631161,49.578987"];
-"HLA-F" ["l"="-3.343587,49.227215"];
-"HLA-G" ["l"="-2.942460,49.448715"];
-"MICA" ["l"="-2.763225,48.709610"];
-"MICB" ["l"="-2.468203,48.773235"];
-"MR1" ["l"="-2.388379,48.720833"];
-"PROCR" ["l"="-2.649964,48.457703"];
-"RAET1E" ["l"="-2.511745,48.351067"];
-"RAET1G" ["l"="-2.052981,48.558064"];
-"RAET1L" ["l"="-2.009086,48.949345"];
-"ULBP1" ["l"="-2.349114,49.075207"];
-"ULBP2" ["l"="-2.327393,49.115067"];
-"ULBP3" ["l"="-2.099246,48.957851"];
+"AZGP1" ["l"="-2.474,49.138"]
+"CD1A" ["l"="-2.330,48.595"]
+"CD1B" ["l"="-2.400,48.695"]
+"CD1C" ["l"="-2.660,48.355"]
+"CD1D" ["l"="-2.160,49.063"]
+"CD1E" ["l"="-2.294,48.586"]
+"FCGRT" ["l"="-2.575,48.829"]
+"HFE" ["l"="-2.403,48.733"]
+"HLA-A" ["l"="-3.141,49.592"]
+"HLA-B" ["l"="-3.330,48.957"]
+"HLA-C" ["l"="-3.294,49.199"]
+"HLA-DMA" ["l"="-3.275,49.412"]
+"HLA-DMB" ["l"="-3.512,49.311"]
+"HLA-DOA" ["l"="-3.086,49.130"]
+"HLA-DOB" ["l"="-3.455,49.265"]
+"HLA-DPA1" ["l"="-3.356,49.438"]
+"HLA-DPB1" ["l"="-3.544,49.092"]
+"HLA-DQA1" ["l"="-3.116,48.984"]
+"HLA-DQA2" ["l"="-2.874,49.457"]
+"HLA-DQB1" ["l"="-3.155,49.614"]
+"HLA-DQB2" ["l"="-2.950,49.080"]
+"HLA-DRA" ["l"="-2.915,49.310"]
+"HLA-DRB1" ["l"="-3.291,49.223"]
+"HLA-DRB5" ["l"="-3.379,49.262"]
+"HLA-E" ["l"="-3.631,49.579"]
+"HLA-F" ["l"="-3.344,49.227"]
+"HLA-G" ["l"="-2.942,49.449"]
+"MICA" ["l"="-2.763,48.710"]
+"MICB" ["l"="-2.468,48.773"]
+"MR1" ["l"="-2.388,48.721"]
+"PROCR" ["l"="-2.650,48.458"]
+"RAET1E" ["l"="-2.512,48.351"]
+"RAET1G" ["l"="-2.053,48.558"]
+"RAET1L" ["l"="-2.009,48.949"]
+"TRBC1" ["l"="14.482,33.264"]
+"TRBC2" ["l"="14.412,33.277"]
+"ULBP1" ["l"="-2.349,49.075"]
+"ULBP2" ["l"="-2.327,49.115"]
+"ULBP3" ["l"="-2.099,48.958"]
+"AZGP1" -> "HFE"
+"AZGP1" -> "MICA"
+"AZGP1" -> "RAET1L"
+"AZGP1" -> "MR1"
+"AZGP1" -> "ULBP3"
+"AZGP1" -> "MICB"
+"CD1A" -> "CD1B"
+"CD1A" -> "CD1E"
+"CD1A" -> "CD1C"
+"CD1A" -> "CD1D"
+"CD1A" -> "PROCR"
+"CD1A" -> "ULBP3"
+"CD1B" -> "CD1E"
+"CD1B" -> "CD1A"
+"CD1B" -> "CD1C"
+"CD1B" -> "CD1D"
+"CD1B" -> "TRBC1" ["e"=1]
+"CD1B" -> "TRBC2" ["e"=1]
+"CD1C" -> "CD1A"
+"CD1C" -> "CD1D"
+"CD1C" -> "CD1E"
+"CD1C" -> "CD1B"
+"CD1C" -> "HLA-DOB"
+"CD1C" -> "ULBP2"
+"CD1D" -> "CD1C"
+"CD1D" -> "CD1A"
+"CD1D" -> "HFE"
+"CD1D" -> "ULBP3"
+"CD1D" -> "CD1E"
+"CD1D" -> "HLA-DMB"
+"CD1E" -> "CD1B"
+"CD1E" -> "CD1A"
+"CD1E" -> "CD1C"
+"CD1E" -> "CD1D"
+"CD1E" -> "TRBC2" ["e"=1]
+"CD1E" -> "TRBC1" ["e"=1]
+"FCGRT" -> "HLA-DMB"
+"FCGRT" -> "HFE"
+"FCGRT" -> "CD1D"
+"FCGRT" -> "PROCR"
+"FCGRT" -> "HLA-DMA"
+"FCGRT" -> "MICB"
+"HFE" -> "MR1"
+"HFE" -> "ULBP3"
+"HFE" -> "MICA"
+"HFE" -> "MICB"
+"HFE" -> "CD1D"
+"HFE" -> "PROCR"
+"HLA-A" -> "HLA-B"
+"HLA-A" -> "HLA-C"
+"HLA-A" -> "HLA-E"
+"HLA-A" -> "HLA-F"
+"HLA-A" -> "HLA-G"
+"HLA-A" -> "HLA-DRB5"
+"HLA-B" -> "HLA-A"
+"HLA-B" -> "HLA-C"
+"HLA-B" -> "HLA-E"
+"HLA-B" -> "HLA-F"
+"HLA-B" -> "HLA-G"
+"HLA-B" -> "HLA-DRB5"
+"HLA-C" -> "HLA-A"
+"HLA-C" -> "HLA-B"
+"HLA-C" -> "HLA-E"
+"HLA-C" -> "HLA-G"
+"HLA-C" -> "HLA-F"
+"HLA-C" -> "HLA-DRB5"
+"HLA-DMA" -> "HLA-DPA1"
+"HLA-DMA" -> "HLA-DQA2"
+"HLA-DMA" -> "HLA-DRA"
+"HLA-DMA" -> "HLA-DMB"
+"HLA-DMA" -> "HLA-DOA"
+"HLA-DMA" -> "HLA-DQA1"
+"HLA-DMB" -> "HLA-DMA"
+"HLA-DMB" -> "HLA-DQA2"
+"HLA-DMB" -> "HLA-DOA"
+"HLA-DMB" -> "HLA-DQB1"
+"HLA-DMB" -> "HLA-DQA1"
+"HLA-DMB" -> "HLA-DPB1"
+"HLA-DOA" -> "HLA-DPA1"
+"HLA-DOA" -> "HLA-DQA1"
+"HLA-DOA" -> "HLA-DOB"
+"HLA-DOA" -> "HLA-DQA2"
+"HLA-DOA" -> "HLA-DQB2"
+"HLA-DOA" -> "HLA-DQB1"
+"HLA-DOB" -> "HLA-DQB2"
+"HLA-DOB" -> "HLA-DOA"
+"HLA-DOB" -> "HLA-DPB1"
+"HLA-DOB" -> "HLA-DQB1"
+"HLA-DOB" -> "HLA-DMB"
+"HLA-DOB" -> "HFE"
+"HLA-DPA1" -> "HLA-DRA"
+"HLA-DPA1" -> "HLA-DQA2"
+"HLA-DPA1" -> "HLA-DQA1"
+"HLA-DPA1" -> "HLA-DMA"
+"HLA-DPA1" -> "HLA-DOA"
+"HLA-DPA1" -> "HLA-DPB1"
+"HLA-DPB1" -> "HLA-DQB1"
+"HLA-DPB1" -> "HLA-DRB1"
+"HLA-DPB1" -> "HLA-DRB5"
+"HLA-DPB1" -> "HLA-DPA1"
+"HLA-DPB1" -> "HLA-DQA1"
+"HLA-DPB1" -> "HLA-DQB2"
+"HLA-DQA1" -> "HLA-DQA2"
+"HLA-DQA1" -> "HLA-DPA1"
+"HLA-DQA1" -> "HLA-DRA"
+"HLA-DQA1" -> "HLA-DQB1"
+"HLA-DQA1" -> "HLA-DOA"
+"HLA-DQA1" -> "HLA-DPB1"
+"HLA-DQA2" -> "HLA-DQA1"
+"HLA-DQA2" -> "HLA-DPA1"
+"HLA-DQA2" -> "HLA-DRA"
+"HLA-DQA2" -> "HLA-DOA"
+"HLA-DQA2" -> "HLA-DMA"
+"HLA-DQA2" -> "HLA-DQB1"
+"HLA-DQB1" -> "HLA-DPB1"
+"HLA-DQB1" -> "HLA-DRB1"
+"HLA-DQB1" -> "HLA-DRB5"
+"HLA-DQB1" -> "HLA-DQA1"
+"HLA-DQB1" -> "HLA-DQB2"
+"HLA-DQB1" -> "HLA-DPA1"
+"HLA-DQB2" -> "HLA-DRB5"
+"HLA-DQB2" -> "HLA-DQB1"
+"HLA-DQB2" -> "HLA-DOB"
+"HLA-DQB2" -> "HLA-DRB1"
+"HLA-DQB2" -> "HLA-DPB1"
+"HLA-DQB2" -> "HLA-DOA"
+"HLA-DRA" -> "HLA-DPA1"
+"HLA-DRA" -> "HLA-DQA1"
+"HLA-DRA" -> "HLA-DQA2"
+"HLA-DRA" -> "HLA-DMA"
+"HLA-DRA" -> "HLA-DPB1"
+"HLA-DRA" -> "HLA-DOA"
+"HLA-DRB1" -> "HLA-DRB5"
+"HLA-DRB1" -> "HLA-DQB1"
+"HLA-DRB1" -> "HLA-DPB1"
+"HLA-DRB1" -> "HLA-DQB2"
+"HLA-DRB1" -> "HLA-DPA1"
+"HLA-DRB1" -> "HLA-DQA1"
+"HLA-DRB5" -> "HLA-DRB1"
+"HLA-DRB5" -> "HLA-DQB1"
+"HLA-DRB5" -> "HLA-DPB1"
+"HLA-DRB5" -> "HLA-DQB2"
+"HLA-DRB5" -> "HLA-DQA2"
+"HLA-DRB5" -> "HLA-DOB"
+"HLA-E" -> "HLA-A"
+"HLA-E" -> "HLA-B"
+"HLA-E" -> "HLA-C"
+"HLA-E" -> "HLA-F"
+"HLA-E" -> "HLA-G"
+"HLA-E" -> "HLA-DRB5"
+"HLA-F" -> "HLA-B"
+"HLA-F" -> "HLA-A"
+"HLA-F" -> "HLA-C"
+"HLA-F" -> "HLA-E"
+"HLA-F" -> "HLA-G"
+"HLA-F" -> "HLA-DRB5"
+"HLA-G" -> "HLA-A"
+"HLA-G" -> "HLA-C"
+"HLA-G" -> "HLA-B"
+"HLA-G" -> "HLA-F"
+"HLA-G" -> "HLA-E"
+"HLA-G" -> "HLA-DQB1"
+"MICA" -> "MICB"
+"MICA" -> "HFE"
+"MICA" -> "ULBP3"
+"MICA" -> "RAET1G"
+"MICA" -> "RAET1L"
+"MICA" -> "ULBP2"
+"MICB" -> "MICA"
+"MICB" -> "ULBP3"
+"MICB" -> "HFE"
+"MICB" -> "RAET1L"
+"MICB" -> "ULBP1"
+"MICB" -> "ULBP2"
+"MR1" -> "HFE"
+"MR1" -> "ULBP3"
+"MR1" -> "HLA-DOA"
+"MR1" -> "ULBP1"
+"MR1" -> "RAET1L"
+"MR1" -> "MICA"
+"PROCR" -> "ULBP2"
+"PROCR" -> "HFE"
+"PROCR" -> "ULBP3"
+"PROCR" -> "MICA"
+"PROCR" -> "RAET1L"
+"PROCR" -> "RAET1G"
+"RAET1E" -> "ULBP3"
+"RAET1E" -> "RAET1L"
+"RAET1E" -> "ULBP1"
+"RAET1E" -> "RAET1G"
+"RAET1E" -> "ULBP2"
+"RAET1E" -> "MR1"
+"RAET1G" -> "RAET1L"
+"RAET1G" -> "ULBP2"
+"RAET1G" -> "ULBP3"
+"RAET1G" -> "ULBP1"
+"RAET1G" -> "RAET1E"
+"RAET1G" -> "MICA"
+"RAET1L" -> "ULBP2"
+"RAET1L" -> "ULBP3"
+"RAET1L" -> "ULBP1"
+"RAET1L" -> "RAET1G"
+"RAET1L" -> "RAET1E"
+"RAET1L" -> "MICA"
+"ULBP1" -> "ULBP3"
+"ULBP1" -> "RAET1L"
+"ULBP1" -> "ULBP2"
+"ULBP1" -> "RAET1E"
+"ULBP1" -> "RAET1G"
+"ULBP1" -> "HFE"
+"ULBP2" -> "ULBP3"
+"ULBP2" -> "RAET1L"
+"ULBP2" -> "ULBP1"
+"ULBP2" -> "RAET1G"
+"ULBP2" -> "RAET1E"
+"ULBP2" -> "PROCR"
+"ULBP3" -> "ULBP2"
+"ULBP3" -> "ULBP1"
+"ULBP3" -> "RAET1L"
+"ULBP3" -> "RAET1E"
+"ULBP3" -> "MR1"
+"ULBP3" -> "HFE"
 }

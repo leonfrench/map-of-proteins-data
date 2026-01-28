@@ -1,52 +1,86 @@
 digraph G {
-"CCDC88A" -> "ROCK1";
-"CCDC88A" -> "RAD50";
-"CCDC88A" -> "TAX1BP1";
-"CCDC88A" -> "SMC3";
-"RAD50" -> "SMC6";
-"RAD50" -> "SMC5";
-"RAD50" -> "SMC3";
-"RAD50" -> "SMC1B";
-"ROCK1" -> "SMC4";
-"ROCK1" -> "SMC3";
-"ROCK1" -> "CCDC88A";
-"ROCK1" -> "TAX1BP1";
-"SMC1B" -> "SMC4";
-"SMC1B" -> "SMC3";
-"SMC1B" -> "SMC5";
-"SMC1B" -> "RAD50";
-"SMC2" -> "SMC4";
-"SMC2" -> "SMC3";
-"SMC2" -> "SMC5";
-"SMC2" -> "SMC6";
-"SMC3" -> "SMC2";
-"SMC3" -> "SMC4";
-"SMC3" -> "SMC5";
-"SMC3" -> "SMC1B";
-"SMC4" -> "SMC2";
-"SMC4" -> "SMC3";
-"SMC4" -> "SMC1B";
-"SMC4" -> "SMC5";
-"SMC5" -> "SMC6";
-"SMC5" -> "SMC3";
-"SMC5" -> "SMC2";
-"SMC5" -> "RAD50";
-"SMC6" -> "SMC5";
-"SMC6" -> "RAD50";
-"SMC6" -> "SMC2";
-"SMC6" -> "SMC3";
-"TAX1BP1" -> "ROCK1";
-"TAX1BP1" -> "RAD50";
-"TAX1BP1" -> "SMC4";
-"TAX1BP1" -> "SMC6";
-"CCDC88A" ["l"="-8.382050,-4.025239"];
-"RAD50" ["l"="-8.417612,-4.476971"];
-"ROCK1" ["l"="-7.301833,-4.348462"];
-"SMC1B" ["l"="-8.006457,-4.541331"];
-"SMC2" ["l"="-7.734841,-4.678506"];
-"SMC3" ["l"="-7.372852,-4.577452"];
-"SMC4" ["l"="-7.767884,-4.791114"];
-"SMC5" ["l"="-7.958052,-4.675438"];
-"SMC6" ["l"="-8.027003,-4.533324"];
-"TAX1BP1" ["l"="-9.053455,-3.729228"];
+"CALCOCO1" ["l"="-10.940,-3.126"]
+"CALCOCO2" ["l"="-8.794,-2.949"]
+"CCDC186" ["l"="-12.575,-3.495"]
+"CCDC88A" ["l"="-8.382,-4.025"]
+"CCDC88C" ["l"="-12.461,-3.782"]
+"CDC42BPA" ["l"="-4.871,-4.012"]
+"CIT" ["l"="-6.288,-4.170"]
+"HOOK1" ["l"="-9.112,-3.328"]
+"JAKMIP2" ["l"="-7.282,-3.588"]
+"KIF5B" ["l"="-5.989,-4.119"]
+"KIF5C" ["l"="-4.898,-4.279"]
+"NIN" ["l"="-13.008,-3.946"]
+"OPTN" ["l"="-9.756,-2.564"]
+"RAD50" ["l"="-8.418,-4.477"]
+"RDX" ["l"="-4.936,-2.998"]
+"ROCK1" ["l"="-7.302,-4.348"]
+"ROCK2" ["l"="-5.999,-4.235"]
+"SMC1B" ["l"="-8.006,-4.541"]
+"SMC2" ["l"="-7.735,-4.679"]
+"SMC3" ["l"="-7.373,-4.577"]
+"SMC4" ["l"="-7.768,-4.791"]
+"SMC5" ["l"="-7.958,-4.675"]
+"SMC6" ["l"="-8.027,-4.533"]
+"TAX1BP1" ["l"="-9.053,-3.729"]
+"CCDC88A" -> "JAKMIP2" ["e"=1]
+"CCDC88A" -> "NIN" ["e"=1]
+"CCDC88A" -> "ROCK1"
+"CCDC88A" -> "CCDC88C" ["e"=1]
+"CCDC88A" -> "ROCK2" ["e"=1]
+"CCDC88A" -> "CDC42BPA" ["e"=1]
+"RAD50" -> "SMC6"
+"RAD50" -> "SMC5"
+"RAD50" -> "SMC3"
+"RAD50" -> "SMC1B"
+"RAD50" -> "SMC2"
+"RAD50" -> "CCDC186" ["e"=1]
+"ROCK1" -> "ROCK2" ["e"=1]
+"ROCK1" -> "KIF5B" ["e"=1]
+"ROCK1" -> "KIF5C" ["e"=1]
+"ROCK1" -> "HOOK1" ["e"=1]
+"ROCK1" -> "CIT" ["e"=1]
+"ROCK1" -> "SMC4"
+"SMC1B" -> "SMC4"
+"SMC1B" -> "SMC3"
+"SMC1B" -> "SMC5"
+"SMC1B" -> "RAD50"
+"SMC1B" -> "SMC2"
+"SMC1B" -> "SMC6"
+"SMC2" -> "SMC4"
+"SMC2" -> "SMC3"
+"SMC2" -> "SMC5"
+"SMC2" -> "SMC6"
+"SMC2" -> "SMC1B"
+"SMC2" -> "RAD50"
+"SMC3" -> "SMC2"
+"SMC3" -> "SMC4"
+"SMC3" -> "SMC5"
+"SMC3" -> "SMC1B"
+"SMC3" -> "SMC6"
+"SMC3" -> "RAD50"
+"SMC4" -> "SMC2"
+"SMC4" -> "SMC3"
+"SMC4" -> "SMC1B"
+"SMC4" -> "SMC5"
+"SMC4" -> "SMC6"
+"SMC4" -> "ROCK1"
+"SMC5" -> "SMC6"
+"SMC5" -> "SMC3"
+"SMC5" -> "SMC2"
+"SMC5" -> "RAD50"
+"SMC5" -> "SMC4"
+"SMC5" -> "SMC1B"
+"SMC6" -> "SMC5"
+"SMC6" -> "RAD50"
+"SMC6" -> "SMC2"
+"SMC6" -> "SMC3"
+"SMC6" -> "SMC4"
+"SMC6" -> "SMC1B"
+"TAX1BP1" -> "CALCOCO2" ["e"=1]
+"TAX1BP1" -> "CALCOCO1" ["e"=1]
+"TAX1BP1" -> "HOOK1" ["e"=1]
+"TAX1BP1" -> "ROCK1"
+"TAX1BP1" -> "RDX" ["e"=1]
+"TAX1BP1" -> "OPTN" ["e"=1]
 }

@@ -1,52 +1,81 @@
 digraph G {
-"FZD1" -> "FZD7";
-"FZD1" -> "FZD2";
-"FZD1" -> "FZD5";
-"FZD1" -> "FZD4";
-"FZD10" -> "FZD7";
-"FZD10" -> "FZD9";
-"FZD10" -> "FZD1";
-"FZD10" -> "FZD5";
-"FZD2" -> "FZD1";
-"FZD2" -> "FZD7";
-"FZD2" -> "FZD5";
-"FZD2" -> "FZD9";
-"FZD4" -> "FZD1";
-"FZD4" -> "FZD7";
-"FZD4" -> "FZD5";
-"FZD4" -> "SMO";
-"FZD5" -> "FZD7";
-"FZD5" -> "FZD1";
-"FZD5" -> "FZD9";
-"FZD5" -> "FZD2";
-"FZD7" -> "FZD1";
-"FZD7" -> "FZD5";
-"FZD7" -> "FZD2";
-"FZD7" -> "FZD10";
-"FZD8" -> "FZD1";
-"FZD8" -> "FZD5";
-"FZD8" -> "FZD7";
-"FZD8" -> "FZD9";
-"FZD9" -> "FZD5";
-"FZD9" -> "FZD2";
-"FZD9" -> "FZD10";
-"FZD9" -> "FZD1";
-"PKDREJ" -> "SMO";
-"PKDREJ" -> "FZD2";
-"PKDREJ" -> "FZD1";
-"PKDREJ" -> "FZD9";
-"SMO" -> "FZD4";
-"SMO" -> "FZD2";
-"SMO" -> "FZD1";
-"SMO" -> "FZD7";
-"FZD1" ["l"="42.195137,-19.558399"];
-"FZD10" ["l"="42.462830,-19.604799"];
-"FZD2" ["l"="42.701542,-19.469372"];
-"FZD4" ["l"="41.990917,-19.465399"];
-"FZD5" ["l"="42.780529,-19.571863"];
-"FZD7" ["l"="42.516029,-19.533142"];
-"FZD8" ["l"="42.715393,-19.500673"];
-"FZD9" ["l"="41.008457,-19.780087"];
-"PKDREJ" ["l"="42.389488,-16.646828"];
-"SMO" ["l"="41.469540,-19.221197"];
+"ADAMTS15" ["l"="61.214,-15.280"]
+"ADCYAP1R1" ["l"="33.675,-23.323"]
+"FZD1" ["l"="42.195,-19.558"]
+"FZD10" ["l"="42.463,-19.605"]
+"FZD2" ["l"="42.702,-19.469"]
+"FZD4" ["l"="41.991,-19.465"]
+"FZD5" ["l"="42.781,-19.572"]
+"FZD7" ["l"="42.516,-19.533"]
+"FZD8" ["l"="42.715,-19.501"]
+"FZD9" ["l"="41.008,-19.780"]
+"IL17RD" ["l"="20.472,28.929"]
+"NWD2" ["l"="23.811,-6.143"]
+"NYNRIN" ["l"="7.629,12.326"]
+"PKD1L1" ["l"="45.201,-16.624"]
+"PKD1L3" ["l"="41.797,-17.352"]
+"PKDREJ" ["l"="42.389,-16.647"]
+"PTCHD3" ["l"="30.434,-21.647"]
+"SMO" ["l"="41.470,-19.221"]
+"TDRD15" ["l"="-2.434,5.411"]
+"FZD1" -> "FZD7"
+"FZD1" -> "FZD2"
+"FZD1" -> "FZD5"
+"FZD1" -> "FZD4"
+"FZD1" -> "FZD9"
+"FZD1" -> "FZD10"
+"FZD10" -> "FZD7"
+"FZD10" -> "FZD9"
+"FZD10" -> "FZD1"
+"FZD10" -> "FZD5"
+"FZD10" -> "FZD2"
+"FZD10" -> "FZD8"
+"FZD2" -> "FZD1"
+"FZD2" -> "FZD7"
+"FZD2" -> "FZD5"
+"FZD2" -> "FZD9"
+"FZD2" -> "FZD10"
+"FZD2" -> "SMO"
+"FZD4" -> "FZD1"
+"FZD4" -> "FZD7"
+"FZD4" -> "FZD5"
+"FZD4" -> "SMO"
+"FZD4" -> "FZD2"
+"FZD4" -> "FZD10"
+"FZD5" -> "FZD7"
+"FZD5" -> "FZD1"
+"FZD5" -> "FZD9"
+"FZD5" -> "FZD2"
+"FZD5" -> "FZD10"
+"FZD5" -> "FZD4"
+"FZD7" -> "FZD1"
+"FZD7" -> "FZD5"
+"FZD7" -> "FZD2"
+"FZD7" -> "FZD10"
+"FZD7" -> "FZD9"
+"FZD7" -> "FZD4"
+"FZD8" -> "FZD1"
+"FZD8" -> "FZD5"
+"FZD8" -> "FZD7"
+"FZD8" -> "FZD9"
+"FZD8" -> "FZD10"
+"FZD8" -> "FZD2"
+"FZD9" -> "FZD5"
+"FZD9" -> "FZD2"
+"FZD9" -> "FZD10"
+"FZD9" -> "FZD1"
+"FZD9" -> "FZD7"
+"FZD9" -> "FZD8"
+"PKDREJ" -> "PKD1L1" ["e"=1]
+"PKDREJ" -> "PKD1L3" ["e"=1]
+"PKDREJ" -> "NYNRIN" ["e"=1]
+"PKDREJ" -> "NWD2" ["e"=1]
+"PKDREJ" -> "TDRD15" ["e"=1]
+"PKDREJ" -> "PTCHD3" ["e"=1]
+"SMO" -> "FZD4"
+"SMO" -> "FZD2"
+"SMO" -> "FZD1"
+"SMO" -> "ADAMTS15" ["e"=1]
+"SMO" -> "ADCYAP1R1" ["e"=1]
+"SMO" -> "IL17RD" ["e"=1]
 }

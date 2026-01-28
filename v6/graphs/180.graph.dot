@@ -1,77 +1,128 @@
 digraph G {
-"CDH23" -> "CSPG4";
-"CDH23" -> "CELSR1";
-"CDH23" -> "FREM1";
-"CDH23" -> "DCHS1";
-"CELSR1" -> "CELSR3";
-"CELSR1" -> "CELSR2";
-"CELSR1" -> "CSPG4";
-"CELSR1" -> "PKD1L2";
-"CELSR2" -> "CELSR3";
-"CELSR2" -> "CELSR1";
-"CELSR2" -> "DCHS1";
-"CELSR2" -> "PLXNA1";
-"CELSR3" -> "CELSR2";
-"CELSR3" -> "CELSR1";
-"CELSR3" -> "DCHS1";
-"CELSR3" -> "PLXNA1";
-"CSPG4" -> "DCHS1";
-"CSPG4" -> "CELSR1";
-"CSPG4" -> "CELSR2";
-"CSPG4" -> "CELSR3";
-"DCHS1" -> "CELSR3";
-"DCHS1" -> "CSPG4";
-"DCHS1" -> "CELSR2";
-"DCHS1" -> "CELSR1";
-"FREM1" -> "FREM3";
-"FREM1" -> "CSPG4";
-"FREM1" -> "CDH23";
-"FREM1" -> "CELSR1";
-"FREM3" -> "FREM1";
-"FREM3" -> "CSPG4";
-"FREM3" -> "CELSR1";
-"FREM3" -> "DCHS1";
-"ITGB4" -> "PLXND1";
-"ITGB4" -> "CELSR1";
-"ITGB4" -> "PLXNB1";
-"ITGB4" -> "PLXNB2";
-"PKD1L2" -> "CELSR1";
-"PKD1L2" -> "CSPG4";
-"PKD1L2" -> "CELSR3";
-"PKD1L2" -> "PLXND1";
-"PLXNA1" -> "PLXND1";
-"PLXNA1" -> "PLXNA2";
-"PLXNA1" -> "PLXNB2";
-"PLXNA1" -> "CELSR2";
-"PLXNA2" -> "PLXNA1";
-"PLXNA2" -> "PLXND1";
-"PLXNA2" -> "PLXNB2";
-"PLXNA2" -> "CELSR1";
-"PLXNB1" -> "PLXNB2";
-"PLXNB1" -> "PLXND1";
-"PLXNB1" -> "CELSR1";
-"PLXNB1" -> "PLXNA1";
-"PLXNB2" -> "PLXNB1";
-"PLXNB2" -> "PLXND1";
-"PLXNB2" -> "PLXNA1";
-"PLXNB2" -> "PLXNA2";
-"PLXND1" -> "PLXNA1";
-"PLXND1" -> "PLXNB2";
-"PLXND1" -> "PLXNB1";
-"PLXND1" -> "PLXNA2";
-"CDH23" ["l"="49.207684,-16.614122"];
-"CELSR1" ["l"="50.757915,-17.078228"];
-"CELSR2" ["l"="49.409286,-16.969501"];
-"CELSR3" ["l"="49.503395,-16.868904"];
-"CSPG4" ["l"="49.641315,-16.926062"];
-"DCHS1" ["l"="49.488911,-16.839657"];
-"FREM1" ["l"="50.686699,-16.452990"];
-"FREM3" ["l"="49.000866,-16.926369"];
-"ITGB4" ["l"="49.915920,-16.343597"];
-"PKD1L2" ["l"="47.729462,-17.620138"];
-"PLXNA1" ["l"="49.186630,-16.538366"];
-"PLXNA2" ["l"="49.762924,-16.089638"];
-"PLXNB1" ["l"="49.710712,-16.784546"];
-"PLXNB2" ["l"="49.372898,-16.644535"];
-"PLXND1" ["l"="49.452953,-16.576853"];
+"C4B" ["l"="50.483,-13.425"]
+"CACNA1S" ["l"="40.426,-21.636"]
+"CDH23" ["l"="49.208,-16.614"]
+"CELSR1" ["l"="50.758,-17.078"]
+"CELSR2" ["l"="49.409,-16.970"]
+"CELSR3" ["l"="49.503,-16.869"]
+"CPAMD8" ["l"="49.024,-14.029"]
+"CSPG4" ["l"="49.641,-16.926"]
+"CUL9" ["l"="17.784,-8.587"]
+"DCHS1" ["l"="49.489,-16.840"]
+"DOCK6" ["l"="17.532,-8.884"]
+"FLNB" ["l"="19.183,-10.545"]
+"FREM1" ["l"="50.687,-16.453"]
+"FREM3" ["l"="49.001,-16.926"]
+"ITGB4" ["l"="49.916,-16.344"]
+"LAMA5" ["l"="53.618,-17.921"]
+"LRP4" ["l"="53.840,-17.386"]
+"MALRD1" ["l"="52.960,-17.196"]
+"MEGF8" ["l"="51.854,-17.322"]
+"NUP210" ["l"="50.096,-14.074"]
+"OTOG" ["l"="53.422,-17.414"]
+"PCDH12" ["l"="128.754,29.986"]
+"PCDH7" ["l"="49.584,-30.037"]
+"PCDHB2" ["l"="130.019,30.807"]
+"PKD1L1" ["l"="45.201,-16.624"]
+"PKD1L2" ["l"="47.729,-17.620"]
+"PKDREJ" ["l"="42.389,-16.647"]
+"PLXNA1" ["l"="49.187,-16.538"]
+"PLXNA2" ["l"="49.763,-16.090"]
+"PLXNB1" ["l"="49.711,-16.785"]
+"PLXNB2" ["l"="49.373,-16.645"]
+"PLXND1" ["l"="49.453,-16.577"]
+"PTPRQ" ["l"="49.098,-15.746"]
+"SBF1" ["l"="17.278,-7.827"]
+"SORL1" ["l"="52.776,-15.993"]
+"ZAN" ["l"="53.724,-17.495"]
+"CDH23" -> "CSPG4"
+"CDH23" -> "CELSR1"
+"CDH23" -> "FLNB" ["e"=1]
+"CDH23" -> "FREM1"
+"CDH23" -> "PTPRQ" ["e"=1]
+"CDH23" -> "DCHS1"
+"CELSR1" -> "CELSR3"
+"CELSR1" -> "CELSR2"
+"CELSR1" -> "LAMA5" ["e"=1]
+"CELSR1" -> "LRP4" ["e"=1]
+"CELSR1" -> "CSPG4"
+"CELSR1" -> "DOCK6" ["e"=1]
+"CELSR2" -> "CELSR3"
+"CELSR2" -> "CELSR1"
+"CELSR2" -> "DCHS1"
+"CELSR2" -> "PLXNA1"
+"CELSR2" -> "CSPG4"
+"CELSR2" -> "MEGF8" ["e"=1]
+"CELSR3" -> "CELSR2"
+"CELSR3" -> "CELSR1"
+"CELSR3" -> "DCHS1"
+"CELSR3" -> "SBF1" ["e"=1]
+"CELSR3" -> "MEGF8" ["e"=1]
+"CELSR3" -> "CUL9" ["e"=1]
+"CSPG4" -> "DCHS1"
+"CSPG4" -> "CELSR1"
+"CSPG4" -> "CELSR2"
+"CSPG4" -> "CELSR3"
+"CSPG4" -> "FREM3"
+"CSPG4" -> "PCDH12" ["e"=1]
+"DCHS1" -> "CELSR3"
+"DCHS1" -> "CSPG4"
+"DCHS1" -> "CELSR2"
+"DCHS1" -> "CELSR1"
+"DCHS1" -> "CDH23"
+"DCHS1" -> "MEGF8" ["e"=1]
+"FREM1" -> "FREM3"
+"FREM1" -> "MALRD1" ["e"=1]
+"FREM1" -> "NUP210" ["e"=1]
+"FREM1" -> "CSPG4"
+"FREM1" -> "PKD1L1" ["e"=1]
+"FREM1" -> "CDH23"
+"FREM3" -> "FREM1"
+"FREM3" -> "CSPG4"
+"FREM3" -> "PKDREJ" ["e"=1]
+"FREM3" -> "CELSR1"
+"FREM3" -> "PCDHB2" ["e"=1]
+"FREM3" -> "PCDH7" ["e"=1]
+"ITGB4" -> "PLXND1"
+"ITGB4" -> "CELSR1"
+"ITGB4" -> "CPAMD8" ["e"=1]
+"ITGB4" -> "C4B" ["e"=1]
+"ITGB4" -> "PLXNB1"
+"ITGB4" -> "PLXNB2"
+"PKD1L2" -> "PKD1L1" ["e"=1]
+"PKD1L2" -> "OTOG" ["e"=1]
+"PKD1L2" -> "CELSR1"
+"PKD1L2" -> "CACNA1S" ["e"=1]
+"PKD1L2" -> "CSPG4"
+"PKD1L2" -> "ZAN" ["e"=1]
+"PLXNA1" -> "PLXND1"
+"PLXNA1" -> "PLXNA2"
+"PLXNA1" -> "PLXNB2"
+"PLXNA1" -> "SBF1" ["e"=1]
+"PLXNA1" -> "CELSR2"
+"PLXNA1" -> "CELSR1"
+"PLXNA2" -> "PLXNA1"
+"PLXNA2" -> "PLXND1"
+"PLXNA2" -> "PLXNB2"
+"PLXNA2" -> "SORL1" ["e"=1]
+"PLXNA2" -> "CELSR1"
+"PLXNA2" -> "PLXNB1"
+"PLXNB1" -> "PLXNB2"
+"PLXNB1" -> "PLXND1"
+"PLXNB1" -> "CELSR1"
+"PLXNB1" -> "PLXNA1"
+"PLXNB1" -> "ITGB4"
+"PLXNB1" -> "PLXNA2"
+"PLXNB2" -> "PLXNB1"
+"PLXNB2" -> "PLXND1"
+"PLXNB2" -> "PLXNA1"
+"PLXNB2" -> "PLXNA2"
+"PLXNB2" -> "ITGB4"
+"PLXNB2" -> "CELSR1"
+"PLXND1" -> "PLXNA1"
+"PLXND1" -> "PLXNB2"
+"PLXND1" -> "PLXNB1"
+"PLXND1" -> "PLXNA2"
+"PLXND1" -> "ITGB4"
+"PLXND1" -> "DOCK6" ["e"=1]
 }

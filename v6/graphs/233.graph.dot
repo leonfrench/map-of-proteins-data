@@ -1,132 +1,223 @@
 digraph G {
-"AMHR2" -> "MPL";
-"AMHR2" -> "IFNLR1";
-"AMHR2" -> "EPOR";
-"AMHR2" -> "IL6R";
-"CSF2RB" -> "IL2RB";
-"CSF2RB" -> "IL22RA1";
-"CSF2RB" -> "MPL";
-"CSF2RB" -> "IL10RA";
-"CSF3R" -> "MPL";
-"CSF3R" -> "IL27RA";
-"CSF3R" -> "IL6R";
-"CSF3R" -> "CSF2RB";
-"EBI3" -> "IL6R";
-"EBI3" -> "IFNGR2";
-"EBI3" -> "IL27RA";
-"EBI3" -> "MPL";
-"EFNB2" -> "NECTIN3";
-"EFNB2" -> "F3";
-"EFNB2" -> "PRLR";
-"EFNB2" -> "IL6R";
-"EPOR" -> "IL21R";
-"EPOR" -> "MPL";
-"EPOR" -> "IFNLR1";
-"EPOR" -> "IL6R";
-"F3" -> "IL1R2";
-"F3" -> "IFNGR2";
-"F3" -> "IL6R";
-"F3" -> "EBI3";
-"GHR" -> "PRLR";
-"GHR" -> "IFNLR1";
-"GHR" -> "NECTIN3";
-"GHR" -> "IL20RA";
-"IFNAR2" -> "IL10RA";
-"IFNAR2" -> "IL20RA";
-"IFNAR2" -> "IFNLR1";
-"IFNAR2" -> "IL21R";
-"IFNGR2" -> "IL6R";
-"IFNGR2" -> "EBI3";
-"IFNGR2" -> "IL5RA";
-"IFNGR2" -> "IL12RB1";
-"IFNLR1" -> "IL21R";
-"IFNLR1" -> "IL20RA";
-"IFNLR1" -> "IL2RB";
-"IFNLR1" -> "MPL";
-"IL10RA" -> "IL20RA";
-"IL10RA" -> "IL21R";
-"IL10RA" -> "IL2RB";
-"IL10RA" -> "IFNLR1";
-"IL12RB1" -> "IL27RA";
-"IL12RB1" -> "MPL";
-"IL12RB1" -> "IL6R";
-"IL12RB1" -> "IFNLR1";
-"IL1R2" -> "F3";
-"IL1R2" -> "IL12RB1";
-"IL1R2" -> "IL5RA";
-"IL1R2" -> "IFNGR2";
-"IL20RA" -> "IFNLR1";
-"IL20RA" -> "IL10RA";
-"IL20RA" -> "IL21R";
-"IL20RA" -> "IL2RB";
-"IL21R" -> "IFNLR1";
-"IL21R" -> "IL2RB";
-"IL21R" -> "IL4R";
-"IL21R" -> "IL10RA";
-"IL22RA1" -> "IFNLR1";
-"IL22RA1" -> "IL20RA";
-"IL22RA1" -> "CSF2RB";
-"IL22RA1" -> "IL10RA";
-"IL27RA" -> "MPL";
-"IL27RA" -> "IL12RB1";
-"IL27RA" -> "IL2RB";
-"IL27RA" -> "IL6R";
-"IL2RB" -> "CSF2RB";
-"IL2RB" -> "IL21R";
-"IL2RB" -> "IL27RA";
-"IL2RB" -> "IFNLR1";
-"IL4R" -> "IL21R";
-"IL4R" -> "IFNLR1";
-"IL4R" -> "IL10RA";
-"IL4R" -> "IL20RA";
-"IL5RA" -> "MPL";
-"IL5RA" -> "IL6R";
-"IL5RA" -> "IFNGR2";
-"IL5RA" -> "IL12RB1";
-"IL6R" -> "MPL";
-"IL6R" -> "IL27RA";
-"IL6R" -> "IFNLR1";
-"IL6R" -> "IFNGR2";
-"MPL" -> "IL27RA";
-"MPL" -> "IL6R";
-"MPL" -> "CSF3R";
-"MPL" -> "IL2RB";
-"NECTIN3" -> "IL6R";
-"NECTIN3" -> "EFNB2";
-"NECTIN3" -> "GHR";
-"NECTIN3" -> "SGCE";
-"PRLR" -> "IFNLR1";
-"PRLR" -> "IL20RA";
-"PRLR" -> "GHR";
-"PRLR" -> "IL22RA1";
-"SGCE" -> "NECTIN3";
-"SGCE" -> "GHR";
-"SGCE" -> "EFNB2";
-"SGCE" -> "MPL";
-"AMHR2" ["l"="22.235193,29.418816"];
-"CSF2RB" ["l"="21.387819,30.957870"];
-"CSF3R" ["l"="21.072628,31.166161"];
-"EBI3" ["l"="20.783869,31.698061"];
-"EFNB2" ["l"="22.146486,29.126204"];
-"EPOR" ["l"="21.526020,30.864349"];
-"F3" ["l"="21.011290,31.143099"];
-"GHR" ["l"="21.790033,30.997082"];
-"IFNAR2" ["l"="21.411907,31.141846"];
-"IFNGR2" ["l"="20.908310,31.407726"];
-"IFNLR1" ["l"="20.938992,30.725571"];
-"IL10RA" ["l"="21.396408,31.026443"];
-"IL12RB1" ["l"="19.941717,31.774107"];
-"IL1R2" ["l"="21.155413,31.476822"];
-"IL20RA" ["l"="21.479416,31.183779"];
-"IL21R" ["l"="21.632759,31.030230"];
-"IL22RA1" ["l"="21.627945,31.116352"];
-"IL27RA" ["l"="20.546131,31.518232"];
-"IL2RB" ["l"="21.150084,31.005239"];
-"IL4R" ["l"="22.226845,30.800041"];
-"IL5RA" ["l"="21.077850,31.417952"];
-"IL6R" ["l"="20.523523,31.180946"];
-"MPL" ["l"="21.258537,31.213490"];
-"NECTIN3" ["l"="22.469990,29.829794"];
-"PRLR" ["l"="21.626574,30.826265"];
-"SGCE" ["l"="21.429556,29.757580"];
+"ACP4" ["l"="64.545,-5.562"]
+"ACVRL1" ["l"="66.630,33.283"]
+"ADAMTSL5" ["l"="66.154,-13.715"]
+"AMHR2" ["l"="22.235,29.419"]
+"ANTXR2" ["l"="57.265,-11.387"]
+"CD200R1" ["l"="15.992,32.237"]
+"CD80" ["l"="15.764,32.367"]
+"CSF2RB" ["l"="21.388,30.958"]
+"CSF3R" ["l"="21.073,31.166"]
+"CXADR" ["l"="19.830,30.083"]
+"DCBLD1" ["l"="18.525,27.715"]
+"DCBLD2" ["l"="61.447,-12.572"]
+"DGCR2" ["l"="60.133,-11.928"]
+"EBI3" ["l"="20.784,31.698"]
+"EFNB2" ["l"="22.146,29.126"]
+"EPHB6" ["l"="68.381,32.492"]
+"EPOR" ["l"="21.526,30.864"]
+"F3" ["l"="21.011,31.143"]
+"FAM171B" ["l"="21.216,28.673"]
+"GHR" ["l"="21.790,30.997"]
+"IFNAR1" ["l"="22.059,31.620"]
+"IFNAR2" ["l"="21.412,31.142"]
+"IFNGR1" ["l"="21.999,31.346"]
+"IFNGR2" ["l"="20.908,31.408"]
+"IFNLR1" ["l"="20.939,30.726"]
+"IGFLR1" ["l"="20.272,27.076"]
+"IL10RA" ["l"="21.396,31.026"]
+"IL10RB" ["l"="20.337,31.140"]
+"IL12B" ["l"="21.519,31.594"]
+"IL12RB1" ["l"="19.942,31.774"]
+"IL12RB2" ["l"="21.990,31.491"]
+"IL17RD" ["l"="20.472,28.929"]
+"IL1R1" ["l"="22.883,31.692"]
+"IL1R2" ["l"="21.155,31.477"]
+"IL1RAP" ["l"="22.681,31.690"]
+"IL1RL1" ["l"="22.597,31.461"]
+"IL1RL2" ["l"="22.713,31.626"]
+"IL20RA" ["l"="21.479,31.184"]
+"IL20RB" ["l"="21.559,31.627"]
+"IL21R" ["l"="21.633,31.030"]
+"IL22RA1" ["l"="21.628,31.116"]
+"IL22RA2" ["l"="21.918,31.461"]
+"IL23R" ["l"="21.987,31.394"]
+"IL27RA" ["l"="20.546,31.518"]
+"IL2RB" ["l"="21.150,31.005"]
+"IL31RA" ["l"="22.123,31.487"]
+"IL4R" ["l"="22.227,30.800"]
+"IL5RA" ["l"="21.078,31.418"]
+"IL6R" ["l"="20.524,31.181"]
+"IL6ST" ["l"="22.526,31.993"]
+"KITLG" ["l"="26.477,28.484"]
+"MPL" ["l"="21.259,31.213"]
+"MPZL2" ["l"="19.403,29.958"]
+"NECTIN3" ["l"="22.470,29.830"]
+"NEO1" ["l"="48.935,-14.565"]
+"NETO2" ["l"="48.711,-12.407"]
+"PLXDC2" ["l"="60.710,-11.501"]
+"PRLR" ["l"="21.627,30.826"]
+"PRTG" ["l"="49.756,-14.110"]
+"RGMB" ["l"="63.371,-11.494"]
+"ROBO4" ["l"="20.999,30.388"]
+"SGCA" ["l"="20.323,29.451"]
+"SGCE" ["l"="21.430,29.758"]
+"TNFRSF11A" ["l"="18.193,27.801"]
+"VSTM5" ["l"="19.008,29.881"]
+"AMHR2" -> "MPL"
+"AMHR2" -> "EPHB6" ["e"=1]
+"AMHR2" -> "ADAMTSL5" ["e"=1]
+"AMHR2" -> "IGFLR1" ["e"=1]
+"AMHR2" -> "ACVRL1" ["e"=1]
+"AMHR2" -> "ACP4" ["e"=1]
+"CSF2RB" -> "IL2RB"
+"CSF2RB" -> "IL22RA1"
+"CSF2RB" -> "MPL"
+"CSF2RB" -> "IL10RA"
+"CSF2RB" -> "IL27RA"
+"CSF2RB" -> "IFNLR1"
+"CSF3R" -> "MPL"
+"CSF3R" -> "IL27RA"
+"CSF3R" -> "IL6R"
+"CSF3R" -> "CSF2RB"
+"CSF3R" -> "IL2RB"
+"CSF3R" -> "IL12RB2" ["e"=1]
+"EBI3" -> "IL6R"
+"EBI3" -> "IFNGR2"
+"EBI3" -> "IL27RA"
+"EBI3" -> "MPL"
+"EBI3" -> "IL22RA2" ["e"=1]
+"EBI3" -> "IL12RB1"
+"EFNB2" -> "NETO2" ["e"=1]
+"EFNB2" -> "CXADR" ["e"=1]
+"EFNB2" -> "NECTIN3"
+"EFNB2" -> "PLXDC2" ["e"=1]
+"EFNB2" -> "KITLG" ["e"=1]
+"EFNB2" -> "RGMB" ["e"=1]
+"EPOR" -> "IL21R"
+"EPOR" -> "MPL"
+"EPOR" -> "IFNLR1"
+"EPOR" -> "IL6R"
+"EPOR" -> "IL20RA"
+"EPOR" -> "ROBO4" ["e"=1]
+"F3" -> "IL1R1" ["e"=1]
+"F3" -> "IL1RAP" ["e"=1]
+"F3" -> "IL1R2"
+"F3" -> "MPZL2" ["e"=1]
+"F3" -> "IL12B" ["e"=1]
+"F3" -> "IL1RL1" ["e"=1]
+"GHR" -> "PRLR"
+"GHR" -> "IL31RA" ["e"=1]
+"GHR" -> "NETO2" ["e"=1]
+"GHR" -> "FAM171B" ["e"=1]
+"GHR" -> "IL6ST" ["e"=1]
+"GHR" -> "DCBLD1" ["e"=1]
+"IFNAR2" -> "IL10RA"
+"IFNAR2" -> "IL10RB" ["e"=1]
+"IFNAR2" -> "IL20RA"
+"IFNAR2" -> "IFNGR1" ["e"=1]
+"IFNAR2" -> "IFNLR1"
+"IFNAR2" -> "IFNAR1" ["e"=1]
+"IFNGR2" -> "IL10RB" ["e"=1]
+"IFNGR2" -> "IL6R"
+"IFNGR2" -> "EBI3"
+"IFNGR2" -> "IL5RA"
+"IFNGR2" -> "IFNAR1" ["e"=1]
+"IFNGR2" -> "IL12RB1"
+"IFNLR1" -> "IL21R"
+"IFNLR1" -> "IL20RA"
+"IFNLR1" -> "IL2RB"
+"IFNLR1" -> "MPL"
+"IFNLR1" -> "IL10RA"
+"IFNLR1" -> "IL22RA1"
+"IL10RA" -> "IL20RA"
+"IL10RA" -> "IL21R"
+"IL10RA" -> "IL2RB"
+"IL10RA" -> "IFNLR1"
+"IL10RA" -> "IFNAR2"
+"IL10RA" -> "IFNGR1" ["e"=1]
+"IL12RB1" -> "IL27RA"
+"IL12RB1" -> "MPL"
+"IL12RB1" -> "IL20RB" ["e"=1]
+"IL12RB1" -> "IL6R"
+"IL12RB1" -> "IFNLR1"
+"IL12RB1" -> "IL12RB2" ["e"=1]
+"IL1R2" -> "F3"
+"IL1R2" -> "CD80" ["e"=1]
+"IL1R2" -> "IL1RAP" ["e"=1]
+"IL1R2" -> "IL1RL2" ["e"=1]
+"IL1R2" -> "IL20RB" ["e"=1]
+"IL1R2" -> "VSTM5" ["e"=1]
+"IL20RA" -> "IFNLR1"
+"IL20RA" -> "IL10RA"
+"IL20RA" -> "IL21R"
+"IL20RA" -> "IL2RB"
+"IL20RA" -> "IL23R" ["e"=1]
+"IL20RA" -> "IFNGR1" ["e"=1]
+"IL21R" -> "IFNLR1"
+"IL21R" -> "IL2RB"
+"IL21R" -> "IL4R"
+"IL21R" -> "IL10RA"
+"IL21R" -> "IL20RA"
+"IL21R" -> "EPOR"
+"IL22RA1" -> "IFNLR1"
+"IL22RA1" -> "IL20RA"
+"IL22RA1" -> "CSF2RB"
+"IL22RA1" -> "IL10RA"
+"IL22RA1" -> "IL17RD" ["e"=1]
+"IL22RA1" -> "IL21R"
+"IL27RA" -> "MPL"
+"IL27RA" -> "IL12RB1"
+"IL27RA" -> "IL2RB"
+"IL27RA" -> "IL6R"
+"IL27RA" -> "IL31RA" ["e"=1]
+"IL27RA" -> "IL12RB2" ["e"=1]
+"IL2RB" -> "CSF2RB"
+"IL2RB" -> "IL21R"
+"IL2RB" -> "IL27RA"
+"IL2RB" -> "IFNLR1"
+"IL2RB" -> "IL10RA"
+"IL2RB" -> "MPL"
+"IL4R" -> "IL21R"
+"IL4R" -> "IFNLR1"
+"IL4R" -> "IL10RA"
+"IL4R" -> "IL20RA"
+"IL4R" -> "CSF2RB"
+"IL4R" -> "IL22RA1"
+"IL5RA" -> "IL12B" ["e"=1]
+"IL5RA" -> "IL31RA" ["e"=1]
+"IL5RA" -> "CD200R1" ["e"=1]
+"IL5RA" -> "MPL"
+"IL5RA" -> "IL6R"
+"IL5RA" -> "IFNGR2"
+"IL6R" -> "MPL"
+"IL6R" -> "IL27RA"
+"IL6R" -> "IL31RA" ["e"=1]
+"IL6R" -> "IFNLR1"
+"IL6R" -> "IFNGR2"
+"IL6R" -> "IL12RB2" ["e"=1]
+"MPL" -> "IL27RA"
+"MPL" -> "IL6R"
+"MPL" -> "CSF3R"
+"MPL" -> "IL31RA" ["e"=1]
+"MPL" -> "IL2RB"
+"MPL" -> "IFNLR1"
+"NECTIN3" -> "DCBLD2" ["e"=1]
+"NECTIN3" -> "CXADR" ["e"=1]
+"NECTIN3" -> "PRTG" ["e"=1]
+"NECTIN3" -> "NETO2" ["e"=1]
+"NECTIN3" -> "ANTXR2" ["e"=1]
+"NECTIN3" -> "KITLG" ["e"=1]
+"PRLR" -> "IFNLR1"
+"PRLR" -> "IL20RA"
+"PRLR" -> "GHR"
+"PRLR" -> "IL31RA" ["e"=1]
+"PRLR" -> "TNFRSF11A" ["e"=1]
+"PRLR" -> "NETO2" ["e"=1]
+"SGCE" -> "SGCA" ["e"=1]
+"SGCE" -> "NECTIN3"
+"SGCE" -> "CXADR" ["e"=1]
+"SGCE" -> "DGCR2" ["e"=1]
+"SGCE" -> "NETO2" ["e"=1]
+"SGCE" -> "NEO1" ["e"=1]
 }

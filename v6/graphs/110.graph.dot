@@ -1,117 +1,197 @@
 digraph G {
-"ADM" -> "POMC";
-"ADM" -> "PTHLH";
-"ADM" -> "RNASE10";
-"ADM" -> "RNASE11";
-"ANG" -> "RNASE4";
-"ANG" -> "RNASE2";
-"ANG" -> "RNASE1";
-"ANG" -> "RNASE8";
-"EDDM3B" -> "RNASE13";
-"EDDM3B" -> "RNASE11";
-"EDDM3B" -> "RNASE8";
-"EDDM3B" -> "RNASE4";
-"EMILIN1" -> "EMILIN3";
-"EMILIN1" -> "MMRN2";
-"EMILIN1" -> "EMILIN2";
-"EMILIN1" -> "MMRN1";
-"EMILIN2" -> "MMRN2";
-"EMILIN2" -> "EMILIN3";
-"EMILIN2" -> "MMRN1";
-"EMILIN2" -> "EMILIN1";
-"EMILIN3" -> "EMILIN1";
-"EMILIN3" -> "MMRN2";
-"EMILIN3" -> "EMILIN2";
-"EMILIN3" -> "MMRN1";
-"ERFE" -> "EMILIN3";
-"ERFE" -> "EMILIN2";
-"ERFE" -> "POMC";
-"ERFE" -> "RNASE10";
-"MMRN1" -> "MMRN2";
-"MMRN1" -> "EMILIN2";
-"MMRN1" -> "EMILIN3";
-"MMRN1" -> "EMILIN1";
-"MMRN2" -> "EMILIN3";
-"MMRN2" -> "EMILIN2";
-"MMRN2" -> "MMRN1";
-"MMRN2" -> "EMILIN1";
-"POMC" -> "ADM";
-"POMC" -> "RNASE10";
-"POMC" -> "ERFE";
-"POMC" -> "RNASE11";
-"PTHLH" -> "ADM";
-"PTHLH" -> "POMC";
-"PTHLH" -> "RNASE10";
-"PTHLH" -> "RNASE11";
-"RNASE1" -> "RNASE4";
-"RNASE1" -> "ANG";
-"RNASE1" -> "RNASE7";
-"RNASE1" -> "RNASE6";
-"RNASE10" -> "RNASE11";
-"RNASE10" -> "RNASE4";
-"RNASE10" -> "RNASE9";
-"RNASE10" -> "RNASE12";
-"RNASE11" -> "RNASE10";
-"RNASE11" -> "RNASE9";
-"RNASE11" -> "EDDM3B";
-"RNASE11" -> "RNASE13";
-"RNASE12" -> "RNASE9";
-"RNASE12" -> "RNASE13";
-"RNASE12" -> "EDDM3B";
-"RNASE12" -> "RNASE11";
-"RNASE13" -> "EDDM3B";
-"RNASE13" -> "RNASE11";
-"RNASE13" -> "RNASE4";
-"RNASE13" -> "RNASE12";
-"RNASE2" -> "RNASE3";
-"RNASE2" -> "RNASE6";
-"RNASE2" -> "RNASE4";
-"RNASE2" -> "ANG";
-"RNASE3" -> "RNASE2";
-"RNASE3" -> "RNASE6";
-"RNASE3" -> "RNASE4";
-"RNASE3" -> "EDDM3B";
-"RNASE4" -> "ANG";
-"RNASE4" -> "RNASE6";
-"RNASE4" -> "RNASE3";
-"RNASE4" -> "RNASE13";
-"RNASE6" -> "RNASE4";
-"RNASE6" -> "RNASE3";
-"RNASE6" -> "RNASE2";
-"RNASE6" -> "RNASE7";
-"RNASE7" -> "RNASE8";
-"RNASE7" -> "RNASE6";
-"RNASE7" -> "RNASE4";
-"RNASE7" -> "EDDM3B";
-"RNASE8" -> "RNASE7";
-"RNASE8" -> "EDDM3B";
-"RNASE8" -> "RNASE4";
-"RNASE8" -> "RNASE11";
-"RNASE9" -> "RNASE11";
-"RNASE9" -> "RNASE12";
-"RNASE9" -> "EDDM3B";
-"RNASE9" -> "RNASE10";
-"ADM" ["l"="85.577347,-15.262263"];
-"ANG" ["l"="85.301506,-13.487042"];
-"EDDM3B" ["l"="85.248207,-13.423467"];
-"EMILIN1" ["l"="86.589943,-11.217731"];
-"EMILIN2" ["l"="85.486290,-10.977387"];
-"EMILIN3" ["l"="86.128601,-11.342317"];
-"ERFE" ["l"="85.520416,-10.451918"];
-"MMRN1" ["l"="84.121849,-11.180199"];
-"MMRN2" ["l"="85.546928,-11.218430"];
-"POMC" ["l"="84.699646,-14.474684"];
-"PTHLH" ["l"="84.697113,-15.348316"];
-"RNASE1" ["l"="85.502975,-13.433501"];
-"RNASE10" ["l"="83.391991,-13.178236"];
-"RNASE11" ["l"="83.967186,-13.561159"];
-"RNASE12" ["l"="85.008667,-13.431582"];
-"RNASE13" ["l"="85.056747,-13.512211"];
-"RNASE2" ["l"="85.303360,-13.403287"];
-"RNASE3" ["l"="85.270447,-13.463665"];
-"RNASE4" ["l"="85.302559,-13.431518"];
-"RNASE6" ["l"="85.521690,-13.471510"];
-"RNASE7" ["l"="84.975784,-13.475135"];
-"RNASE8" ["l"="85.371124,-13.530995"];
-"RNASE9" ["l"="85.134911,-13.380406"];
+"ADM" ["l"="85.577,-15.262"]
+"ADM2" ["l"="89.381,-15.892"]
+"ANG" ["l"="85.302,-13.487"]
+"ANGPTL6" ["l"="75.857,-10.844"]
+"BMP8B" ["l"="77.401,-10.996"]
+"C1QTNF12" ["l"="88.886,-9.970"]
+"C1QTNF8" ["l"="92.801,-10.433"]
+"CDR2L" ["l"="-5.736,-1.881"]
+"CLEC3A" ["l"="76.091,-11.997"]
+"CLEC4F" ["l"="-18.675,-29.795"]
+"COLEC12" ["l"="91.379,-11.513"]
+"EDDM3B" ["l"="85.248,-13.423"]
+"EDN1" ["l"="82.267,-15.074"]
+"EDN2" ["l"="83.117,-15.338"]
+"EDN3" ["l"="76.638,-14.751"]
+"EMILIN1" ["l"="86.590,-11.218"]
+"EMILIN2" ["l"="85.486,-10.977"]
+"EMILIN3" ["l"="86.129,-11.342"]
+"ERFE" ["l"="85.520,-10.452"]
+"FGF19" ["l"="92.056,-7.085"]
+"FGL2" ["l"="77.311,-11.409"]
+"GDF11" ["l"="78.909,-11.060"]
+"GDF6" ["l"="78.658,-10.990"]
+"GNRH1" ["l"="91.350,-16.510"]
+"GRP" ["l"="91.020,-16.469"]
+"IFNA1" ["l"="36.347,28.991"]
+"IFNA14" ["l"="36.952,29.145"]
+"IFNA21" ["l"="36.858,29.204"]
+"IFNK" ["l"="36.688,29.099"]
+"IGF1" ["l"="80.345,-14.536"]
+"IGF2" ["l"="81.038,-15.131"]
+"IL17C" ["l"="79.513,-13.321"]
+"IL17D" ["l"="73.942,-11.984"]
+"INSL5" ["l"="89.599,-15.908"]
+"MMRN1" ["l"="84.122,-11.180"]
+"MMRN2" ["l"="85.547,-11.218"]
+"NPPC" ["l"="91.129,-16.445"]
+"OSTN" ["l"="91.064,-16.396"]
+"PBXIP1" ["l"="10.933,16.222"]
+"PLXDC2" ["l"="60.710,-11.501"]
+"POMC" ["l"="84.700,-14.475"]
+"PTHLH" ["l"="84.697,-15.348"]
+"QRFP" ["l"="90.206,-16.105"]
+"RNASE1" ["l"="85.503,-13.434"]
+"RNASE10" ["l"="83.392,-13.178"]
+"RNASE11" ["l"="83.967,-13.561"]
+"RNASE12" ["l"="85.009,-13.432"]
+"RNASE13" ["l"="85.057,-13.512"]
+"RNASE2" ["l"="85.303,-13.403"]
+"RNASE3" ["l"="85.270,-13.464"]
+"RNASE4" ["l"="85.303,-13.432"]
+"RNASE6" ["l"="85.522,-13.472"]
+"RNASE7" ["l"="84.976,-13.475"]
+"RNASE8" ["l"="85.371,-13.531"]
+"RNASE9" ["l"="85.135,-13.380"]
+"SCARA3" ["l"="91.761,-11.483"]
+"SCARA5" ["l"="90.907,-11.366"]
+"ADM" -> "EDN2" ["e"=1]
+"ADM" -> "EDN1" ["e"=1]
+"ADM" -> "NPPC" ["e"=1]
+"ADM" -> "ADM2" ["e"=1]
+"ADM" -> "IGF2" ["e"=1]
+"ADM" -> "GRP" ["e"=1]
+"ANG" -> "RNASE4"
+"ANG" -> "RNASE2"
+"ANG" -> "RNASE1"
+"ANG" -> "RNASE8"
+"ANG" -> "RNASE6"
+"ANG" -> "RNASE3"
+"EDDM3B" -> "RNASE13"
+"EDDM3B" -> "RNASE11"
+"EDDM3B" -> "RNASE8"
+"EDDM3B" -> "RNASE4"
+"EDDM3B" -> "RNASE9"
+"EDDM3B" -> "RNASE6"
+"EMILIN1" -> "EMILIN3"
+"EMILIN1" -> "MMRN2"
+"EMILIN1" -> "EMILIN2"
+"EMILIN1" -> "SCARA5" ["e"=1]
+"EMILIN1" -> "ANGPTL6" ["e"=1]
+"EMILIN1" -> "SCARA3" ["e"=1]
+"EMILIN2" -> "MMRN2"
+"EMILIN2" -> "EMILIN3"
+"EMILIN2" -> "MMRN1"
+"EMILIN2" -> "COLEC12" ["e"=1]
+"EMILIN2" -> "SCARA5" ["e"=1]
+"EMILIN2" -> "BMP8B" ["e"=1]
+"EMILIN3" -> "EMILIN1"
+"EMILIN3" -> "MMRN2"
+"EMILIN3" -> "EMILIN2"
+"EMILIN3" -> "MMRN1"
+"EMILIN3" -> "CDR2L" ["e"=1]
+"EMILIN3" -> "CLEC4F" ["e"=1]
+"ERFE" -> "C1QTNF12" ["e"=1]
+"ERFE" -> "C1QTNF8" ["e"=1]
+"ERFE" -> "BMP8B" ["e"=1]
+"ERFE" -> "GDF6" ["e"=1]
+"ERFE" -> "IL17D" ["e"=1]
+"ERFE" -> "GDF11" ["e"=1]
+"MMRN1" -> "MMRN2"
+"MMRN1" -> "EMILIN2"
+"MMRN1" -> "CLEC4F" ["e"=1]
+"MMRN1" -> "FGL2" ["e"=1]
+"MMRN1" -> "PLXDC2" ["e"=1]
+"MMRN1" -> "EMILIN3"
+"MMRN2" -> "EMILIN3"
+"MMRN2" -> "EMILIN2"
+"MMRN2" -> "MMRN1"
+"MMRN2" -> "EMILIN1"
+"MMRN2" -> "PBXIP1" ["e"=1]
+"MMRN2" -> "CLEC4F" ["e"=1]
+"POMC" -> "ADM"
+"POMC" -> "CLEC3A" ["e"=1]
+"POMC" -> "FGF19" ["e"=1]
+"POMC" -> "QRFP" ["e"=1]
+"POMC" -> "EDN3" ["e"=1]
+"POMC" -> "INSL5" ["e"=1]
+"PTHLH" -> "EDN1" ["e"=1]
+"PTHLH" -> "ADM"
+"PTHLH" -> "IGF1" ["e"=1]
+"PTHLH" -> "OSTN" ["e"=1]
+"PTHLH" -> "GNRH1" ["e"=1]
+"PTHLH" -> "EDN2" ["e"=1]
+"RNASE1" -> "RNASE4"
+"RNASE1" -> "ANG"
+"RNASE1" -> "RNASE7"
+"RNASE1" -> "RNASE6"
+"RNASE1" -> "RNASE8"
+"RNASE1" -> "RNASE2"
+"RNASE10" -> "RNASE11"
+"RNASE10" -> "IL17C" ["e"=1]
+"RNASE10" -> "IFNA1" ["e"=1]
+"RNASE10" -> "RNASE4"
+"RNASE10" -> "IFNA21" ["e"=1]
+"RNASE10" -> "IFNA14" ["e"=1]
+"RNASE11" -> "RNASE10"
+"RNASE11" -> "RNASE9"
+"RNASE11" -> "EDDM3B"
+"RNASE11" -> "RNASE13"
+"RNASE11" -> "IFNA1" ["e"=1]
+"RNASE11" -> "IFNA21" ["e"=1]
+"RNASE12" -> "RNASE9"
+"RNASE12" -> "RNASE13"
+"RNASE12" -> "EDDM3B"
+"RNASE12" -> "RNASE11"
+"RNASE12" -> "RNASE6"
+"RNASE12" -> "RNASE10"
+"RNASE13" -> "EDDM3B"
+"RNASE13" -> "RNASE11"
+"RNASE13" -> "RNASE4"
+"RNASE13" -> "RNASE12"
+"RNASE13" -> "RNASE6"
+"RNASE13" -> "RNASE8"
+"RNASE2" -> "RNASE3"
+"RNASE2" -> "RNASE6"
+"RNASE2" -> "RNASE4"
+"RNASE2" -> "ANG"
+"RNASE2" -> "RNASE7"
+"RNASE2" -> "RNASE8"
+"RNASE3" -> "RNASE2"
+"RNASE3" -> "RNASE6"
+"RNASE3" -> "RNASE4"
+"RNASE3" -> "EDDM3B"
+"RNASE3" -> "RNASE7"
+"RNASE3" -> "RNASE8"
+"RNASE4" -> "ANG"
+"RNASE4" -> "RNASE6"
+"RNASE4" -> "RNASE3"
+"RNASE4" -> "RNASE13"
+"RNASE4" -> "RNASE7"
+"RNASE4" -> "RNASE2"
+"RNASE6" -> "RNASE4"
+"RNASE6" -> "RNASE3"
+"RNASE6" -> "RNASE2"
+"RNASE6" -> "RNASE7"
+"RNASE6" -> "RNASE13"
+"RNASE6" -> "EDDM3B"
+"RNASE7" -> "RNASE8"
+"RNASE7" -> "RNASE6"
+"RNASE7" -> "RNASE4"
+"RNASE7" -> "EDDM3B"
+"RNASE7" -> "RNASE1"
+"RNASE7" -> "RNASE2"
+"RNASE8" -> "RNASE7"
+"RNASE8" -> "EDDM3B"
+"RNASE8" -> "RNASE4"
+"RNASE8" -> "RNASE11"
+"RNASE8" -> "ANG"
+"RNASE8" -> "RNASE13"
+"RNASE9" -> "RNASE11"
+"RNASE9" -> "RNASE12"
+"RNASE9" -> "IFNK" ["e"=1]
+"RNASE9" -> "EDDM3B"
+"RNASE9" -> "RNASE10"
+"RNASE9" -> "IFNA1" ["e"=1]
 }

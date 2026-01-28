@@ -1,112 +1,239 @@
 digraph G {
-"ACOT7" -> "NFS1";
-"ACOT7" -> "ECHDC3";
-"ACOT7" -> "STOML2";
-"ACOT7" -> "MACROD1";
-"DBT" -> "DLAT";
-"DBT" -> "PDHX";
-"DBT" -> "DLST";
-"DBT" -> "NFS1";
-"DERA" -> "TPI1";
-"DERA" -> "GMPR2";
-"DERA" -> "IMPDH1";
-"DERA" -> "NFS1";
-"DLAT" -> "PDHX";
-"DLAT" -> "DBT";
-"DLAT" -> "DLST";
-"DLAT" -> "NFS1";
-"DLST" -> "DLAT";
-"DLST" -> "PDHX";
-"DLST" -> "DBT";
-"DLST" -> "NFS1";
-"DPYSL3" -> "DPYSL5";
-"DPYSL3" -> "IMPDH1";
-"DPYSL3" -> "NFS1";
-"DPYSL3" -> "TKTL2";
-"DPYSL5" -> "DPYSL3";
-"DPYSL5" -> "IMPDH1";
-"DPYSL5" -> "NFS1";
-"DPYSL5" -> "TKTL2";
-"ECHDC3" -> "MACROD1";
-"ECHDC3" -> "NFS1";
-"ECHDC3" -> "ACOT7";
-"ECHDC3" -> "DLST";
-"GMPR2" -> "IMPDH1";
-"GMPR2" -> "NFS1";
-"GMPR2" -> "TKTL2";
-"GMPR2" -> "LDHA";
-"IMMT" -> "DLST";
-"IMMT" -> "PMPCB";
-"IMMT" -> "DLAT";
-"IMMT" -> "DBT";
-"IMPDH1" -> "GMPR2";
-"IMPDH1" -> "DPYSL5";
-"IMPDH1" -> "TPI1";
-"IMPDH1" -> "DPYSL3";
-"LDHA" -> "LDHB";
-"LDHA" -> "TPI1";
-"LDHA" -> "PGAM1";
-"LDHA" -> "GMPR2";
-"LDHB" -> "LDHA";
-"LDHB" -> "TPI1";
-"LDHB" -> "GMPR2";
-"LDHB" -> "NFS1";
-"MACROD1" -> "ECHDC3";
-"MACROD1" -> "NFS1";
-"MACROD1" -> "ACOT7";
-"MACROD1" -> "DERA";
-"NFS1" -> "PMPCB";
-"NFS1" -> "GMPR2";
-"NFS1" -> "ECHDC3";
-"NFS1" -> "DLST";
-"PDHX" -> "DLAT";
-"PDHX" -> "DLST";
-"PDHX" -> "DBT";
-"PDHX" -> "NFS1";
-"PGAM1" -> "TPI1";
-"PGAM1" -> "LDHA";
-"PGAM1" -> "DPYSL5";
-"PGAM1" -> "ACOT7";
-"PMPCB" -> "NFS1";
-"PMPCB" -> "DLST";
-"PMPCB" -> "DBT";
-"PMPCB" -> "STOML2";
-"STOML2" -> "PMPCB";
-"STOML2" -> "ACOT7";
-"STOML2" -> "DLST";
-"STOML2" -> "ECHDC3";
-"TKTL2" -> "GMPR2";
-"TKTL2" -> "DPYSL5";
-"TKTL2" -> "NFS1";
-"TKTL2" -> "IMPDH1";
-"TPI1" -> "PGAM1";
-"TPI1" -> "LDHA";
-"TPI1" -> "GMPR2";
-"TPI1" -> "DERA";
-"TRAP1" -> "NFS1";
-"TRAP1" -> "MACROD1";
-"TRAP1" -> "PMPCB";
-"TRAP1" -> "ACOT7";
-"ACOT7" ["l"="64.087585,6.385412"];
-"DBT" ["l"="64.071274,7.108081"];
-"DERA" ["l"="64.248688,5.613028"];
-"DLAT" ["l"="64.270149,6.733840"];
-"DLST" ["l"="64.122993,6.971807"];
-"DPYSL3" ["l"="63.559277,5.970033"];
-"DPYSL5" ["l"="64.624413,6.329856"];
-"ECHDC3" ["l"="64.433746,6.712060"];
-"GMPR2" ["l"="64.909073,6.067772"];
-"IMMT" ["l"="63.510178,7.677090"];
-"IMPDH1" ["l"="64.179466,5.895051"];
-"LDHA" ["l"="65.642952,6.376045"];
-"LDHB" ["l"="66.249275,6.975594"];
-"MACROD1" ["l"="64.142532,7.178280"];
-"NFS1" ["l"="65.922462,6.200907"];
-"PDHX" ["l"="63.478008,6.725636"];
-"PGAM1" ["l"="64.033813,7.873142"];
-"PMPCB" ["l"="64.587502,8.986226"];
-"STOML2" ["l"="64.053688,7.270480"];
-"TKTL2" ["l"="65.494621,5.727905"];
-"TPI1" ["l"="66.120857,8.718994"];
-"TRAP1" ["l"="65.148415,5.739006"];
+"ACAD9" ["l"="68.411,5.605"]
+"ACOD1" ["l"="60.048,4.224"]
+"ACOT7" ["l"="64.088,6.385"]
+"ADSL" ["l"="65.904,5.403"]
+"AHCYL1" ["l"="67.253,5.599"]
+"AK4" ["l"="53.670,7.170"]
+"ALDH1L2" ["l"="68.018,4.028"]
+"ALDH5A1" ["l"="69.095,5.345"]
+"AMT" ["l"="61.287,5.081"]
+"ATP5PB" ["l"="64.646,11.880"]
+"ATPAF1" ["l"="57.131,10.326"]
+"AUH" ["l"="67.394,6.496"]
+"BCKDHA" ["l"="67.250,7.091"]
+"BCKDHB" ["l"="66.804,6.354"]
+"BPGM" ["l"="58.808,7.130"]
+"CBS" ["l"="64.561,4.987"]
+"CLPB" ["l"="45.531,2.533"]
+"CLPP" ["l"="60.730,8.050"]
+"CLPX" ["l"="42.852,2.404"]
+"CRMP1" ["l"="62.893,5.906"]
+"CTBP2" ["l"="59.189,4.863"]
+"CTH" ["l"="65.873,4.729"]
+"DARS2" ["l"="48.213,3.551"]
+"DBT" ["l"="64.071,7.108"]
+"DERA" ["l"="64.249,5.613"]
+"DHRS11" ["l"="64.768,4.557"]
+"DLAT" ["l"="64.270,6.734"]
+"DLST" ["l"="64.123,6.972"]
+"DPYSL2" ["l"="63.431,5.982"]
+"DPYSL3" ["l"="63.559,5.970"]
+"DPYSL4" ["l"="63.439,5.728"]
+"DPYSL5" ["l"="64.624,6.330"]
+"ECHDC3" ["l"="64.434,6.712"]
+"ECHS1" ["l"="68.066,6.869"]
+"ECI1" ["l"="60.696,8.281"]
+"ECI2" ["l"="67.179,6.349"]
+"ENO1" ["l"="69.129,7.508"]
+"ERLIN2" ["l"="50.755,0.179"]
+"ETFA" ["l"="67.726,7.170"]
+"FAHD2A" ["l"="59.823,5.596"]
+"GCAT" ["l"="66.512,5.258"]
+"GLUD1" ["l"="68.904,5.735"]
+"GMPR" ["l"="62.587,5.841"]
+"GMPR2" ["l"="64.909,6.068"]
+"GOT2" ["l"="68.929,5.630"]
+"GRPEL2" ["l"="55.737,10.551"]
+"GUF1" ["l"="49.170,2.746"]
+"HADHA" ["l"="69.816,6.470"]
+"HMGCL" ["l"="61.276,5.391"]
+"HSPA9" ["l"="71.486,7.657"]
+"IDH3A" ["l"="68.800,6.075"]
+"IMMT" ["l"="63.510,7.677"]
+"IMPDH1" ["l"="64.179,5.895"]
+"IMPDH2" ["l"="70.071,7.705"]
+"LDHA" ["l"="65.643,6.376"]
+"LDHAL6A" ["l"="61.574,5.817"]
+"LDHAL6B" ["l"="61.842,6.152"]
+"LDHB" ["l"="66.249,6.976"]
+"LDHC" ["l"="62.887,5.494"]
+"LGSN" ["l"="40.942,3.626"]
+"LIAS" ["l"="57.970,6.119"]
+"LONP1" ["l"="43.308,3.073"]
+"MACROD1" ["l"="64.143,7.178"]
+"MCAT" ["l"="55.619,6.709"]
+"MDH1" ["l"="68.797,7.211"]
+"MDH2" ["l"="68.255,8.261"]
+"MMAA" ["l"="56.916,8.472"]
+"MOCS1" ["l"="57.539,5.522"]
+"MRI1" ["l"="60.822,5.130"]
+"MRPL11" ["l"="61.413,14.217"]
+"MRPL44" ["l"="45.038,8.016"]
+"MRPL45" ["l"="60.477,11.952"]
+"NADK" ["l"="57.222,4.904"]
+"NAGS" ["l"="57.886,5.161"]
+"NFS1" ["l"="65.922,6.201"]
+"OPA1" ["l"="34.456,0.403"]
+"OXCT1" ["l"="66.789,5.721"]
+"PCCA" ["l"="67.627,6.072"]
+"PDHA2" ["l"="68.923,7.194"]
+"PDHB" ["l"="68.269,7.389"]
+"PDHX" ["l"="63.478,6.726"]
+"PFKM" ["l"="67.944,5.128"]
+"PGAM1" ["l"="64.034,7.873"]
+"PGAM2" ["l"="61.915,7.610"]
+"PGM5" ["l"="65.195,4.041"]
+"PHB2" ["l"="62.694,6.971"]
+"PKM" ["l"="69.302,7.715"]
+"PMPCA" ["l"="58.997,7.189"]
+"PMPCB" ["l"="64.588,8.986"]
+"PRDX6" ["l"="60.709,9.341"]
+"PRPS1L1" ["l"="56.423,5.842"]
+"RBKS" ["l"="61.476,5.511"]
+"SAMD5" ["l"="23.525,7.129"]
+"SARS2" ["l"="48.912,3.430"]
+"SEPHS1" ["l"="62.237,5.294"]
+"SPAST" ["l"="33.982,2.173"]
+"SRR" ["l"="61.405,5.404"]
+"STOML2" ["l"="64.054,7.270"]
+"TALDO1" ["l"="68.079,6.729"]
+"TKT" ["l"="68.530,6.114"]
+"TKTL2" ["l"="65.495,5.728"]
+"TPI1" ["l"="66.121,8.719"]
+"TRAP1" ["l"="65.148,5.739"]
+"TUFM" ["l"="68.911,7.896"]
+"UQCRC1" ["l"="66.271,9.994"]
+"ACOT7" -> "CLPP" ["e"=1]
+"ACOT7" -> "AMT" ["e"=1]
+"ACOT7" -> "MOCS1" ["e"=1]
+"ACOT7" -> "OXCT1" ["e"=1]
+"ACOT7" -> "FAHD2A" ["e"=1]
+"ACOT7" -> "NFS1"
+"DBT" -> "DLAT"
+"DBT" -> "PDHX"
+"DBT" -> "DLST"
+"DBT" -> "CLPB" ["e"=1]
+"DBT" -> "GRPEL2" ["e"=1]
+"DBT" -> "MMAA" ["e"=1]
+"DERA" -> "ETFA" ["e"=1]
+"DERA" -> "MRI1" ["e"=1]
+"DERA" -> "CBS" ["e"=1]
+"DERA" -> "SRR" ["e"=1]
+"DERA" -> "CTH" ["e"=1]
+"DERA" -> "RBKS" ["e"=1]
+"DLAT" -> "PDHX"
+"DLAT" -> "DBT"
+"DLAT" -> "DLST"
+"DLAT" -> "IDH3A" ["e"=1]
+"DLAT" -> "ALDH1L2" ["e"=1]
+"DLAT" -> "GUF1" ["e"=1]
+"DLST" -> "DLAT"
+"DLST" -> "PDHX"
+"DLST" -> "DBT"
+"DLST" -> "ETFA" ["e"=1]
+"DLST" -> "MDH2" ["e"=1]
+"DLST" -> "IDH3A" ["e"=1]
+"DPYSL3" -> "DPYSL5"
+"DPYSL3" -> "CRMP1" ["e"=1]
+"DPYSL3" -> "DPYSL2" ["e"=1]
+"DPYSL3" -> "DPYSL4" ["e"=1]
+"DPYSL3" -> "PGM5" ["e"=1]
+"DPYSL3" -> "CTBP2" ["e"=1]
+"DPYSL5" -> "DPYSL3"
+"DPYSL5" -> "DPYSL4" ["e"=1]
+"DPYSL5" -> "CRMP1" ["e"=1]
+"DPYSL5" -> "DPYSL2" ["e"=1]
+"DPYSL5" -> "CTBP2" ["e"=1]
+"DPYSL5" -> "SAMD5" ["e"=1]
+"ECHDC3" -> "ECHS1" ["e"=1]
+"ECHDC3" -> "DHRS11" ["e"=1]
+"ECHDC3" -> "ALDH5A1" ["e"=1]
+"ECHDC3" -> "ECI1" ["e"=1]
+"ECHDC3" -> "NAGS" ["e"=1]
+"ECHDC3" -> "MCAT" ["e"=1]
+"GMPR2" -> "GMPR" ["e"=1]
+"GMPR2" -> "IMPDH2" ["e"=1]
+"GMPR2" -> "IMPDH1"
+"GMPR2" -> "PDHB" ["e"=1]
+"GMPR2" -> "PFKM" ["e"=1]
+"GMPR2" -> "HMGCL" ["e"=1]
+"IMMT" -> "DLST"
+"IMMT" -> "ERLIN2" ["e"=1]
+"IMMT" -> "PMPCB"
+"IMMT" -> "OPA1" ["e"=1]
+"IMMT" -> "ATP5PB" ["e"=1]
+"IMMT" -> "HADHA" ["e"=1]
+"IMPDH1" -> "GMPR2"
+"IMPDH1" -> "GMPR" ["e"=1]
+"IMPDH1" -> "IMPDH2" ["e"=1]
+"IMPDH1" -> "DPYSL4" ["e"=1]
+"IMPDH1" -> "SEPHS1" ["e"=1]
+"IMPDH1" -> "NADK" ["e"=1]
+"LDHA" -> "LDHB"
+"LDHA" -> "LDHC" ["e"=1]
+"LDHA" -> "LDHAL6A" ["e"=1]
+"LDHA" -> "TPI1"
+"LDHA" -> "ENO1" ["e"=1]
+"LDHA" -> "LDHAL6B" ["e"=1]
+"LDHB" -> "LDHA"
+"LDHB" -> "LDHAL6A" ["e"=1]
+"LDHB" -> "LDHC" ["e"=1]
+"LDHB" -> "MDH1" ["e"=1]
+"LDHB" -> "IDH3A" ["e"=1]
+"LDHB" -> "LDHAL6B" ["e"=1]
+"MACROD1" -> "ECHDC3"
+"MACROD1" -> "DHRS11" ["e"=1]
+"MACROD1" -> "AUH" ["e"=1]
+"MACROD1" -> "ECHS1" ["e"=1]
+"MACROD1" -> "ATPAF1" ["e"=1]
+"MACROD1" -> "ECI2" ["e"=1]
+"NFS1" -> "LIAS" ["e"=1]
+"NFS1" -> "GCAT" ["e"=1]
+"NFS1" -> "GLUD1" ["e"=1]
+"NFS1" -> "GOT2" ["e"=1]
+"NFS1" -> "BCKDHB" ["e"=1]
+"NFS1" -> "HMGCL" ["e"=1]
+"PDHX" -> "DLAT"
+"PDHX" -> "DLST"
+"PDHX" -> "DBT"
+"PDHX" -> "SPAST" ["e"=1]
+"PDHX" -> "OXCT1" ["e"=1]
+"PDHX" -> "PCCA" ["e"=1]
+"PGAM1" -> "TPI1"
+"PGAM1" -> "PGAM2" ["e"=1]
+"PGAM1" -> "PRDX6" ["e"=1]
+"PGAM1" -> "BPGM" ["e"=1]
+"PGAM1" -> "AK4" ["e"=1]
+"PGAM1" -> "AHCYL1" ["e"=1]
+"PMPCB" -> "PMPCA" ["e"=1]
+"PMPCB" -> "UQCRC1" ["e"=1]
+"PMPCB" -> "MRPL45" ["e"=1]
+"PMPCB" -> "CLPX" ["e"=1]
+"PMPCB" -> "MRPL44" ["e"=1]
+"PMPCB" -> "BCKDHA" ["e"=1]
+"STOML2" -> "PHB2" ["e"=1]
+"STOML2" -> "TUFM" ["e"=1]
+"STOML2" -> "ERLIN2" ["e"=1]
+"STOML2" -> "CLPP" ["e"=1]
+"STOML2" -> "MRPL11" ["e"=1]
+"STOML2" -> "ETFA" ["e"=1]
+"TKTL2" -> "TKT" ["e"=1]
+"TKTL2" -> "PRPS1L1" ["e"=1]
+"TKTL2" -> "PDHA2" ["e"=1]
+"TKTL2" -> "LGSN" ["e"=1]
+"TKTL2" -> "SRR" ["e"=1]
+"TKTL2" -> "ACOD1" ["e"=1]
+"TPI1" -> "ENO1" ["e"=1]
+"TPI1" -> "PGAM1"
+"TPI1" -> "MDH2" ["e"=1]
+"TPI1" -> "PRDX6" ["e"=1]
+"TPI1" -> "PKM" ["e"=1]
+"TPI1" -> "TALDO1" ["e"=1]
+"TRAP1" -> "ACAD9" ["e"=1]
+"TRAP1" -> "ADSL" ["e"=1]
+"TRAP1" -> "SARS2" ["e"=1]
+"TRAP1" -> "LONP1" ["e"=1]
+"TRAP1" -> "DARS2" ["e"=1]
+"TRAP1" -> "HSPA9" ["e"=1]
 }
